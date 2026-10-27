@@ -1,0 +1,5 @@
+--- before
++++ after
+@@ -1 +1 @@
+-The researchers recruited 80 volunteers from one campus class and randomly assigned them to use one of two study apps. This random assignment means that the study used random sampling, so its findings can be generalized to all university students. Random assignment and random sampling both involve randomness, which is why the distinction between them is important to understand. In this case, the participants were divided randomly between the two apps, with each participant assigned to one app. The study therefore provides information about app performance, and the results should be considered in light of how the participants entered the study. [A, B]
++The researchers recruited 80 volunteers from one campus class and randomly assigned them to use one of two study apps. [B] This random assignment does not mean that the study used random sampling, which would require selecting participants randomly from the population of interest. [A] Recruiting volunteers from one campus class does not support generalizing any findings to all university students. [A, B]

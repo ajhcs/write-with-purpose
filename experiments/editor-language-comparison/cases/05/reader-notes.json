@@ -1,0 +1,28 @@
+{
+  "stage": "First reader proposal; source-check phase pending.",
+  "input_files_read": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\SKILL.md",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\05\\brief.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\05\\before.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\local-edits.md"
+  ],
+  "tool_executed": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\scripts\\edit_locally.py",
+  "material_changes": [
+    "Placed the explanation that Reset clears the interlock beside the instruction to press Reset.",
+    "Deleted the final sentence after retaining that unique explanation; the preceding Start condition already states that the pump remains stopped."
+  ],
+  "provisional_assessments": {
+    "conformance": "Conforms provisionally to the brief and frozen skill: two exact-span changes preserve surrounding wording, the original file, the exact Reset and Start labels, and the operating sequence. The tool completed with no errors.",
+    "correctness": "Reader-level comparison preserves the stated guard condition, guard-closing-before-Reset sequence, interlock-clearing effect of Reset, and stopped state until Start is pressed. No source packet or external evidence was read; factual and source validation remain pending.",
+    "usefulness": "The purpose of Reset now accompanies the action, and the closing repetition is removed. The final reading retains a plain two-sentence instruction with distinct Reset and Start effects."
+  },
+  "measurements": {
+    "before_words": 34,
+    "after_words": 27,
+    "words_inserted": 5,
+    "words_removed_or_replaced": 12,
+    "original_characters_selected": 62,
+    "original_block_characters": 195
+  },
+  "source_preserved": true
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "jre",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_windows_hotspot_17.0.20.1_1.zip",
+    "archive": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\downloads\\jre.zip",
+    "bytes": 43780109,
+    "sha256": "bc21a93923103cdaac93ee337b0ae4365e739fde36df823dd456bc67c8a9d352",
+    "advertised_checksum_verified": true,
+    "root": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\runtimes\\jre"
+  },
+  {
+    "name": "languagetool",
+    "url": "https://languagetool.org/download/LanguageTool-6.6.zip",
+    "archive": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\downloads\\languagetool.zip",
+    "bytes": 251998221,
+    "sha256": "53600506b399bb5ffe1e4c8dec794fd378212f14aaf38ccef9b6f89314d11631",
+    "advertised_checksum_verified": false,
+    "root": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\runtimes\\languagetool"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "source_sha256": "eaec5a66973981c360e504ed6fa88031eca7b2cd2595e93e6ebe52b27b3f2faf",
+  "edits": [
+    {
+      "start": 142,
+      "end": 147,
+      "before": "means",
+      "after": "does not mean",
+      "reason": "Correct the false equivalence between random assignment and random sampling."
+    },
+    {
+      "start": 183,
+      "end": 246,
+      "before": ", so its findings can be generalized to all university students",
+      "after": ", which would require selecting participants randomly from the population of interest",
+      "reason": "Replace the unsupported generalization with the selection mechanism that distinguishes random sampling."
+    },
+    {
+      "start": 248,
+      "end": 381,
+      "before": "Random assignment and random sampling both involve randomness, which is why the distinction between them is important to understand. ",
+      "after": "",
+      "reason": "Delete a generic statement of importance after the distinction is explained directly."
+    },
+    {
+      "start": 381,
+      "end": 499,
+      "before": "In this case, the participants were divided randomly between the two apps, with each participant assigned to one app. ",
+      "after": "",
+      "reason": "Delete a repetition of the app-assignment procedure already given in the opening sentence."
+    },
+    {
+      "start": 563,
+      "end": 650,
+      "before": "and the results should be considered in light of how the participants entered the study",
+      "after": "but recruiting volunteers from one campus class does not support generalizing the findings to all university students",
+      "reason": "Make the consequence of the stated recruitment method explicit instead of leaving a vague caution."
+    }
+  ]
+}

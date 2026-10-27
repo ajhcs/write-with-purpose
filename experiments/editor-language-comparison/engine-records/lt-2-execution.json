@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\runtimes\\jre\\jdk-17.0.20.1+1-jre\\bin\\java.exe",
+    "-Xmx768m",
+    "-jar",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\runtimes\\languagetool\\LanguageTool-6.6\\languagetool-commandline.jar",
+    "-l",
+    "en-US",
+    "-c",
+    "utf-8",
+    "--json",
+    "--recursive",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\engine-inputs"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 4.0429313000058755,
+  "stdout_bytes": 18648,
+  "stderr_bytes": 3582
+}

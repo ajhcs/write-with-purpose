@@ -1,0 +1,45 @@
+{
+  "stage": "First reader proposal; separate source check pending.",
+  "input_files_actually_read": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\SKILL.md",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\04\\brief.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\04\\before.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\local-edits.md"
+  ],
+  "tool_invoked": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\scripts\\edit_locally.py",
+  "material_changes": [
+    "Deleted the final three general sentences. They explain the communication problem already made clear by the contradictory signs and repeat one another. The driver waving the narrator over now ends the scene; all four concrete scene sentences remain verbatim."
+  ],
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 101,
+    "after_words": 56,
+    "net_words_removed": 45,
+    "net_reduction_percent": 44.554,
+    "words_inserted": 0,
+    "words_removed_or_replaced": 45,
+    "original_tokens_removed_or_replaced_percent": 44.554,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  },
+  "provisional_assessments": {
+    "conformance": {
+      "judgment": "Provisionally conforms.",
+      "basis": "One named exact-span deletion from the original; original preserved. No new events, personal history or statistics. Tool confirms the hash, spans, reconstruction and preservation outside the deletion."
+    },
+    "correctness": {
+      "judgment": "No internal meaning problem identified; factual and source validation unavailable at this stage.",
+      "basis": "The scene, chronology and attribution remain unchanged. The deletion removes a generic lesson, not a scene detail or condition. No source packets or external evidence were read."
+    },
+    "usefulness": {
+      "judgment": "Likely improves concision, voice and flow.",
+      "basis": "The concrete first-person ending carries the point without a repeated abstract explanation. Final reading found the four retained sentences coherent; a further lesson adds no needed inference."
+    }
+  },
+  "checks": {
+    "original_hash_unchanged": true,
+    "candidate_hash_matches_receipt": true,
+    "typographic_apostrophe_preserved": true,
+    "source_packets_or_other_cases_read": false,
+    "grammar_engine_findings_supplied": false
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "id": "01",
+      "before_words": 106,
+      "reader_words": 34,
+      "after_words": 36,
+      "reader_edits": 3,
+      "source_edits": 1,
+      "after_sha256": "5530301697d902bdf1873fc20199ec43b13b785c845bf68b3b5616ab36f2bcae",
+      "unchanged": false
+    },
+    {
+      "id": "02",
+      "before_words": 102,
+      "reader_words": 62,
+      "after_words": 66,
+      "reader_edits": 3,
+      "source_edits": 1,
+      "after_sha256": "d025931017f3752436eda9b8de57abedc9e0c3505d39c525fbb8a5aff1eaa566",
+      "unchanged": false
+    },
+    {
+      "id": "03",
+      "before_words": 103,
+      "reader_words": 70,
+      "after_words": 63,
+      "reader_edits": 5,
+      "source_edits": 4,
+      "after_sha256": "ef91e4ddef1c1ea6854efcbf4299d44820efa6efa46db43acf1aef18377e947a",
+      "unchanged": false
+    },
+    {
+      "id": "04",
+      "before_words": 101,
+      "reader_words": 56,
+      "after_words": 56,
+      "reader_edits": 1,
+      "source_edits": 0,
+      "after_sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+      "unchanged": false
+    },
+    {
+      "id": "05",
+      "before_words": 34,
+      "reader_words": 27,
+      "after_words": 27,
+      "reader_edits": 2,
+      "source_edits": 0,
+      "after_sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+      "unchanged": false
+    },
+    {
+      "id": "06",
+      "before_words": 42,
+      "reader_words": 42,
+      "after_words": 42,
+      "reader_edits": 0,
+      "source_edits": 0,
+      "after_sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+      "unchanged": true
+    }
+  ]
+}

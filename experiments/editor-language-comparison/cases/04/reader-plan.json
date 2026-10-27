@@ -1,0 +1,12 @@
+{
+  "source_sha256": "b594b0153fb13cc4fecd04d6f5119ae1c6a4a70544f5b144d17faf85e47c0b43",
+  "edits": [
+    {
+      "start": 311,
+      "end": 565,
+      "before": " This experience illustrates the importance of clear communication in everyday life. Good signs should help people find the places they need to go, and confusing signs can make that harder. In the end, the purpose of a sign is to tell people where to go.",
+      "after": "",
+      "reason": "The concrete scene already shows the effect of contradictory signs. These three general closing sentences repeat that completed point without adding an inference; ending with the driver preserves the scene and first-person voice."
+    }
+  ]
+}

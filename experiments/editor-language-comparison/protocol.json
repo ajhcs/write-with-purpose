@@ -1,0 +1,174 @@
+{
+  "skill": "edit-with-purpose 0.2.0",
+  "package": "0.5.0",
+  "frozen_runtime": [
+    {
+      "path": "references/local-edits.md",
+      "sha256": "713b9a09d5b298b07d6a4cfef2501afdd83480fe8918f0be266abf8f6e3e2797"
+    },
+    {
+      "path": "references/mechanical-checks.md",
+      "sha256": "c6f6f092b4d1c491f28e5d6e175d0d8c057823e24e049277f066fdc5bd87ec31"
+    },
+    {
+      "path": "references/technical-meaning.md",
+      "sha256": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60"
+    },
+    {
+      "path": "scripts/edit_locally.py",
+      "sha256": "195e6c24d4cdb239fab536a0d4a7806ce8e8a86ea042f8f2e3b944ce43328410"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "81d1e2e52089369d1fdb219da367cd06c5e07e0a3d2d0a673dba99763f724ae7"
+    }
+  ],
+  "cases": [
+    {
+      "id": "01",
+      "domain": "engineering",
+      "cohort": "revision",
+      "purpose": "An operating note for a technician who needs to identify the opening and closing conditions. Keep the two pressure thresholds and timing conditions distinct. No new operating or maintenance advice.",
+      "before": "The bypass opens when reservoir pressure stays below 160 kPa for two consecutive readings taken 2 seconds apart. It closes after three consecutive readings above 180 kPa. This means that one low reading by itself does not open the bypass, and it is also important to recognize that the closing threshold differs from the opening threshold. In other words, the bypass does not open and close at the same pressure. The display shows the most recent reading, so operators can see the latest pressure value on the display. These details explain the sequence the controller follows when deciding whether the bypass should be open or closed.",
+      "source": "Fictional controller specification: S1. Open the bypass after two consecutive reservoir-pressure readings strictly below 160 kPa. S2. Readings are taken 2 seconds apart. S3. Close the bypass after three consecutive reservoir-pressure readings greater than or equal to 180 kPa. S4. The display shows the latest reservoir-pressure reading. The brief is an operating note about these rules, not a complete procedure or a request for new management advice.",
+      "questions": [
+        "What opens the bypass, including the reading count and timing?",
+        "Does exactly 180 kPa qualify toward closing it?",
+        "What does the display show?"
+      ],
+      "before_sha256": "5155f970338a8e72c5b166f3a3aa213e96965968e5d566fc3aa6f76bc88f6ce1",
+      "brief_sha256": "077a81a9f7ce894546c16c0dd150a3c49c2ca32a26c8259c8b9819963831f267",
+      "source_sha256": "4a85d1fae2109eca86b8d625890bca1b93723277eb771a4a83d91b4d556c0a2a"
+    },
+    {
+      "id": "02",
+      "domain": "medical",
+      "cohort": "revision",
+      "purpose": "A fictional summary for a clinician reviewing the assessment and pending documentation. Preserve posture, timing and the distinction between a suggested medication change and an order. Do not add diagnosis or treatment recommendations.",
+      "before": "Mira reported feeling light-headed when she stood up. Her blood pressure was 126/78 mmHg while seated and 102/66 mmHg two minutes after standing. The readings were obtained in different positions, so they describe blood pressure in two different positions. A dose reduction was suggested during the review, but no medication order has been entered. It is important to distinguish a suggestion from an order because the suggestion is not itself an order. Mira reported nearly fainting the previous evening, but she did not report losing consciousness. The cause of the symptoms remains unconfirmed; no cause has yet been established in the record.",
+      "source": "Fictional assessment record: M1. Patient Mira reported light-headedness on standing. M2. Seated blood pressure was 126/78 mmHg. M3. Blood pressure two minutes after standing was 102/66 mmHg. M4. A dose reduction was suggested during the review. No medication order has been entered in the supplied record. M5. Mira reported nearly fainting the previous evening, without reported loss of consciousness. M6. The cause of the symptoms has not been established. No treatment or diagnostic-management recommendation is requested; this is source-fidelity editing of a fictional record.",
+      "questions": [
+        "What readings were obtained, in which positions and at what time relative to standing?",
+        "Was a medication change ordered?",
+        "What symptom occurred the previous evening, and what is known about its cause?"
+      ],
+      "before_sha256": "4a9e3bd9809344101b88aa551d703ad63fd2bfb9b14e8b00d75a91a028e13920",
+      "brief_sha256": "1f0fb3b29453b2e8a6c77bd712ac6721d3f9832403a4684772705b83afe1dc08",
+      "source_sha256": "ad8c0883231c8383a90141bb844c057766b7fc9c210f9d93993af53c332b09f1"
+    },
+    {
+      "id": "03",
+      "domain": "assignment",
+      "cohort": "revision",
+      "purpose": "An assignment response explaining random sampling and random assignment and assessing whether recruitment supports generalizing to all university students. Keep both terms. Use the supplied [A] and [B] markers where the evidence supports them.",
+      "before": "The researchers recruited 80 volunteers from one campus class and randomly assigned them to use one of two study apps. This random assignment means that the study used random sampling, so its findings can be generalized to all university students. Random assignment and random sampling both involve randomness, which is why the distinction between them is important to understand. In this case, the participants were divided randomly between the two apps, with each participant assigned to one app. The study therefore provides information about app performance, and the results should be considered in light of how the participants entered the study. [A, B]",
+      "source": "Supplied course definitions and fictional study: [A] Random sampling selects units from a population into a study; random assignment allocates enrolled units to study conditions. Random assignment does not by itself establish representative recruitment. [B] Eighty volunteers came from one campus class. An algorithm randomly assigned enrolled volunteers to one of two study apps. The recruitment record provides no random sample of all university students. The task is to explain the distinction and assess the stated population-generalization claim; no unseen app-performance results are supplied.",
+      "questions": [
+        "How do random sampling and random assignment differ?",
+        "Which recruitment and allocation procedures did this study use?",
+        "What supports or limits generalizing to all university students?"
+      ],
+      "before_sha256": "eaec5a66973981c360e504ed6fa88031eca7b2cd2595e93e6ebe52b27b3f2faf",
+      "brief_sha256": "4c4c6003c3fc686c352a94c99e415224778141fa79be3d186c9e29cfcc7080bb",
+      "source_sha256": "358457f1a49538dadf5144e3ef218a4d4b2db03344a0be683dcff9496f27959a"
+    },
+    {
+      "id": "04",
+      "domain": "blog",
+      "cohort": "revision",
+      "purpose": "A short fictional first-person blog passage about a confusing temporary bus stop. Keep the concrete scene and the existing voice; add no personal history, statistics or invented events. A general lesson is optional if it contributes something beyond the scene.",
+      "before": "I missed the replacement bus stop because I followed the large blue sign. It sent me to the usual shelter, which was fenced off for roadworks. A smaller notice at the corner gave the temporary stop’s address, but its arrow pointed back toward the shelter. I walked the block twice before a driver waved me over. This experience illustrates the importance of clear communication in everyday life. Good signs should help people find the places they need to go, and confusing signs can make that harder. In the end, the purpose of a sign is to tell people where to go.",
+      "source": "Fictional scene facts: B1. The first-person narrator followed a large blue sign to the usual shelter. B2. That shelter was fenced off for roadworks. B3. A smaller corner notice gave the temporary stop address but had an arrow pointing toward the usual shelter. B4. The narrator walked the block twice before a driver waved them over. B5. No other event, biography, commute pattern, disability, city or population finding is supplied. The scene is invented for this test; it is not a story about the user.",
+      "questions": [
+        "Why did the narrator go to the wrong stop?",
+        "What did the smaller notice add, and how did it also mislead?",
+        "How does the passage end, and what work does the ending do?"
+      ],
+      "before_sha256": "b594b0153fb13cc4fecd04d6f5119ae1c6a4a70544f5b144d17faf85e47c0b43",
+      "brief_sha256": "988e2b6d785235758b9cd9da7d4f0464f959a2503674433110125b68f969ed58",
+      "source_sha256": "a28af7de64de7d9b65e2ed7c8e9f4d8b125cdaafc164857dd8b278e678f901a3"
+    },
+    {
+      "id": "05",
+      "domain": "engineering",
+      "cohort": "control",
+      "purpose": "A short operator instruction explaining the guard interlock and the separate effects of Reset and Start. Preserve those exact button labels and the operating sequence. Do not add steps.",
+      "before": "Keep the pump stopped while the guard is open. After closing the guard, press Reset; the pump remains stopped until Start is pressed. Reset clears the interlock, but it does not restart the pump.",
+      "source": "Fictional operator specification: C1. The pump must stay stopped while the guard is open. C2. Closing the guard permits Reset to clear the interlock. C3. Reset does not start the pump. C4. Start is required to start the pump after the guard is closed and the interlock has been reset. The passage concerns this sequence; no additional step or component is supplied.",
+      "questions": [
+        "What must happen while the guard is open?",
+        "What does Reset do, and does it start the pump?",
+        "What is required before the pump restarts?"
+      ],
+      "before_sha256": "5ac75deaa519def8130134641176255b43db03ee4c96f04113f79e4bfe3e65e2",
+      "brief_sha256": "51f1ce7059f3af9d59f77c50517ee877ab6a445b811984790f3f1fd3afe66e56",
+      "source_sha256": "54b41de8159566afa9e5f44de5c0c6fd14246339f1a12b6dfd32b9627af1d1b6"
+    },
+    {
+      "id": "06",
+      "domain": "blog",
+      "cohort": "control",
+      "purpose": "A short fictional first-person blog scene. Preserve the existing voice, chronology and concrete details. Add no moral, personal history or new event. Edit only where there is a benefit for the passage.",
+      "before": "The rain stopped just before I reached the station. The bench was wet, so I stood under the timetable and watched a porter dry each seat with yesterday’s newspaper. He left the sports pages on the one seat beneath the leaking roof.",
+      "source": "Fictional scene facts: C1. Rain stopped just before the narrator reached the station. C2. The bench was wet. C3. The narrator stood under the timetable. C4. A porter dried the seats with yesterday’s newspaper. C5. He left the sports pages on the one seat beneath a leaking roof. There is no supplied motive, conversation, biography or later event. This is invented narrative, not a claim about the user.",
+      "questions": [
+        "What is the sequence of events and where is the narrator?",
+        "What does the porter do with the newspaper?",
+        "What effect does the last concrete detail have, without inventing a motive?"
+      ],
+      "before_sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+      "brief_sha256": "4bd3ad2ad21297df4858b21322a40b83b492a6d595d5250b358b97fc22fa919d",
+      "source_sha256": "0b73d3a5d0aade2d5c31414f7add900741557682349c2f5e2eb92b9f8280a892"
+    }
+  ],
+  "novelty": "All six editor passages are new for this round. The two control passages have no prior author approval; their control labels are design hypotheses, hidden from editors and reviewers.",
+  "design": "One fresh context per case. Phase A: neutral brief, original and frozen skill only. All first proposals and exact plans are sealed before any phase-B source packet is supplied. Same editor checks source fidelity in phase B, preserving its first proposal. No grammar-engine findings are supplied to the editors, so this tests the skill without engine assistance.",
+  "review": "Fresh masked source auditor evaluates conformance and source fidelity; two fresh source-blind readers evaluate usefulness and recoverability. Masked labels, editor rationale and parent cohort labels are withheld.",
+  "reader_groups": {
+    "A": [
+      "01",
+      "03",
+      "05"
+    ],
+    "B": [
+      "02",
+      "04",
+      "06"
+    ]
+  },
+  "mapping": {
+    "01": {
+      "A": "after",
+      "B": "before"
+    },
+    "02": {
+      "A": "before",
+      "B": "after"
+    },
+    "03": {
+      "A": "after",
+      "B": "before"
+    },
+    "04": {
+      "A": "after",
+      "B": "before"
+    },
+    "05": {
+      "A": "before",
+      "B": "after"
+    },
+    "06": {
+      "A": "before",
+      "B": "after"
+    }
+  },
+  "limits": [
+    "Small authored fixture set, not a general benchmark.",
+    "One editing trajectory per case.",
+    "Parent wrote fixtures and knows their design; independent reviewers do not receive intended edits.",
+    "Source fidelity does not establish real medical or engineering validity.",
+    "No unskilled-editor comparison or human reader study.",
+    "Control labels are not user endorsements.",
+    "New passages are not yet public; preserve raw stages before considering runtime changes."
+  ]
+}

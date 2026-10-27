@@ -1,0 +1,65 @@
+{
+  "all_six_proposals_saved_before_any_source_dispatch": true,
+  "cases": [
+    {
+      "id": "01",
+      "plan_sha256": "6454c0087a11fc2b91693e6d26e231658e263c8b16d8bcc39b72176669f0465f",
+      "after_sha256": "430e5fa856e3d82753084996aa928a770dd6541011ad57f0c4f94d00da0c6dea",
+      "receipt_sha256": "db47d0409f2f8c4c0df2b9e9c29fba6f9cc94362a3a50a18ec3fe2beba325e80",
+      "notes_sha256": "e051c7966f83d64f9f3755785699f8e32d93d532a598ffd643b1368680278ad2",
+      "edits": 3,
+      "before_words": 106,
+      "after_words": 34
+    },
+    {
+      "id": "02",
+      "plan_sha256": "702e45430b5225784333814d4227d08c511d00b236481c689fcfa995aab45374",
+      "after_sha256": "6763fcc8f9d6445a97e6fd677f7df659849c1073522e0fddd9e7c67f5c8cdb5e",
+      "receipt_sha256": "dde73a04bea3ea946b40689b91591a7678e36d3cdd2e2c029e63f07c100e3a04",
+      "notes_sha256": "3c4c6990049d767a5447dbc2449906f2930e8b654e7323bd08ea615738cc575d",
+      "edits": 3,
+      "before_words": 102,
+      "after_words": 62
+    },
+    {
+      "id": "03",
+      "plan_sha256": "a2cda15785df3d2a3e4021bd4b5f89a374a9a62d1e13c98a56bef61a04e276a4",
+      "after_sha256": "13bbb5cd77b52c92390b24d9f3aba290a9d5b25d1d8f14d81f24bf773d41ce8b",
+      "receipt_sha256": "344c157fe92e012bd0d79e5da7b2ae51ca0f2d7aa4cea3978cab6354865f75d5",
+      "notes_sha256": "075040a4a44bbd257a6c18090cf5c7f38a19e02d28773cee3fb64a916d107baa",
+      "edits": 5,
+      "before_words": 103,
+      "after_words": 70
+    },
+    {
+      "id": "04",
+      "plan_sha256": "19982f669b7d205aba968a553336033be52208fd5978d6a44b42dff63398d8ad",
+      "after_sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+      "receipt_sha256": "917f7a4bf5fc6d2db6b9219f35002be9445c075a05047fe47bbf15e7e3b7d119",
+      "notes_sha256": "ea8a7e902757ff9207f8d43e00ce74bc20fe5dd17f0127ffe89ed83f13a8829e",
+      "edits": 1,
+      "before_words": 101,
+      "after_words": 56
+    },
+    {
+      "id": "05",
+      "plan_sha256": "c6c5f7e24751bae63290a82e1c87d1dcf32d2738d8408c5a4cb44597b298b262",
+      "after_sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+      "receipt_sha256": "71ccda21efc331ddb369513a2a866b320e97babe4b1b3a7bde56c02b1ac0bb1a",
+      "notes_sha256": "d0792fdfb81b6f612e217828a08ef6cbaf77b8347346c37cdf2d6ae9c49a3da6",
+      "edits": 2,
+      "before_words": 34,
+      "after_words": 27
+    },
+    {
+      "id": "06",
+      "plan_sha256": "cd65078b2dad5dc308706b7a1a8150c2b39783245b1de8d391d9e03a7d7e34d7",
+      "after_sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+      "receipt_sha256": "354b2f97cc8da19d2a969caaf0654eb6daea7ff716da47a2cdb59a8a7810a123",
+      "notes_sha256": "39d101318114dcd1ef3a0d47995887ba00f690399bf01c095f641e95be35e9f5",
+      "edits": 0,
+      "before_words": 42,
+      "after_words": 42
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\01\\before.txt",
+    "sha256": "5155f970338a8e72c5b166f3a3aa213e96965968e5d566fc3aa6f76bc88f6ce1",
+    "bytes": 637
+  },
+  "plan": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\01\\reader-plan.json",
+    "sha256": "6454c0087a11fc2b91693e6d26e231658e263c8b16d8bcc39b72176669f0465f"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "430e5fa856e3d82753084996aa928a770dd6541011ad57f0c4f94d00da0c6dea",
+    "bytes": 215
+  },
+  "output": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\01\\reader-after.txt",
+    "sha256": "430e5fa856e3d82753084996aa928a770dd6541011ad57f0c4f94d00da0c6dea",
+    "bytes": 215
+  },
+  "changes": [
+    {
+      "start": 171,
+      "end": 413,
+      "before": "This means that one low reading by itself does not open the bypass, and it is also important to recognize that the closing threshold differs from the opening threshold. In other words, the bypass does not open and close at the same pressure. ",
+      "after": "",
+      "reason": "The first two sentences already give the required readings and distinct pressure thresholds. Delete the repeated explanation so the technician can find the conditions directly.",
+      "plan_index": 0,
+      "location": {
+        "line": 1,
+        "column": 172
+      }
+    },
+    {
+      "start": 454,
+      "end": 518,
+      "before": ", so operators can see the latest pressure value on the display.",
+      "after": ".",
+      "reason": "The display sentence repeats its complete statement in the so clause. Keep the direct description of what the display shows.",
+      "plan_index": 1,
+      "location": {
+        "line": 1,
+        "column": 455
+      }
+    },
+    {
+      "start": 518,
+      "end": 635,
+      "before": " These details explain the sequence the controller follows when deciding whether the bypass should be open or closed.",
+      "after": "",
+      "reason": "The final sentence only labels what the operating conditions have already explained and adds no condition or needed inference.",
+      "plan_index": 2,
+      "location": {
+        "line": 1,
+        "column": 519
+      }
+    }
+  ],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 635,
+      "original_characters": 635,
+      "original_characters_selected": 423,
+      "selected_percent": 66.614,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 0
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 106,
+    "after_words": 34,
+    "net_words_removed": 72,
+    "net_reduction_percent": 67.925,
+    "words_inserted": 1,
+    "words_removed_or_replaced": 73,
+    "original_tokens_removed_or_replaced_percent": 68.868,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\reader-after.txt",
+    "sha256": "13bbb5cd77b52c92390b24d9f3aba290a9d5b25d1d8f14d81f24bf773d41ce8b",
+    "bytes": 469
+  },
+  "plan": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\source-plan.json",
+    "sha256": "834d7c065a23081ae0af8b3121c7dc509f1a02183348e0164451a99c0ce0becf"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "ef91e4ddef1c1ea6854efcbf4299d44820efa6efa46db43acf1aef18377e947a",
+    "bytes": 409
+  },
+  "output": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\final.txt",
+    "sha256": "ef91e4ddef1c1ea6854efcbf4299d44820efa6efa46db43acf1aef18377e947a",
+    "bytes": 409
+  },
+  "changes": [
+    {
+      "start": 118,
+      "end": 118,
+      "before": "",
+      "after": " [B]",
+      "reason": "Attribute the recruitment count, class, volunteer status and app allocation to the fictional study in [B].",
+      "plan_index": 2,
+      "location": {
+        "line": 1,
+        "column": 119
+      }
+    },
+    {
+      "start": 277,
+      "end": 277,
+      "before": "",
+      "after": " [A]",
+      "reason": "Attribute the distinction between selection into the study and allocation to conditions to the course definitions in [A].",
+      "plan_index": 3,
+      "location": {
+        "line": 1,
+        "column": 278
+      }
+    },
+    {
+      "start": 278,
+      "end": 356,
+      "before": "The study therefore provides information about app performance, but recruiting",
+      "after": "Recruiting",
+      "reason": "Remove an unsupported app-performance claim: source [B] supplies no performance results; retain the supported recruitment assessment.",
+      "plan_index": 0,
+      "location": {
+        "line": 1,
+        "column": 279
+      }
+    },
+    {
+      "start": 420,
+      "end": 432,
+      "before": "the findings",
+      "after": "any findings",
+      "reason": "Make the generalization assessment conditional rather than implying that performance findings were supplied.",
+      "plan_index": 1,
+      "location": {
+        "line": 1,
+        "column": 421
+      }
+    }
+  ],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 467,
+      "original_characters": 467,
+      "original_characters_selected": 90,
+      "selected_percent": 19.272,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 8
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 70,
+    "after_words": 63,
+    "net_words_removed": 7,
+    "net_reduction_percent": 10.0,
+    "words_inserted": 4,
+    "words_removed_or_replaced": 11,
+    "original_tokens_removed_or_replaced_percent": 15.714,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

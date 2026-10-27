@@ -1,0 +1,1 @@
+Fictional operator specification: C1. The pump must stay stopped while the guard is open. C2. Closing the guard permits Reset to clear the interlock. C3. Reset does not start the pump. C4. Start is required to start the pump after the guard is closed and the interlock has been reset. The passage concerns this sequence; no additional step or component is supplied.

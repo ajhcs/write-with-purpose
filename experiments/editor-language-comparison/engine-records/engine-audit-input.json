@@ -1,0 +1,671 @@
+{
+  "cases": [
+    {
+      "id": "R_spelling",
+      "original_text": "The measurment is repeatble.",
+      "submitted_input": "The measurment is repeatble.",
+      "X": [
+        {
+          "span": {
+            "start": 4,
+            "end": 14
+          },
+          "text": "measurment",
+          "rule": "SpellCheck",
+          "kind": "Spelling",
+          "message": "Did you mean to spell `measurment` this way?",
+          "top_replacement": "measurement",
+          "all_replacements": [
+            "measurement",
+            "measurements"
+          ]
+        },
+        {
+          "span": {
+            "start": 18,
+            "end": 27
+          },
+          "text": "repeatble",
+          "rule": "SpellCheck",
+          "kind": "Spelling",
+          "message": "Did you mean to spell `repeatble` this way?",
+          "top_replacement": "repeatable",
+          "all_replacements": [
+            "repeatable",
+            "repeatably",
+            "reputable"
+          ]
+        }
+      ],
+      "Y": [
+        {
+          "span": {
+            "start": 4,
+            "end": 14
+          },
+          "text": "measurment",
+          "rule": "MORFOLOGIK_RULE_EN_US",
+          "kind": "Possible Typo",
+          "message": "Possible spelling mistake found.",
+          "top_replacement": "measurement",
+          "all_replacements": [
+            "measurement"
+          ]
+        },
+        {
+          "span": {
+            "start": 18,
+            "end": 27
+          },
+          "text": "repeatble",
+          "rule": "MORFOLOGIK_RULE_EN_US",
+          "kind": "Possible Typo",
+          "message": "Possible spelling mistake found.",
+          "top_replacement": "repeatable",
+          "all_replacements": [
+            "repeatable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R_article",
+      "original_text": "This is a example.",
+      "submitted_input": "This is a example.",
+      "X": [
+        {
+          "span": {
+            "start": 8,
+            "end": 9
+          },
+          "text": "a",
+          "rule": "AnA",
+          "kind": "Miscellaneous",
+          "message": "Incorrect indefinite article.",
+          "top_replacement": "an",
+          "all_replacements": [
+            "an"
+          ]
+        }
+      ],
+      "Y": [
+        {
+          "span": {
+            "start": 8,
+            "end": 9
+          },
+          "text": "a",
+          "rule": "EN_A_VS_AN",
+          "kind": "Miscellaneous",
+          "message": "Use \"an\" instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'.",
+          "top_replacement": "an",
+          "all_replacements": [
+            "an"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R_repeated_word",
+      "original_text": "The sensor records the the temperature.",
+      "submitted_input": "The sensor records the the temperature.",
+      "X": [
+        {
+          "span": {
+            "start": 19,
+            "end": 26
+          },
+          "text": "the the",
+          "rule": "RepeatedWords",
+          "kind": "Repetition",
+          "message": "Did you mean to repeat this word?",
+          "top_replacement": "the",
+          "all_replacements": [
+            "the"
+          ]
+        }
+      ],
+      "Y": [
+        {
+          "span": {
+            "start": 19,
+            "end": 26
+          },
+          "text": "the the",
+          "rule": "ENGLISH_WORD_REPEAT_RULE",
+          "kind": "Miscellaneous",
+          "message": "Possible typo: you repeated a word.",
+          "top_replacement": "the",
+          "all_replacements": [
+            "the"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R_punctuation_spacing",
+      "original_text": "The pump stopped , but the alarm remained active.",
+      "submitted_input": "The pump stopped , but the alarm remained active.",
+      "X": [
+        {
+          "span": {
+            "start": 16,
+            "end": 17
+          },
+          "text": " ",
+          "rule": "CommaFixes",
+          "kind": "Punctuation",
+          "message": "Don't use a space before a comma.",
+          "top_replacement": "",
+          "all_replacements": [
+            ""
+          ]
+        }
+      ],
+      "Y": [
+        {
+          "span": {
+            "start": 16,
+            "end": 18
+          },
+          "text": " ,",
+          "rule": "COMMA_PARENTHESIS_WHITESPACE",
+          "kind": "Typography",
+          "message": "Put a space after the comma, but not before the comma.",
+          "top_replacement": ",",
+          "all_replacements": [
+            ","
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R_agreement",
+      "original_text": "The results is consistent.",
+      "submitted_input": "The results is consistent.",
+      "X": [],
+      "Y": [
+        {
+          "span": {
+            "start": 12,
+            "end": 14
+          },
+          "text": "is",
+          "rule": "AGREEMENT_SENT_START",
+          "kind": "Grammar",
+          "message": "You should probably use: \"are\".",
+          "top_replacement": "are",
+          "all_replacements": [
+            "are"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R_comma_splice",
+      "original_text": "The pump stopped, the alarm remained active.",
+      "submitted_input": "The pump stopped, the alarm remained active.",
+      "X": [],
+      "Y": []
+    },
+    {
+      "id": "R_run_on",
+      "original_text": "The sensor failed the alarm stayed silent.",
+      "submitted_input": "The sensor failed the alarm stayed silent.",
+      "X": [],
+      "Y": []
+    },
+    {
+      "id": "R_attachment_ambiguity",
+      "original_text": "I saw the operator with the camera.",
+      "submitted_input": "I saw the operator with the camera.",
+      "X": [],
+      "Y": []
+    },
+    {
+      "id": "R_medical_vocabulary",
+      "original_text": "The patient had hypoxaemia; auscultation revealed bilateral crackles.",
+      "submitted_input": "The patient had hypoxaemia; auscultation revealed bilateral crackles.",
+      "X": [
+        {
+          "span": {
+            "start": 16,
+            "end": 26
+          },
+          "text": "hypoxaemia",
+          "rule": "SpellCheck",
+          "kind": "Spelling",
+          "message": "Did you mean to spell `hypoxaemia` this way?",
+          "top_replacement": "hypothermia",
+          "all_replacements": [
+            "hypothermia",
+            "hypoxia"
+          ]
+        }
+      ],
+      "Y": [
+        {
+          "span": {
+            "start": 16,
+            "end": 26
+          },
+          "text": "hypoxaemia",
+          "rule": "MORFOLOGIK_RULE_EN_US",
+          "kind": "Possible Typo",
+          "message": "Possible spelling mistake found.",
+          "top_replacement": "hypoxemia",
+          "all_replacements": [
+            "hypoxemia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R_engineering_vocabulary",
+      "original_text": "The microcontroller reads the thermocouple and logs the hysteresis.",
+      "submitted_input": "The microcontroller reads the thermocouple and logs the hysteresis.",
+      "X": [
+        {
+          "span": {
+            "start": 30,
+            "end": 42
+          },
+          "text": "thermocouple",
+          "rule": "SpellCheck",
+          "kind": "Spelling",
+          "message": "Did you mean to spell `thermocouple` this way?",
+          "top_replacement": null,
+          "all_replacements": []
+        }
+      ],
+      "Y": []
+    },
+    {
+      "id": "R_purposeful_repetition",
+      "original_text": "The first valve is closed. The second valve is closed.",
+      "submitted_input": "The first valve is closed. The second valve is closed.",
+      "X": [],
+      "Y": []
+    },
+    {
+      "id": "R_good_punctuation",
+      "original_text": "The report, which I sent yesterday, contains three figures; the appendix contains two.",
+      "submitted_input": "The report, which I sent yesterday, contains three figures; the appendix contains two.",
+      "X": [],
+      "Y": []
+    },
+    {
+      "id": "R_passive_without_actor",
+      "original_text": "The sample was collected at 09:00.",
+      "submitted_input": "The sample was collected at 09:00.",
+      "X": [],
+      "Y": []
+    },
+    {
+      "id": "R_unicode_offsets",
+      "original_text": "🧪 The measurment is repeatble.",
+      "submitted_input": "🧪 The measurment is repeatble.",
+      "X": [
+        {
+          "span": {
+            "start": 6,
+            "end": 16
+          },
+          "text": "measurment",
+          "rule": "SpellCheck",
+          "kind": "Spelling",
+          "message": "Did you mean to spell `measurment` this way?",
+          "top_replacement": "measurement",
+          "all_replacements": [
+            "measurement",
+            "measurements"
+          ]
+        },
+        {
+          "span": {
+            "start": 20,
+            "end": 29
+          },
+          "text": "repeatble",
+          "rule": "SpellCheck",
+          "kind": "Spelling",
+          "message": "Did you mean to spell `repeatble` this way?",
+          "top_replacement": "repeatable",
+          "all_replacements": [
+            "repeatable",
+            "repeatably",
+            "reputable"
+          ]
+        }
+      ],
+      "Y": [
+        {
+          "span": {
+            "start": 6,
+            "end": 16
+          },
+          "text": "measurment",
+          "rule": "MORFOLOGIK_RULE_EN_US",
+          "kind": "Possible Typo",
+          "message": "Possible spelling mistake found.",
+          "top_replacement": "measurement",
+          "all_replacements": [
+            "measurement"
+          ]
+        },
+        {
+          "span": {
+            "start": 20,
+            "end": 29
+          },
+          "text": "repeatble",
+          "rule": "MORFOLOGIK_RULE_EN_US",
+          "kind": "Possible Typo",
+          "message": "Possible spelling mistake found.",
+          "top_replacement": "repeatable",
+          "all_replacements": [
+            "repeatable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R_markdown",
+      "original_text": "# Test results\n\n```text\nThe measurment is repeatble.\n```\n\nThe measurement is repeatable.",
+      "submitted_input": "# Test results\n\n       \n                            \n   \n\nThe measurement is repeatable.",
+      "X": [
+        {
+          "span": {
+            "start": 16,
+            "end": 23
+          },
+          "text": "       ",
+          "rule": "NoFrenchSpaces",
+          "kind": "Formatting",
+          "message": "French spaces are generally not recommended.",
+          "top_replacement": " ",
+          "all_replacements": [
+            " "
+          ]
+        },
+        {
+          "span": {
+            "start": 24,
+            "end": 52
+          },
+          "text": "                            ",
+          "rule": "Spaces",
+          "kind": "Formatting",
+          "message": "There are 28 spaces where there should be only one.",
+          "top_replacement": " ",
+          "all_replacements": [
+            " "
+          ]
+        },
+        {
+          "span": {
+            "start": 53,
+            "end": 56
+          },
+          "text": "   ",
+          "rule": "Spaces",
+          "kind": "Formatting",
+          "message": "There are 3 spaces where there should be only one.",
+          "top_replacement": " ",
+          "all_replacements": [
+            " "
+          ]
+        }
+      ],
+      "Y": [
+        {
+          "span": {
+            "start": 16,
+            "end": 23
+          },
+          "text": "       ",
+          "rule": "WHITESPACE_RULE",
+          "kind": "Typography",
+          "message": "Possible typo: you repeated a whitespace",
+          "top_replacement": " ",
+          "all_replacements": [
+            " "
+          ]
+        },
+        {
+          "span": {
+            "start": 53,
+            "end": 56
+          },
+          "text": "   ",
+          "rule": "WHITESPACE_RULE",
+          "kind": "Typography",
+          "message": "Possible typo: you repeated a whitespace",
+          "top_replacement": " ",
+          "all_replacements": [
+            " "
+          ]
+        }
+      ]
+    },
+    {
+      "id": "N_article_ultrasound",
+      "original_text": "The clinician requested a ultrasound examination.",
+      "submitted_input": "The clinician requested a ultrasound examination.",
+      "X": [
+        {
+          "span": {
+            "start": 24,
+            "end": 25
+          },
+          "text": "a",
+          "rule": "AnA",
+          "kind": "Miscellaneous",
+          "message": "Incorrect indefinite article.",
+          "top_replacement": "an",
+          "all_replacements": [
+            "an"
+          ]
+        }
+      ],
+      "Y": [
+        {
+          "span": {
+            "start": 24,
+            "end": 25
+          },
+          "text": "a",
+          "rule": "EN_A_VS_AN",
+          "kind": "Miscellaneous",
+          "message": "Use \"an\" instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'.",
+          "top_replacement": "an",
+          "all_replacements": [
+            "an"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "N_compound_subject",
+      "original_text": "The controller and the display is powered by separate supplies.",
+      "submitted_input": "The controller and the display is powered by separate supplies.",
+      "X": [],
+      "Y": [
+        {
+          "span": {
+            "start": 31,
+            "end": 33
+          },
+          "text": "is",
+          "rule": "AGREEMENT_SENT_START",
+          "kind": "Grammar",
+          "message": "You should probably use \"are\".",
+          "top_replacement": "are",
+          "all_replacements": [
+            "are"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "N_confusable",
+      "original_text": "The technician checked there notes before restarting.",
+      "submitted_input": "The technician checked there notes before restarting.",
+      "X": [
+        {
+          "span": {
+            "start": 23,
+            "end": 28
+          },
+          "text": "there",
+          "rule": "ThereToTheir",
+          "kind": "Grammar",
+          "message": "Did you mean `their`?",
+          "top_replacement": "their",
+          "all_replacements": [
+            "their"
+          ]
+        }
+      ],
+      "Y": []
+    },
+    {
+      "id": "N_past_tense",
+      "original_text": "Yesterday, the technician calibrate the sensor.",
+      "submitted_input": "Yesterday, the technician calibrate the sensor.",
+      "X": [],
+      "Y": [
+        {
+          "span": {
+            "start": 26,
+            "end": 35
+          },
+          "text": "calibrate",
+          "rule": "PCT_SINGULAR_NOUN_PLURAL_VERB_AGREEMENT",
+          "kind": "Grammar",
+          "message": "\"Technician\" is a singular noun. It appears that the verb form is incorrect.",
+          "top_replacement": "calibrates",
+          "all_replacements": [
+            "calibrates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "N_duplicate_comma",
+      "original_text": "After the test,, the operator saved the log.",
+      "submitted_input": "After the test,, the operator saved the log.",
+      "X": [],
+      "Y": [
+        {
+          "span": {
+            "start": 14,
+            "end": 16
+          },
+          "text": ",,",
+          "rule": "DOUBLE_PUNCTUATION",
+          "kind": "Punctuation",
+          "message": "Two consecutive commas",
+          "top_replacement": ",",
+          "all_replacements": [
+            ","
+          ]
+        }
+      ]
+    },
+    {
+      "id": "N_plural_noun",
+      "original_text": "Three sample were discarded.",
+      "submitted_input": "Three sample were discarded.",
+      "X": [],
+      "Y": []
+    },
+    {
+      "id": "N_had_had",
+      "original_text": "I had had enough, so I went home.",
+      "submitted_input": "I had had enough, so I went home.",
+      "X": [
+        {
+          "span": {
+            "start": 2,
+            "end": 9
+          },
+          "text": "had had",
+          "rule": "RepeatedWords",
+          "kind": "Repetition",
+          "message": "Did you mean to repeat this word?",
+          "top_replacement": "had",
+          "all_replacements": [
+            "had"
+          ]
+        }
+      ],
+      "Y": []
+    },
+    {
+      "id": "N_technical_noun_phrase",
+      "original_text": "The secondary containment pressure sensor failed.",
+      "submitted_input": "The secondary containment pressure sensor failed.",
+      "X": [],
+      "Y": []
+    },
+    {
+      "id": "N_parenthesis_semicolon",
+      "original_text": "The valve, which had passed the bench test, remained closed; the motor kept running.",
+      "submitted_input": "The valve, which had passed the bench test, remained closed; the motor kept running.",
+      "X": [],
+      "Y": []
+    },
+    {
+      "id": "N_unicode_units",
+      "original_text": "At 1.5°C, sensor B reported −0.2°C.",
+      "submitted_input": "At 1.5°C, sensor B reported −0.2°C.",
+      "X": [],
+      "Y": []
+    },
+    {
+      "id": "N_medical_us",
+      "original_text": "The report describes hypoxemia and bronchiectasis.",
+      "submitted_input": "The report describes hypoxemia and bronchiectasis.",
+      "X": [
+        {
+          "span": {
+            "start": 21,
+            "end": 30
+          },
+          "text": "hypoxemia",
+          "rule": "SpellCheck",
+          "kind": "Spelling",
+          "message": "Did you mean `hypoxia`?",
+          "top_replacement": "hypoxia",
+          "all_replacements": [
+            "hypoxia"
+          ]
+        },
+        {
+          "span": {
+            "start": 35,
+            "end": 49
+          },
+          "text": "bronchiectasis",
+          "rule": "SpellCheck",
+          "kind": "Spelling",
+          "message": "Did you mean to spell `bronchiectasis` this way?",
+          "top_replacement": "bronchitis's",
+          "all_replacements": [
+            "bronchitis",
+            "bronchitis's"
+          ]
+        }
+      ],
+      "Y": []
+    },
+    {
+      "id": "N_deliberate_fragment",
+      "original_text": "Not yet. The bearing was still warm.",
+      "submitted_input": "Not yet. The bearing was still warm.",
+      "X": [],
+      "Y": []
+    }
+  ]
+}

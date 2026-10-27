@@ -16,13 +16,13 @@ These sources support assistance around the writer's decisions, with different t
 
 | Tool | Relevant role | What was checked here |
 | --- | --- | --- |
-| [Harper](https://writewithharper.com/docs/harperjs/introduction) | Local English spelling and grammar suggestions through a WebAssembly engine. | Executed a pinned JavaScript package on 15 synthetic fixtures. |
-| [LanguageTool local server](https://dev.languagetool.org/http-server) | A separate candidate for a broader grammar comparison. Its documented local server excludes the cloud AI rules. | Documentation reviewed; not executed or compared for accuracy. |
+| [Harper](https://writewithharper.com/docs/harperjs/introduction) | Local English spelling and grammar suggestions through a WebAssembly engine. | Executed harper.js 3.0.0 on 15 initial fixtures and a later paired 27-fixture corpus. |
+| [LanguageTool](https://dev.languagetool.org/http-server) | Local spelling and grammar diagnostics; the documented local server excludes cloud AI rules. | Executed the 6.6 command-line build on the paired 27-fixture corpus, using Java 17 and default en-US local rules. No server was started. |
 | [Vale](https://docs.vale.sh/) | Markup-aware, configurable style and terminology rules. Its own documentation distinguishes this from general grammatical correctness. | Documentation reviewed; not executed. |
 
 No paid or proprietary checker was installed. NASA and STE source documents are not copied into the package.
 
-## Executed probe
+## First probe: 15 Harper fixtures
 
 The harness in `experiments/grammar` pins `harper.js` to 3.0.0 and its dependency lock. It uses American English and the engine's default rules. A second run imports two accepted domain spellings. The probe runs locally without a model API or a background service.
 
@@ -55,6 +55,27 @@ The default binary loader hit a Windows file-URL path problem in this environmen
 Three fresh processes returned the same normalized payload hash on these fixtures. That establishes repeatability for this pinned configuration and fixture set. It does not establish recall, precision across disciplines or invariance across engine upgrades.
 
 The false positives and missed syntax problems make automatic correction inappropriate. A usable integration needs accepted domain vocabulary, an explicit dialect, separation of style proposals from errors and review of each proposed replacement. All of those settings must be recorded to make results reproducible.
+
+## Paired comparison: 27 fixtures
+
+The later comparison used the 15 regression fixtures and 12 new fixtures. Both engines received identical plain-text strings in American English, with fenced code masked by spaces. This differs from the native Markdown mode in the first probe. Each engine ran in three fresh processes; all three normalized result arrays matched within each engine.
+
+An independent reviewer assessed all 32 raw diagnostics with engine identity and intended-error labels withheld. The review distinguishes locating an error from proposing a faithful correction.
+
+| Observation on this corpus | LanguageTool 6.6 | harper.js 3.0.0 |
+| --- | --- | --- |
+| Premarked error locations flagged | 12 of 16 | 9 of 16 |
+| Valid detections with an unsuitable top replacement | 1 | 0 |
+| Unwanted prose flags after the two declared accepted spellings | 0 | 3 |
+| Whitespace diagnostics caused by code masking | 2 | 3 |
+
+LanguageTool caught two agreement probes Harper missed. Harper caught `there notes` and suggested `their notes`, which LanguageTool missed. Both missed the comma splice, fused sentence and `Three sample` probes. LanguageTool flagged `calibrate` after `Yesterday` but proposed `calibrates`, leaving the tense wrong. Harper flagged valid medical terms and offered replacements that changed their meaning.
+
+The accepted spellings were `hypoxaemia` and `thermocouple`, declared before execution. A separate post-filtered view removes spelling findings only when the exact flagged source string matches one of those terms. Raw findings remain available. Whitespace diagnostics inside masked code are adapter artifacts, not ordinary prose errors.
+
+These observations favor LanguageTool as the next primary diagnostic trial. They do not establish product-wide accuracy or a performance winner. The test did not cover LanguageTool cloud AI rules, optional n-gram data, native Markdown comparisons, or latency and memory benchmarks. Domain terms and proposed replacements still need review. No engine hook or new global dependency was installed.
+
+See the [complete comparison, six new editing cases and assessment limits](editor-language-comparison.md), [frozen corpus](../experiments/editor-language-comparison/engine-corpus.json) and [raw independent engine review](../experiments/editor-language-comparison/reviews/engine-review.txt).
 
 ## Changes to the editor
 

@@ -1,0 +1,63 @@
+{
+  "stage": "Separate meaning check of sealed first reader proposal.",
+  "input_files_actually_read_this_stage": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\cases\\04\\source.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\04\\brief.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\04\\reader-after.txt"
+  ],
+  "previously_read_tool_guidance_used": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\SKILL.md",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\local-edits.md"
+  ],
+  "tool_invoked": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\scripts\\edit_locally.py",
+  "claim_checks": [
+    {
+      "claim": "The narrator initially failed to find the replacement stop after following the large blue sign.",
+      "source": "B1, B3 and B4",
+      "finding": "Consistent scene framing. The sign led to the usual shelter, the other arrow also pointed there, and the narrator walked the block twice before being waved over. The wording does not assert that a bus was missed."
+    },
+    {
+      "claim": "The usual shelter was fenced off for roadworks.",
+      "source": "B1 and B2",
+      "finding": "Supported."
+    },
+    {
+      "claim": "The smaller corner notice gave the temporary address while its arrow pointed toward the usual shelter.",
+      "source": "B3",
+      "finding": "Supported; the referent of the shelter remains the usual shelter."
+    },
+    {
+      "claim": "The narrator walked the block twice before a driver waved them over.",
+      "source": "B4",
+      "finding": "Supported, with chronology retained."
+    },
+    {
+      "claim": "No additional personal or population claims.",
+      "source": "B5",
+      "finding": "The proposal adds no biography, commute pattern, disability, city, statistics or events. The narrator is fictional and is not identified with the user."
+    }
+  ],
+  "changes": [],
+  "reason_for_empty_plan": "No substantive inconsistency with the supplied scene was found. All concrete scene facts are retained, and the scene supports the selected context. No additional style revision was undertaken.",
+  "assessments": {
+    "conformance": "Source phase stays within the supplied scene, brief and sealed proposal. The frozen tool accepted an empty exact-span plan; final.txt is byte-identical to reader-after.txt. Reader-stage files were not modified.",
+    "correctness": "Selected claims and chronology are consistent with B1-B5. This is a source-fidelity judgment for a supplied fictional scene, not independent factual validation.",
+    "usefulness": "The source check found no necessary correction to the selected scene. The first-stage editorial judgment remains provisional; no new style campaign was performed."
+  },
+  "limits": [
+    "Only the supplied fictional facts were used for meaning validation.",
+    "No browsing, other cases, source packets beyond case 04 source.txt, protocol or prior reviews were read.",
+    "No claim is made that this invented scene happened to the user or to a real person."
+  ],
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 56,
+    "after_words": 56,
+    "net_words_removed": 0,
+    "net_reduction_percent": 0.0,
+    "words_inserted": 0,
+    "words_removed_or_replaced": 0,
+    "original_tokens_removed_or_replaced_percent": 0.0,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

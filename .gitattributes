@@ -1,1 +1,4 @@
 * text=auto eol=lf
+
+# Preserve archived source hashes and exact-span receipts across checkouts.
+experiments/editor-language-comparison/** -text

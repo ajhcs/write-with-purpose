@@ -1,0 +1,63 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\05\\reader-after.txt",
+    "sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+    "bytes": 158
+  },
+  "plan": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\05\\source-plan.json",
+    "sha256": "859544c1df0cd848c772d6d23da8d6c3e38ebc5c8f6da03cf8bb838ba06ddc41"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+    "bytes": 158
+  },
+  "output": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\05\\final.txt",
+    "sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+    "bytes": 158
+  },
+  "changes": [],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 156,
+      "original_characters": 156,
+      "original_characters_selected": 0,
+      "selected_percent": 0.0,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 0
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 27,
+    "after_words": 27,
+    "net_words_removed": 0,
+    "net_reduction_percent": 0.0,
+    "words_inserted": 0,
+    "words_removed_or_replaced": 0,
+    "original_tokens_removed_or_replaced_percent": 0.0,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

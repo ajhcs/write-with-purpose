@@ -1,0 +1,377 @@
+{
+  "corpus": "LanguageTool versus Harper, 27 small fixtures",
+  "cases": [
+    {
+      "id": "R_spelling",
+      "text": "The measurment is repeatble.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [
+        {
+          "text": "measurment",
+          "category": "spelling",
+          "start": 4,
+          "end": 14
+        },
+        {
+          "text": "repeatble",
+          "category": "spelling",
+          "start": 18,
+          "end": 27
+        }
+      ],
+      "role": "issue",
+      "input": "The measurment is repeatble.",
+      "sha256": "40a30bab33468476bde39a6334bf9c9376decb6081be2e06825928fa71ba12b6"
+    },
+    {
+      "id": "R_article",
+      "text": "This is a example.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [
+        {
+          "text": "a example",
+          "category": "article",
+          "start": 8,
+          "end": 17
+        }
+      ],
+      "role": "issue",
+      "input": "This is a example.",
+      "sha256": "1fd3b0126ae77b052a5ea9ebaec43d80e4070d282d7ff3f552e98e6b960b62a5"
+    },
+    {
+      "id": "R_repeated_word",
+      "text": "The sensor records the the temperature.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [
+        {
+          "text": "the the",
+          "category": "accidental repetition",
+          "start": 19,
+          "end": 26
+        }
+      ],
+      "role": "issue",
+      "input": "The sensor records the the temperature.",
+      "sha256": "f6796e75c8105610cdcfa7c51723f656dc53ad64d97540550c00b8273f633c60"
+    },
+    {
+      "id": "R_punctuation_spacing",
+      "text": "The pump stopped , but the alarm remained active.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [
+        {
+          "text": " ,",
+          "category": "punctuation spacing",
+          "start": 16,
+          "end": 18
+        }
+      ],
+      "role": "issue",
+      "input": "The pump stopped , but the alarm remained active.",
+      "sha256": "04df3c5bf7c07215fc910a6a02367268dc897a3650410c2245826bd571277c81"
+    },
+    {
+      "id": "R_agreement",
+      "text": "The results is consistent.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [
+        {
+          "text": "results is",
+          "category": "agreement",
+          "start": 4,
+          "end": 14
+        }
+      ],
+      "role": "issue",
+      "input": "The results is consistent.",
+      "sha256": "5bea2c6274fc7596de83b417296f8e27809c287d74cb0c0d62336dbcd67cd45c"
+    },
+    {
+      "id": "R_comma_splice",
+      "text": "The pump stopped, the alarm remained active.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [
+        {
+          "text": "stopped, the",
+          "category": "formal sentence boundary",
+          "start": 9,
+          "end": 21
+        }
+      ],
+      "role": "issue",
+      "input": "The pump stopped, the alarm remained active.",
+      "sha256": "2155931bce0adba21cd9a8dccc1785f23dee823d436b0495050694f1eb475805"
+    },
+    {
+      "id": "R_run_on",
+      "text": "The sensor failed the alarm stayed silent.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [
+        {
+          "text": "failed the",
+          "category": "formal sentence boundary",
+          "start": 11,
+          "end": 21
+        }
+      ],
+      "role": "issue",
+      "input": "The sensor failed the alarm stayed silent.",
+      "sha256": "6b3914b8450b97ddd6af19617f73a8ca59c4bce0322395747d2010aae3e0a31e"
+    },
+    {
+      "id": "R_attachment_ambiguity",
+      "text": "I saw the operator with the camera.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "I saw the operator with the camera.",
+      "sha256": "94e5af2ea87c1c1e68b6dbc23da52c7539b823aa2ed53d1919b0876f6f89a1b6"
+    },
+    {
+      "id": "R_medical_vocabulary",
+      "text": "The patient had hypoxaemia; auscultation revealed bilateral crackles.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "The patient had hypoxaemia; auscultation revealed bilateral crackles.",
+      "sha256": "5d5d863a19a6f492a324df0653a68823a38f4bc6132ca91eedaf5d9aab7c64c8"
+    },
+    {
+      "id": "R_engineering_vocabulary",
+      "text": "The microcontroller reads the thermocouple and logs the hysteresis.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "The microcontroller reads the thermocouple and logs the hysteresis.",
+      "sha256": "65126d1f8e8f1bc75346b29f945a24a485c0048a3f8720d2367106ca8333bb35"
+    },
+    {
+      "id": "R_purposeful_repetition",
+      "text": "The first valve is closed. The second valve is closed.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "The first valve is closed. The second valve is closed.",
+      "sha256": "cb3db009c88fee6f877a41f7a7702d801db33214abf602a811cd873c59df7347"
+    },
+    {
+      "id": "R_good_punctuation",
+      "text": "The report, which I sent yesterday, contains three figures; the appendix contains two.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "The report, which I sent yesterday, contains three figures; the appendix contains two.",
+      "sha256": "ca3522f7c17cc768327ae943035ee25bdb46b34cd48192cde88cb74ca4c9f78a"
+    },
+    {
+      "id": "R_passive_without_actor",
+      "text": "The sample was collected at 09:00.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "The sample was collected at 09:00.",
+      "sha256": "b498dfeeeb1060ba223cdb41782d0195969d4112aa96fc958e3b5459c094d0d7"
+    },
+    {
+      "id": "R_unicode_offsets",
+      "text": "🧪 The measurment is repeatble.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [
+        {
+          "text": "measurment",
+          "category": "spelling",
+          "start": 6,
+          "end": 16
+        },
+        {
+          "text": "repeatble",
+          "category": "spelling",
+          "start": 20,
+          "end": 29
+        }
+      ],
+      "role": "issue",
+      "input": "🧪 The measurment is repeatble.",
+      "sha256": "428c4a46da3a1241ec292f6a307a7e6700688a1cb7ac50e0044db7d5b4d22222"
+    },
+    {
+      "id": "R_markdown",
+      "text": "# Test results\n\n```text\nThe measurment is repeatble.\n```\n\nThe measurement is repeatable.",
+      "origin": "Known regression fixture from the prior Harper-only probe",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "# Test results\n\n       \n                            \n   \n\nThe measurement is repeatable.",
+      "sha256": "ead32df538d4e8466495eea51b46733176d67846244251e7d70063f8cb0b983b"
+    },
+    {
+      "id": "N_article_ultrasound",
+      "text": "The clinician requested a ultrasound examination.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [
+        {
+          "text": "a ultrasound",
+          "category": "article",
+          "start": 24,
+          "end": 36
+        }
+      ],
+      "role": "issue",
+      "input": "The clinician requested a ultrasound examination.",
+      "sha256": "d3883ab4293f405c6474ae86d2d05e02e85ae89dfca6643fd8340917fba39ba4"
+    },
+    {
+      "id": "N_compound_subject",
+      "text": "The controller and the display is powered by separate supplies.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [
+        {
+          "text": "display is",
+          "category": "agreement",
+          "start": 23,
+          "end": 33
+        }
+      ],
+      "role": "issue",
+      "input": "The controller and the display is powered by separate supplies.",
+      "sha256": "68687c4dceff3ad64568ed3454fbbb4bb159a25447e6de14bb6804cb473adfc1"
+    },
+    {
+      "id": "N_confusable",
+      "text": "The technician checked there notes before restarting.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [
+        {
+          "text": "there",
+          "category": "confusable",
+          "start": 23,
+          "end": 28
+        }
+      ],
+      "role": "issue",
+      "input": "The technician checked there notes before restarting.",
+      "sha256": "cc89ee78aa66c8e8194a4d256ea091a77a25545cfe9ca7ef86804a74330c8809"
+    },
+    {
+      "id": "N_past_tense",
+      "text": "Yesterday, the technician calibrate the sensor.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [
+        {
+          "text": "calibrate",
+          "category": "verb form",
+          "start": 26,
+          "end": 35
+        }
+      ],
+      "role": "issue",
+      "input": "Yesterday, the technician calibrate the sensor.",
+      "sha256": "a564f9e7889ded5f319e504fc2895116658c7b0d3a637658debad923c3b4f3a4"
+    },
+    {
+      "id": "N_duplicate_comma",
+      "text": "After the test,, the operator saved the log.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [
+        {
+          "text": ",,",
+          "category": "punctuation",
+          "start": 14,
+          "end": 16
+        }
+      ],
+      "role": "issue",
+      "input": "After the test,, the operator saved the log.",
+      "sha256": "d1f2960e2188ea6fea186622bff11f05d005d4502d1e707cd9a0cc55759de9a9"
+    },
+    {
+      "id": "N_plural_noun",
+      "text": "Three sample were discarded.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [
+        {
+          "text": "sample",
+          "category": "number agreement",
+          "start": 6,
+          "end": 12
+        }
+      ],
+      "role": "issue",
+      "input": "Three sample were discarded.",
+      "sha256": "5da8065a197bf1a701bb415d15bd4dc6ffcb9051c03f718b02faade9e6b507bf"
+    },
+    {
+      "id": "N_had_had",
+      "text": "I had had enough, so I went home.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "I had had enough, so I went home.",
+      "sha256": "84ae89e0e4e625ce836868e3a91971b0222312023691c55ef0007d4b80c6d038"
+    },
+    {
+      "id": "N_technical_noun_phrase",
+      "text": "The secondary containment pressure sensor failed.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "The secondary containment pressure sensor failed.",
+      "sha256": "bd91e18dba9c4e82ce15dc0fc360f0511ddebd7e7c239d977667020391e31c86"
+    },
+    {
+      "id": "N_parenthesis_semicolon",
+      "text": "The valve, which had passed the bench test, remained closed; the motor kept running.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "The valve, which had passed the bench test, remained closed; the motor kept running.",
+      "sha256": "206ccef3df2aa781bd9c57a4b8a6ebd0e7d973f77b437673519a5c1993f37084"
+    },
+    {
+      "id": "N_unicode_units",
+      "text": "At 1.5°C, sensor B reported −0.2°C.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "At 1.5°C, sensor B reported −0.2°C.",
+      "sha256": "4d8aba25be96c582b66a4bc10b600235e05d446d36827facf776b117b394747e"
+    },
+    {
+      "id": "N_medical_us",
+      "text": "The report describes hypoxemia and bronchiectasis.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "The report describes hypoxemia and bronchiectasis.",
+      "sha256": "c97614160c2416428232de98ba65eaa2e7dfc2e1b493c244d5ed87e5d255b3cc"
+    },
+    {
+      "id": "N_deliberate_fragment",
+      "text": "Not yet. The bearing was still warm.",
+      "origin": "New authored fixture for this comparison",
+      "expected": [],
+      "role": "control_or_context_choice",
+      "input": "Not yet. The bearing was still warm.",
+      "sha256": "0920ea669a79b737669aeb0a4a517463f8f149e7e2f05cc186071f524ba8ba47"
+    }
+  ],
+  "versions": {
+    "harper": "3.0.0",
+    "languagetool": "6.6"
+  },
+  "profile": "American English; each engine's default local rules. No AI, n-gram data, engine suggestions or engine results supplied to editor agents.",
+  "input_format": "Same plain-text strings for both engines. Fenced code masked with spaces while preserving code-point offsets; all compared strings and hashes are stored. Native Markdown behavior is not ranked by this core comparison.",
+  "custom_vocabulary": [
+    "hypoxaemia",
+    "thermocouple"
+  ],
+  "custom_policy": "Additional post-filter view removes only spelling-category findings whose exact source text matches a declared accepted term. Raw results remain available. This is not a claim of exhaustive domain vocabulary.",
+  "scoring": "Expected spans and issue/control labels were frozen before executing either engine on this corpus. Candidate overlap is not proof that a message correctly diagnoses the issue; inspect the actual rule and proposed fix. Stylistic suggestions on controls are classified separately from clear false positives.",
+  "limits": [
+    "Small authored probes, not general product accuracy rates.",
+    "15 known regression inputs and 12 new inputs.",
+    "Different engine defaults are retained and recorded; this compares these configurations, not equivalent rule implementations.",
+    "LanguageTool 6.6 is an explicitly pinned released build, not a claim that it is the latest commercial product.",
+    "Three fresh-process runs will assess normalized result stability."
+  ]
+}

@@ -1,0 +1,5 @@
+--- before
++++ after
+@@ -1 +1 @@
+-Keep the pump stopped while the guard is open. After closing the guard, press Reset; the pump remains stopped until Start is pressed. Reset clears the interlock, but it does not restart the pump.
++Keep the pump stopped while the guard is open. After closing the guard, press Reset to clear the interlock; the pump remains stopped until Start is pressed.

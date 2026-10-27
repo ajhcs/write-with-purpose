@@ -1,0 +1,2095 @@
+{
+  "frozen_editor": "edit-with-purpose 0.2.0; package 0.5.0",
+  "engines": {
+    "LanguageTool": {
+      "version": "6.6",
+      "profile": {
+        "language": "en-US",
+        "default_local_rules": true,
+        "AI": false,
+        "ngram_data": false,
+        "optional_picky_level": false,
+        "format": "plaintext",
+        "fenced_code_masked": true
+      },
+      "fresh_process_repeats": 3,
+      "identical_result_arrays": true,
+      "canonical_results_sha256": "4ee0a195cf7ad21963d4564d956be8c3681b5e7b3298e300bff2a185a380529f",
+      "premarked_target_count": 16,
+      "premarked_targets_with_overlapping_flag": 12,
+      "target_observations": [
+        {
+          "case": "R_spelling",
+          "target": {
+            "text": "measurment",
+            "category": "spelling",
+            "start": 4,
+            "end": 14
+          },
+          "flagged": true,
+          "rules": [
+            "MORFOLOGIK_RULE_EN_US"
+          ]
+        },
+        {
+          "case": "R_spelling",
+          "target": {
+            "text": "repeatble",
+            "category": "spelling",
+            "start": 18,
+            "end": 27
+          },
+          "flagged": true,
+          "rules": [
+            "MORFOLOGIK_RULE_EN_US"
+          ]
+        },
+        {
+          "case": "R_article",
+          "target": {
+            "text": "a example",
+            "category": "article",
+            "start": 8,
+            "end": 17
+          },
+          "flagged": true,
+          "rules": [
+            "EN_A_VS_AN"
+          ]
+        },
+        {
+          "case": "R_repeated_word",
+          "target": {
+            "text": "the the",
+            "category": "accidental repetition",
+            "start": 19,
+            "end": 26
+          },
+          "flagged": true,
+          "rules": [
+            "ENGLISH_WORD_REPEAT_RULE"
+          ]
+        },
+        {
+          "case": "R_punctuation_spacing",
+          "target": {
+            "text": " ,",
+            "category": "punctuation spacing",
+            "start": 16,
+            "end": 18
+          },
+          "flagged": true,
+          "rules": [
+            "COMMA_PARENTHESIS_WHITESPACE"
+          ]
+        },
+        {
+          "case": "R_agreement",
+          "target": {
+            "text": "results is",
+            "category": "agreement",
+            "start": 4,
+            "end": 14
+          },
+          "flagged": true,
+          "rules": [
+            "AGREEMENT_SENT_START"
+          ]
+        },
+        {
+          "case": "R_comma_splice",
+          "target": {
+            "text": "stopped, the",
+            "category": "formal sentence boundary",
+            "start": 9,
+            "end": 21
+          },
+          "flagged": false,
+          "rules": []
+        },
+        {
+          "case": "R_run_on",
+          "target": {
+            "text": "failed the",
+            "category": "formal sentence boundary",
+            "start": 11,
+            "end": 21
+          },
+          "flagged": false,
+          "rules": []
+        },
+        {
+          "case": "R_unicode_offsets",
+          "target": {
+            "text": "measurment",
+            "category": "spelling",
+            "start": 6,
+            "end": 16
+          },
+          "flagged": true,
+          "rules": [
+            "MORFOLOGIK_RULE_EN_US"
+          ]
+        },
+        {
+          "case": "R_unicode_offsets",
+          "target": {
+            "text": "repeatble",
+            "category": "spelling",
+            "start": 20,
+            "end": 29
+          },
+          "flagged": true,
+          "rules": [
+            "MORFOLOGIK_RULE_EN_US"
+          ]
+        },
+        {
+          "case": "N_article_ultrasound",
+          "target": {
+            "text": "a ultrasound",
+            "category": "article",
+            "start": 24,
+            "end": 36
+          },
+          "flagged": true,
+          "rules": [
+            "EN_A_VS_AN"
+          ]
+        },
+        {
+          "case": "N_compound_subject",
+          "target": {
+            "text": "display is",
+            "category": "agreement",
+            "start": 23,
+            "end": 33
+          },
+          "flagged": true,
+          "rules": [
+            "AGREEMENT_SENT_START"
+          ]
+        },
+        {
+          "case": "N_confusable",
+          "target": {
+            "text": "there",
+            "category": "confusable",
+            "start": 23,
+            "end": 28
+          },
+          "flagged": false,
+          "rules": []
+        },
+        {
+          "case": "N_past_tense",
+          "target": {
+            "text": "calibrate",
+            "category": "verb form",
+            "start": 26,
+            "end": 35
+          },
+          "flagged": true,
+          "rules": [
+            "PCT_SINGULAR_NOUN_PLURAL_VERB_AGREEMENT"
+          ]
+        },
+        {
+          "case": "N_duplicate_comma",
+          "target": {
+            "text": ",,",
+            "category": "punctuation",
+            "start": 14,
+            "end": 16
+          },
+          "flagged": true,
+          "rules": [
+            "DOUBLE_PUNCTUATION"
+          ]
+        },
+        {
+          "case": "N_plural_noun",
+          "target": {
+            "text": "sample",
+            "category": "number agreement",
+            "start": 6,
+            "end": 12
+          },
+          "flagged": false,
+          "rules": []
+        }
+      ],
+      "independent_adjudication": {
+        "raw_diagnostic_count": 15,
+        "classifications": {
+          "valid error detection": 12,
+          "optional style/dialect preference": 1,
+          "unwanted flag on legitimate text/terminology": 0,
+          "input-masking artifact": 2,
+          "uncertain": 0
+        },
+        "clear_unflagged_issue_instances": 4,
+        "valid_detections_without_satisfactory_top_repair": 1
+      },
+      "raw_findings": 15,
+      "findings_after_declared_spelling_filter": 14
+    },
+    "Harper": {
+      "version": "3.0.0",
+      "profile": {
+        "dialect": "American",
+        "format": "plaintext",
+        "dedup": true,
+        "isolateEnglish": false,
+        "custom_words": [],
+        "default_config_sha256": "a0847fa0ef0ad2822f2f16e95b8e234b6ace4a674a2aae8f89c77e47a399c439"
+      },
+      "fresh_process_repeats": 3,
+      "identical_result_arrays": true,
+      "canonical_results_sha256": "a74d245fbda6aba838c91376457ee87767b9e0503dac70a7a0eaf5a3648479ea",
+      "premarked_target_count": 16,
+      "premarked_targets_with_overlapping_flag": 9,
+      "target_observations": [
+        {
+          "case": "R_spelling",
+          "target": {
+            "text": "measurment",
+            "category": "spelling",
+            "start": 4,
+            "end": 14
+          },
+          "flagged": true,
+          "rules": [
+            "SpellCheck"
+          ]
+        },
+        {
+          "case": "R_spelling",
+          "target": {
+            "text": "repeatble",
+            "category": "spelling",
+            "start": 18,
+            "end": 27
+          },
+          "flagged": true,
+          "rules": [
+            "SpellCheck"
+          ]
+        },
+        {
+          "case": "R_article",
+          "target": {
+            "text": "a example",
+            "category": "article",
+            "start": 8,
+            "end": 17
+          },
+          "flagged": true,
+          "rules": [
+            "AnA"
+          ]
+        },
+        {
+          "case": "R_repeated_word",
+          "target": {
+            "text": "the the",
+            "category": "accidental repetition",
+            "start": 19,
+            "end": 26
+          },
+          "flagged": true,
+          "rules": [
+            "RepeatedWords"
+          ]
+        },
+        {
+          "case": "R_punctuation_spacing",
+          "target": {
+            "text": " ,",
+            "category": "punctuation spacing",
+            "start": 16,
+            "end": 18
+          },
+          "flagged": true,
+          "rules": [
+            "CommaFixes"
+          ]
+        },
+        {
+          "case": "R_agreement",
+          "target": {
+            "text": "results is",
+            "category": "agreement",
+            "start": 4,
+            "end": 14
+          },
+          "flagged": false,
+          "rules": []
+        },
+        {
+          "case": "R_comma_splice",
+          "target": {
+            "text": "stopped, the",
+            "category": "formal sentence boundary",
+            "start": 9,
+            "end": 21
+          },
+          "flagged": false,
+          "rules": []
+        },
+        {
+          "case": "R_run_on",
+          "target": {
+            "text": "failed the",
+            "category": "formal sentence boundary",
+            "start": 11,
+            "end": 21
+          },
+          "flagged": false,
+          "rules": []
+        },
+        {
+          "case": "R_unicode_offsets",
+          "target": {
+            "text": "measurment",
+            "category": "spelling",
+            "start": 6,
+            "end": 16
+          },
+          "flagged": true,
+          "rules": [
+            "SpellCheck"
+          ]
+        },
+        {
+          "case": "R_unicode_offsets",
+          "target": {
+            "text": "repeatble",
+            "category": "spelling",
+            "start": 20,
+            "end": 29
+          },
+          "flagged": true,
+          "rules": [
+            "SpellCheck"
+          ]
+        },
+        {
+          "case": "N_article_ultrasound",
+          "target": {
+            "text": "a ultrasound",
+            "category": "article",
+            "start": 24,
+            "end": 36
+          },
+          "flagged": true,
+          "rules": [
+            "AnA"
+          ]
+        },
+        {
+          "case": "N_compound_subject",
+          "target": {
+            "text": "display is",
+            "category": "agreement",
+            "start": 23,
+            "end": 33
+          },
+          "flagged": false,
+          "rules": []
+        },
+        {
+          "case": "N_confusable",
+          "target": {
+            "text": "there",
+            "category": "confusable",
+            "start": 23,
+            "end": 28
+          },
+          "flagged": true,
+          "rules": [
+            "ThereToTheir"
+          ]
+        },
+        {
+          "case": "N_past_tense",
+          "target": {
+            "text": "calibrate",
+            "category": "verb form",
+            "start": 26,
+            "end": 35
+          },
+          "flagged": false,
+          "rules": []
+        },
+        {
+          "case": "N_duplicate_comma",
+          "target": {
+            "text": ",,",
+            "category": "punctuation",
+            "start": 14,
+            "end": 16
+          },
+          "flagged": false,
+          "rules": []
+        },
+        {
+          "case": "N_plural_noun",
+          "target": {
+            "text": "sample",
+            "category": "number agreement",
+            "start": 6,
+            "end": 12
+          },
+          "flagged": false,
+          "rules": []
+        }
+      ],
+      "independent_adjudication": {
+        "raw_diagnostic_count": 17,
+        "classifications": {
+          "valid error detection": 9,
+          "optional style/dialect preference": 0,
+          "unwanted flag on legitimate text/terminology": 5,
+          "input-masking artifact": 3,
+          "uncertain": 0
+        },
+        "clear_unflagged_issue_instances": 7,
+        "valid_detections_without_satisfactory_top_repair": 0
+      },
+      "raw_findings": 17,
+      "findings_after_declared_spelling_filter": 15
+    }
+  },
+  "cases": [
+    {
+      "id": "01",
+      "domain": "engineering",
+      "cohort": "revision",
+      "purpose": "An operating note for a technician who needs to identify the opening and closing conditions. Keep the two pressure thresholds and timing conditions distinct. No new operating or maintenance advice.",
+      "before": "The bypass opens when reservoir pressure stays below 160 kPa for two consecutive readings taken 2 seconds apart. It closes after three consecutive readings above 180 kPa. This means that one low reading by itself does not open the bypass, and it is also important to recognize that the closing threshold differs from the opening threshold. In other words, the bypass does not open and close at the same pressure. The display shows the most recent reading, so operators can see the latest pressure value on the display. These details explain the sequence the controller follows when deciding whether the bypass should be open or closed.",
+      "source": "Fictional controller specification: S1. Open the bypass after two consecutive reservoir-pressure readings strictly below 160 kPa. S2. Readings are taken 2 seconds apart. S3. Close the bypass after three consecutive reservoir-pressure readings greater than or equal to 180 kPa. S4. The display shows the latest reservoir-pressure reading. The brief is an operating note about these rules, not a complete procedure or a request for new management advice.",
+      "questions": [
+        "What opens the bypass, including the reading count and timing?",
+        "Does exactly 180 kPa qualify toward closing it?",
+        "What does the display show?"
+      ],
+      "before_sha256": "5155f970338a8e72c5b166f3a3aa213e96965968e5d566fc3aa6f76bc88f6ce1",
+      "brief_sha256": "077a81a9f7ce894546c16c0dd150a3c49c2ca32a26c8259c8b9819963831f267",
+      "source_sha256": "4a85d1fae2109eca86b8d625890bca1b93723277eb771a4a83d91b4d556c0a2a",
+      "after": "The bypass opens when reservoir pressure stays below 160 kPa for two consecutive readings taken 2 seconds apart. It closes after three consecutive readings at or above 180 kPa. The display shows the most recent reading.",
+      "before_words": 106,
+      "after_words": 36,
+      "plans": {
+        "reader": {
+          "source_sha256": "5155f970338a8e72c5b166f3a3aa213e96965968e5d566fc3aa6f76bc88f6ce1",
+          "edits": [
+            {
+              "start": 171,
+              "end": 413,
+              "before": "This means that one low reading by itself does not open the bypass, and it is also important to recognize that the closing threshold differs from the opening threshold. In other words, the bypass does not open and close at the same pressure. ",
+              "after": "",
+              "reason": "The first two sentences already give the required readings and distinct pressure thresholds. Delete the repeated explanation so the technician can find the conditions directly."
+            },
+            {
+              "start": 454,
+              "end": 518,
+              "before": ", so operators can see the latest pressure value on the display.",
+              "after": ".",
+              "reason": "The display sentence repeats its complete statement in the so clause. Keep the direct description of what the display shows."
+            },
+            {
+              "start": 518,
+              "end": 635,
+              "before": " These details explain the sequence the controller follows when deciding whether the bypass should be open or closed.",
+              "after": "",
+              "reason": "The final sentence only labels what the operating conditions have already explained and adds no condition or needed inference."
+            }
+          ]
+        },
+        "source": {
+          "source_sha256": "430e5fa856e3d82753084996aa928a770dd6541011ad57f0c4f94d00da0c6dea",
+          "edits": [
+            {
+              "start": 156,
+              "end": 169,
+              "before": "above 180 kPa",
+              "after": "at or above 180 kPa",
+              "reason": "Specification S3 includes equality at 180 kPa; above alone incorrectly excludes readings equal to the closing threshold."
+            }
+          ]
+        }
+      },
+      "measurements": {
+        "reader": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\01\\before.txt",
+            "sha256": "5155f970338a8e72c5b166f3a3aa213e96965968e5d566fc3aa6f76bc88f6ce1",
+            "bytes": 637
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\01\\reader-plan.json",
+            "sha256": "6454c0087a11fc2b91693e6d26e231658e263c8b16d8bcc39b72176669f0465f"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "430e5fa856e3d82753084996aa928a770dd6541011ad57f0c4f94d00da0c6dea",
+            "bytes": 215
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\01\\reader-after.txt",
+            "sha256": "430e5fa856e3d82753084996aa928a770dd6541011ad57f0c4f94d00da0c6dea",
+            "bytes": 215
+          },
+          "changes": [
+            {
+              "start": 171,
+              "end": 413,
+              "before": "This means that one low reading by itself does not open the bypass, and it is also important to recognize that the closing threshold differs from the opening threshold. In other words, the bypass does not open and close at the same pressure. ",
+              "after": "",
+              "reason": "The first two sentences already give the required readings and distinct pressure thresholds. Delete the repeated explanation so the technician can find the conditions directly.",
+              "plan_index": 0,
+              "location": {
+                "line": 1,
+                "column": 172
+              }
+            },
+            {
+              "start": 454,
+              "end": 518,
+              "before": ", so operators can see the latest pressure value on the display.",
+              "after": ".",
+              "reason": "The display sentence repeats its complete statement in the so clause. Keep the direct description of what the display shows.",
+              "plan_index": 1,
+              "location": {
+                "line": 1,
+                "column": 455
+              }
+            },
+            {
+              "start": 518,
+              "end": 635,
+              "before": " These details explain the sequence the controller follows when deciding whether the bypass should be open or closed.",
+              "after": "",
+              "reason": "The final sentence only labels what the operating conditions have already explained and adds no condition or needed inference.",
+              "plan_index": 2,
+              "location": {
+                "line": 1,
+                "column": 519
+              }
+            }
+          ],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 635,
+              "original_characters": 635,
+              "original_characters_selected": 423,
+              "selected_percent": 66.614,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 0
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 106,
+            "after_words": 34,
+            "net_words_removed": 72,
+            "net_reduction_percent": 67.925,
+            "words_inserted": 1,
+            "words_removed_or_replaced": 73,
+            "original_tokens_removed_or_replaced_percent": 68.868,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        },
+        "source": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\01\\reader-after.txt",
+            "sha256": "430e5fa856e3d82753084996aa928a770dd6541011ad57f0c4f94d00da0c6dea",
+            "bytes": 215
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\01\\source-plan.json",
+            "sha256": "b929115c00626abc11ef2dabf1f66ee1b82e23ebd724cf18bdb7116119758130"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "5530301697d902bdf1873fc20199ec43b13b785c845bf68b3b5616ab36f2bcae",
+            "bytes": 221
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\01\\final.txt",
+            "sha256": "5530301697d902bdf1873fc20199ec43b13b785c845bf68b3b5616ab36f2bcae",
+            "bytes": 221
+          },
+          "changes": [
+            {
+              "start": 156,
+              "end": 169,
+              "before": "above 180 kPa",
+              "after": "at or above 180 kPa",
+              "reason": "Specification S3 includes equality at 180 kPa; above alone incorrectly excludes readings equal to the closing threshold.",
+              "plan_index": 0,
+              "location": {
+                "line": 1,
+                "column": 157
+              }
+            }
+          ],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 213,
+              "original_characters": 213,
+              "original_characters_selected": 13,
+              "selected_percent": 6.103,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 0
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 34,
+            "after_words": 36,
+            "net_words_removed": -2,
+            "net_reduction_percent": -5.882,
+            "words_inserted": 2,
+            "words_removed_or_replaced": 0,
+            "original_tokens_removed_or_replaced_percent": 0.0,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        }
+      },
+      "assessment": {
+        "title": "Engineering: bypass thresholds",
+        "changes": "Deleted repeated explanations of the two-reading rule, the different thresholds and the purpose of the note; shortened the display sentence. The separate source pass changed above 180 kPa to at or above 180 kPa.",
+        "conformance": "Local-edit method verified: three reader edits and one source correction reconstruct the saved final exactly; original preserved. The required conditions remain, without added advice.",
+        "correctness": "The source pass fixed a material boundary error: exactly 180 kPa must count toward closure. A minor ambiguity remains: the 2-second interval is attached to opening, although the specification applies it to all readings. Stays below can also suggest continuous pressure rather than two sampled values.",
+        "usefulness": "The masked reader preferred the revision because the operating conditions and display behavior are direct. The remaining timing ambiguity keeps this from being a fully resolved operator instruction.",
+        "reader_preference": "After",
+        "correctness_status": "Material boundary corrected; minor sampling wording remains",
+        "qualification": "The display sentence was retained. All required facts remain; the source ledger does not require every specification label to be repeated."
+      }
+    },
+    {
+      "id": "02",
+      "domain": "medical",
+      "cohort": "revision",
+      "purpose": "A fictional summary for a clinician reviewing the assessment and pending documentation. Preserve posture, timing and the distinction between a suggested medication change and an order. Do not add diagnosis or treatment recommendations.",
+      "before": "Mira reported feeling light-headed when she stood up. Her blood pressure was 126/78 mmHg while seated and 102/66 mmHg two minutes after standing. The readings were obtained in different positions, so they describe blood pressure in two different positions. A dose reduction was suggested during the review, but no medication order has been entered. It is important to distinguish a suggestion from an order because the suggestion is not itself an order. Mira reported nearly fainting the previous evening, but she did not report losing consciousness. The cause of the symptoms remains unconfirmed; no cause has yet been established in the record.",
+      "source": "Fictional assessment record: M1. Patient Mira reported light-headedness on standing. M2. Seated blood pressure was 126/78 mmHg. M3. Blood pressure two minutes after standing was 102/66 mmHg. M4. A dose reduction was suggested during the review. No medication order has been entered in the supplied record. M5. Mira reported nearly fainting the previous evening, without reported loss of consciousness. M6. The cause of the symptoms has not been established. No treatment or diagnostic-management recommendation is requested; this is source-fidelity editing of a fictional record.",
+      "questions": [
+        "What readings were obtained, in which positions and at what time relative to standing?",
+        "Was a medication change ordered?",
+        "What symptom occurred the previous evening, and what is known about its cause?"
+      ],
+      "before_sha256": "4a9e3bd9809344101b88aa551d703ad63fd2bfb9b14e8b00d75a91a028e13920",
+      "brief_sha256": "1f0fb3b29453b2e8a6c77bd712ac6721d3f9832403a4684772705b83afe1dc08",
+      "source_sha256": "ad8c0883231c8383a90141bb844c057766b7fc9c210f9d93993af53c332b09f1",
+      "after": "Mira reported feeling light-headed when she stood up. Her blood pressure was 126/78 mmHg while seated and 102/66 mmHg two minutes after standing. A dose reduction was suggested during the review, but no medication order has been entered in the supplied record. Mira reported nearly fainting the previous evening, but she did not report losing consciousness. The cause of the symptoms remains unconfirmed in the record.",
+      "before_words": 102,
+      "after_words": 66,
+      "plans": {
+        "reader": {
+          "source_sha256": "4a9e3bd9809344101b88aa551d703ad63fd2bfb9b14e8b00d75a91a028e13920",
+          "edits": [
+            {
+              "start": 146,
+              "end": 257,
+              "before": "The readings were obtained in different positions, so they describe blood pressure in two different positions. ",
+              "after": "",
+              "reason": "Delete an explanation that repeats the seated and standing positions already stated with the readings."
+            },
+            {
+              "start": 349,
+              "end": 454,
+              "before": "It is important to distinguish a suggestion from an order because the suggestion is not itself an order. ",
+              "after": "",
+              "reason": "Delete the tautological explanation after the preceding sentence has already distinguished the suggested reduction from an entered order."
+            },
+            {
+              "start": 596,
+              "end": 631,
+              "before": "; no cause has yet been established",
+              "after": "",
+              "reason": "Remove the repeated statement about the unresolved cause while retaining uncertainty and the limitation to the record."
+            }
+          ]
+        },
+        "source": {
+          "source_sha256": "6763fcc8f9d6445a97e6fd677f7df659849c1073522e0fddd9e7c67f5c8cdb5e",
+          "edits": [
+            {
+              "start": 236,
+              "end": 236,
+              "before": "",
+              "after": " in the supplied record",
+              "reason": "M4 limits the absence of an entered medication order to the supplied record; preserve that evidence boundary rather than asserting that no order exists anywhere."
+            }
+          ]
+        }
+      },
+      "measurements": {
+        "reader": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\02\\before.txt",
+            "sha256": "4a9e3bd9809344101b88aa551d703ad63fd2bfb9b14e8b00d75a91a028e13920",
+            "bytes": 648
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\reader-plan.json",
+            "sha256": "702e45430b5225784333814d4227d08c511d00b236481c689fcfa995aab45374"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "6763fcc8f9d6445a97e6fd677f7df659849c1073522e0fddd9e7c67f5c8cdb5e",
+            "bytes": 397
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\reader-after.txt",
+            "sha256": "6763fcc8f9d6445a97e6fd677f7df659849c1073522e0fddd9e7c67f5c8cdb5e",
+            "bytes": 397
+          },
+          "changes": [
+            {
+              "start": 146,
+              "end": 257,
+              "before": "The readings were obtained in different positions, so they describe blood pressure in two different positions. ",
+              "after": "",
+              "reason": "Delete an explanation that repeats the seated and standing positions already stated with the readings.",
+              "plan_index": 0,
+              "location": {
+                "line": 1,
+                "column": 147
+              }
+            },
+            {
+              "start": 349,
+              "end": 454,
+              "before": "It is important to distinguish a suggestion from an order because the suggestion is not itself an order. ",
+              "after": "",
+              "reason": "Delete the tautological explanation after the preceding sentence has already distinguished the suggested reduction from an entered order.",
+              "plan_index": 1,
+              "location": {
+                "line": 1,
+                "column": 350
+              }
+            },
+            {
+              "start": 596,
+              "end": 631,
+              "before": "; no cause has yet been established",
+              "after": "",
+              "reason": "Remove the repeated statement about the unresolved cause while retaining uncertainty and the limitation to the record.",
+              "plan_index": 2,
+              "location": {
+                "line": 1,
+                "column": 597
+              }
+            }
+          ],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 646,
+              "original_characters": 646,
+              "original_characters_selected": 251,
+              "selected_percent": 38.854,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 0
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 102,
+            "after_words": 62,
+            "net_words_removed": 40,
+            "net_reduction_percent": 39.216,
+            "words_inserted": 1,
+            "words_removed_or_replaced": 41,
+            "original_tokens_removed_or_replaced_percent": 40.196,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        },
+        "source": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\reader-after.txt",
+            "sha256": "6763fcc8f9d6445a97e6fd677f7df659849c1073522e0fddd9e7c67f5c8cdb5e",
+            "bytes": 397
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\source-plan.json",
+            "sha256": "5d19f9884f19c263ad39103719f8987d457b18902bc190585d2e4e97801dc5a3"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "d025931017f3752436eda9b8de57abedc9e0c3505d39c525fbb8a5aff1eaa566",
+            "bytes": 420
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\final.txt",
+            "sha256": "d025931017f3752436eda9b8de57abedc9e0c3505d39c525fbb8a5aff1eaa566",
+            "bytes": 420
+          },
+          "changes": [
+            {
+              "start": 236,
+              "end": 236,
+              "before": "",
+              "after": " in the supplied record",
+              "reason": "M4 limits the absence of an entered medication order to the supplied record; preserve that evidence boundary rather than asserting that no order exists anywhere.",
+              "plan_index": 0,
+              "location": {
+                "line": 1,
+                "column": 237
+              }
+            }
+          ],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 395,
+              "original_characters": 395,
+              "original_characters_selected": 0,
+              "selected_percent": 0.0,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 23
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 62,
+            "after_words": 66,
+            "net_words_removed": -4,
+            "net_reduction_percent": -6.452,
+            "words_inserted": 5,
+            "words_removed_or_replaced": 1,
+            "original_tokens_removed_or_replaced_percent": 1.613,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        }
+      },
+      "assessment": {
+        "title": "Medical: assessment and order status",
+        "changes": "Deleted the statements that different positions are different positions, that a suggestion is not an order, and the second statement of uncertain cause. The source pass added the record boundary to the order statement.",
+        "conformance": "Three targeted reader edits and one source insertion verified; original preserved. Readings, posture, timing, suggestion versus order and reported symptoms remain; no diagnosis or treatment advice was added.",
+        "correctness": "Clinical facts match the fictional ledger. The record boundary is explicit. An inherited source gap remains: the original uses she/her, but the ledger does not specify pronouns. This was not introduced by the edit and was not caught in its source pass.",
+        "usefulness": "The masked reader preferred the revision: required facts are adjacent and the elementary explanations are gone. Parent judgment: no medication order is recorded could express the same documentary limit more economically; that alternative was not substituted or tested.",
+        "reader_preference": "After",
+        "correctness_status": "Core facts supported; inherited pronouns not independently established",
+        "qualification": "Fictional source-fidelity editing only; the test did not validate a diagnosis or clinical decision."
+      }
+    },
+    {
+      "id": "03",
+      "domain": "assignment",
+      "cohort": "revision",
+      "purpose": "An assignment response explaining random sampling and random assignment and assessing whether recruitment supports generalizing to all university students. Keep both terms. Use the supplied [A] and [B] markers where the evidence supports them.",
+      "before": "The researchers recruited 80 volunteers from one campus class and randomly assigned them to use one of two study apps. This random assignment means that the study used random sampling, so its findings can be generalized to all university students. Random assignment and random sampling both involve randomness, which is why the distinction between them is important to understand. In this case, the participants were divided randomly between the two apps, with each participant assigned to one app. The study therefore provides information about app performance, and the results should be considered in light of how the participants entered the study. [A, B]",
+      "source": "Supplied course definitions and fictional study: [A] Random sampling selects units from a population into a study; random assignment allocates enrolled units to study conditions. Random assignment does not by itself establish representative recruitment. [B] Eighty volunteers came from one campus class. An algorithm randomly assigned enrolled volunteers to one of two study apps. The recruitment record provides no random sample of all university students. The task is to explain the distinction and assess the stated population-generalization claim; no unseen app-performance results are supplied.",
+      "questions": [
+        "How do random sampling and random assignment differ?",
+        "Which recruitment and allocation procedures did this study use?",
+        "What supports or limits generalizing to all university students?"
+      ],
+      "before_sha256": "eaec5a66973981c360e504ed6fa88031eca7b2cd2595e93e6ebe52b27b3f2faf",
+      "brief_sha256": "4c4c6003c3fc686c352a94c99e415224778141fa79be3d186c9e29cfcc7080bb",
+      "source_sha256": "358457f1a49538dadf5144e3ef218a4d4b2db03344a0be683dcff9496f27959a",
+      "after": "The researchers recruited 80 volunteers from one campus class and randomly assigned them to use one of two study apps. [B] This random assignment does not mean that the study used random sampling, which would require selecting participants randomly from the population of interest. [A] Recruiting volunteers from one campus class does not support generalizing any findings to all university students. [A, B]",
+      "before_words": 103,
+      "after_words": 63,
+      "plans": {
+        "reader": {
+          "source_sha256": "eaec5a66973981c360e504ed6fa88031eca7b2cd2595e93e6ebe52b27b3f2faf",
+          "edits": [
+            {
+              "start": 142,
+              "end": 147,
+              "before": "means",
+              "after": "does not mean",
+              "reason": "Correct the false equivalence between random assignment and random sampling."
+            },
+            {
+              "start": 183,
+              "end": 246,
+              "before": ", so its findings can be generalized to all university students",
+              "after": ", which would require selecting participants randomly from the population of interest",
+              "reason": "Replace the unsupported generalization with the selection mechanism that distinguishes random sampling."
+            },
+            {
+              "start": 248,
+              "end": 381,
+              "before": "Random assignment and random sampling both involve randomness, which is why the distinction between them is important to understand. ",
+              "after": "",
+              "reason": "Delete a generic statement of importance after the distinction is explained directly."
+            },
+            {
+              "start": 381,
+              "end": 499,
+              "before": "In this case, the participants were divided randomly between the two apps, with each participant assigned to one app. ",
+              "after": "",
+              "reason": "Delete a repetition of the app-assignment procedure already given in the opening sentence."
+            },
+            {
+              "start": 563,
+              "end": 650,
+              "before": "and the results should be considered in light of how the participants entered the study",
+              "after": "but recruiting volunteers from one campus class does not support generalizing the findings to all university students",
+              "reason": "Make the consequence of the stated recruitment method explicit instead of leaving a vague caution."
+            }
+          ]
+        },
+        "source": {
+          "source_sha256": "13bbb5cd77b52c92390b24d9f3aba290a9d5b25d1d8f14d81f24bf773d41ce8b",
+          "edits": [
+            {
+              "start": 278,
+              "end": 356,
+              "before": "The study therefore provides information about app performance, but recruiting",
+              "after": "Recruiting",
+              "reason": "Remove an unsupported app-performance claim: source [B] supplies no performance results; retain the supported recruitment assessment."
+            },
+            {
+              "start": 420,
+              "end": 432,
+              "before": "the findings",
+              "after": "any findings",
+              "reason": "Make the generalization assessment conditional rather than implying that performance findings were supplied."
+            },
+            {
+              "start": 118,
+              "end": 118,
+              "before": "",
+              "after": " [B]",
+              "reason": "Attribute the recruitment count, class, volunteer status and app allocation to the fictional study in [B]."
+            },
+            {
+              "start": 277,
+              "end": 277,
+              "before": "",
+              "after": " [A]",
+              "reason": "Attribute the distinction between selection into the study and allocation to conditions to the course definitions in [A]."
+            }
+          ]
+        }
+      },
+      "measurements": {
+        "reader": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\03\\before.txt",
+            "sha256": "eaec5a66973981c360e504ed6fa88031eca7b2cd2595e93e6ebe52b27b3f2faf",
+            "bytes": 660
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\reader-plan.json",
+            "sha256": "a2cda15785df3d2a3e4021bd4b5f89a374a9a62d1e13c98a56bef61a04e276a4"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "13bbb5cd77b52c92390b24d9f3aba290a9d5b25d1d8f14d81f24bf773d41ce8b",
+            "bytes": 469
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\reader-after.txt",
+            "sha256": "13bbb5cd77b52c92390b24d9f3aba290a9d5b25d1d8f14d81f24bf773d41ce8b",
+            "bytes": 469
+          },
+          "changes": [
+            {
+              "start": 142,
+              "end": 147,
+              "before": "means",
+              "after": "does not mean",
+              "reason": "Correct the false equivalence between random assignment and random sampling.",
+              "plan_index": 0,
+              "location": {
+                "line": 1,
+                "column": 143
+              }
+            },
+            {
+              "start": 183,
+              "end": 246,
+              "before": ", so its findings can be generalized to all university students",
+              "after": ", which would require selecting participants randomly from the population of interest",
+              "reason": "Replace the unsupported generalization with the selection mechanism that distinguishes random sampling.",
+              "plan_index": 1,
+              "location": {
+                "line": 1,
+                "column": 184
+              }
+            },
+            {
+              "start": 248,
+              "end": 381,
+              "before": "Random assignment and random sampling both involve randomness, which is why the distinction between them is important to understand. ",
+              "after": "",
+              "reason": "Delete a generic statement of importance after the distinction is explained directly.",
+              "plan_index": 2,
+              "location": {
+                "line": 1,
+                "column": 249
+              }
+            },
+            {
+              "start": 381,
+              "end": 499,
+              "before": "In this case, the participants were divided randomly between the two apps, with each participant assigned to one app. ",
+              "after": "",
+              "reason": "Delete a repetition of the app-assignment procedure already given in the opening sentence.",
+              "plan_index": 3,
+              "location": {
+                "line": 1,
+                "column": 382
+              }
+            },
+            {
+              "start": 563,
+              "end": 650,
+              "before": "and the results should be considered in light of how the participants entered the study",
+              "after": "but recruiting volunteers from one campus class does not support generalizing the findings to all university students",
+              "reason": "Make the consequence of the stated recruitment method explicit instead of leaving a vague caution.",
+              "plan_index": 4,
+              "location": {
+                "line": 1,
+                "column": 564
+              }
+            }
+          ],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 658,
+              "original_characters": 658,
+              "original_characters_selected": 406,
+              "selected_percent": 61.702,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 0
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 103,
+            "after_words": 70,
+            "net_words_removed": 33,
+            "net_reduction_percent": 32.039,
+            "words_inserted": 28,
+            "words_removed_or_replaced": 61,
+            "original_tokens_removed_or_replaced_percent": 59.223,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        },
+        "source": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\reader-after.txt",
+            "sha256": "13bbb5cd77b52c92390b24d9f3aba290a9d5b25d1d8f14d81f24bf773d41ce8b",
+            "bytes": 469
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\source-plan.json",
+            "sha256": "834d7c065a23081ae0af8b3121c7dc509f1a02183348e0164451a99c0ce0becf"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "ef91e4ddef1c1ea6854efcbf4299d44820efa6efa46db43acf1aef18377e947a",
+            "bytes": 409
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\final.txt",
+            "sha256": "ef91e4ddef1c1ea6854efcbf4299d44820efa6efa46db43acf1aef18377e947a",
+            "bytes": 409
+          },
+          "changes": [
+            {
+              "start": 118,
+              "end": 118,
+              "before": "",
+              "after": " [B]",
+              "reason": "Attribute the recruitment count, class, volunteer status and app allocation to the fictional study in [B].",
+              "plan_index": 2,
+              "location": {
+                "line": 1,
+                "column": 119
+              }
+            },
+            {
+              "start": 277,
+              "end": 277,
+              "before": "",
+              "after": " [A]",
+              "reason": "Attribute the distinction between selection into the study and allocation to conditions to the course definitions in [A].",
+              "plan_index": 3,
+              "location": {
+                "line": 1,
+                "column": 278
+              }
+            },
+            {
+              "start": 278,
+              "end": 356,
+              "before": "The study therefore provides information about app performance, but recruiting",
+              "after": "Recruiting",
+              "reason": "Remove an unsupported app-performance claim: source [B] supplies no performance results; retain the supported recruitment assessment.",
+              "plan_index": 0,
+              "location": {
+                "line": 1,
+                "column": 279
+              }
+            },
+            {
+              "start": 420,
+              "end": 432,
+              "before": "the findings",
+              "after": "any findings",
+              "reason": "Make the generalization assessment conditional rather than implying that performance findings were supplied.",
+              "plan_index": 1,
+              "location": {
+                "line": 1,
+                "column": 421
+              }
+            }
+          ],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 467,
+              "original_characters": 467,
+              "original_characters_selected": 90,
+              "selected_percent": 19.272,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 8
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 70,
+            "after_words": 63,
+            "net_words_removed": 7,
+            "net_reduction_percent": 10.0,
+            "words_inserted": 4,
+            "words_removed_or_replaced": 11,
+            "original_tokens_removed_or_replaced_percent": 15.714,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        }
+      },
+      "assessment": {
+        "title": "Assignment: sampling versus assignment",
+        "changes": "Corrected the false equivalence between random assignment and sampling; deleted repeated allocation language and generic framing. The source pass removed an unsupported performance claim, made findings conditional, and placed [A] and [B] beside their supported claims.",
+        "conformance": "Five reader edits and four source edits verified. Both required technical terms remain, and the response answers the population-generalization question with the supplied evidence markers.",
+        "correctness": "The final distinction and generalization limit agree with the definitions and fictional recruitment record. The first reader proposal still asserted app-performance information that the source had not supplied; the separate source pass removed it.",
+        "usefulness": "The masked reader preferred the revision: study procedure leads to the distinction and then the generalization assessment. That preference partly reflects a corrected conceptual error, so it cannot be attributed to style alone.",
+        "reader_preference": "After",
+        "correctness_status": "Supported within the supplied definitions and study record",
+        "qualification": "The markers [A] and [B] refer to the supplied test packet, not external publications."
+      }
+    },
+    {
+      "id": "04",
+      "domain": "blog",
+      "cohort": "revision",
+      "purpose": "A short fictional first-person blog passage about a confusing temporary bus stop. Keep the concrete scene and the existing voice; add no personal history, statistics or invented events. A general lesson is optional if it contributes something beyond the scene.",
+      "before": "I missed the replacement bus stop because I followed the large blue sign. It sent me to the usual shelter, which was fenced off for roadworks. A smaller notice at the corner gave the temporary stop’s address, but its arrow pointed back toward the shelter. I walked the block twice before a driver waved me over. This experience illustrates the importance of clear communication in everyday life. Good signs should help people find the places they need to go, and confusing signs can make that harder. In the end, the purpose of a sign is to tell people where to go.",
+      "source": "Fictional scene facts: B1. The first-person narrator followed a large blue sign to the usual shelter. B2. That shelter was fenced off for roadworks. B3. A smaller corner notice gave the temporary stop address but had an arrow pointing toward the usual shelter. B4. The narrator walked the block twice before a driver waved them over. B5. No other event, biography, commute pattern, disability, city or population finding is supplied. The scene is invented for this test; it is not a story about the user.",
+      "questions": [
+        "Why did the narrator go to the wrong stop?",
+        "What did the smaller notice add, and how did it also mislead?",
+        "How does the passage end, and what work does the ending do?"
+      ],
+      "before_sha256": "b594b0153fb13cc4fecd04d6f5119ae1c6a4a70544f5b144d17faf85e47c0b43",
+      "brief_sha256": "988e2b6d785235758b9cd9da7d4f0464f959a2503674433110125b68f969ed58",
+      "source_sha256": "a28af7de64de7d9b65e2ed7c8e9f4d8b125cdaafc164857dd8b278e678f901a3",
+      "after": "I missed the replacement bus stop because I followed the large blue sign. It sent me to the usual shelter, which was fenced off for roadworks. A smaller notice at the corner gave the temporary stop’s address, but its arrow pointed back toward the shelter. I walked the block twice before a driver waved me over.",
+      "before_words": 101,
+      "after_words": 56,
+      "plans": {
+        "reader": {
+          "source_sha256": "b594b0153fb13cc4fecd04d6f5119ae1c6a4a70544f5b144d17faf85e47c0b43",
+          "edits": [
+            {
+              "start": 311,
+              "end": 565,
+              "before": " This experience illustrates the importance of clear communication in everyday life. Good signs should help people find the places they need to go, and confusing signs can make that harder. In the end, the purpose of a sign is to tell people where to go.",
+              "after": "",
+              "reason": "The concrete scene already shows the effect of contradictory signs. These three general closing sentences repeat that completed point without adding an inference; ending with the driver preserves the scene and first-person voice."
+            }
+          ]
+        },
+        "source": {
+          "source_sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+          "edits": []
+        }
+      },
+      "measurements": {
+        "reader": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\04\\before.txt",
+            "sha256": "b594b0153fb13cc4fecd04d6f5119ae1c6a4a70544f5b144d17faf85e47c0b43",
+            "bytes": 569
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\04\\reader-plan.json",
+            "sha256": "19982f669b7d205aba968a553336033be52208fd5978d6a44b42dff63398d8ad"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+            "bytes": 315
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\04\\reader-after.txt",
+            "sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+            "bytes": 315
+          },
+          "changes": [
+            {
+              "start": 311,
+              "end": 565,
+              "before": " This experience illustrates the importance of clear communication in everyday life. Good signs should help people find the places they need to go, and confusing signs can make that harder. In the end, the purpose of a sign is to tell people where to go.",
+              "after": "",
+              "reason": "The concrete scene already shows the effect of contradictory signs. These three general closing sentences repeat that completed point without adding an inference; ending with the driver preserves the scene and first-person voice.",
+              "plan_index": 0,
+              "location": {
+                "line": 1,
+                "column": 312
+              }
+            }
+          ],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 565,
+              "original_characters": 565,
+              "original_characters_selected": 254,
+              "selected_percent": 44.956,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 0
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 101,
+            "after_words": 56,
+            "net_words_removed": 45,
+            "net_reduction_percent": 44.554,
+            "words_inserted": 0,
+            "words_removed_or_replaced": 45,
+            "original_tokens_removed_or_replaced_percent": 44.554,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        },
+        "source": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\04\\reader-after.txt",
+            "sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+            "bytes": 315
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\04\\source-plan.json",
+            "sha256": "a174468322ebc569fb849fea62b9b2726f3dc2c304989da50728126c2b451e56"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+            "bytes": 315
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\04\\final.txt",
+            "sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+            "bytes": 315
+          },
+          "changes": [],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 311,
+              "original_characters": 311,
+              "original_characters_selected": 0,
+              "selected_percent": 0.0,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 0
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 56,
+            "after_words": 56,
+            "net_words_removed": 0,
+            "net_reduction_percent": 0.0,
+            "words_inserted": 0,
+            "words_removed_or_replaced": 0,
+            "original_tokens_removed_or_replaced_percent": 0.0,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        }
+      },
+      "assessment": {
+        "title": "Blog: the temporary bus stop",
+        "changes": "One exact-span deletion removed the three closing lessons. The four scene sentences were retained verbatim. The source check made no further change.",
+        "conformance": "A deletion only; first-person voice, concrete details and original wording remain. No event, personal history or statistic was added.",
+        "correctness": "The retained scene agrees with the fictional ledger. Missed the stop is reasonably read as failure to locate it, not evidence that a bus departed.",
+        "usefulness": "The masked reader preferred the revision. The driver waving the narrator over supplies a concrete ending; the deleted sentences explain a lesson the scene already makes available.",
+        "reader_preference": "After",
+        "correctness_status": "Scene supported; no new incident added",
+        "qualification": "This is invented narrative for the test and is not a story about the user."
+      }
+    },
+    {
+      "id": "05",
+      "domain": "engineering",
+      "cohort": "control",
+      "purpose": "A short operator instruction explaining the guard interlock and the separate effects of Reset and Start. Preserve those exact button labels and the operating sequence. Do not add steps.",
+      "before": "Keep the pump stopped while the guard is open. After closing the guard, press Reset; the pump remains stopped until Start is pressed. Reset clears the interlock, but it does not restart the pump.",
+      "source": "Fictional operator specification: C1. The pump must stay stopped while the guard is open. C2. Closing the guard permits Reset to clear the interlock. C3. Reset does not start the pump. C4. Start is required to start the pump after the guard is closed and the interlock has been reset. The passage concerns this sequence; no additional step or component is supplied.",
+      "questions": [
+        "What must happen while the guard is open?",
+        "What does Reset do, and does it start the pump?",
+        "What is required before the pump restarts?"
+      ],
+      "before_sha256": "5ac75deaa519def8130134641176255b43db03ee4c96f04113f79e4bfe3e65e2",
+      "brief_sha256": "51f1ce7059f3af9d59f77c50517ee877ab6a445b811984790f3f1fd3afe66e56",
+      "source_sha256": "54b41de8159566afa9e5f44de5c0c6fd14246339f1a12b6dfd32b9627af1d1b6",
+      "after": "Keep the pump stopped while the guard is open. After closing the guard, press Reset to clear the interlock; the pump remains stopped until Start is pressed.",
+      "before_words": 34,
+      "after_words": 27,
+      "plans": {
+        "reader": {
+          "source_sha256": "5ac75deaa519def8130134641176255b43db03ee4c96f04113f79e4bfe3e65e2",
+          "edits": [
+            {
+              "start": 83,
+              "end": 83,
+              "before": "",
+              "after": " to clear the interlock",
+              "reason": "Place the unique explanation of what Reset does beside the Reset instruction so the repeated final sentence can be removed."
+            },
+            {
+              "start": 133,
+              "end": 195,
+              "before": " Reset clears the interlock, but it does not restart the pump.",
+              "after": "",
+              "reason": "Remove the closing sentence after retaining its interlock explanation beside Reset; its statement that Reset does not restart the pump repeats the preceding Start condition."
+            }
+          ]
+        },
+        "source": {
+          "source_sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+          "edits": []
+        }
+      },
+      "measurements": {
+        "reader": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\05\\before.txt",
+            "sha256": "5ac75deaa519def8130134641176255b43db03ee4c96f04113f79e4bfe3e65e2",
+            "bytes": 197
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\05\\reader-plan.json",
+            "sha256": "c6c5f7e24751bae63290a82e1c87d1dcf32d2738d8408c5a4cb44597b298b262"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+            "bytes": 158
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\05\\reader-after.txt",
+            "sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+            "bytes": 158
+          },
+          "changes": [
+            {
+              "start": 83,
+              "end": 83,
+              "before": "",
+              "after": " to clear the interlock",
+              "reason": "Place the unique explanation of what Reset does beside the Reset instruction so the repeated final sentence can be removed.",
+              "plan_index": 0,
+              "location": {
+                "line": 1,
+                "column": 84
+              }
+            },
+            {
+              "start": 133,
+              "end": 195,
+              "before": " Reset clears the interlock, but it does not restart the pump.",
+              "after": "",
+              "reason": "Remove the closing sentence after retaining its interlock explanation beside Reset; its statement that Reset does not restart the pump repeats the preceding Start condition.",
+              "plan_index": 1,
+              "location": {
+                "line": 1,
+                "column": 134
+              }
+            }
+          ],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 195,
+              "original_characters": 195,
+              "original_characters_selected": 62,
+              "selected_percent": 31.795,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 23
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 34,
+            "after_words": 27,
+            "net_words_removed": 7,
+            "net_reduction_percent": 20.588,
+            "words_inserted": 5,
+            "words_removed_or_replaced": 12,
+            "original_tokens_removed_or_replaced_percent": 35.294,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        },
+        "source": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\05\\reader-after.txt",
+            "sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+            "bytes": 158
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\05\\source-plan.json",
+            "sha256": "859544c1df0cd848c772d6d23da8d6c3e38ebc5c8f6da03cf8bb838ba06ddc41"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+            "bytes": 158
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\05\\final.txt",
+            "sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+            "bytes": 158
+          },
+          "changes": [],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 156,
+              "original_characters": 156,
+              "original_characters_selected": 0,
+              "selected_percent": 0.0,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 0
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 27,
+            "after_words": 27,
+            "net_words_removed": 0,
+            "net_reduction_percent": 0.0,
+            "words_inserted": 0,
+            "words_removed_or_replaced": 0,
+            "original_tokens_removed_or_replaced_percent": 0.0,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        }
+      },
+      "assessment": {
+        "title": "Concise control: guard, Reset and Start",
+        "changes": "Inserted to clear the interlock beside Reset and deleted the separate sentence that gave Reset the same explanation. No source correction followed.",
+        "conformance": "Two local edits verified. Exact button labels, guard condition and close-Reset-Start sequence remain; no step was added.",
+        "correctness": "Both versions agree with the fictional specification. The revision still states that the pump remains stopped until Start is pressed.",
+        "usefulness": "The masked reader slightly preferred the revision because the explanation sits beside the action. The original is also sound: its separate warning gives extra emphasis to Reset not starting the pump. No substantial defect needed repair.",
+        "reader_preference": "After, slightly",
+        "correctness_status": "Both versions supported",
+        "qualification": "Control was a parent design label, not prior user approval or a rule requiring no edits."
+      }
+    },
+    {
+      "id": "06",
+      "domain": "blog",
+      "cohort": "control",
+      "purpose": "A short fictional first-person blog scene. Preserve the existing voice, chronology and concrete details. Add no moral, personal history or new event. Edit only where there is a benefit for the passage.",
+      "before": "The rain stopped just before I reached the station. The bench was wet, so I stood under the timetable and watched a porter dry each seat with yesterday’s newspaper. He left the sports pages on the one seat beneath the leaking roof.",
+      "source": "Fictional scene facts: C1. Rain stopped just before the narrator reached the station. C2. The bench was wet. C3. The narrator stood under the timetable. C4. A porter dried the seats with yesterday’s newspaper. C5. He left the sports pages on the one seat beneath a leaking roof. There is no supplied motive, conversation, biography or later event. This is invented narrative, not a claim about the user.",
+      "questions": [
+        "What is the sequence of events and where is the narrator?",
+        "What does the porter do with the newspaper?",
+        "What effect does the last concrete detail have, without inventing a motive?"
+      ],
+      "before_sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+      "brief_sha256": "4bd3ad2ad21297df4858b21322a40b83b492a6d595d5250b358b97fc22fa919d",
+      "source_sha256": "0b73d3a5d0aade2d5c31414f7add900741557682349c2f5e2eb92b9f8280a892",
+      "after": "The rain stopped just before I reached the station. The bench was wet, so I stood under the timetable and watched a porter dry each seat with yesterday’s newspaper. He left the sports pages on the one seat beneath the leaking roof.",
+      "before_words": 42,
+      "after_words": 42,
+      "plans": {
+        "reader": {
+          "source_sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+          "edits": []
+        },
+        "source": {
+          "source_sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+          "edits": []
+        }
+      },
+      "measurements": {
+        "reader": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\06\\before.txt",
+            "sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+            "bytes": 235
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\06\\reader-plan.json",
+            "sha256": "cd65078b2dad5dc308706b7a1a8150c2b39783245b1de8d391d9e03a7d7e34d7"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+            "bytes": 235
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\06\\reader-after.txt",
+            "sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+            "bytes": 235
+          },
+          "changes": [],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 231,
+              "original_characters": 231,
+              "original_characters_selected": 0,
+              "selected_percent": 0.0,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 0
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 42,
+            "after_words": 42,
+            "net_words_removed": 0,
+            "net_reduction_percent": 0.0,
+            "words_inserted": 0,
+            "words_removed_or_replaced": 0,
+            "original_tokens_removed_or_replaced_percent": 0.0,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        },
+        "source": {
+          "tool": "edit-with-purpose-local-edit-record",
+          "version": "0.1.0",
+          "result": "completed",
+          "source": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\06\\reader-after.txt",
+            "sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+            "bytes": 235
+          },
+          "plan": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\06\\source-plan.json",
+            "sha256": "cd65078b2dad5dc308706b7a1a8150c2b39783245b1de8d391d9e03a7d7e34d7"
+          },
+          "comparison": null,
+          "candidate": {
+            "sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+            "bytes": 235
+          },
+          "output": {
+            "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\06\\final.txt",
+            "sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+            "bytes": 235
+          },
+          "changes": [],
+          "errors": [],
+          "assessment": {
+            "conformance": {
+              "status": "LIMITED",
+              "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+            },
+            "correctness": {
+              "status": "NOT_ASSESSED"
+            },
+            "usefulness": {
+              "status": "NOT_ASSESSED"
+            }
+          },
+          "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+          "original_blocks": [
+            {
+              "block": 1,
+              "start": 0,
+              "end": 231,
+              "original_characters": 231,
+              "original_characters_selected": 0,
+              "selected_percent": 0.0,
+              "whole_block_selected": false,
+              "characters_inserted_at_zero_width_spans": 0
+            }
+          ],
+          "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+          "measurements": {
+            "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+            "before_words": 42,
+            "after_words": 42,
+            "net_words_removed": 0,
+            "net_reduction_percent": 0.0,
+            "words_inserted": 0,
+            "words_removed_or_replaced": 0,
+            "original_tokens_removed_or_replaced_percent": 0.0,
+            "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+          }
+        }
+      },
+      "assessment": {
+        "title": "Concise control: the station scene",
+        "changes": "No change in either stage. Before, reader proposal and final are byte-identical.",
+        "conformance": "The editor preserved the whole passage rather than manufacturing a revision. No moral, personal history or new event was added.",
+        "correctness": "The scene and chronology were preserved. The narrower ledger does not independently state the narrator watched, that the wet bench caused the standing choice, or that each seat was dried. These plausible details already occur in the original; the editor did not add them.",
+        "usefulness": "The masked reader tied the identical versions and found the ending effective without adding a lesson. This is evidence of restraint on one case, not proof that the skill will always leave effective writing alone.",
+        "reader_preference": "Tie; identical",
+        "correctness_status": "Original preserved; three details not independently covered by ledger",
+        "qualification": "For creative prose the author-supplied scene is evidence too. The ledger gaps should not be turned into a requirement to flatten valid narrative connections. This is invented narrative, not user biography."
+      }
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "R_spelling",
+      "text": "The measurment is repeatble.",
+      "role": "issue",
+      "premarked_targets": 2,
+      "LanguageTool": "'measurment' -> 'measurement'; 'repeatble' -> 'repeatable'",
+      "Harper": "'measurment' -> 'measurement'; 'repeatble' -> 'repeatable'"
+    },
+    {
+      "id": "R_article",
+      "text": "This is a example.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "'a' -> 'an'",
+      "Harper": "'a' -> 'an'"
+    },
+    {
+      "id": "R_repeated_word",
+      "text": "The sensor records the the temperature.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "'the the' -> 'the'",
+      "Harper": "'the the' -> 'the'"
+    },
+    {
+      "id": "R_punctuation_spacing",
+      "text": "The pump stopped , but the alarm remained active.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "' ,' -> ','",
+      "Harper": "' ' -> ''"
+    },
+    {
+      "id": "R_agreement",
+      "text": "The results is consistent.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "'is' -> 'are'",
+      "Harper": "No flag"
+    },
+    {
+      "id": "R_comma_splice",
+      "text": "The pump stopped, the alarm remained active.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "No flag",
+      "Harper": "No flag"
+    },
+    {
+      "id": "R_run_on",
+      "text": "The sensor failed the alarm stayed silent.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "No flag",
+      "Harper": "No flag"
+    },
+    {
+      "id": "R_attachment_ambiguity",
+      "text": "I saw the operator with the camera.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "No flag",
+      "Harper": "No flag"
+    },
+    {
+      "id": "R_medical_vocabulary",
+      "text": "The patient had hypoxaemia; auscultation revealed bilateral crackles.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "'hypoxaemia' -> 'hypoxemia'",
+      "Harper": "'hypoxaemia' -> 'hypothermia'"
+    },
+    {
+      "id": "R_engineering_vocabulary",
+      "text": "The microcontroller reads the thermocouple and logs the hysteresis.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "No flag",
+      "Harper": "'thermocouple' -> None"
+    },
+    {
+      "id": "R_purposeful_repetition",
+      "text": "The first valve is closed. The second valve is closed.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "No flag",
+      "Harper": "No flag"
+    },
+    {
+      "id": "R_good_punctuation",
+      "text": "The report, which I sent yesterday, contains three figures; the appendix contains two.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "No flag",
+      "Harper": "No flag"
+    },
+    {
+      "id": "R_passive_without_actor",
+      "text": "The sample was collected at 09:00.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "No flag",
+      "Harper": "No flag"
+    },
+    {
+      "id": "R_unicode_offsets",
+      "text": "🧪 The measurment is repeatble.",
+      "role": "issue",
+      "premarked_targets": 2,
+      "LanguageTool": "'measurment' -> 'measurement'; 'repeatble' -> 'repeatable'",
+      "Harper": "'measurment' -> 'measurement'; 'repeatble' -> 'repeatable'"
+    },
+    {
+      "id": "R_markdown",
+      "text": "# Test results\n\n```text\nThe measurment is repeatble.\n```\n\nThe measurement is repeatable.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "'       ' -> ' '; '   ' -> ' '",
+      "Harper": "'       ' -> ' '; '                            ' -> ' '; '   ' -> ' '"
+    },
+    {
+      "id": "N_article_ultrasound",
+      "text": "The clinician requested a ultrasound examination.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "'a' -> 'an'",
+      "Harper": "'a' -> 'an'"
+    },
+    {
+      "id": "N_compound_subject",
+      "text": "The controller and the display is powered by separate supplies.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "'is' -> 'are'",
+      "Harper": "No flag"
+    },
+    {
+      "id": "N_confusable",
+      "text": "The technician checked there notes before restarting.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "No flag",
+      "Harper": "'there' -> 'their'"
+    },
+    {
+      "id": "N_past_tense",
+      "text": "Yesterday, the technician calibrate the sensor.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "'calibrate' -> 'calibrates'",
+      "Harper": "No flag"
+    },
+    {
+      "id": "N_duplicate_comma",
+      "text": "After the test,, the operator saved the log.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "',,' -> ','",
+      "Harper": "No flag"
+    },
+    {
+      "id": "N_plural_noun",
+      "text": "Three sample were discarded.",
+      "role": "issue",
+      "premarked_targets": 1,
+      "LanguageTool": "No flag",
+      "Harper": "No flag"
+    },
+    {
+      "id": "N_had_had",
+      "text": "I had had enough, so I went home.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "No flag",
+      "Harper": "'had had' -> 'had'"
+    },
+    {
+      "id": "N_technical_noun_phrase",
+      "text": "The secondary containment pressure sensor failed.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "No flag",
+      "Harper": "No flag"
+    },
+    {
+      "id": "N_parenthesis_semicolon",
+      "text": "The valve, which had passed the bench test, remained closed; the motor kept running.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "No flag",
+      "Harper": "No flag"
+    },
+    {
+      "id": "N_unicode_units",
+      "text": "At 1.5°C, sensor B reported −0.2°C.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "No flag",
+      "Harper": "No flag"
+    },
+    {
+      "id": "N_medical_us",
+      "text": "The report describes hypoxemia and bronchiectasis.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "No flag",
+      "Harper": "'hypoxemia' -> 'hypoxia'; 'bronchiectasis' -> \"bronchitis's\""
+    },
+    {
+      "id": "N_deliberate_fragment",
+      "text": "Not yet. The bearing was still warm.",
+      "role": "control_or_context_choice",
+      "premarked_targets": 0,
+      "LanguageTool": "No flag",
+      "Harper": "No flag"
+    }
+  ],
+  "prose_reader_result": "Five changed finals preferred by one masked fresh reader each; identical control tied. These are model judgments, not human acceptance.",
+  "recommendation": "Trial local LanguageTool as the primary diagnostic engine; keep replacements advisory and exact-span edits reviewable. Harper offers easier JS/WASM integration and complementary detections, but this round gives it a higher terminology-review burden. Do not run both by default merely to maximize findings.",
+  "limits": [
+    "Small parent-authored fixture set; known regression items duplicate a spelling pattern.",
+    "No matched old-editor or no-skill writing condition.",
+    "One editing trajectory per case; one source-blind reader per pair.",
+    "Independent contexts reduce shared-history contamination, not same-family model bias.",
+    "Editors received no engine findings: writing improvements cannot be credited to LanguageTool or Harper.",
+    "Raw engine defaults differ; this does not compare cloud premium rules, optional n-gram data, or native Markdown modes.",
+    "Engine timing and memory were not benchmarked.",
+    "Original narratives and source ledgers were fictional; no medical or operational validation was performed.",
+    "The masked source auditor could not inspect change records or original identity; parent reconstruction supplies process evidence separately."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "stage": "Separate source meaning check after the reader proposal was sealed.",
+  "input_files_actually_read_this_stage": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\cases\\03\\source.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\03\\brief.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\reader-after.txt"
+  ],
+  "previously_read_in_reader_stage_and_reused": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\SKILL.md",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\local-edits.md",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\technical-meaning.md"
+  ],
+  "generated_files_read_for_execution_or_verification": [
+    {
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\source-plan.json",
+      "purpose": "Read by the exact-span tool."
+    },
+    {
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\final.txt",
+      "purpose": "Final reading for supported meaning, attribution and flow."
+    }
+  ],
+  "selected_claim_checks": [
+    {
+      "claim": "Eighty volunteers from one campus class were randomly assigned to one of two study apps.",
+      "evidence": "[B]",
+      "judgment": "Supported. The algorithm detail is unnecessary to explain the allocation and its omission is not misleading."
+    },
+    {
+      "claim": "Random assignment does not establish random sampling; sampling concerns selection from a population.",
+      "evidence": "[A]",
+      "judgment": "Supported by the definitions and their explicit warning about representative recruitment."
+    },
+    {
+      "claim": "The study therefore provides information about app performance.",
+      "evidence": "[B]",
+      "judgment": "Unsupported in the supplied packet, which explicitly supplies no app-performance results. Removed."
+    },
+    {
+      "claim": "The stated recruitment does not support generalizing to all university students.",
+      "evidence": "[A, B]",
+      "judgment": "Supported. The record gives volunteers from one class, no random sample of the stated population, and no basis for assignment to establish representative recruitment."
+    }
+  ],
+  "corrections": [
+    "Removed the unsupported clause asserting information about app performance, with the capitalization needed for the remaining recruitment sentence.",
+    "Changed the findings to any findings so that the generalization assessment does not imply that performance results were supplied.",
+    "Added [B] after the study-description sentence and [A] after the conceptual explanation. Retained [A, B] for the concluding inference that uses both definitions and recruitment facts."
+  ],
+  "conformance": {
+    "judgment": "Source corrections only; no new style campaign. The four reader-stage files were not modified. The tool used reader-after.txt as the checked source and wrote a separate final.txt.",
+    "mechanical_result": "Completed without errors; hash, exact spans, nonoverlap and reconstruction passed. The reader candidate retained its sealed SHA-256.",
+    "measurements": "70 to 63 whitespace-separated words; 4 inserted, 11 removed or replaced; 19.272 percent of reader-candidate block characters selected."
+  },
+  "correctness": {
+    "judgment": "The final claims and attribution agree with the supplied course definitions and fictional study. No unresolved conflict remains within that packet.",
+    "limits": "This establishes fidelity to the supplied packet only. No external factual research or statistical validation was performed. App-performance outcomes, effect estimates and comparative effectiveness remain unavailable."
+  },
+  "usefulness": {
+    "judgment": "The final text preserves the distinction and directly answers the population-generalization question while avoiding an unsupported performance claim."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "source_sha256": "6763fcc8f9d6445a97e6fd677f7df659849c1073522e0fddd9e7c67f5c8cdb5e",
+  "edits": [
+    {
+      "start": 236,
+      "end": 236,
+      "before": "",
+      "after": " in the supplied record",
+      "reason": "M4 limits the absence of an entered medication order to the supplied record; preserve that evidence boundary rather than asserting that no order exists anywhere."
+    }
+  ]
+}

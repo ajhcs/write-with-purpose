@@ -1,0 +1,849 @@
+{
+  "report_type": "Independent masked source audit",
+  "scope": {
+    "allowed_input_count": 30,
+    "actual_unique_input_count": 30,
+    "allowed_files_per_case": [
+      "brief.txt",
+      "source.txt",
+      "A.txt",
+      "B.txt",
+      "mechanical.json"
+    ],
+    "case_ids": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "input_base": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source",
+    "excluded_material": "No skill instructions, protocol, mapping, editor notes, other experiment files, memory or web sources were read. No agents were delegated. No sample was edited.",
+    "masking": "No inference was made about editor, condition or original-versus-edited identity."
+  },
+  "method": {
+    "reading": "Read exactly the 30 named input files as raw bytes, decoded UTF-8, and assessed both anonymous samples against that case's actual brief and source ledger.",
+    "mechanical_verification": "Independently computed SHA-256 over the exact raw bytes using .NET SHA256. Independently counted maximal non-whitespace runs using regex \\S+. Parsed the supplied mechanical.json only to compare its stated words and hashes with these independent values.",
+    "word_count_interpretation": "Whitespace-delimited token counts are descriptive and include punctuation/citation tokens as written; they are not a lexical word-count rubric or quality score.",
+    "separation": "Brief fit and source correctness are reported separately. Direct contradictions, unsupported claims, plausible inferences, optional wording and justified selection are distinguished."
+  },
+  "shared_context": {
+    "fictional_provenance": "All six source ledgers explicitly describe fictional material. This audit treats every person, scene, study and specification as fictional and makes no claim about the user.",
+    "fiction_label_in_samples": "A.txt and B.txt omit the editorial fictional wrapper. That omission is not by itself evidence that a sample asserts real events or facts about the user; clean fictional prose can rely on its enclosing context. The fictional provenance should accompany any standalone reuse.",
+    "change_record": "Every brief requests clean edited prose plus a short change record. None of the twelve supplied A/B text files contains a change record. This is a shared as-supplied deliverable omission; separate editor records, if any, are outside the authorized inputs and were not inspected.",
+    "original_preservation_and_voice": "The permitted source.txt files are fact ledgers, not identified original draft files. The masked inputs do not establish which sample, if any, is the original. Original-file preservation, edit size relative to that draft and exact preservation of its authorial wording cannot be verified. Requested register and scene voice can still be assessed.",
+    "selection_rule": "A source fact need not be restated when the brief does not require it and its omission does not distort the selected account. Word count is descriptive only; no reduction target or usefulness ranking is imposed.",
+    "severity_scale": {
+      "material": "Direct contradiction or unsupported inference affecting a central required distinction, operating condition or conclusion.",
+      "moderate": "Unsupported substantive claim or evidence attribution that changes what the supplied account establishes.",
+      "minor": "Localized scope, precision, added detail or brief-fit issue without reversal of the central account.",
+      "contextual": "Delivery or provenance qualification distinct from the prose's substantive factual correctness."
+    }
+  },
+  "material_findings": [
+    "01 B changes the closing bound from >=180 kPa to >180 kPa.",
+    "03 B equates random assignment with random sampling, incorrectly supports generalization to all university students, and adds unsupplied performance/results language with a misleading source marker."
+  ],
+  "other_cross_sample_findings": [
+    "02 A and B add gendered pronouns not supplied by the record; A also drops the explicit supplied-record restriction from the no-order statement.",
+    "06 A and B are identical and share minor plausible-but-unsupplied causal, observational and exhaustive details.",
+    "All twelve prose files lack the short change record requested in the briefs; original preservation cannot be determined from these masked inputs.",
+    "04 B's optional generic lesson has a minor contribution/voice concern, not an invented-scene or categorical no-moral violation."
+  ],
+  "cases": [
+    {
+      "case": "01",
+      "task": "Fictional technician operating note: distinguish opening and closing thresholds, consecutive-reading counts and timing; no added advice.",
+      "source_selection": "The display fact is included by both samples. Numbered rule labels and the source's meta-description need not be reproduced in the note.",
+      "shared_precision_notes": [
+        {
+          "sample_span": "reservoir pressure stays below 160 kPa for two consecutive readings taken 2 seconds apart",
+          "source_span": "Open the bypass after two consecutive reservoir-pressure readings strictly below 160 kPa.",
+          "assessment": "The numerical opening rule and count are preserved. 'Stays below' is ordinarily readable as referring to the two readings, so this is not a demonstrated contradiction. It can also suggest continuous pressure between samples; the source specifies sampled values only. A reading-based formulation would remove that minor ambiguity."
+        },
+        {
+          "source_span": "Readings are taken 2 seconds apart.",
+          "assessment": "Both samples attach 'taken 2 seconds apart' directly to the opening readings. The closing sentence can reasonably inherit the same sampling interval, but it does not explicitly state that the interval also governs the three closing readings. This is a shared minor timing-clarity limitation for the technician, not a demonstrated change to the interval or a claim that the closing readings are instantaneous."
+        }
+      ],
+      "samples": {
+        "A": {
+          "brief_conformance": {
+            "assessment": "Core operating distinctions are met, with shared minor timing and sampling-wording ambiguities.",
+            "explanation": "Uses <160 kPa for two consecutive readings and >=180 kPa for three; supplies the 2-second interval and no new operating or maintenance advice. The global delivery qualifications also apply."
+          },
+          "source_fidelity": {
+            "assessment": "No definite factual contradiction found.",
+            "explanation": "'At or above 180 kPa' faithfully includes the boundary value. 'Most recent reading' is a faithful paraphrase of 'latest reservoir-pressure reading' in this context.",
+            "findings": []
+          },
+          "omissions_and_optional_wording": "No required substantive fact is demonstrably missing. Repeating the reservoir-pressure noun in every sentence or retaining S1-S4 labels is optional."
+        },
+        "B": {
+          "brief_conformance": {
+            "assessment": "Does not preserve the required closing boundary.",
+            "explanation": "The opening count and threshold are retained, but the closing threshold excludes a value the specification includes. Added explanations about the different thresholds are factually supported; several restate information already explicit, which is a minor concision/flow concern rather than an error inferred from length."
+          },
+          "source_fidelity": {
+            "assessment": "Material boundary error.",
+            "explanation": "The source permits closing on readings exactly equal to 180 kPa; the sample requires readings greater than 180 kPa.",
+            "findings": [
+              {
+                "id": "01-B-boundary",
+                "severity": "material",
+                "category": "threshold_changed",
+                "sample_span": "It closes after three consecutive readings above 180 kPa.",
+                "source_span": "Close the bypass after three consecutive reservoir-pressure readings greater than or equal to 180 kPa.",
+                "analysis": "'Above' changes >=180 to >180. Three consecutive readings of exactly 180 kPa satisfy the source but not this wording.",
+                "consequence": "Changes a required controller operating condition."
+              }
+            ]
+          },
+          "omissions_and_optional_wording": "The extra explanations and display paraphrase do not add new operating or maintenance steps. The shared timing-clarity qualification remains separate from the definite boundary error."
+        }
+      },
+      "source_anchors": [
+        "Open after two consecutive reservoir-pressure readings strictly below 160 kPa.",
+        "Readings are taken 2 seconds apart, including the readings used for closing.",
+        "Close after three consecutive reservoir-pressure readings at or above 180 kPa."
+      ],
+      "explicit_brief_requirements": [
+        "Identify opening and closing conditions for a technician.",
+        "Keep both pressure thresholds and timing conditions distinct.",
+        "Add no operating or maintenance advice."
+      ]
+    },
+    {
+      "case": "02",
+      "task": "Fictional clinician summary: preserve posture, timing and suggestion-versus-order status; no diagnosis or treatment recommendation.",
+      "source_selection": "Both samples carry all six clinical facts. M1-M6 labels and the source's no-recommendation instruction need not appear as patient content.",
+      "samples": {
+        "A": {
+          "brief_conformance": {
+            "assessment": "Core clinical requirements met, with a minor source-scope qualification.",
+            "explanation": "Posture, 2-minute timing, units, the suggested dose change and the absence of an order are distinguished. No diagnosis or management advice is added. The explanatory sentences about different positions and suggestion-versus-order are true but repeat immediately stated distinctions; that is a minor flow concern, not a factual error."
+          },
+          "source_fidelity": {
+            "assessment": "Core medical facts supported; minor unsupported pronouns and loss of an explicit record-scope qualifier.",
+            "explanation": "The near-fainting statement retains the distinction between no reported loss of consciousness and a proven absence of loss. 'Unconfirmed' is used consistently with the immediately following statement that no cause is established in the record.",
+            "findings": [
+              {
+                "id": "02-A-record-scope",
+                "severity": "minor",
+                "category": "scope_qualifier_weakened",
+                "sample_span": "A dose reduction was suggested during the review, but no medication order has been entered.",
+                "source_span": "No medication order has been entered in the supplied record.",
+                "analysis": "The sample omits 'in the supplied record' from the order statement. In a summary of that record the scope may be understood, so this is not proven false; standalone wording is broader than the evidence establishes.",
+                "consequence": "Could imply knowledge of orders outside the supplied record."
+              },
+              {
+                "id": "02-A-pronouns",
+                "severity": "minor",
+                "category": "unsupported_person_detail",
+                "sample_span": "Her blood pressure was 126/78 mmHg while seated",
+                "source_span": "Patient Mira reported light-headedness on standing.",
+                "analysis": "The source gives a name and clinical facts but no gender or pronouns. 'Her' and the sample's uses of 'she' add an unsourced identity detail.",
+                "consequence": "Small avoidable addition; does not alter the reported measurements or clinical status."
+              }
+            ]
+          },
+          "omissions_and_optional_wording": "No required clinical event or measurement is omitted. The absence of an explicit fictional label in the prose is covered by the global provenance qualification."
+        },
+        "B": {
+          "brief_conformance": {
+            "assessment": "Core clinical requirements met.",
+            "explanation": "Preserves the two positions, exact pressures and units, two minutes after standing, suggestion-versus-order distinction, prior-evening timing, reported consciousness status and unestablished cause. No diagnosis or treatment advice is added."
+          },
+          "source_fidelity": {
+            "assessment": "Core medical facts supported; minor unsupported pronouns.",
+            "explanation": "The order statement explicitly retains the supplied-record limit, and the cause remains qualified as unconfirmed in the record.",
+            "findings": [
+              {
+                "id": "02-B-pronouns",
+                "severity": "minor",
+                "category": "unsupported_person_detail",
+                "sample_span": "Her blood pressure was 126/78 mmHg while seated",
+                "source_span": "Patient Mira reported light-headedness on standing.",
+                "analysis": "The source supplies no gender or pronouns. 'Her' and 'she' are unsourced identity details, even though they are plausible for the name.",
+                "consequence": "Small avoidable addition; no change to measurement or clinical claim state."
+              }
+            ]
+          },
+          "omissions_and_optional_wording": "A separate sentence explaining that a suggestion is not an order is optional because the retained sentence already states the distinction."
+        }
+      },
+      "source_anchors": [
+        "Light-headedness on standing; seated pressure 126/78 mmHg; pressure 102/66 mmHg two minutes after standing.",
+        "Dose reduction suggested during review; no medication order entered in the supplied record.",
+        "Nearly fainted the previous evening without reported loss of consciousness; cause not established."
+      ],
+      "explicit_brief_requirements": [
+        "Summarize the fictional assessment and pending documentation for a clinician.",
+        "Preserve posture, timing and suggested change versus order.",
+        "Add no diagnosis or treatment recommendations."
+      ]
+    },
+    {
+      "case": "03",
+      "task": "Fictional study assignment: explain random sampling versus random assignment, assess generalization to all university students, and place supplied evidence markers appropriately.",
+      "source_selection": "An explanation can use the actual study allocation to define random assignment; a second textbook-definition sentence is not required. The algorithm detail is optional when random allocation is already stated. No app-performance results may be invented.",
+      "samples": {
+        "A": {
+          "brief_conformance": {
+            "assessment": "Substantive assignment requirements met.",
+            "explanation": "Keeps both terms, explains allocation through the concrete app example, describes sampling as random selection from the population of interest and assesses the stated population-generalization claim. [B], [A] and [A, B] are placed with supported study facts, definitions and their combined inference."
+          },
+          "source_fidelity": {
+            "assessment": "Supported.",
+            "explanation": "The count, recruitment source and assignment to two apps are preserved. 'Any findings' is conditional; it does not assert unseen results. The generalization sentence addresses what this recruitment supports rather than claiming no student population could ever be studied.",
+            "findings": []
+          },
+          "omissions_and_optional_wording": "Omitting the word 'algorithm' is justified selection. No required distinction is lost, and there is no requirement to repeat the source's meta-instruction."
+        },
+        "B": {
+          "brief_conformance": {
+            "assessment": "Fails the central methodological distinction and the requested evidence-supported generalization assessment.",
+            "explanation": "Both terms appear, but the passage equates them instead of explaining their different roles. The concluding marker does not make the unsupported claims source-backed."
+          },
+          "source_fidelity": {
+            "assessment": "Material methodological error and unsupported result/performance language.",
+            "explanation": "The first recruitment/allocation sentence is supported. The main inference contradicts both the definitions and the stated recruitment limit.",
+            "findings": [
+              {
+                "id": "03-B-conflation",
+                "severity": "material",
+                "category": "central_definition_and_generalization_error",
+                "sample_span": "This random assignment means that the study used random sampling, so its findings can be generalized to all university students.",
+                "source_span": "Random assignment does not by itself establish representative recruitment.",
+                "analysis": "Allocation of enrolled volunteers does not establish how the volunteers were selected. The source also explicitly states that the recruitment record provides no random sample of all university students.",
+                "consequence": "Reverses the required distinction and reaches the unsupported population-generalization conclusion."
+              },
+              {
+                "id": "03-B-performance",
+                "severity": "moderate",
+                "category": "unsupported_substantive_claim",
+                "sample_span": "The study therefore provides information about app performance",
+                "source_span": "no unseen app-performance results are supplied.",
+                "analysis": "The source supplies recruitment and app allocation only; it does not specify measured app performance or any results. The statement, together with 'its findings' and 'the results', presents performance/results as available when that is not established.",
+                "consequence": "Adds a study claim beyond the supplied methodological facts."
+              },
+              {
+                "id": "03-B-citations",
+                "severity": "moderate",
+                "category": "evidence_attribution_mismatch",
+                "sample_span": "[A, B]",
+                "source_span": "The recruitment record provides no random sample of all university students.",
+                "analysis": "The sole end marker cannot substantiate the paragraph's incorrect equivalence, population-generalization claim or performance statement. Grouping markers is not itself an error; attaching them to a paragraph containing these unsupported claims is the problem.",
+                "consequence": "Can misrepresent contradictory source evidence as support; overlaps the substantive errors rather than constituting independent proof of another result."
+              }
+            ]
+          },
+          "omissions_and_optional_wording": "Repeating that participants were divided between two apps is supported. The defect is the incorrect relationship and unsupported inference, not paragraph length or the mere presence of an explanatory bridge."
+        }
+      },
+      "source_anchors": [
+        "Random sampling concerns selection from a population into a study; random assignment concerns allocation of enrolled participants to conditions.",
+        "80 volunteers from one campus class were randomly allocated to one of two study apps.",
+        "Random assignment does not establish representative recruitment; the supplied recruitment does not support a random sample of all university students."
+      ],
+      "explicit_brief_requirements": [
+        "Explain random sampling and random assignment and keep both terms.",
+        "Assess whether recruitment supports generalization to all university students.",
+        "Use [A] and [B] where the evidence supports the claims."
+      ]
+    },
+    {
+      "case": "04",
+      "task": "Short fictional first-person bus-stop scene: retain scene and voice; no invented personal history, statistics or events. A general lesson is optional if it adds something beyond the scene.",
+      "source_selection": "Neither sample needs to reproduce the fact ledger's prohibition list in the blog scene. The presence or absence of a general lesson alone is not a compliance test.",
+      "samples": {
+        "A": {
+          "brief_conformance": {
+            "assessment": "Scene and requested first-person register met.",
+            "explanation": "Retains the signs, their mismatch, the fenced shelter, roadworks, two trips around the block and the driver's intervention. No biography, population claim or additional incident is introduced."
+          },
+          "source_fidelity": {
+            "assessment": "Supported scene, with a reasonable opening interpretation rather than a demonstrated invented event.",
+            "explanation": "'I missed the replacement bus stop because I followed the large blue sign' compresses the supplied failure to locate the temporary stop. 'Missed the stop' need not mean a departed or missed bus, which is not asserted. The causal interpretation is plausible from the supplied conflicting directions and does not establish an additional travel event.",
+            "findings": []
+          },
+          "omissions_and_optional_wording": "No general lesson is required. 'At the corner', 'temporary stop's address' and 'pointed back toward the shelter' preserve the supplied relationships without adding a city or commute pattern."
+        },
+        "B": {
+          "brief_conformance": {
+            "assessment": "Scene requirements met; minor optional-lesson/voice concern.",
+            "explanation": "The concrete first-person scene is intact. A lesson is permitted by this brief, so adding one is not automatically a violation. Here the added closing sentences largely restate the scene's navigation problem and move into a generic didactic register."
+          },
+          "source_fidelity": {
+            "assessment": "No definite invented scene fact found.",
+            "explanation": "The opening has the same reasonable interpretation as A. The closing statements are general commentary rather than empirical population findings or new events.",
+            "findings": []
+          },
+          "brief_fit_findings": [
+            {
+              "id": "04-B-lesson",
+              "severity": "minor",
+              "category": "optional_lesson_contribution_and_voice",
+              "sample_span": "This experience illustrates the importance of clear communication in everyday life.",
+              "related_span": "In the end, the purpose of a sign is to tell people where to go.",
+              "brief_span": "A general lesson is optional if it contributes something beyond the scene.",
+              "analysis": "The close restates that confusing directions hinder navigation, which the concrete scene already demonstrates. It has limited additional content and shifts voice away from the first-person scene. This is a brief-fit/editorial judgment, not a source-fact error or a rule against general lessons."
+            }
+          ],
+          "omissions_and_optional_wording": "No required scene fact is omitted. General commentary is permitted in principle; its contribution and voice, rather than added word count, are the relevant issues."
+        }
+      },
+      "source_anchors": [
+        "Large blue sign directs the narrator to the usual shelter, fenced off for roadworks.",
+        "Smaller corner notice provides the temporary stop address while its arrow points toward the usual shelter.",
+        "Narrator walks the block twice before a driver waves them over."
+      ],
+      "explicit_brief_requirements": [
+        "Keep the concrete fictional scene and first-person voice.",
+        "Add no personal history, statistics or invented events.",
+        "A general lesson is optional if it contributes beyond the scene."
+      ]
+    },
+    {
+      "case": "05",
+      "task": "Fictional operator instruction: preserve guard interlock, exact Reset and Start labels and close-Reset-Start sequence; add no steps.",
+      "source_selection": "The separate effects may be expressed in one linked sentence or reinforced in another. A standalone sentence saying 'Reset does not start the pump' is not required if the same condition is clear from the retained wording.",
+      "samples": {
+        "A": {
+          "brief_conformance": {
+            "assessment": "Core requirements met.",
+            "explanation": "Preserves exact Reset and Start labels, the open-guard stop condition and closure before Reset before Start. It introduces no new component or operating step."
+          },
+          "source_fidelity": {
+            "assessment": "Supported.",
+            "explanation": "'The pump remains stopped until Start is pressed' and 'Reset clears the interlock, but it does not restart the pump' accurately separate reset from starting. 'Restart' is natural in this stopped-pump context and does not establish an extra event.",
+            "findings": []
+          },
+          "omissions_and_optional_wording": "The explicit final reset/start contrast repeats a condition but can reinforce an important operator distinction. It is optional emphasis, not an unsupported claim or automatic brevity defect."
+        },
+        "B": {
+          "brief_conformance": {
+            "assessment": "Core requirements met.",
+            "explanation": "Preserves exact labels, open-guard stop condition, close-then-Reset order and the separate Start requirement. No additional step is added."
+          },
+          "source_fidelity": {
+            "assessment": "Supported.",
+            "explanation": "'Press Reset to clear the interlock; the pump remains stopped until Start is pressed' states both the clearing effect and the fact that Reset does not start the pump in this sequence.",
+            "findings": []
+          },
+          "omissions_and_optional_wording": "No required meaning is missing merely because there is no separate reset-does-not-start sentence. The preceding closure and reset clauses provide the conditions for the later Start."
+        }
+      },
+      "source_anchors": [
+        "Pump stays stopped while guard is open.",
+        "Close guard before Reset clears the interlock.",
+        "Reset does not start pump; Start is required after closure and reset."
+      ],
+      "explicit_brief_requirements": [
+        "Explain the guard interlock and separate Reset and Start effects.",
+        "Preserve exact Reset and Start labels and operating sequence.",
+        "Add no steps."
+      ]
+    },
+    {
+      "case": "06",
+      "task": "Short fictional first-person station scene: preserve voice, chronology and concrete details; no moral, biography or new event; edits only where beneficial.",
+      "source_selection": "All supplied concrete scene details are retained. No moral or additional later event is required. Identical samples can be compatible with a brief that permits leaving wording alone; identity alone is neither a defect nor proof of source fidelity.",
+      "shared_source_findings": [
+        {
+          "id": "06-shared-cause",
+          "severity": "minor",
+          "category": "plausible_but_unsupplied_causal_link",
+          "sample_span": "The bench was wet, so I stood under the timetable",
+          "source_span": "There is no supplied motive, conversation, biography or later event.",
+          "analysis": "The wet bench and standing location are supplied separately. 'So' presents the wet bench as the narrator's reason for standing under the timetable. It is a plausible narrative inference, not a contradiction, but that motive/link is not stated in the ledger.",
+          "consequence": "Adds an explanatory claim beyond the strict supplied facts."
+        },
+        {
+          "id": "06-shared-observation",
+          "severity": "minor",
+          "category": "unsupplied_narrator_action",
+          "sample_span": "watched a porter dry each seat",
+          "source_span": "A porter dried the seats with yesterday’s newspaper.",
+          "analysis": "The ledger reports the porter's action and the narrator's location but does not explicitly say the narrator watched the drying. That observational action is a plausible first-person bridge, yet it is not independently supplied and should not be treated as a sourced fact under a strict no-new-event brief.",
+          "consequence": "Minor added narrative action; no claim of conversation or a later event."
+        },
+        {
+          "id": "06-shared-extent",
+          "severity": "minor",
+          "category": "unsupplied_exhaustive_quantifier",
+          "sample_span": "dry each seat",
+          "source_span": "A porter dried the seats with yesterday’s newspaper.",
+          "analysis": "'Each seat' makes the extent explicitly exhaustive. The source's plural 'the seats' does not separately establish that every seat was dried. This is a minor strengthening under a strict fact-ledger reading, not evidence that any particular seat was left undried.",
+          "consequence": "Slightly strengthens the scope of the drying action."
+        }
+      ],
+      "samples": {
+        "A": {
+          "brief_conformance": {
+            "assessment": "Voice, chronology and concrete details met; minor strict-source additions.",
+            "explanation": "Keeps first-person narrative, rain-before-arrival timing, wet bench, timetable, yesterday's newspaper, sports pages and the one seat under the leaking roof. Adds no moral or personal history. The causal link, watching action and exhaustive wording require the shared source qualifications."
+          },
+          "source_fidelity": {
+            "assessment": "Substantive sequence preserved; minor unsupported interpretive details.",
+            "explanation": "The shared findings apply in full. They are plausible inferences, not central contradictions; no identity as an original or edited draft is inferred.",
+            "finding_refs": [
+              "06-shared-cause",
+              "06-shared-observation",
+              "06-shared-extent"
+            ],
+            "findings": []
+          },
+          "omissions_and_optional_wording": "No required concrete detail is missing. The change from 'a leaking roof' to 'the leaking roof' is ordinary narrative reference, not an error."
+        },
+        "B": {
+          "brief_conformance": {
+            "assessment": "Voice, chronology and concrete details met; minor strict-source additions.",
+            "explanation": "Retains the same required chronology and scene details and introduces no moral or biography. The same shared source qualifications apply."
+          },
+          "source_fidelity": {
+            "assessment": "Substantive sequence preserved; minor unsupported interpretive details.",
+            "explanation": "The shared findings apply equally. Byte identity does not warrant overlooking unsupported claims in either version.",
+            "finding_refs": [
+              "06-shared-cause",
+              "06-shared-observation",
+              "06-shared-extent"
+            ],
+            "findings": []
+          },
+          "omissions_and_optional_wording": "No required scene detail is omitted, and no change is required merely to produce an edit."
+        }
+      },
+      "byte_identity": "A.txt and B.txt have the same SHA-256 and byte count and were also compared as decoded strings; their supplied content is identical.",
+      "source_anchors": [
+        "Rain stops just before arrival; bench is wet; narrator stands under timetable.",
+        "Porter dries seats using yesterday's newspaper, then leaves sports pages on the one seat under a leaking roof."
+      ],
+      "explicit_brief_requirements": [
+        "Preserve first-person voice, chronology and concrete details.",
+        "Add no moral, personal history or new event.",
+        "Edit only where there is a benefit for the passage."
+      ]
+    }
+  ],
+  "mechanical_verification": {
+    "all_supplied_sample_hashes_match": true,
+    "all_supplied_whitespace_counts_match": true,
+    "supplied_sample_hashes_checked": 12,
+    "supplied_whitespace_counts_checked": 12,
+    "case_06_same_bytes": true,
+    "cases": [
+      {
+        "case": "01",
+        "checks": [
+          {
+            "sample": "A",
+            "supplied_words": 36,
+            "verified_whitespace_tokens": 36,
+            "word_count_matches": true,
+            "supplied_sha256": "5530301697d902bdf1873fc20199ec43b13b785c845bf68b3b5616ab36f2bcae",
+            "verified_sha256": "5530301697d902bdf1873fc20199ec43b13b785c845bf68b3b5616ab36f2bcae",
+            "sha256_matches": true
+          },
+          {
+            "sample": "B",
+            "supplied_words": 106,
+            "verified_whitespace_tokens": 106,
+            "word_count_matches": true,
+            "supplied_sha256": "5155f970338a8e72c5b166f3a3aa213e96965968e5d566fc3aa6f76bc88f6ce1",
+            "verified_sha256": "5155f970338a8e72c5b166f3a3aa213e96965968e5d566fc3aa6f76bc88f6ce1",
+            "sha256_matches": true
+          }
+        ]
+      },
+      {
+        "case": "02",
+        "checks": [
+          {
+            "sample": "A",
+            "supplied_words": 102,
+            "verified_whitespace_tokens": 102,
+            "word_count_matches": true,
+            "supplied_sha256": "4a9e3bd9809344101b88aa551d703ad63fd2bfb9b14e8b00d75a91a028e13920",
+            "verified_sha256": "4a9e3bd9809344101b88aa551d703ad63fd2bfb9b14e8b00d75a91a028e13920",
+            "sha256_matches": true
+          },
+          {
+            "sample": "B",
+            "supplied_words": 66,
+            "verified_whitespace_tokens": 66,
+            "word_count_matches": true,
+            "supplied_sha256": "d025931017f3752436eda9b8de57abedc9e0c3505d39c525fbb8a5aff1eaa566",
+            "verified_sha256": "d025931017f3752436eda9b8de57abedc9e0c3505d39c525fbb8a5aff1eaa566",
+            "sha256_matches": true
+          }
+        ]
+      },
+      {
+        "case": "03",
+        "checks": [
+          {
+            "sample": "A",
+            "supplied_words": 63,
+            "verified_whitespace_tokens": 63,
+            "word_count_matches": true,
+            "supplied_sha256": "ef91e4ddef1c1ea6854efcbf4299d44820efa6efa46db43acf1aef18377e947a",
+            "verified_sha256": "ef91e4ddef1c1ea6854efcbf4299d44820efa6efa46db43acf1aef18377e947a",
+            "sha256_matches": true
+          },
+          {
+            "sample": "B",
+            "supplied_words": 103,
+            "verified_whitespace_tokens": 103,
+            "word_count_matches": true,
+            "supplied_sha256": "eaec5a66973981c360e504ed6fa88031eca7b2cd2595e93e6ebe52b27b3f2faf",
+            "verified_sha256": "eaec5a66973981c360e504ed6fa88031eca7b2cd2595e93e6ebe52b27b3f2faf",
+            "sha256_matches": true
+          }
+        ]
+      },
+      {
+        "case": "04",
+        "checks": [
+          {
+            "sample": "A",
+            "supplied_words": 56,
+            "verified_whitespace_tokens": 56,
+            "word_count_matches": true,
+            "supplied_sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+            "verified_sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+            "sha256_matches": true
+          },
+          {
+            "sample": "B",
+            "supplied_words": 101,
+            "verified_whitespace_tokens": 101,
+            "word_count_matches": true,
+            "supplied_sha256": "b594b0153fb13cc4fecd04d6f5119ae1c6a4a70544f5b144d17faf85e47c0b43",
+            "verified_sha256": "b594b0153fb13cc4fecd04d6f5119ae1c6a4a70544f5b144d17faf85e47c0b43",
+            "sha256_matches": true
+          }
+        ]
+      },
+      {
+        "case": "05",
+        "checks": [
+          {
+            "sample": "A",
+            "supplied_words": 34,
+            "verified_whitespace_tokens": 34,
+            "word_count_matches": true,
+            "supplied_sha256": "5ac75deaa519def8130134641176255b43db03ee4c96f04113f79e4bfe3e65e2",
+            "verified_sha256": "5ac75deaa519def8130134641176255b43db03ee4c96f04113f79e4bfe3e65e2",
+            "sha256_matches": true
+          },
+          {
+            "sample": "B",
+            "supplied_words": 27,
+            "verified_whitespace_tokens": 27,
+            "word_count_matches": true,
+            "supplied_sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+            "verified_sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+            "sha256_matches": true
+          }
+        ]
+      },
+      {
+        "case": "06",
+        "checks": [
+          {
+            "sample": "A",
+            "supplied_words": 42,
+            "verified_whitespace_tokens": 42,
+            "word_count_matches": true,
+            "supplied_sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+            "verified_sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+            "sha256_matches": true
+          },
+          {
+            "sample": "B",
+            "supplied_words": 42,
+            "verified_whitespace_tokens": 42,
+            "word_count_matches": true,
+            "supplied_sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+            "verified_sha256": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+            "sha256_matches": true
+          }
+        ]
+      }
+    ]
+  },
+  "actual_inputs_read": [
+    {
+      "case": "01",
+      "name": "brief.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\01\\brief.txt",
+      "sha256_raw": "077a81a9f7ce894546c16c0dd150a3c49c2ca32a26c8259c8b9819963831f267",
+      "byte_count": 576,
+      "utf8_decoded_character_count": 576,
+      "whitespace_delimited_token_count": 85
+    },
+    {
+      "case": "01",
+      "name": "source.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\01\\source.txt",
+      "sha256_raw": "4a85d1fae2109eca86b8d625890bca1b93723277eb771a4a83d91b4d556c0a2a",
+      "byte_count": 454,
+      "utf8_decoded_character_count": 454,
+      "whitespace_delimited_token_count": 67
+    },
+    {
+      "case": "01",
+      "name": "A.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\01\\A.txt",
+      "sha256_raw": "5530301697d902bdf1873fc20199ec43b13b785c845bf68b3b5616ab36f2bcae",
+      "byte_count": 221,
+      "utf8_decoded_character_count": 221,
+      "whitespace_delimited_token_count": 36
+    },
+    {
+      "case": "01",
+      "name": "B.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\01\\B.txt",
+      "sha256_raw": "5155f970338a8e72c5b166f3a3aa213e96965968e5d566fc3aa6f76bc88f6ce1",
+      "byte_count": 637,
+      "utf8_decoded_character_count": 637,
+      "whitespace_delimited_token_count": 106
+    },
+    {
+      "case": "01",
+      "name": "mechanical.json",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\01\\mechanical.json",
+      "sha256_raw": "ef612c92e01402a63ca47adc8d0a8bb0b48ce49c0d10e743ba32a59b8be0647c",
+      "byte_count": 238,
+      "utf8_decoded_character_count": 238,
+      "whitespace_delimited_token_count": 16
+    },
+    {
+      "case": "02",
+      "name": "brief.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\02\\brief.txt",
+      "sha256_raw": "1f0fb3b29453b2e8a6c77bd712ac6721d3f9832403a4684772705b83afe1dc08",
+      "byte_count": 614,
+      "utf8_decoded_character_count": 614,
+      "whitespace_delimited_token_count": 88
+    },
+    {
+      "case": "02",
+      "name": "source.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\02\\source.txt",
+      "sha256_raw": "ad8c0883231c8383a90141bb844c057766b7fc9c210f9d93993af53c332b09f1",
+      "byte_count": 581,
+      "utf8_decoded_character_count": 581,
+      "whitespace_delimited_token_count": 84
+    },
+    {
+      "case": "02",
+      "name": "A.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\02\\A.txt",
+      "sha256_raw": "4a9e3bd9809344101b88aa551d703ad63fd2bfb9b14e8b00d75a91a028e13920",
+      "byte_count": 648,
+      "utf8_decoded_character_count": 648,
+      "whitespace_delimited_token_count": 102
+    },
+    {
+      "case": "02",
+      "name": "B.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\02\\B.txt",
+      "sha256_raw": "d025931017f3752436eda9b8de57abedc9e0c3505d39c525fbb8a5aff1eaa566",
+      "byte_count": 420,
+      "utf8_decoded_character_count": 420,
+      "whitespace_delimited_token_count": 66
+    },
+    {
+      "case": "02",
+      "name": "mechanical.json",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\02\\mechanical.json",
+      "sha256_raw": "f21d18dbf38c6a739eb614dbb373102b7e7d16a42d4f96084a2d27470b6b94d7",
+      "byte_count": 238,
+      "utf8_decoded_character_count": 238,
+      "whitespace_delimited_token_count": 16
+    },
+    {
+      "case": "03",
+      "name": "brief.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\03\\brief.txt",
+      "sha256_raw": "4c4c6003c3fc686c352a94c99e415224778141fa79be3d186c9e29cfcc7080bb",
+      "byte_count": 622,
+      "utf8_decoded_character_count": 622,
+      "whitespace_delimited_token_count": 89
+    },
+    {
+      "case": "03",
+      "name": "source.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\03\\source.txt",
+      "sha256_raw": "358457f1a49538dadf5144e3ef218a4d4b2db03344a0be683dcff9496f27959a",
+      "byte_count": 601,
+      "utf8_decoded_character_count": 601,
+      "whitespace_delimited_token_count": 84
+    },
+    {
+      "case": "03",
+      "name": "A.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\03\\A.txt",
+      "sha256_raw": "ef91e4ddef1c1ea6854efcbf4299d44820efa6efa46db43acf1aef18377e947a",
+      "byte_count": 409,
+      "utf8_decoded_character_count": 409,
+      "whitespace_delimited_token_count": 63
+    },
+    {
+      "case": "03",
+      "name": "B.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\03\\B.txt",
+      "sha256_raw": "eaec5a66973981c360e504ed6fa88031eca7b2cd2595e93e6ebe52b27b3f2faf",
+      "byte_count": 660,
+      "utf8_decoded_character_count": 660,
+      "whitespace_delimited_token_count": 103
+    },
+    {
+      "case": "03",
+      "name": "mechanical.json",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\03\\mechanical.json",
+      "sha256_raw": "9ab75e7c328e79c38b5033d6b96c1b52c5851aedda3d3882bda67357629980dd",
+      "byte_count": 238,
+      "utf8_decoded_character_count": 238,
+      "whitespace_delimited_token_count": 16
+    },
+    {
+      "case": "04",
+      "name": "brief.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\04\\brief.txt",
+      "sha256_raw": "988e2b6d785235758b9cd9da7d4f0464f959a2503674433110125b68f969ed58",
+      "byte_count": 639,
+      "utf8_decoded_character_count": 639,
+      "whitespace_delimited_token_count": 95
+    },
+    {
+      "case": "04",
+      "name": "source.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\04\\source.txt",
+      "sha256_raw": "a28af7de64de7d9b65e2ed7c8e9f4d8b125cdaafc164857dd8b278e678f901a3",
+      "byte_count": 506,
+      "utf8_decoded_character_count": 506,
+      "whitespace_delimited_token_count": 85
+    },
+    {
+      "case": "04",
+      "name": "A.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\04\\A.txt",
+      "sha256_raw": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+      "byte_count": 315,
+      "utf8_decoded_character_count": 313,
+      "whitespace_delimited_token_count": 56
+    },
+    {
+      "case": "04",
+      "name": "B.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\04\\B.txt",
+      "sha256_raw": "b594b0153fb13cc4fecd04d6f5119ae1c6a4a70544f5b144d17faf85e47c0b43",
+      "byte_count": 569,
+      "utf8_decoded_character_count": 567,
+      "whitespace_delimited_token_count": 101
+    },
+    {
+      "case": "04",
+      "name": "mechanical.json",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\04\\mechanical.json",
+      "sha256_raw": "bdc048deffa44ebdf25544628868421d72a39cdd8ed6c53e09f8ff3ec4a90918",
+      "byte_count": 238,
+      "utf8_decoded_character_count": 238,
+      "whitespace_delimited_token_count": 16
+    },
+    {
+      "case": "05",
+      "name": "brief.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\05\\brief.txt",
+      "sha256_raw": "51f1ce7059f3af9d59f77c50517ee877ab6a445b811984790f3f1fd3afe66e56",
+      "byte_count": 564,
+      "utf8_decoded_character_count": 564,
+      "whitespace_delimited_token_count": 84
+    },
+    {
+      "case": "05",
+      "name": "source.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\05\\source.txt",
+      "sha256_raw": "54b41de8159566afa9e5f44de5c0c6fd14246339f1a12b6dfd32b9627af1d1b6",
+      "byte_count": 367,
+      "utf8_decoded_character_count": 367,
+      "whitespace_delimited_token_count": 62
+    },
+    {
+      "case": "05",
+      "name": "A.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\05\\A.txt",
+      "sha256_raw": "5ac75deaa519def8130134641176255b43db03ee4c96f04113f79e4bfe3e65e2",
+      "byte_count": 197,
+      "utf8_decoded_character_count": 197,
+      "whitespace_delimited_token_count": 34
+    },
+    {
+      "case": "05",
+      "name": "B.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\05\\B.txt",
+      "sha256_raw": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+      "byte_count": 158,
+      "utf8_decoded_character_count": 158,
+      "whitespace_delimited_token_count": 27
+    },
+    {
+      "case": "05",
+      "name": "mechanical.json",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\05\\mechanical.json",
+      "sha256_raw": "5d215af1a8fe6308fd1b32e8658dcbd30a28a98974cd69af02a331517f4ef4ae",
+      "byte_count": 237,
+      "utf8_decoded_character_count": 237,
+      "whitespace_delimited_token_count": 16
+    },
+    {
+      "case": "06",
+      "name": "brief.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\06\\brief.txt",
+      "sha256_raw": "4bd3ad2ad21297df4858b21322a40b83b492a6d595d5250b358b97fc22fa919d",
+      "byte_count": 580,
+      "utf8_decoded_character_count": 580,
+      "whitespace_delimited_token_count": 87
+    },
+    {
+      "case": "06",
+      "name": "source.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\06\\source.txt",
+      "sha256_raw": "0b73d3a5d0aade2d5c31414f7add900741557682349c2f5e2eb92b9f8280a892",
+      "byte_count": 407,
+      "utf8_decoded_character_count": 405,
+      "whitespace_delimited_token_count": 68
+    },
+    {
+      "case": "06",
+      "name": "A.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\06\\A.txt",
+      "sha256_raw": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+      "byte_count": 235,
+      "utf8_decoded_character_count": 233,
+      "whitespace_delimited_token_count": 42
+    },
+    {
+      "case": "06",
+      "name": "B.txt",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\06\\B.txt",
+      "sha256_raw": "a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127",
+      "byte_count": 235,
+      "utf8_decoded_character_count": 233,
+      "whitespace_delimited_token_count": 42
+    },
+    {
+      "case": "06",
+      "name": "mechanical.json",
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-source\\06\\mechanical.json",
+      "sha256_raw": "fb2ba4ab5b518bb0d88086e1bc6488801c850bc8346683252cd1650db397e6c9",
+      "byte_count": 237,
+      "utf8_decoded_character_count": 237,
+      "whitespace_delimited_token_count": 16
+    }
+  ]
+}

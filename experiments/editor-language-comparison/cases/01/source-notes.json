@@ -1,0 +1,70 @@
+{
+  "phase": "Separate source meaning check; no new style pass.",
+  "inputs_read_this_phase": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\cases\\01\\source.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\01\\brief.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\01\\reader-after.txt"
+  ],
+  "procedure_resources_read_earlier": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\SKILL.md",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\local-edits.md"
+  ],
+  "tool_executed": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\scripts\\edit_locally.py",
+  "generated_files_checked": [
+    "source-plan.json",
+    "source-receipt.json",
+    "final.txt"
+  ],
+  "corrections": [
+    {
+      "before": "above 180 kPa",
+      "after": "at or above 180 kPa",
+      "evidence": "S3 requires three consecutive reservoir-pressure readings greater than or equal to 180 kPa.",
+      "material_effect": "Includes readings equal to 180 kPa in the closing condition."
+    }
+  ],
+  "claims_and_context_checked": [
+    {
+      "evidence": "S1",
+      "finding": "Two consecutive readings below 160 kPa remain the opening condition; below retains the strict inequality."
+    },
+    {
+      "evidence": "S2",
+      "finding": "The retained timing condition is 2 seconds between readings. No different interval or calculated elapsed-time condition was added."
+    },
+    {
+      "evidence": "S3",
+      "finding": "Three consecutive readings remain the closing condition; the inclusive 180 kPa boundary is now explicit."
+    },
+    {
+      "evidence": "S4",
+      "finding": "The display still shows the most recent reading; reservoir pressure is the established context."
+    },
+    {
+      "evidence": "Brief and source scope note",
+      "finding": "The prose remains an operating note about the stated rules and contains no new operating or maintenance advice."
+    }
+  ],
+  "information_selection": "The reader-stage deletions remove explanations implied by the retained rules and a repeated display statement. They do not omit a separate source rule, so no deleted explanation was restored.",
+  "judgments": {
+    "conformance": {
+      "judgment": "Appears conformant.",
+      "basis": "One exact-span source correction; separate final candidate and receipt; all reader-stage files preserved. No further stylistic changes."
+    },
+    "correctness": {
+      "judgment": "The selected claims are consistent with the supplied fictional specification after correction.",
+      "basis": "Reviewed both thresholds, their inequality boundaries, reading counts, the stated sampling interval and display meaning.",
+      "limit": "This establishes source fidelity for the reviewed claims, not real-world engineering validation."
+    },
+    "usefulness": {
+      "judgment": "The correction prevents a consequential threshold-boundary misreading while preserving the direct note.",
+      "limit": "Usefulness was assessed editorially; no technician reader test was performed."
+    }
+  },
+  "remaining_limits": [
+    "Evidence is limited to the supplied fictional controller specification and brief.",
+    "No controller implementation, real equipment behavior or complete operating procedure was validated."
+  ],
+  "reader_stage_files_preserved": true,
+  "final_reading": "Read the complete final text after the local tool applied the correction."
+}

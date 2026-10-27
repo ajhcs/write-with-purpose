@@ -1,0 +1,76 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\reader-after.txt",
+    "sha256": "6763fcc8f9d6445a97e6fd677f7df659849c1073522e0fddd9e7c67f5c8cdb5e",
+    "bytes": 397
+  },
+  "plan": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\source-plan.json",
+    "sha256": "5d19f9884f19c263ad39103719f8987d457b18902bc190585d2e4e97801dc5a3"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "d025931017f3752436eda9b8de57abedc9e0c3505d39c525fbb8a5aff1eaa566",
+    "bytes": 420
+  },
+  "output": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\final.txt",
+    "sha256": "d025931017f3752436eda9b8de57abedc9e0c3505d39c525fbb8a5aff1eaa566",
+    "bytes": 420
+  },
+  "changes": [
+    {
+      "start": 236,
+      "end": 236,
+      "before": "",
+      "after": " in the supplied record",
+      "reason": "M4 limits the absence of an entered medication order to the supplied record; preserve that evidence boundary rather than asserting that no order exists anywhere.",
+      "plan_index": 0,
+      "location": {
+        "line": 1,
+        "column": 237
+      }
+    }
+  ],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 395,
+      "original_characters": 395,
+      "original_characters_selected": 0,
+      "selected_percent": 0.0,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 23
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 62,
+    "after_words": 66,
+    "net_words_removed": -4,
+    "net_reduction_percent": -6.452,
+    "words_inserted": 5,
+    "words_removed_or_replaced": 1,
+    "original_tokens_removed_or_replaced_percent": 1.613,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}
