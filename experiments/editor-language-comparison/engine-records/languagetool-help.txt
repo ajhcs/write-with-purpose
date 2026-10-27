@@ -1,0 +1,43 @@
+Usage: java -jar languagetool-commandline.jar [OPTION]... FILE
+ FILE                      plain text file to be checked
+ Available options:
+  -r, --recursive          work recursively on directory, not on a single file
+  -c, --encoding ENC       character set of the input text, e.g. utf-8 or latin1
+  -b                       assume that a single line break marks the end of a paragraph
+  -l, --language LANG      the language code of the text, e.g. en for English, en-GB for British English
+  --list                   print all available languages and exit
+  -adl, --autoDetect       auto-detect the language of the input text - note this will not detect
+                           variants like 'English (US)', so you will not get spell checking for
+                           languages with variants
+  -m, --mothertongue LANG  the language code of your first language, used to activate false-friend checking
+  -d, --disable RULES      a comma-separated list of rule ids to be disabled (use no spaces between ids)
+  -e, --enable RULES       a comma-separated list of rule ids to be enabled (use no spaces between ids)
+  -eo, --enabledonly       disable all rules except those enabled explicitly in -e
+  --enablecategories CAT   a comma-separated list of category ids to be enabled (use no spaces between ids)
+  --disablecategories CAT  a comma-separated list of category ids to be disabled (use no spaces between ids)
+  -t, --taggeronly         don't check, but only print text analysis (sentences, part-of-speech tags)
+  -u, --list-unknown       also print a summary of words from the input that LanguageTool doesn't know
+  -b2, --bitext            check bilingual texts with a tab-separated input file,
+                           see http://languagetool.wikidot.com/checking-translations-bilingual-texts
+  --json                   print results as JSON (see https://languagetool.org/http-api/#!/default/post_check)
+  -p, --profile            print performance measurements
+  -v, --verbose            print text analysis (sentences, part-of-speech tags) to STDERR
+  --version                print LanguageTool version number and exit
+  -a, --apply              automatically apply suggestions if available, printing result to STDOUT
+                           NOTE: only use with very robust rules, as this will otherwise introduce new errors
+  --rulefile FILE          use an additional grammar file; if the filename contains a known language code,
+                           it is used in addition of standard rules
+  --remoterules FILE       configure rules depending on external services via a JSON file (optional)
+  --falsefriends FILE      use external false friend file to be used along with the built-in rules
+  --bitextrules  FILE      use external bitext XML rule file (useful only in bitext mode)
+  --languagemodel DIR      a directory with e.g. 'en' sub directory (i.e. a language code) that contains
+                           '1grams'...'3grams' sub directories with Lucene indexes with
+                           ngram occurrence counts; activates the confusion rule if supported;
+                           see https://dev.languagetool.org/finding-errors-using-n-gram-data
+  --fasttextmodel FILE     fasttext language detection model (optional), see https://fasttext.cc/docs/en/language-identification.html
+  --fasttextbinary FILE    fasttext executable (optional), see https://fasttext.cc/docs/en/support.html
+  --xmlfilter              [deprecated] remove XML/HTML elements from input before checking
+  --line-by-line           work on file line by line (for development, e.g. inside an IDE)
+  --enable-temp-off        enable all temp_off rules (for testing and development)
+  --clean-overlapping      clean overlapping matches (show only the highest priority match)
+  --level level            enable the given level (currently only 'PICKY')

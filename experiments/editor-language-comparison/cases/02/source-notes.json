@@ -1,0 +1,102 @@
+{
+  "stage": "separate_source_fidelity_check",
+  "inputs_actually_read_this_phase": [
+    {
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\cases\\02\\source.txt",
+      "purpose": "Supplied fictional evidence, claims M1 through M6."
+    },
+    {
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\02\\brief.txt",
+      "purpose": "Rechecked intended audience and preservation constraints."
+    },
+    {
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\reader-after.txt",
+      "purpose": "Sealed first proposal and source snapshot for the corrective plan."
+    },
+    {
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\technical-meaning.md",
+      "purpose": "Resolved the distinction between a record-bounded absence and an event in the world."
+    }
+  ],
+  "guidance_retained_from_reader_phase": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\SKILL.md",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\local-edits.md"
+  ],
+  "generated_artifacts_read_this_phase": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\final.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\source-receipt.json"
+  ],
+  "tool_executed": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\scripts\\edit_locally.py",
+  "corrections": [
+    {
+      "source_claim": "M4",
+      "issue": "The proposal stated that no medication order had been entered without preserving the source limitation to the supplied record.",
+      "change": "Inserted in the supplied record after no medication order has been entered.",
+      "reason": "The absence of an entered order in the supplied record does not establish that no order was entered elsewhere."
+    }
+  ],
+  "selected_claims_checked": [
+    {
+      "claims": [
+        "M1"
+      ],
+      "finding": "Reported light-headedness remains linked to standing."
+    },
+    {
+      "claims": [
+        "M2",
+        "M3"
+      ],
+      "finding": "Both blood-pressure values, mmHg units, seated posture, standing posture and two-minute interval match the evidence."
+    },
+    {
+      "claims": [
+        "M4"
+      ],
+      "finding": "The dose reduction remains a suggestion during review. The final now limits the absence of an entered order to the supplied record."
+    },
+    {
+      "claims": [
+        "M5"
+      ],
+      "finding": "Previous-evening timing, reported near-fainting and absence of reported loss of consciousness are preserved; no confirmed loss-of-consciousness claim is added."
+    },
+    {
+      "claims": [
+        "M6"
+      ],
+      "finding": "The final preserves uncertainty about the cause without naming a diagnosis or adding management advice."
+    }
+  ],
+  "judgments": {
+    "conformance": {
+      "judgment": "The source phase made one localized qualification and no new stylistic revisions.",
+      "basis": "The exact-span tool completed without errors, preserving all text outside the insertion. Reader-stage files were not modified; reader-after.txt still matches its sealed hash."
+    },
+    "correctness": {
+      "judgment": "The selected final claims are supported by the supplied fictional source packet after the M4 correction.",
+      "limit": "This establishes source fidelity within the supplied packet, not independent clinical truth or medical validation."
+    },
+    "usefulness": {
+      "judgment": "The four-word addition usefully marks the documentation boundary for the clinician reader.",
+      "limit": "This is an editorial assessment; no reader study or clinical evaluation was performed."
+    }
+  },
+  "measurements": {
+    "reader_words": 62,
+    "final_words": 66,
+    "plan_operations": 1,
+    "characters_inserted": 23,
+    "original_characters_selected": 0,
+    "token_alignment_words_inserted": 5,
+    "token_alignment_words_removed_or_replaced": 1,
+    "note": "Token alignment includes the changed punctuation attachment at entered; the plan itself is one insertion."
+  },
+  "remaining_source_fidelity_issues": [],
+  "remaining_limits": [
+    "Only the supplied fictional record was checked. No fuller record, later documentation or independent evidence was consulted.",
+    "The record does not establish a cause or authorize converting the suggested dose reduction into an order.",
+    "No treatment or diagnostic-management recommendation was added."
+  ],
+  "status": "Source check complete; final candidate saved separately from the preserved reader proposal."
+}

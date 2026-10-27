@@ -1,0 +1,299 @@
+INDEPENDENT MASKED SOURCE REVIEW
+
+Scope: exactly 30 supplied input files, five named files in each of cases 01-06. No protocol, mapping, editor notes, other experiment files, skill instructions, memory or web sources were read. No delegation. No sample edits.
+Both anonymous samples were assessed against the actual brief and source ledger. No editor/condition/original identity was inferred, no usefulness ranking was made, and length was not treated as quality.
+
+METHOD AND SHARED QUALIFICATIONS
+Independently computed SHA-256 over the exact raw bytes using .NET SHA256. Independently counted maximal non-whitespace runs using regex \S+. Parsed the supplied mechanical.json only to compare its stated words and hashes with these independent values.
+Whitespace-delimited token counts are descriptive and include punctuation/citation tokens as written; they are not a lexical word-count rubric or quality score.
+Brief fit and source correctness are reported separately. Direct contradictions, unsupported claims, plausible inferences, optional wording and justified selection are distinguished.
+fictional provenance: All six source ledgers explicitly describe fictional material. This audit treats every person, scene, study and specification as fictional and makes no claim about the user.
+fiction label in samples: A.txt and B.txt omit the editorial fictional wrapper. That omission is not by itself evidence that a sample asserts real events or facts about the user; clean fictional prose can rely on its enclosing context. The fictional provenance should accompany any standalone reuse.
+change record: Every brief requests clean edited prose plus a short change record. None of the twelve supplied A/B text files contains a change record. This is a shared as-supplied deliverable omission; separate editor records, if any, are outside the authorized inputs and were not inspected.
+original preservation and voice: The permitted source.txt files are fact ledgers, not identified original draft files. The masked inputs do not establish which sample, if any, is the original. Original-file preservation, edit size relative to that draft and exact preservation of its authorial wording cannot be verified. Requested register and scene voice can still be assessed.
+selection rule: A source fact need not be restated when the brief does not require it and its omission does not distort the selected account. Word count is descriptive only; no reduction target or usefulness ranking is imposed.
+Severity: material = central contradiction/operating-condition error; moderate = substantive unsupported claim or evidence attribution; minor = local scope, precision, added-detail or brief-fit issue; contextual = delivery/provenance qualification.
+
+MATERIAL FINDINGS
+- 01 B changes the closing bound from >=180 kPa to >180 kPa.
+- 03 B equates random assignment with random sampling, incorrectly supports generalization to all university students, and adds unsupplied performance/results language with a misleading source marker.
+
+CASE-BY-CASE ASSESSMENT
+
+CASE 01 — Fictional technician operating note: distinguish opening and closing thresholds, consecutive-reading counts and timing; no added advice.
+Explicit brief requirements:
+- Identify opening and closing conditions for a technician.
+- Keep both pressure thresholds and timing conditions distinct.
+- Add no operating or maintenance advice.
+Relevant source anchors (not a requirement to repeat every fact verbatim):
+- Open after two consecutive reservoir-pressure readings strictly below 160 kPa.
+- Readings are taken 2 seconds apart, including the readings used for closing.
+- Close after three consecutive reservoir-pressure readings at or above 180 kPa.
+Selection: The display fact is included by both samples. Numbered rule labels and the source's meta-description need not be reproduced in the note.
+
+A — brief conformance: Core operating distinctions are met, with shared minor timing and sampling-wording ambiguities.
+Uses <160 kPa for two consecutive readings and >=180 kPa for three; supplies the 2-second interval and no new operating or maintenance advice. The global delivery qualifications also apply.
+A — source fidelity: No definite factual contradiction found.
+'At or above 180 kPa' faithfully includes the boundary value. 'Most recent reading' is a faithful paraphrase of 'latest reservoir-pressure reading' in this context.
+Selection/optional wording: No required substantive fact is demonstrably missing. Repeating the reservoir-pressure noun in every sentence or retaining S1-S4 labels is optional.
+
+B — brief conformance: Does not preserve the required closing boundary.
+The opening count and threshold are retained, but the closing threshold excludes a value the specification includes. Added explanations about the different thresholds are factually supported; several restate information already explicit, which is a minor concision/flow concern rather than an error inferred from length.
+B — source fidelity: Material boundary error.
+The source permits closing on readings exactly equal to 180 kPa; the sample requires readings greater than 180 kPa.
+Finding 01-B-boundary [material; threshold_changed]
+Sample: "It closes after three consecutive readings above 180 kPa."
+Source: "Close the bypass after three consecutive reservoir-pressure readings greater than or equal to 180 kPa."
+'Above' changes >=180 to >180. Three consecutive readings of exactly 180 kPa satisfy the source but not this wording.
+Scope/impact: Changes a required controller operating condition.
+Selection/optional wording: The extra explanations and display paraphrase do not add new operating or maintenance steps. The shared timing-clarity qualification remains separate from the definite boundary error.
+
+Shared precision observations (not scored as demonstrated contradictions):
+Sample: "reservoir pressure stays below 160 kPa for two consecutive readings taken 2 seconds apart"
+Source: "Open the bypass after two consecutive reservoir-pressure readings strictly below 160 kPa."
+The numerical opening rule and count are preserved. 'Stays below' is ordinarily readable as referring to the two readings, so this is not a demonstrated contradiction. It can also suggest continuous pressure between samples; the source specifies sampled values only. A reading-based formulation would remove that minor ambiguity.
+Source: "Readings are taken 2 seconds apart."
+Both samples attach 'taken 2 seconds apart' directly to the opening readings. The closing sentence can reasonably inherit the same sampling interval, but it does not explicitly state that the interval also governs the three closing readings. This is a shared minor timing-clarity limitation for the technician, not a demonstrated change to the interval or a claim that the closing readings are instantaneous.
+
+CASE 02 — Fictional clinician summary: preserve posture, timing and suggestion-versus-order status; no diagnosis or treatment recommendation.
+Explicit brief requirements:
+- Summarize the fictional assessment and pending documentation for a clinician.
+- Preserve posture, timing and suggested change versus order.
+- Add no diagnosis or treatment recommendations.
+Relevant source anchors (not a requirement to repeat every fact verbatim):
+- Light-headedness on standing; seated pressure 126/78 mmHg; pressure 102/66 mmHg two minutes after standing.
+- Dose reduction suggested during review; no medication order entered in the supplied record.
+- Nearly fainted the previous evening without reported loss of consciousness; cause not established.
+Selection: Both samples carry all six clinical facts. M1-M6 labels and the source's no-recommendation instruction need not appear as patient content.
+
+A — brief conformance: Core clinical requirements met, with a minor source-scope qualification.
+Posture, 2-minute timing, units, the suggested dose change and the absence of an order are distinguished. No diagnosis or management advice is added. The explanatory sentences about different positions and suggestion-versus-order are true but repeat immediately stated distinctions; that is a minor flow concern, not a factual error.
+A — source fidelity: Core medical facts supported; minor unsupported pronouns and loss of an explicit record-scope qualifier.
+The near-fainting statement retains the distinction between no reported loss of consciousness and a proven absence of loss. 'Unconfirmed' is used consistently with the immediately following statement that no cause is established in the record.
+Finding 02-A-record-scope [minor; scope_qualifier_weakened]
+Sample: "A dose reduction was suggested during the review, but no medication order has been entered."
+Source: "No medication order has been entered in the supplied record."
+The sample omits 'in the supplied record' from the order statement. In a summary of that record the scope may be understood, so this is not proven false; standalone wording is broader than the evidence establishes.
+Scope/impact: Could imply knowledge of orders outside the supplied record.
+Finding 02-A-pronouns [minor; unsupported_person_detail]
+Sample: "Her blood pressure was 126/78 mmHg while seated"
+Source: "Patient Mira reported light-headedness on standing."
+The source gives a name and clinical facts but no gender or pronouns. 'Her' and the sample's uses of 'she' add an unsourced identity detail.
+Scope/impact: Small avoidable addition; does not alter the reported measurements or clinical status.
+Selection/optional wording: No required clinical event or measurement is omitted. The absence of an explicit fictional label in the prose is covered by the global provenance qualification.
+
+B — brief conformance: Core clinical requirements met.
+Preserves the two positions, exact pressures and units, two minutes after standing, suggestion-versus-order distinction, prior-evening timing, reported consciousness status and unestablished cause. No diagnosis or treatment advice is added.
+B — source fidelity: Core medical facts supported; minor unsupported pronouns.
+The order statement explicitly retains the supplied-record limit, and the cause remains qualified as unconfirmed in the record.
+Finding 02-B-pronouns [minor; unsupported_person_detail]
+Sample: "Her blood pressure was 126/78 mmHg while seated"
+Source: "Patient Mira reported light-headedness on standing."
+The source supplies no gender or pronouns. 'Her' and 'she' are unsourced identity details, even though they are plausible for the name.
+Scope/impact: Small avoidable addition; no change to measurement or clinical claim state.
+Selection/optional wording: A separate sentence explaining that a suggestion is not an order is optional because the retained sentence already states the distinction.
+
+CASE 03 — Fictional study assignment: explain random sampling versus random assignment, assess generalization to all university students, and place supplied evidence markers appropriately.
+Explicit brief requirements:
+- Explain random sampling and random assignment and keep both terms.
+- Assess whether recruitment supports generalization to all university students.
+- Use [A] and [B] where the evidence supports the claims.
+Relevant source anchors (not a requirement to repeat every fact verbatim):
+- Random sampling concerns selection from a population into a study; random assignment concerns allocation of enrolled participants to conditions.
+- 80 volunteers from one campus class were randomly allocated to one of two study apps.
+- Random assignment does not establish representative recruitment; the supplied recruitment does not support a random sample of all university students.
+Selection: An explanation can use the actual study allocation to define random assignment; a second textbook-definition sentence is not required. The algorithm detail is optional when random allocation is already stated. No app-performance results may be invented.
+
+A — brief conformance: Substantive assignment requirements met.
+Keeps both terms, explains allocation through the concrete app example, describes sampling as random selection from the population of interest and assesses the stated population-generalization claim. [B], [A] and [A, B] are placed with supported study facts, definitions and their combined inference.
+A — source fidelity: Supported.
+The count, recruitment source and assignment to two apps are preserved. 'Any findings' is conditional; it does not assert unseen results. The generalization sentence addresses what this recruitment supports rather than claiming no student population could ever be studied.
+Selection/optional wording: Omitting the word 'algorithm' is justified selection. No required distinction is lost, and there is no requirement to repeat the source's meta-instruction.
+
+B — brief conformance: Fails the central methodological distinction and the requested evidence-supported generalization assessment.
+Both terms appear, but the passage equates them instead of explaining their different roles. The concluding marker does not make the unsupported claims source-backed.
+B — source fidelity: Material methodological error and unsupported result/performance language.
+The first recruitment/allocation sentence is supported. The main inference contradicts both the definitions and the stated recruitment limit.
+Finding 03-B-conflation [material; central_definition_and_generalization_error]
+Sample: "This random assignment means that the study used random sampling, so its findings can be generalized to all university students."
+Source: "Random assignment does not by itself establish representative recruitment."
+Allocation of enrolled volunteers does not establish how the volunteers were selected. The source also explicitly states that the recruitment record provides no random sample of all university students.
+Scope/impact: Reverses the required distinction and reaches the unsupported population-generalization conclusion.
+Finding 03-B-performance [moderate; unsupported_substantive_claim]
+Sample: "The study therefore provides information about app performance"
+Source: "no unseen app-performance results are supplied."
+The source supplies recruitment and app allocation only; it does not specify measured app performance or any results. The statement, together with 'its findings' and 'the results', presents performance/results as available when that is not established.
+Scope/impact: Adds a study claim beyond the supplied methodological facts.
+Finding 03-B-citations [moderate; evidence_attribution_mismatch]
+Sample: "[A, B]"
+Source: "The recruitment record provides no random sample of all university students."
+The sole end marker cannot substantiate the paragraph's incorrect equivalence, population-generalization claim or performance statement. Grouping markers is not itself an error; attaching them to a paragraph containing these unsupported claims is the problem.
+Scope/impact: Can misrepresent contradictory source evidence as support; overlaps the substantive errors rather than constituting independent proof of another result.
+Selection/optional wording: Repeating that participants were divided between two apps is supported. The defect is the incorrect relationship and unsupported inference, not paragraph length or the mere presence of an explanatory bridge.
+
+CASE 04 — Short fictional first-person bus-stop scene: retain scene and voice; no invented personal history, statistics or events. A general lesson is optional if it adds something beyond the scene.
+Explicit brief requirements:
+- Keep the concrete fictional scene and first-person voice.
+- Add no personal history, statistics or invented events.
+- A general lesson is optional if it contributes beyond the scene.
+Relevant source anchors (not a requirement to repeat every fact verbatim):
+- Large blue sign directs the narrator to the usual shelter, fenced off for roadworks.
+- Smaller corner notice provides the temporary stop address while its arrow points toward the usual shelter.
+- Narrator walks the block twice before a driver waves them over.
+Selection: Neither sample needs to reproduce the fact ledger's prohibition list in the blog scene. The presence or absence of a general lesson alone is not a compliance test.
+
+A — brief conformance: Scene and requested first-person register met.
+Retains the signs, their mismatch, the fenced shelter, roadworks, two trips around the block and the driver's intervention. No biography, population claim or additional incident is introduced.
+A — source fidelity: Supported scene, with a reasonable opening interpretation rather than a demonstrated invented event.
+'I missed the replacement bus stop because I followed the large blue sign' compresses the supplied failure to locate the temporary stop. 'Missed the stop' need not mean a departed or missed bus, which is not asserted. The causal interpretation is plausible from the supplied conflicting directions and does not establish an additional travel event.
+Selection/optional wording: No general lesson is required. 'At the corner', 'temporary stop's address' and 'pointed back toward the shelter' preserve the supplied relationships without adding a city or commute pattern.
+
+B — brief conformance: Scene requirements met; minor optional-lesson/voice concern.
+The concrete first-person scene is intact. A lesson is permitted by this brief, so adding one is not automatically a violation. Here the added closing sentences largely restate the scene's navigation problem and move into a generic didactic register.
+B — source fidelity: No definite invented scene fact found.
+The opening has the same reasonable interpretation as A. The closing statements are general commentary rather than empirical population findings or new events.
+Finding 04-B-lesson [minor; optional_lesson_contribution_and_voice]
+Sample: "This experience illustrates the importance of clear communication in everyday life."
+Related sample: "In the end, the purpose of a sign is to tell people where to go."
+Brief: "A general lesson is optional if it contributes something beyond the scene."
+The close restates that confusing directions hinder navigation, which the concrete scene already demonstrates. It has limited additional content and shifts voice away from the first-person scene. This is a brief-fit/editorial judgment, not a source-fact error or a rule against general lessons.
+Selection/optional wording: No required scene fact is omitted. General commentary is permitted in principle; its contribution and voice, rather than added word count, are the relevant issues.
+
+CASE 05 — Fictional operator instruction: preserve guard interlock, exact Reset and Start labels and close-Reset-Start sequence; add no steps.
+Explicit brief requirements:
+- Explain the guard interlock and separate Reset and Start effects.
+- Preserve exact Reset and Start labels and operating sequence.
+- Add no steps.
+Relevant source anchors (not a requirement to repeat every fact verbatim):
+- Pump stays stopped while guard is open.
+- Close guard before Reset clears the interlock.
+- Reset does not start pump; Start is required after closure and reset.
+Selection: The separate effects may be expressed in one linked sentence or reinforced in another. A standalone sentence saying 'Reset does not start the pump' is not required if the same condition is clear from the retained wording.
+
+A — brief conformance: Core requirements met.
+Preserves exact Reset and Start labels, the open-guard stop condition and closure before Reset before Start. It introduces no new component or operating step.
+A — source fidelity: Supported.
+'The pump remains stopped until Start is pressed' and 'Reset clears the interlock, but it does not restart the pump' accurately separate reset from starting. 'Restart' is natural in this stopped-pump context and does not establish an extra event.
+Selection/optional wording: The explicit final reset/start contrast repeats a condition but can reinforce an important operator distinction. It is optional emphasis, not an unsupported claim or automatic brevity defect.
+
+B — brief conformance: Core requirements met.
+Preserves exact labels, open-guard stop condition, close-then-Reset order and the separate Start requirement. No additional step is added.
+B — source fidelity: Supported.
+'Press Reset to clear the interlock; the pump remains stopped until Start is pressed' states both the clearing effect and the fact that Reset does not start the pump in this sequence.
+Selection/optional wording: No required meaning is missing merely because there is no separate reset-does-not-start sentence. The preceding closure and reset clauses provide the conditions for the later Start.
+
+CASE 06 — Short fictional first-person station scene: preserve voice, chronology and concrete details; no moral, biography or new event; edits only where beneficial.
+Explicit brief requirements:
+- Preserve first-person voice, chronology and concrete details.
+- Add no moral, personal history or new event.
+- Edit only where there is a benefit for the passage.
+Relevant source anchors (not a requirement to repeat every fact verbatim):
+- Rain stops just before arrival; bench is wet; narrator stands under timetable.
+- Porter dries seats using yesterday's newspaper, then leaves sports pages on the one seat under a leaking roof.
+Selection: All supplied concrete scene details are retained. No moral or additional later event is required. Identical samples can be compatible with a brief that permits leaving wording alone; identity alone is neither a defect nor proof of source fidelity.
+
+A — brief conformance: Voice, chronology and concrete details met; minor strict-source additions.
+Keeps first-person narrative, rain-before-arrival timing, wet bench, timetable, yesterday's newspaper, sports pages and the one seat under the leaking roof. Adds no moral or personal history. The causal link, watching action and exhaustive wording require the shared source qualifications.
+A — source fidelity: Substantive sequence preserved; minor unsupported interpretive details.
+The shared findings apply in full. They are plausible inferences, not central contradictions; no identity as an original or edited draft is inferred.
+Shared finding references: 06-shared-cause, 06-shared-observation, 06-shared-extent.
+Selection/optional wording: No required concrete detail is missing. The change from 'a leaking roof' to 'the leaking roof' is ordinary narrative reference, not an error.
+
+B — brief conformance: Voice, chronology and concrete details met; minor strict-source additions.
+Retains the same required chronology and scene details and introduces no moral or biography. The same shared source qualifications apply.
+B — source fidelity: Substantive sequence preserved; minor unsupported interpretive details.
+The shared findings apply equally. Byte identity does not warrant overlooking unsupported claims in either version.
+Shared finding references: 06-shared-cause, 06-shared-observation, 06-shared-extent.
+Selection/optional wording: No required scene detail is omitted, and no change is required merely to produce an edit.
+
+Findings applying independently and equally to both A and B:
+Finding 06-shared-cause [minor; plausible_but_unsupplied_causal_link]
+Sample: "The bench was wet, so I stood under the timetable"
+Source: "There is no supplied motive, conversation, biography or later event."
+The wet bench and standing location are supplied separately. 'So' presents the wet bench as the narrator's reason for standing under the timetable. It is a plausible narrative inference, not a contradiction, but that motive/link is not stated in the ledger.
+Scope/impact: Adds an explanatory claim beyond the strict supplied facts.
+Finding 06-shared-observation [minor; unsupplied_narrator_action]
+Sample: "watched a porter dry each seat"
+Source: "A porter dried the seats with yesterday’s newspaper."
+The ledger reports the porter's action and the narrator's location but does not explicitly say the narrator watched the drying. That observational action is a plausible first-person bridge, yet it is not independently supplied and should not be treated as a sourced fact under a strict no-new-event brief.
+Scope/impact: Minor added narrative action; no claim of conversation or a later event.
+Finding 06-shared-extent [minor; unsupplied_exhaustive_quantifier]
+Sample: "dry each seat"
+Source: "A porter dried the seats with yesterday’s newspaper."
+'Each seat' makes the extent explicitly exhaustive. The source's plural 'the seats' does not separately establish that every seat was dried. This is a minor strengthening under a strict fact-ledger reading, not evidence that any particular seat was left undried.
+Scope/impact: Slightly strengthens the scope of the drying action.
+A.txt and B.txt have the same SHA-256 and byte count and were also compared as decoded strings; their supplied content is identical.
+
+MECHANICAL VERIFICATION
+All 12 supplied SHA-256 hashes and all 12 supplied whitespace-delimited counts match independently computed values.
+Case | A tokens | B tokens | A hash/count | B hash/count
+01 | 36 | 106 | MATCH/MATCH | MATCH/MATCH
+02 | 102 | 66 | MATCH/MATCH | MATCH/MATCH
+03 | 63 | 103 | MATCH/MATCH | MATCH/MATCH
+04 | 56 | 101 | MATCH/MATCH | MATCH/MATCH
+05 | 34 | 27 | MATCH/MATCH | MATCH/MATCH
+06 | 42 | 42 | MATCH/MATCH | MATCH/MATCH
+Case 06 A/B byte identity: confirmed.
+The JSON report records every supplied and computed sample hash/count, plus raw hashes and counts for all 30 authorized inputs.
+
+ACTUAL INPUTS READ — EXACTLY 30 UNIQUE FILES
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\01\brief.txt
+  SHA-256(raw bytes): 077a81a9f7ce894546c16c0dd150a3c49c2ca32a26c8259c8b9819963831f267; bytes: 576; whitespace tokens: 85.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\01\source.txt
+  SHA-256(raw bytes): 4a85d1fae2109eca86b8d625890bca1b93723277eb771a4a83d91b4d556c0a2a; bytes: 454; whitespace tokens: 67.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\01\A.txt
+  SHA-256(raw bytes): 5530301697d902bdf1873fc20199ec43b13b785c845bf68b3b5616ab36f2bcae; bytes: 221; whitespace tokens: 36.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\01\B.txt
+  SHA-256(raw bytes): 5155f970338a8e72c5b166f3a3aa213e96965968e5d566fc3aa6f76bc88f6ce1; bytes: 637; whitespace tokens: 106.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\01\mechanical.json
+  SHA-256(raw bytes): ef612c92e01402a63ca47adc8d0a8bb0b48ce49c0d10e743ba32a59b8be0647c; bytes: 238; whitespace tokens: 16.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\02\brief.txt
+  SHA-256(raw bytes): 1f0fb3b29453b2e8a6c77bd712ac6721d3f9832403a4684772705b83afe1dc08; bytes: 614; whitespace tokens: 88.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\02\source.txt
+  SHA-256(raw bytes): ad8c0883231c8383a90141bb844c057766b7fc9c210f9d93993af53c332b09f1; bytes: 581; whitespace tokens: 84.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\02\A.txt
+  SHA-256(raw bytes): 4a9e3bd9809344101b88aa551d703ad63fd2bfb9b14e8b00d75a91a028e13920; bytes: 648; whitespace tokens: 102.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\02\B.txt
+  SHA-256(raw bytes): d025931017f3752436eda9b8de57abedc9e0c3505d39c525fbb8a5aff1eaa566; bytes: 420; whitespace tokens: 66.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\02\mechanical.json
+  SHA-256(raw bytes): f21d18dbf38c6a739eb614dbb373102b7e7d16a42d4f96084a2d27470b6b94d7; bytes: 238; whitespace tokens: 16.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\03\brief.txt
+  SHA-256(raw bytes): 4c4c6003c3fc686c352a94c99e415224778141fa79be3d186c9e29cfcc7080bb; bytes: 622; whitespace tokens: 89.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\03\source.txt
+  SHA-256(raw bytes): 358457f1a49538dadf5144e3ef218a4d4b2db03344a0be683dcff9496f27959a; bytes: 601; whitespace tokens: 84.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\03\A.txt
+  SHA-256(raw bytes): ef91e4ddef1c1ea6854efcbf4299d44820efa6efa46db43acf1aef18377e947a; bytes: 409; whitespace tokens: 63.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\03\B.txt
+  SHA-256(raw bytes): eaec5a66973981c360e504ed6fa88031eca7b2cd2595e93e6ebe52b27b3f2faf; bytes: 660; whitespace tokens: 103.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\03\mechanical.json
+  SHA-256(raw bytes): 9ab75e7c328e79c38b5033d6b96c1b52c5851aedda3d3882bda67357629980dd; bytes: 238; whitespace tokens: 16.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\04\brief.txt
+  SHA-256(raw bytes): 988e2b6d785235758b9cd9da7d4f0464f959a2503674433110125b68f969ed58; bytes: 639; whitespace tokens: 95.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\04\source.txt
+  SHA-256(raw bytes): a28af7de64de7d9b65e2ed7c8e9f4d8b125cdaafc164857dd8b278e678f901a3; bytes: 506; whitespace tokens: 85.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\04\A.txt
+  SHA-256(raw bytes): 16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349; bytes: 315; whitespace tokens: 56.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\04\B.txt
+  SHA-256(raw bytes): b594b0153fb13cc4fecd04d6f5119ae1c6a4a70544f5b144d17faf85e47c0b43; bytes: 569; whitespace tokens: 101.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\04\mechanical.json
+  SHA-256(raw bytes): bdc048deffa44ebdf25544628868421d72a39cdd8ed6c53e09f8ff3ec4a90918; bytes: 238; whitespace tokens: 16.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\05\brief.txt
+  SHA-256(raw bytes): 51f1ce7059f3af9d59f77c50517ee877ab6a445b811984790f3f1fd3afe66e56; bytes: 564; whitespace tokens: 84.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\05\source.txt
+  SHA-256(raw bytes): 54b41de8159566afa9e5f44de5c0c6fd14246339f1a12b6dfd32b9627af1d1b6; bytes: 367; whitespace tokens: 62.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\05\A.txt
+  SHA-256(raw bytes): 5ac75deaa519def8130134641176255b43db03ee4c96f04113f79e4bfe3e65e2; bytes: 197; whitespace tokens: 34.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\05\B.txt
+  SHA-256(raw bytes): 77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856; bytes: 158; whitespace tokens: 27.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\05\mechanical.json
+  SHA-256(raw bytes): 5d215af1a8fe6308fd1b32e8658dcbd30a28a98974cd69af02a331517f4ef4ae; bytes: 237; whitespace tokens: 16.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\06\brief.txt
+  SHA-256(raw bytes): 4bd3ad2ad21297df4858b21322a40b83b492a6d595d5250b358b97fc22fa919d; bytes: 580; whitespace tokens: 87.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\06\source.txt
+  SHA-256(raw bytes): 0b73d3a5d0aade2d5c31414f7add900741557682349c2f5e2eb92b9f8280a892; bytes: 407; whitespace tokens: 68.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\06\A.txt
+  SHA-256(raw bytes): a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127; bytes: 235; whitespace tokens: 42.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\06\B.txt
+  SHA-256(raw bytes): a058191c84b2f05c2d14c4f796a95db9f3c6f9d24984a4fffc6c84f61474c127; bytes: 235; whitespace tokens: 42.
+C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-source\06\mechanical.json
+  SHA-256(raw bytes): fb2ba4ab5b518bb0d88086e1bc6488801c850bc8346683252cd1650db397e6c9; bytes: 237; whitespace tokens: 16.

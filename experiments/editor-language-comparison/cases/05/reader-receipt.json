@@ -1,0 +1,88 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\05\\before.txt",
+    "sha256": "5ac75deaa519def8130134641176255b43db03ee4c96f04113f79e4bfe3e65e2",
+    "bytes": 197
+  },
+  "plan": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\05\\reader-plan.json",
+    "sha256": "c6c5f7e24751bae63290a82e1c87d1dcf32d2738d8408c5a4cb44597b298b262"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+    "bytes": 158
+  },
+  "output": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\05\\reader-after.txt",
+    "sha256": "77ba9db458d89b96310d5697434f63cf6138d5c45941ec2552a60281bc8a2856",
+    "bytes": 158
+  },
+  "changes": [
+    {
+      "start": 83,
+      "end": 83,
+      "before": "",
+      "after": " to clear the interlock",
+      "reason": "Place the unique explanation of what Reset does beside the Reset instruction so the repeated final sentence can be removed.",
+      "plan_index": 0,
+      "location": {
+        "line": 1,
+        "column": 84
+      }
+    },
+    {
+      "start": 133,
+      "end": 195,
+      "before": " Reset clears the interlock, but it does not restart the pump.",
+      "after": "",
+      "reason": "Remove the closing sentence after retaining its interlock explanation beside Reset; its statement that Reset does not restart the pump repeats the preceding Start condition.",
+      "plan_index": 1,
+      "location": {
+        "line": 1,
+        "column": 134
+      }
+    }
+  ],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 195,
+      "original_characters": 195,
+      "original_characters_selected": 62,
+      "selected_percent": 31.795,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 23
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 34,
+    "after_words": 27,
+    "net_words_removed": 7,
+    "net_reduction_percent": 20.588,
+    "words_inserted": 5,
+    "words_removed_or_replaced": 12,
+    "original_tokens_removed_or_replaced_percent": 35.294,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

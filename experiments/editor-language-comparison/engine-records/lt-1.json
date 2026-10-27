@@ -1,0 +1,441 @@
+{
+  "engine": "LanguageTool",
+  "version": "6.6",
+  "software": {
+    "name": "LanguageTool",
+    "version": "6.6",
+    "buildDate": "2025-03-27 20:50:25 +0100",
+    "apiVersion": 1,
+    "premium": false,
+    "status": ""
+  },
+  "profile": {
+    "language": "en-US",
+    "default_local_rules": true,
+    "AI": false,
+    "ngram_data": false,
+    "optional_picky_level": false,
+    "format": "plaintext",
+    "fenced_code_masked": true
+  },
+  "results": [
+    {
+      "id": "R_spelling",
+      "input_sha256": "40a30bab33468476bde39a6334bf9c9376decb6081be2e06825928fa71ba12b6",
+      "findings": [
+        {
+          "rule": "MORFOLOGIK_RULE_EN_US",
+          "sub_id": null,
+          "kind": "Possible Typo",
+          "spelling": true,
+          "message": "Possible spelling mistake found.",
+          "start": 4,
+          "end": 14,
+          "text": "measurment",
+          "engine_span_utf16": {
+            "start": 4,
+            "end": 14
+          },
+          "suggestions": [
+            "measurement"
+          ],
+          "engine_top_suggestion": "measurement"
+        },
+        {
+          "rule": "MORFOLOGIK_RULE_EN_US",
+          "sub_id": null,
+          "kind": "Possible Typo",
+          "spelling": true,
+          "message": "Possible spelling mistake found.",
+          "start": 18,
+          "end": 27,
+          "text": "repeatble",
+          "engine_span_utf16": {
+            "start": 18,
+            "end": 27
+          },
+          "suggestions": [
+            "repeatable"
+          ],
+          "engine_top_suggestion": "repeatable"
+        }
+      ]
+    },
+    {
+      "id": "R_article",
+      "input_sha256": "1fd3b0126ae77b052a5ea9ebaec43d80e4070d282d7ff3f552e98e6b960b62a5",
+      "findings": [
+        {
+          "rule": "EN_A_VS_AN",
+          "sub_id": null,
+          "kind": "Miscellaneous",
+          "spelling": false,
+          "message": "Use \"an\" instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'.",
+          "start": 8,
+          "end": 9,
+          "text": "a",
+          "engine_span_utf16": {
+            "start": 8,
+            "end": 9
+          },
+          "suggestions": [
+            "an"
+          ],
+          "engine_top_suggestion": "an"
+        }
+      ]
+    },
+    {
+      "id": "R_repeated_word",
+      "input_sha256": "f6796e75c8105610cdcfa7c51723f656dc53ad64d97540550c00b8273f633c60",
+      "findings": [
+        {
+          "rule": "ENGLISH_WORD_REPEAT_RULE",
+          "sub_id": null,
+          "kind": "Miscellaneous",
+          "spelling": false,
+          "message": "Possible typo: you repeated a word.",
+          "start": 19,
+          "end": 26,
+          "text": "the the",
+          "engine_span_utf16": {
+            "start": 19,
+            "end": 26
+          },
+          "suggestions": [
+            "the"
+          ],
+          "engine_top_suggestion": "the"
+        }
+      ]
+    },
+    {
+      "id": "R_punctuation_spacing",
+      "input_sha256": "04df3c5bf7c07215fc910a6a02367268dc897a3650410c2245826bd571277c81",
+      "findings": [
+        {
+          "rule": "COMMA_PARENTHESIS_WHITESPACE",
+          "sub_id": null,
+          "kind": "Typography",
+          "spelling": false,
+          "message": "Put a space after the comma, but not before the comma.",
+          "start": 16,
+          "end": 18,
+          "text": " ,",
+          "engine_span_utf16": {
+            "start": 16,
+            "end": 18
+          },
+          "suggestions": [
+            ","
+          ],
+          "engine_top_suggestion": ","
+        }
+      ]
+    },
+    {
+      "id": "R_agreement",
+      "input_sha256": "5bea2c6274fc7596de83b417296f8e27809c287d74cb0c0d62336dbcd67cd45c",
+      "findings": [
+        {
+          "rule": "AGREEMENT_SENT_START",
+          "sub_id": "6",
+          "kind": "Grammar",
+          "spelling": false,
+          "message": "You should probably use: \"are\".",
+          "start": 12,
+          "end": 14,
+          "text": "is",
+          "engine_span_utf16": {
+            "start": 12,
+            "end": 14
+          },
+          "suggestions": [
+            "are"
+          ],
+          "engine_top_suggestion": "are"
+        }
+      ]
+    },
+    {
+      "id": "R_comma_splice",
+      "input_sha256": "2155931bce0adba21cd9a8dccc1785f23dee823d436b0495050694f1eb475805",
+      "findings": []
+    },
+    {
+      "id": "R_run_on",
+      "input_sha256": "6b3914b8450b97ddd6af19617f73a8ca59c4bce0322395747d2010aae3e0a31e",
+      "findings": []
+    },
+    {
+      "id": "R_attachment_ambiguity",
+      "input_sha256": "94e5af2ea87c1c1e68b6dbc23da52c7539b823aa2ed53d1919b0876f6f89a1b6",
+      "findings": []
+    },
+    {
+      "id": "R_medical_vocabulary",
+      "input_sha256": "5d5d863a19a6f492a324df0653a68823a38f4bc6132ca91eedaf5d9aab7c64c8",
+      "findings": [
+        {
+          "rule": "MORFOLOGIK_RULE_EN_US",
+          "sub_id": null,
+          "kind": "Possible Typo",
+          "spelling": true,
+          "message": "Possible spelling mistake found.",
+          "start": 16,
+          "end": 26,
+          "text": "hypoxaemia",
+          "engine_span_utf16": {
+            "start": 16,
+            "end": 26
+          },
+          "suggestions": [
+            "hypoxemia"
+          ],
+          "engine_top_suggestion": "hypoxemia"
+        }
+      ]
+    },
+    {
+      "id": "R_engineering_vocabulary",
+      "input_sha256": "65126d1f8e8f1bc75346b29f945a24a485c0048a3f8720d2367106ca8333bb35",
+      "findings": []
+    },
+    {
+      "id": "R_purposeful_repetition",
+      "input_sha256": "cb3db009c88fee6f877a41f7a7702d801db33214abf602a811cd873c59df7347",
+      "findings": []
+    },
+    {
+      "id": "R_good_punctuation",
+      "input_sha256": "ca3522f7c17cc768327ae943035ee25bdb46b34cd48192cde88cb74ca4c9f78a",
+      "findings": []
+    },
+    {
+      "id": "R_passive_without_actor",
+      "input_sha256": "b498dfeeeb1060ba223cdb41782d0195969d4112aa96fc958e3b5459c094d0d7",
+      "findings": []
+    },
+    {
+      "id": "R_unicode_offsets",
+      "input_sha256": "428c4a46da3a1241ec292f6a307a7e6700688a1cb7ac50e0044db7d5b4d22222",
+      "findings": [
+        {
+          "rule": "MORFOLOGIK_RULE_EN_US",
+          "sub_id": null,
+          "kind": "Possible Typo",
+          "spelling": true,
+          "message": "Possible spelling mistake found.",
+          "start": 6,
+          "end": 16,
+          "text": "measurment",
+          "engine_span_utf16": {
+            "start": 7,
+            "end": 17
+          },
+          "suggestions": [
+            "measurement"
+          ],
+          "engine_top_suggestion": "measurement"
+        },
+        {
+          "rule": "MORFOLOGIK_RULE_EN_US",
+          "sub_id": null,
+          "kind": "Possible Typo",
+          "spelling": true,
+          "message": "Possible spelling mistake found.",
+          "start": 20,
+          "end": 29,
+          "text": "repeatble",
+          "engine_span_utf16": {
+            "start": 21,
+            "end": 30
+          },
+          "suggestions": [
+            "repeatable"
+          ],
+          "engine_top_suggestion": "repeatable"
+        }
+      ]
+    },
+    {
+      "id": "R_markdown",
+      "input_sha256": "ead32df538d4e8466495eea51b46733176d67846244251e7d70063f8cb0b983b",
+      "findings": [
+        {
+          "rule": "WHITESPACE_RULE",
+          "sub_id": null,
+          "kind": "Typography",
+          "spelling": false,
+          "message": "Possible typo: you repeated a whitespace",
+          "start": 16,
+          "end": 23,
+          "text": "       ",
+          "engine_span_utf16": {
+            "start": 16,
+            "end": 23
+          },
+          "suggestions": [
+            " "
+          ],
+          "engine_top_suggestion": " "
+        },
+        {
+          "rule": "WHITESPACE_RULE",
+          "sub_id": null,
+          "kind": "Typography",
+          "spelling": false,
+          "message": "Possible typo: you repeated a whitespace",
+          "start": 53,
+          "end": 56,
+          "text": "   ",
+          "engine_span_utf16": {
+            "start": 53,
+            "end": 56
+          },
+          "suggestions": [
+            " "
+          ],
+          "engine_top_suggestion": " "
+        }
+      ]
+    },
+    {
+      "id": "N_article_ultrasound",
+      "input_sha256": "d3883ab4293f405c6474ae86d2d05e02e85ae89dfca6643fd8340917fba39ba4",
+      "findings": [
+        {
+          "rule": "EN_A_VS_AN",
+          "sub_id": null,
+          "kind": "Miscellaneous",
+          "spelling": false,
+          "message": "Use \"an\" instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'.",
+          "start": 24,
+          "end": 25,
+          "text": "a",
+          "engine_span_utf16": {
+            "start": 24,
+            "end": 25
+          },
+          "suggestions": [
+            "an"
+          ],
+          "engine_top_suggestion": "an"
+        }
+      ]
+    },
+    {
+      "id": "N_compound_subject",
+      "input_sha256": "68687c4dceff3ad64568ed3454fbbb4bb159a25447e6de14bb6804cb473adfc1",
+      "findings": [
+        {
+          "rule": "AGREEMENT_SENT_START",
+          "sub_id": "37",
+          "kind": "Grammar",
+          "spelling": false,
+          "message": "You should probably use \"are\".",
+          "start": 31,
+          "end": 33,
+          "text": "is",
+          "engine_span_utf16": {
+            "start": 31,
+            "end": 33
+          },
+          "suggestions": [
+            "are"
+          ],
+          "engine_top_suggestion": "are"
+        }
+      ]
+    },
+    {
+      "id": "N_confusable",
+      "input_sha256": "cc89ee78aa66c8e8194a4d256ea091a77a25545cfe9ca7ef86804a74330c8809",
+      "findings": []
+    },
+    {
+      "id": "N_past_tense",
+      "input_sha256": "a564f9e7889ded5f319e504fc2895116658c7b0d3a637658debad923c3b4f3a4",
+      "findings": [
+        {
+          "rule": "PCT_SINGULAR_NOUN_PLURAL_VERB_AGREEMENT",
+          "sub_id": "1",
+          "kind": "Grammar",
+          "spelling": false,
+          "message": "\"Technician\" is a singular noun. It appears that the verb form is incorrect.",
+          "start": 26,
+          "end": 35,
+          "text": "calibrate",
+          "engine_span_utf16": {
+            "start": 26,
+            "end": 35
+          },
+          "suggestions": [
+            "calibrates"
+          ],
+          "engine_top_suggestion": "calibrates"
+        }
+      ]
+    },
+    {
+      "id": "N_duplicate_comma",
+      "input_sha256": "d1f2960e2188ea6fea186622bff11f05d005d4502d1e707cd9a0cc55759de9a9",
+      "findings": [
+        {
+          "rule": "DOUBLE_PUNCTUATION",
+          "sub_id": null,
+          "kind": "Punctuation",
+          "spelling": false,
+          "message": "Two consecutive commas",
+          "start": 14,
+          "end": 16,
+          "text": ",,",
+          "engine_span_utf16": {
+            "start": 14,
+            "end": 16
+          },
+          "suggestions": [
+            ","
+          ],
+          "engine_top_suggestion": ","
+        }
+      ]
+    },
+    {
+      "id": "N_plural_noun",
+      "input_sha256": "5da8065a197bf1a701bb415d15bd4dc6ffcb9051c03f718b02faade9e6b507bf",
+      "findings": []
+    },
+    {
+      "id": "N_had_had",
+      "input_sha256": "84ae89e0e4e625ce836868e3a91971b0222312023691c55ef0007d4b80c6d038",
+      "findings": []
+    },
+    {
+      "id": "N_technical_noun_phrase",
+      "input_sha256": "bd91e18dba9c4e82ce15dc0fc360f0511ddebd7e7c239d977667020391e31c86",
+      "findings": []
+    },
+    {
+      "id": "N_parenthesis_semicolon",
+      "input_sha256": "206ccef3df2aa781bd9c57a4b8a6ebd0e7d973f77b437673519a5c1993f37084",
+      "findings": []
+    },
+    {
+      "id": "N_unicode_units",
+      "input_sha256": "4d8aba25be96c582b66a4bc10b600235e05d446d36827facf776b117b394747e",
+      "findings": []
+    },
+    {
+      "id": "N_medical_us",
+      "input_sha256": "c97614160c2416428232de98ba65eaa2e7dfc2e1b493c244d5ed87e5d255b3cc",
+      "findings": []
+    },
+    {
+      "id": "N_deliberate_fragment",
+      "input_sha256": "0920ea669a79b737669aeb0a4a517463f8f149e7e2f05cc186071f524ba8ba47",
+      "findings": []
+    }
+  ],
+  "normalized_sha256": "96acbee9e695aab64e723fa698d3bc68414b5c92adc3d1cde778401d37111f77"
+}

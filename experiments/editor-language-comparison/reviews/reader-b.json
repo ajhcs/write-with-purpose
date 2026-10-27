@@ -1,0 +1,358 @@
+{
+  "reader": "reader-b",
+  "evaluation_scope": {
+    "cases": [
+      "02",
+      "04",
+      "06"
+    ],
+    "permitted_input_file_count": 12,
+    "actual_inputs_read": [
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\02\\brief.txt",
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\02\\questions.json",
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\02\\A.txt",
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\02\\B.txt",
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\04\\brief.txt",
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\04\\questions.json",
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\04\\A.txt",
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\04\\B.txt",
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\06\\brief.txt",
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\06\\questions.json",
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\06\\A.txt",
+      "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\blind-reader\\06\\B.txt"
+    ],
+    "boundary": "Read only the 12 listed input files. Listed the blind-reader directory's child folder names to locate the assigned cases. Did not read other cases, sources, skill instructions, protocol, mapping, editor notes or memory; did not browse or delegate. Sample files were not edited.",
+    "judgment_basis": "The supplied brief is the coverage requirement. Recovery questions test recoverability, not automatic obligations to retain incidental information. No preference is awarded merely for length or amount of editing.",
+    "unassessable_requirements": "Without a source or production record, fidelity to an earlier original, preservation of that original file, and the editing process cannot be verified. The permitted A/B files contain prose only, so a separate change record cannot be evaluated. These limitations apply equally and do not decide any preference."
+  },
+  "cases": [
+    {
+      "case": "02",
+      "brief_requirement": "A fictional clinical summary must preserve posture, timing, the distinction between a suggested medication change and an order, and uncertainty. It must add no diagnosis or treatment recommendation.",
+      "versions": {
+        "A": {
+          "recovery_answers": [
+            {
+              "question": "What readings were obtained, in which positions and at what time relative to standing?",
+              "status": "answered",
+              "answer": "126/78 mmHg while seated; 102/66 mmHg two minutes after standing.",
+              "evidence": [
+                "Her blood pressure was 126/78 mmHg while seated and 102/66 mmHg two minutes after standing."
+              ],
+              "missing_unclear_or_outside_scope": "The seated reading's exact time relative to standing is unspecified. The two-minute interval applies to the standing reading. This is not a loss of a detail required by the brief."
+            },
+            {
+              "question": "Was a medication change ordered?",
+              "status": "answered",
+              "answer": "No order has been entered according to the passage. A dose reduction was suggested during the review.",
+              "evidence": [
+                "A dose reduction was suggested during the review, but no medication order has been entered."
+              ],
+              "missing_unclear_or_outside_scope": "The text supports absence of an entered order; it does not establish events outside the documentation. Its wording is less explicitly bounded to the supplied record than B."
+            },
+            {
+              "question": "What symptom occurred the previous evening, and what is known about its cause?",
+              "status": "answered",
+              "answer": "Mira reported nearly fainting the previous evening and did not report losing consciousness. The cause remains unconfirmed in the record.",
+              "evidence": [
+                "Mira reported nearly fainting the previous evening, but she did not report losing consciousness.",
+                "The cause of the symptoms remains unconfirmed; no cause has yet been established in the record."
+              ],
+              "missing_unclear_or_outside_scope": "The actual cause is intentionally unresolved, not omitted evidence that the reader should supply. 'Did not report' is not proof that loss of consciousness did not occur."
+            }
+          ],
+          "judgments": {
+            "flow": "The clinical sequence is understandable, but each of two explanatory restatements interrupts progress from readings to pending medication documentation and from that documentation to symptoms.",
+            "information_selection": "All required clinical distinctions are retained. The statements that different positions are different positions, and that a suggestion is not an order, add no operational distinction beyond the immediately preceding wording.",
+            "findability": "Readings, suggestion and symptom history are recoverable, but extra sentences separate the relevant facts and lengthen scanning.",
+            "voice": "The neutral reporting language fits the clinical context. The tautological explanations make the voice sound more pedantic than useful to the intended clinician.",
+            "clarity_of_connections": "'But' clearly connects a suggested dose reduction to absence of an entered order and near-fainting to the lack of a reported loss of consciousness. The extra explanations repeat these connections rather than clarify them.",
+            "useful_explanation": "Posture, the two-minute timing, the review context and causal uncertainty are useful. The two explanatory sentences do not explain a mechanism, implication or documentation status.",
+            "unnecessary_effort": "The reader must pass over two full restatements and a further restatement of uncertainty. None is difficult to parse, but each costs attention without resolving ambiguity.",
+            "brief_coverage": "Meets substantive coverage: positions, timing, suggestion/order distinction and uncertainty are present; no diagnosis or new recommendation is added. Source-relative voice and targetedness remain unassessable."
+          }
+        },
+        "B": {
+          "recovery_answers": [
+            {
+              "question": "What readings were obtained, in which positions and at what time relative to standing?",
+              "status": "answered",
+              "answer": "126/78 mmHg while seated; 102/66 mmHg two minutes after standing.",
+              "evidence": [
+                "Her blood pressure was 126/78 mmHg while seated and 102/66 mmHg two minutes after standing."
+              ],
+              "missing_unclear_or_outside_scope": "The seated reading's exact time relative to standing is unspecified. The two-minute interval applies to the standing reading. This is not a loss of a detail required by the brief."
+            },
+            {
+              "question": "Was a medication change ordered?",
+              "status": "answered",
+              "answer": "A dose reduction was suggested during the review, and no medication order has been entered in the supplied record.",
+              "evidence": [
+                "A dose reduction was suggested during the review, but no medication order has been entered in the supplied record."
+              ],
+              "missing_unclear_or_outside_scope": "Whether anything happened outside the supplied record is outside scope. The answer must remain bounded to what the record documents."
+            },
+            {
+              "question": "What symptom occurred the previous evening, and what is known about its cause?",
+              "status": "answered",
+              "answer": "Mira reported nearly fainting the previous evening and did not report losing consciousness. The cause of the symptoms remains unconfirmed in the record.",
+              "evidence": [
+                "Mira reported nearly fainting the previous evening, but she did not report losing consciousness.",
+                "The cause of the symptoms remains unconfirmed in the record."
+              ],
+              "missing_unclear_or_outside_scope": "The cause is deliberately unresolved. 'Did not report losing consciousness' does not establish a definitive absence of loss of consciousness."
+            }
+          ],
+          "judgments": {
+            "flow": "Moves directly from the reported standing symptom to measured readings, review/documentation status, earlier symptom history and remaining uncertainty. Each sentence adds a distinct fact.",
+            "information_selection": "Retains all brief-required clinical details. Removes only repetitive explanations and makes the documentary boundary explicit.",
+            "findability": "The readings, two-minute interval and order status are easy to locate in adjacent sentences. The final sentence gives uncertainty a clear closing position.",
+            "voice": "Keeps a restrained clinical reporting voice with the same precise units and reported-symptom language.",
+            "clarity_of_connections": "The paired 'but' clauses carry the relevant distinctions plainly. 'In the supplied record' limits the medication statement, and 'in the record' limits causal certainty.",
+            "useful_explanation": "Retains contextual qualifiers that affect interpretation without explaining elementary word differences to a clinician.",
+            "unnecessary_effort": "Low: the reader can recover required facts without sorting through duplicate statements.",
+            "brief_coverage": "Meets substantive coverage without adding a diagnosis or recommendation. It preserves the posture and timing details and clearly separates suggestion from order."
+          }
+        }
+      },
+      "preference": {
+        "choice": "B",
+        "reason": "B preserves every required clinical distinction while removing three restatements that do not help the clinician interpret the case. Its explicit record boundary improves the medication-status claim.",
+        "concrete_gains": [
+          "Keeps seated and standing readings, units and the two-minute timing intact.",
+          "Keeps suggestion and order distinct in one clear contrast.",
+          "Bounds absence of an order and unconfirmed causation to the documentation.",
+          "Lets each sentence advance the summary."
+        ],
+        "concrete_losses": [
+          "Loses explicit reminders that different positions differ and a suggestion is not an order; these add no recoverable clinical information for this audience.",
+          "No material loss under the supplied brief."
+        ],
+        "length_or_change_basis": "Preference follows retained coverage, clearer documentary scope and reduced duplication, not word count."
+      },
+      "local_alternative": null
+    },
+    {
+      "case": "04",
+      "brief_requirement": "A short first-person blog passage must retain the concrete confusing-bus-stop scene and existing voice, adding no history, statistics or invented events. A general lesson is optional only if it adds something beyond the scene.",
+      "versions": {
+        "A": {
+          "recovery_answers": [
+            {
+              "question": "Why did the narrator go to the wrong stop?",
+              "status": "answered",
+              "answer": "The narrator followed the large blue sign to the usual shelter, which was fenced off for roadworks.",
+              "evidence": [
+                "I missed the replacement bus stop because I followed the large blue sign.",
+                "It sent me to the usual shelter, which was fenced off for roadworks."
+              ],
+              "missing_unclear_or_outside_scope": "None. The text does not say why the large sign was wrong, and no such explanation is needed."
+            },
+            {
+              "question": "What did the smaller notice add, and how did it also mislead?",
+              "status": "answered",
+              "answer": "It gave the temporary stop's address, but its arrow pointed back toward the fenced-off shelter.",
+              "evidence": [
+                "A smaller notice at the corner gave the temporary stop’s address, but its arrow pointed back toward the shelter."
+              ],
+              "missing_unclear_or_outside_scope": "The actual street address is not provided, but its exact value is incidental to the brief and to understanding the contradictory directions."
+            },
+            {
+              "question": "How does the passage end, and what work does the ending do?",
+              "status": "answered",
+              "answer": "It ends with the narrator walking the block twice before a driver waves them over. That concrete action supplies a modest resolution after the conflicting directions and keeps the anecdote in its first-person scene.",
+              "evidence": [
+                "I walked the block twice before a driver waved me over."
+              ],
+              "missing_unclear_or_outside_scope": "The resolving effect is a reader interpretation. The text does not explicitly say the narrator boarded a bus or reached the temporary stop, so those events must not be invented."
+            }
+          ],
+          "judgments": {
+            "flow": "Each sentence develops the misdirection: large sign, unusable shelter, contradictory smaller notice, repeated walk and driver's intervention. The last action completes the small narrative arc.",
+            "information_selection": "The sign's size and color, roadworks, notice/address/arrow conflict and repeated walking all contribute concrete causes or consequences. No extra abstraction is needed.",
+            "findability": "Both causes of confusion and the outcome can be found immediately in a four-sentence sequence.",
+            "voice": "Direct, slightly rueful first-person narration. The unelaborated driver detail lets the scene carry its tone.",
+            "clarity_of_connections": "'Because' states the initial cause; 'but' exposes the smaller notice's conflict; 'before' establishes the ending's sequence.",
+            "useful_explanation": "The scene itself explains why the narrator became confused. The concrete contradiction between an address and an arrow does more work than a general statement about communication would.",
+            "unnecessary_effort": "Low. No material ambiguity requires the reader to fill in a missing cause.",
+            "brief_coverage": "Fits the concrete first-person scene and adds no history, statistics or event beyond it. Omitting a general lesson is expressly allowed by the brief."
+          }
+        },
+        "B": {
+          "recovery_answers": [
+            {
+              "question": "Why did the narrator go to the wrong stop?",
+              "status": "answered",
+              "answer": "The narrator followed the large blue sign to the usual shelter, which was fenced off for roadworks.",
+              "evidence": [
+                "I missed the replacement bus stop because I followed the large blue sign.",
+                "It sent me to the usual shelter, which was fenced off for roadworks."
+              ],
+              "missing_unclear_or_outside_scope": "None. The cause of the sign's error is not supplied and is not required."
+            },
+            {
+              "question": "What did the smaller notice add, and how did it also mislead?",
+              "status": "answered",
+              "answer": "It supplied the temporary stop's address, but its arrow pointed back toward the shelter.",
+              "evidence": [
+                "A smaller notice at the corner gave the temporary stop’s address, but its arrow pointed back toward the shelter."
+              ],
+              "missing_unclear_or_outside_scope": "The literal street address is not supplied. It is incidental, not a brief-coverage defect."
+            },
+            {
+              "question": "How does the passage end, and what work does the ending do?",
+              "status": "answered",
+              "answer": "After the driver waves the narrator over, three general sentences make the lesson explicit. The final sentence states that signs are meant to tell people where to go. The ending explains the obvious takeaway but shifts attention away from the scene and repeats what the anecdote already demonstrates.",
+              "evidence": [
+                "I walked the block twice before a driver waved me over.",
+                "This experience illustrates the importance of clear communication in everyday life.",
+                "Good signs should help people find the places they need to go, and confusing signs can make that harder.",
+                "In the end, the purpose of a sign is to tell people where to go."
+              ],
+              "missing_unclear_or_outside_scope": "The judgment that the lesson is repetitive is interpretive. Its presence does not recover any additional event; boarding or arrival remains unstated."
+            }
+          ],
+          "judgments": {
+            "flow": "The opening scene has the same effective sequence as A. After its natural resolution, the paragraph starts a second, abstract ending and then restates that ending twice.",
+            "information_selection": "All scene details remain, but the added generalizations do not supply a new insight, qualification or connection beyond the already clear signage problem.",
+            "findability": "The practical causes remain easy to recover at the start. The final impression is a generic maxim instead of the specific consequence and driver's intervention.",
+            "voice": "The first four sentences retain the direct first-person voice. 'This experience illustrates the importance' shifts into a generalized explanatory register that feels less like the narrator's immediate account.",
+            "clarity_of_connections": "The additions are connected to the scene topically, but they do not explain the particular conflict between the address and the arrow. They state familiar purposes and effects.",
+            "useful_explanation": "The lesson is explicit, which might suit a request for a moral. Here it adds nothing beyond the scene, so it does not meet the brief's stated condition for an optional lesson.",
+            "unnecessary_effort": "The reader processes three sentences whose content is already available from the action. The cost is a weaker ending and extra attention, not merely additional length.",
+            "brief_coverage": "Retains the required scene and invents no history, statistic or event. The optional lesson has a weak fit because it contributes no material point beyond the concrete scene and dilutes the voice."
+          }
+        }
+      },
+      "preference": {
+        "choice": "A",
+        "reason": "A ends at the driver's intervention, which resolves the scene through action. B preserves the same facts but trades that close for a generic and repeated explanation of why signs should be clear.",
+        "concrete_gains": [
+          "Keeps the anecdote's causal sequence and concrete details.",
+          "Lets walking the block twice register the cost of the confusing signs.",
+          "Maintains the first-person narrative voice through the ending."
+        ],
+        "concrete_losses": [
+          "Does not state a general lesson explicitly; that is allowed and the scene already makes the relevant point.",
+          "No material coverage loss under the supplied brief."
+        ],
+        "length_or_change_basis": "A is preferred because its ending and voice work better. A longer ending could win if it added an insight beyond the scene; B's does not."
+      },
+      "local_alternative": null
+    },
+    {
+      "case": "06",
+      "brief_requirement": "A short first-person blog scene must retain voice, chronology and concrete details. It must add no moral, personal history or new event, and editing is warranted only where it benefits the passage.",
+      "versions": {
+        "A": {
+          "recovery_answers": [
+            {
+              "question": "What is the sequence of events and where is the narrator?",
+              "status": "answered",
+              "answer": "The rain stops just before the narrator reaches the station. Because the bench is wet, the narrator stands under the timetable and watches a porter dry each seat with yesterday's newspaper. The porter then leaves the sports pages on the seat beneath the leaking roof.",
+              "evidence": [
+                "The rain stopped just before I reached the station.",
+                "The bench was wet, so I stood under the timetable and watched a porter dry each seat with yesterday’s newspaper.",
+                "He left the sports pages on the one seat beneath the leaking roof."
+              ],
+              "missing_unclear_or_outside_scope": "The station and position under the timetable are explicit. A platform, town, journey purpose or boarding event is not specified and is outside scope."
+            },
+            {
+              "question": "What does the porter do with the newspaper?",
+              "status": "answered",
+              "answer": "He uses yesterday's newspaper to dry each seat and leaves the sports pages on the one seat under the leaking roof.",
+              "evidence": [
+                "watched a porter dry each seat with yesterday’s newspaper",
+                "He left the sports pages on the one seat beneath the leaking roof."
+              ],
+              "missing_unclear_or_outside_scope": "The text does not establish that the newspaper is discarded as a whole or explain the porter's purpose in leaving those pages."
+            },
+            {
+              "question": "What effect does the last concrete detail have, without inventing a motive?",
+              "status": "answered_interpretation",
+              "answer": "The sports pages beneath a leaking roof give the ending a small incongruity after the methodical seat-drying. For this reader, the precise placement creates a quiet comic edge and leaves the observation unexplained.",
+              "evidence": [
+                "dry each seat with yesterday’s newspaper",
+                "He left the sports pages on the one seat beneath the leaking roof."
+              ],
+              "missing_unclear_or_outside_scope": "The effect is interpretation, not an asserted event. The porter's intention, feelings about sports and reasons for selecting that seat are unstated and outside scope."
+            }
+          ],
+          "judgments": {
+            "flow": "The three sentences move cleanly from weather and arrival to the narrator's choice of shelter, the observed task and the final specific placement.",
+            "information_selection": "Each detail helps locate the narrator, explain standing, establish the porter's work or sharpen the closing image. The sports pages and leaking roof are distinctive, functional details.",
+            "findability": "Sequence, location and newspaper use are recoverable without rereading. 'He' has a clear antecedent in the porter.",
+            "voice": "Plain first-person observation carries a restrained, lightly wry tone without explaining the joke or attributing motive.",
+            "clarity_of_connections": "'Just before' fixes chronology; 'so' explains why the narrator stands; the final sentence clearly continues the porter's action.",
+            "useful_explanation": "The needed causal explanation—the wet bench leading to standing—is present. Additional explanation of the ending would narrow its effect without answering a necessary question.",
+            "unnecessary_effort": "No material effort beyond following a compact scene. The ending invites interpretation without causing confusion about what happened.",
+            "brief_coverage": "Fits the voice, chronology and concrete-detail requirements, and adds no moral, history or new event. Nothing in the permitted evidence shows a material problem that needs editing."
+          }
+        },
+        "B": {
+          "recovery_answers": [
+            {
+              "question": "What is the sequence of events and where is the narrator?",
+              "status": "answered",
+              "answer": "The rain stops just before the narrator reaches the station. With the bench wet, the narrator stands under the timetable, watches the porter dry each seat with yesterday's newspaper, and sees him leave the sports pages on the seat beneath the leaking roof.",
+              "evidence": [
+                "The rain stopped just before I reached the station.",
+                "The bench was wet, so I stood under the timetable and watched a porter dry each seat with yesterday’s newspaper.",
+                "He left the sports pages on the one seat beneath the leaking roof."
+              ],
+              "missing_unclear_or_outside_scope": "No platform, town, reason for travel or boarding event is specified; such details are outside scope."
+            },
+            {
+              "question": "What does the porter do with the newspaper?",
+              "status": "answered",
+              "answer": "He dries each seat with yesterday's newspaper, then leaves the sports pages on the seat beneath the leaking roof.",
+              "evidence": [
+                "watched a porter dry each seat with yesterday’s newspaper",
+                "He left the sports pages on the one seat beneath the leaking roof."
+              ],
+              "missing_unclear_or_outside_scope": "His reason for leaving those pages is unknown. The passage does not say he discards the whole newspaper."
+            },
+            {
+              "question": "What effect does the last concrete detail have, without inventing a motive?",
+              "status": "answered_interpretation",
+              "answer": "The precise sports-page placement creates a small, quietly comic incongruity with the preceding effort to dry every seat. It closes on an observed detail and lets the reader supply an interpretation.",
+              "evidence": [
+                "dry each seat with yesterday’s newspaper",
+                "He left the sports pages on the one seat beneath the leaking roof."
+              ],
+              "missing_unclear_or_outside_scope": "This is a reader's response. No motive, intention or opinion about sports can be recovered from the text."
+            }
+          ],
+          "judgments": {
+            "flow": "Identical to A: weather and arrival lead to standing, watching and the final placement.",
+            "information_selection": "Identical to A: all concrete details contribute to orientation, causality, observation or the ending.",
+            "findability": "Identical to A: actions and sequence are readily recoverable and the pronoun reference is clear.",
+            "voice": "Identical to A: restrained first-person observation, with an understated edge in the closing image.",
+            "clarity_of_connections": "Identical to A: the chronology and causal link are explicit where needed; the final action remains easy to follow.",
+            "useful_explanation": "Identical to A: explains the narrator's standing without overexplaining the porter's act.",
+            "unnecessary_effort": "Identical to A: no material reading obstacle or missing necessary connection.",
+            "brief_coverage": "Identical to A and equally satisfactory within the permitted evidence. No addition or revision is needed merely to demonstrate editing."
+          }
+        }
+      },
+      "preference": {
+        "choice": "tie",
+        "reason": "The supplied A and B prose is identical. Both present a coherent scene with clear chronology, useful concrete details and an effective understated ending.",
+        "concrete_gains": [
+          "Neither version has an advantage in coverage, flow, voice or interpretive openness."
+        ],
+        "concrete_losses": [
+          "Neither loses anything relative to the other."
+        ],
+        "length_or_change_basis": "A sound passage may stand. No material problem justifies a local alternative, and no credit is given for change by itself."
+      },
+      "local_alternative": null
+    }
+  ],
+  "summary_preferences": {
+    "02": "B",
+    "04": "A",
+    "06": "tie"
+  },
+  "local_alternative_policy": "No local alternatives proposed: none is needed to resolve a material problem left by the preferred sample."
+}

@@ -1,0 +1,26 @@
+{
+  "source_sha256": "4a9e3bd9809344101b88aa551d703ad63fd2bfb9b14e8b00d75a91a028e13920",
+  "edits": [
+    {
+      "start": 146,
+      "end": 257,
+      "before": "The readings were obtained in different positions, so they describe blood pressure in two different positions. ",
+      "after": "",
+      "reason": "Delete an explanation that repeats the seated and standing positions already stated with the readings."
+    },
+    {
+      "start": 349,
+      "end": 454,
+      "before": "It is important to distinguish a suggestion from an order because the suggestion is not itself an order. ",
+      "after": "",
+      "reason": "Delete the tautological explanation after the preceding sentence has already distinguished the suggested reduction from an entered order."
+    },
+    {
+      "start": 596,
+      "end": 631,
+      "before": "; no cause has yet been established",
+      "after": "",
+      "reason": "Remove the repeated statement about the unresolved cause while retaining uncertainty and the limitation to the record."
+    }
+  ]
+}

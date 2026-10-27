@@ -60,7 +60,9 @@ The receipt records before/after word counts, inserted and removed tokens, and t
 
 ## Grammar-checking investigation
 
-A separate [research harness](experiments/grammar/probe.mjs) tests a pinned local grammar engine. It demonstrates useful spelling and punctuation findings, missed syntax problems and technical-vocabulary false positives. It is not installed as an automatic correction service. See [findings and sources](docs/grammar-investigation.md).
+A separate [research harness](experiments/grammar/probe.mjs) tests a pinned local grammar engine. A subsequent [paired comparison and fresh editor evaluation](docs/editor-language-comparison.md) covers LanguageTool 6.6, harper.js 3.0.0 and six new editing passages. The records include every before/after, exact edit plan and separate conformance, correctness and usefulness assessment.
+
+LanguageTool flagged 12 of 16 premarked error locations, compared with Harper's nine, on 27 small fixtures. Both repeated their normalized findings across three fresh processes, and both missed errors. The comparison favors LanguageTool for the next diagnostic integration trial, with domain vocabulary and reviewed replacements. Neither engine is an installed skill dependency or automatic correction service. See [findings and sources](docs/grammar-investigation.md).
 
 ## Validation and design
 
@@ -68,8 +70,8 @@ A separate [research harness](experiments/grammar/probe.mjs) tests a pinned loca
 python -m unittest discover -s tests -v
 ```
 
-The release includes 37 behavioral tests: 20 for the original checker and 17 for exact local edits and change measurement. Earlier skill instructions also received separate conformance, source-fidelity and reader reviews; results were mixed. See [evaluation and limits](docs/evaluation.md).
+The release includes 37 behavioral tests: 20 for the original checker and 17 for exact local edits and change measurement. Six fresh editing contexts tested editor 0.2.0 on new engineering, medical, assignment and blog passages, including two concise controls. Fresh masked readers preferred the five finals that changed; the unchanged control tied. A separate source audit records corrected errors and residual limitations. These are small model-reviewed trials, not human acceptance or a matched no-skill comparison. Earlier reviews were mixed; see [evaluation and limits](docs/evaluation.md).
 
 This package follows [OpenAI's skill guidance](https://learn.chatgpt.com/docs/build-skills) and [portable plugin structure](https://developers.openai.com/plugins/build/plugins). Repository and release documentation stay outside the skill entrypoints. Publishing this repository does not list it in the OpenAI plugin directory.
 
-Package version: **0.5.0**. Writer **0.3.2**, editor **0.2.0**, advisory checker **0.1.0**, local-edit tool **0.1.0**. The grammar engine is an isolated experiment, not a skill dependency or installed hook.
+Package version: **0.5.1**. Writer **0.3.2**, editor **0.2.0**, advisory checker **0.1.0**, local-edit tool **0.1.0**. This release publishes the accepted evaluation and keeps the tested runtime instructions intact. The grammar engines remain isolated experiments, not skill dependencies or installed hooks.

@@ -1,0 +1,34 @@
+﻿id,text,role,premarked_targets,LanguageTool,Harper
+R_spelling,The measurment is repeatble.,issue,2,'measurment' -> 'measurement'; 'repeatble' -> 'repeatable','measurment' -> 'measurement'; 'repeatble' -> 'repeatable'
+R_article,This is a example.,issue,1,'a' -> 'an','a' -> 'an'
+R_repeated_word,The sensor records the the temperature.,issue,1,'the the' -> 'the','the the' -> 'the'
+R_punctuation_spacing,"The pump stopped , but the alarm remained active.",issue,1,"' ,' -> ','",' ' -> ''
+R_agreement,The results is consistent.,issue,1,'is' -> 'are',No flag
+R_comma_splice,"The pump stopped, the alarm remained active.",issue,1,No flag,No flag
+R_run_on,The sensor failed the alarm stayed silent.,issue,1,No flag,No flag
+R_attachment_ambiguity,I saw the operator with the camera.,control_or_context_choice,0,No flag,No flag
+R_medical_vocabulary,The patient had hypoxaemia; auscultation revealed bilateral crackles.,control_or_context_choice,0,'hypoxaemia' -> 'hypoxemia','hypoxaemia' -> 'hypothermia'
+R_engineering_vocabulary,The microcontroller reads the thermocouple and logs the hysteresis.,control_or_context_choice,0,No flag,'thermocouple' -> None
+R_purposeful_repetition,The first valve is closed. The second valve is closed.,control_or_context_choice,0,No flag,No flag
+R_good_punctuation,"The report, which I sent yesterday, contains three figures; the appendix contains two.",control_or_context_choice,0,No flag,No flag
+R_passive_without_actor,The sample was collected at 09:00.,control_or_context_choice,0,No flag,No flag
+R_unicode_offsets,🧪 The measurment is repeatble.,issue,2,'measurment' -> 'measurement'; 'repeatble' -> 'repeatable','measurment' -> 'measurement'; 'repeatble' -> 'repeatable'
+R_markdown,"# Test results
+
+```text
+The measurment is repeatble.
+```
+
+The measurement is repeatable.",control_or_context_choice,0,'       ' -> ' '; '   ' -> ' ','       ' -> ' '; '                            ' -> ' '; '   ' -> ' '
+N_article_ultrasound,The clinician requested a ultrasound examination.,issue,1,'a' -> 'an','a' -> 'an'
+N_compound_subject,The controller and the display is powered by separate supplies.,issue,1,'is' -> 'are',No flag
+N_confusable,The technician checked there notes before restarting.,issue,1,No flag,'there' -> 'their'
+N_past_tense,"Yesterday, the technician calibrate the sensor.",issue,1,'calibrate' -> 'calibrates',No flag
+N_duplicate_comma,"After the test,, the operator saved the log.",issue,1,"',,' -> ','",No flag
+N_plural_noun,Three sample were discarded.,issue,1,No flag,No flag
+N_had_had,"I had had enough, so I went home.",control_or_context_choice,0,No flag,'had had' -> 'had'
+N_technical_noun_phrase,The secondary containment pressure sensor failed.,control_or_context_choice,0,No flag,No flag
+N_parenthesis_semicolon,"The valve, which had passed the bench test, remained closed; the motor kept running.",control_or_context_choice,0,No flag,No flag
+N_unicode_units,"At 1.5°C, sensor B reported −0.2°C.",control_or_context_choice,0,No flag,No flag
+N_medical_us,The report describes hypoxemia and bronchiectasis.,control_or_context_choice,0,No flag,"'hypoxemia' -> 'hypoxia'; 'bronchiectasis' -> ""bronchitis's"""
+N_deliberate_fragment,Not yet. The bearing was still warm.,control_or_context_choice,0,No flag,No flag

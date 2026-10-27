@@ -1,0 +1,228 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "characters": 1887,
+      "content_heading": "LanguageTool, Harper"
+    },
+    {
+      "page": 2,
+      "characters": 2010,
+      "content_heading": "What the checkers caught, missed and disturbed"
+    },
+    {
+      "page": 3,
+      "characters": 2754,
+      "content_heading": "How the findings fit this editor"
+    },
+    {
+      "page": 4,
+      "characters": 2382,
+      "content_heading": "01 / Engineering: bypass thresholds"
+    },
+    {
+      "page": 5,
+      "characters": 2650,
+      "content_heading": "02 / Medical: assessment and order status"
+    },
+    {
+      "page": 6,
+      "characters": 2631,
+      "content_heading": "03 / Assignment: sampling versus assignment"
+    },
+    {
+      "page": 7,
+      "characters": 2115,
+      "content_heading": "04 / Blog: the temporary bus stop"
+    },
+    {
+      "page": 8,
+      "characters": 2424,
+      "content_heading": "05-06 / Can the editor leave concise writing alone?"
+    },
+    {
+      "page": 9,
+      "characters": 2011,
+      "content_heading": "What this round establishes"
+    },
+    {
+      "page": 10,
+      "characters": 1386,
+      "content_heading": "All 27 fixtures / 1-7"
+    },
+    {
+      "page": 11,
+      "characters": 1865,
+      "content_heading": "All 27 fixtures / 8-14"
+    },
+    {
+      "page": 12,
+      "characters": 1508,
+      "content_heading": "All 27 fixtures / 15-21"
+    },
+    {
+      "page": 13,
+      "characters": 1517,
+      "content_heading": "All 27 fixtures / 22-27"
+    },
+    {
+      "page": 14,
+      "characters": 2139,
+      "content_heading": "Sources and evidence"
+    }
+  ],
+  "all_six_before_after_pairs_found_on_expected_case_pages": true,
+  "all_original_hashes_unchanged": true,
+  "runtime_copies": [
+    {
+      "copy": "frozen",
+      "file": "references/local-edits.md",
+      "sha256": "713b9a09d5b298b07d6a4cfef2501afdd83480fe8918f0be266abf8f6e3e2797",
+      "matches_frozen": true
+    },
+    {
+      "copy": "repository",
+      "file": "references/local-edits.md",
+      "sha256": "713b9a09d5b298b07d6a4cfef2501afdd83480fe8918f0be266abf8f6e3e2797",
+      "matches_frozen": true
+    },
+    {
+      "copy": "installed",
+      "file": "references/local-edits.md",
+      "sha256": "713b9a09d5b298b07d6a4cfef2501afdd83480fe8918f0be266abf8f6e3e2797",
+      "matches_frozen": true
+    },
+    {
+      "copy": "frozen",
+      "file": "references/mechanical-checks.md",
+      "sha256": "c6f6f092b4d1c491f28e5d6e175d0d8c057823e24e049277f066fdc5bd87ec31",
+      "matches_frozen": true
+    },
+    {
+      "copy": "repository",
+      "file": "references/mechanical-checks.md",
+      "sha256": "c6f6f092b4d1c491f28e5d6e175d0d8c057823e24e049277f066fdc5bd87ec31",
+      "matches_frozen": true
+    },
+    {
+      "copy": "installed",
+      "file": "references/mechanical-checks.md",
+      "sha256": "c6f6f092b4d1c491f28e5d6e175d0d8c057823e24e049277f066fdc5bd87ec31",
+      "matches_frozen": true
+    },
+    {
+      "copy": "frozen",
+      "file": "references/technical-meaning.md",
+      "sha256": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60",
+      "matches_frozen": true
+    },
+    {
+      "copy": "repository",
+      "file": "references/technical-meaning.md",
+      "sha256": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60",
+      "matches_frozen": true
+    },
+    {
+      "copy": "installed",
+      "file": "references/technical-meaning.md",
+      "sha256": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60",
+      "matches_frozen": true
+    },
+    {
+      "copy": "frozen",
+      "file": "scripts/edit_locally.py",
+      "sha256": "195e6c24d4cdb239fab536a0d4a7806ce8e8a86ea042f8f2e3b944ce43328410",
+      "matches_frozen": true
+    },
+    {
+      "copy": "repository",
+      "file": "scripts/edit_locally.py",
+      "sha256": "195e6c24d4cdb239fab536a0d4a7806ce8e8a86ea042f8f2e3b944ce43328410",
+      "matches_frozen": true
+    },
+    {
+      "copy": "installed",
+      "file": "scripts/edit_locally.py",
+      "sha256": "195e6c24d4cdb239fab536a0d4a7806ce8e8a86ea042f8f2e3b944ce43328410",
+      "matches_frozen": true
+    },
+    {
+      "copy": "frozen",
+      "file": "SKILL.md",
+      "sha256": "81d1e2e52089369d1fdb219da367cd06c5e07e0a3d2d0a673dba99763f724ae7",
+      "matches_frozen": true
+    },
+    {
+      "copy": "repository",
+      "file": "SKILL.md",
+      "sha256": "81d1e2e52089369d1fdb219da367cd06c5e07e0a3d2d0a673dba99763f724ae7",
+      "matches_frozen": true
+    },
+    {
+      "copy": "installed",
+      "file": "SKILL.md",
+      "sha256": "81d1e2e52089369d1fdb219da367cd06c5e07e0a3d2d0a673dba99763f724ae7",
+      "matches_frozen": true
+    }
+  ],
+  "page_text_bounds": [
+    {
+      "page": 1,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 2,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 3,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 4,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 5,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 6,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 7,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 8,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 9,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 10,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 11,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 12,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 13,
+      "text_bounds_checked": true
+    },
+    {
+      "page": 14,
+      "text_bounds_checked": true
+    }
+  ],
+  "visual_review": "All 14 final page renders inspected on contact sheets; dense medical and diagnostic pages inspected at full render size. Quote-border spacing corrected, rerendered and reinspected. No clipping, overlap or orphaned continuation page remained.",
+  "pdf_sha256": "6eb2c78054b9040963f3a2f247a90ff665238c9fd33b4c8ffea0b811c93c7beb"
+}

@@ -1,0 +1,5 @@
+--- before
++++ after
+@@ -1 +1 @@
+-Mira reported feeling light-headed when she stood up. Her blood pressure was 126/78 mmHg while seated and 102/66 mmHg two minutes after standing. The readings were obtained in different positions, so they describe blood pressure in two different positions. A dose reduction was suggested during the review, but no medication order has been entered. It is important to distinguish a suggestion from an order because the suggestion is not itself an order. Mira reported nearly fainting the previous evening, but she did not report losing consciousness. The cause of the symptoms remains unconfirmed; no cause has yet been established in the record.
++Mira reported feeling light-headed when she stood up. Her blood pressure was 126/78 mmHg while seated and 102/66 mmHg two minutes after standing. A dose reduction was suggested during the review, but no medication order has been entered in the supplied record. Mira reported nearly fainting the previous evening, but she did not report losing consciousness. The cause of the symptoms remains unconfirmed in the record.

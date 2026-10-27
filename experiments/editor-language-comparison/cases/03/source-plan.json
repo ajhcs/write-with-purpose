@@ -1,0 +1,33 @@
+{
+  "source_sha256": "13bbb5cd77b52c92390b24d9f3aba290a9d5b25d1d8f14d81f24bf773d41ce8b",
+  "edits": [
+    {
+      "start": 278,
+      "end": 356,
+      "before": "The study therefore provides information about app performance, but recruiting",
+      "after": "Recruiting",
+      "reason": "Remove an unsupported app-performance claim: source [B] supplies no performance results; retain the supported recruitment assessment."
+    },
+    {
+      "start": 420,
+      "end": 432,
+      "before": "the findings",
+      "after": "any findings",
+      "reason": "Make the generalization assessment conditional rather than implying that performance findings were supplied."
+    },
+    {
+      "start": 118,
+      "end": 118,
+      "before": "",
+      "after": " [B]",
+      "reason": "Attribute the recruitment count, class, volunteer status and app allocation to the fictional study in [B]."
+    },
+    {
+      "start": 277,
+      "end": 277,
+      "before": "",
+      "after": " [A]",
+      "reason": "Attribute the distinction between selection into the study and allocation to conditions to the course definitions in [A]."
+    }
+  ]
+}

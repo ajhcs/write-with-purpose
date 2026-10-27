@@ -1,0 +1,124 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\03\\before.txt",
+    "sha256": "eaec5a66973981c360e504ed6fa88031eca7b2cd2595e93e6ebe52b27b3f2faf",
+    "bytes": 660
+  },
+  "plan": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\reader-plan.json",
+    "sha256": "a2cda15785df3d2a3e4021bd4b5f89a374a9a62d1e13c98a56bef61a04e276a4"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "13bbb5cd77b52c92390b24d9f3aba290a9d5b25d1d8f14d81f24bf773d41ce8b",
+    "bytes": 469
+  },
+  "output": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\reader-after.txt",
+    "sha256": "13bbb5cd77b52c92390b24d9f3aba290a9d5b25d1d8f14d81f24bf773d41ce8b",
+    "bytes": 469
+  },
+  "changes": [
+    {
+      "start": 142,
+      "end": 147,
+      "before": "means",
+      "after": "does not mean",
+      "reason": "Correct the false equivalence between random assignment and random sampling.",
+      "plan_index": 0,
+      "location": {
+        "line": 1,
+        "column": 143
+      }
+    },
+    {
+      "start": 183,
+      "end": 246,
+      "before": ", so its findings can be generalized to all university students",
+      "after": ", which would require selecting participants randomly from the population of interest",
+      "reason": "Replace the unsupported generalization with the selection mechanism that distinguishes random sampling.",
+      "plan_index": 1,
+      "location": {
+        "line": 1,
+        "column": 184
+      }
+    },
+    {
+      "start": 248,
+      "end": 381,
+      "before": "Random assignment and random sampling both involve randomness, which is why the distinction between them is important to understand. ",
+      "after": "",
+      "reason": "Delete a generic statement of importance after the distinction is explained directly.",
+      "plan_index": 2,
+      "location": {
+        "line": 1,
+        "column": 249
+      }
+    },
+    {
+      "start": 381,
+      "end": 499,
+      "before": "In this case, the participants were divided randomly between the two apps, with each participant assigned to one app. ",
+      "after": "",
+      "reason": "Delete a repetition of the app-assignment procedure already given in the opening sentence.",
+      "plan_index": 3,
+      "location": {
+        "line": 1,
+        "column": 382
+      }
+    },
+    {
+      "start": 563,
+      "end": 650,
+      "before": "and the results should be considered in light of how the participants entered the study",
+      "after": "but recruiting volunteers from one campus class does not support generalizing the findings to all university students",
+      "reason": "Make the consequence of the stated recruitment method explicit instead of leaving a vague caution.",
+      "plan_index": 4,
+      "location": {
+        "line": 1,
+        "column": 564
+      }
+    }
+  ],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 658,
+      "original_characters": 658,
+      "original_characters_selected": 406,
+      "selected_percent": 61.702,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 0
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 103,
+    "after_words": 70,
+    "net_words_removed": 33,
+    "net_reduction_percent": 32.039,
+    "words_inserted": 28,
+    "words_removed_or_replaced": 61,
+    "original_tokens_removed_or_replaced_percent": 59.223,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

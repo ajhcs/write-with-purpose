@@ -1,0 +1,25 @@
+Accepted editor and language-checker evaluation, 27 October 2026
+
+The human-readable comparison is ../../docs/editor-language-comparison.md.
+This directory preserves the approved experiment's text and JSON evidence.
+The five frozen editor files belong to the original package 0.5.0 test;
+package 0.5.1 leaves their runtime contents unchanged.
+
+cases/: all six originals, reader proposals, source-check finals, exact plans,
+receipts and notes. Every case is fictional; no personal draft is included.
+reviews/: raw independent masked source, reader and engine reviews.
+engine-records/: three normalized runs per engine, raw LanguageTool CLI streams,
+execution and runtime provenance, Harper dependency locks and masked inputs.
+frozen-editor/: five original runtime files with hashes recorded in protocol.json.
+assessment.json: parent synthesis and separate triad assessments.
+snapshot-manifest.json: hashes of every file in this snapshot except itself.
+
+Records are preserved byte-for-byte and retain original local workspace paths.
+Those paths document the execution, not required installation destinations.
+This is an archived experiment, not an automatic test suite or skill dependency.
+The npm runtime, JRE and LanguageTool binaries are excluded.
+
+The release also provides the complete original PDF, editable text report and
+Review-Evidence.zip at https://github.com/ajhcs/write-with-purpose/releases/tag/v0.5.1
+The original ZIP additionally includes workspace reproduction scripts and its
+original evidence manifest. It was not rewritten to match this repository layout.

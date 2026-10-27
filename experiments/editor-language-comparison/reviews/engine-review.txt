@@ -1,0 +1,669 @@
+Independent review of 27 paired language-checker outputs
+Tool identities remain masked as X and Y.
+
+Task source files read (exactly these two):
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\engine-audit-input.json (2 reads)
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\engine-audit-scope.txt (1 read)
+These are the only task source files read. No browsing, memory, other source files, prior results, intended-error labels, or delegation were used. Inputs were not edited.
+
+Scope and method:
+- Read every case and every supplied finding. Judge the actual source language, not the case identifier or rule name.
+- Separate detecting a defect from supplying a faithful, grammatical replacement in the complete sentence. For sentences with two misspellings, a correct single-span repair may leave the other flagged misspelling; assess the combined top repairs separately.
+- Inspect the explicit top_replacement and every entry in all_replacements. Do not assume list order identifies the top replacement.
+- Treat legitimate terminology, passive constructions, meaningful repetition, contextual fragments, and attachment ambiguity as potentially correct. Do not invent intended meaning.
+- Use American English as supplied, while honoring the explicitly accepted custom spellings hypoxaemia and thermocouple.
+- Exclude diagnostics on code-masking whitespace from intrinsic prose errors. Do not count deliberately masked code misspellings as unflagged prose.
+- Spans are zero-based Unicode code-point offsets with an exclusive end. All 32 supplied diagnostic spans match their submitted substring under that convention, including the emoji cases. This does not by itself establish UTF-16 editor-integration behavior.
+- Comma-splice and tense judgments use the ordinary standalone factual/reporting reading and state the relevant rhetorical or narrative qualifications.
+- Counts describe only these cases; duplicated spelling examples, scope choices, a small nonrepresentative sample, and different diagnostic coverage prevent a general product ranking.
+
+Descriptive diagnostic counts for this sample:
+X: 17 raw diagnostics; 9 valid detections; 0 optional style/dialect preferences; 5 unwanted flags; 3 masking artifacts; 0 uncertain.
+   Clear unflagged issue instances: 7. Valid detections without a satisfactory top repair: 0.
+Y: 15 raw diagnostics; 12 valid detections; 1 optional style/dialect preferences; 0 unwanted flags; 2 masking artifacts; 0 uncertain.
+   Clear unflagged issue instances: 4. Valid detections without a satisfactory top repair: 1.
+The Y dialect flag is still unwanted under the accepted-custom-spelling contract. Detection counts do not certify repair quality; these are not product performance estimates.
+
+1. R_spelling
+Original text: "The measurment is repeatble."
+Submitted input: identical to original.
+Source assessment: Two clear spelling defects occur in the sentence.
+Disposition: intrinsic language defects.
+Source issues:
+- [4,14) "measurment": Misspelled 'measurement'. Contextual repair: "measurement".
+- [18,27) "repeatble": Misspelled 'repeatable'. Contextual repair: "repeatable".
+X: 2 diagnostics.
+  Finding 1: valid error detection; [4,14) "measurment"; rule SpellCheck.
+    Reported message: Did you mean to spell `measurment` this way?
+    Detection judgment: 'measurment' is misspelled; 'measurement' fits the singular subject and the surrounding sentence.
+    Explicit top replacement: "measurement". Status: correct local repair; another flagged misspelling remains.
+    Full submitted text after that one replacement: "The measurement is repeatble."
+    Repair judgment: The top replacement fixes this spelling. Used together with the other top replacement, it yields a correct sentence.
+    All replacements supplied: ["measurement","measurements"].
+    Alternative "measurements": incorrect contextual repair. The plural creates 'The measurements is ...', a subject–verb agreement error; the other misspelling also remains.
+      Full submitted result: "The measurements is repeatble."
+  Finding 2: valid error detection; [18,27) "repeatble"; rule SpellCheck.
+    Reported message: Did you mean to spell `repeatble` this way?
+    Detection judgment: 'repeatble' is misspelled; 'repeatable' is the appropriate adjective after 'is' in this context.
+    Explicit top replacement: "repeatable". Status: correct local repair; another flagged misspelling remains.
+    Full submitted text after that one replacement: "The measurment is repeatable."
+    Repair judgment: The top replacement fixes this spelling. Used together with the other top replacement, it yields a correct sentence.
+    All replacements supplied: ["repeatable","repeatably","reputable"].
+    Alternative "repeatably": incorrect contextual repair. The adverb does not supply the required predicative adjective in '... is repeatably.'
+      Full submitted result: "The measurment is repeatably."
+    Alternative "reputable": grammatical but unsupported meaning change. It changes the claim to reputation/respectability and is not a faithful contextual correction of 'repeatble'.
+      Full submitted result: "The measurment is reputable."
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 2 diagnostics.
+  Finding 1: valid error detection; [4,14) "measurment"; rule MORFOLOGIK_RULE_EN_US.
+    Reported message: Possible spelling mistake found.
+    Detection judgment: 'measurment' is misspelled; 'measurement' fits the singular subject and the surrounding sentence.
+    Explicit top replacement: "measurement". Status: correct local repair; another flagged misspelling remains.
+    Full submitted text after that one replacement: "The measurement is repeatble."
+    Repair judgment: The top replacement fixes this spelling. Used together with the other top replacement, it yields a correct sentence.
+    All replacements supplied: ["measurement"].
+  Finding 2: valid error detection; [18,27) "repeatble"; rule MORFOLOGIK_RULE_EN_US.
+    Reported message: Possible spelling mistake found.
+    Detection judgment: 'repeatble' is misspelled; 'repeatable' is the appropriate adjective after 'is' in this context.
+    Explicit top replacement: "repeatable". Status: correct local repair; another flagged misspelling remains.
+    Full submitted text after that one replacement: "The measurment is repeatable."
+    Repair judgment: The top replacement fixes this spelling. Used together with the other top replacement, it yields a correct sentence.
+    All replacements supplied: ["repeatable"].
+  Clear unflagged intrinsic issues for Y: none established in this case.
+Preferred complete-sentence repair: "The measurement is repeatable."
+
+2. R_article
+Original text: "This is a example."
+Submitted input: identical to original.
+Source assessment: The indefinite article is incorrect before a vowel sound.
+Disposition: intrinsic language defect.
+Source issues:
+- [8,17) "a example": Use 'an' before the vowel sound in 'example'. Contextual repair: "an example".
+X: 1 diagnostic.
+  Finding 1: valid error detection; [8,9) "a"; rule AnA.
+    Reported message: Incorrect indefinite article.
+    Detection judgment: The vowel sound at the start of 'example' requires 'an' in this sentence.
+    Explicit top replacement: "an". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "This is an example."
+    Repair judgment: The resulting sentence, 'This is an example.', is correct.
+    All replacements supplied: ["an"].
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 1 diagnostic.
+  Finding 1: valid error detection; [8,9) "a"; rule EN_A_VS_AN.
+    Reported message: Use "an" instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'.
+    Detection judgment: The vowel sound at the start of 'example' requires 'an' in this sentence.
+    Explicit top replacement: "an". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "This is an example."
+    Repair judgment: The resulting sentence, 'This is an example.', is correct.
+    All replacements supplied: ["an"].
+  Clear unflagged intrinsic issues for Y: none established in this case.
+Preferred complete-sentence repair: "This is an example."
+
+3. R_repeated_word
+Original text: "The sensor records the the temperature."
+Submitted input: identical to original.
+Source assessment: The determiner is accidentally duplicated on the ordinary reading.
+Disposition: intrinsic language defect.
+Source issues:
+- [19,26) "the the": One determiner suffices here. Contextual repair: "the".
+X: 1 diagnostic.
+  Finding 1: valid error detection; [19,26) "the the"; rule RepeatedWords.
+    Reported message: Did you mean to repeat this word?
+    Detection judgment: The adjacent duplicate determiner 'the the' has no grammatical function here.
+    Explicit top replacement: "the". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "The sensor records the temperature."
+    Repair judgment: Deleting one 'the' yields 'The sensor records the temperature.'
+    All replacements supplied: ["the"].
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 1 diagnostic.
+  Finding 1: valid error detection; [19,26) "the the"; rule ENGLISH_WORD_REPEAT_RULE.
+    Reported message: Possible typo: you repeated a word.
+    Detection judgment: The adjacent duplicate determiner 'the the' has no grammatical function here.
+    Explicit top replacement: "the". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "The sensor records the temperature."
+    Repair judgment: Deleting one 'the' yields 'The sensor records the temperature.'
+    All replacements supplied: ["the"].
+  Clear unflagged intrinsic issues for Y: none established in this case.
+Preferred complete-sentence repair: "The sensor records the temperature."
+
+4. R_punctuation_spacing
+Original text: "The pump stopped , but the alarm remained active."
+Submitted input: identical to original.
+Source assessment: There is an unwanted space before the comma.
+Disposition: intrinsic punctuation defect.
+Source issues:
+- [16,18) " ,": Remove the space before the comma. Contextual repair: ",".
+X: 1 diagnostic.
+  Finding 1: valid error detection; [16,17) " "; rule CommaFixes.
+    Reported message: Don't use a space before a comma.
+    Detection judgment: The space before the comma is inappropriate in ordinary English punctuation.
+    Explicit top replacement: "". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "The pump stopped, but the alarm remained active."
+    Repair judgment: The replacement preserves the comma and its following space, yielding 'The pump stopped, but the alarm remained active.'
+    All replacements supplied: [""].
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 1 diagnostic.
+  Finding 1: valid error detection; [16,18) " ,"; rule COMMA_PARENTHESIS_WHITESPACE.
+    Reported message: Put a space after the comma, but not before the comma.
+    Detection judgment: The space before the comma is inappropriate in ordinary English punctuation.
+    Explicit top replacement: ",". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "The pump stopped, but the alarm remained active."
+    Repair judgment: The replacement preserves the comma and its following space, yielding 'The pump stopped, but the alarm remained active.'
+    All replacements supplied: [","].
+  Clear unflagged intrinsic issues for Y: none established in this case.
+Preferred complete-sentence repair: "The pump stopped, but the alarm remained active."
+
+5. R_agreement
+Original text: "The results is consistent."
+Submitted input: identical to original.
+Source assessment: The plural subject and singular verb disagree.
+Disposition: intrinsic language defect.
+Source issues:
+- [4,14) "results is": Plural 'results' requires 'are'. Contextual repair: "results are".
+X: 0 diagnostics.
+  No finding; X misses the clear 'results is' agreement defect.
+  Clear unflagged issues for X:
+  - [4,14) "results is": Plural 'results' requires 'are'. Repair: "results are".
+Y: 1 diagnostic.
+  Finding 1: valid error detection; [12,14) "is"; rule AGREEMENT_SENT_START.
+    Reported message: You should probably use: "are".
+    Detection judgment: The plural subject 'results' requires 'are' rather than 'is'.
+    Explicit top replacement: "are". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "The results are consistent."
+    Repair judgment: 'The results are consistent.' repairs the subject–verb agreement.
+    All replacements supplied: ["are"].
+  Clear unflagged intrinsic issues for Y: none established in this case.
+Preferred complete-sentence repair: "The results are consistent."
+
+6. R_comma_splice
+Original text: "The pump stopped, the alarm remained active."
+Submitted input: identical to original.
+Source assessment: In ordinary edited factual prose, a comma alone does not adequately join these two independent clauses.
+Disposition: intrinsic sentence-boundary defect under the ordinary factual reading.
+Source issues:
+- [16,17) ",": The comma follows the complete clause 'The pump stopped' and precedes the complete clause 'the alarm remained active'. A semicolon is one meaning-preserving repair. Contextual repair: ";".
+  Qualification: An expressly rhetorical comma splice can be a deliberate prose device; no such context is supplied. This judgment concerns the ordinary standalone factual sentence.
+X: 0 diagnostics.
+  No finding; X misses the comma splice under the ordinary factual reading.
+  Clear unflagged issues for X:
+  - [16,17) ",": The comma follows the complete clause 'The pump stopped' and precedes the complete clause 'the alarm remained active'. A semicolon is one meaning-preserving repair. Repair: ";".
+Y: 0 diagnostics.
+  No finding; Y misses the comma splice under the ordinary factual reading.
+  Clear unflagged issues for Y:
+  - [16,17) ",": The comma follows the complete clause 'The pump stopped' and precedes the complete clause 'the alarm remained active'. A semicolon is one meaning-preserving repair. Repair: ";".
+Preferred complete-sentence repair: "The pump stopped; the alarm remained active."
+
+7. R_run_on
+Original text: "The sensor failed the alarm stayed silent."
+Submitted input: identical to original.
+Source assessment: Two independent clauses run together without a suitable boundary.
+Disposition: intrinsic sentence-boundary defect.
+Source issues:
+- [11,27) "failed the alarm": There is no conjunction or adequate separator between 'The sensor failed' and 'the alarm stayed silent'. Contextual repair: "failed; the alarm".
+X: 0 diagnostics.
+  No finding; X misses the fused sentence.
+  Clear unflagged issues for X:
+  - [11,27) "failed the alarm": There is no conjunction or adequate separator between 'The sensor failed' and 'the alarm stayed silent'. Repair: "failed; the alarm".
+Y: 0 diagnostics.
+  No finding; Y misses the fused sentence.
+  Clear unflagged issues for Y:
+  - [11,27) "failed the alarm": There is no conjunction or adequate separator between 'The sensor failed' and 'the alarm stayed silent'. Repair: "failed; the alarm".
+Preferred complete-sentence repair: "The sensor failed; the alarm stayed silent."
+
+8. R_attachment_ambiguity
+Original text: "I saw the operator with the camera."
+Submitted input: identical to original.
+Source assessment: The camera phrase can describe the operator or the means of seeing. Both attachments are grammatical.
+Disposition: legitimate but semantically ambiguous text.
+X: 0 diagnostics.
+  No finding; appropriate restraint. Ambiguity alone does not establish an error.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; appropriate restraint. Ambiguity alone does not establish an error.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+No mandatory original-text repair established within the supplied checking scope.
+
+9. R_medical_vocabulary
+Original text: "The patient had hypoxaemia; auscultation revealed bilateral crackles."
+Submitted input: identical to original.
+Source assessment: The sentence is grammatical and uses legitimate medical terms. 'Hypoxaemia' is explicitly accepted by the scope.
+Disposition: legitimate terminology; accepted spelling.
+X: 1 diagnostic.
+  Finding 1: unwanted flag on legitimate text/terminology; [16,26) "hypoxaemia"; rule SpellCheck.
+    Reported message: Did you mean to spell `hypoxaemia` this way?
+    Detection judgment: 'Hypoxaemia' is a legitimate spelling of the medical term and is explicitly accepted by the supplied scope. There is no spelling defect to repair.
+    Explicit top replacement: "hypothermia". Status: grammatical but medically different statement.
+    Full submitted text after that one replacement: "The patient had hypothermia; auscultation revealed bilateral crackles."
+    Repair judgment: 'Hypothermia' refers to low body temperature, not the low blood oxygen denoted by hypoxaemia. The replacement changes the clinical claim.
+    All replacements supplied: ["hypothermia","hypoxia"].
+    Alternative "hypoxia": grammatical but medically different statement. Hypoxia is related to insufficient tissue oxygen and is not an interchangeable spelling of hypoxaemia, which concerns blood oxygen.
+      Full submitted result: "The patient had hypoxia; auscultation revealed bilateral crackles."
+    Scope fit: Unwanted raw flag on an explicitly accepted custom spelling.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 1 diagnostic.
+  Finding 1: optional style/dialect preference; [16,26) "hypoxaemia"; rule MORFOLOGIK_RULE_EN_US.
+    Reported message: Possible spelling mistake found.
+    Detection judgment: 'Hypoxemia' is the American spelling of 'hypoxaemia', not a correction of an intrinsic language error. The scope explicitly accepts the source spelling.
+    Explicit top replacement: "hypoxemia". Status: meaning-preserving optional dialect normalization.
+    Full submitted text after that one replacement: "The patient had hypoxemia; auscultation revealed bilateral crackles."
+    Repair judgment: The resulting sentence is grammatical and preserves the medical term, but this change is unnecessary under the declared accepted spelling.
+    All replacements supplied: ["hypoxemia"].
+    Scope fit: Although linguistically an optional American spelling normalization, this raw flag is unwanted under the explicit accepted-custom-spelling contract.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+No mandatory original-text repair established within the supplied checking scope.
+
+10. R_engineering_vocabulary
+Original text: "The microcontroller reads the thermocouple and logs the hysteresis."
+Submitted input: identical to original.
+Source assessment: 'Microcontroller', 'thermocouple', and 'hysteresis' are legitimate engineering terms; nothing in the supplied sentence establishes a language defect.
+Disposition: legitimate terminology.
+X: 1 diagnostic.
+  Finding 1: unwanted flag on legitimate text/terminology; [30,42) "thermocouple"; rule SpellCheck.
+    Reported message: Did you mean to spell `thermocouple` this way?
+    Detection judgment: 'Thermocouple' is a correctly spelled engineering term for a temperature-sensing device and is explicitly accepted by the scope.
+    Explicit top replacement: null. Status: no replacement supplied.
+    Full submitted text after that one replacement: null
+    Repair judgment: No repair is offered, and no spelling repair is needed.
+    All replacements supplied: [].
+    Scope fit: Unwanted raw flag on an explicitly accepted custom spelling.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; appropriate for the supplied sentence and explicitly accepted 'thermocouple' spelling.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+No mandatory original-text repair established within the supplied checking scope.
+
+11. R_purposeful_repetition
+Original text: "The first valve is closed. The second valve is closed."
+Submitted input: identical to original.
+Source assessment: The parallel sentences report separate valve states. Repeated 'valve is closed' is meaningful, grammatical repetition.
+Disposition: legitimate repetition and passive constructions.
+X: 0 diagnostics.
+  No finding; appropriate restraint.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; appropriate restraint.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+No mandatory original-text repair established within the supplied checking scope.
+
+12. R_good_punctuation
+Original text: "The report, which I sent yesterday, contains three figures; the appendix contains two."
+Submitted input: identical to original.
+Source assessment: The nonrestrictive relative clause is enclosed by commas, and the semicolon connects two independent clauses.
+Disposition: legitimate punctuation.
+X: 0 diagnostics.
+  No finding; appropriate restraint.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; appropriate restraint.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+No mandatory original-text repair established within the supplied checking scope.
+
+13. R_passive_without_actor
+Original text: "The sample was collected at 09:00."
+Submitted input: identical to original.
+Source assessment: The passive reports a collection event and time without naming an actor; this is grammatical and can be appropriate.
+Disposition: legitimate passive construction.
+X: 0 diagnostics.
+  No finding; an omitted actor in this passive is not inherently an error.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; an omitted actor in this passive is not inherently an error.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+No mandatory original-text repair established within the supplied checking scope.
+
+14. R_unicode_offsets
+Original text: "🧪 The measurment is repeatble."
+Submitted input: identical to original.
+Source assessment: The same two spelling defects occur after a supplementary-plane emoji; every stored span matches its intended substring when counted as Unicode code points.
+Disposition: intrinsic spelling defects; code-point offsets.
+Source issues:
+- [6,16) "measurment": Misspelled 'measurement'. Contextual repair: "measurement".
+- [20,29) "repeatble": Misspelled 'repeatable'. Contextual repair: "repeatable".
+X: 2 diagnostics.
+  Finding 1: valid error detection; [6,16) "measurment"; rule SpellCheck.
+    Reported message: Did you mean to spell `measurment` this way?
+    Detection judgment: 'measurment' is misspelled; 'measurement' fits the singular subject and the surrounding sentence.
+    Explicit top replacement: "measurement". Status: correct local repair; another flagged misspelling remains.
+    Full submitted text after that one replacement: "🧪 The measurement is repeatble."
+    Repair judgment: The top replacement fixes this spelling. Used together with the other top replacement, it yields a correct sentence.
+    All replacements supplied: ["measurement","measurements"].
+    Alternative "measurements": incorrect contextual repair. The plural creates 'The measurements is ...', a subject–verb agreement error; the other misspelling also remains.
+      Full submitted result: "🧪 The measurements is repeatble."
+  Finding 2: valid error detection; [20,29) "repeatble"; rule SpellCheck.
+    Reported message: Did you mean to spell `repeatble` this way?
+    Detection judgment: 'repeatble' is misspelled; 'repeatable' is the appropriate adjective after 'is' in this context.
+    Explicit top replacement: "repeatable". Status: correct local repair; another flagged misspelling remains.
+    Full submitted text after that one replacement: "🧪 The measurment is repeatable."
+    Repair judgment: The top replacement fixes this spelling. Used together with the other top replacement, it yields a correct sentence.
+    All replacements supplied: ["repeatable","repeatably","reputable"].
+    Alternative "repeatably": incorrect contextual repair. The adverb does not supply the required predicative adjective in '... is repeatably.'
+      Full submitted result: "🧪 The measurment is repeatably."
+    Alternative "reputable": grammatical but unsupported meaning change. It changes the claim to reputation/respectability and is not a faithful contextual correction of 'repeatble'.
+      Full submitted result: "🧪 The measurment is reputable."
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 2 diagnostics.
+  Finding 1: valid error detection; [6,16) "measurment"; rule MORFOLOGIK_RULE_EN_US.
+    Reported message: Possible spelling mistake found.
+    Detection judgment: 'measurment' is misspelled; 'measurement' fits the singular subject and the surrounding sentence.
+    Explicit top replacement: "measurement". Status: correct local repair; another flagged misspelling remains.
+    Full submitted text after that one replacement: "🧪 The measurement is repeatble."
+    Repair judgment: The top replacement fixes this spelling. Used together with the other top replacement, it yields a correct sentence.
+    All replacements supplied: ["measurement"].
+  Finding 2: valid error detection; [20,29) "repeatble"; rule MORFOLOGIK_RULE_EN_US.
+    Reported message: Possible spelling mistake found.
+    Detection judgment: 'repeatble' is misspelled; 'repeatable' is the appropriate adjective after 'is' in this context.
+    Explicit top replacement: "repeatable". Status: correct local repair; another flagged misspelling remains.
+    Full submitted text after that one replacement: "🧪 The measurment is repeatable."
+    Repair judgment: The top replacement fixes this spelling. Used together with the other top replacement, it yields a correct sentence.
+    All replacements supplied: ["repeatable"].
+  Clear unflagged intrinsic issues for Y: none established in this case.
+Preferred complete-sentence repair: "🧪 The measurement is repeatable."
+
+15. R_markdown
+Original text: "# Test results\n\n```text\nThe measurment is repeatble.\n```\n\nThe measurement is repeatable."
+Submitted input: "# Test results\n\n       \n                            \n   \n\nThe measurement is repeatable."
+Source assessment: The prose outside the fenced-code block is clean. All returned flags target spaces generated by masking the code fence or its contents.
+Disposition: masked code region; no intrinsic outside-code defect.
+X: 3 diagnostics.
+  Finding 1: input-masking artifact; [16,23) "       "; rule NoFrenchSpaces.
+    Original source at that span: "```text".
+    Reported message: French spaces are generally not recommended.
+    Detection judgment: This whitespace was generated by replacing a fenced-code region with spaces. It is not an intrinsic prose-spacing defect in the original text.
+    Explicit top replacement: " ". Status: inapplicable to the original source.
+    Full submitted text after that one replacement: "# Test results\n\n \n                            \n   \n\nThe measurement is repeatable."
+    Full original if that span were applied directly: "# Test results\n\n \nThe measurment is repeatble.\n```\n\nThe measurement is repeatable."
+    Repair judgment: Collapsing this generated 7-space run to one space only changes the masked submission. Applying the stored span to the original would replace code or a fence, so the suggestion must not be treated as an original-text repair.
+    All replacements supplied: [" "].
+    Scope fit: Exclude from intrinsic language-error detection and from missed-error counts.
+  Finding 2: input-masking artifact; [24,52) "                            "; rule Spaces.
+    Original source at that span: "The measurment is repeatble.".
+    Reported message: There are 28 spaces where there should be only one.
+    Detection judgment: This whitespace was generated by replacing a fenced-code region with spaces. It is not an intrinsic prose-spacing defect in the original text.
+    Explicit top replacement: " ". Status: inapplicable to the original source.
+    Full submitted text after that one replacement: "# Test results\n\n       \n \n   \n\nThe measurement is repeatable."
+    Full original if that span were applied directly: "# Test results\n\n```text\n \n```\n\nThe measurement is repeatable."
+    Repair judgment: Collapsing this generated 28-space run to one space only changes the masked submission. Applying the stored span to the original would replace code or a fence, so the suggestion must not be treated as an original-text repair.
+    All replacements supplied: [" "].
+    Scope fit: Exclude from intrinsic language-error detection and from missed-error counts.
+  Finding 3: input-masking artifact; [53,56) "   "; rule Spaces.
+    Original source at that span: "```".
+    Reported message: There are 3 spaces where there should be only one.
+    Detection judgment: This whitespace was generated by replacing a fenced-code region with spaces. It is not an intrinsic prose-spacing defect in the original text.
+    Explicit top replacement: " ". Status: inapplicable to the original source.
+    Full submitted text after that one replacement: "# Test results\n\n       \n                            \n \n\nThe measurement is repeatable."
+    Full original if that span were applied directly: "# Test results\n\n```text\nThe measurment is repeatble.\n \n\nThe measurement is repeatable."
+    Repair judgment: Collapsing this generated 3-space run to one space only changes the masked submission. Applying the stored span to the original would replace code or a fence, so the suggestion must not be treated as an original-text repair.
+    All replacements supplied: [" "].
+    Scope fit: Exclude from intrinsic language-error detection and from missed-error counts.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 2 diagnostics.
+  Finding 1: input-masking artifact; [16,23) "       "; rule WHITESPACE_RULE.
+    Original source at that span: "```text".
+    Reported message: Possible typo: you repeated a whitespace
+    Detection judgment: This whitespace was generated by replacing a fenced-code region with spaces. It is not an intrinsic prose-spacing defect in the original text.
+    Explicit top replacement: " ". Status: inapplicable to the original source.
+    Full submitted text after that one replacement: "# Test results\n\n \n                            \n   \n\nThe measurement is repeatable."
+    Full original if that span were applied directly: "# Test results\n\n \nThe measurment is repeatble.\n```\n\nThe measurement is repeatable."
+    Repair judgment: Collapsing this generated 7-space run to one space only changes the masked submission. Applying the stored span to the original would replace code or a fence, so the suggestion must not be treated as an original-text repair.
+    All replacements supplied: [" "].
+    Scope fit: Exclude from intrinsic language-error detection and from missed-error counts.
+  Finding 2: input-masking artifact; [53,56) "   "; rule WHITESPACE_RULE.
+    Original source at that span: "```".
+    Reported message: Possible typo: you repeated a whitespace
+    Detection judgment: This whitespace was generated by replacing a fenced-code region with spaces. It is not an intrinsic prose-spacing defect in the original text.
+    Explicit top replacement: " ". Status: inapplicable to the original source.
+    Full submitted text after that one replacement: "# Test results\n\n       \n                            \n \n\nThe measurement is repeatable."
+    Full original if that span were applied directly: "# Test results\n\n```text\nThe measurment is repeatble.\n \n\nThe measurement is repeatable."
+    Repair judgment: Collapsing this generated 3-space run to one space only changes the masked submission. Applying the stored span to the original would replace code or a fence, so the suggestion must not be treated as an original-text repair.
+    All replacements supplied: [" "].
+    Scope fit: Exclude from intrinsic language-error detection and from missed-error counts.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+Additional scope/style observation: The misspellings inside the original fenced block were intentionally excluded from checking. Their lack of spelling flags is not an unflagged-prose defect.
+Additional scope/style observation: X's additional middle-line whitespace flag and Y's omission of that run are differences in response to generated input, not evidence of language-checking quality.
+No mandatory original-text repair established within the supplied checking scope.
+
+16. N_article_ultrasound
+Original text: "The clinician requested a ultrasound examination."
+Submitted input: identical to original.
+Source assessment: The indefinite article is incorrect before the vowel sound of 'ultrasound'.
+Disposition: intrinsic language defect.
+Source issues:
+- [24,36) "a ultrasound": Use 'an ultrasound'. Contextual repair: "an ultrasound".
+X: 1 diagnostic.
+  Finding 1: valid error detection; [24,25) "a"; rule AnA.
+    Reported message: Incorrect indefinite article.
+    Detection judgment: 'Ultrasound' begins with a vowel sound, so 'an ultrasound examination' is required.
+    Explicit top replacement: "an". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "The clinician requested an ultrasound examination."
+    Repair judgment: The resulting sentence is 'The clinician requested an ultrasound examination.'
+    All replacements supplied: ["an"].
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 1 diagnostic.
+  Finding 1: valid error detection; [24,25) "a"; rule EN_A_VS_AN.
+    Reported message: Use "an" instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'.
+    Detection judgment: 'Ultrasound' begins with a vowel sound, so 'an ultrasound examination' is required.
+    Explicit top replacement: "an". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "The clinician requested an ultrasound examination."
+    Repair judgment: The resulting sentence is 'The clinician requested an ultrasound examination.'
+    All replacements supplied: ["an"].
+  Clear unflagged intrinsic issues for Y: none established in this case.
+Preferred complete-sentence repair: "The clinician requested an ultrasound examination."
+
+17. N_compound_subject
+Original text: "The controller and the display is powered by separate supplies."
+Submitted input: identical to original.
+Source assessment: The two named components form a plural compound subject.
+Disposition: intrinsic language defect.
+Source issues:
+- [23,33) "display is": The subject is 'The controller and the display'; it requires 'are'. Contextual repair: "display are".
+X: 0 diagnostics.
+  No finding; X misses the clear compound-subject agreement error.
+  Clear unflagged issues for X:
+  - [23,33) "display is": The subject is 'The controller and the display'; it requires 'are'. Repair: "display are".
+Y: 1 diagnostic.
+  Finding 1: valid error detection; [31,33) "is"; rule AGREEMENT_SENT_START.
+    Reported message: You should probably use "are".
+    Detection judgment: 'The controller and the display' identifies two components; 'separate supplies' reinforces the plural reading.
+    Explicit top replacement: "are". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "The controller and the display are powered by separate supplies."
+    Repair judgment: 'The controller and the display are powered by separate supplies.' repairs agreement.
+    All replacements supplied: ["are"].
+  Clear unflagged intrinsic issues for Y: none established in this case.
+Preferred complete-sentence repair: "The controller and the display are powered by separate supplies."
+
+18. N_confusable
+Original text: "The technician checked there notes before restarting."
+Submitted input: identical to original.
+Source assessment: 'There' is the wrong form before 'notes' in this sentence.
+Disposition: intrinsic language defect.
+Source issues:
+- [23,34) "there notes": The possessive determiner 'their' supplies the ordinary grammatical reading. Contextual repair: "their notes".
+X: 1 diagnostic.
+  Finding 1: valid error detection; [23,28) "there"; rule ThereToTheir.
+    Reported message: Did you mean `their`?
+    Detection judgment: 'There' cannot function as the possessive determiner before 'notes' here; 'their' provides a normal grammatical reading.
+    Explicit top replacement: "their". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "The technician checked their notes before restarting."
+    Repair judgment: 'The technician checked their notes before restarting.' is grammatical; singular 'their' is also legitimate if it refers to the technician.
+    All replacements supplied: ["their"].
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; Y misses the contextual 'there'/'their' error.
+  Clear unflagged issues for Y:
+  - [23,34) "there notes": The possessive determiner 'their' supplies the ordinary grammatical reading. Repair: "their notes".
+Preferred complete-sentence repair: "The technician checked their notes before restarting."
+
+19. N_past_tense
+Original text: "Yesterday, the technician calibrate the sensor."
+Submitted input: identical to original.
+Source assessment: The base-form verb does not form the expected finite predicate with the singular subject. 'Yesterday' supports 'calibrated' in the ordinary standalone factual reading.
+Disposition: intrinsic finite-verb-form defect.
+Source issues:
+- [26,35) "calibrate": Use the past form 'calibrated' for the supplied factual sentence. The top suggestion 'calibrates' fixes only present-tense agreement. Contextual repair: "calibrated".
+  Related evidence: [0,9) "Yesterday".
+  Qualification: Present-tense storytelling could license 'calibrates' in an established narrative, but that context is absent; the source 'calibrate' is still not a normal finite form here.
+X: 0 diagnostics.
+  No finding; X misses the finite-verb-form problem.
+  Clear unflagged issues for X:
+  - [26,35) "calibrate": Use the past form 'calibrated' for the supplied factual sentence. The top suggestion 'calibrates' fixes only present-tense agreement. Repair: "calibrated".
+Y: 1 diagnostic.
+  Finding 1: valid error detection; [26,35) "calibrate"; rule PCT_SINGULAR_NOUN_PLURAL_VERB_AGREEMENT.
+    Reported message: "Technician" is a singular noun. It appears that the verb form is incorrect.
+    Detection judgment: The flag locates a real finite-verb-form defect in the ordinary standalone factual reading. Its explanation focuses on singular present-tense agreement and misses the supplied past-time cue 'Yesterday'.
+    Explicit top replacement: "calibrates". Status: locally agrees but fails the ordinary full-sentence tense reading.
+    Full submitted text after that one replacement: "Yesterday, the technician calibrates the sensor."
+    Repair judgment: 'Yesterday, the technician calibrates the sensor.' uses a singular present verb, so it does not provide the expected past-tense repair. 'Yesterday, the technician calibrated the sensor.' repairs the supplied factual sentence. A deliberately established historical-present narrative could license present tense, but that context is not supplied.
+    All replacements supplied: ["calibrates"].
+    Context qualification: Judgment uses the ordinary standalone factual/reporting reading; it does not prohibit an intentionally established narrative present.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+  Located but not satisfactorily repaired by top: [26,35) "calibrate". Prefer "calibrated" in the supplied factual context.
+Preferred complete-sentence repair: "Yesterday, the technician calibrated the sensor."
+
+20. N_duplicate_comma
+Original text: "After the test,, the operator saved the log."
+Submitted input: identical to original.
+Source assessment: Two consecutive commas duplicate the separator after the opening phrase.
+Disposition: intrinsic punctuation defect.
+Source issues:
+- [14,16) ",,": Use a single comma. Contextual repair: ",".
+X: 0 diagnostics.
+  No finding; X misses the duplicate comma.
+  Clear unflagged issues for X:
+  - [14,16) ",,": Use a single comma. Repair: ",".
+Y: 1 diagnostic.
+  Finding 1: valid error detection; [14,16) ",,"; rule DOUBLE_PUNCTUATION.
+    Reported message: Two consecutive commas
+    Detection judgment: The consecutive commas after 'test' duplicate the separator.
+    Explicit top replacement: ",". Status: correct complete-sentence repair.
+    Full submitted text after that one replacement: "After the test, the operator saved the log."
+    Repair judgment: 'After the test, the operator saved the log.' removes the extra comma.
+    All replacements supplied: [","].
+  Clear unflagged intrinsic issues for Y: none established in this case.
+Preferred complete-sentence repair: "After the test, the operator saved the log."
+
+21. N_plural_noun
+Original text: "Three sample were discarded."
+Submitted input: identical to original.
+Source assessment: The numeral 'Three' and plural verb require the count noun 'samples'.
+Disposition: intrinsic language defect.
+Source issues:
+- [0,12) "Three sample": The count noun must be plural here. Contextual repair: "Three samples".
+X: 0 diagnostics.
+  No finding; X misses the clear singular count noun after 'Three'.
+  Clear unflagged issues for X:
+  - [0,12) "Three sample": The count noun must be plural here. Repair: "Three samples".
+Y: 0 diagnostics.
+  No finding; Y misses the clear singular count noun after 'Three'.
+  Clear unflagged issues for Y:
+  - [0,12) "Three sample": The count noun must be plural here. Repair: "Three samples".
+Preferred complete-sentence repair: "Three samples were discarded."
+
+22. N_had_had
+Original text: "I had had enough, so I went home."
+Submitted input: identical to original.
+Source assessment: The adjacent occurrences of 'had' have distinct grammatical roles in the past perfect.
+Disposition: legitimate repetition.
+X: 1 diagnostic.
+  Finding 1: unwanted flag on legitimate text/terminology; [2,9) "had had"; rule RepeatedWords.
+    Reported message: Did you mean to repeat this word?
+    Detection judgment: 'Had had' is a legitimate past-perfect construction: auxiliary 'had' plus the past participle 'had'. It is not an accidental repeated word.
+    Explicit top replacement: "had". Status: grammatical but unnecessary change of tense/aspect.
+    Full submitted text after that one replacement: "I had enough, so I went home."
+    Repair judgment: 'I had enough, so I went home.' is grammatical, but it changes the original past perfect to simple past. It may be an intentional stylistic simplification; the original needs no correction.
+    All replacements supplied: ["had"].
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; appropriate restraint on the grammatical past-perfect construction.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+No mandatory original-text repair established within the supplied checking scope.
+
+23. N_technical_noun_phrase
+Original text: "The secondary containment pressure sensor failed."
+Submitted input: identical to original.
+Source assessment: The stacked modifiers form a legitimate technical noun phrase. Their precise attachment could depend on equipment context, but no intrinsic language error is established.
+Disposition: legitimate technical noun phrase.
+X: 0 diagnostics.
+  No finding; appropriate restraint.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; appropriate restraint.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+No mandatory original-text repair established within the supplied checking scope.
+
+24. N_parenthesis_semicolon
+Original text: "The valve, which had passed the bench test, remained closed; the motor kept running."
+Submitted input: identical to original.
+Source assessment: The parenthetical relative clause is correctly delimited, and the semicolon joins independent clauses.
+Disposition: legitimate punctuation.
+X: 0 diagnostics.
+  No finding; appropriate restraint.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; appropriate restraint.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+No mandatory original-text repair established within the supplied checking scope.
+
+25. N_unicode_units
+Original text: "At 1.5°C, sensor B reported −0.2°C."
+Submitted input: identical to original.
+Source assessment: The decimal quantities, degree symbols, letter labels, and Unicode minus do not establish a grammar or spelling defect.
+Disposition: legitimate language with an optional unit-typography consideration.
+X: 0 diagnostics.
+  No finding; no clear intrinsic language error is missed.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; no clear intrinsic language error is missed.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+Additional scope/style observation: If SI-style number–unit spacing is required, '1.5 °C' and '−0.2 °C' would be preferred. No such style requirement is declared, so the tight spacing is not counted as a clear missed language error. The Unicode minus sign is appropriate.
+No mandatory original-text repair established within the supplied checking scope.
+
+26. N_medical_us
+Original text: "The report describes hypoxemia and bronchiectasis."
+Submitted input: identical to original.
+Source assessment: 'Hypoxemia' and 'bronchiectasis' are correctly spelled medical terms. No contextual language defect is established.
+Disposition: legitimate medical terminology.
+X: 2 diagnostics.
+  Finding 1: unwanted flag on legitimate text/terminology; [21,30) "hypoxemia"; rule SpellCheck.
+    Reported message: Did you mean `hypoxia`?
+    Detection judgment: 'Hypoxemia' is a correctly spelled American medical term for low blood oxygen.
+    Explicit top replacement: "hypoxia". Status: grammatical but medically different statement.
+    Full submitted text after that one replacement: "The report describes hypoxia and bronchiectasis."
+    Repair judgment: 'The report describes hypoxia and bronchiectasis.' changes the first condition to a related but distinct concept; it does not fix a spelling error.
+    All replacements supplied: ["hypoxia"].
+  Finding 2: unwanted flag on legitimate text/terminology; [35,49) "bronchiectasis"; rule SpellCheck.
+    Reported message: Did you mean to spell `bronchiectasis` this way?
+    Detection judgment: 'Bronchiectasis' is a correctly spelled medical term denoting abnormal bronchial dilation. It is distinct from bronchitis.
+    Explicit top replacement: "bronchitis's". Status: incorrect syntax and changed medical meaning.
+    Full submitted text after that one replacement: "The report describes hypoxemia and bronchitis's."
+    Repair judgment: The explicit top_replacement is "bronchitis's", even though it is second in all_replacements. 'The report describes hypoxemia and bronchitis\'s.' leaves a possessive without a suitable noun and changes the condition.
+    All replacements supplied: ["bronchitis","bronchitis's"].
+    Alternative "bronchitis": grammatical but medically different statement. 'The report describes hypoxemia and bronchitis.' is grammatical, but bronchitis is a different condition, not a spelling correction of bronchiectasis.
+      Full submitted result: "The report describes hypoxemia and bronchitis."
+    Ordering note: Audited the explicit top_replacement rather than assuming the first all_replacements entry was the top.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; appropriate restraint on the legitimate medical terms.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+No mandatory original-text repair established within the supplied checking scope.
+
+27. N_deliberate_fragment
+Original text: "Not yet. The bearing was still warm."
+Submitted input: identical to original.
+Source assessment: 'Not yet.' can be a deliberate short response or fragment. The following full sentence is grammatical.
+Disposition: legitimate deliberate fragment and passive construction.
+X: 0 diagnostics.
+  No finding; appropriate restraint. Fragment status alone does not establish an error.
+  Clear unflagged intrinsic issues for X: none established in this case.
+Y: 0 diagnostics.
+  No finding; appropriate restraint. Fragment status alone does not establish an error.
+  Clear unflagged intrinsic issues for Y: none established in this case.
+No mandatory original-text repair established within the supplied checking scope.
+
+Comparative conclusion:
+- Both X and Y provide correct contextual top repairs for the two spelling examples, both article examples, the accidental repeated determiner, and the comma-spacing defect. X also correctly repairs 'there notes'. Y additionally locates two agreement errors, a duplicate comma, and the finite-verb problem in the 'Yesterday' sentence.
+- Y's 'calibrates' suggestion illustrates the difference between detection and repair: it improves singular present-tense agreement but does not supply the expected past-tense 'calibrated' in the ordinary factual sentence.
+- X flags legitimate 'hypoxaemia', 'thermocouple', 'hypoxemia', 'bronchiectasis', and 'had had'. Its medical replacements change clinical meaning; the explicit top "bronchitis's" also produces unsuitable syntax. Y's 'hypoxaemia' to 'hypoxemia' preserves meaning as an optional American spelling normalization, but the raw flag is unnecessary under the explicitly accepted custom spelling.
+- All three X Markdown findings and both Y Markdown findings are input-masking artifacts. Neither tool flags the comma splice, fused sentence, or 'Three sample'. Y also leaves 'there notes' unflagged; X leaves the two agreement defects, verb-form defect, and duplicate comma unflagged.
+- Both tools appropriately leave the supplied attachment ambiguity, parallel valve statements, legitimate punctuation, passive construction, technical noun phrase, and deliberate fragment alone. Unit spacing is recorded as an optional typography matter rather than a definite missed language error.
+- These observations support case-specific choices and manual review of suggestions. They do not establish a general product ranking, and more diagnostics alone are not better assistance.
+

@@ -1,0 +1,76 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\04\\before.txt",
+    "sha256": "b594b0153fb13cc4fecd04d6f5119ae1c6a4a70544f5b144d17faf85e47c0b43",
+    "bytes": 569
+  },
+  "plan": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\04\\reader-plan.json",
+    "sha256": "19982f669b7d205aba968a553336033be52208fd5978d6a44b42dff63398d8ad"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+    "bytes": 315
+  },
+  "output": {
+    "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\04\\reader-after.txt",
+    "sha256": "16b402b769b25e9ad5a118f2833e2c525d86dd3d3810a38e5092b96122e65349",
+    "bytes": 315
+  },
+  "changes": [
+    {
+      "start": 311,
+      "end": 565,
+      "before": " This experience illustrates the importance of clear communication in everyday life. Good signs should help people find the places they need to go, and confusing signs can make that harder. In the end, the purpose of a sign is to tell people where to go.",
+      "after": "",
+      "reason": "The concrete scene already shows the effect of contradictory signs. These three general closing sentences repeat that completed point without adding an inference; ending with the driver preserves the scene and first-person voice.",
+      "plan_index": 0,
+      "location": {
+        "line": 1,
+        "column": 312
+      }
+    }
+  ],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 565,
+      "original_characters": 565,
+      "original_characters_selected": 254,
+      "selected_percent": 44.956,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 0
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 101,
+    "after_words": 56,
+    "net_words_removed": 45,
+    "net_reduction_percent": 44.554,
+    "words_inserted": 0,
+    "words_removed_or_replaced": 45,
+    "original_tokens_removed_or_replaced_percent": 44.554,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

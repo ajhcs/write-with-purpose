@@ -1,0 +1,24 @@
+{
+  "jre": {
+    "source_api": "https://api.adoptium.net/v3/assets/feature_releases/17/ga?architecture=x64&heap_size=normal&image_type=jre&jvm_impl=hotspot&os=windows&vendor=eclipse&page_size=1",
+    "version": {
+      "build": 1,
+      "major": 17,
+      "minor": 0,
+      "openjdk_version": "17.0.20.1+1",
+      "patch": 1,
+      "security": 20,
+      "semver": "17.0.20+101"
+    },
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_windows_hotspot_17.0.20.1_1.zip",
+    "expected_sha256": "bc21a93923103cdaac93ee337b0ae4365e739fde36df823dd456bc67c8a9d352",
+    "bytes": 43780109
+  },
+  "languagetool": {
+    "url": "https://languagetool.org/download/LanguageTool-6.6.zip",
+    "resolved_url": "https://languagetool.org/download/LanguageTool-6.6.zip",
+    "bytes": "251998221",
+    "status": 200
+  },
+  "scope": "Portable experiment under this workspace. No global Java installation, PATH change or persistent service."
+}

@@ -1,0 +1,12 @@
+{
+  "source_sha256": "430e5fa856e3d82753084996aa928a770dd6541011ad57f0c4f94d00da0c6dea",
+  "edits": [
+    {
+      "start": 156,
+      "end": 169,
+      "before": "above 180 kPa",
+      "after": "at or above 180 kPa",
+      "reason": "Specification S3 includes equality at 180 kPa; above alone incorrectly excludes readings equal to the closing threshold."
+    }
+  ]
+}

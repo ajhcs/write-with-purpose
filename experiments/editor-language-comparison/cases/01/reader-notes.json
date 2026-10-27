@@ -1,0 +1,49 @@
+{
+  "phase": "First reader proposal; stopped before source-check phase.",
+  "skill": "Frozen edit-with-purpose 0.2.0",
+  "input_files_read": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\SKILL.md",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\01\\brief.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\01\\before.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\local-edits.md"
+  ],
+  "tool_executed": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\scripts\\edit_locally.py",
+  "generated_files_checked": [
+    "reader-plan.json",
+    "reader-after.txt",
+    "reader-receipt.json"
+  ],
+  "material_changes": [
+    "Deleted the explanation that one low reading is insufficient and the opening and closing pressures differ; those points follow directly from the retained operating conditions.",
+    "Deleted the repeated display explanation while retaining the statement that the display shows the most recent reading.",
+    "Deleted the final sentence that merely labels the preceding conditions as the controller sequence."
+  ],
+  "provisional_judgments": {
+    "conformance": {
+      "judgment": "Appears conformant with the reader-edit brief and frozen skill.",
+      "basis": "Three named local changes remove repeated explanation; all retained wording and both operating-rule sentences are unchanged. Original file hash is unchanged. No operating or maintenance advice was added.",
+      "limit": "The receipt verifies mechanical reconstruction only; it does not establish editorial quality."
+    },
+    "correctness": {
+      "judgment": "Stated conditions appear preserved relative to the supplied passage; factual validation unavailable.",
+      "basis": "Opening remains below 160 kPa for two consecutive readings taken 2 seconds apart; closing remains three consecutive readings above 180 kPa. No interval was added to the closing condition.",
+      "limit": "No source packet was supplied or read during this phase. This does not validate the actual controller behavior."
+    },
+    "usefulness": {
+      "judgment": "Likely easier for a technician to identify the opening and closing conditions.",
+      "basis": "The two direct rules now lead immediately to the distinct display fact. The removed low-reading and threshold explanations add no separate condition.",
+      "limit": "This is an editorial judgment, without reader testing or a source check."
+    }
+  },
+  "measurements": {
+    "before_words": 106,
+    "after_words": 34,
+    "words_inserted": 1,
+    "words_removed_or_replaced": 73,
+    "original_characters_selected": 423,
+    "original_characters_selected_percent": 66.614,
+    "interpretation": "The large reduction consists of deletions of repeated explanation, with one comma-and-clause replacement by a period; it was not a reduction target."
+  },
+  "final_reading": "Reread each successive candidate and the complete tool-produced text. The retained opening, closing and display sentences connect plainly.",
+  "original_preserved": true
+}

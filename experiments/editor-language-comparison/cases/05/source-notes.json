@@ -1,0 +1,39 @@
+{
+  "stage": "Separate source meaning check after the reader proposal was sealed.",
+  "input_files_read": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\cases\\05\\source.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\05\\brief.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\05\\reader-after.txt"
+  ],
+  "instructions_reused_from_reader_stage": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\SKILL.md",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\local-edits.md"
+  ],
+  "tool_executed": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\scripts\\edit_locally.py",
+  "claims_checked": [
+    {
+      "source_claim": "C1",
+      "finding": "The opening instruction preserves the requirement that the pump stay stopped while the guard is open."
+    },
+    {
+      "source_claim": "C2",
+      "finding": "The Reset instruction follows guard closing and identifies its interlock-clearing effect."
+    },
+    {
+      "source_claim": "C3",
+      "finding": "The statement that the pump remains stopped until Start is pressed preserves the fact that Reset does not start the pump."
+    },
+    {
+      "source_claim": "C4",
+      "finding": "The sequence places Start after guard closing and Reset, and retains Start as necessary to start the pump."
+    }
+  ],
+  "corrections": [],
+  "assessments": {
+    "conformance": "The empty exact-span plan preserves the sealed reader proposal and all reader-stage files. Reset and Start retain their exact labels, and no step is added.",
+    "correctness": "All selected claims and the necessary guard-close, Reset, Start context agree with the supplied fictional operator specification. No substantive source issue was found.",
+    "usefulness": "No source correction is needed. The reader-stage phrasing and information selection are retained without a new style pass."
+  },
+  "limits": "Checked only fidelity to the supplied fictional operator specification and the brief. This does not validate real equipment behavior or establish factual truth beyond that source.",
+  "final_matches_reader_proposal": true
+}

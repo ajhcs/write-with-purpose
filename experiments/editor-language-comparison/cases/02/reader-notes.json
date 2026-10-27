@@ -1,0 +1,61 @@
+{
+  "stage": "first_reader_proposal",
+  "skill_version": "0.2.0",
+  "editorial_inputs_actually_read": [
+    {
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\SKILL.md",
+      "purpose": "Frozen editing instructions."
+    },
+    {
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\02\\brief.txt",
+      "purpose": "Audience, preservation constraints and requested editing scope."
+    },
+    {
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\02\\before.txt",
+      "purpose": "Original passage and sole substantive basis for this proposal."
+    },
+    {
+      "path": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\local-edits.md",
+      "purpose": "Exact-span plan and tool instructions."
+    }
+  ],
+  "generated_artifacts_read": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\reader-after.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\02\\reader-receipt.json"
+  ],
+  "tool_executed": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\scripts\\edit_locally.py",
+  "material_changes": [
+    "Deleted the sentence restating that seated and standing readings were taken in different positions.",
+    "Deleted the sentence repeating the preceding distinction between a suggested reduction and an entered medication order.",
+    "Condensed the repeated uncertainty about the cause while retaining the limitation to the record."
+  ],
+  "provisional_judgments": {
+    "conformance": {
+      "judgment": "Provisionally conforms to the brief and frozen skill.",
+      "basis": "Three exact-span deletions preserve the surrounding wording and original file. The receipt completed without errors; a separate hash check confirmed that the source was unchanged and the candidate matched the receipt. Each deletion was reviewed in the complete passage, followed by a final reading for flow.",
+      "limit": "Mechanical success does not establish correctness or usefulness."
+    },
+    "correctness": {
+      "judgment": "Provisionally preserves the meaning of the supplied passage.",
+      "basis": "The numbers, units, seated posture, standing posture, two-minute interval, previous-evening timing, reported near-fainting without reported loss of consciousness, suggested medication change, absent entered order and uncertainty in the record are retained. No diagnosis or treatment recommendation was added.",
+      "limit": "No source packet or independent evidence was read. Factual truth and source fidelity remain unchecked until the separate source-check phase."
+    },
+    "usefulness": {
+      "judgment": "Provisionally useful for an attentive clinician reader.",
+      "basis": "The deleted explanations repeat information already expressed explicitly. Their removal makes the retained clinical details easier to find without requiring an additional inference.",
+      "limit": "Reader benefit is an editorial judgment, not a result established by the word counts."
+    }
+  },
+  "measurements": {
+    "before_words": 102,
+    "after_words": 62,
+    "words_inserted_by_token_alignment": 1,
+    "words_removed_or_replaced_by_token_alignment": 41,
+    "original_characters_selected": 251,
+    "original_block_characters": 646,
+    "original_block_selected_percent": 38.854,
+    "note": "Whitespace-token alignment counts the punctuation change from unconfirmed; to unconfirmed as one removed and one inserted token; the edit plan contains deletions only. These measurements do not score authenticity or usefulness."
+  },
+  "excluded_material": "No source packets, other cases, protocol, prior reviews, memory, browsing, other writing samples or grammar-engine findings were used.",
+  "status": "First proposal saved; source-check phase pending."
+}

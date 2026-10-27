@@ -1,0 +1,39 @@
+{
+  "stage": "First reader proposal; source check pending.",
+  "skill": {
+    "name": "edit-with-purpose",
+    "version": "0.2.0",
+    "frozen": true
+  },
+  "input_files_actually_read": [
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\SKILL.md",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\03\\brief.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\first-pass\\03\\before.txt",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\local-edits.md",
+    "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\references\\technical-meaning.md"
+  ],
+  "execution": {
+    "tool_executed": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\outputs\\editor-language-comparison\\frozen-editor\\scripts\\edit_locally.py",
+    "generated_plan_read_by_tool": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\reader-plan.json",
+    "final_candidate_reread": "C:\\Users\\colet\\Documents\\Codex\\2026-10-26\\i-d-x20\\work\\editor-language-comparison\\results\\03\\reader-after.txt",
+    "original_preserved": true
+  },
+  "material_changes": [
+    "Corrected the equation of random assignment with random sampling and explained random selection from the population of interest.",
+    "Deleted the generic statement that the distinction matters and the repeated description of app assignment.",
+    "Replaced the closing vague caution with an explicit limit on generalizing from volunteers recruited from one campus class."
+  ],
+  "provisional_conformance": {
+    "judgment": "The proposal follows the brief and local-edit method: five named exact spans, retained surrounding wording, a separate candidate, and a final reading for connections.",
+    "mechanical_result": "The tool completed without errors and verified the original hash, exact spans, nonoverlap and preservation outside the spans, including line endings.",
+    "measurements": "103 to 70 whitespace-separated words; 28 inserted, 61 removed or replaced; 61.702 percent of original block characters selected. Much of the selected text is the two deleted sentences. These counts do not establish editorial quality."
+  },
+  "provisional_correctness": {
+    "judgment": "The revised distinction and recruitment limit are internally coherent under the ordinary meanings of random assignment and random sampling. The stated study details are treated as given.",
+    "limits": "No source packets were opened. Source fidelity, factual truth of study details, and support for the joint [A, B] marker remain unverified. The original joint marker was retained without assigning either source to a new individual claim. No grammar-engine findings were supplied."
+  },
+  "provisional_usefulness": {
+    "judgment": "The candidate gives the reader a direct distinction and an explicit generalization assessment, while preserving the opening example and the final point about app performance.",
+    "tradeoff": "It removes the general statement that both methods involve randomness; the retained explanation still expresses randomness in both the app assignment and population selection."
+  }
+}

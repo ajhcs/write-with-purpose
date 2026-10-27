@@ -1,0 +1,1 @@
+The bypass opens when reservoir pressure stays below 160 kPa for two consecutive readings taken 2 seconds apart. It closes after three consecutive readings above 180 kPa. The display shows the most recent reading.

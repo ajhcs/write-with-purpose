@@ -1,0 +1,248 @@
+READER A — BLIND PROSE USEFULNESS ASSESSMENT
+
+Preferences: 01 A; 03 A; 05 B (slight).
+
+Inputs and boundaries
+Exactly 12 input files were read:
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\01\brief.txt
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\01\questions.json
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\01\A.txt
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\01\B.txt
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\03\brief.txt
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\03\questions.json
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\03\A.txt
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\03\B.txt
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\05\brief.txt
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\05\questions.json
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\05\A.txt
+- C:\Users\colet\Documents\Codex\2026-10-26\i-d-x20\work\editor-language-comparison\blind-reader\05\B.txt
+
+Only the 12 listed input files were read. A preliminary path-existence check identified the three permitted case directories without reading other case content.
+No sources, skills, protocol, mapping, editor notes, other cases, memory or browsing were used. No delegation occurred.
+No sample files were edited.
+The unseen original, source fidelity and change extent cannot be verified. Neither exposed prose sample includes the brief's requested change record; complete-package delivery and preservation of the original are therefore unverified rather than a comparative prose advantage.
+Answers come from each version and its supplied brief. Evidence quotes identify the enabling clause. Recovery-question coverage is assessed separately from actual brief coverage. No scores or word-count targets determine preference.
+
+CASE 01
+
+Purpose: An operating note for a technician identifying bypass opening and closing conditions.
+Brief coverage: Keep the two pressure thresholds, reading counts and timing conditions distinct. Add no operating or maintenance advice. Preserve precise terms and plain connections.
+Question scope: Opening and closing are central requirements. Display information is incidental; answering that recovery question does not by itself establish brief compliance.
+
+VERSION A
+
+1. What opens the bypass, including the reading count and timing?
+Status: answered
+Answer: Reservoir pressure below 160 kPa on two consecutive readings taken 2 seconds apart.
+Evidence: "The bypass opens when reservoir pressure stays below 160 kPa for two consecutive readings taken 2 seconds apart."
+Missing, unclear or outside-scope detail: None for the question asked. The 2-second spacing is explicitly attached to the opening readings.
+
+2. Does exactly 180 kPa qualify toward closing it?
+Status: answered
+Answer: Yes. A reading of exactly 180 kPa counts, and three consecutive qualifying readings are required.
+Evidence: "It closes after three consecutive readings at or above 180 kPa."
+Missing, unclear or outside-scope detail: The answer is unambiguous within A, but the allowed brief does not establish whether this inclusive boundary is the intended source rule.
+
+3. What does the display show?
+Status: answered
+Answer: The most recent reading.
+Evidence: "The display shows the most recent reading."
+Missing, unclear or outside-scope detail: Incidental to the brief's central opening/closing requirement; it is present and readily recoverable.
+
+Usefulness judgments:
+- flow: Opening, closing and display appear in an easy operational order, with one sentence per function.
+- information selection: The conditions carry the relevant detail. The display sentence is a small, distinct addition rather than repeated explanation.
+- findability: The opening and closing rules occupy the first two sentences, so the technician can locate either directly.
+- voice: Plain, restrained technical prose suits the operating-note purpose. Fidelity to the unseen original voice cannot be verified.
+- clarity of connections: The subjects 'opens' and 'closes' separate the conditions; the 2-second interval clearly modifies the opening pair. A closing-reading interval is not supplied and should not be inferred.
+- useful explanation: The count, comparison operator and spacing do the explanatory work without requiring a paraphrase.
+- unnecessary effort: Low. No sentence makes the reader sort operational facts from commentary about their importance.
+- brief coverage: The visible prose distinguishes the two thresholds and reading counts and states the opening interval. No new advice appears. The inclusive closing boundary cannot be certified against an unavailable source.
+
+VERSION B
+
+1. What opens the bypass, including the reading count and timing?
+Status: answered
+Answer: Reservoir pressure below 160 kPa on two consecutive readings taken 2 seconds apart; one low reading alone does not open it.
+Evidence: "The bypass opens when reservoir pressure stays below 160 kPa for two consecutive readings taken 2 seconds apart."
+Evidence: "one low reading by itself does not open the bypass"
+Missing, unclear or outside-scope detail: None for the opening question. The later clause restates a consequence of the two-reading requirement.
+
+2. Does exactly 180 kPa qualify toward closing it?
+Status: answered
+Answer: No. B requires readings strictly above 180 kPa, with three consecutive qualifying readings.
+Evidence: "It closes after three consecutive readings above 180 kPa."
+Missing, unclear or outside-scope detail: This directly conflicts with A's inclusive boundary. The allowed brief does not establish which boundary is faithful to the source.
+
+3. What does the display show?
+Status: answered
+Answer: The most recent reading, described again as the latest pressure value.
+Evidence: "The display shows the most recent reading, so operators can see the latest pressure value on the display."
+Missing, unclear or outside-scope detail: Incidental to the core brief. The second clause repeats the first rather than adding display behavior.
+
+Usefulness judgments:
+- flow: The initial conditions are followed by several explanatory restatements before the display and a general concluding sentence. This weakens the operating-note sequence.
+- information selection: One-low-reading explanation can help a reader check the count rule, but it supplies no additional condition. The two threshold-difference statements, display paraphrase and final overview add little usable information.
+- findability: The rules remain easy to find at the beginning, but the extra material makes scanning for an additional condition less efficient.
+- voice: Phrases such as 'it is also important to recognize' and 'In other words' shift the register toward a tutorial. They feel disproportionate to an attentive technician's short operating note.
+- clarity of connections: The opening and closing tests themselves are separate. Repeating that the pressures differ does not clarify the exact comparison at 180 kPa. The final controller sentence gives no further sequence detail.
+- useful explanation: The one-reading consequence is the only plausible extra aid. The other explanations mostly restate facts already explicit in the conditions.
+- unnecessary effort: The reader must distinguish new operating information from repeated explanation. The added length is a cost because of that sorting work, not merely because B has more words.
+- brief coverage: B keeps distinct pressure values, counts and the opening interval, and adds no maintenance or operating steps. Its exclusive closing boundary differs materially from A and cannot be verified from the permitted context.
+
+PREFERENCE: A (clear for prose usefulness; threshold fidelity unresolved)
+Concrete gains: A presents the operational tests and display behavior directly, with less searching through restatement and a register suited to the technician.
+Concrete losses: A omits B's explicit reminder that a single low reading is insufficient. That reminder could help a novice, although A already states the two-reading requirement.
+Limit: A says exactly 180 kPa counts; B says it does not. The preference does not certify either threshold boundary as source-faithful because the brief supplies no authoritative inclusivity rule.
+Local alternative: None. No additional local alternative is needed to judge the pair; A already addresses B's material prose problems, while the boundary dispute requires unavailable source evidence.
+
+CASE 03
+
+Purpose: An assignment response explaining random sampling and random assignment and assessing generalization to all university students.
+Brief coverage: Keep both technical terms, explain their distinction, connect recruitment to the generalization assessment, and use supplied [A] and [B] markers where evidence supports claims.
+Question scope: All three recovery questions address the assignment's central content. Citation-source accuracy cannot be verified because the source materials are excluded.
+
+VERSION A
+
+1. How do random sampling and random assignment differ?
+Status: answered
+Answer: Random assignment allocates the recruited participants to the two apps. Random sampling selects participants randomly from the population of interest. Random allocation does not establish random selection.
+Evidence: "recruited 80 volunteers from one campus class and randomly assigned them to use one of two study apps"
+Evidence: "This random assignment does not mean that the study used random sampling, which would require selecting participants randomly from the population of interest."
+Missing, unclear or outside-scope detail: The allocation meaning is conveyed through the concrete study procedure rather than a separate abstract definition; it is recoverable.
+
+2. Which recruitment and allocation procedures did this study use?
+Status: answered
+Answer: It recruited 80 volunteers from one campus class, then randomly assigned them to one of two study apps.
+Evidence: "The researchers recruited 80 volunteers from one campus class and randomly assigned them to use one of two study apps. [B]"
+Missing, unclear or outside-scope detail: No missing procedure required by the brief. The text does not give an allocation ratio or randomization method, and neither is requested.
+
+3. What supports or limits generalizing to all university students?
+Status: answered
+Answer: Recruiting volunteers from a single campus class does not support generalizing the findings to all university students; random assignment does not fix that recruitment limitation.
+Evidence: "This random assignment does not mean that the study used random sampling"
+Evidence: "Recruiting volunteers from one campus class does not support generalizing any findings to all university students. [A, B]"
+Missing, unclear or outside-scope detail: No affirmative basis for population-wide generalization is supplied. The answer appropriately identifies the stated recruitment limitation without requiring an unrelated account of causal inference.
+
+Usefulness judgments:
+- flow: The study procedure leads to the conceptual distinction, which leads to the generalization judgment. Each sentence prepares the next.
+- information selection: The response selects exactly the facts and definition needed to assess recruitment and generalization.
+- findability: The first sentence answers what happened, the second distinguishes the terms, and the third gives the judgment.
+- voice: Direct academic explanation with precise terms and little padding. Original-voice fidelity cannot be established without the original.
+- clarity of connections: 'This random assignment does not mean' directly blocks the mistaken inference from allocation to selection. The final sentence links the recruitment fact to the population claim.
+- useful explanation: The definition of random sampling and the concrete example of assignment supply the distinction the assignment needs.
+- unnecessary effort: Low. The reader does not have to infer a missing qualification or reconcile inconsistent claims.
+- brief coverage: The visible prose addresses all requested content and places [B], [A], and [A, B] near the claims they appear intended to support. Whether those sources actually support those claims remains unverified.
+
+VERSION B
+
+1. How do random sampling and random assignment differ?
+Status: missing
+Answer: A valid distinction is not recoverable. B says random assignment means the study used random sampling, then says both involve randomness. It describes app allocation but never explains population selection.
+Evidence: "This random assignment means that the study used random sampling"
+Evidence: "Random assignment and random sampling both involve randomness, which is why the distinction between them is important to understand."
+Evidence: "the participants were divided randomly between the two apps"
+Missing, unclear or outside-scope detail: The required difference is missing. The asserted equivalence is a conceptual error: random allocation to apps does not establish random selection of participants from a population.
+
+2. Which recruitment and allocation procedures did this study use?
+Status: answered
+Answer: It recruited 80 volunteers from one campus class and randomly allocated them between two apps, one app per participant.
+Evidence: "The researchers recruited 80 volunteers from one campus class and randomly assigned them to use one of two study apps."
+Evidence: "the participants were divided randomly between the two apps, with each participant assigned to one app"
+Missing, unclear or outside-scope detail: The concrete procedures are recoverable, despite the later incorrect label of random sampling.
+
+3. What supports or limits generalizing to all university students?
+Status: answered_but_misleading
+Answer: B claims that random assignment establishes random sampling and therefore supports generalization to all university students. Its final caution says only to consider how participants entered the study; it does not state the single-class volunteer limitation.
+Evidence: "This random assignment means that the study used random sampling, so its findings can be generalized to all university students."
+Evidence: "the results should be considered in light of how the participants entered the study"
+Missing, unclear or outside-scope detail: The actual recruitment limitation is missing. The stated support rests on an invalid inference, and the vague ending does not correct the explicit population-wide claim.
+
+Usefulness judgments:
+- flow: The paragraph moves from procedure to an unsupported conclusion, then to a sentence promising a distinction, repeats allocation, and ends with a vague caution.
+- information selection: Recruitment and allocation facts are useful. The statement that the distinction is important and the generic app-performance sentence occupy space without doing the required explanatory work.
+- findability: The procedure is readily found, but the reader cannot find a valid selection-versus-allocation distinction or a specific limit on generalization.
+- voice: The academic register becomes padded and indirect, especially 'important to understand' and 'should be considered in light of'. Original-voice fidelity is unassessable.
+- clarity of connections: The explicit 'means' and 'so' connections are logically unsound. The later caution never explains its relationship to the earlier unqualified generalization claim.
+- useful explanation: The concrete app allocation is understandable, but repeating it does not explain random sampling. Shared randomness is not a useful explanation of the difference.
+- unnecessary effort: High relative to the task: the reader must supply the missing definition and qualification and repair the invalid inference.
+- brief coverage: Both terms and a final [A, B] marker are present, but the central distinction and defensible recruitment-based assessment fail. A combined marker at the end does not make support for each claim clear or repair the conceptual error; source attribution itself is unverified.
+
+PREFERENCE: A (strong)
+Concrete gains: A supplies the required selection-versus-allocation distinction and ties the single-class volunteer recruitment directly to the generalization limit. It also keeps intended citation support close to individual claims.
+Concrete losses: A does not repeat that each person used one app, but 'assigned them to use one of two study apps' already supplies the relevant allocation information. No material useful explanation from B is lost.
+Limit: The conceptual assessment is possible from the prose and supplied assignment context. The accuracy of [A]/[B] source attribution and fidelity to an unseen original are not verified.
+Local alternative: None. A already provides a material correction to B's missing distinction and unsupported generalization; a third version is unnecessary.
+
+CASE 05
+
+Purpose: A short operator instruction about the guard interlock and the separate effects of Reset and Start.
+Brief coverage: Preserve the exact labels Reset and Start and the operating sequence. Explain the guard condition and the buttons' separate effects. Do not add steps.
+Question scope: All three questions address the operator instruction's central requirements.
+
+VERSION A
+
+1. What must happen while the guard is open?
+Status: answered
+Answer: The pump must remain stopped.
+Evidence: "Keep the pump stopped while the guard is open."
+Missing, unclear or outside-scope detail: None.
+
+2. What does Reset do, and does it start the pump?
+Status: answered
+Answer: Reset clears the interlock and does not restart the pump.
+Evidence: "Reset clears the interlock, but it does not restart the pump."
+Missing, unclear or outside-scope detail: None. The preceding sentence also says the pump remains stopped until Start is pressed.
+
+3. What is required before the pump restarts?
+Status: answered
+Answer: Close the guard, press Reset, and then press Start.
+Evidence: "After closing the guard, press Reset; the pump remains stopped until Start is pressed."
+Missing, unclear or outside-scope detail: The sequence is recoverable. The text supplies no further steps, and the brief requires none.
+
+Usefulness judgments:
+- flow: The guard condition and button sequence come first, but Reset's purpose appears in a final explanatory sentence after Start has been introduced.
+- information selection: All information is relevant. The final sentence partly repeats the already stated fact that the pump stays stopped until Start.
+- findability: The open-guard instruction is immediate. Reset's purpose requires looking to the last sentence, while the sequence is in the middle sentence.
+- voice: Clear, direct operator language. The final negative gives additional emphasis to the separation of Reset and Start. Original-voice fidelity cannot be verified.
+- clarity of connections: The semicolon and 'until' make clear that Reset is followed by a stopped state. The final 'but' reinforces that clearing the interlock does not itself restart the pump.
+- useful explanation: Explicitly stating what Reset does and does not do is useful. Its placement repeats rather than extends the preceding sequence.
+- unnecessary effort: Low, with a small backward connection needed to attach the last sentence's explanation to the Reset action.
+- brief coverage: The prose retains both exact labels, the guard-close/Reset/Start sequence and their separate effects, with no added steps.
+
+VERSION B
+
+1. What must happen while the guard is open?
+Status: answered
+Answer: The pump must remain stopped.
+Evidence: "Keep the pump stopped while the guard is open."
+Missing, unclear or outside-scope detail: None.
+
+2. What does Reset do, and does it start the pump?
+Status: answered
+Answer: Reset clears the interlock. It does not start the pump: after Reset, the pump remains stopped until Start is pressed.
+Evidence: "press Reset to clear the interlock; the pump remains stopped until Start is pressed"
+Missing, unclear or outside-scope detail: The non-restart effect is explicit through 'remains stopped until Start' even without a separate 'Reset does not restart' sentence.
+
+3. What is required before the pump restarts?
+Status: answered
+Answer: Close the guard, press Reset to clear the interlock, and then press Start.
+Evidence: "After closing the guard, press Reset to clear the interlock; the pump remains stopped until Start is pressed."
+Missing, unclear or outside-scope detail: None. No additional steps are introduced.
+
+Usefulness judgments:
+- flow: The open-guard condition is followed by one chronological instruction that includes Reset's purpose and the separate Start action.
+- information selection: The same operational content as A is retained, with the Reset explanation attached to the action it explains.
+- findability: Both Reset's effect and the fact that it leaves the pump stopped are available at the Reset instruction.
+- voice: Direct operator language with the exact button labels. Original-voice fidelity is unassessable without the original.
+- clarity of connections: 'to clear the interlock' links the button and effect immediately; the following stopped-state clause separates clearing from starting.
+- useful explanation: The explanation is useful at the point of action. The reader can follow the sequence without returning to a later sentence.
+- unnecessary effort: Slightly lower than A because the function of Reset is integrated where it is used. This is a relationship and placement gain, not a word-count reward.
+- brief coverage: The same guard condition, exact labels, sequence and separate button effects remain available, with no added steps.
+
+PREFERENCE: B (slight)
+Concrete gains: B places Reset's effect directly beside pressing Reset and carries the stopped state forward to Start. This improves the connection between action and explanation without losing a required condition.
+Concrete losses: B loses A's standalone emphatic sentence that Reset does not restart the pump. That emphasis has plausible value, but B's 'remains stopped until Start is pressed' still answers the question clearly.
+Limit: A is already sound. The preference is modest and concerns placement and flow; both versions meet the visible operating requirements.
+Local alternative: None. Neither version has a material unresolved prose problem that requires a third version.
+
