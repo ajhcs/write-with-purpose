@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "write-with-purpose",
+  "version": "0.4.0",
+  "description": "Draft and edit purposeful prose with precise language, useful structure and a separate meaning check. Includes an optional read-only checker.",
+  "author": {
+    "name": "ajhcs",
+    "url": "https://github.com/ajhcs"
+  },
+  "repository": "https://github.com/ajhcs/write-with-purpose",
+  "homepage": "https://github.com/ajhcs/write-with-purpose",
+  "keywords": [
+    "writing",
+    "editing",
+    "clarity",
+    "technical-writing"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Write with Purpose",
+        "shortDescription": "Draft and edit clear, precise prose.",
+        "longDescription": "Write for the reader's purpose while preserving the author's voice. Review syntax, technical meaning, source fidelity and usefulness separately, with optional mechanical observations.",
+        "developerName": "ajhcs",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/ajhcs/write-with-purpose"
+      }
+    }
+  }
+}
