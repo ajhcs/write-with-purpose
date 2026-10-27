@@ -5,7 +5,7 @@ Two Codex skills for clear meaning, useful structure and the author's voice. The
 | Skill | Use |
 | --- | --- |
 | [write-with-purpose](skills/write-with-purpose/SKILL.md) | Draft or substantially rework prose. Select the contribution, connect the reasoning and make a distinct reader edit. |
-| [edit-with-purpose](skills/edit-with-purpose/SKILL.md) | Review an existing draft. Compare concrete revisions, preserve effective writing and check the revised meaning against supplied evidence. |
+| [edit-with-purpose](skills/edit-with-purpose/SKILL.md) | Edit the existing wording through targeted word, clause and sentence changes. Preserve unaffected language and check revised meaning against supplied evidence. |
 
 The instructions favor familiar, exact words, stable concept names and syntax that makes relationships clear. Numbers stay attached to their entities, units and conditions. Qualifications belong with the claims they limit. Explanations, punctuation and paragraph boundaries should help the reader follow the thought.
 
@@ -45,14 +45,31 @@ It reports exact duplicate paragraphs, explicit unresolved markers, limited inte
 
 These checks do not judge factual correctness, useful repetition, paragraph flow or reader benefit. See [the checker reference](skills/write-with-purpose/references/checks.md) for its exact scope.
 
+## Targeted edits and concision
+
+Editing a paragraph means inspecting it as a whole and repairing particular parts. The editor first considers deletions, then makes the smallest changes that resolve the identified problem. Connections can require coordinated changes to adjacent sentences. Substantial rewriting follows an explicit request or a demonstrated organizational problem.
+
+For file edits, an exact-span plan can bind the changes to the source hash and reconstruct a separate output while preserving everything outside the named spans:
+
+```text
+python skills/edit-with-purpose/scripts/edit_locally.py original.txt --plan edits.json --output edited.txt
+python skills/edit-with-purpose/scripts/edit_locally.py original.txt --compare existing-edit.txt
+```
+
+The receipt records before/after word counts, inserted and removed tokens, and the original text selected by the plan. It makes expansion and broad replacement visible. It does not enforce a reduction quota or certify source meaning. See [local edits](skills/edit-with-purpose/references/local-edits.md).
+
+## Grammar-checking investigation
+
+A separate [research harness](experiments/grammar/probe.mjs) tests a pinned local grammar engine. It demonstrates useful spelling and punctuation findings, missed syntax problems and technical-vocabulary false positives. It is not installed as an automatic correction service. See [findings and sources](docs/grammar-investigation.md).
+
 ## Validation and design
 
 ```text
 python -m unittest discover -s tests -v
 ```
 
-The release includes 20 behavioral tests for the checker. The skill instructions also received separate conformance, source-fidelity and reader reviews; results were mixed. See [evaluation and limits](docs/evaluation.md).
+The release includes 37 behavioral tests: 20 for the original checker and 17 for exact local edits and change measurement. Earlier skill instructions also received separate conformance, source-fidelity and reader reviews; results were mixed. See [evaluation and limits](docs/evaluation.md).
 
 This package follows [OpenAI's skill guidance](https://learn.chatgpt.com/docs/build-skills) and [portable plugin structure](https://developers.openai.com/plugins/build/plugins). Repository and release documentation stay outside the skill entrypoints. Publishing this repository does not list it in the OpenAI plugin directory.
 
-Package version: **0.4.0**. Runtime instructions retain writer **0.3.2** and editor **0.1.1**; this combined release normalizes line endings and adds publication, installation and test documentation.
+Package version: **0.5.0**. Writer **0.3.2**, editor **0.2.0**, advisory checker **0.1.0**, local-edit tool **0.1.0**. The grammar engine is an isolated experiment, not a skill dependency or installed hook.

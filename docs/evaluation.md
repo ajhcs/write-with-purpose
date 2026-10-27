@@ -12,7 +12,7 @@ The package separates three questions:
 
 Development covered engineering decisions, fictional medical summaries, assignments and explanatory blog passages. Instructions were revised after specific author feedback on unclear connections, repeated explanation, choppy sentences and unnecessary endings.
 
-The editor's final development round used eight known regression cases: four criticized passages, two exact paragraphs explicitly praised by the author, and two passages from a response praised overall. These approval levels were recorded separately. Some cases share facts or text.
+The editor 0.1.1 development round used eight known regression cases: four criticized passages, two exact paragraphs explicitly praised by the author, and two passages from a response praised overall. These approval levels were recorded separately. Some cases share facts or text.
 
 Eight fresh editing contexts received only a draft, brief, common prose preferences and the editor instructions. All first proposals were saved before sources arrived. Each editor then checked the relevant source packet. A separate source auditor checked masked pairs for conformance and source fidelity. Two additional source-blind readers assessed usefulness through recovery questions and pairwise comparison.
 
@@ -32,6 +32,10 @@ The tests deliberately preserve the distinction between a pattern observation an
 
 ## Release boundary
 
-The writer instructions are version 0.3.2 and the editor instructions version 0.1.1. Their text is unchanged in combined package 0.4.0; source files are normalized to UTF-8 with LF line endings. The checker remains version 0.1.0.
+Combined package 0.4.0 retained writer 0.3.2 and editor 0.1.1 with UTF-8 LF normalization. Package 0.5.0 retains the writer and original checker, and revises the editor to 0.2.0 with targeted edits as its default. An exact-span local-edit tool verifies the source snapshot and reconstruction, reports lexical change measurements and preserves existing files. Seventeen additional CLI tests cover its behavior, bringing the Python suite to 37 tests.
 
-No model API, paid service, automatic hook or compulsory editor chain is installed. New writing can use the writer directly. Existing prose can use the editor directly. Request a fresh independent review when the work warrants it.
+Two private worked examples exercise the new editing approach using known feedback. Nine named changes reduce a telemedicine paragraph from 211 to 165 whitespace-separated words, a net reduction of 46 words (21.801%). A previously praised balance paragraph remains byte-identical at 56 words. These examples were prepared by the parent editor, not fresh blinded agents, and do not demonstrate an autonomous success rate or human preference for the new edit. They illustrate auditable local changes and appropriate restraint. The personal text is not published.
+
+The separate grammar experiment uses 15 synthetic fixtures, a pinned Harper 3.0.0 engine and normalized findings. Three fresh local processes produced identical normalized payload hashes. Accepted domain words removed the two vocabulary flags tested. The same probe exposes missed agreement and sentence-boundary problems and an optional heading-style suggestion. Repeatability is distinct from accuracy and editorial value; the experiment does not establish broad grammar coverage.
+
+No model API, paid service, automatic hook or compulsory editor chain is installed. The grammar experiment's Node dependencies are separate from the installed skills. New writing can use the writer directly. Existing prose can use the editor directly. Request a fresh independent review when the work warrants it.

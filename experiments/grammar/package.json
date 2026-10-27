@@ -1,0 +1,7 @@
+{
+  "name": "purposeful-grammar-probe",
+  "private": true,
+  "type": "module",
+  "scripts": {"probe": "node probe.mjs"},
+  "dependencies": {"harper.js": "3.0.0"}
+}

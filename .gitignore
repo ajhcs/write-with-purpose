@@ -6,3 +6,4 @@ __pycache__/
 Thumbs.db
 .env
 .env.*
+node_modules/
