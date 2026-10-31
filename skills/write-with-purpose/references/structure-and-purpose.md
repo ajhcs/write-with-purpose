@@ -27,3 +27,11 @@ Check the revised claims against the source separately. An economical edit must 
 Use a requested template for the task, with content justified by the source. Keep accepted decisions stable unless new evidence or the person's request reopens them.
 
 Evaluate the actual result: can the reader answer, decide, act or follow the intended experience? Compare concrete alternatives in context. Model critique supplies provisional editorial judgment; author feedback and observed reader performance provide different evidence. Keep conformance, correctness and usefulness judgments distinct.
+
+## Briefs and templates
+
+Use a compact brief when repeated tasks have actual output constraints. Infer settled choices from the request and supplied material; do not make the user fill out a form or expose process notes for a simple edit. A useful brief can specify the requested intervention, audience, required content, word ceiling, approved terminology, source roles and output format.
+
+For example: "Clean up this draft; preserve its sequence and technical terms; do not expand; return prose only." The original supplies the structure. A new explanation might instead require "At most 250 words for a general reader; explain the reported problem and the supported cause; use the supplied terms; include only the requested headings." These are examples of task choices, not default limits or mandatory prose patterns.
+
+Use a supplied template when its sections are required. For other writing, a small outline or an approved example can establish the shape without reusable filler sentences. A vocabulary guide should bind preferred terms to intended concepts and protect necessary names, quotations and technical vocabulary. It should not make unfamiliar words automatically wrong or reward synonym substitution. Test the brief against the delivered writing, including whether constraints were met and whether the requested meaning survives.

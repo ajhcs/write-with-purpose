@@ -34,7 +34,9 @@ Preserve whether a statement describes possibility, ability, permission, expecta
 
 Choose punctuation for the relationship it expresses. Restrictive and supplementary clauses contribute different meanings. A colon can introduce an explanation or items; a semicolon can coordinate independent clauses or delimit complex series. Parentheses set secondary information outside the main line; a dash emphasizes a break. Choose the construction that makes the intended reading clear.
 
-In a list, check the relationship between the introduction and each item. Distinguish alternatives, cumulative requirements and ordered steps. Parallel form helps readers recognize parallel relationships. A heading or table cell can appropriately be a phrase.
+In a list, check the relationship between the introduction and each item. Distinguish required coverage from illustrative examples: trimming required steps can break an instruction, while one clear example can replace several that explain the same mechanism. Do not group people, tools, places and policies as though they occupy the same organizational role. Parallel form helps only when the relationships are actually parallel.
+
+When a phrase obscures what happens, write the supported action directly. In an explanation about a proposed repair being rejected over cost, a phrase such as 'priced out of urgency' can become 'set aside because a fix seems too expensive.' This is a contextual interpretation, not a universal substitution rule. If several materially different meanings remain possible, resolve them from the source or identify the uncertainty.
 
 ## Paragraph connections
 
