@@ -42,3 +42,30 @@ The revision is 66 words, compared with 156 in the rejected passage. That count 
 Here, “only” limits the criticism to reporting appointment counts alone. The user supplied and approved this one-word addition after reviewing the generated passage. It clarifies the intended limitation without replacing the sentence or claiming that appointment counts are useless.
 
 Transfer the decision: make the smallest justified edit that makes the intended meaning more precise, even when it adds a word. Add a qualifier only when the intended claim supports it; “only” is not a required word or a general replacement rule. Explicit length limits still apply. This correction is an accepted local example, not evidence that future outputs will meet the same standard.
+
+## Learn from a preferred rewrite
+
+The reader found a shortened repair example mentally taxing despite its improved substance. The assistant then tried shorter sentences. The reader supplied the alternative below, which adds context and joins related thoughts.
+
+**Assistant wording**
+
+> A tenant might get three updates about a leaking window while rain still comes in. The system might show the job as done. But the request has only been sent to a contractor.
+
+**Reader's own rewrite of those sentences**
+
+> A tenant may get three updates about the status of their leaking window while the rain is still coming in. The system shows the job is done, but in reality the request has only been sent to the contractor.
+
+**Suggested ending that the reader accepted**
+
+> Some repairs take longer than others, so a delay alone does not mean the problem is being ignored.
+
+The first two sentences are the reader's wording. The ending was suggested by the assistant after the reader left a blank, then explicitly accepted. These are a local style example and an accepted ending, not acceptance of every earlier revision or a complete author profile.
+
+Use the comparison to guide the next attempt:
+
+- Keep context that helps the reader follow the situation. The reader added “about the status of their” and “the rain is still coming in.” Extra words can make a sentence easier to understand.
+- Connect related thoughts when the reader does. “But in reality” joins the reported status to what happened. Removing that phrase or splitting the contrast into short sentences needs a particular benefit; neither change is automatically clearer.
+- Express what happens directly. “The system shows the job is done” gives the reader more to work with than an assessment such as “makes the record misleading.” Change troublesome wording as well as the links between sentences; retaining abstract labels while copying the sample's transitions misses the demonstrated preference.
+- Preserve useful qualifications. The accepted ending uses “alone” to avoid treating every delay as evidence that a problem is being ignored. Passive voice keeps attention on the problem here; it is not automatically a defect.
+
+These observations do not require long sentences, the phrase “in reality,” or the same paragraph shape elsewhere. This fictional example also changes “might show” to “shows”; a style example does not justify strengthening an unrelated claim. Preserve the new task's facts, uncertainty and explicit limits. Try the supported preferences on fresh material and use the reader's response to assess the match.
