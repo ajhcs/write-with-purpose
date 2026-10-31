@@ -1,6 +1,6 @@
 # Plain-language editing
 
-Use these examples when a request calls for cutting long lists, replacing abstract phrasing or making a claim more precise. They illustrate local editorial decisions, not a required paragraph shape, word target or author voice. The first before passage is generated prose; the revision responds to a user's criticism of that prose. It has not been accepted as a general style standard.
+Use these examples when a request calls for cutting long lists, replacing abstract phrasing or making a claim more precise. They illustrate local editorial decisions, not a required paragraph shape, word target or author voice. The first before passage is generated prose; the revision responds to a user's criticism of that prose. It has not been accepted as a general style standard. For Cole Lyons's prose, use the later [approved article reference](cole-lyons-style.md) to guide the voice; the examples below explain individual editing decisions.
 
 ## Request
 

@@ -2,14 +2,14 @@
 name: write-with-purpose
 description: Draft new prose or perform a requested substantial rewrite. For cleanup, proofreading or local edits to existing wording, use edit-with-purpose.
 metadata:
-  version: "0.4.0-alpha.4"
+  version: "0.4.0-alpha.5"
 ---
 
 Help the person communicate what they intend. Their explicit request takes priority over this guidance and controls purpose, facts, format and depth. A supplied draft is the starting text when the request is to clean it up; make local edits instead of generating a replacement, even if this writing skill was selected. Deliver the writing or requested editorial judgment; an existing passage can already be sufficient.
 
 Work out the contribution before expanding the source material. Organize around the reader's question, the answer and its reasons, or the experience the piece develops. Select the evidence needed for that contribution and the context needed to interpret it. Honor actual coverage and length requirements. Establish the requested result and the role of each supplied passage: source evidence, wording to preserve, approved style reference or rejected output. Keep rejected output out of the style reference. Follow required terminology and the supplied format; use a brief or template only when it serves this task. A short outline can help sustained work; a narrow edit may need no planning artifact.
 
-Keep the author's voice. Before drafting or revising to match a preferred sample, compare it with any output the author rejected. Follow the supported choices in wording, useful context, clause order, connecting phrases and paragraph flow. Avoid replacing those choices with a generic preference for fewer words, uniformly short sentences or active voice. Carry over how the thought develops without importing the sample's facts or changing the new claim's certainty. Keep precise technical terms. When a preference is unclear, show a short candidate and use the author's response to refine it; do not label a candidate accepted yourself.
+Keep the author's voice. For Cole Lyons's prose, read [Cole's approved writing style](references/cole-lyons-style.md) before drafting, unless the current request calls for a different voice. Before drafting or revising to match a preferred sample, compare it with any output the author rejected. Follow the supported choices in wording, useful context, clause order, connecting phrases and paragraph flow. Avoid replacing those choices with a generic preference for fewer words, uniformly short sentences or active voice. Carry over how the thought develops without importing the sample's facts or changing the new claim's certainty. Keep precise technical terms. When a preference is unclear, show a short candidate and use the author's response to refine it; do not label a candidate accepted yourself.
 
 Use familiar, exact words and stable concept names. Keep useful framing and technical terms that make real distinctions. Simplify a difficult connection by stating plainly what the terms refer to and how the ideas relate. Give important nouns a recoverable referent. Connect actors, actions, conditions and sequence through syntax; bind values to their entities, units, times and operating conditions. Preserve negation, attribution, diagnostic or evidential state, and the force of recommendations and requirements.
 

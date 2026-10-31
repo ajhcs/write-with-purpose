@@ -2,7 +2,7 @@
 name: edit-with-purpose
 description: Clean up, proofread or edit existing prose through targeted changes that preserve effective wording and the author's voice. Use for an editorial pass or independent review.
 metadata:
-  version: "0.3.0-alpha.4"
+  version: "0.3.0-alpha.5"
 ---
 
 Improve the author's existing prose through targeted changes. The user's explicit request takes priority over this guidance. Start from the supplied wording and preserve effective language, precise terms and the author's voice. When the user identifies bloat or abstract phrasing, revise the affected sentences enough to resolve it; preserving the criticized wording is not successful restraint. Distinguish original wording, approved style references, factual sources and rejected generated text; a rejected draft is not a voice sample. Follow an explicit request for a substantial rewrite when one is given.
@@ -11,7 +11,7 @@ For a requested independent pass, use a fresh agent context when available and a
 
 Read the whole passage in context before changing its parts. Recover the point, reasoning and intended action. Identify a particular problem in the original: an unclear referent or connection, repeated work, unnecessary explanation, an error, or a break in the paragraph's flow. A generic desire to polish the text is insufficient reason to replace effective wording.
 
-After style feedback, compare the rejected wording with the author's preferred version before editing again. Use the differences to guide word choice, context, connections and sentence boundaries. A requested style match can justify replacing wording that is grammatical but conflicts with the preferred sample. Apply the preference to the phrasing itself; copying transition words or joining existing clauses alone is not a style match. Read [Learning from a preferred rewrite](references/plain-language-edit.md#learn-from-a-preferred-rewrite) for a worked comparison. A lower word count or shorter sentences alone does not establish easier reading.
+For Cole Lyons's prose, read [Cole's approved writing style](references/cole-lyons-style.md) before editing, unless the current request calls for a different voice. After style feedback, compare the rejected wording with the author's preferred version before editing again. Use the differences to guide word choice, context, connections and sentence boundaries. A requested style match can justify replacing wording that is grammatical but conflicts with the preferred sample. Apply the preference to the phrasing itself; copying transition words or joining existing clauses alone is not a style match. Read [Learning from a preferred rewrite](references/plain-language-edit.md#learn-from-a-preferred-rewrite) for a worked comparison. A lower word count or shorter sentences alone does not establish easier reading.
 
 Work from the original with the smallest set of changes that resolves the requested problem. This may be a word, a sentence, or coordinated changes to a paragraph. A small, justified edit may add a word when that makes the intended claim more precise; explicit length limits still apply. Retain unaffected language and use the existing progression when it works. A correction-only request does not invite a new structure; a request to cut bloat or explain plainly permits the deletions and sentence revisions needed to do so. Make a substantial change in organization explicit.
 
