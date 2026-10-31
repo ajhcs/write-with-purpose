@@ -3,9 +3,14 @@
 
 Usage:
     python check_text.py ARTIFACT [--source SOURCE] [--contract CONTRACT_JSON]
+                                 [--enforce-contract]
 
-CONTRACT_JSON is a UTF-8 JSON file with exactly this schema:
-    {"protected_literals": [{"text": "literal span", "min_count": 1}]}
+CONTRACT_JSON is a nonempty UTF-8 JSON object using any of these optional keys:
+    {"protected_literals": [{"text": "literal span", "min_count": 1}],
+     "max_words": 250, "max_growth_words": 0}
+Word limits are nonnegative integers. Words are whitespace-separated tokens in
+the entire raw artifact (including markup/code); an initial UTF-8 BOM is ignored.
+max_growth_words requires --source and compares artifact words minus source words.
 ``min_count`` defaults to 1 and must be a positive integer. Counts are exact,
 case-sensitive, non-overlapping occurrences in the entire raw decoded artifact,
 including code and quoted examples. The checker never changes any file.
@@ -30,9 +35,11 @@ slug rules are outside scope. Findings call out unmatched *supported* headings.
 
 Number tokens use [0-9]+(?:[.,][0-9]+)*(?:[eE][+-]?[0-9]+)?. This is a lexical
 multiset comparison, not arithmetic, equivalence, factual, or semantic analysis.
-All evaluation is advisory. Exit 0 means assessment completed, including when
-findings exist; exit 2 means a CLI, input, source, or contract failure. Both
-assessment outcomes emit structured JSON (except an explicit --help request).
+By default, exit 0 means assessment completed, including when findings exist.
+With --enforce-contract, declared literal or word-limit violations exit 1; other
+observations remain advisory. CLI, input, source or contract errors exit 2.
+All outcomes emit structured JSON (except an explicit --help request).
+Enforcement checks only declared mechanical constraints, never editorial quality.
 """
 
 import argparse
@@ -46,13 +53,14 @@ import sys
 from urllib.parse import unquote
 
 
-CHECKER_VERSION = "0.1.0"
+CHECKER_VERSION = "0.2.0"
 CHECK_NAMES = (
     "duplicate_paragraphs",
     "unresolved_markers",
     "internal_markdown_anchors",
     "numeric_token_changes",
     "protected_literals",
+    "word_limits",
 )
 NUMBER_PATTERN = r"[0-9]+(?:[.,][0-9]+)*(?:[eE][+-]?[0-9]+)?"
 NUMBER_RE = re.compile(NUMBER_PATTERN)
@@ -325,10 +333,14 @@ def check_numbers(text, locations, source_text, source_locations):
 
 
 def validate_contract(document):
-    if not isinstance(document, dict) or set(document) != {"protected_literals"}:
-        raise InputFailure("Contract must be an object with exactly the key "
-                           "'protected_literals'.")
-    entries = document["protected_literals"]
+    allowed = {"protected_literals", "max_words", "max_growth_words"}
+    if not isinstance(document, dict) or not document or set(document) - allowed:
+        raise InputFailure("Contract must be a nonempty object with only "
+                           "protected_literals, max_words or max_growth_words.")
+    for name in ("max_words", "max_growth_words"):
+        if name in document and (type(document[name]) is not int or document[name] < 0):
+            raise InputFailure("Contract %s must be a nonnegative integer." % name)
+    entries = document.get("protected_literals", [])
     if not isinstance(entries, list):
         raise InputFailure("Contract 'protected_literals' must be an array.")
     for index, entry in enumerate(entries):
@@ -342,7 +354,7 @@ def validate_contract(document):
         if isinstance(minimum, bool) or not isinstance(minimum, int) or minimum < 1:
             raise InputFailure("Protected literal %d 'min_count' must be a "
                                "positive integer." % index)
-    return entries
+    return document
 
 
 def contract_object(pairs):
@@ -374,6 +386,36 @@ def check_literals(raw_text, entries):
             "literals": observations}, findings
 
 
+def word_count(text):
+    if text.startswith("\ufeff"):
+        text = text[1:]
+    return len(text.split())
+
+
+def check_word_limits(raw_text, document, source_text):
+    actual_words = word_count(raw_text)
+    source_words = word_count(source_text) if source_text is not None else None
+    observations, findings = [], []
+    for name, actual in (("max_words", actual_words),
+                         ("max_growth_words", actual_words - source_words
+                          if source_words is not None else None)):
+        if name not in document:
+            continue
+        if actual is None:
+            raise InputFailure("max_growth_words requires a readable --source.")
+        observation = {"constraint": name, "maximum": document[name],
+                       "actual": actual, "exceeded": actual > document[name]}
+        observations.append(observation)
+        if observation["exceeded"]:
+            findings.append(observed(
+                "word_limits", "word_limit_exceeded",
+                "The artifact exceeds a declared word limit.", **observation))
+    return {"status": "evaluated", "finding_count": len(findings),
+            "counting": "Whitespace-separated tokens in the entire raw decoded artifact; initial BOM excluded.",
+            "artifact_words": actual_words, "source_words": source_words,
+            "constraints": observations}, findings
+
+
 def file_record(path=None, requested=False):
     return {"requested": requested, "path": str(path) if path is not None else None,
             "sha256": None, "status": "unavailable" if requested else "not_requested"}
@@ -398,6 +440,8 @@ def base_report():
         "checker": "write-with-purpose-advisory-text-checker",
         "checker_version": CHECKER_VERSION,
         "advisory": True,
+        "contract_enforcement": {"requested": False, "status": "not_requested",
+                                 "scope": "Declared literal and word-limit requirements only; all other findings remain advisory."},
         "result": "assessment_completed",
         "input": file_record(requested=True),
         "source": file_record(),
@@ -408,7 +452,7 @@ def base_report():
         "errors": [],
         "assessment": {
             "conformance": {"status": "LIMITED",
-                            "scope": "Only the explicit patterns and literal "
+                            "scope": "Only the explicit patterns, word limits and literal "
                                      "requirements listed in this report.",
                             "statement": "An evaluated check is not a pass, "
                                          "approval, or full conformance judgment."},
@@ -430,6 +474,7 @@ def base_report():
             "guarantee, reference-link, Setext, HTML, or custom-anchor support.",
             "Numeric comparisons count lexical tokens, not numeric equivalence or meaning. "
             "Locations list all occurrences of changed tokens, not semantic alignments.",
+            "Word limits count raw whitespace-separated tokens, including markup/code. A passing limit does not establish preserved meaning or suitable length.",
             "Contract literals use exact non-overlapping counts in the entire raw "
             "UTF-8 decoded artifact, including fenced code and quoted text.",
         ],
@@ -443,9 +488,17 @@ def run(argv=None):
     parser.add_argument("artifact", help="explicit path to a UTF-8 writing artifact")
     parser.add_argument("--source", help="optional UTF-8 source for numeric-token comparison")
     parser.add_argument("--contract", metavar="CONTRACT_JSON",
-                        help="optional path to a UTF-8 JSON protected-literal contract")
+                        help="optional UTF-8 JSON contract for literals and word limits")
+    parser.add_argument("--enforce-contract", action="store_true",
+                        help="exit 1 when a declared literal or word limit is violated")
     try:
         args = parser.parse_args(argv)
+        report["contract_enforcement"]["requested"] = args.enforce_contract
+        if args.enforce_contract:
+            report["advisory"] = False
+            report["contract_enforcement"]["status"] = "unavailable"
+            if args.contract is None:
+                raise InputFailure("--enforce-contract requires --contract.")
     except InputFailure as error:
         report["result"] = "input_failure"
         report["errors"].append({"input": "cli", "type": "InputFailure",
@@ -462,14 +515,17 @@ def run(argv=None):
                    if args.source is not None else None)
     contract_text = (read_utf8(report["contract"], "contract", report["errors"])
                     if args.contract is not None else None)
-    entries = None
+    document = None
     if contract_text is not None:
         try:
             # JSON permits a UTF-8 BOM in many file workflows; hash remains raw.
             decoded_contract = contract_text[1:] if contract_text.startswith("\ufeff") else contract_text
-            entries = validate_contract(json.loads(decoded_contract,
+            document = validate_contract(json.loads(decoded_contract,
                                                    object_pairs_hook=contract_object))
+            if "max_growth_words" in document and args.source is None:
+                raise InputFailure("max_growth_words requires --source.")
         except (ValueError, RecursionError, InputFailure) as error:
+            document = None
             report["contract"]["status"] = "invalid"
             report["errors"].append({"input": "contract", "type": type(error).__name__,
                                      "message": str(error)})
@@ -477,9 +533,10 @@ def run(argv=None):
     if args.source is None:
         report["checks"]["numeric_token_changes"] = {
             "status": "not_requested", "finding_count": 0}
-    if args.contract is None:
-        report["checks"]["protected_literals"] = {
-            "status": "not_requested", "finding_count": 0}
+    for name, keys in (("protected_literals", {"protected_literals"}),
+                       ("word_limits", {"max_words", "max_growth_words"})):
+        if args.contract is None or (document is not None and not keys.intersection(document)):
+            report["checks"][name] = {"status": "not_requested", "finding_count": 0}
 
     def include(name, outcome):
         details, findings = outcome
@@ -498,12 +555,26 @@ def run(argv=None):
             source_prose = mask_inline_code(mask_fenced_code(source_text))
             include("numeric_token_changes", check_numbers(
                 prose_text, locations, source_prose, Locations(args.source, source_text)))
-        if entries is not None:
-            include("protected_literals", check_literals(raw_text, entries))
+        if document is not None:
+            if "protected_literals" in document:
+                include("protected_literals", check_literals(raw_text, document["protected_literals"]))
+            if {"max_words", "max_growth_words"}.intersection(document):
+                # A failed source read already contributes an input error; never claim
+                # to have evaluated a relative limit without its source.
+                if "max_growth_words" not in document or source_text is not None:
+                    include("word_limits", check_word_limits(raw_text, document, source_text))
 
     if report["errors"]:
         report["result"] = "input_failure"
         return report, 2
+    if args.enforce_contract:
+        violated = [name for name in ("protected_literals", "word_limits")
+                    if report["checks"][name]["finding_count"]]
+        report["contract_enforcement"].update({
+            "status": "failed" if violated else "passed", "violated_checks": violated})
+        if violated:
+            report["result"] = "contract_failed"
+            return report, 1
     return report, 0
 
 

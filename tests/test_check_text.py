@@ -45,7 +45,7 @@ class CheckerTests(unittest.TestCase):
         self.assertEqual(report["assessment"]["conformance"]["status"], "LIMITED")
         self.assertEqual(report["assessment"]["correctness"]["status"], "NOT_ASSESSED")
         self.assertEqual(report["assessment"]["usefulness"]["status"], "NOT_ASSESSED")
-        self.assertEqual(report["checker_version"], "0.1.0")
+        self.assertEqual(report["checker_version"], "0.2.0")
         return result.returncode, report
 
     def findings(self, report, check):
@@ -257,6 +257,112 @@ class CheckerTests(unittest.TestCase):
         self.assertEqual(code, 2)
         self.assertEqual(report["input"]["sha256"], hashlib.sha256(b"\xff").hexdigest())
         self.assertEqual(report["checks"]["duplicate_paragraphs"]["status"], "unavailable")
+
+
+    def test_word_ceiling_equality_and_failure_are_explicit(self):
+        artifact = self.write("draft.md", "one two three")
+        for maximum, enforce, expected_code in [(3, True, 0), (2, True, 1), (2, False, 0)]:
+            with self.subTest(maximum=maximum, enforce=enforce):
+                contract = self.write("contract.json", json.dumps({"max_words": maximum}))
+                code, report = self.invoke(artifact, contract=contract,
+                                          extra=("--enforce-contract",) if enforce else ())
+                self.assertEqual(code, expected_code)
+                self.assertEqual(report["checks"]["word_limits"]["artifact_words"], 3)
+                self.assertEqual(report["checks"]["word_limits"]["finding_count"], int(maximum < 3))
+                self.assertEqual(report["advisory"], not enforce)
+                self.assertEqual(report["contract_enforcement"]["status"],
+                                 ("passed" if maximum == 3 else "failed") if enforce else "not_requested")
+
+    def test_no_growth_checks_the_source_and_allows_shorter_text(self):
+        source = self.write("source.md", "one two three")
+        contract = self.write("contract.json", '{"max_growth_words": 0}')
+        for content, expected in [("one two", 0), ("one two three", 0), ("one two three four", 1)]:
+            with self.subTest(content=content):
+                artifact = self.write("draft.md", content)
+                code, report = self.invoke(artifact, source, contract, ("--enforce-contract",))
+                self.assertEqual(code, expected)
+                self.assertEqual(report["checks"]["word_limits"]["source_words"], 3)
+                self.assertEqual(report["checks"]["word_limits"]["constraints"][0]["actual"],
+                                 len(content.split()) - 3)
+
+    def test_both_word_limits_are_enforced(self):
+        source = self.write("source.md", "one two")
+        artifact = self.write("draft.md", "one two three four")
+        contract = self.write("contract.json", '{"max_words": 3, "max_growth_words": 1}')
+        code, report = self.invoke(artifact, source, contract, ("--enforce-contract",))
+        self.assertEqual(code, 1)
+        self.assertEqual(len(self.findings(report, "word_limits")), 2)
+
+    def test_enforcement_without_contract_is_input_failure(self):
+        artifact = self.write("draft.md", "Text.")
+        code, report = self.invoke(artifact, extra=("--enforce-contract",))
+        self.assertEqual(code, 2)
+        self.assertEqual(report["contract_enforcement"]["status"], "unavailable")
+
+    def test_missing_growth_source_cannot_pass(self):
+        artifact = self.write("draft.md", "Text.")
+        contract = self.write("contract.json", '{"max_growth_words": 0}')
+        for source in [None, self.directory / "missing.md"]:
+            with self.subTest(source=source):
+                code, report = self.invoke(artifact, source, contract, ("--enforce-contract",))
+                self.assertEqual(code, 2)
+                self.assertEqual(report["checks"]["word_limits"]["status"], "unavailable")
+                self.assertEqual(report["contract_enforcement"]["status"], "unavailable")
+
+    def test_invalid_word_limit_contracts_fail_closed(self):
+        artifact = self.write("draft.md", "Text.")
+        for value in [{}, {"max_word": 5}, {"max_words": True}, {"max_words": -1},
+                      {"max_words": 1.5}, {"max_words": "5"}, {"max_growth_words": False},
+                      {"max_growth_words": -1}, {"max_words": float("nan")}]:
+            with self.subTest(value=value):
+                contract = self.write("contract.json", json.dumps(value))
+                code, report = self.invoke(artifact, contract=contract, extra=("--enforce-contract",))
+                self.assertEqual(code, 2)
+                self.assertEqual(report["contract"]["status"], "invalid")
+                self.assertEqual(report["contract_enforcement"]["status"], "unavailable")
+        contract = self.write("contract.json", '{"max_words": 1, "max_words": 100}')
+        code, _ = self.invoke(artifact, contract=contract, extra=("--enforce-contract",))
+        self.assertEqual(code, 2)
+
+    def test_enforced_missing_literal_fails_even_within_word_limit(self):
+        artifact = self.write("draft.md", "A short text.")
+        contract = self.write("contract.json", json.dumps({"max_words": 10,
+                              "protected_literals": [{"text": "Project Cedar"}]}))
+        code, report = self.invoke(artifact, contract=contract, extra=("--enforce-contract",))
+        self.assertEqual(code, 1)
+        self.assertEqual(report["contract_enforcement"]["violated_checks"], ["protected_literals"])
+
+    def test_noncontract_findings_remain_advisory_when_enforcing(self):
+        artifact = self.write("draft.md", "The result is 8. [TODO]")
+        source = self.write("source.md", "The result is 4.")
+        contract = self.write("contract.json", '{"max_words": 20}')
+        code, report = self.invoke(artifact, source, contract, ("--enforce-contract",))
+        self.assertEqual(code, 0)
+        self.assertTrue(self.findings(report, "numeric_token_changes"))
+        self.assertTrue(self.findings(report, "unresolved_markers"))
+        self.assertEqual(report["contract_enforcement"]["status"], "passed")
+
+    def test_word_count_includes_markup_code_and_unicode_but_not_initial_bom(self):
+        artifact = self.write("draft.md", "\ufeff# Title\n\n```text\né β\n```\n")
+        contract = self.write("contract.json", '{"max_words": 6}')
+        code, report = self.invoke(artifact, contract=contract, extra=("--enforce-contract",))
+        self.assertEqual(code, 0)
+        self.assertEqual(report["checks"]["word_limits"]["artifact_words"], 6)
+        artifact = self.write("empty.md", "\ufeff  \n")
+        contract = self.write("contract.json", '{"max_words": 0}')
+        code, report = self.invoke(artifact, contract=contract, extra=("--enforce-contract",))
+        self.assertEqual(code, 0)
+        self.assertEqual(report["checks"]["word_limits"]["artifact_words"], 0)
+
+    def test_contract_failure_preserves_all_input_bytes(self):
+        artifact = self.write("draft.md", "one two three\r\n")
+        source = self.write("source.md", "one two\r\n")
+        contract = self.write("contract.json", '{"max_growth_words": 0}')
+        before = {path: path.read_bytes() for path in self.directory.iterdir()}
+        code, report = self.invoke(artifact, source, contract, ("--enforce-contract",))
+        self.assertEqual(code, 1)
+        self.assertEqual(report["result"], "contract_failed")
+        self.assertEqual({path: path.read_bytes() for path in self.directory.iterdir()}, before)
 
 
 if __name__ == "__main__":

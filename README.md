@@ -11,7 +11,7 @@ The instructions favor familiar, exact words, stable concept names and syntax th
 
 Conformance, correctness and usefulness are assessed separately. Meeting a specification does not establish factual accuracy; preserving facts does not establish reader benefit. Source fidelity and factual validation also require separate judgments.
 
-Each skill loads supporting references only when they address the current issue. The package contains no bundled writing samples, mandatory prose template, word blacklist or automatic editing hook. An independent pass uses a fresh context when requested and available; the skill name alone does not establish independence.
+Each skill loads supporting references only when they address the current issue. The editor includes worked examples of simplifying generated prose and a user-approved one-word correction that makes a claim more precise. The package has no mandatory prose template, word blacklist or automatic editing hook. An independent pass uses a fresh context when requested and available; the skill name alone does not establish independence.
 
 ## Install for all your projects
 
@@ -41,7 +41,7 @@ python skills/write-with-purpose/scripts/check_text.py draft.md
 python skills/write-with-purpose/scripts/check_text.py draft.md --source source.md
 ```
 
-It reports exact duplicate paragraphs, explicit unresolved markers, limited internal Markdown-anchor discrepancies and numeric-token differences. An optional contract can check required literals. It never edits files. Exit 0 means the assessment ran, including when it found observations; exit 2 means an input or invocation failure.
+It reports exact duplicate paragraphs, explicit unresolved markers, limited internal Markdown-anchor discrepancies and numeric-token differences. An optional contract can check required literals, an absolute word ceiling, and growth relative to the original draft. It never edits files. By default, exit 0 means the assessment ran, including when it found observations. With `--enforce-contract`, violated declared literals or word limits exit 1. Exit 2 means an input or invocation failure; other observations remain advisory.
 
 These checks do not judge factual correctness, useful repetition, paragraph flow or reader benefit. See [the checker reference](skills/write-with-purpose/references/checks.md) for its exact scope.
 
@@ -70,8 +70,8 @@ LanguageTool flagged 12 of 16 premarked error locations, compared with Harper's 
 python -m unittest discover -s tests -v
 ```
 
-The release includes 37 behavioral tests: 20 for the original checker and 17 for exact local edits and change measurement. Six fresh editing contexts tested editor 0.2.0 on new engineering, medical, assignment and blog passages, including two concise controls. Fresh masked readers preferred the five finals that changed; the unchanged control tied. A separate source audit records corrected errors and residual limitations. These are small model-reviewed trials, not human acceptance or a matched no-skill comparison. Earlier reviews were mixed; see [evaluation and limits](docs/evaluation.md).
+The previous release included 37 behavioral tests: 20 for the original checker and 17 for exact local edits and change measurement. Six fresh editing contexts tested editor 0.2.0 on new engineering, medical, assignment and blog passages, including two concise controls. Fresh masked readers preferred the five finals that changed; the unchanged control tied. A separate source audit records corrected errors and residual limitations. These are small model-reviewed trials, not human acceptance or a matched no-skill comparison. Earlier reviews were mixed; see [evaluation and limits](docs/evaluation.md).
 
 This package follows [OpenAI's skill guidance](https://learn.chatgpt.com/docs/build-skills) and [portable plugin structure](https://developers.openai.com/plugins/build/plugins). Repository and release documentation stay outside the skill entrypoints. Publishing this repository does not list it in the OpenAI plugin directory.
 
-Package version: **0.5.1**. Writer **0.3.2**, editor **0.2.0**, advisory checker **0.1.0**, local-edit tool **0.1.0**. This release publishes the accepted evaluation and keeps the tested runtime instructions intact. The grammar engines remain isolated experiments, not skill dependencies or installed hooks.
+Candidate package **0.6.0-alpha.3**: writer **0.4.0-alpha.3**, editor **0.3.0-alpha.3**, checker **0.2.0**, local-edit tool **0.1.0**. This candidate narrows cleanup routing, treats illustrative lists as selections, replaces obscure phrasing with supported actions, provides worked editing examples and optional task briefs, and adds opt-in enforcement of declared word limits. Ten additional checker tests cover the new mechanical behavior. The earlier model evaluations above describe package 0.5.1 and do not validate this candidate. The grammar engines remain isolated experiments, not skill dependencies or installed hooks.

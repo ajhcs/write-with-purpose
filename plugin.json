@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "write-with-purpose",
-  "version": "0.5.1",
+  "version": "0.6.0-alpha.3",
   "description": "Draft and edit purposeful prose with precise language, useful structure and a separate meaning check. Includes an optional read-only checker.",
   "author": {
     "name": "ajhcs",
