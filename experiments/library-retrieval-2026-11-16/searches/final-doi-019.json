@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_043",
+      "doi": "10.4135/9781452276090.n192",
+      "title": "Organizational Culture Theory",
+      "authors": "[\"Joanne Martin\"]",
+      "field": "business_management",
+      "q": "\"Organizational Culture Theory\" Martin filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_043",
+      "query": "\"Organizational Culture Theory\" Martin filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "UNDERSTANDING ORGANIZATIONAL CULTURE",
+          "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-LPS110339/pdf/GOVPUB-D301-PURL-LPS110339.pdf",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "A Generic Theory of Organizational Culture",
+          "url": "https://www.researchgate.net/publication/228215572_A_Generic_Theory_of_Organizational_Culture",
+          "score": 1
+        },
+        {
+          "title": "Organizational Culture: Mapping the Terrain",
+          "url": "https://www.researchgate.net/publication/238716459_Organizational_Culture_Mapping_the_Terrain",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "Checking the Map: Critiquing Joanne Martin's Metatheory of Organizational Culture and Its Uses in Communication Research",
+          "url": "https://www.researchgate.net/publication/229892952_Checking_the_Map_Critiquing_Joanne_Martin%27s_Metatheory_of_Organizational_Culture_and_Its_Uses_in_Communication_Research",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "Meta-Theoretical Controversies in Studying Organizational Culture",
+          "url": "https://gsbpreserve.stanford.edu/view/1759/meta-theoretical-controversies-in-studying-organizational-culture?limit=50&offset=4529&sort=title.keyword",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "Organizational Culture: What It Is and Why It Counts",
+          "url": "https://www.researchgate.net/publication/395726062_Organizational_Culture_What_It_Is_and_Why_It_Counts",
+          "score": 0.6666666666666666
+        }
+      ]
+    }
+  ]
+}

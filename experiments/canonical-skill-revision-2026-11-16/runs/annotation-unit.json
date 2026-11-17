@@ -1,0 +1,24 @@
+{
+  "scope": "Captured final-source qualification after review fixes01\u201303; source snapshot recorded separately.",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/paragraph-functions",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "cwd": "/workspace/repos/builderbob/write-with-purpose",
+      "started_utc": "2026-11-16T21:34:09.124322+00:00",
+      "finished_utc": "2026-11-16T21:34:09.216100+00:00",
+      "exit_code": 0,
+      "test_count": 15,
+      "log": "runs/annotation-unit.log"
+    }
+  ]
+}

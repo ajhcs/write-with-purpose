@@ -1,0 +1,13 @@
+{
+  "case": "R11",
+  "checked_utc": "2026-11-17T00:01:44.521966+00:00",
+  "source": "experiments/blind-longform-2026-11-16/sources/S03.md",
+  "source_sha256": "d38f295c85416a89a5974ed83c8522be3fa42c9fc349734577197cbb167e4b3e",
+  "original_text_exact_span": [
+    22814,
+    23467
+  ],
+  "document_characters": 25958,
+  "source_continues_after_sample": true,
+  "interpretation": "Closing is the existing sample/window label. It does not mean the complete essay ending. Story/progression feedback applies to the shown passage in its context; no ending-specific rule follows."
+}

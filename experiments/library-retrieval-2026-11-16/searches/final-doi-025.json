@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_02",
+      "doi": "10.1016/j.infsof.2008.09.009",
+      "title": "Systematic literature reviews in software engineering – A systematic literature review",
+      "authors": "[\"Barbara Kitchenham\", \"O. Pearl Brereton\", \"David Budgen\", \"Mark Turner\", \"John Bailey\", \"Stephen Linkman\"]",
+      "field": "engineering_computing",
+      "q": "\"Systematic literature reviews in software engineering – A\" Kitchenham filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_02",
+      "query": "\"Systematic literature reviews in software engineering – A\" Kitchenham filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Systematic literature reviews in software engineering – A tertiary study",
+          "url": "https://www.cin.ufpe.br/~in1037/leitura/Kitchenham%202010%20-%20tertiary%20study.pdf",
+          "score": 1
+        },
+        {
+          "title": "Systematic Literature Reviews in Software Engineering - A Tertiary Study - EBSE",
+          "url": "https://ebse.webspace.durham.ac.uk/ebse-bibliography/systematic-literature-reviews-in-software-engineering-a-tertiary-study/",
+          "score": 1
+        },
+        {
+          "title": "Systematic literature reviews in software engineering – A systematic literature review",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950584908001390",
+          "score": 1
+        },
+        {
+          "title": "Systematic literature reviews in software engineering -- a systematic literature review",
+          "url": "https://docs.edtechhub.org/lib/UHB3JJEW",
+          "score": 1
+        },
+        {
+          "title": "Systematic literature reviews in software engineering – A systematic literature review",
+          "url": "https://apice.unibo.it/bin/view/Publication/SeslrIst51",
+          "score": 1
+        },
+        {
+          "title": "Systematic Literature Reviews in Software Engineering -- A Tertiary Study",
+          "url": "https://durham-repository.worktribe.com/output/1549647/systematic-literature-reviews-in-software-engineering-a-tertiary-study",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

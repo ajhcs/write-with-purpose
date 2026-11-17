@@ -1,0 +1,19 @@
+{
+  "url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/2539.zip?sequence=4&isAllowed=y",
+  "status": 200,
+  "headers": {
+    "Date": "Mon, 16 Nov 2026 19:19:55 GMT",
+    "Server": "Apache/2.4.41 (Ubuntu)",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Disposition": "attachment;filename=\"2539.zip\"",
+    "Content-Language": "en-GB",
+    "Content-Type": "application/zip;charset=ISO-8859-1",
+    "Expires": "Mon, 16 Nov 2026 20:19:56 GMT",
+    "Last-Modified": "Mon, 30 Sep 2024 14:42:30 GMT",
+    "Vary": "User-Agent",
+    "X-Cocoon-Version": "2.2.0",
+    "Set-Cookie": "JSESSIONID=4DACB6E13168A2340E6E0E14259B780F.ajp13_worker; Path=/llds/xmlui; HttpOnly",
+    "Connection": "close"
+  }
+}

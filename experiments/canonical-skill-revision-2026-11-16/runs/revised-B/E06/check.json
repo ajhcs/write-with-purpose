@@ -1,0 +1,103 @@
+{
+  "checker": "write-with-purpose-advisory-text-checker",
+  "checker_version": "0.2.0",
+  "advisory": false,
+  "contract_enforcement": {
+    "requested": true,
+    "status": "passed",
+    "scope": "Declared literal and word-limit requirements only; all other findings remain advisory.",
+    "violated_checks": []
+  },
+  "result": "assessment_completed",
+  "input": {
+    "requested": true,
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/revised-B/E06/output.txt",
+    "sha256": "827f503d15c5ad233fb987b5ce6c5fff0bc9025e8c4d3d04d32f7804a80b9f5b",
+    "status": "loaded"
+  },
+  "source": {
+    "requested": false,
+    "path": null,
+    "sha256": null,
+    "status": "not_requested"
+  },
+  "contract": {
+    "requested": true,
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/revised-B/E06/contract.json",
+    "sha256": "2ee8a31d25dd61976af4ef397c640fc8b8c2cf5563eba2903293340b452396f1",
+    "status": "loaded"
+  },
+  "checks": {
+    "duplicate_paragraphs": {
+      "status": "evaluated",
+      "paragraph_count": 2,
+      "comparison": "literal text, including whitespace and line wrapping",
+      "finding_count": 0
+    },
+    "unresolved_markers": {
+      "status": "evaluated",
+      "finding_count": 0,
+      "quoted_literal_exclusions": 0
+    },
+    "internal_markdown_anchors": {
+      "status": "evaluated",
+      "finding_count": 0,
+      "heading_count": 0,
+      "link_count": 0,
+      "heading_slugs": [],
+      "scope": "simple inline fragment links and plain ASCII ATX headings"
+    },
+    "numeric_token_changes": {
+      "status": "not_requested",
+      "finding_count": 0
+    },
+    "protected_literals": {
+      "status": "evaluated",
+      "finding_count": 0,
+      "counting": "case-sensitive, non-overlapping, entire raw decoded artifact",
+      "literals": [
+        {
+          "contract_index": 0,
+          "text": "40 \u00b0C",
+          "min_count": 1,
+          "actual_count": 1
+        },
+        {
+          "contract_index": 1,
+          "text": "10 min",
+          "min_count": 1,
+          "actual_count": 1
+        }
+      ]
+    },
+    "word_limits": {
+      "status": "not_requested",
+      "finding_count": 0
+    }
+  },
+  "findings": [],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "Only the explicit patterns, word limits and literal requirements listed in this report.",
+      "statement": "An evaluated check is not a pass, approval, or full conformance judgment."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "limitations": [
+    "No factual, semantic, tone, style, authorship, or AI-style assessment.",
+    "Prose blocks are blank-line-delimited nonheading text. Exact comparison preserves whitespace and wrapping; list/blockquote text can be included. Indented code and full Markdown grammar are not parsed.",
+    "Fenced code is masked with spaces while retaining newlines and offsets. Marker, anchor-link, and numeric scans also mask matched inline backticks.",
+    "Only [[TBD]], [[TODO]], [TBD], and [TODO] are markers. An immediately quote-wrapped marker is excluded; other quotation contexts are not inferred.",
+    "Anchors cover simple inline fragment links and plain ASCII ATX headings. Slugs lowercase, remove punctuation except hyphen/underscore, collapse spaces/tabs to hyphens, and suffix collisions -1, -2, etc. No renderer guarantee, reference-link, Setext, HTML, or custom-anchor support.",
+    "Numeric comparisons count lexical tokens, not numeric equivalence or meaning. Locations list all occurrences of changed tokens, not semantic alignments.",
+    "Word limits count raw whitespace-separated tokens, including markup/code. A passing limit does not establish preserved meaning or suitable length.",
+    "Contract literals use exact non-overlapping counts in the entire raw UTF-8 decoded artifact, including fenced code and quoted text."
+  ]
+}

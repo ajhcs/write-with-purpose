@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_032",
+      "doi": "10.5465/amj.2009.44632557",
+      "title": "From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research",
+      "authors": "[\"Michael G. Pratt\"]",
+      "field": "business_management",
+      "q": "\"For the Lack of a Boilerplate: Tips on\" Pratt filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_032",
+      "query": "\"For the Lack of a Boilerplate: Tips on\" Pratt filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Pratt, M. (2009). From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research. *Academy of Management Journal, 52*, 856–862. https://doi.org/10.5465/AMJ.2009.44632557",
+          "url": "https://pure.tue.nl/ws/portalfiles/portal/195282355/Master_Thesis_Seren_Lurvink.pdf",
+          "score": 1
+        },
+        {
+          "title": "Pratt, M. G. (2009). For the lack of a boilerplate: Tips on writing up (and reviewing) qualitative research. *Academy of Management Journal*, 52(5), 856-862.",
+          "url": "https://www.diva-portal.org/smash/get/diva2%3A1069141/COVER01.pdf",
+          "score": 1
+        },
+        {
+          "title": "FOR THE LACK OF A BOILERPLATE: TIPS ON WRITING UP (AND REVIEWING) QUALITATIVE RESEARCH.",
+          "url": "https://openurl.ebsco.com/contentitem/gcd%3A44632557?crl=c&id=ebsco%3Agcd%3A44632557&jrnl=00014273&sid=ebsco%3Aplink%3Acrawler-gcd",
+          "score": 1
+        },
+        {
+          "title": "From The Editors For The Lack of A Boilerplate: Tips On Writing Up (And Reviewing) Qualitative Research | PDF | Qualitative Research | Quantitative Research",
+          "url": "https://www.scribd.com/document/373697117/Pratt-Oct-2009",
+          "score": 1
+        },
+        {
+          "title": "For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research.",
+          "url": "https://openurl.ebsco.com/c/eafhff/openurl?date=2009-10&epage=862&genre=article&issn=0001-4273&issue=5&prompt=true&sid=Primo&spage=856&title=The+Academy+of+Management+journal.&volume=52",
+          "score": 1
+        },
+        {
+          "title": "From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research",
+          "url": "https://scispace.com/papers/from-the-editors-for-the-lack-of-a-boilerplate-tips-on-3fvkfgfmhk",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

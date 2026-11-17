@@ -1,0 +1,676 @@
+{
+  "source_xml_sha256": "a863c8bb0ada539f58eccf015f46885c5f4173cfd8e8bb62757a8108e461976f",
+  "cache_sha256": "b260182ce565792aab45bc7327c67d67f62f9ed688f566c52dd8891431a89451",
+  "sections": [
+    {
+      "id": "sec5",
+      "heading": "Introduction",
+      "parent": null,
+      "analyst_role": "introduction"
+    },
+    {
+      "id": "sec6",
+      "heading": "Methods",
+      "parent": null,
+      "analyst_role": "methods"
+    },
+    {
+      "id": "sec7",
+      "heading": "Results",
+      "parent": null,
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec8",
+      "heading": "Gastrointestinal Cancer",
+      "parent": "sec7",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec9",
+      "heading": "Lung Cancer",
+      "parent": "sec7",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec10",
+      "heading": "Female Cancers",
+      "parent": "sec7",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec11",
+      "heading": "Multiple Cancers",
+      "parent": "sec7",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec12",
+      "heading": "Other Cancer Sites",
+      "parent": "sec7",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec13",
+      "heading": "Discussion",
+      "parent": null,
+      "analyst_role": "discussion"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "xml-02317-p001",
+      "section_id": "sec5",
+      "source_xml_path": "/article/body/sec[1]/p[1]",
+      "start": 0,
+      "end": 788,
+      "span_sha256": "98fd79c0e87160b6d61ae9dd4e6713ad632be7492a7394c92f16a6c9bfd1d446",
+      "functions": [
+        "orient",
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Cancer burden and prognostic context.",
+      "analyst_role": "introduction",
+      "word_count": 129
+    },
+    {
+      "id": "xml-02317-p002",
+      "section_id": "sec5",
+      "source_xml_path": "/article/body/sec[1]/p[2]",
+      "start": 790,
+      "end": 2151,
+      "span_sha256": "9c25cf346d4423c2d5e8cec5be2775e98609de4465eec178a84edf074ac7d4e8",
+      "functions": [
+        "orient",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Nutritional assessment options and limitations.",
+      "analyst_role": "introduction",
+      "word_count": 194
+    },
+    {
+      "id": "xml-02317-p003",
+      "section_id": "sec5",
+      "source_xml_path": "/article/body/sec[1]/p[3]",
+      "start": 2153,
+      "end": 3939,
+      "span_sha256": "9cf7285915dc788e92ff43d93c1b736a883402b46a71f922cc56695d3516b69e",
+      "functions": [
+        "define",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Albumin definition and proposed mechanisms.",
+      "analyst_role": "introduction",
+      "word_count": 269
+    },
+    {
+      "id": "xml-02317-p004",
+      "section_id": "sec5",
+      "source_xml_path": "/article/body/sec[1]/p[4]",
+      "start": 3941,
+      "end": 4942,
+      "span_sha256": "abf7b4f9356aba60781af950676d72890d259681c94121e129b41729e44ee8cd",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Prior findings, study differences and purpose.",
+      "analyst_role": "introduction",
+      "word_count": 151
+    },
+    {
+      "id": "xml-02317-p005",
+      "section_id": "sec6",
+      "source_xml_path": "/article/body/sec[2]/p[1]",
+      "start": 4944,
+      "end": 6597,
+      "span_sha256": "941e756a732149e52713167a9fbff7176e60f61331aa77a8fd1afba662bdb853",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "MEDLINE and bibliography search, selection criteria and organization of evidence.",
+      "analyst_role": "methods",
+      "word_count": 247
+    },
+    {
+      "id": "xml-02317-p006",
+      "section_id": "sec6",
+      "source_xml_path": "/article/body/sec[2]/p[2]",
+      "start": 6599,
+      "end": 6996,
+      "span_sha256": "2ef30893ce5805902afbde8f2d43cf93d3fee85a89e9d814cf4af8af46045728",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Formal report-quality rating not performed; reporting indicators collected.",
+      "analyst_role": "methods",
+      "word_count": 58
+    },
+    {
+      "id": "xml-02317-p007",
+      "section_id": "sec7",
+      "source_xml_path": "/article/body/sec[3]/p[1]",
+      "start": 6998,
+      "end": 7293,
+      "span_sha256": "4776fa857244dee1c64fd54e6012d8d7644c22759dbaa874019539aa58aabf52",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Search and selection counts.",
+      "analyst_role": "results",
+      "word_count": 46
+    },
+    {
+      "id": "xml-02317-p008",
+      "section_id": "sec8",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[1]",
+      "start": 7295,
+      "end": 7490,
+      "span_sha256": "32618c6835bf24a0a5890514818749f6569ea5ca857f211cacba7c0d4d952a87",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Table organization.",
+      "analyst_role": "results",
+      "word_count": 26
+    },
+    {
+      "id": "xml-02317-p009",
+      "section_id": "sec8",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[2]",
+      "start": 7492,
+      "end": 10358,
+      "span_sha256": "c2eea324306b0386f1ffe1f957adbd7c5cd64162c661cb2ef277b6e4d1c92278",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Gastrointestinal studies.",
+      "analyst_role": "results",
+      "word_count": 418
+    },
+    {
+      "id": "xml-02317-p010",
+      "section_id": "sec8",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[3]",
+      "start": 10360,
+      "end": 12157,
+      "span_sha256": "054a5ad1e2fd5bd4c5f96308e7b057beec141f7bb956f37fd995400cbf13ea5a",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Gastrointestinal studies including differing independent predictors.",
+      "analyst_role": "results",
+      "word_count": 259
+    },
+    {
+      "id": "xml-02317-p011",
+      "section_id": "sec8",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[4]",
+      "start": 12159,
+      "end": 13274,
+      "span_sha256": "1bc93309c03019ef5f7171484ff6c74896b56d3f2c7891e6b638d77f2d522ea9",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Colorectal and gastric studies.",
+      "analyst_role": "results",
+      "word_count": 164
+    },
+    {
+      "id": "xml-02317-p012",
+      "section_id": "sec8",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[5]",
+      "start": 13276,
+      "end": 15886,
+      "span_sha256": "a8b6f2fd0e93d20ed5a0958b321d43012f7ff82f0c7a79bd2da1d59101a3621b",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Hepatocellular and other gastrointestinal studies.",
+      "analyst_role": "results",
+      "word_count": 380
+    },
+    {
+      "id": "xml-02317-p013",
+      "section_id": "sec8",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[6]",
+      "start": 15888,
+      "end": 17057,
+      "span_sha256": "c95b84cb42c1e7c5cc45d34b62c2662d3c6506fa28253693f94d4ebf8ae11efe",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Gastrointestinal findings including comparison.",
+      "analyst_role": "results",
+      "word_count": 180
+    },
+    {
+      "id": "xml-02317-p014",
+      "section_id": "sec8",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[7]",
+      "start": 17059,
+      "end": 17348,
+      "span_sha256": "f14cf47aec9008afc85340bd2728a885d905d46c9c43b664ef4fbde7039ac2fc",
+      "functions": [
+        "report",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Gastrointestinal subgroup synthesis.",
+      "analyst_role": "results",
+      "word_count": 41
+    },
+    {
+      "id": "xml-02317-p015",
+      "section_id": "sec9",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/p[1]",
+      "start": 17350,
+      "end": 17533,
+      "span_sha256": "9eb86af3a10745297a4570aeabac034bc898bfd304d45f8ecb1931fc2e8d3db4",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Table organization.",
+      "analyst_role": "results",
+      "word_count": 26
+    },
+    {
+      "id": "xml-02317-p016",
+      "section_id": "sec9",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/p[2]",
+      "start": 17535,
+      "end": 19082,
+      "span_sha256": "2ef76979a44568cc4e25a92828b3af42790dcc357deacb0dec35d9e5007658c7",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Lung study findings and comparison.",
+      "analyst_role": "results",
+      "word_count": 230
+    },
+    {
+      "id": "xml-02317-p017",
+      "section_id": "sec9",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/p[3]",
+      "start": 19084,
+      "end": 20307,
+      "span_sha256": "40ecbfaa3c628ba12af24403991c0ba9d93c917b84489f26d54e4c5440ef2e78",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Lung study findings.",
+      "analyst_role": "results",
+      "word_count": 181
+    },
+    {
+      "id": "xml-02317-p018",
+      "section_id": "sec9",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/p[4]",
+      "start": 20309,
+      "end": 21744,
+      "span_sha256": "d05956bc500677a79c02c4e26fab15ea7f6696dbda9db1191ce934477acd5040",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Lung study findings.",
+      "analyst_role": "results",
+      "word_count": 213
+    },
+    {
+      "id": "xml-02317-p019",
+      "section_id": "sec9",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/p[5]",
+      "start": 21746,
+      "end": 21932,
+      "span_sha256": "a697da787262690786c2e7fa7bb50b8e18909e9df57a7406a75ac553873b8615",
+      "functions": [
+        "interpret",
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Lung subgroup synthesis.",
+      "analyst_role": "results",
+      "word_count": 25
+    },
+    {
+      "id": "xml-02317-p020",
+      "section_id": "sec10",
+      "source_xml_path": "/article/body/sec[3]/sec[3]/p[1]",
+      "start": 21934,
+      "end": 22120,
+      "span_sha256": "88ded409f7a7fab1f029492d66840f5fbae06774f3797923da0e4b7dad16f3a6",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Table organization.",
+      "analyst_role": "results",
+      "word_count": 26
+    },
+    {
+      "id": "xml-02317-p021",
+      "section_id": "sec10",
+      "source_xml_path": "/article/body/sec[3]/sec[3]/p[2]",
+      "start": 22122,
+      "end": 24735,
+      "span_sha256": "7b9d8b3a208b8922479233b3562b837ff3e43887af5d2855b9f9910051ed5787",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Ovarian and breast study findings.",
+      "analyst_role": "results",
+      "word_count": 401
+    },
+    {
+      "id": "xml-02317-p022",
+      "section_id": "sec10",
+      "source_xml_path": "/article/body/sec[3]/sec[3]/p[3]",
+      "start": 24737,
+      "end": 24931,
+      "span_sha256": "e7224a9fd20899ba51d9da7c9f0cb2fe8d8f4976e50d68883b3feaba0795c739",
+      "functions": [
+        "report",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Subgroup study characteristics and synthesis.",
+      "analyst_role": "results",
+      "word_count": 28
+    },
+    {
+      "id": "xml-02317-p023",
+      "section_id": "sec11",
+      "source_xml_path": "/article/body/sec[3]/sec[4]/p[1]",
+      "start": 24933,
+      "end": 25135,
+      "span_sha256": "00ce2380456bc26ae63ea0a4087278dac4c1e29fdd6aff764c278ad9ad323637",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Table organization.",
+      "analyst_role": "results",
+      "word_count": 28
+    },
+    {
+      "id": "xml-02317-p024",
+      "section_id": "sec11",
+      "source_xml_path": "/article/body/sec[3]/sec[4]/p[2]",
+      "start": 25137,
+      "end": 26679,
+      "span_sha256": "22bcc61839281a55c85e883b8d0914f2dccece99f1107dec3cb74af8ed6fdac4",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Multiple cancer study findings.",
+      "analyst_role": "results",
+      "word_count": 215
+    },
+    {
+      "id": "xml-02317-p025",
+      "section_id": "sec11",
+      "source_xml_path": "/article/body/sec[3]/sec[4]/p[3]",
+      "start": 26681,
+      "end": 27609,
+      "span_sha256": "47d2dfd1f625cfce9d3f6c6a9b89998506ebc31d38192f304bcc86794d839940",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Multiple cancer study findings.",
+      "analyst_role": "results",
+      "word_count": 148
+    },
+    {
+      "id": "xml-02317-p026",
+      "section_id": "sec11",
+      "source_xml_path": "/article/body/sec[3]/sec[4]/p[4]",
+      "start": 27611,
+      "end": 27857,
+      "span_sha256": "b8ba11b35732a4419de80b384f0e86b20668a91008f825a9a2077fc39ede5034",
+      "functions": [
+        "report",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Multiple cancer subgroup synthesis.",
+      "analyst_role": "results",
+      "word_count": 38
+    },
+    {
+      "id": "xml-02317-p027",
+      "section_id": "sec12",
+      "source_xml_path": "/article/body/sec[3]/sec[5]/p[1]",
+      "start": 27859,
+      "end": 28061,
+      "span_sha256": "9d0654f99a8802daf0a9e0d7252d162f547b4d7ca421becc1bfcc05e48c2b014",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Table organization.",
+      "analyst_role": "results",
+      "word_count": 29
+    },
+    {
+      "id": "xml-02317-p028",
+      "section_id": "sec12",
+      "source_xml_path": "/article/body/sec[3]/sec[5]/p[2]",
+      "start": 28063,
+      "end": 31070,
+      "span_sha256": "67246a25d303d488b8a513e27acd54a2082cd41189c4c5be16581a89c1aa952d",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Other cancer study findings including renal result losing significance in multivariate analysis.",
+      "analyst_role": "results",
+      "word_count": 453
+    },
+    {
+      "id": "xml-02317-p029",
+      "section_id": "sec12",
+      "source_xml_path": "/article/body/sec[3]/sec[5]/p[3]",
+      "start": 31072,
+      "end": 31375,
+      "span_sha256": "3c6b42bfaf20048ce92e65213cf06126e59eab869e0cd2b76003bd971e6bd138",
+      "functions": [
+        "report",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Subgroup synthesis claims all prognostic, in tension with p028.",
+      "analyst_role": "results",
+      "word_count": 46
+    },
+    {
+      "id": "xml-02317-p030",
+      "section_id": "sec13",
+      "source_xml_path": "/article/body/sec[4]/p[1]",
+      "start": 31377,
+      "end": 32465,
+      "span_sha256": "0402f2cdd723744c0c6c4811724d86b82764caf5ba825b5b29496e327a08b8e2",
+      "functions": [
+        "report",
+        "define"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Overall summary and definition of score.",
+      "analyst_role": "discussion",
+      "word_count": 178
+    },
+    {
+      "id": "xml-02317-p031",
+      "section_id": "sec13",
+      "source_xml_path": "/article/body/sec[4]/p[2]",
+      "start": 32467,
+      "end": 33207,
+      "span_sha256": "235ec20a65c3d1e583555e77d20f92c7ea798acf82a07981b1c8eab67986e676",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Gastrointestinal studies including exceptions.",
+      "analyst_role": "discussion",
+      "word_count": 125
+    },
+    {
+      "id": "xml-02317-p032",
+      "section_id": "sec13",
+      "source_xml_path": "/article/body/sec[4]/p[3]",
+      "start": 33209,
+      "end": 33887,
+      "span_sha256": "4b5962677759bd8b37ff04605312ad839c6fe06bc4191570053b2289ecc99121",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Lung studies including exception.",
+      "analyst_role": "discussion",
+      "word_count": 119
+    },
+    {
+      "id": "xml-02317-p033",
+      "section_id": "sec13",
+      "source_xml_path": "/article/body/sec[4]/p[4]",
+      "start": 33889,
+      "end": 34491,
+      "span_sha256": "3c89e16d48ecca4ec17b2062aedc83eebc67708e8f57792e728df5315dbe8850",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Female cancer study characteristics and results.",
+      "analyst_role": "discussion",
+      "word_count": 97
+    },
+    {
+      "id": "xml-02317-p034",
+      "section_id": "sec13",
+      "source_xml_path": "/article/body/sec[4]/p[5]",
+      "start": 34493,
+      "end": 35000,
+      "span_sha256": "ca2ab9d765e6cf97ce9b3d7b92cae111ee9532f3c5ce82684c3906ab5d5e06a4",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Multiple-cancer study characteristics and results.",
+      "analyst_role": "discussion",
+      "word_count": 83
+    },
+    {
+      "id": "xml-02317-p035",
+      "section_id": "sec13",
+      "source_xml_path": "/article/body/sec[4]/p[6]",
+      "start": 35002,
+      "end": 35657,
+      "span_sha256": "ec9c2e0ca334978d467cb5e34715146fe35a44a1f80ef3798fb282b3771664c2",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Other-cancer study characteristics and results.",
+      "analyst_role": "discussion",
+      "word_count": 108
+    },
+    {
+      "id": "xml-02317-p036",
+      "section_id": "sec13",
+      "source_xml_path": "/article/body/sec[4]/p[7]",
+      "start": 35659,
+      "end": 36947,
+      "span_sha256": "1b3f934185337105cba271f341e968384164c4d42d137dc517ccc62baf8548af",
+      "functions": [
+        "compare",
+        "qualify",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Potential clinical uses versus interpretive limitations.",
+      "analyst_role": "discussion",
+      "word_count": 195
+    },
+    {
+      "id": "xml-02317-p037",
+      "section_id": "sec13",
+      "source_xml_path": "/article/body/sec[4]/p[8]",
+      "start": 36949,
+      "end": 37864,
+      "span_sha256": "d36347aa61009ec148c1a70cbf9a67d7c46b96ab91b12ddcd4a4e155b0cc7221",
+      "functions": [
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Publication and language bias; further research.",
+      "analyst_role": "discussion",
+      "word_count": 129
+    },
+    {
+      "id": "xml-02317-p038",
+      "section_id": "sec13",
+      "source_xml_path": "/article/body/sec[4]/p[9]",
+      "start": 37866,
+      "end": 38318,
+      "span_sha256": "78a4a21fbfe45c5c5f38b0d579211552783e7081d476da5f4c23a016797072eb",
+      "functions": [
+        "interpret",
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Conclusion with causal evidence gap.",
+      "analyst_role": "discussion",
+      "word_count": 65
+    }
+  ],
+  "encountered_element_counts": {
+    "sec": 14,
+    "title": 9,
+    "p": 38,
+    "table-wrap": 5
+  },
+  "document_id": "xml-02317",
+  "offset_units": "zero-based Unicode code points, end-exclusive",
+  "scope": "Main-body prose paragraphs, excluding nested lists, figures, tables, captions, boxes, supplements and administrative sections; normalized XML text.",
+  "method_checks": {
+    "introduction_question_gap": "p004 purpose and differing prior studies",
+    "search_selection": "p005 one database and bibliography; p007 flow counts",
+    "extraction": "p006 fields collected; extraction personnel/procedure not described in body",
+    "appraisal": "p006 explicitly says no formal report-quality rating",
+    "synthesis": "p005 organizes by cancer type; narrative study summaries p008–p035",
+    "study_flow": "p007",
+    "findings_uncertainty": "p008–p029 individual studies; summary p029 in tension with a null adjusted finding p028",
+    "comparison_limits_implications": "p030–p037",
+    "conclusion": "p038 unheaded inside Discussion",
+    "combined_or_unheaded": "two Methods paragraphs cover search selection, synthesis and absence of formal quality rating; final conclusion unheaded."
+  }
+}

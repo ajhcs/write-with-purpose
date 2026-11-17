@@ -1,0 +1,953 @@
+{
+  "source_xml_sha256": "87bebfa927bb0cac2bd5ca3a2df45d4fed40cb011d9370a4cece58916525e3e6",
+  "cache_sha256": "7bffb690a7999a0b8ef33ef431cf160a85b2638953f025224c1f264e9d1d4c23",
+  "sections": [
+    {
+      "id": "S0001",
+      "heading": "Introduction",
+      "parent": null,
+      "analyst_role": "introduction"
+    },
+    {
+      "id": "S0001-S20001",
+      "heading": "Stigma conceptualizations and terminology",
+      "parent": "S0001",
+      "analyst_role": "introduction"
+    },
+    {
+      "id": "S0001-S20002",
+      "heading": "Previous reviews",
+      "parent": "S0001",
+      "analyst_role": "introduction"
+    },
+    {
+      "id": "S0001-S20003",
+      "heading": "Current review",
+      "parent": "S0001",
+      "analyst_role": "introduction"
+    },
+    {
+      "id": "S0002",
+      "heading": "Methods",
+      "parent": null,
+      "analyst_role": "methods"
+    },
+    {
+      "id": "S0002-S20001",
+      "heading": "Search strategy and selection criteria",
+      "parent": "S0002",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "S0002-S20002",
+      "heading": "Screening and data abstraction",
+      "parent": "S0002",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "S0002-S20003",
+      "heading": "Quality assessment",
+      "parent": "S0002",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "S0002-S20004",
+      "heading": "Data synthesis",
+      "parent": "S0002",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "S0003",
+      "heading": "Results",
+      "parent": null,
+      "analyst_role": "results"
+    },
+    {
+      "id": "S0003-S20001",
+      "heading": "Study and intervention characteristics",
+      "parent": "S0003",
+      "analyst_role": "results"
+    },
+    {
+      "id": "S0003-S20002",
+      "heading": "Study design and measures",
+      "parent": "S0003",
+      "analyst_role": "results"
+    },
+    {
+      "id": "S0003-S20003",
+      "heading": "Study duration and outcomes",
+      "parent": "S0003",
+      "analyst_role": "results"
+    },
+    {
+      "id": "S0003-S20004",
+      "heading": "Quality assessment",
+      "parent": "S0003",
+      "analyst_role": "results"
+    },
+    {
+      "id": "S0004",
+      "heading": "Discussion",
+      "parent": null,
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "S0004-S20001",
+      "heading": "Progress in the field",
+      "parent": "S0004",
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "S0004-S20002",
+      "heading": "Challenges and gaps",
+      "parent": "S0004",
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "sec22",
+      "heading": "Intervention",
+      "parent": "S0004-S20002",
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "sec23",
+      "heading": "Methodology",
+      "parent": "S0004-S20002",
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "sec24",
+      "heading": "Measurement",
+      "parent": "S0004-S20002",
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "S0004-S20003",
+      "heading": "Limitations",
+      "parent": "S0004",
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "S0005",
+      "heading": "Conclusions",
+      "parent": null,
+      "analyst_role": "conclusion"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "xml-02382-p001",
+      "section_id": "S0001",
+      "source_xml_path": "/article/body/sec[1]/p[1]",
+      "start": 0,
+      "end": 757,
+      "span_sha256": "5fcbffdc45b4077590ad928b11ad7491ec522645d28a37c7bbc9f3b1844ae8d8",
+      "functions": [
+        "orient",
+        "define"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Epidemic, stigma and definition.",
+      "analyst_role": "introduction",
+      "word_count": 111
+    },
+    {
+      "id": "xml-02382-p002",
+      "section_id": "S0001",
+      "source_xml_path": "/article/body/sec[1]/p[2]",
+      "start": 759,
+      "end": 1262,
+      "span_sha256": "706099a67dcc091c1724418918b8f274982f58804857294cef5056c47ca5ee10",
+      "functions": [
+        "explain",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Prevention and intervention need.",
+      "analyst_role": "introduction",
+      "word_count": 70
+    },
+    {
+      "id": "xml-02382-p003",
+      "section_id": "S0001-S20001",
+      "source_xml_path": "/article/body/sec[1]/sec[1]/p[1]",
+      "start": 1264,
+      "end": 2385,
+      "span_sha256": "41963430cece9a2fae83ebfc9e4c99948134376d43397473fdee421b2a06afba",
+      "functions": [
+        "define",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Conceptualizations contrasted.",
+      "analyst_role": "introduction",
+      "word_count": 171
+    },
+    {
+      "id": "xml-02382-p004",
+      "section_id": "S0001-S20001",
+      "source_xml_path": "/article/body/sec[1]/sec[1]/p[2]",
+      "start": 2387,
+      "end": 3504,
+      "span_sha256": "32a344b27af2e518289b85e6a5fd5a27f9de47c01d796a0bc46b7431bebcafb9",
+      "functions": [
+        "define",
+        "illustrate"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Defines stigma domains and examples.",
+      "analyst_role": "introduction",
+      "word_count": 156
+    },
+    {
+      "id": "xml-02382-p005",
+      "section_id": "S0001-S20001",
+      "source_xml_path": "/article/body/sec[1]/sec[1]/p[3]",
+      "start": 3506,
+      "end": 3625,
+      "span_sha256": "c83e92e0221bde0c1ed88918683fab38cdb5a8af8c0d6cfa38dc13da57972b0b",
+      "functions": [
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Relationship between drivers and facilitators.",
+      "analyst_role": "introduction",
+      "word_count": 19
+    },
+    {
+      "id": "xml-02382-p006",
+      "section_id": "S0001-S20001",
+      "source_xml_path": "/article/body/sec[1]/sec[1]/p[4]",
+      "start": 3627,
+      "end": 4610,
+      "span_sha256": "e398d433fcb04342e5e1d8a02ace3bc82c8c0c39b06d98e0c9200e538183c131",
+      "functions": [
+        "define",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Defines intersecting stigma and manifestations.",
+      "analyst_role": "introduction",
+      "word_count": 135
+    },
+    {
+      "id": "xml-02382-p007",
+      "section_id": "S0001-S20001",
+      "source_xml_path": "/article/body/sec[1]/sec[1]/p[5]",
+      "start": 4612,
+      "end": 5399,
+      "span_sha256": "bbfe812ce0399ada16dbe47994eb90d75e93d969e8e7704f31463bd72b624018",
+      "functions": [
+        "explain",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Framework and multiple intervention levels.",
+      "analyst_role": "introduction",
+      "word_count": 97
+    },
+    {
+      "id": "xml-02382-p008",
+      "section_id": "S0001-S20002",
+      "source_xml_path": "/article/body/sec[1]/sec[2]/p[1]",
+      "start": 5401,
+      "end": 5701,
+      "span_sha256": "5ebde2f1acc805af3fd4960d93e09ca3aec9e731a0d19b12b11532199fc862b8",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Prior review introduction; following list excluded.",
+      "analyst_role": "introduction",
+      "word_count": 41
+    },
+    {
+      "id": "xml-02382-p009",
+      "section_id": "S0001-S20002",
+      "source_xml_path": "/article/body/sec[1]/sec[2]/p[2]",
+      "start": 5703,
+      "end": 6256,
+      "span_sha256": "bdab9ed0e52631a9dd005b9a3be04ad8a0f3d15e3936429e78349096e0ceab1c",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Prior review findings and limits.",
+      "analyst_role": "introduction",
+      "word_count": 79
+    },
+    {
+      "id": "xml-02382-p010",
+      "section_id": "S0001-S20002",
+      "source_xml_path": "/article/body/sec[1]/sec[2]/p[3]",
+      "start": 6258,
+      "end": 6794,
+      "span_sha256": "ba9227a7bdce2fd70e5b5cf242225e9dc4f19791fde973dce8104a40797ab5d6",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Prior review and measurement gap.",
+      "analyst_role": "introduction",
+      "word_count": 78
+    },
+    {
+      "id": "xml-02382-p011",
+      "section_id": "S0001-S20003",
+      "source_xml_path": "/article/body/sec[1]/sec[3]/p[1]",
+      "start": 6796,
+      "end": 7367,
+      "span_sha256": "1030166a1798bb7b16ac22b845b924f304e7c3990b9ceb61d0eb44f53c4c0812",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Current review goal and distinction.",
+      "analyst_role": "introduction",
+      "word_count": 74
+    },
+    {
+      "id": "xml-02382-p012",
+      "section_id": "S0001-S20003",
+      "source_xml_path": "/article/body/sec[1]/sec[3]/p[2]",
+      "start": 7369,
+      "end": 8692,
+      "span_sha256": "4c4f2e9abe57f1de0b64c47a287688138c74d0b3b76a359a0e3bc897f2133e30",
+      "functions": [
+        "define",
+        "explain",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Structural and biomedical approaches and gap.",
+      "analyst_role": "introduction",
+      "word_count": 185
+    },
+    {
+      "id": "xml-02382-p013",
+      "section_id": "S0001-S20003",
+      "source_xml_path": "/article/body/sec[1]/sec[3]/p[3]",
+      "start": 8694,
+      "end": 9056,
+      "span_sha256": "c35080aeeb361802aef777166c3599e3806b5f257887eff5c29496afee5bc262",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Objectives.",
+      "analyst_role": "introduction",
+      "word_count": 45
+    },
+    {
+      "id": "xml-02382-p014",
+      "section_id": "S0002-S20001",
+      "source_xml_path": "/article/body/sec[2]/sec[1]/p[1]",
+      "start": 9058,
+      "end": 9644,
+      "span_sha256": "6d816a6fbfa1f6f4ffecb147fdbb224430ec23eb8ba334573ad6c93f7465032f",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Databases, grey literature and ancestry search.",
+      "analyst_role": "methods",
+      "word_count": 75
+    },
+    {
+      "id": "xml-02382-p015",
+      "section_id": "S0002-S20001",
+      "source_xml_path": "/article/body/sec[2]/sec[1]/p[2]",
+      "start": 9646,
+      "end": 10395,
+      "span_sha256": "e05d31d2b5a63fc6a021300e6f0b9212385b5dcf7948a85070776dec5ed6b336",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Eligibility and publication date boundaries.",
+      "analyst_role": "methods",
+      "word_count": 117
+    },
+    {
+      "id": "xml-02382-p016",
+      "section_id": "S0002-S20002",
+      "source_xml_path": "/article/body/sec[2]/sec[2]/p[1]",
+      "start": 10397,
+      "end": 11535,
+      "span_sha256": "3d1e89666338ea04d7e71f5578934dbb124726e8a5f2fa2a23b662a741872d0b",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Two-reviewer screening and extraction.",
+      "analyst_role": "methods",
+      "word_count": 179
+    },
+    {
+      "id": "xml-02382-p017",
+      "section_id": "S0002-S20003",
+      "source_xml_path": "/article/body/sec[2]/sec[3]/p[1]",
+      "start": 11537,
+      "end": 12387,
+      "span_sha256": "a07b4ac1d7ec5ee6d0fb12201c0f01617323e71a15febdb4f3f57f7dd60a0918",
+      "functions": [
+        "report",
+        "define"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Quantitative quality assessment and adaptation.",
+      "analyst_role": "methods",
+      "word_count": 126
+    },
+    {
+      "id": "xml-02382-p018",
+      "section_id": "S0002-S20003",
+      "source_xml_path": "/article/body/sec[2]/sec[3]/p[2]",
+      "start": 12389,
+      "end": 12943,
+      "span_sha256": "91a520d5b366b463134e8d48194ee7cf6664f300179cc3e3bb096eabef824fc3",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Qualitative appraisal and one unassessed study.",
+      "analyst_role": "methods",
+      "word_count": 80
+    },
+    {
+      "id": "xml-02382-p019",
+      "section_id": "S0002-S20004",
+      "source_xml_path": "/article/body/sec[2]/sec[4]/p[1]",
+      "start": 12945,
+      "end": 13183,
+      "span_sha256": "f168ae361af2447f7a2d6a94563d07638b13899d1f95854c0534f18c639db572",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Narrative synthesis instead of meta-analysis and reason.",
+      "analyst_role": "methods",
+      "word_count": 33
+    },
+    {
+      "id": "xml-02382-p020",
+      "section_id": "S0002-S20004",
+      "source_xml_path": "/article/body/sec[2]/sec[4]/p[2]",
+      "start": 13185,
+      "end": 13279,
+      "span_sha256": "baba8c061729d2e59be25acf00d97137a9f800c21917c3384133c499fa2089c8",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Prior intervention categories; following list excluded.",
+      "analyst_role": "methods",
+      "word_count": 13
+    },
+    {
+      "id": "xml-02382-p021",
+      "section_id": "S0002-S20004",
+      "source_xml_path": "/article/body/sec[2]/sec[4]/p[3]",
+      "start": 13281,
+      "end": 13807,
+      "span_sha256": "e68e1a1f6a7a0faf2e94bd806de8877302ecde07ef49955e4de94b24552a199b",
+      "functions": [
+        "report",
+        "define"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Additional categories and definitions.",
+      "analyst_role": "methods",
+      "word_count": 59
+    },
+    {
+      "id": "xml-02382-p022",
+      "section_id": "S0003",
+      "source_xml_path": "/article/body/sec[3]/p[1]",
+      "start": 13809,
+      "end": 14225,
+      "span_sha256": "6993d2a3bd9332fa63135064571cd3c426745c5c46accd83c122cafef4aa1935",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Study flow.",
+      "analyst_role": "results",
+      "word_count": 61
+    },
+    {
+      "id": "xml-02382-p023",
+      "section_id": "S0003-S20001",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[1]",
+      "start": 14227,
+      "end": 14908,
+      "span_sha256": "2d0b1508494ac93eea7c9d595f448a14d237f5838a1f218ccace56387ba4e5d8",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Geographical distribution and absence.",
+      "analyst_role": "results",
+      "word_count": 115
+    },
+    {
+      "id": "xml-02382-p024",
+      "section_id": "S0003-S20001",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[2]",
+      "start": 14910,
+      "end": 15546,
+      "span_sha256": "4cf1d01a2b9e2478c3e7a75bda401f43ed4420dccd71aba3eb3eaae75453897a",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Target populations.",
+      "analyst_role": "results",
+      "word_count": 105
+    },
+    {
+      "id": "xml-02382-p025",
+      "section_id": "S0003-S20001",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[3]",
+      "start": 15548,
+      "end": 17085,
+      "span_sha256": "5a16d3fb9ac2a3f75a4ef189ea2d59f1d7a3c8cde457bcc5ceafb3b8f0b98a3f",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Intervention approaches and examples.",
+      "analyst_role": "results",
+      "word_count": 217
+    },
+    {
+      "id": "xml-02382-p026",
+      "section_id": "S0003-S20001",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[4]",
+      "start": 17087,
+      "end": 17615,
+      "span_sha256": "70abd2557e93047c01cc7703a32d25c93cfb7811e4e43c79da132803972fa5bd",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Stigma domains and absent intersectional approaches.",
+      "analyst_role": "results",
+      "word_count": 76
+    },
+    {
+      "id": "xml-02382-p027",
+      "section_id": "S0003-S20001",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[5]",
+      "start": 17617,
+      "end": 18615,
+      "span_sha256": "e0a936129afdda01a7d02ac7ff55bb38dae9dd172d8c51579f4682d528eafd2d",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Socio-ecological levels and examples.",
+      "analyst_role": "results",
+      "word_count": 138
+    },
+    {
+      "id": "xml-02382-p028",
+      "section_id": "S0003-S20002",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/p[1]",
+      "start": 18617,
+      "end": 19060,
+      "span_sha256": "6983058b2cfd2fc10bf62bdc48c7d1e471dea085f5df2170ac83fb36e6523390",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Design distribution.",
+      "analyst_role": "results",
+      "word_count": 69
+    },
+    {
+      "id": "xml-02382-p029",
+      "section_id": "S0003-S20002",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/p[2]",
+      "start": 19062,
+      "end": 19992,
+      "span_sha256": "6899957d204174298da6fd72c36734427adba54114f9687747357000076cc3b5",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Measurement validity and discordance.",
+      "analyst_role": "results",
+      "word_count": 147
+    },
+    {
+      "id": "xml-02382-p030",
+      "section_id": "S0003-S20003",
+      "source_xml_path": "/article/body/sec[3]/sec[3]/p[1]",
+      "start": 19994,
+      "end": 20349,
+      "span_sha256": "7156f7259a021b15f3fa76f0cdd1222271b3ef0f900f7efa4eb32d30bfd397c2",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Intervention duration comparison.",
+      "analyst_role": "results",
+      "word_count": 48
+    },
+    {
+      "id": "xml-02382-p031",
+      "section_id": "S0003-S20003",
+      "source_xml_path": "/article/body/sec[3]/sec[3]/p[2]",
+      "start": 20351,
+      "end": 21164,
+      "span_sha256": "e059529d240c3d927f38b892f0f21be7107be87ab76299efeecc12a6a0d9d5da",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Outcomes including no change and increase.",
+      "analyst_role": "results",
+      "word_count": 121
+    },
+    {
+      "id": "xml-02382-p032",
+      "section_id": "S0003-S20004",
+      "source_xml_path": "/article/body/sec[3]/sec[4]/p[1]",
+      "start": 21166,
+      "end": 21862,
+      "span_sha256": "16e69ba05f65d0e94def013826b2b16b6c00f2750e791d5e6f22943bb22a0aa6",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Quality assessment results.",
+      "analyst_role": "results",
+      "word_count": 111
+    },
+    {
+      "id": "xml-02382-p033",
+      "section_id": "S0004",
+      "source_xml_path": "/article/body/sec[4]/p[1]",
+      "start": 21864,
+      "end": 22174,
+      "span_sha256": "e19d1cd61987c9b32a63d203ab7d8bc76a766f4374f04fa4986bf60673f17173",
+      "functions": [
+        "interpret",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Overall interpretation and gaps.",
+      "analyst_role": "discussion",
+      "word_count": 42
+    },
+    {
+      "id": "xml-02382-p034",
+      "section_id": "S0004-S20001",
+      "source_xml_path": "/article/body/sec[4]/sec[1]/p[1]",
+      "start": 22176,
+      "end": 23097,
+      "span_sha256": "be089debee4665344597932cd831253d4c43ded7b9b065a9ed73f0853aafe2d5",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Comparison with prior reviews.",
+      "analyst_role": "discussion",
+      "word_count": 141
+    },
+    {
+      "id": "xml-02382-p035",
+      "section_id": "S0004-S20001",
+      "source_xml_path": "/article/body/sec[4]/sec[1]/p[2]",
+      "start": 23099,
+      "end": 23832,
+      "span_sha256": "3a57b9e4fd79aa4c27304dbdd29ce1c9b7244cfa7d78b09e1b4140aecc21d79a",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Changing targeted domains and levels.",
+      "analyst_role": "discussion",
+      "word_count": 110
+    },
+    {
+      "id": "xml-02382-p036",
+      "section_id": "S0004-S20001",
+      "source_xml_path": "/article/body/sec[4]/sec[1]/p[3]",
+      "start": 23834,
+      "end": 24088,
+      "span_sha256": "99d4cda95194cb4cede433655d1deff2cb5d35166d451d800a3696718721cca8",
+      "functions": [
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Implication of expanded approaches.",
+      "analyst_role": "discussion",
+      "word_count": 31
+    },
+    {
+      "id": "xml-02382-p037",
+      "section_id": "sec22",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/sec[1]/p[1]",
+      "start": 24090,
+      "end": 24755,
+      "span_sha256": "65d5c2f5a1856f997ffce617e325776988f7ff0b0b222cbcb18607688adb5772",
+      "functions": [
+        "qualify",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Limits of single-domain interventions.",
+      "analyst_role": "discussion",
+      "word_count": 89
+    },
+    {
+      "id": "xml-02382-p038",
+      "section_id": "sec22",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/sec[1]/p[2]",
+      "start": 24757,
+      "end": 25440,
+      "span_sha256": "2149cc9e7873df035fa05c34d26ef736ce9cc1453366bcfea5646d160300537e",
+      "functions": [
+        "explain",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Mechanism and implications.",
+      "analyst_role": "discussion",
+      "word_count": 102
+    },
+    {
+      "id": "xml-02382-p039",
+      "section_id": "sec22",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/sec[1]/p[3]",
+      "start": 25442,
+      "end": 25954,
+      "span_sha256": "6338dd25639de7cd7bf38b39a9e205c07d99182a7f73d5cc52d597b61d384831",
+      "functions": [
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Need for multifaceted evaluation.",
+      "analyst_role": "discussion",
+      "word_count": 71
+    },
+    {
+      "id": "xml-02382-p040",
+      "section_id": "sec22",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/sec[1]/p[4]",
+      "start": 25956,
+      "end": 26763,
+      "span_sha256": "104801c4ec063c0626eebc8d7fefd9e8f7ec371b9f0d48f26e39459ddfeb96f6",
+      "functions": [
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Evidence gap for behavioural and biomedical outcomes.",
+      "analyst_role": "discussion",
+      "word_count": 117
+    },
+    {
+      "id": "xml-02382-p041",
+      "section_id": "sec22",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/sec[1]/p[5]",
+      "start": 26765,
+      "end": 27501,
+      "span_sha256": "4d312627d5413252f2f855d34a47330b142ab91522d2cbff9e71f6f5a16f8452",
+      "functions": [
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Rights-related intervention gap and need.",
+      "analyst_role": "discussion",
+      "word_count": 123
+    },
+    {
+      "id": "xml-02382-p042",
+      "section_id": "sec22",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/sec[1]/p[6]",
+      "start": 27503,
+      "end": 28132,
+      "span_sha256": "54758fbcd7c62860a831a382c37a4c22cd4eb4e14fa486e92f962ecf5ca86717",
+      "functions": [
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Intersecting stigma intervention gap and need.",
+      "analyst_role": "discussion",
+      "word_count": 89
+    },
+    {
+      "id": "xml-02382-p043",
+      "section_id": "sec23",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/sec[2]/p[1]",
+      "start": 28134,
+      "end": 28842,
+      "span_sha256": "97bef602d654024442404d0092a494aab3a2ec6838ad0b5d86082300b33cf070",
+      "functions": [
+        "explain",
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Challenges and designs for structural interventions.",
+      "analyst_role": "discussion",
+      "word_count": 93
+    },
+    {
+      "id": "xml-02382-p044",
+      "section_id": "sec23",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/sec[2]/p[2]",
+      "start": 28844,
+      "end": 29427,
+      "span_sha256": "0b754a7d25c2e29c8129bf36ecb35b3cb1ea8b9c36c0349b5a8aba9d7bf93ba4",
+      "functions": [
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Causal attribution limits and methods need.",
+      "analyst_role": "discussion",
+      "word_count": 79
+    },
+    {
+      "id": "xml-02382-p045",
+      "section_id": "sec24",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/sec[3]/p[1]",
+      "start": 29429,
+      "end": 29971,
+      "span_sha256": "b3f8b16ff33fdc428cdb9019fe0a1643bfae7ed0a6d9799cef1f08ee4f7cf10f",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Measurement limitation.",
+      "analyst_role": "discussion",
+      "word_count": 76
+    },
+    {
+      "id": "xml-02382-p046",
+      "section_id": "sec24",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/sec[3]/p[2]",
+      "start": 29973,
+      "end": 31007,
+      "span_sha256": "05b5088d751aaa71a042698930da623aca20a899a0defe9eb21d4e0ed63b5f6d",
+      "functions": [
+        "assert",
+        "illustrate"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Recommendation for validated measures and example.",
+      "analyst_role": "discussion",
+      "word_count": 150
+    },
+    {
+      "id": "xml-02382-p047",
+      "section_id": "sec24",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/sec[3]/p[3]",
+      "start": 31009,
+      "end": 32366,
+      "span_sha256": "1cbe90b654682786e28102c83949ff34943776a8993940e6cd208b4c8761c2b0",
+      "functions": [
+        "qualify",
+        "illustrate",
+        "explain",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Measurement-target mismatch, hypothetical example and recommendation.",
+      "analyst_role": "discussion",
+      "word_count": 202
+    },
+    {
+      "id": "xml-02382-p048",
+      "section_id": "S0004-S20003",
+      "source_xml_path": "/article/body/sec[4]/sec[3]/p[1]",
+      "start": 32368,
+      "end": 33362,
+      "span_sha256": "f8656a1c8d726954879ae06a80845451c6f182191b675fe178324661681f330d",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Review selection and appraisal limitations.",
+      "analyst_role": "discussion",
+      "word_count": 148
+    },
+    {
+      "id": "xml-02382-p049",
+      "section_id": "S0004-S20003",
+      "source_xml_path": "/article/body/sec[4]/sec[3]/p[2]",
+      "start": 33364,
+      "end": 34302,
+      "span_sha256": "d107c84ad4fde421d485ddc920e6da40fc0151783fcf1f3713048924aedfa99f",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Heterogeneity, generalizability, causality and measurement limitations.",
+      "analyst_role": "discussion",
+      "word_count": 133
+    },
+    {
+      "id": "xml-02382-p050",
+      "section_id": "S0005",
+      "source_xml_path": "/article/body/sec[5]/p[1]",
+      "start": 34304,
+      "end": 35468,
+      "span_sha256": "242b88931e9446f36e2b10f3e6a79f941fa3a409817f7b087ae4b2ff04bc6fe4",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Conclusion and recommendations.",
+      "analyst_role": "conclusion",
+      "word_count": 169
+    }
+  ],
+  "encountered_element_counts": {
+    "sec": 27,
+    "title": 22,
+    "p": 50,
+    "list": 2,
+    "table-wrap": 2,
+    "fig": 2
+  },
+  "document_id": "xml-02382",
+  "offset_units": "zero-based Unicode code points, end-exclusive",
+  "scope": "Main-body prose paragraphs, excluding nested lists, figures, tables, captions, boxes, supplements and administrative sections; normalized XML text.",
+  "method_checks": {
+    "introduction_question_gap": "p008–p013",
+    "search_selection": "p014–p016",
+    "extraction": "p016",
+    "appraisal": "p017–p018",
+    "synthesis": "p019–p021 narrative categorization; no meta-analysis due reporting heterogeneity",
+    "study_flow": "p022",
+    "findings_uncertainty": "p023–p032",
+    "comparison_limits_implications": "p033–p049",
+    "conclusion": "p050 headed",
+    "combined_or_unheaded": "p008 and p020 introduce lists excluded from prose scope; substantive details are outside counts. Methods gives rationale for missing meta-analysis; limitation repeated in discussion."
+  }
+}

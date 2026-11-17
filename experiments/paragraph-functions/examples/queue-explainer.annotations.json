@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.1",
+  "catalog_version": "0.1",
+  "source_sha256": "47c770793f7e2cac70dc1366b56ba1450e8a6ff157bff9ec758b95ad9df008d2",
+  "document": {
+    "family": "explanation-and-documentation",
+    "form": "conceptual-explainer",
+    "audience": "Readers familiar with queues but unfamiliar with queueing theory.",
+    "medium": "website",
+    "provenance": "Synthetic model-authored format fixture; not a measured writing model or approved voice sample."
+  },
+  "sections": [
+    {
+      "id": "question",
+      "purpose": "Notice why a short queue can still involve a long wait."
+    },
+    {
+      "id": "distinction",
+      "purpose": "Distinguish queue length from waiting time."
+    },
+    {
+      "id": "example",
+      "purpose": "Make the distinction concrete with a fictional desk."
+    },
+    {
+      "id": "mechanism",
+      "purpose": "Connect the wait to the unfinished work ahead."
+    },
+    {
+      "id": "limits",
+      "purpose": "Identify the conditions of this example."
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "section": "question",
+      "start": 0,
+      "end": 148,
+      "quote": "A short queue does not necessarily mean a short wait. To see why, separate the number of waiting requests from the time each request spends waiting.",
+      "planned_functions": [
+        "orient"
+      ],
+      "observed_functions": [
+        "orient",
+        "assert"
+      ],
+      "annotation_status": "proposed",
+      "evidence_refs": []
+    },
+    {
+      "id": "p2",
+      "section": "distinction",
+      "start": 150,
+      "end": 312,
+      "quote": "Queue length is the number of requests waiting at a particular moment. Waiting time is the interval between a request joining the queue and its service beginning.",
+      "planned_functions": [
+        "define"
+      ],
+      "observed_functions": [
+        "define",
+        "compare"
+      ],
+      "annotation_status": "proposed",
+      "evidence_refs": []
+    },
+    {
+      "id": "p3",
+      "section": "example",
+      "start": 314,
+      "end": 519,
+      "quote": "Consider a fictional desk with one worker. One request is being handled, and only one other request is waiting. If the current request needs another hour, the waiting request cannot start during that hour.",
+      "planned_functions": [
+        "illustrate"
+      ],
+      "observed_functions": [
+        "illustrate",
+        "report"
+      ],
+      "annotation_status": "proposed",
+      "evidence_refs": []
+    },
+    {
+      "id": "p4",
+      "section": "mechanism",
+      "start": 521,
+      "end": 665,
+      "quote": "The delay comes from the unfinished work ahead of the waiting request. Counting the requests alone does not reveal how long that work will take.",
+      "planned_functions": [
+        "explain"
+      ],
+      "observed_functions": [
+        "explain"
+      ],
+      "annotation_status": "proposed",
+      "evidence_refs": []
+    },
+    {
+      "id": "p5",
+      "section": "limits",
+      "start": 667,
+      "end": 847,
+      "quote": "This example assumes the worker handles one request at a time and does not switch between requests. A system with several workers or different priorities needs its own explanation.",
+      "planned_functions": [
+        "qualify"
+      ],
+      "observed_functions": [
+        "qualify"
+      ],
+      "annotation_status": "proposed",
+      "evidence_refs": []
+    }
+  ],
+  "evidence": [],
+  "relations": [
+    {
+      "from": "p2",
+      "to": "p1",
+      "type": "elaborates"
+    },
+    {
+      "from": "p3",
+      "to": "p1",
+      "type": "illustrates"
+    },
+    {
+      "from": "p4",
+      "to": "p3",
+      "type": "explains"
+    },
+    {
+      "from": "p5",
+      "to": "p3",
+      "type": "qualifies"
+    }
+  ],
+  "constraints": [
+    {
+      "paragraph": "p1",
+      "unit": "whitespace_tokens",
+      "max": 40,
+      "source": "Arbitrary demonstration contract for this synthetic fixture; not a corpus norm or author preference."
+    }
+  ]
+}

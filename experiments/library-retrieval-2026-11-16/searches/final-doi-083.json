@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-narrative_critical_literature_review-1",
+      "doi": "10.7326/0003-4819-146-1-200701020-00007",
+      "title": "Narrative review: reversible cerebral vasoconstriction syndromes.",
+      "authors": "[\"Calabrese LH\", \"Dodick DW\", \"Schwedt TJ\", \"Singhal AB\"]",
+      "field": "medicine_health",
+      "q": "\"reversible cerebral vasoconstriction syndromes.\" Calabrese filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-narrative_critical_literature_review-1",
+      "query": "\"reversible cerebral vasoconstriction syndromes.\" Calabrese filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Reversible Cerebral Vasoconstriction Syndrome",
+          "url": "https://ihs-headache.org/wp-content/uploads/2020/07/RCVS-presention.pdf",
+          "score": 0.75
+        },
+        {
+          "title": "Reversible Cerebral Vasoconstriction Syndromes: Analysis of 139 Cases",
+          "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/1107836",
+          "score": 1
+        },
+        {
+          "title": "Reversible cerebral vasoconstriction syndromes",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16635442/",
+          "score": 1
+        },
+        {
+          "title": "Narrative Review: Reversible Cerebral Vasoconstriction Syndromes",
+          "url": "https://doi.org/10.7326/0003-4819-146-1-200701020-00007",
+          "score": 1
+        },
+        {
+          "title": "Reversible Cerebral Vasoconstriction Syndrome",
+          "url": "https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/j.1526-4610.2009.01380.x",
+          "score": 0.75
+        },
+        {
+          "title": "Reversible Cerebral Vasoconstriction Syndrome, Part 1: Epidemiology, Pathogenesis, and Clinical Course",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/7964694/",
+          "score": 0.75
+        }
+      ]
+    }
+  ]
+}

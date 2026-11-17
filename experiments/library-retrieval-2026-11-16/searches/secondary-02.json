@@ -1,0 +1,90 @@
+{
+  "batch": 2,
+  "queries": [
+    {
+      "candidate_key": "business:business_028",
+      "doi": "",
+      "title": "How to Write a Great Business Plan",
+      "authors": "[\"William A. Sahlman\"]",
+      "field": "business_management",
+      "q": "\"How to Write a Great Business Plan\" pdf"
+    },
+    {
+      "candidate_key": "business:business_029",
+      "doi": "",
+      "title": "Managing Your Boss",
+      "authors": "[\"John J. Gabarro\", \"John P. Kotter\"]",
+      "field": "business_management",
+      "q": "\"Managing Your Boss\" pdf"
+    },
+    {
+      "candidate_key": "business:business_030",
+      "doi": "",
+      "title": "Discovering Your Authentic Leadership",
+      "authors": "[\"Bill George\", \"Peter Sims\", \"Andrew N. McLean\", \"Diana Mayer\"]",
+      "field": "business_management",
+      "q": "\"Discovering Your Authentic Leadership\" pdf"
+    },
+    {
+      "candidate_key": "business:business_039",
+      "doi": "",
+      "title": "Proposal 5 – Right to Action by Written Consent",
+      "authors": "[\"John Chevedden\"]",
+      "field": "business_management",
+      "q": "\"Proposal 5 – Right to Action by Written Consent\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_028",
+      "query": "\"How to Write a Great Business Plan\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "business:business_029",
+      "query": "\"Managing Your Boss\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "business:business_030",
+      "query": "\"Discovering Your Authentic Leadership\" pdf",
+      "urls": [
+        {
+          "title": "Discovering Your Authentic Leadership",
+          "url": "https://store.hbr.org/product/discovering-your-authentic-leadership/R0702H",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Discovering Your Authentic Leadership.docx - Discovering Your Authentic Leadership 1. Learning from Your Life Story 2. Knowing Your Authentic Self 3. | Course Hero",
+          "url": "https://www.coursehero.com/file/86684090/Discovering-Your-Authentic-Leadershipdocx/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Discovering Your Authentic Leadership | PDF",
+          "url": "https://www.scribd.com/document/766200918/Discovering-Your-Authentic-Leadership-1",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Discovering Your Authentic Leadership by evelyn de anda on Prezi",
+          "url": "https://prezi.com/lvw_gqw5_xkr/discovering-your-authentic-leadership/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "“Discovering Your Authentic Leadership” by Bill George, Peter Sims, Andrew McLean, & Diana Mayer and “In Praise of the Incomplete Leader” by Deborah Ancona, Thomas Malone, Wanda Orlikowski, & Peter Senge :: Blot Post 10 | The Art and Science of Leadership",
+          "url": "https://285polileadership.wordpress.com/2015/09/30/discovering-your-authentic-leadership-by-bill-george-peter-sims-andrew-mclean-diana-mayer-and-in-praise-of-the-incomplete-leader-by-deborah-ancona-thomas-malone-wanda-orlikowski-a/",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_039",
+      "query": "\"Proposal 5 – Right to Action by Written Consent\" pdf",
+      "urls": []
+    }
+  ]
+}

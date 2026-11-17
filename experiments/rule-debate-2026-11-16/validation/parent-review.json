@@ -1,0 +1,38 @@
+{
+  "prose_review": "Parent read all seven actual revisions against task and supplied notes; no material unsupported fact or unauthorized change identified in these development examples. This is editorial review, not observed reader benefit or author approval.",
+  "numeric_observation_E02": "The checker flags added 36 and one removed repetition of 30. 36 arrivals is explicitly supplied in source notes; the second 30 belonged to the unsupported two-hire conclusion that the task permitted revising. Lexical differences are therefore explained; the checker itself does not establish factual fidelity.",
+  "E07_anchor_checks": [
+    {
+      "function": "report",
+      "anchor_matches": true,
+      "extent": "not_collected"
+    },
+    {
+      "function": "illustrate",
+      "anchor_matches": true,
+      "extent": "not_collected"
+    },
+    {
+      "function": "instruct",
+      "anchor_matches": true,
+      "extent": "not_collected"
+    },
+    {
+      "function": "support",
+      "anchor_matches": true,
+      "extent": "not_collected"
+    },
+    {
+      "function": "assert",
+      "anchor_matches": true,
+      "extent": "not_collected"
+    },
+    {
+      "function": "qualify",
+      "anchor_matches": true,
+      "extent": "not_collected"
+    }
+  ],
+  "E07_semantic_limit": "Exact matches verify only quotations. Function hypotheses, logical targets, overlap and full realization are not mechanically certified. Six anchors are not six complete realization spans.",
+  "constraints": "All five nonempty declared contracts passed. E02 and E05 had no declared mechanical limits; their exit-zero advisory runs are not contract passes."
+}

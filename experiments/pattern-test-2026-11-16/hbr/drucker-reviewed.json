@@ -1,0 +1,2777 @@
+{
+  "status": "reviewed_reconstruction_exploratory",
+  "title": "Managing Oneself",
+  "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b",
+  "private_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json",
+  "scope": "Publisher reprint main prose PDF pp. 3–12. Intro summary, pull quotes, author note, running furniture, reprint notice and further reading excluded. Inline speaker quotation counted as main prose. Headings excluded from prose; printed inline questions are retained as part of paragraphs.",
+  "method": "Read all source-ordered body text, viewed page renderings, joined paragraphs across columns/pages, normalized Unicode NFKC, joined wrapped words, collapsed whitespace and corrected observed short-term/long-term hyphenation. The normalized text is an exploratory reconstruction, not a transcription certified at character level. Function tags are a single coder judgment.",
+  "sections": [
+    {
+      "section_id": "opening",
+      "first_id": "drucker-001",
+      "last_id": "drucker-003",
+      "heading": null,
+      "heading_printed": false,
+      "inferred_role": "opening"
+    },
+    {
+      "section_id": "strengths",
+      "first_id": "drucker-004",
+      "last_id": "drucker-014",
+      "heading": "What Are My Strengths?",
+      "heading_printed": true,
+      "inferred_role": null
+    },
+    {
+      "section_id": "performance",
+      "first_id": "drucker-015",
+      "last_id": "drucker-033",
+      "heading": "How Do I Perform?",
+      "heading_printed": true,
+      "inferred_role": null
+    },
+    {
+      "section_id": "values",
+      "first_id": "drucker-034",
+      "last_id": "drucker-046",
+      "heading": "What Are My Values?",
+      "heading_printed": true,
+      "inferred_role": null
+    },
+    {
+      "section_id": "belong",
+      "first_id": "drucker-047",
+      "last_id": "drucker-050",
+      "heading": "Where Do I Belong?",
+      "heading_printed": true,
+      "inferred_role": null
+    },
+    {
+      "section_id": "contribution",
+      "first_id": "drucker-051",
+      "last_id": "drucker-055",
+      "heading": "What Should I Contribute?",
+      "heading_printed": true,
+      "inferred_role": null
+    },
+    {
+      "section_id": "relationships",
+      "first_id": "drucker-056",
+      "last_id": "drucker-067",
+      "heading": "Responsibility for Relationships",
+      "heading_printed": true,
+      "inferred_role": null
+    },
+    {
+      "section_id": "second-life",
+      "first_id": "drucker-068",
+      "last_id": "drucker-079",
+      "heading": "The Second Half of Your Life",
+      "heading_printed": true,
+      "inferred_role": null
+    },
+    {
+      "section_id": "closing",
+      "first_id": "drucker-080",
+      "last_id": "drucker-081",
+      "heading": null,
+      "heading_printed": false,
+      "inferred_role": "closing"
+    }
+  ],
+  "metrics": {
+    "prose_words": 6715,
+    "prose_paragraphs": 81,
+    "estimated_sentences": 418,
+    "median_paragraph_words": 84.0,
+    "median_sentence_words": 15.0,
+    "headings": 7,
+    "section_words": {
+      "opening": 255,
+      "strengths": 941,
+      "performance": 1451,
+      "values": 989,
+      "belong": 304,
+      "contribution": 544,
+      "relationships": 968,
+      "second-life": 1129,
+      "closing": 134
+    },
+    "section_shares": {
+      "opening": 0.0379746835443038,
+      "strengths": 0.14013402829486224,
+      "performance": 0.21608339538346985,
+      "values": 0.14728220402084885,
+      "belong": 0.04527177959791512,
+      "contribution": 0.0810126582278481,
+      "relationships": 0.14415487714072972,
+      "second-life": 0.16813104988830976,
+      "closing": 0.019955323901712584
+    },
+    "paragraph_word_distribution": {
+      "min": 21,
+      "q1": 59.0,
+      "median": 84.0,
+      "q3": 103.0,
+      "max": 170,
+      "n": 81
+    },
+    "paragraph_sentence_distribution": {
+      "min": 1,
+      "q1": 4.0,
+      "median": 5.0,
+      "q3": 7.0,
+      "max": 11,
+      "n": 81
+    },
+    "sentence_word_distribution": {
+      "min": 3,
+      "q1": 10.0,
+      "median": 15.0,
+      "q3": 21.0,
+      "max": 50,
+      "n": 418
+    }
+  },
+  "units": [
+    {
+      "id": "drucker-001",
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            191.7,
+            440.3,
+            372.4,
+            484.8
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "ba08f6894ed61a1d0a5a2d0b3fd3a3fd7e273f4be67a63664dfb83ef1354fd69",
+      "functions": [
+        "orient"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 170,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-002",
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            192.0,
+            488.3,
+            372.6,
+            664.7
+          ],
+          "block": 6
+        }
+      ],
+      "sha256": "ee219b87e664778ee9a5f44de0e30d2123ea224f989910f92013ab3879c6ac4f",
+      "functions": [
+        "orient",
+        "assert",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 670,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-003",
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            192.0,
+            680.2,
+            372.4,
+            725.2
+          ],
+          "block": 7
+        },
+        {
+          "page": 3,
+          "bbox": [
+            390.0,
+            440.2,
+            570.4,
+            581.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "72dec5a7ec74f1b9da506289743b0517b65808854233db23c18ddd6c3b194415",
+      "functions": [
+        "compare",
+        "assert",
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 672,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-004",
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            389.7,
+            596.1,
+            570.4,
+            701.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "cd10dab8f4c281d609827b6eaec80d71d150b34865a052ce58eb8b088003ef41",
+      "functions": [
+        "assert"
+      ],
+      "printed_heading": "What Are My Strengths?",
+      "section_id": "strengths",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 311,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-005",
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            390.0,
+            704.2,
+            570.3,
+            725.2
+          ],
+          "block": 10
+        },
+        {
+          "page": 4,
+          "bbox": [
+            192.0,
+            80.2,
+            372.3,
+            149.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "cf9ffe116ac2bd3fcba1b026fef3f2b3c745ddaa6a88e89cbaf9855619ff40cb",
+      "functions": [
+        "orient",
+        "compare",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "strengths",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 311,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-006",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            192.0,
+            152.2,
+            372.5,
+            317.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "6eb7bda7c09f84f51c640fb0b8709cb89e2c24213630a091f5105d5a6563b9b5",
+      "functions": [
+        "instruct",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "strengths",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 600,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-007",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            192.0,
+            320.2,
+            372.5,
+            461.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "abd51a67b3cf2286493ede9b52d14227e84d1ad10cc4d043caa3be8367e40fad",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "strengths",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 517,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-008",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            192.0,
+            464.2,
+            372.5,
+            593.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "8b313d59e8898379b89393698adeb3a03bd643266b51e66c5dcd362425596b8d",
+      "functions": [
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "strengths",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 447,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-009",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            192.0,
+            596.2,
+            372.5,
+            641.2
+          ],
+          "block": 6
+        }
+      ],
+      "sha256": "9d053000667bf84a2bb60c0ceb11b51adbe5405c71882dcde0c80b5660a1b35b",
+      "functions": [
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "strengths",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 168,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-010",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            192.0,
+            644.2,
+            372.5,
+            713.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "899a9272807c57fbe3d3030329df7e5d2443048e3fd79a4f206190f6c681affb",
+      "functions": [
+        "instruct",
+        "explain",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "strengths",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 262,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-011",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            202.8,
+            716.2,
+            372.4,
+            725.2
+          ],
+          "block": 8
+        },
+        {
+          "page": 4,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            269.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "76c9aae228ae343bb9eed8230c39d2608abae3b085c5f92ac44bf3cf352945f3",
+      "functions": [
+        "instruct",
+        "illustrate",
+        "compare",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "strengths",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 744,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-012",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            390.0,
+            272.2,
+            570.5,
+            461.2
+          ],
+          "block": 10
+        }
+      ],
+      "sha256": "213f19d7aac0eab7c3c2490e1c743de8dd0b06744d328b9863a9802e6a6df4e8",
+      "functions": [
+        "instruct",
+        "illustrate",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "strengths",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 706,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-013",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            390.0,
+            464.2,
+            570.4,
+            665.2
+          ],
+          "block": 11
+        }
+      ],
+      "sha256": "e40db1eb47160e1fc13fce81155c4b36afc2b3f6c80a6e48ff8989d60a9948d7",
+      "functions": [
+        "illustrate",
+        "explain",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "strengths",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 738,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-014",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            390.0,
+            668.2,
+            570.4,
+            725.2
+          ],
+          "block": 12
+        },
+        {
+          "page": 5,
+          "bbox": [
+            192.0,
+            80.2,
+            372.4,
+            233.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "d9fc29521adf9eff871dd36eb31637fd4afc7ef1d0e717ec582ab6f803c4581e",
+      "functions": [
+        "instruct",
+        "compare",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "strengths",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 759,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-015",
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            192.0,
+            248.1,
+            372.5,
+            353.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "1bd37d94aac58814dca11b58ec449f871031713f2446093c449bd808e8dde9a8",
+      "functions": [
+        "orient",
+        "assert"
+      ],
+      "printed_heading": "How Do I Perform?",
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 344,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-016",
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            192.0,
+            356.2,
+            372.5,
+            521.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "b03e58427f4979f75f5c4b071cfaf3feeb875ad391efb7065e0b0c2713636dfe",
+      "functions": [
+        "assert",
+        "qualify",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 617,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-017",
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            192.0,
+            524.2,
+            372.3,
+            617.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "0a5ea22b55e63010c129b22404904ffa6192eb4d7a8d179a72dc68696df9fda2",
+      "functions": [
+        "orient",
+        "assert"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 312,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-018",
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            192.0,
+            620.2,
+            372.5,
+            725.2
+          ],
+          "block": 6
+        },
+        {
+          "page": 5,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            161.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "9c0b8fe1792a5aa3095af6df02044b6aaa538373d92cd9be1639977b45e1fc31",
+      "functions": [
+        "narrate",
+        "compare",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 670,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-019",
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            390.0,
+            164.2,
+            570.5,
+            353.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "9a3b950f7613b469ef50bd91d9da867bd3e5f0d7959a5e468ffe7c29466fca3c",
+      "functions": [
+        "interpret",
+        "explain",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 681,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-020",
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            390.0,
+            356.2,
+            570.5,
+            497.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "382a807bfd53072964ea2094b5e16015024ecd47248ee0861502a0d8ae3aace2",
+      "functions": [
+        "illustrate",
+        "narrate",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 527,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-021",
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            390.0,
+            500.2,
+            570.5,
+            581.2
+          ],
+          "block": 10
+        }
+      ],
+      "sha256": "baf37a186beb01eb5839067999b97b37a2424c8d6df86110a33e4e6e6ce3bd7e",
+      "functions": [
+        "assert",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 302,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-022",
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            390.0,
+            584.2,
+            570.4,
+            725.2
+          ],
+          "block": 11
+        },
+        {
+          "page": 6,
+          "bbox": [
+            192.0,
+            80.2,
+            274.2,
+            89.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "35bfe548cb975d069f2265da44c0f14deb801ace353798757b26c2f48694f346",
+      "functions": [
+        "illustrate",
+        "compare",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 552,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-023",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            192.0,
+            92.2,
+            372.5,
+            173.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "38e4e7659b8a4238887047fc6f8f44360bde1ad9d51fc04578f7985c1fd339e0",
+      "functions": [
+        "assert"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 301,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-024",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            192.0,
+            176.2,
+            372.5,
+            305.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "d5b33526716240047415c6c26a6dcd76c5532933bdcb99ac468f636499032be7",
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 508,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-025",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            192.0,
+            308.2,
+            372.5,
+            497.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "620060c73662ab4641d1df981b0131ed92270417dd3959453bd7465cc728c521",
+      "functions": [
+        "illustrate",
+        "narrate",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 699,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-026",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            192.0,
+            500.2,
+            372.5,
+            605.2
+          ],
+          "block": 6
+        }
+      ],
+      "sha256": "5a04cf25edd6f1d87de2cecc65ff1d675d53e12205450e3aa914b758e17630c5",
+      "functions": [
+        "report",
+        "assert",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 367,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-027",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            192.0,
+            608.2,
+            372.5,
+            689.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "87fff0d7d4025f6ef70354553568a81b4a8350adb61d1ebc547b33c5ff3aee61",
+      "functions": [
+        "instruct",
+        "orient"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 297,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-028",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            192.0,
+            692.2,
+            372.6,
+            725.2
+          ],
+          "block": 8
+        },
+        {
+          "page": 6,
+          "bbox": [
+            390.0,
+            80.2,
+            570.6,
+            161.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "bebffd3e65625d12dd8931ffa963b46d42c46199cf278a70dfed0e29d7f8da34",
+      "functions": [
+        "illustrate",
+        "narrate"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 451,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-029",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            390.0,
+            164.2,
+            570.5,
+            209.2
+          ],
+          "block": 10
+        }
+      ],
+      "sha256": "c20900da4940d1dbd6004d8a72b5c4b47d71447653f2f8d2f51bf063d08fa7bc",
+      "functions": [
+        "compare"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 160,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-030",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            390.0,
+            212.2,
+            570.5,
+            317.2
+          ],
+          "block": 11
+        }
+      ],
+      "sha256": "5a0691569ef2f90e9a4da4848009a03460cd64ddbf1ff0ab2599e01446434b8a",
+      "functions": [
+        "compare"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 368,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-031",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            390.0,
+            320.2,
+            570.5,
+            449.2
+          ],
+          "block": 12
+        }
+      ],
+      "sha256": "bdce7afa2ed3fc0142c33f46995af207a6e1a8fbdbecffbe3ac560d5fa44bfd4",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 468,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-032",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            390.0,
+            452.2,
+            570.4,
+            569.2
+          ],
+          "block": 13
+        }
+      ],
+      "sha256": "059de3d0dea075f25bf165f8d0744dc17865dba72f77884820626d919ff7991e",
+      "functions": [
+        "instruct",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 410,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-033",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            390.0,
+            572.2,
+            570.5,
+            629.2
+          ],
+          "block": 14
+        }
+      ],
+      "sha256": "ee1b97ba3a836023a27e239df241662d6d41d13dd7c51d8d2cf39f4f614b5a85",
+      "functions": [
+        "instruct",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "performance",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 212,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-034",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            389.7,
+            644.1,
+            570.4,
+            713.2
+          ],
+          "block": 15
+        }
+      ],
+      "sha256": "957f53713332d04acca3b8d691e9032592201617317375208850c64f58d426ea",
+      "functions": [
+        "orient",
+        "define"
+      ],
+      "printed_heading": "What Are My Values?",
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 230,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-035",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            400.8,
+            716.2,
+            570.4,
+            725.2
+          ],
+          "block": 16
+        },
+        {
+          "page": 7,
+          "bbox": [
+            192.0,
+            80.2,
+            372.5,
+            221.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "8a720c8c0cc971ccb5947b2e30dd891e4de9c73b348bf716548b21b04ba16440",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 561,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-036",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            192.0,
+            224.2,
+            372.4,
+            317.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "8164445906bae837257302080a0bf9b0425b759e78473537c259d38d2feb90df",
+      "functions": [
+        "define",
+        "compare"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 316,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-037",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            192.0,
+            320.2,
+            372.5,
+            365.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "551915f804a7f35330283fa8da3ae51b402ac63eb379ec4b2ddd3211b8999e99",
+      "functions": [
+        "assert"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 153,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-038",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            192.0,
+            368.2,
+            372.5,
+            665.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "0486d4c68d9a3fb2ff75dd34465c69042f6cf090c682041fdb05d0586b762878",
+      "functions": [
+        "narrate",
+        "illustrate",
+        "compare",
+        "qualify",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 1093,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-039",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            192.0,
+            668.2,
+            372.5,
+            725.2
+          ],
+          "block": 6
+        },
+        {
+          "page": 7,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            161.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "9ba5fac9a3b4b859dd3ba083ca516b94a9f403c6ccb0bbbd700cfebc9dcbbe0c",
+      "functions": [
+        "compare",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 504,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-040",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            390.0,
+            164.2,
+            570.5,
+            317.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "4df3956d88ae9cd47c10308b79ffac09c1e105f67ec16dc3f7e7dbb6005454c5",
+      "functions": [
+        "compare",
+        "interpret",
+        "qualify"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 582,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-041",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            390.0,
+            320.2,
+            570.4,
+            473.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "ea21b138d37af399183327d4cad01d5a0a131253fceeabbfdf2b9202158e5138",
+      "functions": [
+        "illustrate",
+        "compare"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 550,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-042",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            390.0,
+            476.2,
+            570.5,
+            593.2
+          ],
+          "block": 10
+        }
+      ],
+      "sha256": "667605e7864c8c0c6e39256b9642dac1130956bbfa494541cd623ab79392a10d",
+      "functions": [
+        "interpret",
+        "compare",
+        "narrate"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 452,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-043",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            390.0,
+            596.2,
+            570.5,
+            629.2
+          ],
+          "block": 11
+        }
+      ],
+      "sha256": "815ff25990e882682c771b78f5ddeb688ed363b7e7b420e7608ccba4473d4f69",
+      "functions": [
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 115,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-044",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            390.0,
+            632.2,
+            570.5,
+            713.2
+          ],
+          "block": 12
+        }
+      ],
+      "sha256": "c131284f7b7e3c81b379467cd40361282a596177b9fefed0a48877fd548bc637",
+      "functions": [
+        "assert",
+        "qualify",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 305,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-045",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            400.8,
+            716.2,
+            570.4,
+            725.2
+          ],
+          "block": 13
+        },
+        {
+          "page": 8,
+          "bbox": [
+            192.0,
+            80.2,
+            372.5,
+            173.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "21c28825df811b10ef1af45813ae3f3384d5a4220d6d99d0e2c4583d432f455c",
+      "functions": [
+        "compare",
+        "qualify"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 385,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-046",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            192.0,
+            176.2,
+            372.5,
+            341.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "7d051178bb41b4e4d4334f4e52ebf51157f9b8d773a745584687ffe7c69d2506",
+      "functions": [
+        "narrate",
+        "illustrate",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "values",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 604,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-047",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            191.7,
+            356.1,
+            372.3,
+            545.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "cc3193056ece48fc870ef9b848614be3b3ab0e9aa3c222d4742076becc501c77",
+      "functions": [
+        "orient",
+        "illustrate",
+        "instruct"
+      ],
+      "printed_heading": "Where Do I Belong?",
+      "section_id": "belong",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 609,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-048",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            192.0,
+            548.2,
+            372.4,
+            677.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "9f51b0e5a242eefe9c1d2eae720f183ff8c5cf8555b8aed09a80890f33c8f2d6",
+      "functions": [
+        "instruct",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "belong",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 449,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-049",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            192.0,
+            680.2,
+            372.5,
+            725.2
+          ],
+          "block": 6
+        },
+        {
+          "page": 8,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            137.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "9df96be8d6c0b1fc7f18fc1abee92bd7b8808a34b774148f1ff9b18a1fdcb7ba",
+      "functions": [
+        "illustrate",
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "belong",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 385,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-050",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            390.0,
+            140.2,
+            570.4,
+            233.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "98d163964ba8b5fa6e9d0a22f290a1480d8c307b533f992d478676e95aa521d1",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "belong",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 305,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-051",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            389.7,
+            248.1,
+            570.4,
+            413.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "64fa1468bdf76e2b5c238c2edaa15b0b6866665e6bf28f68f86c2841d97c3e57",
+      "functions": [
+        "orient",
+        "report"
+      ],
+      "printed_heading": "What Should I Contribute?",
+      "section_id": "contribution",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 566,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-052",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            390.0,
+            416.2,
+            570.5,
+            533.2
+          ],
+          "block": 10
+        }
+      ],
+      "sha256": "628c00ca573064bee362cbb814f0ec3aadd94b21397371644472959caa049aef",
+      "functions": [
+        "narrate",
+        "compare",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "contribution",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 421,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-053",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            390.0,
+            536.2,
+            570.4,
+            677.2
+          ],
+          "block": 11
+        }
+      ],
+      "sha256": "d2ce97d8530337f7e1cbafde34a509cb39b83692ffa3482bd401b08dda9b89ae",
+      "functions": [
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "contribution",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 503,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-054",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            390.0,
+            680.2,
+            570.3,
+            725.2
+          ],
+          "block": 12
+        },
+        {
+          "page": 9,
+          "bbox": [
+            192.0,
+            80.2,
+            372.3,
+            221.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "cb07938e3c83c42a520a2913340890a53a7ac55d0e53290c7b21a9ffd2daebb4",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "contribution",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 664,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-055",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            192.0,
+            224.2,
+            372.4,
+            473.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "0f5a6d07eeaeaa9e9fbcd15f4d422e6201b537d7c57fd714006e2504caad91f7",
+      "functions": [
+        "interpret",
+        "instruct",
+        "qualify"
+      ],
+      "printed_heading": null,
+      "section_id": "contribution",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 920,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-056",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            192.0,
+            488.1,
+            372.4,
+            605.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "bb7ee87e7979f83273e739fa9423955cefc47a819bd875b4ec26f7e2e1305f3e",
+      "functions": [
+        "orient",
+        "assert"
+      ],
+      "printed_heading": "Responsibility for Relationships",
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 373,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-057",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            192.0,
+            608.2,
+            372.5,
+            713.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "c9c7fd3f6f30925c94eacea06bd299312b7aab9a67bdc8842130164c77b20e9b",
+      "functions": [
+        "explain",
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 389,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-058",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            202.8,
+            716.2,
+            372.4,
+            725.2
+          ],
+          "block": 6
+        },
+        {
+          "page": 9,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            197.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "e606d6e92013c630f797cdfd1429d43f51ba97101e7e5e5e10ee64adf5a68dca",
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 505,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-059",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            390.0,
+            200.2,
+            570.5,
+            293.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "7c07616ce21bed19bd016d6135e4068fbe7d833d6b5adcabcd6df6cb7fa20898",
+      "functions": [
+        "assert",
+        "instruct",
+        "define"
+      ],
+      "printed_heading": null,
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 366,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-060",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            390.0,
+            296.2,
+            570.5,
+            437.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "bf08f24f53b96dbe77825dedc33f2154cfdd8e1204ced040d89ac6f5b8e99029",
+      "functions": [
+        "assert",
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 513,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-061",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            390.0,
+            440.2,
+            570.5,
+            581.2
+          ],
+          "block": 10
+        }
+      ],
+      "sha256": "f10e29e2f48ba1b7ea5c803c43b304f1d4b707b27bba3a7e4aaf23d86529a1ab",
+      "functions": [
+        "define",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 524,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-062",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            390.0,
+            584.2,
+            570.4,
+            713.2
+          ],
+          "block": 11
+        }
+      ],
+      "sha256": "ba1a5bae1af7b09a70d95a450b9c4f2decbea2118e6c6adf18a7206917aafcb8",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 462,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-063",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            400.8,
+            716.2,
+            570.4,
+            725.2
+          ],
+          "block": 12
+        },
+        {
+          "page": 10,
+          "bbox": [
+            192.0,
+            80.2,
+            372.5,
+            209.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "5ed78ad5af681ed82e3fc8aaabd9bb6d17f04d3efed16765fc889eb877605863",
+      "functions": [
+        "illustrate",
+        "instruct",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 502,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-064",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            192.0,
+            212.2,
+            372.5,
+            329.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "68ad1c9a32b4810143faae64e36d1dacc40e8d8ce017c43b2e5bb5df4d92ad11",
+      "functions": [
+        "assert",
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 407,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-065",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            192.0,
+            332.2,
+            372.4,
+            485.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "2ad9f87fa4374087747025c404fea921a7944d0fd9316bd086d952bb7099a394",
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 543,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-066",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            192.0,
+            488.2,
+            372.5,
+            617.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "4bfad33ec2a47064b8aedfc1129ed6d5a2036cff893bdc5912dd52af8ba6f63c",
+      "functions": [
+        "illustrate",
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 465,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-067",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            192.0,
+            620.2,
+            372.5,
+            725.2
+          ],
+          "block": 6
+        },
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            113.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "086800b3b7870b1aa30f2e3e1ebca91f498820424c148da5f44005fb78d8a2b8",
+      "functions": [
+        "define",
+        "assert",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "relationships",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 508,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-068",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            140.2,
+            570.4,
+            269.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "2331b551be411becb9addb4ef2ce76489dfb9ee2539d3c03d7956e9c8ff0ed3e",
+      "functions": [
+        "orient",
+        "compare"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 456,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-069",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            272.2,
+            570.4,
+            413.2
+          ],
+          "block": 10
+        }
+      ],
+      "sha256": "b7b17776ea48c83fc0a81dc6eeeaed2569b961d3bd538c31a62e24cf33b082a9",
+      "functions": [
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 521,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-070",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            416.2,
+            570.5,
+            569.2
+          ],
+          "block": 11
+        }
+      ],
+      "sha256": "80db3f79fe57cd09029fc51046644dac26d87c2fdefe0f03e37ae226d29b8394",
+      "functions": [
+        "illustrate",
+        "define"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 589,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-071",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            572.2,
+            570.3,
+            665.2
+          ],
+          "block": 12
+        }
+      ],
+      "sha256": "4d2fffe364345f66a79c2f1dc770b3504fc5d39e1fdaceced17b631d44bbec1d",
+      "functions": [
+        "explain",
+        "assert"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 305,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-072",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            668.2,
+            570.5,
+            725.2
+          ],
+          "block": 13
+        },
+        {
+          "page": 11,
+          "bbox": [
+            192.0,
+            80.2,
+            372.5,
+            185.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "42e66907597b465a79593f9f62e4a7f9d9af3e3206f1e6ef317d6ebb3a1ac717",
+      "functions": [
+        "define",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 637,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-073",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            192.0,
+            188.2,
+            372.5,
+            377.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "fe75c247d1710f14d7e6d186981320f4c63c8e7985e17e4b25984bc3d4fec683",
+      "functions": [
+        "illustrate",
+        "narrate"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 700,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-074",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            192.0,
+            380.2,
+            372.5,
+            473.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "e4260602e87bc553088fffe4cb94d547d8e9a1ac109d6ca0b1d1502f9c197f9c",
+      "functions": [
+        "qualify",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 335,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-075",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            192.0,
+            476.2,
+            372.5,
+            593.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "6a89610945a2f60cf347053c07ec234d4df8f82c3f36b774c75ef731d2d82fe3",
+      "functions": [
+        "assert",
+        "support"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 455,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-076",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            192.0,
+            596.2,
+            372.5,
+            725.2
+          ],
+          "block": 6
+        },
+        {
+          "page": 11,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            125.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "ff4b8df4a11fc47826829c9cb4f8069a9ed9f1a32ce7285839209298f28c820d",
+      "functions": [
+        "illustrate",
+        "narrate",
+        "support"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 657,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-077",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            390.0,
+            128.2,
+            570.5,
+            353.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "46ee35064bbe55a23161aa76dfeac5f1f5d2fe5de3dda20e1ff5ed5c9a3a5c3e",
+      "functions": [
+        "support",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 864,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-078",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            390.0,
+            356.2,
+            570.5,
+            449.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "648f162f546e922f446ccd1b61d5a9325ea6925db765589804d746f5998c0cc8",
+      "functions": [
+        "orient",
+        "compare"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 335,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-079",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            390.0,
+            452.2,
+            570.4,
+            605.2
+          ],
+          "block": 10
+        }
+      ],
+      "sha256": "71430aad3d6f577c5b92f303d56955291f9be1b5d64ec9511e5fffad9ee22086",
+      "functions": [
+        "interpret",
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "second-life",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 590,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-080",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            390.0,
+            608.2,
+            570.5,
+            725.2
+          ],
+          "block": 11
+        },
+        {
+          "page": 12,
+          "bbox": [
+            192.0,
+            80.2,
+            372.5,
+            149.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "7b5d71dece0fa2f91b866b41ea05498ae4c65862ec57595fc61fa29cc6ad0038",
+      "functions": [
+        "compare",
+        "assert"
+      ],
+      "printed_heading": null,
+      "section_id": "closing",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 710,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "drucker-081",
+      "source": [
+        {
+          "page": 12,
+          "bbox": [
+            192.0,
+            152.2,
+            372.4,
+            173.2
+          ],
+          "block": 3
+        },
+        {
+          "page": 12,
+          "bbox": [
+            390.0,
+            80.2,
+            570.4,
+            101.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "f599cd8f6f3b64583896a0b15b50033e7c6dde03381f04501d2d47df6e21de31",
+      "functions": [
+        "assert",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "closing",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 173,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    }
+  ]
+}

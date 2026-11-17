@@ -1,0 +1,112 @@
+{
+  "batch": 17,
+  "queries": [
+    {
+      "candidate_key": "law:law_w3023063752",
+      "doi": "10.2307/1340059",
+      "title": "Property Rules, Liability Rules, and Inalienability: One View of the Cathedral",
+      "field": "law_public_policy",
+      "q": "\"Property Rules, Liability Rules, and Inalienability: One View of the Cathedral\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2166987116",
+      "doi": "10.2307/1342203",
+      "title": "The Tragedy of the Anticommons: Property in the Transition from Marx to Markets",
+      "field": "law_public_policy",
+      "q": "\"The Tragedy of the Anticommons: Property in the Transition from Marx to Markets\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2337002970",
+      "doi": "10.2307/1229039",
+      "title": "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color",
+      "field": "law_public_policy",
+      "q": "\"Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2319044928",
+      "doi": "10.2307/1340684",
+      "title": "Democracy and Distrust: A Theory of Judicial Review",
+      "field": "law_public_policy",
+      "q": "\"Democracy and Distrust: A Theory of Judicial Review\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w3023063752",
+      "query": "\"Property Rules, Liability Rules, and Inalienability: One View of the Cathedral\" pdf",
+      "urls": [
+        {
+          "title": "‘Property Rules, Liability Rules, and Inalienability: One View of the Cathedral,’ by Guido Calabresi & A. Douglas Melamed - International Center for Law & Economics",
+          "url": "https://laweconcenter.org/resources/property-rules-liability-rules-and-inalienability-one-view-of-the-cathedral-by-guido-calabresi-a-douglas-melamed/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "\"The Cathedral at Twenty-Five: Citations and Impressions\" by James E. Krier and Stewart J. Schwab",
+          "url": "https://scholarship.law.cornell.edu/facpub/884/",
+          "score": 0.3,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w2166987116",
+      "query": "\"The Tragedy of the Anticommons: Property in the Transition from Marx to Markets\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "law:law_w2337002970",
+      "query": "\"Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color\" pdf",
+      "urls": [
+        {
+          "title": "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color",
+          "url": "https://inclusive-teaching.du.edu/sites/default/files/2020-05/Crenshaw_mapping-the-margins1991.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color | InterAccess",
+          "url": "https://www.interaccess.org/tf-readings/mapping-the-margins-intersectionality-identity-politics-and-violence-against-women-of-color",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Mapping the margins: intersectionality, identity politics and violence against women of color",
+          "url": "https://anrows.intersearch.com.au/entities/publication/82665317-e41b-4f62-a0ba-98cf73be1e22/full",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Reading Club: Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color by Kimberle Crenshaw",
+          "url": "https://www.reddit.com/r/FeMRADebates/comments/lorlns",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w2319044928",
+      "query": "\"Democracy and Distrust: A Theory of Judicial Review\" pdf",
+      "urls": [
+        {
+          "title": "\"Democracy and Distrust: A Theory of Judicial Review\" by Gerard E. Lynch",
+          "url": "https://scholarship.law.columbia.edu/faculty_scholarship/2121/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "\"Ely: Democracy and Distrust: A Theory of Judicial Review\" by Arthur S. Miller",
+          "url": "https://scholarship.law.ufl.edu/flr/vol32/iss2/9/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Democracy and Distrust in an Era of Artificial Intelligence",
+          "url": "https://arxiv.org/abs/2601.09757",
+          "score": 0.5,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w2319044928",
+      "doi": "10.2307/1340684",
+      "title": "Democracy and Distrust: A Theory of Judicial Review",
+      "authors": "[\"Archibald Cox\"]",
+      "field": "law_public_policy",
+      "q": "\"Democracy and Distrust: A Theory of Judicial Review\" Cox filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2319044928",
+      "query": "\"Democracy and Distrust: A Theory of Judicial Review\" Cox filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "John Hart Ely, Democracy and Distrust: A Theory of Judicial Review",
+          "url": "https://scholar.valpo.edu/vulr/vol15/iss3/6/",
+          "score": 1
+        },
+        {
+          "title": "Democracy and Distrust: A Theory of Judicial Review | JSTOR",
+          "url": "https://www.jstor.org/stable/j.ctv102bj77",
+          "score": 1
+        },
+        {
+          "title": "Democracy and Distrust: A Theory of Judicial Review, by John Hart Ely",
+          "url": "https://academic.oup.com/psq/article-abstract/96/1/172/7166164",
+          "score": 1
+        },
+        {
+          "title": "Democracy and Distrust",
+          "url": "https://books.google.com/books/about/Democracy_and_Distrust.html?id=ZfsTAAAAYAAJ",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "source": "https://paulgraham.com/articles.html",
+  "retrieved_utc": "2026-11-16T01:11:21.772616+00:00",
+  "sha256": "e6e0f71df0e5d8eb448a8c2318974991a2be512c1a3c785815bb4c2b389516f7",
+  "distinct_title_links": 234,
+  "selection": "first 225 distinct links in archive order; the archive is author-selected, not a popularity ranking",
+  "selected": 225
+}

@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_32",
+      "doi": "",
+      "title": "Recommended Standard Operating Procedure for Control Charts for Calibration of Mass Standards",
+      "authors": "[\"National Institute of Standards and Technology\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Recommended Standard Operating Procedure for Control Charts for Calibration of Mass Standards\" Technology pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_32",
+      "query": "\"Recommended Standard Operating Procedure for Control Charts for Calibration of Mass Standards\" Technology pdf",
+      "urls": [
+        {
+          "title": "SOP 9 Control Charts for Calibration of Mass Standards",
+          "url": "https://www.nist.gov/system/files/documents/2019/05/13/sop-9-control-charts-for-mass-20190506.pdf",
+          "score": 0.6363636363636364
+        },
+        {
+          "title": "Control Charts for Mass Calibration SOP | PDF | Calibration | Standard Deviation",
+          "url": "https://www.scribd.com/document/459114916/sop-9-control-charts-for-mass-20190506-docx",
+          "score": 0.6363636363636364
+        }
+      ]
+    }
+  ]
+}

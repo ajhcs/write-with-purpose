@@ -1,0 +1,13 @@
+{
+  "max_words": 120,
+  "protected_literals": [
+    {
+      "text": "cache",
+      "min_count": 1
+    },
+    {
+      "text": "synchronization",
+      "min_count": 1
+    }
+  ]
+}

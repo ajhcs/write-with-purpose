@@ -1,0 +1,40 @@
+{
+  "source_sha256": "e2beb9f7470634c020209d85dbd2d581b8bceebf8a53dce59ebbad9bf85cb783",
+  "edits": [
+    {
+      "start": 4,
+      "end": 4,
+      "before": "",
+      "after": "model cor",
+      "reason": "Replace unsupported praise with the supplied result"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "before": "su",
+      "after": "ct",
+      "reason": "Replace unsupported praise with the supplied result"
+    },
+    {
+      "start": 9,
+      "end": 26,
+      "before": "ts were very, ver",
+      "after": "",
+      "reason": "Replace unsupported praise with the supplied result"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "before": "g",
+      "after": "classified 80 ",
+      "reason": "Replace unsupported praise with the supplied result"
+    },
+    {
+      "start": 30,
+      "end": 32,
+      "before": "od",
+      "after": "f 100 cases",
+      "reason": "Replace unsupported praise with the supplied result"
+    }
+  ]
+}

@@ -1,0 +1,1337 @@
+{
+  "article": "Customers as Innovators",
+  "pdf_sha256": "78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab",
+  "private_text_sha256": "42e9151474998d0400f5529ec5ff4f4830b6d325d85d48a2f70102b218dc2857",
+  "sections": [
+    {
+      "id": "opening",
+      "label": "Opening",
+      "type": "inferred"
+    },
+    {
+      "id": "problem",
+      "label": "A Costly Problem – and a Radical Solution",
+      "type": "explicit",
+      "page": 6,
+      "bbox": [
+        62.999900817871094,
+        64.10408020019531,
+        228.36788940429688,
+        96.10408020019531
+      ]
+    },
+    {
+      "id": "industry",
+      "label": "An Industry Transformed",
+      "type": "explicit",
+      "page": 7,
+      "bbox": [
+        62.999900817871094,
+        559.9561767578125,
+        248.0542755126953,
+        575.9561767578125
+      ]
+    },
+    {
+      "id": "benefits",
+      "label": "The Benefits and Challenges",
+      "type": "explicit",
+      "page": 8,
+      "bbox": [
+        314.9999084472656,
+        115.95613098144531,
+        523.6670532226562,
+        131.9561309814453
+      ]
+    },
+    {
+      "id": "migration",
+      "label": "A Pattern of Migration",
+      "type": "explicit",
+      "page": 10,
+      "bbox": [
+        62.999900817871094,
+        163.9561309814453,
+        228.76467895507812,
+        179.9561309814453
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Questions of Value",
+      "type": "explicit",
+      "page": 10,
+      "bbox": [
+        314.9999084472656,
+        367.9560852050781,
+        452.09600830078125,
+        383.9560852050781
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "customers-001",
+      "section": "opening",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 6,
+          "bbox": [
+            40.56,
+            348.17,
+            81.63,
+            394.17
+          ]
+        },
+        {
+          "page": 5,
+          "block": 1,
+          "bbox": [
+            70.36,
+            349.63,
+            297.01,
+            361.36
+          ]
+        },
+        {
+          "page": 5,
+          "block": 2,
+          "bbox": [
+            63.0,
+            363.86,
+            297.01,
+            433.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "orient",
+        "assert"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 0,
+        "end": 337,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "53305d860569e5842363af7f5c39b64b3c524a466bbd2e6d08a920769ac006cd"
+    },
+    {
+      "id": "customers-002",
+      "section": "opening",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 3,
+          "bbox": [
+            63.0,
+            435.86,
+            297.02,
+            529.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "orient"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 339,
+        "end": 781,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "03af71600a58b14e5b6b70ea351ea20049ed47e977eeb75dfe5afd3086c34513"
+    },
+    {
+      "id": "customers-003",
+      "section": "opening",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 4,
+          "bbox": [
+            63.0,
+            531.86,
+            297.03,
+            685.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "define"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 783,
+        "end": 1458,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "ae03b2050f2538ae0f5dc19bf2da76db1ba2567a4c2c5f0c44c9e674773a479f"
+    },
+    {
+      "id": "customers-004",
+      "section": "opening",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 5,
+          "bbox": [
+            63.0,
+            687.86,
+            297.01,
+            721.36
+          ]
+        },
+        {
+          "page": 5,
+          "block": 7,
+          "bbox": [
+            315.0,
+            351.86,
+            549.02,
+            493.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 1460,
+        "end": 2285,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "3b1dc9157bdbd812088ac78466669b233931502499eafb9354b15619c08dfa6a"
+    },
+    {
+      "id": "customers-005",
+      "section": "opening",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 8,
+          "bbox": [
+            315.0,
+            495.86,
+            549.05,
+            721.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "qualify",
+        "orient"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 2287,
+        "end": 3269,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "9bf9a0ceb6403efeaa9f3c7c352608c1421361f125f92d70f205f5731aa09d63"
+    },
+    {
+      "id": "customers-006",
+      "section": "problem",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 3,
+          "bbox": [
+            63.0,
+            100.01,
+            297.02,
+            253.51
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "define"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 3271,
+        "end": 3951,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "b8741b38a8f675aea70d15151d4c8b5b0425bf9e2672297b484b52febf65ddff"
+    },
+    {
+      "id": "customers-007",
+      "section": "problem",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 4,
+          "bbox": [
+            63.0,
+            256.01,
+            297.06,
+            361.52
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 3953,
+        "end": 4423,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "eacf3c3f5df8cdb430f96355fea5772a187c815bd1f76d78c4ed1f22ce1ec175"
+    },
+    {
+      "id": "customers-008",
+      "section": "problem",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 5,
+          "bbox": [
+            63.0,
+            364.02,
+            297.01,
+            457.52
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 4425,
+        "end": 4863,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "0c24f9c50a6fc91b52ea9e7197fa68059f2bdded069082e20a294022e743db3b"
+    },
+    {
+      "id": "customers-009",
+      "section": "problem",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 6,
+          "bbox": [
+            63.0,
+            460.02,
+            297.01,
+            481.52
+          ]
+        },
+        {
+          "page": 6,
+          "block": 7,
+          "bbox": [
+            315.0,
+            63.87,
+            549.03,
+            217.38
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "illustrate",
+        "narrate"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 4865,
+        "end": 5700,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "3c892364fb010ae5d3b276312f050766d60fa8066819f935b5f2e72f9f4604ac"
+    },
+    {
+      "id": "customers-010",
+      "section": "problem",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 8,
+          "bbox": [
+            315.0,
+            219.88,
+            549.05,
+            373.38
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "support"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 5702,
+        "end": 6390,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "e1b60ff2e37d5d6e7a905b78ff81e5ef7a0fa5ea02f8e0ae2d7a50b138b95f42"
+    },
+    {
+      "id": "customers-011",
+      "section": "problem",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 9,
+          "bbox": [
+            315.0,
+            375.88,
+            549.02,
+            481.39
+          ]
+        },
+        {
+          "page": 7,
+          "block": 2,
+          "bbox": [
+            63.0,
+            63.86,
+            279.03,
+            109.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 6392,
+        "end": 7077,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "da1eeee3aa1e9ff02f29030a27318a67a8a87d965e5acbe305f503b9dd2c3205"
+    },
+    {
+      "id": "customers-012",
+      "section": "problem",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 3,
+          "bbox": [
+            63.0,
+            111.86,
+            279.02,
+            265.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 7079,
+        "end": 7708,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "50b5e4f8cac30efdc5e14dfe169e493e607805d64e0c244c924c8766630bb683"
+    },
+    {
+      "id": "customers-013",
+      "section": "problem",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 4,
+          "bbox": [
+            63.0,
+            267.87,
+            297.02,
+            541.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "define",
+        "instruct"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 7710,
+        "end": 8977,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "fcd571c03766bdf27195cf80f0b1334f6a92fc2e62fd561dd039359f74dd1572"
+    },
+    {
+      "id": "customers-014",
+      "section": "industry",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 6,
+          "bbox": [
+            63.0,
+            579.86,
+            297.02,
+            637.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "orient"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 8979,
+        "end": 9219,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "ff0310d4a5287461d60774cd74cceeca87689a94e37de08e22b5adc24dd88b84"
+    },
+    {
+      "id": "customers-015",
+      "section": "industry",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 7,
+          "bbox": [
+            63.0,
+            639.86,
+            297.02,
+            721.36
+          ]
+        },
+        {
+          "page": 7,
+          "block": 14,
+          "bbox": [
+            315.0,
+            351.86,
+            549.0,
+            385.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 9221,
+        "end": 9737,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "c887edaf955a115778a7608a8a0bfdffa7d76cc8753e7b8c5696b9715f9c6eb2"
+    },
+    {
+      "id": "customers-016",
+      "section": "industry",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 15,
+          "bbox": [
+            315.0,
+            387.86,
+            549.02,
+            553.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 9739,
+        "end": 10484,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "7f807261ba6ad974414d3533d75ec806f1e911ea35ab81794f334a5a2073d774"
+    },
+    {
+      "id": "customers-017",
+      "section": "industry",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 16,
+          "bbox": [
+            315.0,
+            553.64,
+            549.02,
+            649.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "orient"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 10486,
+        "end": 10935,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "1420e90bee82f491b1fe1cbcb607186751fbeeead9f336c87091e414f1c6e1a7"
+    },
+    {
+      "id": "customers-018",
+      "section": "industry",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 0,
+          "bbox": [
+            63.0,
+            63.86,
+            299.55,
+            253.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 10937,
+        "end": 11750,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "f821d6c6e36723d33f8bf27d432192834cb8d65542dfbb0e578f201ccd804de2"
+    },
+    {
+      "id": "customers-019",
+      "section": "industry",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 1,
+          "bbox": [
+            63.0,
+            255.87,
+            297.01,
+            361.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 11752,
+        "end": 12204,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "b109d514fe513ac1e1b2eead80e4b81276ea1b48f6ac410d35e47e177925f7ef"
+    },
+    {
+      "id": "customers-020",
+      "section": "industry",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 2,
+          "bbox": [
+            63.0,
+            363.87,
+            297.02,
+            565.38
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 12206,
+        "end": 13122,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "bb98f34b5d775f43776a89f316f61a75a4a016755a48a9ba054240e492a14b58"
+    },
+    {
+      "id": "customers-021",
+      "section": "industry",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 3,
+          "bbox": [
+            63.0,
+            567.88,
+            297.03,
+            721.38
+          ]
+        },
+        {
+          "page": 8,
+          "block": 4,
+          "bbox": [
+            315.0,
+            63.88,
+            549.01,
+            97.38
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 13124,
+        "end": 13993,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "8971d966d8d7776f770da17944582e924bef4555b8262f1dc1fd9a7674457eb5"
+    },
+    {
+      "id": "customers-022",
+      "section": "benefits",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 6,
+          "bbox": [
+            315.0,
+            135.86,
+            549.02,
+            265.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 13995,
+        "end": 14601,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "55186703cb5c56e5028003e39309a7b041f4877e05cd657b167e1a124443e423"
+    },
+    {
+      "id": "customers-023",
+      "section": "benefits",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 7,
+          "bbox": [
+            315.0,
+            267.86,
+            549.01,
+            445.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "assert"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 14603,
+        "end": 15407,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "a824749f574015009c9aa441175d027a72fbc552ea5d49c19eaa32d64c54f992"
+    },
+    {
+      "id": "customers-024",
+      "section": "benefits",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 8,
+          "bbox": [
+            315.0,
+            447.87,
+            549.01,
+            565.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 15409,
+        "end": 15963,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "5b58e07a9b8c393f71b3761a85de329f02535f523d41193695fd3a59432ac325"
+    },
+    {
+      "id": "customers-025",
+      "section": "benefits",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 9,
+          "bbox": [
+            315.0,
+            567.87,
+            549.02,
+            721.38
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 15965,
+        "end": 16657,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "4b452937d5fadab767d5e766d81f6516d8c808098e0a1d8b6e16fa17eaf12834"
+    },
+    {
+      "id": "customers-026",
+      "section": "benefits",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 0,
+          "bbox": [
+            63.0,
+            63.86,
+            297.03,
+            361.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 16659,
+        "end": 17975,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "77d68ecc2c19767401b5f06d7a0b36dda462909cd42531ecf09c8abd4d9d35cb"
+    },
+    {
+      "id": "customers-027",
+      "section": "benefits",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 1,
+          "bbox": [
+            63.0,
+            363.87,
+            279.01,
+            469.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "orient",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 17977,
+        "end": 18403,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "3011215f11b3c68eb47d3931c183522c632de35ee1b29fb3f2ca54dae97223db"
+    },
+    {
+      "id": "customers-028",
+      "section": "benefits",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 2,
+          "bbox": [
+            63.0,
+            471.87,
+            279.09,
+            685.38
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "narrate"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 18405,
+        "end": 19314,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "c223cb6e73981eaed0592aa242412146b0c78061c0ea7384b0574ee3502b64d7"
+    },
+    {
+      "id": "customers-029",
+      "section": "benefits",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 3,
+          "bbox": [
+            63.0,
+            687.88,
+            279.02,
+            721.38
+          ]
+        },
+        {
+          "page": 9,
+          "block": 19,
+          "bbox": [
+            315.0,
+            63.86,
+            549.01,
+            193.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 19316,
+        "end": 20052,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "c9791b6f0fb0397aa5b49493e878aa7b34bdcb6f0297d0e6ae83dcc37a1cdafc"
+    },
+    {
+      "id": "customers-030",
+      "section": "benefits",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 20,
+          "bbox": [
+            315.0,
+            195.86,
+            549.01,
+            253.37
+          ]
+        },
+        {
+          "page": 10,
+          "block": 4,
+          "bbox": [
+            63.0,
+            63.86,
+            297.01,
+            145.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "support"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 20054,
+        "end": 20689,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "e8fc398bc627c2c734aac3da6dd96ab8231583b9c7852d7869980400a2c64c20"
+    },
+    {
+      "id": "customers-031",
+      "section": "migration",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 6,
+          "bbox": [
+            63.0,
+            183.86,
+            297.02,
+            253.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 20691,
+        "end": 21016,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "07b5c4ff34ef1bc41d2128b392ec8a9b15b63fb957a7eb49c9433f9620e3d256"
+    },
+    {
+      "id": "customers-032",
+      "section": "migration",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 7,
+          "bbox": [
+            63.0,
+            255.86,
+            297.54,
+            373.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 21018,
+        "end": 21546,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "1aa5201eac456a87f89580593d8a4370fb0a8b913fa786b84073b3b2b13957b5"
+    },
+    {
+      "id": "customers-033",
+      "section": "migration",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 8,
+          "bbox": [
+            63.0,
+            375.87,
+            297.02,
+            493.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "compare"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 21548,
+        "end": 22090,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "d40b667d0d4bc638d40863ed87a15da1ad929185ed206f086a97cb03411241f4"
+    },
+    {
+      "id": "customers-034",
+      "section": "migration",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 0,
+          "bbox": [
+            315.0,
+            63.86,
+            549.05,
+            181.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 22092,
+        "end": 22640,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "24b2cf62d389c70887ea77dd71f3adcaaa1b759ef246b157d700ac4456ec647f"
+    },
+    {
+      "id": "customers-035",
+      "section": "migration",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 1,
+          "bbox": [
+            315.0,
+            183.86,
+            549.01,
+            349.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "narrate"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 22642,
+        "end": 23446,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "b098061ba857aa434e7154478ab5c1068d0e6bb76a72f8f590bb43c66d272d74"
+    },
+    {
+      "id": "customers-036",
+      "section": "value",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 3,
+          "bbox": [
+            315.0,
+            387.86,
+            549.01,
+            493.36
+          ]
+        },
+        {
+          "page": 11,
+          "block": 0,
+          "bbox": [
+            63.0,
+            327.86,
+            297.02,
+            493.36
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "orient",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 23448,
+        "end": 24694,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "10df6e4fe99005328a4d3fdda79dff88ed704c36dd94af17e4fb963ec24f87b8"
+    },
+    {
+      "id": "customers-037",
+      "section": "value",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 1,
+          "bbox": [
+            63.0,
+            495.86,
+            297.01,
+            613.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 24696,
+        "end": 25206,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "a824e8f11ca626045061a2cd39fb70f1cb44747904815af69be2ac2e4efac101"
+    },
+    {
+      "id": "customers-038",
+      "section": "value",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 2,
+          "bbox": [
+            63.0,
+            615.87,
+            297.01,
+            721.37
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 25208,
+        "end": 25700,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "ee21a24aeaede4f96efde41678cff511899ff135dc28634cae9391b20c1fbbbd"
+    },
+    {
+      "id": "customers-039",
+      "section": "value",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 3,
+          "bbox": [
+            315.0,
+            327.87,
+            549.01,
+            481.38
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "illustrate",
+        "narrate"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 25702,
+        "end": 26375,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "cd8da3acfa3b67a981bdd2223ee773aa2b71dbdd04dd187d5169b79d6639ed6e"
+    },
+    {
+      "id": "customers-040",
+      "section": "value",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 4,
+          "bbox": [
+            315.0,
+            483.88,
+            549.01,
+            613.38
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "coding_status": "single coder, interpretive",
+      "span": {
+        "start": 26377,
+        "end": 26974,
+        "unit": "Unicode code points in private customers-body.txt"
+      },
+      "sha256": "4a2bb7fe81c97dcdaeb5ebfb370fc8e2868505cf109f4e1fe833987c0ed38ac8"
+    }
+  ],
+  "caveats": [
+    "Single coder; labels are interpretive.",
+    "Main body pp. 5–11; pp. 6, 7, 9, 10 and 11 exhibits or sidebars excluded along with notes, captions and author bio.",
+    "Extraction often omits spaces after punctuation and removes meaningful line-end hyphens, including customers-as-innovators; normalization correction and independent audit required before metrics."
+  ]
+}

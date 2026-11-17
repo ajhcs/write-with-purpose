@@ -1,0 +1,358 @@
+{
+  "built_at_utc": "2026-11-16T01:16:07.049860+00:00",
+  "provider": "Europe PMC REST",
+  "prior_identifier_files": [
+    "narrative-scoping/historical-narrative-metrics.json",
+    "narrative-scoping/historical-narrative-search-screen.json",
+    "narrative-scoping/receipt.json",
+    "narrative-scoping/historical-scoping-search-screen.json",
+    "narrative-scoping/scoping-candidates.json",
+    "narrative-scoping/scoping-aggregate.json",
+    "narrative-scoping/scoping-search-screen.json",
+    "narrative-scoping/narrative-metrics.json",
+    "narrative-scoping/narrative-search-screen.json",
+    "narrative-scoping/historical-narrative-candidates.json",
+    "narrative-scoping/scoping-metrics.json",
+    "narrative-scoping/narrative-aggregate.json",
+    "narrative-scoping/historical-narrative-aggregate.json",
+    "narrative-scoping/narrative-candidates.json",
+    "procedure-reference/procedure-candidates.json",
+    "procedure-reference/aggregate.json",
+    "procedure-reference/procedure-supplement-candidates.json",
+    "procedure-reference/reference-records.jsonl",
+    "procedure-reference/procedure-supplement-records.jsonl",
+    "procedure-reference/procedure-historical-records.jsonl",
+    "procedure-reference/reference-supplement-records.jsonl",
+    "procedure-reference/procedure-records.jsonl",
+    "procedure-reference/reference-candidates.json",
+    "procedure-reference/reference-supplement-candidates.json",
+    "critical-theory/records.jsonl",
+    "critical-theory/historical-discovery.json",
+    "critical-theory/historical-candidates.jsonl",
+    "critical-theory/frontiers-records.jsonl",
+    "critical-theory/frontiers-lookup.json",
+    "critical-theory/frontiers-index.json",
+    "critical-theory/discovery.json",
+    "critical-theory/first-pass-records.jsonl",
+    "proposal-memo/proposal-discovery.json",
+    "proposal-memo/candidates.json",
+    "proposal-memo/metrics.json",
+    "systematic-review/aggregate.json",
+    "systematic-review/metrics.jsonl",
+    "systematic-review/manifest.jsonl",
+    "case-protocol/search.json",
+    "case-protocol/metrics-summary.json",
+    "case-protocol/supplement-search.json",
+    "case-protocol/manifest.jsonl",
+    "empirical-methods/search.json",
+    "empirical-methods/manifest.csv",
+    "explanation-tutorial/records.jsonl",
+    "explanation-tutorial/sources.json",
+    "explanation-tutorial/measurements.csv",
+    "essays/manual-screen.jsonl",
+    "essays/public_archive_candidates.jsonl",
+    "essays/longform_essay_candidates.jsonl",
+    "essays/public_archive_discovery.json",
+    "essays/public_archive_measurements.jsonl",
+    "essays/longform_discovery_pages.jsonl",
+    "essays/candidates.jsonl",
+    "essays/longform_dated_candidates.jsonl",
+    "essays/measurements.jsonl",
+    "essays/discovery.json",
+    "essays/longform_dated_pages.jsonl",
+    "essays/longform_public_probes.jsonl"
+  ],
+  "prior_identifier_count": 16767,
+  "selection_cap_per_query": 25,
+  "query_log": [
+    {
+      "form": "systematic_review",
+      "era": "pre2015",
+      "query": "TITLE:\"systematic review\" AND OPEN_ACCESS:N AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22systematic+review%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2014-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:20.421030+00:00",
+      "provider_hit_count": 32244,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "20f49203794b7370b62bd819f4d8042a1f0c8f1f72d18fca6d691ad789333527"
+    },
+    {
+      "form": "systematic_review",
+      "era": "2015-2019",
+      "query": "TITLE:\"systematic review\" AND OPEN_ACCESS:N AND FIRST_PDATE:[2015-01-01 TO 2019-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22systematic+review%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B2015-01-01+TO+2019-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:22.453091+00:00",
+      "provider_hit_count": 48312,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "829179bec725a0542393aefae6e8bda08bc52a74b0cef709abf12e79422accfa"
+    },
+    {
+      "form": "scoping_review",
+      "era": "pre2015",
+      "query": "TITLE:\"scoping review\" AND OPEN_ACCESS:N AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22scoping+review%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2014-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:24.185143+00:00",
+      "provider_hit_count": 226,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 2,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "b1ba6549ec2dc93c9099d2e1a5dae15848c0be6494032939216c23b7aa89e5de"
+    },
+    {
+      "form": "scoping_review",
+      "era": "2015-2019",
+      "query": "TITLE:\"scoping review\" AND OPEN_ACCESS:N AND FIRST_PDATE:[2015-01-01 TO 2019-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22scoping+review%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B2015-01-01+TO+2019-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:26.202203+00:00",
+      "provider_hit_count": 1994,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "5130ce6d4fb3be10e3063d48b2cc063af6b3523d69601bbfca6a33817ca381c9"
+    },
+    {
+      "form": "narrative_review",
+      "era": "pre2015",
+      "query": "TITLE:\"narrative review\" AND OPEN_ACCESS:N AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22narrative+review%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2014-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:27.636246+00:00",
+      "provider_hit_count": 529,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "ded89c057c62781db09c46872ff7d6c659be247415f7453aa0f14b03ad7044bf"
+    },
+    {
+      "form": "narrative_review",
+      "era": "2015-2019",
+      "query": "TITLE:\"narrative review\" AND OPEN_ACCESS:N AND FIRST_PDATE:[2015-01-01 TO 2019-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22narrative+review%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B2015-01-01+TO+2019-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:37.433539+00:00",
+      "provider_hit_count": 1561,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "e9cfb99ea2e4b804040d19956b3907026bcef7bcd8894dd9c2b9018f0dcc951c"
+    },
+    {
+      "form": "theoretical_framework",
+      "era": "pre2015",
+      "query": "TITLE:\"theoretical framework\" AND OPEN_ACCESS:N AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22theoretical+framework%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2014-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:47.530842+00:00",
+      "provider_hit_count": 396,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "cf66ef6734b5736c66b5700e5e9ab2d6f6605dee71ebd8f981618fa8f0b0a500"
+    },
+    {
+      "form": "theoretical_framework",
+      "era": "2015-2019",
+      "query": "TITLE:\"theoretical framework\" AND OPEN_ACCESS:N AND FIRST_PDATE:[2015-01-01 TO 2019-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22theoretical+framework%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B2015-01-01+TO+2019-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:48.882882+00:00",
+      "provider_hit_count": 135,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "990f8d562455482a0833d1268adf2cc071346497469ba8137f0a25fb0901265a"
+    },
+    {
+      "form": "methods",
+      "era": "pre2015",
+      "query": "TITLE:\"new method\" AND OPEN_ACCESS:N AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22new+method%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2014-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:50.349926+00:00",
+      "provider_hit_count": 10832,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 3,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "58fad8e14370312b760964eec01fa9f969ac05248fedd03bb14566b17a42914b"
+    },
+    {
+      "form": "methods",
+      "era": "2015-2019",
+      "query": "TITLE:\"new method\" AND OPEN_ACCESS:N AND FIRST_PDATE:[2015-01-01 TO 2019-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22new+method%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B2015-01-01+TO+2019-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:51.666966+00:00",
+      "provider_hit_count": 1067,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "f96196c1f05faafd7b6bbaa3715fbcc0dcc775a20c458443cb9d82eccce9afe4"
+    },
+    {
+      "form": "clinical_case_report",
+      "era": "pre2015",
+      "query": "PUB_TYPE:\"Case Reports\" AND OPEN_ACCESS:N AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PUB_TYPE%3A%22Case+Reports%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2014-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:53.696027+00:00",
+      "provider_hit_count": 1312904,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "82062cfa23f1877a74a253596d211e33ac4caf2d66a9d6b2ec1b3883f99ee289"
+    },
+    {
+      "form": "clinical_case_report",
+      "era": "2015-2019",
+      "query": "PUB_TYPE:\"Case Reports\" AND OPEN_ACCESS:N AND FIRST_PDATE:[2015-01-01 TO 2019-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PUB_TYPE%3A%22Case+Reports%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B2015-01-01+TO+2019-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:11:55.162071+00:00",
+      "provider_hit_count": 210466,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "1ba9dbf0d7ac35067adfb12129c68b3a088e79f50fc3f6fb716420713d0f864c"
+    },
+    {
+      "form": "study_protocol",
+      "era": "pre2015",
+      "query": "TITLE:\"study protocol\" AND OPEN_ACCESS:N AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22study+protocol%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2014-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:12:04.350346+00:00",
+      "provider_hit_count": 254,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 1,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 7
+      },
+      "raw_response_sha256": "b512be0491676e63f9fac765139f6a2894c0cda6bda16064c249c4c3c2156953"
+    },
+    {
+      "form": "study_protocol",
+      "era": "2015-2019",
+      "query": "TITLE:\"study protocol\" AND OPEN_ACCESS:N AND FIRST_PDATE:[2015-01-01 TO 2019-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22study+protocol%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B2015-01-01+TO+2019-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:12:05.837390+00:00",
+      "provider_hit_count": 566,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 1,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 1
+      },
+      "raw_response_sha256": "9eed3f1da234831b61874fc0928620e7769786bc6bf44a4aeee62156d05a8701"
+    },
+    {
+      "form": "randomized_empirical",
+      "era": "pre2015",
+      "query": "PUB_TYPE:\"Randomized Controlled Trial\" AND OPEN_ACCESS:N AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PUB_TYPE%3A%22Randomized+Controlled+Trial%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2014-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:12:07.513441+00:00",
+      "provider_hit_count": 356030,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "cc3ca9d7abc5f33f00a76245b67e94a6b478bfed167260de0e48afbb8a348384"
+    },
+    {
+      "form": "randomized_empirical",
+      "era": "2015-2019",
+      "query": "PUB_TYPE:\"Randomized Controlled Trial\" AND OPEN_ACCESS:N AND FIRST_PDATE:[2015-01-01 TO 2019-12-31] AND LANG:eng NOT PUB_TYPE:\"Retracted Publication\" NOT TITLE:retracted SORT_CITED:y",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PUB_TYPE%3A%22Randomized+Controlled+Trial%22+AND+OPEN_ACCESS%3AN+AND+FIRST_PDATE%3A%5B2015-01-01+TO+2019-12-31%5D+AND+LANG%3Aeng+NOT+PUB_TYPE%3A%22Retracted+Publication%22+NOT+TITLE%3Aretracted+SORT_CITED%3Ay&format=json&resultType=core&pageSize=100",
+      "retrieved_at_utc": "2026-11-16T01:12:15.831690+00:00",
+      "provider_hit_count": 84885,
+      "returned": 100,
+      "selected": 25,
+      "filtered_before_selection": {
+        "missing_doi": 0,
+        "prior_cohort": 0,
+        "duplicate_queue": 0,
+        "retraction_metadata": 0,
+        "literal_title_mismatch": 0
+      },
+      "raw_response_sha256": "3a1fa2995be046f77db0da0206df251dbca9e6a6ef6626ae01c4596beec5ccf8"
+    }
+  ],
+  "record_count": 400
+}

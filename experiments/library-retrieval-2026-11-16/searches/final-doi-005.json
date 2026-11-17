@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_010",
+      "doi": "10.5465/amj.2011.0088",
+      "title": "How Does Human Resource Management Influence Organizational Outcomes? A Meta-analytic Investigation of Mediating Mechanisms",
+      "authors": "[\"Kaifeng Jiang\", \"David P. Lepak\", \"Jia Hu\", \"Judith C. Baer\"]",
+      "field": "business_management",
+      "q": "\"How Does Human Resource Management Influence Organizational Outcomes?\" Jiang filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_010",
+      "query": "\"How Does Human Resource Management Influence Organizational Outcomes?\" Jiang filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Jiang, K., Lepak, D., & Baer, J. (2012). How does human resource management influence organizational outcomes? A meta-analytic investigation of mediating mechanisms. *Academy of Management Journal, 55*, 1264-1294.",
+          "url": "https://ueaeprints.uea.ac.uk/id/eprint/57300/1/Main_document.pdf",
+          "score": 1
+        },
+        {
+          "title": "How Does Human Resource Management Influence Organizational Outcomes? A Meta-analytic Investigation of Mediating Mechanisms",
+          "url": "https://journals.aom.org/doi/10.5465/amj.2011.0088",
+          "score": 1
+        },
+        {
+          "title": "How Does Human Resource Management Influence Organizational Outcomes? A Meta-analytic Investigation of Mediating Mechanisms",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amj.2011.0088?cookieSet=1&download=true&journalCode=amj",
+          "score": 1
+        },
+        {
+          "title": "HOW DOES HUMAN RESOURCE MANAGEMENT INFLUENCE ORGANIZATIONAL OUTCOMES? A META-ANALYTIC INVESTIGATION OF MEDIATING MECHANISMS",
+          "url": "https://www.academia.edu/2370757/HOW_DOES_HUMAN_RESOURCE_MANAGEMENT_INFLUENCE_ORGANIZATIONAL_OUTCOMES_A_META_ANALYTIC_INVESTIGATION_OF_MEDIATING_MECHANISMS",
+          "score": 1
+        },
+        {
+          "title": "How Does Human Resource Management Influence Organizational Outcomes? A Meta-Analytic Investigation of Mediating Mechanisms",
+          "url": "https://www.researchgate.net/publication/259147253_How_Does_Human_Resource_Management_Influence_Organizational_Outcomes_A_Meta-Analytic_Investigation_of_Mediating_Mechanisms",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

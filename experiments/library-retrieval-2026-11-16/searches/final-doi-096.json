@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_24",
+      "doi": "10.1038/379309a0",
+      "title": "On the wilder shores of cosmology",
+      "authors": "[\"Michael Rowan-Robinson\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"On the wilder shores of cosmology\" Rowan-Robinson filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_24",
+      "query": "\"On the wilder shores of cosmology\" Rowan-Robinson filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "On the wilder shores of cosmology",
+          "url": "https://www.nature.com/articles/379309a0",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

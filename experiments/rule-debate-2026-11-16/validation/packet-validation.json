@@ -1,0 +1,94 @@
+{
+  "scope": "Artifact consistency and declared mechanical constraints only. No semantic correctness, reader benefit, author approval, learning efficacy or global novelty is certified.",
+  "candidate_id": "wwp-debate-0.1.1",
+  "guide_sha256": "0cfa57f8280320eb6eeba7234d041c7d6a796a9ecb38c18293eea5265f70c367",
+  "checks": [
+    {
+      "check": "JSON parsing",
+      "passed": true,
+      "detail": {
+        "files": 49,
+        "errors": []
+      }
+    },
+    {
+      "check": "Seven comparison inputs preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Frozen round inputs preserved",
+      "passed": true,
+      "detail": {
+        "files": 15,
+        "changed": []
+      }
+    },
+    {
+      "check": "Each proposal adjudicated exactly once",
+      "passed": true,
+      "detail": {
+        "proposals": 22
+      }
+    },
+    {
+      "check": "Each challenge answered and adjudicated exactly once",
+      "passed": true,
+      "detail": {
+        "challenges": 17,
+        "replies": 17
+      }
+    },
+    {
+      "check": "Final-rule references resolve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Listed final files exist",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Guide matches structured hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Coding appendix matches structured hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Core rules unchanged after eight-case execution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Twelve function IDs retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Seven relation labels retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Five declared contracts passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Learning-case guide hash matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Published local Markdown links resolve",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "all_scoped_checks_passed": true
+}

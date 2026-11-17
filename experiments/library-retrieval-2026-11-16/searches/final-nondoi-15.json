@@ -1,0 +1,19 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_27",
+      "doi": "",
+      "title": "Memorandum on Political and Social Problems",
+      "authors": "[\"Committee on Political and Social Problems, Metallurgical Laboratory, University of Chicago\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Memorandum on Political and Social Problems\" Chicago pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_27",
+      "query": "\"Memorandum on Political and Social Problems\" Chicago pdf",
+      "urls": []
+    }
+  ]
+}

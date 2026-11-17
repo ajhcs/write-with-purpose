@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_10",
+      "doi": "10.1115/1.1649968",
+      "title": "Sequential Optimization and Reliability Assessment Method for Efficient Probabilistic Design",
+      "authors": "[\"Xiaoping Du\", \"Wei Chen\"]",
+      "field": "engineering_computing",
+      "q": "\"Sequential Optimization and Reliability Assessment Method for Efficient\" Du filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_10",
+      "query": "\"Sequential Optimization and Reliability Assessment Method for Efficient\" Du filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "[13] Xiaoping Du and Wei Chen. Sequential optimization and reliability assessment method for efficient probabilistic design. *Journal of Mechanical Design*, 126(2):225–233, 2004.",
+          "url": "https://ins.sjtu.edu.cn/people/jinglaili/files/mmc2015.pdf",
+          "score": 1
+        },
+        {
+          "title": "Sequential Optimization and Reliability Assessment Method for Efficient Probabilistic Design",
+          "url": "https://scispace.com/papers/sequential-optimization-and-reliability-assessment-method-hjtddgaey5",
+          "score": 1
+        },
+        {
+          "title": "\"Sequential Optimization and Reliability Assessment Method for Efficien\" by Xiaoping Du and Wei Chen",
+          "url": "https://scholarsmine.mst.edu/mec_aereng_facwork/2815/",
+          "score": 0.875
+        }
+      ]
+    }
+  ]
+}

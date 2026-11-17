@@ -1,0 +1,1 @@
+The displayed stock comes from a cache, a stored copy of the inventory. Synchronization copies the current inventory into that cache every 5 minutes. If the inventory changes between synchronizations, the cache can still contain the earlier value, so the displayed stock can differ from the current inventory. The screen shows the time of the most recent synchronization.

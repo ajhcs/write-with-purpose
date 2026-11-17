@@ -1,0 +1,54 @@
+{
+  "generated_at_utc": "2026-11-16T18:12:33.591327+00:00",
+  "requested_works": 214,
+  "doi_works": 154,
+  "doi_retrieved": 70,
+  "doi_remaining": 84,
+  "additional_non_doi_works": 60,
+  "additional_retrieved": 36,
+  "additional_remaining": 24,
+  "all_retrieved": 106,
+  "all_remaining": 108,
+  "preferred_format_counts": {
+    "pdf": 78,
+    "html": 21,
+    "txt": 1,
+    "rst": 6
+  },
+  "by_field": {
+    "business_management": {
+      "requested": 45,
+      "retrieved": 8,
+      "remaining": 37
+    },
+    "engineering_computing": {
+      "requested": 42,
+      "retrieved": 31,
+      "remaining": 11
+    },
+    "law_public_policy": {
+      "requested": 36,
+      "retrieved": 21,
+      "remaining": 15
+    },
+    "medicine_health": {
+      "requested": 42,
+      "retrieved": 16,
+      "remaining": 26
+    },
+    "personal_public_writing": {
+      "requested": 12,
+      "retrieved": 5,
+      "remaining": 7
+    },
+    "physical_sciences_mathematics": {
+      "requested": 37,
+      "retrieved": 25,
+      "remaining": 12
+    }
+  },
+  "unique_delivered_files": 104,
+  "original_source_list_sha256": "03ac22d55c8263072714bef20534745ad1675f977f8be7441f5b7607f829cc8e",
+  "source_identity_limits": "Original automatic warnings retained, supplemented by bounded layout/OCR title-author evidence and 8 explicit source reviews. Same work does not certify exact edition, authenticity or analytical suitability.",
+  "routes": "Europe PMC, OpenAlex, Crossref, registered publishers, title/author web searches, public author/institutional repositories, existing local candidates. Unpaywall skipped: no configured real contact email. Access and rate failures are preserved; no claim every possible Internet copy was exhausted."
+}

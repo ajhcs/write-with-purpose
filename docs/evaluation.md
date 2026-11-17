@@ -62,3 +62,13 @@ The separate grammar experiment uses 15 synthetic fixtures, a pinned Harper 3.0.
 Package 0.5.1 adds the paired 27-fixture LanguageTool/Harper comparison and the six new editor cases above. Writer 0.3.2, editor 0.2.0 and both Python tools retain the exact runtime files tested in package 0.5.0. Release documentation, examples and experimental records remain outside the installed skill folders.
 
 No model API, paid service, automatic hook or compulsory editor chain is installed. The grammar experiment's Node dependencies are separate from the installed skills. New writing can use the writer directly. Existing prose can use the editor directly. Request a fresh independent review when the work warrants it.
+
+## Canonical four-rule integration, 16 November 2026
+
+Package source 0.6.0-alpha.6 incorporates the adjudicated writing, editing and improvement rules into writer 0.4.0-alpha.6 and editor 0.3.0-alpha.6. Detailed development and function guidance is local to each independently usable skill. Existing scripts, tests and approved author references are unchanged; no global installation was performed.
+
+The captured final source passes all 47 current Python tests, all 15 annotation-prototype tests and both skill-creator validators. Seven declared contracts per initial comparison arm and two final focused body contracts passed. These are executable and artifact checks, not semantic or quality acceptance.
+
+Four fresh Terra contexts applied frozen old/new skills to twelve raw tasks. A separate fresh reviewer assessed masked pairs: two revised preferences, one baseline preference and nine ties. Both initial arms supplied a composed answer during an attempt-first exercise; the first focused retest repeated that issue. Subsequent narrow refinements left the writing move to the learner and separated publishable text from source notes. A final fresh four-task execution exhibited the intended behavior and standalone editor counting. Earlier failed outputs and exact source revisions remain saved.
+
+This is a small model-reviewed development comparison with task clustering, known synthetic examples and one disclosed exposure to extra raw task inputs. It is not a human comprehension or learning study, a validation of the function taxonomy, a repeat of the 36-paragraph coding-agreement experiment, or proof that the revised skills are superior. See the [implementation and test report](../experiments/canonical-skill-revision-2026-11-16/report.md) for actual artifacts and limits.

@@ -1,0 +1,113 @@
+{
+  "batch": 21,
+  "queries": [
+    {
+      "candidate_key": "law:law_w2130554796",
+      "doi": "10.1146/annurev-lawsocsci-011912-083704",
+      "title": "Empirical Studies of Contract",
+      "field": "law_public_policy",
+      "q": "\"Empirical Studies of Contract\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2160783861",
+      "doi": "10.1146/annurev-lawsocsci-110413-030807",
+      "title": "Empirical Comparative Law",
+      "field": "law_public_policy",
+      "q": "\"Empirical Comparative Law\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w407944384",
+      "doi": "10.2307/1289310",
+      "title": "A Tale of Two Clients: Thinking about Law as Language",
+      "field": "law_public_policy",
+      "q": "\"A Tale of Two Clients: Thinking about Law as Language\" pdf"
+    },
+    {
+      "candidate_key": "law:law_edwards_1979",
+      "doi": "10.36646/mjlr.13.1.on",
+      "title": "On Becoming a Lawyer: Some Challenges for the Future",
+      "field": "law_public_policy",
+      "q": "\"On Becoming a Lawyer: Some Challenges for the Future\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2130554796",
+      "query": "\"Empirical Studies of Contract\" pdf",
+      "urls": [
+        {
+          "title": "Empirical Comparative Law",
+          "url": "https://dash.harvard.edu/bitstreams/7312037d-a0e8-6bd4-e053-0100007fdf3b/download",
+          "score": 0.3333333333333333,
+          "body_score": 1
+        },
+        {
+          "title": "Assessing the efficacy of visual contracts: an empirical study of transaction costs",
+          "url": "https://research-repository.uwa.edu.au/en/publications/assessing-the-efficacy-of-visual-contracts-an-empirical-study-of-/",
+          "score": 0.3333333333333333,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w2160783861",
+      "query": "\"Empirical Comparative Law\" pdf",
+      "urls": [
+        {
+          "title": "Empirical Comparative Law",
+          "url": "https://iris.luiss.it/retrieve/e163de42-9dca-19c7-e053-6605fe0a8397/20150528-romano-summary-eng.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Empirical Comparative Law",
+          "url": "https://dash.harvard.edu/bitstreams/7312037d-a0e8-6bd4-e053-0100007fdf3b/download",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "The European Advantage in Empirical Comparative Law",
+          "url": "https://www.researchgate.net/publication/387892105_The_European_Advantage_in_Empirical_Comparative_Law",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Texto Empirical Methods in Comparativa Law | PDF",
+          "url": "https://www.scribd.com/document/1023930012/Texto-Empirical-Methods-in-Comparativa-Law",
+          "score": 0.6666666666666666,
+          "body_score": 1
+        },
+        {
+          "title": "Details for Comparative law / › Tarlton Law Library catalog",
+          "url": "https://tallons.law.utexas.edu/cgi-bin/koha/opac-detail.pl?biblionumber=610501",
+          "score": 0.6666666666666666,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w407944384",
+      "query": "\"A Tale of Two Clients: Thinking about Law as Language\" pdf",
+      "urls": [
+        {
+          "title": "Law as Language: A Lawyer's Quest | PDF | Experience | Plea",
+          "url": "https://www.scribd.com/document/934175431/4-a-Tale-of-Two-Clients-Thinking-About-Law-as-Language",
+          "score": 0.2857142857142857,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_edwards_1979",
+      "query": "\"On Becoming a Lawyer: Some Challenges for the Future\" pdf",
+      "urls": [
+        {
+          "title": "\"On Becoming a Lawyer: Some Challenges for the Future\" by Harry T. Edwards",
+          "url": "https://repository.law.umich.edu/mjlr/vol13/iss1/2/",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

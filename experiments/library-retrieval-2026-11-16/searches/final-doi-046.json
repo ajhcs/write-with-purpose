@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w2989863638",
+      "doi": "10.2307/1338225",
+      "title": "Positivism and the Separation of Law and Morals",
+      "authors": "[\"H. L. A. Hart\"]",
+      "field": "law_public_policy",
+      "q": "\"Positivism and the Separation of Law and Morals\" Hart filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2989863638",
+      "query": "\"Positivism and the Separation of Law and Morals\" Hart filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Positivism and the Separation of Law and Morals",
+          "url": "https://www.law.nyu.edu/sites/default/files/Hart%2C%20H.%20L.%20A.%20%281958%29%20%27Positivism%20and%20the%20Separation%20of%20Law%20and%20Morals%27%20Harvard%20Law%20Review%20Vol.%2071%2C%20No.%204%20%281958%29%20pp.%20593-629.pdf",
+          "score": 1
+        },
+        {
+          "title": "Positivism and the Separation of Law and Morals",
+          "url": "https://www.academia.edu/125769288/Positivism_and_the_Separation_of_Law_and_Morals",
+          "score": 1
+        },
+        {
+          "title": "Positivism and the Separation of Law and Morals",
+          "url": "https://scispace.com/papers/positivism-and-the-separation-of-law-and-morals-9y57wwrppw",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

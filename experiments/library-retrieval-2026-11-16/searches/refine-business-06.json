@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_009",
+      "doi": "10.5465/amr.1993.9402210153",
+      "title": "A Review and an Integration of Research on Job Burnout",
+      "authors": "[\"Cynthia L. Cordes\", \"Thomas W. Dougherty\"]",
+      "field": "business_management",
+      "q": "\"A Review and an Integration of Research on Job Burnout\" Cordes pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_009",
+      "query": "\"A Review and an Integration of Research on Job Burnout\" Cordes pdf",
+      "urls": [
+        {
+          "title": "Cordes, C. L., & Dougherty, T. W. (1993). A review and an integration of research on job burnout. *The Academy of Management Review, 18*(4), 621–656. https://doi.org/10.2307/258593",
+          "url": "https://oulurepo.oulu.fi/bitstream/handle/10024/58883/nbnfioulu-202510226413.pdf%3Bjsessionid%3D61FB9343DCC2B1F5A10E89272BA4F978?sequence=1",
+          "score": 1
+        },
+        {
+          "title": "Cordes, C.L., and Dougherty, T.W. (1993). A review and an integration of research on job burnout. *Academy of management review, 18*(4), 621-656",
+          "url": "https://archive.lib.cmu.ac.th/full/T/2561/iop70561bmm_bib.pdf",
+          "score": 1
+        },
+        {
+          "title": "Cordes, C. L. et Dougherty, T. W., (1993). «A review and an integration of research on job burnout», *The Academy of Management Review*, Vol. 18, No. 4. P. 621-656",
+          "url": "https://biblos.hec.ca/biblio/memoires/caron_benjamin_m2020.pdf",
+          "score": 1
+        },
+        {
+          "title": "51. Cordes CL, Dougherty TW. A Review and an Integration of Research on Job Burnout. The Academy of Management Review. 1993;18(4):621-56.",
+          "url": "https://assets-eu.researchsquare.com/files/rs-27031/v2/abccbe76-0ba8-412d-affc-f6d91a3c72f7.pdf",
+          "score": 1
+        },
+        {
+          "title": "Cordes, C. L., & Dougherty, T. W. (1993). A review and an integration of research on job burnout. *Academy of Management Review, 18*(4), 621-656.",
+          "url": "https://etd.uum.edu.my/3448/2/s92078_abstract.pdf",
+          "score": 1
+        },
+        {
+          "title": "A Review and an Integration of Research on Job Burnout",
+          "url": "https://journals.aom.org/doi/10.5465/AMR.1993.9402210153",
+          "score": 1
+        },
+        {
+          "title": "A Review and an Integration of Research on Job Burnout",
+          "url": "https://journals.aom.org/doi/abs/10.5465/AMR.1993.9402210153",
+          "score": 1
+        },
+        {
+          "title": "A Review and an Integration of Research on Job Burnout",
+          "url": "https://ethnos.app/works/23333143",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

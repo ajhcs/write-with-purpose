@@ -1,0 +1,135 @@
+{
+  "title": "Proposed joint candidate for independent B review",
+  "status": "proposed_not_yet_jointly_accepted",
+  "authored_by": "Astra A after independent positions and exchanged challenges",
+  "changes": [
+    {
+      "id": "J01",
+      "title": "Cole-specific example selection",
+      "status": "proposed_for_B_review",
+      "edits": [
+        {
+          "path": "skills/write-with-purpose/references/cole-lyons-style.md",
+          "old_text": "- **Let a useful example develop the argument.** The wheelchair request explains how a warning can lose its meaning. Remove inventories and second explanations that repeat the same point, while retaining examples or detail that the task requires.",
+          "new_text": "- **Let examples develop the argument.** For Cole's prose, avoid illustrative series of more than three items and repeated lists within a paragraph; a shorter list can still be filler. Select the example that advances the point or explain the relationship the inventory stood in for. Do not merely spread the same inventory across sentences. Preserve required coverage and materially distinct reasons, developing or reorganizing them rather than silently dropping them. This is Cole's preference, not a rule for every author's voice."
+        },
+        {
+          "path": "skills/edit-with-purpose/references/cole-lyons-style.md",
+          "old_text": "- **Let a useful example develop the argument.** The wheelchair request explains how a warning can lose its meaning. Remove inventories and second explanations that repeat the same point, while retaining examples or detail that the task requires.",
+          "new_text": "- **Let examples develop the argument.** For Cole's prose, avoid illustrative series of more than three items and repeated lists within a paragraph; a shorter list can still be filler. Select the example that advances the point or explain the relationship the inventory stood in for. Do not merely spread the same inventory across sentences. Preserve required coverage and materially distinct reasons, developing or reorganizing them rather than silently dropping them. This is Cole's preference, not a rule for every author's voice."
+        }
+      ],
+      "evidence": [
+        "R02 explicitly objects to long and repeated lists.",
+        "R03 criticizes a pattern containing three items; the precise disliked feature is not isolated."
+      ],
+      "limits": [
+        "No universal author rule or count-based success measure.",
+        "Required coverage and distinct reasons remain; do not hide inventories across sentences."
+      ],
+      "parent_comparison": "IP01: agree on purpose and scope; narrow to profile replacement, no linter or propagated general rule."
+    },
+    {
+      "id": "J02",
+      "title": "Compare progression while pursuing stronger arrangement",
+      "status": "proposed_for_B_review",
+      "edits": [
+        {
+          "path": "skills/write-with-purpose/references/structure-and-purpose.md",
+          "old_text": "Compare what the actual versions make recoverable, what they delay and what they might lose. Moving the same words can change endorsement, timing or rhetorical force: an unresolved closing reflection can become an apparent opening thesis. Preserve these relationships as well as factual content. Choose independently when the brief settles the tradeoff; expose consequential unresolved intent rather than silently deciding a new belief.",
+          "new_text": "Compare what the actual versions make recoverable, what they delay and what they might lose. Read a passage with its surroundings: what makes the next claim matter, or prepares the next event or turn? Moving or dividing material can change endorsement, timing or rhetorical force without changing the underlying facts. An unresolved reflection can become an apparent thesis; coordination can become an asserted sequence. Preserve supported relationships while pursuing a stronger arrangement. Choose independently when the brief settles the tradeoff; expose consequential unresolved intent rather than silently deciding a new belief."
+        },
+        {
+          "path": "skills/edit-with-purpose/references/structure-and-purpose.md",
+          "old_text": "Compare what the actual versions make recoverable, what they delay and what they might lose. Moving the same words can change endorsement, timing or rhetorical force: an unresolved closing reflection can become an apparent opening thesis. Preserve these relationships as well as factual content. Choose independently when the brief settles the tradeoff; expose consequential unresolved intent rather than silently deciding a new belief.",
+          "new_text": "Compare what the actual versions make recoverable, what they delay and what they might lose. Read a passage with its surroundings: what makes the next claim matter, or prepares the next event or turn? Moving or dividing material can change endorsement, timing or rhetorical force without changing the underlying facts. An unresolved reflection can become an apparent thesis; coordination can become an asserted sequence. Preserve supported relationships while pursuing a stronger arrangement. Choose independently when the brief settles the tradeoff; expose consequential unresolved intent rather than silently deciding a new belief."
+        }
+      ],
+      "evidence": [
+        "R03 explicitly praises the speed-to-judgment connection.",
+        "R11 explicitly prefers original overall story; cadence mechanism remains hypothetical.",
+        "R09/R10 permit successful splitting/compression; R13 is a technical countercase."
+      ],
+      "limits": [
+        "No ending-specific rule: R11 is not the document ending.",
+        "No sentence-boundary preservation or correction-first requirement.",
+        "Current ambition and expression paragraph retained; no added example stacked onto this replacement."
+      ],
+      "parent_comparison": "IP02: agree objective; use compact comparison replacement instead of additional contrasting examples or broader obligations."
+    },
+    {
+      "id": "J03",
+      "title": "Grounded personal history and author-corrected disclaimers",
+      "status": "proposed_for_B_review",
+      "edits": [
+        {
+          "path": "skills/write-with-purpose/references/language-and-meaning.md",
+          "old_text": "When a conclusion depends on a relationship, supply the link between the stated facts and the judgment. A useful framing sentence can orient the reader before the particulars. Keep precise terms for the relevant concepts and use plain clauses to explain their relationship: what each refers to, how one affects another, or why a fact supports the judgment. A connective can expose that link; it cannot supply missing evidence for it.",
+          "new_text": "When a conclusion depends on a relationship, supply the link between the stated facts and the judgment. A useful framing sentence can orient the reader before the particulars. Keep precise terms for the relevant concepts and use plain clauses to explain their relationship: what each refers to, how one affects another, or why a fact supports the judgment. A connective can expose that link; it cannot supply missing evidence for it.\n\nAn argument that “stayed with me from” a report was not necessarily “first encountered” there. Make the useful connection without adding unsupported personal history. A disclaimer is also a claim: follow an author's correction at its supported scope without inferring a credential or experience they have not specified, and retain independent qualifications that still apply. Repair the unsupported relationship while retaining useful changes around it."
+        },
+        {
+          "path": "skills/edit-with-purpose/references/technical-meaning.md",
+          "old_text": "Compare the actual before and after. A rewrite can retain every number while changing its subject, denominator or logical role. Conversely, a supported paraphrase or conversion can change the words and digits without changing the claim. Exact matches are observations, not semantic proof.",
+          "new_text": "Compare the actual before and after. A rewrite can retain every number while changing its subject, denominator or logical role. Conversely, a supported paraphrase or conversion can change the words and digits without changing the claim. Exact matches are observations, not semantic proof.\n\nAn argument that “stayed with me from” a report was not necessarily “first encountered” there. Make the useful connection without adding unsupported personal history. A disclaimer is also a claim: follow an author's correction at its supported scope without inferring a credential or experience they have not specified, and retain independent qualifications that still apply. Repair the unsupported relationship while retaining useful changes around it."
+        }
+      ],
+      "evidence": [
+        "R05 preferred wording adds unsupported first encounter; source-comparison judgment, not author reason.",
+        "R01 explicitly disputes an inherited disclaimer; actual generation brief required preservation.",
+        "R06 demonstrates grounded development from the full source."
+      ],
+      "limits": [
+        "No credential facts added to global profile and no automatic clarification gate.",
+        "Do not remove independent material qualifications or infer the opposite of a disputed claim.",
+        "Former/both remains an unresolved scope risk in evidence/tests, not a canonical answer key."
+      ],
+      "parent_comparison": "IP03: agree source/context distinction; compact example replaces general caveat instructions, with no blanket deletion of defensive framing."
+    }
+  ],
+  "next_test": {
+    "status": "proposal_only_not_run",
+    "purpose": "Small diagnostic of isolated candidate changes; not causal performance estimate or adoption proof.",
+    "route": "Explicit WRITER; prompt and supplied whole context identical within each pair.",
+    "generation_design": "One fresh current-versus-candidate paired generation for each of four fresh tasks. Load only the relevant changed reference in the candidate condition; do not change prompt and reference together.",
+    "tasks": [
+      {
+        "task": "Cole argument with redundant illustrative inventory and required distinct coverage",
+        "change": "J01"
+      },
+      {
+        "task": "Argumentative passage with supported reason, developing sequence and a viable alternative arrangement",
+        "change": "J02"
+      },
+      {
+        "task": "First-person passage with source-based connection, author-disputed disclaimer, independent material qualification and a harmless paraphrase opportunity",
+        "change": "J03"
+      },
+      {
+        "task": "Technical explanation whose representation/sequence distinctions must survive, with no narrative requirement",
+        "change": "J02"
+      }
+    ],
+    "review": "Randomize anonymous versions with Original/tie/Unsure options; collect preference separately from substantive improvement and exact helpful/harmful spans. Include a defect-only repair comparator for progression. Independently review source support, retained coverage and new temporal/causal implications before revealing conditions.",
+    "failure_signals": [
+      "Hidden inventories or omitted distinct reasons.",
+      "Conservative rewriting, lost reasoning or invented chronology.",
+      "Unsupported biography, invented opposite credential or dropped independent qualification.",
+      "Narrative imposed on technical explanation."
+    ],
+    "follow_up": "Repeat promising or unstable cases before adoption claims; inspect failures rather than automatically expanding guidance. Whole-work and direct EDITOR checks remain separate gaps. Any later former/both ambiguity probe must permit supported resolution or preserved uncertainty, not enforce the audit interpretation."
+  },
+  "scope_limits": [
+    "All original generators selected WRITER; no direct editor benefit established.",
+    "Ten selected clustered passage ratings; no whole-work result or general success rate.",
+    "Source fidelity, preference and external truth remain separate.",
+    "Mirrored editor reference edits are consistency proposals."
+  ],
+  "no_changes": [
+    "No entrypoint rules",
+    "No checker changes",
+    "No canonical or installed edits",
+    "No evaluations",
+    "No modifications to frozen trial"
+  ],
+  "exact_old_text_validation": "Each old_text occurs exactly once in its target at drafting time; read-only validation only."
+}

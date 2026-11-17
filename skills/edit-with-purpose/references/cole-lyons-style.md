@@ -11,7 +11,7 @@ Use the passage below to calibrate wording and flow. Read the [complete approved
 - **Begin where the reader can follow what happened.** The article opens with the wheelchair account, then develops the institutional argument. For other work, use the relevant situation, question, or finding already supported by the material. Do not invent an anecdote to reproduce the opening.
 - **Use familiar words to explain the relationship.** The approved passage names what the staff member fears and what the budget reviewer sees. Replace phrases such as “priced out of urgency” with the actual reason a request might be set aside. Retain technical terms when they make a necessary distinction, and explain them where needed.
 - **Connect thoughts naturally.** Keep context and connecting language that help the reader follow the sentence. Related clauses can belong together. Shorter sentences and fewer words are not goals by themselves, and the reference's transitions are not mandatory phrases.
-- **Let a useful example develop the argument.** The wheelchair request explains how a warning can lose its meaning. Remove inventories and second explanations that repeat the same point, while retaining examples or detail that the task requires.
+- **Let examples develop the argument.** For Cole's prose, avoid illustrative series of more than three items and repeated lists within a paragraph; a shorter list can still be filler. Select the example that advances the point or explain the relationship the inventory stood in for. Do not merely spread the same inventory across sentences. Preserve required coverage and materially distinct reasons, developing or reorganizing them rather than silently dropping them. This is Cole's preference, not a rule for every author's voice.
 - **Keep qualifications with the claims they limit.** Preserve words such as “may,” “only,” and “alone” when they change the meaning. Distinguish what the author observed, what they infer, and what they propose. A style match does not justify changing certainty or adding a cause that the evidence does not establish.
 - **Match the amount of editing to the request.** This article was a requested substantial rewrite. For cleanup, preserve effective wording and repair the parts that need it; the reference does not authorize reorganizing every draft.
 
@@ -28,5 +28,7 @@ Before delivery, compare the new passage with this reference for word choice, us
 ## Provenance
 
 The complete article is preserved from the October 31, 2026 revision of `ajhcs/colelyons-com`, source commit `79d306d1088549d5fb34a1c4c9757ec0cb859a76`. Its Markdown SHA-256 is `279009715a19618c93b3df055bb96d842fabe99bf2e41dc77c24322a39bacc71`.
+
+Cole's November 16, 2026 author review supplied the additional preference about long and repeated lists. That feedback is separate from the October 31 approved article, whose text remains unchanged.
 
 The article's factual material and dated references belong to that example. Check sources for new factual work rather than treating a style reference as current clinical or legal guidance. Approval as a writing reference does not authorize publication of the article.

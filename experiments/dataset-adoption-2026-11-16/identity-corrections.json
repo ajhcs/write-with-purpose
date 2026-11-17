@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "id": "scidtb-paper-correct",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/P18-2071.pdf",
+      "filename": "scidtb-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/P18-2071.pdf",
+        "effective_url": "https://aclanthology.org/P18-2071.pdf",
+        "content_type": "application/pdf",
+        "bytes": 219079,
+        "sha256": "ab168356d438a31408e4ef064675073283474d557fb93146cd076fc88be06af1",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scidtb-paper-correct/scidtb-paper.pdf",
+      "status": "downloaded",
+      "supersedes": "scidtb-paper",
+      "reason": "Independent audit identified D18-1388 as an unrelated political-ideology paper; excluded from codebook counts and crosswalk evidence."
+    }
+  ]
+}

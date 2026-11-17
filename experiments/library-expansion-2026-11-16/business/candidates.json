@@ -1,0 +1,2138 @@
+[
+  {
+    "id": "business_001",
+    "field": "business_management",
+    "form_id": "methods_paper",
+    "title": "Building Theories from Case Study Research",
+    "authors": [
+      "Kathleen M. Eisenhardt"
+    ],
+    "year": 1989,
+    "venue": "The Academy of Management Review",
+    "doi": "10.5465/amr.1989.4308385",
+    "stable_url": "https://doi.org/10.5465/amr.1989.4308385",
+    "volume": "14",
+    "issue": "4",
+    "pages": "532",
+    "form_basis": "Publisher abstract explains an iterative case-based theory-building research process.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 39823,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1989.4308385",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1989.4308385",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Building Theories from Case Study Research; Kathleen M. Eisenhardt; The Academy of Management Review, 1989; DOI 10.5465/amr.1989.4308385",
+    "why_this_example": "Publisher abstract explains an iterative case-based theory-building research process.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": [
+      "10.2307/258557"
+    ]
+  },
+  {
+    "id": "business_002",
+    "field": "business_management",
+    "form_id": "methods_paper",
+    "title": "Strategies for Theorizing from Process Data",
+    "authors": [
+      "Ann Langley"
+    ],
+    "year": 1999,
+    "venue": "The Academy of Management Review",
+    "doi": "10.5465/amr.1999.2553248",
+    "stable_url": "https://doi.org/10.5465/amr.1999.2553248",
+    "volume": "24",
+    "issue": "4",
+    "pages": "691",
+    "form_basis": "Publisher abstract compares strategies for analyzing process data.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 7513,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1999.2553248",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1999.2553248",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Strategies for Theorizing from Process Data; Ann Langley; The Academy of Management Review, 1999; DOI 10.5465/amr.1999.2553248",
+    "why_this_example": "Publisher abstract compares strategies for analyzing process data.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": [
+      "10.2307/259349"
+    ]
+  },
+  {
+    "id": "business_003",
+    "field": "business_management",
+    "form_id": "methods_paper",
+    "title": "Methodological fit in management field research",
+    "authors": [
+      "Amy C. Edmondson",
+      "Stacy E. Mcmanus"
+    ],
+    "year": 2007,
+    "venue": "Academy of Management Review",
+    "doi": "10.5465/amr.2007.26586086",
+    "stable_url": "https://doi.org/10.5465/amr.2007.26586086",
+    "volume": "32",
+    "issue": "4",
+    "pages": "1246-1264",
+    "form_basis": "Publisher abstract presents a framework aligning research questions, prior work and design.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 3506,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.2007.26586086",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.2007.26586086",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Methodological fit in management field research; Amy C. Edmondson, Stacy E. Mcmanus; Academy of Management Review, 2007; DOI 10.5465/amr.2007.26586086",
+    "why_this_example": "Publisher abstract presents a framework aligning research questions, prior work and design.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": []
+  },
+  {
+    "id": "business_004",
+    "field": "business_management",
+    "form_id": "theory_conceptual_paper",
+    "title": "An Integrative Model of Organizational Trust",
+    "authors": [
+      "Roger C. Mayer",
+      "James H. Davis",
+      "F. David Schoorman"
+    ],
+    "year": 1995,
+    "venue": "The Academy of Management Review",
+    "doi": "10.5465/amr.1995.9508080335",
+    "stable_url": "https://doi.org/10.5465/amr.1995.9508080335",
+    "volume": "20",
+    "issue": "3",
+    "pages": "709",
+    "form_basis": "Publisher abstract defines trust and proposes a model and research propositions.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 23787,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1995.9508080335",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1995.9508080335",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "An Integrative Model of Organizational Trust; Roger C. Mayer, James H. Davis, F. David Schoorman; The Academy of Management Review, 1995; DOI 10.5465/amr.1995.9508080335",
+    "why_this_example": "Publisher abstract defines trust and proposes a model and research propositions.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": [
+      "10.2307/258792"
+    ]
+  },
+  {
+    "id": "business_005",
+    "field": "business_management",
+    "form_id": "theory_conceptual_paper",
+    "title": "Upper Echelons: The Organization as a Reflection of Its Top Managers",
+    "authors": [
+      "Donald C. Hambrick",
+      "Phyllis A. Mason"
+    ],
+    "year": 1984,
+    "venue": "The Academy of Management Review",
+    "doi": "10.5465/amr.1984.4277628",
+    "stable_url": "https://doi.org/10.5465/amr.1984.4277628",
+    "volume": "9",
+    "issue": "2",
+    "pages": "193",
+    "form_basis": "Publisher abstract synthesizes a perspective and proposes a theory of managerial characteristics and outcomes.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 17025,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1984.4277628",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1984.4277628",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Upper Echelons: The Organization as a Reflection of Its Top Managers; Donald C. Hambrick, Phyllis A. Mason; The Academy of Management Review, 1984; DOI 10.5465/amr.1984.4277628",
+    "why_this_example": "Publisher abstract synthesizes a perspective and proposes a theory of managerial characteristics and outcomes.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": [
+      "10.2307/258434"
+    ]
+  },
+  {
+    "id": "business_006",
+    "field": "business_management",
+    "form_id": "theory_conceptual_paper",
+    "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+    "authors": [
+      "Jeffrey H. Dyer",
+      "Harbir Singh"
+    ],
+    "year": 1998,
+    "venue": "The Academy of Management Review",
+    "doi": "10.5465/amr.1998.1255632",
+    "stable_url": "https://doi.org/10.5465/amr.1998.1255632",
+    "volume": "23",
+    "issue": "4",
+    "pages": "660",
+    "form_basis": "Publisher abstract proposes interfirm relations as a unit of analysis and four sources of advantage.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 12818,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1998.1255632",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1998.1255632",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage; Jeffrey H. Dyer, Harbir Singh; The Academy of Management Review, 1998; DOI 10.5465/amr.1998.1255632",
+    "why_this_example": "Publisher abstract proposes interfirm relations as a unit of analysis and four sources of advantage.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": [
+      "10.2307/259056"
+    ]
+  },
+  {
+    "id": "business_007",
+    "field": "business_management",
+    "form_id": "narrative_critical_literature_review",
+    "title": "Agency Theory: An Assessment and Review",
+    "authors": [
+      "Kathleen M. Eisenhardt"
+    ],
+    "year": 1989,
+    "venue": "The Academy of Management Review",
+    "doi": "10.5465/amr.1989.4279003",
+    "stable_url": "https://doi.org/10.5465/amr.1989.4279003",
+    "volume": "14",
+    "issue": "1",
+    "pages": "57",
+    "form_basis": "Publisher abstract reviews agency theory, its contributions and extant empirical work.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 14358,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1989.4279003",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1989.4279003",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Agency Theory: An Assessment and Review; Kathleen M. Eisenhardt; The Academy of Management Review, 1989; DOI 10.5465/amr.1989.4279003",
+    "why_this_example": "Publisher abstract reviews agency theory, its contributions and extant empirical work.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": [
+      "10.2307/258191"
+    ]
+  },
+  {
+    "id": "business_008",
+    "field": "business_management",
+    "form_id": "narrative_critical_literature_review",
+    "title": "Sources of Conflict between Work and Family Roles",
+    "authors": [
+      "Jeffrey H. Greenhaus",
+      "Nicholas J. Beutell"
+    ],
+    "year": 1985,
+    "venue": "The Academy of Management Review",
+    "doi": "10.5465/amr.1985.4277352",
+    "stable_url": "https://doi.org/10.5465/amr.1985.4277352",
+    "volume": "10",
+    "issue": "1",
+    "pages": "76",
+    "form_basis": "Publisher abstract examines the literature and develops a model and propositions.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 10114,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1985.4277352",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1985.4277352",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Sources of Conflict between Work and Family Roles; Jeffrey H. Greenhaus, Nicholas J. Beutell; The Academy of Management Review, 1985; DOI 10.5465/amr.1985.4277352",
+    "why_this_example": "Publisher abstract examines the literature and develops a model and propositions.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": [
+      "10.2307/258214"
+    ]
+  },
+  {
+    "id": "business_009",
+    "field": "business_management",
+    "form_id": "narrative_critical_literature_review",
+    "title": "A Review and an Integration of Research on Job Burnout",
+    "authors": [
+      "Cynthia L. Cordes",
+      "Thomas W. Dougherty"
+    ],
+    "year": 1993,
+    "venue": "The Academy of Management Review",
+    "doi": "10.5465/amr.1993.9402210153",
+    "stable_url": "https://doi.org/10.5465/amr.1993.9402210153",
+    "volume": "18",
+    "issue": "4",
+    "pages": "621",
+    "form_basis": "Publisher abstract describes an integrative review and conceptual framework.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 2759,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1993.9402210153",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1993.9402210153",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "A Review and an Integration of Research on Job Burnout; Cynthia L. Cordes, Thomas W. Dougherty; The Academy of Management Review, 1993; DOI 10.5465/amr.1993.9402210153",
+    "why_this_example": "Publisher abstract describes an integrative review and conceptual framework.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": [
+      "10.2307/258593"
+    ]
+  },
+  {
+    "id": "business_010",
+    "field": "business_management",
+    "form_id": "systematic_review",
+    "title": "How Does Human Resource Management Influence Organizational Outcomes? A Meta-analytic Investigation of Mediating Mechanisms",
+    "authors": [
+      "Kaifeng Jiang",
+      "David P. Lepak",
+      "Jia Hu",
+      "Judith C. Baer"
+    ],
+    "year": 2012,
+    "venue": "Academy of Management Journal",
+    "doi": "10.5465/amj.2011.0088",
+    "stable_url": "https://doi.org/10.5465/amj.2011.0088",
+    "volume": "55",
+    "issue": "6",
+    "pages": "1264-1294",
+    "form_basis": "Publisher abstract identifies a quantitative meta-analysis of HR systems and organizational outcomes.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS117778295%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 2881,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amj.2011.0088",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amj.2011.0088",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "How Does Human Resource Management Influence Organizational Outcomes? A Meta-analytic Investigation of Mediating Mechanisms; Kaifeng Jiang, David P. Lepak, Jia Hu, Judith C. Baer; Academy of Management Journal, 2012; DOI 10.5465/amj.2011.0088",
+    "why_this_example": "Publisher abstract identifies a quantitative meta-analysis of HR systems and organizational outcomes.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": []
+  },
+  {
+    "id": "business_011",
+    "field": "business_management",
+    "form_id": "systematic_review",
+    "title": "A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework: An Explanation for Inconsistent Relationships Among Stressors and Performance",
+    "authors": [
+      "Jeffery A. Lepine",
+      "Nathan P. Podsakoff",
+      "Marcie A. Lepine"
+    ],
+    "year": 2005,
+    "venue": "Academy of Management Journal",
+    "doi": "10.5465/amj.2005.18803921",
+    "stable_url": "https://doi.org/10.5465/amj.2005.18803921",
+    "volume": "48",
+    "issue": "5",
+    "pages": "764-775",
+    "form_basis": "Publisher abstract describes a meta-analytic test of workplace stressors; selection details require full-text checking.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS117778295%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 2655,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amj.2005.18803921",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amj.2005.18803921",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework: An Explanation for Inconsistent Relationships Among Stressors and Performance; Jeffery A. Lepine, Nathan P. Podsakoff, Marcie A. Lepine; Academy of Management Journal, 2005; DOI 10.5465/amj.2005.18803921",
+    "why_this_example": "Publisher abstract describes a meta-analytic test of workplace stressors; selection details require full-text checking.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": []
+  },
+  {
+    "id": "business_012",
+    "field": "business_management",
+    "form_id": "systematic_review",
+    "title": "Women on Boards and Firm Financial Performance: A Meta-Analysis",
+    "authors": [
+      "Corinne Post",
+      "Kris Byron"
+    ],
+    "year": 2015,
+    "venue": "Academy of Management Journal",
+    "doi": "10.5465/amj.2013.0319",
+    "stable_url": "https://doi.org/10.5465/amj.2013.0319",
+    "volume": "58",
+    "issue": "5",
+    "pages": "1546-1571",
+    "form_basis": "Publisher abstract describes a meta-analysis combining 140 studies; selection details require full-text checking.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS117778295%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 2154,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amj.2013.0319",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amj.2013.0319",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "Published online November 2014; print 2015, classified as 2015 supplement",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Women on Boards and Firm Financial Performance: A Meta-Analysis; Corinne Post, Kris Byron; Academy of Management Journal, 2015; DOI 10.5465/amj.2013.0319",
+    "why_this_example": "Publisher abstract describes a meta-analysis combining 140 studies; selection details require full-text checking.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": []
+  },
+  {
+    "id": "business_013",
+    "field": "business_management",
+    "form_id": "argument_perspective",
+    "title": "Is the Resource-Based “View” a Useful Perspective for Strategic Management Research?",
+    "authors": [
+      "Richard L. Priem",
+      "John E. Butler"
+    ],
+    "year": 2001,
+    "venue": "Academy of Management Review",
+    "doi": "10.5465/amr.2001.4011928",
+    "stable_url": "https://doi.org/10.5465/amr.2001.4011928",
+    "volume": "26",
+    "issue": "1",
+    "pages": "22-40",
+    "form_basis": "Publisher abstract argues that the resource-based view needs conceptual development.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 4678,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.2001.4011928",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.2001.4011928",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Is the Resource-Based “View” a Useful Perspective for Strategic Management Research?; Richard L. Priem, John E. Butler; Academy of Management Review, 2001; DOI 10.5465/amr.2001.4011928",
+    "why_this_example": "Publisher abstract argues that the resource-based view needs conceptual development.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": []
+  },
+  {
+    "id": "business_014",
+    "field": "business_management",
+    "form_id": "critical_review_of_work",
+    "title": "The Reification of Absorptive Capacity: A Critical Review and Rejuvenation of the Construct",
+    "authors": [
+      "Peter J. Lane",
+      "Balaji R. Koka",
+      "Seemantini Pathak"
+    ],
+    "year": 2006,
+    "venue": "Academy of Management Review",
+    "doi": "10.5465/amr.2006.22527456",
+    "stable_url": "https://doi.org/10.5465/amr.2006.22527456",
+    "volume": "31",
+    "issue": "4",
+    "pages": "833-863",
+    "form_basis": "Publisher abstract critically examines the treatment of one named construct across 289 papers; a body-of-work critique, not a review of a single work.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 3006,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.2006.22527456",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.2006.22527456",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "The Reification of Absorptive Capacity: A Critical Review and Rejuvenation of the Construct; Peter J. Lane, Balaji R. Koka, Seemantini Pathak; Academy of Management Review, 2006; DOI 10.5465/amr.2006.22527456",
+    "why_this_example": "Publisher abstract critically examines the treatment of one named construct across 289 papers; a body-of-work critique, not a review of a single work.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": []
+  },
+  {
+    "id": "business_015",
+    "field": "business_management",
+    "form_id": "argument_perspective",
+    "title": "Bad for Practice: A Critique of the Transaction Cost Theory",
+    "authors": [
+      "Sumantra Ghoshal",
+      "Peter Moran"
+    ],
+    "year": 1996,
+    "venue": "The Academy of Management Review",
+    "doi": "10.5465/amr.1996.9602161563",
+    "stable_url": "https://doi.org/10.5465/amr.1996.9602161563",
+    "volume": "21",
+    "issue": "1",
+    "pages": "13",
+    "form_basis": "A named theoretical critique; exact form should be checked against publisher abstract before coding.",
+    "form_status": "provisional: obtain publisher abstract or inspect full text",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 2453,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1996.9602161563",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1996.9602161563",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Bad for Practice: A Critique of the Transaction Cost Theory; Sumantra Ghoshal, Peter Moran; The Academy of Management Review, 1996; DOI 10.5465/amr.1996.9602161563",
+    "why_this_example": "A named theoretical critique; exact form should be checked against publisher abstract before coding.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": [
+      "10.2307/258627"
+    ]
+  },
+  {
+    "id": "business_016",
+    "field": "business_management",
+    "form_id": "tutorial",
+    "title": "What Constitutes a Theoretical Contribution?",
+    "authors": [
+      "David A. Whetten"
+    ],
+    "year": 1989,
+    "venue": "The Academy of Management Review",
+    "doi": "10.5465/amr.1989.4308371",
+    "stable_url": "https://doi.org/10.5465/amr.1989.4308371",
+    "volume": "14",
+    "issue": "4",
+    "pages": "490",
+    "form_basis": "Publisher abstract discusses steps and tradeoffs in developing theory for researchers.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 4507,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1989.4308371",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1989.4308371",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "What Constitutes a Theoretical Contribution?; David A. Whetten; The Academy of Management Review, 1989; DOI 10.5465/amr.1989.4308371",
+    "why_this_example": "Publisher abstract discusses steps and tradeoffs in developing theory for researchers.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": [
+      "10.2307/258554"
+    ]
+  },
+  {
+    "id": "business_017",
+    "field": "business_management",
+    "form_id": "methods_paper",
+    "title": "Measuring organizational performance in the absence of objective measures: The case of the privately‐held firm and conglomerate business unit",
+    "authors": [
+      "Gregory G. Dess",
+      "Richard B. Robinson"
+    ],
+    "year": 1984,
+    "venue": "Strategic Management Journal",
+    "doi": "10.1002/smj.4250050306",
+    "stable_url": "https://doi.org/10.1002/smj.4250050306",
+    "volume": "5",
+    "issue": "3",
+    "pages": "265-273",
+    "form_basis": "Publisher abstract addresses measuring organizational performance where objective measures are unavailable.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS102949365%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 3409,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1002/smj.4250050306",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://doi.org/10.1002/smj.4250050306",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Measuring organizational performance in the absence of objective measures: The case of the privately‐held firm and conglomerate business unit; Gregory G. Dess, Richard B. Robinson; Strategic Management Journal, 1984; DOI 10.1002/smj.4250050306",
+    "why_this_example": "Publisher abstract addresses measuring organizational performance where objective measures are unavailable.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": []
+  },
+  {
+    "id": "business_018",
+    "field": "business_management",
+    "form_id": "empirical_report",
+    "title": "High-Performance Human Resource Practices, Citizenship Behavior, and Organizational Performance: A Relational Perspective",
+    "authors": [
+      "Li-Yun Sun",
+      "Samuel Aryee",
+      "Kenneth S. Law"
+    ],
+    "year": 2007,
+    "venue": "Academy of Management Journal",
+    "doi": "10.5465/amj.2007.25525821",
+    "stable_url": "https://doi.org/10.5465/amj.2007.25525821",
+    "volume": "50",
+    "issue": "3",
+    "pages": "558-577",
+    "form_basis": "Publisher abstract reports a multilevel analysis of hotels linking HR practices, citizenship behavior and performance.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS117778295%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 1546,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amj.2007.25525821",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amj.2007.25525821",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "High-Performance Human Resource Practices, Citizenship Behavior, and Organizational Performance: A Relational Perspective; Li-Yun Sun, Samuel Aryee, Kenneth S. Law; Academy of Management Journal, 2007; DOI 10.5465/amj.2007.25525821",
+    "why_this_example": "Publisher abstract reports a multilevel analysis of hotels linking HR practices, citizenship behavior and performance.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": []
+  },
+  {
+    "id": "business_019",
+    "field": "business_management",
+    "form_id": "empirical_report",
+    "title": "THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.",
+    "authors": [
+      "M. A. HUSELID"
+    ],
+    "year": 1995,
+    "venue": "Academy of Management Journal",
+    "doi": "10.5465/256741",
+    "stable_url": "https://doi.org/10.5465/256741",
+    "volume": "38",
+    "issue": "3",
+    "pages": "635-672",
+    "form_basis": "Publisher abstract reports analysis of a national sample of nearly 1,000 firms.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "OpenAlex citation count, venue queue",
+    "selection_evidence": "top 200 indexed to this venue through 2014 by OpenAlex cited_by_count; discovery signal only",
+    "selection_source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS117778295%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+    "citation_count": 9701,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T01:26:36.086818+00:00",
+    "verification_status": "Crossref live metadata; some publisher DOI requests redirect to a second DOI record for the same title",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/256741",
+        "retrieved_at": "2026-11-16 UTC"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/256741",
+        "retrieved_at": "2026-11-16 UTC"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.; M. A. HUSELID; Academy of Management Journal, 1995; DOI 10.5465/256741",
+    "why_this_example": "Publisher abstract reports analysis of a national sample of nearly 1,000 firms.",
+    "limitations": "Citation counts measure citations, not readership or writing quality. Full text not inspected.",
+    "doi_aliases": [
+      "10.2307/256741"
+    ]
+  },
+  {
+    "id": "business_020",
+    "field": "business_management",
+    "form_id": "personal_reflective_essay",
+    "title": "How I Did It: Giving Up the CEO Seat",
+    "authors": [
+      "Jeffrey Hollender"
+    ],
+    "year": 2010,
+    "venue": "Harvard Business Review",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://hbr.org/2010/03/how-i-did-it-giving-up-the-ceo-seat",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "A founder reflects in the first person on stepping down as CEO.",
+    "form_status": "publisher text and description support placement",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "HBR selected the essay for its How I Did It magazine series",
+    "selection_source_url": "https://hbr.org/archive-toc/BR1003",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "publisher metadata verified live; no bibliographic API match established",
+    "verification_sources": [
+      {
+        "provider": "Harvard Business Review publisher",
+        "query_url": "https://hbr.org/2010/03/how-i-did-it-giving-up-the-ceo-seat",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "How I Did It: Giving Up the CEO Seat; Jeffrey Hollender; Harvard Business Review, 2010; https://hbr.org/2010/03/how-i-did-it-giving-up-the-ceo-seat",
+    "why_this_example": "A founder reflects in the first person on stepping down as CEO.",
+    "limitations": "Editorial selection alone does not establish readership. DOI not identified. No full copy inspected."
+  },
+  {
+    "id": "business_021",
+    "field": "business_management",
+    "form_id": "personal_reflective_essay",
+    "title": "How I Did It: The CEO of Aramex on Turning a Failed Sale into a Huge Opportunity",
+    "authors": [
+      "Fadi Ghandour"
+    ],
+    "year": 2011,
+    "venue": "Harvard Business Review",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://hbr.org/2011/03/how-i-did-it-the-ceo-of-aramex-on-turning-a-failed-sale-into-a-huge-opportunity",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "The founder recounts a failed sale and how the business grew.",
+    "form_status": "publisher text and description support placement",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "HBR selected the essay for its How I Did It magazine series",
+    "selection_source_url": "https://hbr.org/archive-toc/BR1103",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "publisher metadata verified live; no bibliographic API match established",
+    "verification_sources": [
+      {
+        "provider": "Harvard Business Review publisher",
+        "query_url": "https://hbr.org/2011/03/how-i-did-it-the-ceo-of-aramex-on-turning-a-failed-sale-into-a-huge-opportunity",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "How I Did It: The CEO of Aramex on Turning a Failed Sale into a Huge Opportunity; Fadi Ghandour; Harvard Business Review, 2011; https://hbr.org/2011/03/how-i-did-it-the-ceo-of-aramex-on-turning-a-failed-sale-into-a-huge-opportunity",
+    "why_this_example": "The founder recounts a failed sale and how the business grew.",
+    "limitations": "Editorial selection alone does not establish readership. DOI not identified. No full copy inspected."
+  },
+  {
+    "id": "business_022",
+    "field": "business_management",
+    "form_id": "personal_reflective_essay",
+    "title": "How Will You Measure Your Life?",
+    "authors": [
+      "Clayton M. Christensen"
+    ],
+    "year": 2010,
+    "venue": "Harvard Business Review",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://hbr.org/2010/07/how-will-you-measure-your-life",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "A management scholar reflects on personal decisions and applying business ideas to life.",
+    "form_status": "publisher text and description support placement",
+    "selection_signal_type": "publisher bestseller",
+    "selection_evidence": "HBR bestseller designation",
+    "selection_source_url": "https://hbr.org/archive-toc/BR1007",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "publisher metadata verified live; no bibliographic API match established",
+    "verification_sources": [
+      {
+        "provider": "Harvard Business Review publisher",
+        "query_url": "https://hbr.org/2010/07/how-will-you-measure-your-life",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "How Will You Measure Your Life?; Clayton M. Christensen; Harvard Business Review, 2010; https://hbr.org/2010/07/how-will-you-measure-your-life",
+    "why_this_example": "A management scholar reflects on personal decisions and applying business ideas to life.",
+    "limitations": "Editorial selection alone does not establish readership. DOI not identified. No full copy inspected."
+  },
+  {
+    "id": "business_023",
+    "field": "business_management",
+    "form_id": "argument_perspective",
+    "title": "What Is Strategy?",
+    "authors": [
+      "Michael E. Porter"
+    ],
+    "year": 1996,
+    "venue": "Harvard Business Review",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://hbr.org/1996/11/what-is-strategy",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Argues that strategy involves distinct positioning and tradeoffs, beyond operational effectiveness.",
+    "form_status": "publisher text and description support placement",
+    "selection_signal_type": "publisher bestseller",
+    "selection_evidence": "HBR bestseller designation",
+    "selection_source_url": "https://hbr.org/archive-toc/3966",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "publisher metadata verified live; no bibliographic API match established",
+    "verification_sources": [
+      {
+        "provider": "Harvard Business Review publisher",
+        "query_url": "https://hbr.org/1996/11/what-is-strategy",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "What Is Strategy?; Michael E. Porter; Harvard Business Review, 1996; https://hbr.org/1996/11/what-is-strategy",
+    "why_this_example": "Argues that strategy involves distinct positioning and tradeoffs, beyond operational effectiveness.",
+    "limitations": "Editorial selection alone does not establish readership. DOI not identified. No full copy inspected."
+  },
+  {
+    "id": "business_024",
+    "field": "business_management",
+    "form_id": "argument_perspective",
+    "title": "The Fall and Rise of Strategic Planning",
+    "authors": [
+      "Henry Mintzberg"
+    ],
+    "year": 1994,
+    "venue": "Harvard Business Review",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://hbr.org/1994/01/the-fall-and-rise-of-strategic-planning",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Challenges the conflation of formal planning and strategic thinking.",
+    "form_status": "publisher text and description support placement",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "HBR magazine editorial selection",
+    "selection_source_url": "https://store.hbr.org/product/fall-and-rise-of-strategic-planning/94107",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "publisher metadata verified live; no bibliographic API match established",
+    "verification_sources": [
+      {
+        "provider": "Harvard Business Review publisher",
+        "query_url": "https://hbr.org/1994/01/the-fall-and-rise-of-strategic-planning",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "The Fall and Rise of Strategic Planning; Henry Mintzberg; Harvard Business Review, 1994; https://hbr.org/1994/01/the-fall-and-rise-of-strategic-planning",
+    "why_this_example": "Challenges the conflation of formal planning and strategic thinking.",
+    "limitations": "Editorial selection alone does not establish readership. DOI not identified. No full copy inspected."
+  },
+  {
+    "id": "business_025",
+    "field": "business_management",
+    "form_id": "conceptual_explainer",
+    "title": "The Five Competitive Forces That Shape Strategy",
+    "authors": [
+      "Michael E. Porter"
+    ],
+    "year": 2008,
+    "venue": "Harvard Business Review",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Explains the five competitive forces and how they shape industry structure.",
+    "form_status": "publisher text and description support placement",
+    "selection_signal_type": "publisher bestseller",
+    "selection_evidence": "HBR bestseller designation",
+    "selection_source_url": "https://hbr.org/archive-toc/BR0801",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "publisher metadata verified live and PubMed",
+    "verification_sources": [
+      {
+        "provider": "Harvard Business Review publisher",
+        "query_url": "https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      },
+      {
+        "provider": "PubMed",
+        "query_url": "https://pubmed.ncbi.nlm.nih.gov/18271320/",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "The Five Competitive Forces That Shape Strategy; Michael E. Porter; Harvard Business Review, 2008; https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy; PMID 18271320",
+    "why_this_example": "Explains the five competitive forces and how they shape industry structure.",
+    "limitations": "Editorial selection alone does not establish readership. DOI not identified. No full copy inspected."
+  },
+  {
+    "id": "business_026",
+    "field": "business_management",
+    "form_id": "conceptual_explainer",
+    "title": "Why Business Models Matter",
+    "authors": [
+      "Joan Magretta"
+    ],
+    "year": 2002,
+    "venue": "Harvard Business Review",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://hbr.org/2002/05/why-business-models-matter",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Explains the business model and its relationship to strategy.",
+    "form_status": "publisher text and description support placement",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "HBR selected feature and publisher reissued the work",
+    "selection_source_url": "https://store.hbr.org/product/why-business-models-matter/R0205F",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "publisher metadata verified live; no bibliographic API match established",
+    "verification_sources": [
+      {
+        "provider": "Harvard Business Review publisher",
+        "query_url": "https://hbr.org/2002/05/why-business-models-matter",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Why Business Models Matter; Joan Magretta; Harvard Business Review, 2002; https://hbr.org/2002/05/why-business-models-matter",
+    "why_this_example": "Explains the business model and its relationship to strategy.",
+    "limitations": "Editorial selection alone does not establish readership. DOI not identified. No full copy inspected."
+  },
+  {
+    "id": "business_027",
+    "field": "business_management",
+    "form_id": "conceptual_explainer",
+    "title": "What Is Disruptive Innovation?",
+    "authors": [
+      "Clayton M. Christensen",
+      "Michael E. Raynor",
+      "Rory McDonald"
+    ],
+    "year": 2015,
+    "venue": "Harvard Business Review",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://hbr.org/2015/12/what-is-disruptive-innovation",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Explains a theory and common misapplications.",
+    "form_status": "publisher text and description support placement",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "HBR selected work as a classic",
+    "selection_source_url": "https://hbr.org/2015/12/what-is-disruptive-innovation",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "publisher metadata verified live; no bibliographic API match established",
+    "verification_sources": [
+      {
+        "provider": "Harvard Business Review publisher",
+        "query_url": "https://hbr.org/2015/12/what-is-disruptive-innovation",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "2015 supplement",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "What Is Disruptive Innovation?; Clayton M. Christensen, Michael E. Raynor, Rory McDonald; Harvard Business Review, 2015; https://hbr.org/2015/12/what-is-disruptive-innovation",
+    "why_this_example": "Explains a theory and common misapplications.",
+    "limitations": "Editorial selection alone does not establish readership. DOI not identified. No full copy inspected."
+  },
+  {
+    "id": "business_028",
+    "field": "business_management",
+    "form_id": "procedure_how_to",
+    "title": "How to Write a Great Business Plan",
+    "authors": [
+      "William A. Sahlman"
+    ],
+    "year": 1997,
+    "venue": "Harvard Business Review",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://hbr.org/1997/07/how-to-write-a-great-business-plan",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Provides questions and components for preparing a business plan.",
+    "form_status": "publisher text and description support placement",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "Publisher selected for entrepreneurial finance collection",
+    "selection_source_url": "https://hbr.org/insight-center/entrepreneurship-for-the-long-term",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "publisher metadata verified live and PubMed",
+    "verification_sources": [
+      {
+        "provider": "Harvard Business Review publisher",
+        "query_url": "https://hbr.org/1997/07/how-to-write-a-great-business-plan",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      },
+      {
+        "provider": "PubMed",
+        "query_url": "https://pubmed.ncbi.nlm.nih.gov/10168340/",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "How to Write a Great Business Plan; William A. Sahlman; Harvard Business Review, 1997; https://hbr.org/1997/07/how-to-write-a-great-business-plan; PMID 10168340",
+    "why_this_example": "Provides questions and components for preparing a business plan.",
+    "limitations": "Editorial selection alone does not establish readership. DOI not identified. No full copy inspected."
+  },
+  {
+    "id": "business_029",
+    "field": "business_management",
+    "form_id": "procedure_how_to",
+    "title": "Managing Your Boss",
+    "authors": [
+      "John J. Gabarro",
+      "John P. Kotter"
+    ],
+    "year": 1980,
+    "venue": "Harvard Business Review",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://hbr.org/2005/01/managing-your-boss",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Offers practical steps for understanding and managing a working relationship.",
+    "form_status": "publisher text and description support placement",
+    "selection_signal_type": "publisher bestseller",
+    "selection_evidence": "HBR bestseller designation",
+    "selection_source_url": "https://hbr.org/archive-toc/BR0501",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "publisher metadata verified live and PubMed",
+    "verification_sources": [
+      {
+        "provider": "Harvard Business Review publisher",
+        "query_url": "https://hbr.org/2005/01/managing-your-boss",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      },
+      {
+        "provider": "PubMed",
+        "query_url": "https://pubmed.ncbi.nlm.nih.gov/10245410/",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014; linked publisher version is a 2005 reprint; PubMed gives 1980 title with subtitle",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Managing Your Boss; John J. Gabarro, John P. Kotter; Harvard Business Review, 1980; https://hbr.org/2005/01/managing-your-boss; PMID 10245410",
+    "why_this_example": "Offers practical steps for understanding and managing a working relationship.",
+    "limitations": "Editorial selection alone does not establish readership. DOI not identified. No full copy inspected."
+  },
+  {
+    "id": "business_030",
+    "field": "business_management",
+    "form_id": "procedure_how_to",
+    "title": "Discovering Your Authentic Leadership",
+    "authors": [
+      "Bill George",
+      "Peter Sims",
+      "Andrew N. McLean",
+      "Diana Mayer"
+    ],
+    "year": 2007,
+    "venue": "Harvard Business Review",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://hbr.org/2007/02/discovering-your-authentic-leadership",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Guides readers through developing self-knowledge and authentic leadership.",
+    "form_status": "publisher text and description support placement",
+    "selection_signal_type": "publisher bestseller",
+    "selection_evidence": "HBR bestseller designation",
+    "selection_source_url": "https://hbr.org/archive-toc/BR0702",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "publisher metadata verified live; no bibliographic API match established",
+    "verification_sources": [
+      {
+        "provider": "Harvard Business Review publisher",
+        "query_url": "https://hbr.org/2007/02/discovering-your-authentic-leadership",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Discovering Your Authentic Leadership; Bill George, Peter Sims, Andrew N. McLean, Diana Mayer; Harvard Business Review, 2007; https://hbr.org/2007/02/discovering-your-authentic-leadership",
+    "why_this_example": "Guides readers through developing self-knowledge and authentic leadership.",
+    "limitations": "Editorial selection alone does not establish readership. DOI not identified. No full copy inspected."
+  },
+  {
+    "id": "business_031",
+    "field": "business_management",
+    "form_id": "empirical_report",
+    "title": "Social Capital and Organizational Performance: Evidence from Urban Public Schools",
+    "authors": [
+      "Carrie R. Leana",
+      "Frits K. Pil"
+    ],
+    "year": 2006,
+    "venue": "Organization Science",
+    "doi": "10.1287/orsc.1060.0191",
+    "doi_aliases": [],
+    "stable_url": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.1060.0191",
+    "volume": "17",
+    "issue": "3",
+    "pages": "353-366",
+    "form_basis": "Publisher abstract reports data from 88 urban schools and tests hypotheses on social capital and performance.",
+    "form_status": "publisher description supports placement",
+    "selection_signal_type": "citation count",
+    "selection_evidence": "OpenAlex cited_by_count at retrieval",
+    "selection_source_url": "https://api.openalex.org/works/https://doi.org/10.1287/orsc.1060.0191",
+    "citation_count": 703,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T15:18:42.970787+00:00",
+    "verification_status": "Crossref live metadata and publisher description",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1287/orsc.1060.0191",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.1060.0191",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Social Capital and Organizational Performance: Evidence from Urban Public Schools; Carrie R. Leana, Frits K. Pil; Organization Science, 2006; DOI 10.1287/orsc.1060.0191",
+    "why_this_example": "Publisher abstract reports data from 88 urban schools and tests hypotheses on social capital and performance.",
+    "limitations": "Full text not inspected for all entries; editorial selection is not a readership claim."
+  },
+  {
+    "id": "business_032",
+    "field": "business_management",
+    "form_id": "tutorial",
+    "title": "From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research",
+    "authors": [
+      "Michael G. Pratt"
+    ],
+    "year": 2009,
+    "venue": "Academy of Management Journal",
+    "doi": "10.5465/amj.2009.44632557",
+    "doi_aliases": [],
+    "stable_url": "https://journals.aom.org/doi/full/10.5465/AMJ.2009.44632557",
+    "volume": "52",
+    "issue": "5",
+    "pages": "856-862",
+    "form_basis": "Publisher full text provides practical guidance for writing and reviewing qualitative research.",
+    "form_status": "publisher description supports placement",
+    "selection_signal_type": "citation count",
+    "selection_evidence": "OpenAlex cited_by_count at retrieval",
+    "selection_source_url": "https://api.openalex.org/works/https://doi.org/10.5465/amj.2009.44632557",
+    "citation_count": 1744,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T15:18:42.970787+00:00",
+    "verification_status": "Crossref live metadata and publisher description",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amj.2009.44632557",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/full/10.5465/AMJ.2009.44632557",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research; Michael G. Pratt; Academy of Management Journal, 2009; DOI 10.5465/amj.2009.44632557",
+    "why_this_example": "Publisher full text provides practical guidance for writing and reviewing qualitative research.",
+    "limitations": "Full text not inspected for all entries; editorial selection is not a readership claim."
+  },
+  {
+    "id": "business_033",
+    "field": "business_management",
+    "form_id": "tutorial",
+    "title": "Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis",
+    "authors": [
+      "James C. Hayton",
+      "David G. Allen",
+      "Vida Scarpello"
+    ],
+    "year": 2004,
+    "venue": "Organizational Research Methods",
+    "doi": "10.1177/1094428104263675",
+    "doi_aliases": [],
+    "stable_url": "https://journals.sagepub.com/doi/10.1177/1094428104263675",
+    "volume": "7",
+    "issue": "2",
+    "pages": "191-205",
+    "form_basis": "Publisher describes a tutorial on choosing factors using parallel analysis.",
+    "form_status": "publisher description supports placement",
+    "selection_signal_type": "citation count",
+    "selection_evidence": "OpenAlex cited_by_count at retrieval",
+    "selection_source_url": "https://api.openalex.org/works/https://doi.org/10.1177/1094428104263675",
+    "citation_count": 3358,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T15:18:42.970787+00:00",
+    "verification_status": "Crossref live metadata and publisher description",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1177/1094428104263675",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.sagepub.com/doi/10.1177/1094428104263675",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis; James C. Hayton, David G. Allen, Vida Scarpello; Organizational Research Methods, 2004; DOI 10.1177/1094428104263675",
+    "why_this_example": "Publisher describes a tutorial on choosing factors using parallel analysis.",
+    "limitations": "Full text not inspected for all entries; editorial selection is not a readership claim."
+  },
+  {
+    "id": "business_034",
+    "field": "business_management",
+    "form_id": "critical_review_of_work",
+    "title": "From the Ground Up: Six Principles for Building the New Logic Corporation",
+    "authors": [
+      "Dave Ulrich"
+    ],
+    "year": 1998,
+    "venue": "Academy of Management Review",
+    "doi": "10.5465/amr.1998.192979",
+    "doi_aliases": [],
+    "stable_url": "https://journals.aom.org/doi/10.5465/amr.1998.192979",
+    "volume": "23",
+    "issue": "1",
+    "pages": "180-182",
+    "form_basis": "Publisher identifies this as Dave Ulrich’s review of a named management book; the selected work is the review article.",
+    "form_status": "publisher description supports placement",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "Editorial selection of review of a named management work",
+    "selection_source_url": "https://journals.aom.org/doi/10.5465/amr.1998.192979",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref live metadata and publisher description",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1998.192979",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1998.192979",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Dave Ulrich. From the Ground Up: Six Principles for Building the New Logic Corporation. Academy of Management Review, 1998; review article. DOI 10.5465/amr.1998.192979",
+    "why_this_example": "Publisher identifies this as Dave Ulrich’s review of a named management book; the selected work is the review article.",
+    "limitations": "Full text not inspected for all entries; editorial selection is not a readership claim. Crossref returned a concatenated title; title and reviewer are taken from publisher record."
+  },
+  {
+    "id": "business_035",
+    "field": "business_management",
+    "form_id": "critical_review_of_work",
+    "title": "Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry",
+    "authors": [
+      "Chris Argyris"
+    ],
+    "year": 1990,
+    "venue": "Academy of Management Review",
+    "doi": "10.5465/amr.1990.4309121",
+    "doi_aliases": [],
+    "stable_url": "https://journals.aom.org/doi/10.5465/amr.1990.4309121",
+    "volume": "15",
+    "issue": "3",
+    "pages": "536-537",
+    "form_basis": "Publisher identifies Chris Argyris as reviewer of Robert Cole’s named book; the selected work is the review article.",
+    "form_status": "publisher description supports placement",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "Editorial selection of review of a named management work",
+    "selection_source_url": "https://journals.aom.org/doi/10.5465/amr.1990.4309121",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref live metadata and publisher description",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.5465/amr.1990.4309121",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.aom.org/doi/10.5465/amr.1990.4309121",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Chris Argyris. Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry. Academy of Management Review, 1990; review article. DOI 10.5465/amr.1990.4309121",
+    "why_this_example": "Publisher identifies Chris Argyris as reviewer of Robert Cole’s named book; the selected work is the review article.",
+    "limitations": "Full text not inspected for all entries; editorial selection is not a readership claim. Crossref returned a concatenated title; title and reviewer are taken from publisher record."
+  },
+  {
+    "id": "business_036",
+    "field": "business_management",
+    "form_id": "critical_review_of_work",
+    "title": "Book Review: Cambridge Handbook of Strategy as Practice",
+    "authors": [
+      "Stewart R. Clegg"
+    ],
+    "year": 2011,
+    "venue": "Organization Studies",
+    "doi": "10.1177/0170840611416736",
+    "doi_aliases": [],
+    "stable_url": "https://journals.sagepub.com/doi/10.1177/0170840611416736",
+    "volume": "32",
+    "issue": "11",
+    "pages": "1587-1589",
+    "form_basis": "Publisher identifies Stewart Clegg’s review of the named edited handbook; the selected work is the review article.",
+    "form_status": "publisher description supports placement",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "Editorial selection of review of a named management work",
+    "selection_source_url": "https://journals.sagepub.com/doi/10.1177/0170840611416736",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref live metadata and publisher description",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1177/0170840611416736",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://journals.sagepub.com/doi/10.1177/0170840611416736",
+        "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Book Review: Cambridge Handbook of Strategy as Practice; Stewart R. Clegg; Organization Studies, 2011; DOI 10.1177/0170840611416736",
+    "why_this_example": "Publisher identifies Stewart Clegg’s review of the named edited handbook; the selected work is the review article.",
+    "limitations": "Full text not inspected for all entries; editorial selection is not a readership claim."
+  },
+  {
+    "id": "business_037",
+    "field": "business_management",
+    "form_id": "study_review_protocol",
+    "title": "Protocol: A Meta-Review on continuous improvement to know the state of this research field",
+    "authors": [
+      "Lidia Sanchez-Ruiz",
+      "Juan A. Marin-Garcia",
+      "Beatriz Blanco"
+    ],
+    "year": 2018,
+    "venue": "WPOM-Working Papers on Operations Management",
+    "doi": "10.4995/wpom.v9i2.10752",
+    "doi_aliases": [],
+    "stable_url": "https://www.polipapers.upv.es/index.php/WPOM/article/view/10752",
+    "volume": "9",
+    "issue": "2",
+    "pages": "88-111",
+    "form_basis": "A specific protocol for conducting a meta-review on continuous improvement; publisher abstract describes its scope and purpose.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "Peer-reviewed individual article selected for relevance to underrepresented management form; no claim of high citation or readership.",
+    "selection_source_url": "https://www.polipapers.upv.es/index.php/WPOM/article/view/10752",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref live metadata and publisher abstract",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.4995/wpom.v9i2.10752",
+        "retrieved_at": "2026-11-16T15:19:58.258426+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://www.polipapers.upv.es/index.php/WPOM/article/view/10752",
+        "retrieved_at": "2026-11-16T15:19:58.258426+00:00"
+      }
+    ],
+    "date_notes": "2015–2019 supplement",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Protocol: A Meta-Review on continuous improvement to know the state of this research field; Lidia Sanchez-Ruiz, Juan A. Marin-Garcia, Beatriz Blanco; WPOM-Working Papers on Operations Management, 2018; DOI 10.4995/wpom.v9i2.10752",
+    "why_this_example": "A specific protocol for conducting a meta-review on continuous improvement; publisher abstract describes its scope and purpose.",
+    "limitations": "Not established highly cited or widely read; publisher journal selection is the available notability signal. Full text not inspected."
+  },
+  {
+    "id": "business_038",
+    "field": "business_management",
+    "form_id": "scoping_review",
+    "title": "Lean implementation in healthcare supply chain: a scoping review",
+    "authors": [
+      "Gabriela Aline Borges",
+      "Guilherme Tortorella",
+      "Matteo Rossini",
+      "Alberto Portioli-Staudacher"
+    ],
+    "year": 2019,
+    "venue": "Journal of Health Organization and Management",
+    "doi": "10.1108/JHOM-06-2018-0176",
+    "doi_aliases": [],
+    "stable_url": "https://www.sciencedirect.com/science/article/pii/S1477726619000158",
+    "volume": "33",
+    "issue": "3",
+    "pages": "304-322",
+    "form_basis": "Publisher describes a scoping review of lean production practices and barriers in healthcare supply chains.",
+    "form_status": "publisher abstract supports placement",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "Peer-reviewed individual article selected for relevance to underrepresented management form; no claim of high citation or readership.",
+    "selection_source_url": "https://www.sciencedirect.com/science/article/pii/S1477726619000158",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref live metadata and publisher abstract",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1108/JHOM-06-2018-0176",
+        "retrieved_at": "2026-11-16T15:19:58.258426+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://www.sciencedirect.com/science/article/pii/S1477726619000158",
+        "retrieved_at": "2026-11-16T15:19:58.258426+00:00"
+      }
+    ],
+    "date_notes": "2015–2019 supplement",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Lean implementation in healthcare supply chain: a scoping review; Gabriela Aline Borges, Guilherme Tortorella, Matteo Rossini, Alberto Portioli-Staudacher; Journal of Health Organization and Management, 2019; DOI 10.1108/JHOM-06-2018-0176",
+    "why_this_example": "Publisher describes a scoping review of lean production practices and barriers in healthcare supply chains.",
+    "limitations": "Not established highly cited or widely read; publisher journal selection is the available notability signal. Full text not inspected."
+  },
+  {
+    "id": "business_039",
+    "field": "business_management",
+    "form_id": "proposal",
+    "title": "Proposal 5 – Right to Action by Written Consent",
+    "authors": [
+      "John Chevedden"
+    ],
+    "year": 2014,
+    "venue": "eBay 2014 Proxy Statement",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://www.sec.gov/Archives/edgar/data/1065088/000119312514112751/d661450ddefc14a.htm",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Actual shareholder proposal requests board action and supplies supporting argument; contained in company proxy.",
+    "form_status": "actual shareholder proposal in corporate SEC filing",
+    "selection_signal_type": "public primary-source institutional record",
+    "selection_evidence": "Actual corporate proxy proposal presented as a source example; wide readership or citation prominence not established",
+    "selection_source_url": "https://www.sec.gov/Archives/edgar/data/1065088/000119312514112751/d661450ddefc14a.htm",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "verified against primary document metadata and text",
+    "verification_sources": [
+      {
+        "provider": "U.S. government archive of original document",
+        "query_url": "https://www.sec.gov/Archives/edgar/data/1065088/000119312514112751/d661450ddefc14a.htm",
+        "retrieved_at": "2026-11-16T15:20:44.366530+00:00"
+      }
+    ],
+    "date_notes": "original document, through 2014",
+    "copy_status": "public source text located; complete copy not separately retrieved or assessed",
+    "retrieval_locator": "Proposal 5 – Right to Action by Written Consent; John Chevedden; eBay 2014 Proxy Statement, 2014; https://www.sec.gov/Archives/edgar/data/1065088/000119312514112751/d661450ddefc14a.htm",
+    "why_this_example": "Actual shareholder proposal requests board action and supplies supporting argument; contained in company proxy.",
+    "limitations": "No claim of citation or readership prominence; an embedded proposal is not the complete proxy statement."
+  },
+  {
+    "id": "business_040",
+    "field": "business_management",
+    "form_id": "proposal",
+    "title": "Producer Responsibility for Packaging",
+    "authors": [
+      "Cedar Tree Foundation",
+      "As You Sow"
+    ],
+    "year": 2012,
+    "venue": "Kraft Foods Preliminary Proxy Statement, Item 6",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://www.sec.gov/Archives/edgar/data/1103982/000119312512129962/d294291dpre14a.htm",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "An actual shareholder proposal asks the board to assess a packaging responsibility policy; As You Sow represented the foundation.",
+    "form_status": "actual shareholder proposal in corporate SEC filing",
+    "selection_signal_type": "public primary-source institutional record",
+    "selection_evidence": "Actual corporate proxy proposal presented as a source example; wide readership or citation prominence not established",
+    "selection_source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000119312512129962/d294291dpre14a.htm",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "verified against primary document metadata and text",
+    "verification_sources": [
+      {
+        "provider": "U.S. government archive of original document",
+        "query_url": "https://www.sec.gov/Archives/edgar/data/1103982/000119312512129962/d294291dpre14a.htm",
+        "retrieved_at": "2026-11-16T15:20:44.366530+00:00"
+      }
+    ],
+    "date_notes": "original document, through 2014",
+    "copy_status": "public source text located; complete copy not separately retrieved or assessed",
+    "retrieval_locator": "Producer Responsibility for Packaging; Cedar Tree Foundation, As You Sow; Kraft Foods Preliminary Proxy Statement, Item 6, 2012; https://www.sec.gov/Archives/edgar/data/1103982/000119312512129962/d294291dpre14a.htm",
+    "why_this_example": "An actual shareholder proposal asks the board to assess a packaging responsibility policy; As You Sow represented the foundation.",
+    "limitations": "No claim of citation or readership prominence; an embedded proposal is not the complete proxy statement."
+  },
+  {
+    "id": "business_041",
+    "field": "business_management",
+    "form_id": "proposal",
+    "title": "Issuance of a Sustainability Report to Shareholders",
+    "authors": [
+      "Calvert Asset Management Company, Inc."
+    ],
+    "year": 2007,
+    "venue": "Pentair Preliminary Proxy Statement, Proposal 5",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://www.sec.gov/Archives/edgar/data/77360/000095013707003224/c12468pre14a.htm",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "An actual shareholder proposal requests a sustainability report, with supporting statement and board response.",
+    "form_status": "actual shareholder proposal in corporate SEC filing",
+    "selection_signal_type": "public primary-source institutional record",
+    "selection_evidence": "Actual corporate proxy proposal presented as a source example; wide readership or citation prominence not established",
+    "selection_source_url": "https://www.sec.gov/Archives/edgar/data/77360/000095013707003224/c12468pre14a.htm",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "verified against primary document metadata and text",
+    "verification_sources": [
+      {
+        "provider": "U.S. government archive of original document",
+        "query_url": "https://www.sec.gov/Archives/edgar/data/77360/000095013707003224/c12468pre14a.htm",
+        "retrieved_at": "2026-11-16T15:20:44.366530+00:00"
+      }
+    ],
+    "date_notes": "original document, through 2014",
+    "copy_status": "public source text located; complete copy not separately retrieved or assessed",
+    "retrieval_locator": "Issuance of a Sustainability Report to Shareholders; Calvert Asset Management Company, Inc.; Pentair Preliminary Proxy Statement, Proposal 5, 2007; https://www.sec.gov/Archives/edgar/data/77360/000095013707003224/c12468pre14a.htm",
+    "why_this_example": "An actual shareholder proposal requests a sustainability report, with supporting statement and board response.",
+    "limitations": "No claim of citation or readership prominence; an embedded proposal is not the complete proxy statement."
+  },
+  {
+    "id": "business_042",
+    "field": "business_management",
+    "form_id": "decision_memo",
+    "title": "The Internet Tidal Wave",
+    "authors": [
+      "Bill Gates"
+    ],
+    "year": 1995,
+    "venue": "Microsoft internal memorandum; U.S. Department of Justice Government Exhibit 20",
+    "doi": null,
+    "doi_aliases": [],
+    "stable_url": "https://www.justice.gov/sites/default/files/atr/legacy/2006/03/03/20.pdf",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Internal strategic direction memo communicates decisions and proposed actions; not a demonstrated request-for-decision memo.",
+    "form_status": "conditional analogue: direction memorandum",
+    "selection_signal_type": "public primary-source institutional record",
+    "selection_evidence": "US official court exhibit; Microsoft identifies this memo in its corporate history",
+    "selection_source_url": "https://news.microsoft.com/microsoft-50/",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "verified against primary document metadata and text",
+    "verification_sources": [
+      {
+        "provider": "U.S. government archive of original document",
+        "query_url": "https://www.justice.gov/sites/default/files/atr/legacy/2006/03/03/20.pdf",
+        "retrieved_at": "2026-11-16T15:20:44.366530+00:00"
+      }
+    ],
+    "date_notes": "original document, through 2014",
+    "copy_status": "public source text located; complete copy not separately retrieved or assessed",
+    "retrieval_locator": "The Internet Tidal Wave; Bill Gates; Microsoft internal memorandum; U.S. Department of Justice Government Exhibit 20, 1995; https://www.justice.gov/sites/default/files/atr/legacy/2006/03/03/20.pdf",
+    "why_this_example": "Internal strategic direction memo communicates decisions and proposed actions; not a demonstrated request-for-decision memo.",
+    "limitations": "Direction-setting document rather than a decision request; not counted."
+  },
+  {
+    "id": "business_043",
+    "field": "business_management",
+    "form_id": "reference_entry",
+    "title": "Organizational Culture Theory",
+    "authors": [
+      "Joanne Martin"
+    ],
+    "year": 2013,
+    "venue": "Encyclopedia of Management Theory",
+    "doi": "10.4135/9781452276090.n192",
+    "doi_aliases": [],
+    "stable_url": "https://sk.sagepub.com/ency/edvol/embed/encyclopedia-of-management-theory/chpt/organizational-culture-theory",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Publisher describes this specific encyclopedia entry defining and explaining a management concept.",
+    "form_status": "individual reference entry; not the reference book",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "Edited publisher reference-work entry; citation or readership prominence not established.",
+    "selection_source_url": "https://sk.sagepub.com/ency/edvol/embed/encyclopedia-of-management-theory/chpt/organizational-culture-theory",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref and publisher entry metadata live verified",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.4135/9781452276090.n192",
+        "retrieved_at": "2026-11-16T15:22:04.758733+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://sk.sagepub.com/ency/edvol/embed/encyclopedia-of-management-theory/chpt/organizational-culture-theory",
+        "retrieved_at": "2026-11-16T15:22:04.758733+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Organizational Culture Theory; Joanne Martin; Encyclopedia of Management Theory, 2013; DOI 10.4135/9781452276090.n192",
+    "why_this_example": "Compact, individually citable reference entry with defined explanatory purpose.",
+    "limitations": "Individual entries in edited reference books, not standalone books; no readership evidence."
+  },
+  {
+    "id": "business_044",
+    "field": "business_management",
+    "form_id": "reference_entry",
+    "title": "Competitive Advantage",
+    "authors": [
+      "John McGee"
+    ],
+    "year": 2015,
+    "venue": "Wiley Encyclopedia of Management",
+    "doi": "10.1002/9781118785317.weom120077",
+    "doi_aliases": [],
+    "stable_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118785317.weom120077",
+    "volume": null,
+    "issue": null,
+    "pages": "1-6",
+    "form_basis": "Publisher describes this specific encyclopedia entry defining and explaining a management concept.",
+    "form_status": "individual reference entry; not the reference book",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "Edited publisher reference-work entry; citation or readership prominence not established.",
+    "selection_source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118785317.weom120077",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref and publisher entry metadata live verified",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1002/9781118785317.weom120077",
+        "retrieved_at": "2026-11-16T15:22:04.758733+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118785317.weom120077",
+        "retrieved_at": "2026-11-16T15:22:04.758733+00:00"
+      }
+    ],
+    "date_notes": "2015–2019 supplement",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Competitive Advantage; John McGee; Wiley Encyclopedia of Management, 2015; DOI 10.1002/9781118785317.weom120077",
+    "why_this_example": "Compact, individually citable reference entry with defined explanatory purpose.",
+    "limitations": "Individual entries in edited reference books, not standalone books; no readership evidence."
+  },
+  {
+    "id": "business_045",
+    "field": "business_management",
+    "form_id": "reference_entry",
+    "title": "Strategic Management",
+    "authors": [
+      "Stephen Cummings"
+    ],
+    "year": 2015,
+    "venue": "Wiley Encyclopedia of Management",
+    "doi": "10.1002/9781118785317.weom120169",
+    "doi_aliases": [],
+    "stable_url": "https://onlinelibrary.wiley.com/doi/10.1002/9781118785317.weom120169",
+    "volume": null,
+    "issue": null,
+    "pages": "1-5",
+    "form_basis": "Publisher describes this specific encyclopedia entry defining and explaining a management concept.",
+    "form_status": "individual reference entry; not the reference book",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "Edited publisher reference-work entry; citation or readership prominence not established.",
+    "selection_source_url": "https://onlinelibrary.wiley.com/doi/10.1002/9781118785317.weom120169",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref and publisher entry metadata live verified",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1002/9781118785317.weom120169",
+        "retrieved_at": "2026-11-16T15:22:04.758733+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://onlinelibrary.wiley.com/doi/10.1002/9781118785317.weom120169",
+        "retrieved_at": "2026-11-16T15:22:04.758733+00:00"
+      }
+    ],
+    "date_notes": "2015–2019 supplement",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Strategic Management; Stephen Cummings; Wiley Encyclopedia of Management, 2015; DOI 10.1002/9781118785317.weom120169",
+    "why_this_example": "Compact, individually citable reference entry with defined explanatory purpose.",
+    "limitations": "Individual entries in edited reference books, not standalone books; no readership evidence."
+  },
+  {
+    "id": "business_046",
+    "field": "business_management",
+    "form_id": "scoping_review",
+    "title": "Authentic leadership in healthcare: a scoping review",
+    "authors": [
+      "Niina Malila",
+      "Nina Lunkka",
+      "Marjo Suhonen"
+    ],
+    "year": 2017,
+    "venue": "Leadership in Health Services",
+    "doi": "10.1108/LHS-02-2017-0007",
+    "doi_aliases": [],
+    "stable_url": "https://www.sciencedirect.com/org/science/article/pii/S1751187917000161",
+    "volume": "31",
+    "issue": "1",
+    "pages": "129-146",
+    "form_basis": "Maps authentic leadership evidence, research themes, and methods in healthcare organizations.",
+    "form_status": "publisher or indexed abstract supports scoping review",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "Peer-reviewed management leadership study in a healthcare organization; citation or readership prominence not established.",
+    "selection_source_url": "https://www.sciencedirect.com/org/science/article/pii/S1751187917000161",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref and PubMed live verified",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1108/LHS-02-2017-0007",
+        "retrieved_at": "2026-11-16T15:22:39.792216+00:00"
+      },
+      {
+        "provider": "PubMed",
+        "query_url": "https://pubmed.ncbi.nlm.nih.gov/29412093/",
+        "retrieved_at": "2026-11-16T15:22:39.792216+00:00"
+      },
+      {
+        "provider": "publisher",
+        "query_url": "https://www.sciencedirect.com/org/science/article/pii/S1751187917000161",
+        "retrieved_at": "2026-11-16T15:22:39.792216+00:00"
+      }
+    ],
+    "date_notes": "Online 2017; journal issue 2018; 2015–2019 supplement.",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Authentic leadership in healthcare: a scoping review; Niina Malila, Nina Lunkka, Marjo Suhonen; Leadership in Health Services, 2017; DOI 10.1108/LHS-02-2017-0007",
+    "why_this_example": "Maps authentic leadership evidence, research themes, and methods in healthcare organizations.",
+    "limitations": "Healthcare management crossover, not general business; editorial selection is not readership."
+  },
+  {
+    "id": "business_047",
+    "field": "business_management",
+    "form_id": "scoping_review",
+    "title": "Return on investment in healthcare leadership development programs",
+    "authors": [
+      "Maya M. Jeyaraman",
+      "Sheikh Muhammad Zeeshan Qadar",
+      "Aleksandra Wierzbowski",
+      "Farnaz Farshidfar",
+      "Justin Lys",
+      "Graham Dickson",
+      "Kelly Grimes",
+      "Leah A. Phillips",
+      "Jonathan I. Mitchell",
+      "John Van Aerde",
+      "Dave Johnson",
+      "Frank Krupka",
+      "Ryan Zarychanski",
+      "Ahmed M. Abou-Setta"
+    ],
+    "year": 2017,
+    "venue": "Leadership in Health Services",
+    "doi": "10.1108/LHS-02-2017-0005",
+    "doi_aliases": [],
+    "stable_url": "https://pubmed.ncbi.nlm.nih.gov/29412095/",
+    "volume": "31",
+    "issue": "1",
+    "pages": "77-97",
+    "form_basis": "Uses a scoping review to map organizational return-on-investment indicators and measures for leadership development.",
+    "form_status": "publisher or indexed abstract supports scoping review",
+    "selection_signal_type": "publisher editorial selection",
+    "selection_evidence": "Peer-reviewed management leadership study in a healthcare organization; citation or readership prominence not established.",
+    "selection_source_url": "https://pubmed.ncbi.nlm.nih.gov/29412095/",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref and PubMed live verified",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1108/LHS-02-2017-0005",
+        "retrieved_at": "2026-11-16T15:22:39.792216+00:00"
+      },
+      {
+        "provider": "PubMed",
+        "query_url": "https://pubmed.ncbi.nlm.nih.gov/29412095/",
+        "retrieved_at": "2026-11-16T15:22:39.792216+00:00"
+      }
+    ],
+    "date_notes": "Online 2017; journal issue 2018; 2015–2019 supplement.",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Return on investment in healthcare leadership development programs; Maya M. Jeyaraman, Sheikh Muhammad Zeeshan Qadar, Aleksandra Wierzbowski, Farnaz Farshidfar, Justin Lys, Graham Dickson, Kelly Grimes, Leah A. Phillips, Jonathan I. Mitchell, John Van Aerde, Dave Johnson, Frank Krupka, Ryan Zarychanski, Ahmed M. Abou-Setta; Leadership in Health Services, 2017; DOI 10.1108/LHS-02-2017-0005",
+    "why_this_example": "Uses a scoping review to map organizational return-on-investment indicators and measures for leadership development.",
+    "limitations": "Healthcare management crossover, not general business; editorial selection is not readership."
+  },
+  {
+    "id": "business_048",
+    "field": "business_management",
+    "form_id": "study_review_protocol",
+    "title": "Human resource management training of supervisors for improving health and well-being of employees",
+    "authors": [
+      "Andreas Kuehnl",
+      "Eva Rehfuess",
+      "Erik von Elm",
+      "Dennis Nowak",
+      "Jürgen Glaser"
+    ],
+    "year": 2014,
+    "venue": "Cochrane Database of Systematic Reviews",
+    "doi": "10.1002/14651858.CD010905",
+    "doi_aliases": [],
+    "stable_url": "https://sonar.ch/global/documents/166244",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "Original 2014 Cochrane review protocol for HR training of supervisors; separate from 2019 completed review with a distinct .pub2 DOI.",
+    "form_status": "actual review protocol verified",
+    "selection_signal_type": "institutional or publisher editorial selection",
+    "selection_evidence": "Cochrane or BMJ selected publication; citation or readership prominence not established.",
+    "selection_source_url": "https://swiss.cochrane.org/revues-cochranes-redigees-par-un-collaborateur-de-cochrane-suisse",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref live metadata and protocol description",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1002/14651858.CD010905",
+        "retrieved_at": "2026-11-16T15:23:52.029558+00:00"
+      },
+      {
+        "provider": "publisher or author institutional record",
+        "query_url": "https://swiss.cochrane.org/revues-cochranes-redigees-par-un-collaborateur-de-cochrane-suisse",
+        "retrieved_at": "2026-11-16T15:23:52.029558+00:00"
+      }
+    ],
+    "date_notes": "original publication through 2014",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Human resource management training of supervisors for improving health and well-being of employees; Andreas Kuehnl, Eva Rehfuess, Erik von Elm, Dennis Nowak, Jürgen Glaser; Cochrane Database of Systematic Reviews, 2014; DOI 10.1002/14651858.CD010905",
+    "why_this_example": "Original 2014 Cochrane review protocol for HR training of supervisors; separate from 2019 completed review with a distinct .pub2 DOI.",
+    "limitations": "Occupational health or healthcare crossover; no readership evidence."
+  },
+  {
+    "id": "business_049",
+    "field": "business_management",
+    "form_id": "study_review_protocol",
+    "title": "Supervision training interventions in the health and human services: realist synthesis protocol",
+    "authors": [
+      "Sarah Lee",
+      "Charlotte Denniston",
+      "Vicki Edouard",
+      "Claire Palermo",
+      "Kirsty Pope",
+      "Keith Sutton",
+      "Susan Waller",
+      "Bernadette Ward",
+      "Charlotte Rees"
+    ],
+    "year": 2019,
+    "venue": "BMJ Open",
+    "doi": "10.1136/bmjopen-2018-025777",
+    "doi_aliases": [],
+    "stable_url": "https://bmjopen.bmj.com/content/9/5/e025777",
+    "volume": "9",
+    "issue": "5",
+    "pages": "e025777",
+    "form_basis": "2019 realist synthesis protocol on supervision training in health and human services.",
+    "form_status": "actual review protocol verified",
+    "selection_signal_type": "institutional or publisher editorial selection",
+    "selection_evidence": "Cochrane or BMJ selected publication; citation or readership prominence not established.",
+    "selection_source_url": "https://pubmed.ncbi.nlm.nih.gov/31154303/",
+    "citation_count": null,
+    "citation_provider": null,
+    "citation_snapshot": null,
+    "verification_status": "Crossref live metadata and protocol description",
+    "verification_sources": [
+      {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1136/bmjopen-2018-025777",
+        "retrieved_at": "2026-11-16T15:23:52.029558+00:00"
+      },
+      {
+        "provider": "publisher or author institutional record",
+        "query_url": "https://pubmed.ncbi.nlm.nih.gov/31154303/",
+        "retrieved_at": "2026-11-16T15:23:52.029558+00:00"
+      }
+    ],
+    "date_notes": "2015–2019 supplement",
+    "copy_status": "complete copy not requested or verified",
+    "retrieval_locator": "Supervision training interventions in the health and human services: realist synthesis protocol; Sarah Lee, Charlotte Denniston, Vicki Edouard, Claire Palermo, Kirsty Pope, Keith Sutton, Susan Waller, Bernadette Ward, Charlotte Rees; BMJ Open, 2019; DOI 10.1136/bmjopen-2018-025777",
+    "why_this_example": "2019 realist synthesis protocol on supervision training in health and human services.",
+    "limitations": "Occupational health or healthcare crossover; no readership evidence."
+  }
+]

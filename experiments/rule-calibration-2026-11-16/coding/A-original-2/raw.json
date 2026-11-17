@@ -1,0 +1,1208 @@
+{
+  "coder_id": "A-original-2",
+  "arm": "original",
+  "stage": "A",
+  "model": "gpt-6.1-terra",
+  "started_at_utc": "2026-11-16T16:24:19Z",
+  "finished_at_utc": "2026-11-16T16:25:52Z",
+  "annotations": [
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p005",
+      "context": {
+        "reviewed_units": [
+          "LF-d23d38c43ea7-p005",
+          "LF-d23d38c43ea7-p004",
+          "LF-d23d38c43ea7-p006"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "orient",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p005",
+              "quote": "All this is only preliminary.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Signals a turn from preliminary discussion to the main argument."
+        },
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p005",
+              "quote": "a great deal of harm is being done in the modern world by the belief in the virtuousness of work",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Presents the central thesis about harm and reduced work."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p015",
+      "context": {
+        "reviewed_units": [
+          "LF-d23d38c43ea7-p015",
+          "LF-d23d38c43ea7-p014",
+          "LF-d23d38c43ea7-p016"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "If the ordinary wage-earner worked four hours a day there would be enough for everybody",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Proposes a shorter workday and its predicted consequences."
+        },
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "assuming a certain very moderate amount of sensible organization",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Makes the prediction conditional on organization."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "because they are convinced that the poor would not know how to use so much leisure",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Offers a reason for the wealthy reacting against the idea."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "while they wish their sons to work so hard as to have no time to be civilized, they do not mind their wives and daughters having no work at all",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Contrasts expectations across family members."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p025",
+      "context": {
+        "reviewed_units": [
+          "LF-d23d38c43ea7-p025",
+          "LF-d23d38c43ea7-p024",
+          "LF-d23d38c43ea7-p026"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p025",
+              "quote": "I am not meaning to imply that all the remaining time should necessarily be spent in pure frivolity",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Clarifies a limit on the proposed reduction in work."
+        },
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p025",
+              "quote": "education should be carried farther than it usually is at present",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Proposes an educational component of the social system."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p025",
+              "quote": "This results from the fact that their active energies are fully taken up with work",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Attributes passive leisure to work consuming active energy."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p025",
+              "quote": "seeing cinemas, watching football matches, listening to the radio",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Gives concrete examples of passive pleasures."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p006",
+      "context": {
+        "reviewed_units": [
+          "LF-80bd6f30b443-p006",
+          "LF-80bd6f30b443-p005",
+          "LF-80bd6f30b443-p007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p006",
+              "quote": "My education taught me to believe that people who didn’t go to an Ivy League or equivalent school weren’t worth talking to",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reflects on the meaning of the author’s education for his attitudes."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p006",
+              "quote": "I learned to give that little nod of understanding",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Shows a concrete response that makes the attitude visible."
+        },
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p006",
+              "quote": "But it isn’t just a matter of class.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Extends the previous account beyond class alone."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p018",
+      "context": {
+        "reviewed_units": [
+          "LF-80bd6f30b443-p018",
+          "LF-80bd6f30b443-p017",
+          "LF-80bd6f30b443-p019"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p018",
+              "quote": "another is the temptation it offers to security",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Advances a second claimed disadvantage of elite education."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p018",
+              "quote": "An elite education gives you the chance to be rich",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Contrasts opportunities opened and closed by elite education."
+        },
+        {
+          "function_id": "support",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p018",
+              "quote": "You can live comfortably in the United States as a schoolteacher",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Offers examples of livelihoods as reasons for valuing an alternative to wealth."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p018",
+              "quote": "what are such losses when set against the opportunity to do work you believe in",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Evaluates material tradeoffs against meaningful work."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p029",
+      "context": {
+        "reviewed_units": [
+          "LF-80bd6f30b443-p029",
+          "LF-80bd6f30b443-p028",
+          "LF-80bd6f30b443-p030"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "define",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "Being an intellectual begins with thinking your way outside of your assumptions and the system that enforces them",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Characterizes what being an intellectual entails."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "so it’s almost impossible for them to see outside it",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Connects elite students’ training within a system to difficulty seeing beyond it."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "the situation may be better at second-tier schools",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Compares institutional settings on the prospect of independent thought."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "They concentrated on the ones that meant the most to them",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Provides concrete possible behaviors of independent students."
+        },
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "Some students end up at second-tier schools because they’re exactly like students at Harvard or Yale",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Limits the contrast by acknowledging heterogeneity among students."
+        },
+        {
+          "function_id": "support",
+          "decision": "unresolved",
+          "status": "ambiguous",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "But others end up there because they have a more independent spirit.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "The hypothetical characterization may serve as a reason for the institutional comparison, but its evidentiary role is not explicit."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p006",
+      "context": {
+        "reviewed_units": [
+          "LF-fca9142fd337-p006",
+          "LF-fca9142fd337-p005",
+          "LF-fca9142fd337-p007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-fca9142fd337-p006",
+              "quote": "An interview followed",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Develops the encounter with Utton through reactions and conversation."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-fca9142fd337-p006",
+              "quote": "Utton turned out to be tall and solid man with a clubfoot and a ready laugh",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes the person encountered."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p018",
+      "context": {
+        "reviewed_units": [
+          "LF-fca9142fd337-p018",
+          "LF-fca9142fd337-p017",
+          "LF-fca9142fd337-p019"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-fca9142fd337-p018",
+              "quote": "I made a neat slice down his thigh, hip to knee",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recounts the physical actions leading to discovery of the femur."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-fca9142fd337-p018",
+              "quote": "gleaming solid white against all the liquid scarlet",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes the scene as experienced."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p029",
+      "context": {
+        "reviewed_units": [
+          "LF-fca9142fd337-p029",
+          "LF-fca9142fd337-p028",
+          "LF-fca9142fd337-p030"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-fca9142fd337-p029",
+              "quote": "The gentleman wasn’t buried. He was cremated.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Continues the revelation in the unfolding story."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p003",
+      "context": {
+        "reviewed_units": [
+          "LF-2cb0e10879f3-p003",
+          "LF-2cb0e10879f3-p002",
+          "LF-2cb0e10879f3-p004"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "orient",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p003",
+              "quote": "It is the story of my mother—of my mother's cooking.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Redirects the reader from the author’s cooking to the subject of the story."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p007",
+      "context": {
+        "reviewed_units": [
+          "LF-2cb0e10879f3-p007",
+          "LF-2cb0e10879f3-p006",
+          "LF-2cb0e10879f3-p008"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p007",
+              "quote": "I was in high school, stoned and rapacious and suddenly free to be disloyal",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recounts a change in the author’s experience while living at home."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p007",
+              "quote": "the more necessary connection was between food and honesty",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reflects on what cooking and family experience came to mean."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p007",
+              "quote": "the Mott's applesauce she'd doctored with lemon and cinnamon",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Shows a specific instance of the mother’s stated fibs."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p007",
+              "quote": "To do otherwise was not only to make her cry but also to risk the wrath of my dad",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Explains why the family participated in the fiction."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p011",
+      "context": {
+        "reviewed_units": [
+          "LF-2cb0e10879f3-p011",
+          "LF-2cb0e10879f3-p010",
+          "LF-2cb0e10879f3-p012"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p011",
+              "quote": "On Sunday nights after they moved near us",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recounts recurring meals and the mother’s reactions as the relationship develops."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p011",
+              "quote": "Now I understood that she hated cooking because she didn't know how to do it",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Revises the author’s earlier understanding of his mother’s behavior."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p011",
+              "quote": "she didn't know how to do it and so had no idea how a meal might turn out",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Connects her lack of knowledge to uncertainty about cooking."
+        },
+        {
+          "function_id": "instruct",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p011",
+              "quote": "If it's tender, cook it fast over high heat; if it's tough, cook it slow over low",
+              "occurrence": 0
+            }
+          ],
+          "reason": "States an actionable conditional cooking rule within the personal account."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "PMC2867979-p011",
+      "context": {
+        "reviewed_units": [
+          "PMC2867979-p011",
+          "PMC2867979-p010",
+          "PMC2867979-p012"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p011",
+              "quote": "An association has been shown between industry sponsorship or industry affiliation of authors and positive research outcomes and conclusions",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Summarizes reported findings on sponsorship and outcomes."
+        },
+        {
+          "function_id": "support",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p011",
+              "quote": "an aggregation of the results of 8 analyses",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Links an example synthesis to the claim of association."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p011",
+              "quote": "the latter were less transparent, less critical of methodological limitations",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reports a comparison of industry-supported meta-analyses and Cochrane reviews."
+        },
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p011",
+              "quote": "Other aspects of industry involvement, such as design bias, are beyond the scope of this paper.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Marks an exclusion from the paper’s scope."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "PMC2867979-p033",
+      "context": {
+        "reviewed_units": [
+          "PMC2867979-p033",
+          "PMC2867979-p032",
+          "PMC2867979-p034"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p033",
+              "quote": "an analysis including previously unpublished data from FDA reports of the VIGOR trial",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reports the trial and subsequent analysis and their findings."
+        },
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p033",
+              "quote": "Concerns about the risk of selective COX-2-inhibitor-related cardiovascular events were raised as early as 2001",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Traces the development of concern and analysis over time."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "PMC2867979-p055",
+      "context": {
+        "reviewed_units": [
+          "PMC2867979-p055",
+          "PMC2867979-p054",
+          "PMC2867979-p056"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p055",
+              "quote": "Another potential limitation of the review is the validity of the sources describing cases of reporting bias.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Identifies a limitation of the review’s source base."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p055",
+              "quote": "several cases were based on information from other sources such as newspaper articles and websites",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes the source types used."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p055",
+              "quote": "as they provide a broader overview of reporting bias beyond well-known examples",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Gives reasons the authors consider those sources valuable."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "PMC4053896-p007",
+      "context": {
+        "reviewed_units": [
+          "PMC4053896-p007",
+          "PMC4053896-p006",
+          "PMC4053896-p008",
+          "PMC4053896-context003"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p007",
+              "quote": "First, we used systematic snowball sampling adapted from the literature",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reports steps used to identify articles and set criteria."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p007",
+              "quote": "Based on these articles, we defined the research focus, inclusion as well as exclusion criteria",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Connects selected review articles to the later focus and criteria."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "PMC4053896-p021",
+      "context": {
+        "reviewed_units": [
+          "PMC4053896-p021",
+          "PMC4053896-p020",
+          "PMC4053896-p022"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p021",
+              "quote": "We identified the forest as the most investigated natural outdoor environment",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Summarizes features of the reviewed studies and their settings."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p021",
+              "quote": "The majority of the studies compared urban with Nature environments; less common were comparisons of indoor and outdoor environments",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Contrasts the frequency of study comparison designs."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "PMC4053896-p035",
+      "context": {
+        "reviewed_units": [
+          "PMC4053896-p035",
+          "PMC4053896-p034",
+          "PMC4053896-p036"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p035",
+              "quote": "The most evident finding was the short-term stress-reducing potential of natural outdoor environments.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Summarizes the review’s stated finding."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p035",
+              "quote": "the major achievement of our present review could be seen in enhancing the societal impact",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Interprets the review’s potential contribution."
+        },
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p035",
+              "quote": "the data of the current scientific literature suggests to use the resource nature",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recommends nature for stress prevention."
+        },
+        {
+          "function_id": "support",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p035",
+              "quote": "With regard to the growing prevalence of the burnout syndrome and other stress-related diseases",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Connects prevalence and the literature to the proposed use."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "git-p02",
+      "context": {
+        "reviewed_units": [
+          "git-p02",
+          "git-p01",
+          "git-p03"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p02",
+              "quote": "With `--contains`, shows only the branches that contain the named commit",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes branch selection behavior under named options and the default commit."
+        },
+        {
+          "function_id": "define",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p02",
+              "quote": "the branches whose tip commits are descendants of the named commit",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Clarifies the meaning of branches containing a named commit."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p02",
+              "quote": "With `--no-merged` only branches not merged into the named commit will be listed",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Distinguishes the merged and no-merged filters."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "git-p05",
+      "context": {
+        "reviewed_units": [
+          "git-p05",
+          "git-p04",
+          "git-p06"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p05",
+              "quote": "Git sets up the branch",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes configuration behavior when a branch starts from a remote-tracking branch."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p05",
+              "quote": "so that 'git pull' will appropriately merge from the remote-tracking branch",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Connects branch configuration to pull behavior."
+        },
+        {
+          "function_id": "instruct",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p05",
+              "quote": "That setting can be overridden by using the `--track` and `--no-track` options",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Indicates available means to change the setting."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "git-p07",
+      "context": {
+        "reviewed_units": [
+          "git-p07",
+          "git-p06",
+          "git-p08"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p07",
+              "quote": "If the branch currently has a reflog then the reflog will also be deleted.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes a conditional consequence of deleting a branch."
+        },
+        {
+          "function_id": "instruct",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p07",
+              "quote": "With a `-d` or `-D` option, `<branchname>` will be deleted.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Gives a reader the options used to delete a branch."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "python-p02",
+      "context": {
+        "reviewed_units": [
+          "python-p02",
+          "python-p01",
+          "python-p03"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "define",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p02",
+              "quote": "Such a file is called a *module*",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Names and defines the file containing reusable definitions."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p02",
+              "quote": "definitions from a module can be *imported* into other modules",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes how module definitions can be used."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "python-p04",
+      "context": {
+        "reviewed_units": [
+          "python-p04",
+          "python-p03",
+          "python-p05",
+          "python-context002",
+          "python-context003"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "instruct",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p04",
+              "quote": "Now enter the Python interpreter and import this module with the following command",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Directs the reader through the next step in the tutorial."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "python-p06",
+      "context": {
+        "reviewed_units": [
+          "python-p06",
+          "python-p05",
+          "python-context004",
+          "python-context005"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Read the target and adjacent supplied paragraphs where available."
+      },
+      "roles": [
+        {
+          "function_id": "instruct",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p06",
+              "quote": "If you intend to use a function often you can assign it to a local name",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Offers a conditional action illustrated by the following code."
+        }
+      ]
+    }
+  ]
+}

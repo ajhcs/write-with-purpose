@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_25",
+      "doi": "10.1145/1327452.1327492",
+      "title": "MapReduce: simplified data processing on large clusters",
+      "authors": "[\"Jeffrey Dean\", \"Sanjay Ghemawat\"]",
+      "field": "engineering_computing",
+      "q": "\"MapReduce: simplified data processing on large clusters\" Dean filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_25",
+      "query": "\"MapReduce: simplified data processing on large clusters\" Dean filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "MapReduce: Simpliﬁed Data Processing on Large Clusters",
+          "url": "https://web.stanford.edu/class/cs114/readings/AJ-Dean.pdf",
+          "score": 1
+        },
+        {
+          "title": "MapReduce: simplified data processing on large clusters",
+          "url": "https://machinelibrary.ai/r/10.1145/1327452.1327492",
+          "score": 1
+        },
+        {
+          "title": "MapReduce: Simplified Data Processing on Large Clusters",
+          "url": "https://www.researchgate.net/publication/220851866_MapReduce_Simplified_Data_Processing_on_Large_Clusters",
+          "score": 1
+        },
+        {
+          "title": "MapReduce: Simplified Data Processing on Large Clusters in English",
+          "url": "https://tamnd.github.io/papers-reader/p/dean-2004-mapreduce/en/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

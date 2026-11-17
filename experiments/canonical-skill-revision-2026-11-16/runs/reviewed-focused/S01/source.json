@@ -1,0 +1,20 @@
+{
+  "id": "S01",
+  "form": "technical summary",
+  "task": "Improve the explanation under a maximum of 45 words. Retain the exact term retry-safe and all material conditions. Do not add facts about causes or tests.",
+  "before": "The operation is retry-safe only while the request identifier remains unchanged. A repeated request returns the existing result. A request with a new identifier starts another operation. We have tested this behavior in the prototype, not in production.",
+  "source_notes": [
+    "The guarantee is conditional on an unchanged request identifier.",
+    "A new identifier starts another operation.",
+    "Evidence comes only from the prototype; production behavior has not been tested."
+  ],
+  "declared_contract": {
+    "max_words": 45,
+    "protected_literals": [
+      {
+        "text": "retry-safe",
+        "min_count": 1
+      }
+    ]
+  }
+}

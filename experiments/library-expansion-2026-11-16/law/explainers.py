@@ -1,0 +1,13 @@
+import json
+P='experiments/library-expansion-2026-11-16/law/';a=json.load(open(P+'candidates.json'))
+for id,title,authors,year,url,number,pages,basis in [
+('rulemaking','The Federal Rulemaking Process: An Overview',['Maeve P. Carey'],2013,'https://digital.library.unt.edu/ark:/67531/metadc227990/','RL32240',None,'Congressional overview explains federal rulemaking processes and their legal foundations.'),
+('avoidance','The Doctrine of Constitutional Avoidance: A Legal Overview',['Andrew Nolan'],2014,'https://digital.library.unt.edu/ark:/67531/metadc462944/','R43706','31','Legal overview explains judicial review and constitutional avoidance.'),
+('executive_orders','Executive Orders: Issuance, Modification, and Revocation',['Vivian S. Chu','Todd Garvey'],2014,'https://digital.library.unt.edu/ark:/67531/metadc287968/','RS20846','13','Overview explains executive orders, legal authority and their modification or revocation.')]:
+ a.append({'id':'law_'+id,'field':'law_public_policy','form_id':'conceptual_explainer','title':title,'authors':authors,'year':year,'venue':'Congressional Research Service','doi':None,'stable_url':url,'volume':None,'issue':number,'pages':pages,'form_basis':basis,'form_status':'live university digital library catalog and description; text-level screening pending','selection_signal_type':'public governmental research report and institutional repository','selection_evidence':'UNT Government Documents Department preserves a date-specific Congressional Research Service report. No global readership or citation claim.','selection_source_url':url,'citation_count':None,'citation_provider':None,'citation_snapshot':None,'verification_status':'live university government-documents catalog; originating agency identified','verification_sources':[url],'date_notes':'Dated 2013 or 2014 edition; later versions may differ.','copy_status':'metadata and abstract only; no document-body download','retrieval_locator':'; '.join([', '.join(authors),title,'Congressional Research Service',number,str(year),url]),'why_this_example':basis,'limitations':'Historical policy and law; do not assume present validity. No independent most-read or citation claim. Page count is extent, not numbered range.'})
+json.dump(a,open(P+'candidates.json','w'),indent=2,ensure_ascii=False)
+c=json.load(open(P+'coverage.json'))
+for x in c:
+ if x['form_id']=='conceptual_explainer':
+  ids=[y['id'] for y in a if y['form_id']==x['form_id']];x.update(status='three_targets',provided=len(ids),candidate_ids=ids,reason='Three historical CRS overview reports catalogued by university government-documents repository; limited readership signals.')
+json.dump(c,open(P+'coverage.json','w'),indent=2,ensure_ascii=False)

@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_006",
+      "doi": "10.5465/amr.1998.1255632",
+      "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+      "authors": "[\"Jeffrey H. Dyer\", \"Harbir Singh\"]",
+      "field": "business_management",
+      "q": "\"The Relational View: Cooperative Strategy and Sources of\" Dyer filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_006",
+      "query": "\"The Relational View: Cooperative Strategy and Sources of\" Dyer filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Dyer, J. H., & Singh, H. (1998). The relational view: Cooperative strategy and sources of interorganizational competitive advantage. *Academy of Management Review*, 23(4), 660-679.",
+          "url": "https://biblos.hec.ca/biblio/theses/cyr_audrey_anne_t2021.pdf",
+          "score": 1
+        },
+        {
+          "title": "Dyer, J. H., & Singh, H. (1998). The relational view: Cooperative strategy and sources of interorganizational competitive advantage. *Academy of management review, 23*(4), 660-679.",
+          "url": "https://cris.vub.be/ws/files/114329632/Montakhabi_Mehdi_FINAL_PhD_Thesis.pdf",
+          "score": 1
+        },
+        {
+          "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+          "url": "https://journals.aom.org/doi/pdf/10.5465/amr.1998.1255632",
+          "score": 1
+        },
+        {
+          "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+          "url": "https://resea.org/10.5465/amr.1998.1255632",
+          "score": 1
+        },
+        {
+          "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+          "url": "https://academic.oup.com/book/52368/chapter-abstract/421268424",
+          "score": 1
+        },
+        {
+          "title": "THE RELATIONAL VIEW: COOPERATIVE STRATEGY AND SOURCES OF INTERORGANIZATIONAL COMPETITIVE ADVANTAGE.",
+          "url": "https://openurl.ebsco.com/contentitem/gcd%3A1255632",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

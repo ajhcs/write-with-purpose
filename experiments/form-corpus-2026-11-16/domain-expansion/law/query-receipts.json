@@ -1,0 +1,120 @@
+{
+  "provider": "OpenAlex",
+  "retrieved_records": 390,
+  "queries": [
+    {
+      "venue": "Harvard Law Review",
+      "openalex_source_id": "S117766065",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS117766065%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per_page=100",
+      "filter": "primary_location.source.id:S117766065,to_publication_date:2014-12-31,type:article",
+      "sort": "cited_by_count:desc",
+      "provider_hit_count": 19354,
+      "returned_page": 100,
+      "selected": 65,
+      "exclusions_before_limit": {
+        "retracted_metadata": 0,
+        "missing_title": 0,
+        "duplicate_id": 0,
+        "duplicate_title_year": 0,
+        "date_outside": 0
+      },
+      "snapshot_utc": "2026-11-16T01:27:12.339808+00:00",
+      "response_sha256": "dd5371b4408c144f54d674aa1ed9f2ff02964bf5c9a0457727c9cb8b8f6ac01e"
+    },
+    {
+      "venue": "The Yale Law Journal",
+      "openalex_source_id": "S161895660",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS161895660%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per_page=100",
+      "filter": "primary_location.source.id:S161895660,to_publication_date:2014-12-31,type:article",
+      "sort": "cited_by_count:desc",
+      "provider_hit_count": 16039,
+      "returned_page": 100,
+      "selected": 65,
+      "exclusions_before_limit": {
+        "retracted_metadata": 0,
+        "missing_title": 0,
+        "duplicate_id": 0,
+        "duplicate_title_year": 0,
+        "date_outside": 0
+      },
+      "snapshot_utc": "2026-11-16T01:27:13.071831+00:00",
+      "response_sha256": "3fccdd8fbeefc3998a3402a93a39122ab2d6ffb99469e0edcb755093a338b6ce"
+    },
+    {
+      "venue": "Michigan Law Review",
+      "openalex_source_id": "S69429964",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS69429964%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per_page=100",
+      "filter": "primary_location.source.id:S69429964,to_publication_date:2014-12-31,type:article",
+      "sort": "cited_by_count:desc",
+      "provider_hit_count": 17751,
+      "returned_page": 100,
+      "selected": 65,
+      "exclusions_before_limit": {
+        "retracted_metadata": 0,
+        "missing_title": 0,
+        "duplicate_id": 0,
+        "duplicate_title_year": 0,
+        "date_outside": 0
+      },
+      "snapshot_utc": "2026-11-16T01:27:13.659848+00:00",
+      "response_sha256": "14ab0150febcce7c03272c016c257a2ba7570abd903614e0f781671072af70f3"
+    },
+    {
+      "venue": "Stanford Law Review",
+      "openalex_source_id": "S161743634",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS161743634%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per_page=100",
+      "filter": "primary_location.source.id:S161743634,to_publication_date:2014-12-31,type:article",
+      "sort": "cited_by_count:desc",
+      "provider_hit_count": 3224,
+      "returned_page": 100,
+      "selected": 65,
+      "exclusions_before_limit": {
+        "retracted_metadata": 0,
+        "missing_title": 0,
+        "duplicate_id": 0,
+        "duplicate_title_year": 0,
+        "date_outside": 0
+      },
+      "snapshot_utc": "2026-11-16T01:27:14.384871+00:00",
+      "response_sha256": "2ff4fe4959eb1d74e1f51037bc900b5806b8cc0661a85498eace6e711ced0e1d"
+    },
+    {
+      "venue": "Columbia Law Review",
+      "openalex_source_id": "S183770981",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS183770981%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per_page=100",
+      "filter": "primary_location.source.id:S183770981,to_publication_date:2014-12-31,type:article",
+      "sort": "cited_by_count:desc",
+      "provider_hit_count": 13146,
+      "returned_page": 100,
+      "selected": 65,
+      "exclusions_before_limit": {
+        "retracted_metadata": 0,
+        "missing_title": 0,
+        "duplicate_id": 0,
+        "duplicate_title_year": 3,
+        "date_outside": 0
+      },
+      "snapshot_utc": "2026-11-16T01:27:18.202987+00:00",
+      "response_sha256": "f83ae91289f487bca08506135cc9c170bc2b5814b70f7827ee226d3c0ac5f0b2"
+    },
+    {
+      "venue": "The University of Chicago Law Review",
+      "openalex_source_id": "S21339052",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS21339052%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per_page=100",
+      "filter": "primary_location.source.id:S21339052,to_publication_date:2014-12-31,type:article",
+      "sort": "cited_by_count:desc",
+      "provider_hit_count": 3751,
+      "returned_page": 100,
+      "selected": 65,
+      "exclusions_before_limit": {
+        "retracted_metadata": 0,
+        "missing_title": 0,
+        "duplicate_id": 0,
+        "duplicate_title_year": 2,
+        "date_outside": 0
+      },
+      "snapshot_utc": "2026-11-16T01:27:18.703002+00:00",
+      "response_sha256": "bc921618da9b03fe7c593b7626f5e729a10b642892cc29b2cdb774ae2184a48f"
+    }
+  ]
+}

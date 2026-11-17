@@ -1,0 +1,402 @@
+{
+  "scout": "genre-syntheses",
+  "scope": "Research syntheses, operational move/stage methods and their data access; pre-2015 foundations and later supplements. Non-exhaustive primary-source scoping search, not a new systematic review. Search date 2026-11-16.",
+  "searches": [
+    {
+      "query": "systematic review move analysis genre studies methodology coding reliability rhetorical moves genre analysis",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "rhetorical move analysis review methodological synthesis genre corpus annotation boundaries interrater agreement 2024 Kim Qiu Wang",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "Swales genre analysis move analysis methodology corpus Biber Connor Upton 2007 move boundaries annotation",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "systematic review rhetorical moves research article abstracts disciplines move analysis corpus synthesis",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "Strengthening move analysis methodology Moreno Swales 2018 doi pdf",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "move analysis methodology 2009 Upton Cohen applied linguistics boundaries",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "COSSRAI corpus download annotation guide data",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "interrater agreement in genre analysis 35 65 alpha 2024 pdf Kim Qiu Wang",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "metadiscursive markers metareview appendix 44 study reliability 334",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "Gardner Nesi 2013 classification genre families university student writing 2858 coding methodology generic stages author manuscript",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "Nesi Gardner genres across disciplines 2012 ISBN doi genre families 13 corpus cambridge",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "Cotos Huffman Link 2017 move step model methods sections demonstrating rigour credibility doi",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "interrater agreement in genre analysis kim qiu wang multivalued alpha data study limitations 2024",
+      "source": "web search followed by publisher/institutional primary-source inspection",
+      "date": "2026-11-16"
+    }
+  ],
+  "records": [
+    {
+      "repository_url": "https://scholarworks.indianapolis.iu.edu/bitstream/handle/1805/2332/Approach_to_Corpus_based.pdf",
+      "artifact_urls": [
+        "https://scholarworks.indianapolis.iu.edu/bitstream/handle/1805/2332/Approach_to_Corpus_based.pdf"
+      ],
+      "reliability": "Calls for inter-rater checks and recoding. The quoted 84% example refers to a separate 242 direct-mail letter corpus, not the 46 letters.",
+      "code_license": "Not applicable; no code release identified",
+      "annotation_license": "Unknown; paper access is not annotation license",
+      "source_text_rights": "Unknown unless specified",
+      "paywall_retrieval_record": "Discourse Studies 11(5), 585–605 (2009), DOI 10.1177/1461445609341006; institutional manuscript URL above.",
+      "id": "GS01",
+      "title": "An approach to corpus-based discourse analysis: The move analysis as example",
+      "authors": [
+        "Thomas A. Upton",
+        "Mary Ann Cohen"
+      ],
+      "year": 2009,
+      "kind": "methodological synthesis and illustrative corpus study",
+      "doi": "10.1177/1461445609341006",
+      "primary_urls": [
+        "https://journals.sagepub.com/doi/10.1177/1461445609341006"
+      ],
+      "verified_scope": "Author manuscript abstract, seven-step methods, sample and Appendix 1 coding protocol inspected; publisher citation and page range verified.",
+      "baseline_status": "New direct elaboration of known Biber, Connor and Upton 2007 baseline",
+      "unit": "Full letters; rhetorical move spans and steps, not paragraph labels",
+      "genres_or_forms": [
+        "birthmother letters",
+        "persuasive/personal correspondence"
+      ],
+      "annotation_or_metrics_available": "Appendix 1 final move/step protocol with labels, definitions and examples; stepwise sequence and per-move lexical comparisons; excerpted examples only.",
+      "size_and_count_basis": "46 letters: 20 selected after at most two sendings, 26 after at least 15 sendings; matched narrowly on stated writer characteristics.",
+      "human_or_automatic": "Human annotation; corpus lexical analysis",
+      "access_status": "Publisher access gated; institutional author manuscript open; dataset release not located.",
+      "reuse_recommendation": "Use seven-step workflow and appendix as an operational example; retain differences between segmentation, labeling and whole-document sequencing.",
+      "project_feature_mapping": [
+        "F02",
+        "F07",
+        "F09"
+      ],
+      "limitations": "Letter-specific categories and outcome definition cannot be transferred as personal-essay norms; individual-level annotations not located."
+    },
+    {
+      "repository_url": "https://buleria.unileon.es/bitstream/handle/10612/10667/Strengthening_Move_Analysis_Methodology.pdf?sequence=6",
+      "artifact_urls": [
+        "https://buleria.unileon.es/bitstream/handle/10612/10667/Strengthening_Move_Analysis_Methodology.pdf?sequence=6"
+      ],
+      "reliability": "Second test reports source-size-weighted mean 99.51% and kappa 0.71; rare IMP_APP category 99.84% agreement but kappa 0.38. Different prevalence/negative matches make percent misleading; not comparable to current exact-set 21/36.",
+      "code_license": "Not applicable; no code release identified",
+      "annotation_license": "Unknown; paper access is not annotation license",
+      "source_text_rights": "Unknown unless specified",
+      "paywall_retrieval_record": "English for Specific Purposes 50, 40–63 (2018), DOI 10.1016/j.esp.2017.11.006. Institutional preprint linked above.",
+      "id": "GS02",
+      "title": "Strengthening move analysis methodology towards bridging the function-form gap",
+      "authors": [
+        "Ana I. Moreno",
+        "John M. Swales"
+      ],
+      "year": 2018,
+      "kind": "methodological synthesis and corpus case study",
+      "doi": "10.1016/j.esp.2017.11.006",
+      "primary_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0889490617303332"
+      ],
+      "verified_scope": "Institutional author preprint methods sections 4–6, segmentation and codebook, table 2, agreement table and appendix examined.",
+      "baseline_status": "New discovery",
+      "unit": "Meaningful text fragments, steps and moves in discussion/conclusion sections",
+      "genres_or_forms": [
+        "empirical research article discussions"
+      ],
+      "annotation_or_metrics_available": "Table 2: 25 specific categories under seven general functions; codebook includes definitions, bilingual examples and linguistic signals; appendix describes codebook components. Study clusters specific steps into superordinate moves rather than assuming order.",
+      "size_and_count_basis": "Pilot: 15 English/Spanish paired sections; design, training and two inter-rater tests use different subsets; separate expert consultation.",
+      "human_or_automatic": "Human analyst and independent analyst, aided by NVivo",
+      "access_status": "Institutional preprint available; publisher direct fetch returned 403; underlying annotated corpus release not verified.",
+      "reuse_recommendation": "Use segmentation protocol, category definition and disagreement documentation as a methodological template; permit multiple/unresolved labels in harness although this particular scheme aimed for mutually exclusive labels.",
+      "project_feature_mapping": [
+        "F02",
+        "F07",
+        "F09"
+      ],
+      "limitations": "Bilingual research discussion pilot and pedagogical category consolidation do not validate labels in other forms. Authors list functions in logical order, explicitly not as a fixed observed sequence."
+    },
+    {
+      "repository_url": null,
+      "artifact_urls": [],
+      "reliability": "Study evaluates alternative metrics; no numeric result extracted from inaccessible full text.",
+      "code_license": "Not applicable; no code release identified",
+      "annotation_license": "Unknown; paper access is not annotation license",
+      "source_text_rights": "Unknown unless specified",
+      "paywall_retrieval_record": "Research Methods in Applied Linguistics 3(1), 100097 (2024), DOI 10.1016/j.rmal.2024.100097; direct full-text access failed during inspection, which alone does not establish paywall status.",
+      "id": "GS03",
+      "title": "Interrater agreement in genre analysis: A methodological review and a comparison of three measures",
+      "authors": [
+        "Minjin Kim",
+        "Xixin Qiu",
+        "Yuanheng (Arthur) Wang"
+      ],
+      "year": 2024,
+      "kind": "systematic methodological review and empirical metric comparison",
+      "doi": "10.1016/j.rmal.2024.100097",
+      "primary_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S277276612400003X"
+      ],
+      "verified_scope": "Publisher search-indexed abstract and methods passages; direct full-text fetch returned 403. No independent full-text appraisal.",
+      "baseline_status": "Known-baseline lead; expanded sample and unit details",
+      "unit": "Reviewed genre studies; research-article introduction move/step labels",
+      "genres_or_forms": [
+        "research article introductions"
+      ],
+      "annotation_or_metrics_available": "Compares percent agreement, kappa and Krippendorff multivalued alpha for sample size, number of coders and multifunctionality.",
+      "size_and_count_basis": "65 EAP research-article genre studies reviewed; three researchers annotated 35 introductions from COSSRAI for comparison; source says parent COSSRAI holds 600 introductions across six social science disciplines.",
+      "human_or_automatic": "Three human raters",
+      "access_status": "Publisher metadata indexed; direct full-text request 403; review data, scripts and annotation release not verified.",
+      "reuse_recommendation": "Compare metrics on independently coded shared units; report boundary and label agreement separately and include multi-valued analysis when its assumptions fit.",
+      "project_feature_mapping": [
+        "F09"
+      ],
+      "limitations": "Different sampling, coding units and metrics prohibit comparing coefficients directly to current calibration. Does not establish taxonomy validity or paragraph-length distributions."
+    },
+    {
+      "repository_url": null,
+      "artifact_urls": [
+        "https://www.mdpi.com/2304-6775/9/4/56"
+      ],
+      "reliability": "Cross-study coding reliability not established in inspected passages.",
+      "code_license": "Not applicable; code not identified",
+      "annotation_license": "Paper is CC BY 4.0; underlying study data rights individually unknown",
+      "source_text_rights": "Underlying source-study texts have separate unknown rights.",
+      "paywall_retrieval_record": null,
+      "id": "GS04",
+      "title": "Metadiscursive Markers and Text Genre: A Metareview",
+      "authors": [
+        "Miguel Cuevas-Alonso",
+        "Carla Míguez-Álvarez"
+      ],
+      "year": 2021,
+      "kind": "cross-study quantitative descriptive metareview",
+      "doi": "10.3390/publications9040056",
+      "primary_urls": [
+        "https://www.mdpi.com/2304-6775/9/4/56"
+      ],
+      "verified_scope": "Publisher full text methods, appendix A, data-availability statement and license inspected.",
+      "baseline_status": "Known-baseline lead; appendix and selection criteria inspected",
+      "unit": "Studies and normalized linguistic-marker counts per 1,000 words; varying sampled texts and sections",
+      "genres_or_forms": [
+        "academic articles",
+        "theses",
+        "newspaper editorials",
+        "opinion columns",
+        "internet texts"
+      ],
+      "annotation_or_metrics_available": "Appendix A identifies underlying academic studies, year, type, language and corpus; Hyland interactive and interactional marker subtypes with normalized frequencies.",
+      "size_and_count_basis": "334 candidate documents; 44 selected studies, not 44 documents in a single homogeneous corpus.",
+      "human_or_automatic": "Synthesizes different source studies; source-level coding varies.",
+      "access_status": "Open full article and academic-study appendix; data availability statement says not applicable; no reusable underlying corpus release identified.",
+      "reuse_recommendation": "Use appendix as a backward-search matrix and re-extract original section, genre, discipline and marker definitions; do not import aggregate averages as profiles.",
+      "project_feature_mapping": [
+        "F07",
+        "F09"
+      ],
+      "limitations": "Review combines disparate sections and text types; linguistic marker counts do not measure adequacy of functions. Not a conventional pooled intervention effect-size meta-analysis."
+    },
+    {
+      "repository_url": "https://pure.coventry.ac.uk/ws/portalfiles/portal/3978905/gardnercomb.pdf",
+      "artifact_urls": [
+        "https://pure.coventry.ac.uk/ws/portalfiles/portal/3978905/gardnercomb.pdf"
+      ],
+      "reliability": "Not established by inspected material",
+      "code_license": "Not applicable; no code release identified",
+      "annotation_license": "Unknown; paper access is not annotation license",
+      "source_text_rights": "Submitted manuscript permits personal non-commercial research/study; no extensive quotation, reproduction, alteration or commercial use without permission. BAWE source rights separate.",
+      "paywall_retrieval_record": "Applied Linguistics 34(1), 25–52 (2013), DOI 10.1093/applin/ams024. Submitted version linked above may differ from published article.",
+      "id": "GS05",
+      "title": "A classification of genre families in university student writing",
+      "authors": [
+        "Sheena Gardner",
+        "Hilary Nesi"
+      ],
+      "year": 2013,
+      "kind": "corpus-based genre classification study",
+      "doi": "10.1093/applin/ams024",
+      "primary_urls": [
+        "https://academic.oup.com/applij/article/34/1/25/150792"
+      ],
+      "verified_scope": "Institutional submitted manuscript introduction, classification methods, generic stages and rights notice; publisher journal metadata via citation.",
+      "baseline_status": "Known baseline; full author manuscript adds directly usable family descriptions and rights record",
+      "unit": "2,858 BAWE component texts classified by purpose, genre family and generic stages",
+      "genres_or_forms": [
+        "student essay",
+        "critique",
+        "explanation",
+        "literature survey",
+        "methodology recount",
+        "research report",
+        "proposal",
+        "design specification"
+      ],
+      "annotation_or_metrics_available": "Thirteen family descriptions record educational purpose, generic structure and genre networks; recognizes embedded genres and Empathy Writing as lacking a shared generic structure.",
+      "size_and_count_basis": "2,858 component texts; assignment count is different. Assessed university student writing from England.",
+      "human_or_automatic": "Researchers manually developed classification; exact per-text interrater reliability not verified.",
+      "access_status": "Submitted author version available with stated restrictions; underlying BAWE release and licensing require separate inspection.",
+      "reuse_recommendation": "Compare purpose, generic stages and genre networks as separate fields; use source family labels as hypotheses, not universal professional-form classes.",
+      "project_feature_mapping": [
+        "F02",
+        "F09"
+      ],
+      "limitations": "Assessed student assignments and variable generic stages; taxonomy is not paragraph-function data."
+    },
+    {
+      "repository_url": null,
+      "artifact_urls": [],
+      "reliability": "Specific coefficient not verified from indexed material.",
+      "code_license": "Not applicable; no code release identified",
+      "annotation_license": "Unknown; paper access is not annotation license",
+      "source_text_rights": "Unknown unless specified",
+      "paywall_retrieval_record": "English for Specific Purposes 46, 90–106 (2017), DOI 10.1016/j.esp.2017.01.001; publisher URL above.",
+      "id": "GS06",
+      "title": "A move/step model for methods sections: Demonstrating Rigour and Credibility",
+      "authors": [
+        "Elena Cotos",
+        "Sarah Huffman",
+        "Stephanie Link"
+      ],
+      "year": 2017,
+      "kind": "cross-disciplinary corpus study and methodological model",
+      "doi": "10.1016/j.esp.2017.01.001",
+      "primary_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0889490617300078"
+      ],
+      "verified_scope": "Publisher indexed abstract and introduction including corpus size, label count, sequence analysis and disciplinary expert triangulation; direct open 403.",
+      "baseline_status": "New direct methods-section lead",
+      "unit": "Methods sections and rhetorical moves/steps",
+      "genres_or_forms": [
+        "research article Methods sections"
+      ],
+      "annotation_or_metrics_available": "DRaC model: three moves and sixteen steps, with functional/content descriptions; source reports within/across discipline frequency, sequence and clusters.",
+      "size_and_count_basis": "900 research article Methods sections across 30 academic fields; do not treat repeated publications from this corpus as independent samples.",
+      "human_or_automatic": "Human move/step annotation, algorithmic clustering; source reports triangulation with disciplinary academics.",
+      "access_status": "Publisher indexed abstract accessible; direct fetch 403; codebook and annotated corpus availability not verified.",
+      "reuse_recommendation": "Extract original model and discipline-stratified sequences after obtaining full paper; use as benchmark for comparative methods-section annotation.",
+      "project_feature_mapping": [
+        "F02",
+        "F03",
+        "F09"
+      ],
+      "limitations": "Part-genre model, not complete-document length or paragraph-length profile; paper itself is a corpus study, not a systematic review."
+    },
+    {
+      "repository_url": null,
+      "artifact_urls": [
+        "https://wacclearinghouse.org/docs/books/bawarshi_reiff/bib.pdf",
+        "https://wacclearinghouse.org/docs/books/bawarshi_reiff/chapter8.pdf",
+        "https://wacclearinghouse.org/docs/books/bawarshi_reiff/chapter9.pdf"
+      ],
+      "reliability": "Not established by inspected material",
+      "code_license": "Not applicable; no code release identified",
+      "annotation_license": "Unknown; paper access is not annotation license",
+      "source_text_rights": "Publisher permits viewing, personal printing and linking; prohibits posting book on another website without permission.",
+      "paywall_retrieval_record": null,
+      "id": "GS07",
+      "title": "Genre: An Introduction to History, Theory, Research, and Pedagogy",
+      "authors": [
+        "Anis S. Bawarshi",
+        "Mary Jo Reiff"
+      ],
+      "year": 2010,
+      "kind": "narrative methodological and historical synthesis",
+      "doi": null,
+      "primary_urls": [
+        "https://wacclearinghouse.org/books/referenceguides/bawarshi-reiff/"
+      ],
+      "verified_scope": "Official publisher book description, contents, bibliography listing and rights statement inspected; chapter 8 and 9 PDF direct attempts returned 403; no claim of full chapter appraisal.",
+      "baseline_status": "Known baseline; exact chapter and rights links identified",
+      "unit": "Research traditions and genre practices, not pooled study units",
+      "genres_or_forms": [
+        "academic",
+        "workplace and professional",
+        "public and new media"
+      ],
+      "annotation_or_metrics_available": "Separate chapters on workplace/professional and public/new media; annotated bibliography is a backward-search artifact, not a labeled dataset.",
+      "size_and_count_basis": "278-page reference book; not a count of sampled texts or studies.",
+      "human_or_automatic": "Interpretive scholarly synthesis",
+      "access_status": "Publisher offers digital book and chapter PDFs at no charge; two chapter fetches returned 403 in this session.",
+      "reuse_recommendation": "Mine chapters 8–9 and annotated bibliography for workplace/public studies and participant methods; verify each original paper before extracting.",
+      "project_feature_mapping": [
+        "F02",
+        "F09"
+      ],
+      "limitations": "Not systematic evidence synthesis or a computational codebook; indexed chapter existence is not evidence chapters were inspected."
+    },
+    {
+      "repository_url": null,
+      "artifact_urls": [],
+      "reliability": "Not established by inspected material",
+      "code_license": "Not applicable; no code release identified",
+      "annotation_license": "Unknown; paper access is not annotation license",
+      "source_text_rights": "Unknown unless specified",
+      "paywall_retrieval_record": "Studies in Corpus Linguistics 28, John Benjamins (2007), ISBN 9789027223029 print; DOI 10.1075/scl.28. Publisher online date 2008 is distinct.",
+      "id": "GS08",
+      "title": "Discourse on the Move: Using corpus analysis to describe discourse structure",
+      "authors": [
+        "Douglas Biber",
+        "Ulla Connor",
+        "Thomas A. Upton"
+      ],
+      "year": 2007,
+      "kind": "methodological synthesis and corpus case-study volume",
+      "doi": "10.1075/scl.28",
+      "primary_urls": [
+        "https://benjamins.com/catalog/scl.28"
+      ],
+      "verified_scope": "Publisher description, table of contents, book DOI, 2007 print publication and ISBN verified; full book requires authorization.",
+      "baseline_status": "Known baseline; contents and exact library record expanded",
+      "unit": "Genre-specific text-level case studies and discourse spans",
+      "genres_or_forms": [
+        "fundraising letters",
+        "biochemistry articles",
+        "university teaching"
+      ],
+      "annotation_or_metrics_available": "Table of contents identifies Kanoksilapatham move-analysis chapter and philanthropic/biochemistry case studies; contrasts top-down functional coding with bottom-up corpus units.",
+      "size_and_count_basis": "289 pages; no corpus totals asserted from metadata.",
+      "human_or_automatic": "Case-specific discourse analysis and corpus analysis; full methods not inspected.",
+      "access_status": "Publisher full book requires authorization; no author version established.",
+      "reuse_recommendation": "Retrieve for chapters 2–4 and methodological comparison; open Upton–Cohen 2009 operationalizes its seven-step method.",
+      "project_feature_mapping": [
+        "F02",
+        "F09"
+      ],
+      "limitations": "A research volume, not a systematic meta-analysis or evidence for universal moves."
+    }
+  ]
+}

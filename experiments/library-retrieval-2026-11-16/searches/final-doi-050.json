@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w3123985438",
+      "doi": "10.1086/666006",
+      "title": "Do Judges Vary in Their Treatment of Race?",
+      "authors": "[\"David Abrams\", \"Marianne Bertrand\", \"Sendhil Mullainathan\"]",
+      "field": "law_public_policy",
+      "q": "\"Do Judges Vary in Their Treatment of Race?\" Abrams filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w3123985438",
+      "query": "\"Do Judges Vary in Their Treatment of Race?\" Abrams filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Do Judges Vary in Their Treatment of Race?",
+          "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/666006",
+          "score": 1
+        },
+        {
+          "title": "Do Judges Vary in Their Treatment of Race? | The Abdul Latif Jameel Poverty Action Lab",
+          "url": "https://www.povertyactionlab.org/media/file-research-paper/do-judges-vary-their-treatment-race",
+          "score": 1
+        },
+        {
+          "title": "Do Judges Vary in Their Treatment of Race?",
+          "url": "https://paperzz.com/doc/9168588/do-judges-vary-in-their-treatment-of-race%3F",
+          "score": 1
+        },
+        {
+          "title": "Do Judges Vary in Their Treatment of Race? | IPA",
+          "url": "https://poverty-action.org/publication/do-judges-vary-their-treatment-race",
+          "score": 1
+        },
+        {
+          "title": "Do Judges Vary in Their Treatment of Race?",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1800840",
+          "score": 1
+        },
+        {
+          "title": "Do Judges Vary in Their Treatment of Race?",
+          "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/666006?journalCode=jls",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

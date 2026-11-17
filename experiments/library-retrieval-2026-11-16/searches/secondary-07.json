@@ -1,0 +1,91 @@
+{
+  "batch": 7,
+  "queries": [
+    {
+      "candidate_key": "law:law_biafra",
+      "doi": "",
+      "title": "Memorandum From Roger Morris of the National Security Council Staff to the President’s Assistant for National Security Affairs (Kissinger)",
+      "authors": "[\"Roger Morris\"]",
+      "field": "law_public_policy",
+      "q": "\"Memorandum From Roger Morris of the National Security Council Staff to the President’s Assistant for National Security Affairs (Kissinger)\" pdf"
+    },
+    {
+      "candidate_key": "law:law_incarceration",
+      "doi": "",
+      "title": "A new approach to reducing incarceration while maintaining low rates of crime",
+      "authors": "[\"Steven Raphael\", \"Michael Stoll\"]",
+      "field": "law_public_policy",
+      "q": "\"A new approach to reducing incarceration while maintaining low rates of crime\" pdf"
+    },
+    {
+      "candidate_key": "law:law_visa",
+      "doi": "",
+      "title": "Overhauling the Temporary Work Visa System",
+      "authors": "[\"Pia Orrenius\", \"Giovanni Peri\", \"Madeline Zavodny\"]",
+      "field": "law_public_policy",
+      "q": "\"Overhauling the Temporary Work Visa System\" pdf"
+    },
+    {
+      "candidate_key": "law:law_saving",
+      "doi": "",
+      "title": "Better Ways to Promote Saving through the Tax System",
+      "authors": "[\"Karen Dynan\"]",
+      "field": "law_public_policy",
+      "q": "\"Better Ways to Promote Saving through the Tax System\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_biafra",
+      "query": "\"Memorandum From Roger Morris of the National Security Council Staff to the President’s Assistant for National Security Affairs (Kissinger)\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "law:law_incarceration",
+      "query": "\"A new approach to reducing incarceration while maintaining low rates of crime\" pdf",
+      "urls": [
+        {
+          "title": "New Approach to Reducing Incarceration While Maintaining Low Rates of Crime | Office of Justice Programs",
+          "url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/new-approach-reducing-incarceration-while-maintaining-low-rates",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "NEW PAPERS ON CRIME AND INCARCERATION IN THE UNITED STATES",
+          "url": "https://www.hamiltonproject.org/wp-content/uploads/2023/05/Crime_onepager_final2.pdf",
+          "score": 0.3333333333333333,
+          "body_score": 1
+        },
+        {
+          "title": "How Do We Reduce Incarceration Rates While Maintaining Public Safety?",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/1745-9133.12100",
+          "score": 0.4444444444444444,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_visa",
+      "query": "\"Overhauling the Temporary Work Visa System\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "law:law_saving",
+      "query": "\"Better Ways to Promote Saving through the Tax System\" pdf",
+      "urls": [
+        {
+          "title": "Better Ways to Promote Saving through the Tax System | Brookings",
+          "url": "https://www.brookings.edu/articles/better-ways-to-promote-saving-through-the-tax-system/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Supporting Broad-Based Economic Growth and Fiscal Responsibility through Tax Reform | Brookings",
+          "url": "https://www.brookings.edu/articles/supporting-broad-based-economic-growth-and-fiscal-responsibility-through-tax-reform/",
+          "score": 0.25,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

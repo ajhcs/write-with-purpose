@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w2337002970",
+      "doi": "10.2307/1229039",
+      "title": "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color",
+      "authors": "[\"Kimberle Williams Crenshaw\"]",
+      "field": "law_public_policy",
+      "q": "\"Mapping the Margins: Intersectionality, Identity Politics, and Violence\" Crenshaw filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2337002970",
+      "query": "\"Mapping the Margins: Intersectionality, Identity Politics, and Violence\" Crenshaw filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color",
+          "url": "https://inclusive-teaching.du.edu/sites/default/files/2020-05/Crenshaw_mapping-the-margins1991.pdf",
+          "score": 1
+        },
+        {
+          "title": "Mapping the margins: intersectionality, identity politics and violence against women of color",
+          "url": "https://anrows.intersearch.com.au/entities/publication/82665317-e41b-4f62-a0ba-98cf73be1e22/full",
+          "score": 1
+        },
+        {
+          "title": "Mapping the margins: intersectionality, identity politics, and violence against women of color",
+          "url": "https://redclinicasjuridicas.ar/document/mapping-the-margins-intersectionality-identity-politics-and-violence-against-women-of-color/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

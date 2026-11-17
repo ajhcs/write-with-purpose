@@ -1,0 +1,1169 @@
+{
+  "coder_id": "A-original-1",
+  "arm": "original",
+  "stage": "A",
+  "model": "gpt-6.1-terra",
+  "started_at_utc": "2026-11-16T16:23:57Z",
+  "finished_at_utc": "2026-11-16T16:25:12Z",
+  "annotations": [
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p005",
+      "context": {
+        "reviewed_units": [
+          "LF-d23d38c43ea7-p003",
+          "LF-d23d38c43ea7-p004",
+          "LF-d23d38c43ea7-p005",
+          "LF-d23d38c43ea7-p006",
+          "LF-d23d38c43ea7-p007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "orient",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p005",
+              "quote": "All this is only preliminary.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Signals a turn from the preliminary discussion to the central position."
+        },
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p005",
+              "quote": "a great deal of harm is being done",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Presents the thesis about the work ethic and reduced work."
+        }
+      ],
+      "notes": "Provisional form: argument/perspective; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p015",
+      "context": {
+        "reviewed_units": [
+          "LF-d23d38c43ea7-p013",
+          "LF-d23d38c43ea7-p014",
+          "LF-d23d38c43ea7-p015",
+          "LF-d23d38c43ea7-p016",
+          "LF-d23d38c43ea7-p017"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "If the ordinary wage-earner worked four hours a day",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Proposes that shorter work could provide enough and avoid unemployment."
+        },
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "assuming a certain very moderate amount of sensible organization",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Makes the proposed outcome conditional on organization."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "while they wish their sons to work so hard",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Contrasts attitudes to sons and to wives and daughters."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "because they are convinced that the poor would not know",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Attributes opposition to a belief about the poor and leisure."
+        }
+      ],
+      "notes": "Provisional form: argument/perspective; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p025",
+      "context": {
+        "reviewed_units": [
+          "LF-d23d38c43ea7-p023",
+          "LF-d23d38c43ea7-p024",
+          "LF-d23d38c43ea7-p025",
+          "LF-d23d38c43ea7-p026",
+          "LF-d23d38c43ea7-p027"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p025",
+              "quote": "I am not meaning to imply that all the remaining time should necessarily be spent in pure frivolity",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Limits the meaning of the proposed reduction in hours."
+        },
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p025",
+              "quote": "education should be carried farther than it usually is at present",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Proposes education as part of the system."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p025",
+              "quote": "their active energies are fully taken up with work",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Attributes passive leisure to depleted energy and predicts a change with more time."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p025",
+              "quote": "seeing cinemas, watching football matches, listening to the radio",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Gives examples of passive urban pleasures."
+        }
+      ],
+      "notes": "Provisional form: argument/perspective; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p006",
+      "context": {
+        "reviewed_units": [
+          "LF-80bd6f30b443-p004",
+          "LF-80bd6f30b443-p005",
+          "LF-80bd6f30b443-p006",
+          "LF-80bd6f30b443-p007",
+          "LF-80bd6f30b443-p008"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p006",
+              "quote": "My education taught me to believe",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reflects on how education shaped the author’s view of others."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p006",
+              "quote": "I learned to give that little nod of understanding",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Provides a personal behavior exemplifying that learned attitude."
+        },
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p006",
+              "quote": "I never learned that there are smart people who don’t go to college at all.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recounts a gap in the author’s education over time."
+        }
+      ],
+      "notes": "Provisional form: argument/perspective; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p018",
+      "context": {
+        "reviewed_units": [
+          "LF-80bd6f30b443-p016",
+          "LF-80bd6f30b443-p017",
+          "LF-80bd6f30b443-p018",
+          "LF-80bd6f30b443-p019",
+          "LF-80bd6f30b443-p020"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p018",
+              "quote": "another is the temptation it offers to security",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Proposes security as another disadvantage of elite education."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p018",
+              "quote": "You have to live in an ordinary house instead of an apartment in Manhattan",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Contrasts consumption choices with the opportunity for meaningful work."
+        },
+        {
+          "function_id": "support",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p018",
+              "quote": "You can live comfortably in the United States as a schoolteacher",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Offers examples of livelihoods as a reason less wealth can still permit comfort."
+        }
+      ],
+      "notes": "Provisional form: argument/perspective; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p029",
+      "context": {
+        "reviewed_units": [
+          "LF-80bd6f30b443-p027",
+          "LF-80bd6f30b443-p028",
+          "LF-80bd6f30b443-p029",
+          "LF-80bd6f30b443-p030",
+          "LF-80bd6f30b443-p031"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "define",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "Being an intellectual begins with thinking your way outside of your assumptions",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Characterizes an intellectual practice by its distinguishing starting point."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "students who get into elite schools are precisely the ones who have best learned to work within the system",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reasons from prior conformity to difficulty seeing outside the system."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "the situation may be better at second-tier schools",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Compares less prestigious and elite institutions in their potential for independence."
+        },
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "Some students end up at second-tier schools because they’re exactly like students at Harvard or Yale",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Limits the comparison by acknowledging a different kind of student at second-tier schools."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "They concentrated on the ones that meant the most to them",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Gives concrete patterns of independent student choices."
+        }
+      ],
+      "notes": "Provisional form: argument/perspective; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p006",
+      "context": {
+        "reviewed_units": [
+          "LF-fca9142fd337-p004",
+          "LF-fca9142fd337-p005",
+          "LF-fca9142fd337-p006",
+          "LF-fca9142fd337-p007",
+          "LF-fca9142fd337-p008"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-fca9142fd337-p006",
+              "quote": "An interview followed",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Continues the encounter and interview with Utton through the exchange."
+        }
+      ],
+      "notes": "Provisional form: personal reflection; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p018",
+      "context": {
+        "reviewed_units": [
+          "LF-fca9142fd337-p016",
+          "LF-fca9142fd337-p017",
+          "LF-fca9142fd337-p018",
+          "LF-fca9142fd337-p019",
+          "LF-fca9142fd337-p020"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-fca9142fd337-p018",
+              "quote": "I made a neat slice down his thigh, hip to knee",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recounts the steps of an event leading to finding the femur."
+        }
+      ],
+      "notes": "Provisional form: personal reflection; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p029",
+      "context": {
+        "reviewed_units": [
+          "LF-fca9142fd337-p027",
+          "LF-fca9142fd337-p028",
+          "LF-fca9142fd337-p029",
+          "LF-fca9142fd337-p030",
+          "LF-fca9142fd337-p031"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-fca9142fd337-p029",
+              "quote": "He waited for a second, as the hairs rose on the back of my neck.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Continues the suspenseful exchange and reveals what happened to the body."
+        }
+      ],
+      "notes": "Provisional form: personal reflection; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p003",
+      "context": {
+        "reviewed_units": [
+          "LF-2cb0e10879f3-p001",
+          "LF-2cb0e10879f3-p002",
+          "LF-2cb0e10879f3-p003",
+          "LF-2cb0e10879f3-p004",
+          "LF-2cb0e10879f3-context001"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "orient",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p003",
+              "quote": "It's the story of what—or who—inspired my decision",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Redirects the reader from the narrator’s own cooking to the story of his mother."
+        }
+      ],
+      "notes": "Provisional form: personal reflection; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p007",
+      "context": {
+        "reviewed_units": [
+          "LF-2cb0e10879f3-p006",
+          "LF-2cb0e10879f3-context002",
+          "LF-2cb0e10879f3-p007",
+          "LF-2cb0e10879f3-p008",
+          "LF-2cb0e10879f3-p009"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p007",
+              "quote": "while I stayed home and panfried a shell steak",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recounts family routines and a specific remembered incident."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p007",
+              "quote": "the more necessary connection was between food and honesty",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reflects on the meaning of cooking and family interactions."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p007",
+              "quote": "the Mott's applesauce she'd doctored with lemon and cinnamon",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Provides a specific example of the mother’s food-related fibs."
+        }
+      ],
+      "notes": "Provisional form: personal reflection; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p011",
+      "context": {
+        "reviewed_units": [
+          "LF-2cb0e10879f3-p010",
+          "LF-2cb0e10879f3-context003",
+          "LF-2cb0e10879f3-p011",
+          "LF-2cb0e10879f3-p012"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p011",
+              "quote": "On Sunday nights after they moved near us",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recounts family suppers and the mother’s response to the pot roast."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p011",
+              "quote": "They were more unhappy than I ever allowed myself to know.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Draws a retrospective understanding of both parents and forgiveness."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p011",
+              "quote": "she hated cooking because she didn't know how to do it",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Offers a personal causal understanding of the mother’s aversion and fibs."
+        },
+        {
+          "function_id": "instruct",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p011",
+              "quote": "If it's tender, cook it fast over high heat; if it's tough, cook it slow over low",
+              "occurrence": 0
+            }
+          ],
+          "reason": "States an actionable cooking rule with conditions."
+        }
+      ],
+      "notes": "Provisional form: personal reflection; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "PMC2867979-p011",
+      "context": {
+        "reviewed_units": [
+          "PMC2867979-p010",
+          "PMC2867979-context006",
+          "PMC2867979-p011",
+          "PMC2867979-context007",
+          "PMC2867979-p012"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p011",
+              "quote": "An association has been shown between industry sponsorship",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Summarizes reported findings on industry involvement."
+        },
+        {
+          "function_id": "support",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p011",
+              "quote": "an aggregation of the results of 8 analyses",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Supplies a specific review result bearing on the association."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p011",
+              "quote": "the latter were less transparent, less critical of methodological limitations",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reports differences between Cochrane and industry-supported reviews."
+        },
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p011",
+              "quote": "Other aspects of industry involvement, such as design bias, are beyond the scope of this paper.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Limits the review’s scope."
+        }
+      ],
+      "notes": "Provisional form: research/synthesis; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "PMC2867979-p033",
+      "context": {
+        "reviewed_units": [
+          "PMC2867979-p032",
+          "PMC2867979-context024",
+          "PMC2867979-p033",
+          "PMC2867979-context025",
+          "PMC2867979-p034"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p033",
+              "quote": "in 2002, an analysis including previously unpublished data",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reports the trial and subsequent analysis with attribution."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p033",
+              "quote": "In 2000, a trial comparing upper gastrointestinal toxicity",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Provides a specific case in a review of reporting bias."
+        }
+      ],
+      "notes": "Provisional form: research/synthesis; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "PMC2867979-p055",
+      "context": {
+        "reviewed_units": [
+          "PMC2867979-context045",
+          "PMC2867979-p054",
+          "PMC2867979-p055",
+          "PMC2867979-context046",
+          "PMC2867979-p056"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p055",
+              "quote": "Another potential limitation of the review is the validity of the sources",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Identifies a limitation of the review’s underlying cases."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p055",
+              "quote": "several cases were based on information from other sources such as newspaper articles and websites",
+              "occurrence": 0
+            }
+          ],
+          "reason": "States the types of sources included."
+        },
+        {
+          "function_id": "support",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p055",
+              "quote": "they provide a broader overview of reporting bias",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Gives reasons to regard the sources as useful despite the limitation."
+        }
+      ],
+      "notes": "Provisional form: research/synthesis; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "PMC4053896-p007",
+      "context": {
+        "reviewed_units": [
+          "PMC4053896-context002",
+          "PMC4053896-p006",
+          "PMC4053896-p007",
+          "PMC4053896-context003",
+          "PMC4053896-p008"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p007",
+              "quote": "First, we used systematic snowball sampling",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes the review’s completed sampling and criteria development."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p007",
+              "quote": "Based on these articles, we defined the research focus",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Connects the selected papers to the subsequent research focus and criteria."
+        }
+      ],
+      "notes": "Provisional form: research/synthesis; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "PMC4053896-p021",
+      "context": {
+        "reviewed_units": [
+          "PMC4053896-context009",
+          "PMC4053896-p020",
+          "PMC4053896-p021",
+          "PMC4053896-p022",
+          "PMC4053896-context010"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p021",
+              "quote": "We identified the forest as the most investigated natural outdoor environment",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Summarizes characteristics and settings of reviewed studies."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p021",
+              "quote": "The majority of the studies compared urban with Nature environments; less common",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Contrasts the relative frequency of study designs and settings."
+        }
+      ],
+      "notes": "Provisional form: research/synthesis; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "PMC4053896-p035",
+      "context": {
+        "reviewed_units": [
+          "PMC4053896-p033",
+          "PMC4053896-p034",
+          "PMC4053896-p035",
+          "PMC4053896-p036",
+          "PMC4053896-p037"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p035",
+              "quote": "The most evident finding was the short-term stress-reducing potential",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Summarizes a finding of the review."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p035",
+              "quote": "the major achievement of our present review could be seen in enhancing the societal impact",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Draws an implication for the review’s societal contribution."
+        },
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p035",
+              "quote": "suggests to use the resource nature for primary, secondary, and also tertiary stress prevention",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recommends applying the findings to stress prevention."
+        }
+      ],
+      "notes": "Provisional form: research/synthesis; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "git-p02",
+      "context": {
+        "reviewed_units": [
+          "git-context001",
+          "git-p01",
+          "git-p02",
+          "git-p03",
+          "git-p04"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p02",
+              "quote": "With `--contains`, shows only the branches that contain the named commit",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes option behavior and the default commit."
+        },
+        {
+          "function_id": "define",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p02",
+              "quote": "the branches whose tip commits are descendants of the named commit",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Clarifies what containing the named commit means in this context."
+        }
+      ],
+      "notes": "Provisional form: explanation/procedure; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "git-p05",
+      "context": {
+        "reviewed_units": [
+          "git-p03",
+          "git-p04",
+          "git-p05",
+          "git-p06",
+          "git-p07"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p05",
+              "quote": "This behavior may be changed via the global `branch.autosetupmerge` configuration flag.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes configuration behavior and available overrides."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p05",
+              "quote": "so that 'git pull' will appropriately merge from the remote-tracking branch",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Connects branch configuration with its effect on pull."
+        }
+      ],
+      "notes": "Provisional form: explanation/procedure; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "git-p07",
+      "context": {
+        "reviewed_units": [
+          "git-p05",
+          "git-p06",
+          "git-p07",
+          "git-p08"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p07",
+              "quote": "With a `-d` or `-D` option, `<branchname>` will be deleted.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes deletion behavior and its consequences."
+        },
+        {
+          "function_id": "instruct",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p07",
+              "quote": "You may specify more than one branch for deletion.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Tells the reader a supported way to specify deletion targets."
+        }
+      ],
+      "notes": "Provisional form: explanation/procedure; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "python-p02",
+      "context": {
+        "reviewed_units": [
+          "python-context001",
+          "python-p01",
+          "python-p02",
+          "python-p03",
+          "python-context002"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "define",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p02",
+              "quote": "Such a file is called a *module*",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Names and characterizes a module and the main module."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p02",
+              "quote": "definitions from a module can be *imported* into other modules",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Explains how definitions can be reused across modules."
+        }
+      ],
+      "notes": "Provisional form: explanation/procedure; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "python-p04",
+      "context": {
+        "reviewed_units": [
+          "python-p03",
+          "python-context002",
+          "python-p04",
+          "python-context003",
+          "python-p05"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "instruct",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p04",
+              "quote": "Now enter the Python interpreter and import this module with the following command",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Directs the reader to enter the interpreter and import the example module."
+        }
+      ],
+      "notes": "Provisional form: explanation/procedure; audience inferred from local document; source version is the registered stage A packet."
+    },
+    {
+      "paragraph_id": "python-p06",
+      "context": {
+        "reviewed_units": [
+          "python-p05",
+          "python-context004",
+          "python-p06",
+          "python-context005"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected paragraph and neighboring packet units establish its local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "instruct",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p06",
+              "quote": "If you intend to use a function often you can assign it to a local name",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Offers a conditional action supported by the following example."
+        }
+      ],
+      "notes": "Provisional form: explanation/procedure; audience inferred from local document; source version is the registered stage A packet."
+    }
+  ]
+}

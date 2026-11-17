@@ -1,0 +1,15 @@
+ M README.md
+?? docs/writing-harness/
+?? experiments/canonical-skill-revision-2026-11-16/
+?? experiments/corpus-analysis-2026-11-16/
+?? experiments/dataset-adoption-2026-11-16/
+?? experiments/evidence-integration-2026-11-16/
+?? experiments/form-corpus-2026-11-16/
+?? experiments/library-expansion-2026-11-16/
+?? experiments/library-retrieval-2026-11-16/
+?? experiments/paragraph-functions/
+?? experiments/pattern-test-2026-11-16/
+?? experiments/prior-work-reuse-2026-11-16/
+?? experiments/rule-calibration-2026-11-16/
+?? experiments/rule-debate-2026-11-16/
+?? work/

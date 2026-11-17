@@ -1,0 +1,73 @@
+{
+  "batch": 9,
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-personal_reflective_essay-2",
+      "doi": "10.1001/jama.2013.276135",
+      "title": "A piece of my mind. The good physician.",
+      "authors": "[\"Bhadula R\"]",
+      "field": "medicine_health",
+      "q": "\"The good physician.\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-personal_reflective_essay-3",
+      "doi": "10.1001/jama.2012.116971",
+      "title": "A piece of my mind. Preparing for the 21st-century patient.",
+      "authors": "[\"Pandey A\"]",
+      "field": "medicine_health",
+      "q": "\"Preparing for the 21st-century patient.\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-1",
+      "doi": "10.1016/s0140-6736(12)60482-6",
+      "title": "Multimorbidity: redesigning health care for people who use it.",
+      "authors": "[\"Salisbury C\"]",
+      "field": "medicine_health",
+      "q": "\"Multimorbidity: redesigning health care for people who use it.\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-2",
+      "doi": "10.1016/s0140-6736(09)60258-0",
+      "title": "Universal health care and the removal of user fees.",
+      "authors": "[\"Yates R\"]",
+      "field": "medicine_health",
+      "q": "\"Universal health care and the removal of user fees.\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-personal_reflective_essay-2",
+      "query": "\"The good physician.\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "medicine:medicine-personal_reflective_essay-3",
+      "query": "\"Preparing for the 21st-century patient.\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-1",
+      "query": "\"Multimorbidity: redesigning health care for people who use it.\" pdf",
+      "urls": [
+        {
+          "title": "Management of multimorbidity using a patient-centred care model: a pragmatic cluster-randomised trial of the 3D approach",
+          "url": "https://www.thelancet.com/article/S0140673618313084/pdf",
+          "score": 0.25,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-2",
+      "query": "\"Universal health care and the removal of user fees.\" pdf",
+      "urls": [
+        {
+          "title": "Universal health care and the removal of user fees",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19362359/",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

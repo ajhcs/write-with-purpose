@@ -1,0 +1,9 @@
+A short queue does not necessarily mean a short wait. To see why, separate the number of waiting requests from the time each request spends waiting.
+
+Queue length is the number of requests waiting at a particular moment. Waiting time is the interval between a request joining the queue and its service beginning.
+
+Consider a fictional desk with one worker. One request is being handled, and only one other request is waiting. If the current request needs another hour, the waiting request cannot start during that hour.
+
+The delay comes from the unfinished work ahead of the waiting request. Counting the requests alone does not reveal how long that work will take.
+
+This example assumes the worker handles one request at a time and does not switch between requests. A system with several workers or different priorities needs its own explanation.

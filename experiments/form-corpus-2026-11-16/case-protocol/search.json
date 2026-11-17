@@ -1,0 +1,29 @@
+{
+  "clinical_case": {
+    "query": "PUB_TYPE:\"Case Reports\" AND OPEN_ACCESS:Y SORT_CITED:y",
+    "hit_count": 417470,
+    "response_sort": "",
+    "search_results_returned": 1000,
+    "candidate_count": 250,
+    "target_measured": 200,
+    "measured_in_cohort": 200
+  },
+  "study_protocol": {
+    "query": "TITLE:\"study protocol\" AND OPEN_ACCESS:Y SORT_CITED:y",
+    "hit_count": 24357,
+    "response_sort": "",
+    "search_results_returned": 1000,
+    "candidate_count": 250,
+    "target_measured": 200,
+    "measured_in_cohort": 200
+  },
+  "review_protocol": {
+    "query": "TITLE:\"systematic review protocol\" AND OPEN_ACCESS:Y SORT_CITED:y",
+    "hit_count": 1870,
+    "response_sort": "",
+    "search_results_returned": 1000,
+    "candidate_count": 250,
+    "target_measured": 200,
+    "measured_in_cohort": 200
+  }
+}

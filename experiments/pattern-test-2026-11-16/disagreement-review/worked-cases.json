@@ -1,0 +1,153 @@
+[
+  {
+    "id": "NEJMp1616577-p10",
+    "label": "NEJM: explanation or interpretation?",
+    "attribution": "Barack H. Obama, NEJM, 2017; supplied PDF p. 2",
+    "url": "https://doi.org/10.1056/NEJMp1616577",
+    "title": "Repealing the ACA without a Replacement — The Risks to American Health Care",
+    "words": 83,
+    "coder_a": [
+      "assert",
+      "explain"
+    ],
+    "coder_b": [
+      "assert",
+      "interpret"
+    ],
+    "coder_a_rationale": null,
+    "coder_b_rationale": "Synthesizes the claimed stakes of repeal without an alternative.",
+    "coder_b_uncertainty": false,
+    "proposal": "Prefer interpret for the disputed job: this paragraph summarizes stakes developed in the preceding reasoning. It names consequences without developing their mechanism. Assert remains compatible. This is a proposed reading, not an exhaustive reference label set.",
+    "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1616577.pdf",
+    "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483",
+    "paragraph_sha256": "8b09305d20a3eab3cde3e146989dd64f8cad051fb73efce8e3fb30806e55d8b6",
+    "provenance": {
+      "packet": "aca-science/NEJMp1616577-coding.json",
+      "start": 6713,
+      "end": 7203,
+      "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/aca-science/NEJMp1616577.body.txt"
+    },
+    "highlight": null,
+    "license_label": null,
+    "license_url": null,
+    "private_paragraph_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/disagreement-review/NEJMp1616577-p10.txt",
+    "status": "proposed_discussion_reading_not_gold_standard"
+  },
+  {
+    "id": "drucker-034",
+    "label": "HBR: orientation or instruction?",
+    "attribution": "Peter F. Drucker, Managing Oneself, 1999; supplied 2005 reprint, PDF p. 6",
+    "url": null,
+    "title": "Managing Oneself",
+    "words": 46,
+    "coder_a": [
+      "define",
+      "orient"
+    ],
+    "coder_b": [
+      "define",
+      "instruct",
+      "orient"
+    ],
+    "coder_a_rationale": null,
+    "coder_b_rationale": "Introduces values as the next self-management question, distinguishes it from ethics, and asks the reader to examine their values.",
+    "coder_b_uncertainty": [
+      "instruct: asking the question is actionable, but the test is not yet explained"
+    ],
+    "proposal": "Orientation and a directed self-question can coexist. Clarify whether reflective prompts count as instructions; a bare question heading and an actual request to examine oneself need contrasting examples. The distinction from ethics is limited clarification, not a complete definition of values.",
+    "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/hbr-managing-oneself.pdf",
+    "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b",
+    "paragraph_sha256": "957f53713332d04acca3b8d691e9032592201617317375208850c64f58d426ea",
+    "provenance": {
+      "private_units": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json",
+      "unit_id": "drucker-034",
+      "source": "/workspace/repos/builderbob/write-with-purpose/experiments/pattern-test-2026-11-16/hbr/drucker-reviewed.json",
+      "source_section_hint": "values"
+    },
+    "highlight": null,
+    "license_label": null,
+    "license_url": null,
+    "private_paragraph_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/disagreement-review/drucker-034.txt",
+    "status": "proposed_discussion_reading_not_gold_standard"
+  },
+  {
+    "id": "xml-02359-p018",
+    "label": "Review: examples, definition and scope",
+    "attribution": "Cathal Doyle, Laura Lennox and Derek Bell, BMJ Open, 2013; Results paragraph",
+    "url": "https://doi.org/10.1136/bmjopen-2012-001570",
+    "title": "A systematic review of evidence on the links between patient experience and clinical safety and effectiveness",
+    "words": 113,
+    "coder_a": [
+      "define",
+      "qualify",
+      "report"
+    ],
+    "coder_b": [
+      "illustrate",
+      "report"
+    ],
+    "coder_a_rationale": "Categorizes association outcomes and limited coverage.",
+    "coder_b_rationale": "Describes the table and outcome categories using concrete examples.",
+    "coder_b_uncertainty": "Examples enumerate category contents; illustration is borderline.",
+    "proposal": "Proposed reading: report plus qualify plus illustrate. The denominator condition limits the table claim; the listed instances illustrate category contents without establishing complete category boundaries. Different clauses perform different jobs.",
+    "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC3549241.xml",
+    "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47",
+    "paragraph_sha256": "c0a142a2832eedf368e1f502bb68681ca803dac23dca3dabc30db68d1b511550",
+    "provenance": {
+      "packet": "/workspace/repos/builderbob/write-with-purpose/experiments/pattern-test-2026-11-16/systematic/xml-02359-coding.json",
+      "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02359.txt",
+      "start": 9592,
+      "end": 10452,
+      "xml_path": "/article/body/sec[3]/p[3]"
+    },
+    "highlight": {
+      "text": "for 378 of the 556 cases where sufficient information was available to categorise",
+      "start": 111,
+      "end": 192,
+      "words": 13,
+      "label": "Scope condition"
+    },
+    "license_label": "CC BY-NC 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+    "private_paragraph_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/disagreement-review/xml-02359-p018.txt",
+    "status": "proposed_discussion_reading_not_gold_standard"
+  },
+  {
+    "id": "drucker-007",
+    "label": "HBR: history offered as support",
+    "attribution": "Peter F. Drucker, Managing Oneself, 1999; supplied 2005 reprint, PDF p. 4",
+    "url": null,
+    "title": "Managing Oneself",
+    "words": 84,
+    "coder_a": [
+      "explain",
+      "report"
+    ],
+    "coder_b": [
+      "explain",
+      "narrate",
+      "report",
+      "support"
+    ],
+    "coder_a_rationale": null,
+    "coder_b_rationale": "Recounts the method's historical adoption and advances a causal account of institutional success, supplying a historical reason for its importance.",
+    "coder_b_uncertainty": [
+      "support: the historical causal claim is asserted rather than independently established in this excerpt"
+    ],
+    "proposal": "Reporting content, narrative organization, a causal explanation and intended support for the preceding feedback-analysis recommendation can coexist. Mark the claim being supported, then assess the truth and adequacy of the historical reasoning separately. Neither coding set establishes historical validity.",
+    "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/hbr-managing-oneself.pdf",
+    "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b",
+    "paragraph_sha256": "abd51a67b3cf2286493ede9b52d14227e84d1ad10cc4d043caa3be8367e40fad",
+    "provenance": {
+      "private_units": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json",
+      "unit_id": "drucker-007",
+      "source": "/workspace/repos/builderbob/write-with-purpose/experiments/pattern-test-2026-11-16/hbr/drucker-reviewed.json",
+      "source_section_hint": "strengths"
+    },
+    "highlight": null,
+    "license_label": null,
+    "license_url": null,
+    "private_paragraph_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/disagreement-review/drucker-007.txt",
+    "status": "proposed_discussion_reading_not_gold_standard"
+  }
+]

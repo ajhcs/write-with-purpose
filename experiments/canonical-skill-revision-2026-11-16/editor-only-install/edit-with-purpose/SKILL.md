@@ -1,0 +1,35 @@
+---
+name: edit-with-purpose
+description: Correct, revise or improve existing prose, including reasoning, structure and expression when requested. Use for an editorial pass or independent review.
+metadata:
+  version: "0.3.0-alpha.6"
+---
+
+Start from the author's draft and do the work their request authorizes. Correction or polish repairs the specified problem while preserving effective surrounding choices. Requested improvement actively seeks a better thought, structure or expression, even when the original is adequate. Infer depth from the brief and context; a broad improvement request can permit coordinated restructuring without the word “rewrite,” while punctuation-only work remains local. When the author criticizes bloat or abstraction, address it rather than protecting the criticized wording. Deliver the actual revision or requested judgment.
+
+Read the relevant whole before settling for a local fix. Identify the author's contribution, reader or intended experience, actual constraints and a consequential problem or opportunity. Choose the depth that serves the task before minimizing collateral changes; a broader improvement need not wait for a failed local repair. If alternatives have a material tradeoff, write a decisive transition or representative passage and compare it with the original. A structural alternative must change a dependency, condition placement or experience, not merely rename headings. Check possible losses of evidence, voice, emphasis and uncertainty. Select independently when the brief settles the tradeoff; otherwise expose the consequential uncertainty while completing independent work. Carry a selected reorganization through the surrounding prose and make a substantial organizational change explicit. No two-full-draft requirement or fixed rewrite loop applies; an unchanged original can be the better result.
+
+When developing reasoning, distinguish the author's stated conclusion, a supported connective and a new editorial interpretation. Inspect supplied reasons first. Test a relevant competing reading, boundary or objection when stronger thinking is requested, then develop the grounded connection or revise the claim within scope. Keep new interpretations provisional unless adopted. Do not infer causation, necessity or endorsement from proximity, or use “may” to disguise an unsupported premise. An explicitly revisable recommendation is not a protected fact. Ask only when a missing premise or intent materially blocks the dependent edit; ordinary connectives need no exhaustive claim map.
+
+For Cole Lyons's prose, read [Cole's approved writing style](references/cole-lyons-style.md) before editing unless the request specifies a different voice. Distinguish original wording, factual sources, approved style references and rejected output. Apply supported preferences to wording, useful context, connections and sentence boundaries; copying transitions alone is not a style match. Preserve precise terms and explain the needed distinction where appropriate. Retain, transform or remove imagery and rhythm according to the task and actual constraints; unusual wording does not by itself establish author intent. Aesthetic effects may remain uncertain and need not justify themselves through shorter reading time.
+
+For concision, remove repeated work while retaining the context, examples and conditions the reader needs. A list of examples is a selection unless completeness is required. State the supported actor, action and consequence when an abstract phrase hides the relation. Preserve attribution, negation, chronology, certainty, commitments and entity/value bindings. Reread coordinated changes in context; small edits can damage meaning and large edits can preserve it.
+
+In ordinary editing, resolve a competing interpretation when it could change meaning, attribution or an authorized action. If both readings permit the same sound edit, proceed without forcing a function label. Explicit function-definition, boundary, annotation or reliability work retains its relevant disagreements even when no prose change is needed. Function presence is separate from effectiveness and factual support.
+
+Use a reference only for the issue at hand:
+
+| Need | Resource |
+| --- | --- |
+| Develop reasoning, choose improvement depth, show Family → Form → Section or compare arrangements | [Structure and purpose](references/structure-and-purpose.md) |
+| Cut lists, replace abstract phrasing, or learn from a preferred rewrite | [Plain-language editing](references/plain-language-edit.md) |
+| Check a technical concept, assertion state or source relationship | [Technical meaning](references/technical-meaning.md) |
+| Analyze functions, attribution, targets or annotation extent | [Functions and ambiguity](references/functions-and-ambiguity.md) |
+| Verify final counts, exact constraints or mechanical findings | [Mechanical checks](references/mechanical-checks.md) |
+| Apply reproducible exact-span file edits or measure an existing revision | [Local edits and change measurement](references/local-edits.md) |
+
+Count the final scoped text when a ceiling or no-growth requirement applies; use the original draft as the growth baseline only when requested. Use actual constraints, not an invented reduction target or exact-string lock for an idea. Inspect supported contract enforcement separately from advisory findings. A receipt describes its checked bytes and becomes stale after another edit; it does not certify meaning or automatically verify a later chat answer. If a helper is unavailable, use an available counter or report the material verification limit and continue the editorial work.
+
+Check meaning separately against supplied sources: distinguish supported corrections, misleading omissions and unresolved conflicts. A faithful edit can retain an incorrect source claim. For a requested independent review, use a fresh context when available and authorized, excluding the writer's rationale and prior verdicts from its first reading. If sources are supplied in stages for that review, complete the first reader pass before opening them. A separate skill name alone is not independence; no writer–editor chain is required.
+
+Preserve a file original unless authorized to replace it. Finish with a whole-result reading and the relevant checks; another pass needs a specific worthwhile opportunity or unresolved issue. Judge conformance, correctness and usefulness separately; model preference is not author acceptance or observed reader benefit. Return the revision and only material notes requested or needed. Explain a real choice when explanation or learning is wanted. Follow the requested learning sequence: deliver the requested revision before optional practice; when attempt-first practice is requested, let the author attempt first. Give a requested worked solution directly.

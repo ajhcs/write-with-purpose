@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_35",
+      "doi": "",
+      "title": "ATLAS: Technical proposal for a general-purpose pp experiment at the Large Hadron Collider at CERN",
+      "authors": "[\"ATLAS Collaboration\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"ATLAS: Technical proposal for a general-purpose pp experiment at the Large Hadron Collider at CERN\" Collaboration pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_35",
+      "query": "\"ATLAS: Technical proposal for a general-purpose pp experiment at the Large Hadron Collider at CERN\" Collaboration pdf",
+      "urls": [
+        {
+          "title": "Energy deposition studies for the LHCb insertion region of the CERN Large Hadron Collider",
+          "url": "https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.26.061002",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

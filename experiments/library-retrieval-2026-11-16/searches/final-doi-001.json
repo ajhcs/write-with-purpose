@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_005",
+      "doi": "10.5465/amr.1984.4277628",
+      "title": "Upper Echelons: The Organization as a Reflection of Its Top Managers",
+      "authors": "[\"Donald C. Hambrick\", \"Phyllis A. Mason\"]",
+      "field": "business_management",
+      "q": "\"Upper Echelons: The Organization as a Reflection of\" Hambrick filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_005",
+      "query": "\"Upper Echelons: The Organization as a Reflection of\" Hambrick filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Hambrick, D.C. & P. A. Mason (1984): “Upper Echelons: The Organization as a Reflection of Its Top Managers”, *The Academy of Management Review*, 9 (2): 193-206",
+          "url": "https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2022/07/Study-Paper-74-Sharing-the-Fire.pdf?download=true",
+          "score": 1
+        },
+        {
+          "title": "Hambrick, D.C., Mason, P.A., 1984. Upper echelons: The organization as a reflection of its top managers. Acad. Manag. Rev. 9, 193–206.",
+          "url": "https://repository.essex.ac.uk/30230/1/JCF_accepted.pdf",
+          "score": 1
+        },
+        {
+          "title": "Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193-206.",
+          "url": "https://mediatum.ub.tum.de/doc/1470252/file.pdf",
+          "score": 1
+        },
+        {
+          "title": "Upper Echelons: The Organization as a Reflection of Its Top Managers1",
+          "url": "https://journals.aom.org/doi/10.5465/amr.1984.4277628",
+          "score": 1
+        },
+        {
+          "title": "Upper Echelons: The Organization as a Reflection of Its Top Managers1",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amr.1984.4277628?download=true&journalCode=amr",
+          "score": 1
+        },
+        {
+          "title": "Upper Echelons: The Organization as a Reflection of Its Top Managers1",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amr.1984.4277628?ijkey=c57946d777a17a6ccd181468ecceb1244719ae52&keytype2=tf_ipsecsha&legid=amr%3B9%2F2%2F193&related-urls=yes",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

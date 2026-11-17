@@ -1,0 +1,53 @@
+{
+  "advocate": "reader-learning",
+  "responses": [
+    {
+      "challenge_id": "FF-C02",
+      "proposal_id": "RL03",
+      "decision": "revise",
+      "response": "Agree. The original requirement for a “best” local candidate and coordinated version can generate two unnecessary drafts and implies an unbounded search. The current skill already permits substantial changes in scope. Compare at the smallest informative scale, then actually make the stronger supported repair; do not make restraint an automatic veto. My Round 2 challenge to FF-04 makes the reciprocal correction.",
+      "revised_wording": "For an authorized improvement, identify the specific reader failure or underdeveloped contribution. If a broader repair is plausibly better and permitted, compare its likely reader gain and specific losses against the original or local repair at the least costly level that permits an informed choice: a sentence, representative passage, or structural sketch may suffice. Implement the supported intervention, including coordinated rewriting when warranted. Produce two complete drafts only when the tradeoff cannot otherwise be assessed or the author requests alternatives. Respect actual preservation, sequence, format and correction-only constraints; identify consequential reorganization."
+    },
+    {
+      "challenge_id": "CE-C03",
+      "proposal_id": "RL04",
+      "decision": "revise",
+      "response": "Agree that an explanation, a countercase and demonstrated transfer are different. A request for a rationale alone does not authorize an exercise; an optional exercise must not interrupt the deliverable. One transfer success does not show broad generalization.",
+      "revised_wording": "If the author asks for an explanation, briefly connect the actual edit to its reader consequence; use a countercase only when it clarifies. Offer practice on different material only when the author requests instruction, practice, or an established learning workflow, and after delivering the writing. Practice is optional; let the author attempt before a model solution. Do not infer learning from acceptance. For a research claim, prespecify an independently scored delayed transfer test and include cases where the move should not be used."
+    },
+    {
+      "challenge_id": "CE-C04",
+      "proposal_id": "RL03",
+      "decision": "revise",
+      "response": "Agree. A single missing antecedent should be repaired directly. When a local fix cannot make a consequential relationship intelligible, a short representative passage or structure sketch can establish why a broader revision is warranted; deliver that actual revision rather than merely discuss it.",
+      "revised_wording": "For an authorized improvement, identify the specific reader failure or underdeveloped contribution. If a broader repair is plausibly better and permitted, compare its likely reader gain and specific losses against the original or local repair at the least costly level that permits an informed choice: a sentence, representative passage, or structural sketch may suffice. Implement the supported intervention, including coordinated rewriting when warranted. Produce two complete drafts only when the tradeoff cannot otherwise be assessed or the author requests alternatives. Respect actual preservation, sequence, format and correction-only constraints; identify consequential reorganization."
+    }
+  ],
+  "revised_proposals": [
+    {
+      "id": "RL01",
+      "status": "retain with clarification",
+      "operative_behavior": "For a consequential reader-task failure, identify the specific missing referent, distinction or connection; inspect supplied context for the support, make a source-grounded repair and reattempt the task. Treat a model reattempt as provisional. When alternative interpretations do not affect the authorized edit, do not force a label or resolve the ambiguity. If the necessary fact is missing, mark it and do not invent it."
+    },
+    {
+      "id": "RL02",
+      "status": "retain with clarification",
+      "operative_behavior": "Keep the precise domain term where it matters. If an intended reader must use a distinction that is not recoverable, place a source-supported explanation of that difference or consequence where needed. Compare alternatives only when consequential, preserve expressive contributions where requested, and do not force a glossary or simplify away meaning."
+    },
+    {
+      "id": "RL03",
+      "status": "revised",
+      "operative_behavior": "For an authorized improvement, identify the specific reader failure or underdeveloped contribution. If a broader repair is plausibly better and permitted, compare its likely reader gain and specific losses against the original or local repair at the least costly level that permits an informed choice: a sentence, representative passage, or structural sketch may suffice. Implement the supported intervention, including coordinated rewriting when warranted. Produce two complete drafts only when the tradeoff cannot otherwise be assessed or the author requests alternatives. Respect actual preservation, sequence, format and correction-only constraints; identify consequential reorganization."
+    },
+    {
+      "id": "RL04",
+      "status": "revised",
+      "operative_behavior": "If the author asks for an explanation, briefly connect the actual edit to its reader consequence; use a countercase only when it clarifies. Offer practice on different material only when the author requests instruction, practice, or an established learning workflow, and after delivering the writing. Practice is optional; let the author attempt before a model solution. Do not infer learning from acceptance. For a research claim, prespecify an independently scored delayed transfer test and include cases where the move should not be used."
+    }
+  ],
+  "remaining_disagreements": [
+    "A broad improvement request can authorize substantive reorganization where it is necessary and respects purpose; an edit request alone is not always authorization to rewrite the whole work. The practical threshold is contextual and cannot be resolved by edit-size metrics.",
+    "A model’s own reading simulation can locate a candidate failure and support a repair, but cannot establish reader comprehension or the author’s voice.",
+    "Meaningful novelty lies in the scope-triggered handoff, source-bound repair, low-burden intervention-scale choice and optional practice; these are testable recombinations with existing skills and tutoring, not proven unique or superior."
+  ]
+}

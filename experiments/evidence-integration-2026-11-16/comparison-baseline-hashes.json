@@ -1,0 +1,45 @@
+{
+  "scope": "Read-only comparison snapshot at integration time; not a new randomized-experiment freeze.",
+  "files": [
+    {
+      "path": "docs/writing-harness/accepted-foundations.md",
+      "sha256": "2a8aa40b545299d3ec4d5c33f9597ca1548c3715cef17e978134bccf505f5b62"
+    },
+    {
+      "path": "docs/writing-harness/paragraph-functions.json",
+      "sha256": "4d119fac2f29e1c0bbdea77e65e64cba45f67931bc0f816e40a765c0ff3cdc2e"
+    },
+    {
+      "path": "experiments/dataset-adoption-2026-11-16/comparison.md",
+      "sha256": "6f9bf15caf9bdfec5b17ab3310ed33e352e610c72e6fafe51fbe3236af3dacdf"
+    },
+    {
+      "path": "experiments/rule-calibration-2026-11-16/report.md",
+      "sha256": "bd6c02f27faa73f3c5dbbc130f7611463fa2a8219a4f2d04cb1d87ebb11667c6"
+    },
+    {
+      "path": "skills/edit-with-purpose/SKILL.md",
+      "sha256": "99779aadcc1e66f41bd30448b84c6598cfd8e66d1aa71f4dc1d32f0e4d12abef"
+    },
+    {
+      "path": "skills/write-with-purpose/SKILL.md",
+      "sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365"
+    },
+    {
+      "path": "skills/write-with-purpose/references/checks.md",
+      "sha256": "27e8a948eeea5f9b5a68449d7ecf8657dee103e621be1c2a6f839cd8dd9d9cce"
+    },
+    {
+      "path": "skills/write-with-purpose/references/cole-lyons-style.md",
+      "sha256": "764ee9da1a7b34fce5e1ea2695ef49e2365e2c672b0927be4322a4a2e679b815"
+    },
+    {
+      "path": "skills/write-with-purpose/references/language-and-meaning.md",
+      "sha256": "95aeaafe5a880115507a65001b9494c970140bf3f384e48d01f9d0616aa2b01a"
+    },
+    {
+      "path": "skills/write-with-purpose/references/structure-and-purpose.md",
+      "sha256": "4bd8556194c70d6588a39334b68ce029749ae5b4b84a5deb98610cc750e3d4a2"
+    }
+  ]
+}

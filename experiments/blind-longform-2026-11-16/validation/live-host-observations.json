@@ -1,0 +1,10 @@
+{
+  "trial_id": "blind-longform-20261116",
+  "scope": "Observed real visualization submissions, separate from pre-launch mocked UI tests.",
+  "source_id": "visualization-8c403aee2dc86f06",
+  "real_submission_events_received": 3,
+  "latest_valid_review_count": 10,
+  "source_and_schema_validated": true,
+  "cross_client_persistence_verified": false,
+  "condition_identities_revealed": false
+}

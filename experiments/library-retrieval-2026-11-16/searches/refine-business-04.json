@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_006",
+      "doi": "10.5465/amr.1998.1255632",
+      "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+      "authors": "[\"Jeffrey H. Dyer\", \"Harbir Singh\"]",
+      "field": "business_management",
+      "q": "\"The Relational View\" Dyer pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_006",
+      "query": "\"The Relational View\" Dyer pdf",
+      "urls": [
+        {
+          "title": "Dyer, J. H., & Singh, H. (1998). The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage. *Academy of Management Review, 23*(4), 660–679. https://doi.org/10.5465/amr.1998.1255632",
+          "url": "https://www.ideals.illinois.edu/items/118365/bitstreams/388670/data.pdf",
+          "score": 1
+        },
+        {
+          "title": "[10] Dyer, J.H., and Singh, H. 1998. The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage. Academy of Management Review, 23(4): 660-679.",
+          "url": "https://www.usi.ch/sites/default/files/storage/attachments/document/bolxprofits-10-01-11non-anon.pdf",
+          "score": 1
+        },
+        {
+          "title": "Dyer, J.H. & Singh, H. (1998), “The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage”, *The Academy of Management Review*, 23(4), 660-679.",
+          "url": "https://pure.tue.nl/ws/portalfiles/portal/47015228/716404-1.pdf",
+          "score": 1
+        },
+        {
+          "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+          "url": "https://www.academia.edu/49924442/The_Relational_View_Cooperative_Strategy_and_Sources_of_Interorganizational_Competitive_Advantage",
+          "score": 1
+        },
+        {
+          "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+          "url": "https://ide.resea.org/10.5465/amr.1998.1255632",
+          "score": 1
+        },
+        {
+          "title": "Dyer, J. H., & Singh, H. (1998). The relational view: Cooperative strategy and sources of interorganizational competitive advantage. *Academy of management review, 23*(4), 660-679.",
+          "url": "https://www.anzam.org/wp-content/uploads/pdf-manager/2729_449.PDF",
+          "score": 1
+        },
+        {
+          "title": "Relational View: Competitive Advantage Sources | PDF | Economies | Business",
+          "url": "https://www.scribd.com/document/911721376/Dyer-RelationalViewCooperative-1998",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "Relational View: Cooperative Strategy | PDF",
+          "url": "https://www.scribd.com/document/383789426/The-Relational-View-Cooperative-Strategy-and-Sourc-pdf",
+          "score": 0.6666666666666666
+        }
+      ]
+    }
+  ]
+}

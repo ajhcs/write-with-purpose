@@ -1,0 +1,131 @@
+{
+  "scope": "Bounds flags only; no silent repair or semantic label judgment. Original source text and demographic fields excluded. Rows with negative sentinels require explicit missing-offset handling before span measurements.",
+  "splits": [
+    {
+      "split": "train",
+      "counts": [
+        {
+          "reason": "end_exceeds_full_text",
+          "original_label": "Concluding Statement",
+          "rows": 46
+        },
+        {
+          "reason": "end_exceeds_full_text",
+          "original_label": "Evidence",
+          "rows": 10
+        },
+        {
+          "reason": "end_exceeds_full_text",
+          "original_label": "Position",
+          "rows": 4
+        }
+      ],
+      "example_ids_only": [
+        {
+          "essay_id": "565996115212010thLitAB",
+          "discourse_id": "1.62299E+12",
+          "role": "Concluding Statement",
+          "start": 1620,
+          "end": 1810,
+          "full_text_characters": 1808,
+          "reason": "end_exceeds_full_text"
+        },
+        {
+          "essay_id": "5.57397E+12",
+          "discourse_id": "1.62283E+12",
+          "role": "Concluding Statement",
+          "start": 1380,
+          "end": 1583,
+          "full_text_characters": 1582,
+          "reason": "end_exceeds_full_text"
+        },
+        {
+          "essay_id": "5084784",
+          "discourse_id": "1.62354E+12",
+          "role": "Evidence",
+          "start": 558,
+          "end": 3551,
+          "full_text_characters": 3542,
+          "reason": "end_exceeds_full_text"
+        },
+        {
+          "essay_id": "5029872",
+          "discourse_id": "1.62333E+12",
+          "role": "Concluding Statement",
+          "start": 2288,
+          "end": 2942,
+          "full_text_characters": 2941,
+          "reason": "end_exceeds_full_text"
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "counts": [
+        {
+          "reason": "end_exceeds_full_text",
+          "original_label": "Concluding Statement",
+          "rows": 22
+        },
+        {
+          "reason": "end_exceeds_full_text",
+          "original_label": "Position",
+          "rows": 2
+        },
+        {
+          "reason": "end_exceeds_full_text",
+          "original_label": "Evidence",
+          "rows": 11
+        },
+        {
+          "reason": "end_exceeds_full_text",
+          "original_label": "Claim",
+          "rows": 1
+        },
+        {
+          "reason": "end_exceeds_full_text",
+          "original_label": "Rebuttal",
+          "rows": 1
+        }
+      ],
+      "example_ids_only": [
+        {
+          "essay_id": "AAAXMP138200001860452144_OR",
+          "discourse_id": "1.61877E+12",
+          "role": "Concluding Statement",
+          "start": 1873,
+          "end": 2447,
+          "full_text_characters": 2446,
+          "reason": "end_exceeds_full_text"
+        },
+        {
+          "essay_id": "AAAXMP138200001808412144_OR",
+          "discourse_id": "1.61843E+12",
+          "role": "Concluding Statement",
+          "start": 1885,
+          "end": 2005,
+          "full_text_characters": 2004,
+          "reason": "end_exceeds_full_text"
+        },
+        {
+          "essay_id": "AAAOPP13416000072790",
+          "discourse_id": "1.62005E+12",
+          "role": "Concluding Statement",
+          "start": 1163,
+          "end": 1339,
+          "full_text_characters": 1338,
+          "reason": "end_exceeds_full_text"
+        },
+        {
+          "essay_id": "AAAOPP13416000047538",
+          "discourse_id": "1.61962E+12",
+          "role": "Position",
+          "start": 1725,
+          "end": 1975,
+          "full_text_characters": 1974,
+          "reason": "end_exceeds_full_text"
+        }
+      ]
+    }
+  ]
+}

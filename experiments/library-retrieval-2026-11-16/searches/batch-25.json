@@ -1,0 +1,167 @@
+{
+  "batch": 25,
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_16",
+      "doi": "10.1103/physrevlett.77.3865",
+      "title": "Generalized Gradient Approximation Made Simple",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Generalized Gradient Approximation Made Simple\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_17",
+      "doi": "10.1103/physrevlett.69.2863",
+      "title": "Density matrix formulation for quantum renormalization groups",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Density matrix formulation for quantum renormalization groups\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_18",
+      "doi": "10.1103/physrev.47.777",
+      "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_19",
+      "doi": "10.1103/physrev.108.1175",
+      "title": "Theory of Superconductivity",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Theory of Superconductivity\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_16",
+      "query": "\"Generalized Gradient Approximation Made Simple\" pdf",
+      "urls": [
+        {
+          "title": "Generalized Gradient Approximation Made Simple",
+          "url": "https://www.chem.uci.edu/~kieron/dft/pubs/PBE97.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Generalized Gradient Approximation Made Simple [Phys. Rev. Lett. 77, 3865 (1996)]",
+          "url": "https://doi.org/10.1103/PhysRevLett.78.1396",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_17",
+      "query": "\"Density matrix formulation for quantum renormalization groups\" pdf",
+      "urls": [
+        {
+          "title": "Density matrix formulation for quantum renormalization groups",
+          "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.69.2863/fulltext",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Density matrix formulation for quantum renormalization groups.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10046608/",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_18",
+      "query": "\"Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?\" pdf",
+      "urls": [
+        {
+          "title": "Can Quantum-Mechanical Description of Physical Reality be Considered Complete?",
+          "url": "https://galileo-unbound.blog/wp-content/uploads/2022/11/bohrpr35.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+          "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777?ft=1",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Can Quantum-Mechanical Description of Physical Reality be Considered Complete? | NDLサーチ | 国立国会図書館",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1363107370169628288",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Can Quantum-Mechanical Description of Physical Reality be Considered Complete?",
+          "url": "https://philpapers.org/rec/BOHCQD-2",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete",
+          "url": "https://www.academia.edu/8139255/Can_Quantum_Mechanical_Description_of_Physical_Reality_Be_Considered_Complete",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Does the Wave Function Provide a Complete Description of Physical Reality?",
+          "url": "https://arxiv.org/abs/quant-ph/9512028",
+          "score": 0.5,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_19",
+      "query": "\"Theory of Superconductivity\" pdf",
+      "urls": [
+        {
+          "title": "Theory of Superconductivity",
+          "url": "https://users.fuw.edu.pl/~pzdybel/bcs1957.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Theory of Superconductivity",
+          "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.108.1175",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Theory of Superconductivity",
+          "url": "https://www.nature.com/articles/161968a0",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Unit-14 Theory of Superconductivity",
+          "url": "https://egyankosh.ac.in/handle/123456789/114942",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Theory of Superconductivity",
+          "url": "https://www.nature.com/articles/163247a0",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Theory of Superconductivity in Strongly Correlated Electron Systems",
+          "url": "https://arxiv.org/abs/cond-mat/0309094",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "New Theory of Superconductivity",
+          "url": "https://arxiv.org/abs/cond-mat/0403434",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Ginzburg-Landau Paper on the Theory of Superconductivity",
+          "url": "https://www.reddit.com/r/Physics/comments/21m02w",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

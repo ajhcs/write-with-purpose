@@ -1,0 +1,28 @@
+{
+  "status": "synthetic development checks; not evidence of learning efficacy",
+  "candidate_version": "wwp-debate-0.1.1",
+  "guide_path": "candidate/operative-rules.md",
+  "guide_sha256": "0cfa57f8280320eb6eeba7234d041c7d6a796a9ecb38c18293eea5265f70c367",
+  "case_source": "validation/learning-scope-cases.json",
+  "cases": [
+    {
+      "id": "L01",
+      "rule_ids": [
+        "B01",
+        "R01",
+        "B04"
+      ],
+      "initial_response": "The model correctly classified 80 of 100 cases.\n\nThis replaces the vague praise with the observed result. Without a baseline or comparator, the count alone does not establish whether the result was good.",
+      "assessment": "Provides the explicitly requested worked rewrite and explanation directly. It retains the denominator and avoids interpreting success without a comparator. This checks compliance with the requested delivery, not learning or author acceptance."
+    },
+    {
+      "id": "L02",
+      "rule_ids": [
+        "B01",
+        "B04"
+      ],
+      "initial_response": "Source facts:\n\n- Correct classifications: 80\n- Total cases: 100\n- No baseline, comparator, or other outcome was supplied.\n\nHow would you rewrite the original sentence using those facts? I’ll wait for your attempt before showing an example.",
+      "assessment": "Supplies facts as data and invites the requested attempt, withholding a worked sentence. This checks initial sequencing, not whether practice improves learning."
+    }
+  ]
+}

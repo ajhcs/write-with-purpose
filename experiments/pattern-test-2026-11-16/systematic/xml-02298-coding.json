@@ -1,0 +1,643 @@
+{
+  "source_xml_sha256": "f603ac5be9cda2adb455f06648e3d3c460dfa97dfe1bf2e5f11b86d097bbd3d3",
+  "cache_sha256": "57e00ff2826816c5cb3babfcf64e27a184eb7ec58f547bfed4769b6e3918da35",
+  "sections": [
+    {
+      "id": "generated-1",
+      "heading": "Introduction",
+      "parent": null,
+      "analyst_role": "introduction"
+    },
+    {
+      "id": "generated-2",
+      "heading": "Methods",
+      "parent": null,
+      "analyst_role": "methods"
+    },
+    {
+      "id": "generated-3",
+      "heading": "Search strategy",
+      "parent": "generated-2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "generated-4",
+      "heading": "Study selection",
+      "parent": "generated-2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "generated-5",
+      "heading": "Inclusion criteria",
+      "parent": "generated-2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "generated-6",
+      "heading": "Data extraction",
+      "parent": "generated-2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "generated-7",
+      "heading": "Data analysis",
+      "parent": "generated-2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "generated-8",
+      "heading": "Results",
+      "parent": null,
+      "analyst_role": "results"
+    },
+    {
+      "id": "generated-9",
+      "heading": "Estimates of validity",
+      "parent": "generated-8",
+      "analyst_role": "results"
+    },
+    {
+      "id": "generated-10",
+      "heading": "Quality of reporting",
+      "parent": "generated-8",
+      "analyst_role": "results"
+    },
+    {
+      "id": "generated-11",
+      "heading": "Discussion",
+      "parent": null,
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "generated-12",
+      "heading": "Conclusion",
+      "parent": null,
+      "analyst_role": "conclusion"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "xml-02298-p001",
+      "section_id": "generated-1",
+      "source_xml_path": "/article/body/sec[1]/p[1]",
+      "start": 0,
+      "end": 592,
+      "span_sha256": "ff2b45dc128c7e083f9ff439d9fb1a3f0a001eebf37aa7e06f0db2364d98bb3a",
+      "functions": [
+        "orient",
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "GPRD context and research use.",
+      "analyst_role": "introduction",
+      "word_count": 88
+    },
+    {
+      "id": "xml-02298-p002",
+      "section_id": "generated-1",
+      "source_xml_path": "/article/body/sec[1]/p[2]",
+      "start": 594,
+      "end": 1724,
+      "span_sha256": "10e5ee784a7e2995c18ba0f2b8709b586d71b7f882c8e77acfabdb857e329339",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Describes database fields and recording.",
+      "analyst_role": "introduction",
+      "word_count": 160
+    },
+    {
+      "id": "xml-02298-p003",
+      "section_id": "generated-1",
+      "source_xml_path": "/article/body/sec[1]/p[3]",
+      "start": 1726,
+      "end": 3431,
+      "span_sha256": "0ea6fe0adfd282d2834c9724daa0e975b2470c8b726b8870d2c13d5133c9d421",
+      "functions": [
+        "explain",
+        "illustrate",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Explains validity relevance, checks and recording limitations.",
+      "analyst_role": "introduction",
+      "word_count": 259
+    },
+    {
+      "id": "xml-02298-p004",
+      "section_id": "generated-1",
+      "source_xml_path": "/article/body/sec[1]/p[4]",
+      "start": 3433,
+      "end": 4083,
+      "span_sha256": "e4ab1cc67faf6f061028b719e3116f92a125c02e76992f80f736c5448c4c6d6a",
+      "functions": [
+        "report",
+        "orient"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Identifies review gap and aims.",
+      "analyst_role": "introduction",
+      "word_count": 102
+    },
+    {
+      "id": "xml-02298-p005",
+      "section_id": "generated-3",
+      "source_xml_path": "/article/body/sec[2]/sec[1]/p[1]",
+      "start": 4085,
+      "end": 5126,
+      "span_sha256": "2ba7c6b12725976a0c3fdaad8d391ee4caf9a94bfb9ff60fef83b32b319cb9ff",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Search sources and reason for broadening.",
+      "analyst_role": "methods",
+      "word_count": 142
+    },
+    {
+      "id": "xml-02298-p006",
+      "section_id": "generated-4",
+      "source_xml_path": "/article/body/sec[2]/sec[2]/p[1]",
+      "start": 5128,
+      "end": 5638,
+      "span_sha256": "167a0d8ba519c7050cb06eb7c337eb32ccac4e9305c88f926d824c0deaeb3095",
+      "functions": [
+        "report",
+        "define"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Full-text review and validation classification.",
+      "analyst_role": "methods",
+      "word_count": 80
+    },
+    {
+      "id": "xml-02298-p007",
+      "section_id": "generated-5",
+      "source_xml_path": "/article/body/sec[2]/sec[3]/p[1]",
+      "start": 5640,
+      "end": 6451,
+      "span_sha256": "24551f1f6919be05e1a9d7e7cb961c94d049ef08b18651b28e290ca46fb7411c",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Selection criteria and resolution.",
+      "analyst_role": "methods",
+      "word_count": 118
+    },
+    {
+      "id": "xml-02298-p008",
+      "section_id": "generated-6",
+      "source_xml_path": "/article/body/sec[2]/sec[4]/p[1]",
+      "start": 6453,
+      "end": 7320,
+      "span_sha256": "bf99fef07f7f61c8330ecd91a90424780daca574b69791a8e16718b02cba5037",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Extraction and reporting-quality items.",
+      "analyst_role": "methods",
+      "word_count": 131
+    },
+    {
+      "id": "xml-02298-p009",
+      "section_id": "generated-7",
+      "source_xml_path": "/article/body/sec[2]/sec[5]/p[1]",
+      "start": 7322,
+      "end": 7942,
+      "span_sha256": "2137d2b4de34dc2c53ccf4604c33acdd976c841b35959bb231060e9f6b6d795a",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Analysis and classification.",
+      "analyst_role": "methods",
+      "word_count": 96
+    },
+    {
+      "id": "xml-02298-p010",
+      "section_id": "generated-8",
+      "source_xml_path": "/article/body/sec[3]/p[1]",
+      "start": 7944,
+      "end": 8618,
+      "span_sha256": "b0efd1e0056400336967778015ff070b9520b37c545ca57d445f6f1aacfa5e0d",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Study flow and exclusion reasons.",
+      "analyst_role": "results",
+      "word_count": 100
+    },
+    {
+      "id": "xml-02298-p011",
+      "section_id": "generated-8",
+      "source_xml_path": "/article/body/sec[3]/p[2]",
+      "start": 8620,
+      "end": 9129,
+      "span_sha256": "12489ff61df9536f845755a0492c385679682ef39612862fa0225a68014c43c6",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Examples of multiple validation methods and diagnoses.",
+      "analyst_role": "results",
+      "word_count": 76
+    },
+    {
+      "id": "xml-02298-p012",
+      "section_id": "generated-8",
+      "source_xml_path": "/article/body/sec[3]/p[3]",
+      "start": 9131,
+      "end": 9857,
+      "span_sha256": "6af944d9ff1840b7c93172a9907d1899a190536735dc69d6335ea79435c3fc24",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Included validations and method uncertainty.",
+      "analyst_role": "results",
+      "word_count": 120
+    },
+    {
+      "id": "xml-02298-p013",
+      "section_id": "generated-9",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[1]",
+      "start": 9859,
+      "end": 10250,
+      "span_sha256": "fb1c9d0158cdc1a596319b801e1c9744ab9d5ba3accf498403829a2d4b92a384",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Confirmation results and variation.",
+      "analyst_role": "results",
+      "word_count": 64
+    },
+    {
+      "id": "xml-02298-p014",
+      "section_id": "generated-9",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[2]",
+      "start": 10252,
+      "end": 11198,
+      "span_sha256": "a9e22f5162d16469ba6b0fe928b0fa49629ee7f2e2f3a2e1691d14671289c419",
+      "functions": [
+        "report",
+        "compare",
+        "illustrate",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "External comparisons and interpretation.",
+      "analyst_role": "results",
+      "word_count": 141
+    },
+    {
+      "id": "xml-02298-p015",
+      "section_id": "generated-10",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/p[1]",
+      "start": 11200,
+      "end": 11547,
+      "span_sha256": "0331bb612ab2846e99951fab1e407a62725ab6861ef50afe29f77cb5e3820b81",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Medical codes seldom reported.",
+      "analyst_role": "results",
+      "word_count": 55
+    },
+    {
+      "id": "xml-02298-p016",
+      "section_id": "generated-10",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/p[2]",
+      "start": 11549,
+      "end": 12013,
+      "span_sha256": "e2bf1362204eea70065691ce4361a490f4886f890f79cbca228d2f710fd3c66d",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Validation counts across methods.",
+      "analyst_role": "results",
+      "word_count": 77
+    },
+    {
+      "id": "xml-02298-p017",
+      "section_id": "generated-10",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/p[3]",
+      "start": 12015,
+      "end": 12731,
+      "span_sha256": "8514d9d3335399457d50d59675de07a99e898189b7e93e8478c51c79c7f7d418",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Selected samples and reporting gaps.",
+      "analyst_role": "results",
+      "word_count": 107
+    },
+    {
+      "id": "xml-02298-p018",
+      "section_id": "generated-10",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/p[4]",
+      "start": 12733,
+      "end": 13141,
+      "span_sha256": "7ee575de1fe2b07f33bddb85ecf58b4e1da9e24aa1dbc2289070cbac052adb8a",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Response rates and missing information.",
+      "analyst_role": "results",
+      "word_count": 63
+    },
+    {
+      "id": "xml-02298-p019",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[1]",
+      "start": 13143,
+      "end": 13409,
+      "span_sha256": "c9d0a4dc3dd2f69f41318f7fc8d04348fb90ea61ae5c8992f5bc5b456377aa34",
+      "functions": [
+        "report",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Summary and inference about coverage.",
+      "analyst_role": "discussion",
+      "word_count": 42
+    },
+    {
+      "id": "xml-02298-p020",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[2]",
+      "start": 13411,
+      "end": 14722,
+      "span_sha256": "ab41c59540a87afbd311646ed471b9a11c8275648fc820079c8fe3f4e9e8df22",
+      "functions": [
+        "report",
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Overall evidence and reasons against universal validity inference.",
+      "analyst_role": "discussion",
+      "word_count": 186
+    },
+    {
+      "id": "xml-02298-p021",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[3]",
+      "start": 14724,
+      "end": 15338,
+      "span_sha256": "68d6bc41c52622b939071bcdef71ec97ea6d752625944587c66d91937cdb38b6",
+      "functions": [
+        "interpret",
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Method recommendation and PPV limits.",
+      "analyst_role": "discussion",
+      "word_count": 96
+    },
+    {
+      "id": "xml-02298-p022",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[4]",
+      "start": 15340,
+      "end": 16317,
+      "span_sha256": "295a172c96d79af36b85030a4ee3ffb2fb68e56671ce1a6ed5ea7a39140ddb01",
+      "functions": [
+        "define",
+        "explain",
+        "qualify",
+        "illustrate"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Defines validity measures, sampling dependency and examples.",
+      "analyst_role": "discussion",
+      "word_count": 142
+    },
+    {
+      "id": "xml-02298-p023",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[5]",
+      "start": 16319,
+      "end": 16975,
+      "span_sha256": "e05658152b9795e507ff8a5c630f39ba5d69f175e676f6ca2c25866a74e36abd",
+      "functions": [
+        "report",
+        "explain",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Precision, missing confidence intervals and reporting recommendation.",
+      "analyst_role": "discussion",
+      "word_count": 108
+    },
+    {
+      "id": "xml-02298-p024",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[6]",
+      "start": 16977,
+      "end": 18289,
+      "span_sha256": "eb8c06c587550e3eb582b19d6763327856d6194367073d052698349a380953e2",
+      "functions": [
+        "qualify",
+        "illustrate",
+        "explain",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Selection and response bias mechanisms and reporting recommendation.",
+      "analyst_role": "discussion",
+      "word_count": 202
+    },
+    {
+      "id": "xml-02298-p025",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[7]",
+      "start": 18291,
+      "end": 18966,
+      "span_sha256": "463f0974b29c6664eadf4ab42c041036bf41d9ca36c51bd120bf6e18a31a9d6c",
+      "functions": [
+        "compare",
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Manual review tradeoffs and bias.",
+      "analyst_role": "discussion",
+      "word_count": 102
+    },
+    {
+      "id": "xml-02298-p026",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[8]",
+      "start": 18968,
+      "end": 19692,
+      "span_sha256": "ebb3b1ffe8e406bc7c7a8ff87f0ebe2a6dd0c728bb4a96b3f736c0f2fe2ee74b",
+      "functions": [
+        "report",
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Diagnostic algorithm uses and limitations.",
+      "analyst_role": "discussion",
+      "word_count": 110
+    },
+    {
+      "id": "xml-02298-p027",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[9]",
+      "start": 19694,
+      "end": 20773,
+      "span_sha256": "802f8b63f9b267916330a93eba6ace90997e4bc55aff0596e43b51b1ed293843",
+      "functions": [
+        "explain",
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Rate comparisons and sensitivity analysis limitations.",
+      "analyst_role": "discussion",
+      "word_count": 166
+    },
+    {
+      "id": "xml-02298-p028",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[10]",
+      "start": 20775,
+      "end": 21701,
+      "span_sha256": "51c928820f6ae5d7b5d8186267c6b9fccde4d394ca3ce3104c85ae148855950f",
+      "functions": [
+        "explain",
+        "illustrate",
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Case-control consistency, illustration and cost.",
+      "analyst_role": "discussion",
+      "word_count": 141
+    },
+    {
+      "id": "xml-02298-p029",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[11]",
+      "start": 21703,
+      "end": 22409,
+      "span_sha256": "2739b0d57796c6f1b3c5e80ceaf368667d0dcb81b71acf73e2b1c3e2239237f4",
+      "functions": [
+        "report",
+        "illustrate",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Authors’ alternative algorithm and potential adaptation.",
+      "analyst_role": "discussion",
+      "word_count": 110
+    },
+    {
+      "id": "xml-02298-p030",
+      "section_id": "generated-11",
+      "source_xml_path": "/article/body/sec[4]/p[12]",
+      "start": 22411,
+      "end": 23049,
+      "span_sha256": "6597e0ab2f4ce04be14acc457e13082abc32071c9caedb2871acef3aad175b86",
+      "functions": [
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Reporting limitations and proposed improvements.",
+      "analyst_role": "discussion",
+      "word_count": 100
+    },
+    {
+      "id": "xml-02298-p031",
+      "section_id": "generated-12",
+      "source_xml_path": "/article/body/sec[5]/p[1]",
+      "start": 23051,
+      "end": 23651,
+      "span_sha256": "5700695999580b7997c7852cc29a2cf43c56d50b387bdf1e3af6c6cf2c0b8d71",
+      "functions": [
+        "interpret",
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Summarizes findings, implications and constraints.",
+      "analyst_role": "conclusion",
+      "word_count": 90
+    },
+    {
+      "id": "xml-02298-p032",
+      "section_id": "generated-12",
+      "source_xml_path": "/article/body/sec[5]/p[2]",
+      "start": 23653,
+      "end": 24158,
+      "span_sha256": "76b6072545d513ee0b40cb284e98d08d34385042c1d695ca7da1a632b7063e38",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Predicted future changes.",
+      "analyst_role": "conclusion",
+      "word_count": 81
+    },
+    {
+      "id": "xml-02298-p033",
+      "section_id": "generated-12",
+      "source_xml_path": "/article/body/sec[5]/p[3]",
+      "start": 24160,
+      "end": 24857,
+      "span_sha256": "7e74cac024900ca85461d526c009c5434f7bbb7842511bd150044c07c72a9761",
+      "functions": [
+        "interpret",
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Future linkage opportunities and unresolved discordance.",
+      "analyst_role": "conclusion",
+      "word_count": 108
+    }
+  ],
+  "encountered_element_counts": {
+    "sec": 12,
+    "title": 12,
+    "p": 33,
+    "table-wrap": 4,
+    "fig": 3
+  },
+  "document_id": "xml-02298",
+  "offset_units": "zero-based Unicode code points, end-exclusive",
+  "scope": "Main-body prose paragraphs, excluding nested lists, figures, tables, captions, boxes, supplements and administrative sections; normalized XML text.",
+  "method_checks": {
+    "introduction_question_gap": "p004",
+    "search_selection": "p005–p007",
+    "extraction": "p008",
+    "appraisal": "quality of reporting analyzed p008–p009, not equivalent to independent validity appraisal",
+    "synthesis": "p009 descriptive methods",
+    "study_flow": "p010",
+    "findings_uncertainty": "p011–p018",
+    "comparison_limits_implications": "p019–p030",
+    "conclusion": "p031–p033 headed",
+    "combined_or_unheaded": "discussion discusses methods, alternative procedures and reporting guidance; conclusions include outlook and unresolved questions."
+  }
+}

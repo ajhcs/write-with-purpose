@@ -1,0 +1,821 @@
+{
+  "schema_version": "0.1",
+  "method": "Original PDFs read only; PyMuPDF get_text per page stored in private analysis cache. Character offsets use page text and end-exclusive Unicode indexing. Labels are one reviewer’s proposed judgments.",
+  "documents": [
+    {
+      "source_path": "/home/builderbob/.codex/attachments/4364d4d8-5431-4d27-a219-b8409d85e59f/NEJMp1312793.pdf",
+      "source_sha256": "e87ccfec93fe82cb4dca2cc9f3d823dc74afab59ee68e8590b6730c07fe0c5f2",
+      "title": "Dead Man Walking",
+      "authors": "Michael Stillman; Monalisa Tailor",
+      "original_publication_year": 2013,
+      "reprint_year": null,
+      "reprint_year_note": "No distinct reprint year identified; download footer, where present, is not publication year.",
+      "venue": "New England Journal of Medicine",
+      "publisher": "Massachusetts Medical Society",
+      "doi": "10.1056/NEJMp1312793",
+      "article_type_source": "Perspective",
+      "recommended_family": "Essays and commentary",
+      "recommended_form": "Argument / perspective",
+      "classification_basis": "Title, displayed article label and inspected passage structure",
+      "classification_confidence": "High for visible article type; family/form proposed",
+      "pdf_pages": 2,
+      "apparent_published_extent": "Target article starts on a shared first page",
+      "main_body_pdf_pages": "pp. 1–2, beginning after preceding article copyright on p. 1",
+      "excluded_regions": "p. 1 prior article; p. 2 disclosures, affiliation, references, DOI and download footer",
+      "figures_tables": "No figure/table observed",
+      "completeness_risk": "Shared first page includes neighboring article; article-start offset required.",
+      "section_outline_order": "Patient narrative and access problem → cited population evidence and qualification → physician obligations and recommendations → closing judgment",
+      "spans": [
+        {
+          "pdf_page": 1,
+          "start_char": 3824,
+          "end_char_exclusive": 4316,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "993275370a708194aef732adedbfb720df580482b043a5eea2b158ee68c7ea9a",
+          "functions": [
+            "report",
+            "illustrate"
+          ],
+          "reason": "Moves from a general access problem to reported patient cases.",
+          "audit_quote": "For many of our patients, pov- erty alone limits access to care",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "report / describe",
+            "illustrate"
+          ]
+        },
+        {
+          "pdf_page": 2,
+          "start_char": 1982,
+          "end_char_exclusive": 2515,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "f8c960cec32f78bc55f7e27af7547fc6070f6537b190bbc0856ba32d81d90893",
+          "functions": [
+            "assert",
+            "support"
+          ],
+          "reason": "Recommendation grounded in professional duty and an opposing view.",
+          "audit_quote": "First, we can honor our funda- mental professional duty to help",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "assert",
+            "support"
+          ]
+        }
+      ],
+      "span_scope": "Two deliberately selected passages, not a count or representative sample of document functions.",
+      "doi_basis": "Target article DOI displayed at its ending in supplied PDF, after target disclosures and references where present.",
+      "doi_evidence": {
+        "pdf_page": 2,
+        "start_char": 5568,
+        "end_char_exclusive": 5593,
+        "text": "DOI: 10.1056/NEJMp1312793"
+      },
+      "neighboring_articles": [
+        {
+          "relationship": "prior article ending before target begins",
+          "title": "Expediting Drug Development",
+          "doi": "10.1056/NEJMp1311439",
+          "doi_evidence": {
+            "pdf_page": 1,
+            "start_char": 1808,
+            "end_char_exclusive": 1833,
+            "text": "DOI: 10.1056/NEJMp1311439"
+          },
+          "target_start_title_evidence": {
+            "pdf_page": 1,
+            "start_char": 1882,
+            "end_char_exclusive": 1898,
+            "text": "Dead Man Walking"
+          }
+        }
+      ]
+    },
+    {
+      "source_path": "/home/builderbob/.codex/attachments/4364d4d8-5431-4d27-a219-b8409d85e59f/NEJMp1616577.pdf",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483",
+      "title": "Repealing the ACA without a Replacement — The Risks to American Health Care",
+      "authors": "Barack H. Obama",
+      "original_publication_year": 2017,
+      "reprint_year": null,
+      "reprint_year_note": "No distinct reprint year identified; download footer, where present, is not publication year.",
+      "venue": "New England Journal of Medicine",
+      "publisher": "Massachusetts Medical Society",
+      "doi": "10.1056/NEJMp1616577",
+      "article_type_source": "Perspective",
+      "recommended_family": "Essays and commentary",
+      "recommended_form": "Argument / perspective",
+      "classification_basis": "Title, displayed article label and inspected passage structure",
+      "classification_confidence": "High for visible article type; family/form proposed",
+      "pdf_pages": 3,
+      "apparent_published_extent": "Page range consistent with PDF sequence",
+      "main_body_pdf_pages": "pp. 1–3",
+      "excluded_regions": "p. 3 disclosures, references and footer",
+      "figures_tables": "No figure/table observed",
+      "completeness_risk": "No missing print pages evident from page sequence; visual and supplementary completeness not independently certified.",
+      "section_outline_order": "Policy context and position → prior accomplishments → alternatives and anticipated effects of repeal → recommendations",
+      "spans": [
+        {
+          "pdf_page": 1,
+          "start_char": 641,
+          "end_char_exclusive": 1108,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "e1fa5bb31a262b66b449867cbfb6696705a3bd61551103841f45e663d5fa3961",
+          "functions": [
+            "interpret",
+            "assert"
+          ],
+          "reason": "Draws a lesson from experience and argues for a course of action.",
+          "audit_quote": "What the past 8 years have taught us is that health care reform re- quires an evidence-based, careful approach, dri",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "interpret",
+            "assert"
+          ]
+        },
+        {
+          "pdf_page": 2,
+          "start_char": 976,
+          "end_char_exclusive": 1696,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "f1895c6069631c4f9db424f26d3e1c6fe930cec0e5c6006d607389cab9838f7d",
+          "functions": [
+            "assert",
+            "explain",
+            "qualify"
+          ],
+          "reason": "States a position and explains a conditional consequence; acknowledges scope.",
+          "audit_quote": "This approach of “repeal first and replace later” is, simply put, irresponsible — and could slowly bleed the health",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "assert",
+            "explain",
+            "qualify"
+          ]
+        }
+      ],
+      "span_scope": "Two deliberately selected passages, not a count or representative sample of document functions.",
+      "doi_basis": "Displayed DOI in supplied PDF"
+    },
+    {
+      "source_path": "/home/builderbob/.codex/attachments/4364d4d8-5431-4d27-a219-b8409d85e59f/NEJMp1702362.pdf",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217",
+      "title": "Resisting the Suppression of Science",
+      "authors": "Lisa Rosenbaum",
+      "original_publication_year": 2017,
+      "reprint_year": null,
+      "reprint_year_note": "No distinct reprint year identified; download footer, where present, is not publication year.",
+      "venue": "New England Journal of Medicine",
+      "publisher": "Massachusetts Medical Society",
+      "doi": "10.1056/NEJMp1702362",
+      "article_type_source": "Perspective",
+      "recommended_family": "Essays and commentary",
+      "recommended_form": "Argument / perspective",
+      "classification_basis": "Title, displayed article label and inspected passage structure",
+      "classification_confidence": "High for visible article type; family/form proposed",
+      "pdf_pages": 3,
+      "apparent_published_extent": "Target article starts on a shared first page",
+      "main_body_pdf_pages": "pp. 1–3; p. 1 starts after preceding article DOI and copyright",
+      "excluded_regions": "p. 1 prior article and its references; p. 3 disclosures and references; p. 3 start of next article after target DOI and copyright",
+      "figures_tables": "No figure/table observed",
+      "completeness_risk": "Shared first page includes neighboring article; article-start offset required. Last page also begins a subsequent article; exclude it.",
+      "section_outline_order": "Clinical encounter → problem of suppression and disbelief → numbered arguments and evidence → implications",
+      "spans": [
+        {
+          "pdf_page": 2,
+          "start_char": 1549,
+          "end_char_exclusive": 2351,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "c8ba0ae2f51b7c091eb302272920fc36f72d58d804244f9cc27966795c552daf",
+          "functions": [
+            "orient",
+            "assert",
+            "explain"
+          ],
+          "reason": "Frames the question, takes a position and proposes a relationship between disbelief and suppression.",
+          "audit_quote": "In the face of suppression of science, should scientists resist, or quietly proceed with their work? Resistance see",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "orient",
+            "assert",
+            "explain"
+          ]
+        },
+        {
+          "pdf_page": 2,
+          "start_char": 2352,
+          "end_char_exclusive": 3726,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "d5df0f6ad4d4b22547ecdbcf54c2a90031090702526480bef5ce3ca7cfaf6fe1",
+          "functions": [
+            "assert",
+            "support",
+            "illustrate"
+          ],
+          "reason": "Offers a recommendation, reasons and reported study examples.",
+          "audit_quote": "First, we need to stop assum- ing that disbelief necessarily re- flects a knowledge deficit and can thus be remedie",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "assert",
+            "support",
+            "illustrate"
+          ]
+        }
+      ],
+      "span_scope": "Two deliberately selected passages, not a count or representative sample of document functions.",
+      "doi_basis": "Target article DOI displayed at its ending in supplied PDF, after target disclosures and references where present.",
+      "doi_evidence": {
+        "pdf_page": 3,
+        "start_char": 4136,
+        "end_char_exclusive": 4161,
+        "text": "DOI: 10.1056/NEJMp1702362"
+      },
+      "neighboring_articles": [
+        {
+          "relationship": "prior article ending before target begins",
+          "title": "Preventive Medicine for the Planet and Its Peoples",
+          "doi": "10.1056/NEJMp1702378",
+          "doi_evidence": {
+            "pdf_page": 1,
+            "start_char": 4719,
+            "end_char_exclusive": 4744,
+            "text": "DOI: 10.1056/NEJMp1702378"
+          },
+          "target_start_title_evidence": {
+            "pdf_page": 1,
+            "start_char": 4919,
+            "end_char_exclusive": 4955,
+            "text": "Resisting the Suppression of Science"
+          }
+        },
+        {
+          "relationship": "next article begins after target DOI and copyright",
+          "title": "Beyond Genes and Molecules — A Precision Delivery Initiative for Precision Medicine",
+          "doi": null,
+          "doi_basis": "Not present in supplied target PDF; not inferred.",
+          "start_title_evidence": {
+            "pdf_page": 3,
+            "start_char": 4247,
+            "end_char_exclusive": 4273,
+            "text": "Beyond Genes and Molecules"
+          }
+        }
+      ]
+    },
+    {
+      "source_path": "/home/builderbob/.codex/attachments/4364d4d8-5431-4d27-a219-b8409d85e59f/NEJMp1707514.pdf",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4",
+      "title": "The Other End of the Stethoscope",
+      "authors": "Evan F. Joiner",
+      "original_publication_year": 2017,
+      "reprint_year": null,
+      "reprint_year_note": "No distinct reprint year identified; download footer, where present, is not publication year.",
+      "venue": "New England Journal of Medicine",
+      "publisher": "Massachusetts Medical Society",
+      "doi": "10.1056/NEJMp1707514",
+      "article_type_source": "Perspective",
+      "recommended_family": "Essays and commentary",
+      "recommended_form": "Personal / reflective essay",
+      "classification_basis": "Title, displayed article label and inspected passage structure",
+      "classification_confidence": "High for visible article type; family/form proposed",
+      "pdf_pages": 3,
+      "apparent_published_extent": "Target article starts on a shared first page",
+      "main_body_pdf_pages": "pp. 1–3; starts after previous article DOI on p. 1",
+      "excluded_regions": "p. 1 preceding article; p. 3 notices and references",
+      "figures_tables": "No figure/table observed",
+      "completeness_risk": "Shared first page includes neighboring article; article-start offset required.",
+      "section_outline_order": "Father’s diagnosis and call → hospital encounters and recovery → reflection on medicine",
+      "spans": [
+        {
+          "pdf_page": 2,
+          "start_char": 583,
+          "end_char_exclusive": 1007,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "14560c7b82ea9ab249f6211b4e256c35854931f5dc151c7095393afa2ddedcd1",
+          "functions": [
+            "narrate",
+            "report"
+          ],
+          "reason": "Describes a particular visit unfolding through time.",
+          "audit_quote": "The air in Atlanta is warmer than the air I left behind in New York",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "narrate",
+            "report / describe"
+          ]
+        },
+        {
+          "pdf_page": 2,
+          "start_char": 3402,
+          "end_char_exclusive": 3660,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "9ce4ef8d80cd37624e674bafe6f556daa915047726e94d6a429ae79f4415cd51",
+          "functions": [
+            "narrate",
+            "interpret"
+          ],
+          "reason": "Moves from recovery and elapsed time into personal reflection.",
+          "audit_quote": "My father is back at work",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "narrate",
+            "interpret"
+          ]
+        }
+      ],
+      "span_scope": "Two deliberately selected passages, not a count or representative sample of document functions.",
+      "doi_basis": "Target article DOI displayed at its ending in supplied PDF, after target disclosures and references where present.",
+      "doi_evidence": {
+        "pdf_page": 3,
+        "start_char": 976,
+        "end_char_exclusive": 1001,
+        "text": "DOI: 10.1056/NEJMp1707514"
+      },
+      "neighboring_articles": [
+        {
+          "relationship": "prior article ending before target begins",
+          "title": "Tragedy, Perseverance, and Chance — The Story of CAR-T Therapy",
+          "doi": "10.1056/NEJMp1711886",
+          "doi_evidence": {
+            "pdf_page": 1,
+            "start_char": 3738,
+            "end_char_exclusive": 3763,
+            "text": "DOI: 10.1056/NEJMp1711886"
+          },
+          "target_start_title_evidence": {
+            "pdf_page": 1,
+            "start_char": 3846,
+            "end_char_exclusive": 3878,
+            "text": "The Other End of the Stethoscope"
+          }
+        }
+      ]
+    },
+    {
+      "source_path": "/home/builderbob/.codex/attachments/4364d4d8-5431-4d27-a219-b8409d85e59f/NEJMp1711886.pdf",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99",
+      "title": "Tragedy, Perseverance, and Chance — The Story of CAR-T Therapy",
+      "authors": "Lisa Rosenbaum",
+      "original_publication_year": 2017,
+      "reprint_year": null,
+      "reprint_year_note": "No distinct reprint year identified; download footer, where present, is not publication year.",
+      "venue": "New England Journal of Medicine",
+      "publisher": "Massachusetts Medical Society",
+      "doi": "10.1056/NEJMp1711886",
+      "article_type_source": "Perspective",
+      "recommended_family": "Essays and commentary",
+      "recommended_form": "Narrative perspective",
+      "classification_basis": "Title, displayed article label and inspected passage structure",
+      "classification_confidence": "High for visible article type; family/form proposed",
+      "pdf_pages": 3,
+      "apparent_published_extent": "Page range consistent with PDF sequence",
+      "main_body_pdf_pages": "pp. 1–3",
+      "excluded_regions": "p. 3 disclosures, affiliation, references and DOI; p. 3 beginning of next article after target copyright",
+      "figures_tables": "No figure/table observed",
+      "completeness_risk": "No missing print pages evident from page sequence; visual and supplementary completeness not independently certified. Last page also begins the next article, which is independently supplied in another PDF.",
+      "section_outline_order": "Patient story and development history → trials and treatment → limits and costs → closing reflection",
+      "spans": [
+        {
+          "pdf_page": 1,
+          "start_char": 2964,
+          "end_char_exclusive": 3556,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "44a6534a77caba6a2b0e2b823da4457be45697c66361fb299864a36fafde5e29",
+          "functions": [
+            "narrate",
+            "interpret"
+          ],
+          "reason": "Connects historical development with a broader interpretation of scientific progress.",
+          "audit_quote": "The emergence of CAR-T therapy, like most scientific ad- vances, reflects the incremental insights of hundreds of s",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "narrate",
+            "interpret"
+          ]
+        },
+        {
+          "pdf_page": 3,
+          "start_char": 384,
+          "end_char_exclusive": 1467,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "57835001a15d1a49bbe5c8c8c16f684ae9920ce0e3d8f639a15e1e81472ea342",
+          "functions": [
+            "qualify",
+            "explain"
+          ],
+          "reason": "Introduces limitations and explains sources of variation and outstanding difficulties.",
+          "audit_quote": "Though the remissions achieved with CAR-T therapy are impres- sive, much remains unknown",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "qualify",
+            "explain"
+          ]
+        }
+      ],
+      "span_scope": "Two deliberately selected passages, not a count or representative sample of document functions.",
+      "doi_basis": "Target article DOI displayed at its ending in supplied PDF, after target disclosures and references where present.",
+      "doi_evidence": {
+        "pdf_page": 3,
+        "start_char": 3738,
+        "end_char_exclusive": 3763,
+        "text": "DOI: 10.1056/NEJMp1711886"
+      },
+      "neighboring_articles": [
+        {
+          "relationship": "next article begins after target DOI and copyright",
+          "title": "The Other End of the Stethoscope",
+          "doi": "10.1056/NEJMp1707514",
+          "doi_basis": "Independently visible at target article ending in NEJMp1707514.pdf p. 3; not shown on this shared page.",
+          "start_title_evidence": {
+            "pdf_page": 3,
+            "start_char": 3846,
+            "end_char_exclusive": 3878,
+            "text": "The Other End of the Stethoscope"
+          },
+          "doi_evidence_in_other_upload": {
+            "pdf_page": 3,
+            "start_char": 976,
+            "end_char_exclusive": 1001,
+            "text": "DOI: 10.1056/NEJMp1707514"
+          }
+        }
+      ]
+    },
+    {
+      "source_path": "/home/builderbob/.codex/attachments/4364d4d8-5431-4d27-a219-b8409d85e59f/NEJMp1901657.pdf",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792",
+      "title": "Hypertension Hot Potato — Anatomy of the Angiotensin-Receptor Blocker Recalls",
+      "authors": "J. Brian Byrd; Glenn M. Chertow; Vivek Bhalla",
+      "original_publication_year": 2019,
+      "reprint_year": null,
+      "reprint_year_note": "No distinct reprint year identified; download footer, where present, is not publication year.",
+      "venue": "New England Journal of Medicine",
+      "publisher": "Massachusetts Medical Society",
+      "doi": "10.1056/NEJMp1901657",
+      "article_type_source": "Perspective",
+      "recommended_family": "Essays and commentary",
+      "recommended_form": "Argument / perspective",
+      "classification_basis": "Title, displayed article label and inspected passage structure",
+      "classification_confidence": "High for visible article type; family/form proposed",
+      "pdf_pages": 3,
+      "apparent_published_extent": "Page range consistent with PDF sequence",
+      "main_body_pdf_pages": "pp. 1–3",
+      "excluded_regions": "p. 3 disclosures, references and download footer",
+      "figures_tables": "Timeline figure present",
+      "completeness_risk": "No missing print pages evident from page sequence; visual and supplementary completeness not independently certified.",
+      "section_outline_order": "Recall event and scale → manufacturing and distribution → response and system implications → recommendations",
+      "spans": [
+        {
+          "pdf_page": 1,
+          "start_char": 1728,
+          "end_char_exclusive": 2770,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "308000f3f431b6af4513948ea0a0cce30aa032f25a5adc7039cd705dad539644",
+          "functions": [
+            "qualify",
+            "report"
+          ],
+          "reason": "Qualifies scope then reports scale and estimates.",
+          "audit_quote": "Although not all products con- taining valsartan, irbesartan, or losartan that are marketed in the United States ha",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "qualify",
+            "report / describe"
+          ]
+        },
+        {
+          "pdf_page": 2,
+          "start_char": 793,
+          "end_char_exclusive": 1242,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "1bb2b6c9d98e2cbbda5f437f4607c4ab1eaf71417141895b9da737fcbb38472f",
+          "functions": [
+            "report",
+            "explain"
+          ],
+          "reason": "Reports a source’s account of concentrated supply and distribution.",
+          "audit_quote": "Medicinal chemist and Science Translational Medicine blogger Derek Lowe has shed light on the re- calls, highlighti",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "report / describe",
+            "explain"
+          ]
+        }
+      ],
+      "span_scope": "Two deliberately selected passages, not a count or representative sample of document functions.",
+      "doi_basis": "Displayed DOI in supplied PDF"
+    },
+    {
+      "source_path": "/home/builderbob/.codex/attachments/4364d4d8-5431-4d27-a219-b8409d85e59f/NEJMra1401038.pdf",
+      "source_sha256": "612e96a91c18fcab957b8aee6400a71369b68c6b6e0a93bc58199537a37fd28f",
+      "title": "Iron-Deficiency Anemia",
+      "authors": "Clara Camaschella",
+      "original_publication_year": 2015,
+      "reprint_year": null,
+      "reprint_year_note": "No distinct reprint year identified; download footer, where present, is not publication year.",
+      "venue": "New England Journal of Medicine",
+      "publisher": "Massachusetts Medical Society",
+      "doi": "10.1056/NEJMra1401038",
+      "article_type_source": "Review Article",
+      "recommended_family": "Evidence syntheses",
+      "recommended_form": "Narrative / critical review",
+      "classification_basis": "Title, displayed article label and inspected passage structure",
+      "classification_confidence": "High for visible article type; family/form proposed",
+      "pdf_pages": 12,
+      "apparent_published_extent": "1832–1843",
+      "main_body_pdf_pages": "pp. 1–10; body ends before references on p. 10",
+      "excluded_regions": "p. 1 affiliation and publication data; pp. 10–12 references, copyright and notice",
+      "figures_tables": "Figures, table and glossary present",
+      "completeness_risk": "No missing print pages evident from page sequence; visual and supplementary completeness not independently certified.",
+      "section_outline_order": "Opening definitions and review scope → global problem → homeostasis and pathophysiology → causes and treatment → references",
+      "spans": [
+        {
+          "pdf_page": 1,
+          "start_char": 1352,
+          "end_char_exclusive": 1644,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "82c7d5ca62491f3585471cc4e4f440c75f9f8493ebe35874b42b966c54b12b06",
+          "functions": [
+            "define",
+            "compare"
+          ],
+          "reason": "Distinguishes the scope of two related terms.",
+          "audit_quote": "Iron deficiency refers to the reduction of iron stores that precedes overt iron- deficiency anemia or persists with",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "define",
+            "compare / contrast"
+          ]
+        },
+        {
+          "pdf_page": 2,
+          "start_char": 1432,
+          "end_char_exclusive": 2073,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "31b282cbb5004fb6fe7ac8bca130a9f161ea4815a948ea94a50bfcbf7bc6ad82",
+          "functions": [
+            "compare",
+            "explain"
+          ],
+          "reason": "Compares reported causes across settings and offers an explanation for a paradox.",
+          "audit_quote": "In developing countries, iron deficiency and iron-deficiency anemia typically result from in- sufficient dietary in",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "compare / contrast",
+            "explain"
+          ]
+        }
+      ],
+      "span_scope": "Two deliberately selected passages, not a count or representative sample of document functions.",
+      "doi_basis": "Displayed DOI in supplied PDF"
+    },
+    {
+      "source_path": "/home/builderbob/.codex/attachments/4364d4d8-5431-4d27-a219-b8409d85e59f/PIIS0161642014004333.pdf",
+      "source_sha256": "768a426379ae5046c8feb9ce300000289a45b1b79c11f9684c5d89362c3f3429",
+      "title": "Global Prevalence of Glaucoma and Projections of Glaucoma Burden through 2040: A Systematic Review and Meta-Analysis",
+      "authors": "Yih-Chung Tham; Xiang Li; Tien Y. Wong; Harry A. Quigley; Tin Aung; Ching-Yu Cheng",
+      "original_publication_year": 2014,
+      "reprint_year": null,
+      "reprint_year_note": "No distinct reprint year identified; download footer, where present, is not publication year.",
+      "venue": "Ophthalmology",
+      "publisher": "American Academy of Ophthalmology",
+      "doi": "10.1016/j.ophtha.2014.05.013",
+      "article_type_source": "Systematic review and meta-analysis",
+      "recommended_family": "Evidence syntheses",
+      "recommended_form": "Systematic review with meta-analysis",
+      "classification_basis": "Title, displayed article label and inspected passage structure",
+      "classification_confidence": "High for visible article type; family/form proposed",
+      "pdf_pages": 10,
+      "apparent_published_extent": "2081–2090",
+      "main_body_pdf_pages": "pp. 1–7; body ends before references on p. 7",
+      "excluded_regions": "pp. 7–9 references; p. 10 author information; supplemental material external",
+      "figures_tables": "Figures and tables present",
+      "completeness_risk": "External supplement/appendix not included in this PDF.",
+      "section_outline_order": "Structured abstract → introduction → methods and criteria → results → discussion → references and author information",
+      "spans": [
+        {
+          "pdf_page": 2,
+          "start_char": 913,
+          "end_char_exclusive": 1421,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "4a77d8a80dae08f9da051ba0ae6a407c2affd8e4fc3ec75988583ce00f12892b",
+          "functions": [
+            "orient",
+            "explain"
+          ],
+          "reason": "States study aim and explains rationale for the analytic model.",
+          "audit_quote": "In this study, we aimed to estimate the global prevalence and future projections of glaucoma burden using the Hier-",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "orient",
+            "explain"
+          ]
+        },
+        {
+          "pdf_page": 2,
+          "start_char": 1456,
+          "end_char_exclusive": 1792,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "e82ec434109dfb972e0e92d707ddf40e242f83fd26857507cb322d2679a9e22f",
+          "functions": [
+            "report"
+          ],
+          "reason": "Reports review methods, databases and limits already used.",
+          "audit_quote": "The review followed the Meta-Analysis of Observational Studies in Epidemiology guidelines for reporting our systema",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "report / describe"
+          ]
+        }
+      ],
+      "span_scope": "Two deliberately selected passages, not a count or representative sample of document functions.",
+      "doi_basis": "Displayed DOI in supplied PDF"
+    },
+    {
+      "source_path": "/home/builderbob/.codex/attachments/4364d4d8-5431-4d27-a219-b8409d85e59f/PIIS2214109X13701451.pdf",
+      "source_sha256": "fb0a8bcc2d2c69c957fc3d053c7905016f9a76c9e3a875186d862acd29f1b214",
+      "title": "Global prevalence of age-related macular degeneration and disease burden projection for 2020 and 2040: a systematic review and meta-analysis",
+      "authors": "Wan Ling Wong; Xinyi Su; Xiang Li; Chui Ming G Cheung; Ronald Klein; Ching-Yu Cheng; Tien Yin Wong",
+      "original_publication_year": 2014,
+      "reprint_year": null,
+      "reprint_year_note": "No distinct reprint year identified; download footer, where present, is not publication year.",
+      "venue": "The Lancet Global Health",
+      "publisher": "Elsevier",
+      "doi": "10.1016/S2214-109X(13)70145-1",
+      "article_type_source": "Systematic review and meta-analysis",
+      "recommended_family": "Evidence syntheses",
+      "recommended_form": "Systematic review with meta-analysis",
+      "classification_basis": "Title, displayed article label and inspected passage structure",
+      "classification_confidence": "High for visible article type; family/form proposed",
+      "pdf_pages": 11,
+      "apparent_published_extent": "e106–e116",
+      "main_body_pdf_pages": "pp. 1–10; body ends before declarations on p. 10",
+      "excluded_regions": "pp. 10–11 references and declarations; appendix external",
+      "figures_tables": "Figures and tables present",
+      "completeness_risk": "External supplement/appendix not included in this PDF.",
+      "section_outline_order": "Structured summary → introduction → methods → results (including figures) → discussion → declarations and references",
+      "spans": [
+        {
+          "pdf_page": 2,
+          "start_char": 507,
+          "end_char_exclusive": 790,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "446a10fa05aff99bacbd8a3a05d481a5aed534eed9a6c7dae26f288d5380b805",
+          "functions": [
+            "orient",
+            "report"
+          ],
+          "reason": "States the gap and reports the review aim.",
+          "audit_quote": "To address this gap, we did a systematic review of the literature to estimate the prevalence of age-related macular",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "orient",
+            "report / describe"
+          ]
+        },
+        {
+          "pdf_page": 2,
+          "start_char": 1604,
+          "end_char_exclusive": 1977,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "32a77618fbf4d28d81b8168f806272699952937b923587cf698b60dd6445f991",
+          "functions": [
+            "report"
+          ],
+          "reason": "Reports cross-checking, roles, checking and resolution of disagreements.",
+          "audit_quote": "The strategy identiﬁ ed all articles used in previous reviews",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "report / describe"
+          ]
+        }
+      ],
+      "span_scope": "Two deliberately selected passages, not a count or representative sample of document functions.",
+      "doi_basis": "Displayed DOI in supplied PDF"
+    },
+    {
+      "source_path": "/home/builderbob/.codex/attachments/4364d4d8-5431-4d27-a219-b8409d85e59f/PIIS2468266717301184.pdf",
+      "source_sha256": "60cd4fc2530bae22ddbd9fd8bb86c2909d225c6f967f457b3064429c2babce6e",
+      "title": "The effect of multiple adverse childhood experiences on health: a systematic review and meta-analysis",
+      "authors": "Karen Hughes; Mark A Bellis; Katherine A Hardcastle; Dinesh Sethi; Alexander Butchart; Christopher Mikton; Lisa Jones; Michael P Dunne",
+      "original_publication_year": 2017,
+      "reprint_year": null,
+      "reprint_year_note": "No distinct reprint year identified; download footer, where present, is not publication year.",
+      "venue": "The Lancet Public Health",
+      "publisher": "Elsevier",
+      "doi": "10.1016/S2468-2667(17)30118-4",
+      "article_type_source": "Systematic review and meta-analysis",
+      "recommended_family": "Evidence syntheses",
+      "recommended_form": "Systematic review with meta-analysis",
+      "classification_basis": "Title, displayed article label and inspected passage structure",
+      "classification_confidence": "High for visible article type; family/form proposed",
+      "pdf_pages": 11,
+      "apparent_published_extent": "e356–e366",
+      "main_body_pdf_pages": "pp. 1–10; body ends before contributors on p. 10",
+      "excluded_regions": "pp. 10–11 references and declarations; appendix external",
+      "figures_tables": "Tables, figure, and research-in-context panel present",
+      "completeness_risk": "External supplement/appendix not included in this PDF.",
+      "section_outline_order": "Structured summary → introduction → methods → results with tables → discussion → declarations and references",
+      "spans": [
+        {
+          "pdf_page": 2,
+          "start_char": 849,
+          "end_char_exclusive": 1307,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "3bbfa08ab66e6c65a3e44cc0ed3d964c08159ff6d9ef089f9c6f59788e7b3b7d",
+          "functions": [
+            "report",
+            "qualify"
+          ],
+          "reason": "States study focus and limits the exposure and comparison used.",
+          "audit_quote": "In this study, we present findings from a systematic review and meta-analysis of studies measuring associations bet",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "report / describe",
+            "qualify"
+          ]
+        },
+        {
+          "pdf_page": 3,
+          "start_char": 702,
+          "end_char_exclusive": 1069,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "0de63e03596f5eb9716c788e872ce6cb1c5289ae2583c05c2b146153ce7a0c1a",
+          "functions": [
+            "report"
+          ],
+          "reason": "Reports analysis and heterogeneity assessment, not reader instructions.",
+          "audit_quote": "We calculated pooled ORs with 95% CIs for the risk of health outcomes among individuals with at least four ACEs (vs",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "report / describe"
+          ]
+        }
+      ],
+      "span_scope": "Two deliberately selected passages, not a count or representative sample of document functions.",
+      "doi_basis": "Inferred from filename PII; not located in extracted PDF text; verify independently before relying on it."
+    },
+    {
+      "source_path": "/home/builderbob/.codex/attachments/4364d4d8-5431-4d27-a219-b8409d85e59f/Milbank Quarterly - 2004 - GREENHALGH - Diffusion of Innovations in Service Organizations  Systematic Review and.pdf",
+      "source_sha256": "537a1eebda8c9c87f99fcf1c0c8d6bb4ed9401b985f30f473c711067776d06c5",
+      "title": "Diffusion of Innovations in Service Organizations: Systematic Review and Recommendations",
+      "authors": "Trisha Greenhalgh; Glenn Robert; Fraser Macfarlane; Paul Bate; Olivia Kyriakidou",
+      "original_publication_year": 2004,
+      "reprint_year": null,
+      "reprint_year_note": "No distinct reprint year identified; download footer, where present, is not publication year.",
+      "venue": "The Milbank Quarterly",
+      "publisher": "Milbank Memorial Fund; published by Blackwell Publishing",
+      "doi": "10.1111/j.0887-378X.2004.00325.x",
+      "article_type_source": "Systematic Review and Recommendations",
+      "recommended_family": "Evidence syntheses",
+      "recommended_form": "Systematic review",
+      "classification_basis": "Title, displayed article label and inspected passage structure",
+      "classification_confidence": "High for visible article type; family/form proposed",
+      "pdf_pages": 49,
+      "apparent_published_extent": "581–629",
+      "main_body_pdf_pages": "pp. 1–41, ending before references on p. 41",
+      "excluded_regions": "pp. 41–49 references and acknowledgments",
+      "figures_tables": "Tables and conceptual figures present",
+      "completeness_risk": "No missing print pages evident from page sequence; visual and supplementary completeness not independently certified.",
+      "section_outline_order": "Abstract and introduction → review methods and review phases → research traditions and conceptual model → innovation and organization factors → discussion and recommendations → references",
+      "spans": [
+        {
+          "pdf_page": 2,
+          "start_char": 363,
+          "end_char_exclusive": 785,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "f2c58fa6d5e9d7ac0c4506f88a94e389edc5303bf0a882a33dc912692c35ced2",
+          "functions": [
+            "define"
+          ],
+          "reason": "Defines the review and innovation scope in terms used by the authors.",
+          "audit_quote": "We defined a systematic review as a review of the literature according to an explicit, rigorous, and transparent me",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "define"
+          ]
+        },
+        {
+          "pdf_page": 14,
+          "start_char": 75,
+          "end_char_exclusive": 556,
+          "offset_units": "Unicode code points in UTF-8 decoded PyMuPDF page text",
+          "sha256": "28c3ce5c631d942cfcf1792fc1d9697c74a02fdc224a18a027ab9ff4c52929a6",
+          "functions": [
+            "report",
+            "qualify"
+          ],
+          "reason": "Reports origin and intended use of the model and explicitly limits its use.",
+          "audit_quote": "Figure 3 shows the unifying conceptual model that we derived from our synthesis of theoretical and empirical findin",
+          "sample_boundary": "Selected passage; may be a paragraph excerpt or contain multiple functions.",
+          "functions_original_labels": [
+            "report / describe",
+            "qualify"
+          ]
+        }
+      ],
+      "span_scope": "Two deliberately selected passages, not a count or representative sample of document functions.",
+      "doi_basis": "Wiley download footer in supplied PDF"
+    }
+  ]
+}

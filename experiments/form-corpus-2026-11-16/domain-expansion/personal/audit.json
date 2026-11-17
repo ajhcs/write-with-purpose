@@ -1,0 +1,550 @@
+{
+  "built_utc": "2026-11-16T01:29:58.392982+00:00",
+  "input_files": {
+    "/workspace/repos/builderbob/write-with-purpose/experiments/form-corpus-2026-11-16/essays/longform_dated_candidates.jsonl": "546d685f6294666604540bd6bf158a973d8ff7e33e54ef090b3d495cfa60ea69",
+    "/workspace/repos/builderbob/write-with-purpose/experiments/form-corpus-2026-11-16/essays/longform_dated_pages.jsonl": "4f3d0f45aac5f1664e41fcb69dc2f5a2b47b1bc16396214aa367cdd204bad5bb",
+    "/workspace/repos/builderbob/write-with-purpose/experiments/form-corpus-2026-11-16/domain-expansion/personal/atwan-notable-seeds.jsonl": "bcdad288871cf691f978c8311e878dd82a62f8dc55be2dd159763418929c2579"
+  },
+  "longform_records": 305,
+  "atwan_seed_records": 11,
+  "total_records": 316,
+  "distinct_normalized_title_author_pairs": 316,
+  "longform_distinct_normalized_author_strings": 252,
+  "longform_distinct_outlet_labels": 119,
+  "longform_missing_authors": 0,
+  "longform_top_author_count": 6,
+  "longform_outlet_counts": [
+    [
+      "New Yorker",
+      20
+    ],
+    [
+      "Harper's",
+      12
+    ],
+    [
+      "New York Review of Books",
+      12
+    ],
+    [
+      "The Atlantic",
+      10
+    ],
+    [
+      "The Guardian",
+      9
+    ],
+    [
+      "London Review of Books",
+      9
+    ],
+    [
+      "Lapham's Quarterly",
+      9
+    ],
+    [
+      "The Morning News",
+      9
+    ],
+    [
+      "The Believer",
+      8
+    ],
+    [
+      "GQ",
+      7
+    ],
+    [
+      "Oxford American",
+      7
+    ],
+    [
+      "Gawker",
+      6
+    ],
+    [
+      "The American Scholar",
+      6
+    ],
+    [
+      "The Awl",
+      5
+    ],
+    [
+      "Esquire",
+      5
+    ],
+    [
+      "New York Times Magazine",
+      5
+    ],
+    [
+      "Guernica",
+      5
+    ],
+    [
+      "New York",
+      5
+    ],
+    [
+      "n+1",
+      4
+    ],
+    [
+      "This Recording",
+      4
+    ],
+    [
+      "Aeon",
+      4
+    ],
+    [
+      "The Stranger",
+      4
+    ],
+    [
+      "The New Republic",
+      4
+    ],
+    [
+      "The Toast",
+      3
+    ],
+    [
+      "Buzzfeed",
+      3
+    ],
+    [
+      "The Baffler",
+      3
+    ],
+    [
+      "VQR",
+      3
+    ],
+    [
+      "Elle",
+      3
+    ],
+    [
+      "The Paris Review",
+      3
+    ],
+    [
+      "Vanity Fair",
+      3
+    ],
+    [
+      "ESPN",
+      3
+    ],
+    [
+      "Vela",
+      3
+    ],
+    [
+      "Los Angeles Review of Books",
+      3
+    ],
+    [
+      "Salon",
+      3
+    ],
+    [
+      "Holiday",
+      3
+    ],
+    [
+      "Grantland",
+      3
+    ],
+    [
+      "Vogue",
+      2
+    ],
+    [
+      "Matter",
+      2
+    ],
+    [
+      "The Chronicle of Higher Education",
+      2
+    ],
+    [
+      "Vice",
+      2
+    ],
+    [
+      "TomDispatch",
+      2
+    ],
+    [
+      "Medium",
+      2
+    ],
+    [
+      "New York Times Book Review",
+      2
+    ],
+    [
+      "The Walrus",
+      2
+    ],
+    [
+      "Men's Journal",
+      2
+    ],
+    [
+      "The Rumpus",
+      2
+    ],
+    [
+      "Ftrain.com",
+      2
+    ],
+    [
+      "New York Times",
+      2
+    ],
+    [
+      "Poetry",
+      2
+    ],
+    [
+      "Feed",
+      2
+    ],
+    [
+      "The American Reader",
+      1
+    ],
+    [
+      "Stanford Magazine",
+      1
+    ],
+    [
+      "Gourmet",
+      1
+    ],
+    [
+      "The Sun Magazine",
+      1
+    ],
+    [
+      "Granta",
+      1
+    ],
+    [
+      "Atlanta Magazine",
+      1
+    ],
+    [
+      "Frontline",
+      1
+    ],
+    [
+      "St. Ann's Review",
+      1
+    ],
+    [
+      "The New Inquiry",
+      1
+    ],
+    [
+      "Pacific Standard",
+      1
+    ],
+    [
+      "Chicago Reader",
+      1
+    ],
+    [
+      "Cafe",
+      1
+    ],
+    [
+      "Backpacker",
+      1
+    ],
+    [
+      "Gangrel",
+      1
+    ],
+    [
+      "Hazlitt",
+      1
+    ],
+    [
+      "Nailed Magazine",
+      1
+    ],
+    [
+      "Pilgrim at Tinker Creek",
+      1
+    ],
+    [
+      "Maura Magazine",
+      1
+    ],
+    [
+      "Al Jazeera",
+      1
+    ],
+    [
+      "Bitter Southerner",
+      1
+    ],
+    [
+      "The Missouri Review",
+      1
+    ],
+    [
+      "Georgia Review",
+      1
+    ],
+    [
+      "Partisan Review",
+      1
+    ],
+    [
+      "The Billfold",
+      1
+    ],
+    [
+      "Texas Observer",
+      1
+    ],
+    [
+      "DoubleTake",
+      1
+    ],
+    [
+      "Texas Monthly",
+      1
+    ],
+    [
+      "Tiger Beatdown",
+      1
+    ],
+    [
+      "The Saturday Evening Post",
+      1
+    ],
+    [
+      "Washington City Paper",
+      1
+    ],
+    [
+      "Outside",
+      1
+    ],
+    [
+      "Washington Post",
+      1
+    ],
+    [
+      "NPR",
+      1
+    ],
+    [
+      "Ploughshares",
+      1
+    ],
+    [
+      "xoJane",
+      1
+    ],
+    [
+      "Baltimore City Paper",
+      1
+    ],
+    [
+      "Narratively",
+      1
+    ],
+    [
+      "Rookie",
+      1
+    ],
+    [
+      "Washington Monthly",
+      1
+    ],
+    [
+      "The Spectator",
+      1
+    ],
+    [
+      "The Nation",
+      1
+    ],
+    [
+      "Cold Drank",
+      1
+    ],
+    [
+      "Cabinet",
+      1
+    ],
+    [
+      "Thirty Two",
+      1
+    ],
+    [
+      "The Post Game",
+      1
+    ],
+    [
+      "Orion",
+      1
+    ],
+    [
+      "Pitchfork",
+      1
+    ],
+    [
+      "The American Prospect",
+      1
+    ],
+    [
+      "New Left Review",
+      1
+    ],
+    [
+      "Open Democracy",
+      1
+    ],
+    [
+      "Places Journal",
+      1
+    ],
+    [
+      "Boston Review",
+      1
+    ],
+    [
+      "Village Voice",
+      1
+    ],
+    [
+      "The Financial Times",
+      1
+    ],
+    [
+      "Mr. Beller's Neighborhood",
+      1
+    ],
+    [
+      "Technology Review",
+      1
+    ],
+    [
+      "Good",
+      1
+    ],
+    [
+      "Alibi Magazine",
+      1
+    ],
+    [
+      "Brink Magazine",
+      1
+    ],
+    [
+      "Marijuana Reconsidered",
+      1
+    ],
+    [
+      "Psychology Today",
+      1
+    ],
+    [
+      "Sports Illustrated",
+      1
+    ],
+    [
+      "Defunct",
+      1
+    ],
+    [
+      "Wired",
+      1
+    ],
+    [
+      "Design Observer",
+      1
+    ],
+    [
+      "Prospect",
+      1
+    ],
+    [
+      "High Country News",
+      1
+    ],
+    [
+      "Slate",
+      1
+    ],
+    [
+      "Philadelphia Magazine",
+      1
+    ]
+  ],
+  "longform_publication_year_counts": {
+    "1899": 1,
+    "1912": 1,
+    "1932": 1,
+    "1936": 1,
+    "1939": 1,
+    "1946": 1,
+    "1948": 1,
+    "1953": 2,
+    "1955": 2,
+    "1960": 1,
+    "1961": 3,
+    "1964": 1,
+    "1965": 2,
+    "1966": 1,
+    "1969": 2,
+    "1971": 1,
+    "1972": 2,
+    "1974": 1,
+    "1975": 1,
+    "1976": 1,
+    "1978": 1,
+    "1981": 1,
+    "1984": 1,
+    "1986": 1,
+    "1987": 1,
+    "1988": 1,
+    "1989": 1,
+    "1990": 1,
+    "1993": 2,
+    "1994": 2,
+    "1995": 2,
+    "1996": 3,
+    "1997": 1,
+    "1998": 2,
+    "1999": 4,
+    "2000": 2,
+    "2001": 1,
+    "2002": 6,
+    "2003": 9,
+    "2004": 3,
+    "2005": 8,
+    "2006": 2,
+    "2007": 3,
+    "2008": 10,
+    "2009": 9,
+    "2010": 21,
+    "2011": 33,
+    "2012": 57,
+    "2013": 35,
+    "2014": 55
+  },
+  "records_with_longform_page_hash": 305,
+  "fulltext_eligibility_screened": 0,
+  "notable_pdf_binary_sha256": null,
+  "notable_pdf_hash_reason": "web reader inspected source PDF; direct binary fetch timed out"
+}

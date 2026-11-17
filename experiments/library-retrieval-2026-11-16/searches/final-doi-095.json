@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_19",
+      "doi": "10.1103/physrev.108.1175",
+      "title": "Theory of Superconductivity",
+      "authors": "[\"J. Bardeen\", \"L. N. Cooper\", \"J. R. Schrieffer\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Theory of Superconductivity\" Bardeen filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_19",
+      "query": "\"Theory of Superconductivity\" Bardeen filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Theory of Superconductivity",
+          "url": "https://users.fuw.edu.pl/~pzdybel/bcs1957.pdf",
+          "score": 1
+        },
+        {
+          "title": "Theory of Superconductivity",
+          "url": "https://doi.org/10.1103/physrev.125.1244",
+          "score": 1
+        },
+        {
+          "title": "July 1957: Bardeen, Cooper, and Schrieffer submit their paper, “Theory of Superconductivity” | American Physical Society",
+          "url": "https://www.aps.org/apsnews/2007/07/bardeen-cooper-schrieffer-theory-superconductivity",
+          "score": 1
+        },
+        {
+          "title": "Choice of Gauge in London's Approach to the Theory of Superconductivity",
+          "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.81.469.2",
+          "score": 1
+        },
+        {
+          "title": "Bardeen-Cooper-Schrieffer Theory of Superconductivity in the Case of Overlapping Bands",
+          "url": "https://link.aps.org/doi/10.1103/PhysRevLett.3.552",
+          "score": 1
+        },
+        {
+          "title": "Theory of Superconductivity",
+          "url": "https://www.nobleblocks.com/publications/W2014437371",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

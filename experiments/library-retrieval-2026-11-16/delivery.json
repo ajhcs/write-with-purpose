@@ -1,0 +1,737 @@
+{
+  "archive_path": "/workspace/build/builderbob/write-with-purpose/library-retrieval-2026-11-16/retrieved-fulltexts.zip",
+  "archive_sha256": "097f0a4220aab9058b7efbe400deeb3f5a261692fea930ea5a0696d7b93ed2de",
+  "archive_bytes": 99291408,
+  "unique_fulltext_files": 104,
+  "verified_archive_member_hashes": true,
+  "files": [
+    {
+      "bundle_file": "fulltexts/business_management/Building-Theories-from-Case-Study-Research-20065a8157.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/2b7d8f26c010cf71/web/candidate-1.pdf",
+      "sha256": "20065a815797866fe9825ef34773b553ad127a7c6ce2539ccfabbeb0e78b1631",
+      "bytes": 376756,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/business_management/Strategies-for-Theorizing-from-Process-Data-4ac0e6200f.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/f11ced04b7757bc7/web/candidate-1.pdf",
+      "sha256": "4ac0e6200fd89c59832376390e8995dde4efd5955e66177c90d57733c238215b",
+      "bytes": 4326611,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/business_management/An-Integrative-Model-of-Organizational-Trust-bbb9f5b1fd.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/6a286cc235d3c666/web/candidate-1.pdf",
+      "sha256": "bbb9f5b1fd59600a5b621cc438d5fee2862d86549c16f9b1c0bf9aa0270d95af",
+      "bytes": 510842,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/business_management/Agency-Theory-An-Assessment-and-Review-a413383df0.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/70809bc95fbf6ff5/web/candidate-1.pdf",
+      "sha256": "a413383df095904fe411dd7f0032621f1fec6a810b2cc8d268a8b205cbb741fe",
+      "bytes": 452351,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/business_management/What-Constitutes-a-Theoretical-Contribution-5bd47fc7b6.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/0e1138c57d1f127a/web/candidate-2.pdf",
+      "sha256": "5bd47fc7b6ff291b98bd51bac0e59739073da62bc79df9a46af8f75314bb548a",
+      "bytes": 471239,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/business_management/The-Five-Competitive-Forces-That-Shape-Strategy-cc1d049720.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/84fc1ae0a06e0dc4/web/candidate-1.pdf",
+      "sha256": "cc1d0497200c5e67d48db694e8a02af98cc6d7dafe366ce8c82e058c7af4ce01",
+      "bytes": 371266,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/business_management/Proposal-5-Right-to-Action-by-Written-Consent-7369743508.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/cd26065eed565367/landing-1.html",
+      "sha256": "736974350849c0ae38c1f03feb3232da80dc120818440ec8e2823c8b19837359",
+      "bytes": 2009277,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/business_management/Supervision-training-interventions-in-the-health-and-human-services-realist-synthesis-86bbe04389.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/b5e69fea30329d93/candidate-2.pdf",
+      "sha256": "86bbe04389a09fc8cbc0b643d1351ea6d0b2dee918d076613bfa5428665acc45",
+      "bytes": 397559,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Guidelines-for-conducting-and-reporting-case-study-research-in-software-engineering-30849aa97d.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/f593c19037a0d0c4/candidate-1.pdf",
+      "sha256": "30849aa97d2c8611a724761316d4e6d1ad969fab7c8bb1184d64b9d407afb633",
+      "bytes": 458816,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Systematic-literature-reviews-in-software-engineering-A-tertiary-study-70c5936ea6.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/42d306addcc69bcb/web/candidate-1.pdf",
+      "sha256": "70c5936ea6f27a605579cc3e1796ad046e42b709b77caaf24839705307be6457",
+      "bytes": 370796,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/A-survey-of-software-refactoring-fa943f4f4c.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/f7405c9958bdec42/candidate-1.pdf",
+      "sha256": "fa943f4f4c6e7970e9002ba08e4af6da0fbe226e69e180ba389ef0dc1892ef86",
+      "bytes": 593378,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/An-Analysis-and-Survey-of-the-Development-of-Mutation-Testing-43c2466c73.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/9622cf5a74b0c8ba/web/candidate-1.pdf",
+      "sha256": "43c2466c736962c66b5da351e132d44ea926f23574bb524b44e62cef0d2a03de",
+      "bytes": 10982854,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/An-empirical-study-of-speed-and-communication-in-globally-distributed-software-develo-60db4d1cb5.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/3d556bf48e58ce9e/web/candidate-1.pdf",
+      "sha256": "60db4d1cb5d85f7ed53d5f64fba10863fc1e6123cf48ccc722425dc170cdcf20",
+      "bytes": 1243785,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Testing-scientific-software-A-systematic-literature-review-44ecb65ae7.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/3c35f643c02867eb/candidate-1.pdf",
+      "sha256": "44ecb65ae74cf02e237567df7aed91d19501706043ed2bd5528e0cf44c8980fc",
+      "bytes": 615847,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/A-Tutorial-on-Support-Vector-Machines-for-Pattern-Recognition-ea4287ca95.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/c84c46cc5ee29f6f/web/candidate-1.pdf",
+      "sha256": "ea4287ca95ec1fd60506556f1e69747c9ae4484f9a3acb57cef0b8d9ef9c062f",
+      "bytes": 299318,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/A-tutorial-on-support-vector-regression-788e75c008.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/04b9b56205aee704/web/candidate-2.pdf",
+      "sha256": "788e75c0081ad8f2f671123bd4e1e4f68afbcce3d08f7aef2f1ac508233224f9",
+      "bytes": 430950,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Research-Protocol-for-a-Case-Study-of-Crowdsourcing-Software-Development-f63631abd1.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/724f1070fe7cbd8e/candidate-1.pdf",
+      "sha256": "f63631abd15868e356051f81fb89fe3890dc3b7427453ce321da2022e76ca932",
+      "bytes": 395615,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/The-humble-programmer-99e56de3a7.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/efda4d196cc5a579/web/candidate-3.pdf",
+      "sha256": "99e56de3a7a6438c82ead3b89a861fba41c4bf0b3cc262d4cb156336f7bd5978",
+      "bytes": 1971321,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/The-emperor-s-old-clothes-c088ca8866.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/d5706bef0ddc0f5d/web/candidate-1.pdf",
+      "sha256": "c088ca886687ba53e13e802aa9f7ca09417ea7424daa7a9bacd4b5c42e3f096f",
+      "bytes": 885596,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Reflections-on-trusting-trust-1bfbcd46be.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/71e3531a47b8b4bb/web/candidate-2.pdf",
+      "sha256": "1bfbcd46be7f6f10a37ac794d1704a2cb35846b207096cc0125c9af2f05f04d9",
+      "bytes": 465680,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/A-plea-for-lean-software-4ebb7a9541.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/2042ba26e2a60fa8/web/candidate-1.pdf",
+      "sha256": "4ebb7a954197416ccd00ff1577885d3548ea5dbaab044d04d028804e66226214",
+      "bytes": 1527775,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Letters-to-the-editor-go-to-statement-considered-harmful-77ac820156.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/e4cb0a1ddb4b43b7/web/candidate-2.pdf",
+      "sha256": "77ac8201569e5d72640ff571f85fa6bb274a328883f8c12d46d458363333db1d",
+      "bytes": 623785,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/The-Google-file-system-108ced8f08.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/e4924a51f404cbfd/web/candidate-1.pdf",
+      "sha256": "108ced8f084131ae6241b2c43c0b8f8bee01a8427c2527cbc204c87f1fdfce33",
+      "bytes": 275941,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/MapReduce-simplified-data-processing-on-large-clusters-ae84cc48ff.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/e1a13cdaeed1146c/web/candidate-1.pdf",
+      "sha256": "ae84cc48ff0005c5a79e095039e54e91dce5c116f65746e1593e819d21830ce9",
+      "bytes": 190711,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Can-programming-be-liberated-from-the-von-Neumann-style-a-functional-style-and-its-al-8f3d96541e.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/38f7f04e7dcbfb48/web/candidate-1.pdf",
+      "sha256": "8f3d96541e504e7bb97975981ba96270a3c5bc9ecdb75742b38f360d9341ab13",
+      "bytes": 3029894,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/End-to-end-arguments-in-system-design-3204a1a562.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/34423610f313d85c/web/candidate-1.pdf",
+      "sha256": "3204a1a562d9d3b72ba112f20caddfd34991d6e1e39939ace6a3e7c016519768",
+      "bytes": 37816,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/CCFinder-a-multilinguistic-token-based-code-clone-detection-system-for-large-scale-so-40033fda00.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/2e611d6535520b08/candidate-1.pdf",
+      "sha256": "40033fda006418b086ca7415fd3c2c3f7984a686a97821111cbd7c8d7a5ed795",
+      "bytes": 1635185,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/A-critique-of-ANSI-SQL-isolation-levels-734e83d498.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/57f9b308509639a4/web/candidate-1.pdf",
+      "sha256": "734e83d498b9730ed5a2c73edbff9785df965b64f67a4924ea2672d7f757c818",
+      "bytes": 154044,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Systematization-of-Vulnerability-Discovery-Knowledge-Review-Protocol-3748004045.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/e742930260b0e920/candidate-1.pdf",
+      "sha256": "3748004045138bd3299266dbc536d5e1e99a41f4ed9746b5050d3503fb911036",
+      "bytes": 217827,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Point-to-Point-Protocol-A-proposal-for-multi-protocol-transmission-of-datagrams-over--9f26d2ae94.txt",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/3601726c409089fb/native/rfc1134.txt",
+      "sha256": "9f26d2ae94377ac4d2abd29128ca857b3ff7218d48f4c249686abf6fe1b4c318",
+      "bytes": 85222,
+      "format": "txt"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/TCP-and-UDP-with-Bigger-Addresses-TUBA-A-Simple-Proposal-for-Internet-Addressing-and--958895346f.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/a0f71d4eb71430bb/candidate-1.pdf",
+      "sha256": "958895346f78e6498edb1a2bf117b0f60e4bef64b4de2411dc79f4ed0950cce4",
+      "bytes": 22398,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Logging-HOWTO-d7a564480c.rst",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/b13984cec2f74b61/native/source.rst",
+      "sha256": "d7a564480cfd51f6469b25b061e41bdbafb894f1eb4eba22cea7be4e1d0ccb82",
+      "bytes": 46283,
+      "format": "rst"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Argparse-Tutorial-a7569564e4.rst",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/19fef000a96cd638/native/source.rst",
+      "sha256": "a7569564e4c58e161d0319207e928e88b96744623a36a6213ec527ca3db8a17c",
+      "bytes": 23649,
+      "format": "rst"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Regular-Expression-HOWTO-ca69c4869a.rst",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/a9a1d6d33dc64f38/native/source.rst",
+      "sha256": "ca69c4869a0de4f6a6317f5240658b808bb06a8bab625e69a1c470aec6a93c3e",
+      "bytes": 61196,
+      "format": "rst"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/len-s-64d2a5734f.rst",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/77152f5baee8bfbe/native/source.rst",
+      "sha256": "64d2a5734f349e5741f0adb847e1e2dd59dc8683f66ab01a7c9e2167ab9c8a1f",
+      "bytes": 66735,
+      "format": "rst"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/WorldWideWeb-Proposal-for-a-HyperText-Project-213fbc7e34.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/bd63da2d50adb988/landing-1.html",
+      "sha256": "213fbc7e34f2f512a5bb9e1e361949b0c9366c7e2e7ec47010cf4256e35a4a15",
+      "bytes": 22052,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/engineering_computing/Understanding-Undergraduate-Engineering-Student-Information-Access-and-Needs-Results--d9a4018c54.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/af4f027b37f97745/candidate-1.pdf",
+      "sha256": "d9a4018c54cb53023ea26e8842b4344c56468a5f95d2d81bbbed2a5580f1663d",
+      "bytes": 640550,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Positivism-and-the-Separation-of-Law-and-Morals-561c0bb772.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/90366dd504fd2e12/web/candidate-1.pdf",
+      "sha256": "561c0bb77205d3dda83b0ef5a54140fe128b070774caad7273aa2c8ff8db7d98",
+      "bytes": 4973388,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Property-Rules-Liability-Rules-and-Inalienability-One-View-of-the-Cathedral-6d0f7abd54.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/fdb6b985c5e64ad3/web/candidate-1.pdf",
+      "sha256": "6d0f7abd54dac4183759df9b1779df8e5a4333bfa2638773285ec5f8f25d7a3e",
+      "bytes": 2614763,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/The-Tragedy-of-the-Anticommons-Property-in-the-Transition-from-Marx-to-Markets-724eb72554.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/d2be3f085e1b21d0/candidate-1.pdf",
+      "sha256": "724eb725542b26b33e004d2a610d39cd9b8610c003528d3ab74aa2a63256301d",
+      "bytes": 3698835,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Mapping-the-Margins-Intersectionality-Identity-Politics-and-Violence-against-Women-of-b415668a6c.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/c98d32b597e3ac09/web/candidate-1.pdf",
+      "sha256": "b415668a6c24cf9d3a69b57e41e51216e396ac1f7d8c2bcc1c876254799cc38f",
+      "bytes": 1778638,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Book-Review-The-Laws-of-Capitalism-07c3810181.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/4b707f24835d3841/candidate-2.pdf",
+      "sha256": "07c38101812fd7dded74b45c8dfd35055310b35179f1fc62b90a736a90fbb7f9",
+      "bytes": 976709,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Feminist-Legal-Methods-8b67c2f6e1.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/d37cb64d565e1b75/web/candidate-1.pdf",
+      "sha256": "8b67c2f6e17367e327b6ef69ed2bf636feaf57cff3ba2d3ca717584a75be4012",
+      "bytes": 3771905,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Do-Judges-Vary-in-Their-Treatment-of-Race-fb16bb38e4.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/008e4ebea42e6b7b/web/candidate-1.pdf",
+      "sha256": "fb16bb38e4936d914872d34c7ea26e77e06e0d4455cd6e5584f3a7edd9026957",
+      "bytes": 245886,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/The-Effects-of-Local-Police-Surges-on-Crime-and-Arrests-in-New-York-City-9707f466cb.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/d3c0e55ca4a178bd/candidate-1.pdf",
+      "sha256": "9707f466cb00fcb411b0b0483fa231bcfa96d66e67097601bbd7d3a41b6f1baf",
+      "bytes": 641713,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Further-Evidence-that-Legalized-Abortion-Lowered-Crime-A-Reply-to-Joyce-7699c256d2.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/271234147b1bb725/web/candidate-1.pdf",
+      "sha256": "7699c256d2eda55b97cd46333723163e91266d1e7943d053095c21c2ab97c7ab",
+      "bytes": 318423,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/The-Effects-of-Problem-Oriented-Policing-on-Crime-and-Disorder-fbbf4bfe80.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/1bbce0020eafe811/candidate-1.pdf",
+      "sha256": "fbbf4bfe80c633d80c0e035106ded78f0aa112844de2152155a76cade384d5c7",
+      "bytes": 41451,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Causal-diagrams-for-empirical-legal-research-a-methodology-for-identifying-causation--ad5c17006c.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/5558f4bf3e8574f1/web/landing-1.html",
+      "sha256": "ad5c17006cc01ba5bde9c5e6af52cfdb990504f43976b085ab6260f96b16e479",
+      "bytes": 246435,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Credible-Causal-Inference-for-Empirical-Legal-Studies-4061fe3970.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/449d93c05d19d1be/web/candidate-1.pdf",
+      "sha256": "4061fe39700d145fa40e902bd450c182eb544d28b188484482c8a884aedbb729",
+      "bytes": 1113191,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Memorandum-From-the-President-s-Assistant-for-National-Security-Affairs-Kissinger-to--b745ff5970.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/f9a130e65ec508f5/landing-1.html",
+      "sha256": "b745ff5970c47fb604767f988015b81ace12e18854f83c9be0f30fe601d88a6c",
+      "bytes": 65449,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Telegram-108761-T110717-From-the-Department-of-State-to-Secretary-of-State-Kissinger-199dad5d2a.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/fcf4fda1ec0c0a35/landing-1.html",
+      "sha256": "199dad5d2af9bf45b7bee09e6fb06ea81826ca5a750cdf34b86a00109289a094",
+      "bytes": 48972,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Memorandum-From-Roger-Morris-of-the-National-Security-Council-Staff-to-the-President--b0e88bb6ff.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/c7d04a1374e85a52/landing-1.html",
+      "sha256": "b0e88bb6ff6c892084bfb037f93195915af418548f396a79b19da91610fb0d62",
+      "bytes": 59615,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/A-new-approach-to-reducing-incarceration-while-maintaining-low-rates-of-crime-9c52afe9ee.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/448ae07a2da98b42/web/candidate-1.pdf",
+      "sha256": "9c52afe9ee79418eacabd500fa4557c24f01a607ad769bd9a708fbddd73cfd3e",
+      "bytes": 168813,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Overhauling-the-Temporary-Work-Visa-System-7fb005b20a.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/a64485bca660b9ae/candidate-1.pdf",
+      "sha256": "7fb005b20a813829658ed3a8b34a4e8b00aaab3e020d88a8be299e14a619a0f0",
+      "bytes": 144964,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Better-Ways-to-Promote-Saving-through-the-Tax-System-acf65ab23d.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/be96b684a820eb7d/candidate-1.pdf",
+      "sha256": "acf65ab23d05698ee54b0e5a3d7568997da35f05e21e8c49ca1c31a3a140846b",
+      "bytes": 179308,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/The-Federal-Rulemaking-Process-An-Overview-89db014eb8.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/91990448a16d9a10/candidate-1.pdf",
+      "sha256": "89db014eb8b4182d787ea152009136e21a797e9d8c4fcb7f38322b59d55d7a46",
+      "bytes": 543752,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/The-Doctrine-of-Constitutional-Avoidance-A-Legal-Overview-168a546c1f.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/ab3a650b3c9ed8a2/candidate-1.pdf",
+      "sha256": "168a546c1f4a139d8c2aeb5b0607035c04ca8654e2ad6b5be7c6a534e2174736",
+      "bytes": 459551,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/law_public_policy/Executive-Orders-Issuance-Modification-and-Revocation-06c956ca43.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/ebdaf28d7e76eac0/candidate-1.pdf",
+      "sha256": "06c956ca43526cd713533b4490b2cbacaf62526f6db7aac74a6740acfc83191f",
+      "bytes": 284088,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/Oxidative-stress-inflammation-and-cancer-how-are-they-linked-d8f1ede6fe.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/550dd0fdaba76df5/landing-1.html",
+      "sha256": "d8f1ede6fec2a2cfcff3d207c95e7c64badd7bbf087c914d2f70115f6a39d0ab",
+      "bytes": 517391,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/How-regulatory-T-cells-work-f643c06d81.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/d735f049e099f481/landing-1.html",
+      "sha256": "f643c06d8199fbf14fd7b5aaf9f0c094ac4d974769bbe445fb8953c510c96428",
+      "bytes": 294038,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/A-tutorial-on-pilot-studies-the-what-why-and-how-94421a99ba.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/9b814bbcf7cbb5e8/web/candidate-1.pdf",
+      "sha256": "94421a99ba1969e7a7aa1aea5e349fa60910cef90142a87f7169a750ad403f0c",
+      "bytes": 212352,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/Tutorial-in-biostatistics-competing-risks-and-multi-state-models-9d86ae6ba3.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/758f9467a38490e9/web/candidate-1.pdf",
+      "sha256": "9d86ae6ba343241e7d23933f3e951c24f3dd42b0eb4e01de502160931cb3b654",
+      "bytes": 553800,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/How-we-design-feasibility-studies-d46e120908.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/951ec83fa21aed45/candidate-1.pdf",
+      "sha256": "d46e120908ad227e6b7255e5717b5b24500f1e32bf6a4600d6528f2bdd55168c",
+      "bytes": 44519,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/Risks-and-benefits-of-estrogen-plus-progestin-in-healthy-postmenopausal-women-princip-6c709d0571.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/044a0e0a642c3b88/web/candidate-1.pdf",
+      "sha256": "6c709d057147d209c5b69f964cf69b08f2c3d994c24b74b652159f1e3bf70504",
+      "bytes": 270080,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/A-method-for-estimating-the-probability-of-adverse-drug-reactions-3d58af3911.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/bfd1934a37060e4c/web/candidate-1.pdf",
+      "sha256": "3d58af391119c530d26433ac11fe84c93a5edf9845b38d5cb4f5628b20689ff1",
+      "bytes": 481439,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/Decision-curve-analysis-a-novel-method-for-evaluating-prediction-models-0918f1caaf.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/536ddadc56d18f3e/landing-1.html",
+      "sha256": "0918f1caaf980bc3e35fdc0620db10f14e6feb4ae373077f7a5c5d28519c4e12",
+      "bytes": 165805,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/The-problem-with-the-phrase-women-and-minorities-intersectionality-an-important-theor-8ea553c09c.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/64c19e846479895d/landing-1.html",
+      "sha256": "8ea553c09cb4bafe1e82f1a48cd13aaa38ee071b33869681ed06445ae2091834",
+      "bytes": 187628,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/Abscopal-effect-of-radiation-on-lung-metastases-of-hepatocellular-carcinoma-a-case-re-365433aff2.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/5eddb5e4c842961e/candidate-1.pdf",
+      "sha256": "365433aff27072bc02fd20b5c2db3ea43d9deeaf50cfc902b1b51f75ba6be906",
+      "bytes": 1748913,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/The-first-report-of-human-illness-associated-with-the-Panola-Mountain-Ehrlichia-speci-b1612c801a.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/464ea52f11caf36e/candidate-1.pdf",
+      "sha256": "b1612c801aebd81bb82da7f8cf79ef608d9daffd70067a26782d661c485b655e",
+      "bytes": 165127,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/Elevated-brain-aluminium-and-early-onset-Alzheimer-s-disease-in-an-individual-occupat-e797bae79d.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/1c7bf25841905d7e/candidate-1.pdf",
+      "sha256": "e797bae79d63f0c9f17bfbf7fd6d65c58aeb7b34530440e2379921d42c5bb97f",
+      "bytes": 299993,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/Personal-health-records-a-scoping-review-384928ff3d.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/6276bd49836f1826/landing-1.html",
+      "sha256": "384928ff3dc87f843f937fb4041faadfa6c83af9cd271c611f8ebb8a4bfc3778",
+      "bytes": 250166,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/The-effect-of-the-environment-on-participation-of-children-and-youth-with-disabilitie-8592ec99bf.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/3d5f6df28b9db0a9/candidate-1.pdf",
+      "sha256": "8592ec99bf4953f0c0ef00d3bb38fcb1ae4ed1940e22be95d9719af14967199d",
+      "bytes": 636854,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/Review-of-Toxoplasmosis-of-Animals-and-Humans-Second-Edition-by-J-P-Dubey-8f66575103.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/3cbf7b221cd52c35/candidate-2.pdf",
+      "sha256": "8f665751036f82779c5264d87955a278be5e00a1ecaaeb550c895485d45d1bca",
+      "bytes": 223160,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/medicine_health/Review-of-Ticks-Biology-Disease-and-Control-by-Alan-Bowman-Patricia-Nuttall-eds-9113f6a115.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/bc6f7fb422203b98/candidate-2.pdf",
+      "sha256": "9113f6a115dc134ef68aafd27cccd45b61c1d9c9778614d48c379d4dbb7ba7ae",
+      "bytes": 121966,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/personal_public_writing/Poor-Teeth-b2fa887038.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/ac15d236880e673e/landing-1.html",
+      "sha256": "b2fa887038766cf7cc5941d02b0698be83a7c761ce45ec617a3e3d285cab05a6",
+      "bytes": 288347,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/personal_public_writing/Hannah-Arendt-Guilty-Pleasure-7d88dca574.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/f399641451ff0eb3/landing-1.html",
+      "sha256": "7d88dca57416b1fb0759a506df6004ad32d7ab341841868aea36385e9accd492",
+      "bytes": 350386,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/personal_public_writing/The-End-of-Night-90587825b1.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/603d7e5036e0a6d5/landing-1.html",
+      "sha256": "90587825b1c15e30c8a453ded45efe07a2288760e7f7650f1980f0a063f01b66",
+      "bytes": 268339,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/personal_public_writing/DIY-Diagnosis-bccae4ba57.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/7e67ddb9b71801cb/landing-1.html",
+      "sha256": "bccae4ba574a1fa226d739a2cf35d8b45dbed2b9c89195b932c20ae358c818a2",
+      "bytes": 243323,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/personal_public_writing/Arrested-Development-9b65411202.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/575224fe36d62a0e/landing-1.html",
+      "sha256": "9b6541120232e0cd60c23a45431e95d8b23543582dc23bdee5dba7bc1046db2b",
+      "bytes": 256051,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Los-Alamos-from-Below-Reminiscences-of-1943-1945-95eaaf191c.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/e48e115aad898d83/candidate-1.pdf",
+      "sha256": "95eaaf191c94fe04716114ac858bda3c911da090dd3fa272c6033395fae8925d",
+      "bytes": 3949223,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Biographical-f2aa022e79.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/36a5d2a9b217d518/landing-1.html",
+      "sha256": "f2aa022e79e1f944c223d90c0c9c599b6713c0f50f347bbb5f1e8c42a742dd9a",
+      "bytes": 205044,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Biographical-7f1e22db83.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/daa3ea2fb6548e82/landing-1.html",
+      "sha256": "7f1e22db83c1fd7f13454dad1fa2791f734410ec1e8ecb4b0a7a6081098bc152",
+      "bytes": 266613,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/More-Is-Different-cc3fb96e05.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/ded4e9d4c88a9a9b/web/candidate-2.pdf",
+      "sha256": "cc3fb96e051e0e70732a1ff18caf1a921ce4208b408cea00db87a100726f3e9a",
+      "bytes": 367992,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/The-unreasonable-effectiveness-of-mathematics-in-the-natural-sciences-Richard-courant-d00b877f5f.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/044395cf5c59c535/web/candidate-1.pdf",
+      "sha256": "d00b877f5f891302abecb4d07849d735d154352185c46888cd0b7137596524d9",
+      "bytes": 993197,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Decoherence-einselection-and-the-quantum-origins-of-the-classical-d3e5276d51.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/1e24d15be6fa8340/candidate-1.pdf",
+      "sha256": "d3e5276d515209a34bc9fda095a21a5c584e79a09628f330009d2d08a9678990",
+      "bytes": 1199665,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Colloquium-An-introduction-to-consistent-quantum-theory-e9da40305d.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/0194f49bda1ce1c5/candidate-1.pdf",
+      "sha256": "e9da40305d0c8a37e69703e05ba2337202f6cc66417c07fced0320b132a19e54",
+      "bytes": 222360,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/The-modern-tools-of-quantum-mechanics-08a7a71912.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/fb60f72006a173c9/candidate-1.pdf",
+      "sha256": "08a7a71912744292cdcc5ec92e3c481349a33036a05faf57420052e5358d5baf",
+      "bytes": 530930,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/The-trapped-ion-qubit-tool-box-0b6b7d0d4c.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/51ed8ec8b6414f2a/web/candidate-1.pdf",
+      "sha256": "0b6b7d0d4ca80dee6b8c6c47fa35f35d3bd1bce8c1b6e2496917adc6b05718a3",
+      "bytes": 706217,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Observation-of-Gravitational-Waves-from-a-Binary-Black-Hole-Merger-af436561e6.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/41bdaf9d64d81d21/candidate-1.pdf",
+      "sha256": "af436561e6c10988c206dddece92955d508377840473a6f2f22fd870c67106b7",
+      "bytes": 862757,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Bose-Einstein-Condensation-in-a-Gas-of-Sodium-Atoms-1cb2a729cc.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/e849b106c297a0c0/candidate-1.pdf",
+      "sha256": "1cb2a729cc42f1549d3572bfa519861dfc670d18580a5e6bc2d8953af38aaed9",
+      "bytes": 1157586,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Generalized-Gradient-Approximation-Made-Simple-fa60ddfeb4.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/d6b2d7b8bf25f2ce/web/candidate-1.pdf",
+      "sha256": "fa60ddfeb4bc6c2eebc5037cf04dcc802bb6757e98fedcfc0129029fa8dbee91",
+      "bytes": 154271,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Can-Quantum-Mechanical-Description-of-Physical-Reality-Be-Considered-Complete-27c56d9191.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/2e47d5a5d8657f85/web/candidate-1.pdf",
+      "sha256": "27c56d919147305f8de42f699031ee7eac1ab73701e70b23e5e72ca8917dc4e3",
+      "bytes": 346838,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Theory-of-Superconductivity-f76a6f79b1.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/ba10e800a1246bf6/web/candidate-1.pdf",
+      "sha256": "f76a6f79b1497c0e82da0391e1c8e5da26fdc1547b5fa0317f703c72cb4bb1c9",
+      "bytes": 2775086,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Self-Consistent-Equations-Including-Exchange-and-Correlation-Effects-9a44e5a9ba.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/33b3b2846f816219/web/candidate-1.pdf",
+      "sha256": "9a44e5a9bafb8d0b769e6c32933d5bb681eb71b25c33f14b66036d13a2f3a5a9",
+      "bytes": 537078,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Bell-nonlocality-421c74c6ca.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/9925cbc254c18fe5/candidate-1.pdf",
+      "sha256": "421c74c6caaf92333c8c69061fb1ff298f6717753d342d9cecbf09112478b38a",
+      "bytes": 1443854,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Theory-of-Bose-Einstein-condensation-in-trapped-gases-49c9b44a2d.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/e0e39990a732c136/web/candidate-1.pdf",
+      "sha256": "49c9b44a2de5e989854518a21a02f7faa75f617fef6f50e8825c9dfa4828c70f",
+      "bytes": 27906,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Colloquium-Topological-insulators-ff2b899367.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/1375c46f35d4536a/candidate-1.pdf",
+      "sha256": "ff2b899367bfde76fef40a61fd42e3c12406227eb0466b5250a594f3d3ba5b2c",
+      "bytes": 3833630,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Cargo-Cult-Science-e4301b6073.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/a74247f9566a9f42/candidate-1.pdf",
+      "sha256": "e4301b607313b8af2cd50eefcc2ab8a40f36070faec6c0abc3b0989fa65670c8",
+      "bytes": 1273780,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Quantum-Entanglement-and-Information-aadf70498b.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/dc327f2df90cb360/landing-1.html",
+      "sha256": "aadf70498bbe72dac0a2fd2a9e32f50b2e1a11c9262fb4976b2c70474b7abf7e",
+      "bytes": 68179,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/The-Einstein-Podolsky-Rosen-Argument-in-Quantum-Theory-6ba51fd734.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/5d9b2f015ec92e53/landing-1.html",
+      "sha256": "6ba51fd734db6842eefc02dac3a9b91a1ba59657af960ac1f70292dbf9fc9d05",
+      "bytes": 76292,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Conventionality-of-Simultaneity-1025e54fd4.html",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/3c3aa4da25b013c3/landing-1.html",
+      "sha256": "1025e54fd49d45ad9347d15c58536ef0c3cfdb3e1279dc65cbefc4f6018ee7b3",
+      "bytes": 52635,
+      "format": "html"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Recommended-Standard-Operating-Procedure-for-Control-Charts-for-Calibration-of-Mass-S-2665ac2b75.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/8653445838ae76c4/native/SOP-9-original-pages.pdf",
+      "sha256": "2665ac2b75fff9dd0e3f43a912c8f656084f2e0e5eba952d30899de8c605f259",
+      "bytes": 32776,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Recommended-Standard-Operating-Procedure-for-Gravimetric-Calibration-of-Volumetric-St-5a1270c83e.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/08e23522a36175bd/native/SOP-14-original-pages.pdf",
+      "sha256": "5a1270c83e400813e8206d83774d9c7133053f41d1255cabbf8401a8274d38d7",
+      "bytes": 246602,
+      "format": "pdf"
+    },
+    {
+      "bundle_file": "fulltexts/physical_sciences_mathematics/Technical-Proposal-for-FASER-ForwArd-Search-ExpeRiment-at-the-LHC-229345869a.pdf",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/dc6bdf32d963c658/candidate-1.pdf",
+      "sha256": "229345869aaf847ae5f8a995a01e2013630f5f7ef46a26e65394aa4002770d13",
+      "bytes": 27902428,
+      "format": "pdf"
+    }
+  ]
+}

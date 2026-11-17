@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_012",
+      "doi": "10.5465/amj.2013.0319",
+      "title": "Women on Boards and Firm Financial Performance: A Meta-Analysis",
+      "authors": "[\"Corinne Post\", \"Kris Byron\"]",
+      "field": "business_management",
+      "q": "\"Women on Boards and Firm Financial Performance\" Post pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_012",
+      "query": "\"Women on Boards and Firm Financial Performance\" Post pdf",
+      "urls": [
+        {
+          "title": "Post, C., & Byron, K. (2015). Women on boards and firm financial performance: A meta-analysis. *Academy of Management Journal, 58*(5), 1546-1571.",
+          "url": "https://purehost.bath.ac.uk/ws/portalfiles/portal/190155651/Gender_Finance_Final.pdf",
+          "score": 1
+        },
+        {
+          "title": "Post, C., & Byron, K. (2015). Women on boards and firm financial performance: A meta-analysis. Academy of Management Journal, 58(5), 1546-1571",
+          "url": "https://www.monash.edu/__data/assets/pdf_file/0007/3118903/Hashika-Rathnasiri.pdf",
+          "score": 1
+        },
+        {
+          "title": "Post, C., & Byron, K. (2015). Women on boards and firm financial performance: A meta-analysis. *Academy of Management Journal*, 58(5), 1546-1571. https://doi.org/10.5465/amj.2013.0319.",
+          "url": "https://repository.derby.ac.uk/download/82eeb1e5fc1cb0f2dc9c386bda28fcf50bb797262212eb742bbcf29110bbafd4/676554/JIAAT%20-%20Accepted%20Manuscript.pdf",
+          "score": 1
+        },
+        {
+          "title": "POST, C.; BYRON, K. Women on boards and firm financial performance: A meta-analysis. **Academy of Management Journal**, v. 58, n. 5, p. 1546–1571, 2015.",
+          "url": "https://www.monografias.ufop.br/bitstream/35400000/8046/5/MONOGRAFIA_DiversidadeG%C3%AAneroConselhos.pdf",
+          "score": 1
+        },
+        {
+          "title": "Female Representation on Boards and Firm Financial Performance",
+          "url": "https://pure.eur.nl/ws/portalfiles/portal/47895358/Pletzer-et-al-2015-PlosOne.pdf",
+          "score": 0.8333333333333334
+        },
+        {
+          "title": "Women on Boards and Firm Financial Performance: A Meta-Analysis",
+          "url": "https://www.researchgate.net/publication/268146570_Women_on_Boards_and_Firm_Financial_Performance_A_Meta-Analysis",
+          "score": 1
+        },
+        {
+          "title": "Women on Boards and Firm Financial Performance: A Meta-Analysis",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amj.2013.0319",
+          "score": 1
+        },
+        {
+          "title": "Women on Board, Firm Financial Performance and Agency Costs",
+          "url": "https://www.academia.edu/24037359/Women_on_Board_Firm_Financial_Performance_and_Agency_Costs",
+          "score": 0.8333333333333334
+        }
+      ]
+    }
+  ]
+}

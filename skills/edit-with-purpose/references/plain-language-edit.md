@@ -41,7 +41,7 @@ The revision is 66 words, compared with 156 in the rejected passage. That count 
 
 Here, “only” limits the criticism to reporting appointment counts alone. The user supplied and approved this one-word addition after reviewing the generated passage. It clarifies the intended limitation without replacing the sentence or claiming that appointment counts are useless.
 
-Transfer the decision: make the smallest justified edit that makes the intended meaning more precise, even when it adds a word. Add a qualifier only when the intended claim supports it; “only” is not a required word or a general replacement rule. Explicit length limits still apply. This correction is an accepted local example, not evidence that future outputs will meet the same standard.
+For a local precision correction like this, a small justified edit can make the intended meaning more precise even when it adds a word. This does not make minimum edit size the objective of an authorized structural or expressive improvement. Add a qualifier only when the intended claim supports it; “only” is not a required word or a general replacement rule. Explicit length limits still apply. This correction is an accepted local example, not evidence that future outputs will meet the same standard.
 
 ## Learn from a preferred rewrite
 

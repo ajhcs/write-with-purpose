@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w2956864763",
+      "doi": "10.1002/cl2.20",
+      "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+      "authors": "[\"Anthony A. Braga\"]",
+      "field": "law_public_policy",
+      "q": "\"Systematic Review of the Effects of Hot Spots\" Braga filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2956864763",
+      "query": "\"Systematic Review of the Effects of Hot Spots\" Braga filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/CL2.20",
+          "score": 1
+        },
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1002/CL2.20",
+          "score": 1
+        },
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://journals.sagepub.com/doi/abs/10.1002/CL2.20",
+          "score": 1
+        },
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://journals.sagepub.com/doi/10.1002/CL2.20",
+          "score": 1
+        },
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://www.researchgate.net/publication/334369362_PROTOCOL_Systematic_Review_of_the_Effects_of_Hot_Spots_Policing_on_Crime",
+          "score": 1
+        },
+        {
+          "title": "The Effects of Hot Spots Policing on Crime: An Updated Systematic Review and Meta-Analysis",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/07418825.2012.673632?needAccess=true&scroll=top",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

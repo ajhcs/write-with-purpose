@@ -1,0 +1,19 @@
+# Independent audit of Astra's candidate rules
+
+16 November 2026. This is a bounded review of a proposed, untested annotation contract and its development examples, not a new coding pass, gold standard, or runtime qualification.
+
+The revision makes a concrete procedural improvement over repeating boundary warnings: it requires anchored role decisions, explicit targets and context, typed unresolved decisions, and separate clear and candidate summaries. These additions give disagreements a reviewable location and rationale. Their usefulness, consistency, and recording cost remain untested; the additional-job distinction still calls for semantic judgment and calibration.
+
+## Source and semantic checks
+
+- Independently checked the four retained source-file and normalized-paragraph hashes, all eight reviewed context records, and 20 role/target anchor ranges and digests: 15 role records and five target anchors resolve. The original two coder label sets, legacy uncertainty values, and recorded provenance agree with the four earlier worked cases. The two offset-based original source slices resolve to the private paragraphs; HBR context units resolve in the reviewed reconstruction. The catalogue digest matches the candidate's recorded digest. This does not validate PDF/XML extraction or prove the interpretations.
+- The ACA conditional limits the stakes claim; assert and interpret may overlap if their distinct contributions are justified, though the precise boundary remains contestable. The reflective self-question directs a cognitive action; its incomplete method does not defeat instruction. The values/ethics distinction can be a partial definition, but ambiguity is reasonable. In the review article, the 13-word denominator condition qualifies a 113-word paragraph; that does not make 113 words a qualification length. For the historical example, the support target is a defensible but uncertain weaker reconstruction; it must not replace the neighboring exclusivity claim. Intended support does not validate the historical claim.
+- Nothing in the proposed procedure imposes a required function set, sequence, paragraph size, minimum anchor length, or role quota. Relational targets can be implicit and uncertain. Those requirements can add burden, and their semantic adequacy cannot be established from fields and hashes alone.
+
+## Contract and compatibility
+
+An earlier candidate required targets for all relation-layer records except unresolved cases, while requiring rejection to be clear. This made it impossible to clearly reject a relation because no target exists without inventing one. The amended contract now permits a clear rejection with an empty target list, a specific absence reason, and sufficient reviewed context; an unresolved missing-context case instead requires a missing-target reason. Two synthetic boundary fixtures distinguish those outcomes and their anchor hashes match. The correction resolves this representational contradiction as a proposed contract; no validator has been implemented or exercised.
+
+The existing `experiments/paragraph-functions/check_annotations.py` validates flat planned and observed paragraph labels, paragraph spans and paragraph-level status. It does not implement or validate the candidate's per-role anchors, target references, semantic links, or per-role uncertainty. Its separate relation format rejects same-paragraph references, and an empty observed-label list requires paragraph status `unresolved`. Any future adapter must preserve this distinction and must not silently flatten unresolved candidates into clear observed labels. No runtime modification is claimed.
+
+The examples are selective development readings, not complete independent annotations or fresh holdouts. Source hashes and field checks are consistency evidence only. No agreement improvement, reader benefit, catalogue adoption or automated rewrite follows from this audit.

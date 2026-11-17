@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_038",
+      "doi": "10.1108/jhom-06-2018-0176",
+      "title": "Lean implementation in healthcare supply chain: a scoping review",
+      "authors": "[\"Gabriela Aline Borges\", \"Guilherme Tortorella\", \"Matteo Rossini\", \"Alberto Portioli-Staudacher\"]",
+      "field": "business_management",
+      "q": "\"Lean implementation in healthcare supply chain\" Borges pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_038",
+      "query": "\"Lean implementation in healthcare supply chain\" Borges pdf",
+      "urls": [
+        {
+          "title": "Lean implementation in healthcare supply chain: a scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31122116/",
+          "score": 1
+        },
+        {
+          "title": "Lean implementation in healthcare supply chain: a scoping review",
+          "url": "https://www.sciencedirect.com/org/science/article/abs/pii/S1477726619000158",
+          "score": 1
+        },
+        {
+          "title": "Lean implementation in healthcare supply chain: a scoping review",
+          "url": "https://re.public.polimi.it/handle/11311/1113678",
+          "score": 1
+        },
+        {
+          "title": "Lean implementation in healthcare supply chain: a scoping review.",
+          "url": "https://scimatic.org/index.php/biblio/78002",
+          "score": 1
+        },
+        {
+          "title": "Lean implementation in healthcare supply chain: a scoping review | OpenAlex",
+          "url": "https://openalex.org/works/W2940210425",
+          "score": 1
+        },
+        {
+          "title": "Simulation-based analysis of lean practices implementation on the supply chain of a public hospital",
+          "url": "https://prod.org.br/article/doi/10.1590/0103-6513.20190131",
+          "score": 0.8
+        }
+      ]
+    }
+  ]
+}

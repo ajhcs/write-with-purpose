@@ -1,0 +1,80 @@
+{
+  "fields": 6,
+  "forms": 17,
+  "field_form_cells": 102,
+  "raw_candidate_records": 235,
+  "distinct_candidate_work_keys": 235,
+  "primary_placements": 214,
+  "primary_pull_placements": 214,
+  "distinct_primary_pull_works": 214,
+  "doi_pull_count": 154,
+  "primary_pull_without_doi": 60,
+  "already_retained_primary_placements": 0,
+  "conditional_or_uncounted_records": 21,
+  "cells_with_three_direct_candidates": 70,
+  "cell_statuses": {
+    "three_targets": 70,
+    "conditional_analogue": 15,
+    "not_applicable": 9,
+    "partial_gap": 3,
+    "no_verified_targets": 5
+  },
+  "periods_all": {
+    "pre-2015": 211,
+    "2015-2019_supplement": 18,
+    "unknown_date": 6
+  },
+  "by_field": {
+    "business": {
+      "records": 49,
+      "primary_placements": 45,
+      "pull_placements": 45,
+      "three_target_cells": 15
+    },
+    "engineering": {
+      "records": 42,
+      "primary_placements": 42,
+      "pull_placements": 42,
+      "three_target_cells": 13
+    },
+    "law": {
+      "records": 44,
+      "primary_placements": 36,
+      "pull_placements": 36,
+      "three_target_cells": 12
+    },
+    "medicine": {
+      "records": 51,
+      "primary_placements": 42,
+      "pull_placements": 42,
+      "three_target_cells": 14
+    },
+    "personal": {
+      "records": 12,
+      "primary_placements": 12,
+      "pull_placements": 12,
+      "three_target_cells": 4
+    },
+    "physical-sciences": {
+      "records": 37,
+      "primary_placements": 37,
+      "pull_placements": 37,
+      "three_target_cells": 12
+    }
+  },
+  "raw_input_sha256": {
+    "experiments/library-expansion-2026-11-16/business/candidates.json": "ff90bae264bd479fbd0b999df481f787034f02a2ad03486d230940459fe0d605",
+    "experiments/library-expansion-2026-11-16/business/coverage.json": "0f233bfd3e3baff781a80fb5e0ebc33e08672eb9a01eb0ad1249ef8974d1cf2e",
+    "experiments/library-expansion-2026-11-16/engineering/candidates.json": "b9964700d90601d8fff0f9aed56d67301b4639147c9e6bd5383ccd218b277a7d",
+    "experiments/library-expansion-2026-11-16/engineering/coverage.json": "d5a3c299404a7b6bf2aa93cfbcfd7b1b57da88d8270121de56c013f8d9586367",
+    "experiments/library-expansion-2026-11-16/law/candidates.json": "ca44a31b232d3fe0c5c6cacc6b1c92f9ba0c5398cd077f0667dd0bb091ae5133",
+    "experiments/library-expansion-2026-11-16/law/coverage.json": "eb801922f9943de00ab122b2a167337e4e1f361e30212409e0dbd6de82a3339d",
+    "experiments/library-expansion-2026-11-16/medicine/candidates.json": "506856821588cf4b16a9ade35d773c078b20d70f7cb98b6f32be6e9cdfe86513",
+    "experiments/library-expansion-2026-11-16/medicine/coverage.json": "ed56312c80f78fd535c78083cf0844271f0e6c701f0f0bc4fc9ac1c758237a05",
+    "experiments/library-expansion-2026-11-16/personal/candidates.json": "87c8e5c39cbf7d70bcca4d98f208e03c8b6a2a08d34a9babf172e4dfde471e9a",
+    "experiments/library-expansion-2026-11-16/personal/coverage.json": "1fad9f7d3e19735954c1fc526afdc42d37a42b5c0f88b04fee5b64719b40a5e7",
+    "experiments/library-expansion-2026-11-16/physical-sciences/candidates.json": "f3318637e38aed834f71897bccc8a2272879daf36c0456af41f6b655ad27bc19",
+    "experiments/library-expansion-2026-11-16/physical-sciences/coverage.json": "872669ca59a573259e5a8a98c648a627edf64c2ba15c1c8d7ebce02a233daa53"
+  },
+  "limits": "Bibliographic candidates, not verified writing exemplars. Primary source/API metadata checks are branch-specific; audit rechecks were rate limited. Prominence signals differ and do not establish readership or quality. No PDF acquisition or catalogue adoption in this task."
+}

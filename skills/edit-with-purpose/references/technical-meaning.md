@@ -10,4 +10,6 @@ An economical revision can omit peripheral facts. Inspect whether an omission ch
 
 Compare the actual before and after. A rewrite can retain every number while changing its subject, denominator or logical role. Conversely, a supported paraphrase or conversion can change the words and digits without changing the claim. Exact matches are observations, not semantic proof.
 
+An argument that “stayed with me from” a report was not necessarily “first encountered” there. Make the useful connection without adding unsupported personal history. A disclaimer is also a claim: follow an author's correction at its supported scope without inferring a credential or experience they have not specified, and retain independent qualifications that still apply. Repair the unsupported relationship while retaining useful changes around it.
+
 Correctness review should distinguish supported corrections, unresolved source conflicts and optional wording choices. Preserve useful technical language while making the connection around it readable. Additional factual research belongs to the authorized task; editorial work does not itself establish new clinical or engineering evidence.

@@ -1,0 +1,105 @@
+{
+  "retrieved_at_utc": "2026-11-16T01:05:52.498517+00:00",
+  "sources": [
+    {
+      "repo": "kubernetes/website",
+      "branch": "main",
+      "commit": "8a342c522c21f05564881573fcca7d5910a2ebb5",
+      "license_spdx": "CC-BY-4.0",
+      "license_url": "https://api.github.com/licenses/cc-by-4.0",
+      "tree_truncated": false,
+      "retrieved_at_utc": "2026-11-16T01:05:52.498517+00:00",
+      "selection_signal": "official project-maintained documentation; no readership or citation ranking established"
+    },
+    {
+      "repo": "canonical/ubuntu-server-documentation",
+      "branch": "main",
+      "commit": "505feb597ec634d49a50edd2cc942be92d2d575b",
+      "license_spdx": null,
+      "license_url": null,
+      "tree_truncated": false,
+      "retrieved_at_utc": "2026-11-16T01:05:52.498517+00:00",
+      "selection_signal": "official project-maintained documentation; no readership or citation ranking established"
+    }
+  ],
+  "failures": [
+    {
+      "repo": "canonical/ubuntu-desktop-documentation",
+      "stage": "discovery",
+      "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/canonical/ubuntu-desktop-documentation/git/trees/971a2aabc789c118b0c8936e9add9d159b9161e4?recursive=1"
+    },
+    {
+      "repo": "canonical/maas",
+      "stage": "discovery",
+      "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/canonical/maas"
+    },
+    {
+      "repo": "canonical/lxd",
+      "stage": "discovery",
+      "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/canonical/lxd"
+    },
+    {
+      "repo": "canonical/landscape-documentation",
+      "stage": "discovery",
+      "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/canonical/landscape-documentation"
+    },
+    {
+      "repo": "canonical/pebble",
+      "stage": "discovery",
+      "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/canonical/pebble"
+    },
+    {
+      "repo": "canonical/rockcraft",
+      "stage": "discovery",
+      "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/canonical/rockcraft"
+    },
+    {
+      "repo": "canonical/charmcraft",
+      "stage": "discovery",
+      "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/canonical/charmcraft"
+    },
+    {
+      "repo": "canonical/snapcraft",
+      "stage": "discovery",
+      "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/canonical/snapcraft"
+    }
+  ],
+  "archive_sources": [
+    {
+      "repo": "tensorflow/docs",
+      "commit": "82158b810d30edc737411744e27a0801fdad4554",
+      "license_spdx": "Apache-2.0",
+      "archive": "https://codeload.github.com/tensorflow/docs/tar.gz/82158b810d30edc737411744e27a0801fdad4554",
+      "archive_sha256": "3ba15beddccede607cb9900bed9afcf7430bd2f893abc3c6d83b2e5119be2fe3",
+      "retrieved_at_utc": "2026-11-16T01:10:56.256805+00:00",
+      "selection_signal": "official project tutorial source directory; individual pages require review"
+    },
+    {
+      "repo": "pytorch/tutorials",
+      "commit": "5277794075fd393cf24f139ac978f96bc06b5aa3",
+      "license_spdx": "BSD-3-Clause",
+      "archive": "https://codeload.github.com/pytorch/tutorials/tar.gz/5277794075fd393cf24f139ac978f96bc06b5aa3",
+      "archive_sha256": "e193e402f010a196aa8d8f69f26549a5b6917c4eaa714d949be8d14623f04c90",
+      "retrieved_at_utc": "2026-11-16T01:10:56.256805+00:00",
+      "selection_signal": "official project tutorial source directory; individual pages require review"
+    },
+    {
+      "repo": "ros2/ros2_documentation",
+      "commit": "929e37c4c6d0746e75d10f1fd76f024743ff75ea",
+      "license_spdx": "CC-BY-4.0",
+      "archive": "https://codeload.github.com/ros2/ros2_documentation/tar.gz/929e37c4c6d0746e75d10f1fd76f024743ff75ea",
+      "archive_sha256": "2618ce61e709fe815fa0b349bcf06951d1ae9f963edbfb2b3cf188e1410861af",
+      "retrieved_at_utc": "2026-11-16T01:10:56.256805+00:00",
+      "selection_signal": "official project tutorial source directory; individual pages require review"
+    },
+    {
+      "repo": "huggingface/diffusers",
+      "commit": "43e30028af5120d8b0868cb6975b9fad39cc4fab",
+      "license_spdx": "Apache-2.0",
+      "archive": "https://codeload.github.com/huggingface/diffusers/tar.gz/43e30028af5120d8b0868cb6975b9fad39cc4fab",
+      "archive_sha256": "bc8b6fd45ef6f25c859bb7f76153fd019a83f0bfdcb02c36707d0e5206bb960b",
+      "retrieved_at_utc": "2026-11-16T01:10:56.256805+00:00",
+      "selection_signal": "official project tutorial source directory; individual pages require review"
+    }
+  ]
+}

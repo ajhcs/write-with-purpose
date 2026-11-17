@@ -1,0 +1,88 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E04/source.txt",
+    "sha256": "5832523f288afdb725f684ad368a7e8cac365d60845dd0084f7ce457ab11b749",
+    "bytes": 128
+  },
+  "plan": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E04/edits.json",
+    "sha256": "a22d181c27af18015f3b0db9afbe054da46828be85fba9a6312356bb31508669"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "0e76d37eb3be17526fde71eb08c91c772c4d41bf18863f5a862587418ebb29bc",
+    "bytes": 179
+  },
+  "output": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E04/revision.txt",
+    "sha256": "0e76d37eb3be17526fde71eb08c91c772c4d41bf18863f5a862587418ebb29bc",
+    "bytes": 179
+  },
+  "changes": [
+    {
+      "start": 37,
+      "end": 37,
+      "before": "",
+      "after": ": any number of retries leaves the status at Ready",
+      "reason": "Explain idempotence for the stated audience",
+      "plan_index": 0,
+      "location": {
+        "line": 1,
+        "column": 38
+      }
+    },
+    {
+      "start": 128,
+      "end": 128,
+      "before": "",
+      "after": "\n",
+      "reason": "Explain idempotence for the stated audience",
+      "plan_index": 1,
+      "location": {
+        "line": 2,
+        "column": 1
+      }
+    }
+  ],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 127,
+      "original_characters": 127,
+      "original_characters_selected": 0,
+      "selected_percent": 0.0,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 50
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 22,
+    "after_words": 31,
+    "net_words_removed": -9,
+    "net_reduction_percent": -40.909,
+    "words_inserted": 10,
+    "words_removed_or_replaced": 1,
+    "original_tokens_removed_or_replaced_percent": 4.545,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

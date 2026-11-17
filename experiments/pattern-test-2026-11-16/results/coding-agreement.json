@@ -1,0 +1,2231 @@
+{
+  "nejm": {
+    "compared_paragraphs": 54,
+    "exact_sets": 23,
+    "exact_set_fraction": 0.42592592592592593,
+    "mean_jaccard": 0.7194444444444444,
+    "primary_labels_not_adjudicated": true,
+    "comparisons": [
+      {
+        "id": "NEJMp1616577-p01",
+        "primary": [
+          "assert",
+          "interpret",
+          "orient",
+          "report"
+        ],
+        "second": [
+          "assert",
+          "interpret",
+          "orient"
+        ],
+        "exact": false,
+        "jaccard": 0.75,
+        "second_uncertain": false,
+        "second_rationale": "Frames policy transition and recommends a replacement plan before repeal."
+      },
+      {
+        "id": "NEJMp1616577-p02",
+        "primary": [
+          "report",
+          "support"
+        ],
+        "second": [
+          "report",
+          "support"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Reports claimed coverage and access gains to support retaining the law."
+      },
+      {
+        "id": "NEJMp1616577-p03",
+        "primary": [
+          "report",
+          "support"
+        ],
+        "second": [
+          "report",
+          "support"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Presents claimed payment, cost, and quality gains as reasons for the policy."
+      },
+      {
+        "id": "NEJMp1616577-p04",
+        "primary": [
+          "assert",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "assert",
+          "illustrate",
+          "qualify"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": false,
+        "second_rationale": "Concedes remaining problems and illustrates a proposed improvement."
+      },
+      {
+        "id": "NEJMp1616577-p05",
+        "primary": [
+          "compare",
+          "report"
+        ],
+        "second": [
+          "compare",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Describes the stated repeal plan and contrasts its process with ACA passage."
+      },
+      {
+        "id": "NEJMp1616577-p06",
+        "primary": [
+          "assert",
+          "explain",
+          "qualify"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "illustrate"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": false,
+        "second_rationale": "Judges the approach and traces possible consequences for several groups."
+      },
+      {
+        "id": "NEJMp1616577-p07",
+        "primary": [
+          "assert",
+          "explain",
+          "illustrate"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "illustrate"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": true,
+        "second_rationale": "Claims reform is complex and illustrates its scale and interdependence."
+      },
+      {
+        "id": "NEJMp1616577-p08",
+        "primary": [
+          "explain",
+          "illustrate",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "illustrate",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": false,
+        "second_rationale": "Uses coverage protections to explain a claimed policy tradeoff."
+      },
+      {
+        "id": "NEJMp1616577-p09",
+        "primary": [
+          "qualify",
+          "report",
+          "support"
+        ],
+        "second": [
+          "assert",
+          "qualify",
+          "report",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.75,
+        "second_uncertain": false,
+        "second_rationale": "Connects possible failure to replace the law with an attributed projection; outcome is conditional."
+      },
+      {
+        "id": "NEJMp1616577-p10",
+        "primary": [
+          "assert",
+          "explain"
+        ],
+        "second": [
+          "assert",
+          "interpret"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": false,
+        "second_rationale": "Synthesizes the claimed stakes of repeal without an alternative."
+      },
+      {
+        "id": "NEJMp1616577-p11",
+        "primary": [
+          "assert",
+          "illustrate"
+        ],
+        "second": [
+          "assert",
+          "illustrate"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Recommends a bipartisan plan and invokes a previous payment overhaul as an example."
+      },
+      {
+        "id": "NEJMp1616577-p12",
+        "primary": [
+          "assert",
+          "illustrate"
+        ],
+        "second": [
+          "assert",
+          "illustrate",
+          "interpret"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": false,
+        "second_rationale": "Uses beneficiaries to humanize the stakes and ends with a normative appeal."
+      },
+      {
+        "id": "NEJMp1702362-p01",
+        "primary": [
+          "interpret",
+          "narrate",
+          "orient"
+        ],
+        "second": [
+          "illustrate",
+          "interpret",
+          "narrate",
+          "orient"
+        ],
+        "exact": false,
+        "jaccard": 0.75,
+        "second_uncertain": false,
+        "second_rationale": "Personal clinical experience illustrates the wider communication problem."
+      },
+      {
+        "id": "NEJMp1702362-p02",
+        "primary": [
+          "assert",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "orient",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.25,
+        "second_uncertain": true,
+        "second_rationale": "Describes political events and reports concerns about suppression; includes a tentative alternative explanation."
+      },
+      {
+        "id": "NEJMp1702362-p03",
+        "primary": [
+          "assert",
+          "explain",
+          "orient"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "interpret"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": false,
+        "second_rationale": "Calls for resistance and distinguishes suppression from the preceding disbelief."
+      },
+      {
+        "id": "NEJMp1702362-p04",
+        "primary": [
+          "assert",
+          "explain",
+          "report",
+          "support"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "illustrate",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.6,
+        "second_uncertain": false,
+        "second_rationale": "Argues against a knowledge-deficit assumption using a proposed mechanism and study examples."
+      },
+      {
+        "id": "NEJMp1702362-p05",
+        "primary": [
+          "assert",
+          "report",
+          "support"
+        ],
+        "second": [
+          "assert",
+          "report",
+          "support"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Recommends avoiding politicization and reports an experiment relevant to the concern."
+      },
+      {
+        "id": "NEJMp1702362-p06",
+        "primary": [
+          "illustrate",
+          "interpret",
+          "report"
+        ],
+        "second": [
+          "illustrate",
+          "interpret",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": true,
+        "second_rationale": "Applies the identity-risk argument to current events, with an example and attributed commentary."
+      },
+      {
+        "id": "NEJMp1702362-p07",
+        "primary": [
+          "explain",
+          "interpret"
+        ],
+        "second": [
+          "explain",
+          "interpret"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Explains distrust through the proposed conflict between group identity and scientific acceptance."
+      },
+      {
+        "id": "NEJMp1702362-p08",
+        "primary": [
+          "assert",
+          "explain",
+          "illustrate"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "illustrate"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Applies the identity mechanism to recommend measured responses and illustrates one."
+      },
+      {
+        "id": "NEJMp1702362-p09",
+        "primary": [
+          "compare",
+          "illustrate",
+          "qualify"
+        ],
+        "second": [
+          "illustrate",
+          "qualify",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": false,
+        "second_rationale": "Limits the generalizability of a response and explores alternative strategies."
+      },
+      {
+        "id": "NEJMp1702362-p10",
+        "primary": [
+          "assert",
+          "interpret"
+        ],
+        "second": [
+          "assert",
+          "interpret"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Reflects on medical communication and urges empirical attention to communicating science."
+      },
+      {
+        "id": "NEJMp1707514-p001",
+        "primary": [
+          "interpret",
+          "narrate"
+        ],
+        "second": [
+          "interpret",
+          "narrate"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Recounts a diagnosis call and reflects on the father’s composure."
+      },
+      {
+        "id": "NEJMp1707514-p002",
+        "primary": [
+          "interpret",
+          "narrate"
+        ],
+        "second": [
+          "interpret",
+          "narrate"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Continues the family experience and reflects on a reassuring connection."
+      },
+      {
+        "id": "NEJMp1707514-p003",
+        "primary": [
+          "narrate",
+          "report"
+        ],
+        "second": [
+          "narrate"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": false,
+        "second_rationale": "Recounts arrival and the postoperative encounter."
+      },
+      {
+        "id": "NEJMp1707514-p004",
+        "primary": [
+          "narrate",
+          "report"
+        ],
+        "second": [
+          "narrate"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": false,
+        "second_rationale": "Recounts a nighttime blood draw and an exchange."
+      },
+      {
+        "id": "NEJMp1707514-p005",
+        "primary": [
+          "interpret",
+          "narrate"
+        ],
+        "second": [
+          "interpret",
+          "narrate"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Shows a clinical encounter and the father’s interpretation of the physician’s approach."
+      },
+      {
+        "id": "NEJMp1707514-p006",
+        "primary": [
+          "interpret",
+          "narrate"
+        ],
+        "second": [
+          "interpret",
+          "narrate"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Recounts the aide’s relationship with the patient and walking progression."
+      },
+      {
+        "id": "NEJMp1707514-p007",
+        "primary": [
+          "narrate"
+        ],
+        "second": [
+          "narrate"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Concludes the walking sequence and return home."
+      },
+      {
+        "id": "NEJMp1707514-p008",
+        "primary": [
+          "interpret",
+          "narrate",
+          "qualify"
+        ],
+        "second": [
+          "interpret",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.25,
+        "second_uncertain": false,
+        "second_rationale": "Reports the later outcome and reflects on meaning and purpose in medicine."
+      },
+      {
+        "id": "NEJMp1711886-p001",
+        "primary": [
+          "narrate",
+          "report"
+        ],
+        "second": [
+          "narrate",
+          "orient"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": false,
+        "second_rationale": "Introduces the patient’s illness and the emerging treatment through her experience."
+      },
+      {
+        "id": "NEJMp1711886-p002",
+        "primary": [
+          "narrate",
+          "report"
+        ],
+        "second": [
+          "narrate"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": false,
+        "second_rationale": "Continues the treatment decision under constrained options."
+      },
+      {
+        "id": "NEJMp1711886-p003",
+        "primary": [
+          "narrate",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "interpret",
+          "narrate",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": false,
+        "second_rationale": "Connects the patient’s course to approval and reports the trial result; broader impact is inferred."
+      },
+      {
+        "id": "NEJMp1711886-p004",
+        "primary": [
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "qualify",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Reports development activity and bounds the early evidence and future possibilities."
+      },
+      {
+        "id": "NEJMp1711886-p005",
+        "primary": [
+          "interpret",
+          "report"
+        ],
+        "second": [
+          "interpret",
+          "narrate"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": false,
+        "second_rationale": "Places scientific milestones in a historical sequence and interprets their significance."
+      },
+      {
+        "id": "NEJMp1711886-p006",
+        "primary": [
+          "narrate",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "narrate"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": false,
+        "second_rationale": "Recounts the investigator’s career and personal motivation for the change in research."
+      },
+      {
+        "id": "NEJMp1711886-p007",
+        "primary": [
+          "narrate",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "narrate",
+          "qualify"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": false,
+        "second_rationale": "Traces funding and early patients while noting limits of anecdotal outcomes."
+      },
+      {
+        "id": "NEJMp1711886-p008",
+        "primary": [
+          "interpret",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "illustrate",
+          "interpret",
+          "qualify"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": true,
+        "second_rationale": "Uses cases to argue that early trial events can shape a field, with counterfactual uncertainty."
+      },
+      {
+        "id": "NEJMp1711886-p009",
+        "primary": [
+          "narrate",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "illustrate",
+          "narrate",
+          "qualify"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": false,
+        "second_rationale": "Uses the patient’s deterioration as a case and notes uncertainty at the time."
+      },
+      {
+        "id": "NEJMp1711886-p010",
+        "primary": [
+          "explain",
+          "interpret",
+          "narrate"
+        ],
+        "second": [
+          "explain",
+          "narrate"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": false,
+        "second_rationale": "Traces the urgent clinical sequence and the reasoning behind the target choice."
+      },
+      {
+        "id": "NEJMp1711886-p011",
+        "primary": [
+          "narrate",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "narrate"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": false,
+        "second_rationale": "Recounts drug availability and response, explaining its timely administration."
+      },
+      {
+        "id": "NEJMp1711886-p012",
+        "primary": [
+          "explain",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "illustrate",
+          "qualify"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": false,
+        "second_rationale": "Limits optimism through remaining uncertainties and explains a specific target example."
+      },
+      {
+        "id": "NEJMp1711886-p013",
+        "primary": [
+          "compare",
+          "interpret",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "compare",
+          "interpret",
+          "qualify",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Sets out cost arguments, uncertainty about durability, and a reflection on motivation."
+      },
+      {
+        "id": "arb-p01",
+        "primary": [
+          "orient",
+          "report"
+        ],
+        "second": [
+          "interpret",
+          "orient",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": false,
+        "second_rationale": "Introduces the recalls and their context and identifies broader system issues."
+      },
+      {
+        "id": "arb-p02",
+        "primary": [
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "qualify",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Reports exposure and recall estimates while limiting scope to affected products."
+      },
+      {
+        "id": "arb-p03",
+        "primary": [
+          "define",
+          "explain",
+          "report"
+        ],
+        "second": [
+          "define",
+          "explain",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Defines genotoxic impurities, reports limits and attributes a possible production cause."
+      },
+      {
+        "id": "arb-p04",
+        "primary": [
+          "explain",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "qualify",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Describes the supply chain and possible chemical source while noting ongoing investigation."
+      },
+      {
+        "id": "arb-p05",
+        "primary": [
+          "explain",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Reports price and supply effects linked to shortages."
+      },
+      {
+        "id": "arb-p06",
+        "primary": [
+          "explain",
+          "interpret",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "interpret"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": false,
+        "second_rationale": "Explains how fragmented communication may generate misplaced or missed concern and burden."
+      },
+      {
+        "id": "arb-p07",
+        "primary": [
+          "explain",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Explains switching challenges and follow-on clinical and confidence consequences."
+      },
+      {
+        "id": "arb-p08",
+        "primary": [
+          "interpret",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "interpret",
+          "qualify",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Reports testing, identifies uncertainty, and interprets the scope of the task."
+      },
+      {
+        "id": "arb-p09",
+        "primary": [
+          "interpret",
+          "report"
+        ],
+        "second": [
+          "compare",
+          "interpret",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": true,
+        "second_rationale": "Assesses tracking and inspection challenges and describes agency response."
+      },
+      {
+        "id": "arb-p10",
+        "primary": [
+          "assert",
+          "explain",
+          "interpret"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "interpret"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": false,
+        "second_rationale": "Frames recalls as a stress test, recommends assessment, and explains information limits."
+      },
+      {
+        "id": "arb-p11",
+        "primary": [
+          "assert",
+          "interpret"
+        ],
+        "second": [
+          "assert",
+          "qualify"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": false,
+        "second_rationale": "Calls for evaluation and preparation while acknowledging hoped-for prevention."
+      }
+    ],
+    "interpretation": "Agreement between two model coding passes on supplied paragraph boundaries, not human agreement or semantic validity. NEJM all paragraphs; other sources six deterministic targets per document."
+  },
+  "systematic": {
+    "compared_paragraphs": 48,
+    "exact_sets": 25,
+    "exact_set_fraction": 0.5208333333333334,
+    "mean_jaccard": 0.796875,
+    "primary_labels_not_adjudicated": true,
+    "comparisons": [
+      {
+        "id": "xml-02359-p003",
+        "primary": [
+          "illustrate",
+          "interpret"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "illustrate",
+          "orient"
+        ],
+        "exact": false,
+        "jaccard": 0.2,
+        "second_uncertain": "The explanatory relationship is plausible but brief.",
+        "second_rationale": "Frames the value of patient experience, gives concrete care examples, and reasons from fragmentation to a whole-system perspective."
+      },
+      {
+        "id": "xml-02359-p008",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Describes the search terms and outcomes used."
+      },
+      {
+        "id": "xml-02359-p013",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "States the inclusion threshold and application to studies extracted from reviews."
+      },
+      {
+        "id": "xml-02359-p018",
+        "primary": [
+          "define",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "illustrate",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.25,
+        "second_uncertain": "Examples enumerate category contents; illustration is borderline.",
+        "second_rationale": "Describes the table and outcome categories using concrete examples."
+      },
+      {
+        "id": "xml-02359-p023",
+        "primary": [
+          "report",
+          "support"
+        ],
+        "second": [
+          "interpret",
+          "report",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": null,
+        "second_rationale": "Judges adherence evidence strong and summarizes studies that bear on this judgment, then reports other associated outcomes."
+      },
+      {
+        "id": "xml-02359-p028",
+        "primary": [
+          "assert",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "assert",
+          "qualify",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Describes methodological constraints and their implications for evidence and generalizability, with proposals for further work."
+      },
+      {
+        "id": "xml-02334-p003",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "States review scope and research questions."
+      },
+      {
+        "id": "xml-02334-p007",
+        "primary": [
+          "define",
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": null,
+        "second_rationale": "Describes definitions and procedure used to assess severity."
+      },
+      {
+        "id": "xml-02334-p012",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Summarizes follow-up, impairment counts and risk estimates."
+      },
+      {
+        "id": "xml-02334-p016",
+        "primary": [
+          "compare",
+          "report"
+        ],
+        "second": [
+          "compare",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Reports the pooled risk and contrasts highest and lowest risks across insults."
+      },
+      {
+        "id": "xml-02334-p021",
+        "primary": [
+          "assert",
+          "orient",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "assert",
+          "interpret",
+          "orient",
+          "qualify",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.8,
+        "second_uncertain": null,
+        "second_rationale": "Frames the burden, reports the small evidence base and interprets a possible association with an explicit sample-size limitation and research recommendation."
+      },
+      {
+        "id": "xml-02334-p025",
+        "primary": [
+          "assert",
+          "interpret"
+        ],
+        "second": [
+          "assert",
+          "interpret"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Draws policy and research implications and recommends prevention, treatment, resources and assessment."
+      },
+      {
+        "id": "xml-02298-p003",
+        "primary": [
+          "compare",
+          "explain",
+          "illustrate",
+          "qualify"
+        ],
+        "second": [
+          "compare",
+          "explain",
+          "illustrate",
+          "orient",
+          "qualify",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": null,
+        "second_rationale": "Frames validity as important, illustrates it with autism studies, describes data checks and contrasts recording processes and limitations."
+      },
+      {
+        "id": "xml-02298-p009",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Describes classification and calculation methods."
+      },
+      {
+        "id": "xml-02298-p014",
+        "primary": [
+          "compare",
+          "illustrate",
+          "interpret",
+          "report"
+        ],
+        "second": [
+          "compare",
+          "illustrate",
+          "interpret",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Summarizes validation results, compares database estimates to external sources and code sets, gives examples, and infers verification by stricter criteria."
+      },
+      {
+        "id": "xml-02298-p020",
+        "primary": [
+          "explain",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "qualify",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Recaps validation findings and explains why method limitations, reporting quality and possible publication bias restrict an overall validity conclusion."
+      },
+      {
+        "id": "xml-02298-p025",
+        "primary": [
+          "compare",
+          "explain",
+          "qualify"
+        ],
+        "second": [
+          "compare",
+          "explain",
+          "qualify",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.75,
+        "second_uncertain": null,
+        "second_rationale": "Compares cost and time tradeoffs, reports reporting gaps and explains resulting bias and completeness limitations."
+      },
+      {
+        "id": "xml-02298-p031",
+        "primary": [
+          "assert",
+          "interpret",
+          "qualify"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "qualify"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": "Whether the claim about algorithms deserves report or assertion is context dependent.",
+        "second_rationale": "Recommends validation and argues for internal algorithms while identifying cost and generalizability limitations of external validation."
+      },
+      {
+        "id": "xml-02415-p004",
+        "primary": [
+          "define",
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": null,
+        "second_rationale": "Summarizes the review eligibility criteria, interventions, comparators and outcomes."
+      },
+      {
+        "id": "xml-02415-p010",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Reports software and significance threshold used."
+      },
+      {
+        "id": "xml-02415-p016",
+        "primary": [
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": null,
+        "second_rationale": "Reports that three studies were not assessed and gives insufficient data as the reason."
+      },
+      {
+        "id": "xml-02415-p023",
+        "primary": [
+          "explain",
+          "qualify"
+        ],
+        "second": [
+          "explain",
+          "qualify",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": "The assessment is a finding about included studies and a limitation on their evidence.",
+        "second_rationale": "Reports a risk-of-bias assessment and identifies methodological and historical reasons for that risk."
+      },
+      {
+        "id": "xml-02415-p029",
+        "primary": [
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "qualify",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": "Source contains an apparent mismatch between SARS-CoV and influenza; coding does not resolve it.",
+        "second_rationale": "Reports a subgroup outcome and limits its interpretation because of selection bias and confounding."
+      },
+      {
+        "id": "xml-02415-p035",
+        "primary": [
+          "explain",
+          "qualify"
+        ],
+        "second": [
+          "explain",
+          "qualify",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": null,
+        "second_rationale": "Describes evidence and review limitations, explains potential directions of bias and calls for cautious interpretation."
+      },
+      {
+        "id": "xml-02282-p002",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "States the reporting guideline used for the review."
+      },
+      {
+        "id": "xml-02282-p006",
+        "primary": [
+          "define",
+          "explain",
+          "report"
+        ],
+        "second": [
+          "define",
+          "explain",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Reports sensitivity and meta-regression methods, operational quality criteria, and the reason for assuming odds ratios approximate risk ratios."
+      },
+      {
+        "id": "xml-02282-p010",
+        "primary": [
+          "compare",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "compare",
+          "qualify",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Reports pooled effects and heterogeneity across study designs, noting the exception and disproportionate study weight."
+      },
+      {
+        "id": "xml-02282-p013",
+        "primary": [
+          "compare",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "compare",
+          "interpret",
+          "qualify",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.75,
+        "second_uncertain": null,
+        "second_rationale": "Compares association estimates across study characteristics and synthesizes a tentative quality pattern with a counterexample and statistical uncertainty."
+      },
+      {
+        "id": "xml-02282-p017",
+        "primary": [
+          "compare",
+          "explain",
+          "illustrate",
+          "interpret"
+        ],
+        "second": [
+          "compare",
+          "explain",
+          "illustrate",
+          "interpret",
+          "qualify",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": "The country comparison and causal interpretation are conditional and speculative.",
+        "second_rationale": "Infers population burden, illustrates it with an explicitly assumed calculation, compares diabetes and HIV risk and prevalence, and proposes an explanation for contrary trends."
+      },
+      {
+        "id": "xml-02282-p021",
+        "primary": [
+          "compare",
+          "explain",
+          "qualify"
+        ],
+        "second": [
+          "compare",
+          "explain",
+          "qualify",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.75,
+        "second_uncertain": null,
+        "second_rationale": "Identifies missing effect-modification analysis, compares studies and proposes explanations while acknowledging inability to distinguish diabetes types."
+      },
+      {
+        "id": "xml-02382-p005",
+        "primary": [
+          "explain"
+        ],
+        "second": [
+          "explain"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": "Very brief; the prior context may determine whether this is primarily a summary or explanation.",
+        "second_rationale": "States the relationship of drivers and facilitators to application of stigma."
+      },
+      {
+        "id": "xml-02382-p013",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "States review method and objectives."
+      },
+      {
+        "id": "xml-02382-p021",
+        "primary": [
+          "define",
+          "report"
+        ],
+        "second": [
+          "define",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": "The listed parentheticals also provide operational meaning for levels.",
+        "second_rationale": "Reports additional analytic categories and specifies the domains and socio-ecological levels assessed."
+      },
+      {
+        "id": "xml-02382-p030",
+        "primary": [
+          "compare",
+          "report"
+        ],
+        "second": [
+          "compare",
+          "illustrate",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": null,
+        "second_rationale": "Reports variation in duration and contrasts two concrete interventions using similar strategies."
+      },
+      {
+        "id": "xml-02382-p038",
+        "primary": [
+          "explain",
+          "interpret"
+        ],
+        "second": [
+          "assert",
+          "explain"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": "The initial observation also provides context for the recommendation.",
+        "second_rationale": "Argues that manifestations must be addressed and explains how they may impede testing, disclosure and intervention goals."
+      },
+      {
+        "id": "xml-02382-p046",
+        "primary": [
+          "assert",
+          "illustrate"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "illustrate"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": null,
+        "second_rationale": "Recommends validated multidomain measures, explains their feasibility and use, and points to existing instruments as models."
+      },
+      {
+        "id": "xml-02317-p004",
+        "primary": [
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "orient",
+          "qualify",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": "The source summary could be viewed as support for the opening assessment.",
+        "second_rationale": "Frames albumin as a prognostic topic using prior studies, identifies differences among studies and states the review purpose."
+      },
+      {
+        "id": "xml-02317-p010",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Summarizes individual studies and their prognostic results."
+      },
+      {
+        "id": "xml-02317-p016",
+        "primary": [
+          "compare",
+          "report"
+        ],
+        "second": [
+          "compare",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Summarizes results from lung cancer studies and contrasts predictive results at diagnosis and follow-up."
+      },
+      {
+        "id": "xml-02317-p023",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Describes the content and ordering of a table."
+      },
+      {
+        "id": "xml-02317-p029",
+        "primary": [
+          "interpret",
+          "report"
+        ],
+        "second": [
+          "interpret",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": "The synthesis is close to a faithful recap; interpret is borderline.",
+        "second_rationale": "Summarizes study designs and synthesizes the shared prognostic finding."
+      },
+      {
+        "id": "xml-02317-p035",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "interpret",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": "The final cross-study synthesis may be read as report alone.",
+        "second_rationale": "Summarizes study designs, adjustment variables and the common association across studies."
+      },
+      {
+        "id": "xml-02448-p005",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Describes the review search and conditional selection of original references."
+      },
+      {
+        "id": "xml-02448-p013",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Describes data entry, checking and disagreement resolution."
+      },
+      {
+        "id": "xml-02448-p021",
+        "primary": [
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": null,
+        "second_rationale": "Reports study identification, exclusions and the final numbers and types included."
+      },
+      {
+        "id": "xml-02448-p029",
+        "primary": [
+          "report"
+        ],
+        "second": [
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": null,
+        "second_rationale": "Reports trial results and uncertainty intervals for urinary and plasma catecholamines."
+      },
+      {
+        "id": "xml-02448-p037",
+        "primary": [
+          "explain",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "qualify",
+          "report",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.75,
+        "second_uncertain": "The evidence-quality ratings are evaluative findings as well as limitations.",
+        "second_rationale": "Reports GRADE judgments and explains downgrades using study design, blinding, inconsistency and indirectness."
+      },
+      {
+        "id": "xml-02448-p045",
+        "primary": [
+          "compare",
+          "explain",
+          "qualify"
+        ],
+        "second": [
+          "compare",
+          "explain",
+          "interpret",
+          "qualify",
+          "report",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": "Long multi-function paragraph; inference about mechanism remains conditional.",
+        "second_rationale": "Reports and compares reviews and durations, explains proposed physiology, infers differences between acute and sustained reductions, and qualifies biomarker implications with supporting reasons."
+      }
+    ],
+    "interpretation": "Agreement between two model coding passes on supplied paragraph boundaries, not human agreement or semantic validity. NEJM all paragraphs; other sources six deterministic targets per document."
+  },
+  "hbr": {
+    "compared_paragraphs": 36,
+    "exact_sets": 7,
+    "exact_set_fraction": 0.19444444444444445,
+    "mean_jaccard": 0.6027777777777777,
+    "primary_labels_not_adjudicated": true,
+    "comparisons": [
+      {
+        "id": "drucker-007",
+        "primary": [
+          "explain",
+          "report"
+        ],
+        "second": [
+          "explain",
+          "narrate",
+          "report",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": [
+          "support: the historical causal claim is asserted rather than independently established in this excerpt"
+        ],
+        "second_rationale": "Recounts the method's historical adoption and advances a causal account of institutional success, supplying a historical reason for its importance."
+      },
+      {
+        "id": "drucker-021",
+        "primary": [
+          "assert",
+          "interpret"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "interpret"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [],
+        "second_rationale": "Generalizes from the preceding cases that switching styles is difficult and infers the performance consequences of a mismatch."
+      },
+      {
+        "id": "drucker-034",
+        "primary": [
+          "define",
+          "orient"
+        ],
+        "second": [
+          "define",
+          "instruct",
+          "orient"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [
+          "instruct: asking the question is actionable, but the test is not yet explained"
+        ],
+        "second_rationale": "Introduces values as the next self-management question, distinguishes it from ethics, and asks the reader to examine their values."
+      },
+      {
+        "id": "drucker-048",
+        "primary": [
+          "illustrate",
+          "instruct"
+        ],
+        "second": [
+          "assert",
+          "illustrate",
+          "instruct"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [],
+        "second_rationale": "Recommends deciding where one does not belong and gives concrete cases of saying no to mismatched positions."
+      },
+      {
+        "id": "drucker-061",
+        "primary": [
+          "define",
+          "explain"
+        ],
+        "second": [
+          "define",
+          "explain",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [],
+        "second_rationale": "Identifies communication as part of relationship responsibility, reports a consulting observation, and explains conflicts through lack of inquiry and shared information."
+      },
+      {
+        "id": "drucker-075",
+        "primary": [
+          "assert",
+          "support"
+        ],
+        "second": [
+          "assert",
+          "report",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [
+          "support: the excerpt does not establish the broad age-related claim"
+        ],
+        "second_rationale": "Proposes early preparation as a prerequisite, reports an unfulfilled prediction about volunteering, and offers an age-related generalization as a reason."
+      },
+      {
+        "id": "scorecard-005",
+        "primary": [
+          "define",
+          "explain"
+        ],
+        "second": [
+          "assert",
+          "define",
+          "explain"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [],
+        "second_rationale": "Describes the vision-translation process, explains the gap between slogans and action, and proposes agreed objectives and measures as the necessary response."
+      },
+      {
+        "id": "scorecard-015",
+        "primary": [
+          "explain",
+          "narrate"
+        ],
+        "second": [
+          "illustrate",
+          "interpret",
+          "narrate",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.2,
+        "second_uncertain": [],
+        "second_rationale": "Recounts the bank executives' work and outcomes as a case of translating vision into operational terms, then draws its lesson."
+      },
+      {
+        "id": "scorecard-025",
+        "primary": [
+          "assert",
+          "explain"
+        ],
+        "second": [
+          "assert",
+          "explain"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": [],
+        "second_rationale": "Claims awareness alone is insufficient and identifies translation to unit and individual objectives as needed for behavior change."
+      },
+      {
+        "id": "scorecard-035",
+        "primary": [
+          "compare",
+          "report"
+        ],
+        "second": [
+          "compare",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": [],
+        "second_rationale": "Describes a separate budgeting process and contrasts its financial output with strategic-plan targets."
+      },
+      {
+        "id": "scorecard-045",
+        "primary": [
+          "instruct"
+        ],
+        "second": [
+          "instruct"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": [
+          "The checklist describes expected outputs more than the steps for producing each one"
+        ],
+        "second_rationale": "Specifies the targets, initiatives, resource allocations, and milestones managers should have completed by the end of planning."
+      },
+      {
+        "id": "scorecard-055",
+        "primary": [
+          "compare",
+          "explain"
+        ],
+        "second": [
+          "compare",
+          "explain",
+          "illustrate",
+          "interpret"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": [],
+        "second_rationale": "Contrasts traditional financial reviews with strategy review, explains how a driver-outcome mismatch tests a strategic theory, and illustrates it with outcomes."
+      },
+      {
+        "id": "designing-services-004",
+        "primary": [
+          "assert",
+          "explain"
+        ],
+        "second": [
+          "assert",
+          "explain"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": [],
+        "second_rationale": "Argues that a focus on human incompetence obscures the underlying lack of systematic design and control."
+      },
+      {
+        "id": "designing-services-011",
+        "primary": [
+          "define",
+          "orient"
+        ],
+        "second": [
+          "orient",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": [],
+        "second_rationale": "Introduces the scope of a service blueprint and prepares the reader for the issues that follow."
+      },
+      {
+        "id": "designing-services-018",
+        "primary": [
+          "illustrate",
+          "report"
+        ],
+        "second": [
+          "illustrate",
+          "interpret",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [],
+        "second_rationale": "Reports timing and research results for the shoeshine case and derives an acceptable execution time from the stated tolerance."
+      },
+      {
+        "id": "designing-services-024",
+        "primary": [
+          "define",
+          "explain",
+          "instruct"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "illustrate"
+        ],
+        "exact": false,
+        "jaccard": 0.2,
+        "second_uncertain": [],
+        "second_rationale": "Recommends careful design of tangible service evidence, explains that customers infer service quality from it, and names concrete examples."
+      },
+      {
+        "id": "designing-services-031",
+        "primary": [
+          "assert"
+        ],
+        "second": [
+          "explain",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.0,
+        "second_uncertain": [
+          "explain: the passage states the benefit more than its mechanism"
+        ],
+        "second_rationale": "Describes using a blueprint to design new offerings and identifies the timing advantage before formal introduction."
+      },
+      {
+        "id": "designing-services-038",
+        "primary": [
+          "assert",
+          "compare"
+        ],
+        "second": [
+          "assert",
+          "compare",
+          "interpret"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [],
+        "second_rationale": "Compares blueprint precision with verbal definitions, connects it to Deming's dictum, and asserts management responsibility for process design."
+      },
+      {
+        "id": "power-006",
+        "primary": [
+          "explain",
+          "interpret"
+        ],
+        "second": [
+          "explain",
+          "interpret"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": [],
+        "second_rationale": "Interprets the division head's skepticism as justified and explains how differing linguistic norms can produce misleading competence judgments."
+      },
+      {
+        "id": "power-018",
+        "primary": [
+          "assert",
+          "interpret"
+        ],
+        "second": [
+          "assert",
+          "interpret",
+          "qualify"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [],
+        "second_rationale": "Generalizes from the preceding meeting to workplace risks and qualifies the inference by managers' ability to listen closely."
+      },
+      {
+        "id": "power-030",
+        "primary": [
+          "explain",
+          "qualify",
+          "report"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "illustrate"
+        ],
+        "exact": false,
+        "jaccard": 0.2,
+        "second_uncertain": [],
+        "second_rationale": "Proposes a gender-linked difference in asking questions, illustrates it with directions, and explains the hypothesized role of status and independence."
+      },
+      {
+        "id": "power-043",
+        "primary": [
+          "qualify",
+          "report",
+          "support"
+        ],
+        "second": [
+          "interpret",
+          "qualify",
+          "report",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.75,
+        "second_uncertain": [
+          "support: the compliment finding is indirect evidence about this specific exchange"
+        ],
+        "second_rationale": "Concedes that the exchange could involve two men, interprets gender as relevant, and reports a cited finding about compliments as supporting context."
+      },
+      {
+        "id": "power-055",
+        "primary": [
+          "compare",
+          "report"
+        ],
+        "second": [
+          "assert",
+          "compare",
+          "orient"
+        ],
+        "exact": false,
+        "jaccard": 0.25,
+        "second_uncertain": [],
+        "second_rationale": "Introduces status-related adjustment and contrasts talk to bosses and subordinates while proposing that speakers differ in how they adjust."
+      },
+      {
+        "id": "power-068",
+        "primary": [
+          "explain",
+          "illustrate",
+          "narrate"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "illustrate",
+          "narrate",
+          "qualify"
+        ],
+        "exact": false,
+        "jaccard": 0.6,
+        "second_uncertain": [],
+        "second_rationale": "States a claim about rank and directness, notes an indirect-style exception, and recounts a misunderstanding showing divergent interpretations of a request."
+      },
+      {
+        "id": "customers-004",
+        "primary": [
+          "illustrate",
+          "report"
+        ],
+        "second": [
+          "assert",
+          "illustrate",
+          "report",
+          "support"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": [],
+        "second_rationale": "Gives industry instances of customer innovation and uses semiconductor market growth to support a claim of transformative potential."
+      },
+      {
+        "id": "customers-011",
+        "primary": [
+          "illustrate",
+          "narrate"
+        ],
+        "second": [
+          "explain",
+          "illustrate",
+          "narrate",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": [],
+        "second_rationale": "Reports BBA's tool development and describes a concrete iterative customer-design workflow, including a hypothetical salty-flavor adjustment."
+      },
+      {
+        "id": "customers-017",
+        "primary": [
+          "explain",
+          "orient"
+        ],
+        "second": [
+          "orient",
+          "qualify"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": [],
+        "second_rationale": "Sets up the problem of customers designing for sophisticated manufacturing despite their limited supplier expertise, leading into the next explanation."
+      },
+      {
+        "id": "customers-024",
+        "primary": [
+          "explain",
+          "qualify"
+        ],
+        "second": [
+          "compare",
+          "explain",
+          "qualify"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [],
+        "second_rationale": "Limits the scope of tool kits, compares their technical sophistication with conventional engineering, and explains how the design work may be divided."
+      },
+      {
+        "id": "customers-031",
+        "primary": [
+          "assert",
+          "interpret"
+        ],
+        "second": [
+          "assert",
+          "explain",
+          "interpret"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [],
+        "second_rationale": "Draws lessons from the GE case and recommends adapting and repositioning the business because value tends to migrate."
+      },
+      {
+        "id": "customers-037",
+        "primary": [
+          "assert",
+          "illustrate"
+        ],
+        "second": [
+          "assert",
+          "illustrate",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [],
+        "second_rationale": "Predicts a major impact on information products and illustrates customer contributions with Microsoft and Stata practices."
+      },
+      {
+        "id": "house-004",
+        "primary": [
+          "define",
+          "orient",
+          "report"
+        ],
+        "second": [
+          "define",
+          "orient",
+          "report"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": [],
+        "second_rationale": "Reports Garvin's quality challenge and defines strategic quality management in terms of customer learning and engineering feasibility."
+      },
+      {
+        "id": "house-012",
+        "primary": [
+          "illustrate",
+          "orient"
+        ],
+        "second": [
+          "illustrate",
+          "orient",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.6666666666666666,
+        "second_uncertain": [],
+        "second_rationale": "Prepares the reader for a stepwise examination of a car-door subchart, reports the scale of observed applications, and uses a map analogy to characterize reading it."
+      },
+      {
+        "id": "house-020",
+        "primary": [
+          "explain",
+          "orient"
+        ],
+        "second": [
+          "explain",
+          "instruct"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": [],
+        "second_rationale": "Explains the need for competitive assessment and locates customer evaluations opposite attributes in the house, providing an actionable placement."
+      },
+      {
+        "id": "house-028",
+        "primary": [
+          "define",
+          "explain"
+        ],
+        "second": [
+          "define",
+          "instruct"
+        ],
+        "exact": false,
+        "jaccard": 0.3333333333333333,
+        "second_uncertain": [
+          "instruct: phrased as a description of a team's process but embedded in a stepwise method"
+        ],
+        "second_rationale": "Specifies filling the relationship matrix, what its entries represent, and the bases for reaching team consensus."
+      },
+      {
+        "id": "house-036",
+        "primary": [
+          "illustrate",
+          "report"
+        ],
+        "second": [
+          "compare",
+          "explain",
+          "illustrate",
+          "report"
+        ],
+        "exact": false,
+        "jaccard": 0.5,
+        "second_uncertain": [],
+        "second_rationale": "Describes weighting characteristics, illustrates a relative weighting, and explains comparison with costs to set improvement priorities."
+      },
+      {
+        "id": "house-048",
+        "primary": [
+          "explain",
+          "illustrate"
+        ],
+        "second": [
+          "explain",
+          "illustrate"
+        ],
+        "exact": true,
+        "jaccard": 1.0,
+        "second_uncertain": [],
+        "second_rationale": "Explains how outputs of one house become inputs to the next and works through weather stripping, extrusion, and production requirements."
+      }
+    ],
+    "interpretation": "Agreement between two model coding passes on supplied paragraph boundaries, not human agreement or semantic validity. NEJM all paragraphs; other sources six deterministic targets per document."
+  }
+}

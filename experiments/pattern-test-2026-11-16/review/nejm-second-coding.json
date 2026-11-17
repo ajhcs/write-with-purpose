@@ -1,0 +1,587 @@
+{
+  "paragraphs": [
+    {
+      "id": "NEJMp1616577-p01",
+      "functions": [
+        "orient",
+        "assert",
+        "interpret"
+      ],
+      "rationale": "Frames policy transition and recommends a replacement plan before repeal.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1616577-p02",
+      "functions": [
+        "report",
+        "support"
+      ],
+      "rationale": "Reports claimed coverage and access gains to support retaining the law.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1616577-p03",
+      "functions": [
+        "report",
+        "support"
+      ],
+      "rationale": "Presents claimed payment, cost, and quality gains as reasons for the policy.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1616577-p04",
+      "functions": [
+        "qualify",
+        "assert",
+        "illustrate"
+      ],
+      "rationale": "Concedes remaining problems and illustrates a proposed improvement.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1616577-p05",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "rationale": "Describes the stated repeal plan and contrasts its process with ACA passage.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1616577-p06",
+      "functions": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "rationale": "Judges the approach and traces possible consequences for several groups.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1616577-p07",
+      "functions": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "rationale": "Claims reform is complex and illustrates its scale and interdependence.",
+      "uncertain": true
+    },
+    {
+      "id": "NEJMp1616577-p08",
+      "functions": [
+        "illustrate",
+        "explain",
+        "support"
+      ],
+      "rationale": "Uses coverage protections to explain a claimed policy tradeoff.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1616577-p09",
+      "functions": [
+        "assert",
+        "support",
+        "report",
+        "qualify"
+      ],
+      "rationale": "Connects possible failure to replace the law with an attributed projection; outcome is conditional.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1616577-p10",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "rationale": "Synthesizes the claimed stakes of repeal without an alternative.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1616577-p11",
+      "functions": [
+        "assert",
+        "illustrate"
+      ],
+      "rationale": "Recommends a bipartisan plan and invokes a previous payment overhaul as an example.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1616577-p12",
+      "functions": [
+        "illustrate",
+        "assert",
+        "interpret"
+      ],
+      "rationale": "Uses beneficiaries to humanize the stakes and ends with a normative appeal.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1702362-p01",
+      "functions": [
+        "narrate",
+        "illustrate",
+        "interpret",
+        "orient"
+      ],
+      "rationale": "Personal clinical experience illustrates the wider communication problem.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1702362-p02",
+      "functions": [
+        "orient",
+        "report"
+      ],
+      "rationale": "Describes political events and reports concerns about suppression; includes a tentative alternative explanation.",
+      "uncertain": true
+    },
+    {
+      "id": "NEJMp1702362-p03",
+      "functions": [
+        "assert",
+        "interpret",
+        "explain"
+      ],
+      "rationale": "Calls for resistance and distinguishes suppression from the preceding disbelief.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1702362-p04",
+      "functions": [
+        "assert",
+        "explain",
+        "support",
+        "illustrate"
+      ],
+      "rationale": "Argues against a knowledge-deficit assumption using a proposed mechanism and study examples.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1702362-p05",
+      "functions": [
+        "assert",
+        "report",
+        "support"
+      ],
+      "rationale": "Recommends avoiding politicization and reports an experiment relevant to the concern.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1702362-p06",
+      "functions": [
+        "interpret",
+        "illustrate",
+        "support"
+      ],
+      "rationale": "Applies the identity-risk argument to current events, with an example and attributed commentary.",
+      "uncertain": true
+    },
+    {
+      "id": "NEJMp1702362-p07",
+      "functions": [
+        "explain",
+        "interpret"
+      ],
+      "rationale": "Explains distrust through the proposed conflict between group identity and scientific acceptance.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1702362-p08",
+      "functions": [
+        "explain",
+        "assert",
+        "illustrate"
+      ],
+      "rationale": "Applies the identity mechanism to recommend measured responses and illustrates one.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1702362-p09",
+      "functions": [
+        "qualify",
+        "illustrate",
+        "report"
+      ],
+      "rationale": "Limits the generalizability of a response and explores alternative strategies.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1702362-p10",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "rationale": "Reflects on medical communication and urges empirical attention to communicating science.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1707514-p001",
+      "functions": [
+        "narrate",
+        "interpret"
+      ],
+      "rationale": "Recounts a diagnosis call and reflects on the father’s composure.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1707514-p002",
+      "functions": [
+        "narrate",
+        "interpret"
+      ],
+      "rationale": "Continues the family experience and reflects on a reassuring connection.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1707514-p003",
+      "functions": [
+        "narrate"
+      ],
+      "rationale": "Recounts arrival and the postoperative encounter.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1707514-p004",
+      "functions": [
+        "narrate"
+      ],
+      "rationale": "Recounts a nighttime blood draw and an exchange.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1707514-p005",
+      "functions": [
+        "narrate",
+        "interpret"
+      ],
+      "rationale": "Shows a clinical encounter and the father’s interpretation of the physician’s approach.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1707514-p006",
+      "functions": [
+        "narrate",
+        "interpret"
+      ],
+      "rationale": "Recounts the aide’s relationship with the patient and walking progression.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1707514-p007",
+      "functions": [
+        "narrate"
+      ],
+      "rationale": "Concludes the walking sequence and return home.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1707514-p008",
+      "functions": [
+        "report",
+        "interpret"
+      ],
+      "rationale": "Reports the later outcome and reflects on meaning and purpose in medicine.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p001",
+      "functions": [
+        "narrate",
+        "orient"
+      ],
+      "rationale": "Introduces the patient’s illness and the emerging treatment through her experience.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p002",
+      "functions": [
+        "narrate"
+      ],
+      "rationale": "Continues the treatment decision under constrained options.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p003",
+      "functions": [
+        "narrate",
+        "report",
+        "interpret"
+      ],
+      "rationale": "Connects the patient’s course to approval and reports the trial result; broader impact is inferred.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p004",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "rationale": "Reports development activity and bounds the early evidence and future possibilities.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p005",
+      "functions": [
+        "narrate",
+        "interpret"
+      ],
+      "rationale": "Places scientific milestones in a historical sequence and interprets their significance.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p006",
+      "functions": [
+        "narrate",
+        "explain"
+      ],
+      "rationale": "Recounts the investigator’s career and personal motivation for the change in research.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p007",
+      "functions": [
+        "narrate",
+        "qualify"
+      ],
+      "rationale": "Traces funding and early patients while noting limits of anecdotal outcomes.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p008",
+      "functions": [
+        "interpret",
+        "illustrate",
+        "qualify"
+      ],
+      "rationale": "Uses cases to argue that early trial events can shape a field, with counterfactual uncertainty.",
+      "uncertain": true
+    },
+    {
+      "id": "NEJMp1711886-p009",
+      "functions": [
+        "narrate",
+        "illustrate",
+        "qualify"
+      ],
+      "rationale": "Uses the patient’s deterioration as a case and notes uncertainty at the time.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p010",
+      "functions": [
+        "narrate",
+        "explain"
+      ],
+      "rationale": "Traces the urgent clinical sequence and the reasoning behind the target choice.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p011",
+      "functions": [
+        "narrate",
+        "explain"
+      ],
+      "rationale": "Recounts drug availability and response, explaining its timely administration.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p012",
+      "functions": [
+        "qualify",
+        "explain",
+        "illustrate"
+      ],
+      "rationale": "Limits optimism through remaining uncertainties and explains a specific target example.",
+      "uncertain": false
+    },
+    {
+      "id": "NEJMp1711886-p013",
+      "functions": [
+        "report",
+        "compare",
+        "qualify",
+        "interpret"
+      ],
+      "rationale": "Sets out cost arguments, uncertainty about durability, and a reflection on motivation.",
+      "uncertain": false
+    },
+    {
+      "id": "arb-p01",
+      "functions": [
+        "orient",
+        "report",
+        "interpret"
+      ],
+      "rationale": "Introduces the recalls and their context and identifies broader system issues.",
+      "uncertain": false
+    },
+    {
+      "id": "arb-p02",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "rationale": "Reports exposure and recall estimates while limiting scope to affected products.",
+      "uncertain": false
+    },
+    {
+      "id": "arb-p03",
+      "functions": [
+        "define",
+        "report",
+        "explain"
+      ],
+      "rationale": "Defines genotoxic impurities, reports limits and attributes a possible production cause.",
+      "uncertain": false
+    },
+    {
+      "id": "arb-p04",
+      "functions": [
+        "report",
+        "explain",
+        "qualify"
+      ],
+      "rationale": "Describes the supply chain and possible chemical source while noting ongoing investigation.",
+      "uncertain": false
+    },
+    {
+      "id": "arb-p05",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "rationale": "Reports price and supply effects linked to shortages.",
+      "uncertain": false
+    },
+    {
+      "id": "arb-p06",
+      "functions": [
+        "explain",
+        "interpret"
+      ],
+      "rationale": "Explains how fragmented communication may generate misplaced or missed concern and burden.",
+      "uncertain": false
+    },
+    {
+      "id": "arb-p07",
+      "functions": [
+        "explain",
+        "report"
+      ],
+      "rationale": "Explains switching challenges and follow-on clinical and confidence consequences.",
+      "uncertain": false
+    },
+    {
+      "id": "arb-p08",
+      "functions": [
+        "report",
+        "qualify",
+        "interpret"
+      ],
+      "rationale": "Reports testing, identifies uncertainty, and interprets the scope of the task.",
+      "uncertain": false
+    },
+    {
+      "id": "arb-p09",
+      "functions": [
+        "interpret",
+        "report",
+        "compare"
+      ],
+      "rationale": "Assesses tracking and inspection challenges and describes agency response.",
+      "uncertain": true
+    },
+    {
+      "id": "arb-p10",
+      "functions": [
+        "interpret",
+        "assert",
+        "explain"
+      ],
+      "rationale": "Frames recalls as a stress test, recommends assessment, and explains information limits.",
+      "uncertain": false
+    },
+    {
+      "id": "arb-p11",
+      "functions": [
+        "assert",
+        "qualify"
+      ],
+      "rationale": "Calls for evaluation and preparation while acknowledging hoped-for prevention.",
+      "uncertain": false
+    }
+  ],
+  "articles": [
+    {
+      "document_id": "NEJMp1616577",
+      "opening_type": "Policy transition and stated position",
+      "development_structure": "Claims of gains and remaining gaps, repeal proposal, predicted risks and an illustrative tradeoff",
+      "closing_type": "Human stakes and normative appeal",
+      "narrative_opening": false,
+      "external_evidence": true,
+      "explicit_responsibility_recommendation": true,
+      "qualified_closing": false,
+      "notes": "Policy recommendation names policymakers; examples at the close are illustrative rather than a developed event sequence.",
+      "dominant_form": "argument/perspective",
+      "primary_argument_eligible": true,
+      "form_rationale": "Advocates a specific policy position against repeal without a replacement, using claimed benefits and predicted risks as reasons."
+    },
+    {
+      "document_id": "NEJMp1702362",
+      "opening_type": "First-person clinical anecdote linked to a broader problem",
+      "development_structure": "Political context, proposed cognitive mechanism, research examples, applications and limits of response",
+      "closing_type": "Reflective call for empirical communication",
+      "narrative_opening": true,
+      "external_evidence": true,
+      "explicit_responsibility_recommendation": true,
+      "qualified_closing": false,
+      "notes": "Uncertainty about effective response is most explicit in the penultimate paragraph; the final appeal addresses the medical community.",
+      "dominant_form": "argument/perspective",
+      "primary_argument_eligible": true,
+      "form_rationale": "Advocates a measured, evidence-informed response to science denial and develops reasons and limitations for that position; its personal opening is a device within the argument."
+    },
+    {
+      "document_id": "NEJMp1707514",
+      "opening_type": "First-person family diagnosis narrative",
+      "development_structure": "Sequential hospital encounters and recovery, followed by reflection",
+      "closing_type": "Personal reflection on purpose in medicine",
+      "narrative_opening": true,
+      "external_evidence": false,
+      "explicit_responsibility_recommendation": false,
+      "qualified_closing": true,
+      "notes": "Qualified closing is tentative: an expressed question and personal belief rather than a formal limitation. Mention of articles in a scene is not used as external evidence for the essay’s conclusion.",
+      "dominant_form": "personal/reflective",
+      "primary_argument_eligible": false,
+      "form_rationale": "Recounts the author’s family experience and reflects on meaning in medicine; the central purpose is experiential reflection rather than persuading readers of a policy or professional proposition."
+    },
+    {
+      "document_id": "NEJMp1711886",
+      "opening_type": "Patient-centered illness narrative",
+      "development_structure": "Patient and approval, scientific history and research funding, return to patient, then unresolved challenges and costs",
+      "closing_type": "Balanced cost discussion and hopeful but uncertain reflection",
+      "narrative_opening": true,
+      "external_evidence": true,
+      "explicit_responsibility_recommendation": false,
+      "qualified_closing": true,
+      "notes": "Closing discusses stakeholders and observation but does not assign a concrete responsibility recommendation.",
+      "dominant_form": "narrative history hybrid",
+      "primary_argument_eligible": false,
+      "form_rationale": "Reconstructs a patient’s treatment and the development of CAR-T, then discusses uncertainty and costs; the dominant structure is explanatory reported history rather than a sustained policy argument."
+    },
+    {
+      "document_id": "NEJMp1901657",
+      "opening_type": "Drug recall context and problem overview",
+      "development_structure": "Recall scale and production mechanism, patient and system consequences, regulatory response and recommendations",
+      "closing_type": "Institutional preparedness recommendation with conditional hope",
+      "narrative_opening": false,
+      "external_evidence": true,
+      "explicit_responsibility_recommendation": true,
+      "qualified_closing": true,
+      "notes": "Closing qualifies hope for prevention by acknowledging future recalls may occur.",
+      "dominant_form": "conceptual explainer",
+      "primary_argument_eligible": "unresolved",
+      "form_rationale": "Explains the recalls, mechanisms, and system consequences before recommending preparedness. It has an identifiable institutional position but much of its purpose is explanatory, so eligibility depends on whether the template includes explanatory policy analysis."
+    }
+  ]
+}

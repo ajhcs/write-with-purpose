@@ -1,0 +1,7 @@
+{
+  "json_files_parsed": 24,
+  "broken_local_links": [],
+  "upstream_corpus_binaries_in_experiment": false,
+  "script_syntax": "pass",
+  "scope": "Local path/format checks, independent of semantic validity"
+}

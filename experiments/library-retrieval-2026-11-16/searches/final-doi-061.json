@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-personal_reflective_essay-1",
+      "doi": "10.1001/jama.300.12.1393",
+      "title": "A piece of my mind. Who's afraid of the empowered patient?",
+      "authors": "[\"Chiaramonte D\"]",
+      "field": "medicine_health",
+      "q": "\"Who's afraid of the empowered patient?\" Chiaramonte filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-personal_reflective_essay-1",
+      "query": "\"Who's afraid of the empowered patient?\" Chiaramonte filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "A piece of my mind. Who's afraid of the empowered patient?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18812523/",
+          "score": 1
+        },
+        {
+          "title": "Everything You Did Not Want To Know About the Patient But Were Afraid Not To Ask",
+          "url": "https://eurekamag.com/research/110/366/110366132.php",
+          "score": 0.6
+        }
+      ]
+    }
+  ]
+}

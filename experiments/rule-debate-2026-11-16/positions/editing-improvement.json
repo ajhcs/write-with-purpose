@@ -1,0 +1,168 @@
+{
+  "advocate": "editing-improvement",
+  "lens": "Round 1: affirmative substantive improvement of supplied writing, within the user's actual authorization",
+  "baseline_critique": [
+    "The edit skill already allows coordinated paragraph edits, substantial rewrites on explicit request, and additions that clarify meaning; it does not literally forbid restructuring. But its smallest-set-of-changes instruction, requirement to identify an original defect, and stop language can be interpreted as a preference for preserving weak organization when a user asks to improve the piece without specifying the exact failure.",
+    "The writing skill already calls for recovering the contribution and reader task; its concrete examples emphasize deletion, combination and repairing unclear links. This is necessary but can overlook an opportunity to develop an implicit distinction, advance a supported inference, or recast an argument that is technically readable yet weak for its purpose.",
+    "Literal diff size and counts expose scope, not reader improvement or voice quality. A larger coherent edit can preserve the author better than scattered substitutions; an unfounded reconstruction can be more damaging even when it retains many words. Stronger supported wording is not synonymous with invented certainty."
+  ],
+  "proposals": [
+    {
+      "id": "EI-01",
+      "title": "Choose the authorized depth before minimizing changes",
+      "behavior": "Infer the editorial objective from the request and available draft; select copy correction, thought development, argument restructuring or expression improvement. If a request asks for improvement in general, actively identify the most consequential reader-facing opportunity and try a substantive candidate when justified; choose the candidate that better fulfills the objective while satisfying explicit preservation constraints. Minimize collateral changes only after choosing the appropriate intervention, not the global diff.",
+      "trigger": "User requests improvement, strengthening, development, a rewrite or a reader-focused revision; do not expand a correction-only request.",
+      "editing_improvement_effect": "Makes underdevelopment and poor overall order actionable even if every sentence is grammatical, and allows meaningful revisions without asking permission for choices implied by the task.",
+      "novelty_relative_to_baseline": "Changes edit-with-purpose/SKILL.md from 'smallest set of changes that resolves the requested problem' and defect-first reading to choosing authorized depth and reader gain first. Existing substantial-rewrite permission remains; open-ended improvement now triggers an affirmative opportunity search. This is an operational recombination relative to inspected baselines, not a demonstrated unique product.",
+      "model_code_author_roles": {
+        "model": "Infer scope, identify a reader task and test at least one materially different candidate when the benefit plausibly warrants it; explain only consequential changes.",
+        "code": "Preserve input and candidate; calculate diff and verify explicit limits as observations, never treat diff magnitude as a quality score.",
+        "author": "Provides task and constraints and can override the inferred depth; has final authority over substantive preference without mandatory preapproval."
+      },
+      "example": {
+        "input_and_authorization": "Improve this decision note: 'The pilot was delayed. The vendor had no test environment. We should defer the launch until integration is tested.'",
+        "after": "'Defer the launch until integration is tested. The pilot was delayed, and the vendor had no test environment.'",
+        "expected_reader_gain": "The decision and its testing condition are immediately recoverable, followed by relevant context.",
+        "protected_content": "Vendor condition, delay, testing condition and recommendation; the revision does not infer a cause for the delay."
+      },
+      "counterexample": "For 'correct punctuation only,' keep the original sequence even if another order would be more persuasive. A good reflective essay need not lead with its conclusion.",
+      "evidence": [
+        "skills/edit-with-purpose/SKILL.md, paragraphs 1, 3, 5 and final stop instruction",
+        "skills/write-with-purpose/references/structure-and-purpose.md, reader question and reader edit",
+        "P16 Yeung 2007 PDF p14: finding/interpretation/recommendation can recur or vary in order; descriptive evidence, not an intervention test"
+      ],
+      "evaluation_needed": "Randomize or counterbalance fresh author-authorized improvement tasks against the current skill; blind readers to arm, test task recovery, author-rated voice and useful improvement, source fidelity and repair burden. Keep correction-only cases and assess over-editing separately."
+    },
+    {
+      "id": "EI-02",
+      "title": "Develop the thought with a bounded inference bridge",
+      "behavior": "When the draft contains an observation and an intended conclusion but leaves their connection implicit, construct a concise candidate bridge using only supplied premises. Distinguish author-stated conclusion from the editor's inference; use source-supported scope and conditions. If multiple materially different bridges fit, select none as fact: give the best conditional candidate or a targeted question while improving independent material.",
+      "trigger": "Thought development or argument improvement is authorized and the reader must infer why a supplied observation matters.",
+      "editing_improvement_effect": "Adds reasoning rather than merely rephrasing: the reader can see what the observation supports and why the next claim follows.",
+      "novelty_relative_to_baseline": "The existing skills already say to expose the link between evidence and conclusion. The new operation explicitly produces and tests a bounded bridge against alternate readings, including an unresolved path, rather than requiring all improvements to be a local deletion or substitution.",
+      "model_code_author_roles": {
+        "model": "Identify observation, intended conclusion and necessary inference; draft a scoped bridge and challenge its alternative causal or interpretive readings.",
+        "code": "Keep pointers from candidate claims to author/source passages and mark missing pointers unresolved; no entailment verdict.",
+        "author": "Can supply or correct an ambiguous premise; chooses whether a flagged inferred interpretation represents their thought."
+      },
+      "example": {
+        "input_and_authorization": "Develop this argument. Supplied facts: 'Residents got three status updates. The repair request had been sent to a contractor, but the window was still leaking.' Author's intended point: status messages are not the same as a repair.",
+        "after": "'The request had been sent to a contractor and residents received three status updates, but the window was still leaking. An update can show activity without showing that the repair is complete.'",
+        "expected_reader_gain": "The specific example supports the author's general distinction, with 'can' preserving possibility.",
+        "protected_content": "Three updates, contractor referral, unresolved leak and the author’s contrast; the sentence preserves possibility."
+      },
+      "counterexample": "Do not infer that the contractor caused the delay or that the system marked the repair complete; neither is supplied. In a deliberately unresolved scene, explaining the point may destroy the intended effect.",
+      "evidence": [
+        "P16 Yeung 2007 PDF p14: business report observations, interpretation and recommendation can be connected explicitly or implicitly",
+        "skills/write-with-purpose/references/concepts-and-claims.md: distinguish evidence, inference and claim certainty",
+        "edit-with-purpose/references/plain-language-edit.md: author's preferred repair example is a local illustration, not a universally accepted voice model"
+      ],
+      "evaluation_needed": "On fresh drafts, ask independent readers to identify inference and ask authors whether the bridge preserves their thought; audit unsupported causal additions, false gap flags, time and revisions."
+    },
+    {
+      "id": "EI-03",
+      "title": "Recompose around a reader decision, retaining live tradeoffs",
+      "behavior": "For an authorized argument or structural improvement, build a compact internal map of claim, reasons, counterconsiderations and decision condition without forcing paragraph labels. Try a second ordering or grouping when it changes what a reader can recover. Select and deliver the stronger route with source-grounded alternatives and conditions intact; describe structural movement if material.",
+      "trigger": "The intended purpose is decision, persuasion or explanation and present order obscures the answer, tradeoff or dependency, or a substantial restructuring is requested.",
+      "editing_improvement_effect": "Can change the argument's architecture and emphasis, not just clean individual sentences; groups and juxtaposes relevant facts so a reader can assess a recommendation.",
+      "novelty_relative_to_baseline": "Existing structure-and-purpose.md sketches contributions and asks for missing premises. This adds a comparative candidate recomposition and a selection test tied to the reader's actual decision while explicitly preserving counterconsiderations rather than treating all non-primary content as bloat.",
+      "model_code_author_roles": {
+        "model": "Map only the relationships needed for this task, create alternate order, test decision and condition recovery and choose a version; semantic mapping remains provisional.",
+        "code": "Keep original/candidate snapshots and locate moved passages or declared required terms; detect missing exact links and limits without claiming semantic equivalence.",
+        "author": "Controls priority and risk tolerance, can select a different route; no interruption required for an ordinary reversible edit."
+      },
+      "example": {
+        "input_and_authorization": "Strengthen a note with supplied facts: 'Option A can start now but uses our remaining budget. Option B starts next month and costs less. We should choose B unless the launch must happen this month.'",
+        "after": "'Choose Option B unless the launch must happen this month. B starts next month and costs less; A can start now but would use the remaining budget.'",
+        "expected_reader_gain": "The decision, exception, cost and schedule tradeoff appear together.",
+        "protected_content": "Both options, comparative cost, start timing, budget condition and exception; no numerical savings or invented urgency."
+      },
+      "counterexample": "A funder-mandated order, an author-specified narrative reveal, or a correction-only brief takes precedence. A conclusion-first structure is an option, not a universal rule.",
+      "evidence": [
+        "P16 Yeung 2007 PDF pp8–10,14: business reports use variable, sometimes topic-based and recurrent recommendation structures",
+        "P17 Cotos et al. 2017 PDF pp6,8–9: methods functions can overlap and listed moves do not mandate sequence",
+        "experiments/pattern-test-2026-11-16/report.md: four sampled HBR arguments had varied development; not a population norm"
+      ],
+      "evaluation_needed": "With fresh memos and arguments, compare reader ability to recover the decision and tradeoffs, author acceptance and omissions against baseline; do not infer usefulness from paragraph-function classifier agreement."
+    },
+    {
+      "id": "EI-04",
+      "title": "Improve expression by preserving its job rather than its words",
+      "behavior": "For authorized expression improvement, identify the passage's communicative and stylistic effect, then try a revision that makes that effect more vivid, precise or connected using only supplied material. Preserve the author's distinctive images, rhythm, stance and technical distinctions when they work; replace a familiar or ineffective phrase when a better expression serves the author. A change in wording or syntax is not a failure merely because the diff is large.",
+      "trigger": "The user requests stronger prose, a more vivid or natural voice, or an expression-level improvement beyond corrections.",
+      "editing_improvement_effect": "Creates improvements in cadence, framing and meaningful specificity; allows creative expression without treating surface novelty as the goal.",
+      "novelty_relative_to_baseline": "Current skill protects effective wording and supports style-matched replacement. This makes the passage's desired effect an explicit optimization target and tests an expressive alternative even when no grammatical error exists; it retains the author's choice rather than treating literal wording as untouchable.",
+      "model_code_author_roles": {
+        "model": "Identify effect and a reasoned alternative, compare voice and meaning in context, and avoid invented imagery or experience unless authorized as illustration.",
+        "code": "Show optional side-by-side and diffs; preserve exact quoted or protected text and enforce declared constraints, not a voice score.",
+        "author": "Judges whether the expression sounds like them and may keep or reject it; no automatic acceptance of a global preference."
+      },
+      "example": {
+        "input_and_authorization": "Improve expression: 'The status page said complete. The window still leaked whenever it rained.'",
+        "after": "'The status page said the job was complete, but rain still came through the window.'",
+        "expected_reader_gain": "The conflict appears in one connected thought; a concrete consequence carries the author's point.",
+        "protected_content": "Status was complete, window leaked in rain, and implied contrast; no invented tenant feelings or a claim that a worker was negligent."
+      },
+      "counterexample": "If the author wants two clipped sentences for deliberate rhythm, retain them. A synonymous adjective swap that yields no different reader effect is not improvement.",
+      "evidence": [
+        "edit-with-purpose/references/plain-language-edit.md: user-preferred connected repair example and qualification",
+        "P10 Qiu et al. 2024 PDF pp4–8: promotional-word associations do not show that adjectives or stronger claims improve outcomes",
+        "P11 van den Besselaar and Mom 2022 PDF pp3,7–10: complexity associations depend on models and section; no universal sentence-length instruction"
+      ],
+      "evaluation_needed": "Blind author comparison on fresh samples: voice recognition, desired expressive effect, specificity, source fidelity and harms; ask readers what they actually understood rather than counting synonyms."
+    },
+    {
+      "id": "EI-05",
+      "title": "Stop after a useful comparison, not only after finding no defect",
+      "behavior": "For an improvement request, make a final reader-task comparison of the original and strongest authorized candidate: identify what the new version lets a reader recover, feel or do, and any content or voice it loses. Deliver the better version, including the original if no candidate earns its tradeoff. Do not make alternate versions or process notes mandatory in the final response; preserve them locally only when a saved artifact workflow warrants it.",
+      "trigger": "Requested substantive improvement or an identified opportunity for reader or author benefit; omit extra candidate generation for proofreading-only or trivial passages.",
+      "editing_improvement_effect": "Creates a positive stopping condition based on whether the intended gain was pursued and tested, reducing premature satisfaction with grammatical adequacy without forcing churn.",
+      "novelty_relative_to_baseline": "Changes the current stop-when-no-particular-defect rule to a scope-sensitive comparison obligation for actual improvement. It extends existing reader-edit comparison from deletion or combination to feasible structural, inferential and expressive alternatives; it does not mandate multiple rounds or a quantified improvement score.",
+      "model_code_author_roles": {
+        "model": "Perform a bounded comparison in the context of reader purpose; stop when the best authorized candidate has no defensible further gain; disclose unresolved tradeoffs only if material.",
+        "code": "Check only explicit constraints and optionally keep reversible versions; cannot score voice, inference quality or reader reaction.",
+        "author": "Determines acceptance and may prefer original or a different tradeoff; acceptance and reader results are separate observations."
+      },
+      "example": {
+        "input_and_authorization": "Improve a memo: 'We should wait. The trial missed its deadline, and the supplier has not supplied the safety report.'",
+        "after": "'Wait for the supplier's safety report before proceeding. The trial also missed its deadline.' Only if the author confirms or supplied elsewhere that the report is a condition of proceeding; otherwise use: 'We should wait: the trial missed its deadline, and the supplier has not supplied the safety report.'",
+        "expected_reader_gain": "The supported version makes both reasons visible; the conditional alternative illustrates an attractive but unsupported dependency that the comparison must reject.",
+        "protected_content": "Recommendation, trial deadline and outstanding report; no implied causal dependency without evidence."
+      },
+      "counterexample": "If the original is already precise, effective and appropriate, retain it; do not manufacture a change merely to demonstrate effort. An emotional ending may be better left indirect.",
+      "evidence": [
+        "skills/write-with-purpose/SKILL.md: reader edit and final stop instruction",
+        "experiments/rule-calibration-2026-11-16/report.md: exact-set agreement 21/36 vs 18/36, no demonstrated semantic accuracy; do not substitute labeling for improvement",
+        "P17 Cotos et al. 2017 PDF pp6,15–16: genre descriptions and teaching suggestions are not tests of this comparison workflow"
+      ],
+      "evaluation_needed": "Evaluate added editorial time, observed reader task performance, author-rated substantive gain and fidelity against baseline. Pre-register what a good outcome means for each form; retain cases where the original wins."
+    }
+  ],
+  "retire_or_change": [
+    {
+      "location": "skills/edit-with-purpose/SKILL.md: 'Work from the original with the smallest set of changes that resolves the requested problem'",
+      "candidate_replacement": "'Choose the depth authorized by the request. For correction-only work make the necessary local corrections; for requested improvement actively test a change in development, organization or expression when it could materially serve the reader. Preserve effective language and explicit constraints, and avoid unrelated changes.'"
+    },
+    {
+      "location": "skills/edit-with-purpose/SKILL.md: 'Identify a particular problem in the original' and final 'Further work needs a particular unresolved issue'",
+      "candidate_replacement": "'Identify the reader task and either a defect to repair or a supported opportunity to improve the thought or its expression. For an improvement request compare a consequential candidate with the original; stop when no further authorized change offers a defensible benefit.'"
+    },
+    {
+      "location": "skills/write-with-purpose/SKILL.md: reader edit emphasizes deletion, combination and repair",
+      "candidate_replacement": "'Also consider developing a supported inference, recomposing the argument, or improving its expression when the task invites it; select on reader and author benefit, not word count or minimal diff.'"
+    }
+  ],
+  "nonnegotiable_distinctions": [
+    "Copy editing changes correctness within a narrow brief; developing thought can expose a supported inference; restructuring changes progression or grouping; expression improvement changes language and cadence. These modes can overlap but one does not automatically authorize all others.",
+    "Author-provided facts, grounded implications, editor hypotheses and fictional illustrations remain distinct. Preserve claim modality and material limitations; stronger formulation may be used only when its support warrants it.",
+    "P10 and P11 report associations for funding outcomes in particular populations, not the causal effectiveness of adjectives, complexity or a rewrite. P16 and P17 describe genre structures, not the effect of our interventions.",
+    "Paragraph functions, sections and relations remain separate; exact-set coder agreement is not proof of editing quality. Original and revised labels and frozen packets remain unchanged.",
+    "Do not equate novelty with synonyms or author voice with verbatim wording; no author outcome or competitive advantage is established until tested."
+  ],
+  "questions_for_peers": [
+    "How should we distinguish an authorized improvement opportunity from an editor imposing their own preferred argument, without demanding approval at each edit?",
+    "Can a reader-task comparison identify a beneficial structural change without turning genre observations into mandatory templates?",
+    "When a bridge has several plausible interpretations, what is the lowest-burden way to retain author agency and still make independent progress?",
+    "Which proposed mechanisms are materially beyond current guidance rather than a more elaborate restatement?"
+  ]
+}

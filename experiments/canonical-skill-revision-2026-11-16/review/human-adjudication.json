@@ -1,0 +1,82 @@
+{
+  "status": "awaiting_author_feedback",
+  "purpose": "Author preference and substantive-improvement review; no human judgments are prefilled.",
+  "exposure": "Unblinded: identities and previous model preferences already shown.",
+  "selection": "Three original non-tie model comparisons, not a representative quality benchmark.",
+  "allowed_choices": [
+    "baseline",
+    "revised",
+    "tie",
+    "neither"
+  ],
+  "comment_policy": "Preserve exact human wording; distinguish explicit choice from inferred preference and local context from general author guidance.",
+  "cases": [
+    {
+      "case_id": "E04",
+      "sources": {
+        "baseline": {
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E04/output.txt",
+          "sha256": "2f21e46ea65dc651d62934867ab826165ee7c1e3d52a80e3e6cdf2aa07cdba6c",
+          "separate_note_files": []
+        },
+        "revised": {
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E04/output.txt",
+          "sha256": "4ccbc99027bcf9de7725530ed67fc6171e559e92694a73462e0baeecc855e375",
+          "separate_note_files": []
+        }
+      },
+      "status": "awaiting_author",
+      "human_choice": null,
+      "comment_verbatim": null,
+      "substantive_gain": null,
+      "author_revision": null
+    },
+    {
+      "case_id": "E06",
+      "sources": {
+        "baseline": {
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E06/output.txt",
+          "sha256": "6cc5c05363c1adf5d42fd2ef61fcef00babb70f7d1e822e0c3358820216995c9",
+          "separate_note_files": [
+            {
+              "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E06/issue-note.txt",
+              "sha256": "051e6fb8a2380d4030f7b6ceb2222b80fd1bccfa2ce3b78e40391cadd4207b6f"
+            }
+          ]
+        },
+        "revised": {
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-B/E06/output.txt",
+          "sha256": "827f503d15c5ad233fb987b5ce6c5fff0bc9025e8c4d3d04d32f7804a80b9f5b",
+          "separate_note_files": []
+        }
+      },
+      "status": "awaiting_author",
+      "human_choice": null,
+      "comment_verbatim": null,
+      "substantive_gain": null,
+      "author_revision": null
+    },
+    {
+      "case_id": "E07",
+      "sources": {
+        "baseline": {
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E07/output.txt",
+          "sha256": "bbb73429d3b7e015b3af53e1c87b21cc08b89f609f52c5ed432acd31f058a7ef",
+          "separate_note_files": []
+        },
+        "revised": {
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E07/output.txt",
+          "sha256": "72f2be09cbd1d7c3b0b3807e191c81f667aaba22569bfd1417cab971c64f3364",
+          "separate_note_files": []
+        }
+      },
+      "status": "awaiting_author",
+      "human_choice": null,
+      "comment_verbatim": null,
+      "substantive_gain": null,
+      "author_revision": null
+    }
+  ],
+  "author_stated_goal_verbatim": "At the end of the day, the outputs are supposed to be substantively different",
+  "evaluation_distinction": "Record acceptability and substantive gain separately; no case-level author verdict has been supplied."
+}

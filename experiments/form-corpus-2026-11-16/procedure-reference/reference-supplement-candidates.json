@@ -1,0 +1,2302 @@
+[
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-02-19T15:34:48+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/cluster_link_config/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-03-24T17:44:45-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/cluster_member_config/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/abac/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-02-18T10:07:25+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/clusters/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-09-28T10:43:13+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/deprecation_notices/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-23T10:07:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/authentication/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-20T15:10:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/authorization/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-10-31T21:23:27+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_disk/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/bootstrap-tokens/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-13T15:32:16+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_gpu/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-28T04:54:48+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_infiniband/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-10-31T21:23:27+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_nic/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/kubelet-authn-authz/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-02-19T12:49:00-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_none/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/kubelet-tls-bootstrapping/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2023-10-06T19:24:16+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_pci/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/manifest-admission-control/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-24T15:34:37-07:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_proxy/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/mutating-admission-policy/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-09-28T22:40:22+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_tpm/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/node/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-03-16T18:05:29-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_unix_block/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/psp-to-pod-security-standards/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-07-23T12:19:14-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_unix_char/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/rbac/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T14:08:36-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_unix_hotplug/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-05T16:45:23-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/devices_usb/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/user-impersonation/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-02-25T16:00:58+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/dqlite-internals/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/validating-admission-policy/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-09-28T22:40:22+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/driver_csi/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/access-authn-authz/webhook/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-09-28T11:03:50+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/image_format/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2022-12-13T10:12:08+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/image_registries/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/apiserver-admission.v1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/instance_options/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/apiserver-audit.v1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/instance_properties/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/apiserver-config.v1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/instance_units/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/apiserver-config.v1alpha1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/network_bridge/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/apiserver-config.v1beta1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/network_macvlan/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/apiserver-eventratelimit.v1alpha1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2023-10-03T14:09:48+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/network_ovn/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/apiserver-webhookadmission.v1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-04-24T01:30:32+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/network_physical/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/client-authentication.v1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/network_sriov/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/client-authentication.v1beta1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/networks/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/imagepolicy.v1alpha1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/ovn-internals/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kube-controller-manager-config.v1alpha1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/permissions/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kube-proxy-config.v1alpha1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/placement_groups/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kube-scheduler-config.v1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/preseed_yaml_fields/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kubeadm-config.v1beta3/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/projects/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kubeadm-config.v1beta4/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/provided_metrics/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kubeconfig.v1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-04T09:32:35Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kubelet-config.v1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T17:02:59+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/4.0/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-10T09:03:14Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kubelet-config.v1alpha1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/4.0/release-notes-4.0.11/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kubelet-config.v1beta1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/4.0/release-notes-4.0.12/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kubelet-credentialprovider.v1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-12-21T20:51:15+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/4.0/release-notes-4.0.13/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kuberc.v1alpha1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T17:02:59+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/4.0/release-notes-4.0.14/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/config-api/kuberc.v1beta1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-04-24T01:30:32+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/4.0/release-notes-4.0.15/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-10T09:03:14Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/debug-cluster/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2023-09-14T18:34:24+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.0/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-10T09:03:14Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/debug-cluster/flow-control/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2023-09-14T18:34:24+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.0/release-notes-5.0.10/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/deprecation-policy/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-21T00:46:52+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.0/release-notes-5.0.11/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-10T09:03:14Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/encodings/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-11-20T19:58:29+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.0/release-notes-5.0.7/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/encodings/kyaml/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-24T11:59:54+02:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.0/release-notes-5.0.8/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/external-api/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2023-05-18T21:35:36+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.0/release-notes-5.0.9/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/external-api/custom-metrics.v1beta2/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.21/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-10T09:03:14Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/external-api/external-metrics.v1beta1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.21/release-notes-5.21.5/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/external-api/metrics.v1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.21/release-notes-5.21.6/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/external-api/metrics.v1beta1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.21/release-notes-5.21.7/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/glossary/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-04-20T19:09:20+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.21/release-notes-5.21.8/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/instrumentation/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2022-11-04T11:37:59-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/5.21/release-notes-5.21.9/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/instrumentation/cri-pod-container-metrics/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/6/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-04T09:32:35Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/instrumentation/metrics/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-28T17:39:27+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/6/release-notes-6.10.0/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-04T09:32:35Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/instrumentation/native-histograms/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-06-30T14:41:27-07:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/6/release-notes-6.10.1/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-04T09:32:35Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/instrumentation/node-metrics/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/6/release-notes-6.6/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/instrumentation/slis/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-01-07T20:06:05+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/6/release-notes-6.7/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/instrumentation/understand-psi-metrics/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/6/release-notes-6.8/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/instrumentation/zpages/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-04T09:50:37+02:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/release-notes/6/release-notes-6.9/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/issues-security/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2022-11-04T11:37:59-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/releases-snap/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-04T09:32:35Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/issues-security/issues/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2022-07-19T15:47:27-07:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/remote_image_servers/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/issues-security/official-cve-feed/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2023-04-11T19:18:10-07:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/replicator_config/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/issues-security/security/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2023-10-19T16:50:33+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/server_settings/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-06-30T23:49:47+02:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/standard_devices/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/conventions/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-05-15T09:56:51+03:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_alletra/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/docker-cli-to-kubectl/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T14:08:36-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_btrfs/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-03-22T15:35:01+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_ceph/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_cephfs/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_annotate/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_cephobject/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_api-resources/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_dir/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_api-versions/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_drivers/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-04T09:32:35Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_lvm/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply/kubectl_apply_edit-last-applied/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_powerflex/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply/kubectl_apply_set-last-applied/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_powerstore/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_apply/kubectl_apply_view-last-applied/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_pure/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_attach/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_zfs/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_auth/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/storage_zfs_internals/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_auth/kubectl_auth_can-i/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/uefi_variables/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_auth/kubectl_auth_reconcile/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/reference/vm_live_migration_internals/",
+    "original_type": "Canonical LXD reference",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_auth/kubectl_auth_whoami/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_autoscale/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_certificate/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_certificate/kubectl_certificate_approve/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_certificate/kubectl_certificate_deny/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_cluster-info/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_cluster-info/kubectl_cluster-info_dump/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_completion/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_current-context/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_delete-cluster/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_delete-context/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_delete-user/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_get-clusters/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_get-contexts/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_get-users/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_rename-context/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_set-cluster/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-03-22T15:35:01+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_set-context/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_set-credentials/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_set/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_unset/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_use-context/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_config/kubectl_config_view/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_cordon/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_cp/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_clusterrole/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_clusterrolebinding/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_configmap/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_cronjob/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_deployment/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_ingress/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_job/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_namespace/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_poddisruptionbudget/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_priorityclass/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_quota/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_role/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_rolebinding/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_secret/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_secret_docker-registry/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_secret_generic/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_secret_tls/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_service/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_service_clusterip/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_service_externalname/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_service_loadbalancer/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_service_nodeport/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_serviceaccount/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_token/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_debug/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_delete/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_describe/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_diff/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_drain/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_edit/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_events/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_exec/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_explain/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_expose/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_get/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_kuberc/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_kuberc/kubectl_kuberc_set/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_kuberc/kubectl_kuberc_view/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_kustomize/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_label/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_options/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_patch/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_plugin/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_plugin/kubectl_plugin_list/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_port-forward/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_proxy/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_replace/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_rollout/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_rollout/kubectl_rollout_history/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_rollout/kubectl_rollout_pause/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_rollout/kubectl_rollout_restart/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_rollout/kubectl_rollout_resume/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_rollout/kubectl_rollout_status/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_rollout/kubectl_rollout_undo/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_run/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_scale/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_set/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_set/kubectl_set_env/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_set/kubectl_set_image/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_set/kubectl_set_resources/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_set/kubectl_set_selector/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_set/kubectl_set_serviceaccount/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_set/kubectl_set_subject/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_taint/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_top/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_top/kubectl_top_node/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_top/kubectl_top_pod/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_uncordon/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_version/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_wait/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:17:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/introduction/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-04-13T20:16:41+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/jsonpath/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-04-06T07:02:13-06:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/kubectl-cmds/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2023-08-21T18:36:51+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/kubectl/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-24T11:59:54+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/kuberc/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-04-07T10:35:33-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubectl/quick-reference/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-06-30T23:49:47+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubelet-api/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/kubelet-api/stats.v1alpha1/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:57:16+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/labels-annotations-taints/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-27T20:54:50+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/labels-annotations-taints/audit-annotations/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-03-07T16:20:31+09:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/networking/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2022-11-24T18:11:56+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/networking/ports-and-protocols/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-09-18T22:34:59+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/networking/service-protocols/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2022-12-05T10:36:21-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/networking/virtual-ips/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-06T14:23:23+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-06-24T17:50:27+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/device-plugin-api-versions/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2023-07-26T19:19:22+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/dra-standard-device-attributes/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-22T09:33:04-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/kernel-version-requirements/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-06-27T11:05:51-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/kubelet-checkpoint-api/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-07-24T19:10:19+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/kubelet-config-directory-merging/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-19T21:38:03+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/kubelet-files/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-27T20:54:50+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/kubelet-pods-api/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-06-24T17:50:27+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/kubelet-sync-loop/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-04-23T20:00:24+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/node-labels/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-04-04T18:35:42+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/node-lifecycle-conditions/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-06-26T14:48:02-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/node-status/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-10-22T17:47:09+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/pod-level-resource-managers/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-29T00:04:09+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/seccomp/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-03T16:44:36+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/swap-behavior/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-08-12T23:10:35+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/systemd-watchdog/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-02-12T12:12:24+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/topics-on-dockershim-and-cri-compatible-runtimes/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-03-08T11:46:54-07:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/node/what-happens-on-restart/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-06-25T18:45:31+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/scheduling/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2022-11-04T11:37:59-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/scheduling/config/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-06-24T14:31:42+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/scheduling/policies/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2022-11-04T11:37:59-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2022-11-04T11:37:59-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2023-07-12T01:25:31+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2018-05-05T18:00:51+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_certificate-key/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_check-expiration/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-12-21T17:16:40+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_generate-csr/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_admin.conf/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_apiserver-etcd-client/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_apiserver-kubelet-client/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_apiserver/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_controller-manager.conf/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_etcd-healthcheck-client/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_etcd-peer/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_etcd-server/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_front-proxy-client/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_scheduler.conf/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_certs/kubeadm_certs_renew_super-admin.conf/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_completion/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_config/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-11-11T11:03:37+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_config/kubeadm_config_images/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_config/kubeadm_config_images_list/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_config/kubeadm_config_images_pull/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_config/kubeadm_config_migrate/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_config/kubeadm_config_print/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_config/kubeadm_config_print_init-defaults/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_config/kubeadm_config_print_join-defaults/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_config/kubeadm_config_print_reset-defaults/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_config/kubeadm_config_print_upgrade-defaults/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_config/kubeadm_config_validate/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-04-23T18:20:14+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_addon/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_addon_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_addon_coredns/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_addon_kube-proxy/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_bootstrap-token/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_apiserver-etcd-client/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_apiserver-kubelet-client/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_apiserver/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_ca/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_etcd-ca/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_etcd-healthcheck-client/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_etcd-peer/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_etcd-server/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_front-proxy-ca/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_front-proxy-client/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_certs_sa/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_control-plane/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_control-plane_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_control-plane_apiserver/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_control-plane_controller-manager/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_control-plane_scheduler/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_etcd/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_etcd_local/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_kubeconfig/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_kubeconfig_admin/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_kubeconfig_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_kubeconfig_controller-manager/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_kubeconfig_kubelet/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_kubeconfig_scheduler/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_kubeconfig_super-admin/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_kubelet-finalize/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-04-23T18:20:14+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_kubelet-finalize_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-04-23T18:20:14+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_kubelet-finalize_enable-client-cert-rotation/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_kubelet-start/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_mark-control-plane/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_preflight/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_show-join-command/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_upload-certs/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_upload-config/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_upload-config_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_upload-config_kubeadm/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_upload-config_kubelet/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_init/kubeadm_init_phase_wait-control-plane/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_control-plane-join/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_control-plane-join_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_control-plane-join_mark-control-plane/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_control-plane-prepare/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_control-plane-prepare_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_control-plane-prepare_certs/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_control-plane-prepare_control-plane/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_control-plane-prepare_download-certs/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_control-plane-prepare_kubeconfig/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_etcd-join/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_kubelet-start/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_kubelet-wait-bootstrap/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-12-21T17:16:40+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_preflight/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_join/kubeadm_join_phase_wait-control-plane/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_kubeconfig/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_kubeconfig/kubeadm_kubeconfig_user/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_reset/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_reset/kubeadm_reset_phase/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_reset/kubeadm_reset_phase_cleanup-node/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_reset/kubeadm_reset_phase_preflight/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_reset/kubeadm_reset_phase_remove-etcd-member/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_token/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_token/kubeadm_token_create/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_token/kubeadm_token_delete/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_token/kubeadm_token_generate/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T15:44:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_token/kubeadm_token_list/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-12-21T17:16:40+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_addon/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_addon_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_addon_coredns/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_addon_kube-proxy/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_bootstrap-token/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_control-plane/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_kubelet-config/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_post-upgrade/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_preflight/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_upload-config/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_upload-config_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_upload-config_kubeadm/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_apply_phase_upload-config_kubelet/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_diff/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_node/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_node_phase/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_node_phase_addon/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_node_phase_addon_all/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_node_phase_addon_coredns/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_node_phase_addon_kube-proxy/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_node_phase_control-plane/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_node_phase_kubelet-config/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T23:27:25+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_node_phase_post-upgrade/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_node_phase_preflight/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-11-11T11:03:37+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_upgrade/kubeadm_upgrade_plan/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-12-21T17:16:40+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/kubeadm_version/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-09-04T15:32:31+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/generated/readme/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2018-05-05T18:00:51+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/implementation-details/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-10-29T11:28:50+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-alpha/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2021-01-04T15:39:01+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-certs/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T16:50:21+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-config/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T16:50:21+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-init-phase/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-12-16T17:00:38+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-init/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-08-26T14:08:36-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-join-phase/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-12-16T17:00:38+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-join/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-04-18T10:04:42+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-kubeconfig/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T16:50:21+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-reset-phase/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T16:50:21+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-reset/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-02-16T23:14:53+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-token/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T16:50:21+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade-phase/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-06-24T10:40:29+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T16:50:21+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-version/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2024-08-17T16:50:21+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/tools/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-04-15T23:47:07+09:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/using-api/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-06-25T01:19:11+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/using-api/api-concepts/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-03T18:04:08+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/using-api/cel/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-10-31T20:39:47+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/using-api/client-libraries/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-04-14T01:15:00+09:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/using-api/declarative-validation/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-09-16T23:30:33+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/using-api/deprecation-guide/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2025-05-16T14:49:30+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/using-api/health-checks/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-07-03T18:04:08+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/reference/using-api/server-side-apply/",
+    "original_type": "Kubernetes reference",
+    "sitemap_lastmod": "2026-03-15T15:21:34+00:00"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_018",
+      "doi": "10.5465/amj.2007.25525821",
+      "title": "High-Performance Human Resource Practices, Citizenship Behavior, and Organizational Performance: A Relational Perspective",
+      "authors": "[\"Li-Yun Sun\", \"Samuel Aryee\", \"Kenneth S. Law\"]",
+      "field": "business_management",
+      "q": "\"High-Performance Human Resource Practices, Citizenship Behavior, and Organizational\" Sun filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_018",
+      "query": "\"High-Performance Human Resource Practices, Citizenship Behavior, and Organizational\" Sun filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Sun, L.-Y., Aryee, S., & Law, K. S. (2007). *High-performance Human Resource practices, citizenship behavior, and organizational performance: a relational perspective.*",
+          "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Final%20Thesis_761895.pdf",
+          "score": 1
+        },
+        {
+          "title": "Sun L-Y, Aryee S & Law KS (2007). High-performance human resource practices, citizenship behavior, and organizational performance: A relational perspective. Academy of Management Journal 50(3), 558–577. DOI: 10.5465/amj.2007.25525821",
+          "url": "https://repo-dosen.ulm.ac.id/bitstream/handle/123456789/21304/Konsep%20dan%20Strategi%20Manajemen%20SDM%20%281%29.pdf?sequence=1",
+          "score": 1
+        },
+        {
+          "title": "Sun, L. Y., Aryee, S., & Law, K. S. (2007). High-performance human resource practices, citizenship behavior, and organizational performance: A relational perspective. *Academy of management Journal, 50*(3), 558-577. https://doi.org/10.5465/amj.2007.25525821",
+          "url": "https://repositorio.ulisboa.pt/bitstreams/262cfea3-62ee-4a23-81c3-08844b8b7317/download",
+          "score": 1
+        },
+        {
+          "title": "Sun, L. Y., Aryee, S., & Law, K. S. (2007). High-performance human resource practices, citizenship behavior, and organizational performance: A relational perspective. *Academy of Management Journal, 50* (3): 558-577.",
+          "url": "https://salford-repository.worktribe.com/preview/1488978/USIR%20Sample.pdf",
+          "score": 1
+        },
+        {
+          "title": "High-Performance Human Resource Practices, Organizational Citizenship Behavior, and",
+          "url": "https://people.dyu.edu.tw/paper/9806517_e.pdf",
+          "score": 1
+        },
+        {
+          "title": "High-Performance Human Resource Practices, Citizenship Behavior, and Organizational Performance: A Relational Perspective",
+          "url": "https://journals.aom.org/doi/pdf/10.5465/amj.2007.25525821",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p06",
+      "doi": "",
+      "title": "Men who explain things",
+      "authors": "[\"Rebecca Solnit\"]",
+      "field": "personal_public_writing",
+      "q": "\"Men who explain things\" Solnit pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p06",
+      "query": "\"Men who explain things\" Solnit pdf",
+      "urls": [
+        {
+          "title": "Men Explain Things To Me Rebecca Solnit",
+          "url": "https://www.staff.ces.funai.edu.ng/papersCollection/scholarship/download/men_explain_things_to_me_rebecca_solnit.pdf",
+          "score": 0.75
+        },
+        {
+          "title": "Men Explain Things to Me – Utne",
+          "url": "https://www.utne.com/arts/men-explain-things-to-me/",
+          "score": 0.75
+        },
+        {
+          "title": "Men Explain Things to Me – Guernica",
+          "url": "https://www.guernicamag.com/rebecca-solnit-men-explain-things-to-me/",
+          "score": 0.75
+        },
+        {
+          "title": "Men Explain Things to Me by Rebecca Solnit",
+          "url": "https://studylib.net/doc/27514932/men-explain-things-to-me",
+          "score": 0.75
+        },
+        {
+          "title": "Men Explain Things to Me - ZNetwork",
+          "url": "https://znetwork.org/znetarticle/men-explain-things-to-me-by-rebecca-solnit/",
+          "score": 0.75
+        },
+        {
+          "title": "Men Explain Things to Me: Essays on Gender & Feminism",
+          "url": "https://studylib.net/doc/28475568/men-explain-things-to-me--rebecca-solnit---z-library.sk--...",
+          "score": 0.75
+        }
+      ]
+    }
+  ]
+}

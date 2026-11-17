@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-11-16T17:50:47.695656+00:00",
+  "action": "terminated_this_task_stalled_rescue_process",
+  "pid": 3479805,
+  "completed_futures": 141,
+  "total_futures": 142,
+  "reason": "One HTTP response remained active more than five minutes despite socket timeout. Added total-transfer ceiling; persisted completed receipts retained; rerun pending public-source URLs.",
+  "affected_completed_artifacts": "none deleted"
+}

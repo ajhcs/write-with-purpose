@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-11-16T01:06:58.081998+00:00",
+  "queries": {
+    "critical_review": {
+      "query": "PUB_TYPE:\"Book Review\" AND OPEN_ACCESS:Y",
+      "hitCount": 40960,
+      "discovered": 250
+    },
+    "conceptual_paper": {
+      "query": "TITLE:\"conceptual framework\" AND OPEN_ACCESS:Y",
+      "hitCount": 1309,
+      "discovered": 250
+    }
+  }
+}

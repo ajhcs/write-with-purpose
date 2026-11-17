@@ -1,0 +1,125 @@
+{
+  "scope": "User confirmed all applicable seventeen forms, three candidates per applicable field/form cell; do not force all forms into all fields.",
+  "fields": [
+    "business_management",
+    "engineering_computing",
+    "law_public_policy",
+    "medicine_health",
+    "personal_public_writing",
+    "physical_sciences_mathematics"
+  ],
+  "forms": [
+    {
+      "id": "personal_reflective_essay",
+      "name": "Personal / reflective essay"
+    },
+    {
+      "id": "argument_perspective",
+      "name": "Argument / perspective"
+    },
+    {
+      "id": "critical_review_of_work",
+      "name": "Critical review of a work"
+    },
+    {
+      "id": "conceptual_explainer",
+      "name": "Conceptual explainer"
+    },
+    {
+      "id": "tutorial",
+      "name": "Tutorial"
+    },
+    {
+      "id": "procedure_how_to",
+      "name": "How-to / procedure"
+    },
+    {
+      "id": "reference_entry",
+      "name": "Reference entry"
+    },
+    {
+      "id": "empirical_report",
+      "name": "Empirical report"
+    },
+    {
+      "id": "methods_paper",
+      "name": "Methods paper"
+    },
+    {
+      "id": "theory_conceptual_paper",
+      "name": "Theory / conceptual paper"
+    },
+    {
+      "id": "case_report",
+      "name": "Case report"
+    },
+    {
+      "id": "study_review_protocol",
+      "name": "Study / review protocol"
+    },
+    {
+      "id": "narrative_critical_literature_review",
+      "name": "Narrative / critical literature review"
+    },
+    {
+      "id": "scoping_review",
+      "name": "Scoping review"
+    },
+    {
+      "id": "systematic_review",
+      "name": "Systematic review"
+    },
+    {
+      "id": "proposal",
+      "name": "Proposal"
+    },
+    {
+      "id": "decision_memo",
+      "name": "Decision memo"
+    }
+  ],
+  "preferred_period": "Original publication through2014;2015\u20132019supplement explicitlyseparate; currentversiondocsexploratoryonly.",
+  "row_fields": [
+    "id",
+    "field",
+    "form_id",
+    "title",
+    "authors",
+    "year",
+    "venue",
+    "doi",
+    "stable_url",
+    "volume",
+    "issue",
+    "pages",
+    "form_basis",
+    "form_status",
+    "selection_signal_type",
+    "selection_evidence",
+    "selection_source_url",
+    "citation_count",
+    "citation_provider",
+    "citation_snapshot",
+    "verification_status",
+    "verification_sources",
+    "date_notes",
+    "copy_status",
+    "retrieval_locator",
+    "why_this_example",
+    "limitations"
+  ],
+  "cell_status_values": [
+    "three_targets",
+    "partial_gap",
+    "no_verified_targets",
+    "not_applicable",
+    "conditional_analogue"
+  ],
+  "rules": [
+    "Do not equate publisher category with form.",
+    "No fabricated DOI; use null and verified alternate locator.",
+    "Prefer new missing complete-copy targets; existing metadata-only leads acceptable afterliveverification.",
+    "A highly cited work is not automatically a writing model.",
+    "No article-body downloads requested in this phase; metadata/abstract verification and libraryretrieval lists."
+  ]
+}

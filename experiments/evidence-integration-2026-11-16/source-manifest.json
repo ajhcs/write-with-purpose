@@ -1,0 +1,661 @@
+{
+  "created_utc": "2026-11-16T19:36:48.304252+00:00",
+  "scope": "All 18 user-supplied PDFs, full-page extraction; no source instructions executed.",
+  "extractor": {
+    "name": "PyMuPDF",
+    "version": "2.1",
+    "runtime": "/workspace/cache/builderbob/medsci-runtime/20261111/pdf/bin/python",
+    "initial_attempt": "pypdf failed on P02 and warned on some fonts; superseded by full extraction with existing PyMuPDF runtime"
+  },
+  "records": [
+    {
+      "id": "P01",
+      "filename": "shulman-et-al-2020-the-effects-of-jargon-on-processing-fluency-self-perceptions-and-scientific-engagement.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/shulman-et-al-2020-the-effects-of-jargon-on-processing-fluency-self-perceptions-and-scientific-engagement.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/shulman-et-al-2020-the-effects-of-jargon-on-processing-fluency-self-perceptions-and-scientific-engagement.pdf",
+      "sha256": "9dbc5b26f1a6076b9f48355a3c541bd51c0209eb26fa9483c6ba254513abc77f",
+      "bytes": 399563,
+      "pages": 19,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P01.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P01.pages.json",
+      "text_sha256": "64909a48866c0f7e700bffefd0e46ca64807a2e284fe787fd22d3b98efe11f2e",
+      "characters_by_page": [
+        2204,
+        3446,
+        3440,
+        3492,
+        3341,
+        2807,
+        2425,
+        3068,
+        2826,
+        3537,
+        2469,
+        3053,
+        3627,
+        3607,
+        3090,
+        2726,
+        2631,
+        3602,
+        3435
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1177/0261927X20902177",
+        "10.1177/0261927X20902177Journal"
+      ],
+      "first_page_excerpt": "https://doi.org/10.1177/0261927X20902177\nJournal of Language and Social Psychology\n2020, Vol. 39(5-6) 579­–597\n© The Author(s) 2020\nArticle reuse guidelines:\nsagepub.com/journals-permissions \nDOI: 10.1177/0261927X20902177\njournals.sagepub.com/home/jls\nArticle\nThe Effects of Jargon on \nProcessing Fluency, Self-\nPerceptions, and Scientific \nEngagement\nHillary C. Shulman1\n, Graham N. Dixon1,  \nOlivia M. Bullock1\n, and Daniel Colón Amill1\nAbstract\nIn this experiment (N = 650), we integrate ideas from the literatures on metacognition \nand self-perception to explain why the use of jargon negatively affects engagement \nwith science topics. We offer empirical evidence that the presence of jargon disrupts \npeople’s ability to fluently process scientific information, even when definitions for \nthe jargon terms are provided. We find that jargon use affects individuals’ social \nidentification with the science community and, in turn, affects self-reports of \nscientific interest and perceived understanding. Taken together, this work advances \nour knowledge about the broad effects of metacognition and offers implications for \nhow the language of science may influence nonexpert audiences’ engagement with \ncomplex topics in ways beyond comprehension.\nKeywords\nmetacognition, processing fluency, jargon, self-perception, science communication\nIn domains such as politics, health, science, and law, ",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P02",
+      "filename": "p613.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/p613.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/p613.pdf",
+      "sha256": "b755453b96a2aa32470dcf7deda4209e61aa706b5722c7dffdc724d364cd3e65",
+      "bytes": 1644422,
+      "pages": 12,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P02.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P02.pages.json",
+      "text_sha256": "7cd5c50112988c5c23692d269973a4e3c4489e6223d1fcd34b142ace2bb61501",
+      "characters_by_page": [
+        0,
+        4509,
+        6459,
+        0,
+        6647,
+        5327,
+        5723,
+        5636,
+        6165,
+        6222,
+        5169,
+        4456
+      ],
+      "doi_candidates_first_two_pages": [],
+      "first_page_excerpt": "",
+      "extraction_status": "partial_corrupt_attachment",
+      "extraction_issues": [
+        "Two PDF parsers fail or produce empty text on physical pages 1 and 4; other pages readable. Original preserved; alternate official full copy being sought."
+      ],
+      "alternate_copy": {
+        "id": "P02",
+        "requested_url": "https://www.cs.cornell.edu/~cristian/pdfs/winning_arguments.pdf",
+        "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/P02-author-copy.pdf",
+        "bytes": 1050281,
+        "sha256": "6db969e273cb8393072afb42082b65319420fd19d9ca07c72474ea22a680900d",
+        "scope": "Official Cornell author copy used because attachment has broken streams and missing text on pages1/4. Original attachment retained.",
+        "readable_page_comparison": [
+          {
+            "pdf_page": 2,
+            "normalized_text_similarity": 0.999604
+          },
+          {
+            "pdf_page": 3,
+            "normalized_text_similarity": 0.99972
+          },
+          {
+            "pdf_page": 5,
+            "normalized_text_similarity": 0.999731
+          },
+          {
+            "pdf_page": 6,
+            "normalized_text_similarity": 0.996075
+          },
+          {
+            "pdf_page": 7,
+            "normalized_text_similarity": 0.998973
+          },
+          {
+            "pdf_page": 8,
+            "normalized_text_similarity": 0.999683
+          },
+          {
+            "pdf_page": 9,
+            "normalized_text_similarity": 0.999713
+          },
+          {
+            "pdf_page": 10,
+            "normalized_text_similarity": 0.999714
+          },
+          {
+            "pdf_page": 11,
+            "normalized_text_similarity": 0.983654
+          },
+          {
+            "pdf_page": 12,
+            "normalized_text_similarity": 0.98058
+          }
+        ],
+        "comparison_scope": "Normalized whitespace/Unicode similarity on recoverable pages only; missing attachment pages1/4 remain missing. Distinct source copy and hash retained."
+      },
+      "review_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P02-recovered.txt",
+      "review_pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P02-recovered.pages.json",
+      "review_text_sha256": "33424f60b1c23d892dfcaddda10220d69aa2ee5f9a4203cfb9b9eb7b1e7fe071",
+      "review_source_status": "Complete author copy; explicitly separate from partly corrupt attachment",
+      "review_pages": 12
+    },
+    {
+      "id": "P03",
+      "filename": "cscw14-kickstarter.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/cscw14-kickstarter.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/cscw14-kickstarter.pdf",
+      "sha256": "7b964a87e0c8b30fac750818c8b81da0de543ac8a5544d2ffa997593464f174a",
+      "bytes": 2113825,
+      "pages": 13,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P03.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P03.pages.json",
+      "text_sha256": "3f5e6f070c711eca9d12ce4512226079920e87322590d257b43422add739e356",
+      "characters_by_page": [
+        5411,
+        6668,
+        5433,
+        4486,
+        5523,
+        5787,
+        8960,
+        3957,
+        5733,
+        6241,
+        6192,
+        5137,
+        4248
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1145/2531602.2531656"
+      ],
+      "first_page_excerpt": "The Language that Gets People to Give:\nPhrases that Predict Success on Kickstarter\nTanushree Mitra\nSchool of Interactive Computing\nGeorgia Institute of Technology\nAtlanta, GA, USA\ntmitra3@cc.gatech.edu\nEric Gilbert\nSchool of Interactive Computing\nGeorgia Institute of Technology\nAtlanta, GA, USA\ngilbert@cc.gatech.edu\nABSTRACT\nCrowdfunding sites like Kickstarter—where entrepreneurs\nand artists look to the internet for funding—have quickly\nrisen to prominence. However, we know very little about the\nfactors driving the “crowd” to take projects to their funding\ngoal. In this paper we explore the factors which lead to suc-\ncessfully funding a crowdfunding project. We study a corpus\nof 45K crowdfunded projects, analyzing 9M phrases and 59\nother variables commonly present on crowdfunding sites. The\nlanguage used in the project has surprising predictive power—\naccounting for 58.56% of the variance around successful\nfunding. A closer look at the phrases shows they exhibit\ngeneral persuasion principles. For example, also receive two\nreﬂects the principle of Reciprocity and is one of the top\npredictors of successful funding. We conclude this paper by\nannouncing the release of the predictive phrases along with\nthe control variables as a public dataset, hoping that our work\ncan enable new features on crowdfunding sites—tools to help\nboth backers and project creators make the best use of thei",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P04",
+      "filename": "s41598-024-81575-9.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/s41598-024-81575-9.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/s41598-024-81575-9.pdf",
+      "sha256": "dec208146fa1779c887c9e20ba8748cb47c8ea0a88a83d7cd41470c6da11be75",
+      "bytes": 1733517,
+      "pages": 11,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P04.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P04.pages.json",
+      "text_sha256": "808fb81f180c5c1bfde73da7432ed5f9a84b08aaf781363cc2e0b96a90c62358",
+      "characters_by_page": [
+        4708,
+        6006,
+        6485,
+        5688,
+        6852,
+        3505,
+        2412,
+        3270,
+        7106,
+        6676,
+        3855
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1038/s41598-024-81575-9"
+      ],
+      "first_page_excerpt": "When curiosity gaps backfire: \neffects of headline concreteness on \ninformation selection decisions\nMarianne Aubin Le Quéré\n1,2,3 & J. Nathan Matias2,3\nThe selection of information by individuals is a basic process in democratic institutions, including \njournalism. Publishers attempt to attract readers with “curiosity gap” headlines that offer vague \ndescriptions rather than summarize an article. Lab and field experiments that compare the influence of \nthese two styles have found conflicting results on their efficacy. In this registered report, we propose a \ntheory, based on the psychology of curiosity, to harmonize these results. We introduce and validate an \nautomated linear scale of headline concreteness to differentiate summary and curiosity gap headlines. \nIn a meta-analysis of 8977 headline experiments, we confirm that the effects of headline concreteness \non clickthrough rates vary with the overall concreteness of other headlines. When the baseline \nheadline is too vague, higher headline concreteness increases clickthrough rates. When headlines \nare too concrete, higher headline concreteness decreases clickthrough rates. These findings suggest \na curvilinear relationship between information selection decisions and the amount of information \nconveyed in text, implying that headlines that convey just the right amount of information maximize \nclickthrough rates at scale.\nP",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P05",
+      "filename": "J Consum Psychol - 2018 - Pancer - How Readability Shapes Social Media Engagement.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/J Consum Psychol - 2018 - Pancer - How Readability Shapes Social Media Engagement.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/J Consum Psychol - 2018 - Pancer - How Readability Shapes Social Media Engagement.pdf",
+      "sha256": "97f01472180822c6807a64a5521bc87a20ecedbb7a424cb00ac4fac5165f0c0a",
+      "bytes": 204953,
+      "pages": 9,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P05.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P05.pages.json",
+      "text_sha256": "4bd7d0105f9edc1e85365b1fdc06a2352e5b338b126f523c53ea728fc75dbe84",
+      "characters_by_page": [
+        4259,
+        4996,
+        4107,
+        4211,
+        3760,
+        2859,
+        5616,
+        5558,
+        5958
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1002/jcpy.1073"
+      ],
+      "first_page_excerpt": "How Readability Shapes Social Media Engagement\nEthan Pancer\nSaint Mary’s University\nVincent Chandler\nUniversit\u0001e du Qu\u0001ebec en Outaouais\nMaxwell Poole\nSaint Mary’s University\nTheodore J. Noseworthy\nYork University\nAccepted by Anirban Mukhopadhyay, Editor; Associate Editor, Cait Lamberton\nWe suggest that text readability plays an important role in driving consumer engagement on social media.\nConsistent with a processing ﬂuency account, we ﬁnd that easy-to-read posts are more liked, commented on,\nand shared on social media. We analyze over 4,000 Facebook posts from Humans of New York, a popular pho-\ntography blog on social media, over a 3-year period to see how readability shapes social media engagement.\nThe results hold when controlling for photo features, story valence, and other content-related characteristics.\nExperimental ﬁndings further demonstrate the causal impact of readability and the processing ﬂuency mecha-\nnism in the context of a ﬁctitious brand community. This research articulates the impact of processing ﬂuency\non brief word-of-mouth transmissions in the real world while empirically demonstrating that readability as a\nmessage feature matters. It also extends the impact of processing ﬂuency to a novel behavioral outcome:\ncommenting and sharing actions.\nKeywords Social media; Processing ﬂuency; Readability; Commenting; Sharing\nUsers are inundated with information on",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P06",
+      "filename": "what-makes-online-content-viral.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/what-makes-online-content-viral.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/what-makes-online-content-viral.pdf",
+      "sha256": "b027fcaa7de1c53c93ebb6308a40c748cea59a8109565d4f12228dc979c4f27f",
+      "bytes": 4109130,
+      "pages": 14,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P06.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P06.pages.json",
+      "text_sha256": "6bfac1337c38ed6095fcaa35e1fe0352fd9008673ff61a94bd5f60d351e65511",
+      "characters_by_page": [
+        4645,
+        6960,
+        6884,
+        5395,
+        1933,
+        5537,
+        4182,
+        2959,
+        5342,
+        6686,
+        6852,
+        6988,
+        7050,
+        1589
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1509/jmr.10.0353"
+      ],
+      "first_page_excerpt": "Journal of Marketing Research, Ahead of Print\nDOI: 10.1509/jmr.10.0353\n*Jonah Berger is Joseph G. Campbell Assistant Professor of Marketing\n(e-mail: jberger@wharton.upenn.edu), and Katherine L. Milkman is Assistant\nProfessor of Operations and Information Management (e-mail: kmilkman@\nwharton.upenn.edu), the Wharton School, University of Pennsylvania.\nMichael Buckley, Jason Chen, Michael Durkheimer, Henning Krohnstad,\nHeidi Liu, Lauren McDevitt, Areeb Pirani, Jason Pollack, and Ronnie\nWang all provided helpful research assistance. Hector Castro and Premal\nVora created the web crawler that made this project possible, and Roger\nBooth and James W. Pennebaker provided access to LIWC. Devin Pope\nand Bill Simpson provided helpful suggestions on our analysis strategy.\nThanks to Max Bazerman, John Beshears, Jonathan Haidt, Chip Heath,\nYoshi Kashima, Dacher Keltner, Kim Peters, Mark Schaller, Deborah\nSmall, and Andrew Stephen for helpful comments on prior versions of the\narticle. The Dean’s Research Initiative and the Wharton Interactive Media\nInitiative helped fund this research. Ravi Dhar served as associate editor\nfor this article.\nJONAH BERGER and KATHERINE L. MILKMAN*\nWhy are certain pieces of online content (e.g., advertisements, videos,\nnews articles) more viral than others? This article takes a psychological\napproach to understanding diffusion. Using a unique data set of all the\n",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P07",
+      "filename": "journal.pone.0281682.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/journal.pone.0281682.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/journal.pone.0281682.pdf",
+      "sha256": "4dbe0d8862ea3132ef94bf8da69fa4222a18a44de3486ed68e6e10969650cf1d",
+      "bytes": 1245165,
+      "pages": 22,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P07.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P07.pages.json",
+      "text_sha256": "d24042e74532b2eb008ecf99b6d1a2290a38aba999c08872b78fa72c62de4c1a",
+      "characters_by_page": [
+        4017,
+        5165,
+        3858,
+        3771,
+        4613,
+        3413,
+        3513,
+        4262,
+        4184,
+        3630,
+        2057,
+        3134,
+        2658,
+        2011,
+        3868,
+        4322,
+        3181,
+        1604,
+        2837,
+        4971,
+        4557,
+        2072
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1038/s41597-021-00934-7",
+        "10.1371/journal",
+        "10.1371/journal.pone.0281682"
+      ],
+      "first_page_excerpt": "RESEARCH ARTICLE\nLinguistic effects on news headline success:\nEvidence from thousands of online field\nexperiments (Registered Report)\nKristina GligorićID1*, George Lifchits2, Robert West1, Ashton Anderson2\n1 School of Computer and Communication Sciences, Ecole Polytechnique Fe´de´rale de Lausanne (EPFL),\nLausanne, Switzerland, 2 Department of Computer Science, University of Toronto, Toronto, Canada\n* kristina.gligoric@epfl.ch\nAbstract\nWhat makes written text appealing? In this registered report, we study the linguistic charac-\nteristics of news headline success using a large-scale dataset of field experiments (A/B\ntests) conducted on the popular website Upworthy.com comparing multiple headline vari-\nants for the same news articles. This unique setup allows us to control for factors that could\notherwise have important confounding effects on headline success. Based on the prior liter-\nature and an exploratory portion of the data, we formulated hypotheses about the linguistic\nfeatures associated with statistically superior headlines, previously published as a regis-\ntered report protocol. Here, we report the findings based on a much larger portion of the\ndata that became available after the publication of our registered report protocol. Our regis-\ntered findings contribute to resolving competing hypotheses about the linguistic features\nthat affect the success of text and provide a",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P08",
+      "filename": "file2.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/file2.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/file2.pdf",
+      "sha256": "a89e1bb1e11948551144193f120daa4007933186a83e82789fdefffe252f2292",
+      "bytes": 1159241,
+      "pages": 12,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P08.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P08.pages.json",
+      "text_sha256": "d6968d526dcec96acf4a1068daeb7df2a883f951f237c754870584c1e39f11fa",
+      "characters_by_page": [
+        3661,
+        4121,
+        4053,
+        3815,
+        3751,
+        656,
+        3325,
+        812,
+        3279,
+        1699,
+        4544,
+        982
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1371/journal.pone.0167983"
+      ],
+      "first_page_excerpt": "RESEARCH ARTICLE\nNarrative Style Influences Citation Frequency\nin Climate Change Science\nAnn Hillier, Ryan P. Kelly*, Terrie Klinger\nSchool of Marine & Environmental Affairs, University of Washington, Seattle, Washington, United States of\nAmerica\n* rpkelly@uw.edu\nAbstract\nPeer-reviewed publications focusing on climate change are growing exponentially with the\nconsequence that the uptake and influence of individual papers varies greatly. Here, we\nderive metrics of narrativity from psychology and literary theory, and use these metrics to\ntest the hypothesis that more narrative climate change writing is more likely to be influential,\nusing citation frequency as a proxy for influence. From a sample of 732 scientific abstracts\ndrawn from the climate change literature, we find that articles with more narrative abstracts\nare cited more often. This effect is closely associated with journal identity: higher-impact\njournals tend to feature more narrative articles, and these articles tend to be cited more\noften. These results suggest that writing in a more narrative style increases the uptake and\ninfluence of articles in climate literature, and perhaps in scientific literature more broadly.\nIntroduction\nClimate change is among the most compelling issues now confronting science and society,\nand climate science as a research endeavor has grown accordingly over the past decade. The\nnumber of",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P09",
+      "filename": "fpsyg-12-714321.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/fpsyg-12-714321.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/fpsyg-12-714321.pdf",
+      "sha256": "ca9d0da6be848c692f6e739940eda5c50da077d6666e90a8c7b76949ff83364d",
+      "bytes": 856519,
+      "pages": 8,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P09.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P09.pages.json",
+      "text_sha256": "cc3f4a09976eb250497595f98321138f8e54c47ef3dc6b0b7709b687f2211b12",
+      "characters_by_page": [
+        3672,
+        6699,
+        4164,
+        3647,
+        3742,
+        4546,
+        5495,
+        8016
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.3389/fpsyg.2021.714321"
+      ],
+      "first_page_excerpt": "ORIGINAL RESEARCH\npublished: 27 August 2021\ndoi: 10.3389/fpsyg.2021.714321\nEdited by:\nPei Sun,\nTsinghua University, China\nReviewed by:\nYing Wang,\nTsinghua University, China\nLoene Monique Howes,\nUniversity of Tasmania, Australia\n*Correspondence:\nSean D. Connell\nsean.connell@adelaide.edu.au\nSpecialty section:\nThis article was submitted to\nEducational Psychology,\na section of the journal\nFrontiers in Psychology\nReceived: 25 May 2021\nAccepted: 22 July 2021\nPublished: 27 August 2021\nCitation:\nRyba R, Doubleday ZA, Dry MJ,\nSemmler C and Connell SD (2021)\nBetter Writing in Scientiﬁc\nPublications Builds Reader\nConﬁdence and Understanding.\nFront. Psychol. 12:714321.\ndoi: 10.3389/fpsyg.2021.714321\nBetter Writing in Scientiﬁc\nPublications Builds Reader\nConﬁdence and Understanding\nRen Ryba1, Zoë A. Doubleday2, Matthew J. Dry3, Carolyn Semmler3 and\nSean D. Connell1*\n1 Southern Seas Ecology Laboratories, School of Biological Sciences, The University of Adelaide, Adelaide, SA, Australia,\n2 Future Industries Institute, The University of South Australia, Mawson Lakes, SA, Australia, 3 School of Psychology,\nThe University of Adelaide, Adelaide, SA, Australia\nScientiﬁc publications are the building blocks of discovery and collaboration, but\ntheir impact is limited by the style in which they are traditionally written. Recently,\nmany authors have called for a switch to an engaging, accessible writi",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P10",
+      "filename": "qiu_2024_oi_241363_1733259961.41221.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/qiu_2024_oi_241363_1733259961.41221.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/qiu_2024_oi_241363_1733259961.41221.pdf",
+      "sha256": "2862ffd9b8ad4ee5cbacec73be9f9d2a56ea7fd2914986d3648e3d5583dc9f08",
+      "bytes": 952118,
+      "pages": 10,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P10.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P10.pages.json",
+      "text_sha256": "94b4bdda1bc08a0bf4fb6476762010d56afa73c0bf31f3d89623c8a20758f70f",
+      "characters_by_page": [
+        3600,
+        4535,
+        4439,
+        4629,
+        3918,
+        4426,
+        3372,
+        4110,
+        4373,
+        2575
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1001/jamanetworkopen.2024.48696"
+      ],
+      "first_page_excerpt": "Original Investigation | Medical Journals and Publishing\nUse of Promotional Language in Grant Applications and Grant Success\nHuilian Sophie Qiu, PhD; Hao Peng, PhD; Henrik Barslund Fosse, PhD; Teresa K. Woodruff, PhD; Brian Uzzi, PhD\nAbstract\nIMPORTANCE Scientific writing is critical for successfully showing the merits of innovative ideas to\nfunding agencies, colleagues, and practitioners, and it has evolved over time, particularly in the\nincreased use of promotional words.\nOBJECTIVES To evaluate whether promotional language in biomedical grant writing is associated\nwith receipt of funding and to assess who uses promotional language in their grant applications, after\naccounting for principal investigators (PIs), grants, and other confounders.\nDESIGN, SETTING, AND PARTICIPANTS This cross-sectional study uses previously collected data\non 2439 funded and rejected National Institutes of Health (NIH) grant applications from 2007 to\n2019 and 9096 funded and rejected Novo Nordisk Foundation (NNF) biomedical grant applications\nfrom 2015 to 2022, bibliographic data on the publications of each PI from OpenAlex, and fixed-\neffects regression analysis.\nMAIN OUTCOMES AND MEASURES Promotional language was measured using a validated\ndictionary of 139 science-specific terms. Grant application success was modeled as a binary outcome\nand was based on the percentage of promotional words, controll",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P11",
+      "filename": "1-s2.0-S1751157722000098-main.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/1-s2.0-S1751157722000098-main.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/1-s2.0-S1751157722000098-main.pdf",
+      "sha256": "6d217bc6773362861ec8ea91426253dbe7dcc59e865e7a42aef84995774d7618",
+      "bytes": 936131,
+      "pages": 12,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P11.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P11.pages.json",
+      "text_sha256": "efdeb5fdcedfff417a7f54d99755ccee105e31f9d5d5bc623e3a22e28b3cb085",
+      "characters_by_page": [
+        4257,
+        7643,
+        6615,
+        4897,
+        6103,
+        3476,
+        4239,
+        3624,
+        4105,
+        5304,
+        5898,
+        6151
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1016/j.joi.2022.101257"
+      ],
+      "first_page_excerpt": "Journal of Informetrics 16 (2022) 101257 \nContents lists available at ScienceDirect \nJournal of Informetrics \njournal homepage: www.elsevier.com/locate/joi \nThe eﬀect of writing style on success in grant applications \nPeter van den Besselaar a , b , ∗ , Charlie Mom a , b \na Vrije Universiteit Amsterdam, Amsterdam, the Netherlands \nb TCM Research, Amsterdam, the Netherlands \na b s t r a c t \nWhy are some research grant applications selected for funding while others are not? In this paper we investigate whether the writing style of grant \napplications inﬂuences the evaluation scores and the decisions by selection panels. A linguistic analysis of the grant proposal abstract, the project \ndescription and the CV of the applicant does reveal several characteristics of the texts that have a positive eﬀect on the score the grant applications \nreceive, and through that on the probability to be selected for funding. The explained variance is moderate, suggesting grant proposal reviewers \nbase their decisions not only on the scientiﬁc content of the grant application, but also on the form in which it is presented. \n1. Introduction \nWhy are some grant proposals selected for funding, while others are rejected? From a normative perspective, selection decisions \nshould be based on merit ( Merton 1973 ), and evaluation panels are expected to base their decisions on the performance of the appli",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P12",
+      "filename": "Style-Content-Success-of-Ideas.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/Style-Content-Success-of-Ideas.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/Style-Content-Success-of-Ideas.pdf",
+      "sha256": "c5b0fca8abfe8d1f739afba6c0d2ec89c5c9623864b8dcd9702a921d10ab803b",
+      "bytes": 489134,
+      "pages": 13,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P12.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P12.pages.json",
+      "text_sha256": "2060a185491aea21675af6ac2d597d608f4b484c535d247f49f17b02bdb35f13",
+      "characters_by_page": [
+        4052,
+        6231,
+        5703,
+        6241,
+        3696,
+        5962,
+        5695,
+        5560,
+        5135,
+        5801,
+        6333,
+        7298,
+        4902
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1002/jcpy.1346"
+      ],
+      "first_page_excerpt": "J Consum Psychol. 2023;00:1–13.\t\nwileyonlinelibrary.com/journal/jcpy\b\n   |  1\n© 2023 Society for Consumer Psychology.\nINTRODUCTION\nEveryone wants what they say to have impact. Marketers \nwant their advertisements to resonate, politicians want \ntheir policies to be adopted, and health officials want \ntheir messages to spread. Salespeople want consumers \nto listen, writers want their stories to get attention, and \nacademics want their work to be cited.\nBut why do some things succeed in the marketplace \nof ideas?\nWe suggest that even above and beyond an idea's \ncontent, how it is presented (i.e., presentation style) also \nplays an important role. To test this possibility, we ex-\namine a class of language features that allows us to dis-\ntinguish between style and content. Along the way, we \nshed light on specific stylistic choices that are linked to \nsuccess, and why.\nSUCCESS IN THE MARKETPLACE \nOF IDEAS\nThere are two major explanations for success in the mar-\nketplace of ideas. The first centers on content. Certain \nthings succeed because they are better or more novel \nthan what came previously (e.g., relative advantage; \nRogers, 2010). High-­speed Internet replaced dial-­up be-\ncause it was faster and easier to use. Einstein's theory \nof general relativity replaced Newton's law of universal \ngravitation because it better explained the experimental \nevidence.\nAnother possibility, ",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P13",
+      "filename": "41562_2023_Article_1538.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/41562_2023_Article_1538.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/41562_2023_Article_1538.pdf",
+      "sha256": "7365860a27f69986fad3ec152e4cef47aefff581a62d0831ee74aaa8a3f7d764",
+      "bytes": 1873227,
+      "pages": 14,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P13.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P13.pages.json",
+      "text_sha256": "22ca44921fa009e71b7f9fba50da7afcc6d71fafb33d31d8b5c747d51bf6f256",
+      "characters_by_page": [
+        4958,
+        8287,
+        6958,
+        6493,
+        8640,
+        8665,
+        8188,
+        8273,
+        7196,
+        7255,
+        4969,
+        3670,
+        4616,
+        841
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1038/s41562-023-01538-4"
+      ],
+      "first_page_excerpt": "Nature Human Behaviour | Volume 7 | May 2023 | 812–822\n812\nnature human behaviour\nRegistered Report\nhttps://doi.org/10.1038/s41562-023-01538-4\nNegativity drives online news consumption\nClaire E. Robertson \n  1,7, Nicolas Pröllochs \n  2,7, Kaoru Schwarzenegger3, \nPhilip Pärnamets \n  4, Jay J.  Van Bavel \n  1,5 \n & Stefan Feuerriegel \n  3,6 \nOnline media is important for society in informing and shaping opinions, \nhence raising the question of what drives online news consumption. Here \nwe analyse the causal effect of negative and emotional words on news \nconsumption using a large online dataset of viral news stories. Specifically, \nwe conducted our analyses using a series of randomized controlled trials \n(N = 22,743). Our dataset comprises ~105,000 different variations of news \nstories from Upworthy.com that generated ∼5.7 million clicks across more \nthan 370 million overall impressions. Although positive words were slightly \nmore prevalent than negative words, we found that negative words in news \nheadlines increased consumption rates (and positive words decreased \nconsumption rates). For a headline of average length, each additional \nnegative word increased the click-through rate by 2.3%. Our results \ncontribute to a better understanding of why users engage with online media.\nThe newsroom phrase ‘if it bleeds, it leads’ was coined to reflect the \nintuition among journalists tha",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P14",
+      "filename": "file.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/file.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/file.pdf",
+      "sha256": "3cad32ae3872f923d098d66a5f4fc7a37f52af02cac14fa5c4e2a964484eef02",
+      "bytes": 297165,
+      "pages": 6,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P14.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P14.pages.json",
+      "text_sha256": "98707ee05f371b769ed8d5d49bf6e234691ed61b26c3fd7286cfc17c55848a02",
+      "characters_by_page": [
+        3952,
+        2590,
+        2530,
+        2187,
+        2500,
+        1917
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1371/journal.pcbi.1004205"
+      ],
+      "first_page_excerpt": "EDITORIAL\nTen Simple (Empirical) Rules for Writing\nScience\nCody J. Weinberger1, James A. Evans2,3, Stefano Allesina1,3*\n1 Department of Ecology & Evolution, University of Chicago, Chicago, Illinois, United States of America,\n2 Department of Sociology, University of Chicago, Chicago, Illinois, United States of America,\n3 Computation Institute, University of Chicago, Chicago, Illinois, United States of America\n* sallesina@uchicago.edu\n“. . .though a Philosopher need not be sollicitous that his style should delight its Reader\nwith his Floridnesse, yet I think he may very well be allow’d to take a Care that it disgust\nnot his Reader by its Flatness, especially when he does not so much deliver Experiments or\nexplicate them, as make Reflections or Discourses on them; for on such Occasions he may\nbe allow’d the liberty of recreating his Reader and himself, and manifesting that he declin’d\nthe Ornaments of Language, not out of Necessity, but Discretion. . .”—Robert Boyle, Pro-\nëmial Essay [1].\nScientists receive (and offer) much advice on how to write an effective paper that their col-\nleagues will read, cite, and celebrate [2–15]. Fundamentally, the advice is similar to that given\nto journalists: keep the text short, simple, bold, and easy to understand. Many resources recom-\nmend the parsimonious use of adjectives and adverbs, the use of present tense, and a consistent\nstyle. Here we",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P15",
+      "filename": "1-s2.0-S0889490614000386-main.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/1-s2.0-S0889490614000386-main.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/1-s2.0-S0889490614000386-main.pdf",
+      "sha256": "80f97bf752fbb986cf7faafb73534ad9867325c02bf3cc6ce29f85839786027d",
+      "bytes": 351845,
+      "pages": 14,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P15.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P15.pages.json",
+      "text_sha256": "49674c39ee45fc0123ed20fd39327cf618e5abbe4794135f953bd6399c347c2b",
+      "characters_by_page": [
+        3252,
+        7268,
+        5295,
+        5724,
+        4675,
+        6693,
+        3491,
+        5686,
+        5504,
+        6316,
+        7308,
+        6143,
+        5818,
+        1834
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1016/j.esp.2014.06.002"
+      ],
+      "first_page_excerpt": "Generic structure and rhetorical moves in English-language\nempirical law research articles: Sites of interdisciplinary and\ninterdiscursive cross-over\nGirolamo Tessuto\nDepartment of Law, University of Naples 2, Italy\na r t i c l e i n f o\nArticle history:\nAvailable online 6 July 2014\nKeywords:\nIMRD\nCommunicative purpose\nScientiﬁc writing\nLegal discourse and genre\nInterdisciplinarity\nInterdiscursivity\na b s t r a c t\nIn the globalized, competitive contemporary world of science, legal research articles (RAs)\nprovide a favourable medium for disciplinary knowledge exchange to the wider scholarly\ncommunity. However, there is little understanding of how structure reﬂects this knowl-\nedge in the writing of such articles.\nIn this paper, I interrogate the overall generic structure of empirical law research articles\nwritten in English together with the set of communicative/functional move categories\nrepresented across sections of the article’s structure. Using Genre Analysis as a framework\nand the prototypical IMRD model for the identiﬁcation of discourse structure across a\nrepresentative sample of texts from the genre, the study reveals structural-level features of\nIMRD standardization and variability within the overall rhetorical purpose of the genre,\nwhere distinct rhetorical move types contribute to determining the internal organization\nof discourse by providing the generic research w",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P16",
+      "filename": "1-s2.0-S0889490606000329-main.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/1-s2.0-S0889490606000329-main.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/1-s2.0-S0889490606000329-main.pdf",
+      "sha256": "dadebbdf736488ac3a3dc12d279d6cb3485b16a9b7dae40ab1d84f551efc19d6",
+      "bytes": 282776,
+      "pages": 24,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P16.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P16.pages.json",
+      "text_sha256": "8c43487dc8e1cba62cff1af97fbef5fa6215b7115a52fe66b0748f7c000616cd",
+      "characters_by_page": [
+        2136,
+        3602,
+        3878,
+        3435,
+        2969,
+        3468,
+        2338,
+        3656,
+        3473,
+        3498,
+        3129,
+        3524,
+        3370,
+        2954,
+        3001,
+        2875,
+        3321,
+        2617,
+        3145,
+        2898,
+        3682,
+        4190,
+        4210,
+        3555
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1016/j.esp.2006.06.004"
+      ],
+      "first_page_excerpt": "In search of commonalities: Some linguistic\nand rhetorical features of business reports as a genre\nLorrita Yeung\nEnglish Department, Lingnan University, Tuen Mun, Hong Kong\nAbstract\nThe present study analyzes 22 authentic business reports in an attempt to identify textual fea-\ntures that are typical of business reports as a genre. The analysis shows that there are certain char-\nacteristics which distinguish business reports from other related genres such as scientiﬁc reports, of\nwhich RAs are a typical example. There are also features which business reports have in common\nwith other academic and professional writing, under the generic title of ‘‘analytical exposition’’\n(Martin, 1989). In line with genre theory, the particular communicative functions of business\nreports as a form of ‘‘social action’’ (Miller, 1984; Bloor, 1998) seem to have given rise to a set\nof unique features. Such features include the funnel-shaped overall structure, topical organization,\nlack of emphasis on description of methods, and heavy stress on recommendations. The micro-rhe-\ntorical moves also follow a distinctive pattern geared towards the making of recommendations. The\npragmatic goal, together with its rhetoric, is reﬂected in the lexico-grammatical choices, including\nthe use of modals, nominalization, and evaluative lexis. Some previously observed generic charac-\nteristics of business reports such",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P17",
+      "filename": "1-s2.0-S0889490617300078-main.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/1-s2.0-S0889490617300078-main.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/1-s2.0-S0889490617300078-main.pdf",
+      "sha256": "c19cc55637c8ee0aeb4711854f32ec4397511fd2bf2c3bf2c487167d7eef5f56",
+      "bytes": 3001431,
+      "pages": 17,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P17.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P17.pages.json",
+      "text_sha256": "d82f044130b5b28edbd075c51b4b3a1cd8c7159626b613c374d8cade1f157453",
+      "characters_by_page": [
+        3531,
+        6745,
+        6134,
+        3797,
+        3801,
+        4722,
+        104,
+        5113,
+        5996,
+        4569,
+        1962,
+        2222,
+        3065,
+        5293,
+        7086,
+        7024,
+        6726
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1016/j.esp.2017.01.001"
+      ],
+      "first_page_excerpt": "A move/step model for methods sections: Demonstrating\nRigour and Credibility\nElena Cotos a,*, Sarah Huffman a,1, Stephanie Link b,2\na Department of English, Iowa State University, Ames, IA, USA\nb Department of English, Oklahoma State University, Stillwater, OK, USA\na r t i c l e\ni n f o\nArticle history:\nAvailable online 31 January 2017\nKeywords:\nMove analysis\nMethods\nSocial and cognitive genres\nAnnotated corpus\nDisciplinary writing\nResearch article\na b s t r a c t\nIn the tradition of Swalesian genre theory, this manuscript explores the rhetorical\ncomposition of research article Methods sections through a top-down analysis of a corpus\nof nine hundred texts representative of thirty academic ﬁelds. The analysis resulted in a\ncomprehensive cross-disciplinary model, called Demonstrating Rigour and Credibility\n(DRaC). The model contains three moves and sixteen steps, which are deﬁned in terms of\nfunctional and content realizations. DRaC further served as the analytic framework for\ncorpus annotation. Manually annotated corpus data revealed the moves and steps with\nhigh distributional prominence as well as those that are not frequent but occur consis-\ntently within and across disciplines. Visualizations of individual texts in a sample of dis-\nciplines demonstrated inter-disciplinary and intra-disciplinary patterns and variation in\nmove sequencing. Additionally, algorithmic analysis of ",
+      "extraction_status": "text_extracted"
+    },
+    {
+      "id": "P18",
+      "filename": "1-s2.0-S277276612400003X-main.pdf",
+      "attachment_path": "/home/builderbob/.codex/attachments/69d363ef-2fd8-4f89-a6b8-62efebd7d219/1-s2.0-S277276612400003X-main.pdf",
+      "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/1-s2.0-S277276612400003X-main.pdf",
+      "sha256": "c3dac7a427e2c6adbd2e16a0aa7be38da9f44afc0abaca7421bccdc34c3d1b77",
+      "bytes": 2927994,
+      "pages": 17,
+      "text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P18.txt",
+      "pages_json_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P18.pages.json",
+      "text_sha256": "bfba1db06ef9497f8c8c6b2f6e1833076d8b7f85b4e2abfbb2b769ee6e766197",
+      "characters_by_page": [
+        3654,
+        7268,
+        6790,
+        4851,
+        4906,
+        6044,
+        5563,
+        786,
+        5772,
+        2025,
+        4365,
+        4620,
+        3639,
+        5786,
+        2601,
+        3329,
+        8899
+      ],
+      "doi_candidates_first_two_pages": [
+        "10.1016/j.rmal.2024.100097"
+      ],
+      "first_page_excerpt": "Research Methods in Applied Linguistics 3 (2024) 100097\nAvailable online 8 February 2024\n2772-7661/© 2024 Elsevier Ltd. All rights reserved.\nInterrater agreement in genre analysis: A methodological review \nand a comparison of three measures \nMinjin Kim *, Xixin Qiu , Yuanheng (Arthur) Wang \nDepartment of Applied Linguistics, The Pennsylvania State University, 312 Sparks Building, University Park, PA 16802, USA   \nA R T I C L E I N F O  \nKeywords: \nEAP genre analysis \nMove-step annotation \nInterrater agreement \nSystematic review \nKrippendorff’s multi-valued alpha \nA B S T R A C T  \nThis study examines the coding procedures, practices, and measures of interrater agreement (IRA) \nfor conducting rhetorical move analysis. We first systematically reviewed 65 English for Aca­\ndemic Purposes (EAP) genre studies, focusing primarily on their IRA rationales and practices. \nBased on the review outcome, we explored three IRA measures: percent agreement, Kappa co­\nefficients (κ), and Krippendorff’s multi-valued alpha (mv-α) in terms of their suitability for \nmeasuring IRA in rhetorical move analysis under different scenarios such as different sample \nsizes, number of coders, and multivalued coding. Specifically, the three researchers annotated 35 \ntexts from the Corpus of Social Sciences Research Article Introductions (COSSRAI) (Lu et al., \n2020) and subsequently compared the potential of th",
+      "extraction_status": "text_extracted"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "validated_at_utc": "2026-11-16T18:13:25.079319+00:00",
+  "requested_rows": 214,
+  "retrieved_works": 106,
+  "remaining_works": 108,
+  "doi_retrieved": 70,
+  "doi_remaining": 84,
+  "additional_retrieved": 36,
+  "additional_remaining": 24,
+  "unique_fulltext_archive_members": 104,
+  "archive_crc": "pass",
+  "all_selected_hashes_and_archive_mappings": "pass",
+  "original_shortlist_csv_unchanged": true,
+  "book_not_counted_as_HBR_essay": true,
+  "scope": "Mechanical partitions, actual retained bytes, archive integrity and declared provenance; not independent semantic or publication-authenticity certification."
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "candidate_key": "physical-sciences:psm_05",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/044395cf5c59c535/web/candidate-1.pdf",
+    "sha256": "d00b877f5f891302abecb4d07849d735d154352185c46888cd0b7137596524d9",
+    "decision": "accept_same_work_pdf",
+    "reviewer": "parent AI agent",
+    "review_method": "Read retained first-page layout text and bibliographic identifiers; not a human gold review or independent publication authenticity certification.",
+    "reason": "Front identifies Communications on Pure and Applied Mathematics XIII (1960), pages 1\u201314, the Courant lecture and Eugene P. Wigner; extracted title/author contain spurious within-word spacing."
+  },
+  {
+    "candidate_key": "physical-sciences:psm_37",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/dc6bdf32d963c658/candidate-1.pdf",
+    "sha256": "229345869aaf847ae5f8a995a01e2013630f5f7ef46a26e65394aa4002770d13",
+    "decision": "accept_same_work_pdf",
+    "reviewer": "parent AI agent",
+    "review_method": "Read retained first-page layout text and bibliographic identifiers; not a human gold review or independent publication authenticity certification.",
+    "reason": "Front identifies Technical Proposal FASER, Forward Search Experiment at the LHC, CERN-LHCC-2018-036 and arXiv:1812.09139v1, with the author list beginning Akitaka Ariga. Complete registered arXiv proposal, 82 pages."
+  },
+  {
+    "candidate_key": "law:law_w2177794968",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/d3c0e55ca4a178bd/candidate-1.pdf",
+    "sha256": "9707f466cb00fcb411b0b0483fa231bcfa96d66e67097601bbd7d3a41b6f1baf",
+    "decision": "accept_same_work_pdf",
+    "reviewer": "parent AI agent",
+    "review_method": "Read retained first-page layout text and bibliographic identifiers; not a human gold review or independent publication authenticity certification.",
+    "reason": "Front title and John MacDonald/Jeffrey Fagan/Amanda Geller match; requested PLOS DOI is present. Side-column Abstract interrupts conservative front-matter parsing. Full 13-page PDF."
+  },
+  {
+    "candidate_key": "business:business_049",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/b5e69fea30329d93/candidate-2.pdf",
+    "sha256": "86bbe04389a09fc8cbc0b643d1351ea6d0b2dee918d076613bfa5428665acc45",
+    "decision": "accept_same_work_pdf",
+    "reviewer": "parent AI agent",
+    "review_method": "Read retained first-page layout text and bibliographic identifiers; not a human gold review or independent publication authenticity certification.",
+    "reason": "Printed title, Sarah Lee et al., BMJ Open 2019 publication and requested DOI match. Rotated copyright text interrupts extracted title order; seven-page PDF corroborated by retained complete JATS XML."
+  },
+  {
+    "candidate_key": "law:law_w2171128603",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/449d93c05d19d1be/web/candidate-1.pdf",
+    "sha256": "4061fe39700d145fa40e902bd450c182eb544d28b188484482c8a884aedbb729",
+    "decision": "accept_same_work_pdf",
+    "reviewer": "parent AI agent",
+    "review_method": "Read retained first-page layout text and bibliographic identifiers; not a human gold review or independent publication authenticity certification.",
+    "reason": "Front identifies Credible Causal Inference for Empirical Legal Studies, Annual Review of Law and Social Science 2011, 7:17\u201340, with the requested DOI. Multi-column extraction interrupts title order; 26 PDF pages include publication material."
+  },
+  {
+    "candidate_key": "medicine:medicine-tutorial-3",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/758f9467a38490e9/web/candidate-1.pdf",
+    "sha256": "9d86ae6ba343241e7d23933f3e951c24f3dd42b0eb4e01de502160931cb3b654",
+    "decision": "accept_same_work_pdf",
+    "reviewer": "parent AI agent",
+    "review_method": "Read retained first-page layout text and bibliographic identifiers; not a human gold review or independent publication authenticity certification.",
+    "reason": "First page prints the requested title, H. Putter/M. Fiocco/R. B. Geskus and DOI 10.1002/sim.2712; Statist. Med. 2007;26:2389\u20132430 corresponds to the 42-page PDF. Summary heading bounds differ from title heuristic."
+  },
+  {
+    "candidate_key": "physical-sciences:psm_32",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/8653445838ae76c4/native/SOP-9-original-pages.pdf",
+    "sha256": "2665ac2b75fff9dd0e3f43a912c8f656084f2e0e5eba952d30899de8c605f259",
+    "decision": "accept_same_work_pdf",
+    "reviewer": "parent AI agent",
+    "review_method": "Read source heading/date and verified complete numbered procedure-page sequence in retained publisher container.",
+    "reason": "Exact SOP 9; parent PDF pages 134\u2013140, procedure pages 1\u20137; source dates September 2014 (SOP9) / April 2013 (SOP14). Original container and hashes retained."
+  },
+  {
+    "candidate_key": "physical-sciences:psm_33",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/08e23522a36175bd/native/SOP-14-original-pages.pdf",
+    "sha256": "5a1270c83e400813e8206d83774d9c7133053f41d1255cabbf8401a8274d38d7",
+    "decision": "accept_same_work_pdf",
+    "reviewer": "parent AI agent",
+    "review_method": "Read source heading/date and verified complete numbered procedure-page sequence in retained publisher container.",
+    "reason": "Exact SOP 14; parent PDF pages 35\u201353, procedure pages 1\u201319; source dates September 2014 (SOP9) / April 2013 (SOP14). Original container and hashes retained."
+  }
+]

@@ -1,0 +1,443 @@
+{
+  "schema_version": "0.1",
+  "status": "worked_comparison_not_genre_profile",
+  "source_selection": "Three user-supplied examples with original publication years before 2015; no population sampling claim.",
+  "scope": "Compare section structure and interpreted paragraph functions; no word-budget or reading-level inference.",
+  "template_policy": "Blocks describe contributions, not mandatory paragraphs or source wording. Repeat, combine, reorder or omit when appropriate to the task. Research methods/results must come from actual records; mark gaps unresolved.",
+  "documents": [
+    {
+      "id": "nejm",
+      "filename": "NEJMp1312793.pdf",
+      "title": "Dead Man Walking",
+      "original_year": 2013,
+      "family": "Essays and commentary",
+      "form": "Argument / perspective",
+      "variant": "Experience-led professional argument",
+      "reader_question": "What does this experience reveal, and what responsibility follows?",
+      "source_boundary": "PDF pp. 1–2. Start at target title on shared p. 1; end before disclosures on p. 2. Prior article and target references excluded.",
+      "sections": [
+        {
+          "name": "Opening reaction and patient account",
+          "pdf_pages": [
+            1
+          ],
+          "printed_heading": false,
+          "proposed_functions": [
+            "assert",
+            "narrate",
+            "illustrate"
+          ],
+          "purpose": "Give the authors’ response, then develop the encounter that motivates it."
+        },
+        {
+          "name": "Additional cases and wider evidence",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_heading": false,
+          "proposed_functions": [
+            "report",
+            "illustrate",
+            "support",
+            "qualify"
+          ],
+          "purpose": "Move beyond the individual case while limiting the counterfactual claim."
+        },
+        {
+          "name": "Policy setting and professional obligations",
+          "pdf_pages": [
+            2
+          ],
+          "printed_heading": false,
+          "proposed_functions": [
+            "orient",
+            "interpret",
+            "assert",
+            "support"
+          ],
+          "purpose": "Connect the problem to physician responsibilities and three proposed responses."
+        },
+        {
+          "name": "Closing stakes",
+          "pdf_pages": [
+            2
+          ],
+          "printed_heading": false,
+          "proposed_functions": [
+            "report",
+            "interpret",
+            "assert"
+          ],
+          "purpose": "Return to patients and the consequences that motivate the argument."
+        }
+      ],
+      "blank_template": [
+        "TITLE: [The tension or claim I want the reader to notice]",
+        "OPENING: [My response or the problem that brought me to this piece]",
+        "ENCOUNTER: [What happened, to whom, and what made it matter]",
+        "BEYOND THIS CASE: [Other observations and relevant evidence]",
+        "BOUNDARY: [What this case and evidence do not establish]",
+        "POSITION: [What I think follows, and why]",
+        "RESPONSES: [Who could do what, with reasons]",
+        "CLOSING: [The stakes I want the reader to carry away]"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1312793.pdf",
+      "source_sha256": "e87ccfec93fe82cb4dca2cc9f3d823dc74afab59ee68e8590b6730c07fe0c5f2",
+      "form_status": "proposed_for_comparison_not_taxonomy_adoption",
+      "function_assessment": "single_model_interpretation_not_independent_agreement",
+      "observed_range": null,
+      "working_target": null,
+      "declared_minimum": null,
+      "declared_maximum": null,
+      "paragraph_samples": [
+        {
+          "id": "nejm-1",
+          "pdf_page": 2,
+          "page_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/comparison-nejm-hbr-systematic/nejm-p2.txt",
+          "page_text_sha256": "3fd4e3fff437895c7b6d7272b8f8c3f4bb2a6467af98be1b2faaabdbc9821654",
+          "start": 66,
+          "end": 1032,
+          "offset_units": "zero_based_end_exclusive_Unicode_codepoints",
+          "span_sha256": "1de909243eba19736ca3629410da42ed038e158761c86d4814253f93d3bbd15f",
+          "observed_functions": [
+            "report",
+            "support",
+            "qualify"
+          ],
+          "analysis": "Connects cited population evidence to the patient case while acknowledging that an individual counterfactual outcome is uncertain.",
+          "boundary_status": "source-delimited paragraph sample; PDF line order remains representation-dependent"
+        },
+        {
+          "id": "nejm-2",
+          "pdf_page": 2,
+          "page_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/comparison-nejm-hbr-systematic/nejm-p2.txt",
+          "page_text_sha256": "3fd4e3fff437895c7b6d7272b8f8c3f4bb2a6467af98be1b2faaabdbc9821654",
+          "start": 1982,
+          "end": 2515,
+          "offset_units": "zero_based_end_exclusive_Unicode_codepoints",
+          "span_sha256": "f8c960cec32f78bc55f7e27af7547fc6070f6537b190bbc0856ba32d81d90893",
+          "observed_functions": [
+            "assert",
+            "support"
+          ],
+          "analysis": "Recommends professional responsibility and supplies ethical reasoning; not a reproducible action procedure.",
+          "boundary_status": "source-delimited paragraph sample; PDF line order remains representation-dependent"
+        }
+      ]
+    },
+    {
+      "id": "hbr",
+      "filename": "What-Makes-a-Leader.pdf",
+      "title": "What Makes a Leader?",
+      "original_year": 1998,
+      "reprint_year": 2004,
+      "family": "Essays and commentary",
+      "form": "Argument / perspective",
+      "variant": "Practitioner argument organized by a proposed framework",
+      "reader_question": "What should I recognize, and how would it change my professional judgment?",
+      "source_boundary": "Main article PDF pp. 3–11; exclude reprint introduction, author bio, table/sidebar, pull quotes and order information from main-prose measurement. Summary on p. 2 and further reading on p. 12 are separate.",
+      "sections": [
+        {
+          "name": "Unheaded opening",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "printed_heading": false,
+          "proposed_functions": [
+            "orient",
+            "compare",
+            "assert",
+            "qualify"
+          ],
+          "purpose": "Contrast familiar outcomes and state the proposed distinction."
+        },
+        {
+          "name": "Evaluating Emotional Intelligence",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "printed_heading": true,
+          "proposed_functions": [
+            "report",
+            "support",
+            "explain"
+          ],
+          "purpose": "Describe the author’s research basis and reported findings."
+        },
+        {
+          "name": "Self-Awareness; Self-Regulation; Motivation; Empathy; Social Skill",
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "printed_heading": true,
+          "proposed_functions": [
+            "define",
+            "explain",
+            "illustrate",
+            "compare",
+            "interpret"
+          ],
+          "purpose": "Develop five named components through varying combinations of meaning, cases, signs and significance."
+        },
+        {
+          "name": "Unheaded closing",
+          "pdf_pages": [
+            11
+          ],
+          "printed_heading": false,
+          "proposed_functions": [
+            "assert",
+            "qualify"
+          ],
+          "purpose": "Reassert the position and conditions on developing the capabilities."
+        }
+      ],
+      "blank_template": [
+        "TITLE: [The professional question I want to answer]",
+        "OPENING: [A recognizable puzzle, contrast or problem]",
+        "CENTRAL IDEA: [The distinction or framework I propose]",
+        "BASIS: [Observations, research or reasoning that support it]",
+        "REPEAT FOR EACH USEFUL COMPONENT — not necessarily five:",
+        "  HEADING: [The component in my terms]",
+        "  MEANING: [What it means and what it is often confused with]",
+        "  CASE: [A sourced experience or explicitly hypothetical illustration]",
+        "  CONNECTION: [Why this case makes the component useful]",
+        "  RECOGNITION OR APPLICATION: [What the reader could notice or do]",
+        "  CONDITION, IF NEEDED: [When the advice needs adjustment]",
+        "CLOSING: [The judgment I want the reader to make; conditions on applying it]"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/What-Makes-a-Leader.pdf",
+      "source_sha256": "82cfea035e69a25df973590eab8e7807e14f8883e0fdcb2f77c8b2c2c2695096",
+      "form_status": "proposed_for_comparison_not_taxonomy_adoption",
+      "function_assessment": "single_model_interpretation_not_independent_agreement",
+      "observed_range": null,
+      "working_target": null,
+      "declared_minimum": null,
+      "declared_maximum": null,
+      "paragraph_samples": [
+        {
+          "id": "hbr-1",
+          "pdf_page": 5,
+          "page_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/comparison-nejm-hbr-systematic/hbr-p5.txt",
+          "page_text_sha256": "b0e5e7ef96b2720edfecbf9eebb2c63e7b950292102627888af445f1f874f444",
+          "start": 228,
+          "end": 677,
+          "offset_units": "zero_based_end_exclusive_Unicode_codepoints",
+          "span_sha256": "cfddc0b6c906210db2432656da6580f53aa327574f10c371fc55b163babd2e6f",
+          "observed_functions": [
+            "define",
+            "compare"
+          ],
+          "analysis": "Defines a capability and distinguishes it from overly critical or unrealistically hopeful self-assessment.",
+          "boundary_status": "source-delimited paragraph sample; PDF line order remains representation-dependent"
+        },
+        {
+          "id": "hbr-2",
+          "pdf_page": 7,
+          "page_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/comparison-nejm-hbr-systematic/hbr-p7.txt",
+          "page_text_sha256": "c075096c9456865216168fab6bb265d94d1da7f87b7ac34c3071edcc57562c6a",
+          "start": 2194,
+          "end": 2633,
+          "offset_units": "zero_based_end_exclusive_Unicode_codepoints",
+          "span_sha256": "375c2ab868d8715ff17cd4f6deb4e0d880e215302107b98f4a04a62c72c314ab",
+          "observed_functions": [
+            "define",
+            "explain"
+          ],
+          "analysis": "Defines self-regulation through a proposed relationship between impulses and behavior; the causal account is attributed to the author.",
+          "boundary_status": "source-delimited paragraph sample; PDF line order remains representation-dependent"
+        },
+        {
+          "id": "hbr-3",
+          "pdf_page": 11,
+          "page_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/comparison-nejm-hbr-systematic/hbr-p11.txt",
+          "page_text_sha256": "af5849cd10530229ba0d41ee08b53b1e70875ce4f5e4496b2cad5751430b3edd",
+          "start": 4000,
+          "end": 4294,
+          "offset_units": "zero_based_end_exclusive_Unicode_codepoints",
+          "span_sha256": "21102fc138b67a6044e0ddd1081bfda8f179841d2d32f2b54cfcdb206e960948",
+          "observed_functions": [
+            "assert",
+            "qualify"
+          ],
+          "analysis": "Ends with a claim of learnability conditioned on effort, time and commitment.",
+          "boundary_status": "source-delimited paragraph sample; PDF line order remains representation-dependent"
+        }
+      ]
+    },
+    {
+      "id": "systematic",
+      "filename": "PIIS0161642014004333.pdf",
+      "title": "Global Prevalence of Glaucoma and Projections of Glaucoma Burden through 2040: A Systematic Review and Meta-Analysis",
+      "original_year": 2014,
+      "family": "Evidence syntheses",
+      "form": "Systematic review",
+      "variant": "Prevalence review using meta-analysis and projections",
+      "reader_question": "What does the selected evidence show, how was it obtained, and how certain is the interpretation?",
+      "source_boundary": "Main body PDF pp. 1–7. Structured abstract separate; acknowledgments, references and author information excluded. External appendices unavailable in supplied PDF.",
+      "sections": [
+        {
+          "name": "Structured abstract",
+          "pdf_pages": [
+            1
+          ],
+          "printed_heading": true,
+          "proposed_functions": [
+            "orient",
+            "report",
+            "interpret"
+          ],
+          "purpose": "Separate summary with Purpose, Design, Participants, Methods, Main Outcome Measures, Results and Conclusions."
+        },
+        {
+          "name": "Unheaded introduction",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_heading": false,
+          "proposed_functions": [
+            "orient",
+            "compare",
+            "qualify",
+            "assert",
+            "explain"
+          ],
+          "purpose": "Establish need, shortcomings of prior estimates, scope and rationale."
+        },
+        {
+          "name": "Methods",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "printed_heading": true,
+          "proposed_functions": [
+            "report",
+            "define",
+            "explain",
+            "qualify"
+          ],
+          "purpose": "Describe search, eligibility, extraction and analytical decisions, including assumptions."
+        },
+        {
+          "name": "Results",
+          "pdf_pages": [
+            3,
+            4,
+            5
+          ],
+          "printed_heading": true,
+          "proposed_functions": [
+            "report",
+            "compare",
+            "qualify"
+          ],
+          "purpose": "Report selection, included studies, estimates and subgroup patterns with scope and uncertainty."
+        },
+        {
+          "name": "Discussion, including Study Strengths and Limitations",
+          "pdf_pages": [
+            5,
+            6,
+            7
+          ],
+          "printed_heading": true,
+          "proposed_functions": [
+            "interpret",
+            "compare",
+            "explain",
+            "qualify"
+          ],
+          "purpose": "Relate findings to prior estimates, possible explanations and constraints."
+        },
+        {
+          "name": "Unheaded concluding paragraph within Discussion",
+          "pdf_pages": [
+            7
+          ],
+          "printed_heading": false,
+          "proposed_functions": [
+            "report",
+            "interpret"
+          ],
+          "purpose": "Restate the synthesis and its proposed use."
+        }
+      ],
+      "blank_template": [
+        "TITLE: [Question, scope and review design]",
+        "ABSTRACT (placed first; finalize after the body): [A faithful summary matching the completed report and destination format]",
+        "INTRODUCTION: [Why an answer is needed; gap; exact question]",
+        "METHODS: [What was actually searched, selected, extracted, appraised and synthesized; dates and decisions]",
+        "RESULTS: [Study flow; included evidence; findings; uncertainty and relevant differences]",
+        "DISCUSSION: [What findings mean; comparison with prior work; limits; implications]",
+        "CONCLUSION: [The answer justified by those findings]"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/PIIS0161642014004333.pdf",
+      "source_sha256": "768a426379ae5046c8feb9ce300000289a45b1b79c11f9684c5d89362c3f3429",
+      "form_status": "proposed_for_comparison_not_taxonomy_adoption",
+      "function_assessment": "single_model_interpretation_not_independent_agreement",
+      "observed_range": null,
+      "working_target": null,
+      "declared_minimum": null,
+      "declared_maximum": null,
+      "paragraph_samples": [
+        {
+          "id": "systematic-1",
+          "pdf_page": 2,
+          "page_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/comparison-nejm-hbr-systematic/systematic-p2.txt",
+          "page_text_sha256": "dd98a06db1aceedfd7d7c07b7e9687ccc12b61437f443faea43ec66be76d7332",
+          "start": 1456,
+          "end": 1792,
+          "offset_units": "zero_based_end_exclusive_Unicode_codepoints",
+          "span_sha256": "e82ec434109dfb972e0e92d707ddf40e242f83fd26857507cb322d2679a9e22f",
+          "observed_functions": [
+            "report"
+          ],
+          "analysis": "Reports databases, publication-language scope and the actual final search date; it does not instruct the reader to run a search.",
+          "boundary_status": "source-delimited paragraph sample; PDF line order remains representation-dependent"
+        },
+        {
+          "id": "systematic-2",
+          "pdf_page": 3,
+          "page_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/comparison-nejm-hbr-systematic/systematic-p3.txt",
+          "page_text_sha256": "8cea52b1dc118a99a260caf08b8417969470ac1a0b593540bec2660985d47d18",
+          "start": 4090,
+          "end": 4489,
+          "offset_units": "zero_based_end_exclusive_Unicode_codepoints",
+          "span_sha256": "029b1583241cbfe1efd5d45fa1a8b812b12b0f5a47f088a5a43d74227e39c44f",
+          "observed_functions": [
+            "report"
+          ],
+          "analysis": "Reports pooled estimates, named populations, uncertainty and a figure pointer rather than offering a personal reaction.",
+          "boundary_status": "source-delimited paragraph sample; PDF line order remains representation-dependent"
+        },
+        {
+          "id": "systematic-3",
+          "pdf_page": 7,
+          "page_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/comparison-nejm-hbr-systematic/systematic-p7.txt",
+          "page_text_sha256": "c7ff720976d374e35157a7faa99c9f013db1ac1b64f24ef5e7adeea163a5859e",
+          "start": 1049,
+          "end": 2641,
+          "offset_units": "zero_based_end_exclusive_Unicode_codepoints",
+          "span_sha256": "48d2fa2de836df4e81d0d40773317fcb909067ff8e9b98f3f91be048e3f88eab",
+          "observed_functions": [
+            "qualify",
+            "explain"
+          ],
+          "analysis": "Connects geographical coverage, language selection, data availability and projection assumptions to interpretation.",
+          "boundary_status": "source-delimited paragraph sample; PDF line order remains representation-dependent"
+        }
+      ]
+    }
+  ]
+}

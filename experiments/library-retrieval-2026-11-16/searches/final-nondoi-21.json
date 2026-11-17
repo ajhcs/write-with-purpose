@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_33",
+      "doi": "",
+      "title": "Recommended Standard Operating Procedure for Gravimetric Calibration of Volumetric Standards Using an Electronic Balance",
+      "authors": "[\"National Institute of Standards and Technology\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Recommended Standard Operating Procedure for Gravimetric Calibration of Volumetric Standards Using an Electronic Balance\" Technology pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_33",
+      "query": "\"Recommended Standard Operating Procedure for Gravimetric Calibration of Volumetric Standards Using an Electronic Balance\" Technology pdf",
+      "urls": [
+        {
+          "title": "SOP 14 Gravimetric Calibration of Volumetric Standards Using an Electronic Balance",
+          "url": "https://www.nist.gov/system/files/documents/2019/05/14/sop-14-gravimetric-calibration-20190508.pdf",
+          "score": 0.5833333333333334
+        }
+      ]
+    }
+  ]
+}

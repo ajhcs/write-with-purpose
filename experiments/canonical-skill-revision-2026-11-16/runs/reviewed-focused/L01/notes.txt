@@ -1,0 +1,1 @@
+This replaces vague praise with the supplied result and its denominator. It does not claim the result is good relative to a baseline or comparator, because none was supplied.

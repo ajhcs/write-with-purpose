@@ -1,0 +1,47 @@
+{
+  "challenger": "voice-novelty",
+  "challenges": [
+    {
+      "id": "VN-C01",
+      "target_advocate": "editing-improvement",
+      "target_proposal_id": "EI-02",
+      "objection": "I disagree with making a model-written inference bridge the default whenever the reader needs a connection. A conclusion and observations can support multiple interpretations even when the resulting bridge is cautious. The presence of “can” does not establish that the chosen generalization is the author’s intended contribution.",
+      "case": "A resident reports a leaking window despite three updates. “An update can show activity without showing repair is complete” is plausible, but the author may instead be contrasting uncertainty with the burden of repeated follow-up. A model that inserts the former as the sole thesis can erase the latter without inventing a surface fact.",
+      "proposed_resolution": "Before insertion, distinguish a source-stated conclusion, an entailment necessary to make that conclusion intelligible, and a new interpretive thesis. Insert the first two if scoped and supported. For the third, label it a provisional alternative and, if choice materially changes meaning, offer the competing reading or ask the author; continue independent editing meanwhile. For prose-only tasks deliver the best grounded version with a concise material uncertainty note, rather than silently attributing the inference.",
+      "novelty_assessment": "Current write-with-purpose already says “Make the relationship intelligible,” “Show how the relevant fact supports the conclusion,” and explain a needed inference. EI-02’s defensible incremental novelty is a competing-bridge test and explicit author-versus-model attribution, not the bridge itself."
+    },
+    {
+      "id": "VN-C02",
+      "target_advocate": "editing-improvement",
+      "target_proposal_id": "EI-03",
+      "objection": "The decision map usefully preserves tradeoffs, but framing the improvement around a reader decision can quietly promote a provisional author position into a directive. Even an exact claim moved to the opening can change its authority, emphasis or relationship to qualifications. Source inventory alone does not prove fidelity.",
+      "case": "A reflective essay tentatively explores whether the author should leave a profession; its last sentence says “I may need to leave.” Moving that idea to the start as the answer, or turning it into “I should leave,” closes uncertainty and recasts an inquiry as a decision. Even the original wording can become an apparent thesis when isolated in a heading.",
+      "proposed_resolution": "Require a recomposition to retain endorsement, scope, temporal and rhetorical status as well as the text’s facts. Use a decision-first route only where the author has a decision to communicate; offer a discovery-led competitor if exploration itself is the intended experience. Permit model selection on reversible work when the brief settles intent; show competing versions or flag a material inference when it does not.",
+      "novelty_assessment": "Current structure-and-purpose already directs decision work to make the choice, reasons and consequences recoverable, and to move or combine material. The candidate’s genuine increment is a concretely compared second architecture with preserved counterconsiderations; a generic “map the claim and reasons” should not occupy the innovation set."
+    },
+    {
+      "id": "VN-C03",
+      "target_advocate": "checks-evaluation",
+      "target_proposal_id": "CE-02",
+      "objection": "I disagree with triggering an obligation-to-receipt record for every broadly described “high-stakes preservation obligation.” Such obligations are often semantic and can be mistaken for exact-literal constraints, causing an effective rewrite to be rejected or filling the author’s interface with bookkeeping. Hashing a file also does not attest that the author approved an interpretation or that the checked body is the delivered chat.",
+      "case": "A brief says “keep the uncertainty in the diagnosis.” A model converts it to a protected exact sentence. It blocks a clearer rewrite with the same uncertainty; alternatively the exact phrase survives in a quotation while the revised main claim becomes falsely definitive and still passes.",
+      "proposed_resolution": "Create a receipt only for explicit mechanically testable obligations and only in a workflow where a final artifact and scoped check exist. Put meaning preservation in a short semantic review when it materially matters, without requiring a separate saved record. Check source/delivery binding where technically supported, and distinguish unavailable chat verification. Never turn a concept or stylistic preference into a literal.",
+      "novelty_assessment": "Existing checks.md already limits contracts to actual explicit literals and lengths, warns literal presence is not contextual correctness, and fingerprints input bytes. Useful incremental contribution is automatic final-artifact linkage and status coverage, currently unimplemented. It is engineering infrastructure, not a new originality mechanism."
+    },
+    {
+      "id": "VN-C04",
+      "target_advocate": "checks-evaluation",
+      "target_proposal_id": "CE-03",
+      "objection": "Requiring an explicit strongest loss for each consequential candidate may over-rationalize a creative choice, privileging what the model can name over an author’s intended tension, sound or surprise. A model-generated loss can become a false reason to discard a bolder and more original draft.",
+      "case": "Two openings convey the same incident: one evokes a small, odd detail and the other states the issue immediately. The model labels the former “delays the point” and selects the latter without noticing that delayed recognition is the essay’s intended effect.",
+      "proposed_resolution": "Treat gains and losses as hypotheses, including a legitimate “effect unclear” status; assess whether the author’s intended experience is preserved before applying a decision-memo reader task. Show the original or alternatives only when the tradeoff is consequential and uncertain, and allow authorized substantive edits to proceed without mandatory record creation.",
+      "novelty_assessment": "Current structure-and-purpose already says to try removing, moving or combining a unit and compare what readers recover and lose; it also protects useful framing and emotional effect. The distinct addition is comparison across levels of intervention with explicit plausible loss; overlap with VN-02/VN-03 is substantial and these should be merged in adjudication, not counted as separate innovations."
+    }
+  ],
+  "concessions": [
+    "EI-05’s explicit rejection of a plausible but unsupported new dependency is stronger than VN-04’s broad call to challenge inference; integrate this concrete dependency test into a combined rule.",
+    "CE-02 correctly binds checks to actual final artifacts and clearly separates semantic remainder; that operational discipline improves my proposed provenance tracking when a formal receipt is warranted.",
+    "CE-03’s requirement to consider what an edit loses is a useful check on my two-architecture proposal, provided losses may remain uncertain and no ranking is forced.",
+    "EI-01 makes explicit that an improvement request authorizes substantive work and need not pause for approval of reversible choices; this is sharper than the cautious presentation of author choice in VN-02."
+  ]
+}

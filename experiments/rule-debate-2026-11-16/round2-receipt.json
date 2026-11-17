@@ -1,0 +1,52 @@
+{
+  "stage": "Peer challenges complete before replies",
+  "files": [
+    {
+      "path": "challenges/checks-evaluation.json",
+      "sha256": "7e9852fd5393b636f574c6dd7cd0ed48af9e3c282289671a8ee332d7614ddc72",
+      "challenge_ids": [
+        "CE-C01",
+        "CE-C02",
+        "CE-C03",
+        "CE-C04"
+      ]
+    },
+    {
+      "path": "challenges/editing-improvement.json",
+      "sha256": "2f03ab376f80bcd8d30c0529af62e8db82583f0f8ea1490f8b18504dd265383e",
+      "challenge_ids": [
+        "EI-X01",
+        "EI-X02",
+        "EI-X03",
+        "EI-X04"
+      ]
+    },
+    {
+      "path": "challenges/form-functions.json",
+      "sha256": "69bb5f863e8458299a74d6780fa0e65ba81671f33afb6f5f3d4aee0d3b0bfb99",
+      "challenge_ids": [
+        "FF-C01",
+        "FF-C02"
+      ]
+    },
+    {
+      "path": "challenges/reader-learning.json",
+      "sha256": "6ee67e83fa6bbc2a107a1cfe3565c168e96b65d2ba21f135c3d4d516f25ce6cc",
+      "challenge_ids": [
+        "RL-CH01",
+        "RL-CH02",
+        "RL-CH03"
+      ]
+    },
+    {
+      "path": "challenges/voice-novelty.json",
+      "sha256": "16c1a59a856453d49aae43cb06e9b0ac90d316171aad5158bd92fb8f177cc9ac",
+      "challenge_ids": [
+        "VN-C01",
+        "VN-C02",
+        "VN-C03",
+        "VN-C04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "from": "wwp-debate-0.1",
+  "to": "wwp-debate-0.1.1",
+  "trigger": "Independent reviewer identified B04 could block an explicitly requested worked solution.",
+  "semantic_change": "Attempt-first applies to chosen practice; requested worked solutions are delivered directly.",
+  "unchanged": "R01-R04 and coding guidance semantics; changes to coding candidate identifiers/hash are metadata only.",
+  "old_guide_sha256": "3f6703101041e24e33c85a6abacc52a442dee3d4cc3523f7c19ef41370dcf2aa",
+  "new_guide_sha256": "0cfa57f8280320eb6eeba7234d041c7d6a796a9ecb38c18293eea5265f70c367",
+  "frozen_execution_inputs": "validation/execution-inputs-0.1",
+  "validation_scope": "Eight-case execution used0.1; those cases did not request teaching/practice. Parent review and narrow B04 counterexample check apply to0.1.1; no new empirical learning claim.",
+  "counterexamples": [
+    {
+      "request": "Show me a worked solution explaining why the condition belongs next to the claim.",
+      "expected": "Give the requested worked solution directly; no attempt-first gate."
+    },
+    {
+      "request": "Let me practice choosing where this condition belongs before you show your version.",
+      "expected": "Allow the author attempt first, then provide requested feedback/solution."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+test_absent_limits_do_not_invent_defaults (test_check_annotations.AnnotationChecks.test_absent_limits_do_not_invent_defaults) ... ok
+test_catalogue_version_mismatch_is_rejected (test_check_annotations.AnnotationChecks.test_catalogue_version_mismatch_is_rejected) ... ok
+test_cli_exit_codes_and_input_preservation (test_check_annotations.AnnotationChecks.test_cli_exit_codes_and_input_preservation) ... ok
+test_dangling_section_evidence_and_relation_references_are_rejected (test_check_annotations.AnnotationChecks.test_dangling_section_evidence_and_relation_references_are_rejected) ... ok
+test_duplicate_ids_are_rejected (test_check_annotations.AnnotationChecks.test_duplicate_ids_are_rejected) ... ok
+test_example_checks_mechanics_only (test_check_annotations.AnnotationChecks.test_example_checks_mechanics_only) ... ok
+test_invalid_constraints_are_rejected (test_check_annotations.AnnotationChecks.test_invalid_constraints_are_rejected) ... ok
+test_minimum_and_zero_maximum_are_enforced (test_check_annotations.AnnotationChecks.test_minimum_and_zero_maximum_are_enforced) ... ok
+test_mixed_and_unresolved_roles_are_permitted (test_check_annotations.AnnotationChecks.test_mixed_and_unresolved_roles_are_permitted) ... ok
+test_overlapping_and_out_of_order_spans_are_rejected (test_check_annotations.AnnotationChecks.test_overlapping_and_out_of_order_spans_are_rejected) ... ok
+test_semantically_wrong_registered_label_is_not_certified (test_check_annotations.AnnotationChecks.test_semantically_wrong_registered_label_is_not_certified) ... ok
+test_stale_source_is_rejected (test_check_annotations.AnnotationChecks.test_stale_source_is_rejected) ... ok
+test_unicode_character_offsets_preserve_crlf (test_check_annotations.AnnotationChecks.test_unicode_character_offsets_preserve_crlf) ... ok
+test_unknown_function_is_rejected (test_check_annotations.AnnotationChecks.test_unknown_function_is_rejected) ... ok
+test_wrong_quote_and_bounds_are_rejected (test_check_annotations.AnnotationChecks.test_wrong_quote_and_bounds_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.054s
+
+OK

@@ -1,0 +1,82 @@
+{
+  "arm": "revised",
+  "group": "B",
+  "loaded_skill_reference_and_helper_paths": [
+    {
+      "path": "revised-snapshot/skills/edit-with-purpose/SKILL.md",
+      "sha256": "3304c5d253a69f89dc4085334594ba4a5a2a5adda0c85927d44ac9ac15e6bcb5"
+    },
+    {
+      "path": "revised-snapshot/skills/edit-with-purpose/references/structure-and-purpose.md",
+      "sha256": "a81f60a2019d4b505be5a5d9c433c4608d7e2964d8d3508d6d9ab09d24d74bb8"
+    },
+    {
+      "path": "revised-snapshot/skills/edit-with-purpose/references/technical-meaning.md",
+      "sha256": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60"
+    },
+    {
+      "path": "revised-snapshot/skills/edit-with-purpose/references/mechanical-checks.md",
+      "sha256": "d4ba34812241ba7092f21716fbc4d5528e9c03c583954b1989275190d25d23dd"
+    },
+    {
+      "path": "revised-snapshot/skills/write-with-purpose/SKILL.md",
+      "sha256": "6aafccaf5311cdfc4d2f3808260fb511008e02b8ddf94e0f159bef0bb78d6df1"
+    },
+    {
+      "path": "revised-snapshot/skills/write-with-purpose/references/structure-and-purpose.md",
+      "sha256": "a81f60a2019d4b505be5a5d9c433c4608d7e2964d8d3508d6d9ab09d24d74bb8"
+    },
+    {
+      "path": "revised-snapshot/skills/write-with-purpose/references/checks.md",
+      "sha256": "ef94e377abaa223a5b4b2f53724eb8c2c1749b60704b91e26df939a52279b538"
+    },
+    {
+      "path": "revised-snapshot/skills/write-with-purpose/scripts/check_text.py",
+      "sha256": "873f4286cb2848301ef2d5cacd02610744fe2581e5f4ff269ef60a53b4356cb3"
+    }
+  ],
+  "cases": [
+    {
+      "id": "E03",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "runs/revised-B/E03/output.txt",
+      "material_change_notes": "Adjusted rhythm and punctuation while retaining the repetition, fixed details, and unresolved ending.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "E05",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "runs/revised-B/E05/output.txt",
+      "material_change_notes": "Developed the storage versus inquiry distinction and bounded the opening as an impression; no empirical evidence added.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "E06",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "runs/revised-B/E06/output.txt",
+      "material_change_notes": "Kept the reported procedure and separately flagged the unsupported accuracy rationale and reader instruction.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "E08",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "runs/revised-B/E08/output.txt",
+      "material_change_notes": "Connected repeated and new identifiers to their outcomes and retained prototype-only testing.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "L02",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "runs/revised-B/L02/output.txt",
+      "material_change_notes": "Provided the source facts and a practice prompt without showing a worked answer.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "D02",
+      "selected_skill": "write-with-purpose",
+      "output_path": "runs/revised-B/D02/output.txt",
+      "material_change_notes": "Drafted the opening from the supplied fictional details while leaving the question unresolved.",
+      "unresolved_issues": []
+    }
+  ]
+}

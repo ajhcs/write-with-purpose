@@ -1,0 +1,141 @@
+{
+  "batch": 11,
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-conceptual_explainer-3",
+      "doi": "10.1038/nri2343",
+      "title": "How regulatory T cells work.",
+      "authors": "[\"Vignali DA\", \"Collison LW\", \"Workman CJ\"]",
+      "field": "medicine_health",
+      "q": "\"How regulatory T cells work.\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-tutorial-1",
+      "doi": "10.1016/j.jclinepi.2010.03.016",
+      "title": "Graphical methods and numerical summaries for presenting results from multiple-treatment meta-analysis: an overview and tutorial.",
+      "authors": "[\"Salanti G\", \"Ades AE\", \"Ioannidis JP\"]",
+      "field": "medicine_health",
+      "q": "\"Graphical methods and numerical summaries for presenting results from multiple-treatment meta-analysis: an overview and tutorial.\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-tutorial-2",
+      "doi": "10.1186/1471-2288-10-1",
+      "title": "A tutorial on pilot studies: the what, why and how.",
+      "authors": "[\"Thabane L\", \"Ma J\", \"Chu R\", \"Cheng J\", \"Ismaila A\", \"Rios LP\", \"Robson R\", \"Thabane M\", \"Giangregorio L\", \"Goldsmith CH\"]",
+      "field": "medicine_health",
+      "q": "\"A tutorial on pilot studies: the what, why and how.\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-tutorial-3",
+      "doi": "10.1002/sim.2712",
+      "title": "Tutorial in biostatistics: competing risks and multi-state models.",
+      "authors": "[\"Putter H\", \"Fiocco M\", \"Geskus RB\"]",
+      "field": "medicine_health",
+      "q": "\"Tutorial in biostatistics: competing risks and multi-state models.\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-conceptual_explainer-3",
+      "query": "\"How regulatory T cells work.\" pdf",
+      "urls": [
+        {
+          "title": "How regulatory T cells work",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/2665249/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "How regulatory T cells work",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2665249/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "How regulatory T cells work",
+          "url": "https://doi.org/10.1038/nri2343",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "How regulatory T cells work",
+          "url": "https://openalex.org/W2153389047",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Regulatory T Cells: Molecular Actions on Effector Cells in Immune Regulation",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1155/2016/1720827",
+          "score": 0.5,
+          "body_score": 0.5
+        }
+      ]
+    },
+    {
+      "candidate_key": "medicine:medicine-tutorial-1",
+      "query": "\"Graphical methods and numerical summaries for presenting results from multiple-treatment meta-analysis: an overview and tutorial.\" pdf",
+      "urls": [
+        {
+          "title": "Graphical methods and numerical summaries for presenting results from multiple-treatment meta-analysis: an overview and tutorial",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0895435610001691",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Graphical methods and numerical summaries for presenting results from multiple-treatment meta-analysis: an overview and tutorial",
+          "url": "https://bishtref.com/articles/10.1016/j.jclinepi.2010.03.016",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Rankless | Graphical methods and numerical summaries for presenting results from multiple-treatment meta-analysis: an overview and tutorial",
+          "url": "https://www.rankless.org/hit-papers/10.1016/j.jclinepi.2010.03.016",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Graphical methods and numerical summaries for presenting results from multiple-treatment meta-analysis: An overview and tutorial",
+          "url": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=201102291006152427",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "medicine:medicine-tutorial-2",
+      "query": "\"A tutorial on pilot studies: the what, why and how.\" pdf",
+      "urls": [
+        {
+          "title": "A tutorial on pilot studies: the what, why and how",
+          "url": "https://www.uni-marburg.de/de/fb20/fachbereich/gremien/ethik/studien-nach-berufsordnung/thabane.pdf",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "medicine:medicine-tutorial-3",
+      "query": "\"Tutorial in biostatistics: competing risks and multi-state models.\" pdf",
+      "urls": [
+        {
+          "title": "Tutorial in biostatistics: competing risks and multi-state models",
+          "url": "https://bo.folk.ntnu.no/doktor/Slimacek/TutorialStatisticsInMedicine.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Tutorial in biostatistics: competing risks and multi-state models",
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/sim.2712",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Competing Risks and Multistate Models",
+          "url": "https://cran.rstudio.com/web/packages/survivalVignettes/vignettes/tutorial.html",
+          "score": 0.5,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

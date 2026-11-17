@@ -1,0 +1,94 @@
+{
+  "arm": "baseline",
+  "group": "A",
+  "loaded_files": [
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/skills/edit-with-purpose/SKILL.md",
+      "sha256": "99779aadcc1e66f41bd30448b84c6598cfd8e66d1aa71f4dc1d32f0e4d12abef"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/skills/write-with-purpose/SKILL.md",
+      "sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/skills/edit-with-purpose/references/local-edits.md",
+      "sha256": "713b9a09d5b298b07d6a4cfef2501afdd83480fe8918f0be266abf8f6e3e2797"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/skills/edit-with-purpose/references/technical-meaning.md",
+      "sha256": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/skills/edit-with-purpose/references/plain-language-edit.md",
+      "sha256": "279a62a3cdb1f73f1d21e8e0316704206f54e8125d48087f724a416983b4b5a4"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/skills/write-with-purpose/references/structure-and-purpose.md",
+      "sha256": "4bd8556194c70d6588a39334b68ce029749ae5b4b84a5deb98610cc750e3d4a2"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/skills/write-with-purpose/references/concepts-and-claims.md",
+      "sha256": "c4a37964c1a4303f30dcd745a4d1608e3e35b94257adb2b297eada030739f72b"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/skills/write-with-purpose/references/checks.md",
+      "sha256": "27e8a948eeea5f9b5a68449d7ecf8657dee103e621be1c2a6f839cd8dd9d9cce"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/docs/writing-harness/paragraph-functions.json",
+      "sha256": "4d119fac2f29e1c0bbdea77e65e64cba45f67931bc0f816e40a765c0ff3cdc2e"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/skills/edit-with-purpose/scripts/edit_locally.py",
+      "sha256": "195e6c24d4cdb239fab536a0d4a7806ce8e8a86ea042f8f2e3b944ce43328410"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/skills/write-with-purpose/scripts/check_text.py",
+      "sha256": "873f4286cb2848301ef2d5cacd02610744fe2581e5f4ff269ef60a53b4356cb3"
+    }
+  ],
+  "cases": [
+    {
+      "id": "E01",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E01/output.txt",
+      "material_change_notes": "Corrected verb agreement only.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "E02",
+      "selected_skill": "write-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E02/output.txt",
+      "material_change_notes": "Explained the monthly inflow and outflow and proposed assessing capacity and demand before a staffing decision.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "E04",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E04/output.txt",
+      "material_change_notes": "Added a plain-language explanation of the term while retaining the stated behavior.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "E07",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E07/output.txt",
+      "material_change_notes": "Coded overlapping functions and relations with distinct anchors and realization spans; the scenario remains hypothetical.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "L01",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/L01/output.txt",
+      "material_change_notes": "Replaced vague praise with the supplied count and explained the absence of a basis for a comparative judgment.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "D01",
+      "selected_skill": "write-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/D01/output.txt",
+      "material_change_notes": "Drafted an explanation of the displayed value, synchronization interval, and timestamp.",
+      "unresolved_issues": []
+    }
+  ]
+}

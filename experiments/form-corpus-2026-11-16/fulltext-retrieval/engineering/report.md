@@ -1,0 +1,23 @@
+# Engineering full-text retrieval
+
+All 350 engineering DOI leads were checked against OpenAlex's public locations in seven cached API batches. Public publisher landing routes were also attempted for the 337 records without a PDF from that pass. This is a retrieval inventory, not a claim that the works have been read or examined for writing form.
+
+| Result | Records |
+| --- | ---: |
+| Public PDFs retrieved | 13 |
+| Of those, first-page title and DOI consistent | 1 |
+| Of those, first-page identity unresolved | 12 |
+| No public full text retrieved | 337 |
+| Manual access or identity review required | 349 |
+
+The 13 files all have PDF signatures, successful `pdfinfo` parsing, and verified SHA-256 hashes; page counts range from five to 30. These checks do **not** establish that the documents are complete. Eleven locations were identified by OpenAlex as submitted versions and two as published versions; version and license fields report provider metadata, not independently verified legal rights. A preprint or submitted version can differ from the published article. A first-page `consistent` classification is bounded identity evidence, not an independent source or content validation. The 12 unresolved PDFs are retained for inspection, including potential preprint DOI differences; they have not been counted as identity-consistent.
+
+For 317 of 350 records, OpenAlex advertised no OA location. A further publisher fallback did not retrieve any additional full text: its terminal responses included 247 HTTP 403, 89 HTTP 202, and one HTTP 404. HTTP 202 is unresolved/deferred, not proof of a paywall. No credentials or paywall bypass were used. DSpace at MIT returned HTTP 429 with `Retry-After: 900` and was not retried during the run. A location can be absent from OpenAlex or restricted for this request even when a library, repository, or author can supply a copy; the 337 no-copy count is not an assertion of permanent inaccessibility.
+
+Three unresolved PDF cases with multiple advertised OA locations were reconsidered; none yielded an additional identity-consistent copy. Three public HTML landing pages were inspected for substantial article body and title/DOI evidence; none passed the conservative full-text criteria. Alternate PDFs use digest-specific filenames so unresolved or conflicting candidates are retained instead of overwritten. Other existing full-text access routes may remain undiscovered.
+
+`manifest.jsonl` contains every source record, all attempted URLs and response traces, source-identity status, version/license metadata, local path, byte count, hash and PDF page check where applicable. `manual_needed.csv` lists the 337 records without a retrieved public copy plus the 12 retrieved PDFs needing identity review. `counts.json` is a machine-readable count receipt. Response metadata and full source files are outside Git under `/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/`; `metadata/` contains the OpenAlex API response and query per batch and `pdf/` contains the PDFs. The response and HTML/PDF source bodies are not redistributed in the repository.
+
+The OA pass used the installed [fulltext-retrieval skill](/home/builderbob/.agents/skills/fulltext-retrieval/SKILL.md), including its `assess_source_identity` function on first-page text extracted with Poppler. OpenAlex was queried by batches of 50 work IDs; OA locations, public repository landing pages, and publisher landing-page PDF metadata were tried. Unpaywall was not queried because no contact email was supplied. No credentials were requested or invented. Requests used at most four workers, at least 0.7 seconds per host, and respected 429 and site robot exclusions. The initial OA pass used the 0.7-second floor; the subsequent publisher and alternate passes also enforce parsed `crawl-delay` and `request-rate`, deferring robot policies requiring more than 30 seconds between requests. Robots redirects were corrected before the publisher pass; the earlier false denials remain in `fallback-checkpoint.jsonl` for audit and are not treated as final publisher attempts. URLs and statuses represent this run, and might change.
+
+`retrieve.py`, `fallback.py`, `review_alternatives.py` and `report.py` implement the workflow. Checkpoints preserve progress and failures. The OpenAlex candidate list permits up to five OA URLs plus two discovered PDF links per record, so a failed result is a bounded search rather than an exhaustive search of the web. Records retain the source's OpenAlex indexed publication year; actual published issue year and downloaded-version date remain to be checked before treating these as pre-2015 texts.

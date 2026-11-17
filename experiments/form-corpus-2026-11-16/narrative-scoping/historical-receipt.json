@@ -1,0 +1,47 @@
+{
+  "started_utc": "2026-11-16T01:11:57.943355+00:00",
+  "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+  "sort_requested": "CITED desc",
+  "citation_provider": "Europe PMC citedByCount, snapshot at search time",
+  "target_per_form": 200,
+  "source": "Europe PMC open access fullTextXML",
+  "queries": {
+    "narrative": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22narrative+review%22+AND+OPEN_ACCESS%3AY+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2019-12-31%5D&format=json&pageSize=1000&resultType=core&sort=CITED+desc",
+      "request_echo": {
+        "queryString": "TITLE:\"narrative review\" AND OPEN_ACCESS:Y AND FIRST_PDATE:[1900-01-01 TO 2019-12-31]",
+        "resultType": "core",
+        "cursorMark": "*",
+        "pageSize": 1000,
+        "sort": "CITED desc",
+        "synonym": false
+      },
+      "hit_count": 949,
+      "returned": 949,
+      "search_utc": "2026-11-16T01:12:05.103202+00:00",
+      "title_screen_survivors_in_returned": 936,
+      "xml_attempted": 275,
+      "measured": 200
+    },
+    "scoping": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22scoping+review%22+AND+OPEN_ACCESS%3AY+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2019-12-31%5D&format=json&pageSize=1000&resultType=core&sort=CITED+desc",
+      "request_echo": {
+        "queryString": "TITLE:\"scoping review\" AND OPEN_ACCESS:Y AND FIRST_PDATE:[1900-01-01 TO 2019-12-31]",
+        "resultType": "core",
+        "cursorMark": "*",
+        "pageSize": 1000,
+        "sort": "CITED desc",
+        "synonym": false
+      },
+      "hit_count": 1549,
+      "returned": 1000,
+      "search_utc": "2026-11-16T01:14:31.500612+00:00",
+      "title_screen_survivors_in_returned": 948,
+      "xml_attempted": 275,
+      "measured": 200
+    }
+  },
+  "finished_utc": "2026-11-16T01:16:35.187319+00:00",
+  "recomputed_utc": "2026-11-16T01:16:52.336067+00:00",
+  "recompute_note": "Corrected reference lists outside back matter; excluded systematic narrative publisher types; removed exact administrative section titles; added XML hashes and citation snapshot date. Cached XML only."
+}

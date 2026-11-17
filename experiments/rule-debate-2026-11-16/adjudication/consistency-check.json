@@ -1,0 +1,43 @@
+{
+  "status": "passed_bounded_structural_checks",
+  "candidate_id": "wwp-debate-0.1.1",
+  "scope": "Artifact structure, lineage, hashes, local links and preserved baseline only; not semantic accuracy or writing effectiveness.",
+  "checks": {
+    "core_rules": 4,
+    "inherited_rules": 4,
+    "original_proposals_disposed": 22,
+    "challenges_resolved_with_replies": 17,
+    "retained_function_ids": 12,
+    "guide_json_wording_matches": true,
+    "coding_appendix_hash_matches": true,
+    "baseline_files_unchanged": 7,
+    "frozen_stage_files_unchanged": 15,
+    "local_markdown_links_resolve": true
+  },
+  "candidate_files": [
+    {
+      "path": "candidate/coding-clarifications.md",
+      "sha256": "54deb49babc9e2198ec25b2a488eee6bf979187b5c19c5c934622da17553a9f2"
+    },
+    {
+      "path": "candidate/coding-guidance.json",
+      "sha256": "6a232569f1e2fa69c9d2490e9cb39a5a2897586b9322e829be858fe429338dba"
+    },
+    {
+      "path": "candidate/migration.md",
+      "sha256": "edc759a1b6a129e3b630cb91713b2b76f4553b0e0c1e6493b4d8e49707af972f"
+    },
+    {
+      "path": "candidate/operative-rules.md",
+      "sha256": "0cfa57f8280320eb6eeba7234d041c7d6a796a9ecb38c18293eea5265f70c367"
+    },
+    {
+      "path": "candidate/rules.json",
+      "sha256": "93df34e651e78db8e1defe5a29574cea4f65fd7614ecc0af95c28fb9363c8b71"
+    },
+    {
+      "path": "candidate/worked-improvements.md",
+      "sha256": "a1273e2756c47b37bac546e0a35855ac9f2b4babd84289958092909f655b0c7c"
+    }
+  ]
+}

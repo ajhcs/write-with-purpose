@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_034",
+      "doi": "10.5465/amr.1998.192979",
+      "title": "From the Ground Up: Six Principles for Building the New Logic Corporation",
+      "authors": "[\"Dave Ulrich\"]",
+      "field": "business_management",
+      "q": "\"From the Ground Up: Six Principles for Building\" Ulrich filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_034",
+      "query": "\"From the Ground Up: Six Principles for Building\" Ulrich filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "From the ground up : six principles for building the new logic corporation :: Edward E. Lawler :: ISBN 0787902411 :: Jossey-Bass 1996 :: OBNB, the Open British National Bibliography",
+          "url": "https://obnb.uk/p11990141-from-the-ground-up-six-principles-for-building-the-new-logic-corporation",
+          "score": 1
+        },
+        {
+          "title": "From the ground up : six principles for building the new logic corporation",
+          "url": "https://ci.nii.ac.jp/ncid/BA28834712",
+          "score": 1
+        },
+        {
+          "title": "\"From the Ground Up: Six Principles for Building the New Logic Corporation\" by Edwin E. Lawler",
+          "url": "https://www.strategy-business.com/article/12257",
+          "score": 1
+        },
+        {
+          "title": "From the Ground Up: Six Principles for Building the New Logic Corporation",
+          "url": "https://www.researchgate.net/publication/40937686_From_the_Ground_Up_Six_Principles_for_Building_the_New_Logic_Corporation",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

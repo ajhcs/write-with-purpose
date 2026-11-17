@@ -1,0 +1,2796 @@
+{
+  "sha": "adc49ed10292852620bcbb09d0549afc75c04253",
+  "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/adc49ed10292852620bcbb09d0549afc75c04253",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6537ca4677ee97ddcb112f22d086b92721fd578c",
+      "size": 220,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/6537ca4677ee97ddcb112f22d086b92721fd578c"
+    },
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74843592d58b59b1bfa47549d441c25689fbec79",
+      "size": 1047,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/74843592d58b59b1bfa47549d441c25689fbec79"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "967315dd3d16d50942fa7abd383dfb95ec685491",
+      "size": 111,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/967315dd3d16d50942fa7abd383dfb95ec685491"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b1c593916a66eb7c09a334757eb225358ce72f5",
+      "size": 275,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/9b1c593916a66eb7c09a334757eb225358ce72f5"
+    },
+    {
+      "path": ".styleci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1db61d96e7561f2e9848c246bb0816dc20c26225",
+      "size": 174,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/1db61d96e7561f2e9848c246bb0816dc20c26225"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a89c11fff7ae92b192b029c7d0ccd00fbabacf82",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/a89c11fff7ae92b192b029c7d0ccd00fbabacf82"
+    },
+    {
+      "path": "app/Activity.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9755af6bc614dccd0e9ee1b597deea8132bc278f",
+      "size": 148,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/9755af6bc614dccd0e9ee1b597deea8132bc278f"
+    },
+    {
+      "path": "app/Assignment.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f7bc8f1d50f32d3ae87e6733b55d28706fa0e17",
+      "size": 598,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3f7bc8f1d50f32d3ae87e6733b55d28706fa0e17"
+    },
+    {
+      "path": "app/Console",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a674d591bfe5d41596d1dae7cc519ecb1ee19b3",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/1a674d591bfe5d41596d1dae7cc519ecb1ee19b3"
+    },
+    {
+      "path": "app/Console/Commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f2eb5f6ffe2abed8cca7d62ed9fa7bc5db76eed",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/1f2eb5f6ffe2abed8cca7d62ed9fa7bc5db76eed"
+    },
+    {
+      "path": "app/Console/Commands/CreateUserCommand.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6802d49c0ef7af40dfe553d11dd34104d47a81db",
+      "size": 3580,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/6802d49c0ef7af40dfe553d11dd34104d47a81db"
+    },
+    {
+      "path": "app/Console/Commands/UpdatePasswordCommand.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2294ba6ea19e8d3cd2cf58509ce538b127dbd20a",
+      "size": 3184,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/2294ba6ea19e8d3cd2cf58509ce538b127dbd20a"
+    },
+    {
+      "path": "app/Console/Components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d4dc66d9610fddbd375c56bd0db80f890d2039b",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/5d4dc66d9610fddbd375c56bd0db80f890d2039b"
+    },
+    {
+      "path": "app/Console/Components/InternetConnection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "592ad00bfab92994beb3fa130201509b0decfa08",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/592ad00bfab92994beb3fa130201509b0decfa08"
+    },
+    {
+      "path": "app/Console/Components/InternetConnection/SendHeartbeat.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f69b0b5f64390bdda8216e58b3a0e837d17f0c39",
+      "size": 507,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/f69b0b5f64390bdda8216e58b3a0e837d17f0c39"
+    },
+    {
+      "path": "app/Console/Components/Tap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10e511d139f5d8a54c82ebffd0f9ac8e23f7c062",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/10e511d139f5d8a54c82ebffd0f9ac8e23f7c062"
+    },
+    {
+      "path": "app/Console/Components/Tap/TapHealth.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbbf8007b87d9b6ab798d7adddeaeea19f287b9",
+      "size": 654,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/acbbf8007b87d9b6ab798d7adddeaeea19f287b9"
+    },
+    {
+      "path": "app/Console/Components/Tap/TapLoadTest.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b3959ee4e40e1c453e0c48a0f420e9ce1a96340",
+      "size": 37397,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/4b3959ee4e40e1c453e0c48a0f420e9ce1a96340"
+    },
+    {
+      "path": "app/Console/Kernel.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cfce2a40618acf4d18bb9ebcaadc3c6b206a3c8",
+      "size": 1273,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/7cfce2a40618acf4d18bb9ebcaadc3c6b206a3c8"
+    },
+    {
+      "path": "app/Crm.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19995f13e8aae4fa2a84715c49b535194eb8f487",
+      "size": 126,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/19995f13e8aae4fa2a84715c49b535194eb8f487"
+    },
+    {
+      "path": "app/Document.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a413299b2186e84421e3183fbb4bbc2825e5405e",
+      "size": 701,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a413299b2186e84421e3183fbb4bbc2825e5405e"
+    },
+    {
+      "path": "app/Draft.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "832b4cd564dd27c99d99113e43036f5c31f31173",
+      "size": 627,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/832b4cd564dd27c99d99113e43036f5c31f31173"
+    },
+    {
+      "path": "app/Events",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59e17acefa5d55fcfffac9c18623031976b70734",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/59e17acefa5d55fcfffac9c18623031976b70734"
+    },
+    {
+      "path": "app/Events/DashboardEvent.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b2eedd6f64774fc75ad4954d070296c3fe2ebe",
+      "size": 628,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/45b2eedd6f64774fc75ad4954d070296c3fe2ebe"
+    },
+    {
+      "path": "app/Events/Event.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3412f70dbf1f08f8c53e2b49973baa8de141d3ed",
+      "size": 531,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3412f70dbf1f08f8c53e2b49973baa8de141d3ed"
+    },
+    {
+      "path": "app/Events/InternetConnection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43a55bd102d87fd399968d6eec0528d30637cec3",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/43a55bd102d87fd399968d6eec0528d30637cec3"
+    },
+    {
+      "path": "app/Events/InternetConnection/Heartbeat.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3073a0f625d27a70eb69f80c2169a82673a60252",
+      "size": 237,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3073a0f625d27a70eb69f80c2169a82673a60252"
+    },
+    {
+      "path": "app/Events/OperationLog.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86727dc6ab832957f5aff9931c0d04c1565f235a",
+      "size": 1087,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/86727dc6ab832957f5aff9931c0d04c1565f235a"
+    },
+    {
+      "path": "app/Events/Tap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65c25776351d592ffd9e978d336064baeab30561",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/65c25776351d592ffd9e978d336064baeab30561"
+    },
+    {
+      "path": "app/Events/Tap/Health.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "389632a39303a152316a9e18731d0f46ee80b52c",
+      "size": 426,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/389632a39303a152316a9e18731d0f46ee80b52c"
+    },
+    {
+      "path": "app/Events/UserActivity.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03c5699767efe6e147fdefa4ef99f3d531969287",
+      "size": 1375,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/03c5699767efe6e147fdefa4ef99f3d531969287"
+    },
+    {
+      "path": "app/Events/UserLog.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aac9f3bb7f0d401e348425bed8076b9e21eb9569",
+      "size": 509,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/aac9f3bb7f0d401e348425bed8076b9e21eb9569"
+    },
+    {
+      "path": "app/Events/UserRegistered.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91b647406b9d9c2091a5ef061a0b9f8b7aab434c",
+      "size": 506,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/91b647406b9d9c2091a5ef061a0b9f8b7aab434c"
+    },
+    {
+      "path": "app/Example.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a13cf75b6dd529ecb9124fd28dc7c9080c8b8ac2",
+      "size": 207,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a13cf75b6dd529ecb9124fd28dc7c9080c8b8ac2"
+    },
+    {
+      "path": "app/Exceptions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e56a149fb9db64acb7b7a7610e8c8f33b77a1ac",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/5e56a149fb9db64acb7b7a7610e8c8f33b77a1ac"
+    },
+    {
+      "path": "app/Exceptions/Handler.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07e6dd9e89b57a4893d676126939b0ea88f5565b",
+      "size": 2001,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/07e6dd9e89b57a4893d676126939b0ea88f5565b"
+    },
+    {
+      "path": "app/Feature.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec181ddb81d4433f81bd7999b0c58e9cedec3848",
+      "size": 374,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/ec181ddb81d4433f81bd7999b0c58e9cedec3848"
+    },
+    {
+      "path": "app/Http",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d57da2f9ab18743748240a2b0e38f9f07d39118",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/2d57da2f9ab18743748240a2b0e38f9f07d39118"
+    },
+    {
+      "path": "app/Http/Controllers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e560932c5a0a3c3323f97d9586a7201cd2d3a976",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/e560932c5a0a3c3323f97d9586a7201cd2d3a976"
+    },
+    {
+      "path": "app/Http/Controllers/ActivityController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5633548d5dc058262aec7c292fbb33815f88e29a",
+      "size": 751,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/5633548d5dc058262aec7c292fbb33815f88e29a"
+    },
+    {
+      "path": "app/Http/Controllers/AdminController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1c167cc46e077c6f236d9f061f53192b1a26782",
+      "size": 2252,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a1c167cc46e077c6f236d9f061f53192b1a26782"
+    },
+    {
+      "path": "app/Http/Controllers/AnalyseController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baafc31be1823173ca6456d91459d597399e9d9d",
+      "size": 1350,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/baafc31be1823173ca6456d91459d597399e9d9d"
+    },
+    {
+      "path": "app/Http/Controllers/AssignmentController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "814af3d923fc3816c35880b994ceb17fac7d792f",
+      "size": 2603,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/814af3d923fc3816c35880b994ceb17fac7d792f"
+    },
+    {
+      "path": "app/Http/Controllers/Auth",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62d5d7f2bce6384d8bf56cb37f36bcf9b9bc2bdc",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/62d5d7f2bce6384d8bf56cb37f36bcf9b9bc2bdc"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/ConfirmPasswordController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc0852cc017d10a7cccd51cf965ed317c063f018",
+      "size": 961,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/dc0852cc017d10a7cccd51cf965ed317c063f018"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/ForgotPasswordController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a247fefd088bae6baae483aa27872517393f5fe",
+      "size": 834,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/6a247fefd088bae6baae483aa27872517393f5fe"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/LoginController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4d2e23dca8ab024a889c655b4a213ad97fdcaa2",
+      "size": 1013,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/c4d2e23dca8ab024a889c655b4a213ad97fdcaa2"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/RegisterController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "def51456ee98d1aa6055a1b446b932b7dd71f643",
+      "size": 10253,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/def51456ee98d1aa6055a1b446b932b7dd71f643"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/ResetPasswordController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c863aa6b54ab5df5629330e804db10b4eb2fa3a",
+      "size": 948,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/2c863aa6b54ab5df5629330e804db10b4eb2fa3a"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/VerificationController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22aaf00666f82c5ab90729dcdb67c154be8de822",
+      "size": 1067,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/22aaf00666f82c5ab90729dcdb67c154be8de822"
+    },
+    {
+      "path": "app/Http/Controllers/ContactController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aabd8f7bb1611bb7377588635fd68fc77fa144e8",
+      "size": 1289,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/aabd8f7bb1611bb7377588635fd68fc77fa144e8"
+    },
+    {
+      "path": "app/Http/Controllers/Controller.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0a2a8a34a6221e4dceb24a759ed14e911f74c57",
+      "size": 361,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a0a2a8a34a6221e4dceb24a759ed14e911f74c57"
+    },
+    {
+      "path": "app/Http/Controllers/DiffController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfc053bc2370a5839608910c11b1beee3a6b387c",
+      "size": 8195,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/cfc053bc2370a5839608910c11b1beee3a6b387c"
+    },
+    {
+      "path": "app/Http/Controllers/DocumentController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "868e68c2b9b1d6221e6f1841e7f7af86cac640f0",
+      "size": 8540,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/868e68c2b9b1d6221e6f1841e7f7af86cac640f0"
+    },
+    {
+      "path": "app/Http/Controllers/ExampleController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c84211ec471c7e31fb133dddd75dc595fd9cc1b",
+      "size": 1516,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/6c84211ec471c7e31fb133dddd75dc595fd9cc1b"
+    },
+    {
+      "path": "app/Http/Controllers/ExternalFeedController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e5f4891d2c4e5f419c747bccd75e2ffe5748a9",
+      "size": 6236,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/78e5f4891d2c4e5f419c747bccd75e2ffe5748a9"
+    },
+    {
+      "path": "app/Http/Controllers/FeedbackController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eedfa1cfe652b19e3ad6c13533b4f15676a869f",
+      "size": 7973,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/6eedfa1cfe652b19e3ad6c13533b4f15676a869f"
+    },
+    {
+      "path": "app/Http/Controllers/IndexController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c1886bff9837c3976d095976a64b2af921470c6",
+      "size": 1049,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/9c1886bff9837c3976d095976a64b2af921470c6"
+    },
+    {
+      "path": "app/Http/Controllers/PdfGeneratorController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fee50fd6c97fddc543dc371cb68a6b495b89761",
+      "size": 7411,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/6fee50fd6c97fddc543dc371cb68a6b495b89761"
+    },
+    {
+      "path": "app/Http/Controllers/ReportController.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ff00efbe1f1ab637c65c8865d85680eb81ef165",
+      "size": 11814,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/8ff00efbe1f1ab637c65c8865d85680eb81ef165"
+    },
+    {
+      "path": "app/Http/Controllers/StringTokenizer.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f141e5aed637b9896be6d33f7299e2c1b05f8b3",
+      "size": 19286,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/0f141e5aed637b9896be6d33f7299e2c1b05f8b3"
+    },
+    {
+      "path": "app/Http/Kernel.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6d6794959b4afd8404bc3f2e8cb9184396b7db8",
+      "size": 3012,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e6d6794959b4afd8404bc3f2e8cb9184396b7db8"
+    },
+    {
+      "path": "app/Http/Middleware",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e818e02434ecfecc57b7d45b2b9f0cc13edf789",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/9e818e02434ecfecc57b7d45b2b9f0cc13edf789"
+    },
+    {
+      "path": "app/Http/Middleware/Authenticate.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd123fd441a926ca82d099528c7519d2ab5b5bb4",
+      "size": 463,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/fd123fd441a926ca82d099528c7519d2ab5b5bb4"
+    },
+    {
+      "path": "app/Http/Middleware/CheckForMaintenanceMode.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35b9824baefb8118ada8e6d03f62278f00d1028e",
+      "size": 335,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/35b9824baefb8118ada8e6d03f62278f00d1028e"
+    },
+    {
+      "path": "app/Http/Middleware/ConvertEmptyStringsToNull.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef6d371551cfdba36f76a12f7f73a561d5120f1",
+      "size": 563,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/2ef6d371551cfdba36f76a12f7f73a561d5120f1"
+    },
+    {
+      "path": "app/Http/Middleware/EncryptCookies.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "033136ad128b7687558bc41b03cc92f39cf69149",
+      "size": 294,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/033136ad128b7687558bc41b03cc92f39cf69149"
+    },
+    {
+      "path": "app/Http/Middleware/RedirectIfAuthenticated.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27860e24ed265719a02f5e2d06d856f6fd3fc46",
+      "size": 519,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e27860e24ed265719a02f5e2d06d856f6fd3fc46"
+    },
+    {
+      "path": "app/Http/Middleware/TrimStrings.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a50e7b5c8bd8a5c853ee7edb8170508f2ff4f86",
+      "size": 340,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/5a50e7b5c8bd8a5c853ee7edb8170508f2ff4f86"
+    },
+    {
+      "path": "app/Http/Middleware/TrustProxies.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee5b5958ed929c04c17a0df6ea61a56cbf0da5a5",
+      "size": 436,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/ee5b5958ed929c04c17a0df6ea61a56cbf0da5a5"
+    },
+    {
+      "path": "app/Http/Middleware/VerifyCsrfToken.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f78de20f40cae3a407e31bae8adbd5e39224020",
+      "size": 491,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3f78de20f40cae3a407e31bae8adbd5e39224020"
+    },
+    {
+      "path": "app/Http/Traits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ae1a7af765a6a2452cbb9704c475ca1b1652f2a",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/7ae1a7af765a6a2452cbb9704c475ca1b1652f2a"
+    },
+    {
+      "path": "app/Http/Traits/Analytical",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b32491f37d1416ce0bfea86c6698d012a4782d1",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/6b32491f37d1416ce0bfea86c6698d012a4782d1"
+    },
+    {
+      "path": "app/Http/Traits/Analytical/Accounts.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a48383b56c74bd5bb42821f8a121789680f841a9",
+      "size": 6512,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a48383b56c74bd5bb42821f8a121789680f841a9"
+    },
+    {
+      "path": "app/Http/Traits/Analytical/Cars.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34adaf3783bf5cb3e8b6f915f28574124631705f",
+      "size": 3428,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/34adaf3783bf5cb3e8b6f915f28574124631705f"
+    },
+    {
+      "path": "app/Http/Traits/Analytical/CarsAbs.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a693fd3b4fdef777e8ff8db111bf22795f54cfc4",
+      "size": 5732,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a693fd3b4fdef777e8ff8db111bf22795f54cfc4"
+    },
+    {
+      "path": "app/Http/Traits/Analytical/Law.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8daec54befa1aee08865b26a62f29ddfcf857558",
+      "size": 2750,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/8daec54befa1aee08865b26a62f29ddfcf857558"
+    },
+    {
+      "path": "app/Http/Traits/Profiler.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85962dfc9ef12af05b20e235c4a475b3d9cfa589",
+      "size": 9484,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/85962dfc9ef12af05b20e235c4a475b3d9cfa589"
+    },
+    {
+      "path": "app/Http/Traits/Reflective",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19e3834565e0fd8bc97e8654dddfb12d49bb9264",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/19e3834565e0fd8bc97e8654dddfb12d49bb9264"
+    },
+    {
+      "path": "app/Http/Traits/Reflective/IntlStudies.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b822dc4fb74c0328b2cdce0eee5aff4ceb031e87",
+      "size": 4135,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b822dc4fb74c0328b2cdce0eee5aff4ceb031e87"
+    },
+    {
+      "path": "app/Http/Traits/Reflective/Pharmacy.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1ea7b3207e5433da227eca8669db5961190aed7",
+      "size": 7912,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/f1ea7b3207e5433da227eca8669db5961190aed7"
+    },
+    {
+      "path": "app/Jobs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b07ba26d6c38bac694cd47058c1ef2a82350c39",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/6b07ba26d6c38bac694cd47058c1ef2a82350c39"
+    },
+    {
+      "path": "app/Jobs/StoreDraftWithoutFeedback.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15fba63fdb21f12f8cea4c48091a7e9f558c46fd",
+      "size": 1624,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/15fba63fdb21f12f8cea4c48091a7e9f558c46fd"
+    },
+    {
+      "path": "app/Jobs/StoreDrafts.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3fbfd5c5f9a04616ce2c34eeca2b19e6a417cfd",
+      "size": 16472,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a3fbfd5c5f9a04616ce2c34eeca2b19e6a417cfd"
+    },
+    {
+      "path": "app/Listeners",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "515a68ae99bd7e5f4cb3fd8a1e54e4bdad4c9e65",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/515a68ae99bd7e5f4cb3fd8a1e54e4bdad4c9e65"
+    },
+    {
+      "path": "app/Listeners/AssignRole.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7952eabfcc8bbcbb1bba7da1ec65c71df74ebe71",
+      "size": 421,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/7952eabfcc8bbcbb1bba7da1ec65c71df74ebe71"
+    },
+    {
+      "path": "app/Listeners/EventListener.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5031f9c89deac82ff9f1bbfad6fb6a6e145e79c",
+      "size": 241,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b5031f9c89deac82ff9f1bbfad6fb6a6e145e79c"
+    },
+    {
+      "path": "app/Listeners/UpdateUserActivity.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb4f206c4f9b17acc9d5e72dedfbced79b87f9b0",
+      "size": 480,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/bb4f206c4f9b17acc9d5e72dedfbced79b87f9b0"
+    },
+    {
+      "path": "app/Listeners/UpdateUserLogoutActivity.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0349490cae7487406e93e2e5d4f7de6629cdad6",
+      "size": 456,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e0349490cae7487406e93e2e5d4f7de6629cdad6"
+    },
+    {
+      "path": "app/Mail",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c1f3af590265892240e6d3e24f56fdd3314da2b",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/8c1f3af590265892240e6d3e24f56fdd3314da2b"
+    },
+    {
+      "path": "app/Mail/ContactMail.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c68536561a3a65b0c9f4aa92eb72afbc183b89f6",
+      "size": 724,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/c68536561a3a65b0c9f4aa92eb72afbc183b89f6"
+    },
+    {
+      "path": "app/Providers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a642bae6c309c2768bcb537a2ae0ed99e5208578",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/a642bae6c309c2768bcb537a2ae0ed99e5208578"
+    },
+    {
+      "path": "app/Providers/AppServiceProvider.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "507c49d0190ebf14403c59c1b07c30339955849a",
+      "size": 1315,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/507c49d0190ebf14403c59c1b07c30339955849a"
+    },
+    {
+      "path": "app/Providers/AuthServiceProvider.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3122dad09a025ccb5cbd04dda25c7f0a8f3b5983",
+      "size": 1350,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3122dad09a025ccb5cbd04dda25c7f0a8f3b5983"
+    },
+    {
+      "path": "app/Providers/BroadcastServiceProvider.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "395c518bc47b94752d00b8dc7aeb7d241633e7cf",
+      "size": 380,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/395c518bc47b94752d00b8dc7aeb7d241633e7cf"
+    },
+    {
+      "path": "app/Providers/EventServiceProvider.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26fbd7f7bee9c657205262ceeebfe30a53f98ef6",
+      "size": 1005,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/26fbd7f7bee9c657205262ceeebfe30a53f98ef6"
+    },
+    {
+      "path": "app/Providers/RouteServiceProvider.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1e96f3f344de3931a6206c4592462ba7b65e012",
+      "size": 1504,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a1e96f3f344de3931a6206c4592462ba7b65e012"
+    },
+    {
+      "path": "app/Role.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6f438718958e5a0e11f8a27fe5fd154c03fb765",
+      "size": 202,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b6f438718958e5a0e11f8a27fe5fd154c03fb765"
+    },
+    {
+      "path": "app/Services",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "15c4c5ad065e8ed36c690860110b9a67b961aaa2",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/15c4c5ad065e8ed36c690860110b9a67b961aaa2"
+    },
+    {
+      "path": "app/Services/Analyser.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df67a855db2afda78b9b4919f064d851f4a77947",
+      "size": 13985,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/df67a855db2afda78b9b4919f064d851f4a77947"
+    },
+    {
+      "path": "app/Services/Tap.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "823bc69aec398f76948250d577599cf3db8954a5",
+      "size": 548,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/823bc69aec398f76948250d577599cf3db8954a5"
+    },
+    {
+      "path": "app/TextDraft.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d97b9508bbfd0450ca120149c5ce931dc2f5a19a",
+      "size": 136,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d97b9508bbfd0450ca120149c5ce931dc2f5a19a"
+    },
+    {
+      "path": "app/User.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fb4d8aa2f2eddf9d30ef26832a7bfc171979a30",
+      "size": 1699,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/1fb4d8aa2f2eddf9d30ef26832a7bfc171979a30"
+    },
+    {
+      "path": "appspec.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f12d94d1047da0d2df6218e8cfdd8ba5b941ebec",
+      "size": 221,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/f12d94d1047da0d2df6218e8cfdd8ba5b941ebec"
+    },
+    {
+      "path": "artisan",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5c23e2e24fc5d9e8224d7357dbb583c83884582b",
+      "size": 1686,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/5c23e2e24fc5d9e8224d7357dbb583c83884582b"
+    },
+    {
+      "path": "bootstrap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "71d21b7656a7fa45da96c09037151d80a5da6023",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/71d21b7656a7fa45da96c09037151d80a5da6023"
+    },
+    {
+      "path": "bootstrap/app.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "037e17df03b0598d7bbd27ed333312e8e337fb1b",
+      "size": 1620,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/037e17df03b0598d7bbd27ed333312e8e337fb1b"
+    },
+    {
+      "path": "bootstrap/autoload.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee15bdc6efb732d67a16b8b7b7fc13f29ab5c9f9",
+      "size": 561,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/ee15bdc6efb732d67a16b8b7b7fc13f29ab5c9f9"
+    },
+    {
+      "path": "bootstrap/cache",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96233b34ccba706a9f89dca87a9282a3cd836e0a",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/96233b34ccba706a9f89dca87a9282a3cd836e0a"
+    },
+    {
+      "path": "bootstrap/cache/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b7ef32c8478a48c3994dcadc86837f4371184d",
+      "size": 14,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d6b7ef32c8478a48c3994dcadc86837f4371184d"
+    },
+    {
+      "path": "buildspec.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "357f79239af5b43a6b564e5b917c6e5a89a19249",
+      "size": 893,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/357f79239af5b43a6b564e5b917c6e5a89a19249"
+    },
+    {
+      "path": "composer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf4936b3e289f755ea0886dfc0629e93e899f33d",
+      "size": 1941,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/bf4936b3e289f755ea0886dfc0629e93e899f33d"
+    },
+    {
+      "path": "composer.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "449d8bf1bc6900a8ee74bb2599eeaa0379e1aaae",
+      "size": 297839,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/449d8bf1bc6900a8ee74bb2599eeaa0379e1aaae"
+    },
+    {
+      "path": "config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef6002191791cb8575e676fcff64b6382f27898a",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/ef6002191791cb8575e676fcff64b6382f27898a"
+    },
+    {
+      "path": "config/app.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17c16d09b3f5afb778c70dab704c03351883c8e9",
+      "size": 9661,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/17c16d09b3f5afb778c70dab704c03351883c8e9"
+    },
+    {
+      "path": "config/auth.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaf982bcdcee30074e582002f9832c2e5621f639",
+      "size": 3796,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/aaf982bcdcee30074e582002f9832c2e5621f639"
+    },
+    {
+      "path": "config/broadcasting.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bba1103e602a5743e62dae09ee31a4765b7bf51",
+      "size": 1601,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3bba1103e602a5743e62dae09ee31a4765b7bf51"
+    },
+    {
+      "path": "config/cache.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46751e627fbddeb7cbef624bfed0e15ac910358b",
+      "size": 3066,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/46751e627fbddeb7cbef624bfed0e15ac910358b"
+    },
+    {
+      "path": "config/database.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "199382d0c11d0e2e7239820abacdb87ff747b01d",
+      "size": 5046,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/199382d0c11d0e2e7239820abacdb87ff747b01d"
+    },
+    {
+      "path": "config/dompdf.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a9930583609dbbdcf435feda6f453f811a8b193",
+      "size": 10381,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/9a9930583609dbbdcf435feda6f453f811a8b193"
+    },
+    {
+      "path": "config/filesystems.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec6a7cec3ae201836e51beeba07615b88c8e2d2a",
+      "size": 2120,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/ec6a7cec3ae201836e51beeba07615b88c8e2d2a"
+    },
+    {
+      "path": "config/graphql.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "083c4d9e80b16bacd3737e9b6bc34ae8fe34b67f",
+      "size": 4320,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/083c4d9e80b16bacd3737e9b6bc34ae8fe34b67f"
+    },
+    {
+      "path": "config/hashing.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "842577087c0c8c1beae4882d39504a04a207b28a",
+      "size": 1571,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/842577087c0c8c1beae4882d39504a04a207b28a"
+    },
+    {
+      "path": "config/logging.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0df8212934f9382fc72437c83792c03188e76d11",
+      "size": 2802,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/0df8212934f9382fc72437c83792c03188e76d11"
+    },
+    {
+      "path": "config/mail.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c65eb3fb093611c989a0486af190a0c85bb9a4e",
+      "size": 4676,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3c65eb3fb093611c989a0486af190a0c85bb9a4e"
+    },
+    {
+      "path": "config/queue.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a30d6c68c5c0758143f246e71610b1ebafd7463",
+      "size": 2717,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3a30d6c68c5c0758143f246e71610b1ebafd7463"
+    },
+    {
+      "path": "config/services.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a1d616c77464de6df0a2e6b90d5dba529dbd856",
+      "size": 950,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/2a1d616c77464de6df0a2e6b90d5dba529dbd856"
+    },
+    {
+      "path": "config/session.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbb9b4d765d23ba516445730458712fe32d48b63",
+      "size": 6972,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/fbb9b4d765d23ba516445730458712fe32d48b63"
+    },
+    {
+      "path": "config/view.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22b8a18d325814f221fb0481fa7ab320b612d601",
+      "size": 1053,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/22b8a18d325814f221fb0481fa7ab320b612d601"
+    },
+    {
+      "path": "database",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c5b0ef7b02a5d3a046a056371ca739cf06797b50",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/c5b0ef7b02a5d3a046a056371ca739cf06797b50"
+    },
+    {
+      "path": "database/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97fc976772abfa2c511ea712bfdc55c97856e2fd",
+      "size": 26,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/97fc976772abfa2c511ea712bfdc55c97856e2fd"
+    },
+    {
+      "path": "database/factories",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f244b9394befc0fe9e105a3b4fe1755a6dafc4e",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/8f244b9394befc0fe9e105a3b4fe1755a6dafc4e"
+    },
+    {
+      "path": "database/factories/ModelFactory.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "571d5e3424b7795317d2a53293af58b6ea037a53",
+      "size": 791,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/571d5e3424b7795317d2a53293af58b6ea037a53"
+    },
+    {
+      "path": "database/factories/UserFactory.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "084535f60e68b859d9fc30bd9804dfa16883fa7e",
+      "size": 875,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/084535f60e68b859d9fc30bd9804dfa16883fa7e"
+    },
+    {
+      "path": "database/migrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8da7adab0582f8b63859cdca2b9539bec4987e96",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/8da7adab0582f8b63859cdca2b9539bec4987e96"
+    },
+    {
+      "path": "database/migrations/2014_10_12_000000_create_users_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a91e1d3c4baed140741e1eb20305b2f13f6ee468",
+      "size": 813,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a91e1d3c4baed140741e1eb20305b2f13f6ee468"
+    },
+    {
+      "path": "database/migrations/2014_10_12_100000_create_password_resets_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ee0a36a4f87c2f914288abfc133573d6a6324b7",
+      "size": 683,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/0ee0a36a4f87c2f914288abfc133573d6a6324b7"
+    },
+    {
+      "path": "database/migrations/2017_10_08_214610_create_roles_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95df210c3959c3ddb7e71842d935024236a1680a",
+      "size": 665,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/95df210c3959c3ddb7e71842d935024236a1680a"
+    },
+    {
+      "path": "database/migrations/2017_10_08_215335_create_user_role_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b87ef3cf15ad909d9e209194596761cc0221040",
+      "size": 669,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/4b87ef3cf15ad909d9e209194596761cc0221040"
+    },
+    {
+      "path": "database/migrations/2017_10_17_023426_create_assignments_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba226a50add3c4235a17cd81ba74a0e1f90dcde0",
+      "size": 780,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/ba226a50add3c4235a17cd81ba74a0e1f90dcde0"
+    },
+    {
+      "path": "database/migrations/2017_10_24_011853_create_drafts_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cabb41af289b6004690ff0d92b60285731b23f18",
+      "size": 761,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/cabb41af289b6004690ff0d92b60285731b23f18"
+    },
+    {
+      "path": "database/migrations/2017_10_24_012233_create_features_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dfb87565da18b06dfce5075c03e34caf25d08c0",
+      "size": 631,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/4dfb87565da18b06dfce5075c03e34caf25d08c0"
+    },
+    {
+      "path": "database/migrations/2017_10_24_025512_add_feature_to_drafts.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "569c5d5ee69d1f100689954decac66efab534878",
+      "size": 670,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/569c5d5ee69d1f100689954decac66efab534878"
+    },
+    {
+      "path": "database/migrations/2017_11_06_045228_user_subscription.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c081270f8cc2a768a0eb086717ea1428a71e944f",
+      "size": 699,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/c081270f8cc2a768a0eb086717ea1428a71e944f"
+    },
+    {
+      "path": "database/migrations/2018_01_03_003435_add_grammar_rules_features_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a979e0c6545cee8e9947bab6116097bc6f7b9dc",
+      "size": 737,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/5a979e0c6545cee8e9947bab6116097bc6f7b9dc"
+    },
+    {
+      "path": "database/migrations/2018_01_03_005702_add_featureid_keywords_assignments_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adde90220db065c8feeff1aa229667a30b929b9d",
+      "size": 780,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/adde90220db065c8feeff1aa229667a30b929b9d"
+    },
+    {
+      "path": "database/migrations/2018_01_09_023841_add_alias_to_assignments_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8e13177a1058b71c14d9deed8f5c32488195196",
+      "size": 805,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e8e13177a1058b71c14d9deed8f5c32488195196"
+    },
+    {
+      "path": "database/migrations/2018_01_09_034541_drop_assig_id_add_document_id_drafts.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6395b30328633b0037f01d9cf8ea9bf8d3b6fc0",
+      "size": 779,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e6395b30328633b0037f01d9cf8ea9bf8d3b6fc0"
+    },
+    {
+      "path": "database/migrations/2018_01_09_040346_add_assignment_id_to_document.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b099a8a4d6fef898c8426386fba72b91271f683a",
+      "size": 689,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b099a8a4d6fef898c8426386fba72b91271f683a"
+    },
+    {
+      "path": "database/migrations/2018_01_11_094127_add_soft_delete_assignments.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d97056ebafd90c040c67148edf3f77a55b90ec3",
+      "size": 671,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/1d97056ebafd90c040c67148edf3f77a55b90ec3"
+    },
+    {
+      "path": "database/migrations/2018_01_11_094241_add_soft_delete_documents.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "585bd1cc866583c481aed8227054117fd69841b4",
+      "size": 665,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/585bd1cc866583c481aed8227054117fd69841b4"
+    },
+    {
+      "path": "database/migrations/2018_01_11_094319_add_soft_delete_drafts.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8912c0c1c0222fe2db37b5a3795f5d6057083432",
+      "size": 656,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/8912c0c1c0222fe2db37b5a3795f5d6057083432"
+    },
+    {
+      "path": "database/migrations/2018_01_15_213746_add_isauto_to_drafts_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95b1f7c1614e53dc1bb8cf3546fc9660e0221cfd",
+      "size": 672,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/95b1f7c1614e53dc1bb8cf3546fc9660e0221cfd"
+    },
+    {
+      "path": "database/migrations/2018_01_15_214420_create_failed_jobs_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "389bdf768a2e704b0bb0214e12581b88fe99a4f9",
+      "size": 789,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/389bdf768a2e704b0bb0214e12581b88fe99a4f9"
+    },
+    {
+      "path": "database/migrations/2018_01_18_004743_modify_assigments_make_nullable.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3506a65c3661f1cfb36d6cb240258cdb0d3ac18",
+      "size": 711,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e3506a65c3661f1cfb36d6cb240258cdb0d3ac18"
+    },
+    {
+      "path": "database/migrations/2018_01_22_042132_create_example_feedback_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceae21ccfb38551e5f80dbbf9470d231d6d873a3",
+      "size": 867,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/ceae21ccfb38551e5f80dbbf9470d231d6d873a3"
+    },
+    {
+      "path": "database/migrations/2018_03_06_233940_create_table_crm.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90695ae833daf1bb76fa6ace52c1ffea8c5ef432",
+      "size": 749,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/90695ae833daf1bb76fa6ace52c1ffea8c5ef432"
+    },
+    {
+      "path": "database/migrations/2018_03_07_011543_modify_crm_user_nullable.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1897947f4f0b50fa973a6fc553ec5d83cc625872",
+      "size": 692,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/1897947f4f0b50fa973a6fc553ec5d83cc625872"
+    },
+    {
+      "path": "database/migrations/2018_03_26_225250_create_user_activity_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1496f5188b8bfd9b53e192ad24a433dacef50c92",
+      "size": 693,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/1496f5188b8bfd9b53e192ad24a433dacef50c92"
+    },
+    {
+      "path": "database/migrations/2018_04_02_005026_add_published_examples.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd7e9d51c5152bd6b396ef706fdcf247994ccfb1",
+      "size": 646,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/fd7e9d51c5152bd6b396ef706fdcf247994ccfb1"
+    },
+    {
+      "path": "database/migrations/2018_04_03_051024_add_example_to_assignment.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd8cf421eb28b5b968e8e7ed5d0adc505301da96",
+      "size": 666,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/fd8cf421eb28b5b968e8e7ed5d0adc505301da96"
+    },
+    {
+      "path": "database/migrations/2018_04_15_095212_TextDraft.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4d7c792449830c0fb94af236eb7280f11f9e845",
+      "size": 762,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e4d7c792449830c0fb94af236eb7280f11f9e845"
+    },
+    {
+      "path": "database/migrations/2018_05_02_223616_add_info_to_features_table.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b343acb844d5ec46cbc5a3e06a7f625c2463453",
+      "size": 675,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/7b343acb844d5ec46cbc5a3e06a7f625c2463453"
+    },
+    {
+      "path": "database/migrations/2020_11_12_164800_modify_text_draft_text_input_nullable.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e2f77db7ccb32ac38ad04c95ab11b57ecdd391e",
+      "size": 727,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/7e2f77db7ccb32ac38ad04c95ab11b57ecdd391e"
+    },
+    {
+      "path": "database/seeds",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9613f1624c41e2c1162a15d1fa857fe93cd41b9b",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/9613f1624c41e2c1162a15d1fa857fe93cd41b9b"
+    },
+    {
+      "path": "database/seeds/DatabaseSeeder.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e386145882aa4e9462b7065831cb0dd489704c52",
+      "size": 294,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e386145882aa4e9462b7065831cb0dd489704c52"
+    },
+    {
+      "path": "database/seeds/FeatureTableSeeder.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18089981f0c681e49110d5a006f4b457fc05cd37",
+      "size": 6345,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/18089981f0c681e49110d5a006f4b457fc05cd37"
+    },
+    {
+      "path": "database/seeds/RoleTableSeeder.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1686b443df497989633a165a55d5d20e7b812625",
+      "size": 1130,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/1686b443df497989633a165a55d5d20e7b812625"
+    },
+    {
+      "path": "database/seeds/rules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c19aaa1510dce89a08a55096d2e0960a6d48e466",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/c19aaa1510dce89a08a55096d2e0960a6d48e466"
+    },
+    {
+      "path": "database/seeds/rules/feature_1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "232f71da2d237cae1fd0996283e59456193dceb4",
+      "size": 4656,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/232f71da2d237cae1fd0996283e59456193dceb4"
+    },
+    {
+      "path": "database/seeds/rules/feature_10.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "898cf593d2ac30dc51a013c512b8376c3ae6a77b",
+      "size": 16899,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/898cf593d2ac30dc51a013c512b8376c3ae6a77b"
+    },
+    {
+      "path": "database/seeds/rules/feature_11.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a87d98e3cdf4a68684d9a325481cecc79b8cca01",
+      "size": 12664,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a87d98e3cdf4a68684d9a325481cecc79b8cca01"
+    },
+    {
+      "path": "database/seeds/rules/feature_12.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6408131eca58c4149a591847e35e9ef732b53df0",
+      "size": 16455,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/6408131eca58c4149a591847e35e9ef732b53df0"
+    },
+    {
+      "path": "database/seeds/rules/feature_13.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b79f850886c7f9c148eb89ed17afede6db7eb20",
+      "size": 18038,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/9b79f850886c7f9c148eb89ed17afede6db7eb20"
+    },
+    {
+      "path": "database/seeds/rules/feature_14.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b95cd924ce551fb983a5aa2aa454bf19f92f4df6",
+      "size": 14956,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b95cd924ce551fb983a5aa2aa454bf19f92f4df6"
+    },
+    {
+      "path": "database/seeds/rules/feature_15.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7806072db382801261b3a5fd4787f14be4c9d35d",
+      "size": 11159,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/7806072db382801261b3a5fd4787f14be4c9d35d"
+    },
+    {
+      "path": "database/seeds/rules/feature_2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a462f4ffdf79cff46fbd1c20366040cb88b53a4",
+      "size": 10465,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/4a462f4ffdf79cff46fbd1c20366040cb88b53a4"
+    },
+    {
+      "path": "database/seeds/rules/feature_5.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "801289f2044aaadd168d3636b519eb97f32c0349",
+      "size": 8626,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/801289f2044aaadd168d3636b519eb97f32c0349"
+    },
+    {
+      "path": "database/seeds/rules/feature_6.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8edaf416dac335ad8d72abc081d244d51c6969a",
+      "size": 6607,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e8edaf416dac335ad8d72abc081d244d51c6969a"
+    },
+    {
+      "path": "database/seeds/rules/feature_7.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "107f425b385b0a782744bcfc6273889726956e9f",
+      "size": 9619,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/107f425b385b0a782744bcfc6273889726956e9f"
+    },
+    {
+      "path": "database/seeds/rules/feature_8.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74967a7107fcd70384ee15658090a04dc83c7d0d",
+      "size": 12644,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/74967a7107fcd70384ee15658090a04dc83c7d0d"
+    },
+    {
+      "path": "database/seeds/rules/feature_9.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d215724e9273958c12638e897fe4d67c808ade9b",
+      "size": 13543,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d215724e9273958c12638e897fe4d67c808ade9b"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "499c28e59527c9fcbf6697181307a8a12eca265f",
+      "size": 3973,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/499c28e59527c9fcbf6697181307a8a12eca265f"
+    },
+    {
+      "path": "docker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6b2b74937503386df0961a6011736be5768dcc5",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/c6b2b74937503386df0961a6011736be5768dcc5"
+    },
+    {
+      "path": "docker/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79ab54bab722c4418cbc08753fa77d68d8dcb1b8",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/79ab54bab722c4418cbc08753fa77d68d8dcb1b8"
+    },
+    {
+      "path": "docker/app/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1a62f9b28e98223fe29360273aa16752cddd0ec",
+      "size": 1615,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b1a62f9b28e98223fe29360273aa16752cddd0ec"
+    },
+    {
+      "path": "docker/nginx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "187f47d51efa63781cb17a27daeb01b8461bb786",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/187f47d51efa63781cb17a27daeb01b8461bb786"
+    },
+    {
+      "path": "docker/nginx/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f535e785d024a6698b06418efbab0cfcb5aa4cb",
+      "size": 829,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/8f535e785d024a6698b06418efbab0cfcb5aa4cb"
+    },
+    {
+      "path": "docker/nginx/nginx.awsvpc.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3305f5655a0d3bebfa43295b243f2a8b8cd14d7d",
+      "size": 1795,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3305f5655a0d3bebfa43295b243f2a8b8cd14d7d"
+    },
+    {
+      "path": "docker/nginx/nginx.bridge.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de2429d194fa24f21db22063c182df0e64c46cc4",
+      "size": 795,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/de2429d194fa24f21db22063c182df0e64c46cc4"
+    },
+    {
+      "path": "docker/socketio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "057038eb7aa57c74375548689e52f7b042417160",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/057038eb7aa57c74375548689e52f7b042417160"
+    },
+    {
+      "path": "docker/socketio/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6a49a4ccdfa961ef4aebb6e5c88dd32e4156374",
+      "size": 218,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/f6a49a4ccdfa961ef4aebb6e5c88dd32e4156374"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "030dd046825c807acd16f64eec7b537f38d181b2",
+      "size": 637596,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/030dd046825c807acd16f64eec7b537f38d181b2"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87f9859ae40bbe3d545fff5e3bed107d09440c6a",
+      "size": 1431,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/87f9859ae40bbe3d545fff5e3bed107d09440c6a"
+    },
+    {
+      "path": "phpunit.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1a4100a36f738f5c6bde15a8a6ecb4aebcd34b0",
+      "size": 1297,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/c1a4100a36f738f5c6bde15a8a6ecb4aebcd34b0"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c49fc10a071ee707fc56e44d87f6309053b50dec",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/c49fc10a071ee707fc56e44d87f6309053b50dec"
+    },
+    {
+      "path": "public/.htaccess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b75525bedcd85c37bf37df77ecb65dcadfa617d1",
+      "size": 593,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b75525bedcd85c37bf37df77ecb65dcadfa617d1"
+    },
+    {
+      "path": "public/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96233b34ccba706a9f89dca87a9282a3cd836e0a",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/96233b34ccba706a9f89dca87a9282a3cd836e0a"
+    },
+    {
+      "path": "public/css/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b7ef32c8478a48c3994dcadc86837f4371184d",
+      "size": 14,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d6b7ef32c8478a48c3994dcadc86837f4371184d"
+    },
+    {
+      "path": "public/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "public/fonts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96233b34ccba706a9f89dca87a9282a3cd836e0a",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/96233b34ccba706a9f89dca87a9282a3cd836e0a"
+    },
+    {
+      "path": "public/fonts/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b7ef32c8478a48c3994dcadc86837f4371184d",
+      "size": 14,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d6b7ef32c8478a48c3994dcadc86837f4371184d"
+    },
+    {
+      "path": "public/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c9e5df36f18ec342fb12e642d49639db8bd77d0",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/6c9e5df36f18ec342fb12e642d49639db8bd77d0"
+    },
+    {
+      "path": "public/images/acaWriter.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9bd698eb96f3c0ffcf78b197d672457b52d349b",
+      "size": 131868,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e9bd698eb96f3c0ffcf78b197d672457b52d349b"
+    },
+    {
+      "path": "public/images/cic_logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "974d03b0994180a48b746f0ae77d9c0f619ba449",
+      "size": 14916,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/974d03b0994180a48b746f0ae77d9c0f619ba449"
+    },
+    {
+      "path": "public/images/download.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f805c78090bea556acce561f9f6a4fc45a9730af",
+      "size": 1352,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/f805c78090bea556acce561f9f6a4fc45a9730af"
+    },
+    {
+      "path": "public/images/logo.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfb45f77d6076ad1cbfb1f1df97764133c5e5c1e",
+      "size": 12899,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/cfb45f77d6076ad1cbfb1f1df97764133c5e5c1e"
+    },
+    {
+      "path": "public/images/sm_logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fd1579878aa33b48ae70fcfb42077b3094ab1de",
+      "size": 16396,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3fd1579878aa33b48ae70fcfb42077b3094ab1de"
+    },
+    {
+      "path": "public/images/tile-bg.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd8cef9a35a1796deda1f85473e73cf11109b9b7",
+      "size": 10420,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/dd8cef9a35a1796deda1f85473e73cf11109b9b7"
+    },
+    {
+      "path": "public/images/uts_logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b0eb218e4604317db4af8111281898a6a95ac62",
+      "size": 5694,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/6b0eb218e4604317db4af8111281898a6a95ac62"
+    },
+    {
+      "path": "public/images/uts_logo_sm.PNG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a040bcbc1fe1910eddf2323acaa1aab595ef7d85",
+      "size": 4583,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a040bcbc1fe1910eddf2323acaa1aab595ef7d85"
+    },
+    {
+      "path": "public/index.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4584cbcd6ad53d355c4448fc0823febd90fb5340",
+      "size": 1823,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/4584cbcd6ad53d355c4448fc0823febd90fb5340"
+    },
+    {
+      "path": "public/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96233b34ccba706a9f89dca87a9282a3cd836e0a",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/96233b34ccba706a9f89dca87a9282a3cd836e0a"
+    },
+    {
+      "path": "public/js/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b7ef32c8478a48c3994dcadc86837f4371184d",
+      "size": 14,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d6b7ef32c8478a48c3994dcadc86837f4371184d"
+    },
+    {
+      "path": "public/robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb0536286f3081c6c0646817037faf5446e3547d",
+      "size": 24,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/eb0536286f3081c6c0646817037faf5446e3547d"
+    },
+    {
+      "path": "public/web.config",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3711d7c5b8e302ccd0e3a6e32250391028e00da",
+      "size": 1194,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d3711d7c5b8e302ccd0e3a6e32250391028e00da"
+    },
+    {
+      "path": "readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c654d196504cc598c977fdcbcd17be08bde5563",
+      "size": 3441,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/6c654d196504cc598c977fdcbcd17be08bde5563"
+    },
+    {
+      "path": "resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e989df893b658ec4f7a0bb9da9809e95100d0692",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/e989df893b658ec4f7a0bb9da9809e95100d0692"
+    },
+    {
+      "path": "resources/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "13c46d7a95403f5c5c0e6a04de4cb59160d5ab68",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/13c46d7a95403f5c5c0e6a04de4cb59160d5ab68"
+    },
+    {
+      "path": "resources/js/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c71b373bc42243550140bd4d9f1f4af3a661b313",
+      "size": 6066,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/c71b373bc42243550140bd4d9f1f4af3a661b313"
+    },
+    {
+      "path": "resources/js/bootstrap.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be449c8a91c4943f961185e5c14f40c3f65bad07",
+      "size": 2260,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/be449c8a91c4943f961185e5c14f40c3f65bad07"
+    },
+    {
+      "path": "resources/js/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b513ce30482b8e340f15e8ee0c9beca74366a35",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/3b513ce30482b8e340f15e8ee0c9beca74366a35"
+    },
+    {
+      "path": "resources/js/components/Assignment.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c86fdd965c44ac17e6ddd443ad7a464810b9fc8",
+      "size": 2181,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/4c86fdd965c44ac17e6ddd443ad7a464810b9fc8"
+    },
+    {
+      "path": "resources/js/components/DiffReport.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76f902100f50bdbe31cab76a20b14cd6d68935b0",
+      "size": 28765,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/76f902100f50bdbe31cab76a20b14cd6d68935b0"
+    },
+    {
+      "path": "resources/js/components/Document.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da3f1b5636487efeeff77be3bdb4020450b71e7a",
+      "size": 6303,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/da3f1b5636487efeeff77be3bdb4020450b71e7a"
+    },
+    {
+      "path": "resources/js/components/Example.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a4ed71dfea290d2b30c262876d37f62af421b24",
+      "size": 1698,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/8a4ed71dfea290d2b30c262876d37f62af421b24"
+    },
+    {
+      "path": "resources/js/components/ExampleAnalyser.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8b79cee6ce3dc5a87e638b1f463886004c28850",
+      "size": 8902,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d8b79cee6ce3dc5a87e638b1f463886004c28850"
+    },
+    {
+      "path": "resources/js/components/InternetConnection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd06b328f409f7776e650e355de5ec6ac2828b6a",
+      "size": 1155,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/cd06b328f409f7776e650e355de5ec6ac2828b6a"
+    },
+    {
+      "path": "resources/js/components/TapHealth.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3ea8981fc4160399fa33aea6d677657a48a69d3",
+      "size": 1001,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/c3ea8981fc4160399fa33aea6d677657a48a69d3"
+    },
+    {
+      "path": "resources/js/components/TextAnalyser.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a2c51bad18ff2f7281d26007974707bb46a3c5d",
+      "size": 14939,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/8a2c51bad18ff2f7281d26007974707bb46a3c5d"
+    },
+    {
+      "path": "resources/js/components/TextEditor.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21846f52a746f483f8e6a3389aee6df2e34623cc",
+      "size": 17278,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/21846f52a746f483f8e6a3389aee6df2e34623cc"
+    },
+    {
+      "path": "resources/js/components/analyser",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0413aae03861512df073f2e17f703a01de956cca",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/0413aae03861512df073f2e17f703a01de956cca"
+    },
+    {
+      "path": "resources/js/components/analyser/Analytic.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "225db595d7ea0f70ac5ae1808cc48b712d82ec5a",
+      "size": 7146,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/225db595d7ea0f70ac5ae1808cc48b712d82ec5a"
+    },
+    {
+      "path": "resources/js/components/analyser/Reflective.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77778b94fea9fa776497ba02b398ff5ef8075b95",
+      "size": 7242,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/77778b94fea9fa776497ba02b398ff5ef8075b95"
+    },
+    {
+      "path": "resources/js/components/analyser/Research.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9937198b3bede2d99abe9d9e45e018122f6db67",
+      "size": 6709,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d9937198b3bede2d99abe9d9e45e018122f6db67"
+    },
+    {
+      "path": "resources/js/components/forms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0fbee8b0c9739e0ab01ef71738bd78a211cb8dd",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/e0fbee8b0c9739e0ab01ef71738bd78a211cb8dd"
+    },
+    {
+      "path": "resources/js/components/forms/FormNew.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce0165f11bde58ec1ebc68a92e023bdadfa0a584",
+      "size": 2022,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/ce0165f11bde58ec1ebc68a92e023bdadfa0a584"
+    },
+    {
+      "path": "resources/js/components/forms/FormSubscribe.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72cfb7201098b35b67482f41bca3cfe7d2508134",
+      "size": 1115,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/72cfb7201098b35b67482f41bca3cfe7d2508134"
+    },
+    {
+      "path": "resources/js/components/modal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "878b2841e3d032767217139b7e45e233d59482c8",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/878b2841e3d032767217139b7e45e233d59482c8"
+    },
+    {
+      "path": "resources/js/components/modal/EditDocument.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18d91d4e14393a87c780aaef568d056d989807d4",
+      "size": 2380,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/18d91d4e14393a87c780aaef568d056d989807d4"
+    },
+    {
+      "path": "resources/js/event-bus.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db97e083cc5aff5369846df2d2c7cb7506a8fb55",
+      "size": 16,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/db97e083cc5aff5369846df2d2c7cb7506a8fb55"
+    },
+    {
+      "path": "resources/js/store",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cae07db466f9a8e0816261f5f435c77deddcb887",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/cae07db466f9a8e0816261f5f435c77deddcb887"
+    },
+    {
+      "path": "resources/js/store/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f35ac1178ac3b58c13f133a52a13bc4a55829aee",
+      "size": 2853,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/f35ac1178ac3b58c13f133a52a13bc4a55829aee"
+    },
+    {
+      "path": "resources/lang",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c306d3e283a30a2e7495a8ff64565717e97a65ae",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/c306d3e283a30a2e7495a8ff64565717e97a65ae"
+    },
+    {
+      "path": "resources/lang/en",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba0ce52142bd0e8bf3257cef92ee6960ac39e806",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/ba0ce52142bd0e8bf3257cef92ee6960ac39e806"
+    },
+    {
+      "path": "resources/lang/en/auth.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5506df2907a7c8f63f3841a918611b93d67e84e",
+      "size": 617,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e5506df2907a7c8f63f3841a918611b93d67e84e"
+    },
+    {
+      "path": "resources/lang/en/pagination.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d48141187786931ec2cf8645e384be7878c7dc53",
+      "size": 534,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d48141187786931ec2cf8645e384be7878c7dc53"
+    },
+    {
+      "path": "resources/lang/en/passwords.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "037966af7b384c1c8a265bfa745d55a1ef93df60",
+      "size": 839,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/037966af7b384c1c8a265bfa745d55a1ef93df60"
+    },
+    {
+      "path": "resources/lang/en/validation.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce1d80dde1cd769917d821f9788a40e2f8e3c1ee",
+      "size": 7640,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/ce1d80dde1cd769917d821f9788a40e2f8e3c1ee"
+    },
+    {
+      "path": "resources/sass",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "edab82dafe8eb08c97b4b6a4fd649c683cbb8d96",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/edab82dafe8eb08c97b4b6a4fd649c683cbb8d96"
+    },
+    {
+      "path": "resources/sass/_variables.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d898ffc9baa8a846dbe279ceeca721f9b12a7c8b",
+      "size": 1625,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d898ffc9baa8a846dbe279ceeca721f9b12a7c8b"
+    },
+    {
+      "path": "resources/sass/app.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfcad992e7c0cd93647ad30ecd31f45f62da9303",
+      "size": 420,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/cfcad992e7c0cd93647ad30ecd31f45f62da9303"
+    },
+    {
+      "path": "resources/sass/awa.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27863da0f32ef51ef947ed5646cd73bb0c006f4c",
+      "size": 7908,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/27863da0f32ef51ef947ed5646cd73bb0c006f4c"
+    },
+    {
+      "path": "resources/sass/editor.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e07f0d47fc4aab211a4148895d3e656571fe2061",
+      "size": 3315,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e07f0d47fc4aab211a4148895d3e656571fe2061"
+    },
+    {
+      "path": "resources/sass/elements.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "663a420e80823974503f9467243d1bba75310874",
+      "size": 1301,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/663a420e80823974503f9467243d1bba75310874"
+    },
+    {
+      "path": "resources/sass/fonts.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81d13aa43cb466e3b34a5f9f6e662585f619a3b5",
+      "size": 997,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/81d13aa43cb466e3b34a5f9f6e662585f619a3b5"
+    },
+    {
+      "path": "resources/sass/form.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "280ffb3d180a30c6b6eafad7c2b23e3e2899b695",
+      "size": 9881,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/280ffb3d180a30c6b6eafad7c2b23e3e2899b695"
+    },
+    {
+      "path": "resources/sass/table.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94249467e31e9a3b00a54a83d8df0f6e145da98e",
+      "size": 985,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/94249467e31e9a3b00a54a83d8df0f6e145da98e"
+    },
+    {
+      "path": "resources/sass/tiles.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1397f184a8e5ce8991dfd3141aed2873bfb7b19d",
+      "size": 1186,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/1397f184a8e5ce8991dfd3141aed2873bfb7b19d"
+    },
+    {
+      "path": "resources/views",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3936d7fd1e92f3eb66da6c64632bff17b8d7b813",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/3936d7fd1e92f3eb66da6c64632bff17b8d7b813"
+    },
+    {
+      "path": "resources/views/about.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6ffc63d5bebc92d2339702e0d80701466143cd8",
+      "size": 1147,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/c6ffc63d5bebc92d2339702e0d80701466143cd8"
+    },
+    {
+      "path": "resources/views/admin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4b92a6e7297ed1f0ac152e6152c0d6033242b9d",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/c4b92a6e7297ed1f0ac152e6152c0d6033242b9d"
+    },
+    {
+      "path": "resources/views/admin/diffreport.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e166025736333291356fb9d8a37fe5b1fa2fdfb",
+      "size": 2493,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/8e166025736333291356fb9d8a37fe5b1fa2fdfb"
+    },
+    {
+      "path": "resources/views/admin/drafts_by_id.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "376b3efdac08f94157cea569e41c5ec1cade04ed",
+      "size": 3398,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/376b3efdac08f94157cea569e41c5ec1cade04ed"
+    },
+    {
+      "path": "resources/views/admin/flash.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3689eee3b68402d0473218a100ed586440a6ccb3",
+      "size": 1183,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3689eee3b68402d0473218a100ed586440a6ccb3"
+    },
+    {
+      "path": "resources/views/admin/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c56340bd718f17e0293dcc06c33c1ba4f3bcd695",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/c56340bd718f17e0293dcc06c33c1ba4f3bcd695"
+    },
+    {
+      "path": "resources/views/admin/js/diff_match_patch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2998f64fe9be8a0e5bff45271dd0d52fda0773f8",
+      "size": 21273,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/2998f64fe9be8a0e5bff45271dd0d52fda0773f8"
+    },
+    {
+      "path": "resources/views/admin/report.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b724d874e99df781fbe6ee9f17853326efd0f77",
+      "size": 12265,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/7b724d874e99df781fbe6ee9f17853326efd0f77"
+    },
+    {
+      "path": "resources/views/admin/result_documents.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "859fc88b7c2b642360e45f770acecd4c56c4d366",
+      "size": 7632,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/859fc88b7c2b642360e45f770acecd4c56c4d366"
+    },
+    {
+      "path": "resources/views/admin/user.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3af286f05a15f46292294271bd572cc65f1fd2c",
+      "size": 5388,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b3af286f05a15f46292294271bd572cc65f1fd2c"
+    },
+    {
+      "path": "resources/views/analyse.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16638a0c67c99686c7dc4ac16dd60d5383529cae",
+      "size": 250,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/16638a0c67c99686c7dc4ac16dd60d5383529cae"
+    },
+    {
+      "path": "resources/views/assignment.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7177ab0c757b14d846ab310b8d1e61a36cf4f5db",
+      "size": 4411,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/7177ab0c757b14d846ab310b8d1e61a36cf4f5db"
+    },
+    {
+      "path": "resources/views/auth",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ac710cd11e60a2ce64cee85c61c1c45a4b05938",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/5ac710cd11e60a2ce64cee85c61c1c45a4b05938"
+    },
+    {
+      "path": "resources/views/auth/form.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3600c8dd8a4f062f1d297c35282d8a570b9ddf56",
+      "size": 1745,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3600c8dd8a4f062f1d297c35282d8a570b9ddf56"
+    },
+    {
+      "path": "resources/views/auth/login.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6a461e8a57d36c00e9830510a1819d83042c15c",
+      "size": 691,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d6a461e8a57d36c00e9830510a1819d83042c15c"
+    },
+    {
+      "path": "resources/views/auth/passwords",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c2a334d131acd8c079bc7eff9d5bb2f0aa212ad0",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/c2a334d131acd8c079bc7eff9d5bb2f0aa212ad0"
+    },
+    {
+      "path": "resources/views/auth/passwords/email.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b74c02ad289f9a8d7a9c58eb6b94bc1a27dfb35",
+      "size": 1851,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/9b74c02ad289f9a8d7a9c58eb6b94bc1a27dfb35"
+    },
+    {
+      "path": "resources/views/auth/passwords/reset.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d47e4700744387ed18373d82635fb37b0675b18",
+      "size": 3163,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/4d47e4700744387ed18373d82635fb37b0675b18"
+    },
+    {
+      "path": "resources/views/auth/register.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dec35793da8557f20b9473ec5732e82f2bb42430",
+      "size": 3736,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/dec35793da8557f20b9473ec5732e82f2bb42430"
+    },
+    {
+      "path": "resources/views/dashboard.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ee79d8eb0f6dc0d6832c84137d46c549f4850db",
+      "size": 6477,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/4ee79d8eb0f6dc0d6832c84137d46c549f4850db"
+    },
+    {
+      "path": "resources/views/email.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c3e296d8e9b5db5de6223e92bd616ed77a69ec5",
+      "size": 143,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/7c3e296d8e9b5db5de6223e92bd616ed77a69ec5"
+    },
+    {
+      "path": "resources/views/example.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd6af4ffc7b40d76e347792ae8acd73b05680b4c",
+      "size": 540,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/fd6af4ffc7b40d76e347792ae8acd73b05680b4c"
+    },
+    {
+      "path": "resources/views/example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5696e35fbf8b095d351c569944330852e0a5ea3d",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/5696e35fbf8b095d351c569944330852e0a5ea3d"
+    },
+    {
+      "path": "resources/views/example/analyse.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47cc8ca1e679d8154ed7897ff179039ee8551d81",
+      "size": 379,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/47cc8ca1e679d8154ed7897ff179039ee8551d81"
+    },
+    {
+      "path": "resources/views/help.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c604da430d33b25abf337f7756dc074fc2cf4600",
+      "size": 4609,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/c604da430d33b25abf337f7756dc074fc2cf4600"
+    },
+    {
+      "path": "resources/views/index.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3afeccd0fda9f5221bd0b8b3d4bc2a1bc734a239",
+      "size": 1795,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/3afeccd0fda9f5221bd0b8b3d4bc2a1bc734a239"
+    },
+    {
+      "path": "resources/views/layouts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ee188c9998273b064f61075098035fbbff4205c",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/1ee188c9998273b064f61075098035fbbff4205c"
+    },
+    {
+      "path": "resources/views/layouts/app.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69985f7513970741068195327a5e8ae90cb14911",
+      "size": 1625,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/69985f7513970741068195327a5e8ae90cb14911"
+    },
+    {
+      "path": "resources/views/layouts/footer.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5d90cfe66418f2ade3e1660b29696631481ff86",
+      "size": 734,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b5d90cfe66418f2ade3e1660b29696631481ff86"
+    },
+    {
+      "path": "resources/views/layouts/header.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "989c6498196f6a630c0ce0084acd20777c3b77fe",
+      "size": 6172,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/989c6498196f6a630c0ce0084acd20777c3b77fe"
+    },
+    {
+      "path": "resources/views/pdf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e42538af32b268c12613f8d1996652abcd3245bf",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/e42538af32b268c12613f8d1996652abcd3245bf"
+    },
+    {
+      "path": "resources/views/pdf/analytical.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7ca93f710689413bb2cf7d3cc6283eea361bcac",
+      "size": 5720,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/f7ca93f710689413bb2cf7d3cc6283eea361bcac"
+    },
+    {
+      "path": "resources/views/pdf/reflective.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ad6b53df17808bf1b81d2a44f45be472af84c18",
+      "size": 6116,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/1ad6b53df17808bf1b81d2a44f45be472af84c18"
+    },
+    {
+      "path": "resources/views/terms.blade.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d98b58f041b2ba97a2b3017722d9fd8ac7bb9b9",
+      "size": 2920,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/0d98b58f041b2ba97a2b3017722d9fd8ac7bb9b9"
+    },
+    {
+      "path": "resources/views/vendor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cc5984ea14f8437a49502327c0214d154e3847d",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/6cc5984ea14f8437a49502327c0214d154e3847d"
+    },
+    {
+      "path": "resources/views/vendor/graphql",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3bf235c46029659cb61edec1830416164bbfafe6",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/3bf235c46029659cb61edec1830416164bbfafe6"
+    },
+    {
+      "path": "resources/views/vendor/graphql/graphiql.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdb52a266a9e4bfceda14d3c36dac62b1b9b84dc",
+      "size": 4695,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/bdb52a266a9e4bfceda14d3c36dac62b1b9b84dc"
+    },
+    {
+      "path": "routes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc7831484f3334e56164e96ee2913446d26ad23d",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/fc7831484f3334e56164e96ee2913446d26ad23d"
+    },
+    {
+      "path": "routes/api.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b59c81e046df12508184ba12b7f78aa107f1819a",
+      "size": 480,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b59c81e046df12508184ba12b7f78aa107f1819a"
+    },
+    {
+      "path": "routes/channels.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f16a20b9bfc5092708c7f00900a6655c4c1079d3",
+      "size": 508,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/f16a20b9bfc5092708c7f00900a6655c4c1079d3"
+    },
+    {
+      "path": "routes/console.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75dd0cdedbe262bacc85395e4155d35f20d7db99",
+      "size": 553,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/75dd0cdedbe262bacc85395e4155d35f20d7db99"
+    },
+    {
+      "path": "routes/web.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "268f873dc4d2c37e6f56ff5c40e35b1ac2424d66",
+      "size": 3143,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/268f873dc4d2c37e6f56ff5c40e35b1ac2424d66"
+    },
+    {
+      "path": "server.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fb6379e71f275a1784e6638adc96420aaa5c5b2",
+      "size": 563,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/5fb6379e71f275a1784e6638adc96420aaa5c5b2"
+    },
+    {
+      "path": "socket-server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd237da303c38d6349ea0ee4f2b0fdff2bd7af4f",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/bd237da303c38d6349ea0ee4f2b0fdff2bd7af4f"
+    },
+    {
+      "path": "socket-server/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c0a0cc04fc4cd8f5525ca13a3e26db1d0a3fc9f",
+      "size": 36822,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/5c0a0cc04fc4cd8f5525ca13a3e26db1d0a3fc9f"
+    },
+    {
+      "path": "socket-server/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "869c4c0a955bfbf73cb9739013427c3627305a2d",
+      "size": 336,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/869c4c0a955bfbf73cb9739013427c3627305a2d"
+    },
+    {
+      "path": "socket-server/server.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77e9325f5e3965896b8d3a1f267343b762a4f49c",
+      "size": 1158,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/77e9325f5e3965896b8d3a1f267343b762a4f49c"
+    },
+    {
+      "path": "storage",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "daee41d12ff7bf6d1dd6b2c0b20668436a67cb97",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/daee41d12ff7bf6d1dd6b2c0b20668436a67cb97"
+    },
+    {
+      "path": "storage/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01e86da1956bf6593c9d096187b8615493992779",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/01e86da1956bf6593c9d096187b8615493992779"
+    },
+    {
+      "path": "storage/app/.gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8f4803c05638697d84ea28d40693324ec70f7990",
+      "size": 23,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/8f4803c05638697d84ea28d40693324ec70f7990"
+    },
+    {
+      "path": "storage/app/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f4af0e3ede7ff7a169954a282d0d69bf992f72e",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/2f4af0e3ede7ff7a169954a282d0d69bf992f72e"
+    },
+    {
+      "path": "storage/app/public/.gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d6b7ef32c8478a48c3994dcadc86837f4371184d",
+      "size": 14,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d6b7ef32c8478a48c3994dcadc86837f4371184d"
+    },
+    {
+      "path": "storage/fonts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67cc3c0490f9f66ce352afa636c86e4c983c5d20",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/67cc3c0490f9f66ce352afa636c86e4c983c5d20"
+    },
+    {
+      "path": "storage/fonts/1ea8e000fd5a16bfb81c2086f543549c.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35acda2fa1196aad98c2adf4378a7611dd713aa3",
+      "size": 165548,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/35acda2fa1196aad98c2adf4378a7611dd713aa3"
+    },
+    {
+      "path": "storage/fonts/1ea8e000fd5a16bfb81c2086f543549c.ufm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c998722675c5aeff34c2b64392b708d244ba0be",
+      "size": 26817,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/2c998722675c5aeff34c2b64392b708d244ba0be"
+    },
+    {
+      "path": "storage/fonts/79b165604c2795cff5e31845780a7600.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86784df961f954a23a3a5afa57f07ebee0396192",
+      "size": 150920,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/86784df961f954a23a3a5afa57f07ebee0396192"
+    },
+    {
+      "path": "storage/fonts/79b165604c2795cff5e31845780a7600.ufm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a184f9d26085563de8a40a7717d94e5e776fafa",
+      "size": 25675,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/5a184f9d26085563de8a40a7717d94e5e776fafa"
+    },
+    {
+      "path": "storage/fonts/79b165604c2795cff5e31845780a7600.ufm.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6afbb683140740239aee691ef030ab7bb55c4293",
+      "size": 30566,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/6afbb683140740239aee691ef030ab7bb55c4293"
+    },
+    {
+      "path": "storage/fonts/9073980450562dfe1aebd7f3e28b7eb6.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35acda2fa1196aad98c2adf4378a7611dd713aa3",
+      "size": 165548,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/35acda2fa1196aad98c2adf4378a7611dd713aa3"
+    },
+    {
+      "path": "storage/fonts/9073980450562dfe1aebd7f3e28b7eb6.ufm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c998722675c5aeff34c2b64392b708d244ba0be",
+      "size": 26817,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/2c998722675c5aeff34c2b64392b708d244ba0be"
+    },
+    {
+      "path": "storage/fonts/98cf4207a7a17d9b61d9f98ecbaa3620.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "357b16bf1345c367523eaf0549435c563c4f6044",
+      "size": 111384,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/357b16bf1345c367523eaf0549435c563c4f6044"
+    },
+    {
+      "path": "storage/fonts/98cf4207a7a17d9b61d9f98ecbaa3620.ufm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c355ad721cb1aef9965d5e0b163a1b519b16be13",
+      "size": 14809,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/c355ad721cb1aef9965d5e0b163a1b519b16be13"
+    },
+    {
+      "path": "storage/fonts/Helvetica-Bold.afm.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ebf90233ab77f177856d7e3275e711384c3e722",
+      "size": 11614,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/6ebf90233ab77f177856d7e3275e711384c3e722"
+    },
+    {
+      "path": "storage/fonts/Helvetica-BoldOblique.afm.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0781a337a76774ae1e07a8bfa4463e4ad63d49fd",
+      "size": 11631,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/0781a337a76774ae1e07a8bfa4463e4ad63d49fd"
+    },
+    {
+      "path": "storage/fonts/Helvetica-Oblique.afm.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56ff9d46a13ea68d9e48f3c2ed9364ae7419efa3",
+      "size": 11623,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/56ff9d46a13ea68d9e48f3c2ed9364ae7419efa3"
+    },
+    {
+      "path": "storage/fonts/Helvetica.afm.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86b44c97182085f4d354dc471bf111d86475efad",
+      "size": 11605,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/86b44c97182085f4d354dc471bf111d86475efad"
+    },
+    {
+      "path": "storage/fonts/Times-Bold.afm.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33691a60ff90c4c5ff8699ba3bb665f4ec8ab07d",
+      "size": 11603,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/33691a60ff90c4c5ff8699ba3bb665f4ec8ab07d"
+    },
+    {
+      "path": "storage/fonts/Times-Italic.afm.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37d76fb11688f42e56ea019427dd37cac079cbce",
+      "size": 11605,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/37d76fb11688f42e56ea019427dd37cac079cbce"
+    },
+    {
+      "path": "storage/fonts/Times-Roman.afm.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee043250ca39d9fa495d215976d195ee67e59fdc",
+      "size": 11599,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/ee043250ca39d9fa495d215976d195ee67e59fdc"
+    },
+    {
+      "path": "storage/fonts/b4947bfc07f9f11b363f4d7446cd3e99.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03f70ce742e0d5346c954a93037915730b1f9509",
+      "size": 52708,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/03f70ce742e0d5346c954a93037915730b1f9509"
+    },
+    {
+      "path": "storage/fonts/b4947bfc07f9f11b363f4d7446cd3e99.ufm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4cee4bc6aa795a4bac76f35f08d21bba5360b61",
+      "size": 8003,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/e4cee4bc6aa795a4bac76f35f08d21bba5360b61"
+    },
+    {
+      "path": "storage/fonts/deaa39d71dc7086128716e3f013617c5.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b219a1f28d8fd885fc4ee2a697008f2747126f59",
+      "size": 31044,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b219a1f28d8fd885fc4ee2a697008f2747126f59"
+    },
+    {
+      "path": "storage/fonts/deaa39d71dc7086128716e3f013617c5.ufm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c16bab24ab328b745da7140caa7d6222949578da",
+      "size": 5309,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/c16bab24ab328b745da7140caa7d6222949578da"
+    },
+    {
+      "path": "storage/fonts/dompdf_font_family_cache.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5e347ff50ce214329b362bb82019d0d53ec7cf9",
+      "size": 3830,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a5e347ff50ce214329b362bb82019d0d53ec7cf9"
+    },
+    {
+      "path": "storage/framework",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cc9a692eb89861ff39c7c3dfebe303bfbf260d6",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/0cc9a692eb89861ff39c7c3dfebe303bfbf260d6"
+    },
+    {
+      "path": "storage/framework/.gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b02b700f1bfc86318cff8f4c4a7f0820974d464a",
+      "size": 103,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/b02b700f1bfc86318cff8f4c4a7f0820974d464a"
+    },
+    {
+      "path": "storage/framework/cache",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2915ebbbe97dac9020f34d32632aa86b10d013d5",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/2915ebbbe97dac9020f34d32632aa86b10d013d5"
+    },
+    {
+      "path": "storage/framework/cache/.gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "01e4a6cda9eb380973b23a40d562bca8a3a198b4",
+      "size": 21,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/01e4a6cda9eb380973b23a40d562bca8a3a198b4"
+    },
+    {
+      "path": "storage/framework/cache/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96233b34ccba706a9f89dca87a9282a3cd836e0a",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/96233b34ccba706a9f89dca87a9282a3cd836e0a"
+    },
+    {
+      "path": "storage/framework/cache/data/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b7ef32c8478a48c3994dcadc86837f4371184d",
+      "size": 14,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d6b7ef32c8478a48c3994dcadc86837f4371184d"
+    },
+    {
+      "path": "storage/framework/sessions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f4af0e3ede7ff7a169954a282d0d69bf992f72e",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/2f4af0e3ede7ff7a169954a282d0d69bf992f72e"
+    },
+    {
+      "path": "storage/framework/sessions/.gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d6b7ef32c8478a48c3994dcadc86837f4371184d",
+      "size": 14,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d6b7ef32c8478a48c3994dcadc86837f4371184d"
+    },
+    {
+      "path": "storage/framework/testing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f4af0e3ede7ff7a169954a282d0d69bf992f72e",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/2f4af0e3ede7ff7a169954a282d0d69bf992f72e"
+    },
+    {
+      "path": "storage/framework/testing/.gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d6b7ef32c8478a48c3994dcadc86837f4371184d",
+      "size": 14,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d6b7ef32c8478a48c3994dcadc86837f4371184d"
+    },
+    {
+      "path": "storage/framework/views",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f4af0e3ede7ff7a169954a282d0d69bf992f72e",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/2f4af0e3ede7ff7a169954a282d0d69bf992f72e"
+    },
+    {
+      "path": "storage/framework/views/.gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d6b7ef32c8478a48c3994dcadc86837f4371184d",
+      "size": 14,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d6b7ef32c8478a48c3994dcadc86837f4371184d"
+    },
+    {
+      "path": "storage/logs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f4af0e3ede7ff7a169954a282d0d69bf992f72e",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/2f4af0e3ede7ff7a169954a282d0d69bf992f72e"
+    },
+    {
+      "path": "storage/logs/.gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d6b7ef32c8478a48c3994dcadc86837f4371184d",
+      "size": 14,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d6b7ef32c8478a48c3994dcadc86837f4371184d"
+    },
+    {
+      "path": "taskdef.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d335d0f7aa187721940b68b59ec7195cf57f018d",
+      "size": 6661,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/d335d0f7aa187721940b68b59ec7195cf57f018d"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cda839a93a5c691a2c7cdc49eaa2af0960fd67f2",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/cda839a93a5c691a2c7cdc49eaa2af0960fd67f2"
+    },
+    {
+      "path": "tests/CreatesApplication.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "547152f6a933b1c1f409283d7bdfe1ba556d4069",
+      "size": 380,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/547152f6a933b1c1f409283d7bdfe1ba556d4069"
+    },
+    {
+      "path": "tests/Feature",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddd04bc5997775f80081ec032074ddd9c98c70e3",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/ddd04bc5997775f80081ec032074ddd9c98c70e3"
+    },
+    {
+      "path": "tests/Feature/ExampleTest.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdb5111934c530977ccae72ac0c405c4582cfb2f",
+      "size": 340,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/cdb5111934c530977ccae72ac0c405c4582cfb2f"
+    },
+    {
+      "path": "tests/TestCase.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2932d4a69d6554cec4dea94e3194351710bd659e",
+      "size": 163,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/2932d4a69d6554cec4dea94e3194351710bd659e"
+    },
+    {
+      "path": "tests/Unit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f235b2ad9469a24ecbd06dcd20a6edc5ea23975c",
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/trees/f235b2ad9469a24ecbd06dcd20a6edc5ea23975c"
+    },
+    {
+      "path": "tests/Unit/ExampleTest.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "266ef352efa5661a064e226a3edcf89607d1fb3e",
+      "size": 294,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/266ef352efa5661a064e226a3edcf89607d1fb3e"
+    },
+    {
+      "path": "webpack.mix.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a146117d6e190b631498148af81b8b77a708543e",
+      "size": 543,
+      "url": "https://api.github.com/repos/uts-cic/acawriter/git/blobs/a146117d6e190b631498148af81b8b77a708543e"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,57 @@
+{
+  "E06": {
+    "selected_skill": "experiments/canonical-skill-revision-2026-11-16/reviewed-snapshot/skills/edit-with-purpose/SKILL.md",
+    "loaded_files_sha256": {
+      "experiments/canonical-skill-revision-2026-11-16/inputs/reviewed-focused.json": "7e7807f254ff2ce7a721ec27cd7818d9ea33bfb744c8c8e578fa5a6b28c51e10",
+      "experiments/canonical-skill-revision-2026-11-16/reviewed-snapshot/skills/edit-with-purpose/SKILL.md": "7b612c6b8253ffc2b1926ac826cfd2fd32c65b72a57e564a808522a8739bbea5",
+      "experiments/canonical-skill-revision-2026-11-16/reviewed-snapshot/skills/edit-with-purpose/references/technical-meaning.md": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60",
+      "experiments/canonical-skill-revision-2026-11-16/reviewed-snapshot/skills/edit-with-purpose/references/mechanical-checks.md": "d4ba34812241ba7092f21716fbc4d5528e9c03c583954b1989275190d25d23dd",
+      "experiments/canonical-skill-revision-2026-11-16/reviewed-snapshot/skills/write-with-purpose/scripts/check_text.py": "873f4286cb2848301ef2d5cacd02610744fe2581e5f4ff269ef60a53b4356cb3"
+    },
+    "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/reviewed-focused/E06/output.txt",
+    "output_sha256": "f4d02f8dfb65f540dd0dfe5ca47a8bd6775f6ed6ef2d003ed24107ebd404c5f8",
+    "body_path": "experiments/canonical-skill-revision-2026-11-16/runs/reviewed-focused/E06/body.txt",
+    "material_notes": "Unsupported accuracy rationale and reader instruction flagged separately.",
+    "verification_limits": "Mechanical checks do not establish semantic correctness or author acceptance."
+  },
+  "L01": {
+    "selected_skill": "experiments/canonical-skill-revision-2026-11-16/reviewed-snapshot/skills/edit-with-purpose/SKILL.md",
+    "loaded_files_sha256": {
+      "experiments/canonical-skill-revision-2026-11-16/inputs/reviewed-focused.json": "7e7807f254ff2ce7a721ec27cd7818d9ea33bfb744c8c8e578fa5a6b28c51e10",
+      "experiments/canonical-skill-revision-2026-11-16/reviewed-snapshot/skills/edit-with-purpose/SKILL.md": "7b612c6b8253ffc2b1926ac826cfd2fd32c65b72a57e564a808522a8739bbea5",
+      "experiments/canonical-skill-revision-2026-11-16/reviewed-snapshot/skills/edit-with-purpose/references/plain-language-edit.md": "193a9cc6332da1b4d6c94735d7db0539313c693d7b48304acac1025132efd987"
+    },
+    "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/reviewed-focused/L01/output.txt",
+    "output_sha256": "3ed67136e66bdb51c3d5cc5abdb15bf7e6a492741797ab595cc2ea9122dd5eb9",
+    "body_path": "experiments/canonical-skill-revision-2026-11-16/runs/reviewed-focused/L01/body.txt",
+    "material_notes": "Worked revision precedes explanation; no comparator inferred.",
+    "verification_limits": "Meaning checked against supplied facts; no author response observed."
+  },
+  "L02": {
+    "selected_skill": "experiments/canonical-skill-revision-2026-11-16/reviewed-snapshot/skills/edit-with-purpose/SKILL.md",
+    "loaded_files_sha256": {
+      "experiments/canonical-skill-revision-2026-11-16/inputs/reviewed-focused.json": "7e7807f254ff2ce7a721ec27cd7818d9ea33bfb744c8c8e578fa5a6b28c51e10",
+      "experiments/canonical-skill-revision-2026-11-16/reviewed-snapshot/skills/edit-with-purpose/SKILL.md": "7b612c6b8253ffc2b1926ac826cfd2fd32c65b72a57e564a808522a8739bbea5",
+      "experiments/canonical-skill-revision-2026-11-16/reviewed-snapshot/skills/edit-with-purpose/references/plain-language-edit.md": "193a9cc6332da1b4d6c94735d7db0539313c693d7b48304acac1025132efd987"
+    },
+    "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/reviewed-focused/L02/output.txt",
+    "output_sha256": "068ccf6e4e22d538303a492a8f31025393315638e9b381a1a6147d18a5df68ea",
+    "body_path": "experiments/canonical-skill-revision-2026-11-16/runs/reviewed-focused/L02/body.txt",
+    "material_notes": "Facts presented as separate fields; answer withheld for attempt-first practice.",
+    "verification_limits": "Meaning checked against supplied facts; no author response observed."
+  },
+  "S01": {
+    "selected_skill": "experiments/canonical-skill-revision-2026-11-16/editor-only-reviewed/edit-with-purpose/SKILL.md",
+    "loaded_files_sha256": {
+      "experiments/canonical-skill-revision-2026-11-16/inputs/reviewed-focused.json": "7e7807f254ff2ce7a721ec27cd7818d9ea33bfb744c8c8e578fa5a6b28c51e10",
+      "experiments/canonical-skill-revision-2026-11-16/editor-only-reviewed/edit-with-purpose/SKILL.md": "7b612c6b8253ffc2b1926ac826cfd2fd32c65b72a57e564a808522a8739bbea5",
+      "experiments/canonical-skill-revision-2026-11-16/editor-only-reviewed/edit-with-purpose/references/technical-meaning.md": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60",
+      "experiments/canonical-skill-revision-2026-11-16/editor-only-reviewed/edit-with-purpose/references/mechanical-checks.md": "d4ba34812241ba7092f21716fbc4d5528e9c03c583954b1989275190d25d23dd"
+    },
+    "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/reviewed-focused/S01/output.txt",
+    "output_sha256": "408c5252d39a1a98048bdd21fc9d4c3d248a000aa5bcefe31e8de502e74e8e8f",
+    "body_path": "experiments/canonical-skill-revision-2026-11-16/runs/reviewed-focused/S01/body.txt",
+    "material_notes": "Standalone editor only; body checked with Python standard library.",
+    "verification_limits": "Mechanical checks do not establish semantic correctness or author acceptance."
+  }
+}

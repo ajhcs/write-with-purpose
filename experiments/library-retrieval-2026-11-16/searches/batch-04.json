@@ -1,0 +1,119 @@
+{
+  "batch": 4,
+  "queries": [
+    {
+      "candidate_key": "business:business_031",
+      "doi": "10.1287/orsc.1060.0191",
+      "title": "Social Capital and Organizational Performance: Evidence from Urban Public Schools",
+      "field": "business_management",
+      "q": "\"Social Capital and Organizational Performance: Evidence from Urban Public Schools\" pdf"
+    },
+    {
+      "candidate_key": "business:business_032",
+      "doi": "10.5465/amj.2009.44632557",
+      "title": "From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research",
+      "field": "business_management",
+      "q": "\"From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research\" pdf"
+    },
+    {
+      "candidate_key": "business:business_033",
+      "doi": "10.1177/1094428104263675",
+      "title": "Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis",
+      "field": "business_management",
+      "q": "\"Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis\" pdf"
+    },
+    {
+      "candidate_key": "business:business_034",
+      "doi": "10.5465/amr.1998.192979",
+      "title": "From the Ground Up: Six Principles for Building the New Logic Corporation",
+      "field": "business_management",
+      "q": "\"From the Ground Up: Six Principles for Building the New Logic Corporation\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_031",
+      "query": "\"Social Capital and Organizational Performance: Evidence from Urban Public Schools\" pdf",
+      "urls": [
+        {
+          "title": "Social Capital and Organizational Performance: Evidence from Urban Public Schools",
+          "url": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.1060.0191",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "dblp: Social Capital and Organizational Performance: Evidence from Urban Public Schools.",
+          "url": "https://dblp.org/rec/journals/orgsci/LeanaP06.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Social Capital and Organizational Performance: Evidence from Urban Public Schools",
+          "url": "https://www.academia.edu/19383269/Social_Capital_and_Organizational_Performance_Evidence_from_Urban_Public_Schools",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_032",
+      "query": "\"From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research\" pdf",
+      "urls": [
+        {
+          "title": "From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research",
+          "url": "https://journals.aom.org/doi/full/10.5465/AMJ.2009.44632557",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "From the Editors: On Writing Up Qualitative Research in Management Learning and Education",
+          "url": "https://journals.aom.org/doi/10.5465/amle.2016.0275",
+          "score": 0.6153846153846154,
+          "body_score": 0.7692307692307693
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_033",
+      "query": "\"Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis\" pdf",
+      "urls": [
+        {
+          "title": "Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/1094428104263675",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis",
+          "url": "https://journals.sagepub.com/doi/10.1177/1094428104263675",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Figure 3 - from Factor Retention in Exploratory Factor",
+          "url": "https://www.academia.edu/figures/23130085/figure-3-factor-retention-in-exploratory-factor-analysis",
+          "score": 0.4444444444444444,
+          "body_score": 1
+        },
+        {
+          "title": "Parallel analysis",
+          "url": "https://en.wikipedia.org/wiki/Parallel_analysis",
+          "score": 0.3333333333333333,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_034",
+      "query": "\"From the Ground Up: Six Principles for Building the New Logic Corporation\" pdf",
+      "urls": [
+        {
+          "title": "From the ground up : six principles for building the new logic corporation | Search Results | IUCAT Northwest !",
+          "url": "https://iucat.iu.edu/iun/4265509",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

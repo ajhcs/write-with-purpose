@@ -1,0 +1,143 @@
+{
+  "batch": 2,
+  "queries": [
+    {
+      "candidate_key": "business:business_009",
+      "doi": "10.5465/amr.1993.9402210153",
+      "title": "A Review and an Integration of Research on Job Burnout",
+      "field": "business_management",
+      "q": "\"A Review and an Integration of Research on Job Burnout\" pdf"
+    },
+    {
+      "candidate_key": "business:business_010",
+      "doi": "10.5465/amj.2011.0088",
+      "title": "How Does Human Resource Management Influence Organizational Outcomes? A Meta-analytic Investigation of Mediating Mechanisms",
+      "field": "business_management",
+      "q": "\"How Does Human Resource Management Influence Organizational Outcomes? A Meta-analytic Investigation of Mediating Mechanisms\" pdf"
+    },
+    {
+      "candidate_key": "business:business_011",
+      "doi": "10.5465/amj.2005.18803921",
+      "title": "A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework: An Explanation for Inconsistent Relationships Among Stressors and Performance",
+      "field": "business_management",
+      "q": "\"A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework: An Explanation for Inconsistent Relationships Among Stressors and Performance\" pdf"
+    },
+    {
+      "candidate_key": "business:business_012",
+      "doi": "10.5465/amj.2013.0319",
+      "title": "Women on Boards and Firm Financial Performance: A Meta-Analysis",
+      "field": "business_management",
+      "q": "\"Women on Boards and Firm Financial Performance: A Meta-Analysis\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_009",
+      "query": "\"A Review and an Integration of Research on Job Burnout\" pdf",
+      "urls": [
+        {
+          "title": "A Review and an Integration of Research on Job Burnout",
+          "url": "https://journals.aom.org/doi/10.5465/AMR.1993.9402210153",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Review and an Integration of Research on Job Burnout",
+          "url": "https://explore.metascienceobservatory.org/papers/W2158403055",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Cordes, C. L., & Dougherty, T. W. (1993). A review and an integration of research on job burnout. *The Academy of Management Review, 18*(4), 621–656. https://doi.org/10.2307/258593",
+          "url": "https://oulurepo.oulu.fi/bitstream/handle/10024/58883/nbnfioulu-202510226413.pdf%3Bjsessionid%3D61FB9343DCC2B1F5A10E89272BA4F978?sequence=1",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_010",
+      "query": "\"How Does Human Resource Management Influence Organizational Outcomes? A Meta-analytic Investigation of Mediating Mechanisms\" pdf",
+      "urls": [
+        {
+          "title": "How Does Human Resource Management Influence Organizational Outcomes? A Meta-Analytic Investigation of Mediating Mechanisms",
+          "url": "https://www.researchgate.net/publication/259147253_How_Does_Human_Resource_Management_Influence_Organizational_Outcomes_A_Meta-Analytic_Investigation_of_Mediating_Mechanisms",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_011",
+      "query": "\"A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework: An Explanation for Inconsistent Relationships Among Stressors and Performance\" pdf",
+      "urls": [
+        {
+          "title": "A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework: An Explanation for Inconsistent Relationships Among Stressors and Performance",
+          "url": "https://journals.aom.org/doi/10.5465/AMJ.2005.18803921",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "LePine, J. A., Podsakoff, N. P., & LePine, M. A. (2005). A meta-analytic test of the challenge stressor-hindrance stressor framework: An explanation for inconsistent relationships among stressors and performance. *Academy of Management Journal, 48*(5), 764–775.",
+          "url": "https://digital.ub.uni-paderborn.de/hs/download/pdf/7690676",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "YCR of \"A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework: An Explanation for Inconsistent Relationships Among Stressors and Performance\"",
+          "url": "https://ycr-index.org/w/oa-id/w2018144608",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_012",
+      "query": "\"Women on Boards and Firm Financial Performance: A Meta-Analysis\" pdf",
+      "urls": [
+        {
+          "title": "Does Gender Matter? Female Representation on Corporate Boards and Firm Financial Performance - A Meta-Analysis",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0130005",
+          "score": 0.875,
+          "body_score": 1
+        },
+        {
+          "title": "Does Gender Matter? Female Representation on Corporate Boards and Firm Financial Performance - A Meta-Analysis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4473005/",
+          "score": 0.875,
+          "body_score": 1
+        },
+        {
+          "title": "performance is mixed, several researchers have conducted meta-analyses, which utilize a statistical approach to combine the results from multiple studies in order to increase their combined statistical power (over individual studies), improve estimates of the size of the effect, and resolve uncertainty when reports disagree. This report synthesizes the results from two meta-analysis studies. The first meta-analysis focuses on the relationship between women on boards and firms’ financial performance, while the second study focuses on the relationship between women on boards and firms’ social performance.",
+          "url": "https://www.ifc.org/content/dam/ifc/doc/mgrt/the-case-gender-diversity-among-sri-lanka-business-leadership.pdf",
+          "score": 0.875,
+          "body_score": 1
+        },
+        {
+          "title": "Does Gender Matter? Female Representation on Corporate Boards and Firm Financial Performance - A Meta-Analysis",
+          "url": "https://pdfs.semanticscholar.org/a1f3/92a9077455b920a34b0af0ff41189b997dc2.pdf",
+          "score": 0.875,
+          "body_score": 1
+        },
+        {
+          "title": "Women on Boards & Firm Financial Performance: A Meta-Analysis",
+          "url": "https://studylib.net/doc/27964471/women-on-boards-and-firm-performance-metaanalysis",
+          "score": 0.875,
+          "body_score": 1
+        },
+        {
+          "title": "Representation of Women on Corporate Boards of Directors and Firm Financial Performance",
+          "url": "https://ouci.dntb.gov.ua/en/works/9QzdX2m7/",
+          "score": 0.75,
+          "body_score": 1
+        },
+        {
+          "title": "Women in the boardroom and their impact on governance and performance",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0304405X09001421/pdf",
+          "score": 0.375,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

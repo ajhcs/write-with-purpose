@@ -1,0 +1,36 @@
+# Conceptual explanation and tutorial: candidate collection
+
+This is a **discovery and measurement pilot**, not a finished, representative corpus or a validated profile of either form. On 16 November 2026 it collected 494 English source pages and notebooks from six official, maintained documentation projects at pinned Git commits. Project maintenance and source typing are the selection signals; no evidence of readership, citation rank, pedagogical success, or suitability as a writing model was established. The roughly 200-per-form acquisition target is reached for machine-screened candidates; neither set has undergone page-by-page editorial classification. The sample is entirely software documentation; explanation is Kubernetes-weighted and the tutorial sample contains many machine-learning and robotics lessons. The pinned versions are current or a current release branch, not a pre-2015 or pre-2020 historical collection. It does not represent conceptual explanation in general.
+
+| Candidate form | Project distribution | Total candidate units |
+|---|---|---:|
+| Explanation | Kubernetes 157; Ubuntu Server 65 | 222 |
+| Tutorial | ROS 2 93; TensorFlow 59; PyTorch 58; Kubernetes 29; Ubuntu Server 5; Hugging Face Diffusers 3 | 247 |
+
+Twenty-three additional pages fell below a provisional 120 extracted prose-word screening threshold; two were excluded for conflict between their Kubernetes `content_type` and directory. In particular, the concepts-directory Windows user guide declares itself a tutorial and the tutorial-directory namespaces walkthrough declares itself a task. The threshold is an acquisition triage rule, not a form definition or minimum writing length. The remaining candidates include pages that may be how-to guides, reference, mixed forms, or otherwise unsuitable. There is no claim of 222 validated explainers or 247 validated lessons.
+
+[Diátaxis explanation](https://diataxis.fr/explanation/) and [tutorials](https://diataxis.fr/tutorials/) provide the provisional distinction: explanation serves understanding; a tutorial is a guided learning activity. Kubernetes `content_type: concept` and `content_type: tutorial`, and the two projects' directory names, are discovery signals only. A concept page is not automatically an explanation, and a tutorial path does not establish guided learning. One Kubernetes concept page, one Kubernetes tutorial and one Ubuntu explanation source were spot-checked for extraction and topical plausibility; this is not a representative audit of any collection. Each unit is a source page, not a book or a claim that any page is a complete course.
+
+## Descriptive signals, before human screening
+
+These are raw source-extraction statistics for the candidate pages only. They are **not** working targets, limits, or findings about effective writing. Source templates, conditional content and transcluded material mean they are not full rendered-page counts. Comparisons are confounded by project, subject, formatting, and selection.
+
+| Signal, per page: minimum / median / maximum | Explanation candidates | Tutorial candidates |
+|---|---:|---:|
+| Extracted prose words | 124 / 693.5 / 5,559 | 120 / 765 / 5,172 |
+| Extracted prose paragraphs | 4 / 23 / 174 | 6 / 31 / 160 |
+| Parsed headings | 1 / 8 / 56 | 0 / 10 / 44 |
+| Fenced or indented code blocks | 0 / 2 / 95 | Not comparable across source formats |
+| List blocks | 0 / 4 / 26 | 0 / 2 / 39 |
+
+The nine accepted feature groups are supported only to the following degree:
+
+- **F01:** extracted paragraph prose words, excluding headings, list paragraphs, code, front matter and inline code. Titles, abstracts, captions and references are not separately identified; there is no reliable full-main-text count.
+- **F02–F03:** parsed heading count and depth, and prose word counts and shares in the intervals between headings. These intervals are not semantic sections and the heading hierarchy is not normalized.
+- **F04–F06:** arrays of paragraph and approximate sentence word counts, plus mean characters per regex-defined word, for extracted prose. Sentence splitting is a simple punctuation heuristic and is especially fragile for technical abbreviations. Syllables are not estimated.
+- **F07–F08:** counts of links, image tokens, table blocks, blockquotes, code and list blocks, plus approximate list words. Links are not necessarily citations, blockquotes are not necessarily evidence, and object functions and positions are not established. Nested lists, directives and rendered HTML may be miscounted; code-block count is not code volume.
+- **F09:** no automated communicative-function or comprehension judgment is made.
+
+For notebooks, only Markdown cells are processed and code cells are counted; notebook outputs are omitted. ROS 2 reStructuredText is heuristically converted: directives and their indented bodies are omitted, and this can remove meaningful prose. PyTorch gallery files contribute module docstrings and top-level comment lines; headings and code are not parsed equivalently to the other formats, and code block count is unavailable. The Markdown parser excludes inline code and strips Hugo-style template expressions; it does not expand includes, resolve cross-references, render MyST/Sphinx directives, or fully represent HTML. Consequently text can be omitted or markup can be mistaken for prose. No completeness or accuracy estimate is available. Section-level data and paragraph and sentence distributions are in `records.jsonl`; `measurements.csv` is a compact flat view. Neither file redistributes article prose. SHA-256 hashes identify fetched source bytes. `sources.json` records source commits, repository-level license metadata, retrieval time and discovery failures; Ubuntu Server's repository-level license was not resolved and is recorded as unknown, not presumed. Attribution is to project contributors and is not a determination of individual authorship or reuse rights.
+
+GitHub's unauthenticated API rate limit prevented discovery of eight other attempted repositories. Their failed acquisitions are recorded, and they contribute zero pages. The additional archived projects were fetched by Git commit archive after unauthenticated API rate limiting; archive hashes and pinned commits are recorded in `sources.json`. Repository-level licenses are discovery metadata and may not cover every embedded asset. Source bytes are cached outside this repository at `/workspace/tmp/builderbob/writing-corpus/explanation-tutorial` on the verified Samsung workspace; `/workspace/tmp/writing-corpus` was not writable. `collect.py` records the original acquisition; `finalize.py` reapplies the declared-type check to that cached run; `extend_archives.py` adds the four pinned archives and their different-format extraction. Running `collect.py` again overwrites the combined records, so `finalize.py` and then `extend_archives.py` must follow it. An immediate recollection can be blocked by the same rate limit or produce a different current commit. To advance this work, use additional independent source-typed collections, expand and render each page at its pinned revision, review each page for form and suitability, then separately analyze coherent subgroups and report inclusion decisions.

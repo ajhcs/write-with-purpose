@@ -1,0 +1,183 @@
+{
+  "status": "Charter only; published before reading advocate positions or exchanges; no rule adjudicated",
+  "date": "2026-11-16",
+  "objective": "Compact operative candidate for drafting, editing and improvement with substantive novelty prioritized among eligible mechanisms.",
+  "baseline_verification": [
+    {
+      "path": "skills/write-with-purpose/SKILL.md",
+      "expected_sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365",
+      "actual_sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365",
+      "matches": true
+    },
+    {
+      "path": "skills/edit-with-purpose/SKILL.md",
+      "expected_sha256": "99779aadcc1e66f41bd30448b84c6598cfd8e66d1aa71f4dc1d32f0e4d12abef",
+      "actual_sha256": "99779aadcc1e66f41bd30448b84c6598cfd8e66d1aa71f4dc1d32f0e4d12abef",
+      "matches": true
+    },
+    {
+      "path": "docs/writing-harness/accepted-foundations.md",
+      "expected_sha256": "2a8aa40b545299d3ec4d5c33f9597ca1548c3715cef17e978134bccf505f5b62",
+      "actual_sha256": "2a8aa40b545299d3ec4d5c33f9597ca1548c3715cef17e978134bccf505f5b62",
+      "matches": true
+    },
+    {
+      "path": "docs/writing-harness/paragraph-functions.json",
+      "expected_sha256": "4d119fac2f29e1c0bbdea77e65e64cba45f67931bc0f816e40a765c0ff3cdc2e",
+      "actual_sha256": "4d119fac2f29e1c0bbdea77e65e64cba45f67931bc0f816e40a765c0ff3cdc2e",
+      "matches": true
+    },
+    {
+      "path": "experiments/evidence-integration-2026-11-16/rule-decision-ledger.json",
+      "expected_sha256": "e79f8a7d267c7027bb301fb2d3bda0a20f5f71c9127caa9d3b51d92a3390822e",
+      "actual_sha256": "e79f8a7d267c7027bb301fb2d3bda0a20f5f71c9127caa9d3b51d92a3390822e",
+      "matches": true
+    },
+    {
+      "path": "experiments/evidence-integration-2026-11-16/reviews/astra-advantage.md",
+      "expected_sha256": "a76c5bda0d142cc673c357e2b4f663b474bf055e0b77893198089dc8edb47989",
+      "actual_sha256": "a76c5bda0d142cc673c357e2b4f663b474bf055e0b77893198089dc8edb47989",
+      "matches": true
+    },
+    {
+      "path": "experiments/rule-calibration-2026-11-16/report.md",
+      "expected_sha256": "bd6c02f27faa73f3c5dbbc130f7611463fa2a8219a4f2d04cb1d87ebb11667c6",
+      "actual_sha256": "bd6c02f27faa73f3c5dbbc130f7611463fa2a8219a4f2d04cb1d87ebb11667c6",
+      "matches": true
+    }
+  ],
+  "eligibility": [
+    {
+      "id": "E01",
+      "condition": "Respect explicit author scope and actual constraints; distinguish proposed new interpretations from accepted author position.",
+      "does_not_require": "Unchanged structure or wording; repeated approval for routine authorized improvement."
+    },
+    {
+      "id": "E02",
+      "condition": "Preserve accepted nine-feature framework, visible Family→Form→Section and separation of observations, targets and limits.",
+      "does_not_require": "Retaining provisional taxonomy or twelve function IDs unchanged; explicit migration is required for changes."
+    },
+    {
+      "id": "E03",
+      "condition": "Specify trigger, action, plausible improvement, counterexample/tradeoff and model/code/author roles.",
+      "does_not_require": "A matching empirical paper or existing implementation for a novel mechanism."
+    },
+    {
+      "id": "E04",
+      "condition": "Represent source scope and evidence honestly; no invented facts or experiences.",
+      "does_not_require": "Rejecting novel recombinations or hypotheses because unproven."
+    }
+  ],
+  "priority_order": [
+    {
+      "rank": 1,
+      "criterion": "Substantive novelty relative to inspected baselines",
+      "test": "What behavior changes, compared with the nearest current or inspected predecessor mechanism?"
+    },
+    {
+      "rank": 2,
+      "criterion": "Author contribution and actual improvement",
+      "test": "How does it develop or express the author thought and materially improve structure, reasoning, evidence use, explanation, voice or expression?"
+    },
+    {
+      "rank": 3,
+      "criterion": "Operative clarity",
+      "test": "Can the model/code/author act and recognize applicability and limits?"
+    },
+    {
+      "rank": 4,
+      "criterion": "Benefit relative to interaction and recording burden",
+      "test": "Is the effort proportionate, without equating fewer edits or fields with better work?"
+    }
+  ],
+  "priority_interpretation": "Ordered deliberative preference, not numeric weights. Novelty without plausible usefulness fails eligibility. Familiar winners over novel eligible mechanisms require a concrete reason and preserved minority case.",
+  "novelty_baselines": [
+    "Current writing and editing skills and relevant references",
+    "Proposed twelve functions",
+    "Astra revision and local calibration",
+    "Eighteen-paper integration candidates",
+    "Earlier Astra strategy",
+    "Inspected AcaWriter/RWT and imported codebook/data mechanisms"
+  ],
+  "novelty_classes": [
+    "inherited baseline",
+    "incremental operational change",
+    "substantive mechanism change"
+  ],
+  "evidence_classes": [
+    "established principle",
+    "scoped empirical finding",
+    "novel recombination",
+    "new hypothesis"
+  ],
+  "evidence_class_limits": "Assign at claim level; multiple classes may apply; no ranking or universal-proof implication.",
+  "novelty_ledger_fields": [
+    "proposal_id",
+    "current_behavior",
+    "proposed_behavioral_difference",
+    "nearest_inspected_precedent",
+    "residual_distinctiveness",
+    "worked_case_consequence",
+    "uncertainty"
+  ],
+  "novelty_exclusions": [
+    "New names without behavioral change",
+    "More fields without decision value",
+    "Forced contrarianism",
+    "Arbitrary quotas",
+    "Invented factual content",
+    "World-first claim unsupported by scope"
+  ],
+  "self_challenges": [
+    "Defect-only stopping can prevent worthwhile improvement of adequate drafts.",
+    "Minimal editing cannot prohibit authorized structural or argumentative alternatives.",
+    "Author meaning and originality are not equivalent to every original surface sentence.",
+    "Sparse visible feedback cannot cap internal exploration or coordinated editing.",
+    "Persistent decisions can fossilize mistaken assumptions or voice; consider justified reopening.",
+    "Failed exhaustive-label calibration does not eliminate communicative analysis where useful."
+  ],
+  "demonstration_requirements": {
+    "set_coverage": [
+      "Drafting from ideas",
+      "Targeted editing",
+      "Structural or argumentative improvement"
+    ],
+    "case_fields": [
+      "Original passage or outline",
+      "Author purpose and actual constraints",
+      "Fair baseline behavior",
+      "Candidate transformation",
+      "Improvement",
+      "Potential loss",
+      "Counterexample or keep-original case"
+    ],
+    "claims_limit": "Synthetic worked cases demonstrate operation, not empirical gain, semantic accuracy or optimization.",
+    "fairness": "Do not cripple baseline to manufacture advantage; equal useful outputs imply limited distinctiveness."
+  },
+  "debate_protocol": {
+    "start_condition": "Parent confirms all positions, assigned cross-challenges and replies are complete.",
+    "provenance": "Read original, specific challenge and defend/revise/withdraw reply; preserve IDs and wording versions.",
+    "decisions": [
+      "retain_as_inherited",
+      "select",
+      "merge",
+      "revise",
+      "defer",
+      "reject"
+    ],
+    "rejection_requirement": "Specific reason; unfamiliarity or no exact matching paper is insufficient.",
+    "synthesis_requirement": "Label adjudicator-created synthesis; do not claim advocate consensus retroactively.",
+    "minority_report": "Strongest rejected/unresolved alternatives and conditions for reconsideration.",
+    "consensus_limit": "Majority agreement is not correctness."
+  },
+  "final_outputs": [
+    "Decisions with provenance",
+    "Novelty ledger",
+    "Minority report",
+    "Compact operative Markdown guide",
+    "Structured JSON rules",
+    "Annotation/coding clarification appendix",
+    "Explicit migration from old rules and any changed function IDs"
+  ],
+  "current_action": "Stop after charter and wait for parent notification; do not adjudicate yet."
+}

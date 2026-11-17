@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_009",
+      "doi": "10.5465/amr.1993.9402210153",
+      "title": "A Review and an Integration of Research on Job Burnout",
+      "authors": "[\"Cynthia L. Cordes\", \"Thomas W. Dougherty\"]",
+      "field": "business_management",
+      "q": "\"A Review and an Integration of Research on\" Cordes filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_009",
+      "query": "\"A Review and an Integration of Research on\" Cordes filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "A Review and an Integration of Research on Job Burnout",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amr.1993.9402210153",
+          "score": 1
+        },
+        {
+          "title": "國立中山大學,National Sun Yat-sen University,學位論文,thesis/dissertation,高中職轉型為綜合高中組織變革、教師角色壓力與工作倦怠相關之研究─以社會支持為干擾變項,This research studies effects such as role pressure and burnout experienced by teachers as a result of the organizational transformation of Taiwanese vocational schools into general purpose high schools.",
+          "url": "https://ethesys.lis.nsysu.edu.tw/ETD-db/ETD-search-c/view_etd?URN=etd-0728104-145628",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

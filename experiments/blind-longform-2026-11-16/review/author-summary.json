@@ -1,0 +1,31 @@
+{
+  "trial_id": "blind-longform-20261116",
+  "status": "author_review_complete",
+  "condition_identities_revealed": false,
+  "rated_cases": 10,
+  "total_cases": 16,
+  "rewrite_preferred": 9,
+  "original_preferred": 1,
+  "explicit_substantive_candidate_marked": 8,
+  "substantive_unsure": [
+    "R06"
+  ],
+  "substantive_unanswered": [
+    "R13"
+  ],
+  "rated_scopes": {
+    "Opening": 4,
+    "Middle": 3,
+    "Closing": 3
+  },
+  "whole_work_cases_rated": [],
+  "unrated_cases": [
+    "R04",
+    "R08",
+    "R12",
+    "R14",
+    "R15",
+    "R16"
+  ],
+  "interpretation": "Counts describe this author's submitted passage judgments only. A/B are swapped, so letter totals are not condition rankings. No condition key was read; no missing answer was imputed. Whole-work preference remains unassessed."
+}

@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_11",
+      "doi": "10.1109/tse.2011.104",
+      "title": "GenProg: A Generic Method for Automatic Software Repair",
+      "authors": "[\"Claire Le Goues\", \"ThanhVu Nguyen\", \"Stephanie Forrest\", \"Westley Weimer\"]",
+      "field": "engineering_computing",
+      "q": "\"GenProg: A Generic Method for Automatic Software Repair\" Goues filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_11",
+      "query": "\"GenProg: A Generic Method for Automatic Software Repair\" Goues filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "dblp: GenProg: A Generic Method for Automatic Software Repair.",
+          "url": "https://dblp.org/rec/journals/tse/GouesNFW12.html",
+          "score": 1
+        },
+        {
+          "title": "GenProg: A Generic Method for Automatic Software Repair",
+          "url": "https://bibbase.org/network/publication/legoues-nguyen-forrest-weimer-genprogagenericmethodforautomaticsoftwarerepair-2012",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

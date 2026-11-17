@@ -1,0 +1,67 @@
+{
+  "scope": "Four raw synthetic task packets only, with no prior answers/verdicts.",
+  "cases": [
+    {
+      "id": "E06",
+      "form": "empirical report Methods section",
+      "task": "Improve the Methods passage while accurately reporting what was done. Flag any unsupported rationale or instruction separately; do not invent a source.",
+      "before": "We warmed the samples to 40 \u00b0C for 10 min, which improves accuracy. That is why readers should warm their samples too.",
+      "source_notes": [
+        "The study warmed samples to40\u00b0C for10min.",
+        "No comparison of temperature conditions or accuracy effects was performed.",
+        "No supporting external study is supplied.",
+        "The text belongs to a report of the completed study, not a reader procedure."
+      ],
+      "declared_contract": {
+        "protected_literals": [
+          {
+            "text": "40 \u00b0C",
+            "min_count": 1
+          },
+          {
+            "text": "10 min",
+            "min_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01",
+      "task": "Show me a worked revision of this sentence and explain your choice. Do not ask me to attempt it first.",
+      "before": "The results were very, very good.",
+      "source_notes": [
+        "The model correctly classified 80 of 100 cases.",
+        "No comparator, baseline or additional outcome was supplied."
+      ]
+    },
+    {
+      "id": "L02",
+      "task": "Help me practise replacing vague praise with a specific result. Give me the source facts and let me attempt a sentence before showing an answer.",
+      "before": "The results were very, very good.",
+      "source_notes": [
+        "The model correctly classified 80 of 100 cases.",
+        "No comparator, baseline or additional outcome was supplied."
+      ]
+    },
+    {
+      "id": "S01",
+      "form": "technical summary",
+      "task": "Improve the explanation under a maximum of 45 words. Retain the exact term retry-safe and all material conditions. Do not add facts about causes or tests.",
+      "before": "The operation is retry-safe only while the request identifier remains unchanged. A repeated request returns the existing result. A request with a new identifier starts another operation. We have tested this behavior in the prototype, not in production.",
+      "source_notes": [
+        "The guarantee is conditional on an unchanged request identifier.",
+        "A new identifier starts another operation.",
+        "Evidence comes only from the prototype; production behavior has not been tested."
+      ],
+      "declared_contract": {
+        "max_words": 45,
+        "protected_literals": [
+          {
+            "text": "retry-safe",
+            "min_count": 1
+          }
+        ]
+      }
+    }
+  ]
+}

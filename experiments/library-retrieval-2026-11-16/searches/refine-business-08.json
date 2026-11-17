@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_011",
+      "doi": "10.5465/amj.2005.18803921",
+      "title": "A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework: An Explanation for Inconsistent Relationships Among Stressors and Performance",
+      "authors": "[\"Jeffery A. Lepine\", \"Nathan P. Podsakoff\", \"Marcie A. Lepine\"]",
+      "field": "business_management",
+      "q": "\"A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework\" Lepine pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_011",
+      "query": "\"A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework\" Lepine pdf",
+      "urls": [
+        {
+          "title": "LePine, J. A., Podsakoff, N. P., & LePine, M. A. (2005). A meta-analytic test of the challenge stressor-hindrance stressor framework: An explanation for inconsistent relationships among stressors and performance. *Academy of Management Journal, 48*(5), 764–775.",
+          "url": "https://digital.ub.uni-paderborn.de/hs/download/pdf/7690676",
+          "score": 1
+        },
+        {
+          "title": "Lepine, J. A., Podsakoff, N. P., & Lepine, M. A. (2002). A meta-analytic test of the challenge stressor–hindrance stressor framework: An explanation for inconsistent relationships among stressors and performance. Academy of Management Journal, 45(5), 764-775.",
+          "url": "https://www.doria.fi/bitstream/handle/10024/187354/mesha_MD_hredoy.pdf?sequence=2",
+          "score": 1
+        },
+        {
+          "title": "[87] LePine, J. A., Podsakoff, N. P. i LePine, M. A. (2005). A meta-analytic test of the challenge stressor–hindrance stressor framework: An explanation for inconsistent relationships among stressors and performance. *Academy of management journal*, 48(5), 764-775.",
+          "url": "https://ebiblioteka.efsa.unsa.ba/xmlui/bitstream/handle/EFSA/711/Berina%20Pandza%20-%20zavrsni%20rad.pdf?isAllowed=y&sequence=1",
+          "score": 1
+        },
+        {
+          "title": "A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework: An Explanation for Inconsistent Relationships Among Stressors and Performance",
+          "url": "https://journals.aom.org/doi/10.5465/amj.2005.18803921",
+          "score": 1
+        },
+        {
+          "title": "A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework: An Explanation for Inconsistent Relationships Among Stressors and Performance",
+          "url": "https://explore.openaire.eu/search/publication?pid=10.5465%2Famj.2005.18803921",
+          "score": 1
+        },
+        {
+          "title": "A meta-analytic test of the challenge Stressor-hindrance stressor framework: An explanation for inconsistent relationships among Stressors and performance",
+          "url": "https://experts.arizona.edu/en/publications/a-meta-analytic-test-of-the-challenge-stressor-hindrance-stressor/",
+          "score": 1
+        },
+        {
+          "title": "Dialnet Métricas - Documento A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework",
+          "url": "https://dialnet.unirioja.es/metricas/documentos/ARTREV/1323885",
+          "score": 1
+        },
+        {
+          "title": "A Meta-Analytic Test of the Challenge Stressor–Hindrance Stressor Framework: An Explanation for Inconsistent Relationships Among Stressors and Performance",
+          "url": "https://openurl.ebsco.com/c/p7fgln/openurl?date=2005-10&doi=10.5465%2Famj.2005.18803921&epage=775&genre=article&issn=0001-4273&issue=5&prompt=true&sid=Primo&spage=764&title=The+Academy+of+Management+journal.&volume=48",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

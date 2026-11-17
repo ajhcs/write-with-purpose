@@ -1,0 +1,209 @@
+{
+  "prior_fully_coded": [
+    {
+      "id": "NEJMp1616577",
+      "title": "Repealing the ACA without a Replacement — The Risks to American Health Care",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "id": "NEJMp1702362",
+      "title": "Resisting the Suppression of Science",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "id": "NEJMp1707514",
+      "title": "The Other End of the Stethoscope",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4"
+    },
+    {
+      "id": "NEJMp1711886",
+      "title": "Tragedy, Perseverance, and Chance — The Story of CAR-T Therapy",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "id": "NEJMp1901657",
+      "title": "Hypertension Hot Potato — Anatomy of the Angiotensin-Receptor Blocker Recalls",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "id": "xml-02359",
+      "title": "A systematic review of evidence on the links between patient experience and clinical safety and effectiveness",
+      "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47"
+    },
+    {
+      "id": "xml-02334",
+      "title": "Long-term neurodevelopmental outcomes after intrauterine and neonatal insults: a systematic review",
+      "source_sha256": "125c062cedd823c5de8bb699e99069125d8bdcabd3afe9246aecfca0b3822651"
+    },
+    {
+      "id": "xml-02298",
+      "title": "Validation and validity of diagnoses in the General Practice Research Database: a systematic review",
+      "source_sha256": "f603ac5be9cda2adb455f06648e3d3c460dfa97dfe1bf2e5f11b86d097bbd3d3"
+    },
+    {
+      "id": "xml-02415",
+      "title": "The Effectiveness of Convalescent Plasma and Hyperimmune Immunoglobulin for the Treatment of Severe Acute Respiratory Infections of Viral Etiology: A Systematic Review and Exploratory Meta-analysis",
+      "source_sha256": "31c9672d54a4d1066b6b3727b355ccfa7b1b1c15a6594d7a90ac51855f544efa"
+    },
+    {
+      "id": "xml-02282",
+      "title": "Diabetes Mellitus Increases the Risk of Active Tuberculosis: A Systematic Review of 13 Observational Studies",
+      "source_sha256": "f93142c43a9d09b5e4c84f6a0b2ff1d2755c9b5e04b43077d8b73730c62cce93"
+    },
+    {
+      "id": "xml-02382",
+      "title": "A systematic review of interventions to reduce HIV-related stigma and discrimination from 2002 to 2013: how far have we come?",
+      "source_sha256": "87bebfa927bb0cac2bd5ca3a2df45d4fed40cb011d9370a4cece58916525e3e6"
+    },
+    {
+      "id": "xml-02317",
+      "title": "Pretreatment serum albumin as a predictor of cancer survival: A systematic review of the epidemiological literature",
+      "source_sha256": "a863c8bb0ada539f58eccf015f46885c5f4173cfd8e8bb62757a8108e461976f"
+    },
+    {
+      "id": "xml-02448",
+      "title": "Effect of lower sodium intake on health: systematic review and meta-analyses",
+      "source_sha256": "c26fa6bc63b941326a171c81f7254d5ea92e50f8850fd1d0eba2ccaf0a3207c3"
+    },
+    {
+      "id": "managing-oneself",
+      "title": "Managing Oneself",
+      "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b"
+    },
+    {
+      "id": "balanced-scorecard",
+      "title": "Using the Balanced Scorecard as a Strategic Management System",
+      "source_sha256": "7d86992e261841fc4c9695260a35f266a563bd3d26ffb1cc79210c2e989cd7d1"
+    },
+    {
+      "id": "designing-services",
+      "title": "Designing Services That Deliver",
+      "source_sha256": "a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722"
+    },
+    {
+      "id": "power-of-talk",
+      "title": "The Power of Talk: Who Gets Heard and Why",
+      "source_sha256": "c97652cef05d7fed50328f5a87b4fcaa8c20af7fe36c1eaece9ff80c6f6c98a9"
+    },
+    {
+      "id": "customers-as-innovators",
+      "title": "Customers as Innovators: A New Way to Create Value",
+      "source_sha256": "78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab"
+    },
+    {
+      "id": "house-of-quality",
+      "title": "The House of Quality",
+      "source_sha256": "495611e01d213eb92218ca1b884f9af22f03827ea734c75cd4985e4673f131e7"
+    }
+  ],
+  "uploaded_works": [
+    {
+      "filename": "Cloud_computing_Issues_and_challenges.pdf",
+      "source_sha256": "01fed50b48b04dceb09ba45eed5098833eaf166cf4ebbe175cb16637a13c8cd4"
+    },
+    {
+      "filename": "How-Will-You-Measure-Your-Life.pdf",
+      "source_sha256": "5b188e90d00b4a93969b005e5607561fb6faaaf8984dfd3ae3df904beb9c6760"
+    },
+    {
+      "filename": "Milbank Quarterly - 2004 - GREENHALGH - Diffusion of Innovations in Service Organizations  Systematic Review and.pdf",
+      "source_sha256": "537a1eebda8c9c87f99fcf1c0c8d6bb4ed9401b985f30f473c711067776d06c5"
+    },
+    {
+      "filename": "NEJMp1312793.pdf",
+      "source_sha256": "e87ccfec93fe82cb4dca2cc9f3d823dc74afab59ee68e8590b6730c07fe0c5f2"
+    },
+    {
+      "filename": "NEJMp1616577.pdf",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "filename": "NEJMp1702362.pdf",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "filename": "NEJMp1707514.pdf",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4"
+    },
+    {
+      "filename": "NEJMp1711886.pdf",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "filename": "NEJMp1901657.pdf",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "filename": "NEJMra1401038.pdf",
+      "source_sha256": "612e96a91c18fcab957b8aee6400a71369b68c6b6e0a93bc58199537a37fd28f"
+    },
+    {
+      "filename": "PIIS0161642014004333.pdf",
+      "source_sha256": "768a426379ae5046c8feb9ce300000289a45b1b79c11f9684c5d89362c3f3429"
+    },
+    {
+      "filename": "PIIS2214109X13701451.pdf",
+      "source_sha256": "fb0a8bcc2d2c69c957fc3d053c7905016f9a76c9e3a875186d862acd29f1b214"
+    },
+    {
+      "filename": "PIIS2468266717301184.pdf",
+      "source_sha256": "60cd4fc2530bae22ddbd9fd8bb86c2909d225c6f967f457b3064429c2babce6e"
+    },
+    {
+      "filename": "RevModPhys.56.579.pdf",
+      "source_sha256": "e16346d747f78c3e4926a5fbd62234dd4e2cabc882c6876ee1aba9c4866d047d"
+    },
+    {
+      "filename": "What-Makes-a-Leader.pdf",
+      "source_sha256": "82cfea035e69a25df973590eab8e7807e14f8883e0fdcb2f77c8b2c2c2695096"
+    },
+    {
+      "filename": "hbr-managing-oneself.pdf",
+      "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b"
+    },
+    {
+      "filename": "s10052-998-0104-x.pdf",
+      "source_sha256": "5e09b29b6a77f18ac0be25a0ef5364f3a8461a85fad07d405964df3c3135bb0b"
+    }
+  ],
+  "other_prior_exposures": [
+    "all three prior development examples (as specified in task)",
+    "PMC1904193",
+    "PMC10954893",
+    "PMC10008412",
+    "PMC10011205",
+    "PG4 form manual",
+    "How to Lose Time and Money",
+    "How to Do Great Work",
+    "LF-f2db6fcab11c",
+    "BAE-13fadc84b9cf",
+    "official Heller brief",
+    "queue-explainer synthetic fixture"
+  ],
+  "candidate_rejections": [
+    {
+      "id": "LF-cf40fb0405a0",
+      "reason": "Retained capture terminates within narrative; complete article body not established."
+    },
+    {
+      "id": "rust-book-page",
+      "reason": "Raw source contained unresolved include directives; render-independent body not established."
+    },
+    {
+      "id": "Git 2.46.0",
+      "source_sha256": "1e1b47f0a378242147e928d533dd384bcb3eab8227db2e027e2fa5538d976861",
+      "reason": "2024 version replaced to favor historical corpus."
+    },
+    {
+      "id": "Python 3.12.5",
+      "source_sha256": "b391a3d94b7dd61785cb7749ba36837735404693eed3172248f5be2101eda16b",
+      "reason": "2024 version replaced to favor historical corpus."
+    },
+    {
+      "id": "curl e26a4814462d92c9e8c93b9270add3f577a111b1",
+      "source_sha256": "cf563362f8579fdf992b3039651b878df798b11d422372e6253eeefa4e22e503",
+      "reason": "Contemporary revision replaced to favor historical corpus."
+    }
+  ],
+  "checks": "No selected title or source hash matches prior fully coded or attachment metadata; exact IDs and explicit teaching/source exclusions also checked. Cross-format exclusions include work titles, not merely raw-byte hashes."
+}

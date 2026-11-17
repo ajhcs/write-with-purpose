@@ -1,0 +1,3 @@
+The model correctly classified 80 of 100 cases. No baseline, comparator, or additional outcome was supplied.
+
+Using those facts, write a sentence that replaces “The results were very, very good” with a specific result.

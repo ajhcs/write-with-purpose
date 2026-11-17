@@ -1,0 +1,85 @@
+{
+  "prose_words": 2511,
+  "prose_paragraphs": 41,
+  "estimated_sentences": 141,
+  "median_paragraph_words": 55.0,
+  "median_sentence_words": 17.0,
+  "mean_word_characters": 5.35563520509757,
+  "headings": 7,
+  "max_heading_depth": null,
+  "list_words": null,
+  "code_words": 0,
+  "quote_words": null,
+  "caption_words": null,
+  "section_words": {
+    "opening": 747,
+    "Designing a Blueprint": 576,
+    "Delivering the Service": 187,
+    "Highlighting Tangible Evidence": 146,
+    "Making People Special": 176,
+    "Modifying a Service": 137,
+    "Applying the Principles": 353,
+    "Creating Better Service": 189
+  },
+  "section_shares": {
+    "opening": 0.2974910394265233,
+    "Designing a Blueprint": 0.22939068100358423,
+    "Delivering the Service": 0.07447232178414974,
+    "Highlighting Tangible Evidence": 0.05814416567104739,
+    "Making People Special": 0.0700915969733174,
+    "Modifying a Service": 0.054559936280366386,
+    "Applying the Principles": 0.14058144165671047,
+    "Creating Better Service": 0.07526881720430108
+  },
+  "heading_sequence": [
+    {
+      "text": "Designing a Blueprint",
+      "level": 1
+    },
+    {
+      "text": "Delivering the Service",
+      "level": 1
+    },
+    {
+      "text": "Highlighting Tangible Evidence",
+      "level": 1
+    },
+    {
+      "text": "Making People Special",
+      "level": 1
+    },
+    {
+      "text": "Modifying a Service",
+      "level": 1
+    },
+    {
+      "text": "Applying the Principles",
+      "level": 1
+    },
+    {
+      "text": "Creating Better Service",
+      "level": 1
+    }
+  ],
+  "object_counts": {},
+  "run_in_headings": [
+    {
+      "text": "Identifying processes.",
+      "paragraph_id": "designing-services-012"
+    },
+    {
+      "text": "Isolating fail points.",
+      "paragraph_id": "designing-services-015"
+    },
+    {
+      "text": "Establishing time frame.",
+      "paragraph_id": "designing-services-016"
+    },
+    {
+      "text": "Analyzing profitability.",
+      "paragraph_id": "designing-services-019"
+    }
+  ],
+  "interpretation": "exploratory one-coder descriptive counts, not validated population norms; sentence splitting algorithmic; word-join normalization uncertainty",
+  "paragraphs_excluded": 0
+}

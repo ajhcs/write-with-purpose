@@ -1,0 +1,166 @@
+{
+  "scope": "Fourteen matched initial declared contracts plus two final focused body contracts. Mechanical compliance only; E06 initial revised artifact includes its note and is separately flagged by the editorial review.",
+  "results": [
+    {
+      "arm": "baseline",
+      "id": "E01",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E01/output.txt",
+      "sha256": "99396d9d880c7c9ca6401859a4995b9b7ea1d1eb23586fb6bcf36f5ee7868fba",
+      "words": 26,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/baseline/E01/report.json"
+    },
+    {
+      "arm": "baseline",
+      "id": "E03",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E03/output.txt",
+      "sha256": "5cacc86addaecae088d3fd180595093cd91cdc81976ae40c34f1869c3bc71ac1",
+      "words": 31,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/baseline/E03/report.json"
+    },
+    {
+      "arm": "baseline",
+      "id": "E04",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E04/output.txt",
+      "sha256": "2f21e46ea65dc651d62934867ab826165ee7c1e3d52a80e3e6cdf2aa07cdba6c",
+      "words": 31,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/baseline/E04/report.json"
+    },
+    {
+      "arm": "baseline",
+      "id": "E06",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E06/output.txt",
+      "sha256": "6cc5c05363c1adf5d42fd2ef61fcef00babb70f7d1e822e0c3358820216995c9",
+      "words": 10,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/baseline/E06/report.json"
+    },
+    {
+      "arm": "baseline",
+      "id": "E08",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E08/output.txt",
+      "sha256": "497275c9656f25ce46121c7a7cfabe176119073ed8efae4d791a53bd6c7c0fab",
+      "words": 38,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/baseline/E08/report.json"
+    },
+    {
+      "arm": "baseline",
+      "id": "D01",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/D01/output.txt",
+      "sha256": "b1a536e456f7403b910211e5cb88da68dd993150642f9cde8bdf8102303a1609",
+      "words": 58,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/baseline/D01/report.json"
+    },
+    {
+      "arm": "baseline",
+      "id": "D02",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/D02/output.txt",
+      "sha256": "9ff9d0b73c1465c0433badcb4b3e200e9a959b4f1189df94439604f3ce8dac42",
+      "words": 44,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/baseline/D02/report.json"
+    },
+    {
+      "arm": "revised",
+      "id": "E01",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E01/output.txt",
+      "sha256": "99396d9d880c7c9ca6401859a4995b9b7ea1d1eb23586fb6bcf36f5ee7868fba",
+      "words": 26,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/revised/E01/report.json"
+    },
+    {
+      "arm": "revised",
+      "id": "E03",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/revised-B/E03/output.txt",
+      "sha256": "1c0d5661d56f1ceff1fd773c1992bfe3110403f9a8641d6048c6021090d751d9",
+      "words": 29,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/revised/E03/report.json"
+    },
+    {
+      "arm": "revised",
+      "id": "E04",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E04/output.txt",
+      "sha256": "4ccbc99027bcf9de7725530ed67fc6171e559e92694a73462e0baeecc855e375",
+      "words": 30,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/revised/E04/report.json"
+    },
+    {
+      "arm": "revised",
+      "id": "E06",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/revised-B/E06/output.txt",
+      "sha256": "827f503d15c5ad233fb987b5ce6c5fff0bc9025e8c4d3d04d32f7804a80b9f5b",
+      "words": 51,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/revised/E06/report.json"
+    },
+    {
+      "arm": "revised",
+      "id": "E08",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/revised-B/E08/output.txt",
+      "sha256": "e439bac7c3311fad5190fab3a5323f6b6bee1051843bc1e1c047980c673ed110",
+      "words": 35,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/revised/E08/report.json"
+    },
+    {
+      "arm": "revised",
+      "id": "D01",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/D01/output.txt",
+      "sha256": "703c7d3e1eb027fe52191d95abe7fd4a284a14d2f1103816a7dc3eb183c78a8d",
+      "words": 58,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/revised/D01/report.json"
+    },
+    {
+      "arm": "revised",
+      "id": "D02",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/revised-B/D02/output.txt",
+      "sha256": "05e5d6d97db08cf3df766f01d0758668173d457ddb69d359937972669335b2a2",
+      "words": 44,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/revised/D02/report.json"
+    },
+    {
+      "arm": "reviewed-focused",
+      "id": "E06",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/reviewed-focused/E06/body.txt",
+      "sha256": "6cc5c05363c1adf5d42fd2ef61fcef00babb70f7d1e822e0c3358820216995c9",
+      "words": 10,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/reviewed-focused/E06/report.json"
+    },
+    {
+      "arm": "reviewed-focused",
+      "id": "S01",
+      "artifact": "experiments/canonical-skill-revision-2026-11-16/runs/reviewed-focused/S01/body.txt",
+      "sha256": "408c5252d39a1a98048bdd21fc9d4c3d248a000aa5bcefe31e8de502e74e8e8f",
+      "words": 36,
+      "exit_code": 0,
+      "contract_status": "passed",
+      "report": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/reviewed-focused/S01/report.json"
+    }
+  ],
+  "all_declared_contracts_passed": true
+}

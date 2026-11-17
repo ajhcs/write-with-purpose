@@ -1,0 +1,119 @@
+{
+  "batch": 22,
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_04",
+      "doi": "10.1126/science.177.4047.393",
+      "title": "More Is Different",
+      "field": "physical_sciences_mathematics",
+      "q": "\"More Is Different\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_05",
+      "doi": "10.1002/cpa.3160130102",
+      "title": "The unreasonable effectiveness of mathematics in the natural sciences. Richard courant lecture in mathematical sciences delivered at New York University, May 11, 1959",
+      "field": "physical_sciences_mathematics",
+      "q": "\"The unreasonable effectiveness of mathematics in the natural sciences. Richard courant lecture in mathematical sciences delivered at New York University, May 11, 1959\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_06",
+      "doi": "10.1103/revmodphys.81.1727",
+      "title": "Colloquium: The Einstein-Podolsky-Rosen paradox: From concepts to applications",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Colloquium: The Einstein-Podolsky-Rosen paradox: From concepts to applications\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_07",
+      "doi": "10.1103/revmodphys.75.715",
+      "title": "Decoherence, einselection, and the quantum origins of the classical",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Decoherence, einselection, and the quantum origins of the classical\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_04",
+      "query": "\"More Is Different\" pdf",
+      "urls": [
+        {
+          "title": "More Is Different, P. W. Anderson (1972) | Systems Community of Inquiry",
+          "url": "https://stream.syscoi.com/2020/01/11/more-is-different-p-w-anderson-1972/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "More is Different | Princeton University Press",
+          "url": "https://press.princeton.edu/books/ebook/9780691219530/more-is-different-pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Fifty Years of “More is Different” (PDF) — Steven Strogatz",
+          "url": "https://www.stevenstrogatz.com/articles/2022/10/22/9w3pi005r296ynp1xo5x8w8cvn4xh3",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "More Really is Different",
+          "url": "https://arxiv.org/abs/0809.0151",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Networks of neural networks: more is different",
+          "url": "https://arxiv.org/abs/2501.16789",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_05",
+      "query": "\"The unreasonable effectiveness of mathematics in the natural sciences. Richard courant lecture in mathematical sciences delivered at New York University, May 11, 1959\" pdf",
+      "urls": [
+        {
+          "title": "The unreasonable effectiveness of mathematics in the natural sciences. Richard courant lecture in mathematical sciences delivered at New York University, May 11, 1959",
+          "url": "https://lawrencecpaulson.github.io/papers/unreasonable.pdf",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_06",
+      "query": "\"Colloquium: The Einstein-Podolsky-Rosen paradox: From concepts to applications\" pdf",
+      "urls": [
+        {
+          "title": "The Einstein-Podolsky-Rosen paradox: from concepts to applications",
+          "url": "https://arxiv.org/abs/0806.0270",
+          "score": 0.8888888888888888,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_07",
+      "query": "\"Decoherence, einselection, and the quantum origins of the classical\" pdf",
+      "urls": [
+        {
+          "title": "Decoherence, einselection, and the quantum origins of the classical",
+          "url": "https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.75.715",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Decoherence, einselection, and the quantum origins of the classical",
+          "url": "https://arxiv.org/abs/quant-ph/0105127",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Decoherence, einselection, and the quantum origins of the classical · The Spacetime Metric",
+          "url": "https://spacetimemetric.com/library/stm-2a9ac88750",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

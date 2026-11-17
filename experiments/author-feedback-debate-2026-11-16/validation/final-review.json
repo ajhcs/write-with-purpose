@@ -1,0 +1,60 @@
+{
+  "checked_utc": "2026-11-17T00:07:54.451695+00:00",
+  "scope": "Artifact and proposed-patch checks only; no writing evaluation, skill implementation or runtime quality claim.",
+  "json_files_parsed": 16,
+  "protected_files_unchanged": 59,
+  "protected_inventory_unchanged": true,
+  "exact_candidate_hashes_match_both_confirmations": true,
+  "accepted_items": [
+    "J01",
+    "J02",
+    "J03"
+  ],
+  "replacement_anchors": [
+    {
+      "id": "J01",
+      "path": "skills/write-with-purpose/references/cole-lyons-style.md",
+      "occurrences": 1
+    },
+    {
+      "id": "J01",
+      "path": "skills/edit-with-purpose/references/cole-lyons-style.md",
+      "occurrences": 1
+    },
+    {
+      "id": "J02",
+      "path": "skills/write-with-purpose/references/structure-and-purpose.md",
+      "occurrences": 1
+    },
+    {
+      "id": "J02",
+      "path": "skills/edit-with-purpose/references/structure-and-purpose.md",
+      "occurrences": 1
+    },
+    {
+      "id": "J03",
+      "path": "skills/write-with-purpose/references/language-and-meaning.md",
+      "occurrences": 1
+    },
+    {
+      "id": "J03",
+      "path": "skills/edit-with-purpose/references/technical-meaning.md",
+      "occurrences": 1
+    }
+  ],
+  "mirrored_profile_and_structure_replacements_equal": true,
+  "local_links_verified": 15,
+  "canonical_edits": false,
+  "new_writing_evaluations": false,
+  "installed_updates": false,
+  "remaining_blocking_disagreements": [],
+  "residual_preferences_preserved": [
+    "J01 reported author objection rather than avoidance command",
+    "J02 reason-versus-obligation example rather than compact comparison replacement"
+  ],
+  "patch_dry_run": {
+    "command": "git apply --check experiments/author-feedback-debate-2026-11-16/agreement/proposed-reference-changes.patch",
+    "exit_code": 0,
+    "applied": false
+  }
+}

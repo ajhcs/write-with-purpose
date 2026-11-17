@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w46302826",
+      "doi": "10.2307/1341787",
+      "title": "Whiteness as Property",
+      "authors": "[\"Cheryl I. Harris\"]",
+      "field": "law_public_policy",
+      "q": "\"Whiteness as Property\" Harris filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w46302826",
+      "query": "\"Whiteness as Property\" Harris filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Whiteness as Property",
+          "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID927850_code109222.pdf?abstractid=927850&mirid=1&type=2",
+          "score": 1
+        },
+        {
+          "title": "Whiteness as Property",
+          "url": "https://ftp.racism.org/articles/defining-racism/white-privilege/2118-whiteness-as-property",
+          "score": 1
+        },
+        {
+          "title": "Whiteness as Property",
+          "url": "https://www.researchgate.net/publication/228189847_Whiteness_as_Property",
+          "score": 1
+        },
+        {
+          "title": "Whiteness as Property – Mixed Race Studies",
+          "url": "https://mixedracestudies.org/wp/?p=37896",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

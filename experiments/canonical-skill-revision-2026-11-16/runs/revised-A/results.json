@@ -1,0 +1,96 @@
+{
+  "arm": "revised",
+  "group": "A",
+  "loaded_files": [
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/revised-snapshot/skills/edit-with-purpose/SKILL.md",
+      "sha256": "3304c5d253a69f89dc4085334594ba4a5a2a5adda0c85927d44ac9ac15e6bcb5"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/revised-snapshot/skills/write-with-purpose/SKILL.md",
+      "sha256": "6aafccaf5311cdfc4d2f3808260fb511008e02b8ddf94e0f159bef0bb78d6df1"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/revised-snapshot/skills/edit-with-purpose/references/structure-and-purpose.md",
+      "sha256": "a81f60a2019d4b505be5a5d9c433c4608d7e2964d8d3508d6d9ab09d24d74bb8"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/revised-snapshot/skills/edit-with-purpose/references/technical-meaning.md",
+      "sha256": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/revised-snapshot/skills/edit-with-purpose/references/functions-and-ambiguity.md",
+      "sha256": "3de26e14bbad14a17188a874541357512331059da10ce08dbb1bc35d0db17501"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/revised-snapshot/skills/edit-with-purpose/references/mechanical-checks.md",
+      "sha256": "d4ba34812241ba7092f21716fbc4d5528e9c03c583954b1989275190d25d23dd"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/revised-snapshot/skills/write-with-purpose/references/concepts-and-claims.md",
+      "sha256": "c4a37964c1a4303f30dcd745a4d1608e3e35b94257adb2b297eada030739f72b"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/revised-snapshot/skills/write-with-purpose/references/checks.md",
+      "sha256": "ef94e377abaa223a5b4b2f53724eb8c2c1749b60704b91e26df939a52279b538"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/revised-snapshot/skills/write-with-purpose/scripts/check_text.py",
+      "sha256": "873f4286cb2848301ef2d5cacd02610744fe2581e5f4ff269ef60a53b4356cb3"
+    },
+    {
+      "path": "experiments/canonical-skill-revision-2026-11-16/baseline/docs/writing-harness/paragraph-functions.json",
+      "sha256": "4d119fac2f29e1c0bbdea77e65e64cba45f67931bc0f816e40a765c0ff3cdc2e"
+    }
+  ],
+  "cases": [
+    {
+      "id": "E01",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E01/output.txt",
+      "output_sha256": "99396d9d880c7c9ca6401859a4995b9b7ea1d1eb23586fb6bcf36f5ee7868fba",
+      "material_change_notes": "Corrected subject-verb agreement; preserved ordering and wording otherwise.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "E02",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E02/output.txt",
+      "output_sha256": "08717282a01b59392f2b14e6b9ff3a380cd769b4902c6e0e16db803e9e99e4cb",
+      "material_change_notes": "Replaced unsupported two-analyst recommendation with capacity assessment and backlog reduction condition.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "E04",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E04/output.txt",
+      "output_sha256": "4ccbc99027bcf9de7725530ed67fc6171e559e92694a73462e0baeecc855e375",
+      "material_change_notes": "Explained the technical term using the supplied state and retry effects.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "E07",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E07/output.txt",
+      "output_sha256": "72f2be09cbd1d7c3b0b3807e191c81f667aaba22569bfd1417cab971c64f3364",
+      "material_change_notes": "Recorded overlapping functions, attribution, anchors, complete realization extents and intra-paragraph relations; a qualification reading remains a recorded alternative.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "L01",
+      "selected_skill": "edit-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/L01/output.txt",
+      "output_sha256": "cec1917578afba471c5bef207eaac4d1b6f4c0006824bbc67c660dd71142a7b9",
+      "material_change_notes": "Provided the worked revision and explained its evidence and comparison limits.",
+      "unresolved_issues": []
+    },
+    {
+      "id": "D01",
+      "selected_skill": "write-with-purpose",
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/D01/output.txt",
+      "output_sha256": "703c7d3e1eb027fe52191d95abe7fd4a284a14d2f1103816a7dc3eb183c78a8d",
+      "material_change_notes": "Drafted a novice explanation with both terms and the supplied synchronization timing.",
+      "unresolved_issues": []
+    }
+  ]
+}

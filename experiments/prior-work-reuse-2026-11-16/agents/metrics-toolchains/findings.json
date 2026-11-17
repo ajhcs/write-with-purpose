@@ -1,0 +1,393 @@
+{
+  "scout": "metrics-toolchains",
+  "scope": "Feature extraction, vocabulary norms, independent coding; evidence map, not meta-analysis",
+  "searches": [
+    {
+      "query": "TAACO github sample feature table",
+      "source": "live primary web/GitHub API",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "TAASSC source",
+      "source": "live primary web/GitHub API",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "textstat github easy words",
+      "source": "live primary web/GitHub API",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "quanteda readability source",
+      "source": "live primary web/GitHub API",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "INCEpTION overlap agreement",
+      "source": "live primary web/GitHub API",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "academic vocabulary list corpus",
+      "source": "live primary web/GitHub API",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "automated writing evaluation systematic review",
+      "source": "live primary web/GitHub API",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "genre interrater methodological review",
+      "source": "live primary web/GitHub API",
+      "date": "2026-11-16"
+    }
+  ],
+  "records": [
+    {
+      "authors": [
+        "textstat contributors"
+      ],
+      "year": null,
+      "kind": "tool",
+      "doi": null,
+      "primary_urls": [
+        "https://github.com/textstat/textstat/blob/main/README.md",
+        "https://github.com/textstat/textstat/blob/main/LICENSE"
+      ],
+      "repository_url": "https://github.com/textstat/textstat",
+      "artifact_urls": [
+        "https://github.com/textstat/textstat/blob/main/textstat/resources/en/easy_words.txt",
+        "https://github.com/textstat/textstat/blob/main/requirements.txt"
+      ],
+      "verified_scope": "README, license, easy-word list and requirements inspected",
+      "baseline_status": "newly inspected",
+      "unit": "text, sentence, word and estimated syllable",
+      "genres_or_forms": "general text",
+      "annotation_or_metrics_available": "word, sentence, character, syllable counts and readability formulas",
+      "size_and_count_basis": "2,941 lines in easy_words.txt; not a validated audience familiarity measure",
+      "human_or_automatic": "automatic",
+      "reliability": "not established",
+      "code_license": "MIT repository; dependencies need review",
+      "annotation_license": "not applicable",
+      "source_text_rights": "list provenance and separate rights not established",
+      "access_status": "public",
+      "reuse_recommendation": "Compare raw counts to manually counted fixtures; pin tokenizer, version, language and denominator.",
+      "project_feature_mapping": "F01 F04 F05 F06",
+      "limitations": "Pyphen and nltk dependencies; CMUdict licensing issue https://github.com/textstat/textstat/issues/214. Scores do not establish audience comprehension or quality.",
+      "paywall_retrieval_record": null,
+      "id": "M01",
+      "title": "textstat"
+    },
+    {
+      "authors": [
+        "Kenneth Benoit",
+        "Kohei Watanabe",
+        "Haiyan Wang",
+        "Jiong Wei Lua",
+        "Jouni Kuha"
+      ],
+      "year": null,
+      "kind": "R package",
+      "doi": "10.32614/CRAN.package.quanteda.textstats",
+      "primary_urls": [
+        "https://cran.r-project.org/web/packages/quanteda.textstats/index.html"
+      ],
+      "repository_url": "https://github.com/quanteda/quanteda.textstats",
+      "artifact_urls": [
+        "https://github.com/quanteda/quanteda.textstats/blob/master/R/textstat_readability.R"
+      ],
+      "verified_scope": "CRAN metadata and source formula definitions inspected",
+      "baseline_status": "newly inspected",
+      "unit": "documents, words, sentences, characters and syllables",
+      "genres_or_forms": "general corpus",
+      "annotation_or_metrics_available": "frequency, similarity, diversity, readability",
+      "size_and_count_basis": "ASL = words/sentences; AWL = characters/words; familiar rate = matching words/all words",
+      "human_or_automatic": "automatic",
+      "reliability": "not established",
+      "code_license": "GPL-3",
+      "annotation_license": "not applicable",
+      "source_text_rights": "not applicable",
+      "access_status": "public",
+      "reuse_recommendation": "Independent formula and count comparison with preprocessing matched.",
+      "project_feature_mapping": "F01 F05 F06",
+      "limitations": "Requires R and compiled dependencies; implementation equality does not guarantee sentence or syllable equivalence.",
+      "paywall_retrieval_record": null,
+      "id": "M02",
+      "title": "quanteda.textstats"
+    },
+    {
+      "authors": [
+        "LCR-ADS Lab"
+      ],
+      "year": null,
+      "kind": "tool",
+      "doi": null,
+      "primary_urls": [
+        "https://github.com/LCR-ADS-Lab/TAACO/blob/main/README.md"
+      ],
+      "repository_url": "https://github.com/LCR-ADS-Lab/TAACO",
+      "artifact_urls": [
+        "https://github.com/LCR-ADS-Lab/TAACO/blob/main/packageTest.csv",
+        "https://github.com/LCR-ADS-Lab/TAACO/blob/main/TAACOnoGUI.py"
+      ],
+      "verified_scope": "README, repository contents, CSV header and entry point inspected",
+      "baseline_status": "newly inspected",
+      "unit": "document; sentence and paragraph adjacency",
+      "genres_or_forms": "ELLIPSE L2 student sample, not professional norm",
+      "annotation_or_metrics_available": "lemma TTR, lexical density, adjacent overlap and diagnostics",
+      "size_and_count_basis": "sample CSV columns include lemma_ttr and adjacent_overlap_all_sent; row count unverified",
+      "human_or_automatic": "automatic",
+      "reliability": "README notes version-correlation comparison on ELLIPSE; actual results not inspected",
+      "code_license": "README CC BY-NC-SA 4.0; component rights require review",
+      "annotation_license": "not applicable",
+      "source_text_rights": "sample and COCA-derived resources rights unverified",
+      "access_status": "public",
+      "reuse_recommendation": "Use sample CSV as schema and version-specific reference fixture after rights review.",
+      "project_feature_mapping": "F04 F05 adjacency, F09 exploratory signals",
+      "limitations": "Requires spaCy and model; 2.1 changed segmentation and parser from CoreNLP so differs from 2.0.4; cohesion is not communicative function.",
+      "paywall_retrieval_record": null,
+      "id": "M03",
+      "title": "TAACO 2.1 and sample feature table"
+    },
+    {
+      "authors": [
+        "Kristopher Kyle"
+      ],
+      "year": null,
+      "kind": "tool",
+      "doi": null,
+      "primary_urls": [
+        "https://github.com/kristopherkyle/TAASSC/blob/main/README.md"
+      ],
+      "repository_url": "https://github.com/kristopherkyle/TAASSC",
+      "artifact_urls": [
+        "https://github.com/kristopherkyle/TAASSC/blob/main/pub_versions/TAASSC%202.0.0.58/README.md",
+        "https://github.com/kristopherkyle/TAASSC/raw/main/pub_versions/TAASSC%202.0.0.58.zip"
+      ],
+      "verified_scope": "root README and release links inspected; archive not downloaded",
+      "baseline_status": "newly inspected",
+      "unit": "clauses, phrases, dependency constructions",
+      "genres_or_forms": "L2 and corpus linguistic analyses",
+      "annotation_or_metrics_available": "clausal, phrasal and lexicogrammatical indices",
+      "size_and_count_basis": "2.0.0.58 identified as version used in Kyle et al. 2021",
+      "human_or_automatic": "automatic",
+      "reliability": "not established",
+      "code_license": "README asserts CC BY-NC-SA 4.0; GitHub metadata identifies GPL-3: resolve conflict",
+      "annotation_license": "not applicable",
+      "source_text_rights": "v1 COCA data not publicly distributed; v2 uses COW; component rights unverified",
+      "access_status": "public",
+      "reuse_recommendation": "Research comparator pending license resolution and parser/model version pinning.",
+      "project_feature_mapping": "F05",
+      "limitations": "v1 CoreNLP/COCA versus v2 spaCy/COW; results not interchangeable or quality benchmarks.",
+      "paywall_retrieval_record": null,
+      "id": "M04",
+      "title": "TAASSC"
+    },
+    {
+      "authors": [
+        "Kristopher Kyle",
+        "Scott Crossley",
+        "Cynthia Berger"
+      ],
+      "year": 2018,
+      "kind": "tool",
+      "doi": "10.3758/s13428-017-0924-4",
+      "primary_urls": [
+        "https://www.linguisticanalysistools.org/taales.html"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://www.linguisticanalysistools.org/taales.html"
+      ],
+      "verified_scope": "official page and manual/index spreadsheet links inspected; downloads not inspected",
+      "baseline_status": "newly inspected",
+      "unit": "text, token, bigram, trigram",
+      "genres_or_forms": "L1/L2 writing and speaking research",
+      "annotation_or_metrics_available": "over 400 lexical indices; text and item coverage diagnostics from 2.2",
+      "size_and_count_basis": "over 400 indices, not independent measures",
+      "human_or_automatic": "automatic",
+      "reliability": "not established",
+      "code_license": "tool page CC BY-NC-SA 4.0; bundled resource rights unverified",
+      "annotation_license": "not applicable",
+      "source_text_rights": "bundled resource rights unverified",
+      "access_status": "public",
+      "reuse_recommendation": "Adopt coverage diagnostics concept; verify individual dictionaries and rights before reuse.",
+      "project_feature_mapping": "F06 contextual vocabulary description",
+      "limitations": "Official binary/manual links, no source inspected. Corpus frequency is not individual comprehension.",
+      "paywall_retrieval_record": null,
+      "id": "M05",
+      "title": "TAALES"
+    },
+    {
+      "authors": [
+        "Xiaofei Lu"
+      ],
+      "year": 2010,
+      "kind": "tool",
+      "doi": "10.1075/ijcl.15.4.02lu",
+      "primary_urls": [
+        "https://sites.psu.edu/xxl13/l2sca/"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://sites.psu.edu/xxl13/l2sca/"
+      ],
+      "verified_scope": "indexed official description inspected; direct open returned HTTP 502; tarball not inspected",
+      "baseline_status": "newly inspected",
+      "unit": "words, sentences, T-units, clauses, parsed phrases",
+      "genres_or_forms": "advanced English learner writing",
+      "annotation_or_metrics_available": "14 indices including words per sentence, clauses per T-unit",
+      "size_and_count_basis": "9 raw structural counts and 14 ratios",
+      "human_or_automatic": "automatic",
+      "reliability": "not established",
+      "code_license": "unknown; parser and Tregex separately licensed",
+      "annotation_license": "not applicable",
+      "source_text_rights": "not applicable",
+      "access_status": "indexed page; direct retrieval failed 502",
+      "reuse_recommendation": "Compare definitions and 4.2.2 counting fix when accessible; replication not verified.",
+      "project_feature_mapping": "F05",
+      "limitations": "Java, Python, Stanford Parser and Tregex; learner population.",
+      "paywall_retrieval_record": "Official page direct open failed HTTP 502; not evidence of absence.",
+      "id": "M06",
+      "title": "L2 Syntactic Complexity Analyzer"
+    },
+    {
+      "authors": [
+        "INCEpTION contributors"
+      ],
+      "year": null,
+      "kind": "tool",
+      "doi": null,
+      "primary_urls": [
+        "https://github.com/eclipse-inception/inception/blob/main/README.md",
+        "https://inception-project.github.io/releases/38.6/docs/user-guide.html"
+      ],
+      "repository_url": "https://github.com/eclipse-inception/inception",
+      "artifact_urls": [
+        "https://inception-project.github.io/releases/38.6/docs/user-guide.html"
+      ],
+      "verified_scope": "README and user-guide agreement and export sections inspected",
+      "baseline_status": "newly inspected",
+      "unit": "span and relation annotations, per-feature labels",
+      "genres_or_forms": "configurable",
+      "annotation_or_metrics_available": "independent annotation, curation, agreement; UIMA CAS JSON and CSV export",
+      "size_and_count_basis": "pairwise agreement per feature across documents; CSV row per position and label",
+      "human_or_automatic": "human, optional assistance",
+      "reliability": "guide warns overlapping units may be skipped and coding measures do not account for partial overlap",
+      "code_license": "Apache-2.0",
+      "annotation_license": "project determined",
+      "source_text_rights": "source-specific",
+      "access_status": "public",
+      "reuse_recommendation": "Pilot blind independent coding; export full CAS and per-coder records; externally calculate overlap-aware agreement before adjudication.",
+      "project_feature_mapping": "F09; possible F02 F07 F08 layers",
+      "limitations": "Tool supplies neither operational definitions nor independent coders. Built-in agreement may discard overlapping units.",
+      "paywall_retrieval_record": null,
+      "id": "M07",
+      "title": "INCEpTION annotation platform"
+    },
+    {
+      "authors": [
+        "Dee Gardner",
+        "Mark Davies"
+      ],
+      "year": 2014,
+      "kind": "corpus-derived vocabulary list and single study",
+      "doi": "10.1093/applin/amt015",
+      "primary_urls": [
+        "https://academic.oup.com/applij/article-abstract/35/3/305/146569",
+        "https://www.academicwords.info/x.asp",
+        "https://www.mark-davies.org/articles/davies_52.pdf"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://www.academicwords.info/download/families_user734.pdf"
+      ],
+      "verified_scope": "publisher abstract, official list site, family-list example inspected; full study not appraised",
+      "baseline_status": "newly inspected",
+      "unit": "lemma by part of speech versus word family",
+      "genres_or_forms": "academic texts, nine disciplines, American English COCA",
+      "annotation_or_metrics_available": "academic vocabulary list and family list",
+      "size_and_count_basis": "official site top 3000 lemmas; 120 million academic tokens within 425 million COCA",
+      "human_or_automatic": "corpus-derived",
+      "reliability": "not established",
+      "code_license": "unknown",
+      "annotation_license": "list redistribution terms unknown",
+      "source_text_rights": "COCA source rights separate and unverified",
+      "access_status": "public",
+      "reuse_recommendation": "Prototype coverage with list version, lemma/POS and denominator; obtain redistribution rights.",
+      "project_feature_mapping": "F06 contextual description",
+      "limitations": "Academic frequency is not audience familiarity, and not a general professional or personal writing norm.",
+      "paywall_retrieval_record": null,
+      "id": "M08",
+      "title": "A New Academic Vocabulary List"
+    },
+    {
+      "authors": [
+        "Shi Huawei",
+        "Vahid Aryadoust"
+      ],
+      "year": 2023,
+      "kind": "systematic methodological review",
+      "doi": "10.1007/s10639-022-11200-7",
+      "primary_urls": [
+        "https://doi.org/10.1007/s10639-022-11200-7",
+        "https://repository.nie.edu.sg/server/api/core/bitstreams/223f6952-ce18-4df4-8f63-b51cd2f44141/content"
+      ],
+      "repository_url": null,
+      "artifact_urls": [],
+      "verified_scope": "author version abstract and stated search scope inspected; not full appraisal; 2022 online first, 2023 issue",
+      "baseline_status": "newly inspected",
+      "unit": "study and validity inference",
+      "genres_or_forms": "educational automated writing evaluation",
+      "annotation_or_metrics_available": "validation framework, not released corpus",
+      "size_and_count_basis": "105 Scopus publications, 1996\u20132020",
+      "human_or_automatic": "systematic review",
+      "reliability": "heterogeneous contexts; domain-description inference neglected",
+      "code_license": "not applicable",
+      "annotation_license": "not applicable",
+      "source_text_rights": "not applicable",
+      "access_status": "public",
+      "reuse_recommendation": "Use to audit claims, not to prescribe genre profiles.",
+      "project_feature_mapping": "cross-cutting validation",
+      "limitations": "One database and educational context; not a pooled causal estimate.",
+      "paywall_retrieval_record": "Legitimate institutional author version available; abstract and scope inspected.",
+      "id": "M09",
+      "title": "A systematic review of automated writing evaluation systems"
+    },
+    {
+      "authors": [
+        "Minjin Kim",
+        "Yuan Qiu",
+        "Yuanheng Wang"
+      ],
+      "year": 2024,
+      "kind": "systematic methodological review",
+      "doi": "10.1016/j.rmal.2024.100097",
+      "primary_urls": [
+        "https://doi.org/10.1016/j.rmal.2024.100097",
+        "https://www.sciencedirect.com/science/article/pii/S277276612400003X"
+      ],
+      "repository_url": null,
+      "artifact_urls": [],
+      "verified_scope": "publisher search excerpt and existing baseline; direct open returned 403",
+      "baseline_status": "known baseline",
+      "unit": "genre coding and agreement measures",
+      "genres_or_forms": "EAP genre and move-step analysis",
+      "annotation_or_metrics_available": "agreement-method comparison",
+      "size_and_count_basis": "65 studies per project baseline",
+      "human_or_automatic": "methodological review",
+      "reliability": "not established",
+      "code_license": "not applicable",
+      "annotation_license": "not applicable",
+      "source_text_rights": "not applicable",
+      "access_status": "public",
+      "reuse_recommendation": "Prioritize full methods review before selecting metrics; retain multilabel disagreement and unresolved cases.",
+      "project_feature_mapping": "F09",
+      "limitations": "Agreement does not establish quality or valid boundaries.",
+      "paywall_retrieval_record": "Publisher open HTTP 403; indexed excerpt only; no bypass.",
+      "id": "M10",
+      "title": "Interrater agreement in genre analysis: A methodological review and a comparison of three measures"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "scope": "Initial matched development outputs, before subsequent narrow review fixes. One masked model review, not observed human benefit or causal attribution to the skills.",
+  "counts": {
+    "tie": 9,
+    "revised": 2,
+    "baseline": 1
+  },
+  "cases": [
+    {
+      "id": "E01",
+      "preference": "tie",
+      "masked_preference": "tie",
+      "conformance": "Both correct only \u201crecord\u201d to \u201crecords\u201d; order, protected wording, and length remain intact.",
+      "fidelity": "Both preserve the transmission condition, interval, and untested outdoor status.",
+      "usefulness": "Both deliver the requested narrow correction.",
+      "defects": "A: no material defect. B: no material defect."
+    },
+    {
+      "id": "E02",
+      "preference": "tie",
+      "masked_preference": "tie",
+      "conformance": "Both improve the reasoning and propose assessing staffing while retaining backlog reduction. A explicitly states the reduction condition; B quantifies the monthly gap.",
+      "fidelity": "Both correctly reconcile 36 arrivals and 18 closures with the 12-to-30 backlog and decline to substantiate two hires.",
+      "usefulness": "Both identify decision-relevant unknowns; neither establishes a staffing level without evidence.",
+      "defects": "A: no material defect. B: no material defect."
+    },
+    {
+      "id": "E03",
+      "preference": "tie",
+      "masked_preference": "tie",
+      "conformance": "A preserves the passage unchanged; B adjusts sentence rhythm and punctuation while retaining the repeated keeping and exact ending. Both are reasonable responses to improving flow.",
+      "fidelity": "Both retain the ticket, smudged address, date, and uncertainty without added experience.",
+      "usefulness": "A preserves the original cadence; B offers a modest alternative. The supplied constraints do not establish an author preference.",
+      "defects": "A: no material defect. B: no material defect."
+    },
+    {
+      "id": "E04",
+      "preference": "revised",
+      "masked_preference": "B",
+      "conformance": "Both retain \u201cidempotent\u201d and explain the stated retry behavior for a novice.",
+      "fidelity": "Both preserve Ready and the absence of appended records and notifications without adding other effects.",
+      "usefulness": "B joins the repeated action and resulting state in one causal explanation; A repeats the Ready outcome across adjacent sentences.",
+      "defects": "A: adjacent sentences repeat the same status effect, a minor issue. B: no material defect."
+    },
+    {
+      "id": "E05",
+      "preference": "tie",
+      "masked_preference": "tie",
+      "conformance": "Both develop the storage/inquiry distinction and soften the opening without adding empirical support. A marks its further interpretation \u201cPerhaps\u201d; B stays close to the supplied claim.",
+      "fidelity": "Neither supplies invented anecdotes, evidence, or motives. Both present inquiry as a conceptual distinction consistent with the notes.",
+      "usefulness": "A offers a possible forward-looking interpretation; B uses a more compact distinction. Neither is clearly required by the task.",
+      "defects": "A: no material defect. B: \u201cwhat to do with it\u201d is somewhat broader than the specific next-question distinction, which its final sentence restores."
+    },
+    {
+      "id": "E06",
+      "preference": "baseline",
+      "masked_preference": "B",
+      "conformance": "Both report the procedure and flag the unsupported claims, but B puts the issue note in a separate user-facing file. A places the flag in the same text as the Methods passage, so it could be mistaken for manuscript content.",
+      "fidelity": "Both preserve 40 \u00b0C and 10 min and accurately identify the missing comparison and unsupported reader instruction. B also explicitly notes the absence of an external source.",
+      "usefulness": "B supplies clean Methods text plus a separately accessible explanation; A makes the distinction by paragraph but does not clearly separate the deliverable.",
+      "defects": "A: the issue discussion is embedded in the deliverable text rather than separately presented. B: no material defect."
+    },
+    {
+      "id": "E07",
+      "preference": "revised",
+      "masked_preference": "B",
+      "conformance": "Both analyze functions and relationships with separate anchors and realization spans and allow overlapping readings. B explicitly distinguishes intra-paragraph relations from registered paragraph-ID links and records an alternative qualification reading.",
+      "fidelity": "Both attribute the proposed rule and treat the urgent approval as hypothetical rather than observed. Neither claims a population rate.",
+      "usefulness": "B makes the scope of the relation coding clearer. Its \u201cinstruct\u201d reading of \u201cConsider\u201d is debatable under the catalogue, but is explicitly explained; A\u2019s broader whole-paragraph support span is also defensible.",
+      "defects": "A: relation descriptions do not identify the catalogue\u2019s paragraph-ID limitation. B: the instruct label may overread a rhetorical invitation as an actionable reader instruction; it is a contestable coding choice, not a factual error."
+    },
+    {
+      "id": "E08",
+      "preference": "tie",
+      "masked_preference": "tie",
+      "conformance": "Both stay under 45 words, retain retry-safe, and explain the identifier condition and outcomes.",
+      "fidelity": "Both preserve the new-identifier consequence and prototype-only test scope without adding causes or tests.",
+      "usefulness": "Both connect the condition to the result clearly; their differences in sentence structure do not establish a material preference.",
+      "defects": "A: no material defect. B: no material defect."
+    },
+    {
+      "id": "L01",
+      "preference": "tie",
+      "masked_preference": "tie",
+      "conformance": "Both give a worked revision immediately and explain the choice.",
+      "fidelity": "Both accurately state 80 of 100 and avoid inventing a baseline or comparator.",
+      "usefulness": "Both replace vague praise with the count and explain why an evaluative comparison is unsupported; wording differences do not change the lesson requested.",
+      "defects": "A: no material defect. B: no material defect."
+    },
+    {
+      "id": "L02",
+      "preference": "tie",
+      "masked_preference": "tie",
+      "conformance": "Both provide the facts and invite an attempt, but each states the central fact as a complete sentence identical to an obvious worked revision. This makes the instruction to wait before showing an answer imperfectly fulfilled.",
+      "fidelity": "Both accurately provide the count and absence of a comparator, baseline, and additional outcome.",
+      "usefulness": "Both offer a practice prompt, but a fact list such as \u201cCorrect classifications: 80 of 100\u201d would preserve more room for the user to compose the sentence.",
+      "defects": "A: presents a complete candidate answer before the attempt despite its note. B: presents the same complete candidate answer before the attempt despite its note."
+    },
+    {
+      "id": "D01",
+      "preference": "tie",
+      "masked_preference": "tie",
+      "conformance": "Both explain cache and synchronization in context within 120 words.",
+      "fidelity": "Both preserve the five-minute copying interval, displayed source, possible stale value, and latest synchronization timestamp without inventing validation.",
+      "usefulness": "Both explain how changes between synchronizations can cause a difference; \u201cif\u201d versus \u201ccan\u201d is not a material distinction here.",
+      "defects": "A: no material defect. B: no material defect."
+    },
+    {
+      "id": "D02",
+      "preference": "tie",
+      "masked_preference": "tie",
+      "conformance": "Both are brief openings under 90 words, retain the exact required sentence, and leave the ending open.",
+      "fidelity": "Both preserve the closed bakery, six, kitchen light, desire to approach, and uncertainty without added memories or motives.",
+      "usefulness": "Both form a coherent opening; the paragraph break in B is an aesthetic option rather than evidence of superior voice.",
+      "defects": "A: no material defect. B: no material defect."
+    }
+  ],
+  "known_limitations": [
+    "Ten project-known synthetic cases plus two parent-authored drafting cases; one output per arm per case, clustered six per context.",
+    "Fresh contexts shared a filesystem and obeyed instructed read boundaries; this was not an OS access-control sandbox.",
+    "The revised-B executor disclosed reading all twelve raw task inputs from the shared file despite its six-task assignment. It reported no access to other outputs, verdicts or skills. Extra raw-task exposure weakens strict contextual equivalence; no gold or old output was contained in that file.",
+    "Three B preferences under the balanced mask do not rule out position effects.",
+    "The comparator assesses delivered formatting/analysis as well as prose. No author acceptance, comprehension, learning transfer or coding accuracy is established."
+  ]
+}

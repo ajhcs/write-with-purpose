@@ -1,0 +1,1008 @@
+{
+  "coder_id": "B-original-2",
+  "arm": "original",
+  "stage": "B",
+  "model": "gpt-6.1-terra",
+  "started_at_utc": "2026-11-16T16:27:31Z",
+  "finished_at_utc": "2026-11-16T16:28:25Z",
+  "annotations": [
+    {
+      "paragraph_id": "LF-536f04360ed3-p007",
+      "context": {
+        "reviewed_units": [
+          "LF-536f04360ed3-p005",
+          "LF-536f04360ed3-p006",
+          "LF-536f04360ed3-p007",
+          "LF-536f04360ed3-context001",
+          "LF-536f04360ed3-p008"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p007",
+              "quote": "a sort of blame-the-victim framework",
+              "occurrence": 0,
+              "start": 22,
+              "end": 58,
+              "text_sha256": "cb26398445ccd2ef9c0d699c3c5270157b0573dedbb6c290e2f47f951946a6b8",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "414994ca320d62ec8742f6bdbb78cab270b8a3c8435530b53777d82b01e6e7d9"
+            }
+          ],
+          "reason": "Interprets the preceding personal advice as victim blaming."
+        },
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p007",
+              "quote": "rather than that we transform public space (or men)",
+              "occurrence": 0,
+              "start": 155,
+              "end": 206,
+              "text_sha256": "6db774de523e48deb2685066f819faca22d15ef24db075be5d822e1a43559787",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "414994ca320d62ec8742f6bdbb78cab270b8a3c8435530b53777d82b01e6e7d9"
+            }
+          ],
+          "reason": "Proposes changing public space or men instead of limiting women."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p007",
+              "quote": "it’s because violence against women is now a public issue",
+              "occurrence": 0,
+              "start": 630,
+              "end": 687,
+              "text_sha256": "6a4f2c4d3a974d673c759ec058c3c4551e30aefccefe653dfd2ef39058aeb346",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "414994ca320d62ec8742f6bdbb78cab270b8a3c8435530b53777d82b01e6e7d9"
+            }
+          ],
+          "reason": "Explains the author’s exhilaration at encountering accounts of violence."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-536f04360ed3-p007",
+        "stage": "B",
+        "source_id": "LF-536f04360ed3"
+      },
+      "clear_labels": [
+        "assert",
+        "explain",
+        "interpret"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "assert",
+        "explain",
+        "interpret"
+      ]
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p020",
+      "context": {
+        "reviewed_units": [
+          "LF-536f04360ed3-p018",
+          "LF-536f04360ed3-p019",
+          "LF-536f04360ed3-p020",
+          "LF-536f04360ed3-context002",
+          "LF-536f04360ed3-p021"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "Some men wrote publicly about their realisation",
+              "occurrence": 0,
+              "start": 470,
+              "end": 517,
+              "text_sha256": "6be78eae6aa6ae4909d07526ad148ed7199db33fca377811be85a9c30b9facda",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "a0038e1443781a7b6b8fa5cd1128fb2cb5d0a69dc298db42390e63e2f51ef0cb"
+            }
+          ],
+          "reason": "Reports men’s public accounts of recognizing hostility and danger."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "another sign of what seems to have been new and transformative this year",
+              "occurrence": 0,
+              "start": 200,
+              "end": 272,
+              "text_sha256": "bb217fa658082ba041e6672900256654d16a7af50d0cf55f9bcbe5c3ebb6f994",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "a0038e1443781a7b6b8fa5cd1128fb2cb5d0a69dc298db42390e63e2f51ef0cb"
+            }
+          ],
+          "reason": "Reads men’s engagement as evidence of broader change."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "changing the world for women means changing what is acceptable and admirable among men",
+              "occurrence": 0,
+              "start": 297,
+              "end": 383,
+              "text_sha256": "36dea32ebd1e5b2bdee7d22dcc4954e5ee8cf24749fa578b91ce7a7e492d764c",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "a0038e1443781a7b6b8fa5cd1128fb2cb5d0a69dc298db42390e63e2f51ef0cb"
+            }
+          ],
+          "reason": "Connects men’s involvement to the conditions needed for change."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "women can no more mitigate sexism without engaging men than people of colour can address racism without the participation of white people",
+              "occurrence": 0,
+              "start": 676,
+              "end": 813,
+              "text_sha256": "c078497c5c7b03457392e55a34d78264038f532990b6e6bc845449e35ce7adde",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "a0038e1443781a7b6b8fa5cd1128fb2cb5d0a69dc298db42390e63e2f51ef0cb"
+            }
+          ],
+          "reason": "Compares the participation needed to address sexism and racism."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-536f04360ed3-p020",
+        "stage": "B",
+        "source_id": "LF-536f04360ed3"
+      },
+      "clear_labels": [
+        "compare",
+        "explain",
+        "interpret",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "compare",
+        "explain",
+        "interpret",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p033",
+      "context": {
+        "reviewed_units": [
+          "LF-536f04360ed3-p031",
+          "LF-536f04360ed3-p032",
+          "LF-536f04360ed3-p033",
+          "LF-536f04360ed3-p034",
+          "LF-536f04360ed3-p035"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "The tables have turned.",
+              "occurrence": 0,
+              "start": 170,
+              "end": 193,
+              "text_sha256": "16e9074d71b39f1ec24f4559b38aa7c8cee53f1f05cd6826340b98f70c99660e",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "72944eb235598f80b708826dbcbceac355e516d038d1db13dcae243b1d4b5241"
+            }
+          ],
+          "reason": "Asserts a reversal in how shame and credibility operate."
+        },
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "she started on the usual route of being ashamed and apologetic, but then she revolted",
+              "occurrence": 0,
+              "start": 272,
+              "end": 357,
+              "text_sha256": "b7042ea5092c83c059f727a50fce20f528b4beeedfd6f80c205855db13f1e9bb",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "72944eb235598f80b708826dbcbceac355e516d038d1db13dcae243b1d4b5241"
+            }
+          ],
+          "reason": "Recounts a change in Lawrence’s response to stolen photographs."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "a California man went to prison for a year",
+              "occurrence": 0,
+              "start": 507,
+              "end": 549,
+              "text_sha256": "7afb2170219a95d7c3fdb678549a1119cc38cd39b449da9d025319a6d636df80",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "72944eb235598f80b708826dbcbceac355e516d038d1db13dcae243b1d4b5241"
+            }
+          ],
+          "reason": "Offers a reported case that makes the proposed shift concrete."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "California is one of 13 states to have passed revenge porn laws since 2013",
+              "occurrence": 0,
+              "start": 657,
+              "end": 731,
+              "text_sha256": "528292a703168625ac91f16260775592652106d809f6836ea6c99507414ed6c4",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "72944eb235598f80b708826dbcbceac355e516d038d1db13dcae243b1d4b5241"
+            }
+          ],
+          "reason": "Reports the extent of state legislation."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-536f04360ed3-p033",
+        "stage": "B",
+        "source_id": "LF-536f04360ed3"
+      },
+      "clear_labels": [
+        "assert",
+        "illustrate",
+        "narrate",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "assert",
+        "illustrate",
+        "narrate",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p005",
+      "context": {
+        "reviewed_units": [
+          "LF-03f718ef8cc6-p003",
+          "LF-03f718ef8cc6-p004",
+          "LF-03f718ef8cc6-p005",
+          "LF-03f718ef8cc6-p006",
+          "LF-03f718ef8cc6-p007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p005",
+              "quote": "what was most different about him from my parents, was how much time he spent in the outdoors",
+              "occurrence": 0,
+              "start": 39,
+              "end": 132,
+              "text_sha256": "8f34d886c4018ef80fcdc9715503f5db33c1131bded47efbc321d4cdf96b9f14",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "be485bff686373bc5fd8031a7a63d284769b84ee988a251c6303cc8aa22a0d7b"
+            }
+          ],
+          "reason": "Contrasts Leo and the narrator’s parents on outdoor activity."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p005",
+              "quote": "I grew up a child who found many of my most enriching experiences indoors",
+              "occurrence": 0,
+              "start": 316,
+              "end": 389,
+              "text_sha256": "7138c775688478f73bf2cd85a39022d8c47d20a096b997445d9dec8ebc0ca51f",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "be485bff686373bc5fd8031a7a63d284769b84ee988a251c6303cc8aa22a0d7b"
+            }
+          ],
+          "reason": "Describes the narrator’s childhood interests."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p005",
+              "quote": "Leo’s stories about his far-flung wilderness adventures were exotic to me, stirring a curiosity deep from within",
+              "occurrence": 0,
+              "start": 453,
+              "end": 565,
+              "text_sha256": "57614c0984c103b188a6cc6ca48bec96ce0aaf0f9723720a94a6132efb2f97a7",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "be485bff686373bc5fd8031a7a63d284769b84ee988a251c6303cc8aa22a0d7b"
+            }
+          ],
+          "reason": "Reflects on the meaning of Leo’s stories in light of that upbringing."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-03f718ef8cc6-p005",
+        "stage": "B",
+        "source_id": "LF-03f718ef8cc6"
+      },
+      "clear_labels": [
+        "compare",
+        "interpret",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "compare",
+        "interpret",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p013",
+      "context": {
+        "reviewed_units": [
+          "LF-03f718ef8cc6-p011",
+          "LF-03f718ef8cc6-p012",
+          "LF-03f718ef8cc6-p013",
+          "LF-03f718ef8cc6-p014",
+          "LF-03f718ef8cc6-p015"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p013",
+              "quote": "“I don’t really get scared,” he said.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 37,
+              "text_sha256": "8ada1ac8c95d497c2a7baeb191c3844f8b23bc5dbcd8375e3c90b633b2b47e2b",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "2f478312fc7986103c7a5d82b5bcbd47ccec8fcdffd677d6e87a4c7a72163b02"
+            }
+          ],
+          "reason": "Continues the scene through Chris’s answer to the narrator’s question."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p013",
+              "quote": "“And if I do, it’s already too late.”",
+              "occurrence": 0,
+              "start": 38,
+              "end": 75,
+              "text_sha256": "d6061ce5a800a803f705499650a972d49229fcae13bb46b769a862acce49738d",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "2f478312fc7986103c7a5d82b5bcbd47ccec8fcdffd677d6e87a4c7a72163b02"
+            }
+          ],
+          "reason": "Records Chris’s account of his response to fear."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-03f718ef8cc6-p013",
+        "stage": "B",
+        "source_id": "LF-03f718ef8cc6"
+      },
+      "clear_labels": [
+        "narrate",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "narrate",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p021",
+      "context": {
+        "reviewed_units": [
+          "LF-03f718ef8cc6-p019",
+          "LF-03f718ef8cc6-p020",
+          "LF-03f718ef8cc6-p021",
+          "LF-03f718ef8cc6-p022",
+          "LF-03f718ef8cc6-p023"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p021",
+              "quote": "Four days after we’d arrived in Brazil, Chris and I decided to go hang gliding.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 79,
+              "text_sha256": "f606213c31d125ac797e213977c06af0b5dbc6b36a8e058caf300c8cf6c6e75b",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "744761d5ace0585020e66e61692caa724b16125ce29ec34318322a7b43159c80"
+            }
+          ],
+          "reason": "Recounts the preparation for a particular hang-gliding experience."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p021",
+              "quote": "By that, he meant that I should not hesitate when it came time to run off the cliff.",
+              "occurrence": 0,
+              "start": 512,
+              "end": 596,
+              "text_sha256": "20cadf5f8fd45635a0dd51824e91b7026e88d0744af11cda59532b6fa9d76b55",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "744761d5ace0585020e66e61692caa724b16125ce29ec34318322a7b43159c80"
+            }
+          ],
+          "reason": "Explains the meaning of the handler’s brief instruction in the story."
+        },
+        {
+          "function_id": "instruct",
+          "decision": "unresolved",
+          "status": "ambiguous",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p021",
+              "quote": "To get a hang glider airborne, you stand about 40 feet from the edge of a cliff and run off of it at full speed.",
+              "occurrence": 0,
+              "start": 709,
+              "end": 821,
+              "text_sha256": "8ee658379764a341c38ec02a5dd69c583683e689a3efadf9704e0f1e88574d2b",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "744761d5ace0585020e66e61692caa724b16125ce29ec34318322a7b43159c80"
+            }
+          ],
+          "reason": "The generalized second-person account could be read as instruction, but its immediate function is to clarify the experience; whether it guides a reader is uncertain."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-03f718ef8cc6-p021",
+        "stage": "B",
+        "source_id": "LF-03f718ef8cc6"
+      },
+      "clear_labels": [
+        "explain",
+        "narrate"
+      ],
+      "unresolved_labels": [
+        "instruct"
+      ],
+      "candidate_union": [
+        "explain",
+        "instruct",
+        "narrate"
+      ]
+    },
+    {
+      "paragraph_id": "PMC4566873-p010",
+      "context": {
+        "reviewed_units": [
+          "PMC4566873-p008",
+          "PMC4566873-p009",
+          "PMC4566873-p010",
+          "PMC4566873-p011",
+          "PMC4566873-p012"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p010",
+              "quote": "we need to consider, across relevant disciplines, those theories which may be of potential use",
+              "occurrence": 0,
+              "start": 51,
+              "end": 145,
+              "text_sha256": "4ceec2114a3b6544e41e78b2b5b758244d07871fa0ef8a4c5faef4e14529c176",
+              "source_id": "PMC4566873",
+              "unit_sha256": "49d0ece5b163657433776e343fa7b34cf36fc5afd5e7f8bcd2d1eb682aae80bc"
+            }
+          ],
+          "reason": "Proposes a broader consideration of theories."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p010",
+              "quote": "By identifying a range of theories we can assess which theories may be of value given the behaviour, population and context in question.",
+              "occurrence": 0,
+              "start": 184,
+              "end": 320,
+              "text_sha256": "ec4ce60e2a345c7cc32b02fc5b75cdb58d0a6ba665e8418f5b3fc172e8c40f97",
+              "source_id": "PMC4566873",
+              "unit_sha256": "49d0ece5b163657433776e343fa7b34cf36fc5afd5e7f8bcd2d1eb682aae80bc"
+            }
+          ],
+          "reason": "Connects identifying theories to selecting them for particular circumstances."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p010",
+              "quote": "we conducted a scoping review and consensus exercise",
+              "occurrence": 0,
+              "start": 334,
+              "end": 386,
+              "text_sha256": "b524e413a14c6184f44b896a0a222cf11e92e4eaddae61c020a32aea176ea8cc",
+              "source_id": "PMC4566873",
+              "unit_sha256": "49d0ece5b163657433776e343fa7b34cf36fc5afd5e7f8bcd2d1eb682aae80bc"
+            }
+          ],
+          "reason": "Reports the study’s approach and its primary research question."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC4566873-p010",
+        "stage": "B",
+        "source_id": "PMC4566873"
+      },
+      "clear_labels": [
+        "assert",
+        "explain",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "assert",
+        "explain",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "PMC4566873-p028",
+      "context": {
+        "reviewed_units": [
+          "PMC4566873-p027",
+          "PMC4566873-context008",
+          "PMC4566873-p028",
+          "PMC4566873-p029",
+          "PMC4566873-p030"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p028",
+              "quote": "Screening of articles was in two stages.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 40,
+              "text_sha256": "906e77d31f0a1a0fec80149c526b70606412067eed60e39d1198c0bbc4855ef9",
+              "source_id": "PMC4566873",
+              "unit_sha256": "f8179a397ee2006e14fb088b0f4675c1c464626f1dc42e5cea39a738cbd49a65"
+            }
+          ],
+          "reason": "Reports the screening procedure and applied inclusion criteria."
+        },
+        {
+          "function_id": "define",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p028",
+              "quote": "Evaluative articles were defined as those reporting studies that empirically tested a theory longitudinally.",
+              "occurrence": 0,
+              "start": 1592,
+              "end": 1700,
+              "text_sha256": "8bd575116e9fb5e8ea0e6981e11a88f2731b4c03336fec980f7ed10e981d6b22",
+              "source_id": "PMC4566873",
+              "unit_sha256": "f8179a397ee2006e14fb088b0f4675c1c464626f1dc42e5cea39a738cbd49a65"
+            }
+          ],
+          "reason": "Operationally defines an included article category, along with the other categories."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p028",
+              "quote": "because there are a number of factors further along the causal chain that could affect the link between behaviour and outcome",
+              "occurrence": 0,
+              "start": 1440,
+              "end": 1565,
+              "text_sha256": "4eb52f9d6f04f01670781a61bd67ccc6670097bb4dbf916c63606e5222233d75",
+              "source_id": "PMC4566873",
+              "unit_sha256": "f8179a397ee2006e14fb088b0f4675c1c464626f1dc42e5cea39a738cbd49a65"
+            }
+          ],
+          "reason": "Explains why the review focused on behaviour as the endpoint."
+        },
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p028",
+              "quote": "Secondary theory sources (i.e., those that only provided an overview/description of the theory) were not included.",
+              "occurrence": 0,
+              "start": 977,
+              "end": 1091,
+              "text_sha256": "d434eb6b93189a9cfc6e98a0fee5d485523dcfeb08649a3a503d4409c072394c",
+              "source_id": "PMC4566873",
+              "unit_sha256": "f8179a397ee2006e14fb088b0f4675c1c464626f1dc42e5cea39a738cbd49a65"
+            }
+          ],
+          "reason": "Limits eligible descriptive sources to the stated categories."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC4566873-p028",
+        "stage": "B",
+        "source_id": "PMC4566873"
+      },
+      "clear_labels": [
+        "define",
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "define",
+        "explain",
+        "qualify",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "PMC4566873-p046",
+      "context": {
+        "reviewed_units": [
+          "PMC4566873-context019",
+          "PMC4566873-p045",
+          "PMC4566873-p046",
+          "PMC4566873-p047",
+          "PMC4566873-p048"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p046",
+              "quote": "it does not reflect the wider application of these theories to public health-related research",
+              "occurrence": 0,
+              "start": 322,
+              "end": 415,
+              "text_sha256": "20b6d3be4fa296f2d338c87efc3136aa97aaa370e3137a44ed51d5fa8593db16",
+              "source_id": "PMC4566873",
+              "unit_sha256": "426083cd256de358cbcd1cb6d06777e5144c98aa6fa419b5af62c6437a5518db"
+            }
+          ],
+          "reason": "Limits what can be inferred from the review’s identified literature."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p046",
+              "quote": "the search strategy that aimed to identify theories rather than exhaustively review theoretically informed empirical studies",
+              "occurrence": 0,
+              "start": 86,
+              "end": 210,
+              "text_sha256": "f09fbe0908bc366217590e41dcc2d8b13e3a2475769d3f223b4be6e04c2646c3",
+              "source_id": "PMC4566873",
+              "unit_sha256": "426083cd256de358cbcd1cb6d06777e5144c98aa6fa419b5af62c6437a5518db"
+            }
+          ],
+          "reason": "Gives the search strategy as the reason for that limitation."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC4566873-p046",
+        "stage": "B",
+        "source_id": "PMC4566873"
+      },
+      "clear_labels": [
+        "explain",
+        "qualify"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain",
+        "qualify"
+      ]
+    },
+    {
+      "paragraph_id": "curl-p04",
+      "context": {
+        "reviewed_units": [
+          "curl-p03",
+          "curl-context003",
+          "curl-p04",
+          "curl-p05",
+          "curl-p06"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "define",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p04",
+              "quote": "The response code is the server's way of giving the client a hint about how the request was handled.",
+              "occurrence": 0,
+              "start": 79,
+              "end": 179,
+              "text_sha256": "d04d0a44fc3fedc84f72a7d26267831a6adaaf2a4ee2b686b84f2e0de1e1c092",
+              "source_id": "curl",
+              "unit_sha256": "18701ffa2c9ab79a38291e2bc0aac48306ed096f1c9a79e79ade5c0afc6e4709"
+            }
+          ],
+          "reason": "Explains what a response code signifies in this context."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p04",
+              "quote": "An HTTP transfer gets a 3 digit response code back in the first response line.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 78,
+              "text_sha256": "1d44aa0aceb4835750eaa97f82ec50078ad1e35f6bc2a942b0fa96c466056552",
+              "source_id": "curl",
+              "unit_sha256": "18701ffa2c9ab79a38291e2bc0aac48306ed096f1c9a79e79ade5c0afc6e4709"
+            }
+          ],
+          "reason": "Describes the code’s length and location."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "curl-p04",
+        "stage": "B",
+        "source_id": "curl"
+      },
+      "clear_labels": [
+        "define",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "define",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "curl-p11",
+      "context": {
+        "reviewed_units": [
+          "curl-context006",
+          "curl-p10",
+          "curl-p11",
+          "curl-p12",
+          "curl-context007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p11",
+              "quote": "This is repeated over and over until the end of the response, which is signalled with a zero sized chunk.",
+              "occurrence": 0,
+              "start": 407,
+              "end": 512,
+              "text_sha256": "8effcbf1986b183fa1b99f7e2fd24ee5af18a8a40923d02b86f9232ac6939c3b",
+              "source_id": "curl",
+              "unit_sha256": "ea4983d207f1102bf89387e4a58d08e90bdbe66f6795dc73526d67668cf34404"
+            }
+          ],
+          "reason": "Explains the chunk sequence and how its end is signaled."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p11",
+              "quote": "The point of this sort of response is for the client to be able to figure out when the responses has ended even though the server did not know the full size before it started to send it.",
+              "occurrence": 0,
+              "start": 513,
+              "end": 699,
+              "text_sha256": "52946eb2a693e8277c60ee8f474d7e1b569b76918dbd247bd612543b546231bc",
+              "source_id": "curl",
+              "unit_sha256": "ea4983d207f1102bf89387e4a58d08e90bdbe66f6795dc73526d67668cf34404"
+            }
+          ],
+          "reason": "Connects this encoding to detecting an end without a known initial size."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "curl-p11",
+        "stage": "B",
+        "source_id": "curl"
+      },
+      "clear_labels": [
+        "explain"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain"
+      ]
+    },
+    {
+      "paragraph_id": "curl-p17",
+      "context": {
+        "reviewed_units": [
+          "curl-p15",
+          "curl-p16",
+          "curl-p17",
+          "curl-context009",
+          "curl-p18"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Neighboring passages establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p17",
+              "quote": "if acceptable, it will respond with a header indicating that it will and curl will then transparently uncompress that data on arrival",
+              "occurrence": 0,
+              "start": 79,
+              "end": 212,
+              "text_sha256": "b26389f2fed2dc9983861d42103a42aa2ee8c5805fe59e2f101f09a8eb020b7b",
+              "source_id": "curl",
+              "unit_sha256": "6bc8829c007f055d580bbb3274bfa18f7ed0df5dfa01229acf1732612b3805cb"
+            }
+          ],
+          "reason": "Describes the conditional exchange and result of requesting transfer compression."
+        },
+        {
+          "function_id": "instruct",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p17",
+              "quote": "A user enables asking for compressed transfer encoding with `--tr-encoding`:",
+              "occurrence": 0,
+              "start": 214,
+              "end": 290,
+              "text_sha256": "78587ca99c6a39e6563be7784665dd0cf851380a98846d75ed171f39a53d2823",
+              "source_id": "curl",
+              "unit_sha256": "6bc8829c007f055d580bbb3274bfa18f7ed0df5dfa01229acf1732612b3805cb"
+            }
+          ],
+          "reason": "Directs the reader to the option used to request this behavior, with the example following."
+        }
+      ],
+      "source_binding": {
+        "unit_id": "curl-p17",
+        "stage": "B",
+        "source_id": "curl"
+      },
+      "clear_labels": [
+        "explain",
+        "instruct"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain",
+        "instruct"
+      ]
+    }
+  ],
+  "submission": {
+    "path": "coding/B-original-2/raw.json",
+    "sha256": "63899d8356490803dd96f8c00f15f0700ffdbb33aec18bf2aab1a05dcb7d43c5",
+    "bytes": 20999,
+    "compact_characters": 13672,
+    "submission_count": 1
+  }
+}

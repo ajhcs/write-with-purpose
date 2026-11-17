@@ -1,0 +1,55 @@
+{
+  "stage": "Replies complete before adjudication",
+  "files": [
+    {
+      "path": "replies/checks-evaluation.json",
+      "sha256": "dbf6585dba2910467edc7493f5a2f76c057ca32d631ea2cabb2cbdac49b1d083",
+      "response_ids": [
+        "VN-C03",
+        "VN-C04",
+        "FF-C01"
+      ]
+    },
+    {
+      "path": "replies/editing-improvement.json",
+      "sha256": "448ed0f0bb4898a7694978725a12565a43eb6a6fb5bd068c357bfa2fb84eccb0",
+      "response_ids": [
+        "VN-C01",
+        "VN-C02",
+        "CE-C01",
+        "CE-C02"
+      ]
+    },
+    {
+      "path": "replies/form-functions.json",
+      "sha256": "050cad054a0cb9a2e2a7bbee0145ce6581cb0de4d226d7d45dab2824c1fef741",
+      "response_ids": [
+        "EI-X02",
+        "EI-X04",
+        "RL-CH01",
+        "RL-CH03"
+      ]
+    },
+    {
+      "path": "replies/reader-learning.json",
+      "sha256": "d74856083a831c16b9b2e038c905ad36df03b5b1d09b77ba0983292f0e1b5d7c",
+      "response_ids": [
+        "FF-C02",
+        "CE-C03",
+        "CE-C04"
+      ]
+    },
+    {
+      "path": "replies/voice-novelty.json",
+      "sha256": "27d18dc0d8d3d57dc162b0b5932bde1dc6e2cd55839f4a7edea9e71571e17e9c",
+      "response_ids": [
+        "EI-X01",
+        "EI-X03",
+        "RL-CH02"
+      ]
+    }
+  ],
+  "all_challenges_have_responses": true,
+  "challenge_count": 17,
+  "response_count": 17
+}

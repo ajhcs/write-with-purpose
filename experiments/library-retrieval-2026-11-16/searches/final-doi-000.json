@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_003",
+      "doi": "10.5465/amr.2007.26586086",
+      "title": "Methodological fit in management field research",
+      "authors": "[\"Amy C. Edmondson\", \"Stacy E. Mcmanus\"]",
+      "field": "business_management",
+      "q": "\"Methodological fit in management field research\" Edmondson filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_003",
+      "query": "\"Methodological fit in management field research\" Edmondson filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Methodological fit in management field research",
+          "url": "https://journals.aom.org/doi/pdf/10.5465/amr.2007.26586086",
+          "score": 1
+        },
+        {
+          "title": "Methodological fit in management field research",
+          "url": "https://journals.aom.org/doi/10.5465/amr.2007.26586086",
+          "score": 1
+        },
+        {
+          "title": "Methodological Fit in Management Field Research",
+          "url": "https://www.researchgate.net/publication/215915634_Methodological_Fit_in_Management_Field_Research",
+          "score": 1
+        },
+        {
+          "title": "Edmondson & McManus 2007 AMJ.pdf - ! Academy of Management Review 2007 Vol. 32 No. 4 1155-1179. METHODOLOGICAL FIT IN MANAGEMENT FIELD RESEARCH AMY | Course Hero",
+          "url": "https://www.coursehero.com/file/93388813/Edmondson-McManus-2007-AMJpdf/",
+          "score": 1
+        },
+        {
+          "title": "(6)MethodologicalFitManagement-2007.pdf - Methodological Fit in Management Field Research Author(s): Amy C. Edmondson and - College Sidekick",
+          "url": "https://www.collegesidekick.com/study-docs/3766618",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

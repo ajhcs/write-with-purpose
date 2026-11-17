@@ -1,0 +1,19 @@
+{
+  "source_sha256": "5832523f288afdb725f684ad368a7e8cac365d60845dd0084f7ce457ab11b749",
+  "edits": [
+    {
+      "start": 37,
+      "end": 37,
+      "before": "",
+      "after": ": any number of retries leaves the status at Ready",
+      "reason": "Explain idempotence for the stated audience"
+    },
+    {
+      "start": 128,
+      "end": 128,
+      "before": "",
+      "after": "\n",
+      "reason": "Explain idempotence for the stated audience"
+    }
+  ]
+}

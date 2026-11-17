@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_02",
+      "doi": "",
+      "title": "Biographical",
+      "authors": "[\"Eric A. Cornell\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Biographical\" Cornell pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_02",
+      "query": "\"Biographical\" Cornell pdf",
+      "urls": [
+        {
+          "title": "Series 1: Biographical Material",
+          "url": "https://sirismm.si.edu/EADpdfs/SAAM.JCSC.1.pdf",
+          "score": 1
+        },
+        {
+          "title": "Series 1: Biographical Material",
+          "url": "https://sirismm.si.edu/EADpdfs/AAA.cornjose.pdf",
+          "score": 1
+        },
+        {
+          "title": "Guide to the Cornell University faculty biographical files, 1865-2004.",
+          "url": "https://rmc.library.cornell.edu/EAD/htmldocs/RMA03394.html",
+          "score": 1
+        },
+        {
+          "title": "Archival Collection: Cornell University Faculty Biographical Files - Cornell University Library Digital Collections Search Results",
+          "url": "https://digital.library.cornell.edu/?f%5Barchival_collection_tesim%5D%5B%5D=Cornell+University+Faculty+Biographical+Files&per_page=100&search_field=all_fields&sort=title_alpha_only_sort+desc%2C+title_ssi+desc%2C+latest_date_isi+desc&view=gallery",
+          "score": 1
+        },
+        {
+          "title": "Archival Collection: Cornell University Faculty Biographical Files - Cornell University Library Digital Collections Search Results",
+          "url": "https://digital.library.cornell.edu/?f%5Barchival_collection_tesim%5D%5B%5D=Cornell+University+Faculty+Biographical+Files&per_page=100&search_field=all_fields&view=gallery",
+          "score": 1
+        },
+        {
+          "title": "Biographical Note | Joseph Cornell papers, 1804-1986, bulk 1939-1972 | Digitized Collection | Archives of American Art, Smithsonian Institution | Archives of American Art, Smithsonian Institution",
+          "url": "https://www.aaa.si.edu/collections/joseph-cornell-papers-5790/biographical-note",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

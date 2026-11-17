@@ -1,0 +1,95 @@
+{
+  "batch": 9,
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_06",
+      "doi": "10.1109/tse.2010.62",
+      "title": "An Analysis and Survey of the Development of Mutation Testing",
+      "field": "engineering_computing",
+      "q": "\"An Analysis and Survey of the Development of Mutation Testing\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_07",
+      "doi": "10.1109/tse.2003.1205177",
+      "title": "An empirical study of speed and communication in globally distributed software development",
+      "field": "engineering_computing",
+      "q": "\"An empirical study of speed and communication in globally distributed software development\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_08",
+      "doi": "10.1109/32.988497",
+      "title": "Test case prioritization: a family of empirical studies",
+      "field": "engineering_computing",
+      "q": "\"Test case prioritization: a family of empirical studies\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_09",
+      "doi": "10.1109/32.895989",
+      "title": "Toward reference models for requirements traceability",
+      "field": "engineering_computing",
+      "q": "\"Toward reference models for requirements traceability\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_06",
+      "query": "\"An Analysis and Survey of the Development of Mutation Testing\" pdf",
+      "urls": [
+        {
+          "title": "An Analysis and Survey of the Development of Mutation Testing",
+          "url": "https://www.scienceopen.com/document?vid=6d8ad3c8-cb31-4bfa-b879-99b0c6192a37",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "An Analysis and Survey of the Development of Mutation Testing",
+          "url": "https://bishtref.com/articles/10.1109/tse.2010.62",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_07",
+      "query": "\"An empirical study of speed and communication in globally distributed software development\" pdf",
+      "urls": [
+        {
+          "title": "An empirical study of speed and communication in globally distributed software development",
+          "url": "https://www.researchgate.net/publication/3188333_An_empirical_study_of_speed_and_communication_in_globally_distributed_software_development",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "IEEE TRANSACTIONS ON SOFTWARE ENGINEERING,   VOL. 29,   NO. 6,   JUNE 20031An Empirical Study of Speed and",
+          "url": "https://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/jdh/collaboratory/research_papers/TSE-2003.pdf",
+          "score": 0.5555555555555556,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_08",
+      "query": "\"Test case prioritization: a family of empirical studies\" pdf",
+      "urls": [
+        {
+          "title": "Test Case Prioritization: A Family of Empirical Studies - researchr publication",
+          "url": "https://researchr.org/publication/ElbaumMR02",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_09",
+      "query": "\"Toward reference models for requirements traceability\" pdf",
+      "urls": [
+        {
+          "title": "Toward reference models for requirements traceability",
+          "url": "https://www.academia.edu/53551195/Toward_reference_models_for_requirements_traceability",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

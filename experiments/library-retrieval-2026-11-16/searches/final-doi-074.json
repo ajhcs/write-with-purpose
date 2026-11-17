@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-empirical_report-2",
+      "doi": "10.1056/nejm199909023411001",
+      "title": "The effect of spironolactone on morbidity and mortality in patients with severe heart failure. Randomized Aldactone Evaluation Study Investigators.",
+      "authors": "[\"Pitt B\", \"Zannad F\", \"Remme WJ\", \"Cody R\", \"Castaigne A\", \"Perez A\", \"Palensky J\", \"Wittes J\"]",
+      "field": "medicine_health",
+      "q": "\"The effect of spironolactone on morbidity and mortality\" Pitt filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-empirical_report-2",
+      "query": "\"The effect of spironolactone on morbidity and mortality\" Pitt filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "The Effect of Spironolactone on Morbidity and Mortality in Patients with Severe Heart Failure",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJM199909023411001?articleTools=true",
+          "score": 1
+        },
+        {
+          "title": "The effect of spironolactone on morbidity and mortality in patients with severe heart failure. Randomized Aldactone Evaluation Study Investigators.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10471456/",
+          "score": 1
+        },
+        {
+          "title": "The Effect of Spironolactone on Morbidity and Mortality in Patients with Severe Heart Failure",
+          "url": "https://www.nejm.org/doi/full/10.1056/nejm199909023411001",
+          "score": 1
+        },
+        {
+          "title": "The effect of spironolactone on morbidity and mortality in patients with severe heart failure",
+          "url": "https://hero.epa.gov/reference/2722951/",
+          "score": 1
+        },
+        {
+          "title": "The Effect of Spironolactone on Morbidity and Mortality in Patients with Severe Heart Failure",
+          "url": "https://www.researchgate.net/publication/245996391_The_Effect_of_Spironolactone_on_Morbidity_and_Mortality_in_Patients_with_Severe_Heart_Failure",
+          "score": 1
+        },
+        {
+          "title": "The Effect of Spironolactone on Morbidity and Mortality in Patients with Severe Heart Failure",
+          "url": "https://cir.nii.ac.jp/crid/1363670321096226560",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

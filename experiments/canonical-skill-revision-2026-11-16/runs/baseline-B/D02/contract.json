@@ -1,0 +1,9 @@
+{
+  "max_words": 90,
+  "protected_literals": [
+    {
+      "text": "I did not knock.",
+      "min_count": 1
+    }
+  ]
+}

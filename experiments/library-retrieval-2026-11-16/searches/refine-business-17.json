@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_034",
+      "doi": "10.5465/amr.1998.192979",
+      "title": "From the Ground Up: Six Principles for Building the New Logic Corporation",
+      "authors": "[\"Dave Ulrich\"]",
+      "field": "business_management",
+      "q": "\"From the Ground Up\" Ulrich pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_034",
+      "query": "\"From the Ground Up\" Ulrich pdf",
+      "urls": [
+        {
+          "title": "From the Ground Up: The Women Revolutionizing Regenerative Agriculture",
+          "url": "https://www.degruyterbrill.com/document/doi/10.1515/9781620978948/html",
+          "score": 1
+        },
+        {
+          "title": "From the Ground Up - Greenville County Library System - OverDrive",
+          "url": "https://greenvillesc.overdrive.com/media/4326742",
+          "score": 1
+        },
+        {
+          "title": "From the Ground Up | Penguin Random House Higher Education",
+          "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780525509455",
+          "score": 1
+        },
+        {
+          "title": "From the Ground Up | Richland Library",
+          "url": "https://www.richlandlibrary.com/catalog/detail/1638045",
+          "score": 1
+        },
+        {
+          "title": "eBook - From the Ground Up by Howard Schultz · OverDrive: Free ebooks, audiobooks & movies from your library.",
+          "url": "https://www.overdrive.com/media/4326742/from-the-ground-up",
+          "score": 1
+        },
+        {
+          "title": "From the Ground Up | Penguin Random House Higher Education",
+          "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9781984840813",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

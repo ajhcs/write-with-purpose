@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w407944384",
+      "doi": "10.2307/1289310",
+      "title": "A Tale of Two Clients: Thinking about Law as Language",
+      "authors": "[\"Clark D. Cunningham\"]",
+      "field": "law_public_policy",
+      "q": "\"A Tale of Two Clients: Thinking about Law\" Cunningham filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w407944384",
+      "query": "\"A Tale of Two Clients: Thinking about Law\" Cunningham filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "\"A Tale of Two Clients: Thinking About Law as Language\" by Clark D. Cunningham",
+          "url": "https://readingroom.law.gsu.edu/faculty_pub/94/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

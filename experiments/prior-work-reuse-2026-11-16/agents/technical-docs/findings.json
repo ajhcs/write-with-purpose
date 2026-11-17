@@ -1,0 +1,299 @@
+{
+  "scout": "technical-docs",
+  "scope": "Primary-source reuse for README, procedures, technical documentation and API knowledge; contemporary resources dated separately; no raw corpus creation.",
+  "searches": [
+    {
+      "query": "READMEClassifier section dataset annotation guidelines license",
+      "source": "web search and primary papers / GitHub raw",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "procedural instruction annotation WLP protocols BRAT",
+      "source": "web search and primary papers / GitHub raw",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "OpenPI state change wikiHow corpus",
+      "source": "web search and primary papers / GitHub raw",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "DITA task schema examples",
+      "source": "web search and primary papers / GitHub raw",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "API documentation systematic mapping knowledge taxonomy",
+      "source": "web search and primary papers / GitHub raw",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "essential step detection annotation wikiHow",
+      "source": "web search and primary papers / GitHub raw",
+      "date": "2026-11-16"
+    }
+  ],
+  "records": [
+    {
+      "id": "readme",
+      "title": "Categorizing the Content of GitHub README Files",
+      "authors": "Gede Artha Azriadi Prana, Christoph Treude, Ferdian Thung, Thushari Atapattu, David Lo",
+      "year": 2019,
+      "kind": "single corpus study and dataset",
+      "doi": "10.1007/s10664-018-9660-3",
+      "primary_urls": [
+        "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf"
+      ],
+      "repository_url": "https://github.com/gprana/READMEClassifier",
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/gprana/READMEClassifier/master/input/dataset_combined.csv",
+        "https://github.com/gprana/READMEClassifier/blob/master/doc/Patterns.ods",
+        "https://raw.githubusercontent.com/gprana/READMEClassifier/master/LICENSE.md"
+      ],
+      "verified_scope": "Paper sampling, Table 2 codebook and adjudication; repository README, CSV header and raw rows; MIT license text",
+      "baseline_status": "known baseline; newly inspected label table, selection and data header",
+      "unit": "README section (multilabel)",
+      "genres_or_forms": "software README",
+      "annotation_or_metrics_available": "Original coding reference: What, Why, How, When, Who, References, Contribution, Other; classifier combines Why and What and adds Exclusion. CSV fields section-id, file-id, url, heading, Codes with >= 2 votes.",
+      "size_and_count_basis": "4,226 sections of 393 English software README files; 1,193 repositories screened; README under 2KB and nonsoftware excluded; raw CSV also includes excluded rows marked -",
+      "human_or_automatic": "human coding; learned classifier separate",
+      "reliability": "Two initial raters kappa 0.858, third rater/adjudication; use original context of reported kappa",
+      "code_license": "MIT repository license",
+      "annotation_license": "Unknown whether repository license covers annotations",
+      "source_text_rights": "Individual project text rights require separate verification",
+      "access_status": "public; source text in repository but independently verify individual versions",
+      "reuse_recommendation": "Seed provisional README-specific section role vocabulary and sampling strata; retain multilabel and disagreements, avoid mechanical mandatory sections",
+      "project_feature_mapping": "F02,F08,F09; F03 only after verifying archived full README and section parser",
+      "limitations": "Exclusion criteria and era prevent population norms; sample is not curated high-quality; majority votes are not spans; headings can contain multiple functions.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "wlp",
+      "title": "An Annotated Corpus for Machine Reading of Instructions in Wet Lab Protocols",
+      "authors": "Chaitanya Kulkarni, Wei Xu, Alan Ritter, Raghu Machiraju",
+      "year": 2018,
+      "kind": "human annotated corpus",
+      "doi": "10.18653/v1/N18-2016",
+      "primary_urls": [
+        "https://aclanthology.org/N18-2016/",
+        "https://aclanthology.org/N18-2016.pdf"
+      ],
+      "repository_url": "https://github.com/chaitanya2334/WLP-Dataset",
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/chaitanya2334/WLP-Dataset/master/train/protocol_100.ann",
+        "https://raw.githubusercontent.com/chaitanya2334/WLP-Dataset/master/train/protocol_100.txt",
+        "https://raw.githubusercontent.com/chaitanya2334/WLP-Dataset/master/LICENSE"
+      ],
+      "verified_scope": "Full paper tables and appendix guideline; inspected matching .ann and .txt; license",
+      "baseline_status": "new",
+      "unit": "action/entity character spans and within-sentence links; title plus linewise step text",
+      "genres_or_forms": "scientific laboratory procedures",
+      "annotation_or_metrics_available": "Action, Reagent and example event relations Acts-on, Using, Site; 17 entity types, 12 directed links per paper; additional NUMERICAL, GENERIC-MEASURE, SIZE, PH, MEASURE-TYPE, MENTION, MODIFIER, SEAL. Examples are partial inventory, see appendix for complete definitions.",
+      "size_and_count_basis": "622 protocols; paper reports 13,679 sentences and 177,770 words",
+      "human_or_automatic": "human",
+      "reliability": "Four coders in iterative 10-protocol exercises; alpha 0.7599 entities/actions, 0.6625 relations",
+      "code_license": "Repository LICENSE MIT",
+      "annotation_license": "License file MIT but independent applicability to annotations unclear",
+      "source_text_rights": "protocols.io originating text rights not established by repository license",
+      "access_status": "public",
+      "reuse_recommendation": "Borrow offsets, event-role linking and boundary guidance for task-step experiments",
+      "project_feature_mapping": "F08,F09; exploratory F05 only for this extracted domain",
+      "limitations": "Steps are text extracts, not confirmed full source documents; laboratory task bias; actions are not rhetorical paragraph functions.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "wnut",
+      "title": "WNUT-2020 Task 1: Extracting Entities and Relations from Wet Lab Protocols",
+      "authors": "Jeniya Tabassum, Wei Xu, Alan Ritter and colleagues",
+      "year": 2020,
+      "kind": "shared-task dataset and schema",
+      "doi": "10.18653/v1/2020.wnut-1.33",
+      "primary_urls": [
+        "https://aclanthology.org/2020.wnut-1.33/",
+        "https://noisy-text.github.io/2020/wlp-task.html"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://noisy-text.github.io/2020/wlp-task.html",
+        "https://aclanthology.org/anthology-files/pdf/wnut/2020.wnut-1.33.pdf"
+      ],
+      "verified_scope": "task format and examples, paper table and dataset revision description",
+      "baseline_status": "new",
+      "unit": "span, action-event and relation within extracted steps",
+      "genres_or_forms": "wet-lab procedures",
+      "annotation_or_metrics_available": "BRAT T entity span, E event, R relation, zero-based start inclusive end exclusive; examples Action, Reagent, Amount, Acts-on, Using, Site, Mod-Link; paper provides broader inventory",
+      "size_and_count_basis": "726 protocols total in published table; 615 unique existing documents reannotated and 111 new test protocols",
+      "human_or_automatic": "human reannotation",
+      "reliability": "not verified here",
+      "code_license": null,
+      "annotation_license": "unknown",
+      "source_text_rights": "protocols.io text rights not independently established",
+      "access_status": "public guide and paper; data release not inspected",
+      "reuse_recommendation": "Use revised annotation model and format rather than conflating versions",
+      "project_feature_mapping": "F09 semantic roles and annotation boundaries",
+      "limitations": "Overlap with WLP 2018; not independent corpus. No complete manual boundary guarantee.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "openpi",
+      "title": "A Dataset for Tracking Entities in Open Domain Procedural Text",
+      "authors": "Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, Michal Guerquin, Kyle Richardson, Eduard Hovy",
+      "year": 2020,
+      "kind": "human annotated corpus",
+      "doi": "10.18653/v1/2020.emnlp-main.520",
+      "primary_urls": [
+        "https://aclanthology.org/2020.emnlp-main.520/",
+        "https://aclanthology.org/2020.emnlp-main.520.pdf"
+      ],
+      "repository_url": "https://github.com/allenai/openpi-dataset",
+      "artifact_urls": [
+        "https://github.com/allenai/openpi-dataset/tree/main/data/gold",
+        "https://raw.githubusercontent.com/allenai/openpi-dataset/main/README.md"
+      ],
+      "verified_scope": "Paper abstract, repository README/schema and data directory listing",
+      "baseline_status": "new",
+      "unit": "state change tuple per step with current and previous sentence context",
+      "genres_or_forms": "wikiHow daily-life procedures",
+      "annotation_or_metrics_available": "entity, attribute, before value, after value; README specifies id_question.jsonl and id_answers.jsonl and associated metadata; open vocabulary, not function labels",
+      "size_and_count_basis": "29,928 state changes; 4,050 sentences from 810 sampled procedural article contexts",
+      "human_or_automatic": "crowdsourced, human vetted",
+      "reliability": "authors report 91.5% coverage judged by humans; not inter-rater agreement",
+      "code_license": "unknown",
+      "annotation_license": "unknown",
+      "source_text_rights": "wikiHow origin; reuse rights not independently verified",
+      "access_status": "public repository; individual records not inspected",
+      "reuse_recommendation": "Prototype semantic consistency comparisons for procedure step and outcome, with human evaluation",
+      "project_feature_mapping": "F09 exploratory; no proportions",
+      "limitations": "Input excerpts and semantic inferences, not whole-document structure or validated quality. OpenPI-C identifies evaluation problems: https://aclanthology.org/2023.findings-acl.452/ .",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "dita",
+      "title": "DITA 1.2 technical content information types and task elements",
+      "authors": "OASIS DITA Technical Committee",
+      "year": 2010,
+      "kind": "standard and schema",
+      "doi": null,
+      "primary_urls": [
+        "https://docs.oasis-open.org/dita/v1.2/os/spec/archSpec/dita_technicalContent_InformationTypes.html",
+        "https://docs.oasis-open.org/dita/v1.2/spec/DITA1.2-spec.pdf"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html"
+      ],
+      "verified_scope": "official standard task content model and element definitions",
+      "baseline_status": "known baseline; new level of task step detail",
+      "unit": "topic, task body, step and nested elements",
+      "genres_or_forms": "concept, task, reference",
+      "annotation_or_metrics_available": "prereq, context, steps, step, cmd, info, substeps, tutorialinfo, stepxmp, choices, stepresult, result, example, postreq; distinguish strict vs general taskbody; stepsection is expository and not a step",
+      "size_and_count_basis": "normative model, not a sampled corpus",
+      "human_or_automatic": "author-created typed markup; mechanical schema validation possible",
+      "reliability": "not applicable",
+      "code_license": null,
+      "annotation_license": null,
+      "source_text_rights": "OASIS specification rights; inspect exact reuse terms",
+      "access_status": "public specification",
+      "reuse_recommendation": "Seed optional field semantics and parser tests for declared DITA; validate exact schema only when adopted",
+      "project_feature_mapping": "F02,F07,F08,F09",
+      "limitations": "Strict task requirements apply to chosen DITA document type, not universal criteria; XML validation does not establish task executability or useful instruction.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "diataxis",
+      "title": "Diátaxis documentation framework",
+      "authors": "Daniele Procida",
+      "year": null,
+      "kind": "practitioner framework",
+      "doi": null,
+      "primary_urls": [
+        "https://diataxis.fr/start-here/",
+        "https://diataxis.fr/application/",
+        "https://diataxis.fr/how-to-guides/"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://diataxis.fr/tutorials/",
+        "https://diataxis.fr/reference-explanation/"
+      ],
+      "verified_scope": "official current practitioner pages",
+      "baseline_status": "known baseline; updated forms crosswalk",
+      "unit": "purpose of documentation component",
+      "genres_or_forms": "tutorial, how-to guide, reference, explanation",
+      "annotation_or_metrics_available": "Original labels Tutorials, How-to guides, Reference, Explanation; learning-oriented, goal-oriented, information-oriented, understanding-oriented respectively",
+      "size_and_count_basis": "no underlying representative sample or quantitative profile established",
+      "human_or_automatic": "practitioner prescription",
+      "reliability": "not measured",
+      "code_license": null,
+      "annotation_license": null,
+      "source_text_rights": "site rights not inspected",
+      "access_status": "public current pages; date not inferred as founding year",
+      "reuse_recommendation": "Use as competing form hypotheses and audience/task prompts; allow mixture within actual documents",
+      "project_feature_mapping": "F02,F09",
+      "limitations": "No proportions, demonstrated classification reliability, or requirement for four sections; practitioners disagree on strict separation.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "cummaudo",
+      "title": "What should I document? A preliminary systematic mapping study into API documentation knowledge",
+      "authors": "Alex Cummaudo, Rajesh Vasa, John Grundy",
+      "year": 2019,
+      "kind": "preliminary systematic mapping",
+      "doi": null,
+      "primary_urls": [
+        "https://arxiv.org/abs/1907.13260",
+        "https://nzjohng.github.io/publications/papers/esem2019.pdf"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://nzjohng.github.io/publications/papers/esem2019.pdf"
+      ],
+      "verified_scope": "abstract, search methods and author full text, 2019",
+      "baseline_status": "known baseline",
+      "unit": "recommendation across studies",
+      "genres_or_forms": "API documentation and reference",
+      "annotation_or_metrics_available": "34 categorised weighted recommendations in five dimensions; usage, rationale, domain concepts, artifacts and presentation; source-specific recommendation weights are not causal effect sizes",
+      "size_and_count_basis": "21 selected works; 4,501 initial search results with 514 duplicates",
+      "human_or_automatic": "synthesis of field studies",
+      "reliability": "independent screening reliability not established in inspected passages",
+      "code_license": null,
+      "annotation_license": null,
+      "source_text_rights": "paper author version publicly accessible; underlying studies have separate rights",
+      "access_status": "open author PDF",
+      "reuse_recommendation": "Extract context-specific prompts for human review and compare against coded API knowledge",
+      "project_feature_mapping": "F07,F08,F09",
+      "limitations": "No labeled document corpus; preliminary map not pooled statistical meta-analysis; selection and provenance matter.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "essentiality",
+      "title": "Are All Steps Equally Important? Benchmarking Essentiality Detection in Event Processes",
+      "authors": "Haoyu Wang, Hongming Zhang, Yueguan Wang, Yuqian Deng, Muhao Chen, Dan Roth",
+      "year": 2023,
+      "kind": "human annotated corpus study",
+      "doi": "10.18653/v1/2023.emnlp-main.246",
+      "primary_urls": [
+        "https://aclanthology.org/2023.emnlp-main.246/",
+        "https://aclanthology.org/2023.emnlp-main.246.pdf"
+      ],
+      "repository_url": null,
+      "artifact_urls": [],
+      "verified_scope": "publisher abstract and author presentation; data release not directly inspected",
+      "baseline_status": "new",
+      "unit": "goal-step pair",
+      "genres_or_forms": "wikiHow procedures",
+      "annotation_or_metrics_available": "author presentation: 0 (not essential), 1 (essential), -1 (uncertain); applicability requires full protocol verification",
+      "size_and_count_basis": "presentation says 1,000 sampled processes before filtering; final count not verified",
+      "human_or_automatic": "three human annotators per presentation",
+      "reliability": "paper abstract reports high interannotator agreement; exact measure not extracted",
+      "code_license": null,
+      "annotation_license": "unknown",
+      "source_text_rights": "wikiHow text rights unknown",
+      "access_status": "paper public, data artifact unverified",
+      "reuse_recommendation": "Research lead on human assessment of essential steps; do not impose automatic omission rules",
+      "project_feature_mapping": "F09 task semantics",
+      "limitations": "Sample, label protocol, licensing and data access remain unverified; essentiality is not writing quality or universal step requirement.",
+      "paywall_retrieval_record": null
+    }
+  ]
+}

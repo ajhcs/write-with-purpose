@@ -1,0 +1,388 @@
+{
+  "scout": "discourse-corpora",
+  "scope": "Human and silver discourse corpora, relation units, boundary protocols and reusable disagreement resources. Findings are source claims unless described as recommendation or hypothesis.",
+  "searches": [
+    {
+      "query": "GUM eRST graph annotation XML paragraph license",
+      "source": "GUM documentation and GitHub",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "GDTB semi automatic gold conversion agreement",
+      "source": "ACL Anthology and GUM release",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "AMALGUM automatic RST silver samples license",
+      "source": "author GitHub and ACL",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "RSTmulti independent coder disagreement rs3",
+      "source": "ACL and GitHub",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "DISRPT benchmark labels orig_label release",
+      "source": "GitHub",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "RST-DT and PDTB licenses data manual",
+      "source": "LDC",
+      "date": "2026-11-16"
+    }
+  ],
+  "records": [
+    {
+      "id": "DC01",
+      "title": "The GUM Corpus: Creating Multilayer Resources in the Classroom",
+      "authors": [
+        "Amir Zeldes"
+      ],
+      "year": 2017,
+      "kind": "corpus",
+      "doi": "10.1007/s10579-016-9343-x",
+      "primary_urls": [
+        "https://gucorpling.org/gum/annotations.html",
+        "https://gucorpling.org/gum/download.html"
+      ],
+      "repository_url": "https://github.com/amir-zeldes/gum",
+      "artifact_urls": [
+        "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/_build/src/xml/GUM_academic_art.xml",
+        "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/rst/rstweb/GUM_academic_art.rs4",
+        "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/LICENSE.md",
+        "https://wiki.gucorpling.org/gum/rst"
+      ],
+      "verified_scope": "Pinned Git tree and README, annotation inventory, license, actual XML and rs4 lines inspected; academic example includes title and author blocks in <p>.",
+      "baseline_status": "known-baseline lead, new artifact inspection",
+      "unit": "document, marked paragraph and sentence; EDU and hierarchical relation",
+      "genres_or_forms": "16 main text types include academic, essays, how-to, news, legal court; eight extra challenge genres",
+      "annotation_or_metrics_available": "Original 32 eRST relation labels, EDU IDs/text/parent/relname, secondary edges, signals; XML p/s/head and source metadata; distinct layers.",
+      "size_and_count_basis": "301 rs4 files counted from pinned Git tree 1d999e5a0327ecb83015007774f6a9be23ecbc41: 275 main plus 26 challenge; 18 academic, 14 essay, 19 how-to; file count, not complete works.",
+      "human_or_automatic": "Human annotated eRST; other layers may be automatic or corrected; inspect layer provenance.",
+      "reliability": "eRST signal agreement separately in DC02; not agreement on paragraph roles.",
+      "code_license": "unknown; rsTWeb separately MIT",
+      "annotation_license": "CC BY 4.0 annotations per LICENSE",
+      "source_text_rights": "Per genre and document: academic CC BY 4.0, essays CC BY-NC-SA 4.0, wikiHow CC BY-NC-SA 3.0; Reddit subject to terms and text reconstruction.",
+      "access_status": "public files; Reddit omitted, reconstruction required",
+      "reuse_recommendation": "Pin tree, export original p/s/text plus graph linked by token alignments, retaining IDs and exclusion tags for metadata and incomplete texts.",
+      "project_feature_mapping": "F02/F04/F05/F08 and F09 relation evidence; F01 only after completeness audit.",
+      "limitations": "No automatic equivalence between a relation and paragraph reader job. XML p includes author lines; GUM source extracts are not necessarily complete works. Genre labels are broad.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "DC02",
+      "title": "eRST: A Signaled Graph Theory of Discourse Relations and Organization",
+      "authors": [
+        "Amir Zeldes",
+        "Tatsuya Aoyama",
+        "Yang Janet Liu",
+        "Siyao Peng",
+        "Debopam Das",
+        "Luke Gessler"
+      ],
+      "year": 2025,
+      "kind": "corpus methodology",
+      "doi": "10.1162/coli_a_00538",
+      "primary_urls": [
+        "https://aclanthology.org/2025.cl-1.3/",
+        "https://gucorpling.org/erst/"
+      ],
+      "repository_url": "https://github.com/amir-zeldes/gum",
+      "artifact_urls": [
+        "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/_build/src/rst/GUM_academic_art.rs4",
+        "https://wiki.gucorpling.org/gum/rst"
+      ],
+      "verified_scope": "Paper methods/agreement passages and actual rs4 segment relations inspected.",
+      "baseline_status": "new layer of known GUM",
+      "unit": "EDU, text span, graph edge, signal",
+      "genres_or_forms": "cross-genre GUM and GENTLE",
+      "annotation_or_metrics_available": "32 types including explanation-evidence, adversative-concession, elaboration-attribute, purpose-goal; edge nuclearity and signal types.",
+      "size_and_count_basis": "GUM double-annotation experiment 36 documents 32K tokens; secondary edges initial 24-document dev experiment.",
+      "human_or_automatic": "human discourse annotation",
+      "reliability": "Signal recognition mutual F1 92.3 and association 90 on 36 docs; secondary-edge attachment/nuclearity/relation .311/.279/.223 initially. Different tasks, no role agreement.",
+      "code_license": "rstWeb MIT per paper",
+      "annotation_license": "CC BY 4.0 GUM annotations",
+      "source_text_rights": "Varies by document",
+      "access_status": "open paper and sample annotations",
+      "reuse_recommendation": "Reuse relation inventory and segmentation guide directly to identify discourse links; retain both endpoints and confidence/disagreement.",
+      "project_feature_mapping": "F09 relation layer and F07 evidence link as testable hypothesis",
+      "limitations": "Evidence relation connects spans; it does not establish citation quality, reader-job identity, or a paragraph function.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "DC03",
+      "title": "GDTB: Genre Diverse Data for English Shallow Discourse Parsing across Modalities, Text Types, and Domains",
+      "authors": [
+        "Yang Janet Liu",
+        "Tatsuya Aoyama",
+        "Wesley Scivetti",
+        "Yilun Zhu",
+        "Shabnam Behzad",
+        "Lauren Elizabeth Levine",
+        "Jessica Lin",
+        "Devika Tiwari",
+        "Amir Zeldes"
+      ],
+      "year": 2024,
+      "kind": "corpus",
+      "doi": "10.18653/v1/2024.emnlp-main.684",
+      "primary_urls": [
+        "https://aclanthology.org/2024.emnlp-main.684/",
+        "https://gucorpling.org/gum/annotations.html"
+      ],
+      "repository_url": "https://github.com/amir-zeldes/gum",
+      "artifact_urls": [
+        "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/rst/gdtb/disrpt/GUM_academic_art.rels",
+        "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/rst/gdtb/pdtb/gold/00/GUM_academic_art",
+        "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf"
+      ],
+      "verified_scope": "Methods/evaluation and actual relations TSV header/rows inspected.",
+      "baseline_status": "new layer of known GUM",
+      "unit": "two argument spans, relation type and sense, connective",
+      "genres_or_forms": "GUM domains and genres",
+      "annotation_or_metrics_available": "TSV doc, unit token bounds/text, rel_type, orig_label and coarse label; sampled implicit expansion.conjunction and explicit contingency.cause.result.",
+      "size_and_count_basis": "2024 paper corrected test 1,531 relation instances; current release extent can differ.",
+      "human_or_automatic": "Semi-automatic conversion from gold GUM RST, targeted manual correction; test set fully corrected. Not wholly independent annotations.",
+      "reliability": "Automatic vs corrected test exact label/span/type micro F1 0.9218; 8 test documents double coded implicit senses kappa .77 level 3, .83 level 2; does not validate reader roles.",
+      "code_license": "unknown",
+      "annotation_license": "GUM annotation CC BY 4.0",
+      "source_text_rights": "GUM document-specific licenses",
+      "access_status": "public",
+      "reuse_recommendation": "Compare original eRST and shallow senses on same texts; use manually corrected test as higher-confidence subset.",
+      "project_feature_mapping": "F09 links and F07 potential support",
+      "limitations": "Source layers are dependent; gold directory naming does not prove every record manually independently coded.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "DC04",
+      "title": "GENTLE: A Genre-Diverse Multilayer Challenge Set for English NLP and Linguistic Evaluation",
+      "authors": [
+        "Tatsuya Aoyama",
+        "Shabnam Behzad",
+        "Luke Gessler",
+        "Lauren Levine",
+        "Jessica Lin",
+        "Yang Janet Liu",
+        "Siyao Peng",
+        "Yilun Zhu",
+        "Amir Zeldes"
+      ],
+      "year": 2023,
+      "kind": "corpus",
+      "doi": "10.18653/v1/2023.law-1.17",
+      "primary_urls": [
+        "https://aclanthology.org/2023.law-1.17/",
+        "https://gucorpling.org/gum/gentle.html"
+      ],
+      "repository_url": "https://github.com/amir-zeldes/gum",
+      "artifact_urls": [
+        "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/splits.md",
+        "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/rst/rstweb/",
+        "https://gucorpling.org/gum/annotations.html"
+      ],
+      "verified_scope": "Paper table and GUM repository test2 manifest description inspected.",
+      "baseline_status": "new extension of known GUM",
+      "unit": "document, EDU, graph relation",
+      "genres_or_forms": "dictionary entries, legal documents, medical notes, proof, syllabi, threat letters, poetry and esports",
+      "annotation_or_metrics_available": "GUM-style eRST, other multilayer annotation; test2 subset.",
+      "size_and_count_basis": "26 documents 17,797 tokens: 3 dictionary, 2 legal, 3 proofs, etc., paper Table 2.",
+      "human_or_automatic": "Manual annotation per paper",
+      "reliability": "Not determined for per-relation agreement here",
+      "code_license": "unknown",
+      "annotation_license": "GUM annotations CC BY 4.0; verify subset",
+      "source_text_rights": "Source-specific rights, verify each source",
+      "access_status": "public challenge set",
+      "reuse_recommendation": "Use as stress tests for unusual structure and reference entries, not training norms.",
+      "project_feature_mapping": "F02/F04/F08/F09 structural edge cases",
+      "limitations": "2–5 documents per genre; mixed modalities and highly atypical; no representative sampling.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "DC05",
+      "title": "AMALGUM – A Free, Balanced, Multilayer English Web Corpus",
+      "authors": [
+        "Luke Gessler",
+        "Siyao Peng",
+        "Yang Liu",
+        "Yilun Zhu",
+        "Shabnam Behzad",
+        "Amir Zeldes"
+      ],
+      "year": 2020,
+      "kind": "corpus",
+      "doi": null,
+      "primary_urls": [
+        "https://aclanthology.org/2020.lrec-1.648/",
+        "https://gucorpling.org/gum/amalgum.html"
+      ],
+      "repository_url": "https://github.com/gucorpling/amalgum",
+      "artifact_urls": [
+        "https://github.com/gucorpling/amalgum/blob/a2dbd33e757f75a61d68d22d1a29e840bdffa711/amalgum/news/rst/AMALGUM_news_khadr.rs3",
+        "https://github.com/gucorpling/amalgum/blob/a2dbd33e757f75a61d68d22d1a29e840bdffa711/README.md"
+      ],
+      "verified_scope": "README, sampling claims, license, actual rs3 relation header inspected.",
+      "baseline_status": "known-baseline lead, new file and license inspection",
+      "unit": "document excerpts, EDU and automatically inferred relations",
+      "genres_or_forms": "8 web-source genres incl MDPI academic, wikiHow, news and fiction",
+      "annotation_or_metrics_available": "Automatic segmentation, POS, dependency, coreference, RST in rs3, XML etc.",
+      "size_and_count_basis": "Paper baseline 4,960 documents and 4,002,929 tokens; repo v0.2 approx 4M, ~500k per genre, plus extra; versions differ.",
+      "human_or_automatic": "machine annotated silver",
+      "reliability": "README reports RST span/nuclearity/relation 77.98/61.79/44.07 on GUM test, not percentage human agreement.",
+      "code_license": "unknown",
+      "annotation_license": "CC BY 4.0 for annotations in amalgum and amalgum_extra",
+      "source_text_rights": "Per-source licensing; academic MDPI CC BY 4.0, some sources NC/SA, Reddit by request and terms.",
+      "access_status": "public non-Reddit, Reddit by request",
+      "reuse_recommendation": "Use for candidate discovery and stress tests, flag all inferred labels; do not treat as human ground truth.",
+      "project_feature_mapping": "F04/F05/F09 as exploratory only",
+      "limitations": "Excerpt/length sampling and genre/source confounding; automatic relation noise, not full-document profile.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "DC06",
+      "title": "Disagreements in analyses of rhetorical text structure: A new dataset and first analyses",
+      "authors": [
+        "Freya Hewett",
+        "Manfred Stede"
+      ],
+      "year": 2025,
+      "kind": "corpus and methodological study",
+      "doi": "10.18653/v1/2025.law-1.3",
+      "primary_urls": [
+        "https://aclanthology.org/2025.law-1.3/"
+      ],
+      "repository_url": "https://github.com/discourse-lab/RSTmulti",
+      "artifact_urls": [
+        "https://github.com/discourse-lab/RSTmulti/blob/4e4eca188b19edc87ce801bc0760b25d31dd9e10/README.md",
+        "https://github.com/discourse-lab/RSTmulti/blob/4e4eca188b19edc87ce801bc0760b25d31dd9e10/data/1/UNSC_2014_SPV.7154_spch005_LT_00.rs3",
+        "https://github.com/tkutschbach/RST-Tace"
+      ],
+      "verified_scope": "Paper methods, repository README and actual rs3 relation inventory inspected.",
+      "baseline_status": "new",
+      "unit": "paired RST trees on identical EDU segmentation",
+      "genres_or_forms": "English UN Security Council speeches and WSJ; German newspaper commentaries and simplifications",
+      "annotation_or_metrics_available": "Two parallel human trees, Tace output and categories for relation, scope, direction and no-match disagreement.",
+      "size_and_count_basis": "Study 156 texts from four sources; includes 26 licensed RST-DT IDs, actual files absent from public repo.",
+      "human_or_automatic": "Two trained human annotators; correction for obvious violations in some corpora.",
+      "reliability": "Shared EDU boundaries intentionally isolate tree disagreements; cannot evaluate independent segmentation reliability.",
+      "code_license": "Repository states CC BY-SA 4.0 for work; code-specific treatment unclear",
+      "annotation_license": "CC BY-SA 4.0 per README; check underlying source",
+      "source_text_rights": "WSJ absent, LDC license; other source-specific rights require review",
+      "access_status": "Public rs3, Tace outputs; WSJ licensed",
+      "reuse_recommendation": "Reproduce disagreement categories; preserve alternatives rather than forcing adjudication; compare boundary reliability separately.",
+      "project_feature_mapping": "F09 uncertainty and relationships",
+      "limitations": "English subset speeches/news, no paragraph jobs; fixed segmentation conditions prevent boundary evaluation.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "DC07",
+      "title": "DISRPT 2023 Shared Task: Discourse Unit Segmentation, Connective Detection, and Relation Classification",
+      "authors": [
+        "shared task organizers"
+      ],
+      "year": 2023,
+      "kind": "benchmark collection",
+      "doi": null,
+      "primary_urls": [
+        "https://sites.google.com/view/disrpt2023/",
+        "https://github.com/disrpt/sharedtask2023"
+      ],
+      "repository_url": "https://github.com/disrpt/sharedtask2023",
+      "artifact_urls": [
+        "https://github.com/disrpt/sharedtask2023/blob/2afec39f8f32c00a238b8a33daf5b0c7341a31fa/data/eng.rst.gum/README.md",
+        "https://github.com/disrpt/sharedtask2023/blob/main/README.md"
+      ],
+      "verified_scope": "Repository README and GUM v9 subset README inspected.",
+      "baseline_status": "new standardized export of known GUM",
+      "unit": "EDU segmentation, connective spans, pairwise relations",
+      "genres_or_forms": "multilingual heterogeneous corpora with diverse annotation schemes",
+      "annotation_or_metrics_available": "CoNLL-U and .rels with original fine label orig_label and coarse label; predefined splits and evaluators.",
+      "size_and_count_basis": "Pin 2afec39f8f32c00a238b8a33daf5b0c7341a31fa; counts by corpus in README; 2023 GUM v9 has 12 genres.",
+      "human_or_automatic": "Varies by constituent corpus; GUM annotated human",
+      "reliability": "Task-specific evaluation tools; original schemes require separate agreement checks.",
+      "code_license": "unknown, check each tool",
+      "annotation_license": "Per corpus, no blanket claim",
+      "source_text_rights": "Some text underscores (including GUM Reddit and RST-DT) require rights/reconstruction",
+      "access_status": "public metadata and formats, some source text restricted",
+      "reuse_recommendation": "Borrow established relation and segmentation evaluation schema; retain orig_label and explicit dataset identity.",
+      "project_feature_mapping": "F09 annotation infrastructure",
+      "limitations": "Not a homogenized crosswalk; no evidence classes are equal between frameworks or correspond to reader jobs.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "DC08",
+      "title": "RST Discourse Treebank",
+      "authors": [
+        "Lynn Carlson",
+        "Daniel Marcu",
+        "Mary Ellen Okurowski"
+      ],
+      "year": 2002,
+      "kind": "corpus",
+      "doi": "10.35111/4w31-m996",
+      "primary_urls": [
+        "https://catalog.ldc.upenn.edu/LDC2002T07",
+        "https://www.sfu.ca/~mtaboada/docs/publications/RST_Signalling_Corpus_Annotation_Manual.pdf"
+      ],
+      "repository_url": "https://github.com/disrpt/sharedtask2023",
+      "artifact_urls": [
+        "https://catalog.ldc.upenn.edu/LDC2002T07",
+        "https://github.com/disrpt/sharedtask2023/tree/main/data/eng.rst.rstdt"
+      ],
+      "verified_scope": "LDC catalog and official manual description; benchmark README lists underscored text.",
+      "baseline_status": "known-baseline lead",
+      "unit": "EDU, constituent span, nuclearity, rhetorical relation",
+      "genres_or_forms": "Wall Street Journal news articles",
+      "annotation_or_metrics_available": "Human RST trees and summaries; public task representation excludes licensed text.",
+      "size_and_count_basis": "385 WSJ articles per LDC.",
+      "human_or_automatic": "human annotation",
+      "reliability": "26 double-annotated text IDs form RSTmulti study subset; labels and boundary reliability must be separately evaluated.",
+      "code_license": "unknown",
+      "annotation_license": "LDC agreement, terms govern",
+      "source_text_rights": "WSJ licensed; no unlicensed reconstruction",
+      "access_status": "LDC licensed product; limited underscored benchmark",
+      "reuse_recommendation": "Use freely accessible segmentation guidelines as operational precedent; pursue licensed data only if news comparison useful.",
+      "project_feature_mapping": "F09 relation and boundary method",
+      "limitations": "News-only and overlaps PDTB; direct commercial/data permissions require agreement.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "DC09",
+      "title": "Penn Discourse Treebank Version 3.0",
+      "authors": [
+        "Rashmi Prasad",
+        "Bonnie Webber",
+        "Alan Lee",
+        "Aravind Joshi"
+      ],
+      "year": 2019,
+      "kind": "corpus",
+      "doi": "10.35111/qebf-gk47",
+      "primary_urls": [
+        "https://catalog.ldc.upenn.edu/LDC2019T05"
+      ],
+      "repository_url": "https://github.com/disrpt/sharedtask2023",
+      "artifact_urls": [
+        "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+        "https://catalog.ldc.upenn.edu/LDC2021T16"
+      ],
+      "verified_scope": "LDC catalog and manual entry inspected.",
+      "baseline_status": "new detailed access and scheme inspection",
+      "unit": "discourse connective and two argument spans",
+      "genres_or_forms": "WSJ newswire",
+      "annotation_or_metrics_available": "Explicit and implicit discourse relations and senses; v3 extends v2. DiscAlign aligns PDTB 2.0 with RST-DT.",
+      "size_and_count_basis": "LDC says v2 over 40,600 annotated relation tokens plus 13,000 in v3; do not interpret as word or document count. DiscAlign approx 6,700 relation alignments on 385 overlapping articles.",
+      "human_or_automatic": "human annotations; source-specific curation",
+      "reliability": "Scope-specific agreement check manual and papers; no new independent assessment.",
+      "code_license": "unknown",
+      "annotation_license": "LDC user agreement",
+      "source_text_rights": "WSJ source licensed",
+      "access_status": "licensed corpus, free public annotation manual; DiscAlign available to holders of both PDTB 2 and RST-DT",
+      "reuse_recommendation": "Reuse published boundary definitions and sense inventory; DiscAlign tests formalism differences if access already exists.",
+      "project_feature_mapping": "F09 link representation",
+      "limitations": "One domain and dependent source overlap; DiscAlign is for PDTB 2, not v3; original labels not reader-job labels.",
+      "paywall_retrieval_record": null
+    }
+  ]
+}

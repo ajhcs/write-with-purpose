@@ -1,0 +1,1079 @@
+{
+  "reviewer_model": "GPT-6 (independent masked semantic diagnostic; not a gold standard)",
+  "masking_limitations": "Four anonymous records were shuffled within each paragraph. Differences in wording or richness could hint at guidance; no arm identities or agreement outcomes were sought. Judgments are diagnostic, contextual and fallible. The source passages and their empirical or technical truth were not independently verified.",
+  "cases": [
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p005",
+      "diagnosis": "The transition frames a thesis; the two propositions are the author’s positions, not established outcomes.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [
+            {
+              "kind": "wrong_target",
+              "function_id": "orient",
+              "reason": "The next work question is later context; the immediate shift is to the thesis. Do not imply this anchor itself previews a definition.",
+              "anchor_quote": "All this is only preliminary."
+            }
+          ],
+          "defensible_distinctions": [
+            "The preliminary-to-thesis transition and the two-part position have distinct jobs."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The preliminary-to-thesis transition and the two-part position have distinct jobs."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "uncertainty",
+              "function_id": "assert",
+              "reason": "The source says belief in the virtuousness of work, not belief in work itself; retain that distinction.",
+              "anchor_quote": "belief in the virtuousness of work"
+            }
+          ],
+          "defensible_distinctions": [
+            "The preliminary-to-thesis transition and the two-part position have distinct jobs."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The preliminary-to-thesis transition and the two-part position have distinct jobs."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "Orientation may refer to the immediately following thesis or, more broadly, the later analysis.",
+      "rule_or_example_need": "Show a transition whose target is the next sentence versus a later section."
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p006",
+      "diagnosis": "Reflection on learned hierarchy is made concrete in a remembered behavior; the opening narrows an earlier account.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Reflection and a concrete behavior can coexist; that behavior may also be reported."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "qualify",
+              "reason": "The opening says class alone does not account for the attitude, limiting the earlier class-focused account.",
+              "anchor_quote": "But it isn’t just a matter of class."
+            }
+          ],
+          "defensible_distinctions": [
+            "Reflection and a concrete behavior can coexist; that behavior may also be reported."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "illustrate",
+              "reason": "The nod makes the learned hierarchy visible as a specific behavior.",
+              "anchor_quote": "I learned to give that little nod"
+            },
+            {
+              "kind": "other",
+              "function_id": "report",
+              "reason": "Calling the reaction sympathetic without its ironic framing risks reversing its condescending force.",
+              "anchor_quote": "slightly sympathetic “Oh,”"
+            }
+          ],
+          "defensible_distinctions": [
+            "Reflection and a concrete behavior can coexist; that behavior may also be reported."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [
+            {
+              "kind": "unsupported_label",
+              "function_id": "narrate",
+              "reason": "A statement that something was never learned describes a gap; this anchor alone does not develop an event or change through time.",
+              "anchor_quote": "I never learned that there are smart people who don’t go to college at all."
+            }
+          ],
+          "defensible_distinctions": [
+            "Reflection and a concrete behavior can coexist; that behavior may also be reported."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "The repeated “never learned” can be reflective description rather than an unfolding event; class qualification depends on the prior paragraph.",
+      "rule_or_example_need": "Contrast a reflective account of enduring learning with an event that changes through time."
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p006",
+      "diagnosis": "A scene unfolds through a job interview; details and speech contribute to that narrative.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Chronological exchange and characterization are distinguishable when the description contributes a separate reader task."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Chronological exchange and characterization are distinguishable when the description contributes a separate reader task."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Chronological exchange and characterization are distinguishable when the description contributes a separate reader task."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Chronological exchange and characterization are distinguishable when the description contributes a separate reader task."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "Descriptive reporting can coexist with narration, but quoted pay terms need not become an independent job merely because they are factual.",
+      "rule_or_example_need": "Give a narrative with character description and distinguish independent descriptive work from embedded detail."
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p003",
+      "diagnosis": "The paragraph redirects the reader toward the mother and her cooking, setting up the story.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The explicit redirection itself performs orientation."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The explicit redirection itself performs orientation."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The explicit redirection itself performs orientation."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The explicit redirection itself performs orientation."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "The emphasis on psychological necessity may also anticipate an interpretation, though its development lies elsewhere.",
+      "rule_or_example_need": "Illustrate orientation by a change of topic without requiring an opening position."
+    },
+    {
+      "paragraph_id": "PMC2867979-p011",
+      "diagnosis": "Reported studies provide specific evidence for the association, including an explicit comparison; the final sentence limits the paper’s scope.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "compare",
+              "reason": "The Cochrane and industry-supported reviews are contrasted on transparency, criticism, and conclusions.",
+              "anchor_quote": "the latter were less transparent"
+            },
+            {
+              "kind": "potential_omission",
+              "function_id": "support",
+              "reason": "The cited aggregation is presented as bearing on the preceding association, beyond merely exemplifying it.",
+              "anchor_quote": "aggregation of the results of 8 analyses"
+            }
+          ],
+          "defensible_distinctions": [
+            "Report, comparison, support and illustration can be distinct jobs in the same cited study."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "illustrate",
+              "reason": "The explicitly introduced study provides a concrete instance of the broad association.",
+              "anchor_quote": "For example, in a systematic review"
+            }
+          ],
+          "defensible_distinctions": [
+            "Report, comparison, support and illustration can be distinct jobs in the same cited study."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "support",
+              "reason": "The review aggregation bears on the opening association as evidence, subject to source verification.",
+              "anchor_quote": "aggregation of the results of 8 analyses"
+            }
+          ],
+          "defensible_distinctions": [
+            "Report, comparison, support and illustration can be distinct jobs in the same cited study."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "illustrate",
+              "reason": "The review aggregation is also an explicit concrete example of the association.",
+              "anchor_quote": "For example, in a systematic review"
+            }
+          ],
+          "defensible_distinctions": [
+            "Report, comparison, support and illustration can be distinct jobs in the same cited study."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "A named study can both exemplify and support the broad association; its findings remain attributed and do not establish causation.",
+      "rule_or_example_need": "Show an empirical example that illustrates and supports, and distinguish paper scope from a limit on the association."
+    },
+    {
+      "paragraph_id": "PMC4053896-p007",
+      "diagnosis": "The authors report completed search and criteria development; a short forward reference introduces the list.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "explain",
+              "reason": "The selected reviews are explicitly the basis for defining focus and criteria.",
+              "anchor_quote": "Based on these articles, we defined the research focus"
+            }
+          ],
+          "defensible_distinctions": [
+            "Completed methods are report; an input-to-criteria relationship can also explain a dependency."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "orient",
+              "reason": "The last sentence introduces the following inclusion criteria.",
+              "anchor_quote": "The inclusion criteria were as follows:"
+            }
+          ],
+          "defensible_distinctions": [
+            "Completed methods are report; an input-to-criteria relationship can also explain a dependency."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "orient",
+              "reason": "The closing sentence prepares the ensuing list.",
+              "anchor_quote": "The inclusion criteria were as follows:"
+            }
+          ],
+          "defensible_distinctions": [
+            "Completed methods are report; an input-to-criteria relationship can also explain a dependency."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "orient",
+              "reason": "The closing sentence prepares the ensuing list.",
+              "anchor_quote": "The inclusion criteria were as follows:"
+            }
+          ],
+          "defensible_distinctions": [
+            "Completed methods are report; an input-to-criteria relationship can also explain a dependency."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "“Based on” conveys dependence, though some readers may regard it as procedural description rather than an explanation of why the method was chosen.",
+      "rule_or_example_need": "Distinguish a method’s dependence on an input from a substantive rationale, and permit brief list introductions to orient."
+    },
+    {
+      "paragraph_id": "git-p02",
+      "diagnosis": "Option behavior is described, with concise operational clarifications of containment and merger.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "define",
+              "reason": "The parenthetical gives an operational meaning for branches containing a commit.",
+              "anchor_quote": "the branches whose tip commits are descendants of the named commit"
+            }
+          ],
+          "defensible_distinctions": [
+            "The descendant and reachability parentheticals distinguish the terms while also describing the filters."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "define",
+              "reason": "The reachability parenthetical also clarifies merged branches.",
+              "anchor_quote": "the branches whose tip commits are reachable from the named commit"
+            }
+          ],
+          "defensible_distinctions": [
+            "The descendant and reachability parentheticals distinguish the terms while also describing the filters."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "compare",
+              "reason": "The merged and no-merged options are contrasted on inclusion versus exclusion.",
+              "anchor_quote": "With `--no-merged` only branches not merged"
+            }
+          ],
+          "defensible_distinctions": [
+            "The descendant and reachability parentheticals distinguish the terms while also describing the filters."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "compare",
+              "reason": "The merged and no-merged options contrast their selection behavior.",
+              "anchor_quote": "With `--no-merged` only branches not merged"
+            }
+          ],
+          "defensible_distinctions": [
+            "The descendant and reachability parentheticals distinguish the terms while also describing the filters."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "Opposing merged and unmerged filters may count as a comparison of behavior, or as parallel reference descriptions.",
+      "rule_or_example_need": "Include partial operational definitions and contrast them with a mere example or description."
+    },
+    {
+      "paragraph_id": "python-p02",
+      "diagnosis": "A file containing definitions is named a module, and import relationships and the main module are briefly characterized.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "define",
+              "reason": "The parenthetical additionally characterizes the main module.",
+              "anchor_quote": "the collection of variables that you have access to"
+            }
+          ],
+          "defensible_distinctions": [
+            "Naming a module, defining the main module, and explaining import reuse are separable contributions."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Naming a module, defining the main module, and explaining import reuse are separable contributions."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "explain",
+              "reason": "The import relationship makes the reuse of definitions across modules intelligible.",
+              "anchor_quote": "definitions from a module can be *imported* into other modules"
+            }
+          ],
+          "defensible_distinctions": [
+            "Naming a module, defining the main module, and explaining import reuse are separable contributions."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Naming a module, defining the main module, and explaining import reuse are separable contributions."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "The import sentence can describe a capability or explain reuse; the parenthetical is a short partial definition of the main module.",
+      "rule_or_example_need": "Provide short contextual and partial definitions alongside a capability-versus-mechanism example."
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p007",
+      "diagnosis": "The writer interprets prior advice as victim blaming, contrasts responses, and explains the significance of public attention.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "compare",
+              "reason": "The passage contrasts modifying women’s behavior with changing public space or men.",
+              "anchor_quote": "rather than that we transform public space"
+            },
+            {
+              "kind": "potential_omission",
+              "function_id": "assert",
+              "reason": "The alternative is presented as a preferred change to enable walking unharassed.",
+              "anchor_quote": "rather than that we transform public space"
+            }
+          ],
+          "defensible_distinctions": [
+            "Victim-blaming interpretation, contrasting alternatives and a reason for the writer’s reaction are separate."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "compare",
+              "reason": "The alternatives are contrasted in how public harassment is addressed.",
+              "anchor_quote": "rather than that we transform public space"
+            }
+          ],
+          "defensible_distinctions": [
+            "Victim-blaming interpretation, contrasting alternatives and a reason for the writer’s reaction are separate."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "assert",
+              "reason": "The contrasted alternative also conveys an advocated change.",
+              "anchor_quote": "rather than that we transform public space"
+            }
+          ],
+          "defensible_distinctions": [
+            "Victim-blaming interpretation, contrasting alternatives and a reason for the writer’s reaction are separate."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "compare",
+              "reason": "The preferred response is explicitly contrasted with restricting women’s presence.",
+              "anchor_quote": "rather than that we transform public space"
+            }
+          ],
+          "defensible_distinctions": [
+            "Victim-blaming interpretation, contrasting alternatives and a reason for the writer’s reaction are separate."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "A preferred alternative can count as an implicit proposal, and comparison can coexist with it; personal reaction is also interpretive.",
+      "rule_or_example_need": "Show when an embedded alternative supports both comparison and an advocated position."
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p020",
+      "diagnosis": "The writer reports men’s responses, interprets engagement as a sign of change, explains why it matters, and draws an analogy between struggles.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Reported responses, tentative interpretation and the participation analogy have distinct targets."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Reported responses, tentative interpretation and the participation analogy have distinct targets."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Reported responses, tentative interpretation and the participation analogy have distinct targets."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [
+            {
+              "kind": "uncertainty",
+              "function_id": "interpret",
+              "reason": "The source says the change “seems” transformative; the reason should retain that uncertainty.",
+              "anchor_quote": "what seems to have been new and transformative this year"
+            }
+          ],
+          "defensible_distinctions": [
+            "Reported responses, tentative interpretation and the participation analogy have distinct targets."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "The analogy is a meaningful comparison and may illustrate the participation claim; its asserted necessity remains the author’s claim.",
+      "rule_or_example_need": "Show analogy serving comparison and illustration without treating analogy as empirical proof."
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p033",
+      "diagnosis": "The attributed professional’s judgment and subsequent reported cases frame the author’s claim of a reversal.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The attributed assessment, reversal claim and unfolding case do distinct work."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "illustrate",
+              "reason": "Lawrence’s shift is a concrete instance of the proposed reversal.",
+              "anchor_quote": "she started on the usual route of being ashamed and apologetic, but then she revolted"
+            }
+          ],
+          "defensible_distinctions": [
+            "The attributed assessment, reversal claim and unfolding case do distinct work."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "report",
+              "reason": "The opening assessment is explicitly attributed to a campus professional.",
+              "anchor_quote": "a campus professional who handles sexual assault cases told me the other day"
+            }
+          ],
+          "defensible_distinctions": [
+            "The attributed assessment, reversal claim and unfolding case do distinct work."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The attributed assessment, reversal claim and unfolding case do distinct work."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "The reversal can be an interpretive inference or asserted position, and the cases can illustrate it without proving a general reversal.",
+      "rule_or_example_need": "Give an attributed quotation followed by author inference and cases; distinguish reported speech from author endorsement."
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p005",
+      "diagnosis": "The narrator compares Leo with the parents, describes upbringing, and interprets the stories’ personal significance.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "illustrate",
+              "reason": "The alien image makes the feeling of unfamiliarity concrete.",
+              "anchor_quote": "as if I were listening to an alien describe a cocktail party on the moon"
+            }
+          ],
+          "defensible_distinctions": [
+            "Comparison, childhood description and significance each contribute distinct content."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Comparison, childhood description and significance each contribute distinct content."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "illustrate",
+              "reason": "The alien image concretizes the narrator’s sense of unfamiliarity.",
+              "anchor_quote": "as if I were listening to an alien describe a cocktail party on the moon"
+            }
+          ],
+          "defensible_distinctions": [
+            "Comparison, childhood description and significance each contribute distinct content."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "illustrate",
+              "reason": "The alien image concretizes the narrator’s sense of unfamiliarity.",
+              "anchor_quote": "as if I were listening to an alien describe a cocktail party on the moon"
+            }
+          ],
+          "defensible_distinctions": [
+            "Comparison, childhood description and significance each contribute distinct content."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "The imaginative alien image can illustrate unfamiliarity; it is a figurative analogy, not a reported event.",
+      "rule_or_example_need": "Show an analogy embedded in reflection and differentiate comparison of people from figurative illustration."
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p013",
+      "diagnosis": "An attributed reply continues an exchange; the quoted attitude remains the speaker’s.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [],
+          "defensible_distinctions": [
+            "An attributed statement and its contribution to an unfolding exchange can coexist."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [],
+          "defensible_distinctions": [
+            "An attributed statement and its contribution to an unfolding exchange can coexist."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "narrate",
+              "reason": "The quoted answer continues the ongoing scene and may advance the exchange.",
+              "anchor_quote": "“I don’t really get scared,” he said."
+            }
+          ],
+          "defensible_distinctions": [
+            "An attributed statement and its contribution to an unfolding exchange can coexist."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [],
+          "defensible_distinctions": [
+            "An attributed statement and its contribution to an unfolding exchange can coexist."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "A single reply can advance a scene across paragraph boundaries, although report alone is also defensible if the exchange is treated as context.",
+      "rule_or_example_need": "Include a dialogue turn whose narrative development spans paragraphs, retaining the speaker attribution."
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p021",
+      "diagnosis": "A travel episode unfolds; the handler’s words and later explanation clarify the launch situation.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [
+            {
+              "kind": "uncertainty",
+              "function_id": "explain",
+              "reason": "The launch sentence tells the action but the precise mechanics of flight are not supplied; explain the situation or instruction, not aerodynamics.",
+              "anchor_quote": "To get a hang glider airborne"
+            }
+          ],
+          "defensible_distinctions": [
+            "The travel sequence and explanation of the handler’s meaning have separate jobs."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The travel sequence and explanation of the handler’s meaning have separate jobs."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "explain",
+              "reason": "The narrator explicitly interprets what the handler meant by the instruction.",
+              "anchor_quote": "By that, he meant that I should not hesitate"
+            }
+          ],
+          "defensible_distinctions": [
+            "The travel sequence and explanation of the handler’s meaning have separate jobs."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The travel sequence and explanation of the handler’s meaning have separate jobs."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "Second-person launch wording may guide action but is embedded in a personal account; the unresolved instruction judgment is defensible.",
+      "rule_or_example_need": "Contrast quoted instructions to a participant, generalized narrative explanation, and actual reader-directed instruction."
+    },
+    {
+      "paragraph_id": "PMC4566873-p010",
+      "diagnosis": "The authors propose broader theory consideration, give a reason, and report their completed study and question.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Proposal, reason for it, and completed review are distinguishable."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "orient",
+              "reason": "The research question prepares readers for the subsequent review.",
+              "anchor_quote": "primarily aimed to address the question"
+            }
+          ],
+          "defensible_distinctions": [
+            "Proposal, reason for it, and completed review are distinguishable."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "orient",
+              "reason": "The research question prepares readers for the subsequent review.",
+              "anchor_quote": "primarily aimed to address the question"
+            }
+          ],
+          "defensible_distinctions": [
+            "Proposal, reason for it, and completed review are distinguishable."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "orient",
+              "reason": "The research question prepares readers for the subsequent review.",
+              "anchor_quote": "primarily aimed to address the question"
+            }
+          ],
+          "defensible_distinctions": [
+            "Proposal, reason for it, and completed review are distinguishable."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "The question can both report the study aim and orient readers to the ensuing review.",
+      "rule_or_example_need": "Contrast reporting an aim with orientation to subsequent work, and keep completed versus intended status."
+    },
+    {
+      "paragraph_id": "PMC4566873-p028",
+      "diagnosis": "The authors report screening, define operational categories, and explain their choice of behavioral endpoint.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "qualify",
+              "reason": "Excluding secondary theory sources limits the eligible descriptive category.",
+              "anchor_quote": "Secondary theory sources"
+            },
+            {
+              "kind": "potential_omission",
+              "function_id": "illustrate",
+              "reason": "Weight loss is a concrete example of a consequence distinguished from behavior.",
+              "anchor_quote": "e.g., weight loss"
+            }
+          ],
+          "defensible_distinctions": [
+            "Screening procedure, definitions and reason for the endpoint have separate contributions."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "qualify",
+              "reason": "Excluding secondary theory sources limits the eligible descriptive category.",
+              "anchor_quote": "Secondary theory sources"
+            },
+            {
+              "kind": "extraction",
+              "function_id": "define",
+              "reason": "One short anchor establishes the descriptive category but does not itself evidence the other three named categories; additional anchors would improve traceability.",
+              "anchor_quote": "Descriptive articles were defined as those"
+            }
+          ],
+          "defensible_distinctions": [
+            "Screening procedure, definitions and reason for the endpoint have separate contributions."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "qualify",
+              "reason": "The explicit exclusion limits the eligible descriptive category.",
+              "anchor_quote": "Secondary theory sources"
+            }
+          ],
+          "defensible_distinctions": [
+            "Screening procedure, definitions and reason for the endpoint have separate contributions."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [
+            {
+              "kind": "extraction",
+              "function_id": "define",
+              "reason": "The evaluative-category anchor alone does not establish the other category definitions described in the reason.",
+              "anchor_quote": "Evaluative articles were defined as those"
+            }
+          ],
+          "defensible_distinctions": [
+            "Screening procedure, definitions and reason for the endpoint have separate contributions."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "Exclusion of secondary sources may qualify the operational definition or simply specify the eligibility rule; the example of weight loss can illustrate the endpoint distinction.",
+      "rule_or_example_need": "Show operational exclusions as potential qualifications and clarify when short parentheticals illustrate a distinction."
+    },
+    {
+      "paragraph_id": "PMC4566873-p046",
+      "diagnosis": "The paragraph limits what the retrieved literature can represent and attributes that limitation to the search strategy.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The search design as reason and the restriction on interpretation are distinguishable."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The search design as reason and the restriction on interpretation are distinguishable."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The search design as reason and the restriction on interpretation are distinguishable."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The search design as reason and the restriction on interpretation are distinguishable."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "A contrast between identifying theories and exhaustively reviewing empirical studies can be recognized, although it may be integral to the reason for the limitation.",
+      "rule_or_example_need": "Show a limitation whose reason is explicit and whose target is representativeness, not all validity."
+    },
+    {
+      "paragraph_id": "curl-p04",
+      "diagnosis": "A brief characterization says what the response code communicates, alongside its length and location.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Code location and its role in communicating handling are distinct contributions."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "define",
+              "reason": "The second sentence gives a concise characterization of what a response code is for.",
+              "anchor_quote": "The response code is the server's way"
+            }
+          ],
+          "defensible_distinctions": [
+            "Code location and its role in communicating handling are distinct contributions."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Code location and its role in communicating handling are distinct contributions."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [],
+          "defensible_distinctions": [
+            "Code location and its role in communicating handling are distinct contributions."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "The communicative role can be a partial definition or an explanation of purpose; both are defensible without demanding a complete technical definition.",
+      "rule_or_example_need": "Include a short functional definition that also explains a communicative relationship."
+    },
+    {
+      "paragraph_id": "curl-p11",
+      "diagnosis": "The passage describes chunk framing and explains how the end can be detected without an initial total size.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [
+            {
+              "kind": "extraction",
+              "function_id": "explain",
+              "reason": "The whole-paragraph anchor obscures which wording supplies the end-detection connection.",
+              "anchor_quote": "The point of this sort of response"
+            }
+          ],
+          "defensible_distinctions": [
+            "Description of framing and the connection to end detection do distinct work."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [
+            {
+              "kind": "extraction",
+              "function_id": "explain",
+              "reason": "The anchor names chunk size but omits the terminal chunk and end-detection statement invoked in the reason.",
+              "anchor_quote": "Every individual chunk starts with the size of that particular chunk"
+            }
+          ],
+          "defensible_distinctions": [
+            "Description of framing and the connection to end detection do distinct work."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "uncertainty",
+              "function_id": "compare",
+              "reason": "The passage contrasts a missing length header with the chunked header; whether this is an independent comparison or framing description is debatable.",
+              "anchor_quote": "Instead, there's a `Transfer-Encoding: chunked` header"
+            }
+          ],
+          "defensible_distinctions": [
+            "Description of framing and the connection to end detection do distinct work."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [
+            {
+              "kind": "potential_omission",
+              "function_id": "report",
+              "reason": "The header and chunk structure are described independently of the purpose of end detection.",
+              "anchor_quote": "Every individual chunk starts with the size of that particular chunk"
+            }
+          ],
+          "defensible_distinctions": [
+            "Description of framing and the connection to end detection do distinct work."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "Header contrast is a plausible comparison; the frame structure may also partially define chunked encoding.",
+      "rule_or_example_need": "Contrast meaningful alternatives with absence-versus-presence inside a single procedure; accept an operational partial definition."
+    },
+    {
+      "paragraph_id": "curl-p17",
+      "diagnosis": "The conditional exchange explains the behavior, while the option and following command give the reader an actionable way to request it.",
+      "records": [
+        {
+          "record_id": "R1",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The conditional exchange and the action to request it address different reader questions."
+          ]
+        },
+        {
+          "record_id": "R2",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The conditional exchange and the action to request it address different reader questions."
+          ]
+        },
+        {
+          "record_id": "R3",
+          "concerns": [
+            {
+              "kind": "extraction",
+              "function_id": "explain",
+              "reason": "The anchor contains the acceptance and response but omits the decompression outcome named in the reason.",
+              "anchor_quote": "if acceptable, it will respond with a header indicating that it will"
+            }
+          ],
+          "defensible_distinctions": [
+            "The conditional exchange and the action to request it address different reader questions."
+          ]
+        },
+        {
+          "record_id": "R4",
+          "concerns": [],
+          "defensible_distinctions": [
+            "The conditional exchange and the action to request it address different reader questions."
+          ]
+        }
+      ],
+      "multiple_plausible_readings": "The option sentence is declarative but is a reader-directed instruction in its reference context; source accuracy is a separate question.",
+      "rule_or_example_need": "Show declarative instructions that depend on an adjacent example and distinguish them from historical methods."
+    }
+  ],
+  "cross_case_findings": [
+    "Multiple labels are justified when spans answer distinct reader questions; shared text or grammar alone does not establish a separate job.",
+    "Short partial definitions and declarative or cognitive instructions can be meaningful in context; completeness and imperative form are not universal prerequisites.",
+    "Distinguish the author’s claims and reported sources from verified truth; preserve hedges, speaker attribution, and the exact scope of qualifications.",
+    "A cited concrete study can both illustrate and support a claim, while an analogy can illustrate or compare without proving the proposition.",
+    "Anchors should include the specific relationship described in the reason; overly broad or partial anchors can conceal target and extraction errors.",
+    "Narrative, report and interpretation can overlap, but an enduring absence or isolated fact need not independently develop an event."
+  ]
+}

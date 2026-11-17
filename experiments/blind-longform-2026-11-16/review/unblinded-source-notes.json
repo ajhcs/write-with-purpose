@@ -1,0 +1,49 @@
+{
+  "scope": "Model source-fidelity judgments against the supplied text, disclosed after author preference collection. They are not external truth verification or an automatic override of preference.",
+  "findings_for_rated_cases": [
+    {
+      "case": "R01",
+      "variant": "B",
+      "condition": "baseline",
+      "audit_findings": [
+        {
+          "category": "debatable_omission",
+          "detail": "The opening retains that the father grew up in Boston but omits that he was born there."
+        }
+      ]
+    },
+    {
+      "case": "R02",
+      "variant": "A",
+      "condition": "baseline",
+      "audit_findings": [
+        {
+          "category": "missing_evidence",
+          "detail": "“As I worked on those systems” supplies a specific setting for developing concern about judgment that the original’s “Over time” does not establish."
+        }
+      ]
+    },
+    {
+      "case": "R05",
+      "variant": "A",
+      "condition": "revised",
+      "audit_findings": [
+        {
+          "category": "missing_evidence",
+          "detail": "“an argument I first encountered in” the report adds a first-encounter claim absent from the original, which says that argument stayed with the author from the report."
+        }
+      ]
+    },
+    {
+      "case": "R11",
+      "variant": "B",
+      "condition": "baseline",
+      "audit_findings": [
+        {
+          "category": "clear_defect",
+          "detail": "The Google passage says SEO junk piggybacks “on both” self-preferencing links and ads; the original says “on the former,” referring to the self-preferencing links."
+        }
+      ]
+    }
+  ]
+}

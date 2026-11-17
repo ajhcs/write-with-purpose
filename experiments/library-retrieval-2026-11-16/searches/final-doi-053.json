@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w2590707784",
+      "doi": "10.1002/cl2.153",
+      "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+      "authors": "[\"LORRAINE GREEN MAZEROLLE\", \"Elizabeth Eggins\", \"Angela Higginson\"]",
+      "field": "law_public_policy",
+      "q": "\"Third Party Policing for Reducing Crime and Disorder:\" MAZEROLLE filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2590707784",
+      "query": "\"Third Party Policing for Reducing Crime and Disorder:\" MAZEROLLE filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1002/CL2.153",
+          "score": 1
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/CL2.153",
+          "score": 1
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/10.1002/CL2.153",
+          "score": 1
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://ideas.repec.org/a/wly/camsys/v12y2016i1p1-77.html",
+          "score": 1
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/CL2.153",
+          "score": 1
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://doaj.org/article/627c2a61cda0455391cd6508be6770b8",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

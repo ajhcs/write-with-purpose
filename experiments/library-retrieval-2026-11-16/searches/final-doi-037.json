@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_22",
+      "doi": "10.1145/362929.362947",
+      "title": "Letters to the editor: go to statement considered harmful",
+      "authors": "[\"Edsger W. Dijkstra\"]",
+      "field": "engineering_computing",
+      "q": "\"go to statement considered harmful\" Dijkstra filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_22",
+      "query": "\"go to statement considered harmful\" Dijkstra filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Edgar Dijkstra: Go To Statement Considered Harmful",
+          "url": "https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf",
+          "score": 1
+        },
+        {
+          "title": "Go to statement considered harmful · dr. heap references",
+          "url": "https://refs.drheap.org/dijkstra1968goto/",
+          "score": 1
+        },
+        {
+          "title": "Go To Statement Considered Harmful",
+          "url": "https://www.c-program.com/goto-bad.html",
+          "score": 1
+        },
+        {
+          "title": "Go to statement considered harmful [Letter to the editor]",
+          "url": "https://research.tue.nl/en/publications/go-to-statement-considered-harmful-letter-to-the-editor",
+          "score": 1
+        },
+        {
+          "title": "(A look back at) go to statement considered harmful",
+          "url": "https://research.tue.nl/en/publications/a-look-back-at-go-to-statement-considered-harmful/",
+          "score": 1
+        },
+        {
+          "title": "Go To Statement Considered Harmful",
+          "url": "https://www.researchgate.net/publication/242735256_Go_To_Statement_Considered_Harmful",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

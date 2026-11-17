@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_30",
+      "doi": "10.1145/223784.223785",
+      "title": "A critique of ANSI SQL isolation levels",
+      "authors": "[\"Hal Berenson\", \"Phil Bernstein\", \"Jim Gray\", \"Jim Melton\", \"Elizabeth J. O'Neil\", \"Patrick E. O׳Neil\"]",
+      "field": "engineering_computing",
+      "q": "\"A critique of ANSI SQL isolation levels\" Berenson filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_30",
+      "query": "\"A critique of ANSI SQL isolation levels\" Berenson filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "A Critique of ANSI SQL Isolation Levels",
+          "url": "https://web.stanford.edu/class/cs345d-01/rl/SQL-isolation-critique.pdf",
+          "score": 1
+        },
+        {
+          "title": "A critique of ANSI SQL isolation levels",
+          "url": "https://www.scienceopen.com/document?vid=b1836e1c-26c2-4dba-a8b0-fd793c820a38",
+          "score": 1
+        },
+        {
+          "title": "dblp: A Critique of ANSI SQL Isolation Levels.",
+          "url": "https://dblp.org/rec/conf/sigmod/BerensonBGMOO95.html",
+          "score": 1
+        },
+        {
+          "title": "A critique of ANSI SQL isolation levels",
+          "url": "https://www.researchgate.net/publication/220485004_A_critique_of_ANSI_SQL_isolation_levels",
+          "score": 1
+        },
+        {
+          "title": "A critique of ANSI SQL isolation levels",
+          "url": "https://cir.nii.ac.jp/crid/1362544420010752512",
+          "score": 1
+        },
+        {
+          "title": "A Critique of ANSI SQL Isolation Levels",
+          "url": "https://arxiv.org/abs/cs/0701157",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

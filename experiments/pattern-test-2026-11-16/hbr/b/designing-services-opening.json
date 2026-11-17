@@ -1,0 +1,165 @@
+{
+  "source_sha256": "a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722",
+  "normalization": "NFKC, line breaks to spaces, dehyphenate at line breaks followed by lowercase, visually corrected collapsed spacing in paragraph 5; offsets are Unicode code points in private opening.txt",
+  "status": "partial; not suitable for quantitative metrics",
+  "paragraphs": [
+    {
+      "id": "designing-services-opening-001",
+      "sha256": "aa666e75b97287a3e4e7ff01f01dc022fe52db1e5e4a031208f44e1a8f909bca",
+      "char_start": 0,
+      "char_end": 334,
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            54.7,
+            329.8,
+            293.5,
+            411.6
+          ]
+        }
+      ],
+      "functions": [
+        "orient",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "reason": "whole-body reconstruction incomplete; line-end hyphen normalization requires contextual review"
+    },
+    {
+      "id": "designing-services-opening-002",
+      "sha256": "acd4f3bb04ef1f2fca9b66c0ad19a380dba08800d50a58cb8e7750e92e4ce122",
+      "char_start": 336,
+      "char_end": 719,
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            54.7,
+            413.5,
+            293.5,
+            447.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            311.4,
+            329.8,
+            550.2,
+            387.7
+          ]
+        }
+      ],
+      "functions": [
+        "orient",
+        "report",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "reason": "whole-body reconstruction incomplete; line-end hyphen normalization requires contextual review"
+    },
+    {
+      "id": "designing-services-opening-003",
+      "sha256": "06fa41eb3530804b1b35dab58683ff45dcd60a8e7cee83b6ab7ce91c3bf84816",
+      "char_start": 721,
+      "char_end": 1072,
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            311.4,
+            389.6,
+            550.2,
+            471.4
+          ]
+        }
+      ],
+      "functions": [
+        "explain",
+        "report"
+      ],
+      "metric_eligible": false,
+      "reason": "whole-body reconstruction incomplete; line-end hyphen normalization requires contextual review"
+    },
+    {
+      "id": "designing-services-opening-004",
+      "sha256": "98aa08ba8850c7e76aed2276eab20bbe39ffbe59d17a26064e7836c9c906301f",
+      "char_start": 1074,
+      "char_end": 1306,
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            311.4,
+            473.3,
+            550.2,
+            531.2
+          ]
+        }
+      ],
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "metric_eligible": false,
+      "reason": "whole-body reconstruction incomplete; line-end hyphen normalization requires contextual review"
+    },
+    {
+      "id": "designing-services-opening-005",
+      "sha256": "ad4ee78eafd6b2fed87935a0ffe6e889b5462b6b84dd96109a715fd2fdad5993",
+      "char_start": 1308,
+      "char_end": 1931,
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            311.4,
+            533.1,
+            550.3,
+            674.7
+          ]
+        }
+      ],
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "metric_eligible": false,
+      "reason": "whole-body reconstruction incomplete; line-end hyphen normalization requires contextual review"
+    },
+    {
+      "id": "designing-services-opening-006",
+      "sha256": "7ec4d4444df61ef2b4186a11af5660c3c15db78f6b54d38892e209865cd00355",
+      "char_start": 1933,
+      "char_end": 2194,
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            311.4,
+            676.6,
+            550.2,
+            710.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            54.7,
+            42.8,
+            293.5,
+            76.8
+          ]
+        }
+      ],
+      "functions": [
+        "orient",
+        "define",
+        "explain"
+      ],
+      "metric_eligible": false,
+      "reason": "whole-body reconstruction incomplete; line-end hyphen normalization requires contextual review"
+    }
+  ]
+}

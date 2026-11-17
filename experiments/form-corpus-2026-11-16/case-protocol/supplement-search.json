@@ -1,0 +1,23 @@
+{
+  "clinical_case": {
+    "query": "PUB_TYPE:\"Case Reports\" AND OPEN_ACCESS:Y AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] SORT_CITED:y",
+    "hit_count": 44298,
+    "response_sort": "",
+    "attempts": 60,
+    "measured": 58
+  },
+  "study_protocol": {
+    "query": "TITLE:\"study protocol\" AND OPEN_ACCESS:Y AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] SORT_CITED:y",
+    "hit_count": 2181,
+    "response_sort": "",
+    "attempts": 60,
+    "measured": 60
+  },
+  "review_protocol": {
+    "query": "TITLE:\"systematic review protocol\" AND OPEN_ACCESS:Y AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] SORT_CITED:y",
+    "hit_count": 68,
+    "response_sort": "",
+    "attempts": 43,
+    "measured": 43
+  }
+}

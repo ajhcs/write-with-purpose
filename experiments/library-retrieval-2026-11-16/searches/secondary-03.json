@@ -1,0 +1,110 @@
+{
+  "batch": 3,
+  "queries": [
+    {
+      "candidate_key": "business:business_040",
+      "doi": "",
+      "title": "Producer Responsibility for Packaging",
+      "authors": "[\"Cedar Tree Foundation\", \"As You Sow\"]",
+      "field": "business_management",
+      "q": "\"Producer Responsibility for Packaging\" pdf"
+    },
+    {
+      "candidate_key": "business:business_041",
+      "doi": "",
+      "title": "Issuance of a Sustainability Report to Shareholders",
+      "authors": "[\"Calvert Asset Management Company, Inc.\"]",
+      "field": "business_management",
+      "q": "\"Issuance of a Sustainability Report to Shareholders\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_16",
+      "doi": "",
+      "title": "Research Protocol for a Case Study of Crowdsourcing Software Development",
+      "authors": "[\"Klaas-Jan Stol\", \"Brian Fitzgerald\"]",
+      "field": "engineering_computing",
+      "q": "\"Research Protocol for a Case Study of Crowdsourcing Software Development\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_36",
+      "doi": "",
+      "title": "Logging HOWTO",
+      "authors": "[\"Vinay Sajip\"]",
+      "field": "engineering_computing",
+      "q": "\"Logging HOWTO\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_040",
+      "query": "\"Producer Responsibility for Packaging\" pdf",
+      "urls": [
+        {
+          "title": "The Producer Responsibility Obligations (Packaging and Packaging Waste) Regulations 2024",
+          "url": "https://www.legislation.gov.uk/uksi/2024/1332/pdfs/uksi_20241332_en.pdf",
+          "score": 0.75,
+          "body_score": 1
+        },
+        {
+          "title": "Extended producer responsibility for packaging - GOV.UK",
+          "url": "https://www.gov.uk/government/collections/extended-producer-responsibility-for-packaging",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Extended producer responsibility for packaging for Small Businesses",
+          "url": "https://environment.ec.europa.eu/topics/waste-and-recycling/packaging-waste/extended-producer-responsibility-packaging-small-businesses_en?prefLang=el",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Packaging & Producer Responsibility – INCPEN",
+          "url": "https://incpen.org/packaging-producer-responsibility/",
+          "score": 0.75,
+          "body_score": 1
+        },
+        {
+          "title": "Global Action Partnership for EPR - Library",
+          "url": "https://gap-epr.prevent-waste.net/library/",
+          "score": 0.25,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_041",
+      "query": "\"Issuance of a Sustainability Report to Shareholders\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "engineering:eng_16",
+      "query": "\"Research Protocol for a Case Study of Crowdsourcing Software Development\" pdf",
+      "urls": [
+        {
+          "title": "Research protocol for a case study of crowdsourcing software development",
+          "url": "https://cora.ucc.ie/items/ce956de1-87c8-4e83-86df-51f7ad82f106/full",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Research Protocol for a Case Study of Crowdsourcing Software Development",
+          "url": "https://www.researchgate.net/publication/273383598_Research_Protocol_for_a_Case_Study_of_Crowdsourcing_Software_Development",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_36",
+      "query": "\"Logging HOWTO\" pdf",
+      "urls": [
+        {
+          "title": "Howto-logging (pdf) - CliffsNotes",
+          "url": "https://www.cliffsnotes.com/study-notes/33646408",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

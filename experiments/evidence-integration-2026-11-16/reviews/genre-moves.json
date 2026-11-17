@@ -1,0 +1,584 @@
+{
+  "reviewer": "genre-moves",
+  "papers": [
+    {
+      "id": "P15",
+      "title": "Generic structure and rhetorical moves in English-language empirical law research articles: Sites of interdisciplinary and interdiscursive cross-over",
+      "authors": [
+        "Girolamo Tessuto"
+      ],
+      "year": 2015,
+      "doi": "10.1016/j.esp.2014.06.002",
+      "study_kind": "descriptive genre corpus study",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P15.txt",
+      "scope": "Empirical socio-legal research articles for scholarly readership, 2010–2012, three selected English-language journals; not theoretical legal essays, court decisions, or policy proposals.",
+      "sample_and_design": "90 randomly selected Article-category papers, 30 per journal and 10 per journal-year; 1,079,527 tokens excluding footnotes and references. Manual functional-semantic analysis of headings, clause/sentence moves and frequencies. Selection restricts journal and article type (PDF p. 3 Tables 1–2, p. 4).",
+      "outcomes": "Section heading categories, rhetorical macro-organization, move and step frequencies, and selected lexical realizations; no reader experiment or writing-quality causal outcome.",
+      "move_inventory": {
+        "Abstract": [
+          "Setting the background for the study and its importance",
+          "Mentioning gaps addressed by the study",
+          "Stating the purpose, question, hypothesis of study",
+          "Identifying the methodology (qualitative or quantitative)",
+          "Stating the findings (qualitative or quantitative) or argument",
+          "Offering concluding remarks (interpretations, recommendations, implications)"
+        ],
+        "Introduction": [
+          "Establishing a territory",
+          "Establishing a niche",
+          "Presenting the Present Work"
+        ],
+        "Background Review": [
+          "Establishing a territory",
+          "Establishing a niche",
+          "Describing the study"
+        ],
+        "Method": [
+          "Introducing the research method",
+          "Indicating data-collection procedure",
+          "Indicating data analysis procedure"
+        ],
+        "Results": [
+          "Restating data collection and analysis procedure",
+          "Stating key findings",
+          "Commenting on findings"
+        ],
+        "Discussion": [
+          "Providing background knowledge",
+          "Reinforcing results",
+          "Evaluating the study",
+          "Deductions from the research"
+        ],
+        "Conclusion": [
+          "Summarizing the study",
+          "Evaluating the study",
+          "Deductions from the research"
+        ]
+      },
+      "step_inventory": {
+        "8": [
+          "Indicating a gap",
+          "Adding to what is known",
+          "Presenting positive justification"
+        ],
+        "9": [
+          "Announcing present research descriptively and/or purposively",
+          "Presenting research questions or hypothesis",
+          "Summarizing methods",
+          "Announcing principal outcomes",
+          "Outlining structure of paper"
+        ],
+        "11": [
+          "Indicating a gap",
+          "Adding to what is known",
+          "Presenting positive justification"
+        ],
+        "12": [
+          "Defining and developing methods, theories, concepts, issues, phenomena",
+          "Presenting the value of the study"
+        ],
+        "13": [
+          "Providing an overview",
+          "Describing purpose, question, hypothesis",
+          "Describing limitations",
+          "Referring to other established procedures"
+        ],
+        "14": [
+          "Describing subjects",
+          "Describing materials",
+          "Describing location/time data"
+        ],
+        "15": [
+          "Describing statistical tests (p-value)",
+          "Describing measures of variability for significant difference"
+        ],
+        "16": [
+          "Reiterating purpose, question, hypothesis"
+        ],
+        "19": [
+          "Restating aims, methodology, theory, concepts",
+          "Presenting claims, generalizations, research gaps"
+        ],
+        "20": [
+          "Interpreting/evaluating relevant, (un)expected findings",
+          "Comparing findings with previous literature"
+        ],
+        "21": [
+          "Indicating significance, advantage of research",
+          "Indicating limitations"
+        ],
+        "22": [
+          "Drawing implications",
+          "Recommending further research"
+        ],
+        "24": [
+          "Indicating significance, advantage of research",
+          "Indicating limitations"
+        ],
+        "25": [
+          "Drawing implications",
+          "Recommending further research"
+        ]
+      },
+      "findings": [
+        {
+          "claim": "Background review present in 79, absent in 11.",
+          "pdf_pages": [
+            5
+          ],
+          "evidence_locator": "Table 3 and text section 3.2",
+          "denominator": "90 articles",
+          "interpretation_limit": "Presence does not mandate a separate section; heading genres vary."
+        },
+        {
+          "claim": "75 independent Conclusion sections, and seven Discussion/Conclusion or Discussion/Implications blends; 82 total independent plus blended conclusions.",
+          "pdf_pages": [
+            5,
+            6,
+            10
+          ],
+          "evidence_locator": "Tables 3–4 and conclusion discussion",
+          "denominator": "90 articles",
+          "interpretation_limit": "Section-level pattern, not a paragraph function quota."
+        },
+        {
+          "claim": "12 blended-section occurrences: 1 Methods/Results, 4 Results/Discussion and 7 Discussion/Conclusion.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Table 4",
+          "denominator": "90 articles; 12 occurrences, not verified as 12 distinct documents",
+          "interpretation_limit": "Blending may coexist with separate analytical units."
+        },
+        {
+          "claim": "25 moves, with 6/3/3/3/3/4/3 per Abstract/Introduction/Background Review/Method/Results/Discussion/Conclusion; recursively patterned in every section and occasionally inverted.",
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "evidence_locator": "Section 3.3 and Table 5",
+          "denominator": "90 selected articles; the claim every section is author statement",
+          "interpretation_limit": "Model numbering not mandatory order."
+        },
+        {
+          "claim": "Abstract moves purpose, methodology, findings, conclusion each 100%; background 44%, gap 28%.",
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "evidence_locator": "Table 5 and 3.3.1",
+          "denominator": "90 abstracts as described",
+          "interpretation_limit": "Step percentages are ambiguous in denominator: avoid converting to counts."
+        },
+        {
+          "claim": "Author reports 100% inter-rater agreement with one other applied-linguistics author.",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Section 2.2 inter-coder sentence",
+          "denominator": "Coding sample size, independent/consensus protocol and metric not specified",
+          "interpretation_limit": "Do not compare directly to our exact-set agreement."
+        }
+      ],
+      "limitations": [
+        "Table 3 says 33 unlabelled introductions but prints 27%; 33/90 is 36.7%. Its Results heading subtotals 65+10+15=90 despite underlying journal rows summing to more than 90; do not silently repair.",
+        "Step percentages generally sum to 100 within a move but denominator is not clearly stated; do not convert them into article prevalence.",
+        "Authors use obligatory for 100% observed corpus moves; sample and coding not a universal requirement.",
+        "Supplementary list of article identities mentioned PDF p.3 footnote; annotated corpus release not verified."
+      ],
+      "rule_implications": [
+        "GM-01",
+        "GM-02",
+        "GM-04"
+      ],
+      "data_or_code_leads": [
+        "PDF p.3 footnote says full sampled article list is in supplementary materials; actual files and terms unverified."
+      ],
+      "extraction_issues": [
+        "Table 3 contains arithmetic inconsistencies as printed; Table 5 multiline rows retain blank 16A frequency."
+      ]
+    },
+    {
+      "id": "P16",
+      "title": "In search of commonalities: Some linguistic and rhetorical features of business reports as a genre",
+      "authors": [
+        "Lorrita Yeung"
+      ],
+      "year": 2007,
+      "doi": "10.1016/j.esp.2006.06.004",
+      "study_kind": "primarily qualitative descriptive genre corpus study",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P16.txt",
+      "scope": "Authentic internal and external business reports, mainly Hong Kong with Singapore, Malaysia and UK sources, prepared for organizational clients, management, stakeholders or public; not a sample of decision memos per se.",
+      "sample_and_design": "22 nonrandom convenience samples submitted by organizations; 12 external and 10 internal, 7 review, 6 problem-solving, 5 market and 4 feasibility reports. Management authors and some collective authorship; writers interviewed where possible, exact interview count not given (PDF pp. 4–6).",
+      "outcomes": "Observed macro organization, recommendations, rhetorical patterns and lexico-grammar; not independent measurement of decision outcomes or reader comprehension.",
+      "move_inventory": {
+        "rhetorical_cycle": [
+          "findings",
+          "conclusion/interpretation",
+          "recommendation"
+        ],
+        "argument_model": [
+          "data",
+          "warrant (implicit or explicit)",
+          "claim/recommendation"
+        ],
+        "macro_options": [
+          "executive summary (optional)",
+          "list of recommendations (optional)",
+          "introduction",
+          "methods (optional)",
+          "topical sections containing findings and interpretations/conclusions",
+          "conclusion (optional)",
+          "recommendations for decision-making"
+        ]
+      },
+      "step_inventory": "Finding, interpretation and recommendation can occur in varying order and recur by topic; Toulmin roles are analytical relations, not mandatory paragraph sequence (PDF pp. 10, 14).",
+      "findings": [
+        {
+          "claim": "19 reports contain clearly stated recommendations, and seven have clear recommendation headings; elsewhere paper says only two reports lack explicit recommendations.",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "Section 5.2",
+          "denominator": "22 reports",
+          "interpretation_limit": "19+2 does not account for all 22 under apparently similar wording; unresolved rather than silently reconciled."
+        },
+        {
+          "claim": "Four conclusion sections, all summaries of recommendations; one report used the described conventional heading pattern.",
+          "pdf_pages": [
+            9
+          ],
+          "evidence_locator": "Section 5.1.3",
+          "denominator": "22 reports",
+          "interpretation_limit": "Predominantly qualitative, small heterogeneous convenience sample."
+        },
+        {
+          "claim": "Report lengths range 409–28,593 words, median 4,614.",
+          "pdf_pages": [
+            5
+          ],
+          "evidence_locator": "Section 4.1",
+          "denominator": "22 reports",
+          "interpretation_limit": "Historical descriptive range only, not a target or minimum/maximum."
+        },
+        {
+          "claim": "One full-length feasibility report has a separate clearly labelled methods section; methods otherwise often brief or absent.",
+          "pdf_pages": [
+            8
+          ],
+          "evidence_locator": "Section 5.1.2",
+          "denominator": "22 reports",
+          "interpretation_limit": "Paper says no examples of extensive appendical methods in corpus; brief reporting is not evidence that omitting methods is safe."
+        },
+        {
+          "claim": "The suggested data/interpretation/recommendation sequence can vary; warrants may be implicit or explicit.",
+          "pdf_pages": [
+            14
+          ],
+          "evidence_locator": "Section 5.3.2.2",
+          "denominator": "Qualitative across corpus; no exact count for the cycle",
+          "interpretation_limit": "Do not force three moves or infer implicit support without contextual judgment."
+        }
+      ],
+      "limitations": [
+        "Organizations supplied examples, not random or representative; mostly Hong Kong and medium/large firms. Paper stresses its qualitative size limitation and seeks quantitative replication (pp. 5, 22–23).",
+        "19/22 vs only two without explicit recommendation wording is unresolved.",
+        "No coder agreement method or downloadable coded dataset identified in full text; example business figures anonymized.",
+        "The author claims an inherent implicit recommendation even for sales reports; inference, not a directly observed reader action."
+      ],
+      "rule_implications": [
+        "GM-01",
+        "GM-03",
+        "GM-04"
+      ],
+      "data_or_code_leads": [
+        "No open coded data or codebook release identified in paper; quotations contain confidential anonymization."
+      ],
+      "extraction_issues": [
+        "Observed numbers 19 with clearly stated recommendations and two without explicit recommendations are textually inconsistent; preserve as reported."
+      ]
+    },
+    {
+      "id": "P17",
+      "title": "A move/step model for methods sections: Demonstrating Rigour and Credibility",
+      "authors": [
+        "Elena Cotos",
+        "Sarah Huffman",
+        "Stephanie Link"
+      ],
+      "year": 2017,
+      "doi": "10.1016/j.esp.2017.01.001",
+      "study_kind": "multidisciplinary descriptive corpus and expert-consultation study",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P17.txt",
+      "scope": "Methods sections of IMRD experimental research articles; excludes disciplines whose scholarship differs substantially, such as mathematics, statistics, architecture and history (PDF p. 4).",
+      "sample_and_design": "900 texts in 30 disciplines, 30 selected articles per discipline from 3–5 reputable journals; 150 exemplary sections seeded coding; expert-selected recent studies and one consultant per discipline limit representativeness; 1,423,131 words. Human annotations with sentence/phrase units and secondary overlapping functions (PDF pp. 3–6).",
+      "outcomes": "Functional-semantic move/step inventories and annotated unit frequency, sequences, consultant perceived occurrence, discipline clustering. No direct test of improved writing outcomes.",
+      "move_inventory": [
+        {
+          "move": "Contextualizing Study Methods",
+          "steps": [
+            [
+              "Referencing previous works",
+              8064,
+              37.7
+            ],
+            [
+              "Providing general information",
+              6259,
+              29.3
+            ],
+            [
+              "Identifying methodological approach",
+              293,
+              1.4
+            ],
+            [
+              "Describing the setting",
+              3271,
+              15.3
+            ],
+            [
+              "Introducing the subjects",
+              2672,
+              12.5
+            ],
+            [
+              "Rationalizing pre-experiment decisions",
+              838,
+              3.9
+            ]
+          ],
+          "within_move_denominator": 21397
+        },
+        {
+          "move": "Describing the study",
+          "steps": [
+            [
+              "Acquiring the data",
+              4300,
+              6.4
+            ],
+            [
+              "Describing the data",
+              2522,
+              3.7
+            ],
+            [
+              "Delineating experimental/study procedures",
+              21320,
+              31.7
+            ],
+            [
+              "Describing tools",
+              30693,
+              45.6
+            ],
+            [
+              "Identifying variables",
+              2055,
+              3.1
+            ],
+            [
+              "Rationalizing experiment decisions",
+              3170,
+              4.7
+            ],
+            [
+              "Reporting incrementals",
+              3277,
+              4.9
+            ]
+          ],
+          "within_move_denominator": 67337
+        },
+        {
+          "move": "Establishing credibility",
+          "steps": [
+            [
+              "Preparing the data",
+              1148,
+              18.5
+            ],
+            [
+              "Describing data analysis",
+              3999,
+              64.6
+            ],
+            [
+              "Rationalizing data processing/analysis",
+              1044,
+              16.9
+            ]
+          ],
+          "within_move_denominator": 6191
+        }
+      ],
+      "step_inventory": "Six, seven and three steps, respectively; see move_inventory counts and names. Numbering is not a prescribed order. Table 3 labels counts as sentences, while surrounding text calls overall counts functional units; sentence/phrase overlaps preclude treating these as independently observed document prevalence (PDF pp. 6, 8, 10, 12).",
+      "findings": [
+        {
+          "claim": "Three annotators: ICC .86 for moves and .80 for steps, using a two-way mixed-effects model, calculated throughout.",
+          "pdf_pages": [
+            6
+          ],
+          "evidence_locator": "Section 3.2 and footnote 6",
+          "denominator": "three annotators; number and sampling of doubly/triply coded units unspecified",
+          "interpretation_limit": "ICC is not our paragraph exact-set agreement; no metric equivalence or accuracy claim."
+        },
+        {
+          "claim": "94,925 annotated functional units: 21,397 Move 1 (22%), 67,337 Move 2 (71%), 6,191 Move 3 (7%).",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "Section 4.2.1",
+          "denominator": "94,925 annotated units, not 900 article-presence counts",
+          "interpretation_limit": "Paper describes Move 1 as optional based on distribution but also says all 900 texts contain it; unit share is not document prevalence."
+        },
+        {
+          "claim": "All 16 steps observed overall; Table 3 lists within-move sentence counts including Move 2 tools 30,693/67,337 = 45.6%.",
+          "pdf_pages": [
+            12
+          ],
+          "evidence_locator": "Table 3",
+          "denominator": "move-specific counts; table labels them sentences and allows overlapping functional tags",
+          "interpretation_limit": "No claim that 45.6% of documents have this step or should allocate that much space."
+        },
+        {
+          "claim": "All seven Move 2 steps occur in each of 30 disciplines at aggregate level; Move 3 absent from some individual texts.",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "evidence_locator": "Sections 4.2.1–4.2.2",
+          "denominator": "30 disciplines; 30 texts per discipline",
+          "interpretation_limit": "Discipline-level presence does not imply occurrence in each paper."
+        },
+        {
+          "claim": "Reporting incrementals identified in all 30 disciplines; experts report it as rare 40% or lacking 8%.",
+          "pdf_pages": [
+            14,
+            15
+          ],
+          "evidence_locator": "Table 4 and section 4.2.5",
+          "denominator": "30 disciplines for corpus; consultant response denominator not explicitly clear from extracted text",
+          "interpretation_limit": "Expert judgments and corpus measurements have different units; interpret contrast, not exact contradiction."
+        },
+        {
+          "claim": "Step transition likelihoods computed on the larger related IMRD corpus; reported zero transitions are sample/model observations.",
+          "pdf_pages": [
+            13
+          ],
+          "evidence_locator": "Section 4.2.3",
+          "denominator": "Related larger corpus includes Methods sample, so not independent replication",
+          "interpretation_limit": "Do not forbid zero-probability transitions in new writing."
+        }
+      ],
+      "limitations": [
+        "One faculty consultant per discipline, purposively selected 30 studies per field, and explicitly excluded non-IMRD disciplinary traditions; no representative prevalence claim.",
+        "Paper does not perform full lexico-grammatical realization analysis (PDF p.16).",
+        "Unit share vs document presence conflated in author’s optionality label; do not adopt.",
+        "One source paragraph misnames Move 2 Step 7 as rationalizing, whereas inventory and definition show Step 6 rationalizing and Step 7 reporting incrementals (PDF pp.9,15).",
+        "Original study imposes primary label and secondary label; this project does not require a primary function."
+      ],
+      "rule_implications": [
+        "GM-02",
+        "GM-04",
+        "GM-05"
+      ],
+      "data_or_code_leads": [
+        "Authors report annotated corpus used through Callisto or other platforms and a move/step functional concordancer (PDF pp.15–16); release URL, data rights, model and corpus files remain unverified."
+      ],
+      "extraction_issues": [
+        "Table 3 labels step frequencies sentences; paper elsewhere calls totals functional segments. Report denominator as printed and preserve overlap."
+      ]
+    }
+  ],
+  "cross_paper_synthesis": {
+    "conclusions": [
+      "Section purpose and nested move/step structure are useful candidates but are not equivalent to the twelve local passage functions or relation graphs.",
+      "Allow repeated, embedded, non-linear and blended contributions; empirical presence, annotated unit share and author template requirements are distinct.",
+      "A blank prompt can ask for author ideas and missing decision logic; it must not insert borrowed findings, prefabricated claims or a default sequence.",
+      "Our 21/36 versus 18/36 exact-set result is a small model-coder pilot; none of these papers tests improvement on the same units, nor supplies semantic gold or full function-length profiles."
+    ],
+    "twelve_function_comparison": {
+      "orient": "background and contextualizing may orient when preparing a reader, not just because located first",
+      "define": "Tessuto defining concepts can define if it establishes meaning; mere reference is insufficient",
+      "report": "Methods descriptions, facts and empirical findings often report with source/status preserved",
+      "assert": "Recommendation or hypothesis can assert when writer advances it; reported opposing claims are not author endorsement",
+      "support": "Rationale or evidence can support only with a recoverable target and reasoning link",
+      "explain": "A described methodology can explain a dependency but not every list of actions establishes one",
+      "illustrate": "Concrete examples can illustrate; evidence and illustration can coexist without equivalence",
+      "compare": "Evaluations compare only if alternatives and dimension are recoverable",
+      "interpret": "Findings commentary or implication can interpret if it adds an inference, not faithful recap",
+      "qualify": "Limitation can qualify a specific claim when its affected scope is identifiable",
+      "instruct": "Reader-directed action can instruct; completed research methods report, not instruct by default",
+      "narrate": "Temporal event development may narrate; research procedure order alone does not establish a narrative"
+    }
+  },
+  "proposed_rule_changes": [
+    {
+      "id": "GM-01",
+      "status": "candidate",
+      "existing_rule": "skills/write-with-purpose/references/structure-and-purpose.md: For a decision or operational explanation, make the choice, reasons and consequences recoverable.",
+      "classification": "reaffirm",
+      "trigger": "Actual decision work with an audience and a live choice",
+      "change": "Offer optional blank prompts for decision, observations, decision criteria/warrant, interpretation, alternatives and constraints. Ask only for relevant information; author chooses sequence and completeness.",
+      "benefit": "Makes the recommendation’s connection to evidence reviewable.",
+      "counterexample": "A status-only sales report may legitimately have no explicit recommendation; an implicit one must not be invented."
+    },
+    {
+      "id": "GM-02",
+      "status": "candidate",
+      "existing_rule": "docs/writing-harness/accepted-foundations.md: Family → Form → Section; section need not have a heading; preserve variation.",
+      "classification": "reaffirm",
+      "trigger": "Author requests outline for an empirical article or comparable evidence-backed report",
+      "change": "Show section jobs and optional alternative arrangements, with blends and recursion allowed; classify sections from purpose plus context rather than heading.",
+      "benefit": "Offers reusable options without flattening discipline-specific practices.",
+      "counterexample": "A section called Results can include interpretations and an unheaded Introduction can orient."
+    },
+    {
+      "id": "GM-03",
+      "status": "candidate",
+      "existing_rule": "docs/writing-harness/paragraph-functions.json: assert/support/interpret/compare/qualify and explicit relations",
+      "classification": "refine",
+      "trigger": "Draft contains recommendation and potential reasons",
+      "change": "Independently note recommendation, evidence, warrant, attribution and any relation target; prompt for a missing link only when contextual review finds one needed.",
+      "benefit": "Supports examination of the inference instead of treating one label as another.",
+      "counterexample": "A bare citation, juxtaposition or claim that a warrant is implicit does not demonstrate actual support."
+    },
+    {
+      "id": "GM-04",
+      "status": "candidate",
+      "existing_rule": "experiments/rule-calibration-2026-11-16/report.md: no demonstrated agreement improvement; evidence anchors are not full realization spans.",
+      "classification": "reaffirm",
+      "trigger": "Imported sentence or phrase roles mapped to paragraph functions",
+      "change": "Keep original source labels and overlapping spans, separate evidence anchors and complete realization spans, preserve uncertain and multiple readings, and run a fresh independent boundary study.",
+      "benefit": "Makes disagreements inspectable and prevents unit conversion from manufacturing certainty.",
+      "counterexample": "Cotos ICC on a different unit and scheme does not establish improved exact-set agreement on our 36 paragraphs."
+    },
+    {
+      "id": "GM-05",
+      "status": "candidate",
+      "existing_rule": "skills/edit-with-purpose/SKILL.md: preserve effective wording and apply smallest targeted change.",
+      "classification": "new hypothesis",
+      "trigger": "Author asks for Methods section planning or structural review",
+      "change": "Offer context/design; study/data, tools and procedures; data preparation/analysis and reasons as optional questions, not required sections or draft language.",
+      "benefit": "Prompts recoverable reporting and design rationale in suitable empirical studies.",
+      "counterexample": "A theoretical paper, a procedure, or a business report can legitimately lack the full experimental Methods structure."
+    }
+  ],
+  "github_reuse": {
+    "README": "README source roles such as What and Why are section-level possibilities, not automatically paragraph roles; sampled roles differ in purpose from research articles and business reports.",
+    "DITA": "Task section components can represent reader-directed prerequisites/actions/results; completed experimental procedures are report, not reader instruction.",
+    "BAWE": "Educational genre families and stages are separate from professional business reports and discipline-specific research articles; preserve audience and provenance.",
+    "GUM": "Discourse relations can link source and target, distinct from moves/steps; implicit warrants remain open semantic questions, not inferred edges.",
+    "MuLMS": "Scientific annotated functions and overlapping spans invite comparison, but scientific labeling does not provide gold for local twelve functions.",
+    "shared": "Adapters can check offsets, vocabulary, source and target IDs; judgments of adequacy, inference, meaning, style and author intent require contextual human review."
+  },
+  "open_questions": [
+    "What are each paper’s exact article-level move denominators, step coding protocol and available data rights?",
+    "Can independently coded complete realization spans and nonempty relation targets achieve useful agreement on our fresh target forms?",
+    "Do author-selected blank template prompts improve reader outcomes and author control compared with current planning without increasing burden?",
+    "What public or cleared contemporary professional proposals and decision memos fill the scope gap?"
+  ]
+}

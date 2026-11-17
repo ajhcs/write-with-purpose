@@ -1,0 +1,11 @@
+{
+  "body_sha256": "408c5252d39a1a98048bdd21fc9d4c3d248a000aa5bcefe31e8de502e74e8e8f",
+  "count_method": "UTF-8 text with initial BOM excluded, whitespace-separated tokens",
+  "words": 36,
+  "max_words": 45,
+  "protected_literals": {
+    "retry-safe": 1
+  },
+  "passed": true,
+  "scope": "body.txt"
+}

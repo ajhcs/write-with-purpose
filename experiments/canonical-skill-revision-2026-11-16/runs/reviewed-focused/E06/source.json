@@ -1,0 +1,24 @@
+{
+  "id": "E06",
+  "form": "empirical report Methods section",
+  "task": "Improve the Methods passage while accurately reporting what was done. Flag any unsupported rationale or instruction separately; do not invent a source.",
+  "before": "We warmed the samples to 40 °C for 10 min, which improves accuracy. That is why readers should warm their samples too.",
+  "source_notes": [
+    "The study warmed samples to40°C for10min.",
+    "No comparison of temperature conditions or accuracy effects was performed.",
+    "No supporting external study is supplied.",
+    "The text belongs to a report of the completed study, not a reader procedure."
+  ],
+  "declared_contract": {
+    "protected_literals": [
+      {
+        "text": "40 °C",
+        "min_count": 1
+      },
+      {
+        "text": "10 min",
+        "min_count": 1
+      }
+    ]
+  }
+}

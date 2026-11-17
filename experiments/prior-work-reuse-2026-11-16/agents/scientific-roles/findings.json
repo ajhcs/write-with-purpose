@@ -1,0 +1,379 @@
+{
+  "scout": "scientific-roles",
+  "scope": "Human and silver scientific rhetorical-role, discourse-relation, paragraph and structural corpora across domains; evidence map, not meta-analysis",
+  "searches": [
+    {
+      "query": "argumentative zoning corpus SciXML annotation",
+      "source": "Cambridge corpus distribution; ACL Anthology",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "CoreSC ART Sapienta chemistry annotated corpus",
+      "source": "SAPIENTA project; ACL Anthology; European Language Grid",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "MuLMS AZ materials science annotation guidelines license",
+      "source": "ACL Anthology; author GitHub repository",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "SciPara paragraph scientific discourse annotation",
+      "source": "ACL Anthology; author GitHub repository",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "Dr Inventor corpus computer graphics rhetorical layers",
+      "source": "ACL Anthology",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "SciDTB scientific abstract discourse dependency data",
+      "source": "ACL Anthology; author GitHub repository",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "PubMed RCT dataset annotation license",
+      "source": "ACL Anthology; author GitHub repository",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "SciTex scientific full articles paragraph structure",
+      "source": "Saarland CLARIN-D",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "metadiscourse in academic writing systematic review",
+      "source": "publisher",
+      "date": "2026-11-16"
+    }
+  ],
+  "records": [
+    {
+      "id": "AZ",
+      "title": "Argumentative Zoning Corpus",
+      "authors": "Simone Teufel and collaborators",
+      "year": 2014,
+      "kind": "corpus",
+      "doi": "10.3115/977035.977050",
+      "primary_urls": [
+        "https://www.cl.cam.ac.uk/~sht25/AZ_corpus.html",
+        "https://aclanthology.org/E99-1015/"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://www.cl.cam.ac.uk/~sht25/AZ_distribution.tar.gz"
+      ],
+      "verified_scope": "Distribution page, listed file schema and cited scheme inspected; archive not downloaded. 1999 scheme; dataset page dated 2014.",
+      "baseline_status": "new lead; AZ/CoreSC traditions appear in prior project context",
+      "unit": "Sentence in complete conference paper; citation/reference markup",
+      "genres_or_forms": "Computational linguistics research papers",
+      "annotation_or_metrics_available": "AZ attribute on S/A-S; abstract/body correspondence, references, self citations and metadata",
+      "size_and_count_basis": "80 articles, source reported",
+      "human_or_automatic": "One annotator per sentence; correspondence semi-manual",
+      "reliability": "Separate independent annotation agreement in original study; do not assume each item double-coded",
+      "code_license": "Not applicable",
+      "annotation_license": "CC BY-NC 2.0 UK distribution",
+      "source_text_rights": "Distribution license applies per site; verify underlying original articles before redistribution",
+      "access_status": "Open download",
+      "reuse_recommendation": "Use original roles and knowledge-ownership/citation signals to design crosswalk and benchmark; inspect original scheme before mapping.",
+      "project_feature_mapping": [
+        "F07",
+        "F09",
+        "F02"
+      ],
+      "limitations": "Single domain and historical conference selection; sentence classification is not paragraph coding; audit text/paragraph completeness before F01/F03/F04.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "ART",
+      "title": "Corpora for the Conceptualisation and Zoning of Scientific Papers",
+      "authors": "Maria Liakata; Simone Teufel; Advaith Siddharthan; Colin Batchelor",
+      "year": 2010,
+      "kind": "corpus and annotation schemes",
+      "doi": null,
+      "primary_urls": [
+        "https://aclanthology.org/L10-1440/",
+        "https://www.sapientaproject.com/links",
+        "https://live.european-language-grid.eu/catalogue/corpus/972"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://aclanthology.org/L10-1440.pdf"
+      ],
+      "verified_scope": "Paper abstract; project access page; ELG metadata and distribution license inspected; no dataset downloaded.",
+      "baseline_status": "new lead; AZ/CoreSC traditions appear in prior project context",
+      "unit": "Sentence within full research paper",
+      "genres_or_forms": "Physical chemistry and biochemistry empirical research",
+      "annotation_or_metrics_available": "11 CoreSC scientific concepts plus properties and cross-references; AZ-II distinct rhetorical knowledge-claim scheme",
+      "size_and_count_basis": "265 papers and 16 experts per paper abstract; project page says 225 + 41 yet also 265; unresolved count discrepancy",
+      "human_or_automatic": "Human domain experts",
+      "reliability": "Reliability described in source paper; extract exact statistic before comparison",
+      "code_license": "Unknown",
+      "annotation_license": "ELG metadata lists CC BY 4.0 for named resource; verify actual release and annotation rights",
+      "source_text_rights": "Verify individual paper and complete-distribution rights separately",
+      "access_status": "ELG describes downloadable XML; project page asks contact for all papers; actual download not verified",
+      "reuse_recommendation": "Reuse scheme distinctions and coding examples; resolve access/license discrepancy before training.",
+      "project_feature_mapping": [
+        "F09",
+        "F07"
+      ],
+      "limitations": "CoreSC concepts describe scientific investigation, not direct communicative-function labels; do not assume AZ-II coverage equals all 265 papers.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "MULMS",
+      "title": "MuLMS-AZ: An Argumentative Zoning Dataset for the Materials Science Domain",
+      "authors": "Timo Pierre Schrader; Teresa Bürkle; Sophie Henning; Sherry Tan; Matteo Finco; Stefan Grünewald; Maira Indrikova; Felix Hildebrand; Annemarie Friedrich",
+      "year": 2023,
+      "kind": "corpus and tool",
+      "doi": "10.18653/v1/2023.codi-1.1",
+      "primary_urls": [
+        "https://aclanthology.org/2023.codi-1.1/"
+      ],
+      "repository_url": "https://github.com/boschresearch/mulms-az-codi2023",
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/README.md",
+        "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/data/mulms_corpus/MuLMS_Corpus_Metadata.csv"
+      ],
+      "verified_scope": "Abstract, README field schema, original labels, license and metadata sample inspected.",
+      "baseline_status": "new lead in inspected baseline",
+      "unit": "Sentence, one or more labels, offsets and document/split IDs",
+      "genres_or_forms": "Materials-science papers; seven subfields",
+      "annotation_or_metrics_available": "Experiment, Results, Exp_Preparation, Exp_Characterization, Background_PriorWork, Explanation, Conclusion, Motivation, Background, Metadata, Caption, Heading, Abstract",
+      "size_and_count_basis": "50 articles; more than 10,000 sentences, paper reported",
+      "human_or_automatic": "Human expert multilabel",
+      "reliability": "Paper reports high agreement; inspect per-category statistics and sample",
+      "code_license": "AGPL-3.0",
+      "annotation_license": "CC BY-SA 4.0 corpus according to README",
+      "source_text_rights": "50 original documents CC BY according to README; per-article metadata records license",
+      "access_status": "Open files and guide",
+      "reuse_recommendation": "Directly inspect full guideline for crosswalk, multilabel boundary examples, and held-out document benchmark; assess parser completeness before lengths.",
+      "project_feature_mapping": [
+        "F09",
+        "F07",
+        "F02"
+      ],
+      "limitations": "Some labels are presentation or document structure rather than function; small, domain-specific and selected OA texts; class imbalance; transfer differs by label.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "SCIPARA",
+      "title": "SciPara: A New Dataset for Investigating Paragraph Discourse Structure in Scientific Papers",
+      "authors": "Anna Kiepura; Yingqiang Gao; Jessica Lam; Nianlong Gu; Richard H. R. Hahnloser",
+      "year": 2024,
+      "kind": "corpus and tool",
+      "doi": "10.18653/v1/2024.codi-1.2",
+      "primary_urls": [
+        "https://aclanthology.org/2024.codi-1.2/",
+        "https://aclanthology.org/2024.codi-1.2.pdf"
+      ],
+      "repository_url": "https://github.com/annamkiepura/SciPara",
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/annamkiepura/SciPara/main/Read_Dataset.ipynb",
+        "https://raw.githubusercontent.com/annamkiepura/SciPara/main/base_dataset_abstract_previous.pkl"
+      ],
+      "verified_scope": "Paper abstract and methods passages; README and notebook schema inspected; pickle not downloaded or loaded.",
+      "baseline_status": "new lead in inspected baseline",
+      "unit": "Paragraph and sentence; topic spans and links",
+      "genres_or_forms": "Scientific papers, predominantly biomedical; 62 source papers",
+      "annotation_or_metrics_available": "Paragraph text and label, prior paragraph; sentence discourse categories, topic information and relations",
+      "size_and_count_basis": "981 paragraphs, 4,071 sentences, from 62 papers, paper reported",
+      "human_or_automatic": "Professional editors with biomedical backgrounds",
+      "reliability": "Paper reports lexical-overlap-based agreement for topic spans; inspect full metrics separately by layer",
+      "code_license": "No license found in inspected repo",
+      "annotation_license": "No license found in inspected repo",
+      "source_text_rights": "Source papers from S2ORC/Europe PMC; individual source rights must be checked",
+      "access_status": "Open repository; unclear licensing",
+      "reuse_recommendation": "Strongest direct paragraph-context pilot: inspect labels and links; evaluate paragraph boundaries, multiple functions, neighboring context, and reliability before transfer.",
+      "project_feature_mapping": [
+        "F04",
+        "F09",
+        "F07"
+      ],
+      "limitations": "Selected paragraphs are not complete documents or a full-paper sample; sentence category is not automatically paragraph function; pickle is executable serialization and should be inspected safely.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "SCIDTB",
+      "title": "SciDTB: Discourse Dependency TreeBank for Scientific Abstracts",
+      "authors": "An Yang; Sujian Li",
+      "year": 2018,
+      "kind": "corpus",
+      "doi": "10.18653/v1/P18-2071",
+      "primary_urls": [
+        "https://aclanthology.org/P18-2071/",
+        "https://aclanthology.org/P18-2071.pdf"
+      ],
+      "repository_url": "https://github.com/PKU-TANGENT/SciDTB",
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/PKU-TANGENT/SciDTB/master/README.md",
+        "https://raw.githubusercontent.com/PKU-TANGENT/SciDTB/master/dataset/train/D14-1101.edu.txt.dep"
+      ],
+      "verified_scope": "Paper, repository README, train directory and a named data file location inspected; no training downloaded.",
+      "baseline_status": "new lead in inspected baseline",
+      "unit": "Elementary discourse unit and directed relation within abstract",
+      "genres_or_forms": "ACL computational linguistics abstracts",
+      "annotation_or_metrics_available": "Dependency trees between discourse units with relation labels",
+      "size_and_count_basis": "798 unique abstracts, 1,355 annotated trees; 506 abstracts multiply annotated, original paper; train directory API reports 743 entries",
+      "human_or_automatic": "Automatic segmentation followed by manual checking and annotation",
+      "reliability": "Multiple annotations for 506 abstracts; paper reports unlabeled/labeled attachment and relation-label kappa; extract exact values before comparison",
+      "code_license": "No license found in inspected repository",
+      "annotation_license": "Unknown",
+      "source_text_rights": "Underlying abstracts subject to original rights",
+      "access_status": "Open repository; license unclear",
+      "reuse_recommendation": "Use relation taxonomy and adjacency/dependency examples for evidence, explanation and contrast; benchmark relation extraction after rights check.",
+      "project_feature_mapping": [
+        "F07",
+        "F09"
+      ],
+      "limitations": "Discourse relations are not rhetorical zone labels; abstract-only sample cannot estimate full paper or paragraph lengths; counts vary by version.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "DRI",
+      "title": "A Multi-Layered Annotated Corpus of Scientific Papers",
+      "authors": "Beatriz Fisas; Francesco Ronzano; Horacio Saggion",
+      "year": 2016,
+      "kind": "corpus",
+      "doi": null,
+      "primary_urls": [
+        "https://aclanthology.org/L16-1492/",
+        "https://aclanthology.org/L16-1492.pdf",
+        "https://aclanthology.org/W15-1605/"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://aclanthology.org/L16-1492.pdf"
+      ],
+      "verified_scope": "2016 ACL abstract and related 2015 article located; original dataset download and license not verified.",
+      "baseline_status": "new lead in inspected baseline",
+      "unit": "Sentence and citation context in scientific paper",
+      "genres_or_forms": "Computer graphics research papers",
+      "annotation_or_metrics_available": "Sentence rhetorical roles, citation purpose, advantages/disadvantages and summary relevance",
+      "size_and_count_basis": "40 papers reported in related subsequent paper; verify release coverage before use",
+      "human_or_automatic": "Human annotated",
+      "reliability": "Extract agreement and layer-specific units from original methods",
+      "code_license": "Unknown",
+      "annotation_license": "Unknown",
+      "source_text_rights": "Unknown",
+      "access_status": "Article open; current data download not verified",
+      "reuse_recommendation": "Reuse citation function taxonomy and layer separation immediately from paper; treat training reuse as access-dependent.",
+      "project_feature_mapping": [
+        "F07",
+        "F09"
+      ],
+      "limitations": "Small and one subfield; sentence-level roles are not paragraph categories; summary relevance is not writing quality.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "PUBMEDRCT",
+      "title": "PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstracts",
+      "authors": "Franck Dernoncourt; Ji Young Lee",
+      "year": 2017,
+      "kind": "corpus",
+      "doi": "10.18653/v1/I17-2052",
+      "primary_urls": [
+        "https://aclanthology.org/I17-2052/",
+        "https://aclanthology.org/I17-2052.pdf"
+      ],
+      "repository_url": "https://github.com/Franck-Dernoncourt/pubmed-rct",
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/Franck-Dernoncourt/pubmed-rct/master/README.md",
+        "https://raw.githubusercontent.com/Franck-Dernoncourt/pubmed-rct/master/PubMed_20k_RCT/dev.txt"
+      ],
+      "verified_scope": "README and release description, paper located; no corpus downloaded.",
+      "baseline_status": "new lead in inspected baseline",
+      "unit": "Sentence in structured abstract",
+      "genres_or_forms": "Randomized controlled trial abstracts",
+      "annotation_or_metrics_available": "BACKGROUND, OBJECTIVE, METHODS, RESULTS, CONCLUSIONS derived from original structured headings",
+      "size_and_count_basis": "Approximately 200,000 abstracts and 2.3 million sentences; source reported",
+      "human_or_automatic": "Distant/heading-derived silver labels, not separately annotated human sentence gold",
+      "reliability": "Classification evaluated on held-out data; heading-generated labels have selection and heading-mapping noise",
+      "code_license": "Unknown",
+      "annotation_license": "No separate dataset license established in README",
+      "source_text_rights": "NLM notes some abstracts protected by copyright; inspect individual rights",
+      "access_status": "Public files; copyright/reuse uncertain",
+      "reuse_recommendation": "Use as weak-label baseline with provenance, not as gold for function or full-text norms.",
+      "project_feature_mapping": [
+        "F02",
+        "F09"
+      ],
+      "limitations": "Only structured RCT abstracts; selected label distribution reflects publication headings and classification pipeline, not general scientific writing or paragraph boundaries.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "SCITEX",
+      "title": "SciTex Corpora",
+      "authors": "Saarland University CLARIN-D",
+      "year": null,
+      "kind": "structural corpus",
+      "doi": null,
+      "primary_urls": [
+        "https://fedora.clarin-d.uni-saarland.de/scitex/"
+      ],
+      "repository_url": null,
+      "artifact_urls": [],
+      "verified_scope": "Official corpus description, composition and XML/annotation pipeline inspected; terms and examples not retrieved.",
+      "baseline_status": "new lead in inspected baseline",
+      "unit": "Full research article, sections and paragraphs; automatically processed tokens",
+      "genres_or_forms": "Computer science, computational linguistics, bioinformatics, engineering, biology and linguistics; historical and recent samples",
+      "annotation_or_metrics_available": "Structural markup, tokenization, lemmatization, POS; no human rhetorical roles established",
+      "size_and_count_basis": "Two period collections; exact eligible document counts not verified",
+      "human_or_automatic": "Some manually corrected text; automatic NLP processing; rhetorical roles not documented",
+      "reliability": "Unknown",
+      "code_license": "Unknown",
+      "annotation_license": "Unknown",
+      "source_text_rights": "Publisher/source access conditions need checking",
+      "access_status": "Institutional corpus page accessible; actual text access unverified",
+      "reuse_recommendation": "Candidate for scoped historical complete-paper structural measures only after document boundary, markup and rights audit.",
+      "project_feature_mapping": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05"
+      ],
+      "limitations": "Text structure or GROBID/S2ORC parsing is not human annotation of rhetorical function; sampling and OCR/conversion quality require verification.",
+      "paywall_retrieval_record": null
+    },
+    {
+      "id": "PEARSON",
+      "title": "Metadiscourse in academic writing: A systematic review",
+      "authors": "William S. Pearson; Esmaeel Abdollahzadeh",
+      "year": 2023,
+      "kind": "systematic review",
+      "doi": "10.1016/j.lingua.2023.103561",
+      "primary_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0024384123000852",
+        "https://www.sciencedirect.com/science/article/pii/S0024384123000852/pdf"
+      ],
+      "repository_url": null,
+      "artifact_urls": [],
+      "verified_scope": "Publisher abstract and PDF abstract/introduction and methods-related passages inspected; direct publisher open returned 403; search-indexed text available.",
+      "baseline_status": "new lead in inspected baseline",
+      "unit": "Study as review unit; metadiscourse features",
+      "genres_or_forms": "Academic writing across studied populations",
+      "annotation_or_metrics_available": "Conceptual frameworks, research designs, data, writers, contexts, corpus and reporting practices",
+      "size_and_count_basis": "370 selected empirical studies from 1990–2021, review reported",
+      "human_or_automatic": "Reviewers coded studies",
+      "reliability": "Full risk-of-bias and reproducibility methods not appraised",
+      "code_license": "Not applicable",
+      "annotation_license": "Not applicable",
+      "source_text_rights": "Publisher identifies article as CC BY 4.0; underlying reviewed papers retain own rights",
+      "access_status": "Open access article; direct fetch 403 in this session",
+      "reuse_recommendation": "Use as research map and caution that marker counts can lack context; retrieve studies and assess methods before borrowing definitions.",
+      "project_feature_mapping": [
+        "F09",
+        "F07"
+      ],
+      "limitations": "Systematic review, not a statistical meta-analysis; markers do not directly establish communicative function or writing quality.",
+      "paywall_retrieval_record": {
+        "status": "Open access, publisher direct request 403; indexed PDF passages available",
+        "doi": "10.1016/j.lingua.2023.103561",
+        "inspected": "abstract and limited methods passages; full review not appraised"
+      }
+    }
+  ]
+}

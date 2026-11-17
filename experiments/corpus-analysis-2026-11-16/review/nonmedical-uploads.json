@@ -1,0 +1,452 @@
+{
+  "scope": "Manual source review; six user attachments; book excluded from in-scope profiles. Page indices refer to supplied PDFs.",
+  "method": "PyMuPDF get_text(sort=False), UTF-8 cache per sampled page; positions are Python Unicode code point offsets on exact cached page text. No OCR or quality judgment. Representative reading, not exhaustive full-text review.",
+  "documents": [
+    {
+      "id": "supercollider",
+      "file": "RevModPhys.56.579.pdf",
+      "title": "Supercollider physics",
+      "authors": [
+        "E. Eichten",
+        "I. Hinchliffe",
+        "K. Lane",
+        "C. Quigg"
+      ],
+      "year": 1984,
+      "doi": "10.1103/RevModPhys.56.579",
+      "doi_basis": "DOI inferred from APS journal volume and first page; not printed in inspected source; verify independently",
+      "venue": "Reviews of Modern Physics 56, 579–707",
+      "article_type": "theoretical review with original calculations and collider design assessment",
+      "family": "Evidence synthesis / technical analysis (provisional hybrid)",
+      "form": "Narrative technical review with quantitative theoretical analysis",
+      "basis": "Abstract explicitly reviews theoretical motivations and calculates production rates; neither a purely new theory article nor a systematic review.",
+      "body": "PDF pp. 1–120 approximately: introduction begins on p. 1 alongside contents, conclusions and acknowledgments share p. 120; Appendix follows, references begin printed p. 703 (PDF p. 125). Verify exact endings and pages before counts.",
+      "outline": [
+        "I Introduction",
+        "II Preliminaries",
+        "III Physics of Hadronic Jets",
+        "IV Electroweak Phenomena",
+        "V Minimal Extensions of the Standard Model",
+        "VI Technicolor",
+        "VII Supersymmetry",
+        "VIII Composite Quarks and Leptons",
+        "IX Summary and Conclusions",
+        "Acknowledgments",
+        "Appendix",
+        "References"
+      ],
+      "risk": "Two columns, figure captions, equations, scan/OCR corruption and contents interspersed with opening; printed and PDF page boundaries require manual zoning.",
+      "source_sha256": "e16346d747f78c3e4926a5fbd62234dd4e2cabc882c6876ee1aba9c4866d047d",
+      "selection": "User-supplied attachment; not independently selected for quality.",
+      "annotations": [
+        {
+          "id": "N01",
+          "pdf_page_1based": 2,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/RevModPhys.56.579.p2.txt",
+          "page_text_sha256": "9d1fa26c9e1bd1948af976e3052ae1ca94955b99f0475b97950fa964ba805126",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 127,
+          "end": 693,
+          "span_sha256": "f545c5dd348741e55ebd999dfb19113b7b53f62371c096b98f9e884130ca364a",
+          "span_words_whitespace": 96,
+          "observed_functions": [
+            "orient",
+            "assert"
+          ],
+          "paraphrase": "The theoretical frontier motivates the machine and states the paper’s subject.",
+          "alternative": "report: the account summarizes a scientific position; authors also advance its significance."
+        },
+        {
+          "id": "N02",
+          "pdf_page_1based": 65,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/RevModPhys.56.579.p65.txt",
+          "page_text_sha256": "3f02be4edb8cab359c2b1534f20f4c1d6ca8c24ff2afa79bd31d62f06d261abf",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 2208,
+          "end": 2517,
+          "span_sha256": "4065afcc8cd634e6bf1ef0d84015b5ff5b3e1855bd8cb6e4c3d3e40ede868db1",
+          "span_words_whitespace": 52,
+          "observed_functions": [
+            "orient",
+            "qualify"
+          ],
+          "paraphrase": "An acknowledged uncertainty motivates a narrowly specified heavy-quark case.",
+          "alternative": "assert: the selected case is also a scope-setting analytical choice."
+        },
+        {
+          "id": "N03",
+          "pdf_page_1based": 118,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/RevModPhys.56.579.p118.txt",
+          "page_text_sha256": "652b8c2c8d0f91e533a8f887d980cf13bdfbc2cbc02e4a09f7e5ba4eb43ff0f2",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 1245,
+          "end": 1807,
+          "span_sha256": "f958fa0e692dbe1efc6468073b742ae8bc133b096fab0636a7212549cebe3627",
+          "span_words_whitespace": 84,
+          "observed_functions": [
+            "qualify",
+            "explain"
+          ],
+          "paraphrase": "The authors specify approximation and discuss its expected impact on inference.",
+          "alternative": "assert: an expectation about sensitivity is a predictive claim."
+        }
+      ]
+    },
+    {
+      "id": "particle_data",
+      "file": "s10052-998-0104-x.pdf",
+      "title": "Review of Particle Physics",
+      "authors": [
+        "Particle Data Group",
+        "C. Caso et al."
+      ],
+      "year": 1998,
+      "doi": "10.1007/s100529800944",
+      "doi_basis": "Printed first page; differs from filename.",
+      "venue": "European Physical Journal C 3, 1–794 (1998)",
+      "article_type": "collaborative periodic data compilation and review",
+      "family": "Reference and evidence synthesis (provisional hybrid)",
+      "form": "Particle-data reference compilation with embedded topical reviews",
+      "basis": "Abstract states evaluation and averaging of measurements plus tables, listings and topical reviews. Not an original theory paper or a single continuous narrative review.",
+      "body": "PDF pp. 7–approximately 783 comprise introduction, tables, reviews and listings; printed index begins p. 785. PDF has 786 pages versus journal statement 794; do not map pages by simple offset or claim a clean continuous prose body.",
+      "outline": [
+        "Front matter and contents",
+        "Introduction: overview, contributors, naming, procedures",
+        "Particle Physics Summary Tables",
+        "Reviews, Tables, and Plots",
+        "Particle Listings with embedded major reviews",
+        "Index"
+      ],
+      "risk": "Page 1 says 1600 new measurements; PDF p. 7 says 1900 and an update through 1995/1996: source-internal apparent carryover conflict. Extraction/OCR corrupts symbols and reading order; listings, figures, citations and references are embedded throughout. 786 pages, sampled selectively; not read in full.",
+      "source_sha256": "5e09b29b6a77f18ac0be25a0ef5364f3a8461a85fad07d405964df3c3135bb0b",
+      "selection": "User-supplied attachment; not independently selected for quality.",
+      "annotations": [
+        {
+          "id": "N04",
+          "pdf_page_1based": 7,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/s10052-998-0104-x.p7.txt",
+          "page_text_sha256": "9a8b21d945d7d98f6deff070fa06501cf108ca75ba182e607cb6c98317d38149",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 468,
+          "end": 880,
+          "span_sha256": "2fe84a06e0fe9bec42a6ed4d3e04389f817b307097ac67412884b0ac6f8127cf",
+          "span_words_whitespace": 63,
+          "observed_functions": [
+            "report",
+            "orient"
+          ],
+          "paraphrase": "The overview describes the reference components and their reader use.",
+          "alternative": "define: it also identifies the scope of the compilation."
+        },
+        {
+          "id": "N05",
+          "pdf_page_1based": 393,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/s10052-998-0104-x.p393.txt",
+          "page_text_sha256": "72b961d5a8bf5ffbf6f16f82b1d38e10ad6669b56500b644b78c3a1d57ebd099",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 167,
+          "end": 803,
+          "span_sha256": "e0497964c610c621383aa4052358c6f066a0f6c2f1937f1f897ec345efb49332",
+          "span_words_whitespace": 107,
+          "observed_functions": [
+            "report",
+            "support"
+          ],
+          "paraphrase": "A listing reviews prior indirect determinations and reports a later analysis.",
+          "alternative": "compare: the passage contrasts earlier and later routes; OCR of mathematical symbols is unreliable."
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "file": "Cloud_computing_Issues_and_challenges.pdf",
+      "title": "Cloud Computing: Issues and Challenges",
+      "authors": [
+        "Tharam Dillon",
+        "Chen Wu",
+        "Elizabeth Chang"
+      ],
+      "year": 2010,
+      "doi": "10.1109/AINA.2010.187",
+      "doi_basis": "Printed PDF p. 1.",
+      "venue": "2010 24th IEEE International Conference on Advanced Information Networking and Applications",
+      "article_type": "conference overview and research-challenges paper",
+      "family": "Explanation and documentation / technical perspective (provisional)",
+      "form": "Technical overview and research-challenges perspective",
+      "basis": "Author outlines existing paradigms, adoption challenges and interoperability; no empirical study design or systematic review protocol.",
+      "body": "PDF pp. 1–6, introduction through conclusion; title, abstract and references on shared pages must be separately zoned. References begin p. 6 and continue p. 7.",
+      "outline": [
+        "I Introduction",
+        "II Cloud: Overview",
+        "III Cloud, SOC, and Grid",
+        "IV Cloud Adoption Challenges",
+        "V Cloud InteroperabiOlity Issue (source spelling; extraction reads INTEROPERABIOLITY)",
+        "VI Conclusion",
+        "References"
+      ],
+      "risk": "Two columns and nested headings; references share p. 6; heading V may be misread by extraction and requires visual verification.",
+      "source_sha256": "01fed50b48b04dceb09ba45eed5098833eaf166cf4ebbe175cb16637a13c8cd4",
+      "selection": "User-supplied attachment; not independently selected for quality.",
+      "annotations": [
+        {
+          "id": "N06",
+          "pdf_page_1based": 1,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/Cloud_computing_Issues_and_challenges.p1.txt",
+          "page_text_sha256": "e7561d4c555a0d811c97b97ed5bb8eb49b71de90d315f2f574a8fed5863a5274",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 988,
+          "end": 1347,
+          "span_sha256": "1be9e45aabed39ed8381c154107d2aa5669f1b769a4af440039e83e4ea3c0100",
+          "span_words_whitespace": 56,
+          "observed_functions": [
+            "orient"
+          ],
+          "paraphrase": "Questions place the problem and the intended audience concerns.",
+          "alternative": "assert: a prediction is attributed to many, not established as fact."
+        },
+        {
+          "id": "N07",
+          "pdf_page_1based": 6,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/Cloud_computing_Issues_and_challenges.p6.txt",
+          "page_text_sha256": "e15e0317a6b0171c34e2e3c3f4dc379f6362e594c0006296157bfa301d75c499",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 1104,
+          "end": 1991,
+          "span_sha256": "d7ef859027ac846adde6aeefb4771af0d01697779906e545dd1c890e30360df3",
+          "span_words_whitespace": 122,
+          "observed_functions": [
+            "report",
+            "compare",
+            "explain"
+          ],
+          "paraphrase": "Two approaches are described and distinguished by the level of abstraction.",
+          "alternative": "support: cited examples support the description, but citations are not independently checked."
+        }
+      ]
+    },
+    {
+      "id": "life_book",
+      "file": "How-Will-You-Measure-Your-Life.pdf",
+      "title": "How Will You Measure Your Life?",
+      "authors": [
+        "Clayton M. Christensen",
+        "James Allworth",
+        "Karen Dillon"
+      ],
+      "year": 2012,
+      "doi": null,
+      "doi_basis": "No DOI identified in inspected source.",
+      "venue": "HarperCollins, first edition, 2012",
+      "article_type": "book",
+      "family": "Excluded: books outside accepted initial scope",
+      "form": "Book-length reflective practitioner argument (descriptive only)",
+      "basis": "Title and three authors on PDF pp. 2–3, table of contents pp. 4–5, copyright p. 167 identifies first edition and 2012. It is not the similarly titled HBR article.",
+      "body": "Prologue starts PDF p. 8, followed by chapters and an epilogue; acknowledgments start p. 154. Exact final chapter/epilogue boundary requires separate zoning; omit this book from article metrics.",
+      "outline": [
+        "Prologue",
+        "1 Just Because You Have Feathers …",
+        "Section I Finding Happiness in Your Career (chapters 2–4)",
+        "Section II Finding Happiness in Your Relationships (chapters 5–9)",
+        "Section III Staying Out of Jail (chapter 10)",
+        "Epilogue",
+        "Acknowledgments",
+        "About the authors",
+        "Copyright"
+      ],
+      "risk": "Book, not article; body includes distinct voices, and end matter includes acknowledgments. Samples describe a book, not a valid article profile.",
+      "source_sha256": "5b188e90d00b4a93969b005e5607561fb6faaaf8984dfd3ae3df904beb9c6760",
+      "selection": "User-supplied attachment; not independently selected for quality.",
+      "annotations": [
+        {
+          "id": "N08",
+          "pdf_page_1based": 8,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/How-Will-You-Measure-Your-Life.p8.txt",
+          "page_text_sha256": "1fb51067f3c7f1ec4cb00a9916a51b9c03dc4126f40c7aaee564fcdb52e9a499",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 13,
+          "end": 680,
+          "span_sha256": "9c848c583c386cdaa5fda76ebde2a5d3b776048462703d078d1917e9f2a0a8ee",
+          "span_words_whitespace": 112,
+          "observed_functions": [
+            "narrate",
+            "orient"
+          ],
+          "paraphrase": "The narrator situates a teaching practice in a reunion recollection.",
+          "alternative": "illustrate: the reunion can also serve as an illustrative case in the larger argument."
+        },
+        {
+          "id": "N09",
+          "pdf_page_1based": 85,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/How-Will-You-Measure-Your-Life.p85.txt",
+          "page_text_sha256": "ef8b5fca262d2d127dfc5426fed53c2d639489ddcf99e3d9cc9931c26de01af5",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 344,
+          "end": 872,
+          "span_sha256": "ad04160bdc6e1683d9c86dfe3b69d89c1c76a778c96e19ed43896a4f74cbb894",
+          "span_words_whitespace": 86,
+          "observed_functions": [
+            "orient",
+            "illustrate"
+          ],
+          "paraphrase": "The author moves from a general framework to an education example and puzzle.",
+          "alternative": "assert: the source makes broad claims about schooling, not assessed for truth here."
+        }
+      ]
+    },
+    {
+      "id": "leader",
+      "file": "What-Makes-a-Leader.pdf",
+      "title": "What Makes a Leader?",
+      "authors": [
+        "Daniel Goleman"
+      ],
+      "year": 1998,
+      "reprint_year": 2004,
+      "doi": null,
+      "doi_basis": "No DOI identified in inspected copy.",
+      "venue": "Harvard Business Review, January 2004 reprint of 1998 article",
+      "article_type": "practitioner argument with research claims, explanatory cases and sidebar",
+      "family": "Essays and commentary / practitioner guidance (provisional hybrid)",
+      "form": "Evidence-claim-led practitioner argument",
+      "basis": "Research-based leadership claim followed by components, cases, explanatory mechanisms and application; claims are reported as the author’s, not verified here.",
+      "body": "PDF pp. 3–11; cover p. 1, editorial summary p. 2, further reading p. 12 excluded. PDF p. 3 contains a reprint introduction and article opening; p. 11 contains order information after article.",
+      "outline": [
+        "Opening and central leadership claim",
+        "Evaluating Emotional Intelligence",
+        "Self-Awareness",
+        "Self-Regulation",
+        "Motivation",
+        "Empathy",
+        "Social Skill",
+        "Unheaded closing",
+        "Further Reading (excluded)"
+      ],
+      "risk": "Editorial summary and sidebar sit beside main prose; two-column extraction and repeated pull quotes compromise automated paragraph counts.",
+      "source_sha256": "82cfea035e69a25df973590eab8e7807e14f8883e0fdcb2f77c8b2c2c2695096",
+      "selection": "User-supplied attachment; not independently selected for quality.",
+      "annotations": [
+        {
+          "id": "N10",
+          "pdf_page_1based": 7,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/What-Makes-a-Leader.p7.txt",
+          "page_text_sha256": "c075096c9456865216168fab6bb265d94d1da7f87b7ac34c3071edcc57562c6a",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 2194,
+          "end": 2633,
+          "span_sha256": "375c2ab868d8715ff17cd4f6deb4e0d880e215302107b98f4a04a62c72c314ab",
+          "span_words_whitespace": 73,
+          "observed_functions": [
+            "define",
+            "explain"
+          ],
+          "paraphrase": "The author defines self-regulation through a proposed relationship between emotion and action.",
+          "alternative": "assert: causal claims are the author’s, not independently established."
+        },
+        {
+          "id": "N11",
+          "pdf_page_1based": 11,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/What-Makes-a-Leader.p11.txt",
+          "page_text_sha256": "af5849cd10530229ba0d41ee08b53b1e70875ce4f5e4496b2cad5751430b3edd",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 4000,
+          "end": 4294,
+          "span_sha256": "21102fc138b67a6044e0ddd1081bfda8f179841d2d32f2b54cfcdb206e960948",
+          "span_words_whitespace": 49,
+          "observed_functions": [
+            "assert",
+            "qualify"
+          ],
+          "paraphrase": "The closing asserts learnability while identifying time and commitment as conditions.",
+          "alternative": "instruct: it suggests a commitment but does not give an actionable sequence."
+        }
+      ]
+    },
+    {
+      "id": "managing",
+      "file": "hbr-managing-oneself.pdf",
+      "title": "Managing Oneself",
+      "authors": [
+        "Peter F. Drucker"
+      ],
+      "year": 1999,
+      "reprint_year": 2005,
+      "doi": null,
+      "doi_basis": "No DOI identified in inspected copy.",
+      "venue": "Harvard Business Review, January 2005 reprint of 1999 article",
+      "article_type": "practitioner argument and self-reflection guidance",
+      "family": "Essays and commentary / practitioner guidance (provisional hybrid)",
+      "form": "Reflective self-management argument",
+      "basis": "Questions frame self-assessment; author advances recommendations using examples and narrative rather than reporting a formal study.",
+      "body": "PDF pp. 3–12; cover p. 1, summary p. 2, further reading p. 13 excluded. Reprint order text follows end of article on p. 12.",
+      "outline": [
+        "Opening: responsibility for self-management",
+        "What Are My Strengths?",
+        "How Do I Perform?",
+        "What Are My Values?",
+        "Where Do I Belong?",
+        "What Should I Contribute?",
+        "Responsibility for Relationships",
+        "The Second Half of Your Life",
+        "Unheaded conclusion",
+        "Further Reading (excluded)"
+      ],
+      "risk": "Examples, pull quotes, two-column layout, running headers and reprint material need zoning before counting; proposed guidance should not be treated as verified universal advice.",
+      "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b",
+      "selection": "User-supplied attachment; not independently selected for quality.",
+      "annotations": [
+        {
+          "id": "N12",
+          "pdf_page_1based": 3,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/hbr-managing-oneself.p3.txt",
+          "page_text_sha256": "4e239e3c9fd581f9cd9b2bf1ffc2775f3e7c213b4bd19e11808130e19908049d",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 507,
+          "end": 1194,
+          "span_sha256": "cfbf48367bc86b1da196ddaef97357b7aa98527a350f51ca232e941570316739",
+          "span_words_whitespace": 113,
+          "observed_functions": [
+            "assert",
+            "explain"
+          ],
+          "paraphrase": "The author links the stated career situation to self-knowledge and a recommendation.",
+          "alternative": "instruct: general direction rather than a complete procedure."
+        },
+        {
+          "id": "N13",
+          "pdf_page_1based": 6,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/hbr-managing-oneself.p6.txt",
+          "page_text_sha256": "e301d02b2c6b86470f522b77aa3362744561ea47d22de75c6fb74e96711896f9",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 2767,
+          "end": 2929,
+          "span_sha256": "5ed076dbceb26b0f2e0b74132713b2663481a553fe80fc9af9876fa8a93c20e0",
+          "span_words_whitespace": 26,
+          "observed_functions": [
+            "compare",
+            "illustrate"
+          ],
+          "paraphrase": "Contrasting work preferences make the self-assessment dimension concrete.",
+          "alternative": "assert: these are general claims rather than documented cases."
+        },
+        {
+          "id": "N14",
+          "pdf_page_1based": 11,
+          "page_text_file": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/review-nonmedical/hbr-managing-oneself.p11.txt",
+          "page_text_sha256": "1f06313ebeba0a5b45a1959804d156c859ddbe0e0436f311c2fe9758de0825a1",
+          "offset_unit": "Unicode code points, zero-based, end exclusive",
+          "start": 1558,
+          "end": 2013,
+          "span_sha256": "63f4297f9f06d682443c25200455b39c0dc3a5962af35fd9df3655706a2dc3ae",
+          "span_words_whitespace": 75,
+          "observed_functions": [
+            "assert",
+            "support",
+            "qualify"
+          ],
+          "paraphrase": "A proposed prerequisite is followed by a retrospective claim about volunteer behavior.",
+          "alternative": "narrate: the writer recalls an earlier expectation; supporting evidence is not independently assessed."
+        }
+      ]
+    }
+  ]
+}

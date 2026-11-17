@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_035",
+      "doi": "10.5465/amr.1990.4309121",
+      "title": "Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry",
+      "authors": "[\"Chris Argyris\"]",
+      "field": "business_management",
+      "q": "\"Strategies for Learning\" Argyris pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_035",
+      "query": "\"Strategies for Learning\" Argyris pdf",
+      "urls": [
+        {
+          "title": "In some cases, however, the correction of inconsistencies requires an organizational learning cycle in which organizational norms themselves are modified. Argyris and Schön (1978) call this sort of learning double-loop. The implicit standards and values that evolve in organizations are called norms (Schein 2002). Norms control the functions of the organization. In double-loop learning there is a double feedback loop, which connects the detection of error not only to the more effectively realizable strategies and assumptions but also to the norms, by setting new priorities and weighting the norms, or by restructuring the norms themselves together with associated strategies and assumptions. Double-loop learning consists not only of a change in organizational norms but also of the particular sort of inquiry into norms, which is appropriately described as learning (Argyris and Schön, 1978, pp. 20–26, 29).",
+          "url": "https://aaltodoc.aalto.fi/bitstreams/101ed99c-bcb6-4c5e-bdfa-70bc8acb8bb4/download",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry",
+          "url": "https://journals.aom.org/doi/10.5465/amr.1990.4309121",
+          "score": 1
+        },
+        {
+          "title": "Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry",
+          "url": "https://scispace.com/papers/strategies-for-learning-small-group-activities-in-american-lox5204d6g",
+          "score": 1
+        },
+        {
+          "title": "Search Results for Learning strategies.",
+          "url": "https://www.vgls.vic.gov.au/client/en_AU/vgls/search/results?av=0&ps=300&qu=Learning+strategies.",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

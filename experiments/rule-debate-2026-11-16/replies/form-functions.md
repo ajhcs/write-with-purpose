@@ -1,0 +1,40 @@
+# Round 3: replies on form and function
+
+The original positions and challenges remain frozen. Every targeted challenge is accepted as a revision; wording below is a candidate, not a canonical change.
+
+## EI-X02 → FF-03 — revise
+
+Accept. The original full-corpus exception is too narrow: definition optimization and reliability or boundary research are independent objectives, even when neither coder would edit the prose. An edit-based filter is only a runtime convenience, never a test of research relevance or semantic truth.
+
+**Revised wording:** First identify the requested deliverable. For function-definition development, reliability evaluation, boundary adjudication, or corpus annotation, retain and investigate task-relevant disagreements, context and independent records according to the research protocol, regardless of whether an edit would change. Preserve assessed-empty, unresolved and not-assessed as distinct states. In ordinary editing, when competing readings would not change the authorized action, preserve the ambiguity rather than force a label decision; inspect further when meaning, attribution or a requested edit would differ. Shared editing choices do not establish label agreement or semantic gold.
+
+## EI-X04 → FF-02 — revise
+
+Accept. A plausible model hypothesis is not necessarily viable or supported, and two branches do not exhaust the explanations. Search supplied context first, make a grounded edit if possible, and ask only when the missing rationale materially blocks the task; meanwhile complete independent work. Any coverage claim must itself be supported or remain explicitly the author's proposal.
+
+**Revised wording:** Identify the author's stated claim, reason and relevant source first. If the connection is supplied, use it in a bounded revision. If it is absent, preserve the separate claims and do not invent evidence, mechanisms or endorsement. When the missing connection materially affects the requested decision, identify the missing premise and, if useful and authorized, offer a small number of clearly marked model hypotheses with an explicit neither/other option and evidence that would distinguish them; they need not be equally plausible or exhaustive. Ask a focused question only if necessary while completing independent work. A copy edit does not require a causal explanation.
+
+## RL-CH01 → FF-02 — revise
+
+Accept. Offering the fork should not become the default response to correlation. An author may have an unstated capacity rationale or neither proposed mechanism; a request for reasoning assistance or sufficiently bounded evidence can make alternatives useful, but cannot turn them into facts.
+
+**Revised wording:** For an inferential gap, first seek the author's stated reason in the supplied material and preserve observation, recommendation and attribution separately. If the gap prevents the requested decision, ask what connects them; offer non-exhaustive, explicitly hypothetical alternatives only when reasoning help is requested or supplied evidence bounds a useful contrast. Include neither/other, never silently choose or invent a premise, and proceed with unaffected editing. If no decision depends on the missing link, do not create an interrogation.
+
+## RL-CH03 → FF-04 — revise
+
+Accept. The current edit skill explicitly permits coordinated repairs and requested reorganization; my initial contrast overstated its limitations. The proposed difference is selective, reader-effect comparison when a material tradeoff exists, not blanket permission for broad edits or a requirement to materialize two drafts.
+
+**Revised wording:** For an authorized improvement, diagnose a concrete reader problem and choose a supported intervention that resolves it within the author's purpose, format and preservation constraints. When materially different repairs are plausible and their effects consequential, compare the intended gain and specific loss at the least costly level that makes the choice reviewable; write a second full candidate only if needed or requested. Otherwise execute the supported repair directly. Reorganize when it materially improves the authorized task; retain deliberate delay or repetition that serves the intended experience. Correction-only requests remain local.
+
+## All four revised proposals
+
+- **FF-01 (revised):** When a substantial writing or improvement task admits materially different structures, compare only alternatives that change an information dependency, placement of a significant qualification or reader experience. For each distinguish the reader question answered, recoverable supplied contributions, a gain and a concrete loss. Compare at the smallest useful level and create a complete second draft only when necessary or requested; choose independently if the task resolves the tradeoff. Preserve intentional sequence, explicit format and factual scope.
+- **FF-02 (revised):** First locate the author's supplied claim, reason and relevant source. Use a grounded connection if it exists. If absent, do not invent it: preserve the claims separately and identify the missing premise when it matters to the requested decision. For requested reasoning help or a useful evidence-bounded contrast, offer explicitly hypothetical and non-exhaustive alternatives including neither/other, along with discriminating evidence. Ask only a necessary question and complete independent work.
+- **FF-03 (revised):** Gate by objective: independently requested function-definition, boundary, annotation or reliability research retains and investigates relevant disagreements using its protocol, whether or not prose changes. In ordinary editing, compare competing readings only as needed to decide an authorized action, and preserve unresolved ambiguity when the same edit serves both. Record assessed empty, unresolved and unassessed distinctly; a shared edit is not semantic gold.
+- **FF-04 (revised):** For an authorized improvement, choose a supported intervention that resolves a specific reader problem under the task constraints. Compare local and structural repairs on reader gain and specific loss only when materially different alternatives are plausible and consequential, using the least burdensome adequate comparison; otherwise implement the supported repair directly. The current skill already permits appropriate coordinated changes.
+
+## Remaining disagreements
+
+- A tightly bounded fork can help develop original reasoning when the author has requested help, even before evidence can decide among alternatives. It remains speculative, must permit neither/other, and must not masquerade as an exhaustive evidence-based diagnosis.
+- A substantive improvement request may justify restructuring even without the literal word rewrite, provided the inferred intervention serves the actual task and preserves explicit constraints. This is a scope judgment, not permission to disregard deliberate experience or author decisions.
+- Consequence-based triage is an untested ordinary-editing hypothesis; research annotation and reliability deliverables require their own complete protocol and cannot inherit that shortcut.

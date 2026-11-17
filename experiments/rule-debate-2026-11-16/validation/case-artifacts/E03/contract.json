@@ -1,0 +1,12 @@
+{
+  "protected_literals": [
+    {
+      "text": "I kept it",
+      "min_count": 1
+    },
+    {
+      "text": "I do not know why that mattered.",
+      "min_count": 1
+    }
+  ]
+}

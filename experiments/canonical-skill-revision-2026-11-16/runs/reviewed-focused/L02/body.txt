@@ -1,0 +1,6 @@
+Source facts:
+- Cases assessed: 100
+- Correct classifications: 80
+- No comparator, baseline, or additional outcome was supplied.
+
+Write one sentence that replaces the vague praise with the specific result. Share your attempt when you are ready.

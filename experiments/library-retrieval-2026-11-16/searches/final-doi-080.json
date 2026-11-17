@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-study_review_protocol-1",
+      "doi": "10.1159/000078753",
+      "title": "International carotid stenting study: protocol for a randomised clinical trial comparing carotid stenting with endarterectomy in symptomatic carotid artery stenosis.",
+      "authors": "[\"Featherstone RL\", \"Brown MM\", \"Coward LJ\", \"ICSS Investigators\"]",
+      "field": "medicine_health",
+      "q": "\"International carotid stenting study: protocol for a randomised\" Featherstone filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-study_review_protocol-1",
+      "query": "\"International carotid stenting study: protocol for a randomised\" Featherstone filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "International carotid stenting study: protocol for a randomised clinical trial comparing carotid stenting with endarterectomy in symptomatic carotid artery stenosis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15178990/",
+          "score": 1
+        },
+        {
+          "title": "International Carotid Stenting Study: Protocol for a Randomised Clinical Trial Comparing Carotid Stenting with Endarterectomy in Symptomatic Carotid Artery Stenosis",
+          "url": "https://openalex.org/W1997663201",
+          "score": 1
+        },
+        {
+          "title": "International Carotid Stenting Study: Protocol for a Randomised Clinical Trial Comparing Carotid Stenting with Endarterectomy in Symptomatic Carotid Artery Stenosis",
+          "url": "https://karger.com/ced/article-abstract/18/1/69/56348/International-Carotid-Stenting-Study-Protocol-for?redirectedFrom=fulltext",
+          "score": 1
+        },
+        {
+          "title": "Long-term outcomes after stenting versus endarterectomy for treatment of symptomatic carotid stenosis: the International Carotid Stenting Study (ICSS) randomised trial",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4322188/",
+          "score": 0.8571428571428571
+        },
+        {
+          "title": "Carotid Artery Stenting Compared with Endarterectomy in Patients with Symptomatic Carotid Stenosis (International Carotid Stenting Study): An Interim Analysis of a Randomised Controlled Trial",
+          "url": "https://www.academia.edu/56880833/Carotid_Artery_Stenting_Compared_with_Endarterectomy_in_Patients_with_Symptomatic_Carotid_Stenosis_International_Carotid_Stenting_Study_An_Interim_Analysis_of_a_Randomised_Controlled_Trial",
+          "score": 0.7142857142857143
+        },
+        {
+          "title": "Carotid Artery Stenting Compared with Endarterectomy in Patients with Symptomatic Carotid Stenosis (International Carotid Stenting Study): An Interim Analysis of a Randomised Controlled Trial",
+          "url": "https://www.academia.edu/103657257/Carotid_Artery_Stenting_Compared_with_Endarterectomy_in_Patients_with_Symptomatic_Carotid_Stenosis_International_Carotid_Stenting_Study_An_Interim_Analysis_of_a_Randomised_Controlled_Trial",
+          "score": 0.7142857142857143
+        }
+      ]
+    }
+  ]
+}

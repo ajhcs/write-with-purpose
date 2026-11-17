@@ -1,0 +1,1007 @@
+{
+  "scope": "Eight selected pre-2015 biomedical-origin XML articles; prose only, including unheaded; one analyst, not generalizable or targets. Eight distinct eligible reviews; no false positive among selected.",
+  "word_count_rule": "Shared corpus-analysis metrics.py word_tokens; citation artifacts included.",
+  "body_words_across_documents": {
+    "n": 8,
+    "min": 2681,
+    "median": 4078.0,
+    "max": 7203
+  },
+  "paragraphs_across_documents": {
+    "n": 8,
+    "min": 22,
+    "median": 35.5,
+    "max": 50
+  },
+  "nonempty_source_sections_across_documents": {
+    "n": 8,
+    "min": 6,
+    "median": 11.0,
+    "max": 25
+  },
+  "role_words_across_documents_including_zero_for_absent": {
+    "introduction": {
+      "n": 8,
+      "min": 192,
+      "median": 510.5,
+      "max": 1261
+    },
+    "methods": {
+      "n": 8,
+      "min": 305,
+      "median": 675.5,
+      "max": 1465
+    },
+    "results": {
+      "n": 8,
+      "min": 286,
+      "median": 1168.0,
+      "max": 3601
+    },
+    "discussion": {
+      "n": 8,
+      "min": 659,
+      "median": 1480.0,
+      "max": 1958
+    },
+    "conclusion": {
+      "n": 8,
+      "min": 0,
+      "median": 150.0,
+      "max": 279
+    }
+  },
+  "all_paragraph_word_lengths_pooled": {
+    "n": 287,
+    "min": 13,
+    "median": 108,
+    "max": 453
+  },
+  "paragraph_word_lengths_by_overlapping_function": {
+    "orient": {
+      "n": 13,
+      "min": 88,
+      "median": 129,
+      "max": 388
+    },
+    "define": {
+      "n": 21,
+      "min": 59,
+      "median": 126,
+      "max": 358
+    },
+    "report": {
+      "n": 218,
+      "min": 13,
+      "median": 104.0,
+      "max": 453
+    },
+    "assert": {
+      "n": 36,
+      "min": 61,
+      "median": 121.0,
+      "max": 388
+    },
+    "support": {
+      "n": 3,
+      "min": 88,
+      "median": 157,
+      "max": 264
+    },
+    "explain": {
+      "n": 53,
+      "min": 19,
+      "median": 142,
+      "max": 406
+    },
+    "illustrate": {
+      "n": 20,
+      "min": 76,
+      "median": 144.0,
+      "max": 304
+    },
+    "compare": {
+      "n": 46,
+      "min": 46,
+      "median": 153.0,
+      "max": 453
+    },
+    "interpret": {
+      "n": 41,
+      "min": 25,
+      "median": 96,
+      "max": 381
+    },
+    "qualify": {
+      "n": 116,
+      "min": 17,
+      "median": 122.5,
+      "max": 406
+    },
+    "instruct": {
+      "n": 0,
+      "min": null,
+      "median": null,
+      "max": null
+    },
+    "narrate": {
+      "n": 0,
+      "min": null,
+      "median": null,
+      "max": null
+    }
+  },
+  "overlap_note": "Functions are multilabel; paragraphs appear in multiple subsets; these lengths are not additive budgets. Section counts are source section IDs with direct prose including unheaded group; not hierarchical totals.",
+  "documents": [
+    {
+      "id": "xml-02282",
+      "body_words": 4393,
+      "paragraph_count": 22,
+      "paragraph_median_words": 185.0,
+      "role_words": {
+        "introduction": 388,
+        "methods": 1111,
+        "results": 1128,
+        "discussion": 1625,
+        "conclusion": 141
+      },
+      "nonempty_source_sections": 11,
+      "sections": [
+        {
+          "source_section_id": "s1",
+          "source_heading": "Introduction",
+          "analyst_role": "introduction",
+          "paragraphs": 1,
+          "prose_words": 388
+        },
+        {
+          "source_section_id": "s2",
+          "source_heading": "Methods",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 37
+        },
+        {
+          "source_section_id": "s2a",
+          "source_heading": "Search Strategy and Selection Criteria",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 282
+        },
+        {
+          "source_section_id": "s2b",
+          "source_heading": "Data Extraction",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 124
+        },
+        {
+          "source_section_id": "s2c",
+          "source_heading": "Data Analysis",
+          "analyst_role": "methods",
+          "paragraphs": 4,
+          "prose_words": 668
+        },
+        {
+          "source_section_id": "s3",
+          "source_heading": "Results",
+          "analyst_role": "results",
+          "paragraphs": 7,
+          "prose_words": 1128
+        },
+        {
+          "source_section_id": "s4a",
+          "source_heading": "Summary of Findings",
+          "analyst_role": "discussion",
+          "paragraphs": 1,
+          "prose_words": 251
+        },
+        {
+          "source_section_id": "s4b",
+          "source_heading": "Public Health Implication",
+          "analyst_role": "discussion",
+          "paragraphs": 1,
+          "prose_words": 289
+        },
+        {
+          "source_section_id": "s4c",
+          "source_heading": "Biological Plausibility",
+          "analyst_role": "discussion",
+          "paragraphs": 1,
+          "prose_words": 264
+        },
+        {
+          "source_section_id": "s4d",
+          "source_heading": "Limitations",
+          "analyst_role": "discussion",
+          "paragraphs": 3,
+          "prose_words": 821
+        },
+        {
+          "source_section_id": "s4e",
+          "source_heading": "Conclusions",
+          "analyst_role": "conclusion",
+          "paragraphs": 1,
+          "prose_words": 141
+        }
+      ]
+    },
+    {
+      "id": "xml-02298",
+      "body_words": 3763,
+      "paragraph_count": 33,
+      "paragraph_median_words": 107,
+      "role_words": {
+        "introduction": 609,
+        "methods": 567,
+        "results": 803,
+        "discussion": 1505,
+        "conclusion": 279
+      },
+      "nonempty_source_sections": 11,
+      "sections": [
+        {
+          "source_section_id": "generated-1",
+          "source_heading": "Introduction",
+          "analyst_role": "introduction",
+          "paragraphs": 4,
+          "prose_words": 609
+        },
+        {
+          "source_section_id": "generated-3",
+          "source_heading": "Search strategy",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 142
+        },
+        {
+          "source_section_id": "generated-4",
+          "source_heading": "Study selection",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 80
+        },
+        {
+          "source_section_id": "generated-5",
+          "source_heading": "Inclusion criteria",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 118
+        },
+        {
+          "source_section_id": "generated-6",
+          "source_heading": "Data extraction",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 131
+        },
+        {
+          "source_section_id": "generated-7",
+          "source_heading": "Data analysis",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 96
+        },
+        {
+          "source_section_id": "generated-8",
+          "source_heading": "Results",
+          "analyst_role": "results",
+          "paragraphs": 3,
+          "prose_words": 296
+        },
+        {
+          "source_section_id": "generated-9",
+          "source_heading": "Estimates of validity",
+          "analyst_role": "results",
+          "paragraphs": 2,
+          "prose_words": 205
+        },
+        {
+          "source_section_id": "generated-10",
+          "source_heading": "Quality of reporting",
+          "analyst_role": "results",
+          "paragraphs": 4,
+          "prose_words": 302
+        },
+        {
+          "source_section_id": "generated-11",
+          "source_heading": "Discussion",
+          "analyst_role": "discussion",
+          "paragraphs": 12,
+          "prose_words": 1505
+        },
+        {
+          "source_section_id": "generated-12",
+          "source_heading": "Conclusion",
+          "analyst_role": "conclusion",
+          "paragraphs": 3,
+          "prose_words": 279
+        }
+      ]
+    },
+    {
+      "id": "xml-02317",
+      "body_words": 5748,
+      "paragraph_count": 38,
+      "paragraph_median_words": 129.0,
+      "role_words": {
+        "introduction": 743,
+        "methods": 305,
+        "results": 3601,
+        "discussion": 1099,
+        "conclusion": 0
+      },
+      "nonempty_source_sections": 9,
+      "sections": [
+        {
+          "source_section_id": "sec5",
+          "source_heading": "Introduction",
+          "analyst_role": "introduction",
+          "paragraphs": 4,
+          "prose_words": 743
+        },
+        {
+          "source_section_id": "sec6",
+          "source_heading": "Methods",
+          "analyst_role": "methods",
+          "paragraphs": 2,
+          "prose_words": 305
+        },
+        {
+          "source_section_id": "sec7",
+          "source_heading": "Results",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 46
+        },
+        {
+          "source_section_id": "sec8",
+          "source_heading": "Gastrointestinal Cancer",
+          "analyst_role": "results",
+          "paragraphs": 7,
+          "prose_words": 1468
+        },
+        {
+          "source_section_id": "sec9",
+          "source_heading": "Lung Cancer",
+          "analyst_role": "results",
+          "paragraphs": 5,
+          "prose_words": 675
+        },
+        {
+          "source_section_id": "sec10",
+          "source_heading": "Female Cancers",
+          "analyst_role": "results",
+          "paragraphs": 3,
+          "prose_words": 455
+        },
+        {
+          "source_section_id": "sec11",
+          "source_heading": "Multiple Cancers",
+          "analyst_role": "results",
+          "paragraphs": 4,
+          "prose_words": 429
+        },
+        {
+          "source_section_id": "sec12",
+          "source_heading": "Other Cancer Sites",
+          "analyst_role": "results",
+          "paragraphs": 3,
+          "prose_words": 528
+        },
+        {
+          "source_section_id": "sec13",
+          "source_heading": "Discussion",
+          "analyst_role": "discussion",
+          "paragraphs": 9,
+          "prose_words": 1099
+        }
+      ]
+    },
+    {
+      "id": "xml-02334",
+      "body_words": 3335,
+      "paragraph_count": 27,
+      "paragraph_median_words": 119,
+      "role_words": {
+        "introduction": 325,
+        "methods": 669,
+        "results": 886,
+        "discussion": 1455,
+        "conclusion": 0
+      },
+      "nonempty_source_sections": 6,
+      "sections": [
+        {
+          "source_section_id": "cesec10",
+          "source_heading": "Introduction",
+          "analyst_role": "introduction",
+          "paragraphs": 3,
+          "prose_words": 325
+        },
+        {
+          "source_section_id": "cesec30",
+          "source_heading": "Search strategy and selection criteria",
+          "analyst_role": "methods",
+          "paragraphs": 2,
+          "prose_words": 276
+        },
+        {
+          "source_section_id": "cesec40",
+          "source_heading": "Data extraction",
+          "analyst_role": "methods",
+          "paragraphs": 2,
+          "prose_words": 163
+        },
+        {
+          "source_section_id": "cesec50",
+          "source_heading": "Statistical analysis",
+          "analyst_role": "methods",
+          "paragraphs": 2,
+          "prose_words": 230
+        },
+        {
+          "source_section_id": "cesec70",
+          "source_heading": "Results",
+          "analyst_role": "results",
+          "paragraphs": 8,
+          "prose_words": 886
+        },
+        {
+          "source_section_id": "cesec80",
+          "source_heading": "Discussion",
+          "analyst_role": "discussion",
+          "paragraphs": 10,
+          "prose_words": 1455
+        }
+      ]
+    },
+    {
+      "id": "xml-02359",
+      "body_words": 2681,
+      "paragraph_count": 30,
+      "paragraph_median_words": 89.0,
+      "role_words": {
+        "introduction": 412,
+        "methods": 850,
+        "results": 286,
+        "discussion": 945,
+        "conclusion": 188
+      },
+      "nonempty_source_sections": 7,
+      "sections": [
+        {
+          "source_section_id": "s1",
+          "source_heading": "Introduction",
+          "analyst_role": "introduction",
+          "paragraphs": 4,
+          "prose_words": 412
+        },
+        {
+          "source_section_id": "s2a",
+          "source_heading": "Identifying variables relevant to patient experience",
+          "analyst_role": "methods",
+          "paragraphs": 6,
+          "prose_words": 392
+        },
+        {
+          "source_section_id": "s2b",
+          "source_heading": "Inclusion criteria, assessment of quality and categorisation of evidence",
+          "analyst_role": "methods",
+          "paragraphs": 5,
+          "prose_words": 458
+        },
+        {
+          "source_section_id": "s3",
+          "source_heading": "Results",
+          "analyst_role": "results",
+          "paragraphs": 5,
+          "prose_words": 286
+        },
+        {
+          "source_section_id": "s4",
+          "source_heading": "Discussion",
+          "analyst_role": "discussion",
+          "paragraphs": 6,
+          "prose_words": 647
+        },
+        {
+          "source_section_id": "s5",
+          "source_heading": "Study strengths and limitations",
+          "analyst_role": "discussion",
+          "paragraphs": 2,
+          "prose_words": 298
+        },
+        {
+          "source_section_id": "s6",
+          "source_heading": "Conclusion",
+          "analyst_role": "conclusion",
+          "paragraphs": 2,
+          "prose_words": 188
+        }
+      ]
+    },
+    {
+      "id": "xml-02382",
+      "body_words": 5116,
+      "paragraph_count": 50,
+      "paragraph_median_words": 99.5,
+      "role_words": {
+        "introduction": 1261,
+        "methods": 682,
+        "results": 1208,
+        "discussion": 1796,
+        "conclusion": 169
+      },
+      "nonempty_source_sections": 20,
+      "sections": [
+        {
+          "source_section_id": "S0001",
+          "source_heading": "Introduction",
+          "analyst_role": "introduction",
+          "paragraphs": 2,
+          "prose_words": 181
+        },
+        {
+          "source_section_id": "S0001-S20001",
+          "source_heading": "Stigma conceptualizations and terminology",
+          "analyst_role": "introduction",
+          "paragraphs": 5,
+          "prose_words": 578
+        },
+        {
+          "source_section_id": "S0001-S20002",
+          "source_heading": "Previous reviews",
+          "analyst_role": "introduction",
+          "paragraphs": 3,
+          "prose_words": 198
+        },
+        {
+          "source_section_id": "S0001-S20003",
+          "source_heading": "Current review",
+          "analyst_role": "introduction",
+          "paragraphs": 3,
+          "prose_words": 304
+        },
+        {
+          "source_section_id": "S0002-S20001",
+          "source_heading": "Search strategy and selection criteria",
+          "analyst_role": "methods",
+          "paragraphs": 2,
+          "prose_words": 192
+        },
+        {
+          "source_section_id": "S0002-S20002",
+          "source_heading": "Screening and data abstraction",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 179
+        },
+        {
+          "source_section_id": "S0002-S20003",
+          "source_heading": "Quality assessment",
+          "analyst_role": "methods",
+          "paragraphs": 2,
+          "prose_words": 206
+        },
+        {
+          "source_section_id": "S0002-S20004",
+          "source_heading": "Data synthesis",
+          "analyst_role": "methods",
+          "paragraphs": 3,
+          "prose_words": 105
+        },
+        {
+          "source_section_id": "S0003",
+          "source_heading": "Results",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 61
+        },
+        {
+          "source_section_id": "S0003-S20001",
+          "source_heading": "Study and intervention characteristics",
+          "analyst_role": "results",
+          "paragraphs": 5,
+          "prose_words": 651
+        },
+        {
+          "source_section_id": "S0003-S20002",
+          "source_heading": "Study design and measures",
+          "analyst_role": "results",
+          "paragraphs": 2,
+          "prose_words": 216
+        },
+        {
+          "source_section_id": "S0003-S20003",
+          "source_heading": "Study duration and outcomes",
+          "analyst_role": "results",
+          "paragraphs": 2,
+          "prose_words": 169
+        },
+        {
+          "source_section_id": "S0003-S20004",
+          "source_heading": "Quality assessment",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 111
+        },
+        {
+          "source_section_id": "S0004",
+          "source_heading": "Discussion",
+          "analyst_role": "discussion",
+          "paragraphs": 1,
+          "prose_words": 42
+        },
+        {
+          "source_section_id": "S0004-S20001",
+          "source_heading": "Progress in the field",
+          "analyst_role": "discussion",
+          "paragraphs": 3,
+          "prose_words": 282
+        },
+        {
+          "source_section_id": "sec22",
+          "source_heading": "Intervention",
+          "analyst_role": "discussion",
+          "paragraphs": 6,
+          "prose_words": 591
+        },
+        {
+          "source_section_id": "sec23",
+          "source_heading": "Methodology",
+          "analyst_role": "discussion",
+          "paragraphs": 2,
+          "prose_words": 172
+        },
+        {
+          "source_section_id": "sec24",
+          "source_heading": "Measurement",
+          "analyst_role": "discussion",
+          "paragraphs": 3,
+          "prose_words": 428
+        },
+        {
+          "source_section_id": "S0004-S20003",
+          "source_heading": "Limitations",
+          "analyst_role": "discussion",
+          "paragraphs": 2,
+          "prose_words": 281
+        },
+        {
+          "source_section_id": "S0005",
+          "source_heading": "Conclusions",
+          "analyst_role": "conclusion",
+          "paragraphs": 1,
+          "prose_words": 169
+        }
+      ]
+    },
+    {
+      "id": "xml-02415",
+      "body_words": 3705,
+      "paragraph_count": 38,
+      "paragraph_median_words": 83.0,
+      "role_words": {
+        "introduction": 192,
+        "methods": 590,
+        "results": 2203,
+        "discussion": 659,
+        "conclusion": 61
+      },
+      "nonempty_source_sections": 25,
+      "sections": [
+        {
+          "source_section_id": null,
+          "source_heading": null,
+          "analyst_role": "introduction",
+          "paragraphs": 2,
+          "prose_words": 192
+        },
+        {
+          "source_section_id": "s2",
+          "source_heading": "METHODS",
+          "analyst_role": "methods",
+          "paragraphs": 2,
+          "prose_words": 122
+        },
+        {
+          "source_section_id": "s2a",
+          "source_heading": "Search Strategy and Study Selection",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 112
+        },
+        {
+          "source_section_id": "s2b",
+          "source_heading": "Data Collection",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 54
+        },
+        {
+          "source_section_id": "s2c",
+          "source_heading": "Risk of Bias Within Studies",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 74
+        },
+        {
+          "source_section_id": "s2d",
+          "source_heading": "Summary Measures and Synthesis of Results",
+          "analyst_role": "methods",
+          "paragraphs": 3,
+          "prose_words": 228
+        },
+        {
+          "source_section_id": "s3a",
+          "source_heading": "Study Selection",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 77
+        },
+        {
+          "source_section_id": "s3b",
+          "source_heading": "Study Characteristics",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 248
+        },
+        {
+          "source_section_id": "s3c",
+          "source_heading": "Risk of Bias Within Studies",
+          "analyst_role": "results",
+          "paragraphs": 4,
+          "prose_words": 206
+        },
+        {
+          "source_section_id": "s3d",
+          "source_heading": "Results of Individual Studies and Data Synthesis",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 66
+        },
+        {
+          "source_section_id": "s3e1",
+          "source_heading": "SARS-CoV Infection",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 274
+        },
+        {
+          "source_section_id": "s3e2",
+          "source_heading": "Influenza A(H1N1)pdm09 Infection",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 176
+        },
+        {
+          "source_section_id": "s3e3",
+          "source_heading": "Avian Influenza A(H5N1) Infection",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 109
+        },
+        {
+          "source_section_id": "s3e4",
+          "source_heading": "Spanish Influenza A(H1N1) Infection",
+          "analyst_role": "results",
+          "paragraphs": 3,
+          "prose_words": 272
+        },
+        {
+          "source_section_id": "s3e5",
+          "source_heading": "Exploratory Post Hoc Meta-analysis",
+          "analyst_role": "results",
+          "paragraphs": 2,
+          "prose_words": 153
+        },
+        {
+          "source_section_id": "s3f",
+          "source_heading": "Hospital Length of Stay",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 140
+        },
+        {
+          "source_section_id": "s3g",
+          "source_heading": "Duration of Critical Care Support",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 83
+        },
+        {
+          "source_section_id": "s3h",
+          "source_heading": "Viral Antibody Levels",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 103
+        },
+        {
+          "source_section_id": "s3i",
+          "source_heading": "Viral Load",
+          "analyst_role": "results",
+          "paragraphs": 2,
+          "prose_words": 170
+        },
+        {
+          "source_section_id": "s3j",
+          "source_heading": "Severe Adverse Events and Treatment Complications",
+          "analyst_role": "results",
+          "paragraphs": 2,
+          "prose_words": 126
+        },
+        {
+          "source_section_id": "s4",
+          "source_heading": "DISCUSSION",
+          "analyst_role": "discussion",
+          "paragraphs": 2,
+          "prose_words": 226
+        },
+        {
+          "source_section_id": "s4a",
+          "source_heading": "Limitations",
+          "analyst_role": "discussion",
+          "paragraphs": 1,
+          "prose_words": 167
+        },
+        {
+          "source_section_id": "s4b",
+          "source_heading": "Implications for Practice",
+          "analyst_role": "discussion",
+          "paragraphs": 1,
+          "prose_words": 132
+        },
+        {
+          "source_section_id": "s4c",
+          "source_heading": "Further Research Needs",
+          "analyst_role": "discussion",
+          "paragraphs": 1,
+          "prose_words": 134
+        },
+        {
+          "source_section_id": "s4d",
+          "source_heading": "Conclusion",
+          "analyst_role": "conclusion",
+          "paragraphs": 1,
+          "prose_words": 61
+        }
+      ]
+    },
+    {
+      "id": "xml-02448",
+      "body_words": 7203,
+      "paragraph_count": 49,
+      "paragraph_median_words": 116,
+      "role_words": {
+        "introduction": 637,
+        "methods": 1465,
+        "results": 2984,
+        "discussion": 1958,
+        "conclusion": 159
+      },
+      "nonempty_source_sections": 17,
+      "sections": [
+        {
+          "source_section_id": "sec1",
+          "source_heading": "Introduction",
+          "analyst_role": "introduction",
+          "paragraphs": 3,
+          "prose_words": 637
+        },
+        {
+          "source_section_id": "sec2",
+          "source_heading": "Methods",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 50
+        },
+        {
+          "source_section_id": "sec3",
+          "source_heading": "Search strategy and selection criteria",
+          "analyst_role": "methods",
+          "paragraphs": 2,
+          "prose_words": 187
+        },
+        {
+          "source_section_id": "sec4",
+          "source_heading": "Types of studies",
+          "analyst_role": "methods",
+          "paragraphs": 2,
+          "prose_words": 188
+        },
+        {
+          "source_section_id": "sec5",
+          "source_heading": "Outcome data",
+          "analyst_role": "methods",
+          "paragraphs": 1,
+          "prose_words": 70
+        },
+        {
+          "source_section_id": "sec6",
+          "source_heading": "Data extraction, risk of bias, and quality assessment",
+          "analyst_role": "methods",
+          "paragraphs": 3,
+          "prose_words": 217
+        },
+        {
+          "source_section_id": "sec7",
+          "source_heading": "Statistical analysis",
+          "analyst_role": "methods",
+          "paragraphs": 8,
+          "prose_words": 753
+        },
+        {
+          "source_section_id": "sec8",
+          "source_heading": "Results",
+          "analyst_role": "results",
+          "paragraphs": 2,
+          "prose_words": 541
+        },
+        {
+          "source_section_id": "sec9",
+          "source_heading": "Study characteristics",
+          "analyst_role": "results",
+          "paragraphs": 3,
+          "prose_words": 437
+        },
+        {
+          "source_section_id": "sec11",
+          "source_heading": "Blood pressure, renal function, blood lipids, and catecholamine levels in adults",
+          "analyst_role": "results",
+          "paragraphs": 5,
+          "prose_words": 741
+        },
+        {
+          "source_section_id": "sec12",
+          "source_heading": "All cause mortality, cardiovascular disease, stroke, and coronary heart disease in adults",
+          "analyst_role": "results",
+          "paragraphs": 3,
+          "prose_words": 351
+        },
+        {
+          "source_section_id": "sec13",
+          "source_heading": "Blood pressure, blood lipids, and catecholamine levels in children",
+          "analyst_role": "results",
+          "paragraphs": 1,
+          "prose_words": 122
+        },
+        {
+          "source_section_id": "sec14",
+          "source_heading": "Quality of body of evidence",
+          "analyst_role": "results",
+          "paragraphs": 3,
+          "prose_words": 581
+        },
+        {
+          "source_section_id": "sec15",
+          "source_heading": "Sensitivity analysis",
+          "analyst_role": "results",
+          "paragraphs": 3,
+          "prose_words": 211
+        },
+        {
+          "source_section_id": "sec16",
+          "source_heading": "Discussion",
+          "analyst_role": "discussion",
+          "paragraphs": 6,
+          "prose_words": 1657
+        },
+        {
+          "source_section_id": "sec17",
+          "source_heading": "Strengths and limitations of this review",
+          "analyst_role": "discussion",
+          "paragraphs": 2,
+          "prose_words": 301
+        },
+        {
+          "source_section_id": "sec18",
+          "source_heading": "Conclusion",
+          "analyst_role": "conclusion",
+          "paragraphs": 1,
+          "prose_words": 159
+        }
+      ]
+    }
+  ]
+}

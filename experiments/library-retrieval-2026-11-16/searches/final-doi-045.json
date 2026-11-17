@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w143173597",
+      "doi": "10.2307/1340546",
+      "title": "Brown v. Board of Education and the Interest-Convergence Dilemma",
+      "authors": "[\"Derrick A. Bell\"]",
+      "field": "law_public_policy",
+      "q": "\"Brown v. Board of Education and the Interest-Convergence\" Bell filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w143173597",
+      "query": "\"Brown v. Board of Education and the Interest-Convergence\" Bell filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Brown v. Board of Education and the Interest-Convergence Dilemma.",
+          "url": "https://eric.ed.gov/?id=EJ219589",
+          "score": 1
+        },
+        {
+          "title": "The Troublesome Legacy of Brown v. Board of Education",
+          "url": "https://www.researchgate.net/publication/279977911_The_Troublesome_Legacy_of_Brown_v_Board_of_Education",
+          "score": 0.5714285714285714
+        }
+      ]
+    }
+  ]
+}

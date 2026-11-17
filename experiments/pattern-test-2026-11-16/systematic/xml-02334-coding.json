@@ -1,0 +1,506 @@
+{
+  "source_xml_sha256": "125c062cedd823c5de8bb699e99069125d8bdcabd3afe9246aecfca0b3822651",
+  "cache_sha256": "1148c347a28a1d954f052f8934c96d9c51e64a9fa9c1b90443b8847c6d2e8893",
+  "sections": [
+    {
+      "id": "cesec10",
+      "heading": "Introduction",
+      "parent": null,
+      "analyst_role": "introduction"
+    },
+    {
+      "id": "cesec20",
+      "heading": "Methods",
+      "parent": null,
+      "analyst_role": "methods"
+    },
+    {
+      "id": "cesec30",
+      "heading": "Search strategy and selection criteria",
+      "parent": "cesec20",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "cesec40",
+      "heading": "Data extraction",
+      "parent": "cesec20",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "cesec50",
+      "heading": "Statistical analysis",
+      "parent": "cesec20",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "cesec70",
+      "heading": "Results",
+      "parent": null,
+      "analyst_role": "results"
+    },
+    {
+      "id": "cesec80",
+      "heading": "Discussion",
+      "parent": null,
+      "analyst_role": "discussion"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "xml-02334-p001",
+      "section_id": "cesec10",
+      "source_xml_path": "/article/body/sec[1]/p[1]",
+      "start": 0,
+      "end": 911,
+      "span_sha256": "c6f767af7be49fbeef4c08f39a28f1a82c5a5f47500d229402de89679fa72cca",
+      "functions": [
+        "orient",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Neonatal mortality background and unknown prevalence and consequences.",
+      "analyst_role": "introduction",
+      "word_count": 129
+    },
+    {
+      "id": "xml-02334-p002",
+      "section_id": "cesec10",
+      "source_xml_path": "/article/body/sec[1]/p[2]",
+      "start": 913,
+      "end": 1751,
+      "span_sha256": "b5a4270e8df2a26f47cb980699415f155e0fc1aa0589e89934211a70388be38a",
+      "functions": [
+        "orient",
+        "explain",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Burden and inadequacy of estimates.",
+      "analyst_role": "introduction",
+      "word_count": 113
+    },
+    {
+      "id": "xml-02334-p003",
+      "section_id": "cesec10",
+      "source_xml_path": "/article/body/sec[1]/p[3]",
+      "start": 1753,
+      "end": 2360,
+      "span_sha256": "b84a370667fa304665772775be97d63777289a7108c075c3ac2cba5319e51d0a",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Explicit review questions.",
+      "analyst_role": "introduction",
+      "word_count": 83
+    },
+    {
+      "id": "xml-02334-p004",
+      "section_id": "cesec30",
+      "source_xml_path": "/article/body/sec[2]/sec[1]/p[1]",
+      "start": 2362,
+      "end": 3352,
+      "span_sha256": "682e6cb64659d6ae7f57f8902661a8e2535275a1b2efcf52577a34d74d9607ed",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Databases, search dates and sources.",
+      "analyst_role": "methods",
+      "word_count": 143
+    },
+    {
+      "id": "xml-02334-p005",
+      "section_id": "cesec30",
+      "source_xml_path": "/article/body/sec[2]/sec[1]/p[2]",
+      "start": 3354,
+      "end": 4244,
+      "span_sha256": "15c9740aaa049f4220d7994295442d7c173997de354cb705ca5e2a3e13aaaee1",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Eligibility, exclusions and disagreement resolution.",
+      "analyst_role": "methods",
+      "word_count": 133
+    },
+    {
+      "id": "xml-02334-p006",
+      "section_id": "cesec40",
+      "source_xml_path": "/article/body/sec[2]/sec[2]/p[1]",
+      "start": 4246,
+      "end": 4943,
+      "span_sha256": "2a4cfece4dab22134c7675ba9abba7c6e8371ac7435a836164d15cc6539e330e",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Independent screening and data domains.",
+      "analyst_role": "methods",
+      "word_count": 94
+    },
+    {
+      "id": "xml-02334-p007",
+      "section_id": "cesec40",
+      "source_xml_path": "/article/body/sec[2]/sec[2]/p[2]",
+      "start": 4945,
+      "end": 5387,
+      "span_sha256": "1c46fe019d7c399ad6515457de7f3f6de1d1bb9449b6a2fdf424012c3b30cab8",
+      "functions": [
+        "report",
+        "define"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Severity classification and operational criteria.",
+      "analyst_role": "methods",
+      "word_count": 69
+    },
+    {
+      "id": "xml-02334-p008",
+      "section_id": "cesec50",
+      "source_xml_path": "/article/body/sec[2]/sec[3]/p[1]",
+      "start": 5389,
+      "end": 6051,
+      "span_sha256": "7b954b89a2d370fb9832acaabdd791baeb85d9fb00ae0ed3ef99ff866fcf2561",
+      "functions": [
+        "report",
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Synthesis and overlap limitation.",
+      "analyst_role": "methods",
+      "word_count": 97
+    },
+    {
+      "id": "xml-02334-p009",
+      "section_id": "cesec50",
+      "source_xml_path": "/article/body/sec[2]/sec[3]/p[2]",
+      "start": 6053,
+      "end": 6931,
+      "span_sha256": "98bfc998432c86535d3ed564bf86b9891ff629096996f21a6247c93141ea21c8",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Meta-regression and heterogeneity analysis.",
+      "analyst_role": "methods",
+      "word_count": 133
+    },
+    {
+      "id": "xml-02334-p010",
+      "section_id": "cesec70",
+      "source_xml_path": "/article/body/sec[3]/p[1]",
+      "start": 6933,
+      "end": 7669,
+      "span_sha256": "7eae89f23ece46ddd609e7518d7e0efb39401e641dea2016629651aa23b90150",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Search results and reasons for full-text exclusion.",
+      "analyst_role": "results",
+      "word_count": 119
+    },
+    {
+      "id": "xml-02334-p011",
+      "section_id": "cesec70",
+      "source_xml_path": "/article/body/sec[3]/p[2]",
+      "start": 7671,
+      "end": 8331,
+      "span_sha256": "55d25d57fb97553907ccd2e2c5371dd022fb49cf22a91b1b6cbe812dcd0f77e0",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Included studies and their distribution.",
+      "analyst_role": "results",
+      "word_count": 105
+    },
+    {
+      "id": "xml-02334-p012",
+      "section_id": "cesec70",
+      "source_xml_path": "/article/body/sec[3]/p[3]",
+      "start": 8333,
+      "end": 9230,
+      "span_sha256": "22474cf19253c3581ffa6f358ca0be0dd4baba20d0c98f5601dffd90cbf703a0",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Outcomes and risk distributions.",
+      "analyst_role": "results",
+      "word_count": 165
+    },
+    {
+      "id": "xml-02334-p013",
+      "section_id": "cesec70",
+      "source_xml_path": "/article/body/sec[3]/p[4]",
+      "start": 9232,
+      "end": 10593,
+      "span_sha256": "20e5021d4019bc7f9e80f024f671d955a5568ba0f1ac1346bafd03b9adfa0d36",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Multiple insults, subgroup statistics and overlapping gestations.",
+      "analyst_role": "results",
+      "word_count": 229
+    },
+    {
+      "id": "xml-02334-p014",
+      "section_id": "cesec70",
+      "source_xml_path": "/article/body/sec[3]/p[5]",
+      "start": 10595,
+      "end": 11265,
+      "span_sha256": "9f3484de2ab547000a49d90d35c6170ea0f0ac5720f2508b75d7566c8864b914",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Multiple-impairment findings.",
+      "analyst_role": "results",
+      "word_count": 100
+    },
+    {
+      "id": "xml-02334-p015",
+      "section_id": "cesec70",
+      "source_xml_path": "/article/body/sec[3]/p[6]",
+      "start": 11267,
+      "end": 11619,
+      "span_sha256": "7c6b01d3d15e6134b2b49a2f2cc981196ebdd082d96ec4bcc5f2f29c6ccffb0f",
+      "functions": [
+        "report",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Small HIV sample and exclusion from pooled estimate.",
+      "analyst_role": "results",
+      "word_count": 59
+    },
+    {
+      "id": "xml-02334-p016",
+      "section_id": "cesec70",
+      "source_xml_path": "/article/body/sec[3]/p[7]",
+      "start": 11621,
+      "end": 11880,
+      "span_sha256": "e63cc6dac9435a9be4f772cc36991c1eda801f485247bc8088af94230954c37d",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Pooled estimate and comparison.",
+      "analyst_role": "results",
+      "word_count": 46
+    },
+    {
+      "id": "xml-02334-p017",
+      "section_id": "cesec70",
+      "source_xml_path": "/article/body/sec[3]/p[8]",
+      "start": 11882,
+      "end": 12288,
+      "span_sha256": "49daa4f06fc754ccc41f87b2a264c484104395d03197fcf46a771242dddcf7b3",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "High heterogeneity, covariates and missing covariate data.",
+      "analyst_role": "results",
+      "word_count": 63
+    },
+    {
+      "id": "xml-02334-p018",
+      "section_id": "cesec80",
+      "source_xml_path": "/article/body/sec[4]/p[1]",
+      "start": 12290,
+      "end": 13100,
+      "span_sha256": "d9304c4521b0e9c5cfe69d47174a5b609e9fda5151ef618d1ecb6c2ade142ff7",
+      "functions": [
+        "interpret",
+        "qualify",
+        "illustrate"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Summary, study availability and comparison.",
+      "analyst_role": "discussion",
+      "word_count": 129
+    },
+    {
+      "id": "xml-02334-p019",
+      "section_id": "cesec80",
+      "source_xml_path": "/article/body/sec[4]/p[2]",
+      "start": 13102,
+      "end": 14272,
+      "span_sha256": "9ee5960da4fdfd2c4355dc3e90cae6f7d541b075abcbc26ff6e020741f9986cc",
+      "functions": [
+        "interpret",
+        "qualify",
+        "explain",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Interpretations, competing explanations and data limitations.",
+      "analyst_role": "discussion",
+      "word_count": 176
+    },
+    {
+      "id": "xml-02334-p020",
+      "section_id": "cesec80",
+      "source_xml_path": "/article/body/sec[4]/p[3]",
+      "start": 14274,
+      "end": 15069,
+      "span_sha256": "1773c6480b02b4f9db4f4f130cd1dddd64df43b9d724afe29bd1e8ae08d84c21",
+      "functions": [
+        "report",
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Absence of qualifying syphilis evidence and sparse tetanus evidence.",
+      "analyst_role": "discussion",
+      "word_count": 126
+    },
+    {
+      "id": "xml-02334-p021",
+      "section_id": "cesec80",
+      "source_xml_path": "/article/body/sec[4]/p[4]",
+      "start": 15071,
+      "end": 16035,
+      "span_sha256": "b777341cce6667e919dff135705748b70f91c135dc66873f55c0697b4665817d",
+      "functions": [
+        "orient",
+        "report",
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "HIV context, small data and further research.",
+      "analyst_role": "discussion",
+      "word_count": 147
+    },
+    {
+      "id": "xml-02334-p022",
+      "section_id": "cesec80",
+      "source_xml_path": "/article/body/sec[4]/p[5]",
+      "start": 16037,
+      "end": 17067,
+      "span_sha256": "d1abf8d364e70809178a0b8874473483a38249d5535f99b20a9d41b5f5b26484",
+      "functions": [
+        "compare",
+        "interpret",
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Multiple-insult comparison, possible explanation and limits.",
+      "analyst_role": "discussion",
+      "word_count": 157
+    },
+    {
+      "id": "xml-02334-p023",
+      "section_id": "cesec80",
+      "source_xml_path": "/article/body/sec[4]/p[6]",
+      "start": 17069,
+      "end": 17464,
+      "span_sha256": "699ad5a659712ced8577c5303f7e05531c114cc9e0a7bd5f7db82fb24e15831c",
+      "functions": [
+        "qualify",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Behavioral impairment estimation limit.",
+      "analyst_role": "discussion",
+      "word_count": 58
+    },
+    {
+      "id": "xml-02334-p024",
+      "section_id": "cesec80",
+      "source_xml_path": "/article/body/sec[4]/p[7]",
+      "start": 17466,
+      "end": 19857,
+      "span_sha256": "0a96dd610fb0a39976cebd01561ef84ad6a1200238d24ec2091f99f41ff60e11",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Follow-up, selection, reporting and geographic limitations with potential bias mechanisms.",
+      "analyst_role": "discussion",
+      "word_count": 361
+    },
+    {
+      "id": "xml-02334-p025",
+      "section_id": "cesec80",
+      "source_xml_path": "/article/body/sec[4]/p[8]",
+      "start": 19859,
+      "end": 20423,
+      "span_sha256": "68c4db119f831b50ddf7d2b25490d2f27ce5767ead257f0b25bcd6ddf7b73152",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Policy and research implications.",
+      "analyst_role": "discussion",
+      "word_count": 81
+    },
+    {
+      "id": "xml-02334-p026",
+      "section_id": "cesec80",
+      "source_xml_path": "/article/body/sec[4]/p[9]",
+      "start": 20425,
+      "end": 21221,
+      "span_sha256": "8091d60d156b05863c3bb3fc3aa320b150bf3b7b181aba9ab342e085a734ecb2",
+      "functions": [
+        "orient",
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Broader stakes and evidence need.",
+      "analyst_role": "discussion",
+      "word_count": 119
+    },
+    {
+      "id": "xml-02334-p027",
+      "section_id": "cesec80",
+      "source_xml_path": "/article/body/sec[4]/p[10]",
+      "start": 21223,
+      "end": 21977,
+      "span_sha256": "fb14b95fbc535f917f59b2bfaa1adbcf449f8d42b3bd6ca13d286e8b00fa0b91",
+      "functions": [
+        "interpret",
+        "assert",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Concluding implications and conditions for policy change.",
+      "analyst_role": "discussion",
+      "word_count": 101
+    }
+  ],
+  "encountered_element_counts": {
+    "sec": 8,
+    "title": 7,
+    "p": 27
+  },
+  "document_id": "xml-02334",
+  "offset_units": "zero-based Unicode code points, end-exclusive",
+  "scope": "Main-body prose paragraphs, excluding nested lists, figures, tables, captions, boxes, supplements and administrative sections; normalized XML text.",
+  "method_checks": {
+    "introduction_question_gap": "p001–p003",
+    "search_selection": "p004–p006",
+    "extraction": "p006",
+    "appraisal": "eligibility requirements p005 and severity classification p007; no separate formal risk-of-bias tool identified in body",
+    "synthesis": "p008–p009; overlap limitation in Methods",
+    "study_flow": "p010–p011",
+    "findings_uncertainty": "p012–p017",
+    "comparison_limits_implications": "p018–p027",
+    "conclusion": "no separately headed conclusion; final Discussion paragraph p027 draws implications",
+    "combined_or_unheaded": "limitations p024 and closing p027 inside Discussion, unheaded; analytical limitations also in Methods."
+  }
+}

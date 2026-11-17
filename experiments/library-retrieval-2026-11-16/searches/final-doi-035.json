@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_18",
+      "doi": "10.1145/358549.358561",
+      "title": "The emperor's old clothes",
+      "authors": "[\"C. A. R. Hoare\"]",
+      "field": "engineering_computing",
+      "q": "\"The emperor's old clothes\" Hoare filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_18",
+      "query": "\"The emperor's old clothes\" Hoare filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "The emperor's old clothes",
+          "url": "https://wiki.eecs.yorku.ca/course_archive/2019-20/W/3342/_media/wiki%3Ahoare-turing-1980.pdf",
+          "score": 1
+        },
+        {
+          "title": "The Emperor's Old Clothes",
+          "url": "https://www.cs.ru.ac.za/compilerbook/Modula2Standardisation/hoare.htm",
+          "score": 1
+        },
+        {
+          "title": "The Emperor's Old Clothes, and new",
+          "url": "https://aestheticblasphemy.com/blog/quotables/philosophy/the-emperors-old-clothes-and-new/311",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

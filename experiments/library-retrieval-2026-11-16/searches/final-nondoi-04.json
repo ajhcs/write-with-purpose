@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p05",
+      "doi": "",
+      "title": "My Vassar College Faculty ID Makes Everything OK",
+      "authors": "[\"Kiese Laymon\"]",
+      "field": "personal_public_writing",
+      "q": "\"My Vassar College Faculty ID Makes Everything OK\" Laymon pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p05",
+      "query": "\"My Vassar College Faculty ID Makes Everything OK\" Laymon pdf",
+      "urls": [
+        {
+          "title": "My Vassar College Faculty ID Makes Everything OK - https://empathyeducates.org",
+          "url": "https://empathyeducates.org/Journeys-to-and-through/my-vassar-college-faculty-id-makes-everything-ok/",
+          "score": 1
+        },
+        {
+          "title": "My Vassar College Faculty ID Makes Everything OK - Longreads",
+          "url": "https://longreads.com/2014/11/30/my-vassar-college-faculty-id-makes-everything-ok/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

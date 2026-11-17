@@ -1,0 +1,26 @@
+[
+  {
+    "sha256": "40d3734aeea33896c7159eda97280c72336cae0f699f72ddf9313ebedb931c29",
+    "records": [
+      "html-00243",
+      "html-00269",
+      "html-00338",
+      "html-00369",
+      "html-00374",
+      "html-00430",
+      "html-00476",
+      "html-00510"
+    ],
+    "titles": [
+      "A Dog Named Humphrey",
+      "Internacionalista",
+      "No Man’s Land",
+      "November 24, 1963",
+      "Pipe Dreaming",
+      "Remote Control",
+      "The Empathy Exams",
+      "Trasmissions from Camp Trans"
+    ],
+    "interpretation": "Identical response bytes with different requested titles; not evidence of a shared work."
+  }
+]

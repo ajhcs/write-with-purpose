@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-empirical_report-1",
+      "doi": "10.1001/jama.288.3.321",
+      "title": "Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women's Health Initiative randomized controlled trial.",
+      "authors": "[\"Rossouw JE\", \"Anderson GL\", \"Prentice RL\", \"LaCroix AZ\", \"Kooperberg C\", \"Stefanick ML\", \"Jackson RD\", \"Beresford SA\", \"Howard BV\", \"Johnson KC\", \"Kotchen JM\", \"Ockene J\", \"Writing Group for the Women's Health Initiative Investigators\"]",
+      "field": "medicine_health",
+      "q": "\"Risks and benefits of estrogen plus progestin in\" Rossouw filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-empirical_report-1",
+      "query": "\"Risks and benefits of estrogen plus progestin in\" Rossouw filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women",
+          "url": "https://pashev.ru/files/rossouw-2002.pdf.html",
+          "score": 1
+        },
+        {
+          "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women's Health Initiative Randomized Controlled Trial",
+          "url": "https://escholarship.org/uc/item/3mr6f93p",
+          "score": 1
+        },
+        {
+          "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women's Health Initiative Randomized Controlled Trial",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/195120%5C",
+          "score": 1
+        },
+        {
+          "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women's Health Initiative Randomized Controlled Trial",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/195120/",
+          "score": 1
+        },
+        {
+          "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women's Health Initiative Randomized Controlled Trial",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/195120",
+          "score": 1
+        },
+        {
+          "title": "Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women's Health Initiative randomized controlled trial",
+          "url": "https://www.researchgate.net/publication/283074402_Risks_and_benefits_of_estrogen_plus_progestin_in_healthy_postmenopausal_women_principal_results_From_the_Women%27s_Health_Initiative_randomized_controlled_trial",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

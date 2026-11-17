@@ -1,0 +1,865 @@
+{
+  "candidate_id": "wwp-debate-0.1.1",
+  "status": "Adjudication complete; candidate guidance, not installed or empirically optimized",
+  "charter": "charter.md",
+  "counts": {
+    "original_proposals": 22,
+    "challenges": 17,
+    "matched_replies": 17,
+    "core_rules": 4,
+    "inherited_rules": 4,
+    "function_ids_retained": 12
+  },
+  "frozen_stage_verification": [
+    {
+      "stage": 1,
+      "path": "positions/checks-evaluation.json",
+      "sha256": "0aea8b7f494d60267308dcc6dc00043255b106836e2ebedbe2a3513c5d486ab6",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 1,
+      "path": "positions/editing-improvement.json",
+      "sha256": "10ba95657cc7c089ab0dfaa2d7cec5b226852538ab956174d6274329bb6f8c27",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 1,
+      "path": "positions/form-functions.json",
+      "sha256": "d9466e3994f0207a0c06ca1de575933c8282592d2085c865e2c6446600fdf035",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 1,
+      "path": "positions/reader-learning.json",
+      "sha256": "2b0a9854cf38f7e0db461b34c7de0e3dc076fb75d4ec931652e3c070f479022c",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 1,
+      "path": "positions/voice-novelty.json",
+      "sha256": "345c869af99864cabc4537eb7b756ffce00d1dc2d15c05625d03a20dbe32ec54",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 2,
+      "path": "challenges/checks-evaluation.json",
+      "sha256": "7e9852fd5393b636f574c6dd7cd0ed48af9e3c282289671a8ee332d7614ddc72",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 2,
+      "path": "challenges/editing-improvement.json",
+      "sha256": "2f03ab376f80bcd8d30c0529af62e8db82583f0f8ea1490f8b18504dd265383e",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 2,
+      "path": "challenges/form-functions.json",
+      "sha256": "69bb5f863e8458299a74d6780fa0e65ba81671f33afb6f5f3d4aee0d3b0bfb99",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 2,
+      "path": "challenges/reader-learning.json",
+      "sha256": "6ee67e83fa6bbc2a107a1cfe3565c168e96b65d2ba21f135c3d4d516f25ce6cc",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 2,
+      "path": "challenges/voice-novelty.json",
+      "sha256": "16c1a59a856453d49aae43cb06e9b0ac90d316171aad5158bd92fb8f177cc9ac",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 3,
+      "path": "replies/checks-evaluation.json",
+      "sha256": "dbf6585dba2910467edc7493f5a2f76c057ca32d631ea2cabb2cbdac49b1d083",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 3,
+      "path": "replies/editing-improvement.json",
+      "sha256": "448ed0f0bb4898a7694978725a12565a43eb6a6fb5bd068c357bfa2fb84eccb0",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 3,
+      "path": "replies/form-functions.json",
+      "sha256": "050cad054a0cb9a2e2a7bbee0145ce6581cb0de4d226d7d45dab2824c1fef741",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 3,
+      "path": "replies/reader-learning.json",
+      "sha256": "d74856083a831c16b9b2e038c905ad36df03b5b1d09b77ba0983292f0e1b5d7c",
+      "matches_frozen_receipt": true
+    },
+    {
+      "stage": 3,
+      "path": "replies/voice-novelty.json",
+      "sha256": "27d18dc0d8d3d57dc162b0b5932bde1dc6e2cd55839f4a7edea9e71571e17e9c",
+      "matches_frozen_receipt": true
+    }
+  ],
+  "proposal_decisions": [
+    {
+      "proposal_id": "CE-01",
+      "title": "Execute a repair and compare the reader task",
+      "original_path": "positions/checks-evaluation.json",
+      "original_behavior": "Name a reader failure and intervention; construct the actual candidate; compare original and candidate by attempting the same concrete reader task. Select the defensible result, including original if repair fails.",
+      "reply_path": "replies/checks-evaluation.json",
+      "final_reply_wording": "When a material authorized revision has a specific reader or experiential objective, make the intended change and compare the affected original and revised material against that objective and any material loss. For an aesthetic objective, consider the intended effect without requiring an analytic productivity claim. Use the original when the alternative does not earn its tradeoff. A comparison may be a local passage; a second full draft is not required. Model assessment is provisional, not observed reader success.",
+      "disposition": "merge",
+      "final_rule_ids": [
+        "R03"
+      ],
+      "novelty_assessment": "incremental within R03",
+      "reason": "Actual changed prose and before/after task or experience make the comparison concrete, though the reader edit already exists.",
+      "rejected_or_changed_portion": "Analytic recovery as the only valid aesthetic goal or model reattempt as measured benefit.",
+      "challenge_ids": []
+    },
+    {
+      "proposal_id": "CE-02",
+      "title": "Bind actual constraints to final artifact and retain semantic remainder",
+      "original_path": "positions/checks-evaluation.json",
+      "original_behavior": "Map explicitly declared obligations to supported checks or contextual review; check final artifact after last edit, inspect enforcement status and hash; fix actual violations without imposing invented limits.",
+      "reply_path": "replies/checks-evaluation.json",
+      "final_reply_wording": "For an explicit, mechanically testable obligation, use a scoped check of the final artifact when supported, inspect its status, and bind any receipt to the checked bytes. Distinguish exact protected wording from observed wording and semantic preservation. Review material meaning, attribution and uncertainty in context, without requiring a saved record. If the check or delivery binding is unavailable, state the limitation when it matters. Do not infer literal or numerical constraints from a general preference.",
+      "disposition": "retain_as_inherited_defer_automation",
+      "final_rule_ids": [
+        "B03"
+      ],
+      "novelty_assessment": "engineering refinement; not core novelty",
+      "reason": "Retain existing final-artifact checks and semantic remainder. Defer automatic delivery linkage until implemented and tested; no new runtime record mandated.",
+      "rejected_or_changed_portion": "Literal locks inferred from semantic obligations; claiming file hash attests delivered chat or author approval.",
+      "challenge_ids": [
+        "VN-C03"
+      ]
+    },
+    {
+      "proposal_id": "CE-03",
+      "title": "Compare alternatives by gains and explicit losses",
+      "original_path": "positions/checks-evaluation.json",
+      "original_behavior": "When an edit has a consequential tradeoff, create a few genuinely different alternatives including original; record intended gain and strongest specific loss; select for the actual task.",
+      "reply_path": "replies/checks-evaluation.json",
+      "final_reply_wording": "When an authorized change presents a material, uncertain tradeoff, compare the original and the relevant alternative at the least costly level that makes the choice intelligible. Consider possible gains, losses and intended experience, allowing the effect to remain unclear. Make or retain the change that best serves the author's task and protected constraints; surface alternatives when a consequential preference cannot be inferred. Do not require a formal record, multiple complete drafts, a quantified score or a model-invented rationale for each creative choice.",
+      "disposition": "merge",
+      "final_rule_ids": [
+        "R03"
+      ],
+      "novelty_assessment": "incremental within R03",
+      "reason": "A material tradeoff comparison can reveal losses; allow unclear effects and avoid inventing aesthetic justifications.",
+      "rejected_or_changed_portion": "Explicit strongest-loss record for every creative decision; multiple complete drafts by default.",
+      "challenge_ids": [
+        "VN-C04"
+      ]
+    },
+    {
+      "proposal_id": "CE-04",
+      "title": "Separate rule reliability, reader benefit, and issue-based stopping",
+      "original_path": "positions/checks-evaluation.json",
+      "original_behavior": "Freeze rule trigger and counterexamples, retain independent decisions and unresolved states, inspect agreement and disagreement by label and target; separately evaluate baseline vs candidate on actual author and reader outcomes. Stop routine editing when requested issue and relevant checks are resolved and no named issue warrants another pass.",
+      "reply_path": "replies/checks-evaluation.json",
+      "final_reply_wording": "For substantive improvement, examine the whole passage against the author's purpose and intended reader or experience; consider consequential opportunities to improve reasoning, organization or expression, as well as material losses. Execute a supported, authorized improvement where warranted and complete relevant checks. Stop when that task-scaled review is complete and no further authorized alternative offers a specific expected benefit worth its tradeoff; do not create fixed rewrite or consensus loops. A model's judgment remains provisional. For a separately requested annotation or research deliverable, follow its frozen sampling, units, independent coding, uncertainty, adjudication and agreement protocol regardless of whether a label would change the edit.",
+      "disposition": "split_and_merge",
+      "final_rule_ids": [
+        "R01",
+        "R04",
+        "B03"
+      ],
+      "novelty_assessment": "mixed inherited and incremental",
+      "reason": "Use whole-purpose opportunity-aware stopping in R01 and research objective gate in R04; retain independent benefit evaluation outside runtime.",
+      "rejected_or_changed_portion": "Stopping on an empty local issue list before whole-task review; mandatory evaluation study for ordinary writing.",
+      "challenge_ids": [
+        "FF-C01"
+      ]
+    },
+    {
+      "proposal_id": "EI-01",
+      "title": "Choose the authorized depth before minimizing changes",
+      "original_path": "positions/editing-improvement.json",
+      "original_behavior": "Infer the editorial objective from the request and available draft; select copy correction, thought development, argument restructuring or expression improvement. If a request asks for improvement in general, actively identify the most consequential reader-facing opportunity and try a substantive candidate when justified; choose the candidate that better fulfills the objective while satisfying explicit preservation constraints. Minimize collateral changes only after choosing the appropriate intervention, not the global diff.",
+      "reply_path": "replies/editing-improvement.json",
+      "final_reply_wording": "Choose the depth authorized by the request. For correction-only work make the necessary local corrections. For requested improvement, look for a consequential opportunity in thought, structure or expression; consider a representative broader revision when a local repair leaves that opportunity unresolved and broader work is authorized. Select on purpose, fidelity and likely reader or author benefit, not global diff size; preserve explicit constraints and avoid unrelated changes. A sufficient original can stand.",
+      "disposition": "select_with_extension",
+      "final_rule_ids": [
+        "R01"
+      ],
+      "novelty_assessment": "incremental operational change",
+      "reason": "Affirmative opportunity search directly addresses latest user scope. A broader revision need not wait for a failed local repair; current rewrite permission is acknowledged.",
+      "rejected_or_changed_portion": "Global edit-size minimization and defect-only activation; forced rewriting when no useful candidate exists.",
+      "challenge_ids": []
+    },
+    {
+      "proposal_id": "EI-02",
+      "title": "Develop the thought with a bounded inference bridge",
+      "original_path": "positions/editing-improvement.json",
+      "original_behavior": "When the draft contains an observation and an intended conclusion but leaves their connection implicit, construct a concise candidate bridge using only supplied premises. Distinguish author-stated conclusion from the editor's inference; use source-supported scope and conditions. If multiple materially different bridges fit, select none as fact: give the best conditional candidate or a targeted question while improving independent material.",
+      "reply_path": "replies/editing-improvement.json",
+      "final_reply_wording": "When thought development is authorized, distinguish an author-stated conclusion, a supported connection necessary to explain it, and a new editorial interpretation. Compare an affected substantive bridge with supplied premises for force, attribution and conditions; do not infer cause, necessity or endorsement from proximity. If a new interpretation could materially change the author's position or a missing premise changes the conclusion, mark it provisional and offer a consequential competing reading or one focused question while continuing independent work. For prose-only delivery use the best grounded wording and briefly disclose material unresolved uncertainty. Routine connectives do not require exhaustive mapping.",
+      "disposition": "merge",
+      "final_rule_ids": [
+        "R02"
+      ],
+      "novelty_assessment": "substantive within R02",
+      "reason": "Combine three-way provenance distinction with bounded challenge/warrant alternatives, then actually develop the grounded claim.",
+      "rejected_or_changed_portion": "A cautious model bridge silently becoming author thesis; exhaustive maps for ordinary connectives.",
+      "challenge_ids": [
+        "CE-C02",
+        "VN-C01"
+      ]
+    },
+    {
+      "proposal_id": "EI-03",
+      "title": "Recompose around a reader decision, retaining live tradeoffs",
+      "original_path": "positions/editing-improvement.json",
+      "original_behavior": "For an authorized argument or structural improvement, build a compact internal map of claim, reasons, counterconsiderations and decision condition without forcing paragraph labels. Try a second ordering or grouping when it changes what a reader can recover. Select and deliver the stronger route with source-grounded alternatives and conditions intact; describe structural movement if material.",
+      "reply_path": "replies/editing-improvement.json",
+      "final_reply_wording": "When structural improvement is authorized and a materially different arrangement could serve the actual reader or intended experience, compare a representative transition or outline that changes an information dependency, qualification placement or discovery sequence. Retain endorsement, modality, timing, rhetorical status, material facts and counterconsiderations. A decision-led route requires a decision to communicate; preserve inquiry or intended discovery when appropriate. Select independently where the brief settles the tradeoff; show alternatives or flag a material unresolved interpretation where it does not. Materialize a larger revision when plausibly better; do not require two full drafts.",
+      "disposition": "merge",
+      "final_rule_ids": [
+        "R03"
+      ],
+      "novelty_assessment": "incremental within R03",
+      "reason": "Retain status, timing and endorsement checks because movement can change force without changing facts.",
+      "rejected_or_changed_portion": "Decision-first as universal organization and claim map as an independent innovation.",
+      "challenge_ids": [
+        "VN-C02"
+      ]
+    },
+    {
+      "proposal_id": "EI-04",
+      "title": "Improve expression by preserving its job rather than its words",
+      "original_path": "positions/editing-improvement.json",
+      "original_behavior": "For authorized expression improvement, identify the passage's communicative and stylistic effect, then try a revision that makes that effect more vivid, precise or connected using only supplied material. Preserve the author's distinctive images, rhythm, stance and technical distinctions when they work; replace a familiar or ineffective phrase when a better expression serves the author. A change in wording or syntax is not a failure merely because the diff is large.",
+      "reply_path": "replies/editing-improvement.json",
+      "final_reply_wording": "For authorized expression improvement, identify the intended effect as a contextual hypothesis and compare a feasible revision with the original. Retain, transform or remove an image or rhythm according to that effect, the reader and the author's actual constraints; unusual wording alone is not proof of authorial intent. Preserve required wording, stance, facts and technical meaning, and avoid invented experience. Do not equate paraphrase with voice loss or a new synonym with improvement; author judgment remains separate.",
+      "disposition": "merge",
+      "final_rule_ids": [
+        "R03",
+        "B01"
+      ],
+      "novelty_assessment": "incremental expressive application",
+      "reason": "Permit retain/transform/remove within authorized improvement and treat aesthetic effects as contextual; merge with VN-03.",
+      "rejected_or_changed_portion": "Preserving every original word as voice; replacing words merely to demonstrate activity.",
+      "challenge_ids": []
+    },
+    {
+      "proposal_id": "EI-05",
+      "title": "Stop after a useful comparison, not only after finding no defect",
+      "original_path": "positions/editing-improvement.json",
+      "original_behavior": "For an improvement request, make a final reader-task comparison of the original and strongest authorized candidate: identify what the new version lets a reader recover, feel or do, and any content or voice it loses. Deliver the better version, including the original if no candidate earns its tradeoff. Do not make alternate versions or process notes mandatory in the final response; preserve them locally only when a saved artifact workflow warrants it.",
+      "reply_path": "replies/editing-improvement.json",
+      "final_reply_wording": "For a material improvement, compare the original and a feasible authorized revision on the intended reader task or experience and on possible losses of conditions, evidence, voice and emphasis. Treat the comparison as provisional, including an unclear-effect state. Apply the best-supported local or coordinated change, or keep the original, and stop when no specific unresolved issue warrants another pass. Claim observed reader benefit or author acceptance only when independently observed. A direct correction is sufficient for a typo; no mandatory alternate versions or process notes are required in ordinary delivery.",
+      "disposition": "merge_with_extension",
+      "final_rule_ids": [
+        "R01",
+        "R03",
+        "B03"
+      ],
+      "novelty_assessment": "incremental stop condition",
+      "reason": "Accept provisional comparison and unchanged result, but stopping follows a whole requested-work assessment rather than only the first local issue.",
+      "rejected_or_changed_portion": "Model self-approval as benefit or acceptance; unbounded search for strongest candidate.",
+      "challenge_ids": [
+        "CE-C01"
+      ]
+    },
+    {
+      "proposal_id": "FF-01",
+      "title": "Compare structures by the reader question they resolve",
+      "original_path": "positions/form-functions.json",
+      "original_behavior": "Build two materially different arrangements of the same author-provided contributions, not just two heading lists: show their first reader question, order of contributions, relocation of any qualification, and concrete tradeoff. Then draft the selected arrangement or, if the task permits independent choice, choose the one best suited to the stated reader and explain a consequential tradeoff. Shared facts and attributions are invariant unless change is explicitly requested.",
+      "reply_path": "replies/form-functions.json",
+      "final_reply_wording": "When a substantial writing or improvement task admits materially different structures, compare only alternatives that change an information dependency, placement of a significant qualification or reader experience. For each distinguish the reader question answered, recoverable supplied contributions, a gain and a concrete loss. Compare at the smallest useful level and create a complete second draft only when necessary or requested; choose independently if the task resolves the tradeoff. Preserve intentional sequence, explicit format and factual scope.",
+      "disposition": "merge",
+      "final_rule_ids": [
+        "R03",
+        "B02"
+      ],
+      "novelty_assessment": "incremental within R03",
+      "reason": "Visible section roles are inherited. Conditional real structural contrast and preserved rhetorical consequences sharpen that existing practice.",
+      "rejected_or_changed_portion": "Two complete arrangements by quota or static generic genre sequence.",
+      "challenge_ids": []
+    },
+    {
+      "proposal_id": "FF-02",
+      "title": "Bridge the inference by contrasting viable warrants",
+      "original_path": "positions/form-functions.json",
+      "original_behavior": "When a substantial inferential jump is material, locate the author’s actual claim and reasons; articulate at most two plausible connecting principles as explicitly hypothetical alternatives. For each, show what claim scope would follow and which author-supplied fact would discriminate. Ask one focused question if the missing principle changes meaning; otherwise revise using only a supported connection. If neither is grounded, retain the gap or use a clearly marked placeholder rather than invent a fact.",
+      "reply_path": "replies/form-functions.json",
+      "final_reply_wording": "First locate the author's supplied claim, reason and relevant source. Use a grounded connection if it exists. If absent, do not invent it: preserve the claims separately and identify the missing premise when it matters to the requested decision. For requested reasoning help or a useful evidence-bounded contrast, offer explicitly hypothetical and non-exhaustive alternatives including neither/other, along with discriminating evidence. Ask only a necessary question and complete independent work.",
+      "disposition": "revise_and_merge",
+      "final_rule_ids": [
+        "R02"
+      ],
+      "novelty_assessment": "substantive within R02",
+      "reason": "Retain grounded contrasting warrants only when reasoning help or evidence supports a useful contrast; include neither/other and show discriminating evidence.",
+      "rejected_or_changed_portion": "Calling unsupported forks viable or exhaustive; imposing a missing-premise interrogation on copy edits.",
+      "challenge_ids": [
+        "EI-X04",
+        "RL-CH01"
+      ]
+    },
+    {
+      "proposal_id": "FF-03",
+      "title": "Decide disagreement by consequence, then expand annotation on demand",
+      "original_path": "positions/form-functions.json",
+      "original_behavior": "Replace exhaustive first-pass paragraph coding with a targeted “difference in action” test: identify two defensible readings, state the distinct edit or interpretation each would justify, and gather only the context necessary to decide. If both readings lead to the same justified edit, retain the ambiguity and edit without settling the label. If they lead to different changes, inspect attribution, target and actual text extent, then record a bounded reason or preserve both as unresolved. Offline research retains independent full records and does not use this shortcut to create gold.",
+      "reply_path": "replies/form-functions.json",
+      "final_reply_wording": "Gate by objective: independently requested function-definition, boundary, annotation or reliability research retains and investigates relevant disagreements using its protocol, whether or not prose changes. In ordinary editing, compare competing readings only as needed to decide an authorized action, and preserve unresolved ambiguity when the same edit serves both. Record assessed empty, unresolved and unassessed distinctly; a shared edit is not semantic gold.",
+      "disposition": "select_with_revision",
+      "final_rule_ids": [
+        "R04"
+      ],
+      "novelty_assessment": "substantive mechanism change",
+      "reason": "Objective gate plus action-consequence triage is the clearest distinct workflow mechanism; preserve definition/boundary/reliability work, not just finished corpus production.",
+      "rejected_or_changed_portion": "Applying the edit-consequence shortcut to research or treating shared edits as label agreement.",
+      "challenge_ids": [
+        "EI-X02"
+      ]
+    },
+    {
+      "proposal_id": "FF-04",
+      "title": "Select an edit by benefit under constraints, not smallest footprint",
+      "original_path": "positions/form-functions.json",
+      "original_behavior": "For an authorized improvement task, identify the highest-consequence reader problem and compare at least a local repair with a more structural repair when both are plausible. Choose the smallest change that actually resolves the identified problem only after judging their reader effects; when restructuring is materially better, perform it within task constraints and show the major changed relationship. For copy-edit-only tasks retain local editing. Do not invent a need to rewrite adequate prose.",
+      "reply_path": "replies/form-functions.json",
+      "final_reply_wording": "For an authorized improvement, choose a supported intervention that resolves a specific reader problem under the task constraints. Compare local and structural repairs on reader gain and specific loss only when materially different alternatives are plausible and consequential, using the least burdensome adequate comparison; otherwise implement the supported repair directly. The current skill already permits appropriate coordinated changes.",
+      "disposition": "revise_and_merge",
+      "final_rule_ids": [
+        "R01",
+        "R03"
+      ],
+      "novelty_assessment": "incremental within R01/R03",
+      "reason": "Use the selective comparison, but reject defect-only framing and smallest-footprint priority when improvement seeks a better adequate draft.",
+      "rejected_or_changed_portion": "Claim that current skill forbids broad edits; mandatory local and structural drafts; shortest diff as winner.",
+      "challenge_ids": [
+        "RL-CH03"
+      ]
+    },
+    {
+      "proposal_id": "RL01",
+      "title": "Recover a reader task and locate the failed handoff",
+      "original_path": "positions/reader-learning.json",
+      "original_behavior": "For a consequential passage, attempt the reader’s actual next question or action using only what is available at that point; identify the specific missing referent, distinction or inferential bridge. First look for it elsewhere in the supplied sources or draft. Move or explain supported material at the point of need; if the bridge is unavailable, show the precise gap rather than manufacture a premise.",
+      "reply_path": "replies/reader-learning.json",
+      "final_reply_wording": "For a consequential reader-task failure, identify the specific missing referent, distinction or connection; inspect supplied context for the support, make a source-grounded repair and reattempt the task. Treat a model reattempt as provisional. When alternative interpretations do not affect the authorized edit, do not force a label or resolve the ambiguity. If the necessary fact is missing, mark it and do not invent it.",
+      "disposition": "merge",
+      "final_rule_ids": [
+        "R02",
+        "R03",
+        "R04"
+      ],
+      "novelty_assessment": "incremental supporting operation",
+      "reason": "Source-first recovery of a missing link strengthens actual repair; its task reattempt is already present in the writing reference, not a separate invention.",
+      "rejected_or_changed_portion": "Treating model task recovery as observed reader success; forcing irrelevant function labels.",
+      "challenge_ids": []
+    },
+    {
+      "proposal_id": "RL02",
+      "title": "Term and distinction bridge",
+      "original_path": "positions/reader-learning.json",
+      "original_behavior": "Retain a domain term when it names a distinction needed by the task. If the reader must use that distinction and it is not recoverable at first encounter, draft a brief context-specific bridge: term → relevant difference or operational consequence, using provided evidence. Compare term-only and bridged versions for this audience, rather than automatically replacing or defining the term everywhere.",
+      "reply_path": "replies/reader-learning.json",
+      "final_reply_wording": "Keep the precise domain term where it matters. If an intended reader must use a distinction that is not recoverable, place a source-supported explanation of that difference or consequence where needed. Compare alternatives only when consequential, preserve expressive contributions where requested, and do not force a glossary or simplify away meaning.",
+      "disposition": "retain_as_inherited_and_apply",
+      "final_rule_ids": [
+        "B01",
+        "R03"
+      ],
+      "novelty_assessment": "not independent innovation",
+      "reason": "Precise terms plus task-relevant explanation are already explicit in the skills. Apply within comparative expression work; do not spend a core innovation slot on it.",
+      "rejected_or_changed_portion": "Glossary/inline definition mandate or term substitution to optimize readability.",
+      "challenge_ids": []
+    },
+    {
+      "proposal_id": "RL03",
+      "title": "Compete repairs by reader result, not change count",
+      "original_path": "positions/reader-learning.json",
+      "original_behavior": "When substantive editing is authorized and local edits leave a demonstrated reader-task failure, produce a coordinated rewrite that rearranges, combines or develops the supplied content. Compare it with the best local repair on recoverability, source fidelity, voice and explicit constraints. Select the substantive version when it resolves the failure better, and identify consequential reorganization.",
+      "reply_path": "replies/reader-learning.json",
+      "final_reply_wording": "For an authorized improvement, identify the specific reader failure or underdeveloped contribution. If a broader repair is plausibly better and permitted, compare its likely reader gain and specific losses against the original or local repair at the least costly level that permits an informed choice: a sentence, representative passage, or structural sketch may suffice. Implement the supported intervention, including coordinated rewriting when warranted. Produce two complete drafts only when the tradeoff cannot otherwise be assessed or the author requests alternatives. Respect actual preservation, sequence, format and correction-only constraints; identify consequential reorganization.",
+      "disposition": "revise_and_merge",
+      "final_rule_ids": [
+        "R01",
+        "R03"
+      ],
+      "novelty_assessment": "incremental within opportunity/comparison mechanism",
+      "reason": "Accept low-burden comparison and coordinated implementation; extend beyond failed local repair because improvement may exploit an opportunity in adequate prose.",
+      "rejected_or_changed_portion": "Local-failure prerequisite and two full candidate requirement.",
+      "challenge_ids": [
+        "CE-C04",
+        "FF-C02"
+      ]
+    },
+    {
+      "proposal_id": "RL04",
+      "title": "Teach one transferable choice only when useful",
+      "original_path": "positions/reader-learning.json",
+      "original_behavior": "When the author seeks to learn or explicitly invites explanation, connect one actual revision to the reader consequence and show a countercase where the original would work. Invite a short unaided transfer on a later, different passage; preserve that optional learning exercise separately from the delivered edit. If learning was not requested, deliver the improved writing without an unsolicited lesson.",
+      "reply_path": "replies/reader-learning.json",
+      "final_reply_wording": "If the author asks for an explanation, briefly connect the actual edit to its reader consequence; use a countercase only when it clarifies. Offer practice on different material only when the author requests instruction, practice, or an established learning workflow, and after delivering the writing. Practice is optional; let the author attempt before a model solution. Do not infer learning from acceptance. For a research claim, prespecify an independently scored delayed transfer test and include cases where the move should not be used.",
+      "disposition": "retain_as_optional_inherited",
+      "final_rule_ids": [
+        "B04"
+      ],
+      "novelty_assessment": "not independent innovation",
+      "reason": "Merge with VN-05; preserve optional task-linked learning and separate transfer evaluation from acceptance.",
+      "rejected_or_changed_portion": "Unsolicited quiz or delayed task after a rationale request; attempt-first against explicit worked-solution request.",
+      "challenge_ids": [
+        "CE-C03"
+      ]
+    },
+    {
+      "proposal_id": "VN-01",
+      "title": "Recover the author’s live question",
+      "original_path": "positions/voice-novelty.json",
+      "original_behavior": "Extract a short evidence-linked inventory of the author’s observations, questions, claims, tensions and intended effect. Propose two competing questions the existing material could answer, naming which material supports each and what remains unknown. Invite the author to choose, amend or reject; if a response is not available, proceed with a clearly stated provisional reading. The model may suggest an inference as a question, not present it as an authored finding.",
+      "reply_path": "replies/voice-novelty.json",
+      "final_reply_wording": "When developing an unsettled contribution, distinguish supplied observation, author position, unresolved question and model inference. If materially different questions are supported and useful, propose concise alternatives with their evidence and gaps; otherwise develop the best-grounded question. Select provisionally without an interruption when intent is sufficiently clear. An inference proposed by the model is not an author finding; protect explicit source and author constraints.",
+      "disposition": "revise_and_merge",
+      "final_rule_ids": [
+        "R02"
+      ],
+      "novelty_assessment": "substantive within R02",
+      "reason": "Recovering a contribution is inherited; differentiating author observations, open questions and proposed interpretations makes a bounded route for developing it.",
+      "rejected_or_changed_portion": "Mandatory two-question fork and interruption when intent is already clear.",
+      "challenge_ids": []
+    },
+    {
+      "proposal_id": "VN-02",
+      "title": "Structural alternatives with different reader work",
+      "original_path": "positions/voice-novelty.json",
+      "original_behavior": "Build two short maps that preserve the same supplied facts and obligations but change the reader’s entry and order of inference: for example, encounter → problem → argument versus proposition → reasons → boundary. Name the reader benefit and loss of each; develop the selected route as prose. Alternatives must differ in dependency or experience, not just headings or synonyms.",
+      "reply_path": "replies/voice-novelty.json",
+      "final_reply_wording": "When substantive drafting or improvement presents a consequential, feasible structural choice, compare an alternate route only if it changes an information dependency, placement of a material qualification, or the intended reader experience. Render the decisive transition in actual prose, test what each route makes recoverable and delays, and preserve the author’s endorsement, uncertainty and necessary evidence. Choose independently when the brief resolves the tradeoff; present alternatives or identify a material uncertainty only when intent remains unresolved. Use one route if no genuinely distinct feasible alternative exists.",
+      "disposition": "merge",
+      "final_rule_ids": [
+        "R03"
+      ],
+      "novelty_assessment": "incremental within R03",
+      "reason": "Final reply supplies a genuine dependency/qualification/experience test and actual transition; merge structural rivals rather than awarding separate rules.",
+      "rejected_or_changed_portion": "Two maps for every substantial draft; renamed headings and compulsory author selection.",
+      "challenge_ids": [
+        "EI-X03"
+      ]
+    },
+    {
+      "proposal_id": "VN-03",
+      "title": "Distinguish voice-bearing choices from fixable friction",
+      "original_path": "positions/voice-novelty.json",
+      "original_behavior": "Identify what the choice contributes in context and the specific failure, if any. Generate two local candidates: one repairs the failure while retaining the distinctive choice, and a second uses a plainer construction only when it serves the requested task. Compare both against the original in surrounding paragraphs; keep the original if neither improves it. If author explicitly requests stronger revision, make the justified restructuring even when it changes wording substantially.",
+      "reply_path": "replies/voice-novelty.json",
+      "final_reply_wording": "When unusual wording may obstruct the requested effect, identify the intended effect as supported by the brief or context and the specific reader difficulty. Compare the original with a context-faithful revision that may retain, transform, or remove the image or rhythm. Preserve explicit wording constraints and supported meaning; do not infer a preservation requirement from strangeness alone. Select the revision that best serves the request, or keep the original if neither helps. A broader rewrite is appropriate when authorized and necessary.",
+      "disposition": "merge_with_refinement",
+      "final_rule_ids": [
+        "R03",
+        "B01"
+      ],
+      "novelty_assessment": "incremental expressive application",
+      "reason": "Test unusual expression as a defeasible contextual choice; preserve actual intended effect and constraints, not strangeness itself.",
+      "rejected_or_changed_portion": "Presumption that odd wording must be retained; compulsory three-way comparison.",
+      "challenge_ids": [
+        "EI-X01"
+      ]
+    },
+    {
+      "proposal_id": "VN-04",
+      "title": "Challenge the contribution without ghostwriting belief",
+      "original_path": "positions/voice-novelty.json",
+      "original_behavior": "Derive a specific alternative explanation, boundary case or strongest relevant objection from supplied evidence; mark it as a test rather than an accepted fact. Show what would change in the current claim if it held and identify evidence needed to decide. Repair the draft with a qualified alternative or an explicit unresolved question when justified, not a token concession.",
+      "reply_path": "replies/voice-novelty.json",
+      "final_reply_wording": "When the author requests stronger thinking, identify a claim and test a material alternative explanation, boundary case or objection grounded in the available material; mark unsupported possibilities as hypotheses and specify what evidence would discriminate them. Revise the reasoning or scope when warranted, while preserving author endorsement and avoiding an invented factual, causal or procedural dependency. Do not force a counterargument into a correction-only task or personal piece. When materially different author intentions remain plausible, flag the choice while completing independent work.",
+      "disposition": "merge",
+      "final_rule_ids": [
+        "R02"
+      ],
+      "novelty_assessment": "substantive within R02",
+      "reason": "A consequential boundary/objection tied to a revised claim and discriminating evidence develops reasoning beyond a generic source check.",
+      "rejected_or_changed_portion": "Automatic counterarguments and unsupported alternative recast as an equally credible fact.",
+      "challenge_ids": []
+    },
+    {
+      "proposal_id": "VN-05",
+      "title": "Choice-linked apprenticeship",
+      "original_path": "positions/voice-novelty.json",
+      "original_behavior": "After a meaningful revision, give one compact comparison of the author’s version and the adopted alternative, tied to the reader consequence and an optional transfer exercise using a different, source-grounded example. Ask the author to perform the decision before revealing a suggested solution when practice is requested. Maintain rejected suggestions as task-scoped boundaries rather than training global preferences from acceptance alone.",
+      "reply_path": "replies/voice-novelty.json",
+      "final_reply_wording": "If asked, explain a consequential edit briefly using actual wording and the reader consequence. Offer a transfer exercise only when the author requests instruction or practice, or a previously established learning workflow calls for it, and defer it until the deliverable is complete. When practice is requested, let the author attempt first and decline freely; do not treat acceptance as evidence of learning.",
+      "disposition": "retain_as_optional_inherited",
+      "final_rule_ids": [
+        "B04"
+      ],
+      "novelty_assessment": "not independent innovation",
+      "reason": "Teaching from an actual choice is valuable but already present in RWT and prior strategy; narrowed rationale/practice distinction is a small workflow refinement.",
+      "rejected_or_changed_portion": "Homework merely because a writer asked why; attempt-first when a worked solution was requested, corrected in0.1.1.",
+      "challenge_ids": [
+        "RL-CH02"
+      ]
+    }
+  ],
+  "challenge_resolutions": [
+    {
+      "challenge_id": "CE-C01",
+      "target_proposal_id": "EI-05",
+      "challenge_path": "challenges/checks-evaluation.json",
+      "objection": "The same model can assert a candidate is strongest and stop without observing a reader gain; colon example demonstrates no independent benefit.",
+      "proposed_resolution": "For a material authorized change, identify the actual reader problem and compare the original with the changed passage on recoverable information and any condition, voice or evidence lost. Apply supported improvements, check task constraints, and stop when no specific unresolved issue warrants another pass. Treat this as provisional editorial judgment; claim reader benefit or author acceptance only with corresponding evidence. Original plus one edited passage suffices; direct correction suffices for a typo.",
+      "reply_path": "replies/editing-improvement.json",
+      "reply_decision": "revise",
+      "reply_wording": "For a material improvement, compare the original and a feasible authorized revision on the intended reader task or experience and on possible losses of conditions, evidence, voice and emphasis. Treat the comparison as provisional; an unclear effect is a valid outcome. Apply the best-supported local or coordinated change, or keep the original, and stop when no specific unresolved issue warrants another pass. Claim observed reader benefit or author acceptance only when independently observed. A direct correction is sufficient for a typo.",
+      "adjudicated_resolution": "Accepted. Model comparison is provisional and must inspect losses; whole-task improvement opportunity replaces a defect-only stopping account.",
+      "final_rule_ids": [
+        "R01",
+        "R03",
+        "B03"
+      ]
+    },
+    {
+      "challenge_id": "CE-C02",
+      "target_proposal_id": "EI-02",
+      "challenge_path": "challenges/checks-evaluation.json",
+      "objection": "An inference bridge may introduce a new proposition or stronger attribution; exhaustive premise mapping for every connective adds needless burden.",
+      "proposed_resolution": "For authorized development, express a substantive inferred link only if supplied premises support its force and attribution; preserve conditionality. If a missing premise changes the conclusion, leave a question or label a proposal. Compare affected source and revision; no separate full draft is required.",
+      "reply_path": "replies/editing-improvement.json",
+      "reply_decision": "revise",
+      "reply_wording": "For an authorized substantive bridge, compare the affected claim with its supplied premises and preserve force, attribution and conditions. If a missing premise changes the conclusion, leave a focused question or clearly identify a proposed interpretation; do not add causation, necessity or endorsement. Develop and edit independent portions while the issue remains unresolved. A short local source comparison suffices; full premise mapping is optional.",
+      "adjudicated_resolution": "Accepted. Compare substantive inference against premises for force, attribution and conditions; do not infer cause or necessity from adjacency.",
+      "final_rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "challenge_id": "CE-C03",
+      "target_proposal_id": "RL04",
+      "challenge_path": "challenges/checks-evaluation.json",
+      "objection": "A countercase can clarify but does not itself demonstrate learning; requiring a later transfer task burdens ordinary work and one success does not prove broad generalization.",
+      "proposed_resolution": "When learning or explanation is requested, explain the actual reader consequence and use a contrast when helpful. Offer optional practice on different material only if useful to the learning goal. For research claims prespecify transfer task and criterion, include cases where the move should not be used, and separately assess delayed unaided performance. Never require a quiz for delivery.",
+      "reply_path": "replies/reader-learning.json",
+      "reply_decision": "revise",
+      "reply_wording": "If the author asks for an explanation, briefly connect the actual edit to its reader consequence; use a countercase only when it clarifies. Offer practice on different material only when the author requests instruction, practice, or an established learning workflow, and after delivering the writing. Practice is optional; let the author attempt before a model solution. Do not infer learning from acceptance. For a research claim, prespecify an independently scored delayed transfer test and include cases where the move should not be used.",
+      "adjudicated_resolution": "Accepted. Requested explanation and optional learning are distinct; transfer needs separate independent evidence, no compulsory quiz.",
+      "final_rule_ids": [
+        "B04"
+      ]
+    },
+    {
+      "challenge_id": "CE-C04",
+      "target_proposal_id": "RL03",
+      "challenge_path": "challenges/checks-evaluation.json",
+      "objection": "Requiring best local and coordinated candidates risks two full drafts for every task; best implies unbounded search. CE-03 shares this risk.",
+      "proposed_resolution": "When a local repair leaves a specific consequential failure or underdeveloped thought unresolved and broader work is authorized, use the smallest meaningful comparison: a representative passage or coordinated outline, materializing the larger version when plausibly better. Compare reader consequence and loss to original or local repair without exhaustive drafting.",
+      "reply_path": "replies/reader-learning.json",
+      "reply_decision": "revise",
+      "reply_wording": "For an authorized improvement, identify the specific reader failure or underdeveloped contribution. If a broader repair is plausibly better and permitted, compare its likely reader gain and specific losses against the original or local repair at the least costly level that permits an informed choice: a sentence, representative passage, or structural sketch may suffice. Implement the supported intervention, including coordinated rewriting when warranted. Produce two complete drafts only when the tradeoff cannot otherwise be assessed or the author requests alternatives. Respect actual preservation, sequence, format and correction-only constraints; identify consequential reorganization.",
+      "adjudicated_resolution": "Accepted. Representative passage/outline can decide intervention; no unbounded best search or mandatory dual drafts.",
+      "final_rule_ids": [
+        "R01",
+        "R03"
+      ]
+    },
+    {
+      "challenge_id": "EI-X01",
+      "target_proposal_id": "VN-03",
+      "challenge_path": "challenges/editing-improvement.json",
+      "objection": "The stated rule allows a plain alternative, but its starting demand to retain a distinctive image or rhythm can still privilege an accidental awkward phrase as if it were established voice. Distinctiveness and intention must be evidenced, not inferred solely from unusual phrasing. Its own example replaces the image, so the model should be equally free to select that route on an improvement request without an additional plain-language instruction.",
+      "proposed_resolution": "Replace 'compare the original against a repair that retains the distinctive image or rhythm, and, when the brief permits, a plainer alternative' with 'Identify the intended effect and evidenced facts; compare a context-faithful revision that may retain, transform, or remove the image with the original. Preserve imagery the author expressly requires or demonstrably uses for an intended effect; do not infer such a requirement from awkwardness alone.' Example candidate: 'The safety concern became a purchase request, and its reason could be lost along the way.' Label loss as a possibility if that is all the source supports; let the author reject it.",
+      "reply_path": "replies/voice-novelty.json",
+      "reply_decision": "revise",
+      "reply_wording": "When unusual wording may obstruct the requested effect, identify the intended effect as supported by the brief or context and the specific reader difficulty. Compare the original with a context-faithful revision that may retain, transform, or remove the image or rhythm. Preserve explicit wording constraints and supported meaning; do not infer a preservation requirement from strangeness alone. Select the revision that best serves the request, or keep the original if neither helps. A broader rewrite is appropriate when authorized and necessary.",
+      "adjudicated_resolution": "Accepted. Strangeness is not evidence of required voice; transform/remove imagery within brief without inventing experience.",
+      "final_rule_ids": [
+        "R03",
+        "B01"
+      ]
+    },
+    {
+      "challenge_id": "EI-X02",
+      "target_proposal_id": "FF-03",
+      "challenge_path": "challenges/editing-improvement.json",
+      "objection": "The counterexample protects a requested full corpus, but optimizing function definitions can itself require resolving disagreements that do not change the immediate prose edit. If the consequence test decides only which edit to make, it may prematurely close an ambiguous boundary and conceal definition instability or disagreement patterns needed for the stated research objective.",
+      "proposed_resolution": "Precede the difference-in-action test with an objective gate: 'When the deliverable is function-definition development, reliability analysis, boundary adjudication, or corpus annotation, retain and investigate disagreements and their context according to the research protocol regardless of editing effect. In an ordinary editing workflow, resolve only ambiguity that affects an authorized action; record not-assessed separately from agreement.' Preserve independent records and unresolved outcomes; do not treat shared edits as semantic gold.",
+      "reply_path": "replies/form-functions.json",
+      "reply_decision": "revise",
+      "reply_wording": "First identify the requested deliverable. For function-definition development, reliability evaluation, boundary adjudication, or corpus annotation, retain and investigate task-relevant disagreements, context and independent records according to the research protocol, regardless of whether an edit would change. Preserve assessed-empty, unresolved and not-assessed as distinct states. In ordinary editing, when competing readings would not change the authorized action, preserve the ambiguity rather than force a label decision; inspect further when meaning, attribution or a requested edit would differ. Shared editing choices do not establish label agreement or semantic gold.",
+      "adjudicated_resolution": "Accepted. Objective gate includes definition and reliability work, not only corpus production.",
+      "final_rule_ids": [
+        "R04"
+      ]
+    },
+    {
+      "challenge_id": "EI-X03",
+      "target_proposal_id": "VN-02",
+      "challenge_path": "challenges/editing-improvement.json",
+      "objection": "Two alternative maps can be renamed headings rather than real options, and mandatory two-map production on every substantial draft may add burden without improving the chosen draft. The existing skill already instructs the editor to move units and compare concrete alternatives in context, and explicitly authorizes substantial rewrites; the new requirement must have an operational difference and a selection rule.",
+      "proposed_resolution": "Generate a second route only when it changes an information dependency, the location of a material qualification, or the reader's experience. Construct a short executable before/after for the decisive transition, test what the intended reader can recover and what gets delayed, and select independently where task intent resolves the tradeoff. Ask the author only where an unresolved choice would materially change meaning or their desired experience. Permit a single route if no distinct feasible alternative exists.",
+      "reply_path": "replies/voice-novelty.json",
+      "reply_decision": "revise",
+      "reply_wording": "When substantive drafting or improvement presents a consequential, feasible structural choice, compare an alternate route only if it changes an information dependency, placement of a material qualification, or the intended reader experience. Render the decisive transition in actual prose, test what each route makes recoverable and delays, and preserve the author’s endorsement, uncertainty and necessary evidence. Choose independently when the brief resolves the tradeoff; present alternatives or identify a material uncertainty only when intent remains unresolved. Use one route if no genuinely distinct feasible alternative exists.",
+      "adjudicated_resolution": "Accepted. Second route must change dependency, qualification placement or experience; actual decisive prose and independent selection when intent is clear.",
+      "final_rule_ids": [
+        "R03"
+      ]
+    },
+    {
+      "challenge_id": "EI-X04",
+      "target_proposal_id": "FF-02",
+      "challenge_path": "challenges/editing-improvement.json",
+      "objection": "Two hypothetical warrants can expose uncertainty but can also produce choices ungrounded in evidence or cause an unnecessary interrogation. An actionable improvement must show which supplied premise connects to a bounded claim and continue with portions that do not depend on the choice; hypotheses are not necessarily equally likely or author beliefs.",
+      "proposed_resolution": "Offer a grounded provisional formulation: 'Unfilled shifts increased after the schedule change. Additional staff may help cover those shifts; the record does not establish why absences rose.' If the exact source does not support the proposed relation between added staff and coverage, retain that as the author's proposal rather than a proven result. When material alternatives change the recommendation, ask one specific evidence question while editing independent passages; never treat a generated fork as exhaustive.",
+      "reply_path": "replies/form-functions.json",
+      "reply_decision": "revise",
+      "reply_wording": "Identify the author's stated claim, reason and relevant source first. If the connection is supplied, use it in a bounded revision. If it is absent, preserve the separate claims and do not invent evidence, mechanisms or endorsement. When the missing connection materially affects the requested decision, identify the missing premise and, if useful and authorized, offer a small number of clearly marked model hypotheses with an explicit neither/other option and evidence that would distinguish them; they need not be equally plausible or exhaustive. Ask a focused question only if necessary while completing independent work. A copy edit does not require a causal explanation.",
+      "adjudicated_resolution": "Accepted. Grounded revision first; no false dilemma, no assumed causal premise, continue unaffected work.",
+      "final_rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "challenge_id": "FF-C01",
+      "target_proposal_id": "CE-04",
+      "challenge_path": "challenges/form-functions.json",
+      "objection": "An issue-based stop can end an authorized improvement after fixing only the first conspicuous problem: 'no named unresolved issue' depends on whether the editor ever inspected the broader structure and reader objective. At the same time an open-ended search for a superior arrangement would waste time and invite unwanted rewrites. Evaluation of annotation schemes is a distinct research activity, not a mandatory runtime step.",
+      "proposed_resolution": "For substantive improvement, before stopping, perform one task-scaled whole-passage reader review: can the intended reader recover the contribution, consequential reasoning, and conditions, and is there a material structural opportunity supported by the supplied text? Address any consequential issue within scope, or retain the current organization when it serves the task. Stop once that review and relevant checks are complete; do not run additional passes or generate alternatives without a specific expected benefit. If the requested deliverable is a research annotation, follow its independently frozen sampling, unit, adjudication and agreement protocol regardless of whether a label would alter an edit.",
+      "reply_path": "replies/checks-evaluation.json",
+      "reply_decision": "revise",
+      "reply_wording": "For substantive improvement, examine the whole passage against the author's purpose and intended reader or experience; consider consequential opportunities to improve reasoning, organization or expression, as well as material losses. Execute a supported, authorized improvement where warranted and complete relevant checks. Stop when that task-scaled review is complete and no further authorized alternative offers a specific expected benefit worth its tradeoff; do not create fixed rewrite or consensus loops. A model's judgment remains provisional. For a separately requested annotation or research deliverable, follow its frozen sampling, units, independent coding, uncertainty, adjudication and agreement protocol regardless of whether a label would change the edit.",
+      "adjudicated_resolution": "Accepted. Whole-task opportunity review precedes stopping; research follows own objective/protocol regardless of edit effect.",
+      "final_rule_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "challenge_id": "FF-C02",
+      "target_proposal_id": "RL03",
+      "challenge_path": "challenges/form-functions.json",
+      "objection": "The comparison is conditioned on a concrete failure, which is already a useful restriction, but requiring two fully materialized edits whenever a local repair seems insufficient may inflate work and obscure that a user may want editing without a substantial rewrite. A realistic comparison can be brief, internal and asymmetric: a local repair can be rejected by its demonstrated inability to fix the issue, without drafting two complete alternatives. This also applies to my FF-04.",
+      "proposed_resolution": "For an authorized improvement, diagnose a concrete reader failure. When local and structural interventions are both plausible, compare their expected gain and specific loss at the least costly level that makes the choice reviewable; materialize a second complete candidate only if the tradeoff cannot otherwise be judged or the author requests options. Execute the better-supported permitted repair, including a coordinated rewrite when needed; correction-only, requested format, protected language, and intentional voice remain controlling. A request to edit is not automatically a request to restructure, while a request for substantive improvement may authorize it.",
+      "reply_path": "replies/reader-learning.json",
+      "reply_decision": "revise",
+      "reply_wording": "For an authorized improvement, identify the specific reader failure or underdeveloped contribution. If a broader repair is plausibly better and permitted, compare its likely reader gain and specific losses against the original or local repair at the least costly level that permits an informed choice: a sentence, representative passage, or structural sketch may suffice. Implement the supported intervention, including coordinated rewriting when warranted. Produce two complete drafts only when the tradeoff cannot otherwise be assessed or the author requests alternatives. Respect actual preservation, sequence, format and correction-only constraints; identify consequential reorganization.",
+      "adjudicated_resolution": "Accepted. Comparison can be asymmetric and local; no two full drafts. Adjudicator removes local-failure prerequisite when broader opportunity is already clear.",
+      "final_rule_ids": [
+        "R01",
+        "R03"
+      ]
+    },
+    {
+      "challenge_id": "RL-CH01",
+      "target_proposal_id": "FF-02",
+      "challenge_path": "challenges/reader-learning.json",
+      "objection": "Two model-generated warrants can create a false choice, imply unverified mechanisms, and delay an otherwise authorized edit. Calling both viable overstates what is known when the author supplies only a correlation and a recommendation. Selecting one may invite the author to adopt a hypothesis they did not hold.",
+      "proposed_resolution": "Replace “contrast at most two plausible connecting principles” with: “First find the author’s stated reason in supplied material. If it is missing, preserve the observation and recommendation as separate claims; ask what connects them only if the gap prevents the requested decision. Offer alternative warrants only when the author asks for reasoning help or supplied evidence bounds the alternatives; label them as model hypotheses and include neither/other. Do not silently select one or call it viable without evidence.” In a copy edit, retain the original scope and avoid demanding a causal explanation.",
+      "reply_path": "replies/form-functions.json",
+      "reply_decision": "revise",
+      "reply_wording": "For an inferential gap, first seek the author's stated reason in the supplied material and preserve observation, recommendation and attribution separately. If the gap prevents the requested decision, ask what connects them; offer non-exhaustive, explicitly hypothetical alternatives only when reasoning help is requested or supplied evidence bounds a useful contrast. Include neither/other, never silently choose or invent a premise, and proceed with unaffected editing. If no decision depends on the missing link, do not create an interrogation.",
+      "adjudicated_resolution": "Accepted. Find stated reasons first; hypothesis forks are conditional, non-exhaustive and permit neither/other.",
+      "final_rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "challenge_id": "RL-CH02",
+      "target_proposal_id": "VN-05",
+      "challenge_path": "challenges/reader-learning.json",
+      "objection": "Even optional transfer offers can interrupt a writing session, shift work onto the author, or imply their request for an explanation is a request for an exercise. The distinction matters when the author wants a rationale but needs a finished draft now. My RL04 has the same risk and should be narrowed as well.",
+      "proposed_resolution": "Use this wording: “If asked, explain the consequential edit briefly against the actual wording and reader consequence. Offer an exercise only when the author requests instruction, practice, or a previously established learning workflow; defer it until the writing deliverable is complete. If practice is requested, let the author attempt first and permit immediate decline. Never infer learning from acceptance.” Explicitly change my RL04 in the same way.",
+      "reply_path": "replies/voice-novelty.json",
+      "reply_decision": "revise",
+      "reply_wording": "If asked, explain a consequential edit briefly using actual wording and the reader consequence. Offer a transfer exercise only when the author requests instruction or practice, or a previously established learning workflow calls for it, and defer it until the deliverable is complete. When practice is requested, let the author attempt first and decline freely; do not treat acceptance as evidence of learning.",
+      "adjudicated_resolution": "Accepted and narrowly corrected by audit. Rationale is not homework; selected practice can be attempt-first, requested worked solutions are direct.",
+      "final_rule_ids": [
+        "B04"
+      ]
+    },
+    {
+      "challenge_id": "RL-CH03",
+      "target_proposal_id": "FF-04",
+      "challenge_path": "challenges/reader-learning.json",
+      "objection": "The diagnosis that the current skill prohibits larger revisions overstates the baseline: edit-with-purpose already permits coordinated changes and substantive reorganization when requested, and says the smallest set that resolves the problem. Forcing two alternatives on every plausible case can add needless generation and miss a single obvious safe fix.",
+      "proposed_resolution": "Replace mandatory comparison with: “For an authorized improvement, choose the intervention that resolves a specific problem while honoring purpose and constraints. When more than one materially different repair is plausible and consequential, compare their reader effects; otherwise implement the supported repair directly.” Evaluate both insufficient local repairs and unnecessary rewrites.",
+      "reply_path": "replies/form-functions.json",
+      "reply_decision": "revise",
+      "reply_wording": "For an authorized improvement, diagnose a concrete reader problem and choose a supported intervention that resolves it within the author's purpose, format and preservation constraints. When materially different repairs are plausible and their effects consequential, compare the intended gain and specific loss at the least costly level that makes the choice reviewable; write a second full candidate only if needed or requested. Otherwise execute the supported repair directly. Reorganize when it materially improves the authorized task; retain deliberate delay or repetition that serves the intended experience. Correction-only requests remain local.",
+      "adjudicated_resolution": "Accepted burden/baseline correction. Adjudicator additionally rejects defect-only gate for authorized improvement of adequate prose.",
+      "final_rule_ids": [
+        "R01",
+        "R03"
+      ]
+    },
+    {
+      "challenge_id": "VN-C01",
+      "target_proposal_id": "EI-02",
+      "challenge_path": "challenges/voice-novelty.json",
+      "objection": "I disagree with making a model-written inference bridge the default whenever the reader needs a connection. A conclusion and observations can support multiple interpretations even when the resulting bridge is cautious. The presence of “can” does not establish that the chosen generalization is the author’s intended contribution.",
+      "proposed_resolution": "Before insertion, distinguish a source-stated conclusion, an entailment necessary to make that conclusion intelligible, and a new interpretive thesis. Insert the first two if scoped and supported. For the third, label it a provisional alternative and, if choice materially changes meaning, offer the competing reading or ask the author; continue independent editing meanwhile. For prose-only tasks deliver the best grounded version with a concise material uncertainty note, rather than silently attributing the inference.",
+      "reply_path": "replies/editing-improvement.json",
+      "reply_decision": "revise",
+      "reply_wording": "When thought development is authorized, distinguish the author's stated conclusion, a supported connection necessary to make it intelligible, and an editor-proposed interpretation. Express the first two at their supported scope. If a new interpretation could materially change the author's position, mark it provisional and offer a consequential competing reading or ask one focused question; continue independent work. For prose-only delivery, use the best grounded formulation and disclose material unresolved uncertainty briefly; do not silently attribute a new thesis to the author.",
+      "adjudicated_resolution": "Accepted. Separate author-stated conclusion, supported connective and new thesis; qualifier alone does not secure author ownership.",
+      "final_rule_ids": [
+        "R02"
+      ]
+    },
+    {
+      "challenge_id": "VN-C02",
+      "target_proposal_id": "EI-03",
+      "challenge_path": "challenges/voice-novelty.json",
+      "objection": "The decision map usefully preserves tradeoffs, but framing the improvement around a reader decision can quietly promote a provisional author position into a directive. Even an exact claim moved to the opening can change its authority, emphasis or relationship to qualifications. Source inventory alone does not prove fidelity.",
+      "proposed_resolution": "Require a recomposition to retain endorsement, scope, temporal and rhetorical status as well as the text’s facts. Use a decision-first route only where the author has a decision to communicate; offer a discovery-led competitor if exploration itself is the intended experience. Permit model selection on reversible work when the brief settles intent; show competing versions or flag a material inference when it does not.",
+      "reply_path": "replies/editing-improvement.json",
+      "reply_decision": "revise",
+      "reply_wording": "When structural improvement is authorized and a materially different arrangement could serve the actual reader or intended experience, compare a representative transition or outline that changes an information dependency, qualification placement or discovery sequence. Retain endorsement, modality, timing and rhetorical status as well as material facts and counterconsiderations. Use a decision-led route only when the author has a decision to communicate; preserve inquiry or deliberate discovery where that is the purpose. Select independently when the brief settles the tradeoff; show alternatives or flag a material unresolved interpretation when it does not.",
+      "adjudicated_resolution": "Accepted. Check changed rhetorical status/endorsement as well as retained facts; inquiry cannot silently become a directive.",
+      "final_rule_ids": [
+        "R03"
+      ]
+    },
+    {
+      "challenge_id": "VN-C03",
+      "target_proposal_id": "CE-02",
+      "challenge_path": "challenges/voice-novelty.json",
+      "objection": "I disagree with triggering an obligation-to-receipt record for every broadly described “high-stakes preservation obligation.” Such obligations are often semantic and can be mistaken for exact-literal constraints, causing an effective rewrite to be rejected or filling the author’s interface with bookkeeping. Hashing a file also does not attest that the author approved an interpretation or that the checked body is the delivered chat.",
+      "proposed_resolution": "Create a receipt only for explicit mechanically testable obligations and only in a workflow where a final artifact and scoped check exist. Put meaning preservation in a short semantic review when it materially matters, without requiring a separate saved record. Check source/delivery binding where technically supported, and distinguish unavailable chat verification. Never turn a concept or stylistic preference into a literal.",
+      "reply_path": "replies/checks-evaluation.json",
+      "reply_decision": "revise",
+      "reply_wording": "For an explicit, mechanically testable obligation, use a scoped check of the final artifact when supported, inspect its status, and bind any receipt to the checked bytes. Distinguish exact protected wording from observed wording and semantic preservation. Review material meaning, attribution and uncertainty in context, without requiring a saved record. If the check or delivery binding is unavailable, state the limitation when it matters. Do not infer literal or numerical constraints from a general preference.",
+      "adjudicated_resolution": "Accepted. Actual mechanical obligations only; meaning remains contextual, delivery binding is unavailable unless technically established.",
+      "final_rule_ids": [
+        "B03"
+      ]
+    },
+    {
+      "challenge_id": "VN-C04",
+      "target_proposal_id": "CE-03",
+      "challenge_path": "challenges/voice-novelty.json",
+      "objection": "Requiring an explicit strongest loss for each consequential candidate may over-rationalize a creative choice, privileging what the model can name over an author’s intended tension, sound or surprise. A model-generated loss can become a false reason to discard a bolder and more original draft.",
+      "proposed_resolution": "Treat gains and losses as hypotheses, including a legitimate “effect unclear” status; assess whether the author’s intended experience is preserved before applying a decision-memo reader task. Show the original or alternatives only when the tradeoff is consequential and uncertain, and allow authorized substantive edits to proceed without mandatory record creation.",
+      "reply_path": "replies/checks-evaluation.json",
+      "reply_decision": "revise",
+      "reply_wording": "When an authorized change presents a material, uncertain tradeoff, compare the original and the relevant alternative at the least costly level that makes the choice intelligible. Consider possible gains, losses and intended experience, allowing the effect to remain unclear. Make or retain the change that best serves the author's task and protected constraints; surface alternatives when a consequential preference cannot be inferred. Do not require a formal record, multiple complete drafts, a quantified score or a model-invented rationale for each creative choice.",
+      "adjudicated_resolution": "Accepted. Gains/losses are provisional; effect may remain unclear, and aesthetic experience need not justify itself as faster recovery.",
+      "final_rule_ids": [
+        "R03"
+      ]
+    }
+  ],
+  "adjudicator_syntheses": [
+    {
+      "id": "A01",
+      "source": "Latest user scope and charter; EI-01/CE-04 support the direction",
+      "decision": "R01 removes failed-local-repair or named-defect prerequisite for authorized improvement of adequate prose.",
+      "status": "Adjudicator extension, not claimed unanimous wording."
+    },
+    {
+      "id": "A02",
+      "source": "VN-C01/VN-C02 plus E02 explicit claim-revision permission",
+      "decision": "Protect contribution, facts and actual constraints while permitting an explicitly revisable recommendation or argument to change.",
+      "status": "Adjudicator synthesis; author belief is not invented or silently replaced."
+    },
+    {
+      "id": "A03",
+      "source": "Cross-challenge overlap across structure/reader/editing proposals",
+      "decision": "Collapse repeated alternative-comparison mechanisms into R03 rather than grant each advocate a core rule.",
+      "status": "Adjudicator synthesis."
+    },
+    {
+      "id": "A04",
+      "source": "EI-X02/FF-03; local coding limitations",
+      "decision": "Retain12IDs; specify task objective, presence/effectiveness, attribution, overlap, targets and extent; new records cannot silently replace old data.",
+      "status": "Adjudicator clarification; semantic validity remains to test."
+    },
+    {
+      "id": "A05",
+      "source": "Independent audit after eight-case0.1 execution",
+      "decision": "B04 attempt-first is only for chosen practice; requested worked solutions are direct.",
+      "status": "0.1.1 narrow correction; see revision-0.1.1.json."
+    }
+  ],
+  "minority_and_unresolved_alternatives": [
+    {
+      "id": "M01",
+      "alternative": "Require local repair to fail before exploring structure; choose smallest sufficient change.",
+      "proponents": [
+        "RL03",
+        "FF-04",
+        "parts of EI-01 final reply"
+      ],
+      "decision": "Reject as prerequisite; retain restraint for correction/polish.",
+      "strongest_case": "Reduces speculative rewriting and protects effective voice.",
+      "why_not_selected": "Could miss a better structure or expression in an adequate draft despite explicit improvement scope. R01 permits direct whole-work opportunity selection.",
+      "reconsider_if": "Fresh comparisons show opportunity search causes excess rewriting without corresponding benefit; tighten trigger rather than invent a global diff score."
+    },
+    {
+      "id": "M02",
+      "alternative": "Generate two questions, warrants or structural maps on every applicable substantial task.",
+      "proponents": [
+        "VN-01 original",
+        "VN-02 original",
+        "FF-01 original",
+        "FF-02 original"
+      ],
+      "decision": "Reject mandatory number; retain useful non-exhaustive contrast.",
+      "strongest_case": "Explicit branching can prevent premature commitment and expose original alternatives.",
+      "why_not_selected": "False choices and renamed-heading alternatives can add burden or substitute a model thesis.",
+      "reconsider_if": "Author requests brainstorming/comparison or evidence shows recurring premature convergence; expose alternatives then."
+    },
+    {
+      "id": "M03",
+      "alternative": "Always record a named strongest gain/loss for creative choices.",
+      "proponents": [
+        "CE-03 original"
+      ],
+      "decision": "Reject mandatory formalization.",
+      "strongest_case": "Makes silent loss of a condition or distinctive effect visible.",
+      "why_not_selected": "Can reward articulate rationalization and penalize sound, ambiguity or surprise the model cannot explain.",
+      "reconsider_if": "A consequential uncertain tradeoff warrants explicit comparison; allow effect unclear."
+    },
+    {
+      "id": "M04",
+      "alternative": "Preserve a distinctive image first; offer plainer wording only under a separate plain-language request.",
+      "proponents": [
+        "VN-03 original tendency"
+      ],
+      "decision": "Reject preservation inference from strangeness; keep actual protected imagery.",
+      "strongest_case": "Guards against flattening author individuality.",
+      "why_not_selected": "Awkwardness is not proof of intentional voice and can obstruct an authorized improvement.",
+      "reconsider_if": "Author confirms the imagery or supplied style/context supports its deliberate effect."
+    },
+    {
+      "id": "M05",
+      "alternative": "Routine saved obligation/receipt mapping and automatic final-delivery hash gate.",
+      "proponents": [
+        "CE-02 original engineering extension"
+      ],
+      "decision": "Defer automation; retain scoped checks in B03.",
+      "strongest_case": "Could prevent stale checked artifacts being delivered and expose unavailable obligations.",
+      "why_not_selected": "Not implemented; much semantic preservation is not a literal constraint; cannot claim chat binding from file hash.",
+      "reconsider_if": "A concrete delivery adapter exists and tests distinguish artifact identity, scope and semantic remainder."
+    },
+    {
+      "id": "M06",
+      "alternative": "Treat optional practice and delayed transfer as a standalone novel core mechanism.",
+      "proponents": [
+        "VN-05",
+        "RL04"
+      ],
+      "decision": "Retain teaching in B04; reject independent novelty claim.",
+      "strongest_case": "Author explicitly wants to learn professional writing through real choices.",
+      "why_not_selected": "Inspected RWT and prior Astra strategy already contain examples/feedback/transfer; novelty is limited to local workflow scope.",
+      "reconsider_if": "A distinct exercise mechanism demonstrates useful unaided transfer without obstructing requested output."
+    }
+  ],
+  "evidence_policy": "Empirical sources motivate scoped choices; no supplied paper tests this complete rule set. Novelty is relative to inspected baseline only.",
+  "final_files": [
+    "candidate/operative-rules.md",
+    "candidate/rules.json",
+    "candidate/coding-clarifications.md",
+    "candidate/coding-guidance.json",
+    "candidate/worked-improvements.md",
+    "candidate/migration.md"
+  ],
+  "validation_boundary": "Parent/independent reviewers own development execution and audit; these synthetic demonstrations are not holdouts or proof of advantage."
+}

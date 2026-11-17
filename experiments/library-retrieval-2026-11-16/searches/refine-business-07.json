@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_010",
+      "doi": "10.5465/amj.2011.0088",
+      "title": "How Does Human Resource Management Influence Organizational Outcomes? A Meta-analytic Investigation of Mediating Mechanisms",
+      "authors": "[\"Kaifeng Jiang\", \"David P. Lepak\", \"Jia Hu\", \"Judith C. Baer\"]",
+      "field": "business_management",
+      "q": "\"How Does Human Resource Management Influence Organizational Outcomes? A Meta-analytic Investigation of Mediating Me\" Jiang pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_010",
+      "query": "\"How Does Human Resource Management Influence Organizational Outcomes? A Meta-analytic Investigation of Mediating Me\" Jiang pdf",
+      "urls": [
+        {
+          "title": "Jiang, K., Lepak, D. P., Hu, J., & Baer, J. C. (2012). How does human resource management influence organizational outcomes? A meta-analytic investigation of Mediating Mechanisms. *Academy of Management Journal, 55*(6), 1264–1294. https://doi.org/10.5465/amj.2011.0088",
+          "url": "https://strategicjournals.com/index.php/journal/article/download/3297/3107",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

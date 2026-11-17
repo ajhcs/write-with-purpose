@@ -1,0 +1,542 @@
+[
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2098201245.pdf",
+    "source_sha256": "984a0ca9d422ae48b18ddae8a3dceca2a845f0b6cb67d2ba62ad63944e1d1979",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/984a0ca9d422ae48b18ddae8a3dceca2a845f0b6cb67d2ba62ad63944e1d1979.txt",
+    "text_bytes": 62475,
+    "text_sha256": "d1aaf4ed4a20ff47f1ae349d8b4ea778308bb1dd8734046de97dc08e5e517ca9"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2123841895.pdf",
+    "source_sha256": "1c614c14047e9f359121688e155ec9ecb78cef0e5af383c41a1d1fd7f4a424d4",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/1c614c14047e9f359121688e155ec9ecb78cef0e5af383c41a1d1fd7f4a424d4.txt",
+    "text_bytes": 106390,
+    "text_sha256": "7a53899c3e90685e7ba021d88fdd560c0c96e23d7912cfa1d18ae7915e226206"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2066000480.pdf",
+    "source_sha256": "3f334d1bd629ade9585e0b65a68dacd4eacbb6c5220a116d379f56590df53c28",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/3f334d1bd629ade9585e0b65a68dacd4eacbb6c5220a116d379f56590df53c28.txt",
+    "text_bytes": 88148,
+    "text_sha256": "ff8371a21817006eb3c38370b149225f7c2b328e8775e165016015e841032f8d"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2056749365.pdf",
+    "source_sha256": "e07b54a7395e597f8b050d6172b51ca0294071927e9014c42854d35cd8071859",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/e07b54a7395e597f8b050d6172b51ca0294071927e9014c42854d35cd8071859.txt",
+    "text_bytes": 50055,
+    "text_sha256": "acd4668a0f796ff14bbbcfed894ad6e17ae95da0645e3e43da82743ea3885dad"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2078862672.pdf",
+    "source_sha256": "92d3200359a5241c6dec9b9f2f6f87c0e7d6d0ffae557c42a042f354e7322d8a",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/92d3200359a5241c6dec9b9f2f6f87c0e7d6d0ffae557c42a042f354e7322d8a.txt",
+    "text_bytes": 85280,
+    "text_sha256": "ca1d1ce7911fb71a917beb1749684b9d40fa48de01759908ab4897dc94f9f00e"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1965248592.pdf",
+    "source_sha256": "0cfc03f9fa34bb51df4ff3beb9d79009f7cdea50c57d38d4c0c283e416b7d9bc",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/0cfc03f9fa34bb51df4ff3beb9d79009f7cdea50c57d38d4c0c283e416b7d9bc.txt",
+    "text_bytes": 84494,
+    "text_sha256": "6a554fe5cc72493ff0435b733c5d70e4b589ee141c6876141e5392e670bfdf48"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2122006260.pdf",
+    "source_sha256": "b28843a30ecb87a38f93cc1ae913a8d595e6655a2df4e25275b1c813d285c36d",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/b28843a30ecb87a38f93cc1ae913a8d595e6655a2df4e25275b1c813d285c36d.txt",
+    "text_bytes": 87271,
+    "text_sha256": "9886ad9ecbe3d35c9d989a279fc5ee6f35958fe83ad59105550d707354f489ea"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1970389678.pdf",
+    "source_sha256": "2548bc29d99a0a4668d6e20b577cab8cccb1c85e9afab96a6f510930474b2e2f",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/2548bc29d99a0a4668d6e20b577cab8cccb1c85e9afab96a6f510930474b2e2f.txt",
+    "text_bytes": 111702,
+    "text_sha256": "7cfe5347a34addebc3d73407e60b5d63d8c778e67c42d8548f48c7005fb8954a"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2168014017.pdf",
+    "source_sha256": "1786e8bfcfb94e7ead6839673dd1fb10fde40d8cdb47f77b4f035e5a6424bd28",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/1786e8bfcfb94e7ead6839673dd1fb10fde40d8cdb47f77b4f035e5a6424bd28.txt",
+    "text_bytes": 56135,
+    "text_sha256": "b93637ff8453838d5743fe63a7271d01c07147234b2d08f9b3d0368b9d7d19bc"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2045150322-2073bf206497bf2e.pdf",
+    "source_sha256": "2073bf206497bf2e264a4583efb0f8ffdec4a273b15cbd3bb8c19926dd6df36a",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/2073bf206497bf2e264a4583efb0f8ffdec4a273b15cbd3bb8c19926dd6df36a.txt",
+    "text_bytes": 3416,
+    "text_sha256": "6ed5ad1c1f40cdaf5f6acdddf4b7fbbf2d4918b1224edfea3625d9366e6fb341"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2065067355.pdf",
+    "source_sha256": "371e9727f6526ffdf8e7dc68de542e5b41165294776829350f2329c917a783d2",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/371e9727f6526ffdf8e7dc68de542e5b41165294776829350f2329c917a783d2.txt",
+    "text_bytes": 71988,
+    "text_sha256": "22c3b79a2fb88e6936816d656d659f7165ddffe2b8d259d88a5fcfb5485f7252"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2059813301.pdf",
+    "source_sha256": "07aeeee0c6b6f657311bcaf7dd156493997bd82bb9a97b4a5df11380e786cc54",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/07aeeee0c6b6f657311bcaf7dd156493997bd82bb9a97b4a5df11380e786cc54.txt",
+    "text_bytes": 18690,
+    "text_sha256": "6b73e8d67c227937869ef8da23a065b24bb23a3ac0f01dec1734469b47913603"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W3124269743.pdf",
+    "source_sha256": "acb42ab8b46b6c0a6092ee768605d0fcf5166481f84c65c47cf3c7688f501269",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/acb42ab8b46b6c0a6092ee768605d0fcf5166481f84c65c47cf3c7688f501269.txt",
+    "text_bytes": 109588,
+    "text_sha256": "442f1994c35341e5ea8d9255db8337a7d67083192174fc50fdea0b44d8e835b4"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1994771258.pdf",
+    "source_sha256": "e1eda51b39b3ac50033d89cf4ccf720097ea0315d0e6028d972cea5464a27542",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/e1eda51b39b3ac50033d89cf4ccf720097ea0315d0e6028d972cea5464a27542.txt",
+    "text_bytes": 85065,
+    "text_sha256": "7a135490628cabba2e312e05b832a638de329f0f288d82264a5d93247d8f6a7a"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2050766092.pdf",
+    "source_sha256": "1264b9c5d6e6398833cea35f7bf52b0c89b83d2a2d95a3ccf551312234f5f1f7",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/1264b9c5d6e6398833cea35f7bf52b0c89b83d2a2d95a3ccf551312234f5f1f7.txt",
+    "text_bytes": 1864,
+    "text_sha256": "56f2f1d07e74a57037ac5443989f4f7b18fb2fec256c25990c91894bd307edc3"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2166305722-e298860c31793bc3.pdf",
+    "source_sha256": "e298860c31793bc36ef26dfa4a724aa35359dedb3d906a0c7895ad85bfb22c7f",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/e298860c31793bc36ef26dfa4a724aa35359dedb3d906a0c7895ad85bfb22c7f.txt",
+    "text_bytes": 83045,
+    "text_sha256": "9f02896cad257e245e4cbda60435f3fba842674fb86dbbdc9e8bfe794c72e8cd"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2108114881.pdf",
+    "source_sha256": "7c9bcec8fe69ddf5854b3fdf726865e28fc73cc60c251d0d21236c13411e34f2",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/7c9bcec8fe69ddf5854b3fdf726865e28fc73cc60c251d0d21236c13411e34f2.txt",
+    "text_bytes": 85577,
+    "text_sha256": "9a4d2748147f50cc52724fcd93ffac4dfa4884d3878da63efa4ee58abc9dc4f2"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1989765500.pdf",
+    "source_sha256": "59024aebdd758416b25f27bfa7941e2a217e00e21ddbc52fcae365984fbc243f",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "empty_text_layer",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/59024aebdd758416b25f27bfa7941e2a217e00e21ddbc52fcae365984fbc243f.txt",
+    "text_bytes": 16,
+    "text_sha256": "c7f9034fd448868f927dcf94fe314df53b524af244a01203ee2bad12dddc8386"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2108964651-62f451d5cb20fbd2.pdf",
+    "source_sha256": "62f451d5cb20fbd2e96b243eaacfe4230d894ea86fb64d0eeea6ee96c539f890",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/62f451d5cb20fbd2e96b243eaacfe4230d894ea86fb64d0eeea6ee96c539f890.txt",
+    "text_bytes": 65163,
+    "text_sha256": "a6836af4242c4cee6d47d4eb22a821eefb860ce7490284cac2a3616ace0eb5ae"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1481094962.pdf",
+    "source_sha256": "14423283eb6a196e637b162a1a54aaffb8de041a39af30433557f3cc60b29d13",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/14423283eb6a196e637b162a1a54aaffb8de041a39af30433557f3cc60b29d13.txt",
+    "text_bytes": 88292,
+    "text_sha256": "46a8167cc7659b2984a3c0536f1d0f5b9dafe099f3891b6a910fdecc7db9c18b"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2123192905-f064b8362413d1ae.pdf",
+    "source_sha256": "f064b8362413d1aee9d9de39ce5d3e5710c4fcc329dc78fd9f91e966b11b8bef",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/f064b8362413d1aee9d9de39ce5d3e5710c4fcc329dc78fd9f91e966b11b8bef.txt",
+    "text_bytes": 96471,
+    "text_sha256": "a6fe3dcd76865a8bb62c64695fdfa240cebf6ded602b740dff17c172584b8df0"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2133351584.pdf",
+    "source_sha256": "7a6c6328caff3d88e27d4fc002f612b98eeca6a93926ef0e1072b26f41c5b959",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/7a6c6328caff3d88e27d4fc002f612b98eeca6a93926ef0e1072b26f41c5b959.txt",
+    "text_bytes": 102196,
+    "text_sha256": "3ec417143968e2d83308422ffad08e7121c5c8b57af0333d0684ddb2d4ad80b7"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1507907600.pdf",
+    "source_sha256": "a0ea53a65a23254168e19fa0db18e9859fc3015e385b474f034a57a85b61cf1f",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/a0ea53a65a23254168e19fa0db18e9859fc3015e385b474f034a57a85b61cf1f.txt",
+    "text_bytes": 150757,
+    "text_sha256": "ed0f0bc5f1ffb8f179a779333721c9570765f42811eea0a75afb4db265365bda"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2152565303.pdf",
+    "source_sha256": "a186944b421d665cb039a28ef58c60ec0f37892d0b0ce46703213b700f5eb392",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/a186944b421d665cb039a28ef58c60ec0f37892d0b0ce46703213b700f5eb392.txt",
+    "text_bytes": 76634,
+    "text_sha256": "7fd7de77302b2c18bea3106c7bdf7c4a4487f12aa9c55308d5b9a29eab49e680"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W4292158025.pdf",
+    "source_sha256": "3595fc8b9efc8db176c55726659c30aac598fbd1c6fee8a24f9b0972ce992767",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/3595fc8b9efc8db176c55726659c30aac598fbd1c6fee8a24f9b0972ce992767.txt",
+    "text_bytes": 63212,
+    "text_sha256": "e9b0a47fbf4e43226417aa2610e307fbd5cb68b7128b7973c42b4883df3a86c9"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2240963366.pdf",
+    "source_sha256": "5b16bb3a26c136db283dd0606957257805e72b121d2a0ca5a8ac775c27ab7894",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/5b16bb3a26c136db283dd0606957257805e72b121d2a0ca5a8ac775c27ab7894.txt",
+    "text_bytes": 76859,
+    "text_sha256": "d9850242d188cbbed00c1b5be10660301fb7ba686b22f63def7cb2890890aa18"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W3121672546.pdf",
+    "source_sha256": "8722b7c1c66ca21df5813636467b475961b90c5469a7b8486854dd894bd7b075",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/8722b7c1c66ca21df5813636467b475961b90c5469a7b8486854dd894bd7b075.txt",
+    "text_bytes": 71384,
+    "text_sha256": "1a23eb61d2509657da1b2e1b3c61e0fb8b66cb402423c24bbf0db5471fb807d7"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2152122625-b34203535d56eeb4.pdf",
+    "source_sha256": "b34203535d56eeb45ba90b53886dbfe64a0ee4446c17d15b7d7024324463f298",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/b34203535d56eeb45ba90b53886dbfe64a0ee4446c17d15b7d7024324463f298.txt",
+    "text_bytes": 22655,
+    "text_sha256": "f0b9713427620d765f666cf10e818af6c1175af5b13d5be3336c5557a01a26d6"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2138389645.pdf",
+    "source_sha256": "c54a111ed098e51ac9eff1a2d6a38ac1063143418035a56f0edc147e281b52bf",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/c54a111ed098e51ac9eff1a2d6a38ac1063143418035a56f0edc147e281b52bf.txt",
+    "text_bytes": 93234,
+    "text_sha256": "ef4299a9a0e373ffea8980e203ae13333de41772a0520c774f4ad5c3073c69a5"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1558046248.pdf",
+    "source_sha256": "7d86992e261841fc4c9695260a35f266a563bd3d26ffb1cc79210c2e989cd7d1",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/7d86992e261841fc4c9695260a35f266a563bd3d26ffb1cc79210c2e989cd7d1.txt",
+    "text_bytes": 42503,
+    "text_sha256": "a8dfce48a768e6312fbcf1a66f67440aca951fd3c20cf92a3815a63b982055cb"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W111650437.pdf",
+    "source_sha256": "21b470a240ca8c22598a04793cc498cf701e611080bb9c997ed9d6ee919c0011",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/21b470a240ca8c22598a04793cc498cf701e611080bb9c997ed9d6ee919c0011.txt",
+    "text_bytes": 5055,
+    "text_sha256": "59201beb1472d39792fa6eaa0bb471dcc4ebcb7ba468be6d7fb7c06c81c2b48f"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1578960547.pdf",
+    "source_sha256": "495611e01d213eb92218ca1b884f9af22f03827ea734c75cd4985e4673f131e7",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/495611e01d213eb92218ca1b884f9af22f03827ea734c75cd4985e4673f131e7.txt",
+    "text_bytes": 31567,
+    "text_sha256": "f45402d5075100258f668bc3486a5e88e50acd192450375d5ccb674a24dcfbc7"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W17805075-a94f8556eec6466a.pdf",
+    "source_sha256": "a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722.txt",
+    "text_bytes": 22630,
+    "text_sha256": "d4ee6e929469f723b1dd25a3bf79df5dd9473ff4eeae22ddf59aed478ead8aa9"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1552480497-78ce1dfc8869d35f.pdf",
+    "source_sha256": "78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab.txt",
+    "text_bytes": 37159,
+    "text_sha256": "5c1ef2e1deec2b6c8b41110ebe756de3bb2b48a0c14e35da0740f14fecdeadef"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1482060575-c97652cef05d7fed.pdf",
+    "source_sha256": "c97652cef05d7fed50328f5a87b4fcaa8c20af7fe36c1eaece9ff80c6f6c98a9",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/c97652cef05d7fed50328f5a87b4fcaa8c20af7fe36c1eaece9ff80c6f6c98a9.txt",
+    "text_bytes": 46685,
+    "text_sha256": "e45eed2bb50fb39c3f66ceac61a2fad7fb52f167d6298790663659985c804617"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2506228356-60df32d3bf67e51d.pdf",
+    "source_sha256": "60df32d3bf67e51ddb676f8bebed56a421236d7d0fc4700d8a9961e762956d18",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/60df32d3bf67e51ddb676f8bebed56a421236d7d0fc4700d8a9961e762956d18.txt",
+    "text_bytes": 31191,
+    "text_sha256": "dbf342f3f467b2ac40763fe46a4fec58e16517bf93ef98dcb4b5dc5c13ba6d84"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W1578978182.pdf",
+    "source_sha256": "6534542b71c0dbb79ff4421ce3e3c9c6de3663c4f370ed82138d13ebd02f353c",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/6534542b71c0dbb79ff4421ce3e3c9c6de3663c4f370ed82138d13ebd02f353c.txt",
+    "text_bytes": 89602,
+    "text_sha256": "5541772a0c3118441abe587c15902f16db18ab10b60e47660a278404ad964f25"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2135797872.pdf",
+    "source_sha256": "097ceb382cd6d547b30b63004b5f2ae45edefaa2799f8c502f89a914647ef2b8",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/097ceb382cd6d547b30b63004b5f2ae45edefaa2799f8c502f89a914647ef2b8.txt",
+    "text_bytes": 43948,
+    "text_sha256": "b1d790ee375f7ab4ef85fa1e89e8f6bda30fe0fcf47088017df7a80cac3d51aa"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2100197017.pdf",
+    "source_sha256": "69716e2506cf865788f9e2c045b27ac038ea805592d8f8a5d20f73394e56d94b",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/69716e2506cf865788f9e2c045b27ac038ea805592d8f8a5d20f73394e56d94b.txt",
+    "text_bytes": 47902,
+    "text_sha256": "898fca5ec0807dee4790c5809a65b53c98bdfd63bf47ac09aab362f5725aa81a"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2131882595.pdf",
+    "source_sha256": "19d9c5b1be0e78d8a6db88af88b0d0d030c40c8726a3dc580d2f78d2baaa4feb",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/19d9c5b1be0e78d8a6db88af88b0d0d030c40c8726a3dc580d2f78d2baaa4feb.txt",
+    "text_bytes": 62959,
+    "text_sha256": "dc895971bb0ea3b83b76a97406884afb80269558fba088a0101afd54d26349f0"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2115594466.pdf",
+    "source_sha256": "5bd04dac898e0f59f9cad576f15fb93b471ebcbb848ed4097507f359bd70bcd4",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/5bd04dac898e0f59f9cad576f15fb93b471ebcbb848ed4097507f359bd70bcd4.txt",
+    "text_bytes": 32123,
+    "text_sha256": "441b7eed4e6cc07211eede100aaf6f7c6a6f379a3a2d6d740b70ba3e9fc8f4aa"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2120098964.pdf",
+    "source_sha256": "38100865df3e1e7aeb1298bca60c4275cdd58803b0b10ff035fc566bf63114d0",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/38100865df3e1e7aeb1298bca60c4275cdd58803b0b10ff035fc566bf63114d0.txt",
+    "text_bytes": 39833,
+    "text_sha256": "936d1dc36dd7bd7e66a3e073cafb9729864ccb546f1d252195e1f586de804bdb"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2074229485.pdf",
+    "source_sha256": "b90bccba7e0ea510d7de4ae0527de0bd479812e14f91d602d826332dc4b1e234",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/b90bccba7e0ea510d7de4ae0527de0bd479812e14f91d602d826332dc4b1e234.txt",
+    "text_bytes": 47337,
+    "text_sha256": "a591e2d60f5830c14c32a976dae3c867eb21e0337b96fd1051a64e02f75041b5"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2138756793.pdf",
+    "source_sha256": "40033fda006418b086ca7415fd3c2c3f7984a686a97821111cbd7c8d7a5ed795",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/40033fda006418b086ca7415fd3c2c3f7984a686a97821111cbd7c8d7a5ed795.txt",
+    "text_bytes": 17942,
+    "text_sha256": "ff7ab88644b4668ead4af23cef318dc5a315447a7636a76427919c865f46ecc1"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2163851162.pdf",
+    "source_sha256": "e70cd9adfd25a05813cae18ffe8626b4ac584d4294c9de95f0374d58e41998e8",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/e70cd9adfd25a05813cae18ffe8626b4ac584d4294c9de95f0374d58e41998e8.txt",
+    "text_bytes": 84320,
+    "text_sha256": "423195f68936f3acc0cb45a543349c74e3c169ebc564f970e22ceb263b3e2b94"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2041713059.pdf",
+    "source_sha256": "8128cbc2dd7c38323100871bb1a88131f71d1c10f85f86541ce2fdfe2991c9c8",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/8128cbc2dd7c38323100871bb1a88131f71d1c10f85f86541ce2fdfe2991c9c8.txt",
+    "text_bytes": 126651,
+    "text_sha256": "9c7b786794c082c7d82b4dbf4e94680ac95bc4b6879fb03f4cd43736dc263d0b"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2171383742.pdf",
+    "source_sha256": "fa943f4f4c6e7970e9002ba08e4af6da0fbe226e69e180ba389ef0dc1892ef86",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/fa943f4f4c6e7970e9002ba08e4af6da0fbe226e69e180ba389ef0dc1892ef86.txt",
+    "text_bytes": 85542,
+    "text_sha256": "cfb1dba44f8758f7b416094827feed772ee061b8de7bd1345a82dbb69765cd66"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2053331055.pdf",
+    "source_sha256": "4382c22f1ab22200170c1931cef251dfd54cd8ad0e1cb494da9e7c25dfbb31cf",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/4382c22f1ab22200170c1931cef251dfd54cd8ad0e1cb494da9e7c25dfbb31cf.txt",
+    "text_bytes": 75059,
+    "text_sha256": "628fc457e66b5e83c35db17214a5ab03c3f7a55761666be9da343b9937ed1bfd"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2110018436.pdf",
+    "source_sha256": "e12181a9351f6707675bea1dc798f42878ade745c374a8fa18b313228d2c8b4f",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/e12181a9351f6707675bea1dc798f42878ade745c374a8fa18b313228d2c8b4f.txt",
+    "text_bytes": 52657,
+    "text_sha256": "f533f03d3fb53b3fb7266453345a1c193110732362d4bd5dc8939086f1b69de2"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W2166987116-724eb725542b.pdf",
+    "source_sha256": "724eb725542b26b33e004d2a610d39cd9b8610c003528d3ab74aa2a63256301d",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/724eb725542b26b33e004d2a610d39cd9b8610c003528d3ab74aa2a63256301d.txt",
+    "text_bytes": 240426,
+    "text_sha256": "2ef6cb06c88ab0527bd1290074892d8b6da5f888746537dab266b7b8bbd3405a"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W1896125358.pdf",
+    "source_sha256": "655d479cceda72063c0e5d5c44ea131de28ff27f15bf2b6b62eaa1329c5b9941",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/655d479cceda72063c0e5d5c44ea131de28ff27f15bf2b6b62eaa1329c5b9941.txt",
+    "text_bytes": 129850,
+    "text_sha256": "8e2fdc7b23216753fa71f8e47adfe2488d6d7dc6ac5244b2ef4b9e81d70c71e8"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W2473321937-f39a8ddcb666.pdf",
+    "source_sha256": "f39a8ddcb666be93e221dd4a3c0a062a96c4196d26b6d4b0f37ed2ca8f33ef50",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/f39a8ddcb666be93e221dd4a3c0a062a96c4196d26b6d4b0f37ed2ca8f33ef50.txt",
+    "text_bytes": 348314,
+    "text_sha256": "137d222ac352a635ab99ab9caa5a0f12376737d846ab8ba3919ab77fc0119a52"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W2173414121.pdf",
+    "source_sha256": "c49e9482447f2e20d73d4509355ea1c1973e37d4d15bd8f80530deea48e59807",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/c49e9482447f2e20d73d4509355ea1c1973e37d4d15bd8f80530deea48e59807.txt",
+    "text_bytes": 101515,
+    "text_sha256": "cd5c46acfae98b8b2167b14e36d9b9c0ac35f8bfbc56d68c7743b758f774ddec"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W3021589323-4c32632066ed.pdf",
+    "source_sha256": "4c32632066edd22f6b9b0596dedaa4711922beaa9f22c031bd5e3ad775af69df",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/4c32632066edd22f6b9b0596dedaa4711922beaa9f22c031bd5e3ad775af69df.txt",
+    "text_bytes": 108905,
+    "text_sha256": "eb45fb3c85275278951cbbf41ca8712c5fbb49ee459e4a3220bec6e7bb1b6061"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W4243032322-917f23d8d3da.pdf",
+    "source_sha256": "917f23d8d3dad76c04f65a7dd0180c06e091505ad0c6cfbeaf4c091123e3eb67",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/917f23d8d3dad76c04f65a7dd0180c06e091505ad0c6cfbeaf4c091123e3eb67.txt",
+    "text_bytes": 175938,
+    "text_sha256": "f1660fefbcff3592ed3eb47f5f9097f05bb2110f7c7f3dba66440826dd4d9ed3"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W2468999896.pdf",
+    "source_sha256": "9ee2654d4ea1157e73cbbfbe836fe5b804ce920ae1bec028c1246651e9d84171",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/9ee2654d4ea1157e73cbbfbe836fe5b804ce920ae1bec028c1246651e9d84171.txt",
+    "text_bytes": 97442,
+    "text_sha256": "8b802392db1068f64ba9821b2f96009e97c5e78bc6b3970165b8c3f5ab050be4"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/official-brown-7021074961cf.pdf",
+    "source_sha256": "7021074961cffdafdddac07c25c6b21c6a689d1ff118966f5b53bb3a48163ec1",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/7021074961cffdafdddac07c25c6b21c6a689d1ff118966f5b53bb3a48163ec1.txt",
+    "text_bytes": 29884,
+    "text_sha256": "385de00fc038a26b7a99feb6abcb076c79243771c79c858235b758e85e3425c5"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/official-olc-guidance-db8aa0138e0f.pdf",
+    "source_sha256": "db8aa0138e0fcc9fba7d5f1f6b8e6ae893682a8e66f51d3a6374929f331141eb",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/db8aa0138e0fcc9fba7d5f1f6b8e6ae893682a8e66f51d3a6374929f331141eb.txt",
+    "text_bytes": 21262,
+    "text_sha256": "570800d9e0a11b450fe1d20a9e7cd958b46265306babed038dbabc56aa568e69"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/official-heller-memo-4f04086eeb39.pdf",
+    "source_sha256": "4f04086eeb39cedd4b8dbae3573f70cde872ae5707c415f201720dba0e1f0c40",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/4f04086eeb39cedd4b8dbae3573f70cde872ae5707c415f201720dba0e1f0c40.txt",
+    "text_bytes": 3546,
+    "text_sha256": "d8fa1abe577adde986743bf629ca4725ee26b0d4b318fca3b635195ace732c75"
+  },
+  {
+    "source": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/BAE-707da5773609.pdf",
+    "source_sha256": "fd2179e5134bc60cb459ba2a09d495d60626276838fe05533b0d14c983b29281",
+    "scope": "PDF text layer only; no OCR, article cleaning or completeness assessment",
+    "status": "extracted",
+    "text_file": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/text-layers/fd2179e5134bc60cb459ba2a09d495d60626276838fe05533b0d14c983b29281.txt",
+    "text_bytes": 59220,
+    "text_sha256": "50f7295941a42c0fa9c7b9d597591632c960048c64671b3b501b457999a96ce5"
+  }
+]

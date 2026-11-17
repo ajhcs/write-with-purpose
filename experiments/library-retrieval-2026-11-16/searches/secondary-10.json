@@ -1,0 +1,129 @@
+{
+  "batch": 10,
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-3",
+      "doi": "10.1016/s0140-6736(08)61375-6",
+      "title": "Task shifting in health care in resource-poor countries.",
+      "authors": "[\"McPake B\", \"Mensah K\"]",
+      "field": "medicine_health",
+      "q": "\"Task shifting in health care in resource-poor countries.\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-critical_review_of_work-1",
+      "doi": "10.1096/fj.14-0901ufm",
+      "title": "Mycins v Microbes Missing Microbes: How the Overuse of Antibiotics Is Fueling Our Modern Plagues by Martin J. Blaser (2014) Holt New York, USA.",
+      "authors": "[\"Proctor LM\"]",
+      "field": "medicine_health",
+      "q": "\"Mycins v Microbes Missing Microbes: How the Overuse of Antibiotics Is Fueling Our Modern Plagues by Martin J. Blaser (2014) Holt New York, USA.\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-conceptual_explainer-1",
+      "doi": "10.1042/bj20081386",
+      "title": "How mitochondria produce reactive oxygen species.",
+      "authors": "[\"Murphy MP\"]",
+      "field": "medicine_health",
+      "q": "\"How mitochondria produce reactive oxygen species.\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-conceptual_explainer-2",
+      "doi": "10.1016/j.freeradbiomed.2010.09.006",
+      "title": "Oxidative stress, inflammation, and cancer: how are they linked?",
+      "authors": "[\"Reuter S\", \"Gupta SC\", \"Chaturvedi MM\", \"Aggarwal BB\"]",
+      "field": "medicine_health",
+      "q": "\"Oxidative stress, inflammation, and cancer: how are they linked?\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-3",
+      "query": "\"Task shifting in health care in resource-poor countries.\" pdf",
+      "urls": [
+        {
+          "title": "Task shifting in health care in resource-poor countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18790295/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Task shifting in health care in resource-poor countries",
+          "url": "https://www.academia.edu/60513019/Task_shifting_in_health_care_in_resource_poor_countries",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Task-Shifting in HIV Care: A Case Study of Nurse-Centered Community-Based Care in Rural Haiti",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3089597/",
+          "score": 0.42857142857142855,
+          "body_score": 0.8571428571428571
+        }
+      ]
+    },
+    {
+      "candidate_key": "medicine:medicine-critical_review_of_work-1",
+      "query": "\"Mycins v Microbes Missing Microbes: How the Overuse of Antibiotics Is Fueling Our Modern Plagues by Martin J. Blaser (2014) Holt New York, USA.\" pdf",
+      "urls": [
+        {
+          "title": "Mycins v Microbes Missing Microbes: How the Overuse of Antibiotics Is Fueling Our Modern Plagues by Martin J. Blaser (2014) Holt New York, USA",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4139909/",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "medicine:medicine-conceptual_explainer-1",
+      "query": "\"How mitochondria produce reactive oxygen species.\" pdf",
+      "urls": [
+        {
+          "title": "113. Murphy MP. How mitochondria produce reactive oxygen species. Biochem J. 2009;417(1):1-13.",
+          "url": "https://sedici.unlp.edu.ar/bitstream/handle/10915/87853/Documento_completo.pdf-PDFA.pdf?isAllowed=y&sequence=1",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "8. Murphy MP. How mitochondria produce reactive oxygen species. *Biochemical Journal.* 2009;417(1):1-13. doi:10.1042/BJ20081386",
+          "url": "https://research.sabanciuniv.edu/id/eprint/42947/1/10437343_Cokluk_Zeynep.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "How mitochondria produce reactive oxygen species",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19061483/?dopt=Abstract",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Murphy MP (2009) How mitochondria produce rea",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10863-011-9381-4.pdf",
+          "score": 0.5,
+          "body_score": 1
+        },
+        {
+          "title": "Generation of Reactive Oxygen Species by Mitochondria",
+          "url": "https://www.mdpi.com/2076-3921/10/3/415",
+          "score": 0.6666666666666666,
+          "body_score": 0.6666666666666666
+        },
+        {
+          "title": "Mitochondrial reactive oxygen species and cancer",
+          "url": "https://link.springer.com/article/10.1186/2049-3002-2-17",
+          "score": 0.5,
+          "body_score": 0.8333333333333334
+        }
+      ]
+    },
+    {
+      "candidate_key": "medicine:medicine-conceptual_explainer-2",
+      "query": "\"Oxidative stress, inflammation, and cancer: how are they linked?\" pdf",
+      "urls": [
+        {
+          "title": "Oxidative stress, inflammation, and cancer: How are they linked?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2990475",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_044",
+      "doi": "10.1002/9781118785317.weom120077",
+      "title": "Competitive Advantage",
+      "authors": "[\"John McGee\"]",
+      "field": "business_management",
+      "q": "\"Competitive Advantage\" McGee filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_044",
+      "query": "\"Competitive Advantage\" McGee filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Competitive Advantage",
+          "url": "https://www.researchgate.net/publication/313966146_Competitive_Advantage",
+          "score": 1
+        },
+        {
+          "title": "competitive advantage",
+          "url": "https://www.researchgate.net/publication/280246436_competitive_advantage",
+          "score": 1
+        },
+        {
+          "title": "Competence and Competitive Advantage: Towards a Dynamic Model†",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/1467-8551.00139",
+          "score": 1
+        },
+        {
+          "title": "Competitive Advantage: Creating and Sustaining Superior Performance",
+          "url": "https://dspace.vnbrims.org/items/aab9473c-f04e-4366-8168-9c57c39700e0/full",
+          "score": 1
+        },
+        {
+          "title": "Competitive Strategy",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118785317.weom120174",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

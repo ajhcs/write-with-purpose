@@ -1,0 +1,3075 @@
+{
+  "description": "DOI-normalized scout bibliography; original records retained. Same-corpus releases and no-DOI aliases require manual family grouping, not independent sample counts. Parent-verified systems are separate in supplemental-systems.json.",
+  "input_records": 67,
+  "deduplicated_records": 66,
+  "records": [
+    {
+      "canonical_record": {
+        "repository_url": "https://github.com/ParakweetLabs/EmailIntentDataSet",
+        "doi": null,
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/ParakweetLabs/EmailIntentDataSet/master/src/resources/Ask0729-fixed.txt",
+          "https://raw.githubusercontent.com/ParakweetLabs/EmailIntentDataSet/master/src/resources/testSet-qualifiedBatch-fixed.txt",
+          "https://github.com/ParakweetLabs/EmailIntentDataSet/blob/master/LICENSE"
+        ],
+        "baseline_status": "new lead",
+        "human_or_automatic": "labeled; method not specified",
+        "reliability": "not established from inspected material",
+        "code_license": "repository declares Apache-2.0",
+        "annotation_license": "repository declares Apache-2.0; applicability to labels and third-party source rights not separately clarified",
+        "source_text_rights": "unknown",
+        "paywall_retrieval_record": null,
+        "id": "parakweet",
+        "title": "EmailIntentDataSet",
+        "authors": [
+          "Parakweet Labs"
+        ],
+        "year": 2014,
+        "kind": "labeled corpus",
+        "primary_urls": [
+          "https://github.com/ParakweetLabs/EmailIntentDataSet",
+          "https://github.com/ParakweetLabs/EmailIntentDataSet/wiki"
+        ],
+        "verified_scope": "README, wiki, license, repository tree, and both raw text files inspected",
+        "unit": "sentence",
+        "genres_or_forms": "Enron workplace email",
+        "annotation_or_metrics_available": "binary intent: mainly request/propose, some dated commit; tab-separated No/Yes and sentence",
+        "size_and_count_basis": "Wiki: 4,213 training/991 test cases; raw train 3,657 physical lines and test 992 physical lines, discrepancy unresolved",
+        "access_status": "public files accessible; rights of underlying messages unverified",
+        "reuse_recommendation": "Reuse label definitions for comparison and evaluate mismatch before relying on data; do not treat as memo/proposal corpus",
+        "project_feature_mapping": [
+          "F09 hypothesis: requests and proposals as speech acts"
+        ],
+        "limitations": "Single company and short sentences; labels collapsed, training physical-line discrepancy; annotation process and agreement not specified"
+      },
+      "source_occurrences": [
+        {
+          "scout": "business-workplace",
+          "source_file": "agents/business-workplace/findings.json",
+          "id": "parakweet"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "doi": "10.1016/j.ins.2016.03.002",
+        "artifact_urls": [
+          "https://cs.ru.nl/~msappelli/data/AllDataENRON-transposed-final.csv"
+        ],
+        "baseline_status": "new lead",
+        "human_or_automatic": "human annotation indicated by A1/A2; assignment protocol not checked",
+        "reliability": "not established from inspected material",
+        "code_license": "not applicable",
+        "annotation_license": "unknown",
+        "source_text_rights": "unknown",
+        "paywall_retrieval_record": "Publisher not inspected; author site schema and CSV retrieved; no claim about full paper access.",
+        "id": "sappelli",
+        "title": "Assessing e-mail intent and tasks in e-mail messages",
+        "authors": [
+          "Maya Sappelli",
+          "Gabriella Pasi",
+          "Suzan Verberne",
+          "Maaike de Boer",
+          "Wessel Kraaij"
+        ],
+        "year": 2016,
+        "kind": "annotated corpus and single empirical study",
+        "primary_urls": [
+          "https://cs.ru.nl/~msappelli/data/",
+          "https://doi.org/10.1016/j.ins.2016.03.002"
+        ],
+        "verified_scope": "Official schema and downloadable semicolon-delimited CSV inspected; 1,145 data rows after header; two annotator columns",
+        "unit": "message and task",
+        "genres_or_forms": "Enron workplace email",
+        "annotation_or_metrics_available": "ACT1/ACT2, reason, response expectation, number of tasks, and task description, spatial/time sensitivity, type, subject for A1/A2",
+        "size_and_count_basis": "1,145 CSV data rows by local line count; independent annotator coverage not established",
+        "access_status": "CSV HTTP 200; Avocado annotations restricted to LDC licensees on request",
+        "reuse_recommendation": "Reuse original schema and paired columns for disagreement and task/function comparisons after rights clearance",
+        "project_feature_mapping": [
+          "F09 hypothesis; F07 task context"
+        ],
+        "limitations": "Not rhetorical spans or long-form proposals; agreement metrics and scope of two-person overlap require paper verification; raw email text separate"
+      },
+      "source_occurrences": [
+        {
+          "scout": "business-workplace",
+          "source_file": "agents/business-workplace/findings.json",
+          "id": "sappelli"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": "https://github.com/HPI-Information-Systems/Quagga",
+        "doi": null,
+        "artifact_urls": [
+          "https://hpi.de/oldsite/fileadmin/user_upload/fachgebiete/naumann/projekte/WebScience/BusinessCommunicationAnalysis/Quagga/Enron/enron_zones.tar.gz"
+        ],
+        "baseline_status": "new lead",
+        "human_or_automatic": "site says manually annotated",
+        "reliability": "not established from inspected material",
+        "code_license": "not inspected",
+        "annotation_license": "unknown",
+        "source_text_rights": "unknown",
+        "paywall_retrieval_record": null,
+        "id": "quagga",
+        "title": "Bringing Back Structure to Free Text Email Conversations with Recurrent Neural Networks",
+        "authors": [
+          "Tim Repke",
+          "Ralf Krestel"
+        ],
+        "year": 2018,
+        "kind": "annotated corpus and tool",
+        "primary_urls": [
+          "https://hpi.de/naumann/projects/web-science/mimir-corpus-exploration-and-knowledge-management/email-structure.html",
+          "https://github.com/HPI-Information-Systems/Quagga"
+        ],
+        "verified_scope": "Official dataset documentation and schema inspected; archive link returned HTTP 403 to local client",
+        "unit": "character-offset email zones",
+        "genres_or_forms": "Enron and Apache mailing-list email",
+        "annotation_or_metrics_available": "Header, Body, Body/Intro, Body/Outro, Body/Signature; detailed variant adds entities and relations",
+        "size_and_count_basis": "Site states approximately 800 Enron zone emails; approximately 400 detailed; approximately 170 rudimentary; Apache 400 sampled emails",
+        "access_status": "Documentation open; cited zone archive HTTP 403 in local fetch; sample artifact not inspected",
+        "reuse_recommendation": "Use schema as example of span offsets, not a ready-to-import dataset until archive and rights verified",
+        "project_feature_mapping": [
+          "F02/F08 structural preprocessing; not F09"
+        ],
+        "limitations": "Email-specific zones; no direct reuse as longform sections; site download failure is not proof archive absent"
+      },
+      "source_occurrences": [
+        {
+          "scout": "business-workplace",
+          "source_file": "agents/business-workplace/findings.json",
+          "id": "quagga"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "doi": "10.1016/j.esp.2006.06.004",
+        "artifact_urls": [],
+        "baseline_status": "new lead",
+        "human_or_automatic": "author corpus analysis; specific protocol not verified",
+        "reliability": "not established from inspected material",
+        "code_license": "not applicable",
+        "annotation_license": "unknown",
+        "source_text_rights": "unknown",
+        "paywall_retrieval_record": "Publisher article accessed through indexed abstract/snippets; full text offered for purchase; author university page abstract inspected; no purchase or bypass.",
+        "id": "yeung",
+        "title": "In search of commonalities: Some linguistic and rhetorical features of business reports as a genre",
+        "authors": [
+          "Lorrita Yeung"
+        ],
+        "year": 2007,
+        "kind": "single corpus study",
+        "primary_urls": [
+          "https://doi.org/10.1016/j.esp.2006.06.004",
+          "https://scholars.ln.edu.hk/en/publications/in-search-of-commonalities-some-linguistic-and-rhetorical-feature/"
+        ],
+        "verified_scope": "Publisher abstract, corpus snippet and institutional abstract inspected; full paper gated; Nathan thesis independently reports sample characteristics",
+        "unit": "complete report; macro and micro rhetorical organization",
+        "genres_or_forms": "authentic internal and external business reports",
+        "annotation_or_metrics_available": "publisher/institutional abstract reports topical organization, recommendations and rhetorical patterns; limited counts",
+        "size_and_count_basis": "22 authentic reports, mainly Hong Kong plus Singapore, Malaysia and UK; different industry and company contexts",
+        "access_status": "publisher presents purchase PDF; no annotated data release identified",
+        "reuse_recommendation": "Highest-priority professional report comparison; obtain legitimate full paper for coding details, boundaries and counts",
+        "project_feature_mapping": [
+          "F02, F03 and F09 hypotheses"
+        ],
+        "limitations": "Heterogeneous small convenience corpus; no transferable universal norms; dataset availability unverified"
+      },
+      "source_occurrences": [
+        {
+          "scout": "business-workplace",
+          "source_file": "agents/business-workplace/findings.json",
+          "id": "yeung"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "doi": null,
+        "artifact_urls": [
+          "https://etheses.bham.ac.uk/id/eprint/711/1/Nathan10PhD.pdf"
+        ],
+        "baseline_status": "new lead",
+        "human_or_automatic": "researcher discourse analysis; interrater reliability not verified",
+        "reliability": "not established from inspected material",
+        "code_license": "not applicable",
+        "annotation_license": "unknown",
+        "source_text_rights": "unknown",
+        "paywall_retrieval_record": null,
+        "id": "nathan-thesis",
+        "title": "A Genre-based Study of Pedagogical Business Case Reports",
+        "authors": [
+          "Philip Nathan"
+        ],
+        "year": 2010,
+        "kind": "doctoral thesis and corpus study",
+        "primary_urls": [
+          "https://etheses.bham.ac.uk/id/eprint/711/1/Nathan10PhD.pdf"
+        ],
+        "verified_scope": "Full institutional thesis accessible; abstract, findings and figure 32 inspected",
+        "unit": "report components and rhetorical moves",
+        "genres_or_forms": "student pedagogical business case reports",
+        "annotation_or_metrics_available": "orientation, situation analysis, advisory, options and alternatives, summary and consolidation, supplementary supporting information; BAWE comparison adds reflection",
+        "size_and_count_basis": "BCR-1 student corpus plus BAWE comparisons; exact corpus count not verified",
+        "access_status": "open author institutional PDF",
+        "reuse_recommendation": "Reuse defined move labels and decision-oriented examples as seed hypotheses; pilot on expert workplace texts",
+        "project_feature_mapping": [
+          "F02/F09 hypothetical mapping"
+        ],
+        "limitations": "Reported obligatory/optional labels are observations for assignments; do not impose as rules; student genre not workplace"
+      },
+      "source_occurrences": [
+        {
+          "scout": "business-workplace",
+          "source_file": "agents/business-workplace/findings.json",
+          "id": "nathan-thesis"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "doi": "10.1016/j.esp.2016.04.006",
+        "artifact_urls": [
+          "https://durham-repository.worktribe.com/preview/1401020/34717.pdf"
+        ],
+        "baseline_status": "new lead",
+        "human_or_automatic": "researcher move analysis; agreement not checked",
+        "reliability": "not established from inspected material",
+        "code_license": "not applicable",
+        "annotation_license": "unknown",
+        "source_text_rights": "unknown",
+        "paywall_retrieval_record": null,
+        "id": "nathan-options",
+        "title": "Analysing options in pedagogical business case reports: Genre, process and language",
+        "authors": [
+          "Philip Nathan"
+        ],
+        "year": 2016,
+        "kind": "single corpus study",
+        "primary_urls": [
+          "https://doi.org/10.1016/j.esp.2016.04.006",
+          "https://durham-repository.worktribe.com/preview/1401020/34717.pdf"
+        ],
+        "verified_scope": "Publisher abstract and institutional author manuscript with methods and tables available",
+        "unit": "options-analysis excerpt and moves/submoves",
+        "genres_or_forms": "postgraduate student business case reports",
+        "annotation_or_metrics_available": "orientation, identifying option, rationale/motivation, feasibility and evaluational information; repeating cycles; move frequency tables",
+        "size_and_count_basis": "23 extracts, 17,931 words",
+        "access_status": "institutional author manuscript open",
+        "reuse_recommendation": "Use move hierarchy and cycling to design comparisons; extract counts with attribution and retain original unit",
+        "project_feature_mapping": [
+          "F09 and F07 hypotheses"
+        ],
+        "limitations": "Student task excerpts, not complete professional business cases; corpus data itself not located"
+      },
+      "source_occurrences": [
+        {
+          "scout": "business-workplace",
+          "source_file": "agents/business-workplace/findings.json",
+          "id": "nathan-options"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "doi": "10.18552/joaw.v6i1.290",
+        "artifact_urls": [],
+        "baseline_status": "new lead",
+        "human_or_automatic": "rhetorical analysis; coding protocol not checked",
+        "reliability": "not established from inspected material",
+        "code_license": "not applicable",
+        "annotation_license": "unknown",
+        "source_text_rights": "unknown",
+        "paywall_retrieval_record": null,
+        "id": "nathan-mba",
+        "title": "A Genre-based Study of Case Response Writing on an MBA Programme",
+        "authors": [
+          "Philip B. Nathan"
+        ],
+        "year": 2016,
+        "kind": "single corpus study",
+        "primary_urls": [
+          "https://doi.org/10.18552/joaw.v6i1.290",
+          "https://publications.coventry.ac.uk/index.php/joaw/article/view/290"
+        ],
+        "verified_scope": "Journal abstract and citation metadata inspected",
+        "unit": "student non-report case response",
+        "genres_or_forms": "case critique, case advisory, case comparison",
+        "annotation_or_metrics_available": "reports variation in rhetorical structure, orientation, analysis and conclusion and lexical metrics",
+        "size_and_count_basis": "36 student texts, approximately 40,000 words",
+        "access_status": "journal article page public; separate corpus and license not verified",
+        "reuse_recommendation": "Compare within-business genre distinctions; locate full text and tables before extracting results",
+        "project_feature_mapping": [
+          "F02/F09 hypothesis"
+        ],
+        "limitations": "Only abstract inspected; student assignments not practitioner norms"
+      },
+      "source_occurrences": [
+        {
+          "scout": "business-workplace",
+          "source_file": "agents/business-workplace/findings.json",
+          "id": "nathan-mba"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "doi": null,
+        "artifact_urls": [
+          "https://www.ets.org/Media/Research/pdf/TOEIC-RR-02.pdf"
+        ],
+        "baseline_status": "new lead",
+        "human_or_automatic": "unknown",
+        "reliability": "not established from inspected material",
+        "code_license": "not applicable",
+        "annotation_license": "unknown",
+        "source_text_rights": "unknown",
+        "paywall_retrieval_record": null,
+        "id": "dudley-evans-stjohn",
+        "title": "Report on Business English: A Review of Research and Published Teaching Materials",
+        "authors": [
+          "Tony Dudley-Evans",
+          "Maggie Jo St. John"
+        ],
+        "year": 1996,
+        "kind": "narrative research and teaching-materials review",
+        "primary_urls": [
+          "https://www.ets.org/research/policy_research_reports/publications/publication/1996/czey.html",
+          "https://www.ets.org/Media/Research/pdf/TOEIC-RR-02.pdf"
+        ],
+        "verified_scope": "ETS metadata and full PDF section on genre analysis and business practitioner writing inspected",
+        "unit": "research literature and text types",
+        "genres_or_forms": "memos, letters, reports and other business English",
+        "annotation_or_metrics_available": "critical review of business communication research and contextual purposes; reports sparse research as of 1996",
+        "size_and_count_basis": "45 pages per publisher; no systematic review or pooled studies count claimed",
+        "access_status": "public official PDF",
+        "reuse_recommendation": "Mine cited studies and distinctions between genres and purposes; no dataset pooling inferred",
+        "project_feature_mapping": [
+          "F09 and form-context conceptual guidance"
+        ],
+        "limitations": "Historical narrative review and materials evaluation; instructional and language-training orientation, not quantitative meta-analysis"
+      },
+      "source_occurrences": [
+        {
+          "scout": "business-workplace",
+          "source_file": "agents/business-workplace/findings.json",
+          "id": "dudley-evans-stjohn"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "doi": "10.5465/amr.1992.4279545",
+        "artifact_urls": [],
+        "baseline_status": "new lead",
+        "human_or_automatic": "unknown",
+        "reliability": "not established from inspected material",
+        "code_license": "not applicable",
+        "annotation_license": "unknown",
+        "source_text_rights": "unknown",
+        "paywall_retrieval_record": "Publisher PDF returned HTTP 403; no access claims beyond abstract.",
+        "id": "yates-orlikowski",
+        "title": "Genres of Organizational Communication: A Structurational Approach to Studying Communication and Media",
+        "authors": [
+          "JoAnne Yates",
+          "Wanda J. Orlikowski"
+        ],
+        "year": 1992,
+        "kind": "conceptual/methodological synthesis",
+        "primary_urls": [
+          "https://doi.org/10.5465/amr.1992.4279545"
+        ],
+        "verified_scope": "publisher abstract and citation metadata inspected; full PDF returned HTTP 403",
+        "unit": "organizational communicative action",
+        "genres_or_forms": "memo, proposal, meeting",
+        "annotation_or_metrics_available": "genre as recurrent communicative action with shared substance and form; historical example",
+        "size_and_count_basis": "conceptual paper; corpus count not applicable",
+        "access_status": "publisher abstract accessible, full PDF fetch HTTP 403",
+        "reuse_recommendation": "Use to anchor social context and purpose, not a corpus or prescriptive structure",
+        "project_feature_mapping": [
+          "F09 contextual interpretation"
+        ],
+        "limitations": "Only abstract inspected; no coded data or general prevalence inferred"
+      },
+      "source_occurrences": [
+        {
+          "scout": "business-workplace",
+          "source_file": "agents/business-workplace/findings.json",
+          "id": "yates-orlikowski"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "DC01",
+        "title": "The GUM Corpus: Creating Multilayer Resources in the Classroom",
+        "authors": [
+          "Amir Zeldes"
+        ],
+        "year": 2017,
+        "kind": "corpus",
+        "doi": "10.1007/s10579-016-9343-x",
+        "primary_urls": [
+          "https://gucorpling.org/gum/annotations.html",
+          "https://gucorpling.org/gum/download.html"
+        ],
+        "repository_url": "https://github.com/amir-zeldes/gum",
+        "artifact_urls": [
+          "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/_build/src/xml/GUM_academic_art.xml",
+          "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/rst/rstweb/GUM_academic_art.rs4",
+          "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/LICENSE.md",
+          "https://wiki.gucorpling.org/gum/rst"
+        ],
+        "verified_scope": "Pinned Git tree and README, annotation inventory, license, actual XML and rs4 lines inspected; academic example includes title and author blocks in <p>.",
+        "baseline_status": "known-baseline lead, new artifact inspection",
+        "unit": "document, marked paragraph and sentence; EDU and hierarchical relation",
+        "genres_or_forms": "16 main text types include academic, essays, how-to, news, legal court; eight extra challenge genres",
+        "annotation_or_metrics_available": "Original 32 eRST relation labels, EDU IDs/text/parent/relname, secondary edges, signals; XML p/s/head and source metadata; distinct layers.",
+        "size_and_count_basis": "301 rs4 files counted from pinned Git tree 1d999e5a0327ecb83015007774f6a9be23ecbc41: 275 main plus 26 challenge; 18 academic, 14 essay, 19 how-to; file count, not complete works.",
+        "human_or_automatic": "Human annotated eRST; other layers may be automatic or corrected; inspect layer provenance.",
+        "reliability": "eRST signal agreement separately in DC02; not agreement on paragraph roles.",
+        "code_license": "unknown; rsTWeb separately MIT",
+        "annotation_license": "CC BY 4.0 annotations per LICENSE",
+        "source_text_rights": "Per genre and document: academic CC BY 4.0, essays CC BY-NC-SA 4.0, wikiHow CC BY-NC-SA 3.0; Reddit subject to terms and text reconstruction.",
+        "access_status": "public files; Reddit omitted, reconstruction required",
+        "reuse_recommendation": "Pin tree, export original p/s/text plus graph linked by token alignments, retaining IDs and exclusion tags for metadata and incomplete texts.",
+        "project_feature_mapping": "F02/F04/F05/F08 and F09 relation evidence; F01 only after completeness audit.",
+        "limitations": "No automatic equivalence between a relation and paragraph reader job. XML p includes author lines; GUM source extracts are not necessarily complete works. Genre labels are broad.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "discourse-corpora",
+          "source_file": "agents/discourse-corpora/findings.json",
+          "id": "DC01"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "DC02",
+        "title": "eRST: A Signaled Graph Theory of Discourse Relations and Organization",
+        "authors": [
+          "Amir Zeldes",
+          "Tatsuya Aoyama",
+          "Yang Janet Liu",
+          "Siyao Peng",
+          "Debopam Das",
+          "Luke Gessler"
+        ],
+        "year": 2025,
+        "kind": "corpus methodology",
+        "doi": "10.1162/coli_a_00538",
+        "primary_urls": [
+          "https://aclanthology.org/2025.cl-1.3/",
+          "https://gucorpling.org/erst/"
+        ],
+        "repository_url": "https://github.com/amir-zeldes/gum",
+        "artifact_urls": [
+          "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/_build/src/rst/GUM_academic_art.rs4",
+          "https://wiki.gucorpling.org/gum/rst"
+        ],
+        "verified_scope": "Paper methods/agreement passages and actual rs4 segment relations inspected.",
+        "baseline_status": "new layer of known GUM",
+        "unit": "EDU, text span, graph edge, signal",
+        "genres_or_forms": "cross-genre GUM and GENTLE",
+        "annotation_or_metrics_available": "32 types including explanation-evidence, adversative-concession, elaboration-attribute, purpose-goal; edge nuclearity and signal types.",
+        "size_and_count_basis": "GUM double-annotation experiment 36 documents 32K tokens; secondary edges initial 24-document dev experiment.",
+        "human_or_automatic": "human discourse annotation",
+        "reliability": "Signal recognition mutual F1 92.3 and association 90 on 36 docs; secondary-edge attachment/nuclearity/relation .311/.279/.223 initially. Different tasks, no role agreement.",
+        "code_license": "rstWeb MIT per paper",
+        "annotation_license": "CC BY 4.0 GUM annotations",
+        "source_text_rights": "Varies by document",
+        "access_status": "open paper and sample annotations",
+        "reuse_recommendation": "Reuse relation inventory and segmentation guide directly to identify discourse links; retain both endpoints and confidence/disagreement.",
+        "project_feature_mapping": "F09 relation layer and F07 evidence link as testable hypothesis",
+        "limitations": "Evidence relation connects spans; it does not establish citation quality, reader-job identity, or a paragraph function.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "discourse-corpora",
+          "source_file": "agents/discourse-corpora/findings.json",
+          "id": "DC02"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "DC03",
+        "title": "GDTB: Genre Diverse Data for English Shallow Discourse Parsing across Modalities, Text Types, and Domains",
+        "authors": [
+          "Yang Janet Liu",
+          "Tatsuya Aoyama",
+          "Wesley Scivetti",
+          "Yilun Zhu",
+          "Shabnam Behzad",
+          "Lauren Elizabeth Levine",
+          "Jessica Lin",
+          "Devika Tiwari",
+          "Amir Zeldes"
+        ],
+        "year": 2024,
+        "kind": "corpus",
+        "doi": "10.18653/v1/2024.emnlp-main.684",
+        "primary_urls": [
+          "https://aclanthology.org/2024.emnlp-main.684/",
+          "https://gucorpling.org/gum/annotations.html"
+        ],
+        "repository_url": "https://github.com/amir-zeldes/gum",
+        "artifact_urls": [
+          "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/rst/gdtb/disrpt/GUM_academic_art.rels",
+          "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/rst/gdtb/pdtb/gold/00/GUM_academic_art",
+          "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf"
+        ],
+        "verified_scope": "Methods/evaluation and actual relations TSV header/rows inspected.",
+        "baseline_status": "new layer of known GUM",
+        "unit": "two argument spans, relation type and sense, connective",
+        "genres_or_forms": "GUM domains and genres",
+        "annotation_or_metrics_available": "TSV doc, unit token bounds/text, rel_type, orig_label and coarse label; sampled implicit expansion.conjunction and explicit contingency.cause.result.",
+        "size_and_count_basis": "2024 paper corrected test 1,531 relation instances; current release extent can differ.",
+        "human_or_automatic": "Semi-automatic conversion from gold GUM RST, targeted manual correction; test set fully corrected. Not wholly independent annotations.",
+        "reliability": "Automatic vs corrected test exact label/span/type micro F1 0.9218; 8 test documents double coded implicit senses kappa .77 level 3, .83 level 2; does not validate reader roles.",
+        "code_license": "unknown",
+        "annotation_license": "GUM annotation CC BY 4.0",
+        "source_text_rights": "GUM document-specific licenses",
+        "access_status": "public",
+        "reuse_recommendation": "Compare original eRST and shallow senses on same texts; use manually corrected test as higher-confidence subset.",
+        "project_feature_mapping": "F09 links and F07 potential support",
+        "limitations": "Source layers are dependent; gold directory naming does not prove every record manually independently coded.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "discourse-corpora",
+          "source_file": "agents/discourse-corpora/findings.json",
+          "id": "DC03"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "DC04",
+        "title": "GENTLE: A Genre-Diverse Multilayer Challenge Set for English NLP and Linguistic Evaluation",
+        "authors": [
+          "Tatsuya Aoyama",
+          "Shabnam Behzad",
+          "Luke Gessler",
+          "Lauren Levine",
+          "Jessica Lin",
+          "Yang Janet Liu",
+          "Siyao Peng",
+          "Yilun Zhu",
+          "Amir Zeldes"
+        ],
+        "year": 2023,
+        "kind": "corpus",
+        "doi": "10.18653/v1/2023.law-1.17",
+        "primary_urls": [
+          "https://aclanthology.org/2023.law-1.17/",
+          "https://gucorpling.org/gum/gentle.html"
+        ],
+        "repository_url": "https://github.com/amir-zeldes/gum",
+        "artifact_urls": [
+          "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/splits.md",
+          "https://github.com/amir-zeldes/gum/blob/1d999e5a0327ecb83015007774f6a9be23ecbc41/rst/rstweb/",
+          "https://gucorpling.org/gum/annotations.html"
+        ],
+        "verified_scope": "Paper table and GUM repository test2 manifest description inspected.",
+        "baseline_status": "new extension of known GUM",
+        "unit": "document, EDU, graph relation",
+        "genres_or_forms": "dictionary entries, legal documents, medical notes, proof, syllabi, threat letters, poetry and esports",
+        "annotation_or_metrics_available": "GUM-style eRST, other multilayer annotation; test2 subset.",
+        "size_and_count_basis": "26 documents 17,797 tokens: 3 dictionary, 2 legal, 3 proofs, etc., paper Table 2.",
+        "human_or_automatic": "Manual annotation per paper",
+        "reliability": "Not determined for per-relation agreement here",
+        "code_license": "unknown",
+        "annotation_license": "GUM annotations CC BY 4.0; verify subset",
+        "source_text_rights": "Source-specific rights, verify each source",
+        "access_status": "public challenge set",
+        "reuse_recommendation": "Use as stress tests for unusual structure and reference entries, not training norms.",
+        "project_feature_mapping": "F02/F04/F08/F09 structural edge cases",
+        "limitations": "2–5 documents per genre; mixed modalities and highly atypical; no representative sampling.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "discourse-corpora",
+          "source_file": "agents/discourse-corpora/findings.json",
+          "id": "DC04"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "DC05",
+        "title": "AMALGUM – A Free, Balanced, Multilayer English Web Corpus",
+        "authors": [
+          "Luke Gessler",
+          "Siyao Peng",
+          "Yang Liu",
+          "Yilun Zhu",
+          "Shabnam Behzad",
+          "Amir Zeldes"
+        ],
+        "year": 2020,
+        "kind": "corpus",
+        "doi": null,
+        "primary_urls": [
+          "https://aclanthology.org/2020.lrec-1.648/",
+          "https://gucorpling.org/gum/amalgum.html"
+        ],
+        "repository_url": "https://github.com/gucorpling/amalgum",
+        "artifact_urls": [
+          "https://github.com/gucorpling/amalgum/blob/a2dbd33e757f75a61d68d22d1a29e840bdffa711/amalgum/news/rst/AMALGUM_news_khadr.rs3",
+          "https://github.com/gucorpling/amalgum/blob/a2dbd33e757f75a61d68d22d1a29e840bdffa711/README.md"
+        ],
+        "verified_scope": "README, sampling claims, license, actual rs3 relation header inspected.",
+        "baseline_status": "known-baseline lead, new file and license inspection",
+        "unit": "document excerpts, EDU and automatically inferred relations",
+        "genres_or_forms": "8 web-source genres incl MDPI academic, wikiHow, news and fiction",
+        "annotation_or_metrics_available": "Automatic segmentation, POS, dependency, coreference, RST in rs3, XML etc.",
+        "size_and_count_basis": "Paper baseline 4,960 documents and 4,002,929 tokens; repo v0.2 approx 4M, ~500k per genre, plus extra; versions differ.",
+        "human_or_automatic": "machine annotated silver",
+        "reliability": "README reports RST span/nuclearity/relation 77.98/61.79/44.07 on GUM test, not percentage human agreement.",
+        "code_license": "unknown",
+        "annotation_license": "CC BY 4.0 for annotations in amalgum and amalgum_extra",
+        "source_text_rights": "Per-source licensing; academic MDPI CC BY 4.0, some sources NC/SA, Reddit by request and terms.",
+        "access_status": "public non-Reddit, Reddit by request",
+        "reuse_recommendation": "Use for candidate discovery and stress tests, flag all inferred labels; do not treat as human ground truth.",
+        "project_feature_mapping": "F04/F05/F09 as exploratory only",
+        "limitations": "Excerpt/length sampling and genre/source confounding; automatic relation noise, not full-document profile.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "discourse-corpora",
+          "source_file": "agents/discourse-corpora/findings.json",
+          "id": "DC05"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "DC06",
+        "title": "Disagreements in analyses of rhetorical text structure: A new dataset and first analyses",
+        "authors": [
+          "Freya Hewett",
+          "Manfred Stede"
+        ],
+        "year": 2025,
+        "kind": "corpus and methodological study",
+        "doi": "10.18653/v1/2025.law-1.3",
+        "primary_urls": [
+          "https://aclanthology.org/2025.law-1.3/"
+        ],
+        "repository_url": "https://github.com/discourse-lab/RSTmulti",
+        "artifact_urls": [
+          "https://github.com/discourse-lab/RSTmulti/blob/4e4eca188b19edc87ce801bc0760b25d31dd9e10/README.md",
+          "https://github.com/discourse-lab/RSTmulti/blob/4e4eca188b19edc87ce801bc0760b25d31dd9e10/data/1/UNSC_2014_SPV.7154_spch005_LT_00.rs3",
+          "https://github.com/tkutschbach/RST-Tace"
+        ],
+        "verified_scope": "Paper methods, repository README and actual rs3 relation inventory inspected.",
+        "baseline_status": "new",
+        "unit": "paired RST trees on identical EDU segmentation",
+        "genres_or_forms": "English UN Security Council speeches and WSJ; German newspaper commentaries and simplifications",
+        "annotation_or_metrics_available": "Two parallel human trees, Tace output and categories for relation, scope, direction and no-match disagreement.",
+        "size_and_count_basis": "Study 156 texts from four sources; includes 26 licensed RST-DT IDs, actual files absent from public repo.",
+        "human_or_automatic": "Two trained human annotators; correction for obvious violations in some corpora.",
+        "reliability": "Shared EDU boundaries intentionally isolate tree disagreements; cannot evaluate independent segmentation reliability.",
+        "code_license": "Repository states CC BY-SA 4.0 for work; code-specific treatment unclear",
+        "annotation_license": "CC BY-SA 4.0 per README; check underlying source",
+        "source_text_rights": "WSJ absent, LDC license; other source-specific rights require review",
+        "access_status": "Public rs3, Tace outputs; WSJ licensed",
+        "reuse_recommendation": "Reproduce disagreement categories; preserve alternatives rather than forcing adjudication; compare boundary reliability separately.",
+        "project_feature_mapping": "F09 uncertainty and relationships",
+        "limitations": "English subset speeches/news, no paragraph jobs; fixed segmentation conditions prevent boundary evaluation.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "discourse-corpora",
+          "source_file": "agents/discourse-corpora/findings.json",
+          "id": "DC06"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "DC07",
+        "title": "DISRPT 2023 Shared Task: Discourse Unit Segmentation, Connective Detection, and Relation Classification",
+        "authors": [
+          "shared task organizers"
+        ],
+        "year": 2023,
+        "kind": "benchmark collection",
+        "doi": null,
+        "primary_urls": [
+          "https://sites.google.com/view/disrpt2023/",
+          "https://github.com/disrpt/sharedtask2023"
+        ],
+        "repository_url": "https://github.com/disrpt/sharedtask2023",
+        "artifact_urls": [
+          "https://github.com/disrpt/sharedtask2023/blob/2afec39f8f32c00a238b8a33daf5b0c7341a31fa/data/eng.rst.gum/README.md",
+          "https://github.com/disrpt/sharedtask2023/blob/main/README.md"
+        ],
+        "verified_scope": "Repository README and GUM v9 subset README inspected.",
+        "baseline_status": "new standardized export of known GUM",
+        "unit": "EDU segmentation, connective spans, pairwise relations",
+        "genres_or_forms": "multilingual heterogeneous corpora with diverse annotation schemes",
+        "annotation_or_metrics_available": "CoNLL-U and .rels with original fine label orig_label and coarse label; predefined splits and evaluators.",
+        "size_and_count_basis": "Pin 2afec39f8f32c00a238b8a33daf5b0c7341a31fa; counts by corpus in README; 2023 GUM v9 has 12 genres.",
+        "human_or_automatic": "Varies by constituent corpus; GUM annotated human",
+        "reliability": "Task-specific evaluation tools; original schemes require separate agreement checks.",
+        "code_license": "unknown, check each tool",
+        "annotation_license": "Per corpus, no blanket claim",
+        "source_text_rights": "Some text underscores (including GUM Reddit and RST-DT) require rights/reconstruction",
+        "access_status": "public metadata and formats, some source text restricted",
+        "reuse_recommendation": "Borrow established relation and segmentation evaluation schema; retain orig_label and explicit dataset identity.",
+        "project_feature_mapping": "F09 annotation infrastructure",
+        "limitations": "Not a homogenized crosswalk; no evidence classes are equal between frameworks or correspond to reader jobs.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "discourse-corpora",
+          "source_file": "agents/discourse-corpora/findings.json",
+          "id": "DC07"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "DC08",
+        "title": "RST Discourse Treebank",
+        "authors": [
+          "Lynn Carlson",
+          "Daniel Marcu",
+          "Mary Ellen Okurowski"
+        ],
+        "year": 2002,
+        "kind": "corpus",
+        "doi": "10.35111/4w31-m996",
+        "primary_urls": [
+          "https://catalog.ldc.upenn.edu/LDC2002T07",
+          "https://www.sfu.ca/~mtaboada/docs/publications/RST_Signalling_Corpus_Annotation_Manual.pdf"
+        ],
+        "repository_url": "https://github.com/disrpt/sharedtask2023",
+        "artifact_urls": [
+          "https://catalog.ldc.upenn.edu/LDC2002T07",
+          "https://github.com/disrpt/sharedtask2023/tree/main/data/eng.rst.rstdt"
+        ],
+        "verified_scope": "LDC catalog and official manual description; benchmark README lists underscored text.",
+        "baseline_status": "known-baseline lead",
+        "unit": "EDU, constituent span, nuclearity, rhetorical relation",
+        "genres_or_forms": "Wall Street Journal news articles",
+        "annotation_or_metrics_available": "Human RST trees and summaries; public task representation excludes licensed text.",
+        "size_and_count_basis": "385 WSJ articles per LDC.",
+        "human_or_automatic": "human annotation",
+        "reliability": "26 double-annotated text IDs form RSTmulti study subset; labels and boundary reliability must be separately evaluated.",
+        "code_license": "unknown",
+        "annotation_license": "LDC agreement, terms govern",
+        "source_text_rights": "WSJ licensed; no unlicensed reconstruction",
+        "access_status": "LDC licensed product; limited underscored benchmark",
+        "reuse_recommendation": "Use freely accessible segmentation guidelines as operational precedent; pursue licensed data only if news comparison useful.",
+        "project_feature_mapping": "F09 relation and boundary method",
+        "limitations": "News-only and overlaps PDTB; direct commercial/data permissions require agreement.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "discourse-corpora",
+          "source_file": "agents/discourse-corpora/findings.json",
+          "id": "DC08"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "DC09",
+        "title": "Penn Discourse Treebank Version 3.0",
+        "authors": [
+          "Rashmi Prasad",
+          "Bonnie Webber",
+          "Alan Lee",
+          "Aravind Joshi"
+        ],
+        "year": 2019,
+        "kind": "corpus",
+        "doi": "10.35111/qebf-gk47",
+        "primary_urls": [
+          "https://catalog.ldc.upenn.edu/LDC2019T05"
+        ],
+        "repository_url": "https://github.com/disrpt/sharedtask2023",
+        "artifact_urls": [
+          "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+          "https://catalog.ldc.upenn.edu/LDC2021T16"
+        ],
+        "verified_scope": "LDC catalog and manual entry inspected.",
+        "baseline_status": "new detailed access and scheme inspection",
+        "unit": "discourse connective and two argument spans",
+        "genres_or_forms": "WSJ newswire",
+        "annotation_or_metrics_available": "Explicit and implicit discourse relations and senses; v3 extends v2. DiscAlign aligns PDTB 2.0 with RST-DT.",
+        "size_and_count_basis": "LDC says v2 over 40,600 annotated relation tokens plus 13,000 in v3; do not interpret as word or document count. DiscAlign approx 6,700 relation alignments on 385 overlapping articles.",
+        "human_or_automatic": "human annotations; source-specific curation",
+        "reliability": "Scope-specific agreement check manual and papers; no new independent assessment.",
+        "code_license": "unknown",
+        "annotation_license": "LDC user agreement",
+        "source_text_rights": "WSJ source licensed",
+        "access_status": "licensed corpus, free public annotation manual; DiscAlign available to holders of both PDTB 2 and RST-DT",
+        "reuse_recommendation": "Reuse published boundary definitions and sense inventory; DiscAlign tests formalism differences if access already exists.",
+        "project_feature_mapping": "F09 link representation",
+        "limitations": "One domain and dependent source overlap; DiscAlign is for PDTB 2, not v3; original labels not reader-job labels.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "discourse-corpora",
+          "source_file": "agents/discourse-corpora/findings.json",
+          "id": "DC09"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": "https://scholarworks.indianapolis.iu.edu/bitstream/handle/1805/2332/Approach_to_Corpus_based.pdf",
+        "artifact_urls": [
+          "https://scholarworks.indianapolis.iu.edu/bitstream/handle/1805/2332/Approach_to_Corpus_based.pdf"
+        ],
+        "reliability": "Calls for inter-rater checks and recoding. The quoted 84% example refers to a separate 242 direct-mail letter corpus, not the 46 letters.",
+        "code_license": "Not applicable; no code release identified",
+        "annotation_license": "Unknown; paper access is not annotation license",
+        "source_text_rights": "Unknown unless specified",
+        "paywall_retrieval_record": "Discourse Studies 11(5), 585–605 (2009), DOI 10.1177/1461445609341006; institutional manuscript URL above.",
+        "id": "GS01",
+        "title": "An approach to corpus-based discourse analysis: The move analysis as example",
+        "authors": [
+          "Thomas A. Upton",
+          "Mary Ann Cohen"
+        ],
+        "year": 2009,
+        "kind": "methodological synthesis and illustrative corpus study",
+        "doi": "10.1177/1461445609341006",
+        "primary_urls": [
+          "https://journals.sagepub.com/doi/10.1177/1461445609341006"
+        ],
+        "verified_scope": "Author manuscript abstract, seven-step methods, sample and Appendix 1 coding protocol inspected; publisher citation and page range verified.",
+        "baseline_status": "New direct elaboration of known Biber, Connor and Upton 2007 baseline",
+        "unit": "Full letters; rhetorical move spans and steps, not paragraph labels",
+        "genres_or_forms": [
+          "birthmother letters",
+          "persuasive/personal correspondence"
+        ],
+        "annotation_or_metrics_available": "Appendix 1 final move/step protocol with labels, definitions and examples; stepwise sequence and per-move lexical comparisons; excerpted examples only.",
+        "size_and_count_basis": "46 letters: 20 selected after at most two sendings, 26 after at least 15 sendings; matched narrowly on stated writer characteristics.",
+        "human_or_automatic": "Human annotation; corpus lexical analysis",
+        "access_status": "Publisher access gated; institutional author manuscript open; dataset release not located.",
+        "reuse_recommendation": "Use seven-step workflow and appendix as an operational example; retain differences between segmentation, labeling and whole-document sequencing.",
+        "project_feature_mapping": [
+          "F02",
+          "F07",
+          "F09"
+        ],
+        "limitations": "Letter-specific categories and outcome definition cannot be transferred as personal-essay norms; individual-level annotations not located."
+      },
+      "source_occurrences": [
+        {
+          "scout": "genre-syntheses",
+          "source_file": "agents/genre-syntheses/findings.json",
+          "id": "GS01"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": "https://buleria.unileon.es/bitstream/handle/10612/10667/Strengthening_Move_Analysis_Methodology.pdf?sequence=6",
+        "artifact_urls": [
+          "https://buleria.unileon.es/bitstream/handle/10612/10667/Strengthening_Move_Analysis_Methodology.pdf?sequence=6"
+        ],
+        "reliability": "Second test reports source-size-weighted mean 99.51% and kappa 0.71; rare IMP_APP category 99.84% agreement but kappa 0.38. Different prevalence/negative matches make percent misleading; not comparable to current exact-set 21/36.",
+        "code_license": "Not applicable; no code release identified",
+        "annotation_license": "Unknown; paper access is not annotation license",
+        "source_text_rights": "Unknown unless specified",
+        "paywall_retrieval_record": "English for Specific Purposes 50, 40–63 (2018), DOI 10.1016/j.esp.2017.11.006. Institutional preprint linked above.",
+        "id": "GS02",
+        "title": "Strengthening move analysis methodology towards bridging the function-form gap",
+        "authors": [
+          "Ana I. Moreno",
+          "John M. Swales"
+        ],
+        "year": 2018,
+        "kind": "methodological synthesis and corpus case study",
+        "doi": "10.1016/j.esp.2017.11.006",
+        "primary_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S0889490617303332"
+        ],
+        "verified_scope": "Institutional author preprint methods sections 4–6, segmentation and codebook, table 2, agreement table and appendix examined.",
+        "baseline_status": "New discovery",
+        "unit": "Meaningful text fragments, steps and moves in discussion/conclusion sections",
+        "genres_or_forms": [
+          "empirical research article discussions"
+        ],
+        "annotation_or_metrics_available": "Table 2: 25 specific categories under seven general functions; codebook includes definitions, bilingual examples and linguistic signals; appendix describes codebook components. Study clusters specific steps into superordinate moves rather than assuming order.",
+        "size_and_count_basis": "Pilot: 15 English/Spanish paired sections; design, training and two inter-rater tests use different subsets; separate expert consultation.",
+        "human_or_automatic": "Human analyst and independent analyst, aided by NVivo",
+        "access_status": "Institutional preprint available; publisher direct fetch returned 403; underlying annotated corpus release not verified.",
+        "reuse_recommendation": "Use segmentation protocol, category definition and disagreement documentation as a methodological template; permit multiple/unresolved labels in harness although this particular scheme aimed for mutually exclusive labels.",
+        "project_feature_mapping": [
+          "F02",
+          "F07",
+          "F09"
+        ],
+        "limitations": "Bilingual research discussion pilot and pedagogical category consolidation do not validate labels in other forms. Authors list functions in logical order, explicitly not as a fixed observed sequence."
+      },
+      "source_occurrences": [
+        {
+          "scout": "genre-syntheses",
+          "source_file": "agents/genre-syntheses/findings.json",
+          "id": "GS02"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "artifact_urls": [],
+        "reliability": "Study evaluates alternative metrics; no numeric result extracted from inaccessible full text.",
+        "code_license": "Not applicable; no code release identified",
+        "annotation_license": "Unknown; paper access is not annotation license",
+        "source_text_rights": "Unknown unless specified",
+        "paywall_retrieval_record": "Research Methods in Applied Linguistics 3(1), 100097 (2024), DOI 10.1016/j.rmal.2024.100097; direct full-text access failed during inspection, which alone does not establish paywall status.",
+        "id": "GS03",
+        "title": "Interrater agreement in genre analysis: A methodological review and a comparison of three measures",
+        "authors": [
+          "Minjin Kim",
+          "Xixin Qiu",
+          "Yuanheng (Arthur) Wang"
+        ],
+        "year": 2024,
+        "kind": "systematic methodological review and empirical metric comparison",
+        "doi": "10.1016/j.rmal.2024.100097",
+        "primary_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S277276612400003X"
+        ],
+        "verified_scope": "Publisher search-indexed abstract and methods passages; direct full-text fetch returned 403. No independent full-text appraisal.",
+        "baseline_status": "Known-baseline lead; expanded sample and unit details",
+        "unit": "Reviewed genre studies; research-article introduction move/step labels",
+        "genres_or_forms": [
+          "research article introductions"
+        ],
+        "annotation_or_metrics_available": "Compares percent agreement, kappa and Krippendorff multivalued alpha for sample size, number of coders and multifunctionality.",
+        "size_and_count_basis": "65 EAP research-article genre studies reviewed; three researchers annotated 35 introductions from COSSRAI for comparison; source says parent COSSRAI holds 600 introductions across six social science disciplines.",
+        "human_or_automatic": "Three human raters",
+        "access_status": "Publisher metadata indexed; direct full-text request 403; review data, scripts and annotation release not verified.",
+        "reuse_recommendation": "Compare metrics on independently coded shared units; report boundary and label agreement separately and include multi-valued analysis when its assumptions fit.",
+        "project_feature_mapping": [
+          "F09"
+        ],
+        "limitations": "Different sampling, coding units and metrics prohibit comparing coefficients directly to current calibration. Does not establish taxonomy validity or paragraph-length distributions."
+      },
+      "source_occurrences": [
+        {
+          "scout": "genre-syntheses",
+          "source_file": "agents/genre-syntheses/findings.json",
+          "id": "GS03"
+        },
+        {
+          "scout": "metrics-toolchains",
+          "source_file": "agents/metrics-toolchains/findings.json",
+          "id": "M10"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "artifact_urls": [
+          "https://www.mdpi.com/2304-6775/9/4/56"
+        ],
+        "reliability": "Cross-study coding reliability not established in inspected passages.",
+        "code_license": "Not applicable; code not identified",
+        "annotation_license": "Paper is CC BY 4.0; underlying study data rights individually unknown",
+        "source_text_rights": "Underlying source-study texts have separate unknown rights.",
+        "paywall_retrieval_record": null,
+        "id": "GS04",
+        "title": "Metadiscursive Markers and Text Genre: A Metareview",
+        "authors": [
+          "Miguel Cuevas-Alonso",
+          "Carla Míguez-Álvarez"
+        ],
+        "year": 2021,
+        "kind": "cross-study quantitative descriptive metareview",
+        "doi": "10.3390/publications9040056",
+        "primary_urls": [
+          "https://www.mdpi.com/2304-6775/9/4/56"
+        ],
+        "verified_scope": "Publisher full text methods, appendix A, data-availability statement and license inspected.",
+        "baseline_status": "Known-baseline lead; appendix and selection criteria inspected",
+        "unit": "Studies and normalized linguistic-marker counts per 1,000 words; varying sampled texts and sections",
+        "genres_or_forms": [
+          "academic articles",
+          "theses",
+          "newspaper editorials",
+          "opinion columns",
+          "internet texts"
+        ],
+        "annotation_or_metrics_available": "Appendix A identifies underlying academic studies, year, type, language and corpus; Hyland interactive and interactional marker subtypes with normalized frequencies.",
+        "size_and_count_basis": "334 candidate documents; 44 selected studies, not 44 documents in a single homogeneous corpus.",
+        "human_or_automatic": "Synthesizes different source studies; source-level coding varies.",
+        "access_status": "Open full article and academic-study appendix; data availability statement says not applicable; no reusable underlying corpus release identified.",
+        "reuse_recommendation": "Use appendix as a backward-search matrix and re-extract original section, genre, discipline and marker definitions; do not import aggregate averages as profiles.",
+        "project_feature_mapping": [
+          "F07",
+          "F09"
+        ],
+        "limitations": "Review combines disparate sections and text types; linguistic marker counts do not measure adequacy of functions. Not a conventional pooled intervention effect-size meta-analysis."
+      },
+      "source_occurrences": [
+        {
+          "scout": "genre-syntheses",
+          "source_file": "agents/genre-syntheses/findings.json",
+          "id": "GS04"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": "https://pure.coventry.ac.uk/ws/portalfiles/portal/3978905/gardnercomb.pdf",
+        "artifact_urls": [
+          "https://pure.coventry.ac.uk/ws/portalfiles/portal/3978905/gardnercomb.pdf"
+        ],
+        "reliability": "Not established by inspected material",
+        "code_license": "Not applicable; no code release identified",
+        "annotation_license": "Unknown; paper access is not annotation license",
+        "source_text_rights": "Submitted manuscript permits personal non-commercial research/study; no extensive quotation, reproduction, alteration or commercial use without permission. BAWE source rights separate.",
+        "paywall_retrieval_record": "Applied Linguistics 34(1), 25–52 (2013), DOI 10.1093/applin/ams024. Submitted version linked above may differ from published article.",
+        "id": "GS05",
+        "title": "A classification of genre families in university student writing",
+        "authors": [
+          "Sheena Gardner",
+          "Hilary Nesi"
+        ],
+        "year": 2013,
+        "kind": "corpus-based genre classification study",
+        "doi": "10.1093/applin/ams024",
+        "primary_urls": [
+          "https://academic.oup.com/applij/article/34/1/25/150792"
+        ],
+        "verified_scope": "Institutional submitted manuscript introduction, classification methods, generic stages and rights notice; publisher journal metadata via citation.",
+        "baseline_status": "Known baseline; full author manuscript adds directly usable family descriptions and rights record",
+        "unit": "2,858 BAWE component texts classified by purpose, genre family and generic stages",
+        "genres_or_forms": [
+          "student essay",
+          "critique",
+          "explanation",
+          "literature survey",
+          "methodology recount",
+          "research report",
+          "proposal",
+          "design specification"
+        ],
+        "annotation_or_metrics_available": "Thirteen family descriptions record educational purpose, generic structure and genre networks; recognizes embedded genres and Empathy Writing as lacking a shared generic structure.",
+        "size_and_count_basis": "2,858 component texts; assignment count is different. Assessed university student writing from England.",
+        "human_or_automatic": "Researchers manually developed classification; exact per-text interrater reliability not verified.",
+        "access_status": "Submitted author version available with stated restrictions; underlying BAWE release and licensing require separate inspection.",
+        "reuse_recommendation": "Compare purpose, generic stages and genre networks as separate fields; use source family labels as hypotheses, not universal professional-form classes.",
+        "project_feature_mapping": [
+          "F02",
+          "F09"
+        ],
+        "limitations": "Assessed student assignments and variable generic stages; taxonomy is not paragraph-function data."
+      },
+      "source_occurrences": [
+        {
+          "scout": "genre-syntheses",
+          "source_file": "agents/genre-syntheses/findings.json",
+          "id": "GS05"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "artifact_urls": [],
+        "reliability": "Specific coefficient not verified from indexed material.",
+        "code_license": "Not applicable; no code release identified",
+        "annotation_license": "Unknown; paper access is not annotation license",
+        "source_text_rights": "Unknown unless specified",
+        "paywall_retrieval_record": "English for Specific Purposes 46, 90–106 (2017), DOI 10.1016/j.esp.2017.01.001; publisher URL above.",
+        "id": "GS06",
+        "title": "A move/step model for methods sections: Demonstrating Rigour and Credibility",
+        "authors": [
+          "Elena Cotos",
+          "Sarah Huffman",
+          "Stephanie Link"
+        ],
+        "year": 2017,
+        "kind": "cross-disciplinary corpus study and methodological model",
+        "doi": "10.1016/j.esp.2017.01.001",
+        "primary_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S0889490617300078"
+        ],
+        "verified_scope": "Publisher indexed abstract and introduction including corpus size, label count, sequence analysis and disciplinary expert triangulation; direct open 403.",
+        "baseline_status": "New direct methods-section lead",
+        "unit": "Methods sections and rhetorical moves/steps",
+        "genres_or_forms": [
+          "research article Methods sections"
+        ],
+        "annotation_or_metrics_available": "DRaC model: three moves and sixteen steps, with functional/content descriptions; source reports within/across discipline frequency, sequence and clusters.",
+        "size_and_count_basis": "900 research article Methods sections across 30 academic fields; do not treat repeated publications from this corpus as independent samples.",
+        "human_or_automatic": "Human move/step annotation, algorithmic clustering; source reports triangulation with disciplinary academics.",
+        "access_status": "Publisher indexed abstract accessible; direct fetch 403; codebook and annotated corpus availability not verified.",
+        "reuse_recommendation": "Extract original model and discipline-stratified sequences after obtaining full paper; use as benchmark for comparative methods-section annotation.",
+        "project_feature_mapping": [
+          "F02",
+          "F03",
+          "F09"
+        ],
+        "limitations": "Part-genre model, not complete-document length or paragraph-length profile; paper itself is a corpus study, not a systematic review."
+      },
+      "source_occurrences": [
+        {
+          "scout": "genre-syntheses",
+          "source_file": "agents/genre-syntheses/findings.json",
+          "id": "GS06"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "artifact_urls": [
+          "https://wacclearinghouse.org/docs/books/bawarshi_reiff/bib.pdf",
+          "https://wacclearinghouse.org/docs/books/bawarshi_reiff/chapter8.pdf",
+          "https://wacclearinghouse.org/docs/books/bawarshi_reiff/chapter9.pdf"
+        ],
+        "reliability": "Not established by inspected material",
+        "code_license": "Not applicable; no code release identified",
+        "annotation_license": "Unknown; paper access is not annotation license",
+        "source_text_rights": "Publisher permits viewing, personal printing and linking; prohibits posting book on another website without permission.",
+        "paywall_retrieval_record": null,
+        "id": "GS07",
+        "title": "Genre: An Introduction to History, Theory, Research, and Pedagogy",
+        "authors": [
+          "Anis S. Bawarshi",
+          "Mary Jo Reiff"
+        ],
+        "year": 2010,
+        "kind": "narrative methodological and historical synthesis",
+        "doi": null,
+        "primary_urls": [
+          "https://wacclearinghouse.org/books/referenceguides/bawarshi-reiff/"
+        ],
+        "verified_scope": "Official publisher book description, contents, bibliography listing and rights statement inspected; chapter 8 and 9 PDF direct attempts returned 403; no claim of full chapter appraisal.",
+        "baseline_status": "Known baseline; exact chapter and rights links identified",
+        "unit": "Research traditions and genre practices, not pooled study units",
+        "genres_or_forms": [
+          "academic",
+          "workplace and professional",
+          "public and new media"
+        ],
+        "annotation_or_metrics_available": "Separate chapters on workplace/professional and public/new media; annotated bibliography is a backward-search artifact, not a labeled dataset.",
+        "size_and_count_basis": "278-page reference book; not a count of sampled texts or studies.",
+        "human_or_automatic": "Interpretive scholarly synthesis",
+        "access_status": "Publisher offers digital book and chapter PDFs at no charge; two chapter fetches returned 403 in this session.",
+        "reuse_recommendation": "Mine chapters 8–9 and annotated bibliography for workplace/public studies and participant methods; verify each original paper before extracting.",
+        "project_feature_mapping": [
+          "F02",
+          "F09"
+        ],
+        "limitations": "Not systematic evidence synthesis or a computational codebook; indexed chapter existence is not evidence chapters were inspected."
+      },
+      "source_occurrences": [
+        {
+          "scout": "genre-syntheses",
+          "source_file": "agents/genre-syntheses/findings.json",
+          "id": "GS07"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "repository_url": null,
+        "artifact_urls": [],
+        "reliability": "Not established by inspected material",
+        "code_license": "Not applicable; no code release identified",
+        "annotation_license": "Unknown; paper access is not annotation license",
+        "source_text_rights": "Unknown unless specified",
+        "paywall_retrieval_record": "Studies in Corpus Linguistics 28, John Benjamins (2007), ISBN 9789027223029 print; DOI 10.1075/scl.28. Publisher online date 2008 is distinct.",
+        "id": "GS08",
+        "title": "Discourse on the Move: Using corpus analysis to describe discourse structure",
+        "authors": [
+          "Douglas Biber",
+          "Ulla Connor",
+          "Thomas A. Upton"
+        ],
+        "year": 2007,
+        "kind": "methodological synthesis and corpus case-study volume",
+        "doi": "10.1075/scl.28",
+        "primary_urls": [
+          "https://benjamins.com/catalog/scl.28"
+        ],
+        "verified_scope": "Publisher description, table of contents, book DOI, 2007 print publication and ISBN verified; full book requires authorization.",
+        "baseline_status": "Known baseline; contents and exact library record expanded",
+        "unit": "Genre-specific text-level case studies and discourse spans",
+        "genres_or_forms": [
+          "fundraising letters",
+          "biochemistry articles",
+          "university teaching"
+        ],
+        "annotation_or_metrics_available": "Table of contents identifies Kanoksilapatham move-analysis chapter and philanthropic/biochemistry case studies; contrasts top-down functional coding with bottom-up corpus units.",
+        "size_and_count_basis": "289 pages; no corpus totals asserted from metadata.",
+        "human_or_automatic": "Case-specific discourse analysis and corpus analysis; full methods not inspected.",
+        "access_status": "Publisher full book requires authorization; no author version established.",
+        "reuse_recommendation": "Retrieve for chapters 2–4 and methodological comparison; open Upton–Cohen 2009 operationalizes its seven-step method.",
+        "project_feature_mapping": [
+          "F02",
+          "F09"
+        ],
+        "limitations": "A research volume, not a systematic meta-analysis or evidence for universal moves."
+      },
+      "source_occurrences": [
+        {
+          "scout": "genre-syntheses",
+          "source_file": "agents/genre-syntheses/findings.json",
+          "id": "GS08"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "baseline_status": "new lead; not identified by name in inspected baseline",
+        "reliability": "Triple-coded batches used for agreement; do not apply its score to singly annotated remainder.",
+        "code_license": "Apache 2.0 repository LICENSE",
+        "annotation_license": "Repository claims open licenses; precise annotation grant not independently separated from Apache LICENSE",
+        "source_text_rights": "Judgments from HUDOC; underlying Court terms must be independently checked, repository license does not establish original rights",
+        "paywall_retrieval_record": null,
+        "id": "echr-argument",
+        "title": "Mining legal arguments in court decisions",
+        "authors": "Ivan Habernal, Daniel Faber, Nicola Recchia, Sebastian Bretthauer, Iryna Gurevych, Indra Spiecker genannt Döhmann, Christoph Burchard",
+        "year": 2023,
+        "kind": "human annotated corpus and methods study",
+        "doi": "10.1007/s10506-023-09361-y",
+        "primary_urls": [
+          "https://link.springer.com/article/10.1007/s10506-023-09361-y"
+        ],
+        "repository_url": "https://github.com/trusthlt/mining-legal-arguments",
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/trusthlt/mining-legal-arguments/master/data/agent/001-100469.csv",
+          "https://github.com/trusthlt/mining-legal-arguments/tree/master/gold_data",
+          "https://raw.githubusercontent.com/trusthlt/mining-legal-arguments/master/LICENSE"
+        ],
+        "verified_scope": "Full publisher article methods and repository README, license, and one token-label CSV inspected. CSV contains Python-list tokens and BIO labels, one row per paragraph. Article states paragraph restriction and orthogonal actor/type layers.",
+        "unit": "Nonoverlapping token-aligned argument span; may cross sentence but not paragraph boundary. 16 argument types and five actor types; no support/attack links.",
+        "genres_or_forms": "ECHR judicial decisions, Articles 3, 7 and 8; not law essays or policy proposals",
+        "annotation_or_metrics_available": "Full source scheme and definitions; argument-type and actor labels. Single-label within each orthogonal layer.",
+        "size_and_count_basis": "373 court decisions, 2,395,100 tokens, 15,205 annotated argument spans; publisher paper. Data preparation example begins at Article 8 section, full-document inclusion must not be presumed.",
+        "human_or_automatic": "Human legal annotators; initial all six, then triple-coded batches, then singly coded material.",
+        "access_status": "Open paper, repository and sample CSV",
+        "reuse_recommendation": "Reuse operational distinctions between argument type, attributed actor and boundary; review original adjudication and adapt with fresh cross-form validation.",
+        "project_feature_mapping": [
+          "F09 tentative argument/evidence and attribution; not a one-to-one paragraph function",
+          "F07 evidence handling candidate"
+        ],
+        "limitations": "Legal argument categories and select legal sections are specific to court judgments, not proposal or memo norms."
+      },
+      "source_occurrences": [
+        {
+          "scout": "law-policy",
+          "source_file": "agents/law-policy/findings.json",
+          "id": "echr-argument"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "baseline_status": "new lead; not identified by name in inspected baseline",
+        "reliability": "Not assessed in this investigation",
+        "code_license": "MIT repository LICENSE",
+        "annotation_license": "MIT repository license present; explicit separate annotation grant not identified",
+        "source_text_rights": "Unknown; verify source rights independently before redistribution",
+        "paywall_retrieval_record": null,
+        "id": "india-50",
+        "title": "Identification of Rhetorical Roles of Sentences in Indian Legal Judgments",
+        "authors": "Paheli Bhattacharya, Shounak Paul, Kripabandhu Ghosh, Saptarshi Ghosh, Adam Wyner",
+        "year": 2019,
+        "kind": "human annotated corpus and tool",
+        "doi": null,
+        "primary_urls": [
+          "https://arxiv.org/abs/1911.05405"
+        ],
+        "repository_url": "https://github.com/Law-AI/semantic-segmentation",
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/Law-AI/semantic-segmentation/master/data/text/1953_L_1.txt",
+          "https://raw.githubusercontent.com/Law-AI/semantic-segmentation/master/categories.txt",
+          "https://raw.githubusercontent.com/Law-AI/semantic-segmentation/master/LICENSE"
+        ],
+        "verified_scope": "README, actual text/label example, category index and license inspected. Sample is tab-separated sentence and role; one displayed row lacks label. Extent of original text and processing completeness not verified.",
+        "unit": "Sentence, single role, ordered within case",
+        "genres_or_forms": "Indian Supreme Court decisions",
+        "annotation_or_metrics_available": "Seven labels: Arguments, Precedent, Statutes, Facts, Ratio Decidendi, Ruling of Lower Court, Ruling of Present Court.",
+        "size_and_count_basis": "50 cases according to README; index lists five legal subject categories",
+        "human_or_automatic": "Law student human annotation; automated embeddings and model are separate",
+        "access_status": "Open repository and sample",
+        "reuse_recommendation": "Compare role definitions and sentence sequences as a historical legal-domain benchmark, retaining role names and missing labels.",
+        "project_feature_mapping": [
+          "F09 hypothetical mappings for facts, argument and decision",
+          "F04 sentence-level analysis only if segmentation verified"
+        ],
+        "limitations": "A sentence-specific single-label setup cannot validate paragraph multi-function labels; no inference to other genres."
+      },
+      "source_occurrences": [
+        {
+          "scout": "law-policy",
+          "source_file": "agents/law-policy/findings.json",
+          "id": "india-50"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "baseline_status": "new lead; not identified by name in inspected baseline",
+        "reliability": "Paper documents calibration and adjudication; specific agreement not independently extracted.",
+        "code_license": "Apache 2.0",
+        "annotation_license": "CC BY-SA 4.0 dataset per repository",
+        "source_text_rights": "Unknown; verify source rights independently before redistribution",
+        "paywall_retrieval_record": null,
+        "id": "build-rr",
+        "title": "Corpus for Automatic Structuring of Legal Documents",
+        "authors": "Prathamesh Kalamkar, Aman Tiwari, Astha Agarwal, Saurabh Karn, Smita Gupta, Vivek Raghavan, Ashutosh Modi",
+        "year": 2022,
+        "kind": "human annotated corpus and tool",
+        "doi": null,
+        "primary_urls": [
+          "https://aclanthology.org/2022.lrec-1.470/"
+        ],
+        "repository_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline",
+        "artifact_urls": [
+          "https://huggingface.co/datasets/opennyaiorg/InRhetoricalRoles/resolve/main/train.json?download=true",
+          "https://huggingface.co/datasets/opennyaiorg/InRhetoricalRoles/resolve/main/dev.json?download=true",
+          "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#rhetorical-roles"
+        ],
+        "verified_scope": "Original paper abstract, repository README and role definitions, split download URLs and code license inspected; direct dev.json returned HTTP 401, no data example inspected.",
+        "unit": "Sentence assigned one of 13 rhetorical roles; document context needed",
+        "genres_or_forms": "Indian court judgments across court levels",
+        "annotation_or_metrics_available": "README defines roles including Preamble, Facts, arguments, reasoning, decisions and statutes.",
+        "size_and_count_basis": "354 judgments, 40,315 sentences reported by paper; do not assume exact parity with current hosted splits without file verification.",
+        "human_or_automatic": "Law student volunteers; final annotation and adjudication described in paper.",
+        "access_status": "Code and definitions public; current direct dev file returned HTTP 401 on 16 November 2026",
+        "reuse_recommendation": "Use README operational definitions as a candidate crosswalk; resolve hosted-data access and original judgment rights before corpus reuse.",
+        "project_feature_mapping": [
+          "F09 tentative fact, argument, rationale and ruling mappings"
+        ],
+        "limitations": "Labels mandatory single sentence roles in legal judgments; direct sample inaccessible, source rights remain separate."
+      },
+      "source_occurrences": [
+        {
+          "scout": "law-policy",
+          "source_file": "agents/law-policy/findings.json",
+          "id": "build-rr"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "baseline_status": "new lead; not identified by name in inspected baseline",
+        "reliability": "README points to Peldszus 2014 for agreement; values not independently checked",
+        "code_license": "Unknown / not applicable",
+        "annotation_license": "CC BY-NC-SA 4.0 corpus as declared",
+        "source_text_rights": "Corpus license declares CC BY-NC-SA 4.0; verify individual author rights and translation coverage before other use",
+        "paywall_retrieval_record": null,
+        "id": "microtexts",
+        "title": "An annotated corpus of argumentative microtexts",
+        "authors": "Andreas Peldszus and Manfred Stede",
+        "year": 2016,
+        "kind": "human annotated elicited corpus",
+        "doi": null,
+        "primary_urls": [
+          "https://angcl.ling.uni-potsdam.de/resources/argmicro.html"
+        ],
+        "repository_url": "https://github.com/peldszus/arg-microtexts",
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/en/micro_b003.xml",
+          "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+          "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/LICENSE"
+        ],
+        "verified_scope": "Institutional corpus page, repository README, license and English XML example inspected. Example exposes edu, adu, src/trg edge IDs and seg, reb, und edge types.",
+        "unit": "Elementary discourse units grouped as argumentative units with directed graph edges; edge may target another edge",
+        "genres_or_forms": "Elicited short argumentative texts on controversial and policy topics; not professional proposals or memos",
+        "annotation_or_metrics_available": "Argumentative trees, stance, pro/opp, relation edges; additional parallel RST/SDRT annotations linked on institution page.",
+        "size_and_count_basis": "Part 1: 112 German originals, professionally translated to English; 23 authors generated most, 23 author-written teaching/test texts. Separate Part 2: 178 English crowdsourced texts, not included in Part 1 count.",
+        "human_or_automatic": "Human authored and annotated",
+        "access_status": "Public repository and institution-hosted annotation guides",
+        "reuse_recommendation": "Reuse relation-target schema and guideline as a practical test of claim, support and counterargument boundaries; retain noncommercial share-alike restrictions.",
+        "project_feature_mapping": [
+          "F09 potential relation and multi-span tests",
+          "F07 evidence relationships candidate"
+        ],
+        "limitations": "Very short prompted arguments and translations; not distributions of professional full-length policy writing."
+      },
+      "source_occurrences": [
+        {
+          "scout": "law-policy",
+          "source_file": "agents/law-policy/findings.json",
+          "id": "microtexts"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "baseline_status": "new lead; not identified by name in inspected baseline",
+        "reliability": "Not assessed in this investigation",
+        "code_license": "Unknown / not applicable",
+        "annotation_license": "Unknown",
+        "source_text_rights": "Unknown; verify source rights independently before redistribution",
+        "paywall_retrieval_record": "Publisher DOI identified; legitimate Edinburgh author PDF available and methods inspected.",
+        "id": "holj",
+        "title": "Extractive summarisation of legal texts",
+        "authors": "Ben Hachey and Claire Grover",
+        "year": 2006,
+        "kind": "single corpus study and historical corpus",
+        "doi": "10.1007/s10506-007-9039-z",
+        "primary_urls": [
+          "https://link.springer.com/article/10.1007/s10506-007-9039-z",
+          "https://www.ltg.ed.ac.uk/np/publications/ltg/papers/Hachey2006Extractive.pdf"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://www.ltg.ed.ac.uk/np/publications/ltg/papers/Hachey2006Extractive.pdf"
+        ],
+        "verified_scope": "Legitimate author PDF corpus, methods and hierarchical XML description inspected; annotated dataset file or license not located.",
+        "unit": "Sentence role and sentence-to-human-summary relevance; judgments contain individual LORD speeches and paragraphs.",
+        "genres_or_forms": "UK House of Lords judicial decisions, 2001–2003",
+        "annotation_or_metrics_available": "Human rhetorical status and relevance layers; automatic linguistic layer separate.",
+        "size_and_count_basis": "188 judgments, 2,887,037 body words and 98,645 sentences; rhetorical-role labels for 69 judgments and relevance for 47 of those, according to paper.",
+        "human_or_automatic": "Manual role and relevance annotations; other linguistic annotations automatic.",
+        "access_status": "Author PDF open; no usable annotated-data download located in this search",
+        "reuse_recommendation": "Reuse hierarchical judgment/speech/paragraph distinctions and distinguish discourse role from relevance to summaries. Seek corpus owner for access.",
+        "project_feature_mapping": [
+          "F01-F04 contingent on accessing source data and preserved boundaries",
+          "F09 candidate role distinctions"
+        ],
+        "limitations": "Subset annotation only; judicial decisions are not proposals. No inspected data file or reuse grant."
+      },
+      "source_occurrences": [
+        {
+          "scout": "law-policy",
+          "source_file": "agents/law-policy/findings.json",
+          "id": "holj"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "baseline_status": "new lead; not identified by name in inspected baseline",
+        "reliability": "Not assessed in this investigation",
+        "code_license": "Unknown / not applicable",
+        "annotation_license": "Unknown",
+        "source_text_rights": "Unknown; verify source rights independently before redistribution",
+        "paywall_retrieval_record": null,
+        "id": "judicial-manuals",
+        "title": "Who’s Really Got the Right Moves? Analyzing Recommendations for Writing American Judicial Opinions",
+        "authors": "Mary C. Lavissière and Warren Bonnard",
+        "year": 2024,
+        "kind": "manuals comparison and single corpus move study; narrative literature background",
+        "doi": "10.3390/languages9040119",
+        "primary_urls": [
+          "https://www.mdpi.com/2226-471X/9/4/119"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://www.mdpi.com/2226-471X/9/4/119"
+        ],
+        "verified_scope": "Open full article abstract, methods and selected bibliography inspected. Compares professional manuals and annotated judicial opinions; literature background is not a systematic review or meta-analysis.",
+        "unit": "Move and step analysis; professional writing manuals and judicial opinions",
+        "genres_or_forms": "US judicial opinions and advice for judges and law clerks",
+        "annotation_or_metrics_available": "Manual recommendations compared with observed Swalesian moves and steps; paper reports annotation agreement.",
+        "size_and_count_basis": "Consult full methods for corpus and manual count before quantitative reuse.",
+        "human_or_automatic": "Human move annotations",
+        "access_status": "Open full text",
+        "reuse_recommendation": "Reuse its comparison of prescriptive advice against observed practice and its distinctions between moves and steps; use backreferences to identify historical studies.",
+        "project_feature_mapping": [
+          "F02 section organization",
+          "F09 moves/steps as hypotheses"
+        ],
+        "limitations": "Not a pooled estimate, systematic evidence map, policy memo study or general legal writing norm."
+      },
+      "source_occurrences": [
+        {
+          "scout": "law-policy",
+          "source_file": "agents/law-policy/findings.json",
+          "id": "judicial-manuals"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "baseline_status": "new lead; not identified by name in inspected baseline",
+        "reliability": "Not assessed in this investigation",
+        "code_license": "Unknown / not applicable",
+        "annotation_license": "Unknown",
+        "source_text_rights": "Unknown; verify source rights independently before redistribution",
+        "paywall_retrieval_record": "2015 publication, 37:13–26; DOI and publisher preview verified. Direct open returned 403; no legitimate author copy verified. Request through library.",
+        "id": "tessuto-law",
+        "title": "Generic structure and rhetorical moves in English-language empirical law research articles: Sites of interdisciplinary and interdiscursive cross-over",
+        "authors": "Girolamo Tessuto",
+        "year": 2015,
+        "kind": "single descriptive corpus study",
+        "doi": "10.1016/j.esp.2014.06.002",
+        "primary_urls": [
+          "https://www.sciencedirect.com/science/article/abs/pii/S0889490614000386",
+          "https://doi.org/10.1016/j.esp.2014.06.002"
+        ],
+        "repository_url": null,
+        "artifact_urls": [],
+        "verified_scope": "Publisher search preview abstract, introduction, data-collection excerpt and conclusion inspected; direct publisher open returned HTTP 403. Full methods and actual annotations not inspected.",
+        "unit": "Document section and rhetorical move",
+        "genres_or_forms": "English empirical law research articles, interdisciplinary journals",
+        "annotation_or_metrics_available": "IMRD variation and communicative move organization, as described in abstract; no dataset verified.",
+        "size_and_count_basis": "Publisher preview reports 90 randomly selected articles 2010–2012 from three journals.",
+        "human_or_automatic": "Not independently determined from accessible preview",
+        "access_status": "Publisher access via institution or purchase; full text gated",
+        "reuse_recommendation": "Library retrieval candidate for direct empirical-report coverage outside medicine; check detailed definitions and reliability before crosswalk.",
+        "project_feature_mapping": [
+          "F02 section structure",
+          "F09 move functions candidate"
+        ],
+        "limitations": "Single genre sample, not a systematic review/meta-analysis; no transferable universal IMRD requirement."
+      },
+      "source_occurrences": [
+        {
+          "scout": "law-policy",
+          "source_file": "agents/law-policy/findings.json",
+          "id": "tessuto-law"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "authors": [
+          "textstat contributors"
+        ],
+        "year": null,
+        "kind": "tool",
+        "doi": null,
+        "primary_urls": [
+          "https://github.com/textstat/textstat/blob/main/README.md",
+          "https://github.com/textstat/textstat/blob/main/LICENSE"
+        ],
+        "repository_url": "https://github.com/textstat/textstat",
+        "artifact_urls": [
+          "https://github.com/textstat/textstat/blob/main/textstat/resources/en/easy_words.txt",
+          "https://github.com/textstat/textstat/blob/main/requirements.txt"
+        ],
+        "verified_scope": "README, license, easy-word list and requirements inspected",
+        "baseline_status": "newly inspected",
+        "unit": "text, sentence, word and estimated syllable",
+        "genres_or_forms": "general text",
+        "annotation_or_metrics_available": "word, sentence, character, syllable counts and readability formulas",
+        "size_and_count_basis": "2,941 lines in easy_words.txt; not a validated audience familiarity measure",
+        "human_or_automatic": "automatic",
+        "reliability": "not established",
+        "code_license": "MIT repository; dependencies need review",
+        "annotation_license": "not applicable",
+        "source_text_rights": "list provenance and separate rights not established",
+        "access_status": "public",
+        "reuse_recommendation": "Compare raw counts to manually counted fixtures; pin tokenizer, version, language and denominator.",
+        "project_feature_mapping": "F01 F04 F05 F06",
+        "limitations": "Pyphen and nltk dependencies; CMUdict licensing issue https://github.com/textstat/textstat/issues/214. Scores do not establish audience comprehension or quality.",
+        "paywall_retrieval_record": null,
+        "id": "M01",
+        "title": "textstat"
+      },
+      "source_occurrences": [
+        {
+          "scout": "metrics-toolchains",
+          "source_file": "agents/metrics-toolchains/findings.json",
+          "id": "M01"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "authors": [
+          "Kenneth Benoit",
+          "Kohei Watanabe",
+          "Haiyan Wang",
+          "Jiong Wei Lua",
+          "Jouni Kuha"
+        ],
+        "year": null,
+        "kind": "R package",
+        "doi": "10.32614/CRAN.package.quanteda.textstats",
+        "primary_urls": [
+          "https://cran.r-project.org/web/packages/quanteda.textstats/index.html"
+        ],
+        "repository_url": "https://github.com/quanteda/quanteda.textstats",
+        "artifact_urls": [
+          "https://github.com/quanteda/quanteda.textstats/blob/master/R/textstat_readability.R"
+        ],
+        "verified_scope": "CRAN metadata and source formula definitions inspected",
+        "baseline_status": "newly inspected",
+        "unit": "documents, words, sentences, characters and syllables",
+        "genres_or_forms": "general corpus",
+        "annotation_or_metrics_available": "frequency, similarity, diversity, readability",
+        "size_and_count_basis": "ASL = words/sentences; AWL = characters/words; familiar rate = matching words/all words",
+        "human_or_automatic": "automatic",
+        "reliability": "not established",
+        "code_license": "GPL-3",
+        "annotation_license": "not applicable",
+        "source_text_rights": "not applicable",
+        "access_status": "public",
+        "reuse_recommendation": "Independent formula and count comparison with preprocessing matched.",
+        "project_feature_mapping": "F01 F05 F06",
+        "limitations": "Requires R and compiled dependencies; implementation equality does not guarantee sentence or syllable equivalence.",
+        "paywall_retrieval_record": null,
+        "id": "M02",
+        "title": "quanteda.textstats"
+      },
+      "source_occurrences": [
+        {
+          "scout": "metrics-toolchains",
+          "source_file": "agents/metrics-toolchains/findings.json",
+          "id": "M02"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "authors": [
+          "LCR-ADS Lab"
+        ],
+        "year": null,
+        "kind": "tool",
+        "doi": null,
+        "primary_urls": [
+          "https://github.com/LCR-ADS-Lab/TAACO/blob/main/README.md"
+        ],
+        "repository_url": "https://github.com/LCR-ADS-Lab/TAACO",
+        "artifact_urls": [
+          "https://github.com/LCR-ADS-Lab/TAACO/blob/main/packageTest.csv",
+          "https://github.com/LCR-ADS-Lab/TAACO/blob/main/TAACOnoGUI.py"
+        ],
+        "verified_scope": "README, repository contents, CSV header and entry point inspected",
+        "baseline_status": "newly inspected",
+        "unit": "document; sentence and paragraph adjacency",
+        "genres_or_forms": "ELLIPSE L2 student sample, not professional norm",
+        "annotation_or_metrics_available": "lemma TTR, lexical density, adjacent overlap and diagnostics",
+        "size_and_count_basis": "sample CSV columns include lemma_ttr and adjacent_overlap_all_sent; row count unverified",
+        "human_or_automatic": "automatic",
+        "reliability": "README notes version-correlation comparison on ELLIPSE; actual results not inspected",
+        "code_license": "README CC BY-NC-SA 4.0; component rights require review",
+        "annotation_license": "not applicable",
+        "source_text_rights": "sample and COCA-derived resources rights unverified",
+        "access_status": "public",
+        "reuse_recommendation": "Use sample CSV as schema and version-specific reference fixture after rights review.",
+        "project_feature_mapping": "F04 F05 adjacency, F09 exploratory signals",
+        "limitations": "Requires spaCy and model; 2.1 changed segmentation and parser from CoreNLP so differs from 2.0.4; cohesion is not communicative function.",
+        "paywall_retrieval_record": null,
+        "id": "M03",
+        "title": "TAACO 2.1 and sample feature table"
+      },
+      "source_occurrences": [
+        {
+          "scout": "metrics-toolchains",
+          "source_file": "agents/metrics-toolchains/findings.json",
+          "id": "M03"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "authors": [
+          "Kristopher Kyle"
+        ],
+        "year": null,
+        "kind": "tool",
+        "doi": null,
+        "primary_urls": [
+          "https://github.com/kristopherkyle/TAASSC/blob/main/README.md"
+        ],
+        "repository_url": "https://github.com/kristopherkyle/TAASSC",
+        "artifact_urls": [
+          "https://github.com/kristopherkyle/TAASSC/blob/main/pub_versions/TAASSC%202.0.0.58/README.md",
+          "https://github.com/kristopherkyle/TAASSC/raw/main/pub_versions/TAASSC%202.0.0.58.zip"
+        ],
+        "verified_scope": "root README and release links inspected; archive not downloaded",
+        "baseline_status": "newly inspected",
+        "unit": "clauses, phrases, dependency constructions",
+        "genres_or_forms": "L2 and corpus linguistic analyses",
+        "annotation_or_metrics_available": "clausal, phrasal and lexicogrammatical indices",
+        "size_and_count_basis": "2.0.0.58 identified as version used in Kyle et al. 2021",
+        "human_or_automatic": "automatic",
+        "reliability": "not established",
+        "code_license": "README asserts CC BY-NC-SA 4.0; GitHub metadata identifies GPL-3: resolve conflict",
+        "annotation_license": "not applicable",
+        "source_text_rights": "v1 COCA data not publicly distributed; v2 uses COW; component rights unverified",
+        "access_status": "public",
+        "reuse_recommendation": "Research comparator pending license resolution and parser/model version pinning.",
+        "project_feature_mapping": "F05",
+        "limitations": "v1 CoreNLP/COCA versus v2 spaCy/COW; results not interchangeable or quality benchmarks.",
+        "paywall_retrieval_record": null,
+        "id": "M04",
+        "title": "TAASSC"
+      },
+      "source_occurrences": [
+        {
+          "scout": "metrics-toolchains",
+          "source_file": "agents/metrics-toolchains/findings.json",
+          "id": "M04"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "authors": [
+          "Kristopher Kyle",
+          "Scott Crossley",
+          "Cynthia Berger"
+        ],
+        "year": 2018,
+        "kind": "tool",
+        "doi": "10.3758/s13428-017-0924-4",
+        "primary_urls": [
+          "https://www.linguisticanalysistools.org/taales.html"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://www.linguisticanalysistools.org/taales.html"
+        ],
+        "verified_scope": "official page and manual/index spreadsheet links inspected; downloads not inspected",
+        "baseline_status": "newly inspected",
+        "unit": "text, token, bigram, trigram",
+        "genres_or_forms": "L1/L2 writing and speaking research",
+        "annotation_or_metrics_available": "over 400 lexical indices; text and item coverage diagnostics from 2.2",
+        "size_and_count_basis": "over 400 indices, not independent measures",
+        "human_or_automatic": "automatic",
+        "reliability": "not established",
+        "code_license": "tool page CC BY-NC-SA 4.0; bundled resource rights unverified",
+        "annotation_license": "not applicable",
+        "source_text_rights": "bundled resource rights unverified",
+        "access_status": "public",
+        "reuse_recommendation": "Adopt coverage diagnostics concept; verify individual dictionaries and rights before reuse.",
+        "project_feature_mapping": "F06 contextual vocabulary description",
+        "limitations": "Official binary/manual links, no source inspected. Corpus frequency is not individual comprehension.",
+        "paywall_retrieval_record": null,
+        "id": "M05",
+        "title": "TAALES"
+      },
+      "source_occurrences": [
+        {
+          "scout": "metrics-toolchains",
+          "source_file": "agents/metrics-toolchains/findings.json",
+          "id": "M05"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "authors": [
+          "Xiaofei Lu"
+        ],
+        "year": 2010,
+        "kind": "tool",
+        "doi": "10.1075/ijcl.15.4.02lu",
+        "primary_urls": [
+          "https://sites.psu.edu/xxl13/l2sca/"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://sites.psu.edu/xxl13/l2sca/"
+        ],
+        "verified_scope": "indexed official description inspected; direct open returned HTTP 502; tarball not inspected",
+        "baseline_status": "newly inspected",
+        "unit": "words, sentences, T-units, clauses, parsed phrases",
+        "genres_or_forms": "advanced English learner writing",
+        "annotation_or_metrics_available": "14 indices including words per sentence, clauses per T-unit",
+        "size_and_count_basis": "9 raw structural counts and 14 ratios",
+        "human_or_automatic": "automatic",
+        "reliability": "not established",
+        "code_license": "unknown; parser and Tregex separately licensed",
+        "annotation_license": "not applicable",
+        "source_text_rights": "not applicable",
+        "access_status": "indexed page; direct retrieval failed 502",
+        "reuse_recommendation": "Compare definitions and 4.2.2 counting fix when accessible; replication not verified.",
+        "project_feature_mapping": "F05",
+        "limitations": "Java, Python, Stanford Parser and Tregex; learner population.",
+        "paywall_retrieval_record": "Official page direct open failed HTTP 502; not evidence of absence.",
+        "id": "M06",
+        "title": "L2 Syntactic Complexity Analyzer"
+      },
+      "source_occurrences": [
+        {
+          "scout": "metrics-toolchains",
+          "source_file": "agents/metrics-toolchains/findings.json",
+          "id": "M06"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "authors": [
+          "INCEpTION contributors"
+        ],
+        "year": null,
+        "kind": "tool",
+        "doi": null,
+        "primary_urls": [
+          "https://github.com/eclipse-inception/inception/blob/main/README.md",
+          "https://inception-project.github.io/releases/38.6/docs/user-guide.html"
+        ],
+        "repository_url": "https://github.com/eclipse-inception/inception",
+        "artifact_urls": [
+          "https://inception-project.github.io/releases/38.6/docs/user-guide.html"
+        ],
+        "verified_scope": "README and user-guide agreement and export sections inspected",
+        "baseline_status": "newly inspected",
+        "unit": "span and relation annotations, per-feature labels",
+        "genres_or_forms": "configurable",
+        "annotation_or_metrics_available": "independent annotation, curation, agreement; UIMA CAS JSON and CSV export",
+        "size_and_count_basis": "pairwise agreement per feature across documents; CSV row per position and label",
+        "human_or_automatic": "human, optional assistance",
+        "reliability": "guide warns overlapping units may be skipped and coding measures do not account for partial overlap",
+        "code_license": "Apache-2.0",
+        "annotation_license": "project determined",
+        "source_text_rights": "source-specific",
+        "access_status": "public",
+        "reuse_recommendation": "Pilot blind independent coding; export full CAS and per-coder records; externally calculate overlap-aware agreement before adjudication.",
+        "project_feature_mapping": "F09; possible F02 F07 F08 layers",
+        "limitations": "Tool supplies neither operational definitions nor independent coders. Built-in agreement may discard overlapping units.",
+        "paywall_retrieval_record": null,
+        "id": "M07",
+        "title": "INCEpTION annotation platform"
+      },
+      "source_occurrences": [
+        {
+          "scout": "metrics-toolchains",
+          "source_file": "agents/metrics-toolchains/findings.json",
+          "id": "M07"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "authors": [
+          "Dee Gardner",
+          "Mark Davies"
+        ],
+        "year": 2014,
+        "kind": "corpus-derived vocabulary list and single study",
+        "doi": "10.1093/applin/amt015",
+        "primary_urls": [
+          "https://academic.oup.com/applij/article-abstract/35/3/305/146569",
+          "https://www.academicwords.info/x.asp",
+          "https://www.mark-davies.org/articles/davies_52.pdf"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://www.academicwords.info/download/families_user734.pdf"
+        ],
+        "verified_scope": "publisher abstract, official list site, family-list example inspected; full study not appraised",
+        "baseline_status": "newly inspected",
+        "unit": "lemma by part of speech versus word family",
+        "genres_or_forms": "academic texts, nine disciplines, American English COCA",
+        "annotation_or_metrics_available": "academic vocabulary list and family list",
+        "size_and_count_basis": "official site top 3000 lemmas; 120 million academic tokens within 425 million COCA",
+        "human_or_automatic": "corpus-derived",
+        "reliability": "not established",
+        "code_license": "unknown",
+        "annotation_license": "list redistribution terms unknown",
+        "source_text_rights": "COCA source rights separate and unverified",
+        "access_status": "public",
+        "reuse_recommendation": "Prototype coverage with list version, lemma/POS and denominator; obtain redistribution rights.",
+        "project_feature_mapping": "F06 contextual description",
+        "limitations": "Academic frequency is not audience familiarity, and not a general professional or personal writing norm.",
+        "paywall_retrieval_record": null,
+        "id": "M08",
+        "title": "A New Academic Vocabulary List"
+      },
+      "source_occurrences": [
+        {
+          "scout": "metrics-toolchains",
+          "source_file": "agents/metrics-toolchains/findings.json",
+          "id": "M08"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "authors": [
+          "Shi Huawei",
+          "Vahid Aryadoust"
+        ],
+        "year": 2023,
+        "kind": "systematic methodological review",
+        "doi": "10.1007/s10639-022-11200-7",
+        "primary_urls": [
+          "https://doi.org/10.1007/s10639-022-11200-7",
+          "https://repository.nie.edu.sg/server/api/core/bitstreams/223f6952-ce18-4df4-8f63-b51cd2f44141/content"
+        ],
+        "repository_url": null,
+        "artifact_urls": [],
+        "verified_scope": "author version abstract and stated search scope inspected; not full appraisal; 2022 online first, 2023 issue",
+        "baseline_status": "newly inspected",
+        "unit": "study and validity inference",
+        "genres_or_forms": "educational automated writing evaluation",
+        "annotation_or_metrics_available": "validation framework, not released corpus",
+        "size_and_count_basis": "105 Scopus publications, 1996–2020",
+        "human_or_automatic": "systematic review",
+        "reliability": "heterogeneous contexts; domain-description inference neglected",
+        "code_license": "not applicable",
+        "annotation_license": "not applicable",
+        "source_text_rights": "not applicable",
+        "access_status": "public",
+        "reuse_recommendation": "Use to audit claims, not to prescribe genre profiles.",
+        "project_feature_mapping": "cross-cutting validation",
+        "limitations": "One database and educational context; not a pooled causal estimate.",
+        "paywall_retrieval_record": "Legitimate institutional author version available; abstract and scope inspected.",
+        "id": "M09",
+        "title": "A systematic review of automated writing evaluation systems"
+      },
+      "source_occurrences": [
+        {
+          "scout": "metrics-toolchains",
+          "source_file": "agents/metrics-toolchains/findings.json",
+          "id": "M09"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "code_license": "unknown",
+        "annotation_license": "Zenodo release metadata CC BY 4.0; confirm scope before use.",
+        "source_text_rights": "Publisher-owned source rights not independently verified; Zenodo data license is not independent evidence of publisher permission.",
+        "reliability": "Fleiss kappa 0.56 reported in 2016 paper.",
+        "paywall_retrieval_record": null,
+        "repository_url": null,
+        "id": "webis-editorials-16",
+        "title": "A News Editorial Corpus for Mining Argumentation Strategies / Webis-Editorials-16",
+        "authors": [
+          "Khalid Al-Khatib",
+          "Henning Wachsmuth",
+          "Johannes Kiesel",
+          "Matthias Hagen",
+          "Benno Stein"
+        ],
+        "year": 2016,
+        "kind": "annotated corpus and single corpus study",
+        "doi": "10.5281/zenodo.3254405 (dataset)",
+        "primary_urls": [
+          "https://aclanthology.org/C16-1324/",
+          "https://webis.de/data/webis-editorials-16.html"
+        ],
+        "artifact_urls": [
+          "https://zenodo.org/api/records/3254405/files/corpus-webis-editorials-16.zip/content"
+        ],
+        "verified_scope": "Dataset landing page, Zenodo API metadata, downloaded ZIP README, XML type system and XMI header inspected. README documents TXT rows with explicit paragraph separator, label and text; XMI has original metadata.",
+        "baseline_status": "new lead",
+        "unit": "editorial, paragraph separator and argumentative discourse unit",
+        "genres_or_forms": [
+          "professional news editorial"
+        ],
+        "annotation_or_metrics_available": "Six unit types including assumption and statistics; paragraph boundaries and text; outlet, date, author, URL; temporal evaluation split 180/60/60.",
+        "size_and_count_basis": "300 editorials, 100 per outlet; 14,313 units per official description.",
+        "human_or_automatic": "Three professional crowdsourcing annotators per unit.",
+        "access_status": "Direct public ZIP; inspected.",
+        "reuse_recommendation": "Highest priority: preserve original paragraph separators and unit labels, reconstruct sequences and independently verify full-text completeness; compare by outlet and author.",
+        "project_feature_mapping": {
+          "F04": "paragraph separators allow candidate paragraph metrics",
+          "F07": "statistics and anecdote types are candidate evidence proxies",
+          "F09": "unit labels are hypotheses for crosswalk, not paragraph labels"
+        },
+        "limitations": "Only three outlets and 2014–2015 era; not professional writing norms; forced unit classification is not multi-label paragraph coding."
+      },
+      "source_occurrences": [
+        {
+          "scout": "personal-public",
+          "source_file": "agents/personal-public/findings.json",
+          "id": "webis-editorials-16"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "code_license": "unknown",
+        "annotation_license": "CC BY-SA 4.0 explicitly for annotations in LICENSE.",
+        "source_text_rights": "unknown; do not infer from availability",
+        "reliability": "Two-coder vote minimum; uncertainty and possible no-label documents retained in account; not a paragraph agreement statistic.",
+        "paywall_retrieval_record": null,
+        "repository_url": "https://github.com/TurkuNLP/CORE-corpus",
+        "id": "core",
+        "title": "Register identification from the unrestricted open Web using the Corpus of Online Registers of English",
+        "authors": [
+          "Veronika Laippala",
+          "Samuel Rönnqvist",
+          "Miika Oinonen",
+          "Aki-Juhani Kyröläinen",
+          "Anna Salmela",
+          "Douglas Biber",
+          "Jesse Egbert",
+          "Sampo Pyysalo"
+        ],
+        "year": 2022,
+        "kind": "corpus and single corpus study",
+        "doi": "10.1007/s10579-022-09624-1",
+        "primary_urls": [
+          "https://link.springer.com/article/10.1007/s10579-022-09624-1"
+        ],
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/TurkuNLP/CORE-corpus/master/README.md",
+          "https://raw.githubusercontent.com/TurkuNLP/CORE-corpus/master/register_label_abbreviations.txt",
+          "https://raw.githubusercontent.com/TurkuNLP/CORE-corpus/master/LICENSE.txt",
+          "https://github.com/TurkuNLP/CORE-corpus/blob/master/train.tsv.gz"
+        ],
+        "verified_scope": "Full open paper sections on annotation and README, label file, license, repository file listing inspected.",
+        "baseline_status": "known baseline; newly inspected label and release schema",
+        "unit": "web document, register labels",
+        "genres_or_forms": [
+          "personal blog",
+          "opinion blog",
+          "editorial",
+          "persuasive article or essay",
+          "review",
+          "how-to instructional"
+        ],
+        "annotation_or_metrics_available": "TSV: label(s), document ID, text; hierarchy and hybrids; labels PB, OB, ED, PA, RV, HI and others. Multi-labels result from minimum two coder votes, not necessarily within-text sections.",
+        "size_and_count_basis": "Nearly 50,000 documents in 2022 release; original 2015 study 53,000, different version/count.",
+        "human_or_automatic": "Four independent coders per document; at least two votes per released label.",
+        "access_status": "Public GitHub gzip files; not downloaded or evaluated in full.",
+        "reuse_recommendation": "Use label dictionary and hybrid/propagation decisions to test form versus medium and ambiguous boundaries; select and audit samples separately.",
+        "project_feature_mapping": {
+          "F01": "document lengths only after completeness audit",
+          "F09": "document register is contextual metadata, not function annotation"
+        },
+        "limitations": "Unrestricted web sample is not curated high-quality writing; cleaned text may lose paragraph structure and completeness, verify. Source rights separate."
+      },
+      "source_occurrences": [
+        {
+          "scout": "personal-public",
+          "source_file": "agents/personal-public/findings.json",
+          "id": "core"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "code_license": "unknown",
+        "annotation_license": "2.0 README says CC BY 4.0; 1.0 README has conflicting snippets in web cache, use exact current 2.0 release conditions.",
+        "source_text_rights": "2.0 README declares dataset CC BY 4.0; confirm source contributor and redistribution scope before external reuse.",
+        "reliability": "not verified",
+        "paywall_retrieval_record": null,
+        "repository_url": "https://github.com/scrosseye/persuade_corpus_2.0",
+        "id": "persuade2",
+        "title": "A large-scale corpus for assessing written argumentation: PERSUADE 2.0",
+        "authors": [
+          "Scott A. Crossley",
+          "Ying Tian",
+          "Patience Baffour",
+          "Andrew Franklin",
+          "Michael Benner",
+          "Ulrich Boser"
+        ],
+        "year": 2024,
+        "kind": "annotated corpus and dataset paper",
+        "doi": "10.1016/j.asw.2024.100865",
+        "primary_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S1075293524000588",
+          "https://zenodo.org/records/8221504"
+        ],
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/README.md",
+          "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/argumentation_effectiveness_rubric.pdf",
+          "https://drive.google.com/file/d/13phHyDzIsb0MHyJr6q-B-qIa9P2tM135/view?usp=sharing",
+          "https://drive.google.com/file/d/1K1SIJiG-2zWgMlTzxQeYOcLwOsFaVel1/view?usp=sharing"
+        ],
+        "verified_scope": "Repository README and 1.0 schema and author paper abstract inspected; large data files and full rubric not downloaded.",
+        "baseline_status": "new lead",
+        "unit": "student essay and discourse element character span",
+        "genres_or_forms": [
+          "grade 6–12 prompted US student argumentative writing"
+        ],
+        "annotation_or_metrics_available": "Original 1.0 schema provides full_text, discourse_start/end, discourse_type; 2.0 adds holistic and element effectiveness ratings, demographics and prompts; lead, position, claim, counterclaim, rebuttal, evidence, concluding summary.",
+        "size_and_count_basis": "Over 25,000 essays, 15 prompts, independent and source-based tasks, per 2.0 README.",
+        "human_or_automatic": "1.0 README reports double-blind independent expert reviewers and 100% third-rater adjudication.",
+        "access_status": "Google Drive linked; test ZIP password published in README. Data files not downloaded.",
+        "reuse_recommendation": "Use span schema and rubric to compare boundaries and disagreement design; use scores only for population-specific exploratory analysis.",
+        "project_feature_mapping": {
+          "F01": "whole essays if text integrity confirmed",
+          "F04": "paragraph extraction requires original formatting inspection",
+          "F07": "evidence span label",
+          "F09": "argumentative functions crosswalk as hypotheses"
+        },
+        "limitations": "School assignment outcomes and demographics are not professional expertise or an authentic-personal-voice quality criterion. 15 prompts restrict transfer; treat demographic fields carefully."
+      },
+      "source_occurrences": [
+        {
+          "scout": "personal-public",
+          "source_file": "agents/personal-public/findings.json",
+          "id": "persuade2"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "code_license": "unknown",
+        "annotation_license": "Custom license document identified but 403 prevented verification.",
+        "source_text_rights": "unknown; do not infer from availability",
+        "reliability": "See paper for task-specific agreement; no figure asserted here.",
+        "paywall_retrieval_record": "Paper is openly available via ACL; dataset host 403; dataset license PDF not retrieved.",
+        "repository_url": null,
+        "id": "aae-v2",
+        "title": "Parsing Argumentation Structures in Persuasive Essays / Argument Annotated Essays version 2",
+        "authors": [
+          "Christian Stab",
+          "Iryna Gurevych"
+        ],
+        "year": 2017,
+        "kind": "annotated corpus and single corpus study",
+        "doi": "10.1162/COLI_a_00295",
+        "primary_urls": [
+          "https://aclanthology.org/J17-3005/",
+          "https://tudatalib.ulb.tu-darmstadt.de/items/9177c48c-8bd5-4881-9cb4-0632b5941464/full"
+        ],
+        "artifact_urls": [
+          "https://tudatalib.ulb.tu-darmstadt.de/bitstream/handle/tudatalib/2422/arg_annotated_essays_v2_license.pdf"
+        ],
+        "verified_scope": "ACL paper abstract/methods, TU Darmstadt indexed release metadata and file listing inspected; live TU host returned 403 during follow-up; license file could not be inspected.",
+        "baseline_status": "known 2014 v1 baseline; v2 release newly checked",
+        "unit": "essay, character-span argument components and directed relations",
+        "genres_or_forms": [
+          "persuasive learner/student essays"
+        ],
+        "annotation_or_metrics_available": "major claim, claim, premise and support/attack relations; segmentation and graph structure.",
+        "size_and_count_basis": "402 essays includes 90 from v1; 80 essays independently annotated by three annotators for agreement.",
+        "human_or_automatic": "Human annotations; study describes independent multiple annotation subset.",
+        "access_status": "Release metadata indexed, live host 403; do not interpret host failure as corpus removal.",
+        "reuse_recommendation": "When access permits inspect license and standoff files; compare component boundaries and relations to PERSUADE and editorial annotation.",
+        "project_feature_mapping": {
+          "F09": "claims, premises and relations offer argument-layer definitions",
+          "F04": "paragraphs only after source formatting is checked"
+        },
+        "limitations": "Learner/prompt context and support-attack relations do not transfer directly to expert personal essays or paragraph purposes."
+      },
+      "source_occurrences": [
+        {
+          "scout": "personal-public",
+          "source_file": "agents/personal-public/findings.json",
+          "id": "aae-v2"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "code_license": "unknown",
+        "annotation_license": "CC BY-SA 4.0 per README; applies to this extension, not automatically AAE text.",
+        "source_text_rights": "unknown; do not infer from availability",
+        "reliability": "not verified",
+        "paywall_retrieval_record": null,
+        "repository_url": "https://github.com/discourse-lab/arg-essays-semantic-types",
+        "id": "semantic-essay",
+        "title": "Towards Fine-Grained Argumentation Strategy Analysis in Persuasive Essays",
+        "authors": [
+          "Robin Schaefer",
+          "René Knaebel",
+          "Manfred Stede"
+        ],
+        "year": 2023,
+        "kind": "annotation extension and single corpus study",
+        "doi": null,
+        "primary_urls": [
+          "https://aclanthology.org/people/robin-schaefer/unverified/"
+        ],
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/discourse-lab/arg-essays-semantic-types/main/essays_semantic_types.tsv",
+          "https://raw.githubusercontent.com/discourse-lab/arg-essays-semantic-types/main/guidelines.pdf",
+          "https://raw.githubusercontent.com/discourse-lab/arg-essays-semantic-types/main/LICENSE"
+        ],
+        "verified_scope": "Repository README, file inventory, license statement and first TSV records inspected: docID, semanticType, characterSpan; policy and value examples.",
+        "baseline_status": "new lead",
+        "unit": "semantic type on argument component character spans",
+        "genres_or_forms": [
+          "AAE persuasive essays"
+        ],
+        "annotation_or_metrics_available": "Additional fine-grained semantic claim/premise categories; guidelines and offset table; original AAE component annotations are not distributed here.",
+        "size_and_count_basis": "Annotation extension over AAE; exact annotated span/essay count not independently checked.",
+        "human_or_automatic": "Human annotations; annotators acknowledged.",
+        "access_status": "Public TSV and guideline PDF; first TSV rows checked.",
+        "reuse_recommendation": "Use accompanying guidelines as a nuanced comparison and join offsets only after verifying exact underlying AAE version and permissions.",
+        "project_feature_mapping": {
+          "F07": "possible evidence type distinction",
+          "F09": "semantic types are cross-cutting argument content, not paragraph function"
+        },
+        "limitations": "Dependent on separately licensed AAE; subset and reliability need verification; student work not expert writing."
+      },
+      "source_occurrences": [
+        {
+          "scout": "personal-public",
+          "source_file": "agents/personal-public/findings.json",
+          "id": "semantic-essay"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "code_license": "unknown",
+        "annotation_license": "unknown",
+        "source_text_rights": "unknown; do not infer from availability",
+        "reliability": "Manual describes double reading and correction; not paragraph coding reliability.",
+        "paywall_retrieval_record": null,
+        "repository_url": null,
+        "id": "brown-family",
+        "title": "The part-of-speech-tagged Brown corpora: a manual of information",
+        "authors": [
+          "Lars Hinrichs",
+          "Nicholas Smith",
+          "Birgit Waibel"
+        ],
+        "year": 2007,
+        "kind": "corpus manual and comparative descriptive synthesis",
+        "doi": null,
+        "primary_urls": [
+          "https://icame.info/icame_static/manuals/FLOB-Manual-tagged.pdf",
+          "https://icame.info/icame_static/manuals/BROWN/INDEX.HTM"
+        ],
+        "artifact_urls": [
+          "https://icame.info/icame_static/manuals/FLOB-Manual-tagged.pdf"
+        ],
+        "verified_scope": "2007 full manual introduction, text sampling, tag methodology, frequency tables and appendix descriptions inspected. A source and analytical tables, not acquired full corpus.",
+        "baseline_status": "new lead",
+        "unit": "approximately 2,000-word excerpt, word/POS and genre group",
+        "genres_or_forms": [
+          "press reportage",
+          "press editorial",
+          "press review",
+          "belles lettres, biographies, essays",
+          "skills trades and hobbies"
+        ],
+        "annotation_or_metrics_available": "15 matched genre categories and broad-group POS frequency tables; paragraph and heading markup; FLOB and Frown automatically POS tagged then human-post-edited.",
+        "size_and_count_basis": "Each of four corpora has 500 samples approx 2,000 words; Brown and LOB texts 1961, FLOB 1991, Frown 1992. Manual is 2007, distinct from sampled dates.",
+        "human_or_automatic": "POS automatic with human correction for FLOB/Frown; other versions vary.",
+        "access_status": "Manual openly accessible; exact present corpus license and distribution not independently verified.",
+        "reuse_recommendation": "Use matched historical genre sample design and published POS comparisons, not document-length distributions; follow references for source- or genre-specific evidence.",
+        "project_feature_mapping": {
+          "F04": "paragraph markup where internal complete boundaries remain intact",
+          "F05": "sentence analysis",
+          "F06": "word statistics"
+        },
+        "limitations": "Excerpt sampling approximately fixes F01 and truncates section/paragraph edges; genre G mixes essays with biographies and belles lettres; excludes modern online publishing."
+      },
+      "source_occurrences": [
+        {
+          "scout": "personal-public",
+          "source_file": "agents/personal-public/findings.json",
+          "id": "brown-family"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "code_license": "unknown",
+        "annotation_license": "Unknown; check Oxford Text Archive release conditions.",
+        "source_text_rights": "unknown; do not infer from availability",
+        "reliability": "Genre-family methodology in Gardner and Nesi 2013, agreement not independently verified.",
+        "paywall_retrieval_record": null,
+        "repository_url": null,
+        "id": "bawe",
+        "title": "The Corpus of British Academic Written English (BAWE) manual",
+        "authors": [
+          "Hilary Nesi",
+          "Sheena Gardner",
+          "Paul Thompson",
+          "Sian Alsop"
+        ],
+        "year": 2008,
+        "kind": "corpus and manual",
+        "doi": null,
+        "primary_urls": [
+          "https://llds.phon.ox.ac.uk/llds/xmlui/handle/20.500.14106/2539",
+          "https://varieng.helsinki.fi/CoRD/corpora/BAWE/index.html"
+        ],
+        "artifact_urls": [
+          "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/BAWE.documentation.pdf?isAllowed=y&sequence=5"
+        ],
+        "verified_scope": "Official corpus manual and corpus overview inspected; header, genre family classifications, copyright waiver discussion; original text release and exact license not retrieved.",
+        "baseline_status": "known baseline; manual inspected as new artifact",
+        "unit": "assessed assignment and component texts with genre metadata",
+        "genres_or_forms": [
+          "Essay",
+          "Critique",
+          "Explanation",
+          "Narrative Recount",
+          "Empathy Writing",
+          "Proposal"
+        ],
+        "annotation_or_metrics_available": "13 original genre families, discipline, level and assignment headers; XML manual documents structure.",
+        "size_and_count_basis": "2,761 assignments and 2,858 component texts are different units; approximately 6.5 million words, baseline corroborated by overview.",
+        "human_or_automatic": "Human genre analysis; XML structural markup; version-specific details require manual check.",
+        "access_status": "Manual public; corpus access conditions and registration must be confirmed.",
+        "reuse_recommendation": "Use manual and genre metadata as an explicit context-rich comparator, retaining authentic task and discipline; inspect exact text version before metrics.",
+        "project_feature_mapping": {
+          "F02": "genre metadata and encoded structural elements",
+          "F04": "paragraphs if present in selected XML release",
+          "F09": "genre stage descriptions are not direct paragraph function annotations"
+        },
+        "limitations": "Proficient assessed student writing is not published expert prose; narrative recount and empathy tasks are not necessarily personal reflection."
+      },
+      "source_occurrences": [
+        {
+          "scout": "personal-public",
+          "source_file": "agents/personal-public/findings.json",
+          "id": "bawe"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "AZ",
+        "title": "Argumentative Zoning Corpus",
+        "authors": "Simone Teufel and collaborators",
+        "year": 2014,
+        "kind": "corpus",
+        "doi": "10.3115/977035.977050",
+        "primary_urls": [
+          "https://www.cl.cam.ac.uk/~sht25/AZ_corpus.html",
+          "https://aclanthology.org/E99-1015/"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://www.cl.cam.ac.uk/~sht25/AZ_distribution.tar.gz"
+        ],
+        "verified_scope": "Distribution page, listed file schema and cited scheme inspected; archive not downloaded. 1999 scheme; dataset page dated 2014.",
+        "baseline_status": "new lead; AZ/CoreSC traditions appear in prior project context",
+        "unit": "Sentence in complete conference paper; citation/reference markup",
+        "genres_or_forms": "Computational linguistics research papers",
+        "annotation_or_metrics_available": "AZ attribute on S/A-S; abstract/body correspondence, references, self citations and metadata",
+        "size_and_count_basis": "80 articles, source reported",
+        "human_or_automatic": "One annotator per sentence; correspondence semi-manual",
+        "reliability": "Separate independent annotation agreement in original study; do not assume each item double-coded",
+        "code_license": "Not applicable",
+        "annotation_license": "CC BY-NC 2.0 UK distribution",
+        "source_text_rights": "Distribution license applies per site; verify underlying original articles before redistribution",
+        "access_status": "Open download",
+        "reuse_recommendation": "Use original roles and knowledge-ownership/citation signals to design crosswalk and benchmark; inspect original scheme before mapping.",
+        "project_feature_mapping": [
+          "F07",
+          "F09",
+          "F02"
+        ],
+        "limitations": "Single domain and historical conference selection; sentence classification is not paragraph coding; audit text/paragraph completeness before F01/F03/F04.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "scientific-roles",
+          "source_file": "agents/scientific-roles/findings.json",
+          "id": "AZ"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "ART",
+        "title": "Corpora for the Conceptualisation and Zoning of Scientific Papers",
+        "authors": "Maria Liakata; Simone Teufel; Advaith Siddharthan; Colin Batchelor",
+        "year": 2010,
+        "kind": "corpus and annotation schemes",
+        "doi": null,
+        "primary_urls": [
+          "https://aclanthology.org/L10-1440/",
+          "https://www.sapientaproject.com/links",
+          "https://live.european-language-grid.eu/catalogue/corpus/972"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://aclanthology.org/L10-1440.pdf"
+        ],
+        "verified_scope": "Paper abstract; project access page; ELG metadata and distribution license inspected; no dataset downloaded.",
+        "baseline_status": "new lead; AZ/CoreSC traditions appear in prior project context",
+        "unit": "Sentence within full research paper",
+        "genres_or_forms": "Physical chemistry and biochemistry empirical research",
+        "annotation_or_metrics_available": "11 CoreSC scientific concepts plus properties and cross-references; AZ-II distinct rhetorical knowledge-claim scheme",
+        "size_and_count_basis": "265 papers and 16 experts per paper abstract; project page says 225 + 41 yet also 265; unresolved count discrepancy",
+        "human_or_automatic": "Human domain experts",
+        "reliability": "Reliability described in source paper; extract exact statistic before comparison",
+        "code_license": "Unknown",
+        "annotation_license": "ELG metadata lists CC BY 4.0 for named resource; verify actual release and annotation rights",
+        "source_text_rights": "Verify individual paper and complete-distribution rights separately",
+        "access_status": "ELG describes downloadable XML; project page asks contact for all papers; actual download not verified",
+        "reuse_recommendation": "Reuse scheme distinctions and coding examples; resolve access/license discrepancy before training.",
+        "project_feature_mapping": [
+          "F09",
+          "F07"
+        ],
+        "limitations": "CoreSC concepts describe scientific investigation, not direct communicative-function labels; do not assume AZ-II coverage equals all 265 papers.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "scientific-roles",
+          "source_file": "agents/scientific-roles/findings.json",
+          "id": "ART"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "MULMS",
+        "title": "MuLMS-AZ: An Argumentative Zoning Dataset for the Materials Science Domain",
+        "authors": "Timo Pierre Schrader; Teresa Bürkle; Sophie Henning; Sherry Tan; Matteo Finco; Stefan Grünewald; Maira Indrikova; Felix Hildebrand; Annemarie Friedrich",
+        "year": 2023,
+        "kind": "corpus and tool",
+        "doi": "10.18653/v1/2023.codi-1.1",
+        "primary_urls": [
+          "https://aclanthology.org/2023.codi-1.1/"
+        ],
+        "repository_url": "https://github.com/boschresearch/mulms-az-codi2023",
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/README.md",
+          "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+          "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/data/mulms_corpus/MuLMS_Corpus_Metadata.csv"
+        ],
+        "verified_scope": "Abstract, README field schema, original labels, license and metadata sample inspected.",
+        "baseline_status": "new lead in inspected baseline",
+        "unit": "Sentence, one or more labels, offsets and document/split IDs",
+        "genres_or_forms": "Materials-science papers; seven subfields",
+        "annotation_or_metrics_available": "Experiment, Results, Exp_Preparation, Exp_Characterization, Background_PriorWork, Explanation, Conclusion, Motivation, Background, Metadata, Caption, Heading, Abstract",
+        "size_and_count_basis": "50 articles; more than 10,000 sentences, paper reported",
+        "human_or_automatic": "Human expert multilabel",
+        "reliability": "Paper reports high agreement; inspect per-category statistics and sample",
+        "code_license": "AGPL-3.0",
+        "annotation_license": "CC BY-SA 4.0 corpus according to README",
+        "source_text_rights": "50 original documents CC BY according to README; per-article metadata records license",
+        "access_status": "Open files and guide",
+        "reuse_recommendation": "Directly inspect full guideline for crosswalk, multilabel boundary examples, and held-out document benchmark; assess parser completeness before lengths.",
+        "project_feature_mapping": [
+          "F09",
+          "F07",
+          "F02"
+        ],
+        "limitations": "Some labels are presentation or document structure rather than function; small, domain-specific and selected OA texts; class imbalance; transfer differs by label.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "scientific-roles",
+          "source_file": "agents/scientific-roles/findings.json",
+          "id": "MULMS"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "SCIPARA",
+        "title": "SciPara: A New Dataset for Investigating Paragraph Discourse Structure in Scientific Papers",
+        "authors": "Anna Kiepura; Yingqiang Gao; Jessica Lam; Nianlong Gu; Richard H. R. Hahnloser",
+        "year": 2024,
+        "kind": "corpus and tool",
+        "doi": "10.18653/v1/2024.codi-1.2",
+        "primary_urls": [
+          "https://aclanthology.org/2024.codi-1.2/",
+          "https://aclanthology.org/2024.codi-1.2.pdf"
+        ],
+        "repository_url": "https://github.com/annamkiepura/SciPara",
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/annamkiepura/SciPara/main/Read_Dataset.ipynb",
+          "https://raw.githubusercontent.com/annamkiepura/SciPara/main/base_dataset_abstract_previous.pkl"
+        ],
+        "verified_scope": "Paper abstract and methods passages; README and notebook schema inspected; pickle not downloaded or loaded.",
+        "baseline_status": "new lead in inspected baseline",
+        "unit": "Paragraph and sentence; topic spans and links",
+        "genres_or_forms": "Scientific papers, predominantly biomedical; 62 source papers",
+        "annotation_or_metrics_available": "Paragraph text and label, prior paragraph; sentence discourse categories, topic information and relations",
+        "size_and_count_basis": "981 paragraphs, 4,071 sentences, from 62 papers, paper reported",
+        "human_or_automatic": "Professional editors with biomedical backgrounds",
+        "reliability": "Paper reports lexical-overlap-based agreement for topic spans; inspect full metrics separately by layer",
+        "code_license": "No license found in inspected repo",
+        "annotation_license": "No license found in inspected repo",
+        "source_text_rights": "Source papers from S2ORC/Europe PMC; individual source rights must be checked",
+        "access_status": "Open repository; unclear licensing",
+        "reuse_recommendation": "Strongest direct paragraph-context pilot: inspect labels and links; evaluate paragraph boundaries, multiple functions, neighboring context, and reliability before transfer.",
+        "project_feature_mapping": [
+          "F04",
+          "F09",
+          "F07"
+        ],
+        "limitations": "Selected paragraphs are not complete documents or a full-paper sample; sentence category is not automatically paragraph function; pickle is executable serialization and should be inspected safely.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "scientific-roles",
+          "source_file": "agents/scientific-roles/findings.json",
+          "id": "SCIPARA"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "SCIDTB",
+        "title": "SciDTB: Discourse Dependency TreeBank for Scientific Abstracts",
+        "authors": "An Yang; Sujian Li",
+        "year": 2018,
+        "kind": "corpus",
+        "doi": "10.18653/v1/P18-2071",
+        "primary_urls": [
+          "https://aclanthology.org/P18-2071/",
+          "https://aclanthology.org/P18-2071.pdf"
+        ],
+        "repository_url": "https://github.com/PKU-TANGENT/SciDTB",
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/PKU-TANGENT/SciDTB/master/README.md",
+          "https://raw.githubusercontent.com/PKU-TANGENT/SciDTB/master/dataset/train/D14-1101.edu.txt.dep"
+        ],
+        "verified_scope": "Paper, repository README, train directory and a named data file location inspected; no training downloaded.",
+        "baseline_status": "new lead in inspected baseline",
+        "unit": "Elementary discourse unit and directed relation within abstract",
+        "genres_or_forms": "ACL computational linguistics abstracts",
+        "annotation_or_metrics_available": "Dependency trees between discourse units with relation labels",
+        "size_and_count_basis": "798 unique abstracts, 1,355 annotated trees; 506 abstracts multiply annotated, original paper; train directory API reports 743 entries",
+        "human_or_automatic": "Automatic segmentation followed by manual checking and annotation",
+        "reliability": "Multiple annotations for 506 abstracts; paper reports unlabeled/labeled attachment and relation-label kappa; extract exact values before comparison",
+        "code_license": "No license found in inspected repository",
+        "annotation_license": "Unknown",
+        "source_text_rights": "Underlying abstracts subject to original rights",
+        "access_status": "Open repository; license unclear",
+        "reuse_recommendation": "Use relation taxonomy and adjacency/dependency examples for evidence, explanation and contrast; benchmark relation extraction after rights check.",
+        "project_feature_mapping": [
+          "F07",
+          "F09"
+        ],
+        "limitations": "Discourse relations are not rhetorical zone labels; abstract-only sample cannot estimate full paper or paragraph lengths; counts vary by version.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "scientific-roles",
+          "source_file": "agents/scientific-roles/findings.json",
+          "id": "SCIDTB"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "DRI",
+        "title": "A Multi-Layered Annotated Corpus of Scientific Papers",
+        "authors": "Beatriz Fisas; Francesco Ronzano; Horacio Saggion",
+        "year": 2016,
+        "kind": "corpus",
+        "doi": null,
+        "primary_urls": [
+          "https://aclanthology.org/L16-1492/",
+          "https://aclanthology.org/L16-1492.pdf",
+          "https://aclanthology.org/W15-1605/"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://aclanthology.org/L16-1492.pdf"
+        ],
+        "verified_scope": "2016 ACL abstract and related 2015 article located; original dataset download and license not verified.",
+        "baseline_status": "new lead in inspected baseline",
+        "unit": "Sentence and citation context in scientific paper",
+        "genres_or_forms": "Computer graphics research papers",
+        "annotation_or_metrics_available": "Sentence rhetorical roles, citation purpose, advantages/disadvantages and summary relevance",
+        "size_and_count_basis": "40 papers reported in related subsequent paper; verify release coverage before use",
+        "human_or_automatic": "Human annotated",
+        "reliability": "Extract agreement and layer-specific units from original methods",
+        "code_license": "Unknown",
+        "annotation_license": "Unknown",
+        "source_text_rights": "Unknown",
+        "access_status": "Article open; current data download not verified",
+        "reuse_recommendation": "Reuse citation function taxonomy and layer separation immediately from paper; treat training reuse as access-dependent.",
+        "project_feature_mapping": [
+          "F07",
+          "F09"
+        ],
+        "limitations": "Small and one subfield; sentence-level roles are not paragraph categories; summary relevance is not writing quality.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "scientific-roles",
+          "source_file": "agents/scientific-roles/findings.json",
+          "id": "DRI"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "PUBMEDRCT",
+        "title": "PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstracts",
+        "authors": "Franck Dernoncourt; Ji Young Lee",
+        "year": 2017,
+        "kind": "corpus",
+        "doi": "10.18653/v1/I17-2052",
+        "primary_urls": [
+          "https://aclanthology.org/I17-2052/",
+          "https://aclanthology.org/I17-2052.pdf"
+        ],
+        "repository_url": "https://github.com/Franck-Dernoncourt/pubmed-rct",
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/Franck-Dernoncourt/pubmed-rct/master/README.md",
+          "https://raw.githubusercontent.com/Franck-Dernoncourt/pubmed-rct/master/PubMed_20k_RCT/dev.txt"
+        ],
+        "verified_scope": "README and release description, paper located; no corpus downloaded.",
+        "baseline_status": "new lead in inspected baseline",
+        "unit": "Sentence in structured abstract",
+        "genres_or_forms": "Randomized controlled trial abstracts",
+        "annotation_or_metrics_available": "BACKGROUND, OBJECTIVE, METHODS, RESULTS, CONCLUSIONS derived from original structured headings",
+        "size_and_count_basis": "Approximately 200,000 abstracts and 2.3 million sentences; source reported",
+        "human_or_automatic": "Distant/heading-derived silver labels, not separately annotated human sentence gold",
+        "reliability": "Classification evaluated on held-out data; heading-generated labels have selection and heading-mapping noise",
+        "code_license": "Unknown",
+        "annotation_license": "No separate dataset license established in README",
+        "source_text_rights": "NLM notes some abstracts protected by copyright; inspect individual rights",
+        "access_status": "Public files; copyright/reuse uncertain",
+        "reuse_recommendation": "Use as weak-label baseline with provenance, not as gold for function or full-text norms.",
+        "project_feature_mapping": [
+          "F02",
+          "F09"
+        ],
+        "limitations": "Only structured RCT abstracts; selected label distribution reflects publication headings and classification pipeline, not general scientific writing or paragraph boundaries.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "scientific-roles",
+          "source_file": "agents/scientific-roles/findings.json",
+          "id": "PUBMEDRCT"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "SCITEX",
+        "title": "SciTex Corpora",
+        "authors": "Saarland University CLARIN-D",
+        "year": null,
+        "kind": "structural corpus",
+        "doi": null,
+        "primary_urls": [
+          "https://fedora.clarin-d.uni-saarland.de/scitex/"
+        ],
+        "repository_url": null,
+        "artifact_urls": [],
+        "verified_scope": "Official corpus description, composition and XML/annotation pipeline inspected; terms and examples not retrieved.",
+        "baseline_status": "new lead in inspected baseline",
+        "unit": "Full research article, sections and paragraphs; automatically processed tokens",
+        "genres_or_forms": "Computer science, computational linguistics, bioinformatics, engineering, biology and linguistics; historical and recent samples",
+        "annotation_or_metrics_available": "Structural markup, tokenization, lemmatization, POS; no human rhetorical roles established",
+        "size_and_count_basis": "Two period collections; exact eligible document counts not verified",
+        "human_or_automatic": "Some manually corrected text; automatic NLP processing; rhetorical roles not documented",
+        "reliability": "Unknown",
+        "code_license": "Unknown",
+        "annotation_license": "Unknown",
+        "source_text_rights": "Publisher/source access conditions need checking",
+        "access_status": "Institutional corpus page accessible; actual text access unverified",
+        "reuse_recommendation": "Candidate for scoped historical complete-paper structural measures only after document boundary, markup and rights audit.",
+        "project_feature_mapping": [
+          "F01",
+          "F02",
+          "F03",
+          "F04",
+          "F05"
+        ],
+        "limitations": "Text structure or GROBID/S2ORC parsing is not human annotation of rhetorical function; sampling and OCR/conversion quality require verification.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "scientific-roles",
+          "source_file": "agents/scientific-roles/findings.json",
+          "id": "SCITEX"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "PEARSON",
+        "title": "Metadiscourse in academic writing: A systematic review",
+        "authors": "William S. Pearson; Esmaeel Abdollahzadeh",
+        "year": 2023,
+        "kind": "systematic review",
+        "doi": "10.1016/j.lingua.2023.103561",
+        "primary_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S0024384123000852",
+          "https://www.sciencedirect.com/science/article/pii/S0024384123000852/pdf"
+        ],
+        "repository_url": null,
+        "artifact_urls": [],
+        "verified_scope": "Publisher abstract and PDF abstract/introduction and methods-related passages inspected; direct publisher open returned 403; search-indexed text available.",
+        "baseline_status": "new lead in inspected baseline",
+        "unit": "Study as review unit; metadiscourse features",
+        "genres_or_forms": "Academic writing across studied populations",
+        "annotation_or_metrics_available": "Conceptual frameworks, research designs, data, writers, contexts, corpus and reporting practices",
+        "size_and_count_basis": "370 selected empirical studies from 1990–2021, review reported",
+        "human_or_automatic": "Reviewers coded studies",
+        "reliability": "Full risk-of-bias and reproducibility methods not appraised",
+        "code_license": "Not applicable",
+        "annotation_license": "Not applicable",
+        "source_text_rights": "Publisher identifies article as CC BY 4.0; underlying reviewed papers retain own rights",
+        "access_status": "Open access article; direct fetch 403 in this session",
+        "reuse_recommendation": "Use as research map and caution that marker counts can lack context; retrieve studies and assess methods before borrowing definitions.",
+        "project_feature_mapping": [
+          "F09",
+          "F07"
+        ],
+        "limitations": "Systematic review, not a statistical meta-analysis; markers do not directly establish communicative function or writing quality.",
+        "paywall_retrieval_record": {
+          "status": "Open access, publisher direct request 403; indexed PDF passages available",
+          "doi": "10.1016/j.lingua.2023.103561",
+          "inspected": "abstract and limited methods passages; full review not appraised"
+        }
+      },
+      "source_occurrences": [
+        {
+          "scout": "scientific-roles",
+          "source_file": "agents/scientific-roles/findings.json",
+          "id": "PEARSON"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "readme",
+        "title": "Categorizing the Content of GitHub README Files",
+        "authors": "Gede Artha Azriadi Prana, Christoph Treude, Ferdian Thung, Thushari Atapattu, David Lo",
+        "year": 2019,
+        "kind": "single corpus study and dataset",
+        "doi": "10.1007/s10664-018-9660-3",
+        "primary_urls": [
+          "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf"
+        ],
+        "repository_url": "https://github.com/gprana/READMEClassifier",
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/gprana/READMEClassifier/master/input/dataset_combined.csv",
+          "https://github.com/gprana/READMEClassifier/blob/master/doc/Patterns.ods",
+          "https://raw.githubusercontent.com/gprana/READMEClassifier/master/LICENSE.md"
+        ],
+        "verified_scope": "Paper sampling, Table 2 codebook and adjudication; repository README, CSV header and raw rows; MIT license text",
+        "baseline_status": "known baseline; newly inspected label table, selection and data header",
+        "unit": "README section (multilabel)",
+        "genres_or_forms": "software README",
+        "annotation_or_metrics_available": "Original coding reference: What, Why, How, When, Who, References, Contribution, Other; classifier combines Why and What and adds Exclusion. CSV fields section-id, file-id, url, heading, Codes with >= 2 votes.",
+        "size_and_count_basis": "4,226 sections of 393 English software README files; 1,193 repositories screened; README under 2KB and nonsoftware excluded; raw CSV also includes excluded rows marked -",
+        "human_or_automatic": "human coding; learned classifier separate",
+        "reliability": "Two initial raters kappa 0.858, third rater/adjudication; use original context of reported kappa",
+        "code_license": "MIT repository license",
+        "annotation_license": "Unknown whether repository license covers annotations",
+        "source_text_rights": "Individual project text rights require separate verification",
+        "access_status": "public; source text in repository but independently verify individual versions",
+        "reuse_recommendation": "Seed provisional README-specific section role vocabulary and sampling strata; retain multilabel and disagreements, avoid mechanical mandatory sections",
+        "project_feature_mapping": "F02,F08,F09; F03 only after verifying archived full README and section parser",
+        "limitations": "Exclusion criteria and era prevent population norms; sample is not curated high-quality; majority votes are not spans; headings can contain multiple functions.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "technical-docs",
+          "source_file": "agents/technical-docs/findings.json",
+          "id": "readme"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "wlp",
+        "title": "An Annotated Corpus for Machine Reading of Instructions in Wet Lab Protocols",
+        "authors": "Chaitanya Kulkarni, Wei Xu, Alan Ritter, Raghu Machiraju",
+        "year": 2018,
+        "kind": "human annotated corpus",
+        "doi": "10.18653/v1/N18-2016",
+        "primary_urls": [
+          "https://aclanthology.org/N18-2016/",
+          "https://aclanthology.org/N18-2016.pdf"
+        ],
+        "repository_url": "https://github.com/chaitanya2334/WLP-Dataset",
+        "artifact_urls": [
+          "https://raw.githubusercontent.com/chaitanya2334/WLP-Dataset/master/train/protocol_100.ann",
+          "https://raw.githubusercontent.com/chaitanya2334/WLP-Dataset/master/train/protocol_100.txt",
+          "https://raw.githubusercontent.com/chaitanya2334/WLP-Dataset/master/LICENSE"
+        ],
+        "verified_scope": "Full paper tables and appendix guideline; inspected matching .ann and .txt; license",
+        "baseline_status": "new",
+        "unit": "action/entity character spans and within-sentence links; title plus linewise step text",
+        "genres_or_forms": "scientific laboratory procedures",
+        "annotation_or_metrics_available": "Action, Reagent and example event relations Acts-on, Using, Site; 17 entity types, 12 directed links per paper; additional NUMERICAL, GENERIC-MEASURE, SIZE, PH, MEASURE-TYPE, MENTION, MODIFIER, SEAL. Examples are partial inventory, see appendix for complete definitions.",
+        "size_and_count_basis": "622 protocols; paper reports 13,679 sentences and 177,770 words",
+        "human_or_automatic": "human",
+        "reliability": "Four coders in iterative 10-protocol exercises; alpha 0.7599 entities/actions, 0.6625 relations",
+        "code_license": "Repository LICENSE MIT",
+        "annotation_license": "License file MIT but independent applicability to annotations unclear",
+        "source_text_rights": "protocols.io originating text rights not established by repository license",
+        "access_status": "public",
+        "reuse_recommendation": "Borrow offsets, event-role linking and boundary guidance for task-step experiments",
+        "project_feature_mapping": "F08,F09; exploratory F05 only for this extracted domain",
+        "limitations": "Steps are text extracts, not confirmed full source documents; laboratory task bias; actions are not rhetorical paragraph functions.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "technical-docs",
+          "source_file": "agents/technical-docs/findings.json",
+          "id": "wlp"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "wnut",
+        "title": "WNUT-2020 Task 1: Extracting Entities and Relations from Wet Lab Protocols",
+        "authors": "Jeniya Tabassum, Wei Xu, Alan Ritter and colleagues",
+        "year": 2020,
+        "kind": "shared-task dataset and schema",
+        "doi": "10.18653/v1/2020.wnut-1.33",
+        "primary_urls": [
+          "https://aclanthology.org/2020.wnut-1.33/",
+          "https://noisy-text.github.io/2020/wlp-task.html"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://noisy-text.github.io/2020/wlp-task.html",
+          "https://aclanthology.org/anthology-files/pdf/wnut/2020.wnut-1.33.pdf"
+        ],
+        "verified_scope": "task format and examples, paper table and dataset revision description",
+        "baseline_status": "new",
+        "unit": "span, action-event and relation within extracted steps",
+        "genres_or_forms": "wet-lab procedures",
+        "annotation_or_metrics_available": "BRAT T entity span, E event, R relation, zero-based start inclusive end exclusive; examples Action, Reagent, Amount, Acts-on, Using, Site, Mod-Link; paper provides broader inventory",
+        "size_and_count_basis": "726 protocols total in published table; 615 unique existing documents reannotated and 111 new test protocols",
+        "human_or_automatic": "human reannotation",
+        "reliability": "not verified here",
+        "code_license": null,
+        "annotation_license": "unknown",
+        "source_text_rights": "protocols.io text rights not independently established",
+        "access_status": "public guide and paper; data release not inspected",
+        "reuse_recommendation": "Use revised annotation model and format rather than conflating versions",
+        "project_feature_mapping": "F09 semantic roles and annotation boundaries",
+        "limitations": "Overlap with WLP 2018; not independent corpus. No complete manual boundary guarantee.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "technical-docs",
+          "source_file": "agents/technical-docs/findings.json",
+          "id": "wnut"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "openpi",
+        "title": "A Dataset for Tracking Entities in Open Domain Procedural Text",
+        "authors": "Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, Michal Guerquin, Kyle Richardson, Eduard Hovy",
+        "year": 2020,
+        "kind": "human annotated corpus",
+        "doi": "10.18653/v1/2020.emnlp-main.520",
+        "primary_urls": [
+          "https://aclanthology.org/2020.emnlp-main.520/",
+          "https://aclanthology.org/2020.emnlp-main.520.pdf"
+        ],
+        "repository_url": "https://github.com/allenai/openpi-dataset",
+        "artifact_urls": [
+          "https://github.com/allenai/openpi-dataset/tree/main/data/gold",
+          "https://raw.githubusercontent.com/allenai/openpi-dataset/main/README.md"
+        ],
+        "verified_scope": "Paper abstract, repository README/schema and data directory listing",
+        "baseline_status": "new",
+        "unit": "state change tuple per step with current and previous sentence context",
+        "genres_or_forms": "wikiHow daily-life procedures",
+        "annotation_or_metrics_available": "entity, attribute, before value, after value; README specifies id_question.jsonl and id_answers.jsonl and associated metadata; open vocabulary, not function labels",
+        "size_and_count_basis": "29,928 state changes; 4,050 sentences from 810 sampled procedural article contexts",
+        "human_or_automatic": "crowdsourced, human vetted",
+        "reliability": "authors report 91.5% coverage judged by humans; not inter-rater agreement",
+        "code_license": "unknown",
+        "annotation_license": "unknown",
+        "source_text_rights": "wikiHow origin; reuse rights not independently verified",
+        "access_status": "public repository; individual records not inspected",
+        "reuse_recommendation": "Prototype semantic consistency comparisons for procedure step and outcome, with human evaluation",
+        "project_feature_mapping": "F09 exploratory; no proportions",
+        "limitations": "Input excerpts and semantic inferences, not whole-document structure or validated quality. OpenPI-C identifies evaluation problems: https://aclanthology.org/2023.findings-acl.452/ .",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "technical-docs",
+          "source_file": "agents/technical-docs/findings.json",
+          "id": "openpi"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "dita",
+        "title": "DITA 1.2 technical content information types and task elements",
+        "authors": "OASIS DITA Technical Committee",
+        "year": 2010,
+        "kind": "standard and schema",
+        "doi": null,
+        "primary_urls": [
+          "https://docs.oasis-open.org/dita/v1.2/os/spec/archSpec/dita_technicalContent_InformationTypes.html",
+          "https://docs.oasis-open.org/dita/v1.2/spec/DITA1.2-spec.pdf"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html"
+        ],
+        "verified_scope": "official standard task content model and element definitions",
+        "baseline_status": "known baseline; new level of task step detail",
+        "unit": "topic, task body, step and nested elements",
+        "genres_or_forms": "concept, task, reference",
+        "annotation_or_metrics_available": "prereq, context, steps, step, cmd, info, substeps, tutorialinfo, stepxmp, choices, stepresult, result, example, postreq; distinguish strict vs general taskbody; stepsection is expository and not a step",
+        "size_and_count_basis": "normative model, not a sampled corpus",
+        "human_or_automatic": "author-created typed markup; mechanical schema validation possible",
+        "reliability": "not applicable",
+        "code_license": null,
+        "annotation_license": null,
+        "source_text_rights": "OASIS specification rights; inspect exact reuse terms",
+        "access_status": "public specification",
+        "reuse_recommendation": "Seed optional field semantics and parser tests for declared DITA; validate exact schema only when adopted",
+        "project_feature_mapping": "F02,F07,F08,F09",
+        "limitations": "Strict task requirements apply to chosen DITA document type, not universal criteria; XML validation does not establish task executability or useful instruction.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "technical-docs",
+          "source_file": "agents/technical-docs/findings.json",
+          "id": "dita"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "diataxis",
+        "title": "Diátaxis documentation framework",
+        "authors": "Daniele Procida",
+        "year": null,
+        "kind": "practitioner framework",
+        "doi": null,
+        "primary_urls": [
+          "https://diataxis.fr/start-here/",
+          "https://diataxis.fr/application/",
+          "https://diataxis.fr/how-to-guides/"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://diataxis.fr/tutorials/",
+          "https://diataxis.fr/reference-explanation/"
+        ],
+        "verified_scope": "official current practitioner pages",
+        "baseline_status": "known baseline; updated forms crosswalk",
+        "unit": "purpose of documentation component",
+        "genres_or_forms": "tutorial, how-to guide, reference, explanation",
+        "annotation_or_metrics_available": "Original labels Tutorials, How-to guides, Reference, Explanation; learning-oriented, goal-oriented, information-oriented, understanding-oriented respectively",
+        "size_and_count_basis": "no underlying representative sample or quantitative profile established",
+        "human_or_automatic": "practitioner prescription",
+        "reliability": "not measured",
+        "code_license": null,
+        "annotation_license": null,
+        "source_text_rights": "site rights not inspected",
+        "access_status": "public current pages; date not inferred as founding year",
+        "reuse_recommendation": "Use as competing form hypotheses and audience/task prompts; allow mixture within actual documents",
+        "project_feature_mapping": "F02,F09",
+        "limitations": "No proportions, demonstrated classification reliability, or requirement for four sections; practitioners disagree on strict separation.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "technical-docs",
+          "source_file": "agents/technical-docs/findings.json",
+          "id": "diataxis"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "cummaudo",
+        "title": "What should I document? A preliminary systematic mapping study into API documentation knowledge",
+        "authors": "Alex Cummaudo, Rajesh Vasa, John Grundy",
+        "year": 2019,
+        "kind": "preliminary systematic mapping",
+        "doi": null,
+        "primary_urls": [
+          "https://arxiv.org/abs/1907.13260",
+          "https://nzjohng.github.io/publications/papers/esem2019.pdf"
+        ],
+        "repository_url": null,
+        "artifact_urls": [
+          "https://nzjohng.github.io/publications/papers/esem2019.pdf"
+        ],
+        "verified_scope": "abstract, search methods and author full text, 2019",
+        "baseline_status": "known baseline",
+        "unit": "recommendation across studies",
+        "genres_or_forms": "API documentation and reference",
+        "annotation_or_metrics_available": "34 categorised weighted recommendations in five dimensions; usage, rationale, domain concepts, artifacts and presentation; source-specific recommendation weights are not causal effect sizes",
+        "size_and_count_basis": "21 selected works; 4,501 initial search results with 514 duplicates",
+        "human_or_automatic": "synthesis of field studies",
+        "reliability": "independent screening reliability not established in inspected passages",
+        "code_license": null,
+        "annotation_license": null,
+        "source_text_rights": "paper author version publicly accessible; underlying studies have separate rights",
+        "access_status": "open author PDF",
+        "reuse_recommendation": "Extract context-specific prompts for human review and compare against coded API knowledge",
+        "project_feature_mapping": "F07,F08,F09",
+        "limitations": "No labeled document corpus; preliminary map not pooled statistical meta-analysis; selection and provenance matter.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "technical-docs",
+          "source_file": "agents/technical-docs/findings.json",
+          "id": "cummaudo"
+        }
+      ]
+    },
+    {
+      "canonical_record": {
+        "id": "essentiality",
+        "title": "Are All Steps Equally Important? Benchmarking Essentiality Detection in Event Processes",
+        "authors": "Haoyu Wang, Hongming Zhang, Yueguan Wang, Yuqian Deng, Muhao Chen, Dan Roth",
+        "year": 2023,
+        "kind": "human annotated corpus study",
+        "doi": "10.18653/v1/2023.emnlp-main.246",
+        "primary_urls": [
+          "https://aclanthology.org/2023.emnlp-main.246/",
+          "https://aclanthology.org/2023.emnlp-main.246.pdf"
+        ],
+        "repository_url": null,
+        "artifact_urls": [],
+        "verified_scope": "publisher abstract and author presentation; data release not directly inspected",
+        "baseline_status": "new",
+        "unit": "goal-step pair",
+        "genres_or_forms": "wikiHow procedures",
+        "annotation_or_metrics_available": "author presentation: 0 (not essential), 1 (essential), -1 (uncertain); applicability requires full protocol verification",
+        "size_and_count_basis": "presentation says 1,000 sampled processes before filtering; final count not verified",
+        "human_or_automatic": "three human annotators per presentation",
+        "reliability": "paper abstract reports high interannotator agreement; exact measure not extracted",
+        "code_license": null,
+        "annotation_license": "unknown",
+        "source_text_rights": "wikiHow text rights unknown",
+        "access_status": "paper public, data artifact unverified",
+        "reuse_recommendation": "Research lead on human assessment of essential steps; do not impose automatic omission rules",
+        "project_feature_mapping": "F09 task semantics",
+        "limitations": "Sample, label protocol, licensing and data access remain unverified; essentiality is not writing quality or universal step requirement.",
+        "paywall_retrieval_record": null
+      },
+      "source_occurrences": [
+        {
+          "scout": "technical-docs",
+          "source_file": "agents/technical-docs/findings.json",
+          "id": "essentiality"
+        }
+      ]
+    }
+  ]
+}

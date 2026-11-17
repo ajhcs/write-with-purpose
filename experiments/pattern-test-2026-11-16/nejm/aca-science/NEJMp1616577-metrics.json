@@ -1,0 +1,48 @@
+{
+  "scope": "One visually reconstructed Perspective; not a genre norm.",
+  "paragraph_count": 12,
+  "function_counts_multilabel": {
+    "orient": 1,
+    "report": 7,
+    "interpret": 1,
+    "assert": 7,
+    "support": 3,
+    "qualify": 3,
+    "compare": 1,
+    "explain": 4,
+    "illustrate": 4
+  },
+  "role_counts": {
+    "position and context": 1,
+    "reform record": 2,
+    "reform limits": 1,
+    "repeal proposal": 1,
+    "consequences": 1,
+    "repeal uncertainty": 2,
+    "tradeoff example": 1,
+    "stakes": 1,
+    "recommended approach": 1,
+    "human stakes and closing": 1
+  },
+  "body_words": 1296,
+  "paragraph_word_range": [
+    55,
+    207
+  ],
+  "paragraph_word_median": 100.5,
+  "role_words": {
+    "recommended approach": 55,
+    "reform record": 159,
+    "consequences": 207,
+    "repeal uncertainty": 200,
+    "stakes": 83,
+    "repeal proposal": 111,
+    "tradeoff example": 131,
+    "human stakes and closing": 73,
+    "reform limits": 114,
+    "position and context": 163
+  },
+  "word_count_note": "Citation markers retained and may affect counts. trade-offs spelling ambiguity does not affect token count.",
+  "word_count_method": "experiments/corpus-analysis-2026-11-16/analysis/metrics.py word_tokens",
+  "coding_status": "single analyst; interpretive and provisional"
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Two parent-verified system precedents, separate from the 66-record scout bibliography. Not independent corpus samples.",
+  "verified_date": "2026-11-16",
+  "records": [
+    {
+      "id": "P01",
+      "name": "Research Writing Tutor",
+      "institution": "Iowa State University",
+      "paper_title": "Discourse Classification into Rhetorical Functions for AWE Feedback",
+      "authors": ["Elena Cotos", "Nick Pendar"],
+      "year": 2016,
+      "doi": "10.1558/cj.v33i1.27047",
+      "primary_urls": ["https://cce.grad-college.iastate.edu/resources/researchwritingoers", "https://files.eric.ed.gov/fulltext/EJ1143609.pdf"],
+      "inspected": "Official module and access descriptions; primary paper abstract and introduction for the sentence-level move/step engine. Not a full effectiveness appraisal.",
+      "reusable_design": ["Understand writing goals", "Explore annotated published writing", "Analyze and revise one's writing in disciplinary context"],
+      "access": "Current official page describes 32 disciplines and a request-access route; complete downloadable gold corpus and open-source software release not verified.",
+      "limit": "Research-writing system, not validated coverage of all seventeen proposed forms; current coverage and historical study denominators differ."
+    },
+    {
+      "id": "P02",
+      "name": "AcaWriter",
+      "institution": "University of Technology Sydney, Connected Intelligence Centre",
+      "paper_title": "AcaWriter: A learning analytics tool for formative feedback on academic writing",
+      "year": 2020,
+      "doi": "10.17239/jowr-2020.12.01.06",
+      "primary_urls": ["https://www.jowr.org/jowr/article/view/578", "https://cic.uts.edu.au/tools/awa/", "https://cic.uts.edu.au/open-source-writing-analytics/"],
+      "repository": "https://github.com/uts-cic/acawriter",
+      "commit": "adc49ed10292852620bcbb09d0549afc75c04253",
+      "related_repositories": ["https://github.com/uts-cic/tap", "https://github.com/uts-cic/athanor"],
+      "inspected": "Official descriptions, primary paper abstract, full Git tree metadata, application LICENSE, FeedbackController.php, Profiler.php and Docker Compose file. No installation or runtime test.",
+      "reusable_design": ["Separate rhetorical analysis from feedback schema", "Configure tag-based conditions and messages by context", "Author revises after visible formative feedback"],
+      "code_license": "Application Apache-2.0; dependency and source-content terms require separate review.",
+      "access": "Public GitHub source; official site describes a public demo and institutional options.",
+      "limit": "Cue-based interpretations and configured thresholds are not human-validated paragraph functions or observed professional length norms."
+    }
+  ]
+}

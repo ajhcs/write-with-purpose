@@ -1,0 +1,40 @@
+{
+  "source": "https://zenodo.org/records/3254405",
+  "archive_local_path": "/workspace/repos/builderbob/.writing-corpus-cache/prior-work-reuse-2026-11-16/webis-editorials-16.zip",
+  "archive_sha256": "a6f430d5917001bbdcba892c0cab40dbd3ea6ce3fd55c2cb2a6c98c43dd8ffdc",
+  "scope": "All TXT files under annotated-txt/split-by-portal-final; duplicate time-split omitted; UTF-8 physical lines; label is second tab-delimited field; extra tabs preserved in text. No source text included.",
+  "files": 300,
+  "files_by_portal": {
+    "aljazeera": 100,
+    "guardian": 100,
+    "foxnews": 100
+  },
+  "rows_by_tab_field_count": {
+    "3": 58688,
+    "4": 2905,
+    "5": 37
+  },
+  "row_labels": {
+    "title": 300,
+    "par-sep": 4664,
+    "assumption": 9805,
+    "no-unit": 16399,
+    "continued": 25933,
+    "anecdote": 2607,
+    "testimony": 1091,
+    "statistics": 421,
+    "common-ground": 243,
+    "other": 167
+  },
+  "six_substantive_label_rows": 14334,
+  "upstream_reported_units": 14313,
+  "difference_unresolved": "14,334 label rows versus 14,313 source-reported units; row != independently validated unit; version, segmentation and counting semantics need investigation. par-sep count is separator rows, not validated paragraph count.",
+  "readme_path_note": "README says split-by-portal; actual ZIP uses split-by-portal-final.",
+  "limitations": "No complete-text or underlying source-rights verification; other split organizations duplicate source documents.",
+  "substantive_row_checks": {
+    "empty_text_rows": 0,
+    "non_numeric_ids": 0,
+    "duplicate_id_rows_within_same_document": 0,
+    "scope": "Substantive rows; IDs checked within each file, not across documents"
+  }
+}

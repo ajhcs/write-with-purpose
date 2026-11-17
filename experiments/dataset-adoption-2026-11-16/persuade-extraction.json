@@ -1,0 +1,8 @@
+{
+  "source_archive": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade-test/persuade-test.zip",
+  "archive_sha256": "51c907f90b1303d610e8fcd8c0cbf3656ec88116bc34b60b93794affa77facb2",
+  "csv_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade-test/unpacked/persuade_corpus_2.0_test.csv",
+  "csv_bytes": 382098410,
+  "csv_sha256": "8b4cbbda471b313e5d11da10d4fc2659defa1a8f710639e98d011e1c7141d3a6",
+  "access_basis": "Publicly published password in original PERSUADE 2.0 README; ordinary ZIP decryption with Python standard library. No login or account used."
+}

@@ -1,0 +1,405 @@
+{
+  "clinical_case": {
+    "attempts": 310,
+    "retrieval_stages": {
+      "body_measured": 297,
+      "fulltext_failed": 9,
+      "body_missing": 4
+    },
+    "cohort_n": 200,
+    "body_words_by_era_primary": {
+      "pre-2015": {
+        "n": 61,
+        "min": 31,
+        "q1": 1960,
+        "median": 2983,
+        "q3": 3912,
+        "max": 7383
+      },
+      "2015-2019": {
+        "n": 34,
+        "min": 312,
+        "q1": 1357,
+        "median": 2948.5,
+        "q3": 3796,
+        "max": 9263
+      },
+      "2020+": {
+        "n": 105,
+        "min": 221,
+        "q1": 929,
+        "median": 1856,
+        "q3": 3160,
+        "max": 8021
+      },
+      "unknown": null
+    },
+    "cohort_publication_eras": {
+      "2020+": 105,
+      "pre-2015": 61,
+      "2015-2019": 34
+    },
+    "all_measured_publication_eras": {
+      "2020+": 121,
+      "pre-2015": 136,
+      "2015-2019": 40
+    },
+    "pre2015_supplement_measured": 58,
+    "jats_types": {
+      "research-article": 104,
+      "case-report": 31,
+      "letter": 28,
+      "article-commentary": 3,
+      "brief-report": 26,
+      "review-article": 8
+    },
+    "body_words": {
+      "n": 200,
+      "min": 31,
+      "q1": 1117,
+      "median": 2390.0,
+      "q3": 3758,
+      "max": 9263
+    },
+    "sections": {
+      "n": 200,
+      "min": 0,
+      "q1": 6,
+      "median": 10.0,
+      "q3": 18,
+      "max": 56
+    },
+    "paragraphs": {
+      "n": 200,
+      "min": 1,
+      "q1": 11,
+      "median": 19.5,
+      "q3": 32,
+      "max": 92
+    },
+    "median_paragraph_words_per_document": {
+      "n": 200,
+      "min": 6,
+      "q1": 79,
+      "median": 101.5,
+      "q3": 125.5,
+      "max": 383
+    },
+    "median_sentence_words_approx_per_document": {
+      "n": 200,
+      "min": 4.0,
+      "q1": 18,
+      "median": 19.0,
+      "q3": 22.0,
+      "max": 37
+    },
+    "average_word_characters_per_document": {
+      "n": 200,
+      "min": 4.03,
+      "q1": 5.23,
+      "median": 5.37,
+      "q3": 5.52,
+      "max": 6.15
+    },
+    "citation_xrefs": {
+      "n": 200,
+      "min": 0,
+      "q1": 12,
+      "median": 24.5,
+      "q3": 51,
+      "max": 288
+    },
+    "figures": {
+      "n": 200,
+      "min": 0,
+      "q1": 1,
+      "median": 2.0,
+      "q3": 4,
+      "max": 14
+    },
+    "tables": {
+      "n": 200,
+      "min": 0,
+      "q1": 0,
+      "median": 1.0,
+      "q3": 2,
+      "max": 6
+    },
+    "references": {
+      "n": 200,
+      "min": 0,
+      "q1": 10,
+      "median": 21.5,
+      "q3": 36,
+      "max": 219
+    }
+  },
+  "review_protocol": {
+    "attempts": 293,
+    "retrieval_stages": {
+      "body_measured": 293
+    },
+    "cohort_n": 200,
+    "body_words_by_era_primary": {
+      "pre-2015": {
+        "n": 21,
+        "min": 2046,
+        "q1": 2420,
+        "median": 3050,
+        "q3": 3558,
+        "max": 5673
+      },
+      "2015-2019": {
+        "n": 105,
+        "min": 1178,
+        "q1": 2342,
+        "median": 2789,
+        "q3": 3443,
+        "max": 6080
+      },
+      "2020+": {
+        "n": 74,
+        "min": 1082,
+        "q1": 2238,
+        "median": 3013.5,
+        "q3": 3486,
+        "max": 5736
+      },
+      "unknown": null
+    },
+    "cohort_publication_eras": {
+      "pre-2015": 21,
+      "2015-2019": 105,
+      "2020+": 74
+    },
+    "all_measured_publication_eras": {
+      "pre-2015": 68,
+      "2015-2019": 131,
+      "2020+": 94
+    },
+    "pre2015_supplement_measured": 43,
+    "jats_types": {
+      "research-article": 134,
+      "protocol": 35,
+      "systematic-review": 24,
+      "review-article": 5,
+      "other": 1,
+      "methods-article": 1
+    },
+    "body_words": {
+      "n": 200,
+      "min": 1082,
+      "q1": 2342,
+      "median": 2891.0,
+      "q3": 3486,
+      "max": 6080
+    },
+    "sections": {
+      "n": 200,
+      "min": 5,
+      "q1": 18,
+      "median": 23.5,
+      "q3": 31,
+      "max": 51
+    },
+    "paragraphs": {
+      "n": 200,
+      "min": 14,
+      "q1": 33,
+      "median": 46.0,
+      "q3": 60,
+      "max": 228
+    },
+    "median_paragraph_words_per_document": {
+      "n": 200,
+      "min": 4,
+      "q1": 27.5,
+      "median": 44.25,
+      "q3": 69.5,
+      "max": 183
+    },
+    "median_sentence_words_approx_per_document": {
+      "n": 200,
+      "min": 3,
+      "q1": 18.0,
+      "median": 20.0,
+      "q3": 22,
+      "max": 27.0
+    },
+    "average_word_characters_per_document": {
+      "n": 200,
+      "min": 5.1,
+      "q1": 5.46,
+      "median": 5.56,
+      "q3": 5.65,
+      "max": 5.97
+    },
+    "citation_xrefs": {
+      "n": 200,
+      "min": 9,
+      "q1": 29,
+      "median": 44.0,
+      "q3": 58,
+      "max": 181
+    },
+    "figures": {
+      "n": 200,
+      "min": 0,
+      "q1": 0,
+      "median": 0.0,
+      "q3": 1,
+      "max": 2
+    },
+    "tables": {
+      "n": 200,
+      "min": 0,
+      "q1": 0,
+      "median": 1.0,
+      "q3": 2,
+      "max": 11
+    },
+    "references": {
+      "n": 200,
+      "min": 8,
+      "q1": 27,
+      "median": 37.0,
+      "q3": 51,
+      "max": 213
+    }
+  },
+  "study_protocol": {
+    "attempts": 310,
+    "retrieval_stages": {
+      "body_measured": 308,
+      "fulltext_failed": 1,
+      "body_missing": 1
+    },
+    "cohort_n": 200,
+    "body_words_by_era_primary": {
+      "pre-2015": {
+        "n": 79,
+        "min": 1426,
+        "q1": 3792,
+        "median": 4875,
+        "q3": 5995,
+        "max": 25318
+      },
+      "2015-2019": {
+        "n": 94,
+        "min": 2686,
+        "q1": 4093,
+        "median": 4883.5,
+        "q3": 5917,
+        "max": 16640
+      },
+      "2020+": {
+        "n": 27,
+        "min": 308,
+        "q1": 3483,
+        "median": 4597,
+        "q3": 5476,
+        "max": 7405
+      },
+      "unknown": null
+    },
+    "cohort_publication_eras": {
+      "pre-2015": 79,
+      "2015-2019": 94,
+      "2020+": 27
+    },
+    "all_measured_publication_eras": {
+      "pre-2015": 157,
+      "2015-2019": 119,
+      "2020+": 32
+    },
+    "pre2015_supplement_measured": 60,
+    "jats_types": {
+      "research-article": 166,
+      "letter": 2,
+      "methods-article": 3,
+      "protocol": 24,
+      "other": 4,
+      "review-article": 1
+    },
+    "body_words": {
+      "n": 200,
+      "min": 308,
+      "q1": 3885,
+      "median": 4855.0,
+      "q3": 5928,
+      "max": 25318
+    },
+    "sections": {
+      "n": 200,
+      "min": 9,
+      "q1": 21,
+      "median": 29.0,
+      "q3": 37,
+      "max": 142
+    },
+    "paragraphs": {
+      "n": 200,
+      "min": 12,
+      "q1": 48,
+      "median": 69.5,
+      "q3": 95,
+      "max": 493
+    },
+    "median_paragraph_words_per_document": {
+      "n": 200,
+      "min": 7.0,
+      "q1": 33,
+      "median": 55.0,
+      "q3": 80.5,
+      "max": 156
+    },
+    "median_sentence_words_approx_per_document": {
+      "n": 200,
+      "min": 8.0,
+      "q1": 18.5,
+      "median": 20.25,
+      "q3": 22.0,
+      "max": 30.5
+    },
+    "average_word_characters_per_document": {
+      "n": 200,
+      "min": 4.85,
+      "q1": 5.31,
+      "median": 5.42,
+      "q3": 5.53,
+      "max": 5.85
+    },
+    "citation_xrefs": {
+      "n": 200,
+      "min": 0,
+      "q1": 33,
+      "median": 46.0,
+      "q3": 66,
+      "max": 279
+    },
+    "figures": {
+      "n": 200,
+      "min": 0,
+      "q1": 1,
+      "median": 1.0,
+      "q3": 2,
+      "max": 10
+    },
+    "tables": {
+      "n": 200,
+      "min": 0,
+      "q1": 1,
+      "median": 1.0,
+      "q3": 3,
+      "max": 12
+    },
+    "references": {
+      "n": 200,
+      "min": 0,
+      "q1": 29,
+      "median": 42.0,
+      "q3": 58,
+      "max": 218
+    }
+  }
+}

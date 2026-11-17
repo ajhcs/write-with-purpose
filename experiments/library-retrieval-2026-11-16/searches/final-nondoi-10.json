@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p11",
+      "doi": "",
+      "title": "DIY Diagnosis",
+      "authors": "[\"Ed Yong\"]",
+      "field": "personal_public_writing",
+      "q": "\"DIY Diagnosis\" Yong pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p11",
+      "query": "\"DIY Diagnosis\" Yong pdf",
+      "urls": [
+        {
+          "title": "# DIY diagnosis and drug development",
+          "url": "https://static1.squarespace.com/static/54589576e4b01c74d3bdbdd3/t/5a7437a2e2c483a45943e56c/1517565871655/Mingorance%2BVienna%2BRareDiseases%2Band%2Bpersonalized%2Bmedicine.pdf",
+          "score": 1
+        },
+        {
+          "title": "DIY diagnosis: How an extreme athlete uncovered her genetic flaw - Ars Technica",
+          "url": "https://arstechnica.com/science/2014/08/diy-diagnosis-how-an-extreme-athlete-uncovered-her-genetic-flaw/",
+          "score": 1
+        },
+        {
+          "title": "DIY Diagnosis: How One Woman Uncovered Her Own Genetic Flaw",
+          "url": "https://gizmodo.com/diy-diagnosis-how-one-woman-uncovered-her-own-genetic-1623734397",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

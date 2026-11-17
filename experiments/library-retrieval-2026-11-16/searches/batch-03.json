@@ -1,0 +1,167 @@
+{
+  "batch": 3,
+  "queries": [
+    {
+      "candidate_key": "business:business_013",
+      "doi": "10.5465/amr.2001.4011928",
+      "title": "Is the Resource-Based “View” a Useful Perspective for Strategic Management Research?",
+      "field": "business_management",
+      "q": "\"Is the Resource-Based View a Useful Perspective for Strategic Management Research?\" pdf"
+    },
+    {
+      "candidate_key": "business:business_016",
+      "doi": "10.5465/amr.1989.4308371",
+      "title": "What Constitutes a Theoretical Contribution?",
+      "field": "business_management",
+      "q": "\"What Constitutes a Theoretical Contribution?\" pdf"
+    },
+    {
+      "candidate_key": "business:business_018",
+      "doi": "10.5465/amj.2007.25525821",
+      "title": "High-Performance Human Resource Practices, Citizenship Behavior, and Organizational Performance: A Relational Perspective",
+      "field": "business_management",
+      "q": "\"High-Performance Human Resource Practices, Citizenship Behavior, and Organizational Performance: A Relational Perspective\" pdf"
+    },
+    {
+      "candidate_key": "business:business_019",
+      "doi": "10.5465/256741",
+      "title": "THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.",
+      "field": "business_management",
+      "q": "\"THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_013",
+      "query": "\"Is the Resource-Based View a Useful Perspective for Strategic Management Research?\" pdf",
+      "urls": [
+        {
+          "title": "Is the Resource-Based “View” a Useful Perspective for Strategic Management Research?",
+          "url": "https://journals.aom.org/doi/10.5465/AMR.2001.4011928",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Is the resource-based \"view\" a useful perspective for strategic management research?",
+          "url": "https://courses.umass.edu/marta/schmgmt802-marta/priem%20and%20butler%20resource%20based.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Resource-based view",
+          "url": "https://en.wikipedia.org/wiki/Resource-based_view",
+          "score": 0.3,
+          "body_score": 1
+        },
+        {
+          "title": "Resource based view",
+          "url": "https://it.wikipedia.org/wiki/Resource_based_view",
+          "score": 0.3,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_016",
+      "query": "\"What Constitutes a Theoretical Contribution?\" pdf",
+      "urls": [
+        {
+          "title": "What Constitutes A Theoretical Contribution?",
+          "url": "https://www.abacademies.org/abstract/what-constitutes-a-theoretical-contribution-9189.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "What Constitutes A Theoretical Contribution?",
+          "url": "https://www.researchgate.net/publication/234022029_What_Constitutes_A_Theoretical_Contribution",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_018",
+      "query": "\"High-Performance Human Resource Practices, Citizenship Behavior, and Organizational Performance: A Relational Perspective\" pdf",
+      "urls": [
+        {
+          "title": "High-Performance Human Resource Practices, Citizenship Behavior, and Organizational Performance: A Relational Perspective",
+          "url": "https://journals.aom.org/doi/10.5465/amj.2007.25525821",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "The Impact of Human Resource Management Practices on Turnover, Productivity, and Corporate Financial Performance",
+          "url": "https://www.academia.edu/52793939/The_Impact_of_Human_Resource_Management_Practices_on_Turnover_Productivity_and_Corporate_Financial_Performance",
+          "score": 0.5,
+          "body_score": 0.6666666666666666
+        },
+        {
+          "title": "THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.",
+          "url": "https://cir.nii.ac.jp/crid/1361699996429504896",
+          "score": 0.5,
+          "body_score": 0.5
+        },
+        {
+          "title": "The impact of human resource management practices on turnover, productivity, and corporate financial performance",
+          "url": "https://app.cochat.ai/papers/10.2307/256741",
+          "score": 0.5,
+          "body_score": 0.5833333333333334
+        },
+        {
+          "title": "THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.",
+          "url": "https://explore.metascienceobservatory.org/papers/W3122125999",
+          "score": 0.5,
+          "body_score": 0.5833333333333334
+        },
+        {
+          "title": "The Impact of Human Resource Management Practices on Turnover, Productivity, and Corporate Financial Performance",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1803666&trk=article-ssr-frontend-pulse_little-text-block",
+          "score": 0.5,
+          "body_score": 0.5
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_019",
+      "query": "\"THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.\" pdf",
+      "urls": [
+        {
+          "title": "The Impact of Human Resource Management Practices on Turnover, Productivity, and Corporate Financial Performance",
+          "url": "https://www.academia.edu/52793939/The_Impact_of_Human_Resource_Management_Practices_on_Turnover_Productivity_and_Corporate_Financial_Performance",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.",
+          "url": "https://cir.nii.ac.jp/crid/1361699996429504896",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "The impact of human resource management practices on turnover, productivity, and corporate financial performance",
+          "url": "https://app.cochat.ai/papers/10.2307/256741",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.",
+          "url": "https://explore.metascienceobservatory.org/papers/W3122125999",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "The Impact of Human Resource Management Practices on Turnover, Productivity, and Corporate Financial Performance",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1803666&trk=article-ssr-frontend-pulse_little-text-block",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "The Impact of Human Resource Management Practices on Turnover, Productivity, and",
+          "url": "https://www.bincube.org.in/wp-content/uploads/2021/03/256741.pdf",
+          "score": 0.75,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

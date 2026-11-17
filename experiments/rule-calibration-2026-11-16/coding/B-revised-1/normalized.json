@@ -1,0 +1,1778 @@
+{
+  "coder_id": "B-revised-1",
+  "arm": "revised",
+  "stage": "B",
+  "model": "gpt-6.1-terra",
+  "started_at_utc": "2026-11-16T16:26:57Z",
+  "finished_at_utc": "2026-11-16T16:28:38Z",
+  "rule_version": "astra-f09-0.2-candidate",
+  "catalogue_version": "0.1",
+  "annotations": [
+    {
+      "paragraph_id": "LF-536f04360ed3-p007",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "argument/perspective",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "Victim blaming and public recognition"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Understand the author’s evaluation of a shift in public attention.",
+        "neutral_contribution": "The author characterizes advice to women, contrasts it with changing public space, and reflects on the public attention to violence.",
+        "reviewed_units": [
+          "LF-536f04360ed3-p005",
+          "LF-536f04360ed3-p006",
+          "LF-536f04360ed3-p007",
+          "LF-536f04360ed3-context001",
+          "LF-536f04360ed3-p008"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-536f04360ed3-p007-interpret",
+          "function_id": "interpret",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p007",
+              "quote": "It was, and still is, a sort of blame-the-victim framework",
+              "occurrence": 0,
+              "start": 0,
+              "end": 58,
+              "text_sha256": "4b355084c214a24b111ed19213014f5e2962db70bbf341a4797c8927e76e15e7",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "414994ca320d62ec8742f6bdbb78cab270b8a3c8435530b53777d82b01e6e7d9"
+            }
+          ],
+          "reason": "Interprets the preceding personal advice as victim blaming.",
+          "role_fields": {
+            "input_material": "Advice to limit her own life in p006",
+            "inference_or_significance": "A blame-the-victim framework",
+            "transformation": "Reframes advice as responsibility being shifted to women."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-536f04360ed3-p007-compare",
+          "function_id": "compare",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p007",
+              "quote": "this insistence that women modify their presence in public space, or just give up and stay in, rather than that we transform public space (or men) so that women have the right to walk down the street unharassed.",
+              "occurrence": 0,
+              "start": 60,
+              "end": 271,
+              "text_sha256": "2f1b62e408261e1f830b20b91e714edeb082da0fa55d109bea57ac3e6d02fd88",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "414994ca320d62ec8742f6bdbb78cab270b8a3c8435530b53777d82b01e6e7d9"
+            }
+          ],
+          "reason": "Contrasts changing women’s behavior with changing public space or men.",
+          "role_fields": {
+            "alternatives": "Women restrict their presence; society transforms public space or men",
+            "shared_dimension": "Response to harassment in public",
+            "stated_relationship": "The first is imposed instead of the second."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-536f04360ed3-p007-explain",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p007",
+              "quote": "It was, and still is, a sort of blame-the-victim framework, this insistence that women modify their presence in public space, or just give up and stay in, rather than that we transform public space (or men) so that women have the right to walk down the street unharassed. The same blame has been applied to women in nearly every situation in which they are attacked by men, as a way of not blaming men. If I’m exhilarated this year that I’ve read more rape trial transcripts, victims’ testimonies, accounts of murders, beatings and threats and rape tweets and misogynist comments than in probably all my other years put together, it’s because violence against women is now a public issue. At last.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 697,
+              "text_sha256": "414994ca320d62ec8742f6bdbb78cab270b8a3c8435530b53777d82b01e6e7d9",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "414994ca320d62ec8742f6bdbb78cab270b8a3c8435530b53777d82b01e6e7d9"
+            }
+          ],
+          "reason": "Connects the blame to avoidance of blaming men and explains the author’s exhilaration.",
+          "role_fields": {
+            "relata": "Blame of women and avoidance of blaming men; increased attention and exhilaration",
+            "connection_made_intelligible": "Blame shifts responsibility, while public recognition explains the emotional response."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-536f04360ed3-p007",
+        "stage": "B",
+        "source_id": "LF-536f04360ed3"
+      },
+      "clear_labels": [
+        "compare",
+        "explain",
+        "interpret"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "compare",
+        "explain",
+        "interpret"
+      ]
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p020",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "argument/perspective",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "Changing public discussion and participation"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Understand the significance attributed to men’s engagement.",
+        "neutral_contribution": "The author describes men listening and writing about violence, interprets engagement as a sign of change, and argues it is necessary to address sexism.",
+        "reviewed_units": [
+          "LF-536f04360ed3-p018",
+          "LF-536f04360ed3-p019",
+          "LF-536f04360ed3-p020",
+          "LF-536f04360ed3-context002",
+          "LF-536f04360ed3-p021"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-536f04360ed3-p020-report",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "Many men who took the time to listen to what women were saying – on social media and elsewhere – realised for the first time what women have long endured.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 154,
+              "text_sha256": "1737c3464b51e006ac62e22d00d2a8d01834ca5f0f6c8694b005956782d38365",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "a0038e1443781a7b6b8fa5cd1128fb2cb5d0a69dc298db42390e63e2f51ef0cb"
+            }
+          ],
+          "reason": "Reports men’s listening and public accounts of realization.",
+          "role_fields": {
+            "reported_content": "Men listened, realized the hostility women face, and some wrote publicly about it",
+            "attribution": "Author’s account",
+            "event_or_claim_status": "Reported past developments"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "observed_in_current_source",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-536f04360ed3-p020-interpret",
+          "function_id": "interpret",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "And the presence of actively engaged men was another sign of what seems to have been new and transformative this year",
+              "occurrence": 0,
+              "start": 155,
+              "end": 272,
+              "text_sha256": "7d6458ead185adbe7df6d1231b48f04f0c86da7a95b592dde6bac9a5e7ec9f29",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "a0038e1443781a7b6b8fa5cd1128fb2cb5d0a69dc298db42390e63e2f51ef0cb"
+            }
+          ],
+          "reason": "Reads men’s engagement as evidence of a transformative shift.",
+          "role_fields": {
+            "input_material": "Presence of actively engaged men",
+            "inference_or_significance": "A sign of a new transformative development",
+            "transformation": "Treats participation as an indicator of wider change."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-536f04360ed3-p020-explain",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "which is key, because changing the world for women means changing what is acceptable and admirable among men",
+              "occurrence": 0,
+              "start": 275,
+              "end": 383,
+              "text_sha256": "32f252ae4f5ba4d96324ae692be851c78a7fd27176f97eb255a3ccc422e0e9c6",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "a0038e1443781a7b6b8fa5cd1128fb2cb5d0a69dc298db42390e63e2f51ef0cb"
+            }
+          ],
+          "reason": "Explains why men’s engagement matters to changing women’s conditions.",
+          "role_fields": {
+            "relata": "Changing the world for women and standards of behavior among men",
+            "connection_made_intelligible": "Changing women’s conditions entails changing what men regard as acceptable and admirable."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-536f04360ed3-p020-compare",
+          "function_id": "compare",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "women can no more mitigate sexism without engaging men than people of colour can address racism without the participation of white people.",
+              "occurrence": 0,
+              "start": 676,
+              "end": 814,
+              "text_sha256": "d2fc08c0e38c401be0f5fca761cc70b2bf8b85d77e05d2c0efed475637ad598e",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "a0038e1443781a7b6b8fa5cd1128fb2cb5d0a69dc298db42390e63e2f51ef0cb"
+            }
+          ],
+          "reason": "Relates participation of men in addressing sexism to participation of white people in addressing racism.",
+          "role_fields": {
+            "alternatives": "Women addressing sexism without men; people of colour addressing racism without white people",
+            "shared_dimension": "Need for participation from the other group",
+            "stated_relationship": "Neither group can mitigate the injustice without the other group’s participation."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-536f04360ed3-p020",
+        "stage": "B",
+        "source_id": "LF-536f04360ed3"
+      },
+      "clear_labels": [
+        "compare",
+        "explain",
+        "interpret",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "compare",
+        "explain",
+        "interpret",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p033",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "argument/perspective",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "Shame and changing responses"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Follow examples of a claimed reversal.",
+        "neutral_contribution": "A professional’s observation about discrediting is followed by the author’s claim of reversal and two accounts involving images and consequences.",
+        "reviewed_units": [
+          "LF-536f04360ed3-p031",
+          "LF-536f04360ed3-p032",
+          "LF-536f04360ed3-p033",
+          "LF-536f04360ed3-p034",
+          "LF-536f04360ed3-p035"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-536f04360ed3-p033-report",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "“He said/she said is always about discrediting she said,” a campus professional who handles sexual assault cases told me the other day. It worked really well, until now. The tables have turned. When Jennifer Lawrence’s nude photographs were stolen and distributed online, she started on the usual route of being ashamed and apologetic, but then she revolted: “Anybody who looked at those pictures, you’re perpetuating a sexual offence. You should cower with shame,” she thundered. A couple of months later, a California man went to prison for a year for using nude photographs to harass and humiliate his ex‑girlfriend in front of her employers and others; California is one of 13 states to have passed revenge porn laws since 2013.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 732,
+              "text_sha256": "72944eb235598f80b708826dbcbceac355e516d038d1db13dcae243b1d4b5241",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "72944eb235598f80b708826dbcbceac355e516d038d1db13dcae243b1d4b5241"
+            }
+          ],
+          "reason": "Attributes a professional’s characterization and reports a prison sentence and legislation.",
+          "role_fields": {
+            "reported_content": "Professional’s characterization, Lawrence’s response, a prison sentence and state laws",
+            "attribution": "Campus professional for quoted characterization; author for reported events",
+            "event_or_claim_status": "Attributed statement and reported past events"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "mixed",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-536f04360ed3-p033-interpret",
+          "function_id": "interpret",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "It worked really well, until now. The tables have turned.",
+              "occurrence": 0,
+              "start": 136,
+              "end": 193,
+              "text_sha256": "d6ce0ec1b69a4ffa93756446d556f657b0617cca329d1018110e5494f739f1be",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "72944eb235598f80b708826dbcbceac355e516d038d1db13dcae243b1d4b5241"
+            }
+          ],
+          "reason": "Draws the conclusion that the established pattern has reversed.",
+          "role_fields": {
+            "input_material": "Discrediting women’s accounts and the subsequent examples",
+            "inference_or_significance": "The tables have turned",
+            "transformation": "Interprets the cited developments as a reversal."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-536f04360ed3-p033-narrate",
+          "function_id": "narrate",
+          "layer": "temporal_presentation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "When Jennifer Lawrence’s nude photographs were stolen and distributed online, she started on the usual route of being ashamed and apologetic, but then she revolted: “Anybody who looked at those pictures, you’re perpetuating a sexual offence. You should cower with shame,” she thundered.",
+              "occurrence": 0,
+              "start": 194,
+              "end": 480,
+              "text_sha256": "05cbd40de453c4bd8d6781e031d87cd605a7d4725428298059e181e7bacbb899",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "72944eb235598f80b708826dbcbceac355e516d038d1db13dcae243b1d4b5241"
+            }
+          ],
+          "reason": "Develops Lawrence’s change from shame to public defiance.",
+          "role_fields": {
+            "participant_or_subject": "Jennifer Lawrence",
+            "events": "Photographs distributed; initial shame and apology; public rebuttal",
+            "change_through_time": "Initial response gives way to a reversal."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-536f04360ed3-p033-illustrate",
+          "function_id": "illustrate",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "When Jennifer Lawrence’s nude photographs were stolen and distributed online, she started on the usual route of being ashamed and apologetic, but then she revolted:",
+              "occurrence": 0,
+              "start": 194,
+              "end": 358,
+              "text_sha256": "45e315140a0380ede855dd905739da0a4051b42d8e9305e4df134118d68093db",
+              "source_id": "LF-536f04360ed3",
+              "unit_sha256": "72944eb235598f80b708826dbcbceac355e516d038d1db13dcae243b1d4b5241"
+            }
+          ],
+          "reason": "Offers Lawrence’s response as a concrete reversal of shame and discrediting.",
+          "role_fields": {
+            "illustrated_idea": "The tables have turned in who is discredited or shamed",
+            "concretizing_link": "Her response assigns shame to viewers instead of accepting it.",
+            "case_status": "Reported actual case, unverified"
+          },
+          "targets": [
+            {
+              "target_id": "LF-536f04360ed3-p033-illustrate-target",
+              "kind": "explicit_span",
+              "status": "clear",
+              "anchors": [
+                {
+                  "unit_id": "LF-536f04360ed3-p033",
+                  "quote": "The tables have turned.",
+                  "occurrence": 0,
+                  "start": 170,
+                  "end": 193,
+                  "text_sha256": "16e9074d71b39f1ec24f4559b38aa7c8cee53f1f05cd6826340b98f70c99660e",
+                  "source_id": "LF-536f04360ed3",
+                  "unit_sha256": "72944eb235598f80b708826dbcbceac355e516d038d1db13dcae243b1d4b5241"
+                }
+              ],
+              "paraphrase": "The tables have turned.",
+              "reason": "The quoted passage states the target."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-536f04360ed3-p033",
+        "stage": "B",
+        "source_id": "LF-536f04360ed3"
+      },
+      "clear_labels": [
+        "illustrate",
+        "interpret",
+        "narrate",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "illustrate",
+        "interpret",
+        "narrate",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p005",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "personal reflection",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "Leo’s influence"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Understand the narrator’s attraction to Leo’s outdoor life.",
+        "neutral_contribution": "The narrator recalls Leo’s outdoor life in contrast to the parents and reflects on the effect of his stories.",
+        "reviewed_units": [
+          "LF-03f718ef8cc6-p003",
+          "LF-03f718ef8cc6-p004",
+          "LF-03f718ef8cc6-p005",
+          "LF-03f718ef8cc6-p006",
+          "LF-03f718ef8cc6-p007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-03f718ef8cc6-p005-compare",
+          "function_id": "compare",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p005",
+              "quote": "What I appreciated most about Leo, and what was most different about him from my parents, was how much time he spent in the outdoors.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 133,
+              "text_sha256": "88e9141d7bda01125304639b428b6b5f8c0972ff2a2f9d67dd1c1bc146f7ea3a",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "be485bff686373bc5fd8031a7a63d284769b84ee988a251c6303cc8aa22a0d7b"
+            }
+          ],
+          "reason": "Distinguishes Leo from the parents by their relationship to outdoor activity.",
+          "role_fields": {
+            "alternatives": "Leo and the narrator’s parents",
+            "shared_dimension": "Outdoor activities and preferences",
+            "stated_relationship": "Leo spent much more time outdoors; parents preferred other pursuits."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-03f718ef8cc6-p005-report",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p005",
+              "quote": "What I appreciated most about Leo, and what was most different about him from my parents, was how much time he spent in the outdoors. My father once said to me, “All the camping I need to do in this life I already did in Vietnam”; my mother, while lovely and doting, always preferred a bridge game to a fishing rod. I grew up a child who found many of my most enriching experiences indoors, in front of a computer or a book or a movie. For that reason, Leo’s stories about his far-flung wilderness adventures were exotic to me, stirring a curiosity deep from within, as if I were listening to an alien describe a cocktail party on the moon.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 640,
+              "text_sha256": "be485bff686373bc5fd8031a7a63d284769b84ee988a251c6303cc8aa22a0d7b",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "be485bff686373bc5fd8031a7a63d284769b84ee988a251c6303cc8aa22a0d7b"
+            }
+          ],
+          "reason": "Describes childhood preferences and the parents’ attitudes.",
+          "role_fields": {
+            "reported_content": "Parents’ stated preferences and the narrator’s indoor interests",
+            "attribution": "Narrator’s recollection; father directly quoted",
+            "event_or_claim_status": "Recalled past"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "observed_in_current_source",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-03f718ef8cc6-p005-interpret",
+          "function_id": "interpret",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p005",
+              "quote": "For that reason, Leo’s stories about his far-flung wilderness adventures were exotic to me, stirring a curiosity deep from within, as if I were listening to an alien describe a cocktail party on the moon.",
+              "occurrence": 0,
+              "start": 436,
+              "end": 640,
+              "text_sha256": "19e62c126b422d4ee2a9534afcb33287cd50dc30cfe661a2084389f970a1c898",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "be485bff686373bc5fd8031a7a63d284769b84ee988a251c6303cc8aa22a0d7b"
+            }
+          ],
+          "reason": "Reflects on how the narrator experienced Leo’s stories.",
+          "role_fields": {
+            "input_material": "Indoor childhood and Leo’s wilderness stories",
+            "inference_or_significance": "Stories seemed exotic and stirred curiosity",
+            "transformation": "Connects background to a subjective response."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-03f718ef8cc6-p005",
+        "stage": "B",
+        "source_id": "LF-03f718ef8cc6"
+      },
+      "clear_labels": [
+        "compare",
+        "interpret",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "compare",
+        "interpret",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p013",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "personal reflection",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "Conversation after the swim"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Follow the exchange and Chris’s characterization of fear.",
+        "neutral_contribution": "Chris responds to the narrator’s question about fear.",
+        "reviewed_units": [
+          "LF-03f718ef8cc6-p011",
+          "LF-03f718ef8cc6-p012",
+          "LF-03f718ef8cc6-p013",
+          "LF-03f718ef8cc6-p014",
+          "LF-03f718ef8cc6-p015"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-03f718ef8cc6-p013-report",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p013",
+              "quote": "“I don’t really get scared,” he said. “And if I do, it’s already too late.”",
+              "occurrence": 0,
+              "start": 0,
+              "end": 75,
+              "text_sha256": "2f478312fc7986103c7a5d82b5bcbd47ccec8fcdffd677d6e87a4c7a72163b02",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "2f478312fc7986103c7a5d82b5bcbd47ccec8fcdffd677d6e87a4c7a72163b02"
+            }
+          ],
+          "reason": "Reproduces Chris’s attributed statement in conversation.",
+          "role_fields": {
+            "reported_content": "Chris says he rarely gets scared and if he does it is already too late",
+            "attribution": "Chris, quoted by narrator",
+            "event_or_claim_status": "Reported dialogue"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-03f718ef8cc6-p013-narrate",
+          "function_id": "narrate",
+          "layer": "temporal_presentation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p013",
+              "quote": "“I don’t really get scared,” he said. “And if I do, it’s already too late.”",
+              "occurrence": 0,
+              "start": 0,
+              "end": 75,
+              "text_sha256": "2f478312fc7986103c7a5d82b5bcbd47ccec8fcdffd677d6e87a4c7a72163b02",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "2f478312fc7986103c7a5d82b5bcbd47ccec8fcdffd677d6e87a4c7a72163b02"
+            }
+          ],
+          "reason": "Advances an unfolding exchange through Chris’s response.",
+          "role_fields": {
+            "participant_or_subject": "Chris and narrator",
+            "events": "Narrator asks about fear; Chris responds",
+            "change_through_time": "The conversation advances from question to reply."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-03f718ef8cc6-p013",
+        "stage": "B",
+        "source_id": "LF-03f718ef8cc6"
+      },
+      "clear_labels": [
+        "narrate",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "narrate",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p021",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "personal reflection",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "Brazil hang-gliding episode"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Follow the narrator’s experience of the launch.",
+        "neutral_contribution": "The narrator recounts arranging a hang-gliding trip and the difficulty understanding the launch instructions.",
+        "reviewed_units": [
+          "LF-03f718ef8cc6-p019",
+          "LF-03f718ef8cc6-p020",
+          "LF-03f718ef8cc6-p021",
+          "LF-03f718ef8cc6-p022",
+          "LF-03f718ef8cc6-p023"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-03f718ef8cc6-p021-narrate",
+          "function_id": "narrate",
+          "layer": "temporal_presentation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p021",
+              "quote": "Four days after we’d arrived in Brazil, Chris and I decided to go hang gliding. We took a cab down to a beach where a Google search had told us gliders congregate and, after 15 minutes, $100 dollars, and a few hastily signed release forms, we were in cars headed to the top of a mountain with two men who spoke hardly any English. The language barrier made it very difficult to understand even basic instructions about how to hang glide, with my handler, Paulo, saying only, “Just run, guy. Don’t stop running.” By that, he meant that I should not hesitate when it came time to run off the cliff. This is what Paulo’s English and my Portuguese were too poor to illuminate for me before we’d begun our ascent: To get a hang glider airborne, you stand about 40 feet from the edge of a cliff and run off of it at full speed.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 821,
+              "text_sha256": "744761d5ace0585020e66e61692caa724b16125ce29ec34318322a7b43159c80",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "744761d5ace0585020e66e61692caa724b16125ce29ec34318322a7b43159c80"
+            }
+          ],
+          "reason": "Develops the trip from the decision to go gliding through travel and the instruction problem.",
+          "role_fields": {
+            "participant_or_subject": "Narrator, Chris and handler Paulo",
+            "events": "Decide to glide, travel to beach, make arrangements, ascend and receive limited instructions",
+            "change_through_time": "Their decision progresses to an uncertain ascent."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "observed_in_current_source",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-03f718ef8cc6-p021-report",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p021",
+              "quote": "The language barrier made it very difficult to understand even basic instructions about how to hang glide, with my handler, Paulo, saying only, “Just run, guy. Don’t stop running.” By that, he meant that I should not hesitate when it came time to run off the cliff.",
+              "occurrence": 0,
+              "start": 331,
+              "end": 596,
+              "text_sha256": "ad2c6cac7a9365cbf84e18d95bd85061367e1e2f49feef59e61134bfa3286687",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "744761d5ace0585020e66e61692caa724b16125ce29ec34318322a7b43159c80"
+            }
+          ],
+          "reason": "Recounts the handler’s words and what they meant in this episode.",
+          "role_fields": {
+            "reported_content": "Handler said to keep running and meant not to hesitate at the cliff",
+            "attribution": "Narrator recounts Paulo’s words",
+            "event_or_claim_status": "Past account"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "LF-03f718ef8cc6-p021-explain",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p021",
+              "quote": "To get a hang glider airborne, you stand about 40 feet from the edge of a cliff and run off of it at full speed.",
+              "occurrence": 0,
+              "start": 709,
+              "end": 821,
+              "text_sha256": "8ee658379764a341c38ec02a5dd69c583683e689a3efadf9704e0f1e88574d2b",
+              "source_id": "LF-03f718ef8cc6",
+              "unit_sha256": "744761d5ace0585020e66e61692caa724b16125ce29ec34318322a7b43159c80"
+            }
+          ],
+          "reason": "Makes the required launch action intelligible within the experience.",
+          "role_fields": {
+            "relata": "Getting the hang glider airborne and running toward the cliff edge",
+            "connection_made_intelligible": "The launch requires a full-speed run off the cliff."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-03f718ef8cc6-p021",
+        "stage": "B",
+        "source_id": "LF-03f718ef8cc6"
+      },
+      "clear_labels": [
+        "explain",
+        "narrate",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain",
+        "narrate",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "PMC4566873-p010",
+      "context": {
+        "family": {
+          "value": "research reports",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "research/synthesis",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "Review rationale and objective"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Understand the review’s purpose and design.",
+        "neutral_contribution": "The authors state a rationale for considering a range of theories and report the review’s design and main question.",
+        "reviewed_units": [
+          "PMC4566873-p008",
+          "PMC4566873-p009",
+          "PMC4566873-p010",
+          "PMC4566873-p011",
+          "PMC4566873-p012"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "PMC4566873-p010-assert",
+          "function_id": "assert",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p010",
+              "quote": "To improve the selection and application of theory we need to consider, across relevant disciplines, those theories which may be of potential use in informing public health questions.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 183,
+              "text_sha256": "0cf1aba739369fb9c82f04ad88a303ea2c2d310bc277731cc215a832d1110c83",
+              "source_id": "PMC4566873",
+              "unit_sha256": "49d0ece5b163657433776e343fa7b34cf36fc5afd5e7f8bcd2d1eb682aae80bc"
+            }
+          ],
+          "reason": "Advances a need to consider theories across disciplines.",
+          "role_fields": {
+            "position": "Consider potentially useful theories across relevant disciplines",
+            "position_holder": "Review authors",
+            "commitment_job": "Advocates a broader basis for theory selection."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "PMC4566873-p010-explain",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p010",
+              "quote": "By identifying a range of theories we can assess which theories may be of value given the behaviour, population and context in question.",
+              "occurrence": 0,
+              "start": 184,
+              "end": 320,
+              "text_sha256": "ec4ce60e2a345c7cc32b02fc5b75cdb58d0a6ba665e8418f5b3fc172e8c40f97",
+              "source_id": "PMC4566873",
+              "unit_sha256": "49d0ece5b163657433776e343fa7b34cf36fc5afd5e7f8bcd2d1eb682aae80bc"
+            }
+          ],
+          "reason": "Connects identifying a range to assessing relevance for a particular situation.",
+          "role_fields": {
+            "relata": "Identification of a range of theories and context-sensitive assessment",
+            "connection_made_intelligible": "Identifying options enables assessment against behavior, population and context."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "PMC4566873-p010-report",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p010",
+              "quote": "To this end, we conducted a scoping review and consensus exercise, informed by the disciplines of psychology, sociology, anthropology and economics.",
+              "occurrence": 0,
+              "start": 321,
+              "end": 469,
+              "text_sha256": "fdbab2a9c83ca2442a2377851a2e6214fe42b86d1aa2259a13c0f6f62acce461",
+              "source_id": "PMC4566873",
+              "unit_sha256": "49d0ece5b163657433776e343fa7b34cf36fc5afd5e7f8bcd2d1eb682aae80bc"
+            }
+          ],
+          "reason": "States the completed scoping review, consensus exercise and primary question.",
+          "role_fields": {
+            "reported_content": "Review and consensus exercise across four disciplines and its principal question",
+            "attribution": "Study authors",
+            "event_or_claim_status": "Completed study activity and stated aim"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "observed_in_current_source",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC4566873-p010",
+        "stage": "B",
+        "source_id": "PMC4566873"
+      },
+      "clear_labels": [
+        "assert",
+        "explain",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "assert",
+        "explain",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "PMC4566873-p028",
+      "context": {
+        "family": {
+          "value": "research reports",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "research/synthesis",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "Article inclusion criteria"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Understand what the review included and why.",
+        "neutral_contribution": "The authors describe article screening, category definitions, exclusions, and the reason for selecting behavioral endpoints.",
+        "reviewed_units": [
+          "PMC4566873-p027",
+          "PMC4566873-context008",
+          "PMC4566873-p028",
+          "PMC4566873-p029",
+          "PMC4566873-p030"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "PMC4566873-p028-report",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p028",
+              "quote": "Screening of articles was in two stages. The first stage (title and abstract) was intentionally inclusive, retaining articles if they mentioned: (i) theory in relation to behaviour or behaviour change or (ii) changing behaviour but made no reference to theory (the full text of the article was then checked to see if theory was used to inform the research). We considered all behaviour to be of relevance, not just health-related behaviours. At the second stage of screening (full-text) tighter restrictions applied and articles were included if: (i) theory and behaviour was defined as per our study definitions and (ii) they fell into one of four categories of article: descriptive, intervention, evaluative or review: Descriptive articles were defined as those that contained the original description of a theory by the author/s who originally conceived of the theory (i.e., primary theory sources) or by an author/s who proposed advances in the theory by re-specification. Secondary theory sources (i.e., those that only provided an overview/description of the theory) were not included. Intervention articles were defined as those that stated in their methods that they used theory to inform the development and/or evaluation of an intervention aimed at changing behaviour and that included a measure of behaviour as an outcome. We focused on behaviour as the end-point rather than the consequence of the behaviour (e.g., weight loss) because there are a number of factors further along the causal chain that could affect the link between behaviour and outcome (Hardeman et al., 2005 ). Evaluative articles were defined as those reporting studies that empirically tested a theory longitudinally. Review articles were defined as those that systematically reviewed a theory in relation to a change in behavioural outcomes. Narrative reviews or selective overviews of the literature (i.e., those without a description of a search strategy and no clear methodology that could be reproduced independently) were not included.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 2024,
+              "text_sha256": "f8179a397ee2006e14fb088b0f4675c1c464626f1dc42e5cea39a738cbd49a65",
+              "source_id": "PMC4566873",
+              "unit_sha256": "f8179a397ee2006e14fb088b0f4675c1c464626f1dc42e5cea39a738cbd49a65"
+            }
+          ],
+          "reason": "Reports the two screening stages and applied inclusion and exclusion criteria.",
+          "role_fields": {
+            "reported_content": "Two-stage screening and article eligibility rules",
+            "attribution": "Review authors",
+            "event_or_claim_status": "Completed methods"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "observed_in_current_source",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "PMC4566873-p028-define",
+          "function_id": "define",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p028",
+              "quote": "Descriptive articles were defined as those that contained the original description of a theory by the author/s who originally conceived of the theory (i.e., primary theory sources) or by an author/s who proposed advances in the theory by re-specification.",
+              "occurrence": 0,
+              "start": 721,
+              "end": 976,
+              "text_sha256": "f2d9fab40aca3faf58c1779d33e84a71f58f3e630241cea4a29a0e40819e3080",
+              "source_id": "PMC4566873",
+              "unit_sha256": "f8179a397ee2006e14fb088b0f4675c1c464626f1dc42e5cea39a738cbd49a65"
+            }
+          ],
+          "reason": "Specifies inclusion meanings for descriptive, intervention, evaluative and review articles.",
+          "role_fields": {
+            "term": "Descriptive, intervention, evaluative and review articles",
+            "meaning_or_distinction": "Each category is specified by source, intervention, empirical testing or systematic review characteristics.",
+            "definition_scope": "Article eligibility in this review."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "PMC4566873-p028-explain",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p028",
+              "quote": "We focused on behaviour as the end-point rather than the consequence of the behaviour (e.g., weight loss) because there are a number of factors further along the causal chain that could affect the link between behaviour and outcome (Hardeman et al., 2005 ).",
+              "occurrence": 0,
+              "start": 1334,
+              "end": 1591,
+              "text_sha256": "957e981865051b4f9ba1e4794a441cef568f7cca6519b3d43d5b2b63a7c23098",
+              "source_id": "PMC4566873",
+              "unit_sha256": "f8179a397ee2006e14fb088b0f4675c1c464626f1dc42e5cea39a738cbd49a65"
+            }
+          ],
+          "reason": "Gives the reason behavior, rather than its consequence, was the endpoint.",
+          "role_fields": {
+            "relata": "Behavior endpoint versus downstream outcome and intervening causal factors",
+            "connection_made_intelligible": "Later causal factors can affect the relationship between behavior and its outcome."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC4566873-p028",
+        "stage": "B",
+        "source_id": "PMC4566873"
+      },
+      "clear_labels": [
+        "define",
+        "explain",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "define",
+        "explain",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "PMC4566873-p046",
+      "context": {
+        "family": {
+          "value": "research reports",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "research/synthesis",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "Discussion of review scope"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Interpret the scope of the review findings.",
+        "neutral_contribution": "The authors state that their theory-oriented search does not represent all applications of those theories.",
+        "reviewed_units": [
+          "PMC4566873-context019",
+          "PMC4566873-p045",
+          "PMC4566873-p046",
+          "PMC4566873-p047",
+          "PMC4566873-p048"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "PMC4566873-p046-qualify",
+          "function_id": "qualify",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p046",
+              "quote": "it does not reflect the wider application of these theories to public health-related research.",
+              "occurrence": 0,
+              "start": 322,
+              "end": 416,
+              "text_sha256": "e6512c61fa91579ee24efafb380b320d102551430126b5391cdb27f7b1aa32b8",
+              "source_id": "PMC4566873",
+              "unit_sha256": "426083cd256de358cbcd1cb6d06777e5144c98aa6fa419b5af62c6437a5518db"
+            }
+          ],
+          "reason": "Limits the interpretation of the review’s identified literature.",
+          "role_fields": {
+            "affected_claim": "The review identified articles using the theories under its criteria",
+            "scope_change": "The identified articles do not represent wider public-health applications",
+            "qualification_kind": "Search-scope limitation"
+          },
+          "targets": [
+            {
+              "target_id": "PMC4566873-p046-qualify-target",
+              "kind": "explicit_span",
+              "status": "clear",
+              "anchors": [
+                {
+                  "unit_id": "PMC4566873-p046",
+                  "quote": "whilst the review identified articles that use the theories in relation to our inclusion criteria",
+                  "occurrence": 0,
+                  "start": 223,
+                  "end": 320,
+                  "text_sha256": "983e8a6e24fb440394cde277028efea1a9a386cf406635694cee458f5957d81e",
+                  "source_id": "PMC4566873",
+                  "unit_sha256": "426083cd256de358cbcd1cb6d06777e5144c98aa6fa419b5af62c6437a5518db"
+                }
+              ],
+              "paraphrase": "The review identified articles using the theories within its inclusion criteria.",
+              "reason": "The quoted passage states the target."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "PMC4566873-p046-explain",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p046",
+              "quote": "It is important to note that the literature identified in the scoping review reflects the search strategy that aimed to identify theories rather than exhaustively review theoretically informed empirical studies. Therefore, whilst the review identified articles that use the theories in relation to our inclusion criteria, it does not reflect the wider application of these theories to public health-related research.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 416,
+              "text_sha256": "426083cd256de358cbcd1cb6d06777e5144c98aa6fa419b5af62c6437a5518db",
+              "source_id": "PMC4566873",
+              "unit_sha256": "426083cd256de358cbcd1cb6d06777e5144c98aa6fa419b5af62c6437a5518db"
+            }
+          ],
+          "reason": "Connects the limitation to the theory-oriented search strategy.",
+          "role_fields": {
+            "relata": "Search strategy focused on theories and incomplete coverage of empirical applications",
+            "connection_made_intelligible": "The strategy sought theories rather than an exhaustive empirical literature, so the results cannot represent wider application."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC4566873-p046",
+        "stage": "B",
+        "source_id": "PMC4566873"
+      },
+      "clear_labels": [
+        "explain",
+        "qualify"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain",
+        "qualify"
+      ]
+    },
+    {
+      "paragraph_id": "curl-p04",
+      "context": {
+        "family": {
+          "value": "explanation and documentation",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "explanation/procedure",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "HTTP response codes"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Understand the location and purpose of a response code.",
+        "neutral_contribution": "The documentation identifies the response code’s placement and its communicative purpose.",
+        "reviewed_units": [
+          "curl-p03",
+          "curl-context003",
+          "curl-p04",
+          "curl-p05",
+          "curl-p06"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "curl-p04-report",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p04",
+              "quote": "An HTTP transfer gets a 3 digit response code back in the first response line.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 78,
+              "text_sha256": "1d44aa0aceb4835750eaa97f82ec50078ad1e35f6bc2a942b0fa96c466056552",
+              "source_id": "curl",
+              "unit_sha256": "18701ffa2c9ab79a38291e2bc0aac48306ed096f1c9a79e79ade5c0afc6e4709"
+            }
+          ],
+          "reason": "Describes the code’s length and location in the response.",
+          "role_fields": {
+            "reported_content": "A three-digit code appears in the first response line",
+            "attribution": "Documentation author",
+            "event_or_claim_status": "General technical description"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "curl-p04-explain",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p04",
+              "quote": "The response code is the server's way of giving the client a hint about how the request was handled.",
+              "occurrence": 0,
+              "start": 79,
+              "end": 179,
+              "text_sha256": "d04d0a44fc3fedc84f72a7d26267831a6adaaf2a4ee2b686b84f2e0de1e1c092",
+              "source_id": "curl",
+              "unit_sha256": "18701ffa2c9ab79a38291e2bc0aac48306ed096f1c9a79e79ade5c0afc6e4709"
+            }
+          ],
+          "reason": "Explains what the server communicates to the client through the code.",
+          "role_fields": {
+            "relata": "Response code, server and client",
+            "connection_made_intelligible": "The code hints to the client how the server handled the request."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "curl-p04",
+        "stage": "B",
+        "source_id": "curl"
+      },
+      "clear_labels": [
+        "explain",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "curl-p11",
+      "context": {
+        "family": {
+          "value": "explanation and documentation",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "explanation/procedure",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "Chunked transfer encoding"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Understand how chunk framing signals the end of a response.",
+        "neutral_contribution": "The documentation describes chunked response headers, the structure and termination of chunks, and why the encoding is useful.",
+        "reviewed_units": [
+          "curl-context006",
+          "curl-p10",
+          "curl-p11",
+          "curl-p12",
+          "curl-context007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "curl-p11-report",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p11",
+              "quote": "When sending a chunked response, there's no Content-Length: for the response to indicate its size. Instead, there's a `Transfer-Encoding: chunked` header that tells curl there's chunked data coming and then in the response body, the data comes in a series of \"chunks\". Every individual chunk starts with the size of that particular chunk (in hexadecimal), then a newline and then the contents of the chunk. This is repeated over and over until the end of the response, which is signalled with a zero sized chunk. The point of this sort of response is for the client to be able to figure out when the responses has ended even though the server did not know the full size before it started to send it. This is usually the case when the response is dynamic and generated at the point when the request comes.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 804,
+              "text_sha256": "ea4983d207f1102bf89387e4a58d08e90bdbe66f6795dc73526d67668cf34404",
+              "source_id": "curl",
+              "unit_sha256": "ea4983d207f1102bf89387e4a58d08e90bdbe66f6795dc73526d67668cf34404"
+            }
+          ],
+          "reason": "Describes the header and the components of chunks.",
+          "role_fields": {
+            "reported_content": "Transfer-Encoding header, chunk size, data, and zero-sized terminator",
+            "attribution": "Documentation author",
+            "event_or_claim_status": "General technical description"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "curl-p11-explain",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p11",
+              "quote": "When sending a chunked response, there's no Content-Length: for the response to indicate its size. Instead, there's a `Transfer-Encoding: chunked` header that tells curl there's chunked data coming and then in the response body, the data comes in a series of \"chunks\". Every individual chunk starts with the size of that particular chunk (in hexadecimal), then a newline and then the contents of the chunk. This is repeated over and over until the end of the response, which is signalled with a zero sized chunk. The point of this sort of response is for the client to be able to figure out when the responses has ended even though the server did not know the full size before it started to send it. This is usually the case when the response is dynamic and generated at the point when the request comes.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 804,
+              "text_sha256": "ea4983d207f1102bf89387e4a58d08e90bdbe66f6795dc73526d67668cf34404",
+              "source_id": "curl",
+              "unit_sha256": "ea4983d207f1102bf89387e4a58d08e90bdbe66f6795dc73526d67668cf34404"
+            }
+          ],
+          "reason": "Connects framing and the terminal chunk to recognizing the end without a known total size.",
+          "role_fields": {
+            "relata": "Chunk framing, zero-sized terminator, and response completion without known total size",
+            "connection_made_intelligible": "Individual chunks carry sizes and a zero-sized chunk marks the end, enabling end detection without a known initial total."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "curl-p11",
+        "stage": "B",
+        "source_id": "curl"
+      },
+      "clear_labels": [
+        "explain",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "curl-p17",
+      "context": {
+        "family": {
+          "value": "explanation and documentation",
+          "hypothesis_status": "inferred",
+          "reason": "Based on local source and reader task."
+        },
+        "form": {
+          "value": "explanation/procedure",
+          "hypothesis_status": "provisional",
+          "reason": "Packet genre cue and local text."
+        },
+        "section": {
+          "id": null,
+          "role": "Transfer encoding"
+        },
+        "audience": "Readers of the source; prior expertise unspecified.",
+        "reader_task": "Understand and enable a compressed transfer-encoding request.",
+        "neutral_contribution": "The documentation describes compressed transfer encoding negotiation and identifies the option that enables a request.",
+        "reviewed_units": [
+          "curl-p15",
+          "curl-p16",
+          "curl-p17",
+          "curl-context009",
+          "curl-p18"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and immediate neighbors supplied and reviewed.",
+        "extraction_issues": [],
+        "source_status": "Registered packet text; source claims not independently verified."
+      },
+      "roles": [
+        {
+          "annotation_id": "curl-p17-explain",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p17",
+              "quote": "The client then simply asks the server to do compression transfer encoding and if acceptable, it will respond with a header indicating that it will and curl will then transparently uncompress that data on arrival.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 213,
+              "text_sha256": "1f554aaac159b74aedb18b1bae8d8f71400a50f949a24b575390a9bf839dbfa9",
+              "source_id": "curl",
+              "unit_sha256": "6bc8829c007f055d580bbb3274bfa18f7ed0df5dfa01229acf1732612b3805cb"
+            }
+          ],
+          "reason": "Describes the dependency between client request, server acceptance, response header and curl decoding.",
+          "role_fields": {
+            "relata": "Client compression request, server acceptance and curl decompression",
+            "connection_made_intelligible": "If accepted, the server signals compression and curl decompresses received data."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        },
+        {
+          "annotation_id": "curl-p17-instruct",
+          "function_id": "instruct",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p17",
+              "quote": "A user enables asking for compressed transfer encoding with `--tr-encoding`:",
+              "occurrence": 0,
+              "start": 214,
+              "end": 290,
+              "text_sha256": "78587ca99c6a39e6563be7784665dd0cf851380a98846d75ed171f39a53d2823",
+              "source_id": "curl",
+              "unit_sha256": "6bc8829c007f055d580bbb3274bfa18f7ed0df5dfa01229acf1732612b3805cb"
+            }
+          ],
+          "reason": "Directs the user to enable the request using the named option, with the following command example.",
+          "role_fields": {
+            "addressed_actor": "curl user",
+            "action": "Enable asking for compressed transfer encoding using --tr-encoding",
+            "directive_context": "Practical usage guidance followed by a command example."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Function coding; source truth and adequacy not checked."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "curl-p17",
+        "stage": "B",
+        "source_id": "curl"
+      },
+      "clear_labels": [
+        "explain",
+        "instruct"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain",
+        "instruct"
+      ]
+    }
+  ],
+  "submission": {
+    "path": "coding/B-revised-1/raw.json",
+    "sha256": "7795458abf3c8c730928154eae3b2902aeb635d6cca6972f2e3b564bb143eb4c",
+    "bytes": 65494,
+    "compact_characters": 48608,
+    "submission_count": 1
+  }
+}

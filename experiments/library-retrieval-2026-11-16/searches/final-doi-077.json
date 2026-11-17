@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-methods_paper-2",
+      "doi": "10.1038/clpt.1981.154",
+      "title": "A method for estimating the probability of adverse drug reactions.",
+      "authors": "[\"Naranjo CA\", \"Busto U\", \"Sellers EM\", \"Sandor P\", \"Ruiz I\", \"Roberts EA\", \"Janecek E\", \"Domecq C\", \"Greenblatt DJ\"]",
+      "field": "medicine_health",
+      "q": "\"A method for estimating the probability of adverse\" Naranjo filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-methods_paper-2",
+      "query": "\"A method for estimating the probability of adverse\" Naranjo filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "A method for estimating the probability of adverse",
+          "url": "https://acilci.net/wp-content/uploads/2013/08/Naranjo-Algoritmas%C4%B11.pdf",
+          "score": 1
+        },
+        {
+          "title": "A method for estimating the probability of adverse drug reactions.",
+          "url": "https://www.scienceopen.com/document?vid=c707620b-a77a-434f-ba2c-5d6fc6540da4",
+          "score": 1
+        },
+        {
+          "title": "A method for estimating the probability of adverse drug reactions",
+          "url": "https://bibbase.org/network/publication/naranjo-busto-sellers-sandor-ruiz-roberts-janecek-domecq-etal-amethodforestimatingtheprobabilityofadversedrugreactions-1981",
+          "score": 1
+        },
+        {
+          "title": "A method for estimating the probability of adverse drug reactions.",
+          "url": "https://openurl.ebsco.com/contentitem/doi%3A10.1038/clpt.1981.154?id=ebsco%3Adoi%3A10.1038%2Fclpt.1981.154&sid=ebsco%3Aplink%3Acrawler",
+          "score": 1
+        },
+        {
+          "title": "Estimating Adverse Drug Reaction Probability | PDF | Probability Theory | Probability",
+          "url": "https://www.scribd.com/document/976454766/naranjo1981",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

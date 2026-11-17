@@ -1,0 +1,685 @@
+{
+  "schema_version": "1.0",
+  "title": "GUM eRST relation to provisional paragraph function crosswalk",
+  "as_of": "2026-11-16",
+  "status": "hypothesis_only",
+  "source_release": "https://github.com/amir-zeldes/gum/tree/1d999e5a0327ecb83015007774f6a9be23ecbc41",
+  "function_catalogue": "docs/writing-harness/paragraph-functions.json",
+  "definition_basis": "Zeldes et al. 2025 eRST, Table A.12 printed page 64; relation inventory checked in pinned GUM RS4. S=satellite; N=nucleus; nuclei may be full spans, not just paragraphs. Definitions paraphrased.",
+  "mapping_kind_definitions": {
+    "conditional": "A function is a possible hypothesis only after the stated contextual condition is independently assessed.",
+    "partial": "A relation resembles a specific aspect of a function but does not establish the whole function, quality, or paragraph span.",
+    "relation_only": "Useful link or structural relation with no justified direct role mapping.",
+    "none": "No justified direct mapping in this catalogue."
+  },
+  "deterministic_checks_shared": [
+    "Read declared original relation and resolve graph IDs and both spans, including multinuclear groups.",
+    "Preserve N/S or equal-nucleus roles, full scope, ordering and primary versus secondary edge; retain same-unit discontinuities.",
+    "If independently token-aligned to XML, report paragraph overlap and unresolved or cross-paragraph spans; do not infer function validity."
+  ],
+  "records": [
+    {
+      "original_label": "adversative-antithesis",
+      "original_definition_paraphrase": "S is an alternative to N, which the writer wants preferred.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S and N together",
+      "candidate_functions": [
+        {
+          "function_id": "compare",
+          "candidate_target": "S and N together",
+          "condition": "The alternatives are examined on a relevant shared dimension."
+        },
+        {
+          "function_id": "qualify",
+          "candidate_target": "S relative to N",
+          "condition": "S expresses an exception or limit to an identifiable claim."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The alternatives are examined on a relevant shared dimension.",
+      "counterexample": "A command rejects one option in favor of another without explaining any comparison.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "adversative-concession",
+      "original_definition_paraphrase": "S conflicts with N, but the reader is meant to look past the conflict.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S in relation to N",
+      "candidate_functions": [
+        {
+          "function_id": "qualify",
+          "candidate_target": "S in relation to N",
+          "condition": "S limits or concedes a condition on an identifiable claim in N."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "S limits or concedes a condition on an identifiable claim in N.",
+      "counterexample": "Two facts conflict but neither limits a claim.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "adversative-contrast",
+      "original_definition_paraphrase": "Equally prominent nuclei are presented as incompatible.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "multinuclear relation joining equally prominent EDU or group spans",
+      "nuclearity_or_role": "the nuclei jointly",
+      "candidate_functions": [
+        {
+          "function_id": "compare",
+          "candidate_target": "the nuclei jointly",
+          "condition": "The incompatibility compares alternatives along a recoverable relevant dimension."
+        }
+      ],
+      "mapping_kind": "partial",
+      "condition": "The incompatibility compares alternatives along a recoverable relevant dimension.",
+      "counterexample": "Opposed events or characters are juxtaposed without a meaningful comparative dimension.",
+      "deterministic_checks": "Check membership, shared group and equal-nucleus encoding; do not fabricate a directional claim-to-evidence link.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "attribution-negative",
+      "original_definition_paraphrase": "S identifies a potential source that did not provide the information in N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S and N together",
+      "candidate_functions": [
+        {
+          "function_id": "report",
+          "candidate_target": "S and N together",
+          "condition": "The passage faithfully reports the source and the negation applies to the attribution."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The passage faithfully reports the source and the negation applies to the attribution.",
+      "counterexample": "A denial of sourcehood is merely a subordinate fragment rather than an independent report.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "attribution-positive",
+      "original_definition_paraphrase": "S identifies a source for the information in N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S and N together",
+      "candidate_functions": [
+        {
+          "function_id": "report",
+          "candidate_target": "S and N together",
+          "condition": "The information is faithfully reported with source and conditions."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The information is faithfully reported with source and conditions.",
+      "counterexample": "A brief attribution tag within an argument is not itself a paragraph-level report.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "causal-cause",
+      "original_definition_paraphrase": "S causes the more prominent N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S with N",
+      "candidate_functions": [
+        {
+          "function_id": "explain",
+          "candidate_target": "S with N",
+          "condition": "The passage makes the causal relationship intelligible, including required context."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The passage makes the causal relationship intelligible, including required context.",
+      "counterexample": "A cause is asserted in passing without explanation of the connection.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "causal-result",
+      "original_definition_paraphrase": "S results from the more prominent N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "N with S",
+      "candidate_functions": [
+        {
+          "function_id": "explain",
+          "candidate_target": "N with S",
+          "condition": "The passage makes the cause-result relationship intelligible."
+        },
+        {
+          "function_id": "interpret",
+          "candidate_target": "S relative to N",
+          "condition": "S develops an inference or implication from N rather than merely recording an event."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The passage makes the cause-result relationship intelligible.",
+      "counterexample": "A result follows a cause in a plot but the writing does not explain the relationship.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "context-background",
+      "original_definition_paraphrase": "S supplies information intended to improve understanding of N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S relative to N",
+      "candidate_functions": [
+        {
+          "function_id": "orient",
+          "candidate_target": "S relative to N",
+          "condition": "S prepares the reader with context that matters to the next contribution."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "S prepares the reader with context that matters to the next contribution.",
+      "counterexample": "A parenthetical background fact clarifies a name but does not orient the paragraph.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "context-circumstance",
+      "original_definition_paraphrase": "S supplies circumstances, often place or time, in which N applies.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S relative to N",
+      "candidate_functions": [
+        {
+          "function_id": "qualify",
+          "candidate_target": "S relative to N",
+          "condition": "The circumstances actually constrain the scope of an identifiable claim."
+        },
+        {
+          "function_id": "orient",
+          "candidate_target": "S relative to N",
+          "condition": "S provides relevant context preparing the contribution."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The circumstances actually constrain the scope of an identifiable claim.",
+      "counterexample": "A date in a story sets a scene without qualifying a claim.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "contingency-condition",
+      "original_definition_paraphrase": "N occurs depending on S.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S relative to N",
+      "candidate_functions": [
+        {
+          "function_id": "qualify",
+          "candidate_target": "S relative to N",
+          "condition": "S identifies a condition limiting an identifiable claim."
+        },
+        {
+          "function_id": "explain",
+          "candidate_target": "S and N jointly",
+          "condition": "The conditional relationship is developed intelligibly rather than merely stated."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "S identifies a condition limiting an identifiable claim.",
+      "counterexample": "A conditional event in a fictional scene does not qualify an argument.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "elaboration-additional",
+      "original_definition_paraphrase": "S elaborates the whole proposition N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S relative to N",
+      "candidate_functions": [
+        {
+          "function_id": "illustrate",
+          "candidate_target": "S relative to N",
+          "condition": "S gives a concrete instance or worked case that illuminates the idea in N."
+        },
+        {
+          "function_id": "report",
+          "candidate_target": "S relative to N",
+          "condition": "S adds faithful observed or attributed detail."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "S gives a concrete instance or worked case that illuminates the idea in N.",
+      "counterexample": "S adds an abstract detail rather than an example.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "elaboration-attribute",
+      "original_definition_paraphrase": "S elaborates a participant within N, rather than the complete proposition.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S and the participant in N",
+      "candidate_functions": [
+        {
+          "function_id": "define",
+          "candidate_target": "S and the participant in N",
+          "condition": "The additional properties establish a concept’s meaning or distinguishing scope."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The additional properties establish a concept’s meaning or distinguishing scope.",
+      "counterexample": "A relative clause mentions the color of one object without defining its class.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "evaluation-comment",
+      "original_definition_paraphrase": "S conveys the writer’s assessment of N, which the reader need not share.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S relative to N",
+      "candidate_functions": [
+        {
+          "function_id": "interpret",
+          "candidate_target": "S relative to N",
+          "condition": "The assessment develops significance or an inference from N."
+        },
+        {
+          "function_id": "assert",
+          "candidate_target": "S",
+          "condition": "The evaluation offers a proposition for consideration."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The assessment develops significance or an inference from N.",
+      "counterexample": "A simple statement of liking something expresses an opinion without interpreting it.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "explanation-evidence",
+      "original_definition_paraphrase": "S supplies evidence intended to increase reader belief in N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S as support for N",
+      "candidate_functions": [
+        {
+          "function_id": "support",
+          "candidate_target": "S as support for N",
+          "condition": "S actually connects evidence or reasoning to the identifiable claim N."
+        },
+        {
+          "function_id": "illustrate",
+          "candidate_target": "S relative to N",
+          "condition": "The evidence is also a concrete case used to clarify the idea."
+        }
+      ],
+      "mapping_kind": "partial",
+      "condition": "S actually connects evidence or reasoning to the identifiable claim N.",
+      "counterexample": "A claim is supported by an alleged observation that is fabricated, irrelevant or too weak; the label alone does not verify adequacy.",
+      "deterministic_checks": "Check declared edge targets and signal references; an evidence label or citation presence does not verify truth or relevance.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "explanation-justify",
+      "original_definition_paraphrase": "S increases reader acceptance of the writer’s right to state N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S relative to N",
+      "candidate_functions": [],
+      "mapping_kind": "relation_only",
+      "condition": "Preserve authorization-to-say relation; no general claim-evidence equivalence.",
+      "counterexample": "A contextual reason to mention a fact is not evidence that the fact is true.",
+      "deterministic_checks": "Check declared edge targets and signal references; an evidence label or citation presence does not verify truth or relevance.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "explanation-motivation",
+      "original_definition_paraphrase": "S aims to increase willingness to act as indicated by N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "N, with S as motivation",
+      "candidate_functions": [
+        {
+          "function_id": "instruct",
+          "candidate_target": "N, with S as motivation",
+          "condition": "N actually guides an executable reader action in context."
+        },
+        {
+          "function_id": "support",
+          "candidate_target": "S relative to N",
+          "condition": "S gives reasons bearing on a recommendation N, not just emotional motivation."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "N actually guides an executable reader action in context.",
+      "counterexample": "A persuasive invitation is not an executable procedure.",
+      "deterministic_checks": "Check declared edge targets and signal references; an evidence label or citation presence does not verify truth or relevance.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "joint-disjunction",
+      "original_definition_paraphrase": "Equally prominent nuclei are presented as interchangeable alternatives.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "multinuclear relation joining equally prominent EDU or group spans",
+      "nuclearity_or_role": "the nuclei jointly",
+      "candidate_functions": [
+        {
+          "function_id": "compare",
+          "candidate_target": "the nuclei jointly",
+          "condition": "The alternatives are related on an explicit or recoverable common dimension."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The alternatives are related on an explicit or recoverable common dimension.",
+      "counterexample": "Merely listing A or B is not a comparison.",
+      "deterministic_checks": "Check membership, shared group and equal-nucleus encoding; do not fabricate a directional claim-to-evidence link.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "joint-list",
+      "original_definition_paraphrase": "Equally prominent nuclei contribute additive parallel content.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "multinuclear relation joining equally prominent EDU or group spans",
+      "nuclearity_or_role": "nuclei jointly",
+      "candidate_functions": [],
+      "mapping_kind": "relation_only",
+      "condition": "Retain additive relation and separate source list markup if present.",
+      "counterexample": "A list of ingredients neither explains a mechanism nor necessarily presents instructions.",
+      "deterministic_checks": "Check membership, shared group and equal-nucleus encoding; do not fabricate a directional claim-to-evidence link.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "joint-other",
+      "original_definition_paraphrase": "Unequal-in-kind discourse units appear together at equal prominence.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "multinuclear relation joining equally prominent EDU or group spans",
+      "nuclearity_or_role": "nuclei jointly",
+      "candidate_functions": [],
+      "mapping_kind": "none",
+      "condition": "No reliable function candidate follows from this catch-all relation.",
+      "counterexample": "A greeting paired with a response does not identify a paragraph job.",
+      "deterministic_checks": "Check membership, shared group and equal-nucleus encoding; do not fabricate a directional claim-to-evidence link.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "joint-sequence",
+      "original_definition_paraphrase": "Equally prominent nuclei form a chronological sequence of events.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "multinuclear relation joining equally prominent EDU or group spans",
+      "nuclearity_or_role": "nuclei jointly",
+      "candidate_functions": [
+        {
+          "function_id": "narrate",
+          "candidate_target": "nuclei jointly",
+          "condition": "The passage develops an experience or event through time."
+        },
+        {
+          "function_id": "instruct",
+          "candidate_target": "nuclei jointly",
+          "condition": "The sequence directs an intended reader through executable steps."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The passage develops an experience or event through time.",
+      "counterexample": "Ordered experiments or an ingredient sequence do not necessarily form a narrative.",
+      "deterministic_checks": "Check membership, shared group and equal-nucleus encoding; do not fabricate a directional claim-to-evidence link.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "mode-manner",
+      "original_definition_paraphrase": "S indicates the manner in which N happens.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S and N jointly",
+      "candidate_functions": [
+        {
+          "function_id": "explain",
+          "candidate_target": "S and N jointly",
+          "condition": "S makes a process or relationship intelligible, beyond identifying a manner."
+        },
+        {
+          "function_id": "instruct",
+          "candidate_target": "S and N jointly",
+          "condition": "The passage gives the reader an executable action and the manner to perform it."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "S makes a process or relationship intelligible, beyond identifying a manner.",
+      "counterexample": "A short manner clause describes an action without explaining its mechanism.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "mode-means",
+      "original_definition_paraphrase": "S identifies the means by which N happens.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S and N jointly",
+      "candidate_functions": [
+        {
+          "function_id": "explain",
+          "candidate_target": "S and N jointly",
+          "condition": "The means clarifies how the process works for the intended reader."
+        },
+        {
+          "function_id": "instruct",
+          "candidate_target": "S and N jointly",
+          "condition": "The passage gives the reader an executable action and the means required."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The means clarifies how the process works for the intended reader.",
+      "counterexample": "Naming a tool does not explain how it works.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "organization-heading",
+      "original_definition_paraphrase": "S is an explicit organizational device, such as a heading, for N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S relative to N",
+      "candidate_functions": [],
+      "mapping_kind": "relation_only",
+      "condition": "Keep the heading edge and separately inspect XML structural markup.",
+      "counterexample": "A heading alone does not supply contextual orientation or constitute prose.",
+      "deterministic_checks": "Check annotated node type and XML heading markup if aligned; markup and graph roles can disagree.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "organization-phatic",
+      "original_definition_paraphrase": "S holds the communicative floor without propositional content.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S relative to N",
+      "candidate_functions": [],
+      "mapping_kind": "none",
+      "condition": "Do not infer a catalogued paragraph function from floor holding.",
+      "counterexample": "A spoken hesitation is not evidence of orientation or explanation.",
+      "deterministic_checks": "Check annotated node type and XML heading markup if aligned; markup and graph roles can disagree.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "organization-preparation",
+      "original_definition_paraphrase": "S primarily signals the upcoming N in another way.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S relative to N",
+      "candidate_functions": [
+        {
+          "function_id": "orient",
+          "candidate_target": "S relative to N",
+          "condition": "S prepares the reader with context, stakes or a change of direction, not merely a transition."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "S prepares the reader with context, stakes or a change of direction, not merely a transition.",
+      "counterexample": "A bare announcement such as “next” can prepare a turn without providing relevant context.",
+      "deterministic_checks": "Check annotated node type and XML heading markup if aligned; markup and graph roles can disagree.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "purpose-attribute",
+      "original_definition_paraphrase": "S gives the purpose of a participant inside N, not the purpose of all of N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S and the participant in N",
+      "candidate_functions": [
+        {
+          "function_id": "explain",
+          "candidate_target": "S and the participant in N",
+          "condition": "The participant purpose makes a design or function relationship intelligible."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The participant purpose makes a design or function relationship intelligible.",
+      "counterexample": "“A plan to win” names an intention without explaining how the plan works.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "purpose-goal",
+      "original_definition_paraphrase": "N as a whole occurs or is initiated in order to achieve S.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S and N jointly",
+      "candidate_functions": [
+        {
+          "function_id": "explain",
+          "candidate_target": "S and N jointly",
+          "condition": "The stated purpose clarifies a meaningful dependency for the reader."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The stated purpose clarifies a meaningful dependency for the reader.",
+      "counterexample": "A brief statement of intent alone does not explain a mechanism.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "restatement-partial",
+      "original_definition_paraphrase": "S repeats part of the role and content of earlier N.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S relative to N",
+      "candidate_functions": [
+        {
+          "function_id": "report",
+          "candidate_target": "S relative to N",
+          "condition": "S is a faithful summary of recorded material, with source and conditions when needed."
+        },
+        {
+          "function_id": "define",
+          "candidate_target": "S relative to N",
+          "condition": "The restatement establishes a term’s meaning or scope."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "S is a faithful summary of recorded material, with source and conditions when needed.",
+      "counterexample": "A repeated adjective is not a report or summary.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "restatement-repetition",
+      "original_definition_paraphrase": "Equally prominent nuclei realize the same role and content.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "multinuclear relation joining equally prominent EDU or group spans",
+      "nuclearity_or_role": "nuclei jointly",
+      "candidate_functions": [],
+      "mapping_kind": "relation_only",
+      "condition": "Preserve equivalence of content as a relation, not a function label.",
+      "counterexample": "Repeating the same claim in other words does not establish definition or support.",
+      "deterministic_checks": "Check membership, shared group and equal-nucleus encoding; do not fabricate a directional claim-to-evidence link.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "same-unit",
+      "original_definition_paraphrase": "Connects parts of one discontinuous EDU; it is not a rhetorical relation.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "structural linkage among discontinuous fragments of a single EDU; not a discourse relation",
+      "nuclearity_or_role": "discontinuous parts of one EDU",
+      "candidate_functions": [],
+      "mapping_kind": "none",
+      "condition": "Reconstruct the discontinuous EDU without filling gaps or creating an inferred job.",
+      "counterexample": "Two pieces separated by an inserted relative clause are not two linked paragraph functions.",
+      "deterministic_checks": "Check and retain all linked EDU fragments, their order and intervening material; never join across missing text silently.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "topic-question",
+      "original_definition_paraphrase": "S poses the question to which N supplies an answer.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "S relative to N",
+      "candidate_functions": [
+        {
+          "function_id": "orient",
+          "candidate_target": "S relative to N",
+          "condition": "The question introduces a meaningful problem or context for the coming contribution."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The question introduces a meaningful problem or context for the coming contribution.",
+      "counterexample": "A short factual question and answer does not itself orient the larger passage.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    },
+    {
+      "original_label": "topic-solutionhood",
+      "original_definition_paraphrase": "S presents a problem for which N gives a solution.",
+      "definition_source_url": "https://aclanthology.org/2025.cl-1.3.pdf#page=42",
+      "definition_source_anchor": "Table A.12, printed page 64; https://gucorpling.org/erst/",
+      "source_unit": "relation between nucleus and satellite spans; each may be an EDU or a group",
+      "nuclearity_or_role": "N relative to S",
+      "candidate_functions": [
+        {
+          "function_id": "instruct",
+          "candidate_target": "N relative to S",
+          "condition": "The solution gives the intended reader an executable action under the necessary conditions."
+        },
+        {
+          "function_id": "orient",
+          "candidate_target": "S relative to N",
+          "condition": "S frames a problem to prepare the reader for the contribution."
+        }
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The solution gives the intended reader an executable action under the necessary conditions.",
+      "counterexample": "A theoretical solution or historical account of a solution is not a reader instruction.",
+      "deterministic_checks": "Check relation label and stored endpoints; no semantic judgment can be verified from the label.",
+      "status": "semantic hypothesis, not verified instance coverage"
+    }
+  ]
+}

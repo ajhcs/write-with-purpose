@@ -1,0 +1,113 @@
+{
+  "batch": 16,
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_43",
+      "doi": "10.18260/1-2--33485",
+      "title": "Understanding Undergraduate Engineering Student Information Access and Needs: Results from a Scoping Review",
+      "field": "engineering_computing",
+      "q": "\"Understanding Undergraduate Engineering Student Information Access and Needs: Results from a Scoping Review\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w46302826",
+      "doi": "10.2307/1341787",
+      "title": "Whiteness as Property",
+      "field": "law_public_policy",
+      "q": "\"Whiteness as Property\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w143173597",
+      "doi": "10.2307/1340546",
+      "title": "Brown v. Board of Education and the Interest-Convergence Dilemma",
+      "field": "law_public_policy",
+      "q": "\"Brown v. Board of Education and the Interest-Convergence Dilemma\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2989863638",
+      "doi": "10.2307/1338225",
+      "title": "Positivism and the Separation of Law and Morals",
+      "field": "law_public_policy",
+      "q": "\"Positivism and the Separation of Law and Morals\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_43",
+      "query": "\"Understanding Undergraduate Engineering Student Information Access and Needs: Results from a Scoping Review\" pdf",
+      "urls": [
+        {
+          "title": "Understanding Undergraduate Engineering Student Information Access and Needs: Results from a Scoping Review",
+          "url": "https://uwspace.uwaterloo.ca/items/110efb8e-d9fb-4262-ada2-249ffb28e18d",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Understanding Undergraduate Engineering Student Information Access and Needs: Results from a Scoping Review",
+          "url": "https://www.researchgate.net/publication/344797673_Understanding_Undergraduate_Engineering_Student_Information_Access_and_Needs_Results_from_a_Scoping_Review",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w46302826",
+      "query": "\"Whiteness as Property\" pdf",
+      "urls": [
+        {
+          "title": "Whiteness as Property: Re-Assessing the Convergence of Race and Proper",
+          "url": "https://www.routledge.com/Whiteness-as-Property-Re-Assessing-the-Convergence-of-Race-and-Property-in-US-History/Richter-Kramer/p/book/9781041425229",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "\"Whiteness as property\" by Cheryl Harris (Harvard Law Review, 1993) - AtoM@UCT",
+          "url": "https://atom.lib.uct.ac.za/index.php/whiteness-as-property-by-cheryl-harris-harvard-law-review-1993",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Whiteness as Property",
+          "url": "https://www.cambridge.org/core/books/abs/black-political-thought/whiteness-as-property/CF5A96DA6EC40D735D0F1C8F9EAB1715",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w143173597",
+      "query": "\"Brown v. Board of Education and the Interest-Convergence Dilemma\" pdf",
+      "urls": [
+        {
+          "title": "Brown V Board Of Education And The Interest Convergence Dilemma | former-students.imperial.edu",
+          "url": "https://former-students.imperial.edu/097-TXT/article?title=brown-v-board-of-education-and-the-interest-convergence-dilemma.pdf&trackid=FmT36-0374",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Bell -Brown v Board and Interest Convergence.pdf - Brown v. Board of Education and the Interest-Convergence Dilemma Author(s): Derrick - College Sidekick",
+          "url": "https://www.collegesidekick.com/study-docs/7755992",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w2989863638",
+      "query": "\"Positivism and the Separation of Law and Morals\" pdf",
+      "urls": [
+        {
+          "title": "Positivism and the Separation of Law and Morals",
+          "url": "https://www.academia.edu/125769288/Positivism_and_the_Separation_of_Law_and_Morals",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Positivism and the Inseparability of Law and Morals",
+          "url": "https://www.academia.edu/324199/Positivism_and_the_Inseparability_of_Law_and_Morals",
+          "score": 0.8571428571428571,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

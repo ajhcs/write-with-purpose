@@ -1,0 +1,114 @@
+{
+  "body_words": {
+    "n": 200,
+    "min": 1627,
+    "p25": 3588.0,
+    "median": 4616.5,
+    "p75": 5978.75,
+    "max": 12000
+  },
+  "paragraphs": {
+    "n": 200,
+    "min": 12,
+    "p25": 30.75,
+    "median": 39.5,
+    "p75": 50.25,
+    "max": 154
+  },
+  "top_level_sections": {
+    "n": 200,
+    "min": 2,
+    "p25": 5.0,
+    "median": 6.0,
+    "p75": 8.0,
+    "max": 23
+  },
+  "max_section_depth": {
+    "n": 200,
+    "min": 1,
+    "p25": 2.0,
+    "median": 2.0,
+    "p75": 3.0,
+    "max": 5
+  },
+  "abstract_words": {
+    "n": 200,
+    "min": 0,
+    "p25": 178.75,
+    "median": 227.0,
+    "p75": 275.25,
+    "max": 498
+  },
+  "reference_entries": {
+    "n": 200,
+    "min": 20,
+    "p25": 65.0,
+    "median": 88.0,
+    "p75": 121.0,
+    "max": 468
+  },
+  "figures": {
+    "n": 200,
+    "min": 0,
+    "p25": 0.0,
+    "median": 1.0,
+    "p75": 2.0,
+    "max": 10
+  },
+  "tables": {
+    "n": 200,
+    "min": 0,
+    "p25": 0.0,
+    "median": 2.0,
+    "p75": 3.0,
+    "max": 8
+  },
+  "lists": {
+    "n": 200,
+    "min": 0,
+    "p25": 0.0,
+    "median": 0.0,
+    "p75": 1.0,
+    "max": 66
+  },
+  "code": {
+    "n": 200,
+    "min": 0,
+    "p25": 0.0,
+    "median": 0.0,
+    "p75": 0.0,
+    "max": 0
+  },
+  "bibliographic_xrefs": {
+    "n": 200,
+    "min": 0,
+    "p25": 106.75,
+    "median": 146.0,
+    "p75": 218.25,
+    "max": 792
+  },
+  "paragraph_words_document_medians": {
+    "n": 200,
+    "min": 35,
+    "p25": 86.38,
+    "median": 106.5,
+    "p75": 137.0,
+    "max": 318.5
+  },
+  "sentence_words_document_medians": {
+    "n": 200,
+    "min": 17,
+    "p25": 22.0,
+    "median": 25.0,
+    "p75": 27.0,
+    "max": 40.0
+  },
+  "word_characters_document_medians": {
+    "n": 200,
+    "min": 4,
+    "p25": 4.0,
+    "median": 5.0,
+    "p75": 5.0,
+    "max": 6
+  }
+}

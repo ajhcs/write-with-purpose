@@ -1,0 +1,132 @@
+{
+  "agent": "Astra A",
+  "phase": "independent_initial",
+  "independence": {
+    "parent_recommendations_read": false,
+    "peer_position_read": false
+  },
+  "scope_limits": [
+    "All eight generators selected WRITER; no direct editor evidence.",
+    "Ten selected passage ratings, clustered by source and generation.",
+    "No causal rule effects, whole-work outcomes, or general success rate.",
+    "Human preference distinct from model source audit and external truth."
+  ],
+  "case_assessments": [
+    {
+      "case": "R01",
+      "observed_review": "Baseline preferred and called substantively better; author strongly praised it and explicitly rejected the enrollment/credit disclaimer.",
+      "model_interpretation": "The baseline brings the visit into a simpler narrative: father grew up in Boston → visit → learning becomes reachable. Both variants retain the unwanted disclaimer from the source; this is not an invented disclaimer. The author's “yes I am” disputes it but does not establish exactly what enrollment or credit occurred. The source audit's birth-place omission is debatable, not evidence that the disliked disclaimer must survive."
+    },
+    {
+      "case": "R02",
+      "observed_review": "Revised preferred; explicit objection to lists longer than three and multiple lists per paragraph.",
+      "model_interpretation": "Both retain an inventory of system elements followed by an inventory of judgment tasks. The preferred variant still exhibits the criticized behavior. Develop how representing parts and checking their composition relate, instead of merely cutting one item. The baseline's “As I worked on those systems” adds a setting not established by “Over time” (also identified by the source audit)."
+    },
+    {
+      "case": "R03",
+      "observed_review": "Baseline preferred; explicit dislike of the AI-output enumeration, but explicit praise for “The speed makes it all the more useful…”",
+      "model_interpretation": "That sentence supplies a consequential connection: faster output increases the value of deliberate problem definition and checks. The revised variant substitutes “I still need,” retaining the duty but weakening the explanation of why speed matters. This diagnosis is mine, supported by the praised sentence; it is not proof of a rule effect. The disliked enumeration has only three members: three is not a target."
+    },
+    {
+      "case": "R05",
+      "observed_review": "Revised preferred and called unequivocally better; no detailed mechanism given.",
+      "model_interpretation": "Connecting the current Databricks situation directly to the report is promising. Yet “first encountered” adds unsupported autobiographical chronology; preference does not license it. A supported bridge can say “brought me back to an argument in” without inventing the first encounter. Both versions already distribute the original four responsibilities across sentences; no causal inference about that move is available."
+    },
+    {
+      "case": "R06",
+      "observed_review": "Revised preferred; substantive improvement marked **Unsure**; no comment.",
+      "model_interpretation": "“While a project is being shaped” gives the desired participation a practical point of entry. The full source separately says engineers should help while choices can still change, so this is grounded development, not an invented proposal. Both candidates preserve a five-item institutional inventory. This is a counterexample to reading every retained list as a decisive preference failure."
+    },
+    {
+      "case": "R07",
+      "observed_review": "Revised preferred and marked substantively better; no comment.",
+      "model_interpretation": "“Goodwill alone…cannot sustain the work” connects the ending to the earlier account of trust and useful work. It loses the original's sharper “employment model” phrase, but the supported responsibility and career argument remains. I cannot attribute the preference to either change. Neither preserving every distinctive phrase nor removing every three-item series is supported."
+    },
+    {
+      "case": "R09",
+      "observed_review": "Baseline preferred and marked substantively better; no comment.",
+      "model_interpretation": "“Delete Amazon and its apps…” makes the exit cost immediate; “Then there was Prime” advances the sequence without the revised “another tether.” Those are plausible effects, not supplied reasons. The baseline splits and reshapes sentences effectively enough to be preferred: R11 cannot justify a general sentence-splitting ban."
+    },
+    {
+      "case": "R10",
+      "observed_review": "Revised preferred and marked substantively better; no comment.",
+      "model_interpretation": "Both retain the teddy-bear/organism/gut-flora imagery while compressing the repeated monetary-function sentences into a three-member series. The surrounding source establishes the carnival image. A blanket preference for plain literal wording or for preserving all repetition would erase important possibilities. The functions are distinct parts of the argument, not interchangeable examples."
+    },
+    {
+      "case": "R11",
+      "observed_review": "**Original** preferred, while revised marked substantively better; author says the original tells the overall story better despite fixed word errors.",
+      "model_interpretation": "The original's sustained second sentence brings layoffs, panic and a proposed search tool into a single escalating passage. Both revisions stop after layoffs; revised adds “Now,” potentially suggesting a temporal sequence that the original coordination does not assert. This is a hypothesis about the story loss, not an author explanation. The baseline's “on both” changes the SEO relationship (source-audit clear defect). A grammar repair that preserves the original progression is a necessary comparison, not necessarily the only acceptable edit."
+    },
+    {
+      "case": "R13",
+      "observed_review": "Revised preferred; substantive-improvement field **blank**, no comment.",
+      "model_interpretation": "Both clarify the representation/display distinction and retain the transition into the unchanged code. The revised keeps “first 53 bits”; the baseline's “has 53 bits” is a potentially stronger generalization. No reader-comprehension or technical-correctness result was collected. This is a useful countercase to imposing essay-like narrative or anecdote everywhere."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "A01",
+      "title": "Cole enumeration preference",
+      "cases": [
+        "R02",
+        "R03",
+        "R06",
+        "R10"
+      ],
+      "status": "explicit_preference_with_hypothesized_implementation",
+      "operation": "replace",
+      "targets": [
+        "skills/write-with-purpose/references/cole-lyons-style.md",
+        "skills/edit-with-purpose/references/cole-lyons-style.md"
+      ],
+      "placement": "Both `references/cole-lyons-style.md` files; replace the existing “Let a useful example develop the argument” bullet.",
+      "wording": "**Let examples develop the argument.** Cole objects to prose lists of more than three items and to repeated lists within a paragraph. Treat three as a ceiling for ordinary illustrative series, not a target: even a shorter list can be filler. Select the example that advances the point, or explain the relationship the inventory was standing in for; do not merely spread the same inventory across sentences. Preserve required coverage and materially distinct reasons, reorganizing them when necessary rather than silently dropping them. This preference belongs to Cole's prose, not every author's voice.",
+      "boundary": "Lists required by a task remain complete. Distinct reasons may need development rather than deletion. No universal numeric checker or checklist log. Do not rewrite Doctorow's monetary functions into one representative example. Do not remove examples merely because the paragraph is long.",
+      "falsification": "On a fresh Cole paragraph with repeated illustrative series, a revision following this instruction should reduce felt filler without losing a needed reason; if it merely hides the inventory or Cole prefers its argument less, this implementation fails. A required-coverage countercase must keep all material distinctions.\n"
+    },
+    {
+      "id": "A02",
+      "title": "Argument and narrative progression",
+      "cases": [
+        "R03",
+        "R09",
+        "R10",
+        "R11",
+        "R13"
+      ],
+      "status": "explicit_outcome_with_hypothesized_mechanism",
+      "operation": "replace",
+      "targets": [
+        "skills/write-with-purpose/references/structure-and-purpose.md",
+        "skills/edit-with-purpose/references/structure-and-purpose.md"
+      ],
+      "placement": "Both `references/structure-and-purpose.md` files, under “Compare the consequential change”; replace the paragraph beginning “Compare what the actual versions make recoverable”.",
+      "wording": "Compare what the actual versions make recoverable, what they delay and what they might lose. Follow the developing thought: what makes the next claim matter, and what prepares the next event or turn? A locally smoother sentence can weaken that progression; a fuller connection can strengthen it. Read a revised passage with its unchanged surroundings. Moving or dividing the same material can change endorsement, timing or rhetorical force: an unresolved closing reflection can become an apparent opening thesis, or coordinated events can become an asserted sequence. Preserve those relationships while pursuing a stronger arrangement. When the original progresses better, retain its effective movement and repair the actual defects; this does not require retaining every sentence boundary or unusual phrase. Choose independently when the brief settles the tradeoff; expose consequential unresolved intent rather than silently deciding a new belief.",
+      "boundary": "No mandatory story arc, causal connective, two full drafts, or conservation of sentence lengths. R09 and R10 contradict those restrictions. “Enshittification kills” remains an author's claim; improving its cadence does not externally establish its causal truth. R03's explanatory speed relation can be made explicit without inventing new experience. Current permission for substantial restructuring must remain.",
+      "falsification": "Compare a fresh passage revision with its original and a defect-only repair, all embedded in identical surroundings. If a progression-directed revision invents chronology or makes the argument less compelling, reject it even when smoother. Include an explanatory technical passage to expose inappropriate narrative imposition.\n"
+    },
+    {
+      "id": "A03",
+      "title": "First-person claims and disputed qualifications",
+      "cases": [
+        "R01",
+        "R02",
+        "R05",
+        "R06"
+      ],
+      "status": "author_correction_and_model_source_audit",
+      "operation": "insert",
+      "targets": [
+        "skills/write-with-purpose/references/structure-and-purpose.md",
+        "skills/edit-with-purpose/references/structure-and-purpose.md"
+      ],
+      "placement": "Both `references/structure-and-purpose.md` files, under “Develop a contribution without taking it over,” after the three-operation list.",
+      "wording": "In first-person writing, small connecting phrases can add personal history: “first encountered,” “because of that,” or “as I worked on those systems” may assert an origin, cause or setting absent from the source. Make the supported connection without inventing that history. Treat a disclaimer as a claim too. If the author disputes an inherited disclaimer, follow the correction at its supported scope rather than preserving the disclaimer mechanically; do not infer a more specific credential or experience from the objection. Keep any independent material qualification that still applies. Ask only if the unresolved fact blocks the requested writing.",
+      "boundary": "This is a concrete application of existing source-fidelity instructions, not a demand for exhaustive autobiographical verification or defensive caveats. R06 shows that a stronger connection can be grounded in the full source. The task at generation time required preserving qualifications: R01 does not establish the generators should have silently removed the source disclaimer before the author's correction. “No surviving artifacts” and “not enrolled” are different assertions; deleting the latter need not erase the former.",
+      "falsification": "Supply a first-person passage where a report influenced the author but no first encounter is established; the revision must develop the connection without adding “first.” Pair it with a case in which an earlier qualification remains material after a separate author correction. Dropping that qualification or inventing a credential fails.\n"
+    }
+  ],
+  "minimal_next_test": "Use four fresh passage tasks: (1) Cole-like argument with redundant lists and a required-coverage constraint; (2) a polemical passage whose cadence carries an escalating argument; (3) autobiographical prose with a disputed disclaimer and a distinct material qualification; (4) a technical explanation as a negative control. Compare current instructions with the proposed bundle in fresh, separate contexts; retain the original and a defect-only repair for the progression case. Hold brief and surroundings fixed, conceal condition/order, and let Cole choose Original/variant/no preference plus separate story-or-argument, filler and substantive-improvement judgments with optional reasons. Independently inspect support for new connections and all required coverage. One generation per condition is a diagnostic, not an effect estimate. A later replication is warranted only if the actual passages suggest benefit without fidelity loss. This minimum tests the bundle, not each rule's causal contribution; a failed case should be inspected before expanding instructions.",
+  "canonical_files_modified": false,
+  "evaluations_run": false
+}

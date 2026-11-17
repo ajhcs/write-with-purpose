@@ -1,0 +1,52 @@
+THREE WRITING STRUCTURES — WORKING BLANKS
+
+These are optional contribution blocks, not fixed paragraph counts.
+Combine or expand blocks; keep your own wording and reasoning.
+For the practitioner essay, choose components your subject needs.
+For a systematic review, fill methods and results from actual records.
+No observed word ranges, working budgets or hard limits are assigned.
+
+EXPERIENCE-LED PROFESSIONAL ARGUMENT
+Observed example: Dead Man Walking (2013)
+Family: Essays and commentary; candidate form: Argument / perspective
+Reader question: What does this experience reveal, and what responsibility follows?
+
+TITLE: [The tension or claim I want the reader to notice]
+OPENING: [My response or the problem that brought me to this piece]
+ENCOUNTER: [What happened, to whom, and what made it matter]
+BEYOND THIS CASE: [Other observations and relevant evidence]
+BOUNDARY: [What this case and evidence do not establish]
+POSITION: [What I think follows, and why]
+RESPONSES: [Who could do what, with reasons]
+CLOSING: [The stakes I want the reader to carry away]
+
+PRACTITIONER ARGUMENT ORGANIZED BY A PROPOSED FRAMEWORK
+Observed example: What Makes a Leader? (1998)
+Family: Essays and commentary; candidate form: Argument / perspective
+Reader question: What should I recognize, and how would it change my professional judgment?
+
+TITLE: [The professional question I want to answer]
+OPENING: [A recognizable puzzle, contrast or problem]
+CENTRAL IDEA: [The distinction or framework I propose]
+BASIS: [Observations, research or reasoning that support it]
+REPEAT FOR EACH USEFUL COMPONENT — not necessarily five:
+  HEADING: [The component in my terms]
+  MEANING: [What it means and what it is often confused with]
+  CASE: [A sourced experience or explicitly hypothetical illustration]
+  CONNECTION: [Why this case makes the component useful]
+  RECOGNITION OR APPLICATION: [What the reader could notice or do]
+  CONDITION, IF NEEDED: [When the advice needs adjustment]
+CLOSING: [The judgment I want the reader to make; conditions on applying it]
+
+PREVALENCE REVIEW USING META-ANALYSIS AND PROJECTIONS
+Observed example: Global Prevalence of Glaucoma and Projections of Glaucoma Burden through 2040: A Systematic Review and Meta-Analysis (2014)
+Family: Evidence syntheses; candidate form: Systematic review
+Reader question: What does the selected evidence show, how was it obtained, and how certain is the interpretation?
+
+TITLE: [Question, scope and review design]
+ABSTRACT (placed first; finalize after the body): [A faithful summary matching the completed report and destination format]
+INTRODUCTION: [Why an answer is needed; gap; exact question]
+METHODS: [What was actually searched, selected, extracted, appraised and synthesized; dates and decisions]
+RESULTS: [Study flow; included evidence; findings; uncertainty and relevant differences]
+DISCUSSION: [What findings mean; comparison with prior work; limits; implications]
+CONCLUSION: [The answer justified by those findings]

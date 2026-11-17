@@ -1,0 +1,106 @@
+{
+  "batch": 10,
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_10",
+      "doi": "10.1115/1.1649968",
+      "title": "Sequential Optimization and Reliability Assessment Method for Efficient Probabilistic Design",
+      "field": "engineering_computing",
+      "q": "\"Sequential Optimization and Reliability Assessment Method for Efficient Probabilistic Design\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_11",
+      "doi": "10.1109/tse.2011.104",
+      "title": "GenProg: A Generic Method for Automatic Software Repair",
+      "field": "engineering_computing",
+      "q": "\"GenProg: A Generic Method for Automatic Software Repair\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_12",
+      "doi": "10.1109/tse.2009.67",
+      "title": "The “Physics” of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering",
+      "field": "engineering_computing",
+      "q": "\"The Physics of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_13",
+      "doi": "10.1016/j.infsof.2014.05.006",
+      "title": "Testing scientific software: A systematic literature review",
+      "field": "engineering_computing",
+      "q": "\"Testing scientific software: A systematic literature review\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_10",
+      "query": "\"Sequential Optimization and Reliability Assessment Method for Efficient Probabilistic Design\" pdf",
+      "urls": [
+        {
+          "title": "Sequential optimization and reliability assessment method for efficient probabilistic design",
+          "url": "https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=15775241&lang=en",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Sequential Optimization and Reliability Assessment Method for Efficient Probabilistic Design",
+          "url": "https://documentsdelivered.com/source/052/213/052213237.php",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Sequential Optimization and Reliability Assessment Method for Efficient Probabilistic Design",
+          "url": "https://www.academia.edu/85072672/Sequential_Optimization_and_Reliability_Assessment_Method_for_Efficient_Probabilistic_Design",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_11",
+      "query": "\"GenProg: A Generic Method for Automatic Software Repair\" pdf",
+      "urls": [
+        {
+          "title": "GenProg: A Generic Method for Automatic Software Repair | IEEE Journals & Magazine | IEEE Xplore",
+          "url": "https://xplorestaging.ieee.org/document/6035728",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "GenProg: A Generic Method for Automatic Software Repair",
+          "url": "https://bibbase.org/network/publication/legoues-nguyen-forrest-weimer-genprogagenericmethodforautomaticsoftwarerepair-2012",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "This article has been accepted for publication in IEEE Transactions on Software Engineering. This is the author's version which has not been fully edited and content may change prior to final publication. Citation information: DOI 10.1109/TSE.2025.3533309",
+          "url": "https://roars.dev/pubs/le2025evolution.pdf",
+          "score": 0.2857142857142857,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_12",
+      "query": "\"The Physics of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "engineering:eng_13",
+      "query": "\"Testing scientific software: A systematic literature review\" pdf",
+      "urls": [
+        {
+          "title": "Testing Scientific Software: A Systematic Literature Review | alphaXiv",
+          "url": "https://www.alphaxiv.org/pdf/1804.01954",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Testing Scientific Software: A Systematic Literature Review",
+          "url": "https://arxiv.org/abs/1804.01954",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

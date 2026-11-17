@@ -1,0 +1,112 @@
+{
+  "hashes": {
+    "checked": 59,
+    "mismatch": []
+  },
+  "sample": {
+    "documents": 12,
+    "targets": 36,
+    "strata": {
+      "A argument/perspective": 2,
+      "B argument/perspective": 1,
+      "A personal reflection": 2,
+      "B personal reflection": 1,
+      "A research/synthesis": 2,
+      "B research/synthesis": 1,
+      "A explanation/procedure": 2,
+      "B explanation/procedure": 1
+    },
+    "excluded_matches": [],
+    "index_errors": [],
+    "binding_errors": []
+  },
+  "independent_primary": {
+    "A-original-clear_labels": {
+      "n": 24,
+      "exact": 13,
+      "strict_subset": 7,
+      "two_sided": 4,
+      "both_empty": 0,
+      "exact_rate": 0.5416666666666666,
+      "mean_jaccard": 0.8020833333333334
+    },
+    "A-original-candidate_union": {
+      "n": 24,
+      "exact": 12,
+      "strict_subset": 8,
+      "two_sided": 4,
+      "both_empty": 0,
+      "exact_rate": 0.5,
+      "mean_jaccard": 0.7951388888888888
+    },
+    "A-revised-clear_labels": {
+      "n": 24,
+      "exact": 12,
+      "strict_subset": 9,
+      "two_sided": 3,
+      "both_empty": 0,
+      "exact_rate": 0.5,
+      "mean_jaccard": 0.7902777777777777
+    },
+    "A-revised-candidate_union": {
+      "n": 24,
+      "exact": 12,
+      "strict_subset": 9,
+      "two_sided": 3,
+      "both_empty": 0,
+      "exact_rate": 0.5,
+      "mean_jaccard": 0.7902777777777777
+    },
+    "B-original-clear_labels": {
+      "n": 12,
+      "exact": 8,
+      "strict_subset": 3,
+      "two_sided": 1,
+      "both_empty": 0,
+      "exact_rate": 0.6666666666666666,
+      "mean_jaccard": 0.8833333333333333
+    },
+    "B-original-candidate_union": {
+      "n": 12,
+      "exact": 7,
+      "strict_subset": 4,
+      "two_sided": 1,
+      "both_empty": 0,
+      "exact_rate": 0.5833333333333334,
+      "mean_jaccard": 0.8555555555555555
+    },
+    "B-revised-clear_labels": {
+      "n": 12,
+      "exact": 6,
+      "strict_subset": 5,
+      "two_sided": 1,
+      "both_empty": 0,
+      "exact_rate": 0.5,
+      "mean_jaccard": 0.8055555555555555
+    },
+    "B-revised-candidate_union": {
+      "n": 12,
+      "exact": 6,
+      "strict_subset": 5,
+      "two_sided": 1,
+      "both_empty": 0,
+      "exact_rate": 0.5,
+      "mean_jaccard": 0.8055555555555555
+    }
+  },
+  "primary_mismatches": [],
+  "target_iou": {
+    "n": 9,
+    "mismatches": []
+  },
+  "layer_checks": {
+    "missing": [],
+    "wrong": [],
+    "mixed_decisions": []
+  },
+  "repair_diff_keys": {
+    "context/reviewed_units": 24,
+    "context/context_reason": 24
+  },
+  "results_sha256": "8f2fa9df5fdefecb994efca9de16582961a945a4c3dadad059a48cdae6580d1d"
+}

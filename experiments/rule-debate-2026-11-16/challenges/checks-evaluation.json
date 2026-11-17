@@ -1,0 +1,47 @@
+{
+  "challenger": "checks-evaluation",
+  "challenges": [
+    {
+      "id": "CE-C01",
+      "target_advocate": "editing-improvement",
+      "target_proposal_id": "EI-05",
+      "objection": "The same model can assert a candidate is strongest and stop without observing a reader gain; colon example demonstrates no independent benefit.",
+      "case": "Recommendation-first candidate drops a consequential exception while the model and mechanical checks pass it.",
+      "proposed_resolution": "For a material authorized change, identify the actual reader problem and compare the original with the changed passage on recoverable information and any condition, voice or evidence lost. Apply supported improvements, check task constraints, and stop when no specific unresolved issue warrants another pass. Treat this as provisional editorial judgment; claim reader benefit or author acceptance only with corresponding evidence. Original plus one edited passage suffices; direct correction suffices for a typo.",
+      "novelty_assessment": "Existing structure-and-purpose already compares concrete alternatives and reader tasks; writer skill already stops when no defensible gain remains. Distinctive claim is the trigger to consider substantial change when improvement is authorized, which requires comparative testing."
+    },
+    {
+      "id": "CE-C02",
+      "target_advocate": "editing-improvement",
+      "target_proposal_id": "EI-02",
+      "objection": "An inference bridge may introduce a new proposition or stronger attribution; exhaustive premise mapping for every connective adds needless burden.",
+      "case": "Pilot missed deadline and vendor lacked test environment becomes vendor delayed pilot and launch must wait, adding cause and necessity.",
+      "proposed_resolution": "For authorized development, express a substantive inferred link only if supplied premises support its force and attribution; preserve conditionality. If a missing premise changes the conclusion, leave a question or label a proposal. Compare affected source and revision; no separate full draft is required.",
+      "novelty_assessment": "Existing writer skill explicitly explains necessary inference and preserves attribution/uncertainty; potential contribution is bounded thought development and a comparative test, not inventing inference repair."
+    },
+    {
+      "id": "CE-C03",
+      "target_advocate": "reader-learning",
+      "target_proposal_id": "RL04",
+      "objection": "A countercase can clarify but does not itself demonstrate learning; requiring a later transfer task burdens ordinary work and one success does not prove broad generalization.",
+      "case": "Author requests a reason for a sentence joining; unsolicited quiz rewards repeating phrasing in a case without the same contrast.",
+      "proposed_resolution": "When learning or explanation is requested, explain the actual reader consequence and use a contrast when helpful. Offer optional practice on different material only if useful to the learning goal. For research claims prespecify transfer task and criterion, include cases where the move should not be used, and separately assess delayed unaided performance. Never require a quiz for delivery.",
+      "novelty_assessment": "Peer acknowledges tutor and Astra precedents; existing skill uses feedback and contrastive examples. Opt-in task-linked explanation and independently tested transfer are scoped hypotheses."
+    },
+    {
+      "id": "CE-C04",
+      "target_advocate": "reader-learning",
+      "target_proposal_id": "RL03",
+      "objection": "Requiring best local and coordinated candidates risks two full drafts for every task; best implies unbounded search. CE-03 shares this risk.",
+      "case": "A missing antecedent needs one clause, but a second full reorganization is generated solely for compliance.",
+      "proposed_resolution": "When a local repair leaves a specific consequential failure or underdeveloped thought unresolved and broader work is authorized, use the smallest meaningful comparison: a representative passage or coordinated outline, materializing the larger version when plausibly better. Compare reader consequence and loss to original or local repair without exhaustive drafting.",
+      "novelty_assessment": "Baseline already compares edits and permits coordinated changes and explicit rewrites. Named trigger for considering a broader option refines a possibly restrictive default; it does not establish reorganization was forbidden."
+    }
+  ],
+  "concessions": [
+    "EI-02 is stronger than CE-01 on development of the author’s thought and bounding unsupported causality.",
+    "RL04 adds an optional learning goal and delayed unaided transfer absent from CE-04.",
+    "RL01 provides a concrete failed-handoff diagnosis and source search before repair.",
+    "None of these proposals has demonstrated reader gains, transfer or comparative advantage."
+  ]
+}

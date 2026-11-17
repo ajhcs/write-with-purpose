@@ -1,0 +1,12 @@
+{
+  "reviewed_by": "parent agent, 16 November 2026",
+  "decisions": [
+    {
+      "candidate_key": "business:business_022",
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/How-Will-You-Measure-Your-Life.pdf",
+      "decision": "different_work_do_not_count_as_requested_article",
+      "evidence": "Rendered and inspected first page. The 168-page book names Clayton M. Christensen, James Allworth and Karen Dillon. The retrieval target is the 2010 HBR essay, not this later book.",
+      "action": "Preserve the existing book; continue seeking the HBR article. Reject book-length candidates for this target unless the exact essay is separately identified and scoped."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "batch": 5,
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_41",
+      "doi": "",
+      "title": "sorted(iterable[, key][, reverse])",
+      "authors": "[\"Python Software Foundation and contributors\"]",
+      "field": "engineering_computing",
+      "q": "\"sorted(iterable[, key][, reverse])\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_42",
+      "doi": "",
+      "title": "WorldWideWeb: Proposal for a HyperText Project",
+      "authors": "[\"Tim Berners-Lee\", \"Robert Cailliau\"]",
+      "field": "engineering_computing",
+      "q": "\"WorldWideWeb: Proposal for a HyperText Project\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w1578338854",
+      "doi": "",
+      "title": "The Positive Foundations of Formalism: False Necessity and American Legal Realism",
+      "authors": "[\"Lawrence B. Solum\"]",
+      "field": "law_public_policy",
+      "q": "\"The Positive Foundations of Formalism: False Necessity and American Legal Realism\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2657814049",
+      "doi": "",
+      "title": "Book Review: The Laws of Capitalism",
+      "authors": "[\"David Singh Grewal\"]",
+      "field": "law_public_policy",
+      "q": "\"Book Review: The Laws of Capitalism\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_41",
+      "query": "\"sorted(iterable[, key][, reverse])\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "engineering:eng_42",
+      "query": "\"WorldWideWeb: Proposal for a HyperText Project\" pdf",
+      "urls": [
+        {
+          "title": "WorldWideWeb: Proposal for a HyperText Project",
+          "url": "https://www.w3.org/Proposal.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Proposal Sets Out the World Wide Web Project",
+          "url": "https://pastinframes.com/technology/a-proposal-sets-out-the-world-wide-web-project-1990",
+          "score": 0.4,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w1578338854",
+      "query": "\"The Positive Foundations of Formalism: False Necessity and American Legal Realism\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "law:law_w2657814049",
+      "query": "\"Book Review: The Laws of Capitalism\" pdf",
+      "urls": [
+        {
+          "title": "BOOK REVIEW",
+          "url": "https://www.sfu.ca/~poitras/hlr_pidetty_14.pdf",
+          "score": 0.4,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

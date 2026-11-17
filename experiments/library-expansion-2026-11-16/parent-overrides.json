@@ -1,0 +1,42 @@
+{
+  "reason": "Parent corrections after independent source checks; branch originals retained.",
+  "checked_date": "2026-11-16",
+  "records": {
+    "personal:p06": {
+      "title": "Men who explain things",
+      "alternate_titles": [
+        "Men Explain Things to Me"
+      ],
+      "year": 2008,
+      "venue": "Los Angeles Times",
+      "stable_url": "https://www.latimes.com/archives/la-xpm-2008-apr-13-op-solnit13-story.html",
+      "date_notes": "Publisher archive verifies April 13, 2008. This is the Los Angeles Times article version, which points to a longer TomDispatch version; do not substitute the 2014 collection.",
+      "retrieval_locator": "Rebecca Solnit; Men who explain things; Los Angeles Times; April 13, 2008; archive identifier la-xpm-2008-apr-13-op-solnit13-story.",
+      "verification_status": "Parent verified exact title, author and publication date in live original publisher archive; DOI not identified.",
+      "verification_sources": [
+        "https://www.latimes.com/archives/la-xpm-2008-apr-13-op-solnit13-story.html"
+      ],
+      "selection_evidence": "Earlier editorial attention concerns related versions/collection; it does not establish readership of this exact 2008 newspaper version.",
+      "limitations": "Exact publisher version verified; prominence of this specific version unquantified; DOI not identified in inspected records.",
+      "prominence_tier": "verified_relevant_no_prominence_evidence"
+    },
+    "physical-sciences:psm_33": {
+      "stable_url": "https://www.nist.gov/publications/selected-procedures-volumetric-calibrations-2013-ed",
+      "container_title": "Selected Procedures for Volumetric Calibrations (2013 Ed)",
+      "container_identifier": "NISTIR 7383, SOP 14",
+      "container_pdf_url": "https://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7383e2013.pdf",
+      "retrieval_locator": "Georgia L. Harris, compiler; Selected Procedures for Volumetric Calibrations (2013 Ed), NISTIR 7383; retrieve bounded SOP 14: Gravimetric Calibration of Volumetric Standards Using an Electronic Balance, April 2013. Parent report landing page published August 19, 2013.",
+      "verification_sources": [
+        "https://www.nist.gov/publications/selected-procedures-volumetric-calibrations-2013-ed",
+        "https://nvlpubs.nist.gov/nistpubs/ir/2013/NIST.IR.7383e2013.pdf"
+      ],
+      "date_notes": "SOP April 2013; parent compilation publication August 19, 2013. No separate SOP DOI identified; do not assign a later edition DOI to this entry.",
+      "limitations": "Official institutional source, no individual readership or citation ranking. Unit is SOP 14, not the entire compilation."
+    },
+    "personal:p05": {
+      "alternative_metadata_locator": "https://longreads.com/2014/11/30/my-vassar-college-faculty-id-makes-everything-ok/",
+      "retrieval_locator": "Kiese Laymon; My Vassar College Faculty ID Makes Everything OK; Gawker; November 29, 2014. Longreads dated November 30, 2014 corroborates title, author and original date. Original publisher access remains unresolved; use library/archive retrieval.",
+      "limitations": "Original publisher endpoint returned 404 to HEAD; this does not establish absence. Longreads corroborates metadata; original full-copy availability is unresolved. DOI not identified in inspected records."
+    }
+  }
+}

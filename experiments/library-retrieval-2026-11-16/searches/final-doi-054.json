@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w2959253837",
+      "doi": "10.1002/cl2.174",
+      "title": "PROTOCOL: Community‐oriented policing to reduce crime, disorder, and fear and improve legitimacy and satisfaction with police: a systematic review",
+      "authors": "[\"Charlotte E. Gill\", \"David L. Weisburd\", \"Cody W. Telep\", \"Zoe Vitter\", \"Trevor Hugh Bennett\"]",
+      "field": "law_public_policy",
+      "q": "\"Community‐oriented policing to reduce crime, disorder, and fear\" Gill filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2959253837",
+      "query": "\"Community‐oriented policing to reduce crime, disorder, and fear\" Gill filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "PROTOCOL: Community-oriented policing to reduce crime, disorder, and fear and improve legitimacy and satisfaction with police: a systematic review",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1002/CL2.174",
+          "score": 1
+        },
+        {
+          "title": "PROTOCOL: Community‐oriented policing to reduce crime, disorder, and fear and improve legitimacy and satisfaction with police: a systematic review",
+          "url": "https://ideas.repec.org/a/wly/camsys/v13y2017i1p1-30.html",
+          "score": 1
+        },
+        {
+          "title": "Community-oriented policing to reduce crime, disorder and fear and increase satisfaction and legitimacy among citizens: A systematic review",
+          "url": "https://ethnos.app/works/23321350",
+          "score": 1
+        },
+        {
+          "title": "Community-oriented policing to reduce crime, disorder and fear and increase satisfaction and legitimacy among citizens: a systematic review",
+          "url": "https://www.academia.edu/18054878/Community_oriented_policing_to_reduce_crime_disorder_and_fear_and_increase_satisfaction_and_legitimacy_among_citizens_a_systematic_review",
+          "score": 1
+        },
+        {
+          "title": "PROTOCOL: Community‐oriented policing to reduce crime, disorder, and fear and improve legitimacy and satisfaction with police: a systematic review",
+          "url": "https://doaj.org/article/36496ccc0a9d49aeb8332114c3b6aec9",
+          "score": 1
+        },
+        {
+          "title": "Community-oriented policing to reduce crime, disorder and fear and increase satisfaction and legitimacy among citizens: a systematic review",
+          "url": "https://experts.azregents.edu/en/publications/community-oriented-policing-to-reduce-crime-disorder-and-fear-and/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

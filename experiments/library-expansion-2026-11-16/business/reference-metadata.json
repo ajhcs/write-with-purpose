@@ -1,0 +1,701 @@
+[
+  {
+    "query_url": "https://api.crossref.org/works/10.4135/9781452276090.n192",
+    "retrieved_at": "2026-11-16T15:22:04.758733+00:00",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ],
+        "date-time": "2026-11-12T01:43:09Z",
+        "timestamp": 1794447789341,
+        "version": "4.9.1"
+      },
+      "publisher-location": "2455 Teller Road,\u00a0Thousand Oaks,\u00a0California\u00a091320\u00a0",
+      "reference-count": 0,
+      "publisher": "SAGE Publications, Ltd.",
+      "isbn-type": [
+        {
+          "value": "9781412997829",
+          "type": "print"
+        },
+        {
+          "value": "9781452276090",
+          "type": "electronic"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "DOI": "10.4135/9781452276090.n192",
+      "type": "reference-entry",
+      "created": {
+        "date-parts": [
+          [
+            2013,
+            6,
+            4
+          ]
+        ],
+        "date-time": "2013-06-04T11:27:09Z",
+        "timestamp": 1370345229000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Organizational Culture Theory"
+      ],
+      "prefix": "10.4135",
+      "member": "179",
+      "container-title": [
+        "Encyclopedia of Management Theory"
+      ],
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            14
+          ]
+        ],
+        "date-time": "2022-07-14T08:22:11Z",
+        "timestamp": 1657786931000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://sk.sagepub.com/reference/encyclopedia-of-management-theory/i5731.xml"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      },
+      "ISBN": [
+        "9781412997829",
+        "9781452276090"
+      ],
+      "references-count": 0,
+      "alternative-id": [
+        "10.4135/9781452276090"
+      ],
+      "URL": "https://doi.org/10.4135/9781452276090.n192",
+      "relation": {
+        "is-part-of": [
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.4135/9781452276090",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2013
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "query_url": "https://api.crossref.org/works/10.1002/9781118785317.weom120077",
+    "retrieved_at": "2026-11-16T15:22:04.758733+00:00",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ],
+        "date-time": "2026-11-12T14:10:01Z",
+        "timestamp": 1794492601943,
+        "version": "4.9.1"
+      },
+      "edition-number": "1",
+      "reference-count": 5,
+      "publisher": "Wiley",
+      "isbn-type": [
+        {
+          "value": "9781119972518",
+          "type": "print"
+        },
+        {
+          "value": "9781118785317",
+          "type": "electronic"
+        }
+      ],
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2015,
+                1,
+                22
+              ]
+            ],
+            "date-time": "2015-01-22T00:00:00Z",
+            "timestamp": 1421884800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>In theory, competitive advantage is \u201cthe delivering of superior value to customers and, in doing so, earning an above average return for the company and its stakeholders.\u201d There is a discussion of the roots of advantage in firm\u2010specific imperfections and an elaboration of the major routes to achieving advantage. Finally, there is a brief discussion of industry dynamics and advantage.</jats:p>",
+      "DOI": "10.1002/9781118785317.weom120077",
+      "type": "other",
+      "created": {
+        "date-parts": [
+          [
+            2015,
+            1,
+            24
+          ]
+        ],
+        "date-time": "2015-01-24T01:08:56Z",
+        "timestamp": 1422061736000
+      },
+      "page": "1-6",
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Competitive Advantage"
+      ],
+      "prefix": "10.1002",
+      "author": [
+        {
+          "given": "John",
+          "family": "McGee",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2015,
+            1,
+            22
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_2_1_2_1",
+          "volume-title": "The Economics of Strategy",
+          "author": "Besanko D.",
+          "year": "2010"
+        },
+        {
+          "key": "e_1_2_2_1_3_1",
+          "volume-title": "Contemporary Strategy Analysis",
+          "author": "Grant R.M.",
+          "year": "2011"
+        },
+        {
+          "key": "e_1_2_2_1_4_1",
+          "volume-title": "Strategy: Analysis and Practice",
+          "author": "McGee J.",
+          "year": "2010"
+        },
+        {
+          "key": "e_1_2_2_1_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1108/eb039467"
+        },
+        {
+          "key": "e_1_2_2_1_6_1",
+          "volume-title": "Competitive Strategy: Techniques for Analyzing Industries and Competitors",
+          "author": "Porter M.E.",
+          "year": "1980"
+        }
+      ],
+      "container-title": [
+        "Wiley Encyclopedia of Management"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118785317.weom120077",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2023-08-18T02:25:46Z",
+        "timestamp": 1692325546000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781118785317.weom120077"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2015,
+            1,
+            22
+          ]
+        ]
+      },
+      "ISBN": [
+        "9781119972518",
+        "9781118785317"
+      ],
+      "references-count": 5,
+      "alternative-id": [
+        "10.1002/9781118785317.weom120077",
+        "10.1002/9781118785317"
+      ],
+      "URL": "https://doi.org/10.1002/9781118785317.weom120077",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {
+        "is-part-of": [
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.1002/9781118785317",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            1,
+            22
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "query_url": "https://api.crossref.org/works/10.1002/9781118785317.weom120169",
+    "retrieved_at": "2026-11-16T15:22:04.758733+00:00",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ],
+        "date-time": "2026-11-12T14:10:25Z",
+        "timestamp": 1794492625208,
+        "version": "4.9.1"
+      },
+      "edition-number": "1",
+      "reference-count": 32,
+      "publisher": "Wiley",
+      "isbn-type": [
+        {
+          "value": "9781119972518",
+          "type": "print"
+        },
+        {
+          "value": "9781118785317",
+          "type": "electronic"
+        }
+      ],
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2015,
+                1,
+                22
+              ]
+            ],
+            "date-time": "2015-01-22T00:00:00Z",
+            "timestamp": 1421884800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>This article charts the development of the strategy concept and places the key developments in the evolution of thinking about strategic management in historical context.</jats:p>",
+      "DOI": "10.1002/9781118785317.weom120169",
+      "type": "other",
+      "created": {
+        "date-parts": [
+          [
+            2015,
+            1,
+            24
+          ]
+        ],
+        "date-time": "2015-01-24T01:08:56Z",
+        "timestamp": 1422061736000
+      },
+      "page": "1-5",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Strategic Management"
+      ],
+      "prefix": "10.1002",
+      "author": [
+        {
+          "given": "Stephen",
+          "family": "Cummings",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2015,
+            1,
+            22
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_3_2_1",
+          "volume-title": "The Concept of Corporate Strategy",
+          "author": "Andrews K.",
+          "year": "1971"
+        },
+        {
+          "key": "e_1_2_3_3_1",
+          "volume-title": "Corporate Strategy",
+          "author": "Ansoff I.",
+          "year": "1965"
+        },
+        {
+          "key": "e_1_2_3_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/smj.4250120605"
+        },
+        {
+          "key": "e_1_2_3_5_1",
+          "first-page": "49",
+          "article-title": "Firm resources and sustained competitive advantage",
+          "volume": "7",
+          "author": "Barney J.",
+          "year": "1991",
+          "journal-title": "Journal of Management"
+        },
+        {
+          "key": "e_1_2_3_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/41165855"
+        },
+        {
+          "key": "e_1_2_3_7_1",
+          "volume-title": "Strategy and Structure",
+          "author": "Chandler A.",
+          "year": "1962"
+        },
+        {
+          "key": "e_1_2_3_8_1",
+          "volume-title": "Images of Strategy",
+          "author": "Cummings S.",
+          "year": "2003"
+        },
+        {
+          "key": "e_1_2_3_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.lrp.2008.12.005"
+        },
+        {
+          "key": "e_1_2_3_10_1",
+          "volume-title": "Strategy: Process, Content, Context",
+          "author": "De Wit B.",
+          "year": "2004"
+        },
+        {
+          "key": "e_1_2_3_11_1",
+          "volume-title": "The Constitution of Society: Outline of the Theory of Structuration",
+          "author": "Giddens A.",
+          "year": "1986"
+        },
+        {
+          "key": "e_1_2_3_12_1",
+          "volume-title": "Strategy as Practice",
+          "author": "Jarzabkoski P.",
+          "year": "2005"
+        },
+        {
+          "key": "e_1_2_3_13_1",
+          "volume-title": "Thinking, Fast and Slow",
+          "author": "Kahneman D.",
+          "year": "2011"
+        },
+        {
+          "key": "e_1_2_3_14_1",
+          "volume-title": "Business Policy",
+          "author": "Learned E.P.",
+          "year": "1969"
+        },
+        {
+          "key": "e_1_2_3_15_1",
+          "volume-title": "The Design of Business: Why Design Thinking is the Next Competitive Advantage",
+          "author": "Martin R.",
+          "year": "2009"
+        },
+        {
+          "key": "e_1_2_3_16_1",
+          "volume-title": "The Nature of Managerial Work",
+          "author": "Mintzberg H.",
+          "year": "1973"
+        },
+        {
+          "key": "e_1_2_3_17_1",
+          "first-page": "66",
+          "article-title": "Crafting Strategy",
+          "volume": "65",
+          "author": "Mintzberg H.",
+          "year": "1987",
+          "journal-title": "Harvard Business Review"
+        },
+        {
+          "key": "e_1_2_3_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/smj.4250120606"
+        },
+        {
+          "key": "e_1_2_3_19_1",
+          "volume-title": "The Rise and Fall of Strategic Planning",
+          "author": "Mintzberg H.",
+          "year": "1994"
+        },
+        {
+          "key": "e_1_2_3_20_1",
+          "volume-title": "Strategy Safari: A Guided Tour Through the Wilds of Strategic Management",
+          "author": "Mintzberg H.",
+          "year": "2001"
+        },
+        {
+          "key": "e_1_2_3_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2392363"
+        },
+        {
+          "key": "e_1_2_3_22_1",
+          "volume-title": "The Awakening Giant: Continuity and Change in ICI",
+          "author": "Pettigrew A.",
+          "year": "1985"
+        },
+        {
+          "key": "e_1_2_3_23_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "562",
+          "DOI": "10.2307/258559",
+          "article-title": "Using paradox to build management and organization theories",
+          "volume": "14",
+          "author": "Poole M.S.",
+          "year": "1989",
+          "journal-title": "Academy of Management Review"
+        },
+        {
+          "key": "e_1_2_3_24_1",
+          "volume-title": "Competitive Strategy: Techniques for Analyzing Industries and Competitors",
+          "author": "Porter M.E.",
+          "year": "1980"
+        },
+        {
+          "key": "e_1_2_3_25_1",
+          "volume-title": "Competitive Advantage: Creating and Sustaining Superior Performance",
+          "author": "Porter M.E.",
+          "year": "1985"
+        },
+        {
+          "key": "e_1_2_3_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cir.3880010112"
+        },
+        {
+          "key": "e_1_2_3_27_1",
+          "first-page": "61",
+          "article-title": "What is Strategy?",
+          "volume": "74",
+          "author": "Porter M.E.",
+          "year": "1996",
+          "journal-title": "Harvard Business Review"
+        },
+        {
+          "key": "e_1_2_3_28_1",
+          "first-page": "556",
+          "volume-title": "Competitive Strategic Management",
+          "author": "Rumelt R.",
+          "year": "1984"
+        },
+        {
+          "key": "e_1_2_3_29_1",
+          "volume-title": "Dynamic strategic management for the 1990s",
+          "author": "Stacey R.",
+          "year": "1990"
+        },
+        {
+          "key": "e_1_2_3_30_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.5465/19416520.2012.672039",
+          "article-title": "Strategy\u2010as\u2010practice: taking social practices seriously",
+          "volume": "6",
+          "author": "Vaara E.",
+          "year": "2012",
+          "journal-title": "The Academy of Management Annals"
+        },
+        {
+          "key": "e_1_2_3_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0007-6813(83)90010-1"
+        },
+        {
+          "key": "e_1_2_3_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/smj.4250050207"
+        },
+        {
+          "key": "e_1_2_3_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0024-6301(96)00068-4"
+        }
+      ],
+      "container-title": [
+        "Wiley Encyclopedia of Management"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118785317.weom120169",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            17
+          ]
+        ],
+        "date-time": "2025-05-17T14:34:27Z",
+        "timestamp": 1747492467000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781118785317.weom120169"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2015,
+            1,
+            22
+          ]
+        ]
+      },
+      "ISBN": [
+        "9781119972518",
+        "9781118785317"
+      ],
+      "references-count": 32,
+      "alternative-id": [
+        "10.1002/9781118785317.weom120169",
+        "10.1002/9781118785317"
+      ],
+      "URL": "https://doi.org/10.1002/9781118785317.weom120169",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {
+        "is-part-of": [
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.1002/9781118785317",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            1,
+            22
+          ]
+        ]
+      }
+    }
+  }
+]

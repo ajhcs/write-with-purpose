@@ -1,0 +1,213 @@
+{
+  "procedure": {
+    "candidate_count": 407,
+    "attempted": 237,
+    "mechanically_accepted": 230,
+    "manually_title_excluded": [
+      "Access Services Running on Clusters",
+      "Accessing Clusters",
+      "CSS layout cookbook",
+      "Contribute a recipe",
+      "Cookbook template",
+      "How-to guides\u00b6",
+      "Introduction to writing mode systems",
+      "Tasks"
+    ],
+    "selected_still_provisional": 222,
+    "type_counts": {
+      "MDN guide with task-oriented title": 39,
+      "MDN how-to": 26,
+      "Django how-to": 36,
+      "Canonical LXD how-to": 62,
+      "Kubernetes task": 59
+    },
+    "prose_words_per_page": {
+      "n": 222,
+      "min": 92,
+      "p25": 268,
+      "median": 545.5,
+      "p75": 957,
+      "max": 3911
+    },
+    "paragraph_words_page_median": {
+      "n": 222,
+      "min": 6,
+      "p25": 16.5,
+      "median": 22.75,
+      "p75": 28.5,
+      "max": 51
+    },
+    "sentence_words_page_median": {
+      "n": 222,
+      "min": 8.5,
+      "p25": 13.0,
+      "median": 15.0,
+      "p75": 17.0,
+      "max": 25.0
+    },
+    "headings_per_page": {
+      "n": 222,
+      "min": 0,
+      "p25": 4,
+      "median": 7.0,
+      "p75": 12,
+      "max": 47
+    },
+    "list_items_per_page": {
+      "n": 222,
+      "min": 0,
+      "p25": 4,
+      "median": 10.0,
+      "p75": 21,
+      "max": 71
+    },
+    "code_blocks_per_page": {
+      "n": 222,
+      "min": 0,
+      "p25": 2,
+      "median": 5.0,
+      "p75": 11,
+      "max": 93
+    },
+    "tables_per_page": {
+      "n": 222,
+      "min": 0,
+      "p25": 0,
+      "median": 0.0,
+      "p75": 0,
+      "max": 22
+    },
+    "example_headings_per_page": {
+      "n": 222,
+      "min": 0,
+      "p25": 0,
+      "median": 0.0,
+      "p75": 0,
+      "max": 15
+    },
+    "list_word_share_of_prose_list_code": {
+      "n": 222,
+      "min": 0.0,
+      "p25": 0.039,
+      "median": 0.1345,
+      "p75": 0.253,
+      "max": 0.841
+    },
+    "code_word_share_of_prose_list_code": {
+      "n": 222,
+      "min": 0.0,
+      "p25": 0.044,
+      "median": 0.1225,
+      "p75": 0.241,
+      "max": 0.717
+    }
+  },
+  "reference": {
+    "candidate_count": 4299,
+    "attempted": 257,
+    "mechanically_accepted": 230,
+    "manually_title_excluded": [
+      "ARIA states and properties (attributes)",
+      "Authorization",
+      "Axes",
+      "Class-based generic views - flattened index\u00b6",
+      "Deploying GeoDjango\u00b6",
+      "Managing Service Accounts",
+      "Mapping PodSecurityPolicies to Pod Security Standards",
+      "Reference",
+      "Reference\u00b6",
+      "Using ABAC Authorization",
+      "Using Node Authorization",
+      "Using RBAC Authorization",
+      "WebDriver BiDi modules",
+      "XSLT elements reference"
+    ],
+    "selected_still_provisional": 216,
+    "type_counts": {
+      "MDN reference": 105,
+      "Django reference": 89,
+      "Canonical LXD reference": 13,
+      "Kubernetes reference": 9
+    },
+    "prose_words_per_page": {
+      "n": 216,
+      "min": 84,
+      "p25": 199,
+      "median": 476.5,
+      "p75": 1079,
+      "max": 14878
+    },
+    "paragraph_words_page_median": {
+      "n": 216,
+      "min": 4,
+      "p25": 13.0,
+      "median": 18.0,
+      "p75": 22.5,
+      "max": 44
+    },
+    "sentence_words_page_median": {
+      "n": 216,
+      "min": 5,
+      "p25": 11.0,
+      "median": 13.0,
+      "p75": 15,
+      "max": 23
+    },
+    "headings_per_page": {
+      "n": 216,
+      "min": 0,
+      "p25": 6,
+      "median": 8.0,
+      "p75": 14,
+      "max": 236
+    },
+    "list_items_per_page": {
+      "n": 216,
+      "min": 0,
+      "p25": 4,
+      "median": 14.0,
+      "p75": 39,
+      "max": 382
+    },
+    "code_blocks_per_page": {
+      "n": 216,
+      "min": 0,
+      "p25": 2,
+      "median": 3.0,
+      "p75": 8,
+      "max": 197
+    },
+    "tables_per_page": {
+      "n": 216,
+      "min": 0,
+      "p25": 0,
+      "median": 1.0,
+      "p75": 1,
+      "max": 125
+    },
+    "example_headings_per_page": {
+      "n": 216,
+      "min": 0,
+      "p25": 0,
+      "median": 0.0,
+      "p75": 1,
+      "max": 8
+    },
+    "list_word_share_of_prose_list_code": {
+      "n": 216,
+      "min": 0.0,
+      "p25": 0.033,
+      "median": 0.078,
+      "p75": 0.142,
+      "max": 0.893
+    },
+    "code_word_share_of_prose_list_code": {
+      "n": 216,
+      "min": 0.0,
+      "p25": 0.053,
+      "median": 0.1325,
+      "p75": 0.217,
+      "max": 0.749
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "batch": 5,
+  "queries": [
+    {
+      "candidate_key": "business:business_035",
+      "doi": "10.5465/amr.1990.4309121",
+      "title": "Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry",
+      "field": "business_management",
+      "q": "\"Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry\" pdf"
+    },
+    {
+      "candidate_key": "business:business_036",
+      "doi": "10.1177/0170840611416736",
+      "title": "Book Review: Cambridge Handbook of Strategy as Practice",
+      "field": "business_management",
+      "q": "\"Book Review: Cambridge Handbook of Strategy as Practice\" pdf"
+    },
+    {
+      "candidate_key": "business:business_037",
+      "doi": "10.4995/wpom.v9i2.10752",
+      "title": "Protocol: A Meta-Review on continuous improvement to know the state of this research field",
+      "field": "business_management",
+      "q": "\"Protocol: A Meta-Review on continuous improvement to know the state of this research field\" pdf"
+    },
+    {
+      "candidate_key": "business:business_038",
+      "doi": "10.1108/jhom-06-2018-0176",
+      "title": "Lean implementation in healthcare supply chain: a scoping review",
+      "field": "business_management",
+      "q": "\"Lean implementation in healthcare supply chain: a scoping review\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_035",
+      "query": "\"Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry\" pdf",
+      "urls": [
+        {
+          "title": "Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry",
+          "url": "https://journals.aom.org/doi/10.5465/amr.1990.4309121",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Strategies For Learning : Small-group Activities In American, Japanese, And Swedish Industry | Cole, Robert E",
+          "url": "https://www.gyanbooks.com/index.php?Book=Strategies+for+learning+%3A+small-group+activities+in+American%2C+Japanese%2C+and+Swedish+industry&Field=bookcode&String=1111021906925&format=fullpage&p=sr",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Free Strategies For Learning Small Group Activities in American Japanese and Swedish Industry Robert E. Cole | PDF | Sweden | Japanese Language",
+          "url": "https://www.scribd.com/document/1066529252/Free-Strategies-for-Learning-Small-Group-Activities-in-American-Japanese-and-Swedish-Industry-Robert-E-Cole",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Cole, R. E. (1989). <u>Strategies for learning",
+          "url": "https://files.eric.ed.gov/fulltext/ED347389.pdf",
+          "score": 0.2727272727272727,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_036",
+      "query": "\"Book Review: Cambridge Handbook of Strategy as Practice\" pdf",
+      "urls": [
+        {
+          "title": "Book Review: Cambridge Handbook of Strategy as Practice",
+          "url": "https://journals.sagepub.com/doi/10.1177/0170840611416736",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "GOLSORKHI D., ROULEAU L., SEIDLl D., & VAARA E. (Eds.) 2010, Cambridge Handbook of Strategy As Practice, Cambridge: Cambridge University Press.",
+          "url": "https://management-aims.com/index.php/mgmt/article/view/4059",
+          "score": 0.6666666666666666,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_037",
+      "query": "\"Protocol: A Meta-Review on continuous improvement to know the state of this research field\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "business:business_038",
+      "query": "\"Lean implementation in healthcare supply chain: a scoping review\" pdf",
+      "urls": [
+        {
+          "title": "Lean implementation in healthcare supply chain: a scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31122116/",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

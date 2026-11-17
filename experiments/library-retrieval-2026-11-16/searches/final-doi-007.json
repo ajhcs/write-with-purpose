@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_012",
+      "doi": "10.5465/amj.2013.0319",
+      "title": "Women on Boards and Firm Financial Performance: A Meta-Analysis",
+      "authors": "[\"Corinne Post\", \"Kris Byron\"]",
+      "field": "business_management",
+      "q": "\"Women on Boards and Firm Financial Performance: A\" Post filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_012",
+      "query": "\"Women on Boards and Firm Financial Performance: A\" Post filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Post, C., & Byron, K. (2015). Women on boards and firm financial performance: A meta-analysis. *Academy of Management Journal, 58*(5), 1546-1571.",
+          "url": "https://purehost.bath.ac.uk/ws/portalfiles/portal/190155651/Gender_Finance_Final.pdf",
+          "score": 1
+        },
+        {
+          "title": "Women on corporate boards and firm financial performance: Empirical evidence from a multi-country in Asia",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/bsd2.340",
+          "score": 1
+        },
+        {
+          "title": "Women on Boards and Firm Financial Performance: A Meta-Analysis",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amj.2013.0319",
+          "score": 1
+        },
+        {
+          "title": "Women on Boards and Firm Performance: A Microeconometric Search for a Connection",
+          "url": "https://ideas.repec.org/a/gam/jjrfmx/v13y2020i9p218-d416037.html",
+          "score": 0.8333333333333334
+        },
+        {
+          "title": "Does Gender Matter? Female Representation on Corporate Boards and Firm Financial Performance - A Meta-Analysis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4473005/",
+          "score": 0.8333333333333334
+        }
+      ]
+    }
+  ]
+}

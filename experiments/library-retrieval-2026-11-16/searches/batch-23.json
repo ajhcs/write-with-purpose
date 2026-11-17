@@ -1,0 +1,101 @@
+{
+  "batch": 23,
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_08",
+      "doi": "10.1103/revmodphys.82.2835",
+      "title": "Colloquium: An introduction to consistent quantum theory",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Colloquium: An introduction to consistent quantum theory\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_09",
+      "doi": "10.1140/epjst/e2012-01535-1",
+      "title": "The modern tools of quantum mechanics",
+      "field": "physical_sciences_mathematics",
+      "q": "\"The modern tools of quantum mechanics\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_10",
+      "doi": "10.1080/00107514.2011.603578",
+      "title": "The trapped-ion qubit tool box",
+      "field": "physical_sciences_mathematics",
+      "q": "\"The trapped-ion qubit tool box\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_11",
+      "doi": "10.1088/0953-4075/48/8/083001",
+      "title": "Quantum computing with photons: introduction to the circuit model, the one-way quantum computer, and the fundamental principles of photonic experiments",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Quantum computing with photons: introduction to the circuit model, the one-way quantum computer, and the fundamental principles of photonic experiments\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_08",
+      "query": "\"Colloquium: An introduction to consistent quantum theory\" pdf",
+      "urls": [
+        {
+          "title": "<i>Colloquium</i>: An introduction to consistent quantum theory",
+          "url": "https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.82.2835",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_09",
+      "query": "\"The modern tools of quantum mechanics\" pdf",
+      "urls": [
+        {
+          "title": "The modern tools of quantum mechanics (A tutorial on quantum states, measurements, and operations)",
+          "url": "https://arxiv.org/abs/1110.6815",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "The modern tools of quantum mechanics (A tutorial on quantum states, measurements, and operations) - arXiv.gg",
+          "url": "https://arxiv.gg/abs/1110.6815",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Modern Quantum Mechanics Tools Review | PDF | Hilbert Space | Eigenvalues And Eigenvectors",
+          "url": "https://www.scribd.com/document/805875176/M-G-a-paris-The-Modern-Tools-of-Quantum-Mechanics",
+          "score": 0.8,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_10",
+      "query": "\"The trapped-ion qubit tool box\" pdf",
+      "urls": [
+        {
+          "title": "The trapped-ion qubit tool box",
+          "url": "https://www.weizmann.ac.il/complex/ozeri/sites/complex.ozeri/files/uploads/teaching/QIon/00107514_2011.pdf",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_11",
+      "query": "\"Quantum computing with photons: introduction to the circuit model, the one-way quantum computer, and the fundamental principles of photonic experiments\" pdf",
+      "urls": [
+        {
+          "title": "Quantum computing with photons: introduction to the circuit model, the one-way quantum computer, and the fundamental principles of photonic experiments",
+          "url": "https://physlab.org/wp-content/uploads/2016/07/QComp-Photons-2015-J-Phys-B.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Quantum Computing with Photons Tutorial | PDF | Quantum Computing | Theoretical Computer Science",
+          "url": "https://www.scribd.com/document/868159289/Quantum-Computing-With-Photons-Circuit-Model-One-Way-Quantum-Computer-Fundamental-Principles-of-Photonic-Experiments",
+          "score": 0.3157894736842105,
+          "body_score": 0.9473684210526315
+        }
+      ]
+    }
+  ]
+}

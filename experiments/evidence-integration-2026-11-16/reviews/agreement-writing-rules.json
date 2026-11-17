@@ -1,0 +1,440 @@
+{
+  "reviewer": "agreement-writing-rules",
+  "papers": [
+    {
+      "id": "P18",
+      "title": "Interrater agreement in genre analysis: A methodological review and a comparison of three measures",
+      "authors": [
+        "Minjin Kim",
+        "Xixin Qiu",
+        "Yuanheng (Arthur) Wang"
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.rmal.2024.100097",
+      "study_kind": "Systematic methodological review plus observational methodological comparison of agreement metrics, not meta-analysis or randomized trial",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P18.txt",
+      "scope": "EAP research article move-step studies; social-science article introductions for direct coding; printed pages match PDF pages. All supplied text pp. 1–17 reviewed including appendices and references.",
+      "sample_and_design": "LLBA and Google Scholar returned 341 and 1,430 records, respectively; peer-reviewed manual research-article move analyses only, 2003–January 2023; 65 included. Three experienced doctoral researchers coded 65 review studies independently after instrument development (16 fields), then reconciled. Separately, nine introductions (258 sentence units) were used for practice and 26 introductions (908 sentence units) for metric comparison; all 35 from COSSRAI, not 35 in evaluation (pp. 6–7).",
+      "outcomes": [
+        "Reporting practices in review studies",
+        "Percent agreement, Cohen/Fleiss kappa, multi-valued alpha and benchmarking with Gwet AC1",
+        "No direct semantic ground truth, writing quality or reader comprehension measurement"
+      ],
+      "findings": [
+        {
+          "claim": "Review reporting gaps: 38 studies did not report agreement; nine mentioned multifunctionality, and six of those discussed handling it.",
+          "pdf_pages": [
+            8,
+            10
+          ],
+          "evidence_locator": "Fig. 3 and Fig. 5 discussion",
+          "denominator": "38/65; 9/65; 6/9",
+          "interpretation_limits": "Non-reporting does not prove the procedure was not done; review excludes automatic/semi-automatic studies."
+        },
+        {
+          "claim": "Review-code instrument has 16 fields in five categories; reviewers report average 95.38% agreement, Fleiss kappa 0.94 and alpha 0.94.",
+          "pdf_pages": [
+            6,
+            16
+          ],
+          "evidence_locator": "Methods and Appendix C",
+          "denominator": "Three independent coders of 65 papers; average across review-code items",
+          "interpretation_limits": "These describe coding the literature review, not reliability of rhetorical labels; averaging method is not fully specified in main text."
+        },
+        {
+          "claim": "Rhetorical chunk is analytic concept but every affected sentence is a fixed annotation unit; repeated functions extend to each sentence and different within-sentence clauses can yield multiple tags.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "Comparison of interrater agreement measures",
+          "denominator": "26 introductions, 908 sentence units after nine training texts",
+          "interpretation_limits": "Fixed sentence assignment does not establish independent boundary agreement or actual sub-sentence realization spans."
+        },
+        {
+          "claim": "Among 908 sentence units, 236 had multiple tags from at least one rater; authors state 671 were monofunctional throughout.",
+          "pdf_pages": [
+            12
+          ],
+          "evidence_locator": "Fig. 8 discussion",
+          "denominator": "236/908, 671/908",
+          "interpretation_limits": "236 + 671 = 907, not 908; the text does not explain the remaining unit. Do not silently treat it as missing or infer missingness."
+        },
+        {
+          "claim": "Agreement falls as categories increase from 3 move labels to 14 broad steps and 22 fine steps; one coder pair has higher multivalue alpha than single-label kappa because order of primary/secondary functions differs.",
+          "pdf_pages": [
+            11
+          ],
+          "evidence_locator": "Fig. 6 and accompanying results",
+          "denominator": "Three rater pairs; 26 introductions",
+          "interpretation_limits": "Graph values not extracted; pair-dependent results do not establish accuracy or general superiority."
+        },
+        {
+          "claim": "For this sample, authors report AC1 and kappa differences around 2% after curves level at 750 units and suggest larger samples and more than two raters.",
+          "pdf_pages": [
+            12,
+            13
+          ],
+          "evidence_locator": "Fig. 7 and conclusion",
+          "denominator": "908 sentence units, three raters; recommendation cites approximately 750 units or 22 texts",
+          "interpretation_limits": "This is a sample-specific descriptive finding, not a transferable minimum or a guarantee of stability; ordering/clustering by article matters."
+        },
+        {
+          "claim": "For review papers, Fig. 3 reports 27 of 65 studies report an agreement type while prose says 28 clearly report results.",
+          "pdf_pages": [
+            8,
+            11
+          ],
+          "evidence_locator": "Fig. 3 and opening results paragraph",
+          "denominator": "65 reviewed studies",
+          "interpretation_limits": "Reporting definitions or source accounting may differ; discrepancy unresolved."
+        }
+      ],
+      "limitations": [
+        "Metric comparison uses same three trained human genre researchers and selected social science introductions; sensitivity to rater pairing, label prevalence and granularity limits transfer.",
+        "Nominal multi-valued disagreement uses 1 − 2|C∩K|/(|C|+|K|), with both empty sets treated as zero disagreement (p. 5 Table 1); alpha corrects observed disagreement against expected disagreement. Set order is ignored. Empty versus unassessed/missing must not be conflated.",
+        "Paper discusses fixed units rather than independently locating realization boundaries; no justification that sentence coding captures the exact extent or target of every rhetorical function.",
+        "Article does not report missing-item handling for this dataset or supply raw paired annotations and study-level extraction table in the provided text. Methodological capability must not be mistaken for evidence of missing observations."
+      ],
+      "rule_implications": [
+        "AR01",
+        "AR02",
+        "AR03"
+      ],
+      "data_or_code_leads": [
+        "Appendix B is a list of 65 reviewed studies (pp. 15–16); Appendix C gives the 16-item review codebook with per-item agreement (p. 16).",
+        "COSSRAI data supplied by Xiaofei Lu (acknowledgments p. 14); data-access terms not specified. R for percent and kappa; Krippendorff and Craggs Java software for alpha, no project-specific repository or scripts identified (p. 7). No installation performed."
+      ],
+      "extraction_issues": [
+        "908 versus 236+671=907 (p. 12); leave unexplained.",
+        "Review-reporting denominator discrepancy 27 versus 28 (pp. 8 and 11); leave unresolved.",
+        "Fig. 1/6–9 curve values are not adequately extracted from supplied text; do not fabricate graph coordinates."
+      ]
+    },
+    {
+      "id": "P14",
+      "title": "Ten Simple (Empirical) Rules for Writing Science",
+      "authors": [
+        "Cody J. Weinberger",
+        "James A. Evans",
+        "Stefano Allesina"
+      ],
+      "year": 2015,
+      "doi": "10.1371/journal.pcbi.1004205",
+      "study_kind": "Editorial containing an observational quantitative analysis of article-abstract features and citations; not a systematic review, intervention trial or causal test",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P14.txt",
+      "scope": "All six supplied main-paper pages and all five pages of official S1 Supporting Information reviewed. Abstracts from scientific articles rather than full-text professional writing.",
+      "sample_and_design": "Scopus records marked Article, published 1996–2012 and downloaded May 2013 in eight JCR categories. Excluded abstracts under 50 words, records with no author or fewer than 10 references; 1,065,139 category records remained. Some journals belong to multiple categories, so records need not represent independent articles (S1 pp. 1–2). Separate linear regressions by discipline and abstract feature and then journal; outcome log(citations+1), journal-year categorical effects, journal-standardized author count, reference count and feature (S1 pp. 2–3).",
+      "outcomes": [
+        "Total citations as proxy for author-defined success, not comprehension, writing quality, causal influence or reader preference"
+      ],
+      "findings": [
+        {
+          "claim": "Rule-proxy associations and direction are inventoried individually in rule_tests.",
+          "pdf_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_locator": "Rules 1–10, Fig. 1 and Results",
+          "denominator": "More than one million abstracts across eight selected disciplines and 17 years; individual cell denominators in inaccessible supplement",
+          "interpretation_limits": "Citation is observational and proxies imperfect; significance sign is not effect size; heterogeneity and multiple comparisons apply."
+        },
+        {
+          "claim": "Figure 1 uses 0.01/15 as per-feature criterion, Bonferroni adjustment toward an overall 1% level.",
+          "pdf_pages": [
+            3
+          ],
+          "evidence_locator": "Fig. 1 caption",
+          "denominator": "15 tested features per discipline",
+          "interpretation_limits": "Do not infer unreported precise p-values or correct for additional tests not described in supplied main text."
+        },
+        {
+          "claim": "Authors give example one-standard-deviation journal-relative changes of +4.6% for a mathematics novelty measure and −7.2% for a geology shorter-abstract measure.",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "evidence_locator": "Fig. 2 and adjacent text",
+          "denominator": "One SD of stated feature relative to journal; mathematical scale and full model details depend on S1 Text",
+          "interpretation_limits": "These are model associations, not causal impacts; the prose and features require direction-aware interpretation."
+        },
+        {
+          "claim": "Authors report sign changes in three of fifteen measured features across fields.",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Conclusions",
+          "denominator": "15 abstract feature proxies across eight disciplines",
+          "interpretation_limits": "A sign-change summary is not evidence of equal magnitude, non-significance, or no important within-discipline variation."
+        },
+        {
+          "claim": "May 2013 Scopus category sample retained 1,065,139 records after excluding abstracts under 50 words, missing author, or fewer than ten references; articles span 1996–2012.",
+          "pdf_pages": [
+            "S1:1",
+            "S1:2"
+          ],
+          "evidence_locator": "S1 Data, Table 1 and exclusions",
+          "denominator": "1,065,139 retained category records, not necessarily unique articles; 8 categories with overlapping journals",
+          "interpretation_limits": "Selection filters exclude short abstracts and sparsely referenced articles; Scopus Article indexing is selection by database classification, not independently verified original-research status."
+        },
+        {
+          "claim": "Each feature was fitted separately in linear regressions on log(citations+1), with journal-year indicators and within-journal standardized numbers of authors and references; feature standardization is over all years in the journal.",
+          "pdf_pages": [
+            "S1:2",
+            "S1:3"
+          ],
+          "evidence_locator": "S1 Analysis, equation 1",
+          "denominator": "Separate category-by-feature regressions and journal-level analyses",
+          "interpretation_limits": "Coefficients do not jointly adjust for other correlated writing features. The exp(coefficient) ratio is exact for predicted citations+1 on the model scale, not exact for citations alone; no causal interpretation."
+        },
+        {
+          "claim": "Keyword feature is unavailable when keywords are not reported; affect scores set out-of-dictionary words to zero; tense proxy also includes gerunds and past participles.",
+          "pdf_pages": [
+            "S1:3",
+            "S1:4"
+          ],
+          "evidence_locator": "S1 Abstract Features R4, R6, R10",
+          "denominator": "R6 analyses restricted by keyword availability; feature-specific usable counts not specified in supplement",
+          "interpretation_limits": "Missingness may alter R6 analysis population. NLP tagging and dictionary proxy quality or zero denominator handling are not evaluated in supplied supplement."
+        }
+      ],
+      "rule_tests": [
+        {
+          "rule": "R1",
+          "operational_proxy": "words and sentence counts",
+          "reported_direction": "Fewer words and fewer sentences associated with fewer citations across disciplines",
+          "interpretation_limit": "Journal limits or readers may require brevity; longer text may add necessary detail or noise.",
+          "pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R2",
+          "operational_proxy": "sentence length relative to journal mean",
+          "reported_direction": "Short sentences associated with citation benefit only in mathematics and physics",
+          "interpretation_limit": "Sentence length is not a direct test of comprehensibility, cohesion or syntactic complexity.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R3",
+          "operational_proxy": "Share of unique words appearing in GNU Aspell or 2,954-word Dale–Chall list (S1 p. 3)",
+          "reported_direction": "Fewer common/easy words associated with more citations",
+          "interpretation_limit": "Dictionary membership is a poor proxy for jargon or audience understanding; retain necessary terminology.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R4",
+          "operational_proxy": "(present + gerund)/(present + gerund + past + past participle), NLTK tagged (S1 p. 3)",
+          "reported_direction": "Positive association in biology and psychology, negative in chemistry and physics",
+          "interpretation_limit": "Tense must reflect chronology and study status; association does not establish readability.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R5",
+          "operational_proxy": "adjective and adverb proportion",
+          "reported_direction": "More modifiers associated with more citations",
+          "interpretation_limit": "No inference that modifiers improve prose or that indiscriminate adjectives help.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R6",
+          "operational_proxy": "Count of abstract words matching keywords; unavailable when no keywords are reported (S1 p. 4)",
+          "reported_direction": "Greater keyword matching associated with fewer citations",
+          "interpretation_limit": "Keyword overlap is a weak proxy for conceptual focus; no automatic keyword avoidance.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R7",
+          "operational_proxy": "presence of novelty or importance marker words",
+          "reported_direction": "Presence associated with more citations",
+          "interpretation_limit": "A marker is neither actual novelty nor justified significance; avoid fabricated superlatives.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R8",
+          "operational_proxy": "superlatives/(superlatives + comparatives)",
+          "reported_direction": "Greater superlative ratio associated with more citations",
+          "interpretation_limit": "The feature does not test accurate confidence, causal quality or reader trust.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R9",
+          "operational_proxy": "frequency of hedge words",
+          "reported_direction": "Fewer hedge words associated negatively in biology and physics, positively in chemistry",
+          "interpretation_limit": "Study does not measure calibration: uncertainty and qualification may be required.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R10",
+          "operational_proxy": "Whissell affect dictionary values summed per word, unmatched words zero, divided by abstract words (S1 p. 4)",
+          "reported_direction": "Higher affect-word dimensions associated with more citations",
+          "interpretation_limit": "Lexicon is an affect proxy, not a measure of helpful metaphor or voice.",
+          "pdf_pages": [
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        }
+      ],
+      "limitations": [
+        "Observational citation associations can reflect journal selection, research content/quality, topic, exposure and other unmeasured confounding; author’s retrievability mechanism is an untested hypothesis (p. 4).",
+        "A dictionary match or keyword count is a proxy, not observed comprehension, focus or human judgment; comparison of features to citations does not validate any general stylistic instruction.",
+        "Abstracts have journal-enforced length and format constraints and are not full documents, paragraph functions or all writing.",
+        "S1 confirms that each feature was modeled separately; correlated features may confound each other. Journal-year indicators and author/reference counts do not remove topic, study-quality, exposure, or selection confounding (S1 pp. 2–3).",
+        "The model uses log(citations+1): exponentiated coefficient measures the modeled ratio of citations+1; the stated percentage change in citations is approximate and especially uncertain near zero (S1 p. 3). Main text and supplement give significance thresholds and example estimates but do not supply individual confidence intervals or fully inspectable model results in extracted supplement.",
+        "Scopus Article selection, minimum 50-word abstract and minimum 10 references constrain generalization. Overlapping journal categories prevent treating counts as independent disciplines or unique articles (S1 pp. 1–2).",
+        "Keywords missing are set to not available; excluded count and treatment in regression are not detailed. Tagger and dictionary errors and zero denominator cases are not assessed in the provided text (S1 pp. 3–4)."
+      ],
+      "rule_implications": [
+        "AR04",
+        "AR05",
+        "AR06"
+      ],
+      "data_or_code_leads": [
+        "PLOS supporting methods S1 retrieved and read: https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=info:doi/10.1371/journal.pcbi.1004205.s001 . Official receipt: experiments/evidence-integration-2026-11-16/supplement-attempts.json; prior web-tool signed redirect failed before successful direct publisher retrieval.",
+        "Authors used R biglm and NLTK; no raw Scopus data, project code repository or text rights confirmed. Main article is CC BY (p. 1), which does not license Scopus records."
+      ],
+      "extraction_issues": [
+        "Main article Figure 1/2 image data are not fully represented by plain text. Supplement pp. 4–5 reference per-journal graphs without reproducing numeric coefficients in extracted text.",
+        "Supplement p. 3 calls dictionary proportions R2a/R2b despite main text labeling R3a/R3b; interpret as the R3 prose descriptions, preserving discrepancy.",
+        "Initial web-tool supplement fetch failed; the parent subsequently retrieved the verified official publisher PDF through direct endpoint. No raw Scopus corpus or independent replication."
+      ],
+      "supplement_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/supplements/P14-S1.txt"
+    }
+  ],
+  "cross_paper_synthesis": [
+    "A stable surface code is not a true semantic judgment; a citation association is not evidence of improved reader outcomes. Neither paper supplies function-span gold or validates a universal writing-length rule.",
+    "Our exact-set 21/36 versus 18/36 is paired within different guidance arms, with independent model pairs, while P18 uses three human raters on sentence-anchored introductions. Neither kappa nor alpha is available from those headline counts alone. Original 21/36 and revised 18/36 both describe exact positive sets, not a chance-corrected measure or accuracy.",
+    "Calibration reported relation exact 29/36 including 21 shared empty sets and temporal 35/36 including 27 shared empty sets; report positive agreement and per-label counts (calibration report). Short source quotes are evidence anchors, not necessarily full realizations."
+  ],
+  "proposed_rule_changes": [
+    {
+      "id": "AR01",
+      "status": "candidate",
+      "disposition": "reaffirm and refine",
+      "existing_rule": "docs/writing-harness/paragraph-functions.json guidance; experiments/rule-calibration-2026-11-16/report.md",
+      "trigger": "Multiple defensible functions on a shared text unit",
+      "proposal": "Preserve multiple labels and distinguish exact full-set, overlap-sensitive set distance and per-label positive agreement, with raw coder sets and denominators. Evaluate mv-alpha on comparable pre-specified shared units and separately inspect boundaries; do not force primary function.",
+      "benefit": "Makes strict-subset errors and sparse shared absences visible.",
+      "counterexample": "Two coders may assign identical sets but point to different claims or realization spans; agreement does not prove either interpretation correct.",
+      "mechanical_vs_semantic": "Set comparisons and offset checks mechanical; label and target validity semantic; author retains final editorial control.",
+      "evidence": "P18 pp. 5, 7, 11–13; local 36-paragraph report."
+    },
+    {
+      "id": "AR02",
+      "status": "candidate",
+      "disposition": "refine",
+      "existing_rule": "docs/writing-harness/research/astra-rule-revision-2026-11-16.md; calibration report",
+      "trigger": "Relations such as support or qualification, or function-length calculation",
+      "proposal": "Retain targets, evidence anchors and complete realization spans as separate fields, including discontinuity and uncollected/uncertain status. Compare target unit, target span and semantic adequacy separately; anchor text alone does not establish realization length.",
+      "benefit": "Shows why same function set can still disagree about its target; prevents invalid function-length measurements.",
+      "counterexample": "An illustrative sentence with no explicit support target need not be coded as supporting a claim.",
+      "mechanical_vs_semantic": "Hash, source offsets and target existence are mechanical; scope, sufficiency and relation meaning require review.",
+      "evidence": "P18 p. 7 sentence unitization; calibration report target overlap and anchor limitation."
+    },
+    {
+      "id": "AR03",
+      "status": "candidate",
+      "disposition": "refine",
+      "existing_rule": "experiments/rule-calibration-2026-11-16/report.md",
+      "trigger": "Planning a new independent coding pilot",
+      "proposal": "Freeze codebook, train with held-out examples, report coder identity/experience, sampling, all set counts, prevalence, target judgments, missing/unresolved state and pre-adjudication results. Test boundary agreement independently. Select any future decision criterion in advance; do not apply 750 as a threshold.",
+      "benefit": "Makes disagreement diagnosis and independent replication feasible.",
+      "counterexample": "High agreement can result from both coders omitting a function or using shared blank labels; adjudication alone is not accuracy.",
+      "mechanical_vs_semantic": "Completeness and provenance checks mechanical; category meaning and adjudication judged with context.",
+      "evidence": "P18 pp. 6–7, 10–14."
+    },
+    {
+      "id": "AR04",
+      "status": "candidate",
+      "disposition": "reaffirm",
+      "existing_rule": "skills/edit-with-purpose/SKILL.md; skills/write-with-purpose/SKILL.md; accepted-foundations F01 F04 F05",
+      "trigger": "Assessing length or cutting prose",
+      "proposal": "Use counts as descriptive signals and author-specified limits; judge necessity, connection and reader task before cutting. No general shortness, lengthening, or citation-maximization rule.",
+      "benefit": "Preserves needed explanation and respects actual constraints.",
+      "counterexample": "A strict abstract word limit may require a shorter version despite positive length-citation associations.",
+      "mechanical_vs_semantic": "Count explicit budgets mechanically; decide necessary content and reader comprehension by review.",
+      "evidence": "P14 pp. 1–4; correlation does not establish comprehension."
+    },
+    {
+      "id": "AR05",
+      "status": "candidate",
+      "disposition": "reaffirm",
+      "existing_rule": "skills/write-with-purpose/SKILL.md; skills/edit-with-purpose/references/plain-language-edit.md",
+      "trigger": "Technical terms, modifiers, tense and qualifications",
+      "proposal": "Protect accurate terms and uncertainty; choose tense by chronology, modifiers by meaning, explanation by audience. Do not automate broad deletion or insertion of hedges, adjectives or superlatives.",
+      "benefit": "Avoids distorted claims and permits author voice.",
+      "counterexample": "Unexplained specialist terminology may require a brief definition for a novice even though rarer terms correlate with citations.",
+      "mechanical_vs_semantic": "Detect candidate tense or terms mechanically; appropriateness, accuracy and reader knowledge require judgment.",
+      "evidence": "P14 pp. 2–3; keyword and frequency proxies not comprehension tests."
+    },
+    {
+      "id": "AR06",
+      "status": "candidate",
+      "disposition": "not justified",
+      "existing_rule": "docs/writing-harness/paragraph-functions.json support and qualify; accepted-foundations F07 F09",
+      "trigger": "Abstract claims about novelty, evidence, significance or uncertainty",
+      "proposal": "Treat novelty words and hedges only as prompts to review factual basis, affected claim and scope; never assert significance, increase confidence or remove qualification merely to optimize citations.",
+      "benefit": "Separates lexical cues from evidence-grounded rhetorical function.",
+      "counterexample": "A well-grounded novel result may accurately say novel; a word alone does not establish novelty.",
+      "mechanical_vs_semantic": "Find cue words mechanically; verifying novelty and support is semantic and evidence-based.",
+      "evidence": "P14 pp. 2–4; P18 pp. 1–2."
+    }
+  ],
+  "github_reuse": {
+    "status": "No newly verified GitHub repository or code release for either paper.",
+    "existing_dataset_adoption": "Reuse source adapters and layer separation from experiments/dataset-adoption-2026-11-16/plugin-reuse-notes.md; source labels and 159 proposed crosswalks remain hypotheses rather than gold. Existing code checks offsets and IDs only.",
+    "implementation": "Any future mv-alpha implementation requires independent verification of set distance, empty-versus-missing semantics, units, expected disagreement and license; no install or implementation here."
+  },
+  "open_questions": [
+    "Can original Scopus records, feature-specific complete-case counts, regression output and code be accessed under appropriate terms to verify coefficients and uncertainty? The official S1 methods are now read, but raw corpus was not replicated.",
+    "Can P18 study-level review coding, three-rater move-step matrix, COSSRAI data and Java implementation be obtained with explicit permission and audited licenses?",
+    "For new paragraph calibration, what overlap and target-similarity procedures will be frozen before coding, including document-cluster uncertainty, missingness and author review?",
+    "Can reader-task tests distinguish useful precision from citation optimization without penalizing the author’s terminology, voice or stated limits?"
+  ]
+}

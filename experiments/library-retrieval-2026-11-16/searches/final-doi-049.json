@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w1501821359",
+      "doi": "10.2307/1341478",
+      "title": "Feminist Legal Methods",
+      "authors": "[\"Katharine T. Bartlett\"]",
+      "field": "law_public_policy",
+      "q": "\"Feminist Legal Methods\" Bartlett filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w1501821359",
+      "query": "\"Feminist Legal Methods\" Bartlett filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Feminist Legal Methods: Theoretical Assumptions, Advantages, and Potential Problems",
+          "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2354297_code2105629.pdf?abstractid=2354297&mirid=1",
+          "score": 1
+        },
+        {
+          "title": "VOLUME 103FEBRUARY 1990NUMBER 4HARVARD LAW REVIEWARTICLEFEMINIST LEGAL METHODSKatharine T. Bartlett*Legal methods are the basic tools that lawyers and legal scholars use.",
+          "url": "https://www.ais-sociologia.it/wp-content/uploads/2024/06/Feminist-Legal-Methods.pdf",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "FEMINIST LEGAL METHODS: THEORETICAL ASSUMPTIONS, ADVANTAGES, AND POTENTIAL PROBLEMS",
+          "url": "https://www.researchgate.net/publication/361309521_FEMINIST_LEGAL_METHODS_THEORETICAL_ASSUMPTIONS_ADVANTAGES_AND_POTENTIAL_PROBLEMS",
+          "score": 1
+        },
+        {
+          "title": "Scholars@Duke publication: Feminist Legal Methods",
+          "url": "https://scholars.duke.edu/publication/1038376",
+          "score": 1
+        },
+        {
+          "title": "Feminist Legal Methods by Bartlett | PDF",
+          "url": "https://www.scribd.com/doc/289648863/Feminist-Legal-Methods-by-Bartlett",
+          "score": 1
+        },
+        {
+          "title": "Feminist legal methods | Eduskunnan kirjasto | Eduskunnan kirjasto @ Finna",
+          "url": "https://eduskunnankirjasto.finna.fi/Record/ekk.992721574006250",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

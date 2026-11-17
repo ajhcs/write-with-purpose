@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_008",
+      "doi": "10.5465/amr.1985.4277352",
+      "title": "Sources of Conflict between Work and Family Roles",
+      "authors": "[\"Jeffrey H. Greenhaus\", \"Nicholas J. Beutell\"]",
+      "field": "business_management",
+      "q": "\"Sources of Conflict between Work and Family Roles\" Greenhaus filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_008",
+      "query": "\"Sources of Conflict between Work and Family Roles\" Greenhaus filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "GREENHAUS, J. H.; BEUTELL, N. J. Sources of conflict between work and family roles. **Academy of Management Review**, v. 10, n. 1, p. 76-88, 1985.",
+          "url": "https://repositorio.ufsc.br/bitstream/handle/123456789/201932/102_00183.pdf",
+          "score": 1
+        },
+        {
+          "title": "Greenhaus, J. H., & Beutell, N. J. (1985). Sources of conflict between work and family roles. *Academy of Management Review, 10*(1), 76-88.",
+          "url": "https://lup.lub.lu.se/luur/download?fileOId=2301740&func=downloadFile&recordOId=2301738",
+          "score": 1
+        },
+        {
+          "title": "Greenhaus, J. H., & Beutell, N. J. (1985). Sources of conflict between work and family roles. *Academy of Management Review*, 10, 76-88.",
+          "url": "https://theses.lib.polyu.edu.hk/bitstream/200/10656/3/5090.pdf",
+          "score": 1
+        },
+        {
+          "title": "Greenhaus, J.H., & Beutell, N.J. (1985). Sources of conflict between work and family roles. *Academy of Management Review, 10*(1), 76–88.",
+          "url": "https://dspace.uevora.pt/rdpc/bitstream/10174/19062/1/Maria%20do%20C%C3%A9u%20da%20Cruz%20Canh%C3%A3o%20Esteves%20-%20Tese%20de%20Mestrado%20-%20%20174%20627.pdf",
+          "score": 1
+        },
+        {
+          "title": "Sources of Conflict between Work and Family Roles | JSTOR",
+          "url": "https://doi.org/10.2307/258214",
+          "score": 1
+        },
+        {
+          "title": "Sources of Conflict between Work and Family Roles | JSTOR",
+          "url": "https://www.jstor.org/pss/258214",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_09",
+      "doi": "10.1109/32.895989",
+      "title": "Toward reference models for requirements traceability",
+      "authors": "[\"B. Ramesh\", \"M. Jarke\"]",
+      "field": "engineering_computing",
+      "q": "\"Toward reference models for requirements traceability\" Ramesh filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_09",
+      "query": "\"Toward reference models for requirements traceability\" Ramesh filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Toward reference models for requirements traceability",
+          "url": "https://www.researchgate.net/publication/3188133_Toward_reference_models_for_requirements_traceability",
+          "score": 1
+        },
+        {
+          "title": "Toward reference models for requirements traceability",
+          "url": "https://cir.nii.ac.jp/crid/1363670318468483968?lang=en",
+          "score": 1
+        },
+        {
+          "title": "Toward reference models for requirements traceability",
+          "url": "https://www.academia.edu/53551195/Toward_reference_models_for_requirements_traceability",
+          "score": 1
+        },
+        {
+          "title": "Toward reference models for requirements traceability",
+          "url": "https://scispace.com/papers/toward-reference-models-for-requirements-traceability-58ok6amfmp",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

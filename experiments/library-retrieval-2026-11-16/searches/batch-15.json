@@ -1,0 +1,95 @@
+{
+  "batch": 15,
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_31",
+      "doi": "10.1145/984549.984551",
+      "title": "A critique of the SQL database language",
+      "field": "engineering_computing",
+      "q": "\"A critique of the SQL database language\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_32",
+      "doi": "10.48550/arxiv.1902.03331",
+      "title": "Systematization of Vulnerability Discovery Knowledge: Review Protocol",
+      "field": "engineering_computing",
+      "q": "\"Systematization of Vulnerability Discovery Knowledge: Review Protocol\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_33",
+      "doi": "10.17487/rfc1134",
+      "title": "Point-to-Point Protocol: A proposal for multi-protocol transmission of datagrams over Point-to-Point links",
+      "field": "engineering_computing",
+      "q": "\"Point-to-Point Protocol: A proposal for multi-protocol transmission of datagrams over Point-to-Point links\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_34",
+      "doi": "10.17487/rfc1347",
+      "title": "TCP and UDP with Bigger Addresses (TUBA), A Simple Proposal for Internet Addressing and Routing",
+      "field": "engineering_computing",
+      "q": "\"TCP and UDP with Bigger Addresses (TUBA), A Simple Proposal for Internet Addressing and Routing\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_31",
+      "query": "\"A critique of the SQL database language\" pdf",
+      "urls": [
+        {
+          "title": "A critique of the SQL database language",
+          "url": "https://www.mendeley.com/catalogue/f79ac9dd-ca9b-35f7-98c3-eba1e2b00a13/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A critique of the SQL database language.",
+          "url": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200902014012608490",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Critique of SQL, 40 Years Later",
+          "url": "https://www.reddit.com/r/SQL/comments/wwirwc",
+          "score": 0.4,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_32",
+      "query": "\"Systematization of Vulnerability Discovery Knowledge: Review Protocol\" pdf",
+      "urls": [
+        {
+          "title": "Systematization of Vulnerability Discovery Knowledge: Review Protocol",
+          "url": "https://arxiv.org/abs/1902.03331",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_33",
+      "query": "\"Point-to-Point Protocol: A proposal for multi-protocol transmission of datagrams over Point-to-Point links\" pdf",
+      "urls": [
+        {
+          "title": "Point-to-Point Protocol: A proposal for multi-protocol transmission of datagrams over Point-to-Point links",
+          "url": "https://www.rfc-editor.org/info/rfc1134/",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_34",
+      "query": "\"TCP and UDP with Bigger Addresses (TUBA), A Simple Proposal for Internet Addressing and Routing\" pdf",
+      "urls": [
+        {
+          "title": "TCP and UDP with Bigger Addresses (TUBA), A Simple Proposal for Internet Addressing and Routing",
+          "url": "https://www.rfc-editor.org/info/rfc1347/",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

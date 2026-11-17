@@ -1,0 +1,173 @@
+{
+  "scope": "Downloaded guides, methods papers and original schema artifacts; original licensing applies. Files remain in workspace cache, outside the Git checkout.",
+  "records": [
+    {
+      "label": "bawe-classification",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/bawe-classification/gardner-nesi.pdf",
+      "sha256": "0e7d24a0ece030a5092aacdef485ae20eec80793b006b64c9a75e50b94ad0e66",
+      "source": "https://pure.coventry.ac.uk/ws/portalfiles/portal/3978905/gardnercomb.pdf"
+    },
+    {
+      "label": "bawe-manual",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/bawe-manual/BAWE.documentation.pdf",
+      "sha256": "2647d86b73659507bb33ffa778bdb8d27a9058cbe00fc2c6bacf913c5c49b3b3",
+      "source": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/BAWE.documentation.pdf?isAllowed=y&sequence=5"
+    },
+    {
+      "label": "business-english-review",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/business-english-review/business-english-review.pdf",
+      "sha256": "ec19545fdc7367770ba00b35cba3ce106e02bce09de5661fee33189cce9ec531",
+      "source": "https://www.ets.org/Media/Research/pdf/TOEIC-RR-02.pdf"
+    },
+    {
+      "label": "coresc-paper",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/coresc-paper/coresc-paper.pdf",
+      "sha256": "2c7d430c5d5c733104686478dabbda3fd0f79dbc74cfe5c71d9b24d9d6508fb8",
+      "source": "https://aclanthology.org/L10-1440.pdf"
+    },
+    {
+      "label": "dita",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/dita/DITA1.2-spec.pdf",
+      "sha256": "b0d5cf9a9353287fd04daa31470281f2c3b605b7a7955e0abab236233859bb90",
+      "source": "https://docs.oasis-open.org/dita/v1.2/spec/DITA1.2-spec.pdf"
+    },
+    {
+      "label": "drinventor-paper",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/drinventor-paper/drinventor-paper.pdf",
+      "sha256": "4314112e625cde8ead1c74f4ea2e2aa47b539e8c62077ad2779f1111324fcf90",
+      "source": "https://aclanthology.org/L16-1492.pdf"
+    },
+    {
+      "label": "gum-guide",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/gum-guide/gum-rst.html",
+      "sha256": "d2a5dcd9797feecf1095c9ec96cb9f30ed2aaf220347753a3b40b4c261f2261e",
+      "source": "https://wiki.gucorpling.org/gum/rst"
+    },
+    {
+      "label": "nathan-thesis",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/nathan-thesis/Nathan10PhD.pdf",
+      "sha256": "0fc612500e9d6d3c75515b6731d96a4303b368665720574d448eafeb3ff50b06",
+      "source": "https://etheses.bham.ac.uk/id/eprint/711/1/Nathan10PhD.pdf"
+    },
+    {
+      "label": "pdtb-manual",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/pdtb-manual/PDTB3-Annotation-Manual.pdf",
+      "sha256": "15f12df435ae03670f11fd3f2bf547cd603038111810a5e0376f02c708e17756",
+      "source": "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf"
+    },
+    {
+      "label": "readme-paper",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/readme-paper/readme-paper.pdf",
+      "sha256": "2ea4fd63e5b05b241c2796c527d0464ed6de05ee9a5c3e13b497df9b04d22073",
+      "source": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf"
+    },
+    {
+      "label": "scipara-paper",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scipara-paper/scipara-paper.pdf",
+      "sha256": "872eeb92977e30053cff3be091eee0f7d01222fe23f2e546511b45c5eb20c785",
+      "source": "https://aclanthology.org/2024.codi-1.2.pdf"
+    },
+    {
+      "label": "upton-cohen",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/upton-cohen/upton-cohen.pdf",
+      "sha256": "1a23929cefa5078d3ecdaeddc1637b1f472990a513783810b675f9f59c599ea9",
+      "source": "https://scholarworks.indianapolis.iu.edu/bitstream/handle/1805/2332/Approach_to_Corpus_based.pdf"
+    },
+    {
+      "label": "webis-paper",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/webis-paper/webis-paper.pdf",
+      "sha256": "38e6ba21f776aefa020693c9f7336533fd1c402d5ff61edc3e00d34e66bc7577",
+      "source": "https://aclanthology.org/C16-1324.pdf"
+    },
+    {
+      "label": "az-paper",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/az-paper/az-paper.pdf",
+      "sha256": "1a57765e64a753048b111776c43f74309ea2c186f0b6691aa0c5abd2e332bb66",
+      "source": "https://aclanthology.org/E99-1015.pdf"
+    },
+    {
+      "label": "dita-task-guide",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/dita-task-guide/task2.html",
+      "sha256": "e294a97a5e076c7c1157d1a523d01a32b322aca56e4f452acef31c52968529a8",
+      "source": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html"
+    },
+    {
+      "label": "erst-paper",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/erst-paper/erst-paper.pdf",
+      "sha256": "f04807264324631d1ad79aade3529215afc7729cf874ef311edf5094ab52a6da",
+      "source": "https://aclanthology.org/2025.cl-1.3.pdf"
+    },
+    {
+      "label": "microtext-guide",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/microtext-guide/ArgGuidelinesEnglish.pdf",
+      "sha256": "0994108088787c9baa2ad1b87ea8bb2ed3ee133db0f1ea9f642f0f5575bed7e3",
+      "source": "https://angcl.ling.uni-potsdam.de/pdfs/ArgGuidelinesEnglish.pdf"
+    },
+    {
+      "label": "persuade-paper",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade-paper/persuade-preprint.pdf",
+      "sha256": "9b34b069ae5465fc39e2a31c879e63ceff7efd9689aeb26fa1de888f38a83fff",
+      "source": "https://zenodo.org/api/records/8221504/files/A%20large-scale%20corpus%20for%20assessing%20written%20argumentation%20preprint.pdf/content"
+    },
+    {
+      "label": "wlp-paper",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/wlp-paper/wlp-paper.pdf",
+      "sha256": "c5b251a853fad77ca65cddae21794a28c6af2f46c651ba9cd8d371fb3813efcc",
+      "source": "https://aclanthology.org/N18-2016.pdf"
+    },
+    {
+      "label": "scidtb-paper-correct",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scidtb-paper-correct/scidtb-paper.pdf",
+      "sha256": "ab168356d438a31408e4ef064675073283474d557fb93146cd076fc88be06af1",
+      "source": "https://aclanthology.org/P18-2071.pdf"
+    },
+    {
+      "label": "MuLMS original annotation guide",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/mulms/unpacked/mulms-az-codi2023-21cc89f5d4a01d363c61fabaec25042e83195090/annotation guidelines/MuLMS-AZ_Guidelines.pdf",
+      "sha256": "27cb612f9b1897299b484846d18ad900b79de75b65db26fb7397193d58fbab5d",
+      "source": "See pinned mulms source archive in acquisition.json"
+    },
+    {
+      "label": "README coding patterns",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/readme/unpacked/READMEClassifier-f6aa84ac8a4874b06fcc9fd2763be791ac98b9ac/doc/Patterns.ods",
+      "sha256": "2902052fdcb2be674f8ad119b573fc20c5423c1417fabcfef194f0fa27d103f1",
+      "source": "See pinned readme source archive in acquisition.json"
+    },
+    {
+      "label": "PERSUADE argument-element rubric",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade2/unpacked/persuade_corpus_2.0-5bdbad1175d1d5adec082b3f1c4e3ce37b7bd1bf/argumentation_effectiveness_rubric.pdf",
+      "sha256": "01c5f7be693c0e659ac23b2883afb3ca84d35f66a30334fa0bcfc1a370a72d75",
+      "source": "See pinned persuade2 source archive in acquisition.json"
+    },
+    {
+      "label": "PERSUADE independent-task rubric",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade2/unpacked/persuade_corpus_2.0-5bdbad1175d1d5adec082b3f1c4e3ce37b7bd1bf/sat_rubric_only_indy.pdf",
+      "sha256": "3a7df1b054e50d5ecdcb56f3e0b37d6f5f244612e5f442e04d4ae2ee5d1abcc3",
+      "source": "See pinned persuade2 source archive in acquisition.json"
+    },
+    {
+      "label": "PERSUADE source-based rubric",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade2/unpacked/persuade_corpus_2.0-5bdbad1175d1d5adec082b3f1c4e3ce37b7bd1bf/sat_rubric_only_source_based.pdf",
+      "sha256": "02ef3c1bfe4f19d105deea9c776614a10fae066deaa3d110fc7a28c546c43da5",
+      "source": "See pinned persuade2 source archive in acquisition.json"
+    },
+    {
+      "label": "AZ SciXML DTD and label vocabulary",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/az/unpacked/AZ_distribution/paper-structure.dtd",
+      "sha256": "dd871edc9e4cbcef174738e9e1818abf77da3cd04de9634399b105572acbea9a",
+      "source": "See pinned az source archive in acquisition.json"
+    },
+    {
+      "label": "Microtext graph DTD",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/microtexts/unpacked/arg-microtexts-6707c133de713130cabe647f2f218681d65fdc15/corpus/arggraph.dtd",
+      "sha256": "50a9c0edaa78d84844a52c91c72636bece8a2cc93a6092aa43246db2beab000b",
+      "source": "See pinned microtexts source archive in acquisition.json"
+    },
+    {
+      "label": "BUILD definitions and release links",
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/build/unpacked/rhetorical-role-baseline-bc0c9079734e4626a080721a3b4012953fdda0b5/README.md",
+      "sha256": "05765225704402e7df9cde16a5793e9bc5ed1e2e04353f35e1501f802a84322d",
+      "source": "See pinned build source archive in acquisition.json"
+    }
+  ]
+}

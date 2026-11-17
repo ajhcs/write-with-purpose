@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_002",
+      "doi": "10.5465/amr.1999.2553248",
+      "title": "Strategies for Theorizing from Process Data",
+      "authors": "[\"Ann Langley\"]",
+      "field": "business_management",
+      "q": "\"Strategies for Theorizing from Process Data\" Langley pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_002",
+      "query": "\"Strategies for Theorizing from Process Data\" Langley pdf",
+      "urls": [
+        {
+          "title": "# Strategies for Theorizing from Process Data",
+          "url": "https://assets.super.so/6b4b5d92-904a-4e7b-95bd-914dd1d1528f/files/e64a8b08-6d70-4f99-9db4-d10bfa3849ba/Langley_1999_Strategies_for_Theorizing_from_Process_Data.pdf",
+          "score": 1
+        },
+        {
+          "title": "Strategies for theorizing from process data",
+          "url": "https://assets.super.so/6b4b5d92-904a-4e7b-95bd-914dd1d1528f/files/96f8cd9c-88f5-4712-b668-060fd96f6972.pdf",
+          "score": 1
+        },
+        {
+          "title": "Langley, A. (1999). Strategies for theorizing from process data. *Academy of Management Review*, 24 (4): 691-710.",
+          "url": "https://spectrum.library.concordia.ca/id/eprint/2339/1/MQ83957.pdf",
+          "score": 1
+        },
+        {
+          "title": "Strategies for Theorizing from Process Data",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amr.1999.2553248?ijkey=300aeb43ce0c7ee8237ff6970aac3c10e41340b6r24%2F4%2F691c24%2F4%2F691",
+          "score": 1
+        },
+        {
+          "title": "Strategies for Theorizing from Process Data",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amr.1999.2553248",
+          "score": 1
+        },
+        {
+          "title": "Strategies for Theorizing from Process Data | TG Scholar",
+          "url": "https://scholar.teselagen.com/works/W2115497642/strategies-for-theorizing-from-process-data",
+          "score": 1
+        },
+        {
+          "title": "Strategies for Theorizing from Process Data",
+          "url": "https://journals.aom.org/doi/10.5465/AMR.1999.2553248",
+          "score": 1
+        },
+        {
+          "title": "Strategies for Theorizing from Process Data",
+          "url": "https://ethnos.app/works/23313862",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

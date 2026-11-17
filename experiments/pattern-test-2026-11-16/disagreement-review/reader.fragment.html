@@ -1,0 +1,133 @@
+<div id="writing-coder-disagreements">
+  <style>
+    #writing-coder-disagreements { display: flex; flex-direction: column; gap: calc(var(--font-size-base) * 1); }
+    #writing-coder-disagreements .reading-columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: calc(var(--font-size-base) * 1.5); }
+    #writing-coder-disagreements .reading-section { min-width: 0; display: flex; flex-direction: column; gap: calc(var(--font-size-base) * .5); }
+    #writing-coder-disagreements blockquote { margin: 0; padding: 0; }
+    #writing-coder-disagreements .context-group { display: flex; flex-direction: column; gap: calc(var(--font-size-base) * .5); margin-top: calc(var(--font-size-base) * .5); }
+    #writing-coder-disagreements .source-attribution { overflow-wrap: anywhere; }
+    #writing-coder-disagreements mark { color: var(--foreground); background: color-mix(in srgb, var(--viz-series-1) 20%, transparent); }
+    @media (max-width: 620px) { #writing-coder-disagreements .reading-columns { grid-template-columns: minmax(0, 1fr); } }
+  </style>
+  <div class="viz-controls">
+    <label class="form-label" for="disagreement-case">Paragraph
+      <select class="form-select" id="disagreement-case">
+        <option value="NEJMp1616577-p10">NEJM: explanation or interpretation?</option>
+        <option value="drucker-034">HBR: orientation or instruction?</option>
+        <option value="xml-02359-p018">Review: examples, definition and scope</option>
+        <option value="drucker-007">HBR: history offered as support</option>
+      </select>
+    </label>
+  </div>
+  <div class="reading-columns" aria-live="polite">
+    <section class="reading-section" aria-labelledby="source-paragraph-heading">
+      <h3 id="source-paragraph-heading">Source paragraph</h3>
+      <div class="text-small source-attribution" data-attribution></div>
+      <blockquote data-paragraph></blockquote>
+      <div class="text-small text-muted" data-scope></div>
+      <details>
+        <summary>Source context</summary>
+        <div class="context-group">
+          <span class="text-small text-muted">Preceding paragraph</span>
+          <blockquote data-previous></blockquote>
+          <span class="text-small text-muted">Following paragraph</span>
+          <blockquote data-following></blockquote>
+        </div>
+      </details>
+    </section>
+    <section class="reading-section" aria-labelledby="coder-label-heading">
+      <h3 id="coder-label-heading">Recorded codings</h3>
+      <div class="text-small text-muted">A: original coding · B: independent second pass</div>
+      <table class="table table-sm">
+        <thead><tr><th scope="col">Coder</th><th scope="col">Functions</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">A</th><td data-coder-a></td></tr>
+          <tr><th scope="row">B</th><td data-coder-b></td></tr>
+        </tbody>
+      </table>
+      <table class="table table-sm">
+        <tbody>
+          <tr><th scope="row">Shared</th><td data-shared></td></tr>
+          <tr><th scope="row">Only A</th><td data-only-a></td></tr>
+          <tr><th scope="row">Only B</th><td data-only-b></td></tr>
+        </tbody>
+      </table>
+      <details>
+        <summary>Recorded rationale</summary>
+        <div class="context-group">
+          <span class="text-small text-muted">Coder A</span>
+          <p data-a-reason></p>
+          <span class="text-small text-muted">Coder B</span>
+          <p data-b-reason></p>
+          <span class="text-small text-muted">Coder B uncertainty note</span>
+          <p data-b-uncertainty></p>
+        </div>
+      </details>
+    </section>
+  </div>
+  <script type="application/json" data-cases>__CASE_DATA__</script>
+  <script>
+    (() => {
+      const root = document.getElementById('writing-coder-disagreements');
+      const cases = JSON.parse(root.querySelector('[data-cases]').textContent);
+      const select = root.querySelector('#disagreement-case');
+      const get = key => root.querySelector('[data-' + key + ']');
+      const join = values => values.length ? values.join(', ') : 'None';
+      function render(id) {
+        const entry = cases.find(item => item.id === id) || cases[0];
+        select.value = entry.id;
+        const attribution = get('attribution');
+        attribution.replaceChildren(document.createTextNode(entry.title + ' · ' + entry.attribution));
+        if (entry.url) {
+          const link = document.createElement('a');
+          link.href = entry.url; link.target = '_blank'; link.rel = 'noopener noreferrer';
+          link.textContent = ' · Source'; attribution.appendChild(link);
+        }
+        if (entry.license_url) {
+          const license = document.createElement('a');
+          license.href = entry.license_url; license.target = '_blank'; license.rel = 'noopener noreferrer';
+          license.textContent = ' · ' + entry.license_label; attribution.appendChild(license);
+        }
+        const paragraph = get('paragraph');
+        paragraph.replaceChildren();
+        if (entry.highlight) {
+          paragraph.appendChild(document.createTextNode(entry.paragraph.slice(0, entry.highlight.start)));
+          const mark = document.createElement('mark');
+          mark.textContent = entry.paragraph.slice(entry.highlight.start, entry.highlight.end);
+          paragraph.appendChild(mark);
+          paragraph.appendChild(document.createTextNode(entry.paragraph.slice(entry.highlight.end)));
+        } else paragraph.textContent = entry.paragraph;
+        get('scope').textContent = entry.words + ' words · Normalized source text' +
+          (entry.highlight ? ' · Marked scope condition: ' + entry.highlight.words + ' words' : '');
+        get('previous').textContent = entry.previous || 'No preceding paragraph in retained body.';
+        get('following').textContent = entry.following || 'No following paragraph in retained body.';
+        get('coder-a').textContent = join(entry.coder_a);
+        get('coder-b').textContent = join(entry.coder_b);
+        get('shared').textContent = join(entry.coder_a.filter(label => entry.coder_b.includes(label)));
+        get('only-a').textContent = join(entry.coder_a.filter(label => !entry.coder_b.includes(label)));
+        get('only-b').textContent = join(entry.coder_b.filter(label => !entry.coder_a.includes(label)));
+        get('a-reason').textContent = entry.coder_a_rationale || 'No paragraph-level rationale was recorded in the source coding packet.';
+        get('b-reason').textContent = entry.coder_b_rationale;
+        const uncertainty = entry.coder_b_uncertainty;
+        get('b-uncertainty').textContent = Array.isArray(uncertainty) && uncertainty.length ? uncertainty.join('; ') :
+          typeof uncertainty === 'string' && uncertainty ? uncertainty :
+          uncertainty === true ? 'Uncertainty flagged without a specific note.' : 'No uncertainty note recorded.';
+      }
+      function restore(state) {
+        const selection = state && state.coderDisagreement;
+        render(selection && selection.version === 1 ? selection.paragraph : cases[0].id);
+      }
+      select.addEventListener('change', () => {
+        render(select.value);
+        if (window.openai && window.openai.setWidgetState) {
+          window.openai.setWidgetState({ modelContent: { coderDisagreement: { version: 1, paragraph: select.value } }, privateContent: null }).catch(() => {});
+        }
+      });
+      window.addEventListener('openai:set_globals', event => {
+        const globals = event.detail && event.detail.globals;
+        if (globals && Object.prototype.hasOwnProperty.call(globals, 'widgetState')) restore(globals.widgetState);
+      });
+      restore(window.openai && window.openai.widgetState);
+    })();
+  </script>
+</div>

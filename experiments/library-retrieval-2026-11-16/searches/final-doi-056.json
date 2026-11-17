@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w2140991056",
+      "doi": "10.1146/annurev-lawsocsci-102209-152910",
+      "title": "Social Historical Studies of Women, Crime, and Courts",
+      "authors": "[\"Malcolm M Feeley\", \"Hadar Aviram\"]",
+      "field": "law_public_policy",
+      "q": "\"Social Historical Studies of Women, Crime, and Courts\" Feeley filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2140991056",
+      "query": "\"Social Historical Studies of Women, Crime, and Courts\" Feeley filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Social Historical Studies of Women, Crime, and Courts",
+          "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-lawsocsci-102209-152910",
+          "score": 1
+        },
+        {
+          "title": "Social Historical Studies of Women, Crime, and Courts",
+          "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-lawsocsci-102209-152910%3Bjsessionid%3DjSyvx0qWAhPbUcrbLwjGIFbWHwTI9BbfCysX2d07.annurevlive-10-241-10-86",
+          "score": 1
+        },
+        {
+          "title": "Social Historical Studies of Women, Crime, and Courts",
+          "url": "https://scispace.com/papers/social-historical-studies-of-women-crime-and-courts-1gac7qsmqn",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "advocate": "voice-novelty",
+  "lens": "Author voice, originality and novelty",
+  "baseline_critique": [
+    "Existing skills protect precision and voice well but “smallest set of changes” can become a default bias against restructuring when the user asks for substantial improvement. Distinguish explicit no-change constraints from inferred conservation.",
+    "The present function catalogue is useful as a diagnostic vocabulary, yet twelve labels can be mistaken for a complete account of original thought, pacing, humor or emotional experience; a label is not a reader effect.",
+    "Astra already proposes contribution recovery, contrasting structures and explanations. The mechanisms here make these more concrete; do not claim global novelty or demonstrated superiority."
+  ],
+  "proposals": [
+    {
+      "id": "VN-01",
+      "title": "Recover the author’s live question",
+      "trigger": "Idea development or substantive revision where notes contain an observation but the contribution is not yet settled.",
+      "behavior": "Extract a short evidence-linked inventory of the author’s observations, questions, claims, tensions and intended effect. Propose two competing questions the existing material could answer, naming which material supports each and what remains unknown. Invite the author to choose, amend or reject; if a response is not available, proceed with a clearly stated provisional reading. The model may suggest an inference as a question, not present it as an authored finding.",
+      "editing_improvement_effect": "Turn a collection of notes or a meandering draft into an arguable contribution; delete or relocate material that no longer serves the chosen question while retaining protected content.",
+      "novelty_relative_to_baseline": "Current skill says work out contribution and sketch paragraph jobs, but provides no explicit fork from source observations to competing questions or a way to separate author-authored inference from model proposal. Astra asks recover thought; this adds two testable alternatives and a provisional-state record.",
+      "model_code_author_roles": {
+        "model": "Extract and distinguish observation, hypothesis and question, propose and develop implications without inventing experiences.",
+        "code": "Optionally bind quoted source anchors and record selected or unresolved choice; validate provenance and explicit preservation constraints only.",
+        "author": "Select or revise the question, own the inference and decide whether material should remain."
+      },
+      "example": {
+        "input": "Illustrative hypothetical notes: “A request for a wheelchair became a budget item; staff feared a fall; I was not in the budget meeting.”",
+        "operation": "Question A: How does a safety concern lose context while moving through an organization? Question B: What evidence would reveal why a budget request was delayed? A is supported as an author hypothesis by the notes; B would require further evidence.",
+        "effect": "Choose A and develop the named communication gap without asserting what reviewers actually thought."
+      },
+      "counterexample": "For a copy edit with a settled argument, do not manufacture an inquiry or interrupt the edit. For sparse or sensitive notes, do not infer private motives.",
+      "evidence": [
+        "Approved style reference uses a specific scene to develop the larger distinction, while preserving uncertainty; its facts do not transfer.",
+        "P02 observational CMV interactions show reader response depends on discussion dynamics, not that any question choice persuades (PDF pp. 3–6, 8–9).",
+        "Astra advantage proposes author-idea recovery; this is a proposed operational extension, not a demonstrated result."
+      ],
+      "evaluation_needed": "Blind comparison with current skill on real author notes: contribution recognition, factual fidelity, ideas the author says were theirs, useful author-originated new reasoning, and time or interruption burden."
+    },
+    {
+      "id": "VN-02",
+      "title": "Structural alternatives with different reader work",
+      "trigger": "Substantial drafting or a substantive revision where more than one organization plausibly serves the brief.",
+      "behavior": "Build two short maps that preserve the same supplied facts and obligations but change the reader’s entry and order of inference: for example, encounter → problem → argument versus proposition → reasons → boundary. Name the reader benefit and loss of each; develop the selected route as prose. Alternatives must differ in dependency or experience, not just headings or synonyms.",
+      "editing_improvement_effect": "Permit meaningful relocation, combination and rewriting across paragraphs, rather than protecting a weak source order simply because it exists. The chosen structure clarifies or deepens the reasoning.",
+      "novelty_relative_to_baseline": "Existing guidance suggests an outline, paragraph contributions, moving units and three possible patterns; it does not require an equivalent-evidence, explicitly contrasting reader-task comparison before choosing a substantial restructuring. This makes alternative architectures operative and comparable.",
+      "model_code_author_roles": {
+        "model": "Create maps, show reordering and major dependencies, then execute chosen improvement.",
+        "code": "Track source-to-candidate passages and protected spans; diff shows moves, not proof of semantic equivalence.",
+        "author": "Choose the intended experience or delegate the selection; can keep source order."
+      },
+      "example": {
+        "input": "Hypothetical essay contains an experience, a proposed distinction and two supporting observations.",
+        "operation": "Map A starts with the experience and earns the distinction; map B opens with the distinction and uses experience as a stress test. Both retain the same observations.",
+        "effect": "In A the reader discovers the problem; in B a professional reader can assess the proposition early."
+      },
+      "counterexample": "A correction-only request, legally mandated order or carefully paced personal revelation should not trigger unnecessary reorganization. Equivalent source inventory does not guarantee identical nuance.",
+      "evidence": [
+        "Local pattern-test report: professional arguments in its small purposive sample used different organizations and did not follow one fixed sequence; no representative quality claim.",
+        "P08 is observational abstract/citation research, not proof that adding narrative causes learning or citation (PDF pp. 5, 7–8).",
+        "P12 section findings are exploratory associations, not support for assigning a formula to each section (PDF pp. 7–8)."
+      ],
+      "evaluation_needed": "On matched tasks assess reader recovery of the contribution, author preferred route, source fidelity and the cost of considering alternatives; ensure options actually change dependencies."
+    },
+    {
+      "id": "VN-03",
+      "title": "Distinguish voice-bearing choices from fixable friction",
+      "trigger": "Editing where unusual phrasing, extended rhythm, technical language or a deliberate unresolved ending seems unusual but the reader’s difficulty is uncertain.",
+      "behavior": "Identify what the choice contributes in context and the specific failure, if any. Generate two local candidates: one repairs the failure while retaining the distinctive choice, and a second uses a plainer construction only when it serves the requested task. Compare both against the original in surrounding paragraphs; keep the original if neither improves it. If author explicitly requests stronger revision, make the justified restructuring even when it changes wording substantially.",
+      "editing_improvement_effect": "Retains productive strangeness without protecting an unclear referent, redundant explanation or unsupported implication; authorized improvement may add a connective or alter clause order.",
+      "novelty_relative_to_baseline": "Current style reference already protects rhythm, exact terms and useful context, while edit skill favors the smallest change. This adds an explicit three-way comparison and a route to substantial change where a narrowly local repair cannot solve the reader problem; no novelty claim beyond inspected baseline.",
+      "model_code_author_roles": {
+        "model": "Explain the function of the oddity and a concrete reader difficulty, offer and contextualize competing edits, and select provisionally within the brief.",
+        "code": "Show exact source/candidate diff and explicit constraints, never a voice score or inferred prohibition.",
+        "author": "Accept, reject or modify choice; preference is evidence of voice for the current task, not an automatic permanent global rule."
+      },
+      "example": {
+        "input": "Hypothetical: “The request walked the hallway without its reason. A reviewer saw a cost, not the fall.”",
+        "operation": "Preserve the metaphor but clarify its referent: “As the wheelchair request moved through the organization, the reason behind it could be lost. A reviewer might see a cost rather than the risk of a fall.” Original remains an option if its ambiguity is wanted.",
+        "effect": "Makes actor, object and conditional force legible while retaining the idea of movement and loss; no reviewer motive is asserted as fact."
+      },
+      "counterexample": "A factual note or precise technical specification may be harmed by metaphor; when an author requests plain language, remove imagery that obstructs the requested effect rather than defending it as voice.",
+      "evidence": [
+        "Approved style reference values relational clarity, connecting phrases and uncertainty over short sentences; it is one approved assistant-edited example, not a complete model of Cole’s voice.",
+        "P12 observes section-specific associations and randomized vignette perceptions; pronouns and tense change meaning and cannot be transformed into voice recipes (PDF pp. 7–10)."
+      ],
+      "evaluation_needed": "Ask author whether each choice preserves intended voice and meaning; blind readers identify recoverable referents; compare actual edits and repair burden against baseline."
+    },
+    {
+      "id": "VN-04",
+      "title": "Challenge the contribution without ghostwriting belief",
+      "trigger": "Author requests stronger thinking, critique or improvement of an argument, explanation or decision.",
+      "behavior": "Derive a specific alternative explanation, boundary case or strongest relevant objection from supplied evidence; mark it as a test rather than an accepted fact. Show what would change in the current claim if it held and identify evidence needed to decide. Repair the draft with a qualified alternative or an explicit unresolved question when justified, not a token concession.",
+      "editing_improvement_effect": "Surfaces hidden assumptions and sharpens claim scope, causal reasoning or comparison; may replace an overstrong thesis with a more discriminating one rather than merely adding a hedge.",
+      "novelty_relative_to_baseline": "Current skills ask for missing premises and source checks; this operationalizes a counterfactual challenge tied to an explicit claim revision, with a source/evidence gap and author-owned choice. It goes beyond adding generic qualification.",
+      "model_code_author_roles": {
+        "model": "Generate an accountable objection, locate its effect on the argument, and distinguish source support from conjecture.",
+        "code": "Maintain claim-to-evidence pointers and missing-source status; never validate truth or simulate a counterexample as real.",
+        "author": "Choose whether to pursue the challenge, supply experience or evidence and endorse the changed position."
+      },
+      "example": {
+        "input": "Hypothetical claim: “The purchasing process ignored the risk.” Notes establish only that the concern became a purchase request.",
+        "operation": "Test a competing possibility: the risk was conveyed but judged against other constraints. Evidence needed: decision record or participants’ accounts.",
+        "effect": "Rewrite as “The request may have reached the budget process without the context that made it urgent,” unless evidence supports a stronger statement."
+      },
+      "counterexample": "Do not demand a counterargument in a poem, personal grief account or a narrow copy edit; a possible alternative unsupported by evidence should not be presented as equally established.",
+      "evidence": [
+        "P02 reports associations in a self-selected online debate; it cannot prove a particular objection causes persuasion.",
+        "P06 includes observational sharing and vignette intention, not comprehension or moral need for emotional framing.",
+        "Local calibration found only 21/36 versus 18/36 exact-set agreement; labels and model-generated objections remain fallible."
+      ],
+      "evaluation_needed": "Compare concrete claim quality, warranted uncertainty, author-rated originality and erroneous objections with baseline, using source-blinded independent raters where practical."
+    },
+    {
+      "id": "VN-05",
+      "title": "Choice-linked apprenticeship",
+      "trigger": "The author requests explanation, learning or repeated professional-writing development; not for routine prose-only delivery.",
+      "behavior": "After a meaningful revision, give one compact comparison of the author’s version and the adopted alternative, tied to the reader consequence and an optional transfer exercise using a different, source-grounded example. Ask the author to perform the decision before revealing a suggested solution when practice is requested. Maintain rejected suggestions as task-scoped boundaries rather than training global preferences from acceptance alone.",
+      "editing_improvement_effect": "Makes the reasoning behind an actual structural or wording change available for future unaided use without adding a mandatory lesson to each editing task.",
+      "novelty_relative_to_baseline": "Astra proposes a useful explanation and later unaided assessment, while current skills have a reader edit; this adds a contrastive transfer exercise and preserves the author’s decision boundary rather than treating model edits as the lesson.",
+      "model_code_author_roles": {
+        "model": "Select a real decision, explain the benefit and tradeoff, and formulate one transfer question grounded in supplied material.",
+        "code": "Store source and alternatives only if authorized and log actual task settings; no inference that quick acceptance establishes learning.",
+        "author": "Choose whether to practice and assess fit; own the final prose and may reject the model’s proposed explanation."
+      },
+      "example": {
+        "input": "An author’s recommendation precedes a condition that limits it.",
+        "operation": "Show the original and a version moving the condition alongside the recommendation; explain that the reader can see when it applies. Offer an analogous new passage for the author to revise independently.",
+        "effect": "Teaches a portable decision about scope without prescribing a stock phrase."
+      },
+      "counterexample": "For an urgent correction or prose-only brief, deliver the revision without instruction. An optional exercise must not become a gate to completion.",
+      "evidence": [
+        "Astra advantage proposes a later unaided task as an outcome, not a proven benefit.",
+        "P12’s one-sentence experiments measure perceived importance and impact, not learning (PDF pp. 9–10).",
+        "P06 vignette experiments test stated sharing likelihood, not writing proficiency (PDF pp. 9–11)."
+      ],
+      "evaluation_needed": "Compare delayed unaided transfer against current skills, retain failures and measure interaction time; require author and reader outcomes alongside source fidelity."
+    }
+  ],
+  "retire_or_change": [
+    "Replace a general smallest-change objective in substantive improvement with smallest intervention that actually resolves the problem; explicitly allow larger restructuring when justified by scope. Keep narrow correction-only behavior.",
+    "Replace implicit single best outline with comparison of materially different, evidence-equivalent routes when doing so serves the task.",
+    "Do not use acceptance, shorter prose, familiarity, lexical novelty, emotional tone or corpus frequency as a universal proxy for voice, originality or quality."
+  ],
+  "nonnegotiable_distinctions": [
+    "Author observation vs model inference vs missing evidence; suggested inquiry is not a factual discovery.",
+    "Voice-bearing choice vs explicit verbatim preservation; productive strangeness vs a reader error.",
+    "Paragraph function labels vs structures, inter-passage relations, temporal experience and observed reader effects. Keep original IDs and allow multiple/unresolved labels; no migration required by these proposals.",
+    "Author preference vs proven audience benefit; clicks/citations/shares vs comprehension and learning.",
+    "Accepted foundations and explicit constraints remain authoritative; data-derived profiles remain observed ranges."
+  ],
+  "questions_for_peers": [
+    "When should the model select a substantially better structure without asking, and how can it avoid imposing the author’s unexpressed preference?",
+    "What evidence distinguishes preserving a deliberate ambiguity from failing to repair a reference?",
+    "How can a genuinely useful objection be introduced without a compulsory adversarial template or fabricated evidence?",
+    "What minimal record supports learning and provenance without recreating the rejected high-burden annotation pipeline?"
+  ]
+}

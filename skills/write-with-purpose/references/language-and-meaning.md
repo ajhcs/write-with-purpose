@@ -12,6 +12,8 @@ Use a pronoun when its referent is clear. Repeat a precise noun when nearby noun
 
 When a conclusion depends on a relationship, supply the link between the stated facts and the judgment. A useful framing sentence can orient the reader before the particulars. Keep precise terms for the relevant concepts and use plain clauses to explain their relationship: what each refers to, how one affects another, or why a fact supports the judgment. A connective can expose that link; it cannot supply missing evidence for it.
 
+An argument that “stayed with me from” a report was not necessarily “first encountered” there. Make the useful connection without adding unsupported personal history. A disclaimer is also a claim: follow an author's correction at its supported scope without inferring a credential or experience they have not specified, and retain independent qualifications that still apply. Repair the unsupported relationship while retaining useful changes around it.
+
 For a proposed change, identify what currently happens and what should happen instead. State the affected object, action and relevant completion condition. A compressed label for the change is useful when the reader can recover the concrete instruction from it. If the reader must reconstruct that instruction, write it directly.
 
 ## Scope and attachment

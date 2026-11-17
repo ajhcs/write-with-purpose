@@ -1,0 +1,1554 @@
+{
+  "status": "Exploratory single-coder full-body reconstruction; body and page layouts reviewed; four list paragraphs excluded from prose metrics",
+  "source_sha256": "495611e01d213eb92218ca1b884f9af22f03827ea734c75cd4985e4673f131e7",
+  "offsets": "Unicode code points in private house-body-candidate.txt, end exclusive",
+  "sections": [
+    {
+      "heading": "What’s So Hard About Design",
+      "page": 2,
+      "bbox": [
+        62.5,
+        121.87999725341797,
+        247.9300079345703,
+        137.1959991455078
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "Building the House",
+      "page": 3,
+      "bbox": [
+        62.5,
+        433.8800048828125,
+        178.82601928710938,
+        449.1960144042969
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "Using the House",
+      "page": 6,
+      "bbox": [
+        62.5,
+        181.8800048828125,
+        159.64601135253906,
+        197.1959991455078
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "The Houses Beyond",
+      "page": 9,
+      "bbox": [
+        62.5,
+        637.8800048828125,
+        179.62400817871094,
+        653.1959838867188
+      ],
+      "kind": "explicit"
+    }
+  ],
+  "paragraphs": [
+    {
+      "source": [
+        {
+          "page": 1,
+          "bbox": [
+            62.5,
+            504.7,
+            296.7,
+            682.7
+          ]
+        }
+      ],
+      "section": "opening",
+      "id": "house-001",
+      "sha256": "8e5a7f9e53daeebe2e971b87176349c9291f4bc75f40f9fbf4d75b3163c5fe28",
+      "functions": [
+        "report",
+        "define"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 0,
+      "char_end": 729
+    },
+    {
+      "source": [
+        {
+          "page": 1,
+          "bbox": [
+            62.5,
+            684.7,
+            296.5,
+            730.7
+          ]
+        },
+        {
+          "page": 1,
+          "bbox": [
+            314.5,
+            504.7,
+            548.6,
+            586.7
+          ]
+        }
+      ],
+      "section": "opening",
+      "id": "house-002",
+      "sha256": "761f0bbab8147c4570a08723ed332524e1972391b7b1c5b15f8b39167d52c3be",
+      "functions": [
+        "define",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 731,
+      "char_end": 1237
+    },
+    {
+      "source": [
+        {
+          "page": 1,
+          "bbox": [
+            314.5,
+            588.7,
+            548.5,
+            622.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            62.5,
+            72.7,
+            296.5,
+            106.7
+          ]
+        }
+      ],
+      "section": "opening",
+      "id": "house-003",
+      "sha256": "561b5a1aa6fd65ebcf1d46765ed9fc7571ca0bdb9502b9f631c9252f14d4c7bc",
+      "functions": [
+        "define"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 1239,
+      "char_end": 1506
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            62.5,
+            144.7,
+            296.6,
+            238.7
+          ]
+        }
+      ],
+      "section": "What’s So Hard About Design",
+      "id": "house-004",
+      "sha256": "913e23f8c02e82472bea2e26827d04d5feea88dbbfded66a485978ab7f2c8e9e",
+      "functions": [
+        "orient",
+        "report",
+        "define"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 1508,
+      "char_end": 1888
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            62.5,
+            240.7,
+            296.7,
+            394.7
+          ]
+        }
+      ],
+      "section": "What’s So Hard About Design",
+      "id": "house-005",
+      "sha256": "27d789b8cd8809c6e1f0a282b4dcbfbefd4be9862edc8741e691617b27959ad7",
+      "functions": [
+        "illustrate",
+        "narrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 1890,
+      "char_end": 2554
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            62.5,
+            396.7,
+            296.5,
+            466.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            314.5,
+            72.7,
+            548.5,
+            94.7
+          ]
+        }
+      ],
+      "section": "What’s So Hard About Design",
+      "id": "house-006",
+      "sha256": "c446424c663a896ec0c9e1ee6affe4a92d7f9c7e55802e55053e64927ccb9c4c",
+      "functions": [
+        "compare",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 2556,
+      "char_end": 2948
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            314.5,
+            96.7,
+            548.5,
+            178.7
+          ]
+        }
+      ],
+      "section": "What’s So Hard About Design",
+      "id": "house-007",
+      "sha256": "e67047dc2382c86bceffe1e1164011d162b3570c009683c8f54e958ce0b85ba5",
+      "functions": [
+        "orient",
+        "assert"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 2950,
+      "char_end": 3268
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            314.5,
+            180.7,
+            548.5,
+            538.7
+          ]
+        }
+      ],
+      "section": "What’s So Hard About Design",
+      "id": "house-008",
+      "sha256": "c28a0b5523371f48b058b1539f9862168ebd34e8d2d72c4ef33b624af481bb7e",
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 3270,
+      "char_end": 3584
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            315.5,
+            540.7,
+            547.6,
+            706.7
+          ]
+        }
+      ],
+      "section": "What’s So Hard About Design",
+      "id": "house-009",
+      "sha256": "e24844a035f3f6add2793e9d99a4372dfbd9d103928216fdf9b370fb72dc5fea",
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 3586,
+      "char_end": 4235
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            62.5,
+            72.7,
+            215.1,
+            250.7
+          ]
+        }
+      ],
+      "section": "What’s So Hard About Design",
+      "id": "house-010",
+      "sha256": "27c9326694fcf06727e4436b8854aa277225252091ceaf39ed34d2554364c9d7",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 4237,
+      "char_end": 4678
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            62.5,
+            252.6,
+            296.5,
+            418.7
+          ]
+        }
+      ],
+      "section": "What’s So Hard About Design",
+      "id": "house-011",
+      "sha256": "f6ce16d7ea432fe17313ea3e3a4a066be482076716d0b71edc9894758269e12a",
+      "functions": [
+        "support",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 4680,
+      "char_end": 5194
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            62.5,
+            456.7,
+            296.6,
+            622.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-012",
+      "sha256": "825818968b67c26c25d76ca245c0017fac3c2f3bd5372594dbfce73f1ab1be65",
+      "functions": [
+        "orient",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 5196,
+      "char_end": 5853
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            62.5,
+            636.6,
+            296.6,
+            730.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            314.5,
+            360.7,
+            548.5,
+            442.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-013",
+      "sha256": "3dfcd7b4c253e2ad2278e2eec41260ce915c677664cadec530f24efacb26dd56",
+      "functions": [
+        "define",
+        "illustrate",
+        "instruct"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "run_in_heading": "What do customers want?",
+      "kind": "paragraph",
+      "char_start": 5855,
+      "char_end": 6553
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            314.5,
+            444.7,
+            548.5,
+            562.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-014",
+      "sha256": "e16cac09ee46c11193eea16822f58e2f74a438c32a18ffac653580ad5ef5886b",
+      "functions": [
+        "define",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 6555,
+      "char_end": 7022
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            314.5,
+            564.7,
+            548.7,
+            706.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-015",
+      "sha256": "0c7833ad755567d574335f0697d41831d5bd24f623c16bbec2ec1ae418227ed4",
+      "functions": [
+        "explain",
+        "qualify"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 7024,
+      "char_end": 7597
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            314.5,
+            708.7,
+            548.6,
+            730.7
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            62.5,
+            264.7,
+            296.5,
+            298.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-016",
+      "sha256": "8ac11ccc9c92117df7edb5fdb5467d4d18f97c55f1d6069e978c1060e9ecf9b0",
+      "functions": [
+        "define",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 7599,
+      "char_end": 7849
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            62.5,
+            312.6,
+            296.5,
+            406.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-017",
+      "sha256": "5600cdb4f216566881d69674b10f31f699ab04f2529229a898e8e6d8f5a5a5e9",
+      "functions": [
+        "illustrate",
+        "compare"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "run_in_heading": "Are all preferences equally important?",
+      "kind": "paragraph",
+      "char_start": 7851,
+      "char_end": 8217
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            62.5,
+            408.7,
+            296.6,
+            574.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-018",
+      "sha256": "31bcce0067574a32b52f60b7d213099746b9cdd3db71dd3f722d0aa9c23a7ff8",
+      "functions": [
+        "explain",
+        "report"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 8219,
+      "char_end": 8918
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            62.5,
+            576.7,
+            296.6,
+            610.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-019",
+      "sha256": "68f7ce839054b9ff09a9e0088c71b6cb202979914f8f9ece98e6d647d0977b6c",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 8920,
+      "char_end": 9054
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            62.5,
+            624.6,
+            296.6,
+            706.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-020",
+      "sha256": "733eb33ad1e55dc1a1ab0711721855d7908f03aebd8c39a48bf6d26f48b14517",
+      "functions": [
+        "orient",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "run_in_heading": "Will delivering perceived needs yield a competitive advantage?",
+      "kind": "paragraph",
+      "char_start": 9056,
+      "char_end": 9301
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            62.5,
+            708.7,
+            296.6,
+            730.7
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            314.5,
+            72.7,
+            548.6,
+            106.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-021",
+      "sha256": "d7d90a4ca9a387ddaafdcb828245b34154b2465c1133b9476a5865c490b30690",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 9303,
+      "char_end": 9545
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            314.5,
+            108.7,
+            548.6,
+            190.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-022",
+      "sha256": "be8dfd92364fa2b069b1d1c7442b2f31bb409afe1990e8b707971355c8f8155f",
+      "functions": [
+        "illustrate",
+        "interpret"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 9547,
+      "char_end": 9903
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            314.5,
+            192.7,
+            548.5,
+            274.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-023",
+      "sha256": "762ea37507ee614f3e3bbae9012afb355afdb4ddab0486099a5756f23543db0e",
+      "functions": [
+        "define",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 9905,
+      "char_end": 10233
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            314.5,
+            288.6,
+            548.6,
+            466.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-024",
+      "sha256": "92fbb6a2910567977ebcab1f3edcc6e65f2327fc0112755acec58fbc10bfbc22",
+      "functions": [
+        "instruct",
+        "define"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "run_in_heading": "How can we change the product?",
+      "kind": "paragraph",
+      "char_start": 10235,
+      "char_end": 10934
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            314.5,
+            468.7,
+            548.5,
+            514.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-025",
+      "sha256": "11e40af8cf2b0e2afdf6b0be989be86f7bf3e543131fef0cdb5d8e19903c3f31",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 10936,
+      "char_end": 11095
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            314.5,
+            516.7,
+            548.7,
+            634.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-026",
+      "sha256": "a1278983de9440dafbc9f0943f8b0f29c182f2dbc7f2a001bee779359d016c77",
+      "functions": [
+        "instruct",
+        "compare"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 11097,
+      "char_end": 11576
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            314.5,
+            636.7,
+            548.6,
+            730.7
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            62.5,
+            72.7,
+            222.0,
+            130.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-027",
+      "sha256": "a63fa3d7080b63f98daee68b5fa4f03f05d060b1a264c0a3492313d698f5f777",
+      "functions": [
+        "instruct",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 11578,
+      "char_end": 12152
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            62.5,
+            144.6,
+            222.1,
+            286.7
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            143.4,
+            276.7,
+            222.0,
+            286.7
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            62.5,
+            288.7,
+            218.6,
+            298.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-028",
+      "sha256": "0199f7a328d77ff612aa7ff3b936024fb7b71519b2d058a706e216fbf79160b2",
+      "functions": [
+        "define",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "run_in_heading": "How much do engineers influence customer-perceived qualities?",
+      "kind": "paragraph",
+      "char_start": 12154,
+      "char_end": 12510
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            62.5,
+            300.7,
+            296.5,
+            406.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-029",
+      "sha256": "5876133611afcda0a3ce07b0ea9cb399f3e6c02fbce87d6a66053ec3e54480ac",
+      "functions": [
+        "instruct",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 12512,
+      "char_end": 12956
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            62.5,
+            408.7,
+            296.6,
+            550.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-030",
+      "sha256": "022c015af339d4426442439b1da6cda6f61626fdec7aa66c6639ec55f4a6646e",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 12958,
+      "char_end": 13526
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            62.5,
+            552.7,
+            296.6,
+            634.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-031",
+      "sha256": "e7be101f5ed3a745f0c2956920b57f58139c609eae2f45c74080bb2fffc1d2a0",
+      "functions": [
+        "compare",
+        "interpret"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 13528,
+      "char_end": 13844
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            62.5,
+            648.6,
+            296.5,
+            730.7
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            314.5,
+            288.7,
+            548.5,
+            322.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-032",
+      "sha256": "dcf31d5309f9f776bf94944ffb619a68cc1b928da134659848241cbc2a58069e",
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "run_in_heading": "How does one engineering change affect other characteristics?",
+      "kind": "paragraph",
+      "char_start": 13846,
+      "char_end": 14275
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            314.5,
+            324.7,
+            548.5,
+            394.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-033",
+      "sha256": "6a38cff5d8035ca8778b562fcc88d10fa1407c21b85332966c43607655f38807",
+      "functions": [
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 14277,
+      "char_end": 14546
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            314.5,
+            396.7,
+            548.6,
+            514.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-034",
+      "sha256": "2e5eb06eb720dfac892280aae8086ab2091fe12781e3b207e21e4d0311fe13c7",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 14548,
+      "char_end": 15016
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            314.5,
+            516.7,
+            548.6,
+            658.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-035",
+      "sha256": "1f219dcd8475ea478da5fd74cd594ef495a7d8053aa856dc931adcbe512f9251",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 15018,
+      "char_end": 15596
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            314.5,
+            660.7,
+            548.6,
+            730.7
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            62.5,
+            72.7,
+            296.5,
+            130.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-036",
+      "sha256": "b1aaa13b63029e67032131d93aa1942d5c33aa896c6cabc241762ed4dc943b40",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 15598,
+      "char_end": 16120
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            62.5,
+            132.7,
+            296.6,
+            166.7
+          ]
+        }
+      ],
+      "section": "Building the House",
+      "id": "house-037",
+      "sha256": "fb49e86fafca0dc38c7522fc54840d2c222b09c741f80616b0d694f1f6e663a8",
+      "functions": [
+        "qualify",
+        "instruct"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 16122,
+      "char_end": 16256
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            62.5,
+            204.7,
+            296.6,
+            250.7
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            314.5,
+            72.7,
+            548.6,
+            142.7
+          ]
+        }
+      ],
+      "section": "Using the House",
+      "id": "house-038",
+      "sha256": "dc526ab422acf53886f1a369dd7e8470b48ead84904d945cb87cc49e0077e7de",
+      "functions": [
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 16258,
+      "char_end": 16739
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            314.5,
+            144.7,
+            548.5,
+            178.7
+          ]
+        }
+      ],
+      "section": "Using the House",
+      "id": "house-039",
+      "sha256": "7b9efe1ee268412d1fc13783e9238c45aa01c05f42eb259958905b188316cf02",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 16741,
+      "char_end": 16884
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            314.5,
+            180.7,
+            548.5,
+            202.7
+          ]
+        }
+      ],
+      "section": "Using the House",
+      "id": "house-040",
+      "sha256": "b352cc780c906e9cc3089fb0ba77b3ba225f24d8684c601270ab63447f2f8d4c",
+      "functions": [
+        "orient"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 16886,
+      "char_end": 16980
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            314.5,
+            204.6,
+            548.5,
+            250.7
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            62.5,
+            576.7,
+            296.5,
+            694.7
+          ]
+        }
+      ],
+      "section": "Using the House",
+      "id": "house-041",
+      "sha256": "c8cdaceea849e8548a3c0fa571b05ea1d1fea2f6f015c5524d50a5fa42f04ad6",
+      "functions": [
+        "instruct",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 16982,
+      "char_end": 17668
+    },
+    {
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            62.5,
+            696.7,
+            296.5,
+            730.7
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            314.5,
+            576.7,
+            548.6,
+            730.7
+          ]
+        }
+      ],
+      "section": "Using the House",
+      "id": "house-042",
+      "sha256": "f9287114724c4043e194ef8f06da9225b08b0a66bac0994d16ea982a4e877c39",
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "list_item",
+      "char_start": 17670,
+      "char_end": 18497
+    },
+    {
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            62.5,
+            72.7,
+            296.5,
+            226.7
+          ]
+        },
+        {
+          "page": 8,
+          "bbox": [
+            314.5,
+            72.7,
+            548.5,
+            106.7
+          ]
+        }
+      ],
+      "section": "Using the House",
+      "id": "house-043",
+      "sha256": "766875bbde6d944c111455fecc5cca58753ddde7f960919f3b614f199dc7308f",
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "list_item",
+      "char_start": 18499,
+      "char_end": 19273
+    },
+    {
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            314.5,
+            108.7,
+            548.6,
+            142.7
+          ]
+        }
+      ],
+      "section": "Using the House",
+      "id": "house-044",
+      "sha256": "b1a20c0b97f2e4c7301052bd58c9d3820826e034b36a881fbf3c8b4f41d97c34",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "list_item",
+      "char_start": 19275,
+      "char_end": 19415
+    },
+    {
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            314.5,
+            144.7,
+            548.6,
+            226.7
+          ]
+        },
+        {
+          "page": 9,
+          "bbox": [
+            62.5,
+            588.7,
+            296.5,
+            622.7
+          ]
+        }
+      ],
+      "section": "Using the House",
+      "id": "house-045",
+      "sha256": "886ac2252fb19d48b145c71baee044c743c049eab285b7c9c693b79f44a6a0b7",
+      "functions": [
+        "instruct",
+        "qualify"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "list_item",
+      "char_start": 19417,
+      "char_end": 19900
+    },
+    {
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            62.5,
+            660.7,
+            296.8,
+            730.7
+          ]
+        },
+        {
+          "page": 9,
+          "bbox": [
+            314.5,
+            588.7,
+            548.6,
+            670.7
+          ]
+        }
+      ],
+      "section": "The Houses Beyond",
+      "id": "house-046",
+      "sha256": "ca353269c8a9570632740f747cedc69bee0983dbd02046c3337f7fdb562d035f",
+      "functions": [
+        "define",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 19902,
+      "char_end": 20536
+    },
+    {
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            314.5,
+            672.7,
+            548.6,
+            730.7
+          ]
+        },
+        {
+          "page": 11,
+          "bbox": [
+            62.5,
+            360.7,
+            296.6,
+            406.7
+          ]
+        }
+      ],
+      "section": "The Houses Beyond",
+      "id": "house-047",
+      "sha256": "e2b88952b728fc8f7428e3034198359bda15e2b0287428e0924c4a35b145d2d9",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 20538,
+      "char_end": 20972
+    },
+    {
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            62.5,
+            408.7,
+            296.6,
+            550.7
+          ]
+        }
+      ],
+      "section": "The Houses Beyond",
+      "id": "house-048",
+      "sha256": "7c99489e9957c554ac14e3b211955cb121fa4eb7b4162a1f8d8c021cc958e57d",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 20974,
+      "char_end": 21507
+    },
+    {
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            62.5,
+            552.7,
+            296.5,
+            586.7
+          ]
+        },
+        {
+          "page": 11,
+          "bbox": [
+            314.5,
+            360.7,
+            548.6,
+            418.7
+          ]
+        }
+      ],
+      "section": "The Houses Beyond",
+      "id": "house-049",
+      "sha256": "113c26b09560495137925ad5f30ec779f57e4d2d3dd4558920016e9c665b4a51",
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 21509,
+      "char_end": 21902
+    },
+    {
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            314.5,
+            420.7,
+            548.6,
+            502.7
+          ]
+        }
+      ],
+      "section": "The Houses Beyond",
+      "id": "house-050",
+      "sha256": "f83dd6931b98e1bd32ce4755043dc5b0110eb31640712b13c8610a2390ba318f",
+      "functions": [
+        "qualify",
+        "assert"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 21904,
+      "char_end": 22245
+    },
+    {
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            314.5,
+            504.7,
+            548.6,
+            574.7
+          ]
+        }
+      ],
+      "section": "The Houses Beyond",
+      "id": "house-051",
+      "sha256": "205026c3d83a17e6404b690630981361a31f4941729b4c8f5a45803055af6b92",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "exploratory review of visual pages and assembled prose; lines near exhibits and hyphenation remain uncertain",
+      "label_status": "exploratory single coder; review against source required",
+      "kind": "paragraph",
+      "char_start": 22247,
+      "char_end": 22541
+    }
+  ]
+}

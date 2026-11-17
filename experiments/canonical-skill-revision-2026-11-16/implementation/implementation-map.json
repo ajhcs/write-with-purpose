@@ -1,0 +1,243 @@
+{
+  "status": "Canonical content implemented and held stable for parent fresh-context execution",
+  "accepted_direction": "wwp-debate-0.1.1; implementation direction, not efficacy evidence",
+  "skill_creator_source": "/home/builderbob/.codex/skills/.system/skill-creator/SKILL.md",
+  "versions": {
+    "write-with-purpose": "0.4.0-alpha.6",
+    "edit-with-purpose": "0.3.0-alpha.6"
+  },
+  "implementation_map": [
+    {
+      "id": "R01",
+      "behavior": "Infer correction/polish versus improvement/new drafting; inspect whole requested work; improvement searches for a better thought, structure or expression even if adequate; no local-failure prerequisite.",
+      "files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/edit-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/structure-and-purpose.md",
+        "skills/edit-with-purpose/references/structure-and-purpose.md",
+        "skills/edit-with-purpose/references/local-edits.md",
+        "skills/edit-with-purpose/references/plain-language-edit.md"
+      ],
+      "retired": "Global smallest-diff interpretation, defect-only trigger, serial one-at-a-time constraint and mandatory exact-plan workflow for every saved edit.",
+      "limits": "Correction-only/fixed-order/protected wording constraints remain; improvement does not require a rewrite if no candidate earns its tradeoff."
+    },
+    {
+      "id": "R02",
+      "behavior": "Separate author conclusion, supported connective and proposed interpretation; test useful alternative/boundary and develop grounded claim without inventing premise or endorsement.",
+      "files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/edit-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/structure-and-purpose.md",
+        "skills/edit-with-purpose/references/structure-and-purpose.md"
+      ],
+      "retired": "Treating a cautious model bridge as sufficient grounds for an author thesis; preserving a revisable recommendation as though it were a fact.",
+      "limits": "Only materially blocking evidence/intent leads to a question; unaffected work continues; no exhaustive map for ordinary connective edits."
+    },
+    {
+      "id": "R03",
+      "behavior": "Compare a meaningful dependency/condition/experience change through actual decisive prose; select and execute a warranted local or coordinated revision.",
+      "files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/edit-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/structure-and-purpose.md",
+        "skills/edit-with-purpose/references/structure-and-purpose.md",
+        "skills/edit-with-purpose/references/local-edits.md"
+      ],
+      "retired": "Mandatory two drafts, superficial renamed alternatives, analytic productivity requirement for artistic effects, minimum footprint as merit.",
+      "limits": "Comparison is conditional and proportional; unclear effect/original can stand; model judgment is not reader success."
+    },
+    {
+      "id": "R04",
+      "behavior": "Gate ambiguity resolution by ordinary action versus explicit definition/boundary/annotation/reliability objective; preserve unassessed/absent/unresolved and independent research disagreement.",
+      "files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/edit-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/functions-and-ambiguity.md",
+        "skills/edit-with-purpose/references/functions-and-ambiguity.md"
+      ],
+      "retired": "Forcing exhaustive runtime labels or dismissing research disagreement because no edit would change.",
+      "limits": "Twelve IDs retained; original source labels/units stay distinct; presence/adequacy/truth and anchors/full extents separate; no new validator or gold claims."
+    },
+    {
+      "id": "B01",
+      "behavior": "Preserve author authority, actual constraints, meaningful terms, voice, source scope, attribution and factual status.",
+      "files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/edit-with-purpose/SKILL.md"
+      ],
+      "retired": "Inferred literal locks from meaning preferences; equating strangeness with intended voice.",
+      "limits": "Approved mandatory style/article copies unchanged and identical; supported correction of erroneous or overstated source claims remains contextual."
+    },
+    {
+      "id": "B02",
+      "behavior": "Visible Family\u2192Form\u2192Section for substantial planning/structural work; functional blanks; nine descriptive feature groups; ranges/targets/limits separated.",
+      "files": [
+        "skills/write-with-purpose/references/structure-and-purpose.md",
+        "skills/edit-with-purpose/references/structure-and-purpose.md"
+      ],
+      "retired": "Source sentence stems, platform-based form defaults, observed medians as targets.",
+      "limits": "No required printed headings, taxonomy quiz, new family inventory or numerical profiles."
+    },
+    {
+      "id": "B03",
+      "behavior": "Use real supported contracts on final scoped bytes; inspect per-check status/enforcement/advisories; review semantic remainder separately.",
+      "files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/edit-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/checks.md",
+        "skills/edit-with-purpose/references/mechanical-checks.md",
+        "skills/edit-with-purpose/references/local-edits.md"
+      ],
+      "retired": "Generic pass claims, stale receipt reuse, false body-scope inference and file-hash claims about later chat delivery.",
+      "limits": "Scripts unchanged: exact literal and max-word/growth contract; other real constraints need separate checks; editor can use an available counter without writer helper."
+    },
+    {
+      "id": "B04",
+      "behavior": "Explain choices when requested or part of learning; practice after writing when chosen; requested worked solution delivered directly.",
+      "files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/edit-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/structure-and-purpose.md",
+        "skills/edit-with-purpose/references/structure-and-purpose.md"
+      ],
+      "retired": "Homework after a rationale request or attempt-first blocking a worked solution.",
+      "limits": "No acceptance-as-learning claim or mandatory exercise."
+    }
+  ],
+  "changed_files": [
+    {
+      "path": "skills/edit-with-purpose/SKILL.md",
+      "change": "revised",
+      "before_sha256": "99779aadcc1e66f41bd30448b84c6598cfd8e66d1aa71f4dc1d32f0e4d12abef",
+      "after_sha256": "7b612c6b8253ffc2b1926ac826cfd2fd32c65b72a57e564a808522a8739bbea5"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/functions-and-ambiguity.md",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "3de26e14bbad14a17188a874541357512331059da10ce08dbb1bc35d0db17501"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/local-edits.md",
+      "change": "revised",
+      "before_sha256": "713b9a09d5b298b07d6a4cfef2501afdd83480fe8918f0be266abf8f6e3e2797",
+      "after_sha256": "fc3bc0b8917c1ceecc162f0b670937b4f6f909fb1c0a890eacb44fd0c0584a80"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/mechanical-checks.md",
+      "change": "revised",
+      "before_sha256": "2bf2875d96d356922efb8b2d6be7cf98b6ebb2b297cd40bd6831862f92b08af0",
+      "after_sha256": "d4ba34812241ba7092f21716fbc4d5528e9c03c583954b1989275190d25d23dd"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/plain-language-edit.md",
+      "change": "revised",
+      "before_sha256": "279a62a3cdb1f73f1d21e8e0316704206f54e8125d48087f724a416983b4b5a4",
+      "after_sha256": "193a9cc6332da1b4d6c94735d7db0539313c693d7b48304acac1025132efd987"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/structure-and-purpose.md",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "ca7bed5792f329df5d357e0ad0e36c007d0eaf1bbb3927ebe44ab07c81ce0434"
+    },
+    {
+      "path": "skills/write-with-purpose/SKILL.md",
+      "change": "revised",
+      "before_sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365",
+      "after_sha256": "9c2824bae19c6aeef0e13845124b98c1805f4b2b0901bb61b4b537fbe287748b"
+    },
+    {
+      "path": "skills/write-with-purpose/references/checks.md",
+      "change": "revised",
+      "before_sha256": "27e8a948eeea5f9b5a68449d7ecf8657dee103e621be1c2a6f839cd8dd9d9cce",
+      "after_sha256": "ef94e377abaa223a5b4b2f53724eb8c2c1749b60704b91e26df939a52279b538"
+    },
+    {
+      "path": "skills/write-with-purpose/references/functions-and-ambiguity.md",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "3de26e14bbad14a17188a874541357512331059da10ce08dbb1bc35d0db17501"
+    },
+    {
+      "path": "skills/write-with-purpose/references/structure-and-purpose.md",
+      "change": "revised",
+      "before_sha256": "4bd8556194c70d6588a39334b68ce029749ae5b4b84a5deb98610cc750e3d4a2",
+      "after_sha256": "ca7bed5792f329df5d357e0ad0e36c007d0eaf1bbb3927ebe44ab07c81ce0434"
+    }
+  ],
+  "code": {
+    "changed": false,
+    "reason": "Existing tools already provide the observable requested contracts, exact source-bound edits and hashes. No observed capability gap justifies a new helper or semantic linter.",
+    "scripts": [
+      "skills/write-with-purpose/scripts/check_text.py",
+      "skills/edit-with-purpose/scripts/edit_locally.py"
+    ],
+    "tests_changed": false,
+    "unsupported_automation": [
+      "Installed check hooks",
+      "Automatic binding of checked files to chat/export delivery",
+      "Function inference or validation",
+      "Semantic preservation/voice scoring",
+      "Automatic form-specific numerical targets"
+    ]
+  },
+  "independence": {
+    "self_contained_references": "Structure and functions references are identical local copies in both skill packages; neither entrypoint requires loading the other skill.",
+    "optional_checker": "Editor reuses writer helper only if already available; otherwise uses an available counter or states material limitation.",
+    "style": "Both required author-style files and approved articles remain byte-identical to baseline and to each other.",
+    "review": "Requested independent review remains fresh-context when available/authorized; no mandatory writer-editor chain."
+  },
+  "validation": {
+    "quick_validate_write": "passed",
+    "quick_validate_edit": "passed",
+    "python_tests": {
+      "command": "TMPDIR=/workspace/build/builderbob/write-with-purpose/canonical-skill-revision-2026-11-16/tmp python3 -m unittest discover -s tests -v",
+      "passed": 47,
+      "failed": 0,
+      "scope": "Existing CLI and mechanical invariants only; not writing quality."
+    },
+    "links": "all local Markdown link targets resolve",
+    "style_and_shared_references": "hash checks passed",
+    "forward_execution": "Parent owns matched baseline/revised tasks and independent source audit; outcomes not asserted here.",
+    "output_retention": {
+      "status": "summary_only",
+      "detail": "Both quick_validate calls and the 47-test run completed successfully in tool output, but raw output and exit-code receipts were not retained to repository logs. Parent was notified to run one official captured revised qualification; do not treat these summaries as retained command receipts."
+    }
+  },
+  "parent_owned_metadata_recommendations": {
+    "plugin_version": "0.6.0-alpha.6",
+    "description": "Draft, edit and improve prose through purposeful development, proportionate revision and separate meaning checks. Includes optional read-only checks and source-bound file edits.",
+    "shortDescription": "Write, edit and improve purposeful prose.",
+    "longDescription": "Develop the author\u2019s ideas and improve reasoning, structure and expression within the requested scope. Preserve voice, technical meaning and source fidelity; compare consequential alternatives and use optional mechanical checks without treating them as quality scores.",
+    "README": "Describe inferred depth, independent usable skills, conditional actual-prose alternatives and separate source/meaning checks. State script versions and code unchanged; no installed hooks or new semantic scoring.",
+    "docs/evaluation.md": "Record exact snapshot and fresh-context execution scope;47 CLI tests and validators establish bounded invariants, while synthetic tasks provide provisional behavioral evidence only.",
+    "work-index": "Add canonical implementation and fresh execution as a new stage, preserving historical failed calibration and unvalidated taxonomy status."
+  },
+  "scope_preserved": [
+    "No canonical function catalogue edits",
+    "No historical debate/evidence/calibration edits",
+    "No global install, commit or release",
+    "No new agents, helper code, package installs or external messages"
+  ],
+  "review_fixes": [
+    {
+      "id": "review-fix-01",
+      "record": "review-fix-01.json",
+      "summary": "Remove a learning-sequence ambiguity that could put writing before explicitly requested attempt-first practice. The actual request determines sequence.",
+      "canonical_content": "stable; no metadata version bump"
+    },
+    {
+      "id": "review-fix-02",
+      "record": "review-fix-02.json",
+      "summary": "An observed L02 development failure supplied an already-composed target sentence as source facts before inviting the author to practise that sentence. Sequence alone did not preserve the chosen writing operation.",
+      "canonical_content": "stable; no metadata version bump"
+    },
+    {
+      "id": "review-fix-03",
+      "record": "review-fix-03.json",
+      "summary": "Parent reported an E06 execution artifact containing the correct Methods sentence followed by an unlabelled explanatory paragraph, despite a request for Methods text plus a separate unsupported-claim flag. Restore an explicit delivery boundary for publishable prose and editorial/source notes.",
+      "canonical_content": "stable; no metadata version bump"
+    }
+  ]
+}

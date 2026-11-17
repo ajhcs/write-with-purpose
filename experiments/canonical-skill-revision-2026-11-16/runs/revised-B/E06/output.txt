@@ -1,0 +1,3 @@
+We warmed the samples to 40 °C for 10 min.
+
+The claim that warming improves accuracy is unsupported by the supplied evidence: the study did not compare temperature conditions or accuracy effects. The instruction that readers should warm their samples is also unsupported and does not belong in this Methods report.

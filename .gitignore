@@ -7,3 +7,6 @@ Thumbs.db
 .env
 .env.*
 node_modules/
+
+# Full web-page capture preserved in the local research checkpoint.
+/experiments/dataset-adoption-2026-11-16/bawe-record.html

@@ -1,0 +1,16 @@
+{
+  "empirical": {
+    "query": "OPEN_ACCESS:y AND FIRST_PDATE:[1900-01-01 TO 2014-12-31] AND (PUB_TYPE:\"Randomized Controlled Trial\") SORT_CITED:y",
+    "hit_count": 17743,
+    "returned": 1000,
+    "provider": "Europe PMC REST search",
+    "snapshot_utc": "2026-11-16T01:06:35.898567+00:00"
+  },
+  "methods": {
+    "query": "OPEN_ACCESS:y AND JOURNAL:MethodsX SORT_CITED:y",
+    "hit_count": 4101,
+    "returned": 1000,
+    "provider": "Europe PMC REST search",
+    "snapshot_utc": "2026-11-16T01:06:42.439761+00:00"
+  }
+}

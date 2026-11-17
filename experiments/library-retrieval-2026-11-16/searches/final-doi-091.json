@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_06",
+      "doi": "10.1103/revmodphys.81.1727",
+      "title": "Colloquium: The Einstein-Podolsky-Rosen paradox: From concepts to applications",
+      "authors": "[\"M. D. Reid\", \"P. D. Drummond\", \"W. P. Bowen\", \"E. G. Cavalcanti\", \"P. K. Lam\", \"H. A. Bachor\", \"U. L. Andersen\", \"G. Leuchs\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"The Einstein-Podolsky-Rosen paradox: From concepts to applications\" Reid filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_06",
+      "query": "\"The Einstein-Podolsky-Rosen paradox: From concepts to applications\" Reid filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Metrological complementarity reveals the Einstein-Podolsky-Rosen paradox",
+          "url": "https://www.nature.com/articles/s41467-021-22353-3.pdf",
+          "score": 0.625
+        },
+        {
+          "title": "<i>Colloquium</i>: The Einstein-Podolsky-Rosen paradox: From concepts to applications",
+          "url": "https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.81.1727",
+          "score": 1
+        },
+        {
+          "title": "Colloquium: The Einstein-Podolsky-Rosen paradox: From concepts to applications",
+          "url": "https://researchportalplus.anu.edu.au/en/publications/colloquium-the-einstein-podolsky-rosen-paradox-from-concepts-to-a/",
+          "score": 1
+        },
+        {
+          "title": "Colloquium - The Einstein-Podolsky-Rosen Paradox, From Concepts To Applications | PDF",
+          "url": "https://www.scribd.com/document/776430458/Colloquium-The-Einstein-Podolsky-Rosen-paradox-From-concepts-to-applications",
+          "score": 1
+        },
+        {
+          "title": "Colloquium: The Einstein-Podolsky-Rosen paradox: From concepts to applications",
+          "url": "https://orbit.dtu.dk/en/publications/colloquium-the-einstein-podolsky-rosen-paradox-from-concepts-to-a/",
+          "score": 1
+        },
+        {
+          "title": "Colloquium: The Einstein-Podolsky-Rosen paradox: From concepts to applications",
+          "url": "https://www.academia.edu/28465793/Colloquium_The_Einstein_Podolsky_Rosen_paradox_From_concepts_to_applications",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

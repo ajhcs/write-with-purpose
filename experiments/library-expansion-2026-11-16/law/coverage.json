@@ -1,0 +1,197 @@
+[
+  {
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w407944384",
+      "law_w3005895493",
+      "law_edwards_1979"
+    ],
+    "reason": "Three primary-repository reflective examples, including a speech and a later adaptation; readership is not verified and full text requires screening."
+  },
+  {
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w46302826",
+      "law_w143173597",
+      "law_w2989863638"
+    ],
+    "reason": "Three original legal arguments, screened provisionally from article records."
+  },
+  {
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w1578338854",
+      "law_w2657814049",
+      "law_w2319044928"
+    ],
+    "reason": "Three reviews of specific books, not the books; reviewer and pagination should be confirmed in original journal."
+  },
+  {
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_rulemaking",
+      "law_avoidance",
+      "law_executive_orders"
+    ],
+    "reason": "Three historical CRS overview reports catalogued by university government-documents repository; limited readership signals."
+  },
+  {
+    "form_id": "tutorial",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 2,
+    "candidate_ids": [
+      "law_duke",
+      "law_osborne"
+    ],
+    "reason": "Two potential examples; one is a 2013 teaching-methods paper with exercises and one is an undated current research tutorial. No third verified."
+  },
+  {
+    "form_id": "procedure_how_to",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w2152242095",
+      "law_start_civil",
+      "law_service_process"
+    ],
+    "reason": "One 2010 historical how-to plus two current undated federal court procedural sheets; the latter are exploratory rather than historical targets."
+  },
+  {
+    "form_id": "reference_entry",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_wex_judicial",
+      "law_wex_consideration",
+      "law_wex_research"
+    ],
+    "reason": "Three current Cornell Wex entries with review dates in 2023–2025, original dates unknown; exploratory contemporary comparisons, not pre-2015 verified versions."
+  },
+  {
+    "form_id": "empirical_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w3123985438",
+      "law_w2177794968",
+      "law_w4237793781"
+    ],
+    "reason": "Three published empirical studies including crime-policy work; one is a 2015–2019 supplement."
+  },
+  {
+    "form_id": "methods_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w1501821359",
+      "law_w2058917614",
+      "law_w2171128603"
+    ],
+    "reason": "Three legal methods papers; causal inference examples identified by original publisher descriptions."
+  },
+  {
+    "form_id": "theory_conceptual_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w3023063752",
+      "law_w2166987116",
+      "law_w2337002970"
+    ],
+    "reason": "Three conceptual contributions grounded in legal theory."
+  },
+  {
+    "form_id": "case_report",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Clinical case-report form does not map directly to judicial opinions or doctrinal case commentary; case studies may be considered only with a separately defined analogue."
+  },
+  {
+    "form_id": "study_review_protocol",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w2956864763",
+      "law_w2590707784",
+      "law_w2959253837"
+    ],
+    "reason": "Three research protocols adjacent to law via policing policy; two are 2015–2019 supplements."
+  },
+  {
+    "form_id": "narrative_critical_literature_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w2140991056",
+      "law_w2130554796",
+      "law_w2160783861"
+    ],
+    "reason": "Three actual scholarly literature syntheses, including a 2015 supplement; distinct from doctrinal essays and book reviews."
+  },
+  {
+    "form_id": "scoping_review",
+    "status": "no_verified_targets",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Applicable to public-policy research; no pre-2020 eligible study verified."
+  },
+  {
+    "form_id": "systematic_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w2186243923",
+      "law_w2112915715",
+      "law_w2180537218"
+    ],
+    "reason": "Three Campbell reviews are criminology/policing policy, not doctrinal legal reviews."
+  },
+  {
+    "form_id": "proposal",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_incarceration",
+      "law_visa",
+      "law_saving"
+    ],
+    "reason": "Three public-policy proposals from primary publisher records, not claims of accepted policy."
+  },
+  {
+    "form_id": "decision_memo",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_china_trade",
+      "law_sudan",
+      "law_biafra"
+    ],
+    "reason": "Three actual historical recommendations for decisions in primary U.S. government diplomatic records; one is transmitted by telegram."
+  }
+]

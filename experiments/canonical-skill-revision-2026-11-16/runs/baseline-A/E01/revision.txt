@@ -1,0 +1,2 @@
+The sensor does not transmit while the valve is closed. In the current prototype it records pressure every 5 s. We have not tested it outdoors.
+

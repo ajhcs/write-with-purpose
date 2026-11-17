@@ -1,0 +1,123 @@
+{
+  "batch": 0,
+  "queries": [
+    {
+      "candidate_key": "business:business_020",
+      "doi": "",
+      "title": "How I Did It: Giving Up the CEO Seat",
+      "authors": "[\"Jeffrey Hollender\"]",
+      "field": "business_management",
+      "q": "\"How I Did It: Giving Up the CEO Seat\" pdf"
+    },
+    {
+      "candidate_key": "business:business_021",
+      "doi": "",
+      "title": "How I Did It: The CEO of Aramex on Turning a Failed Sale into a Huge Opportunity",
+      "authors": "[\"Fadi Ghandour\"]",
+      "field": "business_management",
+      "q": "\"How I Did It: The CEO of Aramex on Turning a Failed Sale into a Huge Opportunity\" pdf"
+    },
+    {
+      "candidate_key": "business:business_022",
+      "doi": "",
+      "title": "How Will You Measure Your Life?",
+      "authors": "[\"Clayton M. Christensen\"]",
+      "field": "business_management",
+      "q": "\"How Will You Measure Your Life?\" pdf"
+    },
+    {
+      "candidate_key": "business:business_023",
+      "doi": "",
+      "title": "What Is Strategy?",
+      "authors": "[\"Michael E. Porter\"]",
+      "field": "business_management",
+      "q": "\"What Is Strategy?\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_020",
+      "query": "\"How I Did It: Giving Up the CEO Seat\" pdf",
+      "urls": [
+        {
+          "title": "How I Did It: The CEO of Aramex on Turning a Failed Sale into a Huge Opportunity",
+          "url": "https://hbr.org/2011/03/how-i-did-it-the-ceo-of-aramex-on-turning-a-failed-sale-into-a-huge-opportunity",
+          "score": 0.6666666666666666,
+          "body_score": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_021",
+      "query": "\"How I Did It: The CEO of Aramex on Turning a Failed Sale into a Huge Opportunity\" pdf",
+      "urls": [
+        {
+          "title": "How I Did It: The CEO of Aramex on Turning a Failed Sale into a Huge Opportunity",
+          "url": "https://hbr.org/2011/03/how-i-did-it-the-ceo-of-aramex-on-turning-a-failed-sale-into-a-huge-opportunity",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_022",
+      "query": "\"How Will You Measure Your Life?\" pdf",
+      "urls": [
+        {
+          "title": "How will you measure your life?",
+          "url": "https://skipprichard.com/how-will-you-measure-your-life/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Are You Making the Most Out of Life? Here's How You Can.",
+          "url": "https://time.com/61989/are-you-making-the-most-out-of-life-heres-how-you-can/",
+          "score": 0.5,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_023",
+      "query": "\"What Is Strategy?\" pdf",
+      "urls": [
+        {
+          "title": "View of WHAT IS STRATEGY?",
+          "url": "https://jurnal.uny.ac.id/index.php/jpakun/article/view/1788/1482",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "What is Strategy? East and West",
+          "url": "https://www.researchgate.net/publication/264861465_What_is_Strategy_East_and_West",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Chapter 1 What Is Strategy | PDF",
+          "url": "https://www.scribd.com/document/932234489/Chapter-1-What-is-Strategy",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "What is Strategy?",
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1gyqi77",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Strategy Is What You Say No To: A No-Bullsh*t Guide for CMOs",
+          "url": "https://www.reddit.com/r/CMO_Huddles/comments/1vvpo0o/strategy_is_what_you_say_no_to_a_nobullsht_guide/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Why Is Strategy So Difficult?",
+          "url": "https://www.theatlantic.com/ideas/2026/10/strategy-military-politics-war/689072/?utm_source=openai",
+          "score": 0.5,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

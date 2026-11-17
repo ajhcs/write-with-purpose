@@ -1,0 +1,16 @@
+{
+  "verified_utc": "2026-11-16T19:30:39.183088+00:00",
+  "artifact_hashes_verified": 48,
+  "comparison_rows": 159,
+  "mapping_kinds": {
+    "conditional": 87,
+    "partial": 23,
+    "none": 37,
+    "relation_only": 12
+  },
+  "source_review_hashes_verified": 6,
+  "json_csv_rows_agree": true,
+  "source_profile_count": 11,
+  "gum_primary_secondary_reconcile": true,
+  "scope": "Transport hashes, structure, observed counts and metadata consistency only. Function mappings and writing norms remain unvalidated."
+}

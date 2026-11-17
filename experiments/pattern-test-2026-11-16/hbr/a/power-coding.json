@@ -1,0 +1,2952 @@
+{
+  "article": "The Power of Talk",
+  "pdf_sha256": "c97652cef05d7fed50328f5a87b4fcaa8c20af7fe36c1eaece9ff80c6f6c98a9",
+  "private_text_sha256": "2393caa6d820ac75aa4c55668dc08f31061057cc03c32e4814ad365fc834493c",
+  "sections": [
+    {
+      "id": "opening",
+      "type": "inferred",
+      "label": "Opening"
+    },
+    {
+      "id": "linguistic-style",
+      "label": "What Is Linguistic Style?",
+      "type": "explicit",
+      "page": 3,
+      "bbox": [
+        62.5,
+        622.7160034179688,
+        206.76998901367188,
+        641.6019897460938
+      ]
+    },
+    {
+      "id": "one-up",
+      "label": "One Up, One Down",
+      "type": "explicit",
+      "page": 5,
+      "bbox": [
+        62.5,
+        586.7160034179688,
+        183.74002075195312,
+        605.6019897460938
+      ]
+    },
+    {
+      "id": "runin-5-19",
+      "label": "Getting Credit",
+      "type": "explicit_run_in",
+      "page": 5,
+      "bbox": [
+        314.5,
+        130.7,
+        548.81,
+        310.83
+      ],
+      "note": "shares block with body"
+    },
+    {
+      "id": "runin-6-1",
+      "label": "Confidence and Boasting",
+      "type": "explicit_run_in",
+      "page": 6,
+      "bbox": [
+        62.5,
+        94.7,
+        296.72,
+        166.83
+      ],
+      "note": "shares block with body"
+    },
+    {
+      "id": "runin-6-4",
+      "label": "Asking Questions",
+      "type": "explicit_run_in",
+      "page": 6,
+      "bbox": [
+        62.5,
+        538.7,
+        299.71,
+        706.83
+      ],
+      "note": "shares block with body"
+    },
+    {
+      "id": "rituals",
+      "label": "Conversational Rituals",
+      "type": "explicit",
+      "page": 6,
+      "bbox": [
+        314.5,
+        418.71600341796875,
+        447.5420227050781,
+        437.60198974609375
+      ]
+    },
+    {
+      "id": "runin-7-1",
+      "label": "Apologies",
+      "type": "explicit_run_in",
+      "page": 7,
+      "bbox": [
+        72.5,
+        94.7,
+        296.54,
+        106.85
+      ],
+      "note": "shares block with body"
+    },
+    {
+      "id": "runin-7-9",
+      "label": "Feedback",
+      "type": "explicit_run_in",
+      "page": 7,
+      "bbox": [
+        314.5,
+        94.7,
+        548.71,
+        274.83
+      ],
+      "note": "shares block with body"
+    },
+    {
+      "id": "runin-8-0",
+      "label": "Compliments",
+      "type": "explicit_run_in",
+      "page": 8,
+      "bbox": [
+        62.5,
+        70.7,
+        299.33,
+        262.83
+      ],
+      "note": "shares block with body"
+    },
+    {
+      "id": "runin-8-27",
+      "label": "Ritual Opposition",
+      "type": "explicit_run_in",
+      "page": 8,
+      "bbox": [
+        314.5,
+        250.7,
+        548.72,
+        310.83
+      ],
+      "note": "shares block with body"
+    },
+    {
+      "id": "authority",
+      "label": "Negotiating Authority",
+      "type": "explicit",
+      "page": 9,
+      "bbox": [
+        62.5,
+        466.71600341796875,
+        197.12399291992188,
+        485.60198974609375
+      ]
+    },
+    {
+      "id": "runin-9-6",
+      "label": "Managing Up and Down",
+      "type": "explicit_run_in",
+      "page": 9,
+      "bbox": [
+        62.5,
+        586.7,
+        296.66,
+        610.83
+      ],
+      "note": "shares block with body"
+    },
+    {
+      "id": "runin-10-4",
+      "label": "Indirectness",
+      "type": "explicit_run_in",
+      "page": 10,
+      "bbox": [
+        62.5,
+        466.7,
+        299.5,
+        730.83
+      ],
+      "note": "shares block with body"
+    },
+    {
+      "id": "what-to-do",
+      "label": "What to Do?",
+      "type": "explicit",
+      "page": 11,
+      "bbox": [
+        314.5,
+        430.71600341796875,
+        391.8500061035156,
+        449.60198974609375
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "power-001",
+      "section": "opening",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 2,
+          "block": 6,
+          "bbox": [
+            62.5,
+            430.93,
+            296.75,
+            574.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "illustrate",
+        "orient"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 0,
+        "end": 573,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "4c1ddd90abd124fc710198b78eccb9a07b65c5683b1bc17df506d817b5905455"
+    },
+    {
+      "id": "power-002",
+      "section": "opening",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 2,
+          "block": 7,
+          "bbox": [
+            62.5,
+            574.93,
+            296.73,
+            658.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 575,
+        "end": 900,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "1d6ddd6a6972bf3d7e5a72f20d173ecdadf61f4dae77ca7ee5ca0c7c95553b0d"
+    },
+    {
+      "id": "power-003",
+      "section": "opening",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 2,
+          "block": 8,
+          "bbox": [
+            62.5,
+            658.93,
+            296.77,
+            730.83
+          ]
+        },
+        {
+          "page": 2,
+          "block": 0,
+          "bbox": [
+            314.5,
+            430.93,
+            549.43,
+            490.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "illustrate",
+        "interpret"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 902,
+        "end": 1438,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "6420d59f48c44c068c2d8e38417d9169febfddd394660d7012ce21975b1bb6a8"
+    },
+    {
+      "id": "power-004",
+      "section": "opening",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 2,
+          "block": 1,
+          "bbox": [
+            314.5,
+            490.93,
+            551.31,
+            610.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 1440,
+        "end": 1908,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "5cc8d67779cc4ba6be64eb4dea824a978082be29a47f21b09bc061bcb5218ce2"
+    },
+    {
+      "id": "power-005",
+      "section": "opening",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 2,
+          "block": 2,
+          "bbox": [
+            314.5,
+            610.93,
+            548.66,
+            634.83
+          ]
+        },
+        {
+          "page": 3,
+          "block": 1,
+          "bbox": [
+            62.5,
+            430.93,
+            296.59,
+            502.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "orient"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 1910,
+        "end": 2268,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "5add5d2fcd2a20fd043aa7b09f7a73d8db0908a2a5d917a0fd86b7c4f8632cee"
+    },
+    {
+      "id": "power-006",
+      "section": "opening",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 3,
+          "block": 2,
+          "bbox": [
+            62.5,
+            502.93,
+            296.73,
+            610.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 2270,
+        "end": 2702,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "7409d0420149fcc15b55f50a7b267182800a049942d9b8a1df23e63194f4bd94"
+    },
+    {
+      "id": "power-007",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 3,
+          "block": 4,
+          "bbox": [
+            62.5,
+            646.93,
+            299.34,
+            730.83
+          ]
+        },
+        {
+          "page": 3,
+          "block": 5,
+          "bbox": [
+            314.5,
+            430.93,
+            548.76,
+            538.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "define"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 2704,
+        "end": 3505,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "4c581686123d5943085f70f21fcfb1e9fc8a64d0c370f20eb4627659481d9b0c"
+    },
+    {
+      "id": "power-008",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 3,
+          "block": 6,
+          "bbox": [
+            314.5,
+            538.93,
+            548.78,
+            730.83
+          ]
+        },
+        {
+          "page": 4,
+          "block": 0,
+          "bbox": [
+            62.5,
+            70.93,
+            299.36,
+            262.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "define",
+        "illustrate",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 3507,
+        "end": 5095,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "7796c020866f743a52f97095b0b385679e7ae0fab990b546323edcd743d7d8ee"
+    },
+    {
+      "id": "power-009",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 4,
+          "block": 1,
+          "bbox": [
+            62.5,
+            262.93,
+            299.65,
+            514.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 5097,
+        "end": 6132,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "5b0d7e3d1eb955f642e16bb79b6308913c1d7ad670fc6ba8f513e6bb56281705"
+    },
+    {
+      "id": "power-010",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 4,
+          "block": 2,
+          "bbox": [
+            62.5,
+            514.93,
+            296.78,
+            706.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "explain",
+        "support"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 6134,
+        "end": 6904,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "a90af7d108c69b7cbfc4776c228d885603b5c2fcf9678b2cdc2cf5361dd5950b"
+    },
+    {
+      "id": "power-011",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 4,
+          "block": 3,
+          "bbox": [
+            62.5,
+            706.93,
+            296.55,
+            730.83
+          ]
+        },
+        {
+          "page": 4,
+          "block": 4,
+          "bbox": [
+            314.5,
+            70.93,
+            548.75,
+            262.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 6906,
+        "end": 7769,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "00399e4f63e28c2144007ae31b4f1daa1fe383d5304db48791554d47dad15ce6"
+    },
+    {
+      "id": "power-012",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 4,
+          "block": 5,
+          "bbox": [
+            314.5,
+            262.93,
+            548.79,
+            442.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "explain",
+        "compare"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 7771,
+        "end": 8504,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "90eb4fd7bf83419cc3ec198a8a73f83821547d14ea3c988b3717a4b2b9f896b0"
+    },
+    {
+      "id": "power-013",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 4,
+          "block": 6,
+          "bbox": [
+            314.5,
+            442.93,
+            548.77,
+            586.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "qualify",
+        "interpret"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 8506,
+        "end": 9101,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "4cc713065706ba4571a175ece8c8608234a2e255f15918df98d169775c0dd9ef"
+    },
+    {
+      "id": "power-014",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 4,
+          "block": 7,
+          "bbox": [
+            314.5,
+            586.93,
+            548.74,
+            730.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 9103,
+        "end": 9684,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "e3b84b7048c1cc55957211ddfe4b9f539f00c62245299110acccac01cc2bc54d"
+    },
+    {
+      "id": "power-015",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 0,
+          "bbox": [
+            67.11,
+            70.93,
+            296.59,
+            94.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 1,
+          "bbox": [
+            79.85,
+            94.93,
+            296.75,
+            106.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 2,
+          "bbox": [
+            86.27,
+            106.93,
+            296.56,
+            118.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 3,
+          "bbox": [
+            96.37,
+            118.93,
+            296.7,
+            130.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 4,
+          "bbox": [
+            100.86,
+            130.93,
+            296.54,
+            142.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 5,
+          "bbox": [
+            97.3,
+            142.93,
+            296.66,
+            178.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 9686,
+        "end": 10076,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "8580631067cdbfffcbcfb89863acd9c69b7bdb1ed2234553fb2ca116d0a14ad7"
+    },
+    {
+      "id": "power-016",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 6,
+          "bbox": [
+            81.42,
+            178.93,
+            296.57,
+            214.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 7,
+          "bbox": [
+            84.49,
+            214.93,
+            296.56,
+            226.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 8,
+          "bbox": [
+            81.42,
+            226.93,
+            296.68,
+            262.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 9,
+          "bbox": [
+            86.69,
+            262.93,
+            296.56,
+            274.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 10,
+          "bbox": [
+            94.33,
+            274.93,
+            296.45,
+            286.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 11,
+          "bbox": [
+            101.96,
+            286.93,
+            296.54,
+            298.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 12,
+          "bbox": [
+            88.29,
+            298.93,
+            296.74,
+            346.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "qualify"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 10078,
+        "end": 10678,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "928382c47bc699fd5a29d0fea12db499e91e873e840f1543b3ae4833f982bf2b"
+    },
+    {
+      "id": "power-017",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 13,
+          "bbox": [
+            82.9,
+            394.93,
+            296.55,
+            418.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 14,
+          "bbox": [
+            62.5,
+            418.93,
+            296.74,
+            514.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "narrate",
+        "support"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 10680,
+        "end": 11121,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "8f3b666f6cd629dcedbfeb819f39ce8d80e7928dc2fb351f93a5f9ed9e3657a6"
+    },
+    {
+      "id": "power-018",
+      "section": "linguistic-style",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 15,
+          "bbox": [
+            62.5,
+            514.93,
+            296.72,
+            574.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 11123,
+        "end": 11359,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "a95506863578747271998ee03daa64d93d304032a82806d33731e75bcf2160e6"
+    },
+    {
+      "id": "power-019",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 17,
+          "bbox": [
+            62.5,
+            610.93,
+            296.8,
+            730.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 18,
+          "bbox": [
+            314.5,
+            70.93,
+            548.68,
+            130.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "compare"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 11361,
+        "end": 12073,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "8a911bc65058715f1e4864e9f5330190f98d8756c70579bfb33bc6255179def7"
+    },
+    {
+      "id": "power-020",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 19,
+          "bbox": [
+            314.5,
+            130.7,
+            548.81,
+            310.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "report",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 12075,
+        "end": 12773,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "217f966de849d89fe1ebe75d5de0bc218ff369ea249338c40bd66496c9ff56d1"
+    },
+    {
+      "id": "power-021",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 20,
+          "bbox": [
+            314.5,
+            310.93,
+            548.75,
+            346.83
+          ]
+        },
+        {
+          "page": 5,
+          "block": 21,
+          "bbox": [
+            314.5,
+            394.93,
+            548.75,
+            430.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 12775,
+        "end": 13042,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "f67c23e7bf9d1384d9159eb0b926471fa0600c9661070571ae3508db286cf29e"
+    },
+    {
+      "id": "power-022",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 22,
+          "bbox": [
+            314.5,
+            430.93,
+            548.77,
+            562.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 13044,
+        "end": 13576,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "b48a16b6c4e3a46063f3563029c190ca0b33f8f771d7054d7392c738f7685a62"
+    },
+    {
+      "id": "power-023",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 23,
+          "bbox": [
+            314.5,
+            562.93,
+            548.79,
+            610.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 13578,
+        "end": 13759,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "b435660073a1f9add54a5daa32d722596327e07e3818d9246b1820cc7103604e"
+    },
+    {
+      "id": "power-024",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 5,
+          "block": 24,
+          "bbox": [
+            314.5,
+            610.93,
+            551.66,
+            730.83
+          ]
+        },
+        {
+          "page": 6,
+          "block": 0,
+          "bbox": [
+            62.5,
+            70.93,
+            296.59,
+            94.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 13761,
+        "end": 14309,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "1352f3b6262232e742c2d8ef85ba8c455865f958e227af1dba456f619283a20b"
+    },
+    {
+      "id": "power-025",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 1,
+          "bbox": [
+            62.5,
+            94.7,
+            296.72,
+            166.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 14311,
+        "end": 14579,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "1aac535a65eb6c4cd6a3f1f435b021d3481e58af7b57c298fe48e07372d8bcda"
+    },
+    {
+      "id": "power-026",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 2,
+          "bbox": [
+            62.5,
+            166.93,
+            296.75,
+            418.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "support"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 14581,
+        "end": 15610,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "98cf9f30cadc936602dda3e35658a78fa11a56c2a66f0aa1d3888845bc2fdba1"
+    },
+    {
+      "id": "power-027",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 3,
+          "bbox": [
+            62.5,
+            418.93,
+            296.69,
+            538.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 15612,
+        "end": 16052,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "8258ef3379bd206641de811b9c78d878abb1b951d9158c477bdbf0e194202ea0"
+    },
+    {
+      "id": "power-028",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 4,
+          "bbox": [
+            62.5,
+            538.7,
+            299.71,
+            706.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 16054,
+        "end": 16688,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "e38219ff3da3c28acb57945c8cb1ecd257561ce686adc21b8992c572e729b735"
+    },
+    {
+      "id": "power-029",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 5,
+          "bbox": [
+            62.5,
+            706.93,
+            296.62,
+            730.83
+          ]
+        },
+        {
+          "page": 6,
+          "block": 6,
+          "bbox": [
+            314.5,
+            70.93,
+            548.76,
+            154.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 16690,
+        "end": 17131,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "9290956b0ab446fe6ffc336fdc869f1c4db571fc7c45069bc2a06e49c9044eac"
+    },
+    {
+      "id": "power-030",
+      "section": "one-up",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 7,
+          "bbox": [
+            314.5,
+            154.93,
+            548.77,
+            406.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "explain",
+        "qualify"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 17133,
+        "end": 18170,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "c4f67815a88867713f64ffa7c38f94d9e104347851bb3c1039201a880eeb3066"
+    },
+    {
+      "id": "power-031",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 9,
+          "bbox": [
+            314.5,
+            442.93,
+            548.78,
+            502.83
+          ]
+        },
+        {
+          "page": 6,
+          "block": 10,
+          "bbox": [
+            314.5,
+            550.93,
+            548.76,
+            670.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "define",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 18172,
+        "end": 18892,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "5fc3d0d6dd8d0ad36fb297f9e8247ca2b3107922393e3673c648e774e0dde85f"
+    },
+    {
+      "id": "power-032",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 6,
+          "block": 11,
+          "bbox": [
+            314.5,
+            670.93,
+            548.75,
+            730.83
+          ]
+        },
+        {
+          "page": 7,
+          "block": 0,
+          "bbox": [
+            62.5,
+            70.93,
+            296.71,
+            94.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "orient",
+        "interpret"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 18894,
+        "end": 19230,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "dbd8fec1660f8f4030f710f2295fe4a40022699b72db6f4ef0af3d045dde7c81"
+    },
+    {
+      "id": "power-033",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 1,
+          "bbox": [
+            72.5,
+            94.7,
+            296.54,
+            106.85
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 19232,
+        "end": 19269,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "86d34d1e39b69f89b7da4ed3424cb20037f9bfa12042ed3eca3af665ff3e67ea"
+    },
+    {
+      "id": "power-034",
+      "section": "rituals",
+      "kind": "dialogue",
+      "source": [
+        {
+          "page": 7,
+          "block": 2,
+          "bbox": [
+            62.5,
+            109.68,
+            296.74,
+            164.59
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 19271,
+        "end": 19494,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "e57700dbeead4b2db8257d63891d63074eebdd3be59b835260d0ae1e0c6e6c70"
+    },
+    {
+      "id": "power-035",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 3,
+          "bbox": [
+            62.5,
+            166.93,
+            296.73,
+            334.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 19496,
+        "end": 20186,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "4be7933fb07f16b86e4a752bd868916d0f82118acbfe7c07475e079bf7d9df2f"
+    },
+    {
+      "id": "power-036",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 4,
+          "bbox": [
+            62.5,
+            334.93,
+            296.76,
+            502.83
+          ]
+        },
+        {
+          "page": 7,
+          "block": 5,
+          "bbox": [
+            62.5,
+            550.93,
+            296.82,
+            622.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "compare",
+        "explain",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 20188,
+        "end": 21158,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "5ce1943c114aa4b109090e422042e3cd68515f2432a4d8f8abe10efd6e32a3f5"
+    },
+    {
+      "id": "power-037",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 6,
+          "bbox": [
+            62.5,
+            622.93,
+            297.44,
+            730.83
+          ]
+        },
+        {
+          "page": 7,
+          "block": 8,
+          "bbox": [
+            314.5,
+            70.93,
+            548.52,
+            94.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "qualify",
+        "compare"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 21160,
+        "end": 21670,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "28fba55ff7c9a5c85a007f9ba3f875b99363c540981320c1ad13bf8fbc60666e"
+    },
+    {
+      "id": "power-038",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 9,
+          "bbox": [
+            314.5,
+            94.7,
+            548.71,
+            274.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "illustrate",
+        "narrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 21672,
+        "end": 22300,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "9f473fa6b2a2de10afbd250383746715fef1fd830f6f735f7decbd79687a3541"
+    },
+    {
+      "id": "power-039",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 10,
+          "bbox": [
+            314.5,
+            274.93,
+            495.08,
+            478.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "interpret"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 22302,
+        "end": 22863,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "4c663083498c6b1cb32dbdad2f2b3b909eee7e6256b3b04196eaabf51d09199a"
+    },
+    {
+      "id": "power-040",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 7,
+          "block": 11,
+          "bbox": [
+            314.5,
+            478.93,
+            487.75,
+            502.83
+          ]
+        },
+        {
+          "page": 7,
+          "block": 12,
+          "bbox": [
+            314.5,
+            550.93,
+            548.72,
+            730.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 22865,
+        "end": 23533,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "1a5eba3a76a0a18e752ba488f35b379bdd928e500ae4d7e10ddcb167fcbafa04"
+    },
+    {
+      "id": "power-041",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 0,
+          "bbox": [
+            62.5,
+            70.7,
+            299.33,
+            262.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 23535,
+        "end": 24263,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "d7a4a5cbe4e5e5082df5e8e7e1a929d39467203dedf68347da6316ca5fe062b7"
+    },
+    {
+      "id": "power-042",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 1,
+          "bbox": [
+            62.5,
+            262.93,
+            296.68,
+            286.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 2,
+          "bbox": [
+            64.4,
+            286.93,
+            296.51,
+            298.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 3,
+          "bbox": [
+            67.28,
+            298.93,
+            296.59,
+            310.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 4,
+          "bbox": [
+            67.9,
+            310.93,
+            296.58,
+            322.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 5,
+          "bbox": [
+            68.53,
+            322.93,
+            296.6,
+            334.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 6,
+          "bbox": [
+            69.43,
+            334.93,
+            296.59,
+            346.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 7,
+          "bbox": [
+            76.76,
+            346.93,
+            296.55,
+            358.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 8,
+          "bbox": [
+            81.43,
+            358.93,
+            296.7,
+            370.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 9,
+          "bbox": [
+            84.35,
+            370.93,
+            296.56,
+            382.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 10,
+          "bbox": [
+            87.26,
+            382.93,
+            296.52,
+            394.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 11,
+          "bbox": [
+            90.18,
+            394.93,
+            299.65,
+            406.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 12,
+          "bbox": [
+            93.09,
+            406.93,
+            296.4,
+            418.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 13,
+          "bbox": [
+            96.0,
+            418.93,
+            296.67,
+            430.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 14,
+          "bbox": [
+            96.73,
+            430.93,
+            296.6,
+            454.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 24265,
+        "end": 24971,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "5b96870020aefc224df682381697661a35968afffb8f7b04a12a18e832ad57a5"
+    },
+    {
+      "id": "power-043",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 15,
+          "bbox": [
+            92.74,
+            454.93,
+            296.57,
+            478.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 16,
+          "bbox": [
+            94.88,
+            478.93,
+            296.72,
+            490.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 17,
+          "bbox": [
+            101.09,
+            490.93,
+            296.58,
+            502.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 18,
+          "bbox": [
+            107.3,
+            502.93,
+            296.64,
+            514.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 19,
+          "bbox": [
+            113.51,
+            514.93,
+            296.53,
+            526.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 20,
+          "bbox": [
+            119.72,
+            526.93,
+            296.57,
+            538.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 21,
+          "bbox": [
+            125.93,
+            538.93,
+            296.52,
+            550.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 22,
+          "bbox": [
+            105.31,
+            550.93,
+            296.56,
+            586.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "qualify",
+        "report",
+        "support"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 24973,
+        "end": 25381,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "4085879b9de8e5c1fe0d0863c97260785910cb9c9c5ced5a319c963562ba97d5"
+    },
+    {
+      "id": "power-044",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 23,
+          "bbox": [
+            100.65,
+            586.93,
+            296.67,
+            610.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 24,
+          "bbox": [
+            82.7,
+            658.93,
+            296.44,
+            670.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 25,
+          "bbox": [
+            62.5,
+            670.93,
+            296.72,
+            730.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "compare",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 25383,
+        "end": 25745,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "fe911a899e408ed4d12c2913fdfe4de16eeec0166bb69cce1fe5e32d19cd3f42"
+    },
+    {
+      "id": "power-045",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 26,
+          "bbox": [
+            314.5,
+            70.93,
+            548.78,
+            250.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 25747,
+        "end": 26478,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "e3b764e8617f62a396958e53902c1ff4dac8fb225e712bb4f58dc20e5a5936ae"
+    },
+    {
+      "id": "power-046",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 27,
+          "bbox": [
+            314.5,
+            250.7,
+            548.72,
+            310.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "define",
+        "compare"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 26480,
+        "end": 26695,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "be4f3e05174581fe1a82a4b51ca259986dd770ef529027c19fa8ec8688165428"
+    },
+    {
+      "id": "power-047",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 28,
+          "bbox": [
+            314.5,
+            310.93,
+            549.49,
+            454.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 26697,
+        "end": 27279,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "46ebfc6c284b562f07dd6ca8d672e9bc2c24881cd0d63c750f89a93be65af918"
+    },
+    {
+      "id": "power-048",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 29,
+          "bbox": [
+            314.5,
+            454.93,
+            548.73,
+            574.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "define",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 27281,
+        "end": 27774,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "77f85625929b7c7c28f554344d9e397666ee15f0a264bfc569920784dea25197"
+    },
+    {
+      "id": "power-049",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 8,
+          "block": 30,
+          "bbox": [
+            314.5,
+            574.93,
+            551.39,
+            610.83
+          ]
+        },
+        {
+          "page": 8,
+          "block": 31,
+          "bbox": [
+            314.5,
+            658.93,
+            548.75,
+            730.83
+          ]
+        },
+        {
+          "page": 9,
+          "block": 0,
+          "bbox": [
+            62.5,
+            70.93,
+            299.58,
+            118.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 27776,
+        "end": 28387,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "2481c0166180c227eef6ee3c226d82e1a9e8fead146da7ee5493ae7657261ad0"
+    },
+    {
+      "id": "power-050",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 1,
+          "bbox": [
+            62.5,
+            118.93,
+            296.78,
+            154.83
+          ]
+        },
+        {
+          "page": 9,
+          "block": 2,
+          "bbox": [
+            62.5,
+            286.93,
+            296.81,
+            382.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 28389,
+        "end": 28934,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "66e7a7143fef63b337a27d3a323133e232cbad241de819bb34a9d228d8bfc845"
+    },
+    {
+      "id": "power-051",
+      "section": "rituals",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 3,
+          "bbox": [
+            62.5,
+            382.93,
+            296.72,
+            454.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "interpret"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 28936,
+        "end": 29232,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "c9002406ccccfbadb7d464443c21b1f4825f2937e94c423b421bca3b0f3b18c8"
+    },
+    {
+      "id": "power-052",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 5,
+          "bbox": [
+            62.5,
+            490.93,
+            296.75,
+            586.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "define",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 29234,
+        "end": 29617,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "d8496d77ae3feaaa34521411fefab48cc2ac95ddb9e8d52d7f069510a7720c70"
+    },
+    {
+      "id": "power-053",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 6,
+          "bbox": [
+            62.5,
+            586.7,
+            296.66,
+            610.83
+          ]
+        },
+        {
+          "page": 9,
+          "block": 7,
+          "bbox": [
+            62.5,
+            658.93,
+            296.78,
+            730.83
+          ]
+        },
+        {
+          "page": 9,
+          "block": 8,
+          "bbox": [
+            314.5,
+            70.93,
+            548.72,
+            154.83
+          ]
+        },
+        {
+          "page": 9,
+          "block": 9,
+          "bbox": [
+            380.5,
+            154.93,
+            548.65,
+            178.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 29619,
+        "end": 30380,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "8cf1df575e2eea039a39113c7dd99408f20ba7832c9a3348577819a434e2d5ff"
+    },
+    {
+      "id": "power-054",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 10,
+          "bbox": [
+            314.5,
+            178.93,
+            548.8,
+            430.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 30382,
+        "end": 31265,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "d855adfedba86e4be5a2e8c41064747cef902d37d40c83b6191249233e08b0a7"
+    },
+    {
+      "id": "power-055",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 11,
+          "bbox": [
+            314.5,
+            430.93,
+            548.73,
+            502.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 31267,
+        "end": 31578,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "bdb157700e48eb03f171cb5e3d0d11ca10b75b931383a11faf15098580b1bce4"
+    },
+    {
+      "id": "power-056",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 12,
+          "bbox": [
+            314.5,
+            502.93,
+            548.72,
+            634.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 31580,
+        "end": 32122,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "4505a4c2f1d3e68edcf32a36fc2202e1b23a42ce1e88cb66a56b13ae1c94544e"
+    },
+    {
+      "id": "power-057",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 9,
+          "block": 13,
+          "bbox": [
+            314.5,
+            634.93,
+            548.76,
+            730.83
+          ]
+        },
+        {
+          "page": 10,
+          "block": 0,
+          "bbox": [
+            62.5,
+            70.93,
+            296.75,
+            154.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "support"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 32124,
+        "end": 32829,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "663e35a87eca947444c292951292e45b3fc5f0689d45da880e42ed561eb5c4ad"
+    },
+    {
+      "id": "power-058",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 1,
+          "bbox": [
+            62.5,
+            154.93,
+            296.72,
+            190.83
+          ]
+        },
+        {
+          "page": 10,
+          "block": 2,
+          "bbox": [
+            62.5,
+            298.93,
+            296.75,
+            382.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 32831,
+        "end": 33304,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "afc67517fb7c3f8690020694d5356d51e59f7b6a676cf346653f18c9043ffd11"
+    },
+    {
+      "id": "power-059",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 3,
+          "bbox": [
+            62.5,
+            382.93,
+            296.75,
+            466.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "qualify",
+        "compare"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 33306,
+        "end": 33618,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "d5deca5502b70fbc05c1dac9efbbdd551237047246fcd3d48ce16802fd875625"
+    },
+    {
+      "id": "power-060",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 4,
+          "bbox": [
+            62.5,
+            466.7,
+            299.5,
+            730.83
+          ]
+        },
+        {
+          "page": 10,
+          "block": 5,
+          "bbox": [
+            314.5,
+            70.93,
+            549.32,
+            94.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "define",
+        "compare"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 33620,
+        "end": 34759,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "15efc1b998b79565b87b0f47aea6e5e9cb4645fd141dadcb380ff871eb1aadd9"
+    },
+    {
+      "id": "power-061",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 6,
+          "bbox": [
+            314.5,
+            94.93,
+            548.75,
+            190.83
+          ]
+        },
+        {
+          "page": 10,
+          "block": 7,
+          "bbox": [
+            380.5,
+            190.93,
+            548.57,
+            202.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "compare",
+        "explain",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 34761,
+        "end": 35197,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "a71195bdef4085d8fab6fd1cc49ba69e374d80f0bd9b348873b45147ba24f11b"
+    },
+    {
+      "id": "power-062",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 8,
+          "bbox": [
+            314.5,
+            202.93,
+            551.6,
+            478.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "report",
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 35199,
+        "end": 36234,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "386c8a9b987d3c221598a766447e6ff0516af5a7472ff8bf4bdf557b66bd834d"
+    },
+    {
+      "id": "power-063",
+      "section": "authority",
+      "kind": "dialogue",
+      "source": [
+        {
+          "page": 10,
+          "block": 9,
+          "bbox": [
+            314.5,
+            481.68,
+            548.67,
+            525.61
+          ]
+        },
+        {
+          "page": 10,
+          "block": 10,
+          "bbox": [
+            314.5,
+            525.88,
+            548.78,
+            580.58
+          ]
+        },
+        {
+          "page": 10,
+          "block": 11,
+          "bbox": [
+            314.5,
+            580.87,
+            548.73,
+            679.56
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 36236,
+        "end": 36994,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "3105e9ba3096dea586611e92e5a378c0e67941fa46853418f3a9354620c9914b"
+    },
+    {
+      "id": "power-064",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 10,
+          "block": 12,
+          "bbox": [
+            314.5,
+            682.93,
+            548.76,
+            730.83
+          ]
+        },
+        {
+          "page": 11,
+          "block": 0,
+          "bbox": [
+            62.5,
+            70.77,
+            296.76,
+            130.67
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "report"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 36996,
+        "end": 37446,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "37652d9d5df1b96f12ad0c8841a4bf86c4715e4d5e36a3d102612bb65562d28d"
+    },
+    {
+      "id": "power-065",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 1,
+          "bbox": [
+            62.5,
+            130.93,
+            297.49,
+            274.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "illustrate",
+        "compare",
+        "qualify"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 37448,
+        "end": 38028,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "de2f410fe97a2279c54194be0f381d5d5ea642c28ba21f40ed468595850cfd5f"
+    },
+    {
+      "id": "power-066",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 2,
+          "bbox": [
+            62.5,
+            274.93,
+            296.75,
+            406.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 38030,
+        "end": 38542,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "c654eddae97dd602cab94bb1cd8d132146c6ebdf838c66ae71c51a15ddf3b745"
+    },
+    {
+      "id": "power-067",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 3,
+          "bbox": [
+            62.5,
+            406.93,
+            296.81,
+            550.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 38544,
+        "end": 39112,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "1cedcbdfa9ad6c86015647e9927c6f0668725e1a87bfdea0a5018ba973c994f2"
+    },
+    {
+      "id": "power-068",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 4,
+          "bbox": [
+            62.5,
+            550.93,
+            297.41,
+            730.83
+          ]
+        },
+        {
+          "page": 11,
+          "block": 5,
+          "bbox": [
+            314.5,
+            70.93,
+            548.8,
+            178.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "explain",
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 39114,
+        "end": 40285,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "b5a29689ff71d972c5c3eab7390ced3f89429835b584c60d2a52b47b22dbfd1e"
+    },
+    {
+      "id": "power-069",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 6,
+          "bbox": [
+            314.5,
+            178.93,
+            548.8,
+            286.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 40287,
+        "end": 40703,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "b2d0a94e5284ad1ab89105de21f2d212e3e2250a80750afa55934752377b867a"
+    },
+    {
+      "id": "power-070",
+      "section": "authority",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 7,
+          "bbox": [
+            314.5,
+            286.93,
+            548.74,
+            418.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "interpret",
+        "qualify"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 40705,
+        "end": 41223,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "17e92c5627c6b8c6a3c3f9f32dc01e18e161c06282c13913a90f9080cc86335b"
+    },
+    {
+      "id": "power-071",
+      "section": "what-to-do",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 9,
+          "bbox": [
+            314.5,
+            454.93,
+            548.78,
+            634.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "qualify"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 41225,
+        "end": 41969,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "6f31a6dbb5c869ab0c08a84948901a88730ba1899ca50f1ca510ae6b76162030"
+    },
+    {
+      "id": "power-072",
+      "section": "what-to-do",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 11,
+          "block": 10,
+          "bbox": [
+            314.5,
+            634.93,
+            548.75,
+            730.83
+          ]
+        },
+        {
+          "page": 12,
+          "block": 0,
+          "bbox": [
+            62.5,
+            70.93,
+            296.81,
+            286.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 41971,
+        "end": 43252,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "64301ad79d4eba7405d7ebe7ac24eac754e2e2e64388a6529024c5417e8e3c8c"
+    },
+    {
+      "id": "power-073",
+      "section": "what-to-do",
+      "kind": "prose",
+      "source": [
+        {
+          "page": 12,
+          "block": 1,
+          "bbox": [
+            314.5,
+            70.93,
+            548.76,
+            286.83
+          ]
+        }
+      ],
+      "boundary_confidence": "reviewed-layout; normalization provisional",
+      "functions": [
+        "assert",
+        "qualify"
+      ],
+      "coding_status": "single-coder interpretive; multiple labels allowed",
+      "span": {
+        "start": 43254,
+        "end": 44125,
+        "unit": "Unicode code points in private power-body.txt"
+      },
+      "sha256": "7feaa7cbd4622f39af025e2e8635194bfbf29fd670f15e98e42c455d9bd7b8c0"
+    }
+  ],
+  "caveats": [
+    "Single coder; functions are interpretive and not inter-rater agreement.",
+    "Separate dialogue from prose before metrics.",
+    "Hyphenation and some cross-page paragraph boundaries remain uncertain; do not claim complete clean-body metrics without further audit."
+  ]
+}

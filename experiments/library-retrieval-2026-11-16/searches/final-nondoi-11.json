@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p12",
+      "doi": "",
+      "title": "Arrested Development",
+      "authors": "[\"Virginia Hughes\"]",
+      "field": "personal_public_writing",
+      "q": "\"Arrested Development\" Hughes pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p12",
+      "query": "\"Arrested Development\" Hughes pdf",
+      "urls": [
+        {
+          "title": "Arrested development. Season 4 | Greenville County",
+          "url": "https://aspen.greenvillelibrary.org/Record/182911",
+          "score": 1
+        },
+        {
+          "title": "NTNU Open: Financial Times: Economic and Industrial Temporalities in Netflix’s Arrested Development",
+          "url": "https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2479319?locale-attribute=en",
+          "score": 1
+        },
+        {
+          "title": "Financial Times: Economic and Industrial Temporalities in Netflix’s Arrested Development",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/1527476417742973?download=true",
+          "score": 1
+        },
+        {
+          "title": "Wiley-VCH - Arrested Development and Philosophy",
+          "url": "https://www.wiley-vch.de/en/areas-interest/humanities-social-sciences/philosophy-12pl/general-philosophy-12pl0/arrested-development-and-philosophy-978-0-470-57559-8",
+          "score": 1
+        },
+        {
+          "title": "Arrested Development: The Girls Who Never Seem to Age - Pacific Standard",
+          "url": "https://psmag.com/social-justice/arrested-development-girls-never-seem-age-87449/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

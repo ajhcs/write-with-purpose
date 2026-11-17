@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-theory_conceptual_paper-2",
+      "doi": "10.1007/s10464-005-6233-6",
+      "title": "A theoretical framework for understanding help-seeking processes among survivors of intimate partner violence.",
+      "authors": "[\"Liang B\", \"Goodman L\", \"Tummala-Narra P\", \"Weintraub S\"]",
+      "field": "medicine_health",
+      "q": "\"A theoretical framework for understanding help-seeking processes among\" Liang filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-theory_conceptual_paper-2",
+      "query": "\"A theoretical framework for understanding help-seeking processes among\" Liang filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Liang, B., Goodman, L., Tummala-Narra, P. & Weintraub, S. (2005). A theoretical framework for understanding help-seeking processes among survivors of intimate partner violence. *American Journal of Community Psychology, 36*(1-2), 71-84.",
+          "url": "https://www.unisa.ac.za/static/corporate_web/Content/News%20%26%20Media/Articles/Documents/ilobolo-manuscript-2016.pdf",
+          "score": 1
+        },
+        {
+          "title": "Liang, B., Goodman, L., Tummala-Narra, P. et Weintraub, S. (2005). A Theoretical Framework for Understanding Help-Seeking Processes Among Survivors of Intimate Partner Violence, *American Journal of Community Psychology*, 36 (1/2), 71-84.",
+          "url": "https://www.cicc-iccc.org/public/media/files/prod/bourses_recipiendaires_file/Anne-Marie_Nolet_rapport_recherche-societe_doctorat.pdf",
+          "score": 1
+        },
+        {
+          "title": "A Theoretical Framework for Understanding Help-Seeking Processes Among Survivors of Intimate Partner Violence",
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1007/s10464-005-6233-6",
+          "score": 1
+        },
+        {
+          "title": "A Theoretical Framework for Understanding Help-Seeking Processes Among Survivors of Intimate Partner Violence",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1007/s10464-005-6233-6",
+          "score": 1
+        },
+        {
+          "title": "A theoretical framework for understanding help-seeking processes among survivors of intimate partner violence",
+          "url": "https://www.canyam.com/en/article/a-theoretical-framework-for-understanding-help-seeking-processes-among-survivors-of-intimate-partner-violence/20690879",
+          "score": 1
+        },
+        {
+          "title": "A theoretical framework for understanding help-seeking processes among survivors of intimate partner violence",
+          "url": "https://anrows.intersearch.com.au/entities/publication/08477147-2e20-46b9-8f02-e02a3fc0b0b5/full",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

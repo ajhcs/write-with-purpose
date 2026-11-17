@@ -1,0 +1,101 @@
+{
+  "batch": 6,
+  "queries": [
+    {
+      "candidate_key": "business:business_043",
+      "doi": "10.4135/9781452276090.n192",
+      "title": "Organizational Culture Theory",
+      "field": "business_management",
+      "q": "\"Organizational Culture Theory\" pdf"
+    },
+    {
+      "candidate_key": "business:business_044",
+      "doi": "10.1002/9781118785317.weom120077",
+      "title": "Competitive Advantage",
+      "field": "business_management",
+      "q": "\"Competitive Advantage\" pdf"
+    },
+    {
+      "candidate_key": "business:business_045",
+      "doi": "10.1002/9781118785317.weom120169",
+      "title": "Strategic Management",
+      "field": "business_management",
+      "q": "\"Strategic Management\" pdf"
+    },
+    {
+      "candidate_key": "business:business_046",
+      "doi": "10.1108/lhs-02-2017-0007",
+      "title": "Authentic leadership in healthcare: a scoping review",
+      "field": "business_management",
+      "q": "\"Authentic leadership in healthcare: a scoping review\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_043",
+      "query": "\"Organizational Culture Theory\" pdf",
+      "urls": [
+        {
+          "title": "Chapter 9. Culture, Leadership, and Independent Evaluation",
+          "url": "https://www.elibrary.imf.org/display/book/9781475546675/ch009.xml",
+          "score": 0.3333333333333333,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_044",
+      "query": "\"Competitive Advantage\" pdf",
+      "urls": [
+        {
+          "title": "26 — COMPETITIVE ADVANTAGE",
+          "url": "https://elearning.unimib.it/pluginfile.php/1150522/mod_resource/content/1/Competitive_Advantage_Porter.pdf?forcedownload=1",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Creating Competitive Advantage",
+          "url": "https://store.hbr.org/product/creating-competitive-advantage/798062",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_045",
+      "query": "\"Strategic Management\" pdf",
+      "urls": [
+        {
+          "title": "Staff View: Strategic management (second edition) :: Library Catalog",
+          "url": "https://cendekia.unisza.edu.my/neuaxis-e/Record/upm-38038/Details",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Strategic Management 5th Edition PDF",
+          "url": "https://www.reddit.com/r/textbooksrequest/comments/10ydltl",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Strategic Management (6th Edition)",
+          "url": "https://www.reddit.com/r/pdftextbooks/comments/1ai4n4z",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_046",
+      "query": "\"Authentic leadership in healthcare: a scoping review\" pdf",
+      "urls": [
+        {
+          "title": "Authentic leadership in healthcare: a scoping review",
+          "url": "https://oulurepo.oulu.fi/bitstream/handle/10024/24924/nbnfi-fe2019100230836.pdf?isAllowed=y&sequence=1",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

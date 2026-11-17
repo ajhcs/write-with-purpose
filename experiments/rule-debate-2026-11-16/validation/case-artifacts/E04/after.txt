@@ -1,0 +1,1 @@
+This operation is idempotent: retrying it any number of times leaves the status in the same state, Ready. A retry does not append a record or send a notification.

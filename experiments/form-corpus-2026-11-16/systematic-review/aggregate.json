@@ -1,0 +1,1041 @@
+{
+  "provider": "Europe PMC REST API",
+  "query": "TITLE:\"systematic review\" AND OPEN_ACCESS:Y AND HAS_FT:Y",
+  "sort": "CITED desc",
+  "request_parameters": {
+    "query": "TITLE:\"systematic review\" AND OPEN_ACCESS:Y AND HAS_FT:Y",
+    "format": "json",
+    "pageSize": 1000,
+    "sort": "CITED desc",
+    "resultType": "core"
+  },
+  "provider_hit_count": 163204,
+  "provider_version": "6.9",
+  "candidate_page_size": 1000,
+  "screened": 376,
+  "measured": 300,
+  "outcomes": {
+    "excluded_title": 9,
+    "no_search_method_signal": 49,
+    "measured": 300,
+    "no_eligibility_signal": 14,
+    "fetch_failed": 2,
+    "no_body": 1,
+    "no_pmcid": 1
+  },
+  "search_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22systematic+review%22+AND+OPEN_ACCESS%3AY+AND+HAS_FT%3AY&format=json&pageSize=1000&sort=CITED+desc&resultType=core",
+  "search_cache_sha256": "afded95e1a084732d0651ebd16b0e06d638a4cd4d4236b64df942f3612a19b53",
+  "statistics": {
+    "all": {
+      "n": 300,
+      "metrics": {
+        "main_words": {
+          "n": 300,
+          "min": 1847,
+          "p25": 3685.0,
+          "median": 4383.5,
+          "p75": 5330.25,
+          "max": 15236
+        },
+        "paragraphs": {
+          "n": 300,
+          "min": 18,
+          "p25": 33.0,
+          "median": 40.0,
+          "p75": 54.0,
+          "max": 336
+        },
+        "sentences_estimate": {
+          "n": 300,
+          "min": 73,
+          "p25": 145.75,
+          "median": 178.0,
+          "p75": 217.0,
+          "max": 1430
+        },
+        "word_characters": {
+          "n": 300,
+          "min": 9657,
+          "p25": 19714.0,
+          "median": 23499.0,
+          "p75": 29356.0,
+          "max": 79772
+        },
+        "citation_xrefs": {
+          "n": 300,
+          "min": 0,
+          "p25": 81.0,
+          "median": 142.5,
+          "p75": 233.25,
+          "max": 1509
+        },
+        "figures": {
+          "n": 300,
+          "min": 0,
+          "p25": 2.0,
+          "median": 3.0,
+          "p75": 5.0,
+          "max": 22
+        },
+        "tables": {
+          "n": 300,
+          "min": 0,
+          "p25": 1.0,
+          "median": 2.0,
+          "p75": 4.0,
+          "max": 19
+        },
+        "lists": {
+          "n": 300,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 2.0,
+          "max": 217
+        },
+        "list_words": {
+          "n": 300,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 91.25,
+          "max": 852
+        },
+        "caption_words": {
+          "n": 300,
+          "min": 0,
+          "p25": 64.75,
+          "median": 130.5,
+          "p75": 248.0,
+          "max": 3597
+        },
+        "references": {
+          "n": 300,
+          "min": 10,
+          "p25": 49.0,
+          "median": 72.0,
+          "p75": 102.0,
+          "max": 580
+        },
+        "abstract_words": {
+          "n": 300,
+          "min": 105,
+          "p25": 271.0,
+          "median": 325.0,
+          "p75": 398.0,
+          "max": 1536
+        },
+        "title_words": {
+          "n": 300,
+          "min": 6,
+          "p25": 12.0,
+          "median": 15.0,
+          "p75": 18.0,
+          "max": 33
+        }
+      },
+      "sentence_words": {
+        "n": 58022,
+        "min": 1,
+        "p25": 15.0,
+        "median": 22.0,
+        "p75": 31.0,
+        "max": 526
+      },
+      "paragraph_words": {
+        "n": 14016,
+        "min": 1,
+        "p25": 49.0,
+        "median": 89.0,
+        "p75": 138.0,
+        "max": 1378
+      },
+      "paragraph_sentences": {
+        "n": 14016,
+        "min": 1,
+        "p25": 2.0,
+        "median": 4.0,
+        "p75": 6.0,
+        "max": 52
+      },
+      "section_count": {
+        "n": 300,
+        "min": 4,
+        "p25": 18.0,
+        "median": 23.0,
+        "p75": 29.0,
+        "max": 61
+      }
+    },
+    "with_meta_analysis": {
+      "n": 150,
+      "metrics": {
+        "main_words": {
+          "n": 150,
+          "min": 1847,
+          "p25": 3509.5,
+          "median": 4196.0,
+          "p75": 4983.75,
+          "max": 15236
+        },
+        "paragraphs": {
+          "n": 150,
+          "min": 18,
+          "p25": 32.0,
+          "median": 38.0,
+          "p75": 49.75,
+          "max": 336
+        },
+        "sentences_estimate": {
+          "n": 150,
+          "min": 79,
+          "p25": 138.25,
+          "median": 169.0,
+          "p75": 205.5,
+          "max": 1430
+        },
+        "word_characters": {
+          "n": 150,
+          "min": 9657,
+          "p25": 19028.75,
+          "median": 22273.0,
+          "p75": 27840.0,
+          "max": 79772
+        },
+        "citation_xrefs": {
+          "n": 150,
+          "min": 11,
+          "p25": 67.25,
+          "median": 119.5,
+          "p75": 194.5,
+          "max": 1509
+        },
+        "figures": {
+          "n": 150,
+          "min": 0,
+          "p25": 3.0,
+          "median": 4.0,
+          "p75": 5.0,
+          "max": 18
+        },
+        "tables": {
+          "n": 150,
+          "min": 0,
+          "p25": 1.0,
+          "median": 2.0,
+          "p75": 3.0,
+          "max": 12
+        },
+        "lists": {
+          "n": 150,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 2.0,
+          "max": 217
+        },
+        "list_words": {
+          "n": 150,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 91.75,
+          "max": 852
+        },
+        "caption_words": {
+          "n": 150,
+          "min": 0,
+          "p25": 101.5,
+          "median": 159.0,
+          "p75": 287.75,
+          "max": 3597
+        },
+        "references": {
+          "n": 150,
+          "min": 10,
+          "p25": 48.25,
+          "median": 68.0,
+          "p75": 97.5,
+          "max": 580
+        },
+        "abstract_words": {
+          "n": 150,
+          "min": 175,
+          "p25": 282.0,
+          "median": 338.5,
+          "p75": 434.25,
+          "max": 1536
+        },
+        "title_words": {
+          "n": 150,
+          "min": 9,
+          "p25": 12.25,
+          "median": 15.0,
+          "p75": 18.0,
+          "max": 33
+        }
+      },
+      "sentence_words": {
+        "n": 27634,
+        "min": 1,
+        "p25": 14.0,
+        "median": 22.0,
+        "p75": 32.0,
+        "max": 526
+      },
+      "paragraph_words": {
+        "n": 6556,
+        "min": 1,
+        "p25": 49.0,
+        "median": 91.0,
+        "p75": 142.0,
+        "max": 1378
+      },
+      "paragraph_sentences": {
+        "n": 6556,
+        "min": 1,
+        "p25": 2.0,
+        "median": 4.0,
+        "p75": 6.0,
+        "max": 52
+      },
+      "section_count": {
+        "n": 150,
+        "min": 8,
+        "p25": 16.0,
+        "median": 22.0,
+        "p75": 28.0,
+        "max": 61
+      }
+    },
+    "without_meta_analysis": {
+      "n": 1,
+      "metrics": {
+        "main_words": {
+          "n": 1,
+          "min": 3350,
+          "p25": 3350.0,
+          "median": 3350.0,
+          "p75": 3350.0,
+          "max": 3350
+        },
+        "paragraphs": {
+          "n": 1,
+          "min": 46,
+          "p25": 46.0,
+          "median": 46.0,
+          "p75": 46.0,
+          "max": 46
+        },
+        "sentences_estimate": {
+          "n": 1,
+          "min": 169,
+          "p25": 169.0,
+          "median": 169.0,
+          "p75": 169.0,
+          "max": 169
+        },
+        "word_characters": {
+          "n": 1,
+          "min": 18397,
+          "p25": 18397.0,
+          "median": 18397.0,
+          "p75": 18397.0,
+          "max": 18397
+        },
+        "citation_xrefs": {
+          "n": 1,
+          "min": 106,
+          "p25": 106.0,
+          "median": 106.0,
+          "p75": 106.0,
+          "max": 106
+        },
+        "figures": {
+          "n": 1,
+          "min": 1,
+          "p25": 1.0,
+          "median": 1.0,
+          "p75": 1.0,
+          "max": 1
+        },
+        "tables": {
+          "n": 1,
+          "min": 2,
+          "p25": 2.0,
+          "median": 2.0,
+          "p75": 2.0,
+          "max": 2
+        },
+        "lists": {
+          "n": 1,
+          "min": 1,
+          "p25": 1.0,
+          "median": 1.0,
+          "p75": 1.0,
+          "max": 1
+        },
+        "list_words": {
+          "n": 1,
+          "min": 67,
+          "p25": 67.0,
+          "median": 67.0,
+          "p75": 67.0,
+          "max": 67
+        },
+        "caption_words": {
+          "n": 1,
+          "min": 44,
+          "p25": 44.0,
+          "median": 44.0,
+          "p75": 44.0,
+          "max": 44
+        },
+        "references": {
+          "n": 1,
+          "min": 60,
+          "p25": 60.0,
+          "median": 60.0,
+          "p75": 60.0,
+          "max": 60
+        },
+        "abstract_words": {
+          "n": 1,
+          "min": 297,
+          "p25": 297.0,
+          "median": 297.0,
+          "p75": 297.0,
+          "max": 297
+        },
+        "title_words": {
+          "n": 1,
+          "min": 19,
+          "p25": 19.0,
+          "median": 19.0,
+          "p75": 19.0,
+          "max": 19
+        }
+      },
+      "sentence_words": {
+        "n": 169,
+        "min": 5,
+        "p25": 12.0,
+        "median": 19.0,
+        "p75": 25.0,
+        "max": 55
+      },
+      "paragraph_words": {
+        "n": 46,
+        "min": 12,
+        "p25": 46.25,
+        "median": 62.5,
+        "p75": 100.75,
+        "max": 166
+      },
+      "paragraph_sentences": {
+        "n": 46,
+        "min": 1,
+        "p25": 2.0,
+        "median": 3.0,
+        "p75": 5.0,
+        "max": 8
+      },
+      "section_count": {
+        "n": 1,
+        "min": 19,
+        "p25": 19.0,
+        "median": 19.0,
+        "p75": 19.0,
+        "max": 19
+      }
+    },
+    "uncertain": {
+      "n": 149,
+      "metrics": {
+        "main_words": {
+          "n": 149,
+          "min": 1990,
+          "p25": 3834.0,
+          "median": 4566.0,
+          "p75": 5727.0,
+          "max": 10934
+        },
+        "paragraphs": {
+          "n": 149,
+          "min": 19,
+          "p25": 36.0,
+          "median": 45.0,
+          "p75": 61.0,
+          "max": 129
+        },
+        "sentences_estimate": {
+          "n": 149,
+          "min": 73,
+          "p25": 156.0,
+          "median": 189.0,
+          "p75": 230.0,
+          "max": 489
+        },
+        "word_characters": {
+          "n": 149,
+          "min": 10404,
+          "p25": 20880.0,
+          "median": 25387.0,
+          "p75": 31653.0,
+          "max": 63410
+        },
+        "citation_xrefs": {
+          "n": 149,
+          "min": 0,
+          "p25": 92.0,
+          "median": 169.0,
+          "p75": 292.0,
+          "max": 1397
+        },
+        "figures": {
+          "n": 149,
+          "min": 0,
+          "p25": 1.0,
+          "median": 2.0,
+          "p75": 4.0,
+          "max": 22
+        },
+        "tables": {
+          "n": 149,
+          "min": 0,
+          "p25": 2.0,
+          "median": 3.0,
+          "p75": 4.0,
+          "max": 19
+        },
+        "lists": {
+          "n": 149,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 1.0,
+          "max": 48
+        },
+        "list_words": {
+          "n": 149,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 82.0,
+          "max": 678
+        },
+        "caption_words": {
+          "n": 149,
+          "min": 0,
+          "p25": 45.0,
+          "median": 112.0,
+          "p75": 214.0,
+          "max": 966
+        },
+        "references": {
+          "n": 149,
+          "min": 10,
+          "p25": 50.0,
+          "median": 75.0,
+          "p75": 105.0,
+          "max": 508
+        },
+        "abstract_words": {
+          "n": 149,
+          "min": 105,
+          "p25": 261.0,
+          "median": 314.0,
+          "p75": 376.0,
+          "max": 1297
+        },
+        "title_words": {
+          "n": 149,
+          "min": 6,
+          "p25": 11.0,
+          "median": 14.0,
+          "p75": 17.0,
+          "max": 30
+        }
+      },
+      "sentence_words": {
+        "n": 30219,
+        "min": 1,
+        "p25": 15.0,
+        "median": 22.0,
+        "p75": 31.0,
+        "max": 200
+      },
+      "paragraph_words": {
+        "n": 7414,
+        "min": 1,
+        "p25": 49.0,
+        "median": 88.0,
+        "p75": 135.0,
+        "max": 589
+      },
+      "paragraph_sentences": {
+        "n": 7414,
+        "min": 1,
+        "p25": 2.0,
+        "median": 4.0,
+        "p75": 5.0,
+        "max": 50
+      },
+      "section_count": {
+        "n": 149,
+        "min": 4,
+        "p25": 19.0,
+        "median": 24.0,
+        "p75": 31.0,
+        "max": 60
+      }
+    },
+    "pre_2015": {
+      "n": 112,
+      "metrics": {
+        "main_words": {
+          "n": 112,
+          "min": 2382,
+          "p25": 3770.0,
+          "median": 4391.0,
+          "p75": 5730.5,
+          "max": 15236
+        },
+        "paragraphs": {
+          "n": 112,
+          "min": 22,
+          "p25": 36.5,
+          "median": 47.0,
+          "p75": 61.0,
+          "max": 336
+        },
+        "sentences_estimate": {
+          "n": 112,
+          "min": 96,
+          "p25": 154.5,
+          "median": 186.5,
+          "p75": 226.0,
+          "max": 1430
+        },
+        "word_characters": {
+          "n": 112,
+          "min": 12968,
+          "p25": 20159.5,
+          "median": 23105.0,
+          "p75": 31455.0,
+          "max": 79772
+        },
+        "citation_xrefs": {
+          "n": 112,
+          "min": 11,
+          "p25": 80.5,
+          "median": 147.0,
+          "p75": 226.5,
+          "max": 1204
+        },
+        "figures": {
+          "n": 112,
+          "min": 0,
+          "p25": 2.0,
+          "median": 3.0,
+          "p75": 5.0,
+          "max": 22
+        },
+        "tables": {
+          "n": 112,
+          "min": 0,
+          "p25": 1.0,
+          "median": 3.0,
+          "p75": 5.0,
+          "max": 19
+        },
+        "lists": {
+          "n": 112,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 1.0,
+          "max": 63
+        },
+        "list_words": {
+          "n": 112,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 5.0,
+          "max": 678
+        },
+        "caption_words": {
+          "n": 112,
+          "min": 0,
+          "p25": 71.5,
+          "median": 151.0,
+          "p75": 278.25,
+          "max": 3597
+        },
+        "references": {
+          "n": 112,
+          "min": 10,
+          "p25": 49.75,
+          "median": 71.0,
+          "p75": 103.0,
+          "max": 580
+        },
+        "abstract_words": {
+          "n": 112,
+          "min": 149,
+          "p25": 271.75,
+          "median": 318.0,
+          "p75": 371.75,
+          "max": 1536
+        },
+        "title_words": {
+          "n": 112,
+          "min": 6,
+          "p25": 12.0,
+          "median": 14.0,
+          "p75": 16.25,
+          "max": 27
+        }
+      },
+      "sentence_words": {
+        "n": 23735,
+        "min": 1,
+        "p25": 14.0,
+        "median": 21.0,
+        "p75": 30.0,
+        "max": 209
+      },
+      "paragraph_words": {
+        "n": 5889,
+        "min": 1,
+        "p25": 43.0,
+        "median": 82.0,
+        "p75": 131.0,
+        "max": 588
+      },
+      "paragraph_sentences": {
+        "n": 5889,
+        "min": 1,
+        "p25": 2.0,
+        "median": 4.0,
+        "p75": 5.0,
+        "max": 47
+      },
+      "section_count": {
+        "n": 112,
+        "min": 8,
+        "p25": 19.0,
+        "median": 23.5,
+        "p75": 31.25,
+        "max": 61
+      }
+    },
+    "2015_2019": {
+      "n": 113,
+      "metrics": {
+        "main_words": {
+          "n": 113,
+          "min": 2087,
+          "p25": 3784.0,
+          "median": 4618.0,
+          "p75": 5361.0,
+          "max": 10779
+        },
+        "paragraphs": {
+          "n": 113,
+          "min": 18,
+          "p25": 34.0,
+          "median": 40.0,
+          "p75": 54.0,
+          "max": 129
+        },
+        "sentences_estimate": {
+          "n": 113,
+          "min": 81,
+          "p25": 150.0,
+          "median": 181.0,
+          "p75": 217.0,
+          "max": 430
+        },
+        "word_characters": {
+          "n": 113,
+          "min": 11442,
+          "p25": 20456.0,
+          "median": 25346.0,
+          "p75": 29473.0,
+          "max": 63410
+        },
+        "citation_xrefs": {
+          "n": 113,
+          "min": 0,
+          "p25": 88.0,
+          "median": 136.0,
+          "p75": 233.0,
+          "max": 1509
+        },
+        "figures": {
+          "n": 113,
+          "min": 0,
+          "p25": 2.0,
+          "median": 3.0,
+          "p75": 4.0,
+          "max": 11
+        },
+        "tables": {
+          "n": 113,
+          "min": 0,
+          "p25": 1.0,
+          "median": 2.0,
+          "p75": 4.0,
+          "max": 17
+        },
+        "lists": {
+          "n": 113,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 2.0,
+          "max": 23
+        },
+        "list_words": {
+          "n": 113,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 122.0,
+          "max": 587
+        },
+        "caption_words": {
+          "n": 113,
+          "min": 0,
+          "p25": 61.0,
+          "median": 136.0,
+          "p75": 252.0,
+          "max": 1999
+        },
+        "references": {
+          "n": 113,
+          "min": 21,
+          "p25": 51.0,
+          "median": 73.0,
+          "p75": 105.0,
+          "max": 508
+        },
+        "abstract_words": {
+          "n": 113,
+          "min": 175,
+          "p25": 271.0,
+          "median": 323.0,
+          "p75": 383.0,
+          "max": 1297
+        },
+        "title_words": {
+          "n": 113,
+          "min": 7,
+          "p25": 12.0,
+          "median": 15.0,
+          "p75": 19.0,
+          "max": 33
+        }
+      },
+      "sentence_words": {
+        "n": 21559,
+        "min": 1,
+        "p25": 16.0,
+        "median": 23.0,
+        "p75": 32.0,
+        "max": 409
+      },
+      "paragraph_words": {
+        "n": 5180,
+        "min": 1,
+        "p25": 53.0,
+        "median": 94.0,
+        "p75": 143.0,
+        "max": 909
+      },
+      "paragraph_sentences": {
+        "n": 5180,
+        "min": 1,
+        "p25": 2.0,
+        "median": 4.0,
+        "p75": 6.0,
+        "max": 50
+      },
+      "section_count": {
+        "n": 113,
+        "min": 4,
+        "p25": 18.0,
+        "median": 24.0,
+        "p75": 29.0,
+        "max": 60
+      }
+    },
+    "2020_onward": {
+      "n": 75,
+      "metrics": {
+        "main_words": {
+          "n": 75,
+          "min": 1847,
+          "p25": 3391.0,
+          "median": 3997.0,
+          "p75": 4922.0,
+          "max": 8893
+        },
+        "paragraphs": {
+          "n": 75,
+          "min": 18,
+          "p25": 30.0,
+          "median": 37.0,
+          "p75": 45.5,
+          "max": 93
+        },
+        "sentences_estimate": {
+          "n": 75,
+          "min": 73,
+          "p25": 131.0,
+          "median": 158.0,
+          "p75": 202.5,
+          "max": 370
+        },
+        "word_characters": {
+          "n": 75,
+          "min": 9657,
+          "p25": 18071.5,
+          "median": 21716.0,
+          "p75": 27199.5,
+          "max": 48677
+        },
+        "citation_xrefs": {
+          "n": 75,
+          "min": 14,
+          "p25": 70.5,
+          "median": 148.0,
+          "p75": 242.0,
+          "max": 1323
+        },
+        "figures": {
+          "n": 75,
+          "min": 0,
+          "p25": 2.0,
+          "median": 3.0,
+          "p75": 4.0,
+          "max": 10
+        },
+        "tables": {
+          "n": 75,
+          "min": 0,
+          "p25": 1.0,
+          "median": 2.0,
+          "p75": 3.0,
+          "max": 7
+        },
+        "lists": {
+          "n": 75,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 2.0,
+          "max": 217
+        },
+        "list_words": {
+          "n": 75,
+          "min": 0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 85.0,
+          "max": 852
+        },
+        "caption_words": {
+          "n": 75,
+          "min": 2,
+          "p25": 63.5,
+          "median": 113.0,
+          "p75": 194.0,
+          "max": 2161
+        },
+        "references": {
+          "n": 75,
+          "min": 10,
+          "p25": 47.0,
+          "median": 73.0,
+          "p75": 95.0,
+          "max": 270
+        },
+        "abstract_words": {
+          "n": 75,
+          "min": 105,
+          "p25": 274.0,
+          "median": 344.0,
+          "p75": 470.5,
+          "max": 820
+        },
+        "title_words": {
+          "n": 75,
+          "min": 7,
+          "p25": 12.0,
+          "median": 15.0,
+          "p75": 19.0,
+          "max": 27
+        }
+      },
+      "sentence_words": {
+        "n": 12728,
+        "min": 1,
+        "p25": 15.0,
+        "median": 22.0,
+        "p75": 32.0,
+        "max": 526
+      },
+      "paragraph_words": {
+        "n": 2947,
+        "min": 1,
+        "p25": 58.0,
+        "median": 95.0,
+        "p75": 144.0,
+        "max": 1378
+      },
+      "paragraph_sentences": {
+        "n": 2947,
+        "min": 1,
+        "p25": 2.0,
+        "median": 4.0,
+        "p75": 6.0,
+        "max": 52
+      },
+      "section_count": {
+        "n": 75,
+        "min": 8,
+        "p25": 16.5,
+        "median": 22.0,
+        "p75": 28.0,
+        "max": 50
+      }
+    },
+    "year_unknown": {
+      "n": 0,
+      "metrics": {
+        "main_words": null,
+        "paragraphs": null,
+        "sentences_estimate": null,
+        "word_characters": null,
+        "citation_xrefs": null,
+        "figures": null,
+        "tables": null,
+        "lists": null,
+        "list_words": null,
+        "caption_words": null,
+        "references": null,
+        "abstract_words": null,
+        "title_words": null
+      },
+      "sentence_words": null,
+      "paragraph_words": null,
+      "paragraph_sentences": null,
+      "section_count": null
+    }
+  },
+  "search_retrieved_at_utc": "2026-11-16T01:06:32.600470+00:00",
+  "measurement_run_at_utc": "2026-11-16T01:14:02.696805+00:00"
+}

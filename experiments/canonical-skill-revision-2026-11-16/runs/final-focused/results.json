@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "id": "L01",
+      "selected_skill": "edit-with-purpose",
+      "skill_installation": "experiments/canonical-skill-revision-2026-11-16/final-snapshot/skills/edit-with-purpose",
+      "loaded_files": [
+        {
+          "path": "experiments/canonical-skill-revision-2026-11-16/inputs/final-learning-standalone.json",
+          "sha256": "8187f77daedb68e057ae31d643d6033c78b434822cd1d65532228bb725f769fb"
+        },
+        {
+          "path": "experiments/canonical-skill-revision-2026-11-16/final-snapshot/skills/edit-with-purpose/SKILL.md",
+          "sha256": "f681118cc18764919baa4fcee45e307b805c9e8c0747b7d6359888359b15af82"
+        },
+        {
+          "path": "experiments/canonical-skill-revision-2026-11-16/final-snapshot/skills/edit-with-purpose/references/plain-language-edit.md",
+          "sha256": "193a9cc6332da1b4d6c94735d7db0539313c693d7b48304acac1025132efd987"
+        }
+      ],
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/final-focused/L01/output.txt",
+      "output_sha256": "13b4698c0b584032750343c0b7d36a29deb4125e6141005d72b3f18f39d457a5",
+      "material_notes": "Worked revision and explanation provided directly; no comparison or evaluative claim introduced.",
+      "verification_limits": "Source facts are supplied in the task and were not independently verified."
+    },
+    {
+      "id": "L02",
+      "selected_skill": "edit-with-purpose",
+      "skill_installation": "experiments/canonical-skill-revision-2026-11-16/final-snapshot/skills/edit-with-purpose",
+      "loaded_files": [
+        {
+          "path": "experiments/canonical-skill-revision-2026-11-16/inputs/final-learning-standalone.json",
+          "sha256": "8187f77daedb68e057ae31d643d6033c78b434822cd1d65532228bb725f769fb"
+        },
+        {
+          "path": "experiments/canonical-skill-revision-2026-11-16/final-snapshot/skills/edit-with-purpose/SKILL.md",
+          "sha256": "f681118cc18764919baa4fcee45e307b805c9e8c0747b7d6359888359b15af82"
+        },
+        {
+          "path": "experiments/canonical-skill-revision-2026-11-16/final-snapshot/skills/edit-with-purpose/references/plain-language-edit.md",
+          "sha256": "193a9cc6332da1b4d6c94735d7db0539313c693d7b48304acac1025132efd987"
+        }
+      ],
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/final-focused/L02/output.txt",
+      "output_sha256": "dd4e8f38766970c16b0050c12783ed3104cb2540c31dceae016ee21854149156",
+      "material_notes": "Attempt-first practice; no model answer shown.",
+      "verification_limits": "Source facts are supplied in the task and were not independently verified."
+    },
+    {
+      "id": "S01",
+      "selected_skill": "edit-with-purpose",
+      "skill_installation": "experiments/canonical-skill-revision-2026-11-16/editor-only-install/edit-with-purpose",
+      "loaded_files": [
+        {
+          "path": "experiments/canonical-skill-revision-2026-11-16/inputs/final-learning-standalone.json",
+          "sha256": "8187f77daedb68e057ae31d643d6033c78b434822cd1d65532228bb725f769fb"
+        },
+        {
+          "path": "experiments/canonical-skill-revision-2026-11-16/editor-only-install/edit-with-purpose/SKILL.md",
+          "sha256": "f681118cc18764919baa4fcee45e307b805c9e8c0747b7d6359888359b15af82"
+        },
+        {
+          "path": "experiments/canonical-skill-revision-2026-11-16/editor-only-install/edit-with-purpose/references/technical-meaning.md",
+          "sha256": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60"
+        },
+        {
+          "path": "experiments/canonical-skill-revision-2026-11-16/editor-only-install/edit-with-purpose/references/mechanical-checks.md",
+          "sha256": "d4ba34812241ba7092f21716fbc4d5528e9c03c583954b1989275190d25d23dd"
+        }
+      ],
+      "output_path": "experiments/canonical-skill-revision-2026-11-16/runs/final-focused/S01/output.txt",
+      "output_sha256": "b714f5220cf11b9d0067332777d1e1d338442f1206280f8158cdab56f7f5a96c",
+      "material_notes": "Standalone editor only; standard-library whitespace count and literal check recorded in receipt.json. Meaning checked against supplied draft and notes.",
+      "verification_limits": "Mechanical checks do not establish semantic fidelity or production behavior."
+    }
+  ]
+}

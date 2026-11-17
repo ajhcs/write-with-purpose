@@ -1,0 +1,123 @@
+{
+  "advocate": "form-functions",
+  "lens": "Family / Form / Section, paragraph functions, argument structure; round 1 independent position",
+  "baseline_critique": [
+    "The accepted separation of form, sections, functions and relations is useful, but C04 already offers structural alternatives; naming alternatives without operational comparison or producing the selected improved text risks ornamental choice.",
+    "The 12 labels are provisional interpretive tools rather than complete drafting instructions. Exact-set coding struggled on 36 selected paragraphs and richer records were not shown to improve agreement. More annotation must earn its cost in actual edits.",
+    "The edit skill’s smallest-set rule can be read too narrowly for the newly authorized improvement goal; actual constraints and the requested intervention must govern. Local repair is not synonymous with preservation of meaning.",
+    "P15/P16/P17 are descriptive samples, while P18 is a methodological review and coding comparison; none validates our interventions or proves downstream reader benefit."
+  ],
+  "proposals": [
+    {
+      "id": "FF-01",
+      "title": "Compare structures by the reader question they resolve",
+      "behavior": "Build two materially different arrangements of the same author-provided contributions, not just two heading lists: show their first reader question, order of contributions, relocation of any qualification, and concrete tradeoff. Then draft the selected arrangement or, if the task permits independent choice, choose the one best suited to the stated reader and explain a consequential tradeoff. Shared facts and attributions are invariant unless change is explicitly requested.",
+      "trigger": "A substantial draft/outline or improvement task has at least two defensible arrangements and section order affects the reader.",
+      "editing_improvement_effect": "An edit can move or merge entire sections when that exposes the decision or connects observation to inference; a new draft can develop the same original idea without forcing IMRD or a template.",
+      "novelty_relative_to_baseline": "C04 already asks to show alternatives. The candidate adds contribution-preserving alternative executable arrangements, explicit reader-question and relocation consequences, followed by an actual selected revision; it is not a claim of new genre theory.",
+      "model_code_author_roles": {
+        "model": "Recover contributions and draft competing arrangements using only supplied material; identify dependencies and tradeoffs semantically.",
+        "code": "Track source ranges, relocations, author-locked content and actual limit compliance; report missing/unmapped ranges without judging meaning.",
+        "author": "Sets purpose, reader, constraints, and chooses between materially different tradeoffs when a choice is needed."
+      },
+      "example": "For a report on two supplied alternatives, compare “decision first → reasons and qualified tradeoffs” with “criteria → option comparison → decision”; locate a budget condition beside whichever option it limits. Produce the chosen version from the supplied claims.",
+      "counterexample": "A correction-only request or mandated document template supplies no authorization to restructure; use the stated form and perform the requested local edit.",
+      "evidence": [
+        "P15 full-text genre-moves review pp.5–7: 12 blended occurrences, recursive and inverted moves in selected law articles, not a universal frequency",
+        "P16 pp.8–10,14: topical reports and variably sequenced recommendation cycles",
+        "P17 pp.8,12–13: move order is not prescribed and variation exists",
+        "Existing integration C04 already proposes section jobs and alternatives"
+      ],
+      "evaluation_needed": "Compare same-model baseline against candidate on fresh paired draft/edit tasks; blind readers recover answers and conditions; author grades retained contribution, usable choice and burden. Do not assume rearrangement is superior."
+    },
+    {
+      "id": "FF-02",
+      "title": "Bridge the inference by contrasting viable warrants",
+      "behavior": "When a substantial inferential jump is material, locate the author’s actual claim and reasons; articulate at most two plausible connecting principles as explicitly hypothetical alternatives. For each, show what claim scope would follow and which author-supplied fact would discriminate. Ask one focused question if the missing principle changes meaning; otherwise revise using only a supported connection. If neither is grounded, retain the gap or use a clearly marked placeholder rather than invent a fact.",
+      "trigger": "The requested writing or improvement requires a reason to carry a decision, interpretation or recommendation, and the author’s intended bridge is not recoverable.",
+      "editing_improvement_effect": "Turns generic “add support” feedback into a testable fork in the author’s reasoning and can narrow an unsupported conclusion or expose a new substantive idea for the author to develop.",
+      "novelty_relative_to_baseline": "C09 and existing support ask for identifiable targets; the candidate generates competing possible warrants and decision consequences, not just links or blank fields. It develops thought without treating model hypotheses as author beliefs.",
+      "model_code_author_roles": {
+        "model": "Identify exact proposition, supplied evidence and alternative warrants; distinguish factual inference and conjecture; propose bounded revision.",
+        "code": "Keep claim/evidence IDs and provenance of suggested warrants, mark missing evidence and stale spans; do not decide truth or infer an edge from proximity.",
+        "author": "Selects or supplies the intended warrant, evidence, and acceptable scope; owns novel substantive decision."
+      },
+      "example": "Input: “Absences rose after the schedule changed. We should hire staff.” Fork A: extra staffing helps if absences reflect capacity shortfall; fork B: change scheduling if absence follows the new shifts. Ask which mechanism and evidence the author has; do not assert either causally.",
+      "counterexample": "If the text reports co-occurrence only, or the relevant target is a literary effect rather than an evidential claim, inventing a warrant or demanding a recommendation would misrepresent its purpose.",
+      "evidence": [
+        "P16 p.14: findings, interpretation, recommendation and potentially implicit warrant, qualitative 22-report corpus",
+        "P17 pp.8–9: pre-study, study and analysis rationalizations as different choices",
+        "GUM and argumentative-microtext crosswalks retain targets/edge-target relations separately",
+        "P18 pp.7,11–13 and local calibration expose labels and targets as different reliability problems"
+      ],
+      "evaluation_needed": "Review whether authors find forks faithful and novel, whether suggested missing premises are real, and whether independent readers identify decision rationale; track hallucinated premises and unwanted prompts as harms."
+    },
+    {
+      "id": "FF-03",
+      "title": "Decide disagreement by consequence, then expand annotation on demand",
+      "behavior": "Replace exhaustive first-pass paragraph coding with a targeted “difference in action” test: identify two defensible readings, state the distinct edit or interpretation each would justify, and gather only the context necessary to decide. If both readings lead to the same justified edit, retain the ambiguity and edit without settling the label. If they lead to different changes, inspect attribution, target and actual text extent, then record a bounded reason or preserve both as unresolved. Offline research retains independent full records and does not use this shortcut to create gold.",
+      "trigger": "A contested function, target or span would change the proposed edit, or an evaluator specifically requests a coding decision.",
+      "editing_improvement_effect": "Avoids forcing model-created categories into an author workflow and focuses reviewer attention on ambiguity with real editorial consequences; can still prevent an edit that would switch a reported claim into an author assertion.",
+      "novelty_relative_to_baseline": "C10 separates label/span/reader measurements and C11 limits irrelevant help; this candidate adds a counterfactual decision criterion for whether to resolve a disagreement at all, rather than requiring richer mandatory annotation.",
+      "model_code_author_roles": {
+        "model": "Construct two contextual readings and the changes each authorizes; state what would settle them; preserve uncertainty.",
+        "code": "Represent assessed, unresolved, not collected, and explicit empty sets distinctly; verify existing offsets and targets; never treat unassessed as negative.",
+        "author": "Decides intended position or accepts the ambiguity if the difference matters to the passage."
+      },
+      "example": "Text “The vendor argues the method is faster. It may reduce costs.” Reading A attributes both claims to the vendor; B is the writer’s independent inference. A rewrite that merges them into “The method is faster and cheaper” endorses both. Ask which reading is intended before rewriting; if merely correcting punctuation, do not classify either.",
+      "counterexample": "When a full annotated corpus is the explicit deliverable, the requested independent labels, target spans and unresolved statuses remain required even if they would not change an edit.",
+      "evidence": [
+        "P18 pp.7,11–13: fixed sentence units and multilabel agreement do not settle independent sub-sentence boundaries or targets",
+        "Local fresh calibration original 21/36 vs revised 18/36; relation exact 29/36 includes 21 shared empty sets",
+        "Cotos P17 p.6 overlapping phrase/sentence functions; their primary code is not required by our foundation"
+      ],
+      "evaluation_needed": "Pre-register when disagreement is consequential; compare independent adjudication time, error detection, user effort and semantic fidelity against always-coding and no-coding baselines. Include intentional ambiguity and mixed-function examples."
+    },
+    {
+      "id": "FF-04",
+      "title": "Select an edit by benefit under constraints, not smallest footprint",
+      "behavior": "For an authorized improvement task, identify the highest-consequence reader problem and compare at least a local repair with a more structural repair when both are plausible. Choose the smallest change that actually resolves the identified problem only after judging their reader effects; when restructuring is materially better, perform it within task constraints and show the major changed relationship. For copy-edit-only tasks retain local editing. Do not invent a need to rewrite adequate prose.",
+      "trigger": "Author requests substantive improvement, argument development, restructuring, or a reader problem cannot be fixed within a local sentence.",
+      "editing_improvement_effect": "Allows consequential repair of an argument or structure, instead of preserving a broken order merely to minimize edit size; preserves a genuinely adequate passage and source commitments.",
+      "novelty_relative_to_baseline": "This changes the operational priority in edit-with-purpose rather than repeating C11/C12 preservation principles. Contrast is evaluated at the level of reader task, not token count or a universal preference for rewriting.",
+      "model_code_author_roles": {
+        "model": "Diagnose failure with a precise target, produce and compare feasible local/structural candidates, and choose the smallest sufficient intervention for the author’s requested improvement.",
+        "code": "Compare versions and content-alignment receipts; enforce only declared constraints or exact preservation obligations, and flag changed numbers, negation or attributions for semantic review.",
+        "author": "Controls scope, locked wording and whether a consequential tradeoff serves their intention."
+      },
+      "example": "A decision memo buries the only recommendation after two pages of relevant evidence. In an improvement task, move the recommendation and the condition that limits it to the beginning, then preserve and organize the evidence; a local connector alone does not fix delayed access to the decision.",
+      "counterexample": "For “fix punctuation only,” preserve order even if a model prefers a stronger lead; for intentional suspense, delayed disclosure may be the contribution rather than a defect.",
+      "evidence": [
+        "skills/edit-with-purpose/SKILL.md currently says smallest set of changes to resolve requested problem",
+        "P15 pp.5–7 and P16 pp.8–10 show observed structural variation, not causal evidence one structure is better",
+        "pattern-test report: 19 selected documents, no evidence of a single fixed paragraph pattern",
+        "Existing local edit tool measures footprint, not merit"
+      ],
+      "evaluation_needed": "Compare author repair effort, task completion, retained factual scope/voice, time and unnecessary rewrites on matched fresh tasks; no demonstrated advantage yet."
+    }
+  ],
+  "retire_or_change": [
+    {
+      "existing": "skills/edit-with-purpose/SKILL.md: Work from the original with the smallest set of changes that resolves the requested problem.",
+      "action": "Change as candidate, not canonical edit: choose the least disruptive intervention that actually accomplishes the requested outcome; for substantial improvement compare a bounded structural alternative when the problem warrants it. Honour correction-only scope and explicit preservation.",
+      "why": "An apparent local fix may leave the reader problem unresolved; the meaningful optimization target is task success under constraints, not edit footprint alone."
+    },
+    {
+      "existing": "docs/writing-harness/paragraph-functions.json relations_note: local labels relate supplied paragraph IDs",
+      "action": "Refine as candidate: keep paragraph IDs as valid coarse anchors but allow explicit span, multi-span and unresolved target references when needed; distinguish evidence quote from full realization. Do not impose a new record on routine writing.",
+      "why": "Functions can cross paragraphs, coexist in a sentence, or relate to a specific claim rather than an entire paragraph. Prior evidence quotes were not full spans."
+    }
+  ],
+  "nonnegotiable_distinctions": [
+    "Keep all twelve function IDs and original source labels unchanged; no taxonomy migration proposed. A function label is not a section role, attribution, an observed state, a warranted inference or a relation target.",
+    "Exact source offsets and target ID validity are mechanically checkable, but semantic completeness, interpretation and truth remain judgments.",
+    "Author-supplied facts, intent, voice and actual constraints take precedence; hypothetical warrants are hypotheses, never discoveries attributed to the author.",
+    "Cotos ICC and P18 multi-valued alpha cannot be converted into our exact-set accuracy; no function-length profiles established.",
+    "A user’s request to improve permits a meaningful change within scope; a punctuation-only instruction does not."
+  ],
+  "questions_for_peers": [
+    "Does deciding whether to resolve a contested role by its edit consequence risk suppressing disagreement that matters to future work? How should such latent ambiguity be retained without burden?",
+    "What minimum source-bound representation permits relocation of qualifiers without an exhaustive paragraph annotation pass?",
+    "How can a warranted structural rewrite be authorized by a broad improvement request without overriding a deliberately nonstandard narrative or suspense?"
+  ]
+}

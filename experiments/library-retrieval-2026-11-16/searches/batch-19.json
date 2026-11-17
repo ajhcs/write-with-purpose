@@ -1,0 +1,191 @@
+{
+  "batch": 19,
+  "queries": [
+    {
+      "candidate_key": "law:law_w2112915715",
+      "doi": "10.4073/csr.2013.1",
+      "title": "Legitimacy in Policing: A Systematic Review",
+      "field": "law_public_policy",
+      "q": "\"Legitimacy in Policing: A Systematic Review\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2180537218",
+      "doi": "10.4073/csr.2007.1",
+      "title": "Effects of Hot Spots Policing on Crime",
+      "field": "law_public_policy",
+      "q": "\"Effects of Hot Spots Policing on Crime\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2956864763",
+      "doi": "10.1002/cl2.20",
+      "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+      "field": "law_public_policy",
+      "q": "\"PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2590707784",
+      "doi": "10.1002/cl2.153",
+      "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+      "field": "law_public_policy",
+      "q": "\"PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2112915715",
+      "query": "\"Legitimacy in Policing: A Systematic Review\" pdf",
+      "urls": [
+        {
+          "title": "Legitimacy in Policing: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/full/10.4073/csr.2013.1",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1002/CL2.20",
+          "score": 0.75,
+          "body_score": 0.75
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1002/CL2.153",
+          "score": 0.75,
+          "body_score": 0.75
+        },
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/CL2.20",
+          "score": 0.75,
+          "body_score": 0.75
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/10.1002/CL2.153",
+          "score": 0.75,
+          "body_score": 0.75
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/full/10.1002/CL2.153",
+          "score": 0.75,
+          "body_score": 0.75
+        },
+        {
+          "title": "The effects of hot spots policing on violence: A systematic review and meta-analysis",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1359178924001010",
+          "score": 0.75,
+          "body_score": 0.75
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w2180537218",
+      "query": "\"Effects of Hot Spots Policing on Crime\" pdf",
+      "urls": [
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1002/CL2.20",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/CL2.20",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Effects of Hot Spots Policing on Crime1",
+          "url": "https://journals.sagepub.com/doi/10.4073/csr.2007.1",
+          "score": 0.8,
+          "body_score": 1
+        },
+        {
+          "title": "The effects of hot spots policing on violence: A systematic review and meta-analysis",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1359178924001010",
+          "score": 0.8,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w2956864763",
+      "query": "\"PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime\" pdf",
+      "urls": [
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1002/CL2.20",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/CL2.20",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "The effects of hot spots policing on violence: A systematic review and meta-analysis",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1359178924001010",
+          "score": 0.7777777777777778,
+          "body_score": 0.8888888888888888
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1002/CL2.153",
+          "score": 0.5555555555555556,
+          "body_score": 0.6666666666666666
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/10.1002/CL2.153",
+          "score": 0.5555555555555556,
+          "body_score": 0.6666666666666666
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/full/10.1002/CL2.153",
+          "score": 0.5555555555555556,
+          "body_score": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w2590707784",
+      "query": "\"PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review\" pdf",
+      "urls": [
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1002/CL2.153",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/10.1002/CL2.153",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "PROTOCOL: Third Party Policing for Reducing Crime and Disorder: A Systematic Review",
+          "url": "https://journals.sagepub.com/doi/full/10.1002/CL2.153",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1002/CL2.20",
+          "score": 0.45454545454545453,
+          "body_score": 0.5454545454545454
+        },
+        {
+          "title": "PROTOCOL: Systematic Review of the Effects of Hot Spots Policing on Crime",
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/CL2.20",
+          "score": 0.45454545454545453,
+          "body_score": 0.6363636363636364
+        }
+      ]
+    }
+  ]
+}

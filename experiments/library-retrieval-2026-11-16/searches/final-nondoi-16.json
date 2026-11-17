@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_28",
+      "doi": "",
+      "title": "Cargo Cult Science",
+      "authors": "[\"Richard P. Feynman\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Cargo Cult Science\" Feynman pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_28",
+      "query": "\"Cargo Cult Science\" Feynman pdf",
+      "urls": [
+        {
+          "title": "\"Cargo Cult Science\" - by Richard Feynman",
+          "url": "https://people.cs.uchicago.edu/~ravenben/cargocult.html",
+          "score": 1
+        },
+        {
+          "title": "\"Cargo Cult Science\" - by Richard Feynman",
+          "url": "https://www.columbia.edu/cu/neurotheory/Ken/cargo_cult.html",
+          "score": 1
+        },
+        {
+          "title": "Cargo Cult Science | NZ Skeptics",
+          "url": "https://articles.skeptics.nz/1995/05/01/cargo-cult-science/",
+          "score": 1
+        },
+        {
+          "title": "Cargo Cult Science — Caltech Magazine",
+          "url": "https://calteches.library.caltech.edu/3043/",
+          "score": 1
+        },
+        {
+          "title": "Cargo cult science",
+          "url": "https://bibbase.org/network/publication/feynman-cargocultscience-1974",
+          "score": 1
+        },
+        {
+          "title": "Cargo Cult Science | Evaluate Collaboratory",
+          "url": "https://evaluate.inf.usi.ch/node/131.html",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

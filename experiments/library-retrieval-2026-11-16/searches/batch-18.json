@@ -1,0 +1,100 @@
+{
+  "batch": 18,
+  "queries": [
+    {
+      "candidate_key": "law:law_w1501821359",
+      "doi": "10.2307/1341478",
+      "title": "Feminist Legal Methods",
+      "field": "law_public_policy",
+      "q": "\"Feminist Legal Methods\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w3123985438",
+      "doi": "10.1086/666006",
+      "title": "Do Judges Vary in Their Treatment of Race?",
+      "field": "law_public_policy",
+      "q": "\"Do Judges Vary in Their Treatment of Race?\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2177794968",
+      "doi": "10.1371/journal.pone.0157223",
+      "title": "The Effects of Local Police Surges on Crime and Arrests in New York City",
+      "field": "law_public_policy",
+      "q": "\"The Effects of Local Police Surges on Crime and Arrests in New York City\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2186243923",
+      "doi": "10.4073/csr.2008.14",
+      "title": "The Effects of Problem-Oriented Policing on Crime and Disorder",
+      "field": "law_public_policy",
+      "q": "\"The Effects of Problem-Oriented Policing on Crime and Disorder\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w1501821359",
+      "query": "\"Feminist Legal Methods\" pdf",
+      "urls": [
+        {
+          "title": "Feminist Legal Methods and the First Amendment Defense to Sexual Harassment Liability",
+          "url": "https://digitalcommons.unl.edu/nlr/vol75/iss1/2/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Scholars@Duke publication: Feminist Legal Methods",
+          "url": "https://scholars.duke.edu/publication/1038376",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w3123985438",
+      "query": "\"Do Judges Vary in Their Treatment of Race?\" pdf",
+      "urls": [
+        {
+          "title": "Do Judges Vary in Their Treatment of Race?",
+          "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/666006",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Do judges vary in their treatment of race? - The Journalist's Resource",
+          "url": "https://journalistsresource.org/criminal-justice/judges-vary-treatment-race/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Do Judges Vary in Their Treatment of Race?",
+          "url": "https://paperzz.com/doc/9168588/do-judges-vary-in-their-treatment-of-race%3F",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w2177794968",
+      "query": "\"The Effects of Local Police Surges on Crime and Arrests in New York City\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "law:law_w2186243923",
+      "query": "\"The Effects of Problem-Oriented Policing on Crime and Disorder\" pdf",
+      "urls": [
+        {
+          "title": "Effects of Problem-Oriented Policing on Crime and Disorder",
+          "url": "https://www.ojp.gov/pdffiles1/nij/grants/224990.pdf",
+          "score": 0.875,
+          "body_score": 1
+        },
+        {
+          "title": "The Effects of Problem-Oriented Policing on Crime and Disorder1",
+          "url": "https://journals.sagepub.com/doi/full/10.4073/csr.2008.14",
+          "score": 0.875,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

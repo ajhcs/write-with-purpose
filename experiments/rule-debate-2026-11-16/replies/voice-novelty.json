@@ -1,0 +1,58 @@
+{
+  "advocate": "voice-novelty",
+  "responses": [
+    {
+      "challenge_id": "EI-X01",
+      "proposal_id": "VN-03",
+      "decision": "revise",
+      "response": "Agreed: odd phrasing alone does not prove author intention or require image preservation. A general improvement request permits transforming or removing ineffective imagery. The earlier hallway example could imply an unsupported route. Keep author-required language and evidenced intended effects, while allowing substantial reader-serving revisions.",
+      "revised_wording": "When unusual wording may obstruct the requested effect, identify the intended effect as supported by the brief or context and the specific reader difficulty. Compare the original with a context-faithful revision that may retain, transform, or remove the image or rhythm. Preserve explicit wording constraints and supported meaning; do not infer a preservation requirement from strangeness alone. Select the revision that best serves the request, or keep the original if neither helps. A broader rewrite is appropriate when authorized and necessary."
+    },
+    {
+      "challenge_id": "EI-X03",
+      "proposal_id": "VN-02",
+      "decision": "revise",
+      "response": "Agreed: require a material difference in dependency, qualification placement or intended experience, not two relabeled headings; do not require a user selection or two routes where only one is feasible. The model may choose autonomously where intent is clear. This also incorporates CE-03’s comparison of gains and losses without mandatory records.",
+      "revised_wording": "When substantive drafting or improvement presents a consequential, feasible structural choice, compare an alternate route only if it changes an information dependency, placement of a material qualification, or the intended reader experience. Render the decisive transition in actual prose, test what each route makes recoverable and delays, and preserve the author’s endorsement, uncertainty and necessary evidence. Choose independently when the brief resolves the tradeoff; present alternatives or identify a material uncertainty only when intent remains unresolved. Use one route if no genuinely distinct feasible alternative exists."
+    },
+    {
+      "challenge_id": "RL-CH02",
+      "proposal_id": "VN-05",
+      "decision": "revise",
+      "response": "Agreed: a request for a rationale is not a request to do another exercise. Finish the writing first and explain only the consequential decision asked about. An exercise is appropriate only under an explicit request for instruction or practice, or a previously established learning workflow.",
+      "revised_wording": "If asked, explain a consequential edit briefly using actual wording and the reader consequence. Offer a transfer exercise only when the author requests instruction or practice, or a previously established learning workflow calls for it, and defer it until the deliverable is complete. When practice is requested, let the author attempt first and decline freely; do not treat acceptance as evidence of learning."
+    }
+  ],
+  "revised_proposals": [
+    {
+      "id": "VN-01",
+      "status": "survivor, narrowed",
+      "final_behavior": "When developing an unsettled contribution, distinguish supplied observation, author position, unresolved question and model inference. If materially different questions are supported and useful, propose concise alternatives with their evidence and gaps; otherwise develop the best-grounded question. Select provisionally without an interruption when intent is sufficiently clear. An inference proposed by the model is not an author finding; protect explicit source and author constraints."
+    },
+    {
+      "id": "VN-02",
+      "status": "survivor, merge with EI-03 and CE-03 as adjudicated",
+      "final_behavior": "When substantive drafting or improvement presents a consequential, feasible structural choice, compare an alternate route only if it changes an information dependency, placement of a material qualification, or the intended reader experience. Render the decisive transition in actual prose, test what each route makes recoverable and delays, and preserve the author’s endorsement, uncertainty and necessary evidence. Choose independently when the brief resolves the tradeoff; present alternatives or identify a material uncertainty only when intent remains unresolved. Use one route if no genuinely distinct feasible alternative exists."
+    },
+    {
+      "id": "VN-03",
+      "status": "survivor, revised",
+      "final_behavior": "When unusual wording may obstruct the requested effect, identify the intended effect as supported by the brief or context and the specific reader difficulty. Compare the original with a context-faithful revision that may retain, transform, or remove the image or rhythm. Preserve explicit wording constraints and supported meaning; do not infer a preservation requirement from strangeness alone. Select the revision that best serves the request, or keep the original if neither helps. A broader rewrite is appropriate when authorized and necessary."
+    },
+    {
+      "id": "VN-04",
+      "status": "survivor, merge with EI-02 and EI-05 as adjudicated",
+      "final_behavior": "When the author requests stronger thinking, identify a claim and test a material alternative explanation, boundary case or objection grounded in the available material; mark unsupported possibilities as hypotheses and specify what evidence would discriminate them. Revise the reasoning or scope when warranted, while preserving author endorsement and avoiding an invented factual, causal or procedural dependency. Do not force a counterargument into a correction-only task or personal piece. When materially different author intentions remain plausible, flag the choice while completing independent work."
+    },
+    {
+      "id": "VN-05",
+      "status": "survivor, merge with RL-04 as adjudicated",
+      "final_behavior": "If asked, explain a consequential edit briefly using actual wording and the reader consequence. Offer a transfer exercise only when the author requests instruction or practice, or a previously established learning workflow calls for it, and defer it until the deliverable is complete. When practice is requested, let the author attempt first and decline freely; do not treat acceptance as evidence of learning."
+    }
+  ],
+  "remaining_disagreements": [
+    "A clear improvement request can authorize coordinated rewriting without advance approval; when competing interpretations would materially alter author belief or intended experience, contextual uncertainty must remain visible rather than be silently resolved.",
+    "A useful reader-task comparison must consider author-intended pacing and ambiguity; a fast-recovery metric is not universally appropriate.",
+    "A candidate’s novelty claim concerns a conditional operational decision or implementation of an inherited principle; current skills already support explanation, alternatives, precision and voice preservation. None of these mechanisms has demonstrated reader or author benefit."
+  ]
+}

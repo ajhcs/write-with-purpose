@@ -1,4 +1,4 @@
-name: Checker tests
+name: Writing and coding checks
 
 on:
   push:
@@ -22,3 +22,9 @@ jobs:
           python-version: '3.12'
       - name: Test the read-only checker
         run: python -m unittest discover -s tests -v
+      - name: Test paragraph annotation contracts
+        run: python -m unittest discover -s experiments/paragraph-functions -p 'test_*.py' -v
+      - name: Test exploratory corpus measurements
+        run: python -m unittest discover -s experiments/corpus-analysis-2026-11-16/tests -v
+      - name: Test coding normalization and source bindings
+        run: python -m unittest discover -s experiments/rule-calibration-2026-11-16/analysis -p 'test_*.py' -v

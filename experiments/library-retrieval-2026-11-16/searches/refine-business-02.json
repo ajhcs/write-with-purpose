@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_004",
+      "doi": "10.5465/amr.1995.9508080335",
+      "title": "An Integrative Model of Organizational Trust",
+      "authors": "[\"Roger C. Mayer\", \"James H. Davis\", \"F. David Schoorman\"]",
+      "field": "business_management",
+      "q": "\"An Integrative Model of Organizational Trust\" Mayer pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_004",
+      "query": "\"An Integrative Model of Organizational Trust\" Mayer pdf",
+      "urls": [
+        {
+          "title": "An Integrative Model of Organizational Trust",
+          "url": "https://www.makinggood.ac.nz/media/1270/mayeretal_1995_organizationaltrust.pdf",
+          "score": 1
+        },
+        {
+          "title": "An Integrative Model of Organizational Trust",
+          "url": "https://static1.squarespace.com/static/577cee432e69cf8918495759/t/57bec79d46c3c412eb298a00/1472120738550/1995_MAYER%2BET%2BAL_1995_Organizational%2BTrust.pdf",
+          "score": 1
+        },
+        {
+          "title": "An Integrative Model Of Organizational Trust",
+          "url": "https://journals.aom.org/doi/10.5465/amr.1995.9508080335",
+          "score": 1
+        },
+        {
+          "title": "An Integrative Model Of Organizational Trust",
+          "url": "https://journals.aom.org/doi/10.5465/AMR.1995.9508080335",
+          "score": 1
+        },
+        {
+          "title": "An Integrative Model of Organizational Trust | JSTOR",
+          "url": "https://www.jstor.org/stable/258792?googleloggedin=true",
+          "score": 1
+        },
+        {
+          "title": "An Integrative Model Of Organizational Trust",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amr.1995.9508080335?ijkey=f7ca815f7184f6cd38000c8b9f92e05f7ac1f123k20%2F3%2F709l20%2F3%2F709",
+          "score": 1
+        },
+        {
+          "title": "An Integrative Model of Organizational Trust: Past, Present, and Future",
+          "url": "https://journals.aom.org/doi/pdf/10.5465/amr.2007.24348410",
+          "score": 1
+        },
+        {
+          "title": "An Integrative Model Of Organizational Trust",
+          "url": "https://www.scienceopen.com/document?vid=f04ba8c0-2179-473c-9c13-d4e104c443d6",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "sampling_date": "2026-11-16",
+  "method": "Select paragraph zero-based indices floor((i+0.5)*n/3), i=0,1,2; source suitability and whole body boundaries decided before selecting.",
+  "sources": [
+    {
+      "id": "LF-d23d38c43ea7",
+      "stage": "A",
+      "stratum": "argument/perspective",
+      "provisional_form": "argument/perspective",
+      "sampling_date": "2026-11-16",
+      "title": "In Praise of Idleness",
+      "authors": [
+        "Bertrand Russell"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-d23d38c43ea7.html",
+      "source_sha256": "e71603d1737269edb1e0b587e9a4383ac4485e3477f86a2ef40fb184b92328ac",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-d23d38c43ea7.body.txt",
+      "body_sha256": "adfd062f9e91979435aa6728ab0f083cb48091961a6a219ad05eb198d0a23c10",
+      "paragraph_count": 29,
+      "selected_paragraph_ids": [
+        "LF-d23d38c43ea7-p005",
+        "LF-d23d38c43ea7-p015",
+        "LF-d23d38c43ea7-p025"
+      ],
+      "selected_zero_based_positions": [
+        4,
+        14,
+        24
+      ],
+      "publication_date": "Oct 1932",
+      "publication_date_basis": "existing source inventory; provisional",
+      "url": "https://harpers.org/archive/1932/10/in-praise-of-idleness/?single=1",
+      "outlet": "harpers.org",
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-d23d38c43ea7.json"
+    },
+    {
+      "id": "LF-80bd6f30b443",
+      "stage": "A",
+      "stratum": "argument/perspective",
+      "provisional_form": "argument/perspective",
+      "sampling_date": "2026-11-16",
+      "title": "The Disadvantages of an Elite Education",
+      "authors": [
+        "William Deresiewicz"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-80bd6f30b443.html",
+      "source_sha256": "8b73c0e34a4f2a02a91c8e6e7cdc66a304772e7fb0435393fac90cff9cd4751e",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-80bd6f30b443.body.txt",
+      "body_sha256": "36834cfcb6353618cea516049ac5c327978588a772dbe9bdeff47bcaf256915b",
+      "paragraph_count": 34,
+      "selected_paragraph_ids": [
+        "LF-80bd6f30b443-p006",
+        "LF-80bd6f30b443-p018",
+        "LF-80bd6f30b443-p029"
+      ],
+      "selected_zero_based_positions": [
+        5,
+        17,
+        28
+      ],
+      "publication_date": "Jun 2008",
+      "publication_date_basis": "existing source inventory; provisional",
+      "url": "https://theamericanscholar.org/the-disadvantages-of-an-elite-education/",
+      "outlet": "theamericanscholar.org",
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-80bd6f30b443.json"
+    },
+    {
+      "id": "LF-536f04360ed3",
+      "stage": "B",
+      "stratum": "argument/perspective",
+      "provisional_form": "argument/perspective",
+      "sampling_date": "2026-11-16",
+      "title": "Listen Up",
+      "authors": [
+        "Rebecca Solnit"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-536f04360ed3.html",
+      "source_sha256": "0a58b68764083802300166eca44fde14c67f5604d3f5ab57d1471fafbf1534b6",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-536f04360ed3.body.txt",
+      "body_sha256": "ca132138b1032f743130208e58142122aeb7e2581c09e0950665995a6823b644",
+      "paragraph_count": 39,
+      "selected_paragraph_ids": [
+        "LF-536f04360ed3-p007",
+        "LF-536f04360ed3-p020",
+        "LF-536f04360ed3-p033"
+      ],
+      "selected_zero_based_positions": [
+        6,
+        19,
+        32
+      ],
+      "publication_date": "Dec 2014",
+      "publication_date_basis": "existing source inventory; provisional",
+      "url": "https://www.theguardian.com/news/2014/dec/30/-sp-rebecca-solnit-listen-up-women-are-telling-their-story-now",
+      "outlet": "www.theguardian.com",
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-536f04360ed3.json"
+    },
+    {
+      "id": "LF-fca9142fd337",
+      "stage": "A",
+      "stratum": "personal reflection",
+      "provisional_form": "personal reflection",
+      "sampling_date": "2026-11-16",
+      "title": "My First Mistake",
+      "authors": [
+        "Simon Winchester"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-fca9142fd337.html",
+      "source_sha256": "bf6ee8d71b7ceab35fcee9117417e2fc64cc7ac375478d240389935586c6cb0c",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-fca9142fd337.body.txt",
+      "body_sha256": "1ab9d2082dd36466061994ddb71c93cf6c70e287f4d7c7606218b34742901eac",
+      "paragraph_count": 34,
+      "selected_paragraph_ids": [
+        "LF-fca9142fd337-p006",
+        "LF-fca9142fd337-p018",
+        "LF-fca9142fd337-p029"
+      ],
+      "selected_zero_based_positions": [
+        5,
+        17,
+        28
+      ],
+      "publication_date": "Nov 2013",
+      "publication_date_basis": "existing source inventory; provisional",
+      "url": "https://www.laphamsquarterly.org/roundtable/my-first-mistake",
+      "outlet": "www.laphamsquarterly.org",
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-fca9142fd337.json"
+    },
+    {
+      "id": "LF-2cb0e10879f3",
+      "stage": "A",
+      "stratum": "personal reflection",
+      "provisional_form": "personal reflection",
+      "sampling_date": "2026-11-16",
+      "title": "My Mom Couldn't Cook",
+      "authors": [
+        "Tom Junod"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-2cb0e10879f3.html",
+      "source_sha256": "3890db6f447bba4fabd516dd7d7ad4b17f2d4ee65fa2f10cbac8c8f34b5d9eef",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-2cb0e10879f3.body.txt",
+      "body_sha256": "0e004c9eb30001c3d3234f0b90e29f1caf14009d700edbed811ec006102a5f39",
+      "paragraph_count": 12,
+      "selected_paragraph_ids": [
+        "LF-2cb0e10879f3-p003",
+        "LF-2cb0e10879f3-p007",
+        "LF-2cb0e10879f3-p011"
+      ],
+      "selected_zero_based_positions": [
+        2,
+        6,
+        10
+      ],
+      "publication_date": "Sep 2010",
+      "publication_date_basis": "existing source inventory; provisional",
+      "url": "https://www.esquire.com/food-drink/food/a8285/moms-cooking-082410/?page=all",
+      "outlet": "www.esquire.com",
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-2cb0e10879f3.json"
+    },
+    {
+      "id": "LF-03f718ef8cc6",
+      "stage": "B",
+      "stratum": "personal reflection",
+      "provisional_form": "personal reflection",
+      "sampling_date": "2026-11-16",
+      "title": "Don't Stop Running",
+      "authors": [
+        "Cord Jefferson"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-03f718ef8cc6.html",
+      "source_sha256": "61e2e832b979d5abe07f13979afaeae6f7c344b39dc34d451ab89d097931912b",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-03f718ef8cc6.body.txt",
+      "body_sha256": "ac99f087c964edd88648a7c8e0448482fe310d78eb195d462523839c5ad440c5",
+      "paragraph_count": 24,
+      "selected_paragraph_ids": [
+        "LF-03f718ef8cc6-p005",
+        "LF-03f718ef8cc6-p013",
+        "LF-03f718ef8cc6-p021"
+      ],
+      "selected_zero_based_positions": [
+        4,
+        12,
+        20
+      ],
+      "publication_date": "Dec 2012",
+      "publication_date_basis": "existing source inventory; provisional",
+      "url": "https://www.theawl.com/2012/12/dont-stop-running/",
+      "outlet": "www.theawl.com",
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/LF-03f718ef8cc6.json"
+    },
+    {
+      "id": "PMC2867979",
+      "stage": "A",
+      "stratum": "research/synthesis",
+      "provisional_form": "research/synthesis",
+      "sampling_date": "2026-11-16",
+      "title": "Reporting bias in medical research - a narrative review",
+      "authors": [
+        "Natalie McGauran",
+        "Beate Wieseler",
+        "Julia Kreis",
+        "Yvonne-Beatrice Schüler",
+        "Heike Kölsch",
+        "Thomas Kaiser"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/narrative-scoping/PMC2867979.xml",
+      "source_sha256": "d804c6d4b5f058ecf35e80e07f6c6c987feff6672b6e8bd911783e4daa21c106",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/PMC2867979.body.txt",
+      "body_sha256": "1dc44163375b135a718cfe0de142ee05a1fe80676177adbd820cac71cfd6012b",
+      "paragraph_count": 65,
+      "selected_paragraph_ids": [
+        "PMC2867979-p011",
+        "PMC2867979-p033",
+        "PMC2867979-p055"
+      ],
+      "selected_zero_based_positions": [
+        10,
+        32,
+        54
+      ],
+      "publication_date": "2010",
+      "publication_date_basis": "existing source inventory; provisional",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2867979/",
+      "outlet": "Trials",
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/PMC2867979.json"
+    },
+    {
+      "id": "PMC4053896",
+      "stage": "A",
+      "stratum": "research/synthesis",
+      "provisional_form": "research/synthesis",
+      "sampling_date": "2026-11-16",
+      "title": "Green Perspectives for Public Health: A Narrative Review on the Physiological Effects of Experiencing Outdoor Nature",
+      "authors": [
+        "Daniela Haluza",
+        "Regina Schönbauer",
+        "Renate Cervinka"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/narrative-scoping/PMC4053896.xml",
+      "source_sha256": "8776fc7c1c719c395bd9b6ac478e193b9f79aab28766d6b9f85472e5b719d504",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/PMC4053896.body.txt",
+      "body_sha256": "f1b141a38e12c3f131c51b7da1686c97c54eddfd5473c83883f5dec088dbf295",
+      "paragraph_count": 41,
+      "selected_paragraph_ids": [
+        "PMC4053896-p007",
+        "PMC4053896-p021",
+        "PMC4053896-p035"
+      ],
+      "selected_zero_based_positions": [
+        6,
+        20,
+        34
+      ],
+      "publication_date": "2014",
+      "publication_date_basis": "existing source inventory; provisional",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4053896/",
+      "outlet": "International Journal of Environmental Research and Public Health",
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/PMC4053896.json"
+    },
+    {
+      "id": "PMC4566873",
+      "stage": "B",
+      "stratum": "research/synthesis",
+      "provisional_form": "research/synthesis",
+      "sampling_date": "2026-11-16",
+      "title": "Theories of behaviour and behaviour change across the social and behavioural sciences: a scoping review",
+      "authors": [
+        "Rachel Davis",
+        "Rona Campbell",
+        "Zoe Hildon",
+        "Lorna Hobbs",
+        "Susan Michie"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/narrative-scoping/PMC4566873.xml",
+      "source_sha256": "40e464494d5fb0169a46a8e264eb5692a66a5b73c107c484751edb21ae5dd53d",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/PMC4566873.body.txt",
+      "body_sha256": "c63da1c59751c3100baa57abfa1f2cdfd293273dcea840b20662710537b24e82",
+      "paragraph_count": 54,
+      "selected_paragraph_ids": [
+        "PMC4566873-p010",
+        "PMC4566873-p028",
+        "PMC4566873-p046"
+      ],
+      "selected_zero_based_positions": [
+        9,
+        27,
+        45
+      ],
+      "publication_date": "2014",
+      "publication_date_basis": "existing source inventory; provisional",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4566873/",
+      "outlet": "Health Psychology Review",
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/PMC4566873.json"
+    },
+    {
+      "id": "git",
+      "stage": "A",
+      "stratum": "explanation/procedure",
+      "provisional_form": "explanation/procedure",
+      "sampling_date": "2026-11-16",
+      "title": "git-branch DESCRIPTION",
+      "authors": [
+        "Git project"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/software/git.txt",
+      "source_sha256": "bfbf721c166c2f51122c5028ddaf6fb40645427a9b34eed53cd1197d1038a067",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/software/git.body.txt",
+      "body_sha256": "136e6d9d6a0ca841ed56666968559040f71cef0cca447ea4a29651380c9335b6",
+      "paragraph_count": 8,
+      "selected_paragraph_ids": [
+        "git-p02",
+        "git-p05",
+        "git-p07"
+      ],
+      "selected_zero_based_positions": [
+        1,
+        4,
+        6
+      ],
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/software/git.json",
+      "publication_date": "2014",
+      "publication_date_basis": "release tag",
+      "url": "https://raw.githubusercontent.com/git/git/b260d265e189728b26e50506ac6ffab6a7d588da/Documentation/git-branch.txt",
+      "outlet": "Git project",
+      "version": "2.2.0",
+      "revision": "b260d265e189728b26e50506ac6ffab6a7d588da"
+    },
+    {
+      "id": "python",
+      "stage": "A",
+      "stratum": "explanation/procedure",
+      "provisional_form": "explanation/procedure",
+      "sampling_date": "2026-11-16",
+      "title": "Modules introduction",
+      "authors": [
+        "Python Software Foundation"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/software/python.rst",
+      "source_sha256": "2d66fb79414d431a516d3e70a6a7bbf60bc0b4ea34502fa1b416673a13e1df5d",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/software/python.body.txt",
+      "body_sha256": "c1493ab0313b19d7e62b488aa53bf0358f0a32bf04fc44179f99c63adfc50655",
+      "paragraph_count": 6,
+      "selected_paragraph_ids": [
+        "python-p02",
+        "python-p04",
+        "python-p06"
+      ],
+      "selected_zero_based_positions": [
+        1,
+        3,
+        5
+      ],
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/software/python.json",
+      "publication_date": "2014",
+      "publication_date_basis": "release tag",
+      "url": "https://raw.githubusercontent.com/python/cpython/dbb126103e1c4f2818e0dfc7aa4a689d86565e7a/Doc/tutorial/modules.rst",
+      "outlet": "Python Software Foundation",
+      "version": "3.4.2",
+      "revision": "dbb126103e1c4f2818e0dfc7aa4a689d86565e7a"
+    },
+    {
+      "id": "curl",
+      "stage": "B",
+      "stratum": "explanation/procedure",
+      "provisional_form": "explanation/procedure",
+      "sampling_date": "2026-11-16",
+      "title": "HTTP responses",
+      "authors": [
+        "curl project"
+      ],
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/software/curl.md",
+      "source_sha256": "e51f395cbf3328237ebdb20d7816a2deb70b256438d26f5d388be15261afc789",
+      "body_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/software/curl.body.txt",
+      "body_sha256": "1e78a6fceb1bb16377b7e618ef781e3fad55da080c7874c3f2adfb7a7d11608c",
+      "paragraph_count": 20,
+      "selected_paragraph_ids": [
+        "curl-p04",
+        "curl-p11",
+        "curl-p17"
+      ],
+      "selected_zero_based_positions": [
+        3,
+        10,
+        16
+      ],
+      "private_metadata_path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/software/curl.json",
+      "publication_date": "2019",
+      "publication_date_basis": "repository snapshot commit 2019-12-07",
+      "url": "https://raw.githubusercontent.com/curl/everything-curl/4f6e607cc2bba70ae606a082f6e376e2ead0f95a/http-response.md",
+      "outlet": "curl project",
+      "version": "commit snapshot",
+      "revision": "4f6e607cc2bba70ae606a082f6e376e2ead0f95a"
+    }
+  ]
+}

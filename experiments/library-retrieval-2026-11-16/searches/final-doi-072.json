@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-procedure_how_to-3",
+      "doi": "10.1002/sim.1187",
+      "title": "How should meta-regression analyses be undertaken and interpreted?",
+      "authors": "[\"Thompson SG\", \"Higgins JP\"]",
+      "field": "medicine_health",
+      "q": "\"How should meta-regression analyses be undertaken and interpreted?\" Thompson filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-procedure_how_to-3",
+      "query": "\"How should meta-regression analyses be undertaken and interpreted?\" Thompson filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "35. Thompson SG, Higgins JP. How should meta-regression analyses be undertaken and interpreted? *Stat Med.* 2002;21(11):1559–1573.",
+          "url": "https://academic.oup.com/jnci/article-pdf/102/14/1023/18085782/djq223.pdf",
+          "score": 1
+        },
+        {
+          "title": "95. Thompson SG, Higgins JPT. How should meta-regression analyses be undertaken and interpreted? *Stat Med.* 2002;1573:1559-1573. doi:10.1002/sim.1187",
+          "url": "https://digital.lib.washington.edu/researchworks/bitstreams/d13c4955-a0fb-4b07-9ad0-bdfb3efda092/download",
+          "score": 1
+        },
+        {
+          "title": "How should meta-regression analyses be undertaken and interpreted?",
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/sim.1187",
+          "score": 1
+        },
+        {
+          "title": "How should meta-regression analyses be undertaken and interpreted?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12111920/",
+          "score": 1
+        },
+        {
+          "title": "How should meta‐regression analyses be undertaken and interpreted?",
+          "url": "https://www.canyam.com/en/article/how-should-meta-regression-analyses-be-undertaken-and-interpreted/23843949",
+          "score": 1
+        },
+        {
+          "title": "11. Thompson S, Higgins J. How should meta-regression analyses be undertaken and interpreted? Stat Med. 2002;21(11):1559-73.",
+          "url": "https://hdl.handle.net/10871/36903",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

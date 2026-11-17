@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-11-16T01:26:36.086818+00:00",
+  "sources": [
+    {
+      "venue": "Academy of Management Review",
+      "source_id": "https://openalex.org/S46763546",
+      "publisher_scope": "theoretical/conceptual scholarly journal; individual form unverified",
+      "publisher_scope_url": "https://journals.aom.org/journal/amr",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+      "match_count": 3027,
+      "returned": 200,
+      "observed_at": "2026-11-16T01:26:36.086818+00:00"
+    },
+    {
+      "venue": "Academy of Management Journal",
+      "source_id": "https://openalex.org/S117778295",
+      "publisher_scope": "empirical management research journal; individual form unverified",
+      "publisher_scope_url": "https://www.aom.org/publications/journals/journal/",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS117778295%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+      "match_count": 3693,
+      "returned": 200,
+      "observed_at": "2026-11-16T01:26:36.086818+00:00"
+    },
+    {
+      "venue": "Strategic Management Journal",
+      "source_id": "https://openalex.org/S102949365",
+      "publisher_scope": "scholarly management research; theory, evidence, reviews, methods and other types",
+      "publisher_scope_url": "https://sms.onlinelibrary.wiley.com/hub/journal/10970266/homepage/productinformation.html",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS102949365%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+      "match_count": 2801,
+      "returned": 200,
+      "observed_at": "2026-11-16T01:26:36.086818+00:00"
+    },
+    {
+      "venue": "Organization Science",
+      "source_id": "https://openalex.org/S206124708",
+      "publisher_scope": "scholarly research and conceptual perspectives; individual form unverified",
+      "publisher_scope_url": "https://pubsonline.informs.org/page/orsc/editorial-statement",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS206124708%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+      "match_count": 1611,
+      "returned": 200,
+      "observed_at": "2026-11-16T01:26:36.086818+00:00"
+    },
+    {
+      "venue": "Management Science",
+      "source_id": "https://openalex.org/S33323087",
+      "publisher_scope": "scholarly theoretical and empirical management research; individual form unverified",
+      "publisher_scope_url": "https://pubsonline.informs.org/page/mnsc/editorial-statement",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS33323087%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+      "match_count": 8945,
+      "returned": 200,
+      "observed_at": "2026-11-16T01:26:36.086818+00:00"
+    },
+    {
+      "venue": "Harvard Business Review",
+      "source_id": "https://openalex.org/S41416626",
+      "publisher_scope": "practitioner-oriented magazine; specific genre and review process unverified",
+      "publisher_scope_url": "https://hbr.org/",
+      "query_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS41416626%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location%2Cbiblio",
+      "match_count": 2707,
+      "returned": 200,
+      "observed_at": "2026-11-16T01:26:36.086818+00:00"
+    }
+  ],
+  "duplicates_removed": [],
+  "prior_amr_path": "/workspace/repos/builderbob/write-with-purpose/experiments/form-corpus-2026-11-16/critical-theory/historical-candidates.jsonl",
+  "prior_amr_distinct_ids": 200,
+  "records": 1200,
+  "matched_prior_amr_records": 200
+}

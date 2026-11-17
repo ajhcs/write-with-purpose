@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_031",
+      "doi": "10.1287/orsc.1060.0191",
+      "title": "Social Capital and Organizational Performance: Evidence from Urban Public Schools",
+      "authors": "[\"Carrie R. Leana\", \"Frits K. Pil\"]",
+      "field": "business_management",
+      "q": "\"Social Capital and Organizational Performance: Evidence from Urban\" Leana filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_031",
+      "query": "\"Social Capital and Organizational Performance: Evidence from Urban\" Leana filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Leana, C. R., & Pil, F. K. (2006). Social capital and organizational performance: Evidence from urban public schools. *Organization Science* 17(3), 353-366.",
+          "url": "https://etd.uum.edu.my/8080/2/s900692_02.pdf",
+          "score": 1
+        },
+        {
+          "title": "Leana, C.R., and Pil, F. (2006). Social capital and organizational performance: Evidence from urban public schools. Organization Science. Vol.17(3), 353-366.",
+          "url": "https://etd.uum.edu.my/3568/1/s805425.pdf",
+          "score": 1
+        },
+        {
+          "title": "Social Capital and Organizational Performance: Evidence from Urban Public Schools",
+          "url": "https://pubsonline.informs.org/doi/pdf/10.1287/orsc.1060.0191",
+          "score": 1
+        },
+        {
+          "title": "Social Capital and Organizational Performance: Evidence from Urban Public Schools",
+          "url": "https://ideas.repec.org/a/inm/ororsc/v17y2006i3p353-366.html",
+          "score": 1
+        },
+        {
+          "title": "dblp: Social Capital and Organizational Performance: Evidence from Urban Public Schools.",
+          "url": "https://dblp.org/rec/journals/orgsci/LeanaP06.html",
+          "score": 1
+        },
+        {
+          "title": "Social Capital and Organizational Performance: Evidence from Urban Public Schools",
+          "url": "https://bishtref.com/articles/10.1287/orsc.1060.0191",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

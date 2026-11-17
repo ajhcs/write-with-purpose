@@ -1,0 +1,37 @@
+{
+  "status": "bounded_independent_audit",
+  "candidate_id": "astra-f09-0.2-candidate",
+  "checks": {
+    "source_hashes": "4/4 match",
+    "paragraph_hashes": "4/4 match",
+    "context_records": "8/8 match",
+    "role_anchors": "15/15 match",
+    "target_anchors": "5/5 match",
+    "original_labels_uncertainty_and_provenance": "4/4 match worked cases",
+    "catalogue_sha256": "matches candidate",
+    "scope_tokens": {
+      "paragraph_whitespace_tokens": 113,
+      "qualification_whitespace_tokens": 13
+    },
+    "synthetic_contract_fixture_hashes": "2/2 match",
+    "role_ids_fields_statuses_and_summaries": "15/15 match"
+  },
+  "findings": [
+    {
+      "id": "relation-rejection",
+      "status": "resolved_in_amended_contract_not_implemented",
+      "issue": "Clear rejection of a relational candidate with no identifiable target cannot satisfy a universal target requirement without fabricating a target.",
+      "resolution": "Clear rejection may have no target with target_absence_reason and sufficient context; unresolved missing-context case has separate missing_target_reason. Two synthetic fixture source and anchor hashes match."
+    },
+    {
+      "id": "prototype-compatibility",
+      "status": "design_boundary",
+      "issue": "Current checker uses flat labels and paragraph status, not nested role decisions and same-paragraph target relations."
+    }
+  ],
+  "limitations": [
+    "Source extraction was not independently re-audited.",
+    "Semantic judgments are contestable and examples are development material.",
+    "No agreement gain, reader benefit, runtime implementation, or adopted catalogue is established."
+  ]
+}

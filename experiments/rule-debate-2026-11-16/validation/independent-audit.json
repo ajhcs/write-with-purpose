@@ -1,0 +1,83 @@
+{
+  "status": "bounded independent audit complete; no material outstanding issue identified",
+  "date": "2026-11-16",
+  "pre_candidate_sources": [
+    "debate-contract.md",
+    "accepted-direction.md",
+    "development-cases.json",
+    "skills/write-with-purpose/SKILL.md",
+    "skills/edit-with-purpose/SKILL.md",
+    "docs/writing-harness/accepted-foundations.md",
+    "docs/writing-harness/paragraph-functions.md"
+  ],
+  "rubric": [
+    "distinct behavioral delta against baseline and inspected prior work",
+    "affirmative authorized improvement while respecting narrow tasks",
+    "meaning evidence voice and exact constraints",
+    "standalone annotation with full realization span distinct from evidence anchor",
+    "trace all 22 proposals and 17 challenges with reasoned decisions",
+    "model code author operational boundaries and no measured-benefit claims from synthetic checks"
+  ],
+  "development_cases": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08"
+  ],
+  "findings": [
+    {
+      "id": "E01-count",
+      "severity": "low",
+      "status": "resolved",
+      "detail": "Original worked example stated 27 whitespace tokens; independent split count 26 for original and revision; corrected to 26."
+    },
+    {
+      "id": "B04-learning-scope",
+      "severity": "moderate",
+      "status": "resolved; two targeted synthetic sequencing checks performed",
+      "detail": "Attempt-first wording could withhold explicitly requested worked solution; revision 0.1.1 limits attempt-first to chosen practice and directly supplies requested solutions."
+    },
+    {
+      "id": "baseline-delta",
+      "severity": "info",
+      "status": "candidate",
+      "detail": "Affirmative improvement search is an incremental operational refinement; structural alternatives and protected voice were already present in previous strategies."
+    },
+    {
+      "id": "exercise",
+      "severity": "info",
+      "status": "bounded",
+      "detail": "E01-E08 outputs reviewed; synthetic non-holdout development cases, not measured reader benefit or proof of optimization. E07 anchors remain distinct from uncollected extents."
+    },
+    {
+      "id": "revision-provenance",
+      "severity": "info",
+      "status": "verified",
+      "detail": "0.1.1 guide changes only version and B04; coding appendix version only; guide hash matches rules.json; E01-E08 use frozen 0.1 and L01-L02 current 0.1.1."
+    },
+    {
+      "id": "adjudication-coverage",
+      "severity": "info",
+      "status": "verified",
+      "details": "22 proposal IDs and 17 challenge IDs exactly once with reasoned dispositions; 15 stage hashes match; migration and novelty documents read, final-file inventory exists."
+    },
+    {
+      "id": "migration-and-novelty",
+      "severity": "info",
+      "status": "verified bounded",
+      "detail": "Twelve IDs identity-mapped; historical anchors preserved; nine accepted features and hierarchy retained; novelty claims limited to inspected precedents and unmeasured hypotheses."
+    },
+    {
+      "id": "evaluation-limit",
+      "severity": "info",
+      "status": "open research not defect",
+      "detail": "E01-E08 and L01-L02 are synthetic development exercises, not held-out tests, evidence of learning, author acceptance or optimization."
+    }
+  ],
+  "candidate_id": "wwp-debate-0.1.1",
+  "guide_sha256": "0cfa57f8280320eb6eeba7234d041c7d6a796a9ecb38c18293eea5265f70c367"
+}
