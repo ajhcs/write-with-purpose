@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-theory_conceptual_paper-3",
+      "doi": "10.1016/j.socscimed.2009.09.042",
+      "title": "Rebuilding health systems to improve health and promote statebuilding in post-conflict countries: a theoretical framework and research agenda.",
+      "authors": "[\"Kruk ME\", \"Freedman LP\", \"Anglin GA\", \"Waldman RJ\"]",
+      "field": "medicine_health",
+      "q": "\"Rebuilding health systems to improve health and promote\" Kruk filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-theory_conceptual_paper-3",
+      "query": "\"Rebuilding health systems to improve health and promote\" Kruk filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "KRUK, M. E., FREEDMAN, L. P., ANGLIN, G. A. & WALDMAN, R. J. 2010. Rebuilding health systems to improve health and promote statebuilding in post-conflict countries: a theoretical framework and research agenda. Soc Sci Med, 70, 89-97.",
+          "url": "https://ipus.snu.ac.kr/wp-content/uploads/2022/03/8_2_%EB%86%8D%EC%97%85%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99%EB%8C%80%ED%95%99_%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf",
+          "score": 1
+        },
+        {
+          "title": "Rebuilding health systems to improve health and promote statebuilding in post-conflict countries: a theoretical framework and research agenda.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19850390/",
+          "score": 1
+        },
+        {
+          "title": "Rebuilding health systems to improve health and promote statebuilding in post-conflict countries: A theoretical framework and research agenda",
+          "url": "https://profiles.wustl.edu/en/publications/rebuilding-health-systems-to-improve-health-and-promote-statebuil/",
+          "score": 1
+        },
+        {
+          "title": "Rebuilding health systems to improve health and promote statebuilding in post-conflict countries: A theoretical framework and research agenda",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0277953609006339",
+          "score": 1
+        },
+        {
+          "title": "Rebuilding health systems to improve health and promote statebuilding in post-conflict countries: A theoretical framework and research agenda",
+          "url": "https://scispace.com/papers/rebuilding-health-systems-to-improve-health-and-promote-2mr7kbg0c5",
+          "score": 1
+        },
+        {
+          "title": "Rebuilding health systems to improve health and promote statebuilding in post-conflict countries: A theoretical framework and research agenda",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0277953609006339?casa_token=WTTKSqClHHkAAAAA%3Ab9SQpZwX2mZ1_TBlCk1-a6f9cs1WITgUv_DCQ9Ib0u8uvG7MxCXYX-cjd00FdH2efXB_XPIkVAs",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

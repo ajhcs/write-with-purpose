@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_20",
+      "doi": "10.1109/mc.1987.1663532",
+      "title": "No Silver Bullet Essence and Accidents of Software Engineering",
+      "authors": "[\"Brooks\"]",
+      "field": "engineering_computing",
+      "q": "\"No Silver Bullet Essence and Accidents of Software\" Brooks filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_20",
+      "query": "\"No Silver Bullet Essence and Accidents of Software\" Brooks filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "dblp: No Silver Bullet - Essence and Accidents of Software Engineering.",
+          "url": "https://dblp.org/rec/journals/computer/Brooks87.html",
+          "score": 1
+        },
+        {
+          "title": "No Silver Bullet Essence and Accidents of Software Engineering",
+          "url": "https://reserves.ub.rwth-aachen.de/record/123273",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "stage": "Frozen first-execution guide and structured duplicate; later corrections must be versioned and narrowly rechecked.",
+  "files": [
+    {
+      "path": "candidate/operative-rules.md",
+      "saved_copy": "validation/execution-inputs-0.1/operative-rules.md",
+      "sha256": "3f6703101041e24e33c85a6abacc52a442dee3d4cc3523f7c19ef41370dcf2aa"
+    },
+    {
+      "path": "candidate/coding-clarifications.md",
+      "saved_copy": "validation/execution-inputs-0.1/coding-clarifications.md",
+      "sha256": "d1dfd92374476f03d5b5cd783684f061baa981a898cb75a2f7dbf127cdfc3d06"
+    },
+    {
+      "path": "candidate/rules.json",
+      "saved_copy": "validation/execution-inputs-0.1/rules.json",
+      "sha256": "d16a838e98f3c8a0b43faa04cdd9c99e26c38fa0595dd5b36a5b89ae621d6e89"
+    }
+  ]
+}

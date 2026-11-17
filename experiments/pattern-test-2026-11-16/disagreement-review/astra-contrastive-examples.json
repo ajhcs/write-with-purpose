@@ -1,0 +1,1308 @@
+{
+  "candidate_id": "astra-f09-0.2-candidate",
+  "created": "2026-11-16",
+  "status": "unvalidated_development_examples",
+  "actual_case_source": "worked-cases.json and private normalized source/context, cross-checked against results/documents.json",
+  "actual_cases": [
+    {
+      "id": "NEJMp1616577-p10",
+      "status": "proposed_development_reading_not_gold",
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1616577.pdf",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483",
+      "private_paragraph_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/disagreement-review/NEJMp1616577-p10.txt",
+      "paragraph_sha256": "8b09305d20a3eab3cde3e146989dd64f8cad051fb73efce8e3fb30806e55d8b6",
+      "offset_convention": "zero-based Unicode code points in exact normalized paragraph, end exclusive; final cache-file newline excluded as in paragraph hash",
+      "original_coder_a": [
+        "assert",
+        "explain"
+      ],
+      "original_coder_b": [
+        "assert",
+        "interpret"
+      ],
+      "legacy_uncertainty_preserved": false,
+      "context_reviewed": [
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/aca-science/NEJMp1616577.body.txt",
+          "start": 5313,
+          "end": 8015,
+          "sha256": "5caa2d64783625fb689450a01c6e4199dc229a61931cf08528208d40bc88fd92",
+          "scope": "Actual reviewed window; includes preceding and following context, may start mid-paragraph."
+        }
+      ],
+      "normalized_source_verified": true,
+      "extraction_status": "Prior reviewed reconstruction used; source layout not re-audited for this revision.",
+      "original_provenance": {
+        "packet": "aca-science/NEJMp1616577-coding.json",
+        "start": 6713,
+        "end": 7203,
+        "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/aca-science/NEJMp1616577.body.txt"
+      },
+      "annotations": [
+        {
+          "annotation_id": "aca-interpret",
+          "function_id": "interpret",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "NEJMp1616577-p10",
+              "start": 0,
+              "end": 490,
+              "text_sha256": "8b09305d20a3eab3cde3e146989dd64f8cad051fb73efce8e3fb30806e55d8b6"
+            }
+          ],
+          "reason": "Brings earlier projections and policy contingencies together as the significance of repeal, rather than developing a connecting mechanism here.",
+          "role_fields": {
+            "input_material": "Preceding coverage projection and possibility of repeal without replacement",
+            "inference_or_significance": "Overall stakes for patients and care institutions",
+            "transformation": "Integrates several preceding risks into an overall consequence judgment"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_applicable",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        },
+        {
+          "annotation_id": "aca-assert",
+          "function_id": "assert",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "NEJMp1616577-p10",
+              "start": 12,
+              "end": 38,
+              "text_sha256": "7e53094285b3b5667e8f9072fef5089c1f5e73c28ef36a282e9046e33506e0ab"
+            }
+          ],
+          "reason": "Foregrounds a forceful evaluative position about the total gains at risk; this is its stance contribution, distinct from its synthesizing relation to the preceding projections.",
+          "role_fields": {
+            "position": "The existing gains are at stake under the stated condition",
+            "position_holder": "Article author",
+            "commitment_job": "Explicit overall stakes position in a policy argument"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_applicable",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        },
+        {
+          "annotation_id": "aca-qualify",
+          "function_id": "qualify",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "NEJMp1616577-p10",
+              "start": 39,
+              "end": 191,
+              "text_sha256": "ef1734386df06bb7d54c012b434cae25de6aea85bb0d12e883c1daca8e0c4ff8"
+            }
+          ],
+          "reason": "Conditions the opening stakes proposition on repeal without the specified replacement; removing it broadens the claim.",
+          "role_fields": {
+            "affected_claim": "aca-stakes",
+            "scope_change": "Specified repeal scenario rather than every conceivable reform",
+            "qualification_kind": "condition"
+          },
+          "targets": [
+            {
+              "target_id": "aca-stakes",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "NEJMp1616577-p10",
+                  "start": 12,
+                  "end": 38,
+                  "text_sha256": "7e53094285b3b5667e8f9072fef5089c1f5e73c28ef36a282e9046e33506e0ab"
+                }
+              ],
+              "paraphrase": "The health-law gains are at risk under the specified repeal scenario.",
+              "status": "clear",
+              "reason": "Located directly in the indicated source span."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_applicable",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        },
+        {
+          "annotation_id": "aca-explain-rejected",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "rejected",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "NEJMp1616577-p10",
+              "start": 0,
+              "end": 490,
+              "text_sha256": "8b09305d20a3eab3cde3e146989dd64f8cad051fb73efce8e3fb30806e55d8b6"
+            }
+          ],
+          "reason": "The local passage states consequences without making the connecting mechanism or dependency intelligible beyond the earlier discussion.",
+          "role_fields": {
+            "relata": "Repeal and consequences",
+            "connection_made_intelligible": "Not developed locally; antecedent reasoning is outside this anchor"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_applicable",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        }
+      ],
+      "challenge_to_previous_review": "Neither original coder tagged the explicit conditional qualification. Assert requires its own stance reason; it is not inherited automatically from interpret. A support relation to the later recommendation could be assessed separately, but is not presumed here.",
+      "summary": {
+        "clear_labels": [
+          "assert",
+          "interpret",
+          "qualify"
+        ],
+        "unresolved_labels": [],
+        "rejected_candidates": [
+          "explain"
+        ],
+        "candidate_union": [
+          "assert",
+          "interpret",
+          "qualify"
+        ]
+      }
+    },
+    {
+      "id": "drucker-034",
+      "status": "proposed_development_reading_not_gold",
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/hbr-managing-oneself.pdf",
+      "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b",
+      "private_paragraph_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/disagreement-review/drucker-034.txt",
+      "paragraph_sha256": "957f53713332d04acca3b8d691e9032592201617317375208850c64f58d426ea",
+      "offset_convention": "zero-based Unicode code points in exact normalized paragraph, end exclusive; final cache-file newline excluded as in paragraph hash",
+      "original_coder_a": [
+        "define",
+        "orient"
+      ],
+      "original_coder_b": [
+        "define",
+        "instruct",
+        "orient"
+      ],
+      "legacy_uncertainty_preserved": [
+        "instruct: asking the question is actionable, but the test is not yet explained"
+      ],
+      "context_reviewed": [
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json",
+          "unit_id": "drucker-033",
+          "sha256": "ee1b97ba3a836023a27e239df241662d6d41d13dd7c51d8d2cf39f4f614b5a85",
+          "printed_heading": null
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json",
+          "unit_id": "drucker-034",
+          "sha256": "957f53713332d04acca3b8d691e9032592201617317375208850c64f58d426ea",
+          "printed_heading": "What Are My Values?"
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json",
+          "unit_id": "drucker-035",
+          "sha256": "8a720c8c0cc971ccb5947b2e30dd891e4de9c73b348bf716548b21b04ba16440",
+          "printed_heading": null
+        }
+      ],
+      "normalized_source_verified": true,
+      "extraction_status": "Prior reviewed reconstruction used; source layout not re-audited for this revision.",
+      "original_provenance": {
+        "private_units": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json",
+        "unit_id": "drucker-034",
+        "source": "/workspace/repos/builderbob/write-with-purpose/experiments/pattern-test-2026-11-16/hbr/drucker-reviewed.json",
+        "source_section_hint": "values"
+      },
+      "annotations": [
+        {
+          "annotation_id": "values-instruct",
+          "function_id": "instruct",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "drucker-034",
+              "start": 0,
+              "end": 75,
+              "text_sha256": "c6ef0da393a8e154d2ee1258a85fe00a9e47e41ae38c923e67c8a84ef228e7a9"
+            }
+          ],
+          "reason": "Directs the addressed reader to examine personal values; a cognitive action is actionable even though a full assessment method is not supplied.",
+          "role_fields": {
+            "addressed_actor": "Reader managing themselves",
+            "action": "Ask what their own values are",
+            "directive_context": "The author explicitly tells the reader to ask this question"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_applicable",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        },
+        {
+          "annotation_id": "values-orient",
+          "function_id": "orient",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "drucker-034",
+              "start": 0,
+              "end": 230,
+              "text_sha256": "957f53713332d04acca3b8d691e9032592201617317375208850c64f58d426ea"
+            }
+          ],
+          "reason": "Moves the reader into values and prepares the immediately following mirror-test episode.",
+          "role_fields": {
+            "prepared_contribution": "values-next-example",
+            "preparation_link": "Announces the new self-management question and introduces the test developed through the following episode"
+          },
+          "targets": [
+            {
+              "target_id": "values-next-example",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "drucker-035",
+                  "start": 0,
+                  "end": 561,
+                  "text_sha256": "8a720c8c0cc971ccb5947b2e30dd891e4de9c73b348bf716548b21b04ba16440"
+                }
+              ],
+              "paraphrase": "The following diplomatic episode develops the mirror test for personal values.",
+              "status": "clear",
+              "reason": "Located directly in the indicated source span."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_applicable",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        },
+        {
+          "annotation_id": "values-define",
+          "function_id": "define",
+          "layer": "local_move",
+          "decision": "unresolved",
+          "status": "ambiguous",
+          "anchors": [
+            {
+              "unit_id": "drucker-034",
+              "start": 76,
+              "end": 109,
+              "text_sha256": "548f8b4a6358b767de1cef8a481baa0cce557beb36be0c35f1ec107025ebc719"
+            }
+          ],
+          "reason": "Explicitly distinguishes the values question from ethics; this may establish a limited meaning by exclusion, but may instead only contrast the scope of two questions.",
+          "role_fields": {
+            "term": "Personal values question",
+            "meaning_or_distinction": "Distinguished from ethics",
+            "definition_scope": "Partial negative distinction, not a complete account of values"
+          },
+          "targets": [],
+          "alternatives": [
+            {
+              "reading": "define",
+              "reason": "A limited exclusion can define a concept in this local context."
+            },
+            {
+              "reading": "orient without define",
+              "reason": "The sentence may only distinguish the upcoming question, leaving the concept itself undeveloped."
+            }
+          ],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_applicable",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        }
+      ],
+      "challenge_to_previous_review": "Completeness is not a valid prerequisite for definition. Shared define labels do not settle the semantic question, but a limited distinction is genuine positive evidence. The cognitive instruction itself is clear.",
+      "summary": {
+        "clear_labels": [
+          "instruct",
+          "orient"
+        ],
+        "unresolved_labels": [
+          "define"
+        ],
+        "rejected_candidates": [],
+        "candidate_union": [
+          "define",
+          "instruct",
+          "orient"
+        ]
+      }
+    },
+    {
+      "id": "xml-02359-p018",
+      "status": "proposed_development_reading_not_gold",
+      "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC3549241.xml",
+      "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47",
+      "private_paragraph_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/disagreement-review/xml-02359-p018.txt",
+      "paragraph_sha256": "c0a142a2832eedf368e1f502bb68681ca803dac23dca3dabc30db68d1b511550",
+      "offset_convention": "zero-based Unicode code points in exact normalized paragraph, end exclusive; final cache-file newline excluded as in paragraph hash",
+      "original_coder_a": [
+        "define",
+        "qualify",
+        "report"
+      ],
+      "original_coder_b": [
+        "illustrate",
+        "report"
+      ],
+      "legacy_uncertainty_preserved": "Examples enumerate category contents; illustration is borderline.",
+      "context_reviewed": [
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02359.txt",
+          "start": 8192,
+          "end": 11452,
+          "sha256": "dbabcbdff63890937d3d6f18f534d893b693ebc0b73d44b8ee9354ae9e71c919",
+          "scope": "Actual reviewed window; includes preceding and following context, may start mid-paragraph."
+        }
+      ],
+      "normalized_source_verified": true,
+      "extraction_status": "Prior reviewed reconstruction used; source layout not re-audited for this revision.",
+      "original_provenance": {
+        "packet": "/workspace/repos/builderbob/write-with-purpose/experiments/pattern-test-2026-11-16/systematic/xml-02359-coding.json",
+        "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02359.txt",
+        "start": 9592,
+        "end": 10452,
+        "xml_path": "/article/body/sec[3]/p[3]"
+      },
+      "annotations": [
+        {
+          "annotation_id": "review-report",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "xml-02359-p018",
+              "start": 0,
+              "end": 109,
+              "text_sha256": "07419fc6b27d34cce4222ae6989c52128d49f41238915f45bf78c06d3a8e430b"
+            }
+          ],
+          "reason": "Reports the content presented by the table.",
+          "role_fields": {
+            "reported_content": "Table frequencies categorized by outcome type",
+            "attribution": "Current review authors",
+            "event_or_claim_status": "Reported synthesis result"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        },
+        {
+          "annotation_id": "review-qualify",
+          "function_id": "qualify",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "xml-02359-p018",
+              "start": 111,
+              "end": 192,
+              "text_sha256": "a81fe6aa0dfac143fce28824c0094e1740cf9367465d9087f0ef6c90d64f3315"
+            }
+          ],
+          "reason": "Limits the category analysis to the subset with adequate information, changing the denominator of the table claim.",
+          "role_fields": {
+            "affected_claim": "table-coverage",
+            "scope_change": "378 categorized cases out of 556, conditional on sufficient information",
+            "qualification_kind": "denominator_and_information_availability"
+          },
+          "targets": [
+            {
+              "target_id": "table-coverage",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "xml-02359-p018",
+                  "start": 0,
+                  "end": 109,
+                  "text_sha256": "07419fc6b27d34cce4222ae6989c52128d49f41238915f45bf78c06d3a8e430b"
+                }
+              ],
+              "paraphrase": "The frequencies categorized by outcome type in Table 3.",
+              "status": "clear",
+              "reason": "Located directly in the indicated source span."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_applicable",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        },
+        {
+          "annotation_id": "review-illustrate",
+          "function_id": "illustrate",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "xml-02359-p018",
+              "start": 246,
+              "end": 319,
+              "text_sha256": "718a17bf073e391d11cdfc31fcc265a6a9fab267d764dd027e760692b2356141"
+            }
+          ],
+          "reason": "Gives concrete instances of an outcome category. Parallel examples elsewhere in the paragraph extend this same job.",
+          "role_fields": {
+            "illustrated_idea": "outcome-category",
+            "concretizing_link": "Named measures instantiate the category",
+            "case_status": "Reported category examples, not invented study results"
+          },
+          "targets": [
+            {
+              "target_id": "outcome-category",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "xml-02359-p018",
+                  "start": 209,
+                  "end": 245,
+                  "text_sha256": "5c85a00ea017e90a105e805f64bb5c48c2dc63a2f9a3aaee640a0caa0ba48769"
+                }
+              ],
+              "paraphrase": "The category of objectively measured health outcomes.",
+              "status": "clear",
+              "reason": "Located directly in the indicated source span."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        },
+        {
+          "annotation_id": "review-define-rejected",
+          "function_id": "define",
+          "layer": "local_move",
+          "decision": "rejected",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "xml-02359-p018",
+              "start": 209,
+              "end": 319,
+              "text_sha256": "4958452b3e8f4721cd4f249ee6f3eb0f84f12c699382338d0628e011d15fca2a"
+            }
+          ],
+          "reason": "The passage introduces these items as examples inside an already named category rather than using them to establish its meaning or membership boundary.",
+          "role_fields": {
+            "term": "Objectively measured health outcomes",
+            "meaning_or_distinction": "No defining distinction added by this example list",
+            "definition_scope": "Example use assessed locally; completeness is not the rejection criterion"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_applicable",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        }
+      ],
+      "measurement": {
+        "tokenizer": "Existing common pilot metrics.py rule; counts retained from verified worked-case record",
+        "paragraph_words": 113,
+        "qualification_words": 13,
+        "scope_warning": "113 describes a paragraph containing qualify; 13 describes this explicit condition. Neither is a target."
+      },
+      "challenge_to_previous_review": "Retains the proposed reading but replaces the completeness-based argument against define with an actual usage distinction: the items are offered as examples.",
+      "summary": {
+        "clear_labels": [
+          "illustrate",
+          "qualify",
+          "report"
+        ],
+        "unresolved_labels": [],
+        "rejected_candidates": [
+          "define"
+        ],
+        "candidate_union": [
+          "illustrate",
+          "qualify",
+          "report"
+        ]
+      }
+    },
+    {
+      "id": "drucker-007",
+      "status": "proposed_development_reading_not_gold",
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/hbr-managing-oneself.pdf",
+      "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b",
+      "private_paragraph_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/disagreement-review/drucker-007.txt",
+      "paragraph_sha256": "abd51a67b3cf2286493ede9b52d14227e84d1ad10cc4d043caa3be8367e40fad",
+      "offset_convention": "zero-based Unicode code points in exact normalized paragraph, end exclusive; final cache-file newline excluded as in paragraph hash",
+      "original_coder_a": [
+        "explain",
+        "report"
+      ],
+      "original_coder_b": [
+        "explain",
+        "narrate",
+        "report",
+        "support"
+      ],
+      "legacy_uncertainty_preserved": [
+        "support: the historical causal claim is asserted rather than independently established in this excerpt"
+      ],
+      "context_reviewed": [
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json",
+          "unit_id": "drucker-006",
+          "sha256": "6eb7bda7c09f84f51c640fb0b8709cb89e2c24213630a091f5105d5a6563b9b5",
+          "printed_heading": null
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json",
+          "unit_id": "drucker-007",
+          "sha256": "abd51a67b3cf2286493ede9b52d14227e84d1ad10cc4d043caa3be8367e40fad",
+          "printed_heading": null
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json",
+          "unit_id": "drucker-008",
+          "sha256": "8b313d59e8898379b89393698adeb3a03bd643266b51e66c5dcd362425596b8d",
+          "printed_heading": null
+        }
+      ],
+      "normalized_source_verified": true,
+      "extraction_status": "Prior reviewed reconstruction used; source layout not re-audited for this revision.",
+      "original_provenance": {
+        "private_units": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json",
+        "unit_id": "drucker-007",
+        "source": "/workspace/repos/builderbob/write-with-purpose/experiments/pattern-test-2026-11-16/hbr/drucker-reviewed.json",
+        "source_section_hint": "strengths"
+      },
+      "annotations": [
+        {
+          "annotation_id": "history-report",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "drucker-007",
+              "start": 0,
+              "end": 299,
+              "text_sha256": "913d5885d4bde19b3d0e545a055129032d045baa0a77ae5d79d481931412df7e"
+            }
+          ],
+          "reason": "Presents an attributed historical account of invention and adoption.",
+          "role_fields": {
+            "reported_content": "Historical invention and later institutional adoption of feedback analysis",
+            "attribution": "Article author reporting history",
+            "event_or_claim_status": "Historical account, externally unverified"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        },
+        {
+          "annotation_id": "history-narrate",
+          "function_id": "narrate",
+          "layer": "temporal_presentation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "drucker-007",
+              "start": 0,
+              "end": 299,
+              "text_sha256": "913d5885d4bde19b3d0e545a055129032d045baa0a77ae5d79d481931412df7e"
+            }
+          ],
+          "reason": "Develops the practice from invention to later adoption and incorporation, with participants and temporal change.",
+          "role_fields": {
+            "participant_or_subject": "Feedback-analysis practice and its adopters",
+            "events": [
+              "Invention",
+              "Later adoption",
+              "Incorporation into institutional practice"
+            ],
+            "change_through_time": "A practice spreads and is institutionalized"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        },
+        {
+          "annotation_id": "history-explain",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "drucker-007",
+              "start": 300,
+              "end": 517,
+              "text_sha256": "ac63811ffcd949d69b60bafaa8ac850c77f8e515f961996facb9079de55761e2"
+            }
+          ],
+          "reason": "Offers focus on performance and results as the reason for institutional dominance; the causal account is explicit even though its truth and adequacy are unverified.",
+          "role_fields": {
+            "relata": "Feedback practice, focus on results, institutional dominance",
+            "connection_made_intelligible": "The practice produces a focus offered as the cause of institutional success"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        },
+        {
+          "annotation_id": "history-support",
+          "function_id": "support",
+          "layer": "relation",
+          "decision": "unresolved",
+          "status": "ambiguous",
+          "anchors": [
+            {
+              "unit_id": "drucker-007",
+              "start": 300,
+              "end": 517,
+              "text_sha256": "ac63811ffcd949d69b60bafaa8ac850c77f8e515f961996facb9079de55761e2"
+            }
+          ],
+          "reason": "May offer historical success as a reason to value and adopt the method, but the target is implicit and weaker than the neighboring exclusivity claim.",
+          "role_fields": {
+            "supported_claim": "feedback-useful",
+            "intended_link": "Claimed historical success offered as evidence of practical value",
+            "basis_kind": "attributed_report"
+          },
+          "targets": [
+            {
+              "target_id": "feedback-useful",
+              "kind": "implicit_reconstruction",
+              "anchors": [
+                {
+                  "unit_id": "drucker-007",
+                  "start": 300,
+                  "end": 517,
+                  "text_sha256": "ac63811ffcd949d69b60bafaa8ac850c77f8e515f961996facb9079de55761e2"
+                }
+              ],
+              "paraphrase": "Feedback analysis is useful and worth adopting.",
+              "status": "ambiguous",
+              "reason": "Reconstructed from the asserted performance benefits and adjacent advocacy; not identical to the preceding exclusivity claim about discovering strengths."
+            }
+          ],
+          "alternatives": [
+            {
+              "reading": "support for implicit practical usefulness",
+              "reason": "The paragraph occurs between advocacy of the method and claimed benefits."
+            },
+            {
+              "reading": "historical report and explanation only",
+              "reason": "No explicit inferential link establishes which recommendation this account is intended to support."
+            }
+          ],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "claimed_unverified",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role analysis only; no external factual verification."
+          }
+        }
+      ],
+      "challenge_to_previous_review": "A generic reference to the preceding recommendation hides target differences. Do not claim this directly supports the stronger proposition that feedback analysis is the only way to discover strengths. Neither role coding nor target reconstruction validates the history.",
+      "summary": {
+        "clear_labels": [
+          "explain",
+          "narrate",
+          "report"
+        ],
+        "unresolved_labels": [
+          "support"
+        ],
+        "rejected_candidates": [],
+        "candidate_union": [
+          "explain",
+          "narrate",
+          "report",
+          "support"
+        ]
+      }
+    }
+  ],
+  "synthetic_contrasts": [
+    {
+      "id": "S01",
+      "boundary": "report / assert",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "The sensor recorded 18 degrees at noon.",
+        "proposed_roles": [
+          "report"
+        ]
+      },
+      "b": {
+        "text": "We should replace this sensor before the next trial.",
+        "proposed_roles": [
+          "assert"
+        ]
+      },
+      "decision_to_test": "A reported observation does not gain assert merely by being declarative; the second sentence advances a recommendation.",
+      "rule_ids": [
+        "F03",
+        "F04",
+        "P04"
+      ]
+    },
+    {
+      "id": "S02",
+      "boundary": "report / interpret with attribution",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "The report concludes that the subsidy caused the increase.",
+        "proposed_roles": [
+          "report"
+        ]
+      },
+      "b": {
+        "text": "Taking those results together, I think the subsidy caused the increase.",
+        "proposed_roles": [
+          "interpret"
+        ]
+      },
+      "decision_to_test": "The first attributes an existing inference; the second makes one. A conclusion is not automatically reporting because its inputs are observations.",
+      "rule_ids": [
+        "F03",
+        "F09"
+      ],
+      "near_boundary": {
+        "text": "The subsidy caused the increase.",
+        "status": "insufficient_context",
+        "reason": "Could be a reported result, new inference or foregrounded hypothesis; recover provenance and surrounding reasoning."
+      }
+    },
+    {
+      "id": "S03",
+      "boundary": "explain / interpret",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "The queue grows because requests arrive faster than the server completes them.",
+        "proposed_roles": [
+          "explain"
+        ]
+      },
+      "b": {
+        "text": "The growing queue suggests that our staffing plan will miss its service target.",
+        "proposed_roles": [
+          "interpret"
+        ]
+      },
+      "decision_to_test": "A connecting dependency versus a consequence inferred for a plan. Explanation does not require a long mechanism.",
+      "rule_ids": [
+        "F06",
+        "F09"
+      ],
+      "near_boundary": {
+        "text": "The queue will grow, so the plan is inadequate.",
+        "proposed_roles": [
+          "interpret"
+        ],
+        "reason": "A consequence and evaluation without an explanation of how the queue grows; assert needs a separately justified stance job."
+      }
+    },
+    {
+      "id": "S04",
+      "boundary": "define / illustrate",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "An urgent request requires a response within two working hours.",
+        "proposed_roles": [
+          "define"
+        ]
+      },
+      "b": {
+        "text": "A request to restore a failed payment service is one example of an urgent request.",
+        "proposed_roles": [
+          "illustrate"
+        ]
+      },
+      "decision_to_test": "Meaning criterion versus an instance offered for an already named idea.",
+      "rule_ids": [
+        "F02",
+        "F07"
+      ],
+      "near_boundary": {
+        "text": "Here, an urgent request means either a service outage or an active security incident.",
+        "proposed_roles": [
+          "define"
+        ],
+        "reason": "An explicit extensional definition; full theoretical completeness is unnecessary."
+      }
+    },
+    {
+      "id": "S05",
+      "boundary": "citation / support",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "Nguyen uses the term adaptive scheduling in her 2014 paper.",
+        "proposed_roles": [
+          "report"
+        ]
+      },
+      "b": {
+        "text": "Nguyen found fewer missed deadlines after the change; that result is one reason to try adaptive scheduling.",
+        "proposed_roles": [
+          "report",
+          "support",
+          "assert"
+        ]
+      },
+      "decision_to_test": "A source mention does not supply a supporting relation. In B the observation, supported trial recommendation and reason link are identifiable; evidence quality is unassessed.",
+      "rule_ids": [
+        "F03",
+        "F04",
+        "F05"
+      ]
+    },
+    {
+      "id": "S06",
+      "boundary": "hypothetical illustration / reasoning support",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "Imagine a customer leaving after a third error message; this is the frustration I mean.",
+        "proposed_roles": [
+          "illustrate"
+        ]
+      },
+      "b": {
+        "text": "The claim says every even integer is divisible by four. Consider six: it is even and is not divisible by four, so the universal claim fails.",
+        "proposed_roles": [
+          "illustrate",
+          "support"
+        ]
+      },
+      "decision_to_test": "A constructed or conceptual case can support a logical counterexample; neither example supplies an observed customer rate.",
+      "rule_ids": [
+        "F05",
+        "F07",
+        "P06"
+      ],
+      "near_boundary": {
+        "text": "Imagine one customer leaving, so 40 percent of customers will leave.",
+        "proposed_roles": [
+          "illustrate",
+          "support",
+          "assert"
+        ],
+        "evidence_status": "inadequate_for_claim",
+        "reason": "The author offers the invented case as support; its empirical inference is unwarranted. Rhetorical use and evidential adequacy are separate."
+      }
+    },
+    {
+      "id": "S07",
+      "boundary": "method report / instruction",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "We excluded records lacking dates.",
+        "proposed_roles": [
+          "report"
+        ]
+      },
+      "b": {
+        "text": "Exclude records lacking dates and record each exclusion.",
+        "proposed_roles": [
+          "instruct"
+        ]
+      },
+      "decision_to_test": "Actor and directive context distinguish completed research from guidance to the reader.",
+      "rule_ids": [
+        "F03",
+        "F11"
+      ],
+      "near_boundary": {
+        "text": "Next, we place each score in the right-hand column.",
+        "status": "insufficient_context",
+        "reason": "A first-person walkthrough can instruct, while a Methods account can report. Read the surrounding reader task."
+      }
+    },
+    {
+      "id": "S08",
+      "boundary": "orient / cognitive instruction",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "Which values guide a decision?",
+        "proposed_roles": [
+          "orient"
+        ]
+      },
+      "b": {
+        "text": "Before choosing, write down which values you will refuse to compromise.",
+        "proposed_roles": [
+          "instruct"
+        ]
+      },
+      "decision_to_test": "With a following section explaining values, A frames the question; B directs a cognitive action and a record. A needs the supplied following-section context.",
+      "rule_ids": [
+        "F01",
+        "F11"
+      ],
+      "near_boundary": {
+        "text": "Ask yourself which values you will refuse to compromise.",
+        "proposed_roles": [
+          "instruct"
+        ],
+        "reason": "Explicit cognitive directive; a complete psychological instrument is not required for the instruction role."
+      }
+    },
+    {
+      "id": "S09",
+      "boundary": "qualification / modal ability",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "This estimate applies only to households with reliable internet.",
+        "proposed_roles": [
+          "qualify"
+        ]
+      },
+      "b": {
+        "text": "The device can store twenty records.",
+        "proposed_roles": [
+          "report"
+        ]
+      },
+      "decision_to_test": "Population scope changes the estimate; capability can is not epistemic hedging. A assumes an estimate in the preceding context.",
+      "rule_ids": [
+        "F10"
+      ],
+      "near_boundary": {
+        "text": "This estimate may be too high.",
+        "proposed_roles": [
+          "qualify"
+        ],
+        "reason": "A recoverable estimate is explicitly made uncertain; the limitation may be inadequately explained, but the role exists."
+      }
+    },
+    {
+      "id": "S10",
+      "boundary": "narrate / static temporal report",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "The stored readings are 12 on Monday and 15 on Tuesday.",
+        "proposed_roles": [
+          "report"
+        ]
+      },
+      "b": {
+        "text": "On Monday she detected a fault; by Tuesday she had repaired it and restored the service.",
+        "proposed_roles": [
+          "report",
+          "narrate"
+        ]
+      },
+      "decision_to_test": "Two time-indexed values alone need not develop an event account; B follows a participant through a change. Context could make A part of a narrative.",
+      "rule_ids": [
+        "F03",
+        "F12"
+      ]
+    },
+    {
+      "id": "S11",
+      "boundary": "compare / mere mention",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "The proposal mentions rail and bus services.",
+        "proposed_roles": [
+          "report"
+        ]
+      },
+      "b": {
+        "text": "Rail carries more passengers per vehicle than buses on this route.",
+        "proposed_roles": [
+          "compare"
+        ]
+      },
+      "decision_to_test": "Two alternatives are not comparison until related on a dimension. A comparison may be reported too if provenance shows a distinct reporting job.",
+      "rule_ids": [
+        "F08",
+        "P04"
+      ]
+    },
+    {
+      "id": "S12",
+      "boundary": "orient / position bias",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "a": {
+        "text": "This opening paragraph reports an unrelated inventory count.",
+        "proposed_roles": [
+          "report"
+        ]
+      },
+      "b": {
+        "text": "To understand why the inventory count matters, first distinguish units on hand from units available for sale.",
+        "proposed_roles": [
+          "orient",
+          "instruct"
+        ]
+      },
+      "decision_to_test": "Opening position alone does not orient. B prepares an identified subsequent explanation and directs a conceptual distinction.",
+      "rule_ids": [
+        "F01",
+        "F11"
+      ],
+      "near_boundary": {
+        "text": "The count is 18.",
+        "status": "insufficient_context",
+        "reason": "A count could prepare an argument or be a self-contained report. Position alone cannot settle that relationship."
+      }
+    },
+    {
+      "id": "S13",
+      "boundary": "legitimate multifunction paragraph",
+      "status": "synthetic_teaching_proposal_not_empirical_or_gold",
+      "text": "During Monday's trial, the team reduced the backlog from 40 requests to 20. Removing a duplicate approval step let each request finish sooner. This suggests that the extra approval had been a bottleneck, although the result covers only this one team. For the next trial, record completion times before and after the change.",
+      "proposed_roles": [
+        "report",
+        "explain",
+        "interpret",
+        "qualify",
+        "instruct"
+      ],
+      "role_evidence": {
+        "report": "Observed trial outcome, not inferred recommendation",
+        "explain": "Connection from approval-step removal to faster completion",
+        "interpret": "Bottleneck inference from outcome and process account",
+        "qualify": "One-team scope binds the reported result and its inference",
+        "instruct": "Reader-directed measurement action for the next trial"
+      },
+      "not_automatic": [
+        "assert merely because sentences state propositions",
+        "narrate merely because Monday is named",
+        "support without identifying a claim and intended reasoning link"
+      ],
+      "rule_ids": [
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "F03",
+        "F06",
+        "F09",
+        "F10",
+        "F11"
+      ],
+      "measurement_note": "Role spans overlap; paragraph words are not five additive role budgets."
+    }
+  ],
+  "holdout_exclusion": "All examples here are development material. Do not use them to claim fresh agreement or accuracy.",
+  "source_reproduction": "Full actual source paragraphs are retained only at existing private paths. Repository anchors use offsets and digests.",
+  "coverage_policy": "Selective function decisions for teaching and boundary review, not exhaustive absence judgments over all twelve labels. Missing labels are unassessed unless explicitly rejected.",
+  "contract_boundary_examples": [
+    {
+      "id": "C01-no-target-rejection",
+      "status": "synthetic_contract_example_not_holdout",
+      "source": {
+        "unit_id": "C01-no-target-rejection-text",
+        "text": "The register lists Nguyen (2014) as the source of the term.",
+        "sha256": "a409b74b88ad9accd93fc35724d50f16f7f314c0723009c13223fad0c76fab69",
+        "scope": "Complete synthetic one-sentence register entry"
+      },
+      "context": {
+        "reviewed_units": [
+          "C01-no-target-rejection-text"
+        ],
+        "context_sufficiency": "sufficient",
+        "reason": "The complete synthetic entry is supplied and reviewed; it only attributes terminology.",
+        "extraction_issues": {
+          "status": "known",
+          "items": []
+        }
+      },
+      "annotation": {
+        "annotation_id": "C01-no-target-rejection-support",
+        "function_id": "support",
+        "layer": "relation",
+        "decision": "rejected",
+        "status": "clear",
+        "anchors": [
+          {
+            "unit_id": "C01-no-target-rejection-text",
+            "start": 0,
+            "end": 59,
+            "text_sha256": "a409b74b88ad9accd93fc35724d50f16f7f314c0723009c13223fad0c76fab69"
+          }
+        ],
+        "reason": "The complete entry only attributes a term; it offers no reason for an identifiable claim. Citation presence is insufficient, and no support target is present.",
+        "role_fields": {
+          "supported_claim": {
+            "value": "not_applicable",
+            "reason": "The complete entry only attributes a term; it offers no reason for an identifiable claim. Citation presence is insufficient, and no support target is present."
+          },
+          "intended_link": {
+            "value": "not_applicable",
+            "reason": "The complete entry only attributes a term; it offers no reason for an identifiable claim. Citation presence is insufficient, and no support target is present."
+          },
+          "basis_kind": "attributed_report"
+        },
+        "targets": [],
+        "target_absence_reason": "The complete entry only attributes a term; it offers no reason for an identifiable claim. Citation presence is insufficient, and no support target is present.",
+        "alternatives": [],
+        "evidence_assessment": {
+          "basis_kind": "attributed_report",
+          "role_adequacy": "not_assessed",
+          "empirical_evidence_status": "not_claimed",
+          "truth_status": "not_assessed",
+          "assessment_reason": "Synthetic annotation-contract fixture, no empirical validation."
+        }
+      },
+      "rule_ids": [
+        "P05",
+        "P07",
+        "F05"
+      ],
+      "expected_contract_result": "valid",
+      "decision_to_test": "Clear rejection because no target exists in the complete reviewed context."
+    },
+    {
+      "id": "C02-target-context-missing",
+      "status": "synthetic_contract_example_not_holdout",
+      "source": {
+        "unit_id": "C02-target-context-missing-text",
+        "text": "The register lists Nguyen (2014) as the source of the term.",
+        "sha256": "a409b74b88ad9accd93fc35724d50f16f7f314c0723009c13223fad0c76fab69",
+        "scope": "Only the excerpt was supplied; surrounding source is unavailable"
+      },
+      "context": {
+        "reviewed_units": [
+          "C02-target-context-missing-text"
+        ],
+        "context_sufficiency": "insufficient",
+        "reason": "The excerpt may belong to an argument whose claim is outside the supplied text.",
+        "extraction_issues": {
+          "status": "known",
+          "items": []
+        }
+      },
+      "annotation": {
+        "annotation_id": "C02-target-context-missing-support",
+        "function_id": "support",
+        "layer": "relation",
+        "decision": "unresolved",
+        "status": "insufficient_context",
+        "anchors": [
+          {
+            "unit_id": "C02-target-context-missing-text",
+            "start": 0,
+            "end": 59,
+            "text_sha256": "a409b74b88ad9accd93fc35724d50f16f7f314c0723009c13223fad0c76fab69"
+          }
+        ],
+        "reason": "The surrounding argument was not supplied, so an intended support target outside this excerpt cannot be assessed.",
+        "role_fields": {
+          "supported_claim": {
+            "value": "unknown",
+            "reason": "The surrounding argument was not supplied, so an intended support target outside this excerpt cannot be assessed."
+          },
+          "intended_link": {
+            "value": "unknown",
+            "reason": "The surrounding argument was not supplied, so an intended support target outside this excerpt cannot be assessed."
+          },
+          "basis_kind": "attributed_report"
+        },
+        "targets": [],
+        "missing_target_reason": "The surrounding argument was not supplied, so an intended support target outside this excerpt cannot be assessed.",
+        "alternatives": [],
+        "evidence_assessment": {
+          "basis_kind": "attributed_report",
+          "role_adequacy": "not_assessed",
+          "empirical_evidence_status": "not_claimed",
+          "truth_status": "not_assessed",
+          "assessment_reason": "Synthetic annotation-contract fixture, no empirical validation."
+        }
+      },
+      "rule_ids": [
+        "P05",
+        "P07",
+        "F05"
+      ],
+      "expected_contract_result": "valid",
+      "decision_to_test": "Unresolved because the target cannot be assessed from available context; do not reject on absence."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "trial_id": "blind-longform-20261116",
+  "unblinded_utc": "2026-11-16T23:34:41.265871+00:00",
+  "authorization": "Explicit author request to unblind results.",
+  "key_commitment_sha256": "b3e4f7e39b576745f267fc72cf97027346d0e7c8894e90852947ff8b67c6bf3b",
+  "commitment_verified": true,
+  "labels": {
+    "earlier": "baseline",
+    "current": "revised"
+  },
+  "cases": [
+    {
+      "id": "R01",
+      "source_doc_id": "S01",
+      "scope": "opening",
+      "A": "revised",
+      "B": "baseline",
+      "title": "Learning CS50 at 256 Kilobits per Second",
+      "scope_label": "Opening"
+    },
+    {
+      "id": "R02",
+      "source_doc_id": "S01",
+      "scope": "middle",
+      "A": "baseline",
+      "B": "revised",
+      "title": "Learning CS50 at 256 Kilobits per Second",
+      "scope_label": "Middle"
+    },
+    {
+      "id": "R03",
+      "source_doc_id": "S01",
+      "scope": "closing",
+      "A": "baseline",
+      "B": "revised",
+      "title": "Learning CS50 at 256 Kilobits per Second",
+      "scope_label": "Closing"
+    },
+    {
+      "id": "R04",
+      "source_doc_id": "S01",
+      "scope": "whole",
+      "A": "baseline",
+      "B": "revised",
+      "title": "Learning CS50 at 256 Kilobits per Second",
+      "scope_label": "Whole prose work"
+    },
+    {
+      "id": "R05",
+      "source_doc_id": "S02",
+      "scope": "opening",
+      "A": "revised",
+      "B": "baseline",
+      "title": "Making engineering part of healthcare’s work",
+      "scope_label": "Opening"
+    },
+    {
+      "id": "R06",
+      "source_doc_id": "S02",
+      "scope": "middle",
+      "A": "baseline",
+      "B": "revised",
+      "title": "Making engineering part of healthcare’s work",
+      "scope_label": "Middle"
+    },
+    {
+      "id": "R07",
+      "source_doc_id": "S02",
+      "scope": "closing",
+      "A": "revised",
+      "B": "baseline",
+      "title": "Making engineering part of healthcare’s work",
+      "scope_label": "Closing"
+    },
+    {
+      "id": "R08",
+      "source_doc_id": "S02",
+      "scope": "whole",
+      "A": "revised",
+      "B": "baseline",
+      "title": "Making engineering part of healthcare’s work",
+      "scope_label": "Whole prose work"
+    },
+    {
+      "id": "R09",
+      "source_doc_id": "S03",
+      "scope": "opening",
+      "A": "baseline",
+      "B": "revised",
+      "title": "Tiktok’s enshittification",
+      "scope_label": "Opening"
+    },
+    {
+      "id": "R10",
+      "source_doc_id": "S03",
+      "scope": "middle",
+      "A": "revised",
+      "B": "baseline",
+      "title": "Tiktok’s enshittification",
+      "scope_label": "Middle"
+    },
+    {
+      "id": "R11",
+      "source_doc_id": "S03",
+      "scope": "closing",
+      "A": "revised",
+      "B": "baseline",
+      "title": "Tiktok’s enshittification",
+      "scope_label": "Closing"
+    },
+    {
+      "id": "R12",
+      "source_doc_id": "S03",
+      "scope": "whole",
+      "A": "baseline",
+      "B": "revised",
+      "title": "Tiktok’s enshittification",
+      "scope_label": "Whole prose work"
+    },
+    {
+      "id": "R13",
+      "source_doc_id": "S04",
+      "scope": "opening",
+      "A": "revised",
+      "B": "baseline",
+      "title": "Floating Point Arithmetic: Issues and Limitations",
+      "scope_label": "Opening"
+    },
+    {
+      "id": "R14",
+      "source_doc_id": "S04",
+      "scope": "middle",
+      "A": "baseline",
+      "B": "revised",
+      "title": "Floating Point Arithmetic: Issues and Limitations",
+      "scope_label": "Middle"
+    },
+    {
+      "id": "R15",
+      "source_doc_id": "S04",
+      "scope": "closing",
+      "A": "revised",
+      "B": "baseline",
+      "title": "Floating Point Arithmetic: Issues and Limitations",
+      "scope_label": "Closing"
+    },
+    {
+      "id": "R16",
+      "source_doc_id": "S04",
+      "scope": "whole",
+      "A": "baseline",
+      "B": "revised",
+      "title": "Floating Point Arithmetic: Issues and Limitations",
+      "scope_label": "Whole prose work"
+    }
+  ]
+}

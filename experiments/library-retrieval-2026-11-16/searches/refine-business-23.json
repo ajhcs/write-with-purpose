@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_044",
+      "doi": "10.1002/9781118785317.weom120077",
+      "title": "Competitive Advantage",
+      "authors": "[\"John McGee\"]",
+      "field": "business_management",
+      "q": "\"Competitive Advantage\" McGee pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_044",
+      "query": "\"Competitive Advantage\" McGee pdf",
+      "urls": [
+        {
+          "title": "Competitive Advantage",
+          "url": "https://cdn.bookey.app/files/pdf/book/en/competitive-advantage.pdf",
+          "score": 1
+        },
+        {
+          "title": "Competitive Advantage",
+          "url": "https://www.researchgate.net/publication/313966146_Competitive_Advantage",
+          "score": 1
+        },
+        {
+          "title": "Competitive Advantage",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118785317.weom120077",
+          "score": 1
+        },
+        {
+          "title": "Competence and Competitive Advantage: Towards a Dynamic Model†",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/1467-8551.00139",
+          "score": 1
+        },
+        {
+          "title": "Competitive advantage: Conceptual imperatives for executives.",
+          "url": "https://scispace.com/papers/competitive-advantage-conceptual-imperatives-for-executives-32w4lfkb78",
+          "score": 1
+        },
+        {
+          "title": "Competitive Strategy",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118785317.weom120174",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

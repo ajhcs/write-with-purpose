@@ -1,0 +1,330 @@
+{
+  "reviewer": "headlines-attention",
+  "papers": [
+    {
+      "id": "P04",
+      "title": "When curiosity gaps backfire: effects of headline concreteness on information selection decisions",
+      "authors": [
+        "Marianne Aubin Le Quéré",
+        "J. Nathan Matias"
+      ],
+      "year": 2025,
+      "doi": "10.1038/s41598-024-81575-9",
+      "study_kind": "Registered report; multilevel meta-analysis of randomized field package tests with observational feature moderator",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P04.txt",
+      "scope": "English Upworthy 2013–2015 article headline/image previews; website visitors; clicks per impression. Individual knowledge, curiosity, comprehension and quality not measured.",
+      "sample_and_design": "Pilot followed by held-out confirmatory archive subset; split image-varying tests into one-image bundles, retain bundles with at least two scorable distinct headlines; binomial random-intercept/slope model for headline score nested within test; mean test concreteness interacts with within-test deviation. Randomized assignment is to complete packages, not controlled random assignment of concreteness or mean test concreteness. Same original test may yield multiple image bundles.",
+      "outcomes": [
+        "CTR on a preview, not article comprehension or durable engagement",
+        "concreteness proxy validated against mean human ratings"
+      ],
+      "findings": [
+        {
+          "claim": "35,910 headline-package observations (31,077 unique headlines) in 8,977 valid one-image bundles after 17,867 confirmatory tests and 85,830 packages; 70,546 scorable, 82.2%.",
+          "pdf_pages": [
+            6
+          ],
+          "evidence_locator": "Results, paragraph 1–2",
+          "denominator": "17,867 tests and 85,830 packages before filtering",
+          "interpretation_limits": "Paper says 70,546 pilot headlines within confirmatory paragraph; likely textual inconsistency, not silently corrected. Bundles need not be independent original tests."
+        },
+        {
+          "claim": "The interaction of headline concreteness with test mean was −0.058 (95% CI −0.091 to −0.025; Holm-adjusted p < 0.0013).",
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "evidence_locator": "Results and Table 2",
+          "denominator": "35,910 observations nested in 8,977 bundles",
+          "interpretation_limits": "Model-based association in randomized full-headline comparisons; other wording covaries, and mean is constructed from the test alternatives."
+        },
+        {
+          "claim": "Estimated positive slope below test mean 2.58 (8.7% of tests), negative above 3.06 (50.9%); middle slopes not significantly distinct from zero.",
+          "pdf_pages": [
+            8,
+            9
+          ],
+          "evidence_locator": "Results, Johnson–Neyman and discussion",
+          "denominator": "8,977 retained tests",
+          "interpretation_limits": "These are conditional confidence boundaries in this model, not validated universal cutoffs or an experimentally measured optimum for an individual author or reader."
+        },
+        {
+          "claim": "320 sampled headlines received 3,565 ratings; 176 final raters, average 11 ratings per headline; correlation between mean judgments and algorithm r=0.61.",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "evidence_locator": "Concreteness measure validation",
+          "denominator": "320 Upworthy headlines limited to 14–16 words",
+          "interpretation_limits": "Moderate association does not establish meaning, truth, informativeness or coverage; excluded unscorable words threaten transfer to technical terms."
+        },
+        {
+          "claim": "Prior nine reported experimental contrasts included three negative significant, two positive significant, four not distinguished from chance.",
+          "pdf_pages": [
+            2
+          ],
+          "evidence_locator": "Table 1 and introduction",
+          "denominator": "9 contrasts drawn from studies with differing outcome scales",
+          "interpretation_limits": "Narrative accounting of heterogeneous contrasts; not nine independent samples or pooled effect."
+        }
+      ],
+      "limitations": [
+        "Score uses lexical concreteness, NER assigns entities maximum, excludes headlines with unmatched words ≥3 characters; removes 17.1% of headlines (p4).",
+        "Same article A/B estimates causal package contrasts but not causal interventions on concreteness or the cross-test average; inference rests on model and unmeasured co-varying features.",
+        "US English audience, one publisher, editorial selection and historical algorithm environment; no individual-level curiosity measurement.",
+        "p5 defines CTR backwards as impressions/clicks; p3 correctly defines clicks/impressions; p8 prose contradicts low/high example direction and values 4.37 versus 4.41."
+      ],
+      "rule_implications": [
+        "HA-01",
+        "HA-02",
+        "HA-04"
+      ],
+      "data_or_code_leads": [
+        "https://osf.io/fbzvw/ (paper analysis code; not independently audited)",
+        "https://github.com/maubinle/sentence_concreteness (paper names package; no install or license audit)",
+        "https://upworthy.natematias.com (archive access on request per p10)"
+      ],
+      "extraction_issues": [
+        "p5 inverse CTR formula contradicts p3; p6 pilot/confirmatory wording inconsistency; p8 upper-bound example reverses score descriptions."
+      ]
+    },
+    {
+      "id": "P07",
+      "title": "Linguistic effects on news headline success: Evidence from thousands of online field experiments (Registered Report)",
+      "authors": [
+        "Kristina Gligorić",
+        "George Lifchits",
+        "Robert West",
+        "Ashton Anderson"
+      ],
+      "year": 2023,
+      "doi": "10.1371/journal.pone.0281682",
+      "study_kind": "Registered predictive and regression analysis of randomized field headline tests",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P07.txt",
+      "scope": "Upworthy article headline alternatives with matched image and week; clickthrough winner classification.",
+      "sample_and_design": "Pilot 5,048 eligible pairs and 24,333 confirmatory pairs, selected within same article/image/week and significant after Bonferroni correction; disjoint headline pairings but multiple pairs may originate in a single experiment. Model trained on pilot evaluated on confirmatory for prediction; separate confirmatory coefficient regression. Whole headlines randomized, linguistic attributes not individually assigned. Selection on significance and ranking changes target population.",
+      "outcomes": [
+        "binary higher-CTR headline in filtered pairs",
+        "feature associations in logistic model; not reader understanding or downstream behavior"
+      ],
+      "findings": [
+        {
+          "claim": "Held-out prediction accuracy 54.42%, 99% CI 53.6%–55.2%, against balanced 50% baseline; recall 53.17%, precision 54.53%.",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "evidence_locator": "Sampling plan; registered analyses",
+          "denominator": "24,333 selected confirmatory pairs",
+          "interpretation_limits": "Predicts a binary winner in statistically significant selected same-image/week pairs, not all headline tests; pairs can share experiments."
+        },
+        {
+          "claim": "Negative-emotion indicator β=0.18 and headline-length comparison β=0.07; positive-emotion β=−0.04 and Flesch β=0.02 did not meet preregistered p<0.01.",
+          "pdf_pages": [
+            10,
+            11,
+            12
+          ],
+          "evidence_locator": "Analysis plan and results",
+          "denominator": "24,333 selected confirmatory pairs",
+          "interpretation_limits": "Coefficients are joint logistic pairwise winner associations, not estimated per-word or per-character CTR effects; other language differences remain."
+        },
+        {
+          "claim": "Indefinite article β=0.12, first-person singular β=0.24, first-person plural β=−0.15; second-person β=0.05 did not meet p<0.01.",
+          "pdf_pages": [
+            12
+          ],
+          "evidence_locator": "Generality and Pronouns; Table 3",
+          "denominator": "24,333 selected pairs",
+          "interpretation_limits": "Article/pronoun indicators are imperfect proxies; no universal prescription or author-voice judgment."
+        },
+        {
+          "claim": "Seven of eleven feature hypotheses supported, four not supported at preregistered threshold.",
+          "pdf_pages": [
+            11,
+            12
+          ],
+          "evidence_locator": "Registered analyses and Table 4",
+          "denominator": "11 feature hypotheses on 24,333 pairs",
+          "interpretation_limits": "Non-significant is not proof of no effect; hypothesis outcomes are not independent replications."
+        }
+      ],
+      "limitations": [
+        "Matched same image and time improve headline contrast; word-level effects remain modeled associations because variants differ on multiple correlated/unmeasured features (pp16–17).",
+        "Headline uniqueness across pairs does not guarantee statistical independence of tests, stories or users; archive aggregates impressions without individual identifiers.",
+        "Selection of significant pairs introduces winner-selection/generalization limitations. Topic, reader demographics, other forms and modern context differ.",
+        "P12 prose definite article p=0.0331 whereas Table 3 coefficient 0.0331 and p=0.123; avoid asserting disputed value."
+      ],
+      "rule_implications": [
+        "HA-01",
+        "HA-02",
+        "HA-03",
+        "HA-04"
+      ],
+      "data_or_code_leads": [
+        "https://doi.org/10.1038/s41597-021-00934-7 (shared archive, p1)",
+        "https://github.com/shivam5992/textstat (cited reference; not inspected or installed)",
+        "LIWC dictionary under separate terms; no reuse permission inferred"
+      ],
+      "extraction_issues": [
+        "p12 definite-article p-value inconsistent between text and table; p10 reports accuracy CI 0.536–0.552 while also reporting odds ratio; interpreted as accuracy interval."
+      ]
+    },
+    {
+      "id": "P13",
+      "title": "Negativity drives online news consumption",
+      "authors": [
+        "Claire E. Robertson",
+        "Nicolas Pröllochs",
+        "Kaoru Schwarzenegger",
+        "Philip Pärnamets",
+        "Jay J. Van Bavel",
+        "Stefan Feuerriegel"
+      ],
+      "year": 2023,
+      "doi": "10.1038/s41562-023-01538-4",
+      "study_kind": "Registered report; multilevel analysis of randomized field headline/package experiments",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P13.txt",
+      "scope": "Upworthy English viral-news headline previews, 2013–2015; aggregate CTR.",
+      "sample_and_design": "Confirmatory release: 22,743 experiments before filtering; exclude single headline tests, combine duplicate headlines including across images; 12,448 remaining experiments. Binomial model random intercepts and varying slopes with length, fog index, positive/negative lexical scores, time. Whole variants randomized; emotion tokens are post hoc attributes, not randomized word interventions. Archive aggregates headline impressions and clicks, not individual users; independence across experiments asserted by authors but repeated users cannot be tested.",
+      "outcomes": [
+        "clicks per impression; no direct measurement of sentiment, comprehension, satisfaction, share or writing quality"
+      ],
+      "findings": [
+        {
+          "claim": "After filtering: 12,448 experiments, 53,699 headline variations, more than 205 million impressions and 2,778,124 clicks; mean 4.31 variants per experiment.",
+          "pdf_pages": [
+            3
+          ],
+          "evidence_locator": "Results: RCTs comparing news consumption",
+          "denominator": "22,743 confirmatory experiments before filtering",
+          "interpretation_limits": "Figure 2 caption reports 53,669, whereas text and Table 3 report 53,699."
+        },
+        {
+          "claim": "Negative score β=0.015, 99% CI 0.013–0.018 per standardized proportion; authors estimate 2.3% relative CTR increase for each additional negative word at average 14.965-word headline.",
+          "pdf_pages": [
+            3,
+            8
+          ],
+          "evidence_locator": "Effect of negative language; model standardization",
+          "denominator": "53,699 headline observations in 12,448 filtered experiments",
+          "interpretation_limits": "Not 2.3 percentage points; model estimate rather than randomized isolated-word substitution; lexical choices and other wording may change together."
+        },
+        {
+          "claim": "Positive score β=−0.008 (99% CI −0.010 to −0.006); authors estimate 1.0% relative CTR decrease per positive word for mean-length headline.",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "evidence_locator": "Results: positive and negative language",
+          "denominator": "53,699 headline observations, 12,448 experiments",
+          "interpretation_limits": "P07 found no support for its positive-word hypothesis; different selection, estimands, modeling and lexicon processing on overlapping archive."
+        },
+        {
+          "claim": "Secondary discrete-emotion scores: sadness β=0.006; fear β=−0.007; joy β=−0.009; anger β≈0, p=0.666 and equivalence test inconclusive.",
+          "pdf_pages": [
+            5
+          ],
+          "evidence_locator": "Extension to discrete emotions",
+          "denominator": "same filtered corpus, modeled dictionary emotion proportions",
+          "interpretation_limits": "Fear sign opposes preregistered hypothesis; non-significant anger does not establish no effect. Different outcome from sharing; emotion label is lexical proxy."
+        },
+        {
+          "claim": "Varying-slope model: negative β=0.018 (99% CI 0.011–0.025), positive β=−0.017 (−0.023 to −0.010).",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Table 3",
+          "denominator": "53,699 headline observations, 12,448 experiments",
+          "interpretation_limits": "Associations under model; image variation could co-occur though authors report robustness excluding image RCTs."
+        }
+      ],
+      "limitations": [
+        "Samples share Upworthy archive with P04 and P07; overlap size not established. Do not count as independent replications.",
+        "Same story randomized variants identify effects of packages; lexical feature coefficients are observational post-treatment classifications with possible residual wording/image confounding, despite author causal language.",
+        "Dictionary and negation heuristics do not directly measure experienced emotion; same-user exposure or demographics not available.",
+        "p4 Fig 2 caption 53,669 conflicts with Table 3 and p3 53,699; p4 complexity prose prints +0.004 with negative z and interval."
+      ],
+      "rule_implications": [
+        "HA-02",
+        "HA-03",
+        "HA-04"
+      ],
+      "data_or_code_leads": [
+        "https://osf.io/uscpf/ (paper-reported data and analysis code; not independently audited)",
+        "https://www.liwc.app/ (paper says commercial purchase; no redistribution implied)",
+        "https://nrc.canada.ca/en/research-development/products-services/technical-advisory-services/sentiment-emotion-lexicons (public download, license not verified)"
+      ],
+      "extraction_issues": [
+        "Figure 2 caption denominator conflicts with paper text/table; complexity coefficient sign typo conflicts with z and interval."
+      ]
+    }
+  ],
+  "cross_paper_synthesis": {
+    "shared_population": "All three analyze subsets of the Upworthy Research Archive and the same historical publisher; overlap likely, exact intersection unverified, no independent replication claim. P04 8,977 image-matched bundles; P07 24,333 selected pairs; P13 12,448 filtered experiments, non-comparable denominators.",
+    "causal_boundary": "Randomization supports causal contrasts between complete observed packages in their experiment; language-feature attribution, moderation and nonlinearities are analyses of authored co-varying features. Cross-test mean concreteness and topics were not randomized.",
+    "outcome_boundary": "CTR is a choice to open a preview, not comprehension, meaningful reading, author voice, civic value or writing quality. P07 only distinguishes significantly differing pair winners.",
+    "local_comparison": "Local pattern test preserves varied opening routes and form purposes; calibration 21/36 original vs 18/36 revised exact sets, so proposed function refinements have no demonstrated improvement. Headline findings cannot resolve section or paragraph labels. Reuse source-aware form and audience metadata and judgment, not a universal concreteness score."
+  },
+  "proposed_rule_changes": [
+    {
+      "id": "HA-01",
+      "status": "candidate refine, not adopted",
+      "existing_rule": "skills/write-with-purpose/references/structure-and-purpose.md: choose material for contribution, consider reader question; accepted-foundations F02",
+      "trigger": "Author requests a title or heading for a known form, audience and destination.",
+      "action": "Compare whether each candidate names the contribution and gives the intended reader enough orientation; allow justified intrigue, interrogative framing or ambiguity.",
+      "expected_benefit": "Contextual title review without a single algorithmic concreteness optimum.",
+      "counterexample": "A reflective essay title may deliberately leave the meaning open until the ending; an API reference heading may need exact identifier.",
+      "mechanical": "Check declared title limits, presence/consistency of explicit terms and heading structure.",
+      "semantic": "Judge fidelity, reader expectations, justified omissions and voice with author."
+    },
+    {
+      "id": "HA-02",
+      "status": "candidate reaffirm",
+      "existing_rule": "skills/write-with-purpose/SKILL.md: author intent and voice, source fidelity; accepted-foundations preserve originality",
+      "trigger": "Attention-oriented suggestion changes specificity, affect, or promises.",
+      "action": "Review whether the title truthfully reflects the piece and the authors intended framing; do not insert negativity or omit material facts merely for CTR.",
+      "expected_benefit": "Protect source fidelity and author control.",
+      "counterexample": "A naturally negative title is appropriate when it faithfully describes an adverse event.",
+      "mechanical": "Detect mismatched named items only with supplied canonical records; check declared constraints.",
+      "semantic": "Evaluate framing, emotional accuracy, fairness and relevance in full context."
+    },
+    {
+      "id": "HA-03",
+      "status": "candidate conflict with universal heuristic",
+      "existing_rule": "write-with-purpose: avoid generic preference for fewer words or uniformly short sentences; no default readability grade",
+      "trigger": "A tool proposes mandatory brevity, a readability score, preferred pronoun or negative wording.",
+      "action": "Do not use lexical signals as universal pass/fail rules.",
+      "expected_benefit": "Preserve necessary technical vocabulary, voice and functional variation.",
+      "counterexample": "A publisher can set an actual character ceiling; a title can be misleadingly long or short regardless of score.",
+      "mechanical": "Count words or characters only under declared measurement rules and enforce explicit limits.",
+      "semantic": "Reader comprehension and faithful tone require assessment."
+    },
+    {
+      "id": "HA-04",
+      "status": "new hypothesis, not demonstrated advantage",
+      "existing_rule": "dataset-adoption plugin-reuse-notes: separate purpose, form, provenance and semantic review; calibration report indicates low function agreement",
+      "trigger": "When a user asks the plugin to compare title options for a specific intended audience.",
+      "action": "Offer author-chosen alternatives with stated reader question, tradeoffs and uncertainty; evaluate actual readers against intended outcomes, not just clicks.",
+      "expected_benefit": "Plausible differentiation through source-grounded, author-controlled choice.",
+      "counterexample": "A narrow copy-edit needs no title generation, ranking or testing workflow.",
+      "mechanical": "Store candidate versions, constraints and exact source links; evaluate experimental units and outcome definitions.",
+      "semantic": "Author decides voice and goal; blinded reader task and preregistered comparison needed to demonstrate usefulness."
+    }
+  ],
+  "github_reuse": {
+    "status": "paper-reported leads only; not downloaded, executed, license checked or integrated",
+    "items": [
+      "P04 sentence_concreteness repository and OSF registered analysis",
+      "P13 OSF analysis with separately licensed LIWC and NRC",
+      "P07 textstat reference; shared archive under its own terms"
+    ],
+    "adoption": "Any reuse needs version/license inspection, data rights and source-specific validation. No cue model should be used as an automatic style or quality evaluator."
+  },
+  "open_questions": [
+    "Can held-out human readers identify intended contribution and assess title fidelity across each target form and audience, while retaining author voice?",
+    "How much of cross-paper overlap is exact test-level overlap, and are headline/user exposures clustered across experiments?",
+    "Can an outcome-based test compare alternatives without using clickthrough as a substitute for comprehension or usefulness?",
+    "Resolve noted published denominator and numeric inconsistencies against supplements before recomputation."
+  ]
+}

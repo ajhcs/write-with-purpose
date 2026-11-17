@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_17",
+      "doi": "10.1145/355604.361591",
+      "title": "The humble programmer",
+      "authors": "[\"Edsger W. Dijkstra\"]",
+      "field": "engineering_computing",
+      "q": "\"The humble programmer\" Dijkstra filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_17",
+      "query": "\"The humble programmer\" Dijkstra filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "The humble programmer",
+          "url": "https://sq4007-2025.github.io/website/pdfs/Dijkstra%20-%201972%20-%20The%20humble%20programmer.pdf",
+          "score": 1
+        },
+        {
+          "title": "The Humble Programmer | Eu, Mircea",
+          "url": "https://neacsu.net/programming/humble_programmer/ewd340/",
+          "score": 1
+        },
+        {
+          "title": "The humble programmer [1972 ACM Turing Award Lecture]",
+          "url": "https://research.tue.nl/en/publications/the-humble-programmer-1972-acm-turing-award-lecture/",
+          "score": 1
+        },
+        {
+          "title": "EWD 340: The Humble Programmer | PDF | Science & Mathematics | Computers",
+          "url": "https://www.scribd.com/doc/175297913/Turing-Dijkstra",
+          "score": 1
+        },
+        {
+          "title": "The Humble Programmer — Sciencinfolycee",
+          "url": "https://wiki.inria.fr/sciencinfolycee/The_Humble_Programmer",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "documents": [
+    {
+      "id": "S01",
+      "title": "Learning CS50 at 256 Kilobits per Second",
+      "author": "Cole Lyons",
+      "url": "https://colelyons.com/writing/cs50-software-ai-formation/",
+      "form": "Personal essay",
+      "audience": "General readers interested in learning",
+      "permission": "User-authorized",
+      "source_file": "S01.md",
+      "source_sha256": "b6ba4c6a4909552a47f51a26c9317c0d658c5ce28229d4cc3e036c6bd9ff6c36",
+      "word_count": 813,
+      "extraction_scope": "Article narrative and notes; visual inserts omitted",
+      "exact_code_blocks": [],
+      "passages": [
+        {
+          "id": "opening",
+          "label": "Opening",
+          "section": "Unheaded essay",
+          "start": 0,
+          "end": 963,
+          "text": "My father was born and raised in Boston, and when I was ten he wanted to show me the city his family came from. Harvard was one stop along the way. My uncle had attended, and my cousin Abby happened to be studying there at the time.\n\nThe campus mattered because it made a distant kind of learning concrete. Back home in rural Maine, I found that one of its introductory computer-science courses was reachable online. Harvard had [launched CS50x as the online version of CS50](https://news.harvard.edu/gazette/story/2012/10/harvardx-marks-the-spot/) in 2012, and listed it as a returning, self-paced course in 2014. [ 1 ]\n\nAround 2014, at approximately eleven or twelve, I completed the online CS50/CS50x course, including its assignments and a final project. The project, code, screenshots, correspondence, and any certificate disappeared years ago. This is my recollection of completing an online course, without a claim to Harvard enrollment or academic credit.",
+          "context_before": "",
+          "context_after": "\n\n## A course that had to arrive before it could begin\n\nThe internet connection at home was approximately 256 kilobits per second when I started and later approximately 854 kilobits per second. Those figures are my memory of the household connection,"
+        },
+        {
+          "id": "middle",
+          "label": "Middle",
+          "section": "A course that had to arrive before it could begin",
+          "start": 2510,
+          "end": 3252,
+          "text": "Later coursework strengthened the habit. My Duke record contains two distinct courses: **Introduction to Programming Using Java**, issued in January 2019, and **Advanced Frontend Development**, issued in January 2020. Their value here is the bridge they provided between introductory reasoning and systems whose files, languages, interfaces, and states had to cooperate.\n\nOver time, I came to care more about exercising the judgment underneath syntax: how information was represented, where a boundary belonged, how a result could be checked, and what happened when separately sensible components met. AI-assisted building later increased the scale at which I could apply that judgment without removing the obligation to test the composition.",
+          "context_before": "e book by showing that dividing a problem works only when each part has a representation clear enough to execute.\n\nI learned to break work into parts I could test, then test the assembled system. Individually correct pieces can still fail together.\n\n",
+          "context_after": "\n\n## Transfer into consequential systems\n\nThe [JHP knowledge pipeline](https://colelyons.com/work/jefferson-jhp-eoc-anoc-knowledge-pipeline/) applied the pattern to the problem of producing trustworthy answers from plan documents. Automated character"
+        },
+        {
+          "id": "closing",
+          "label": "Closing",
+          "section": "Transfer into consequential systems",
+          "start": 4033,
+          "end": 4699,
+          "text": "This work spans different domains and draws on later education and years of practice; the durable transfer from CS50 is the introductory habit of making complicated work legible enough to divide and safe enough to recombine.\n\nAI can produce an answer, a page, or a software change before a person has made the underlying problem explicit. That makes the earlier discipline more valuable: know what each part is supposed to do, then check what happens when the parts meet.\n\nThe connection that once forced me to queue lectures in advance is gone. The waiting taught me a kind of attention I still need: decide what is worth learning, prepare for it, and give it time.",
+          "context_before": "CS publishing system](https://colelyons.com/work/ajhcs-platform-institution-building/) applied the same habit to publishing: define content states and editorial authority, preserve sources, and test each change and its recovery path before release.\n\n",
+          "context_after": "\n\n## Notes\n\n- **Harvard Gazette, “HarvardX marks the spot”** (October 17, 2012) and **“Fall into HarvardX with new and returning courses”** (August 7, 2014). Harvard announced CS50x as the online version of CS50 in 2012 and listed it as self-paced in"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Making engineering part of healthcare’s work",
+      "author": "Cole Lyons",
+      "url": "https://colelyons.com/writing/making-engineering-part-of-healthcares-work/",
+      "form": "Personal essay",
+      "audience": "Healthcare and engineering readers",
+      "permission": "User-authorized",
+      "source_file": "S02.md",
+      "source_sha256": "7745958b01c4659fe15c06345041622356e96392b2752c3c54bab29a16b40da8",
+      "word_count": 1215,
+      "extraction_scope": "Article narrative and notes; visual inserts omitted",
+      "exact_code_blocks": [],
+      "passages": [
+        {
+          "id": "opening",
+          "label": "Opening",
+          "section": "Unheaded essay",
+          "start": 0,
+          "end": 990,
+          "text": "My recent attempts to help leaders work with Databricks have made an older argument feel immediate: healthcare needs people who know how to build things, and it needs to make room for them inside the institution.\n\nThat was what stayed with me from *Building a Better Delivery System*, the 2005 report from the National Academy of Engineering and the Institute of Medicine. The report called for a partnership between healthcare professionals and systems engineers, with care delivery understood as a set of interdependent activities. More than two decades later, I still find that argument useful when trying to move from interest in a platform to the practical work required to use it. 1\n\nA platform provides capabilities. Someone still has to determine what the organization is trying to change, establish whether the data describe that work, build something people can use, and take responsibility for keeping it useful. Those obligations do not disappear when the software is purchased.",
+          "context_before": "",
+          "context_after": "\n\n## The communication barrier is only part of it\n\nI have seen clinicians work well with people who understand products, customers, and running businesses once both groups develop a shared language. Engineering introduces another vocabulary: requirem"
+        },
+        {
+          "id": "middle",
+          "label": "Middle",
+          "section": "Institutional responsibilities are built over time",
+          "start": 3227,
+          "end": 4310,
+          "text": "Hospital management engineering also has a longer history than contemporary discussions of digital transformation sometimes suggest. HIMSS’s institutional history identifies Earl J. Frederick as the first full-time hospital management engineer in 1952, jointly employed by the Cleveland Clinic and St. Luke’s Hospital. The history describes subsequent departments and professional organizing around improving patient services and reducing costs. 3\n\nWhat interests me is how a field becomes part of institutional life. Research and nursing have communities, training pathways, conferences, leadership positions, and forms of recognition that help sustain their work. Engineering also has professional communities; the question is how firmly the relevant capabilities are embedded in a particular health system.\n\nIn teams I have worked around, clinical participation is often an expected part of the arrangement, including on analyst teams. Engineering participation can feel more contingent. I want it to become easier to justify before a project runs into a problem that requires it.",
+          "context_before": " 1910 as the first U.S. hospital devoted specifically to clinical research. That example shows an institution organizing itself around a purpose that needed dedicated people, space, and support. It does not mark the beginning of medical research. 2\n\n",
+          "context_after": "\n\n## A digital twin still needs an observable system\n\nI have been moving toward engineering through my work as an analyst at Penn, my courses at Hopkins, and external projects that have found users. Those experiences have made me more interested in w"
+        },
+        {
+          "id": "closing",
+          "label": "Closing",
+          "section": "Trust begins with useful work",
+          "start": 6477,
+          "end": 7409,
+          "text": "But goodwill cannot be the whole employment model. An institution that relies indefinitely on a few people building beyond their formal roles makes continuity fragile. It should be possible to turn demonstrated usefulness into a supported responsibility, with time to maintain the work and a career that rewards doing it well.\n\nI love healthcare, including the fact that engineering does not define its whole culture. Its purpose is care. The place I am looking for is one where building and maintaining better systems becomes an ordinary part of serving that purpose.\n\nHealth systems will continue to depend on outside technology companies. They also need enough internal engineering capacity to understand what they are buying, shape how it fits, and remain accountable for the work around it. That is what I mean by making engineering part of healthcare’s work: giving people who build a lasting place beside the people who care.",
+          "context_before": "ributions matter. A clearer definition, a reliable data check, or a more understandable handoff can make the next improvement possible. They also help a team understand what engineering adds without requiring everyone to adopt its vocabulary first.\n\n",
+          "context_after": "\n\n## Notes\n\n- National Academy of Engineering and Institute of Medicine. *Building a Better Delivery System: A New Engineering/Health Care Partnership* (2005). [Read the report](https://www.nationalacademies.org/read/11378/chapter/3). The report supp"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "Tiktok’s enshittification",
+      "author": "Cory Doctorow",
+      "url": "https://pluralistic.net/2023/01/21/potemkin-ai/",
+      "form": "Commentary essay",
+      "audience": "General technology readers",
+      "permission": "CC BY 4.0; source excludes third-party quotations and images from its license",
+      "source_file": "S03.md",
+      "source_sha256": "d38f295c85416a89a5974ed83c8522be3fa42c9fc349734577197cbb167e4b3e",
+      "word_count": 4224,
+      "extraction_scope": "Main essay between matching heading and next heading; hyperlinks and quotation retained",
+      "exact_code_blocks": [],
+      "passages": [
+        {
+          "id": "opening",
+          "label": "Opening",
+          "section": "Unheaded essay",
+          "start": 1023,
+          "end": 1923,
+          "text": "This was a hell of a good deal for Amazon's customers. Lots of us piled in, and lots of brick-and-mortar retailers withered and died, making it hard to go elsewhere. Amazon sold us ebooks and audiobooks that were permanently locked to its platform with DRM, so that every dollar we spent on media was a dollar we'd have to give up if we deleted Amazon and its apps. And Amazon sold us Prime, getting us to pre-pay for a year's worth of shipping. Prime customers start their shopping on Amazon, and 90% of the time, they don't search anywhere else.\n\nThat tempted in lots of business customers – Marketplace sellers who turned Amazon into the \"everything store\" it had promised from the beginning. As these sellers piled in, Amazon shifted to subsidizing suppliers. Kindle and Audible creators got generous packages. Marketplace sellers reached huge audiences and Amazon took low commissions from them.",
+          "context_before": " capital markets to subsidize everything you bought. It sold goods below cost *and* shipped them below cost. It operated a clean and useful search. If you searched for a product, Amazon tried its damndest to put it at the top of the search results.\n\n",
+          "context_after": "\n\nThis strategy meant that it became progressively harder for shoppers to find things anywhere except Amazon, which meant that they only searched on Amazon, which meant that sellers *had* to sell on Amazon.\n\nThat's when Amazon started to harvest the "
+        },
+        {
+          "id": "middle",
+          "label": "Middle",
+          "section": "Unheaded essay",
+          "start": 11985,
+          "end": 12914,
+          "text": "But Tiktok is not in the business of giving away giant teddy bears. Tiktok, for all that its origins are in the quasi-capitalist Chinese economy, is just another paperclip-maximizing artificial colony organism that treats human beings as inconvenient gut flora. Tiktok is only going to funnel free attention to the people it wants to entrap until they are entrapped, then it will withdraw that attention and begin to monetize it.\n\n\"Monetize\" is a terrible word that tacitly admits that there is no such thing as an \"Attention Economy.\" You can't use attention as a medium of exchange. You can't use it as a store of value. You can't use it as a unit of account. Attention is like cryptocurrency: a worthless token that is only valuable to the extent that you can trick or coerce someone into parting with \"fiat\" currency in exchange for it. You have to \"monetize\" it – that is, you have to exchange the fake money for real money.",
+          "context_before": "This suggests that heating has potentially benefitted some influencers and brands — those with whom TikTok has sought business relationships — at the expense of others with whom it has not.\"\n\nIn other words, Tiktok is handing out giant teddy bears.\n\n",
+          "context_after": "\n\nIn the case of cryptos, the main monetization strategy was deception-based. Exchanges and \"projects\" handed out a bunch of giant teddy-bears, creating an army of true-believer Judas goats who convinced their peers to hand the carny their money and "
+        },
+        {
+          "id": "closing",
+          "label": "Closing",
+          "section": "Unheaded essay",
+          "start": 22814,
+          "end": 23467,
+          "text": "Even with that foundational understanding of enshittification, Google has been unable to resist its siren song. Today's Google results are an increasingly useless morass of self-preferencing links to its own products, ads for products that aren't good enough to float to the top of the list on its own, and parasitic SEO junk piggybacking on the former.\n\nEnshittification kills. Google just laid off 12,000 employees, and the company is in a full-blown \"panic\" over the rise of \"AI\" chatbots, and is making a full-court press for an AI-driven search tool – that is, a tool that won't show you what you ask for, but rather, what it thinks you should see:",
+          "context_before": "al Web Search Engine,\" in which they wrote, \"Advertising funded search engines will be inherently biased towards the advertisers and away from the needs of consumers.\"\n\nhttps://web.archive.org/web/20090131110953/http://ilpubs.stanford.edu:8090/361/\n\n",
+          "context_after": "\n\nhttps://www.theverge.com/2023/1/20/23563851/google-search-ai-chatbot-demo-chatgpt\n\nNow, it's possible to imagine that such a tool will produce *good* recommendations, like Tiktok's pre-enshittified algorithm did. But it's hard to see how Google wil"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "Floating Point Arithmetic: Issues and Limitations",
+      "author": "Python Software Foundation",
+      "url": "https://docs.python.org/3.8/tutorial/floatingpoint.html",
+      "form": "Technical documentation",
+      "audience": "Python learners",
+      "permission": "Python documentation license; cached license retained",
+      "source_file": "S04.md",
+      "source_sha256": "8711faa968ab6401a3bc60ac977e18b5b25af211c0ec3381a869da33c133ddbe",
+      "word_count": 1695,
+      "extraction_scope": "Tutorial body prose and exact preformatted examples; navigation, title and figures/tables omitted",
+      "exact_code_blocks": [
+        "0.125",
+        "0.001",
+        "0.3",
+        "0.33",
+        "0.333",
+        "0.0001100110011001100110011001100110011001100110011...",
+        ">>> 0.1\n0.1000000000000000055511151231257827021181583404541015625",
+        ">>> 1 / 10\n0.1",
+        ">>> format(math.pi, '.12g')  # give 12 significant digits\n'3.14159265359'\n\n>>> format(math.pi, '.2f')   # give 2 digits after the point\n'3.14'\n\n>>> repr(math.pi)\n'3.141592653589793'",
+        ">>> .1 + .1 + .1 == .3\nFalse",
+        ">>> round(.1, 1) + round(.1, 1) + round(.1, 1) == round(.3, 1)\nFalse",
+        ">>> round(.1 + .1 + .1, 10) == round(.3, 10)\nTrue",
+        ">>> x = 3.14159\n>>> x.as_integer_ratio()\n(3537115888337719, 1125899906842624)",
+        ">>> x == 3537115888337719 / 1125899906842624\nTrue",
+        ">>> x.hex()\n'0x1.921f9f01b866ep+1'",
+        ">>> x == float.fromhex('0x1.921f9f01b866ep+1')\nTrue",
+        ">>> sum([0.1] * 10) == 1.0\nFalse\n>>> math.fsum([0.1] * 10) == 1.0\nTrue",
+        "1 / 10 ~= J / (2**N)",
+        "J ~= 2**N / 10",
+        ">>> 2**52 <=  2**56 // 10  < 2**53\nTrue",
+        ">>> q, r = divmod(2**56, 10)\n>>> r\n6",
+        ">>> q+1\n7205759403792794",
+        "7205759403792794 / 2 ** 56",
+        "3602879701896397 / 2 ** 55",
+        ">>> 0.1 * 2 ** 55\n3602879701896397.0",
+        ">>> 3602879701896397 * 10 ** 55 // 2 ** 55\n1000000000000000055511151231257827021181583404541015625",
+        ">>> format(0.1, '.17f')\n'0.10000000000000001'",
+        ">>> from decimal import Decimal\n>>> from fractions import Fraction\n\n>>> Fraction.from_float(0.1)\nFraction(3602879701896397, 36028797018963968)\n\n>>> (0.1).as_integer_ratio()\n(3602879701896397, 36028797018963968)\n\n>>> Decimal.from_float(0.1)\nDecimal('0.1000000000000000055511151231257827021181583404541015625')\n\n>>> format(Decimal.from_float(0.1), '.17')\n'0.10000000000000001'"
+      ],
+      "passages": [
+        {
+          "id": "opening",
+          "label": "Opening",
+          "section": "Floating Point Arithmetic: Issues and Limitations",
+          "start": 1305,
+          "end": 2049,
+          "text": "Stop at any finite number of bits, and you get an approximation. On most machines today, floats are approximated using a binary fraction with the numerator using the first 53 bits starting with the most significant bit and with the denominator as a power of two. In the case of 1/10, the binary fraction is `3602879701896397 / 2 ** 55` which is close to but not exactly equal to the true value of 1/10.\n\nMany users are not aware of the approximation because of the way values are displayed. Python only prints a decimal approximation to the true decimal value of the binary approximation stored by the machine. On most machines, if Python were to print the true decimal value of the binary approximation stored for 0.1, it would have to display",
+          "context_before": ", no matter how many base 2 digits you’re willing to use, the decimal value 0.1 cannot be represented exactly as a base 2 fraction. In base 2, 1/10 is the infinitely repeating fraction\n\n```\n0.0001100110011001100110011001100110011001100110011...\n```\n\n",
+          "context_after": "\n\n```\n>>> 0.1\n0.1000000000000000055511151231257827021181583404541015625\n```\n\nThat is more digits than most people find useful, so Python keeps the number of digits manageable by displaying a rounded value instead\n\n```\n>>> 1 / 10\n0.1\n```\n\nJust remembe"
+        },
+        {
+          "id": "middle",
+          "label": "Middle",
+          "section": "Floating Point Arithmetic: Issues and Limitations",
+          "start": 5085,
+          "end": 6065,
+          "text": "As that says near the end, “there are no easy answers.” Still, don’t be unduly wary of floating-point! The errors in Python float operations are inherited from the floating-point hardware, and on most machines are on the order of no more than 1 part in 2**53 per operation. That’s more than adequate for most tasks, but you do need to keep in mind that it’s not decimal arithmetic and that every float operation can suffer a new rounding error.\n\nWhile pathological cases do exist, for most casual use of floating-point arithmetic you’ll see the result you expect in the end if you simply round the display of your final results to the number of decimal digits you expect. [`str()`](https://docs.python.org/3.8/library/stdtypes.html#str) usually suffices, and for finer control see the [`str.format()`](https://docs.python.org/3.8/library/stdtypes.html#str.format) method’s format specifiers in [Format String Syntax](https://docs.python.org/3.8/library/string.html#formatstrings).",
+          "context_before": " many surprises like this. The problem with “0.1” is explained in precise detail below, in the “Representation Error” section. See [The Perils of Floating Point](http://www.lahey.com/float.htm) for a more complete account of other common surprises.\n\n",
+          "context_after": "\n\nFor use cases which require exact decimal representation, try using the [`decimal`](https://docs.python.org/3.8/library/decimal.html#module-decimal) module which implements decimal arithmetic suitable for accounting applications and high-precision "
+        },
+        {
+          "id": "closing",
+          "label": "Closing",
+          "section": "15.1. Representation Error",
+          "start": 8623,
+          "end": 9345,
+          "text": "*Representation error* refers to the fact that some (most, actually) decimal fractions cannot be represented exactly as binary (base 2) fractions. This is the chief reason why Python (or Perl, C, C++, Java, Fortran, and many others) often won’t display the exact decimal number you expect.\n\nWhy is that? 1/10 is not exactly representable as a binary fraction. Almost all machines today (November 2000) use IEEE-754 floating point arithmetic, and almost all platforms map Python floats to IEEE-754 “double precision”. 754 doubles contain 53 bits of precision, so on input the computer strives to convert 0.1 to the closest fraction it can of the form *J*/2***N* where *J* is an integer containing exactly 53 bits. Rewriting",
+          "context_before": " == 1.0\nTrue\n```\n\n## 15.1. Representation Error\n\nThis section explains the “0.1” example in detail, and shows how you can perform an exact analysis of cases like this yourself. Basic familiarity with binary floating-point representation is assumed.\n\n",
+          "context_after": "\n\n```\n1 / 10 ~= J / (2**N)\n```\n\nas\n\n```\nJ ~= 2**N / 10\n```\n\nand recalling that *J* has exactly 53 bits (is `>= 2**52` but `< 2**53`), the best value for *N* is 56:\n\n```\n>>> 2**52 <=  2**56 // 10  < 2**53\nTrue\n```\n\nThat is, 56 is the only value for *N"
+        }
+      ]
+    }
+  ]
+}

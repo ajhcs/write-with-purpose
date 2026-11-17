@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_05",
+      "doi": "10.1002/cpa.3160130102",
+      "title": "The unreasonable effectiveness of mathematics in the natural sciences. Richard courant lecture in mathematical sciences delivered at New York University, May 11, 1959",
+      "authors": "[\"Eugene P. Wigner\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"The unreasonable effectiveness of mathematics in the natural\" Wigner filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_05",
+      "query": "\"The unreasonable effectiveness of mathematics in the natural\" Wigner filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "The unreasonable effectiveness of mathematics in the natural sciences. Richard courant lecture in mathematical sciences delivered at New York University, May 11, 1959",
+          "url": "https://www.nemenmanlab.org/~ilya/images/e/e4/Wigner-1960.pdf",
+          "score": 1
+        },
+        {
+          "title": "The Unreasonable Effectiveness of Mathematics in the Natural Sciences",
+          "url": "https://www.hep.upenn.edu/~johnda/Papers/wignerUnreasonableEffectiveness.pdf",
+          "score": 1
+        },
+        {
+          "title": "The Unreasonable Effectiveness of Mathematics in the Natural Sciences | Inters.org",
+          "url": "https://w2.inters.org/Wigner-Unreasonable-Effectiveness-Mathematics",
+          "score": 1
+        },
+        {
+          "title": "Р•. Wigner, вЂњThe unreasonable effectiveness of mathematics in the natural sciencesвЂќ, UFN, 94:3 (1968), 535вЂ“546; Comm. Pure and Appl. Math., 131:1 (1960), 1вЂ“14",
+          "url": "https://www.mathnet.ru/php/archive.phtml?jrnid=ufn&option_lang=eng&paperid=11329&wshow=paper",
+          "score": 1
+        },
+        {
+          "title": "Р•. Wigner, вЂњThe unreasonable effectiveness of mathematics in the natural sciencesвЂќ, UFN, 94:3 (1968), 535вЂ“546; Comm. Pure and Appl. Math., 131:1 (1960), 1вЂ“14",
+          "url": "https://www.mathnet.ru/eng/ufn11329",
+          "score": 1
+        },
+        {
+          "title": "The Unreasonable Effectiveness of Mathematics in the Natural Sciences",
+          "url": "https://www.tandfonline.com/doi/full/10.1179/030801811X13082311482537",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

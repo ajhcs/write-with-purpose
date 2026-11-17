@@ -1,0 +1,140 @@
+{
+  "scope": "Mechanical consistency, source preservation and captured check receipts only. Editorial outcomes are described separately; no semantic/quality/learning superiority is certified.",
+  "package_version": "0.6.0-alpha.6",
+  "checks": [
+    {
+      "check": "Frozen baseline unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Final19-file canonical source matches reviewed snapshot",
+      "passed": true,
+      "detail": {
+        "files": 19,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "Scripts and tests unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Four approved author references unchanged and synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Conditional shared references synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "revised-unit",
+      "passed": true,
+      "detail": [
+        {
+          "command": [
+            "python3",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-v"
+          ],
+          "cwd": "/workspace/repos/builderbob/write-with-purpose",
+          "started_utc": "2026-11-16T21:34:09.122420+00:00",
+          "finished_utc": "2026-11-16T21:34:10.595085+00:00",
+          "exit_code": 0,
+          "test_count": 47,
+          "log": "runs/revised-unit.log"
+        }
+      ]
+    },
+    {
+      "check": "annotation-unit",
+      "passed": true,
+      "detail": [
+        {
+          "command": [
+            "python3",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "experiments/paragraph-functions",
+            "-p",
+            "test_*.py",
+            "-v"
+          ],
+          "cwd": "/workspace/repos/builderbob/write-with-purpose",
+          "started_utc": "2026-11-16T21:34:09.124322+00:00",
+          "finished_utc": "2026-11-16T21:34:09.216100+00:00",
+          "exit_code": 0,
+          "test_count": 15,
+          "log": "runs/annotation-unit.log"
+        }
+      ]
+    },
+    {
+      "check": "Both skill validators passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All16 captured declared contracts passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Checker reports bind actual checked artifacts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Historical research/debate records preserved",
+      "passed": true,
+      "detail": {
+        "files": 102,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "Global skill entrypoints unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Staging unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Tracked diff whitespace check",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Published local file links resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Masked comparison decodes12 cases",
+      "passed": true,
+      "detail": {
+        "tie": 9,
+        "revised": 2,
+        "baseline": 1
+      }
+    },
+    {
+      "check": "Four final focused bodies retained",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_scoped_checks_passed": true
+}

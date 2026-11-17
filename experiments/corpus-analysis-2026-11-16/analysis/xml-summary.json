@@ -1,0 +1,124 @@
+{
+  "files_total": 3242,
+  "by_root": {
+    "case-protocol": 903,
+    "empirical-methods": 459,
+    "narrative-scoping": 899,
+    "systematic-review": 387,
+    "biomedical-essays": 594
+  },
+  "status": {
+    "measured_provisional_form": 3228,
+    "excluded": 14
+  },
+  "body_present": 3239,
+  "errors": [],
+  "excluded": [
+    {
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/case-protocol/PMC1638204.xml",
+      "reason": [
+        "no extracted body prose paragraphs"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/case-protocol/PMC2186539.xml",
+      "reason": [
+        "no extracted body prose paragraphs"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/case-protocol/PMC2631903.xml",
+      "reason": [
+        "no extracted body prose paragraphs"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/case-protocol/PMC7130819.xml",
+      "reason": [
+        "no body element"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/case-protocol/PMC7267751.xml",
+      "reason": [
+        "no extracted body prose paragraphs"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/empirical-methods/PMC2033628.xml",
+      "reason": [
+        "no extracted body prose paragraphs"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/empirical-methods/PMC2192853.xml",
+      "reason": [
+        "no extracted body prose paragraphs"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/empirical-methods/PMC2362742.xml",
+      "reason": [
+        "no extracted body prose paragraphs"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/empirical-methods/PMC2363506.xml",
+      "reason": [
+        "no extracted body prose paragraphs"
+      ]
+    },
+    {
+      "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC7083240.xml",
+      "reason": [
+        "no body element"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.essay-corpus-cache/2026-11-16/PMC1969431.xml",
+      "reason": [
+        "no extracted body prose paragraphs"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.essay-corpus-cache/2026-11-16/PMC1977628.xml",
+      "reason": [
+        "no extracted body prose paragraphs"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.essay-corpus-cache/2026-11-16/PMC2033475.xml",
+      "reason": [
+        "no extracted body prose paragraphs"
+      ]
+    },
+    {
+      "source_path": "/workspace/repos/builderbob/.essay-corpus-cache/2026-11-16/PMC7083240.xml",
+      "reason": [
+        "no body element"
+      ]
+    }
+  ],
+  "prior_four_root_files": 2648,
+  "duplicates_by_pmcid": 1,
+  "duplicates_by_sha256": 1,
+  "prose_words": {
+    "min": 13,
+    "q1": 2184.0,
+    "median": 3489.5,
+    "q3": 4691.0,
+    "max": 45819,
+    "n": 3228
+  },
+  "form_labels": {
+    "protocol": 598,
+    "review_unspecified": 32,
+    "methods_signal": 238,
+    "research_article_unspecified": 535,
+    "case_report": 35,
+    "unspecified": 579,
+    "systematic_review": 397,
+    "narrative_review": 461,
+    "scoping_review": 433
+  }
+}

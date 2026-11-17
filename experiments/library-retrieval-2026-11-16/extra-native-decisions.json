@@ -1,0 +1,74 @@
+[
+  {
+    "candidate_key": "law:law_biafra",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/c7d04a1374e85a52/landing-1.html",
+    "format": "html",
+    "sha256": "b0e88bb6ff6c892084bfb037f93195915af418548f396a79b19da91610fb0d62",
+    "bytes": 59615,
+    "source_url": "https://history.state.gov/historicaldocuments/frus1969-76ve05p1/d107",
+    "origin": "official_full_source_document",
+    "identity": "exact_registered_official_document_with_requested_content",
+    "scope_note": "Complete source HTML retained. SEC item is a container holding the requested proposal; isolate its section before corpus analysis. FRUS items are archival document transcriptions.",
+    "review_basis": "Official FRUS document heading, dated transcription and concluding decision options inspected against the exact registered document URL."
+  },
+  {
+    "candidate_key": "law:law_sudan",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/fcf4fda1ec0c0a35/landing-1.html",
+    "format": "html",
+    "sha256": "199dad5d2af9bf45b7bee09e6fb06ea81826ca5a750cdf34b86a00109289a094",
+    "bytes": 48972,
+    "source_url": "https://history.state.gov/historicaldocuments/frus1969-76ve06/d234",
+    "origin": "official_full_source_document",
+    "identity": "exact_registered_official_document_with_requested_content",
+    "scope_note": "Complete source HTML retained. SEC item is a container holding the requested proposal; isolate its section before corpus analysis. FRUS items are archival document transcriptions.",
+    "review_basis": "Official FRUS document heading, dated transcription and concluding decision options inspected against the exact registered document URL."
+  },
+  {
+    "candidate_key": "business:business_039",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/cd26065eed565367/landing-1.html",
+    "format": "html",
+    "sha256": "736974350849c0ae38c1f03feb3232da80dc120818440ec8e2823c8b19837359",
+    "bytes": 2009277,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1065088/000119312514112751/d661450ddefc14a.htm",
+    "origin": "official_full_source_document",
+    "identity": "exact_registered_official_document_with_requested_content",
+    "scope_note": "Complete source HTML retained. SEC item is a container holding the requested proposal; isolate its section before corpus analysis. FRUS items are archival document transcriptions.",
+    "review_basis": "Exact registered 2014 SEC proxy source; inspected the actual Proposal 5 heading and the following shareholder resolution, rather than relying on a table-of-contents mention."
+  },
+  {
+    "candidate_key": "law:law_china_trade",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/f9a130e65ec508f5/landing-1.html",
+    "format": "html",
+    "sha256": "b745ff5970c47fb604767f988015b81ace12e18854f83c9be0f30fe601d88a6c",
+    "bytes": 65449,
+    "source_url": "https://history.state.gov/historicaldocuments/frus1969-76v17/d131",
+    "origin": "official_full_source_document",
+    "identity": "exact_registered_official_document_with_requested_content",
+    "scope_note": "Complete source HTML retained. SEC item is a container holding the requested proposal; isolate its section before corpus analysis. FRUS items are archival document transcriptions.",
+    "review_basis": "Official FRUS document heading, dated transcription and concluding decision options inspected against the exact registered document URL."
+  },
+  {
+    "candidate_key": "physical-sciences:psm_30",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/5d9b2f015ec92e53/landing-1.html",
+    "format": "html",
+    "sha256": "6ba51fd734db6842eefc02dac3a9b91a1ba59657af960ac1f70292dbf9fc9d05",
+    "bytes": 76292,
+    "source_url": "https://plato.stanford.edu/archives/spr2012/entries/qt-epr/",
+    "origin": "official_full_source_document",
+    "identity": "exact_registered_official_document_title_date_author_and_full_body",
+    "scope_note": "Original complete HTML, page furniture and external asset links retained; paragraph extraction not validated.",
+    "review_basis": "Read exact Spring 2012 SEP archive title, 2009 revision notice, complete entry and references, and Arthur Fine copyright attribution."
+  },
+  {
+    "candidate_key": "engineering:eng_42",
+    "path": "/workspace/repos/builderbob/.writing-corpus-cache/library-retrieval-2026-11-16/records/bd63da2d50adb988/landing-1.html",
+    "format": "html",
+    "sha256": "213fbc7e34f2f512a5bb9e1e361949b0c9366c7e2e7ec47010cf4256e35a4a15",
+    "bytes": 22052,
+    "source_url": "https://www.w3.org/Proposal",
+    "origin": "official_full_source_document",
+    "identity": "exact_registered_official_document_title_date_author_and_full_body",
+    "scope_note": "Original complete HTML, page furniture and external asset links retained; paragraph extraction not validated.",
+    "review_basis": "Read exact W3C proposal header, From T. Berners-Lee/R. Cailliau, 12 November 1990, through its concluding references."
+  }
+]

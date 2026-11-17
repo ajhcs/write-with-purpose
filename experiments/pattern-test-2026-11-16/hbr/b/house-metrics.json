@@ -1,0 +1,75 @@
+{
+  "prose_words": 3199,
+  "prose_paragraphs": 47,
+  "estimated_sentences": 175,
+  "median_paragraph_words": 67.0,
+  "median_sentence_words": 18.0,
+  "mean_word_characters": 5.175054704595186,
+  "headings": 4,
+  "max_heading_depth": null,
+  "list_words": 361,
+  "code_words": 0,
+  "quote_words": null,
+  "caption_words": null,
+  "section_words": {
+    "opening": 224,
+    "What\u2019s So Hard About Design": 578,
+    "Building the House": 1745,
+    "Using the House": 233,
+    "The Houses Beyond": 419
+  },
+  "section_shares": {
+    "opening": 0.0700218818380744,
+    "What\u2019s So Hard About Design": 0.1806814629571741,
+    "Building the House": 0.5454829634260706,
+    "Using the House": 0.07283526101906845,
+    "The Houses Beyond": 0.13097843075961238
+  },
+  "heading_sequence": [
+    {
+      "text": "What\u2019s So Hard About Design",
+      "level": 1
+    },
+    {
+      "text": "Building the House",
+      "level": 1
+    },
+    {
+      "text": "Using the House",
+      "level": 1
+    },
+    {
+      "text": "The Houses Beyond",
+      "level": 1
+    }
+  ],
+  "object_counts": {},
+  "run_in_headings": [
+    {
+      "text": "What do customers want?",
+      "paragraph_id": "house-013"
+    },
+    {
+      "text": "Are all preferences equally important?",
+      "paragraph_id": "house-017"
+    },
+    {
+      "text": "Will delivering perceived needs yield a competitive advantage?",
+      "paragraph_id": "house-020"
+    },
+    {
+      "text": "How can we change the product?",
+      "paragraph_id": "house-024"
+    },
+    {
+      "text": "How much do engineers influence customer-perceived qualities?",
+      "paragraph_id": "house-028"
+    },
+    {
+      "text": "How does one engineering change affect other characteristics?",
+      "paragraph_id": "house-032"
+    }
+  ],
+  "paragraphs_excluded": 4,
+  "interpretation": "Exploratory one-coder reconstruction; list subparagraphs excluded; sentence segmentation algorithmic; normalization and precise boundary uncertainty remain."
+}

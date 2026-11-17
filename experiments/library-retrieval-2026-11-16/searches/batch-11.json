@@ -1,0 +1,125 @@
+{
+  "batch": 11,
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_14",
+      "doi": "10.1023/a:1009715923555",
+      "title": "A Tutorial on Support Vector Machines for Pattern Recognition",
+      "field": "engineering_computing",
+      "q": "\"A Tutorial on Support Vector Machines for Pattern Recognition\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_15",
+      "doi": "10.1023/b:stco.0000035301.49549.88",
+      "title": "A tutorial on support vector regression",
+      "field": "engineering_computing",
+      "q": "\"A tutorial on support vector regression\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_17",
+      "doi": "10.1145/355604.361591",
+      "title": "The humble programmer",
+      "field": "engineering_computing",
+      "q": "\"The humble programmer\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_18",
+      "doi": "10.1145/358549.358561",
+      "title": "The emperor's old clothes",
+      "field": "engineering_computing",
+      "q": "\"The emperor's old clothes\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_14",
+      "query": "\"A Tutorial on Support Vector Machines for Pattern Recognition\" pdf",
+      "urls": [
+        {
+          "title": "A Tutorial on Support Vector Machines for Pattern Recognition",
+          "url": "https://www.cs.princeton.edu/courses/archive/fall11/cos402/readings/burgesSVM.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Tutorial on Support Vector Machines for Pattern Recognition",
+          "url": "https://www.academia.edu/6813730/A_Tutorial_on_Support_Vector_Machines_for_Pattern_Recognition",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Tutorial on Support Vector Machines for Pattern Recognition",
+          "url": "https://www.researchgate.net/publication/226658534_A_Tutorial_on_Support_Vector_Machines_for_Pattern_Recognition",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_15",
+      "query": "\"A tutorial on support vector regression\" pdf",
+      "urls": [
+        {
+          "title": "A Tutorial on Support Vector Machines for Pattern Recognition",
+          "url": "https://www.cs.princeton.edu/courses/archive/fall11/cos402/readings/burgesSVM.pdf",
+          "score": 0.75,
+          "body_score": 0.75
+        },
+        {
+          "title": "A tutorial on support vector regression",
+          "url": "https://cir.nii.ac.jp/crid/1364233268152041472",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Tutorial on Support Vector Regression | Empirical Inference – MPI-IS",
+          "url": "https://is.mpg.de/ei/publications/1832",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Tutorial on Support Vector Machines for Pattern Recognition",
+          "url": "https://www.academia.edu/6813730/A_Tutorial_on_Support_Vector_Machines_for_Pattern_Recognition",
+          "score": 0.75,
+          "body_score": 1
+        },
+        {
+          "title": "A Tutorial on Support Vector Machines for Pattern Recognition",
+          "url": "https://www.researchgate.net/publication/226658534_A_Tutorial_on_Support_Vector_Machines_for_Pattern_Recognition",
+          "score": 0.75,
+          "body_score": 0.75
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_17",
+      "query": "\"The humble programmer\" pdf",
+      "urls": [
+        {
+          "title": "The humble programmer [1972 ACM Turing Award Lecture]",
+          "url": "https://research.tue.nl/en/publications/the-humble-programmer-1972-acm-turing-award-lecture/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "謙虚なるプログラマ (The Humble Programmer) - エドガー・W・ダイクストラ",
+          "url": "https://www.aka-oac.com/office/dyk_kenkyo.htm",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_18",
+      "query": "\"The emperor's old clothes\" pdf",
+      "urls": [
+        {
+          "title": "The Emperor's Old Clothes",
+          "url": "https://books.google.com/books/about/The_Emperor_s_Old_Clothes.html?id=uvDMAAAACAAJ",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

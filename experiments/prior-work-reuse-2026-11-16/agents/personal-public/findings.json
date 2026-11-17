@@ -1,0 +1,360 @@
+{
+  "scout": "personal-public",
+  "scope": "Personal/public nonfiction, argument, audience/register variation and student comparators; source publication dates separated from release dates. Research map, not meta-analysis.",
+  "searches": [
+    {
+      "query": "CORE web register hierarchical hybrid labels",
+      "source": "Springer and GitHub",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "Webis-Editorials-16 annotation paragraph separators",
+      "source": "Webis and Zenodo",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "PERSUADE 2.0 discourse annotated corpus rubric",
+      "source": "GitHub and publisher",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "Argument Annotated Essays v2 license release",
+      "source": "TU Darmstadt and ACL",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "Brown LOB FLOB matched genre counts manual",
+      "source": "ICAME",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "BAWE corpus XML genre family manual",
+      "source": "Oxford Text Archive",
+      "date": "2026-11-16"
+    }
+  ],
+  "records": [
+    {
+      "code_license": "unknown",
+      "annotation_license": "Zenodo release metadata CC BY 4.0; confirm scope before use.",
+      "source_text_rights": "Publisher-owned source rights not independently verified; Zenodo data license is not independent evidence of publisher permission.",
+      "reliability": "Fleiss kappa 0.56 reported in 2016 paper.",
+      "paywall_retrieval_record": null,
+      "repository_url": null,
+      "id": "webis-editorials-16",
+      "title": "A News Editorial Corpus for Mining Argumentation Strategies / Webis-Editorials-16",
+      "authors": [
+        "Khalid Al-Khatib",
+        "Henning Wachsmuth",
+        "Johannes Kiesel",
+        "Matthias Hagen",
+        "Benno Stein"
+      ],
+      "year": 2016,
+      "kind": "annotated corpus and single corpus study",
+      "doi": "10.5281/zenodo.3254405 (dataset)",
+      "primary_urls": [
+        "https://aclanthology.org/C16-1324/",
+        "https://webis.de/data/webis-editorials-16.html"
+      ],
+      "artifact_urls": [
+        "https://zenodo.org/api/records/3254405/files/corpus-webis-editorials-16.zip/content"
+      ],
+      "verified_scope": "Dataset landing page, Zenodo API metadata, downloaded ZIP README, XML type system and XMI header inspected. README documents TXT rows with explicit paragraph separator, label and text; XMI has original metadata.",
+      "baseline_status": "new lead",
+      "unit": "editorial, paragraph separator and argumentative discourse unit",
+      "genres_or_forms": [
+        "professional news editorial"
+      ],
+      "annotation_or_metrics_available": "Six unit types including assumption and statistics; paragraph boundaries and text; outlet, date, author, URL; temporal evaluation split 180/60/60.",
+      "size_and_count_basis": "300 editorials, 100 per outlet; 14,313 units per official description.",
+      "human_or_automatic": "Three professional crowdsourcing annotators per unit.",
+      "access_status": "Direct public ZIP; inspected.",
+      "reuse_recommendation": "Highest priority: preserve original paragraph separators and unit labels, reconstruct sequences and independently verify full-text completeness; compare by outlet and author.",
+      "project_feature_mapping": {
+        "F04": "paragraph separators allow candidate paragraph metrics",
+        "F07": "statistics and anecdote types are candidate evidence proxies",
+        "F09": "unit labels are hypotheses for crosswalk, not paragraph labels"
+      },
+      "limitations": "Only three outlets and 2014–2015 era; not professional writing norms; forced unit classification is not multi-label paragraph coding."
+    },
+    {
+      "code_license": "unknown",
+      "annotation_license": "CC BY-SA 4.0 explicitly for annotations in LICENSE.",
+      "source_text_rights": "unknown; do not infer from availability",
+      "reliability": "Two-coder vote minimum; uncertainty and possible no-label documents retained in account; not a paragraph agreement statistic.",
+      "paywall_retrieval_record": null,
+      "repository_url": "https://github.com/TurkuNLP/CORE-corpus",
+      "id": "core",
+      "title": "Register identification from the unrestricted open Web using the Corpus of Online Registers of English",
+      "authors": [
+        "Veronika Laippala",
+        "Samuel Rönnqvist",
+        "Miika Oinonen",
+        "Aki-Juhani Kyröläinen",
+        "Anna Salmela",
+        "Douglas Biber",
+        "Jesse Egbert",
+        "Sampo Pyysalo"
+      ],
+      "year": 2022,
+      "kind": "corpus and single corpus study",
+      "doi": "10.1007/s10579-022-09624-1",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s10579-022-09624-1"
+      ],
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/TurkuNLP/CORE-corpus/master/README.md",
+        "https://raw.githubusercontent.com/TurkuNLP/CORE-corpus/master/register_label_abbreviations.txt",
+        "https://raw.githubusercontent.com/TurkuNLP/CORE-corpus/master/LICENSE.txt",
+        "https://github.com/TurkuNLP/CORE-corpus/blob/master/train.tsv.gz"
+      ],
+      "verified_scope": "Full open paper sections on annotation and README, label file, license, repository file listing inspected.",
+      "baseline_status": "known baseline; newly inspected label and release schema",
+      "unit": "web document, register labels",
+      "genres_or_forms": [
+        "personal blog",
+        "opinion blog",
+        "editorial",
+        "persuasive article or essay",
+        "review",
+        "how-to instructional"
+      ],
+      "annotation_or_metrics_available": "TSV: label(s), document ID, text; hierarchy and hybrids; labels PB, OB, ED, PA, RV, HI and others. Multi-labels result from minimum two coder votes, not necessarily within-text sections.",
+      "size_and_count_basis": "Nearly 50,000 documents in 2022 release; original 2015 study 53,000, different version/count.",
+      "human_or_automatic": "Four independent coders per document; at least two votes per released label.",
+      "access_status": "Public GitHub gzip files; not downloaded or evaluated in full.",
+      "reuse_recommendation": "Use label dictionary and hybrid/propagation decisions to test form versus medium and ambiguous boundaries; select and audit samples separately.",
+      "project_feature_mapping": {
+        "F01": "document lengths only after completeness audit",
+        "F09": "document register is contextual metadata, not function annotation"
+      },
+      "limitations": "Unrestricted web sample is not curated high-quality writing; cleaned text may lose paragraph structure and completeness, verify. Source rights separate."
+    },
+    {
+      "code_license": "unknown",
+      "annotation_license": "2.0 README says CC BY 4.0; 1.0 README has conflicting snippets in web cache, use exact current 2.0 release conditions.",
+      "source_text_rights": "2.0 README declares dataset CC BY 4.0; confirm source contributor and redistribution scope before external reuse.",
+      "reliability": "not verified",
+      "paywall_retrieval_record": null,
+      "repository_url": "https://github.com/scrosseye/persuade_corpus_2.0",
+      "id": "persuade2",
+      "title": "A large-scale corpus for assessing written argumentation: PERSUADE 2.0",
+      "authors": [
+        "Scott A. Crossley",
+        "Ying Tian",
+        "Patience Baffour",
+        "Andrew Franklin",
+        "Michael Benner",
+        "Ulrich Boser"
+      ],
+      "year": 2024,
+      "kind": "annotated corpus and dataset paper",
+      "doi": "10.1016/j.asw.2024.100865",
+      "primary_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1075293524000588",
+        "https://zenodo.org/records/8221504"
+      ],
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/README.md",
+        "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/argumentation_effectiveness_rubric.pdf",
+        "https://drive.google.com/file/d/13phHyDzIsb0MHyJr6q-B-qIa9P2tM135/view?usp=sharing",
+        "https://drive.google.com/file/d/1K1SIJiG-2zWgMlTzxQeYOcLwOsFaVel1/view?usp=sharing"
+      ],
+      "verified_scope": "Repository README and 1.0 schema and author paper abstract inspected; large data files and full rubric not downloaded.",
+      "baseline_status": "new lead",
+      "unit": "student essay and discourse element character span",
+      "genres_or_forms": [
+        "grade 6–12 prompted US student argumentative writing"
+      ],
+      "annotation_or_metrics_available": "Original 1.0 schema provides full_text, discourse_start/end, discourse_type; 2.0 adds holistic and element effectiveness ratings, demographics and prompts; lead, position, claim, counterclaim, rebuttal, evidence, concluding summary.",
+      "size_and_count_basis": "Over 25,000 essays, 15 prompts, independent and source-based tasks, per 2.0 README.",
+      "human_or_automatic": "1.0 README reports double-blind independent expert reviewers and 100% third-rater adjudication.",
+      "access_status": "Google Drive linked; test ZIP password published in README. Data files not downloaded.",
+      "reuse_recommendation": "Use span schema and rubric to compare boundaries and disagreement design; use scores only for population-specific exploratory analysis.",
+      "project_feature_mapping": {
+        "F01": "whole essays if text integrity confirmed",
+        "F04": "paragraph extraction requires original formatting inspection",
+        "F07": "evidence span label",
+        "F09": "argumentative functions crosswalk as hypotheses"
+      },
+      "limitations": "School assignment outcomes and demographics are not professional expertise or an authentic-personal-voice quality criterion. 15 prompts restrict transfer; treat demographic fields carefully."
+    },
+    {
+      "code_license": "unknown",
+      "annotation_license": "Custom license document identified but 403 prevented verification.",
+      "source_text_rights": "unknown; do not infer from availability",
+      "reliability": "See paper for task-specific agreement; no figure asserted here.",
+      "paywall_retrieval_record": "Paper is openly available via ACL; dataset host 403; dataset license PDF not retrieved.",
+      "repository_url": null,
+      "id": "aae-v2",
+      "title": "Parsing Argumentation Structures in Persuasive Essays / Argument Annotated Essays version 2",
+      "authors": [
+        "Christian Stab",
+        "Iryna Gurevych"
+      ],
+      "year": 2017,
+      "kind": "annotated corpus and single corpus study",
+      "doi": "10.1162/COLI_a_00295",
+      "primary_urls": [
+        "https://aclanthology.org/J17-3005/",
+        "https://tudatalib.ulb.tu-darmstadt.de/items/9177c48c-8bd5-4881-9cb4-0632b5941464/full"
+      ],
+      "artifact_urls": [
+        "https://tudatalib.ulb.tu-darmstadt.de/bitstream/handle/tudatalib/2422/arg_annotated_essays_v2_license.pdf"
+      ],
+      "verified_scope": "ACL paper abstract/methods, TU Darmstadt indexed release metadata and file listing inspected; live TU host returned 403 during follow-up; license file could not be inspected.",
+      "baseline_status": "known 2014 v1 baseline; v2 release newly checked",
+      "unit": "essay, character-span argument components and directed relations",
+      "genres_or_forms": [
+        "persuasive learner/student essays"
+      ],
+      "annotation_or_metrics_available": "major claim, claim, premise and support/attack relations; segmentation and graph structure.",
+      "size_and_count_basis": "402 essays includes 90 from v1; 80 essays independently annotated by three annotators for agreement.",
+      "human_or_automatic": "Human annotations; study describes independent multiple annotation subset.",
+      "access_status": "Release metadata indexed, live host 403; do not interpret host failure as corpus removal.",
+      "reuse_recommendation": "When access permits inspect license and standoff files; compare component boundaries and relations to PERSUADE and editorial annotation.",
+      "project_feature_mapping": {
+        "F09": "claims, premises and relations offer argument-layer definitions",
+        "F04": "paragraphs only after source formatting is checked"
+      },
+      "limitations": "Learner/prompt context and support-attack relations do not transfer directly to expert personal essays or paragraph purposes."
+    },
+    {
+      "code_license": "unknown",
+      "annotation_license": "CC BY-SA 4.0 per README; applies to this extension, not automatically AAE text.",
+      "source_text_rights": "unknown; do not infer from availability",
+      "reliability": "not verified",
+      "paywall_retrieval_record": null,
+      "repository_url": "https://github.com/discourse-lab/arg-essays-semantic-types",
+      "id": "semantic-essay",
+      "title": "Towards Fine-Grained Argumentation Strategy Analysis in Persuasive Essays",
+      "authors": [
+        "Robin Schaefer",
+        "René Knaebel",
+        "Manfred Stede"
+      ],
+      "year": 2023,
+      "kind": "annotation extension and single corpus study",
+      "doi": null,
+      "primary_urls": [
+        "https://aclanthology.org/people/robin-schaefer/unverified/"
+      ],
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/discourse-lab/arg-essays-semantic-types/main/essays_semantic_types.tsv",
+        "https://raw.githubusercontent.com/discourse-lab/arg-essays-semantic-types/main/guidelines.pdf",
+        "https://raw.githubusercontent.com/discourse-lab/arg-essays-semantic-types/main/LICENSE"
+      ],
+      "verified_scope": "Repository README, file inventory, license statement and first TSV records inspected: docID, semanticType, characterSpan; policy and value examples.",
+      "baseline_status": "new lead",
+      "unit": "semantic type on argument component character spans",
+      "genres_or_forms": [
+        "AAE persuasive essays"
+      ],
+      "annotation_or_metrics_available": "Additional fine-grained semantic claim/premise categories; guidelines and offset table; original AAE component annotations are not distributed here.",
+      "size_and_count_basis": "Annotation extension over AAE; exact annotated span/essay count not independently checked.",
+      "human_or_automatic": "Human annotations; annotators acknowledged.",
+      "access_status": "Public TSV and guideline PDF; first TSV rows checked.",
+      "reuse_recommendation": "Use accompanying guidelines as a nuanced comparison and join offsets only after verifying exact underlying AAE version and permissions.",
+      "project_feature_mapping": {
+        "F07": "possible evidence type distinction",
+        "F09": "semantic types are cross-cutting argument content, not paragraph function"
+      },
+      "limitations": "Dependent on separately licensed AAE; subset and reliability need verification; student work not expert writing."
+    },
+    {
+      "code_license": "unknown",
+      "annotation_license": "unknown",
+      "source_text_rights": "unknown; do not infer from availability",
+      "reliability": "Manual describes double reading and correction; not paragraph coding reliability.",
+      "paywall_retrieval_record": null,
+      "repository_url": null,
+      "id": "brown-family",
+      "title": "The part-of-speech-tagged Brown corpora: a manual of information",
+      "authors": [
+        "Lars Hinrichs",
+        "Nicholas Smith",
+        "Birgit Waibel"
+      ],
+      "year": 2007,
+      "kind": "corpus manual and comparative descriptive synthesis",
+      "doi": null,
+      "primary_urls": [
+        "https://icame.info/icame_static/manuals/FLOB-Manual-tagged.pdf",
+        "https://icame.info/icame_static/manuals/BROWN/INDEX.HTM"
+      ],
+      "artifact_urls": [
+        "https://icame.info/icame_static/manuals/FLOB-Manual-tagged.pdf"
+      ],
+      "verified_scope": "2007 full manual introduction, text sampling, tag methodology, frequency tables and appendix descriptions inspected. A source and analytical tables, not acquired full corpus.",
+      "baseline_status": "new lead",
+      "unit": "approximately 2,000-word excerpt, word/POS and genre group",
+      "genres_or_forms": [
+        "press reportage",
+        "press editorial",
+        "press review",
+        "belles lettres, biographies, essays",
+        "skills trades and hobbies"
+      ],
+      "annotation_or_metrics_available": "15 matched genre categories and broad-group POS frequency tables; paragraph and heading markup; FLOB and Frown automatically POS tagged then human-post-edited.",
+      "size_and_count_basis": "Each of four corpora has 500 samples approx 2,000 words; Brown and LOB texts 1961, FLOB 1991, Frown 1992. Manual is 2007, distinct from sampled dates.",
+      "human_or_automatic": "POS automatic with human correction for FLOB/Frown; other versions vary.",
+      "access_status": "Manual openly accessible; exact present corpus license and distribution not independently verified.",
+      "reuse_recommendation": "Use matched historical genre sample design and published POS comparisons, not document-length distributions; follow references for source- or genre-specific evidence.",
+      "project_feature_mapping": {
+        "F04": "paragraph markup where internal complete boundaries remain intact",
+        "F05": "sentence analysis",
+        "F06": "word statistics"
+      },
+      "limitations": "Excerpt sampling approximately fixes F01 and truncates section/paragraph edges; genre G mixes essays with biographies and belles lettres; excludes modern online publishing."
+    },
+    {
+      "code_license": "unknown",
+      "annotation_license": "Unknown; check Oxford Text Archive release conditions.",
+      "source_text_rights": "unknown; do not infer from availability",
+      "reliability": "Genre-family methodology in Gardner and Nesi 2013, agreement not independently verified.",
+      "paywall_retrieval_record": null,
+      "repository_url": null,
+      "id": "bawe",
+      "title": "The Corpus of British Academic Written English (BAWE) manual",
+      "authors": [
+        "Hilary Nesi",
+        "Sheena Gardner",
+        "Paul Thompson",
+        "Sian Alsop"
+      ],
+      "year": 2008,
+      "kind": "corpus and manual",
+      "doi": null,
+      "primary_urls": [
+        "https://llds.phon.ox.ac.uk/llds/xmlui/handle/20.500.14106/2539",
+        "https://varieng.helsinki.fi/CoRD/corpora/BAWE/index.html"
+      ],
+      "artifact_urls": [
+        "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/BAWE.documentation.pdf?isAllowed=y&sequence=5"
+      ],
+      "verified_scope": "Official corpus manual and corpus overview inspected; header, genre family classifications, copyright waiver discussion; original text release and exact license not retrieved.",
+      "baseline_status": "known baseline; manual inspected as new artifact",
+      "unit": "assessed assignment and component texts with genre metadata",
+      "genres_or_forms": [
+        "Essay",
+        "Critique",
+        "Explanation",
+        "Narrative Recount",
+        "Empathy Writing",
+        "Proposal"
+      ],
+      "annotation_or_metrics_available": "13 original genre families, discipline, level and assignment headers; XML manual documents structure.",
+      "size_and_count_basis": "2,761 assignments and 2,858 component texts are different units; approximately 6.5 million words, baseline corroborated by overview.",
+      "human_or_automatic": "Human genre analysis; XML structural markup; version-specific details require manual check.",
+      "access_status": "Manual public; corpus access conditions and registration must be confirmed.",
+      "reuse_recommendation": "Use manual and genre metadata as an explicit context-rich comparator, retaining authentic task and discipline; inspect exact text version before metrics.",
+      "project_feature_mapping": {
+        "F02": "genre metadata and encoded structural elements",
+        "F04": "paragraphs if present in selected XML release",
+        "F09": "genre stage descriptions are not direct paragraph function annotations"
+      },
+      "limitations": "Proficient assessed student writing is not published expert prose; narrative recount and empathy tasks are not necessarily personal reflection."
+    }
+  ]
+}

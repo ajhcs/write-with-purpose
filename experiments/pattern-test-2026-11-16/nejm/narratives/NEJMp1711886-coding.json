@@ -1,0 +1,472 @@
+{
+  "document_id": "NEJMp1711886",
+  "source_pdf": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1711886.pdf",
+  "source_pdf_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99",
+  "normalized_body_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/narratives/NEJMp1711886.txt",
+  "normalized_body_sha256": "9a1fea49d0e7ca9c829d346b8832d795bd6ee9feddf8fa2cab0b43ef2bfe7abc",
+  "offset_units": "zero-based Unicode code points, end-exclusive",
+  "scope": "Main-body paragraphs; excludes adjacent article, title, byline, running matter, graphics, pull quotes, references and disclosures.",
+  "normalization": "Join fragments in reading order; remove extraction soft hyphens and discretionary line-end hyphens; normalize whitespace; restore selected compound hyphens. Superscript reference numbers retained inline.",
+  "verification": "Single analyst visually inspected all six rendered pages and paragraph boundaries and reviewed every extracted line-end hyphen. The PDF extraction retains superscript reference numerals inline; token counts include them.",
+  "body_quant_eligible": true,
+  "paragraph_quant_eligible": true,
+  "ambiguities": [],
+  "paragraphs": [
+    {
+      "id": "NEJMp1711886-p001",
+      "start": 0,
+      "end": 744,
+      "sha256": "da7bc98757c41a0f2cf5f00ebd20f745055401672a570327b21ae1830e138153",
+      "fragments": [
+        {
+          "page": 1,
+          "bbox": [
+            101.9,
+            131.66,
+            119.74,
+            166.5
+          ],
+          "raw_block_sha256": "ae33acec6a3627bc8cdf95b4b7121d4fa1dd9b799e7ac400343e4c8f88ab21ad"
+        },
+        {
+          "page": 1,
+          "bbox": [
+            101.9,
+            136.83,
+            241.61,
+            424.96
+          ],
+          "raw_block_sha256": "7c02d0619708637652e311daadd246f53492ab18dcf3599b318f817e8289fe96"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "report"
+      ],
+      "analyst_role": "patient and treatment history",
+      "status": "coded_single_analyst",
+      "word_count": 113,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p002",
+      "start": 746,
+      "end": 1363,
+      "sha256": "f9eee21eab5fce57c8bb11d92733104d95c11d4e9affd105f91acc97a30d7d7b",
+      "fragments": [
+        {
+          "page": 1,
+          "bbox": [
+            101.9,
+            424.83,
+            241.61,
+            652.96
+          ],
+          "raw_block_sha256": "278c204e7af46ec93a8c90ca4cb78aa0ce81fd310d00c21331c22778cfa5fc6d"
+        },
+        {
+          "page": 1,
+          "bbox": [
+            250.56,
+            136.83,
+            390.25,
+            160.96
+          ],
+          "raw_block_sha256": "ae5b8fe215a8fc7836bbbfdf7be3c8043685d9640144c65aec1b7dd4035621b0"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "report"
+      ],
+      "analyst_role": "patient and treatment history",
+      "status": "coded_single_analyst",
+      "word_count": 97,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p003",
+      "start": 1365,
+      "end": 2095,
+      "sha256": "dc80fa2c2c6b553011009ebbf50f97d9c7c741847ba5f37c30398de0fca8e88e",
+      "fragments": [
+        {
+          "page": 1,
+          "bbox": [
+            250.56,
+            160.83,
+            390.27,
+            436.96
+          ],
+          "raw_block_sha256": "c8feff0f878473170493eb148e7c449e4f8c93757cb280d8809dc3d3307f5974"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "report",
+        "qualify"
+      ],
+      "analyst_role": "treatment and approval",
+      "status": "coded_single_analyst",
+      "word_count": 117,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p004",
+      "start": 2097,
+      "end": 2754,
+      "sha256": "ff68297aa449263935e1c3291d569477895bab107e4f135383bc8e4d6e23a038",
+      "fragments": [
+        {
+          "page": 1,
+          "bbox": [
+            250.57,
+            436.83,
+            390.28,
+            652.96
+          ],
+          "raw_block_sha256": "5b363cea3d40d11186de7e64be4a1d49395622a137a0daa9d4b09aa5f392a8b0"
+        },
+        {
+          "page": 1,
+          "bbox": [
+            399.23,
+            136.83,
+            538.92,
+            172.96
+          ],
+          "raw_block_sha256": "235f9518371bb5b6ded4be5cb01c3cbd38494c447e8f47426237ab5320ba427a"
+        }
+      ],
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "analyst_role": "treatment and approval",
+      "status": "coded_single_analyst",
+      "word_count": 93,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p005",
+      "start": 2756,
+      "end": 3324,
+      "sha256": "438863d6ad13cc2cee103a1625b7b060f89d1548a646111a19e1bdfd2059420f",
+      "fragments": [
+        {
+          "page": 1,
+          "bbox": [
+            399.23,
+            172.83,
+            538.94,
+            400.96
+          ],
+          "raw_block_sha256": "c725fe0d80fcb1213b309714978dee3af7451523256ec48291f747d898cff071"
+        }
+      ],
+      "functions": [
+        "report",
+        "interpret"
+      ],
+      "analyst_role": "development history",
+      "status": "coded_single_analyst",
+      "word_count": 87,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p006",
+      "start": 3326,
+      "end": 4187,
+      "sha256": "269c358de5b4dd78fcd1c997b8788cefb52bcec0494c97baeb6263bf7edc25a3",
+      "fragments": [
+        {
+          "page": 1,
+          "bbox": [
+            399.23,
+            400.83,
+            538.93,
+            652.96
+          ],
+          "raw_block_sha256": "f25ca7df0717b32dd42bc198dd0330cb62c5ea3e4e8b8613634acc8e441196fd"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            71.0,
+            52.83,
+            210.71,
+            136.96
+          ],
+          "raw_block_sha256": "0218cec67765a90704d40c57bd67b15e1ac61a7f1704ea6f4833e01e2861298a"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "report"
+      ],
+      "analyst_role": "development history",
+      "status": "coded_single_analyst",
+      "word_count": 136,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p007",
+      "start": 4189,
+      "end": 5147,
+      "sha256": "bc1855ef3156d06068c1a7809bc57149df369a9a40c72b932da566a79d2a1de5",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            71.0,
+            136.83,
+            210.7,
+            184.96
+          ],
+          "raw_block_sha256": "2297e56cddff726ad21ffab1933bb851573a7a8869d5fe26a7bee211b4e2da06"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            71.0,
+            376.83,
+            210.72,
+            652.96
+          ],
+          "raw_block_sha256": "04db83bba384e4b49194b3d928e65c87e22c7971530a8fd1f5027c0c93917f76"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            219.67,
+            52.83,
+            359.36,
+            88.96
+          ],
+          "raw_block_sha256": "e0a5dd550a0fc144f3a00bb0161182ae9f6027d9b5124ba8e88096067f6ad58c"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "report",
+        "qualify"
+      ],
+      "analyst_role": "development history",
+      "status": "coded_single_analyst",
+      "word_count": 142,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p008",
+      "start": 5149,
+      "end": 5888,
+      "sha256": "26d59792a142111f105faa37e080100881860b6b9a52414cbf769dd94814ec36",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            219.67,
+            88.83,
+            359.37,
+            184.96
+          ],
+          "raw_block_sha256": "fc157c8ff07f92350b0f725db962e6c035179df66f12693c58d5d22607572160"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            219.67,
+            376.83,
+            359.38,
+            568.96
+          ],
+          "raw_block_sha256": "18e779934b27d884827db2fdb08fe936067919c410d0f76817d4e4ecffa89cae"
+        }
+      ],
+      "functions": [
+        "report",
+        "interpret",
+        "qualify"
+      ],
+      "analyst_role": "trial risk and uncertainty",
+      "status": "coded_single_analyst",
+      "word_count": 129,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p009",
+      "start": 5890,
+      "end": 6303,
+      "sha256": "b8e9a0d8df8fb66bffa3aead27a71f401989e4d2d75cf98920bb21741cac655b",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            219.67,
+            568.83,
+            359.38,
+            652.96
+          ],
+          "raw_block_sha256": "7a75e5c2defe085ad439570973692cffde217c09825f02fd7c960a43fb8a1d9a"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            368.34,
+            52.83,
+            508.04,
+            124.96
+          ],
+          "raw_block_sha256": "003d75a915cdf747d660ebb27b81b1891d25a2c77f79b6fe719a6a0fb9d2d61c"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "report",
+        "qualify"
+      ],
+      "analyst_role": "trial experience",
+      "status": "coded_single_analyst",
+      "word_count": 67,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p010",
+      "start": 6305,
+      "end": 7508,
+      "sha256": "35b1f328072e491016085eb0480f1930e33eb892b949d597d47f01ed9da073f3",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            368.34,
+            124.83,
+            508.05,
+            580.96
+          ],
+          "raw_block_sha256": "5d42dda1737dcf0ab2d1d668486538156ac3bbd0fa083a5997304fd6347729ff"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "explain",
+        "interpret"
+      ],
+      "analyst_role": "trial experience",
+      "status": "coded_single_analyst",
+      "word_count": 190,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p011",
+      "start": 7510,
+      "end": 7976,
+      "sha256": "f7b857948a7e156589b388790dbbb76aeeb65d56706f0c32cee3a5bb2e7a82fd",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            368.34,
+            580.83,
+            508.04,
+            652.96
+          ],
+          "raw_block_sha256": "9c2e98f33eaffbb04809f29ad82e74955e092bf3cdaf1c9c7af0726963485f7b"
+        },
+        {
+          "page": 3,
+          "bbox": [
+            101.9,
+            52.83,
+            241.62,
+            160.96
+          ],
+          "raw_block_sha256": "2e48b454b030cfa061bf0063fdfe11c7179eb5221f2597da14e75b7f0c430e0c"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "report"
+      ],
+      "analyst_role": "treatment and response",
+      "status": "coded_single_analyst",
+      "word_count": 79,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p012",
+      "start": 7978,
+      "end": 9019,
+      "sha256": "98fdfbdc716b082d76802a3f58255738fe49805ba58c1ba61119a3988eaa5783",
+      "fragments": [
+        {
+          "page": 3,
+          "bbox": [
+            101.9,
+            160.83,
+            241.61,
+            472.96
+          ],
+          "raw_block_sha256": "9a2cf42c6b9cfc93263ba19a52058be20f6eb7505966cc55c8742dbfdaadd947"
+        },
+        {
+          "page": 3,
+          "bbox": [
+            250.57,
+            52.83,
+            390.26,
+            148.96
+          ],
+          "raw_block_sha256": "ac3608d7ba6f000e9c6a6c995c99e02c8fbe139de4c71a9d6aa6300851ef9cda"
+        }
+      ],
+      "functions": [
+        "qualify",
+        "explain",
+        "report"
+      ],
+      "analyst_role": "technical limits",
+      "status": "coded_single_analyst",
+      "word_count": 148,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1711886-p013",
+      "start": 9021,
+      "end": 9982,
+      "sha256": "8165987e98b442e8f295e3ab024b816147bb554014669a19085694d8c28e0e40",
+      "fragments": [
+        {
+          "page": 3,
+          "bbox": [
+            250.57,
+            148.83,
+            390.28,
+            472.96
+          ],
+          "raw_block_sha256": "2deb56f8667439cfb81ed0ff2408835e933391bcf7437029c287e1b0e8af3856"
+        },
+        {
+          "page": 3,
+          "bbox": [
+            399.23,
+            52.83,
+            538.92,
+            100.96
+          ],
+          "raw_block_sha256": "5c41b953a4fa9390d57907975f95facb39b61aac5b6537540635c559932ab629"
+        }
+      ],
+      "functions": [
+        "report",
+        "compare",
+        "qualify",
+        "interpret"
+      ],
+      "analyst_role": "cost and closing reflection",
+      "status": "coded_single_analyst",
+      "word_count": 139,
+      "paragraph_quant_eligible": true
+    }
+  ]
+}

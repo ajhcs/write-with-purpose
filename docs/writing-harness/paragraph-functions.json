@@ -1,0 +1,133 @@
+{
+  "version": "0.1",
+  "status": "proposed_initial_catalogue",
+  "created": "2026-11-15",
+  "feature": "F09",
+  "hierarchy": ["family", "form", "section"],
+  "numeric_profiles": "unestimated",
+  "default_limits": null,
+  "guidance": "Functions may coexist and span paragraph boundaries. These definitions are a design synthesis, not a validated classification or an exhaustive taxonomy.",
+  "functions": [
+    {
+      "id": "orient",
+      "name": "Orient",
+      "reader_question": "Where are we, and why does this matter here?",
+      "contribution": "Prepare the reader with relevant context, a problem, stakes, or a change of direction.",
+      "prompt": "What does the reader need to notice or know before your next thought?",
+      "boundary": "Location at the start of a section does not establish orientation.",
+      "review": "Does the context prepare the contribution without delaying it?"
+    },
+    {
+      "id": "define",
+      "name": "Define",
+      "reader_question": "What does this term mean here?",
+      "contribution": "Establish a concept's meaning, scope, distinguishing properties, or operational definition.",
+      "prompt": "What does this term include, exclude, or distinguish in your explanation?",
+      "boundary": "An instance alone may not define the category.",
+      "review": "Could this reader distinguish the concept from a nearby one?"
+    },
+    {
+      "id": "report",
+      "name": "Report or describe",
+      "reader_question": "What is present, observed, or recorded?",
+      "contribution": "Present a state, feature, method, result, or faithful summary with attribution and conditions.",
+      "prompt": "What did you or the source observe, do, or say, before interpreting it?",
+      "boundary": "Reporting a claim does not endorse it; preserve planned versus completed status.",
+      "variants": ["describe", "summarize"],
+      "review": "Are observation, attribution, and inference distinguishable?"
+    },
+    {
+      "id": "assert",
+      "name": "Assert",
+      "reader_question": "What position, hypothesis, or proposal is being put forward?",
+      "contribution": "Offer a proposition for consideration, including a recommendation.",
+      "prompt": "What do you think, propose, or want the reader to accept?",
+      "boundary": "Not every declarative sentence needs a separate argumentative assertion label.",
+      "variants": ["hypothesize", "recommend"],
+      "review": "Is the proposition clear and no stronger than the available reasons?"
+    },
+    {
+      "id": "support",
+      "name": "Support",
+      "reader_question": "Why should I accept that claim?",
+      "contribution": "Connect evidence or reasoning to an identifiable claim.",
+      "prompt": "Which observation, source, or reason makes your claim more credible?",
+      "boundary": "Citation presence alone is not support, and an invented case is not empirical evidence.",
+      "review": "Does the evidence bear on this claim, with the right scope and certainty?"
+    },
+    {
+      "id": "explain",
+      "name": "Explain",
+      "reader_question": "How or why does this work?",
+      "contribution": "Make a mechanism, dependency, reason, or relationship intelligible.",
+      "prompt": "What connects the cause, condition, or earlier step to the result?",
+      "boundary": "Sequence alone does not establish a mechanism or cause.",
+      "review": "Can the reader recover the connection, including its assumptions?"
+    },
+    {
+      "id": "illustrate",
+      "name": "Illustrate",
+      "reader_question": "What would this look like in a concrete case?",
+      "contribution": "Make an idea recoverable through an instance, analogy, or worked case.",
+      "prompt": "Which concrete case makes your idea visible, and is it observed or invented?",
+      "boundary": "An analogy does not prove equivalence or population frequency.",
+      "review": "Does the case illuminate the intended relationship without misleading?"
+    },
+    {
+      "id": "compare",
+      "name": "Compare or contrast",
+      "reader_question": "How are these alike or different in a relevant respect?",
+      "contribution": "Relate alternatives along a meaningful dimension.",
+      "prompt": "Which alternatives matter, and on what shared dimension do they differ?",
+      "boundary": "Mentioning alternatives is not yet comparison; comparison need not rank them.",
+      "review": "Are the alternatives and comparison basis recoverable and fair?"
+    },
+    {
+      "id": "interpret",
+      "name": "Interpret",
+      "reader_question": "What should I understand from this?",
+      "contribution": "Develop an inference, implication, synthesis, significance, or personal reflection.",
+      "prompt": "What do you make of this, and which part of the material leads you there?",
+      "boundary": "A faithful recap is report; a new inference or synthesis is interpret.",
+      "variants": ["synthesize", "reflect"],
+      "review": "Is the meaning earned by the preceding material and appropriately limited?"
+    },
+    {
+      "id": "qualify",
+      "name": "Qualify",
+      "reader_question": "Under which conditions, and with what limits, does this hold?",
+      "contribution": "Bind scope, uncertainty, an exception, concession, or limitation to a claim.",
+      "prompt": "When would your claim need to change, or what does the evidence leave open?",
+      "boundary": "A hedge word does not establish that the relevant limitation is explained.",
+      "review": "Is the affected claim identifiable, and is the limitation sufficient?"
+    },
+    {
+      "id": "instruct",
+      "name": "Instruct",
+      "reader_question": "What should I do, under which conditions, and what should happen?",
+      "contribution": "Guide an executable action, including prerequisites, order, or expected results where needed.",
+      "prompt": "What should the reader do next, and how will they recognize the intended result?",
+      "boundary": "A description of what researchers did is not automatically a reader instruction.",
+      "review": "Can the intended reader perform the action from this text and context?"
+    },
+    {
+      "id": "narrate",
+      "name": "Narrate",
+      "reader_question": "What happened, to whom, and what changed?",
+      "contribution": "Develop an event or experience through time, including nonchronological presentation.",
+      "prompt": "What happened, what did you notice, and what changed as it unfolded?",
+      "boundary": "An event sequence does not necessarily explain causality or instruct a reader.",
+      "review": "Can the reader follow the experience without invented facts or forced lessons?"
+    }
+  ],
+  "relations": ["supports", "explains", "illustrates", "contrasts", "qualifies", "elaborates", "follows"],
+  "relations_note": "These local labels relate supplied paragraph IDs. Their registration does not establish semantic validity or implement the full RST formalism.",
+  "references": [
+    "https://writingcenter.fas.harvard.edu/anatomy-body-paragraph",
+    "https://owl.purdue.edu/owl/general_writing/academic_writing/paragraphs_and_paragraphing/index.html",
+    "https://www.phrasebank.manchester.ac.uk/about-academic-phrasebank/",
+    "https://www.sfu.ca/rst/01intro/intro.html",
+    "https://doi.org/10.1016/j.esp.2004.08.003",
+    "https://doi.org/10.1016/S0889-4906(02)00026-1"
+  ]
+}

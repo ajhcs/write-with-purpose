@@ -1,0 +1,143 @@
+{
+  "batch": 8,
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_02",
+      "doi": "10.1016/j.infsof.2008.09.009",
+      "title": "Systematic literature reviews in software engineering – A systematic literature review",
+      "field": "engineering_computing",
+      "q": "\"Systematic literature reviews in software engineering – A systematic literature review\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_03",
+      "doi": "10.1016/j.infsof.2010.03.006",
+      "title": "Systematic literature reviews in software engineering – A tertiary study",
+      "field": "engineering_computing",
+      "q": "\"Systematic literature reviews in software engineering – A tertiary study\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_04",
+      "doi": "10.1115/1.2429697",
+      "title": "Review of Metamodeling Techniques in Support of Engineering Design Optimization",
+      "field": "engineering_computing",
+      "q": "\"Review of Metamodeling Techniques in Support of Engineering Design Optimization\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_05",
+      "doi": "10.1109/tse.2004.1265817",
+      "title": "A survey of software refactoring",
+      "field": "engineering_computing",
+      "q": "\"A survey of software refactoring\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_02",
+      "query": "\"Systematic literature reviews in software engineering – A systematic literature review\" pdf",
+      "urls": [
+        {
+          "title": "Systematic literature reviews in software engineering – A tertiary study",
+          "url": "https://www.cin.ufpe.br/~in1037/leitura/Kitchenham%202010%20-%20tertiary%20study.pdf",
+          "score": 0.875,
+          "body_score": 1
+        },
+        {
+          "title": "Systematic Literature Reviews in Software Engineering -- A Tertiary Study",
+          "url": "https://durham-repository.worktribe.com/output/1549647/systematic-literature-reviews-in-software-engineering-a-tertiary-study",
+          "score": 0.875,
+          "body_score": 0.875
+        },
+        {
+          "title": "Systematic literature reviews in software engineering – A tertiary study",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0950584910000467",
+          "score": 0.875,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_03",
+      "query": "\"Systematic literature reviews in software engineering – A tertiary study\" pdf",
+      "urls": [
+        {
+          "title": "Systematic literature reviews in software engineering – A tertiary study",
+          "url": "https://www.cin.ufpe.br/~in1037/leitura/Kitchenham%202010%20-%20tertiary%20study.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Systematic Literature Reviews in Software Engineering -- A Tertiary Study",
+          "url": "https://durham-repository.worktribe.com/output/1549647/systematic-literature-reviews-in-software-engineering-a-tertiary-study",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Systematic literature reviews in software engineering – A tertiary study",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0950584910000467",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_04",
+      "query": "\"Review of Metamodeling Techniques in Support of Engineering Design Optimization\" pdf",
+      "urls": [
+        {
+          "title": "Review of metamodeling techniques in support of engineering design optimization",
+          "url": "https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=18674358",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Review of Metamodeling Techniques in Support of Engineering Design Optimization",
+          "url": "https://cir.nii.ac.jp/crid/1363107368630236800",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Review of Metamodeling Techniques in Support of Engineering Design Optimization",
+          "url": "https://www.academia.edu/126092201/Review_of_Metamodeling_Techniques_in_Support_of_Engineering_Design_Optimization",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Rankless | Review of Metamodeling Techniques in Support of Engineering Design Optimization",
+          "url": "https://www.rankless.org/hit-papers/10.1115/1.2429697",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_05",
+      "query": "\"A survey of software refactoring\" pdf",
+      "urls": [
+        {
+          "title": "One Thousand and One Stories:  A Large-Scale Survey of Software Refactoring",
+          "url": "https://mkaouer.net/publication/golubev-2021-one/golubev-2021-one.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "dblp: A Survey of Software Refactoring.",
+          "url": "https://dblp.uni-trier.de/rec/journals/tse/MensT04.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A survey of software refactoring",
+          "url": "https://www.researchgate.net/publication/3188387_A_Survey_of_software_refactoring",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "One Thousand and One Stories: A Large-Scale Survey of Software Refactoring",
+          "url": "https://arxiv.org/abs/2107.07357",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

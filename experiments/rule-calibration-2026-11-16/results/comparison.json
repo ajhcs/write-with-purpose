@@ -1,0 +1,4528 @@
+{
+  "created_utc": "2026-11-16T16:29:11.386666+00:00",
+  "input_integrity": [
+    {
+      "path": "/workspace/repos/builderbob/write-with-purpose/experiments/rule-calibration-2026-11-16/protocol/original-catalogue.json",
+      "expected": "4d119fac2f29e1c0bbdea77e65e64cba45f67931bc0f816e40a765c0ff3cdc2e",
+      "actual": "4d119fac2f29e1c0bbdea77e65e64cba45f67931bc0f816e40a765c0ff3cdc2e"
+    },
+    {
+      "path": "/workspace/repos/builderbob/write-with-purpose/experiments/rule-calibration-2026-11-16/protocol/original-guide.md",
+      "expected": "20b7e6eb32f966651e32af42c4965978e1cf137589c82afbb6ce53e3e14a6ee1",
+      "actual": "20b7e6eb32f966651e32af42c4965978e1cf137589c82afbb6ce53e3e14a6ee1"
+    },
+    {
+      "path": "/workspace/repos/builderbob/write-with-purpose/experiments/rule-calibration-2026-11-16/protocol/revised-rules.json",
+      "expected": "72935543d48b50bca2d92f497ac9fcadc086fa8d609588b7a7d492a2a086a231",
+      "actual": "72935543d48b50bca2d92f497ac9fcadc086fa8d609588b7a7d492a2a086a231"
+    },
+    {
+      "path": "/workspace/repos/builderbob/write-with-purpose/experiments/rule-calibration-2026-11-16/protocol/revised-examples.json",
+      "expected": "faccf2fafc96767b9aff17dc6c35d8a4c87186025bda7fc1600dd562dab30fd9",
+      "actual": "faccf2fafc96767b9aff17dc6c35d8a4c87186025bda7fc1600dd562dab30fd9"
+    },
+    {
+      "path": "/workspace/repos/builderbob/write-with-purpose/experiments/rule-calibration-2026-11-16/protocol/plan.md",
+      "expected": "cd01901aaf2ee059042b71c2f9ccc46c6ee6534db1d54259eebcc768b682472c",
+      "actual": "cd01901aaf2ee059042b71c2f9ccc46c6ee6534db1d54259eebcc768b682472c"
+    },
+    {
+      "path": "/workspace/repos/builderbob/write-with-purpose/experiments/rule-calibration-2026-11-16/protocol/common-format.md",
+      "expected": "f14c27863610648cf51c817e7d9059730a5f4798fd3859162b70e22b209d6387",
+      "actual": "f14c27863610648cf51c817e7d9059730a5f4798fd3859162b70e22b209d6387"
+    },
+    {
+      "path": "/workspace/repos/builderbob/write-with-purpose/experiments/rule-calibration-2026-11-16/analysis/contract.py",
+      "expected": "964b93039abc4e109d80fce319ec1526ba1a6c41464259d29243c91cd5d45fbc",
+      "actual": "964b93039abc4e109d80fce319ec1526ba1a6c41464259d29243c91cd5d45fbc"
+    },
+    {
+      "path": "/workspace/repos/builderbob/write-with-purpose/experiments/rule-calibration-2026-11-16/analysis/test_contract.py",
+      "expected": "d752200315ffd0aae6b95de79fe08dba611cbfab9d904fdcbc67ad3287c95fc4",
+      "actual": "d752200315ffd0aae6b95de79fe08dba611cbfab9d904fdcbc67ad3287c95fc4"
+    },
+    {
+      "path": "/workspace/repos/builderbob/write-with-purpose/experiments/rule-calibration-2026-11-16/analysis/build_packets.py",
+      "expected": "4494685e9342513ac533305c54341471afef267a7a13c7b470584662b5a585b5",
+      "actual": "4494685e9342513ac533305c54341471afef267a7a13c7b470584662b5a585b5"
+    },
+    {
+      "path": "sampling/source-manifest.json",
+      "expected": "4974f9317ecf45b5289f2b6526e096a744609e58f208e859b24f741d2a9412e2",
+      "actual": "4974f9317ecf45b5289f2b6526e096a744609e58f208e859b24f741d2a9412e2"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/manifest.json",
+      "expected": "ea38db187e75cb449c3b4fb784e0b702cc83174b3daaeb26fc59333b4958dfa6",
+      "actual": "ea38db187e75cb449c3b4fb784e0b702cc83174b3daaeb26fc59333b4958dfa6"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/target-context.md",
+      "expected": "b943766d5c540bbcd638bd73afb8925953a88329c6b577a8711578e31d96d063",
+      "actual": "b943766d5c540bbcd638bd73afb8925953a88329c6b577a8711578e31d96d063"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/LF-2cb0e10879f3.md",
+      "expected": "36ac32a357ab79d1613e151eb495f0ddde77a9375cbda9ca21e6f3c0b41581b8",
+      "actual": "36ac32a357ab79d1613e151eb495f0ddde77a9375cbda9ca21e6f3c0b41581b8"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/LF-80bd6f30b443.md",
+      "expected": "6db89a40a6c9283e92c7144974c5c1117f5928d6c49206cce957314e286aae3d",
+      "actual": "6db89a40a6c9283e92c7144974c5c1117f5928d6c49206cce957314e286aae3d"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/LF-d23d38c43ea7.md",
+      "expected": "fc6f799d508c09888bc7a7ed93b66cbe6de2ee52125ce4a4fc95406c045c28c2",
+      "actual": "fc6f799d508c09888bc7a7ed93b66cbe6de2ee52125ce4a4fc95406c045c28c2"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/LF-fca9142fd337.md",
+      "expected": "b6b9bc2408d4db66d5288847a0fce57d67525de9e25e71a2bad15b31c94b6ad0",
+      "actual": "b6b9bc2408d4db66d5288847a0fce57d67525de9e25e71a2bad15b31c94b6ad0"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/PMC2867979.md",
+      "expected": "22ef63b14002a6fd5ee52beb0c56ec5294fbad31e128c2416d89c3e6adc2518c",
+      "actual": "22ef63b14002a6fd5ee52beb0c56ec5294fbad31e128c2416d89c3e6adc2518c"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/PMC4053896.md",
+      "expected": "32de28f60c5643496b35d45ffd7a24d48ef1f7cf16f93aa94fcc8007ec245659",
+      "actual": "32de28f60c5643496b35d45ffd7a24d48ef1f7cf16f93aa94fcc8007ec245659"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/git.md",
+      "expected": "1dae8cb93115c5357b6967c9ccaf060384e9a31862e54a9e8e715913021de952",
+      "actual": "1dae8cb93115c5357b6967c9ccaf060384e9a31862e54a9e8e715913021de952"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/python.md",
+      "expected": "d59d46918109eeda2de8dc83b2d3888bb413d6dc78e8ae3e2a01089146e4b34f",
+      "actual": "d59d46918109eeda2de8dc83b2d3888bb413d6dc78e8ae3e2a01089146e4b34f"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/manifest.json",
+      "expected": "f451821b52ec5c6e0f72ef65b564b2b89faf8a3fab2d46877e6fa57a62fd709b",
+      "actual": "f451821b52ec5c6e0f72ef65b564b2b89faf8a3fab2d46877e6fa57a62fd709b"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/target-context.md",
+      "expected": "0f105c0d2f7b5fa2d583d69fd8a68d314a3f3507f775dc361084bc54a0380338",
+      "actual": "0f105c0d2f7b5fa2d583d69fd8a68d314a3f3507f775dc361084bc54a0380338"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/sources/LF-03f718ef8cc6.md",
+      "expected": "c576e091d3ec5ad2f0a00efdf92ab3b8debc4fe00598963296c0cbcc68ed976f",
+      "actual": "c576e091d3ec5ad2f0a00efdf92ab3b8debc4fe00598963296c0cbcc68ed976f"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/sources/LF-536f04360ed3.md",
+      "expected": "5528b35f74660e42edfddc76ee9a2e87d6b49dd8c465ec82917f565958da6843",
+      "actual": "5528b35f74660e42edfddc76ee9a2e87d6b49dd8c465ec82917f565958da6843"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/sources/PMC4566873.md",
+      "expected": "d0720a62b45186e28189f8ecdef940cffda8cdf15b223c07c0111823447f9501",
+      "actual": "d0720a62b45186e28189f8ecdef940cffda8cdf15b223c07c0111823447f9501"
+    },
+    {
+      "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/sources/curl.md",
+      "expected": "084fa97d2c56f3b06b68cfb0ddf934a740bce40044169feca3339517846eaa53",
+      "actual": "084fa97d2c56f3b06b68cfb0ddf934a740bce40044169feca3339517846eaa53"
+    }
+  ],
+  "validation": [
+    {
+      "coder_id": "A-original-1",
+      "file": "coding/A-original-1/raw.json",
+      "sha256": "29423d4df2a8a95fa2dcd1e904136bc6611db04eebdf9e3114f85daba0dc7224",
+      "errors": [],
+      "selected": true
+    },
+    {
+      "coder_id": "A-original-2",
+      "file": "coding/A-original-2/raw.json",
+      "sha256": "1ec313dea69bf5e00794351dc89504441dc5e1fcd26f8a05b4e704c6609ec631",
+      "errors": [],
+      "selected": true
+    },
+    {
+      "coder_id": "A-revised-1",
+      "file": "coding/A-revised-1/raw.json",
+      "sha256": "7b38f3fa31997d67597397f9107f55c4e7759bf16423da29c3f8f89fc5625b3d",
+      "errors": [],
+      "selected": true
+    },
+    {
+      "coder_id": "A-revised-2",
+      "file": "coding/A-revised-2/raw.json",
+      "sha256": "a20e72555f493555fb20800029c6f5cdb2168f16d8855f63e962e169eaa1f76d",
+      "errors": [],
+      "selected": false
+    },
+    {
+      "coder_id": "A-revised-2",
+      "file": "coding/A-revised-2/raw-v2.json",
+      "sha256": "f020463b308791d2cfb413c34c25adf4f7cb18aa89601701329c27e99f8ac5d7",
+      "errors": [],
+      "selected": true
+    },
+    {
+      "coder_id": "B-original-1",
+      "file": "coding/B-original-1/raw.json",
+      "sha256": "336c33aa3d43e3a9cbb4548a2ca06876091e1cac3f1700cd89d545b59ad1d84a",
+      "errors": [],
+      "selected": true
+    },
+    {
+      "coder_id": "B-original-2",
+      "file": "coding/B-original-2/raw.json",
+      "sha256": "63899d8356490803dd96f8c00f15f0700ffdbb33aec18bf2aab1a05dcb7d43c5",
+      "errors": [],
+      "selected": true
+    },
+    {
+      "coder_id": "B-revised-1",
+      "file": "coding/B-revised-1/raw.json",
+      "sha256": "7795458abf3c8c730928154eae3b2902aeb635d6cca6972f2e3b564bb143eb4c",
+      "errors": [],
+      "selected": true
+    },
+    {
+      "coder_id": "B-revised-2",
+      "file": "coding/B-revised-2/raw.json",
+      "sha256": "524d5bef257ddf25936e3263331d7d2fdd71c1deea8e44d9278de0451fa741d7",
+      "errors": [],
+      "selected": true
+    }
+  ],
+  "by_stage": {
+    "A": {
+      "original": {
+        "clear_labels": {
+          "n": 24,
+          "exact": 13,
+          "strict_subset": 7,
+          "two_sided": 4,
+          "both_empty": 0,
+          "exact_rate": 0.5416666666666666,
+          "mean_jaccard": 0.8020833333333334
+        },
+        "candidate_union": {
+          "n": 24,
+          "exact": 12,
+          "strict_subset": 8,
+          "two_sided": 4,
+          "both_empty": 0,
+          "exact_rate": 0.5,
+          "mean_jaccard": 0.7951388888888888
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 24,
+          "exact": 12,
+          "strict_subset": 9,
+          "two_sided": 3,
+          "both_empty": 0,
+          "exact_rate": 0.5,
+          "mean_jaccard": 0.7902777777777777
+        },
+        "candidate_union": {
+          "n": 24,
+          "exact": 12,
+          "strict_subset": 9,
+          "two_sided": 3,
+          "both_empty": 0,
+          "exact_rate": 0.5,
+          "mean_jaccard": 0.7902777777777777
+        }
+      }
+    },
+    "B": {
+      "original": {
+        "clear_labels": {
+          "n": 12,
+          "exact": 8,
+          "strict_subset": 3,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.8833333333333333
+        },
+        "candidate_union": {
+          "n": 12,
+          "exact": 7,
+          "strict_subset": 4,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.5833333333333334,
+          "mean_jaccard": 0.8555555555555555
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 12,
+          "exact": 6,
+          "strict_subset": 5,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.5,
+          "mean_jaccard": 0.8055555555555555
+        },
+        "candidate_union": {
+          "n": 12,
+          "exact": 6,
+          "strict_subset": 5,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.5,
+          "mean_jaccard": 0.8055555555555555
+        }
+      }
+    }
+  },
+  "by_context": {
+    "argument/perspective": {
+      "original": {
+        "clear_labels": {
+          "n": 9,
+          "exact": 6,
+          "strict_subset": 1,
+          "two_sided": 2,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.8722222222222222
+        },
+        "candidate_union": {
+          "n": 9,
+          "exact": 5,
+          "strict_subset": 2,
+          "two_sided": 2,
+          "both_empty": 0,
+          "exact_rate": 0.5555555555555556,
+          "mean_jaccard": 0.8537037037037037
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 9,
+          "exact": 4,
+          "strict_subset": 4,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.4444444444444444,
+          "mean_jaccard": 0.8203703703703703
+        },
+        "candidate_union": {
+          "n": 9,
+          "exact": 4,
+          "strict_subset": 4,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.4444444444444444,
+          "mean_jaccard": 0.8203703703703703
+        }
+      }
+    },
+    "explanation/procedure": {
+      "original": {
+        "clear_labels": {
+          "n": 9,
+          "exact": 5,
+          "strict_subset": 3,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.5555555555555556,
+          "mean_jaccard": 0.7962962962962963
+        },
+        "candidate_union": {
+          "n": 9,
+          "exact": 5,
+          "strict_subset": 3,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.5555555555555556,
+          "mean_jaccard": 0.7962962962962963
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 9,
+          "exact": 5,
+          "strict_subset": 3,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.5555555555555556,
+          "mean_jaccard": 0.7777777777777778
+        },
+        "candidate_union": {
+          "n": 9,
+          "exact": 5,
+          "strict_subset": 3,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.5555555555555556,
+          "mean_jaccard": 0.7777777777777778
+        }
+      }
+    },
+    "personal reflection": {
+      "original": {
+        "clear_labels": {
+          "n": 9,
+          "exact": 5,
+          "strict_subset": 4,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.5555555555555556,
+          "mean_jaccard": 0.8333333333333334
+        },
+        "candidate_union": {
+          "n": 9,
+          "exact": 4,
+          "strict_subset": 5,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.4444444444444444,
+          "mean_jaccard": 0.7962962962962963
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 9,
+          "exact": 5,
+          "strict_subset": 3,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.5555555555555556,
+          "mean_jaccard": 0.7777777777777778
+        },
+        "candidate_union": {
+          "n": 9,
+          "exact": 5,
+          "strict_subset": 3,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.5555555555555556,
+          "mean_jaccard": 0.7777777777777778
+        }
+      }
+    },
+    "research/synthesis": {
+      "original": {
+        "clear_labels": {
+          "n": 9,
+          "exact": 5,
+          "strict_subset": 2,
+          "two_sided": 2,
+          "both_empty": 0,
+          "exact_rate": 0.5555555555555556,
+          "mean_jaccard": 0.8148148148148148
+        },
+        "candidate_union": {
+          "n": 9,
+          "exact": 5,
+          "strict_subset": 2,
+          "two_sided": 2,
+          "both_empty": 0,
+          "exact_rate": 0.5555555555555556,
+          "mean_jaccard": 0.8148148148148148
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 9,
+          "exact": 4,
+          "strict_subset": 4,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.4444444444444444,
+          "mean_jaccard": 0.8055555555555556
+        },
+        "candidate_union": {
+          "n": 9,
+          "exact": 4,
+          "strict_subset": 4,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.4444444444444444,
+          "mean_jaccard": 0.8055555555555556
+        }
+      }
+    }
+  },
+  "by_document": {
+    "LF-d23d38c43ea7": {
+      "title": "In Praise of Idleness",
+      "stage": "A",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 3,
+          "strict_subset": 0,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 1.0,
+          "mean_jaccard": 1.0
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 3,
+          "strict_subset": 0,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 1.0,
+          "mean_jaccard": 1.0
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.9333333333333332
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.9333333333333332
+        }
+      }
+    },
+    "LF-80bd6f30b443": {
+      "title": "The Disadvantages of an Elite Education",
+      "stage": "A",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 1,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.75
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 0,
+          "strict_subset": 2,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.0,
+          "mean_jaccard": 0.6944444444444445
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 1,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.7222222222222222
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 1,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.7222222222222222
+        }
+      }
+    },
+    "LF-fca9142fd337": {
+      "title": "My First Mistake",
+      "stage": "A",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.6666666666666666
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.6666666666666666
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.6666666666666666
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.6666666666666666
+        }
+      }
+    },
+    "LF-2cb0e10879f3": {
+      "title": "My Mom Couldn't Cook",
+      "stage": "A",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.9166666666666666
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.9166666666666666
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 0,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.8333333333333334
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 0,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.8333333333333334
+        }
+      }
+    },
+    "PMC2867979": {
+      "title": "Reporting bias in medical research - a narrative review",
+      "stage": "A",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 0,
+          "two_sided": 2,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.611111111111111
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 0,
+          "two_sided": 2,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.611111111111111
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.8055555555555555
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.8055555555555555
+        }
+      }
+    },
+    "PMC4053896": {
+      "title": "Green Perspectives for Public Health: A Narrative Review on the Physiological Effects of Experiencing Outdoor Nature",
+      "stage": "A",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.9166666666666666
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.9166666666666666
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 1,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.6944444444444445
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 1,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.6944444444444445
+        }
+      }
+    },
+    "git": {
+      "title": "git-branch DESCRIPTION",
+      "stage": "A",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.7777777777777777
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.7777777777777777
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.6666666666666666
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.6666666666666666
+        }
+      }
+    },
+    "python": {
+      "title": "Modules introduction",
+      "stage": "A",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 0,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.7777777777777778
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 0,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.7777777777777778
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 3,
+          "strict_subset": 0,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 1.0,
+          "mean_jaccard": 1.0
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 3,
+          "strict_subset": 0,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 1.0,
+          "mean_jaccard": 1.0
+        }
+      }
+    },
+    "LF-536f04360ed3": {
+      "title": "Listen Up",
+      "stage": "B",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 0,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.8666666666666667
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 0,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.8666666666666667
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.8055555555555555
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.8055555555555555
+        }
+      }
+    },
+    "LF-03f718ef8cc6": {
+      "title": "Don't Stop Running",
+      "stage": "B",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.9166666666666666
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 2,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.8055555555555555
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.8333333333333334
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.8333333333333334
+        }
+      }
+    },
+    "PMC4566873": {
+      "title": "Theories of behaviour and behaviour change across the social and behavioural sciences: a scoping review",
+      "stage": "B",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.9166666666666666
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.9166666666666666
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.9166666666666666
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.9166666666666666
+        }
+      }
+    },
+    "curl": {
+      "title": "HTTP responses",
+      "stage": "B",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.8333333333333334
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 2,
+          "strict_subset": 1,
+          "two_sided": 0,
+          "both_empty": 0,
+          "exact_rate": 0.6666666666666666,
+          "mean_jaccard": 0.8333333333333334
+        }
+      },
+      "revised": {
+        "clear_labels": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 1,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.6666666666666666
+        },
+        "candidate_union": {
+          "n": 3,
+          "exact": 1,
+          "strict_subset": 1,
+          "two_sided": 1,
+          "both_empty": 0,
+          "exact_rate": 0.3333333333333333,
+          "mean_jaccard": 0.6666666666666666
+        }
+      }
+    }
+  },
+  "paired_differences": [
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p005",
+      "unit_id": "LF-d23d38c43ea7-p005",
+      "stage": "A",
+      "source_id": "LF-d23d38c43ea7",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": [
+          [
+            "assert",
+            "orient"
+          ],
+          [
+            "assert",
+            "orient"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "orient"
+          ],
+          [
+            "assert",
+            "orient"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "assert",
+            "orient"
+          ],
+          [
+            "assert",
+            "orient"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "orient"
+          ],
+          [
+            "assert",
+            "orient"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p015",
+      "unit_id": "LF-d23d38c43ea7-p015",
+      "stage": "A",
+      "source_id": "LF-d23d38c43ea7",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": [
+          [
+            "assert",
+            "compare",
+            "explain",
+            "qualify"
+          ],
+          [
+            "assert",
+            "compare",
+            "explain",
+            "qualify"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "compare",
+            "explain",
+            "qualify"
+          ],
+          [
+            "assert",
+            "compare",
+            "explain",
+            "qualify"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "assert",
+            "compare",
+            "explain",
+            "qualify"
+          ],
+          [
+            "assert",
+            "compare",
+            "explain",
+            "interpret",
+            "qualify"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "compare",
+            "explain",
+            "qualify"
+          ],
+          [
+            "assert",
+            "compare",
+            "explain",
+            "interpret",
+            "qualify"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p025",
+      "unit_id": "LF-d23d38c43ea7-p025",
+      "stage": "A",
+      "source_id": "LF-d23d38c43ea7",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": [
+          [
+            "assert",
+            "explain",
+            "illustrate",
+            "qualify"
+          ],
+          [
+            "assert",
+            "explain",
+            "illustrate",
+            "qualify"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "explain",
+            "illustrate",
+            "qualify"
+          ],
+          [
+            "assert",
+            "explain",
+            "illustrate",
+            "qualify"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "assert",
+            "explain",
+            "qualify"
+          ],
+          [
+            "assert",
+            "explain",
+            "qualify"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "explain",
+            "qualify"
+          ],
+          [
+            "assert",
+            "explain",
+            "qualify"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p006",
+      "unit_id": "LF-80bd6f30b443-p006",
+      "stage": "A",
+      "source_id": "LF-80bd6f30b443",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": [
+          [
+            "illustrate",
+            "interpret",
+            "narrate"
+          ],
+          [
+            "illustrate",
+            "interpret",
+            "qualify"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "illustrate",
+            "interpret",
+            "narrate"
+          ],
+          [
+            "illustrate",
+            "interpret",
+            "qualify"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "interpret",
+            "report"
+          ],
+          [
+            "illustrate",
+            "interpret",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "interpret",
+            "report"
+          ],
+          [
+            "illustrate",
+            "interpret",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p018",
+      "unit_id": "LF-80bd6f30b443-p018",
+      "stage": "A",
+      "source_id": "LF-80bd6f30b443",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": [
+          [
+            "assert",
+            "compare",
+            "support"
+          ],
+          [
+            "assert",
+            "compare",
+            "interpret",
+            "support"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "compare",
+            "support"
+          ],
+          [
+            "assert",
+            "compare",
+            "interpret",
+            "support"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "assert",
+            "compare",
+            "support"
+          ],
+          [
+            "assert",
+            "compare",
+            "illustrate"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "compare",
+            "support"
+          ],
+          [
+            "assert",
+            "compare",
+            "illustrate"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p029",
+      "unit_id": "LF-80bd6f30b443-p029",
+      "stage": "A",
+      "source_id": "LF-80bd6f30b443",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": [
+          [
+            "compare",
+            "define",
+            "explain",
+            "illustrate",
+            "qualify"
+          ],
+          [
+            "compare",
+            "define",
+            "explain",
+            "illustrate",
+            "qualify"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          [
+            "support"
+          ]
+        ],
+        "candidate_union": [
+          [
+            "compare",
+            "define",
+            "explain",
+            "illustrate",
+            "qualify"
+          ],
+          [
+            "compare",
+            "define",
+            "explain",
+            "illustrate",
+            "qualify",
+            "support"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "compare",
+            "define",
+            "explain",
+            "qualify"
+          ],
+          [
+            "compare",
+            "define",
+            "explain",
+            "qualify"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "compare",
+            "define",
+            "explain",
+            "qualify"
+          ],
+          [
+            "compare",
+            "define",
+            "explain",
+            "qualify"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p006",
+      "unit_id": "LF-fca9142fd337-p006",
+      "stage": "A",
+      "source_id": "LF-fca9142fd337",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p018",
+      "unit_id": "LF-fca9142fd337-p018",
+      "stage": "A",
+      "source_id": "LF-fca9142fd337",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p029",
+      "unit_id": "LF-fca9142fd337-p029",
+      "stage": "A",
+      "source_id": "LF-fca9142fd337",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "narrate"
+          ],
+          [
+            "narrate"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p003",
+      "unit_id": "LF-2cb0e10879f3-p003",
+      "stage": "A",
+      "source_id": "LF-2cb0e10879f3",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": [
+          [
+            "orient"
+          ],
+          [
+            "orient"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "orient"
+          ],
+          [
+            "orient"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "orient"
+          ],
+          [
+            "orient"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "orient"
+          ],
+          [
+            "orient"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p007",
+      "unit_id": "LF-2cb0e10879f3-p007",
+      "stage": "A",
+      "source_id": "LF-2cb0e10879f3",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": [
+          [
+            "illustrate",
+            "interpret",
+            "narrate"
+          ],
+          [
+            "explain",
+            "illustrate",
+            "interpret",
+            "narrate"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "illustrate",
+            "interpret",
+            "narrate"
+          ],
+          [
+            "explain",
+            "illustrate",
+            "interpret",
+            "narrate"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "explain",
+            "interpret",
+            "narrate"
+          ],
+          [
+            "illustrate",
+            "interpret",
+            "narrate"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "interpret",
+            "narrate"
+          ],
+          [
+            "illustrate",
+            "interpret",
+            "narrate"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p011",
+      "unit_id": "LF-2cb0e10879f3-p011",
+      "stage": "A",
+      "source_id": "LF-2cb0e10879f3",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": [
+          [
+            "explain",
+            "instruct",
+            "interpret",
+            "narrate"
+          ],
+          [
+            "explain",
+            "instruct",
+            "interpret",
+            "narrate"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "instruct",
+            "interpret",
+            "narrate"
+          ],
+          [
+            "explain",
+            "instruct",
+            "interpret",
+            "narrate"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "explain",
+            "interpret",
+            "narrate"
+          ],
+          [
+            "explain",
+            "interpret",
+            "narrate"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "interpret",
+            "narrate"
+          ],
+          [
+            "explain",
+            "interpret",
+            "narrate"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "PMC2867979-p011",
+      "unit_id": "PMC2867979-p011",
+      "stage": "A",
+      "source_id": "PMC2867979",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": [
+          [
+            "compare",
+            "qualify",
+            "report",
+            "support"
+          ],
+          [
+            "compare",
+            "qualify",
+            "report",
+            "support"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "compare",
+            "qualify",
+            "report",
+            "support"
+          ],
+          [
+            "compare",
+            "qualify",
+            "report",
+            "support"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "illustrate",
+            "qualify",
+            "report"
+          ],
+          [
+            "compare",
+            "illustrate",
+            "qualify",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "illustrate",
+            "qualify",
+            "report"
+          ],
+          [
+            "compare",
+            "illustrate",
+            "qualify",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "PMC2867979-p033",
+      "unit_id": "PMC2867979-p033",
+      "stage": "A",
+      "source_id": "PMC2867979",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": [
+          [
+            "illustrate",
+            "report"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "illustrate",
+            "report"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "narrate",
+            "report"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "narrate",
+            "report"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "PMC2867979-p055",
+      "unit_id": "PMC2867979-p055",
+      "stage": "A",
+      "source_id": "PMC2867979",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": [
+          [
+            "qualify",
+            "report",
+            "support"
+          ],
+          [
+            "explain",
+            "qualify",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "qualify",
+            "report",
+            "support"
+          ],
+          [
+            "explain",
+            "qualify",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "explain",
+            "qualify"
+          ],
+          [
+            "explain",
+            "qualify",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "qualify"
+          ],
+          [
+            "explain",
+            "qualify",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "PMC4053896-p007",
+      "unit_id": "PMC4053896-p007",
+      "stage": "A",
+      "source_id": "PMC4053896",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "explain",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "explain",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "orient",
+            "report"
+          ],
+          [
+            "explain",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "orient",
+            "report"
+          ],
+          [
+            "explain",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "PMC4053896-p021",
+      "unit_id": "PMC4053896-p021",
+      "stage": "A",
+      "source_id": "PMC4053896",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": [
+          [
+            "compare",
+            "report"
+          ],
+          [
+            "compare",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "compare",
+            "report"
+          ],
+          [
+            "compare",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "compare",
+            "report"
+          ],
+          [
+            "compare",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "compare",
+            "report"
+          ],
+          [
+            "compare",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "PMC4053896-p035",
+      "unit_id": "PMC4053896-p035",
+      "stage": "A",
+      "source_id": "PMC4053896",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": [
+          [
+            "assert",
+            "interpret",
+            "report"
+          ],
+          [
+            "assert",
+            "interpret",
+            "report",
+            "support"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "interpret",
+            "report"
+          ],
+          [
+            "assert",
+            "interpret",
+            "report",
+            "support"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "assert",
+            "interpret",
+            "report"
+          ],
+          [
+            "assert",
+            "interpret",
+            "qualify",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "interpret",
+            "report"
+          ],
+          [
+            "assert",
+            "interpret",
+            "qualify",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "git-p02",
+      "unit_id": "git-p02",
+      "stage": "A",
+      "source_id": "git",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": [
+          [
+            "define",
+            "report"
+          ],
+          [
+            "compare",
+            "define",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "define",
+            "report"
+          ],
+          [
+            "compare",
+            "define",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "report"
+          ],
+          [
+            "define",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "report"
+          ],
+          [
+            "define",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "git-p05",
+      "unit_id": "git-p05",
+      "stage": "A",
+      "source_id": "git",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "explain",
+            "instruct",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "explain",
+            "instruct",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "explain",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "explain",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "git-p07",
+      "unit_id": "git-p07",
+      "stage": "A",
+      "source_id": "git",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": [
+          [
+            "instruct",
+            "report"
+          ],
+          [
+            "instruct",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "instruct",
+            "report"
+          ],
+          [
+            "instruct",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "report"
+          ],
+          [
+            "instruct",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "report"
+          ],
+          [
+            "instruct",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "python-p02",
+      "unit_id": "python-p02",
+      "stage": "A",
+      "source_id": "python",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": [
+          [
+            "define",
+            "explain"
+          ],
+          [
+            "define",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "define",
+            "explain"
+          ],
+          [
+            "define",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "define",
+            "explain"
+          ],
+          [
+            "define",
+            "explain"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "define",
+            "explain"
+          ],
+          [
+            "define",
+            "explain"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "python-p04",
+      "unit_id": "python-p04",
+      "stage": "A",
+      "source_id": "python",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": [
+          [
+            "instruct"
+          ],
+          [
+            "instruct"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "instruct"
+          ],
+          [
+            "instruct"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "instruct"
+          ],
+          [
+            "instruct"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "instruct"
+          ],
+          [
+            "instruct"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "python-p06",
+      "unit_id": "python-p06",
+      "stage": "A",
+      "source_id": "python",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": [
+          [
+            "instruct"
+          ],
+          [
+            "instruct"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "instruct"
+          ],
+          [
+            "instruct"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "instruct"
+          ],
+          [
+            "instruct"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "instruct"
+          ],
+          [
+            "instruct"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p007",
+      "unit_id": "LF-536f04360ed3-p007",
+      "stage": "B",
+      "source_id": "LF-536f04360ed3",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": [
+          [
+            "assert",
+            "explain",
+            "interpret"
+          ],
+          [
+            "assert",
+            "explain",
+            "interpret"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "explain",
+            "interpret"
+          ],
+          [
+            "assert",
+            "explain",
+            "interpret"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "compare",
+            "explain",
+            "interpret"
+          ],
+          [
+            "explain",
+            "interpret"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "compare",
+            "explain",
+            "interpret"
+          ],
+          [
+            "explain",
+            "interpret"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p020",
+      "unit_id": "LF-536f04360ed3-p020",
+      "stage": "B",
+      "source_id": "LF-536f04360ed3",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": [
+          [
+            "compare",
+            "explain",
+            "interpret",
+            "report"
+          ],
+          [
+            "compare",
+            "explain",
+            "interpret",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "compare",
+            "explain",
+            "interpret",
+            "report"
+          ],
+          [
+            "compare",
+            "explain",
+            "interpret",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "compare",
+            "explain",
+            "interpret",
+            "report"
+          ],
+          [
+            "compare",
+            "explain",
+            "interpret",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "compare",
+            "explain",
+            "interpret",
+            "report"
+          ],
+          [
+            "compare",
+            "explain",
+            "interpret",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p033",
+      "unit_id": "LF-536f04360ed3-p033",
+      "stage": "B",
+      "source_id": "LF-536f04360ed3",
+      "stratum": "argument/perspective",
+      "original": {
+        "clear_labels": [
+          [
+            "illustrate",
+            "interpret",
+            "narrate",
+            "report"
+          ],
+          [
+            "assert",
+            "illustrate",
+            "narrate",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "illustrate",
+            "interpret",
+            "narrate",
+            "report"
+          ],
+          [
+            "assert",
+            "illustrate",
+            "narrate",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "illustrate",
+            "interpret",
+            "narrate",
+            "report"
+          ],
+          [
+            "interpret",
+            "narrate",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "illustrate",
+            "interpret",
+            "narrate",
+            "report"
+          ],
+          [
+            "interpret",
+            "narrate",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p005",
+      "unit_id": "LF-03f718ef8cc6-p005",
+      "stage": "B",
+      "source_id": "LF-03f718ef8cc6",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": [
+          [
+            "compare",
+            "illustrate",
+            "interpret",
+            "report"
+          ],
+          [
+            "compare",
+            "interpret",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "compare",
+            "illustrate",
+            "interpret",
+            "report"
+          ],
+          [
+            "compare",
+            "interpret",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "compare",
+            "interpret",
+            "report"
+          ],
+          [
+            "compare",
+            "interpret",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "compare",
+            "interpret",
+            "report"
+          ],
+          [
+            "compare",
+            "interpret",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p013",
+      "unit_id": "LF-03f718ef8cc6-p013",
+      "stage": "B",
+      "source_id": "LF-03f718ef8cc6",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": [
+          [
+            "narrate",
+            "report"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "narrate",
+            "report"
+          ],
+          [
+            "narrate",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "narrate",
+            "report"
+          ],
+          [
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "narrate",
+            "report"
+          ],
+          [
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p021",
+      "unit_id": "LF-03f718ef8cc6-p021",
+      "stage": "B",
+      "source_id": "LF-03f718ef8cc6",
+      "stratum": "personal reflection",
+      "original": {
+        "clear_labels": [
+          [
+            "explain",
+            "narrate"
+          ],
+          [
+            "explain",
+            "narrate"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          [
+            "instruct"
+          ]
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "narrate"
+          ],
+          [
+            "explain",
+            "instruct",
+            "narrate"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "explain",
+            "narrate",
+            "report"
+          ],
+          [
+            "explain",
+            "narrate",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "narrate",
+            "report"
+          ],
+          [
+            "explain",
+            "narrate",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "PMC4566873-p010",
+      "unit_id": "PMC4566873-p010",
+      "stage": "B",
+      "source_id": "PMC4566873",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": [
+          [
+            "assert",
+            "explain",
+            "report"
+          ],
+          [
+            "assert",
+            "explain",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "explain",
+            "report"
+          ],
+          [
+            "assert",
+            "explain",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "assert",
+            "explain",
+            "report"
+          ],
+          [
+            "assert",
+            "explain",
+            "orient",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "assert",
+            "explain",
+            "report"
+          ],
+          [
+            "assert",
+            "explain",
+            "orient",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "PMC4566873-p028",
+      "unit_id": "PMC4566873-p028",
+      "stage": "B",
+      "source_id": "PMC4566873",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": [
+          [
+            "define",
+            "explain",
+            "report"
+          ],
+          [
+            "define",
+            "explain",
+            "qualify",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "define",
+            "explain",
+            "report"
+          ],
+          [
+            "define",
+            "explain",
+            "qualify",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "define",
+            "explain",
+            "report"
+          ],
+          [
+            "define",
+            "explain",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "define",
+            "explain",
+            "report"
+          ],
+          [
+            "define",
+            "explain",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "PMC4566873-p046",
+      "unit_id": "PMC4566873-p046",
+      "stage": "B",
+      "source_id": "PMC4566873",
+      "stratum": "research/synthesis",
+      "original": {
+        "clear_labels": [
+          [
+            "explain",
+            "qualify"
+          ],
+          [
+            "explain",
+            "qualify"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "qualify"
+          ],
+          [
+            "explain",
+            "qualify"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "explain",
+            "qualify"
+          ],
+          [
+            "explain",
+            "qualify"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "qualify"
+          ],
+          [
+            "explain",
+            "qualify"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "curl-p04",
+      "unit_id": "curl-p04",
+      "stage": "B",
+      "source_id": "curl",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": [
+          [
+            "define",
+            "report"
+          ],
+          [
+            "define",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "define",
+            "report"
+          ],
+          [
+            "define",
+            "report"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "define",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "define",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "curl-p11",
+      "unit_id": "curl-p11",
+      "stage": "B",
+      "source_id": "curl",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "explain"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "explain"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "compare",
+            "explain",
+            "report"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "report"
+          ],
+          [
+            "compare",
+            "explain",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "paragraph_id": "curl-p17",
+      "unit_id": "curl-p17",
+      "stage": "B",
+      "source_id": "curl",
+      "stratum": "explanation/procedure",
+      "original": {
+        "clear_labels": [
+          [
+            "explain",
+            "instruct"
+          ],
+          [
+            "explain",
+            "instruct"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "instruct"
+          ],
+          [
+            "explain",
+            "instruct"
+          ]
+        ]
+      },
+      "revised": {
+        "clear_labels": [
+          [
+            "explain",
+            "instruct"
+          ],
+          [
+            "explain",
+            "instruct"
+          ]
+        ],
+        "unresolved_labels": [
+          [],
+          []
+        ],
+        "candidate_union": [
+          [
+            "explain",
+            "instruct"
+          ],
+          [
+            "explain",
+            "instruct"
+          ]
+        ]
+      }
+    }
+  ],
+  "coder_effort": [
+    {
+      "coder_id": "A-original-1",
+      "path": "coding/A-original-1/raw.json",
+      "sha256": "29423d4df2a8a95fa2dcd1e904136bc6611db04eebdf9e3114f85daba0dc7224",
+      "bytes": 39664,
+      "compact_characters": 26582,
+      "submission_count": 1,
+      "elapsed_seconds": 75.0,
+      "paragraphs": 24,
+      "roles": 58,
+      "clear_label_assignments": 58,
+      "candidate_label_assignments": 58,
+      "unresolved_paragraphs": 0,
+      "unresolved_roles": 0,
+      "empty_clear_paragraphs": 0,
+      "reviewed_units_unique": 109
+    },
+    {
+      "coder_id": "A-original-2",
+      "path": "coding/A-original-2/raw.json",
+      "sha256": "1ec313dea69bf5e00794351dc89504441dc5e1fcd26f8a05b4e704c6609ec631",
+      "bytes": 38486,
+      "compact_characters": 24733,
+      "submission_count": 1,
+      "elapsed_seconds": 93.0,
+      "paragraphs": 24,
+      "roles": 66,
+      "clear_label_assignments": 65,
+      "candidate_label_assignments": 66,
+      "unresolved_paragraphs": 1,
+      "unresolved_roles": 1,
+      "empty_clear_paragraphs": 0,
+      "reviewed_units_unique": 73
+    },
+    {
+      "coder_id": "A-revised-1",
+      "path": "coding/A-revised-1/raw.json",
+      "sha256": "7b38f3fa31997d67597397f9107f55c4e7759bf16423da29c3f8f89fc5625b3d",
+      "bytes": 95461,
+      "compact_characters": 66710,
+      "submission_count": 1,
+      "elapsed_seconds": 105.0,
+      "paragraphs": 24,
+      "roles": 50,
+      "clear_label_assignments": 50,
+      "candidate_label_assignments": 50,
+      "unresolved_paragraphs": 0,
+      "unresolved_roles": 0,
+      "empty_clear_paragraphs": 0,
+      "reviewed_units_unique": 71
+    },
+    {
+      "coder_id": "A-revised-2",
+      "path": "coding/A-revised-2/raw-v2.json",
+      "sha256": "f020463b308791d2cfb413c34c25adf4f7cb18aa89601701329c27e99f8ac5d7",
+      "bytes": 112139,
+      "compact_characters": 78337,
+      "submission_count": 2,
+      "elapsed_seconds": 94.0,
+      "paragraphs": 24,
+      "roles": 62,
+      "clear_label_assignments": 59,
+      "candidate_label_assignments": 59,
+      "unresolved_paragraphs": 0,
+      "unresolved_roles": 0,
+      "empty_clear_paragraphs": 0,
+      "reviewed_units_unique": 109
+    },
+    {
+      "coder_id": "B-original-1",
+      "path": "coding/B-original-1/raw.json",
+      "sha256": "336c33aa3d43e3a9cbb4548a2ca06876091e1cac3f1700cd89d545b59ad1d84a",
+      "bytes": 20006,
+      "compact_characters": 12846,
+      "submission_count": 1,
+      "elapsed_seconds": 40.0,
+      "paragraphs": 12,
+      "roles": 33,
+      "clear_label_assignments": 33,
+      "candidate_label_assignments": 33,
+      "unresolved_paragraphs": 0,
+      "unresolved_roles": 0,
+      "empty_clear_paragraphs": 0,
+      "reviewed_units_unique": 60
+    },
+    {
+      "coder_id": "B-original-2",
+      "path": "coding/B-original-2/raw.json",
+      "sha256": "63899d8356490803dd96f8c00f15f0700ffdbb33aec18bf2aab1a05dcb7d43c5",
+      "bytes": 20999,
+      "compact_characters": 13672,
+      "submission_count": 1,
+      "elapsed_seconds": 54.0,
+      "paragraphs": 12,
+      "roles": 34,
+      "clear_label_assignments": 32,
+      "candidate_label_assignments": 33,
+      "unresolved_paragraphs": 1,
+      "unresolved_roles": 1,
+      "empty_clear_paragraphs": 0,
+      "reviewed_units_unique": 60
+    },
+    {
+      "coder_id": "B-revised-1",
+      "path": "coding/B-revised-1/raw.json",
+      "sha256": "7795458abf3c8c730928154eae3b2902aeb635d6cca6972f2e3b564bb143eb4c",
+      "bytes": 65494,
+      "compact_characters": 48608,
+      "submission_count": 1,
+      "elapsed_seconds": 101.0,
+      "paragraphs": 12,
+      "roles": 33,
+      "clear_label_assignments": 33,
+      "candidate_label_assignments": 33,
+      "unresolved_paragraphs": 0,
+      "unresolved_roles": 0,
+      "empty_clear_paragraphs": 0,
+      "reviewed_units_unique": 60
+    },
+    {
+      "coder_id": "B-revised-2",
+      "path": "coding/B-revised-2/raw.json",
+      "sha256": "524d5bef257ddf25936e3263331d7d2fdd71c1deea8e44d9278de0451fa741d7",
+      "bytes": 61316,
+      "compact_characters": 43027,
+      "submission_count": 1,
+      "elapsed_seconds": 98.0,
+      "paragraphs": 12,
+      "roles": 37,
+      "clear_label_assignments": 32,
+      "candidate_label_assignments": 32,
+      "unresolved_paragraphs": 0,
+      "unresolved_roles": 0,
+      "empty_clear_paragraphs": 0,
+      "reviewed_units_unique": 60
+    }
+  ],
+  "target_proxy": [
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p005",
+      "function_id": "orient",
+      "unit_sets": [
+        [
+          "LF-d23d38c43ea7-p006"
+        ],
+        [
+          "LF-d23d38c43ea7-p005"
+        ]
+      ],
+      "exact_unit_set": false,
+      "character_span_iou": 0.0
+    },
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p015",
+      "function_id": "qualify",
+      "unit_sets": [
+        [
+          "LF-d23d38c43ea7-p015"
+        ],
+        [
+          "LF-d23d38c43ea7-p015"
+        ]
+      ],
+      "exact_unit_set": true,
+      "character_span_iou": 0.6136363636363636
+    },
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p025",
+      "function_id": "qualify",
+      "unit_sets": [
+        [
+          "LF-d23d38c43ea7-p025"
+        ],
+        [
+          "LF-d23d38c43ea7-p025"
+        ]
+      ],
+      "exact_unit_set": true,
+      "character_span_iou": 0.2765957446808511
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p029",
+      "function_id": "qualify",
+      "unit_sets": [
+        [
+          "LF-80bd6f30b443-p029"
+        ],
+        [
+          "LF-80bd6f30b443-p029"
+        ]
+      ],
+      "exact_unit_set": true,
+      "character_span_iou": 0.993103448275862
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p003",
+      "function_id": "orient",
+      "unit_sets": [
+        [
+          "LF-2cb0e10879f3-p004"
+        ],
+        [
+          "LF-2cb0e10879f3-p003"
+        ]
+      ],
+      "exact_unit_set": false,
+      "character_span_iou": 0.0
+    },
+    {
+      "paragraph_id": "PMC2867979-p011",
+      "function_id": "illustrate",
+      "unit_sets": [
+        [
+          "PMC2867979-p011"
+        ],
+        [
+          "PMC2867979-p011"
+        ]
+      ],
+      "exact_unit_set": true,
+      "character_span_iou": 0.6222222222222222
+    },
+    {
+      "paragraph_id": "PMC2867979-p011",
+      "function_id": "qualify",
+      "unit_sets": [
+        [
+          "PMC2867979-p011"
+        ],
+        [
+          "PMC2867979-p011"
+        ]
+      ],
+      "exact_unit_set": true,
+      "character_span_iou": 0.0
+    },
+    {
+      "paragraph_id": "PMC2867979-p055",
+      "function_id": "qualify",
+      "unit_sets": [
+        [
+          "PMC2867979-p055"
+        ],
+        [
+          "PMC2867979-p055"
+        ]
+      ],
+      "exact_unit_set": true,
+      "character_span_iou": 0.0
+    },
+    {
+      "paragraph_id": "PMC4566873-p046",
+      "function_id": "qualify",
+      "unit_sets": [
+        [
+          "PMC4566873-p046"
+        ],
+        [
+          "PMC4566873-p046"
+        ]
+      ],
+      "exact_unit_set": true,
+      "character_span_iou": 1.0
+    }
+  ],
+  "lengths": {
+    "whole_paragraph_by_context": {
+      "argument/perspective": {
+        "min": 48,
+        "q1": 122.0,
+        "median": 157.0,
+        "q3": 221.0,
+        "max": 264,
+        "n": 9
+      },
+      "personal reflection": {
+        "min": 15,
+        "q1": 63.0,
+        "median": 121.0,
+        "q3": 156.0,
+        "max": 589,
+        "n": 9
+      },
+      "research/synthesis": {
+        "min": 60,
+        "q1": 87.0,
+        "median": 106.0,
+        "q3": 152.0,
+        "max": 314,
+        "n": 9
+      },
+      "explanation/procedure": {
+        "min": 13,
+        "q1": 33.0,
+        "median": 45.0,
+        "q3": 70.0,
+        "max": 142,
+        "n": 9
+      }
+    },
+    "role_span_by_coder": {
+      "A-original-1": {
+        "orient": {
+          "min": 5,
+          "q1": 6.25,
+          "median": 7.5,
+          "q3": 8.75,
+          "max": 10,
+          "n": 2
+        },
+        "assert": {
+          "min": 8,
+          "q1": 8.0,
+          "median": 9.0,
+          "q3": 11.0,
+          "max": 14,
+          "n": 5
+        },
+        "qualify": {
+          "min": 9,
+          "q1": 12.0,
+          "median": 16.0,
+          "q3": 16.0,
+          "max": 18,
+          "n": 5
+        },
+        "compare": {
+          "min": 8,
+          "q1": 9.0,
+          "median": 10.0,
+          "q3": 12.0,
+          "max": 14,
+          "n": 5
+        },
+        "explain": {
+          "min": 9,
+          "q1": 9.5,
+          "median": 10.0,
+          "q3": 11.0,
+          "max": 19,
+          "n": 7
+        },
+        "illustrate": {
+          "min": 8,
+          "q1": 9.0,
+          "median": 9.0,
+          "q3": 9.0,
+          "max": 11,
+          "n": 5
+        },
+        "interpret": {
+          "min": 6,
+          "q1": 8.25,
+          "median": 10.0,
+          "q3": 12.0,
+          "max": 15,
+          "n": 4
+        },
+        "narrate": {
+          "min": 3,
+          "q1": 8.25,
+          "median": 10.0,
+          "q3": 14.0,
+          "max": 15,
+          "n": 6
+        },
+        "support": {
+          "min": 8,
+          "q1": 8.0,
+          "median": 8.0,
+          "q3": 9.5,
+          "max": 11,
+          "n": 3
+        },
+        "define": {
+          "min": 7,
+          "q1": 9.0,
+          "median": 11.0,
+          "q3": 11.5,
+          "max": 12,
+          "n": 3
+        },
+        "instruct": {
+          "min": 9,
+          "q1": 12.0,
+          "median": 14.5,
+          "q3": 16.25,
+          "max": 17,
+          "n": 4
+        },
+        "report": {
+          "min": 6,
+          "q1": 8.0,
+          "median": 10.0,
+          "q3": 11.0,
+          "max": 15,
+          "n": 9
+        }
+      },
+      "A-original-2": {
+        "orient": {
+          "min": 5,
+          "q1": 6.5,
+          "median": 8.0,
+          "q3": 9.5,
+          "max": 11,
+          "n": 2
+        },
+        "assert": {
+          "min": 8,
+          "q1": 11.0,
+          "median": 13.0,
+          "q3": 15.0,
+          "max": 20,
+          "n": 5
+        },
+        "qualify": {
+          "min": 8,
+          "q1": 10.75,
+          "median": 16.0,
+          "q3": 16.75,
+          "max": 18,
+          "n": 6
+        },
+        "explain": {
+          "min": 10,
+          "q1": 11.75,
+          "median": 15.0,
+          "q3": 16.5,
+          "max": 19,
+          "n": 8
+        },
+        "compare": {
+          "min": 8,
+          "q1": 10.0,
+          "median": 11.5,
+          "q3": 17.5,
+          "max": 30,
+          "n": 6
+        },
+        "illustrate": {
+          "min": 9,
+          "q1": 9.0,
+          "median": 9.0,
+          "q3": 9.5,
+          "max": 11,
+          "n": 4
+        },
+        "interpret": {
+          "min": 9,
+          "q1": 15.0,
+          "median": 15.0,
+          "q3": 15.0,
+          "max": 22,
+          "n": 5
+        },
+        "support": {
+          "min": 8,
+          "q1": 9.5,
+          "median": 11.0,
+          "q3": 12.5,
+          "max": 14,
+          "n": 3
+        },
+        "define": {
+          "min": 7,
+          "q1": 9.0,
+          "median": 11.0,
+          "q3": 14.5,
+          "max": 18,
+          "n": 3
+        },
+        "narrate": {
+          "min": 3,
+          "q1": 7.25,
+          "median": 9.5,
+          "q3": 13.25,
+          "max": 15,
+          "n": 6
+        },
+        "report": {
+          "min": 5,
+          "q1": 10.0,
+          "median": 12.0,
+          "q3": 14.25,
+          "max": 19,
+          "n": 12
+        },
+        "instruct": {
+          "min": 10,
+          "q1": 12.0,
+          "median": 13.0,
+          "q3": 16.0,
+          "max": 17,
+          "n": 5
+        }
+      },
+      "A-revised-1": {
+        "assert": {
+          "min": 5,
+          "q1": 6.0,
+          "median": 9.0,
+          "q3": 10.0,
+          "max": 10,
+          "n": 5
+        },
+        "orient": {
+          "min": 5,
+          "q1": 5.5,
+          "median": 6.0,
+          "q3": 6.5,
+          "max": 7,
+          "n": 3
+        },
+        "qualify": {
+          "min": 5,
+          "q1": 5.0,
+          "median": 6.0,
+          "q3": 6.0,
+          "max": 9,
+          "n": 5
+        },
+        "compare": {
+          "min": 6,
+          "q1": 7.5,
+          "median": 8.0,
+          "q3": 8.5,
+          "max": 10,
+          "n": 4
+        },
+        "explain": {
+          "min": 2,
+          "q1": 5.0,
+          "median": 5.5,
+          "q3": 7.75,
+          "max": 11,
+          "n": 8
+        },
+        "interpret": {
+          "min": 6,
+          "q1": 6.75,
+          "median": 7.0,
+          "q3": 7.5,
+          "max": 9,
+          "n": 4
+        },
+        "report": {
+          "min": 2,
+          "q1": 5.0,
+          "median": 6.0,
+          "q3": 7.0,
+          "max": 10,
+          "n": 9
+        },
+        "support": {
+          "min": 8,
+          "q1": 8.0,
+          "median": 8.0,
+          "q3": 8.0,
+          "max": 8,
+          "n": 1
+        },
+        "define": {
+          "min": 4,
+          "q1": 4.75,
+          "median": 5.5,
+          "q3": 6.25,
+          "max": 7,
+          "n": 2
+        },
+        "narrate": {
+          "min": 3,
+          "q1": 4.25,
+          "median": 5.0,
+          "q3": 6.5,
+          "max": 8,
+          "n": 6
+        },
+        "illustrate": {
+          "min": 6,
+          "q1": 6.0,
+          "median": 6.0,
+          "q3": 6.0,
+          "max": 6,
+          "n": 1
+        },
+        "instruct": {
+          "min": 5,
+          "q1": 5.75,
+          "median": 6.5,
+          "q3": 7.25,
+          "max": 8,
+          "n": 2
+        }
+      },
+      "A-revised-2": {
+        "assert": {
+          "min": 23,
+          "q1": 27.0,
+          "median": 30.5,
+          "q3": 34.75,
+          "max": 39,
+          "n": 6
+        },
+        "orient": {
+          "min": 5,
+          "q1": 8.5,
+          "median": 12.0,
+          "q3": 15.5,
+          "max": 19,
+          "n": 2
+        },
+        "qualify": {
+          "min": 9,
+          "q1": 16.25,
+          "median": 17.0,
+          "q3": 17.75,
+          "max": 21,
+          "n": 6
+        },
+        "explain": {
+          "min": 11,
+          "q1": 18.25,
+          "median": 24.0,
+          "q3": 33.0,
+          "max": 36,
+          "n": 8
+        },
+        "compare": {
+          "min": 10,
+          "q1": 20.0,
+          "median": 22.0,
+          "q3": 30.0,
+          "max": 31,
+          "n": 5
+        },
+        "interpret": {
+          "min": 6,
+          "q1": 12.75,
+          "median": 25.0,
+          "q3": 26.0,
+          "max": 34,
+          "n": 6
+        },
+        "report": {
+          "min": 8,
+          "q1": 12.25,
+          "median": 18.5,
+          "q3": 26.75,
+          "max": 36,
+          "n": 12
+        },
+        "illustrate": {
+          "min": 24,
+          "q1": 29.25,
+          "median": 31.0,
+          "q3": 34.5,
+          "max": 45,
+          "n": 4
+        },
+        "define": {
+          "min": 11,
+          "q1": 13.25,
+          "median": 16.0,
+          "q3": 24.25,
+          "max": 43,
+          "n": 4
+        },
+        "narrate": {
+          "min": 7,
+          "q1": 9.75,
+          "median": 17.0,
+          "q3": 37.75,
+          "max": 47,
+          "n": 6
+        },
+        "instruct": {
+          "min": 8,
+          "q1": 8.5,
+          "median": 9.0,
+          "q3": 9.0,
+          "max": 9,
+          "n": 3
+        }
+      },
+      "B-original-1": {
+        "interpret": {
+          "min": 2,
+          "q1": 3.5,
+          "median": 7.5,
+          "q3": 11.5,
+          "max": 13,
+          "n": 4
+        },
+        "assert": {
+          "min": 7,
+          "q1": 7.0,
+          "median": 7.0,
+          "q3": 7.0,
+          "max": 7,
+          "n": 2
+        },
+        "explain": {
+          "min": 9,
+          "q1": 10.5,
+          "median": 12.0,
+          "q3": 14.75,
+          "max": 18,
+          "n": 8
+        },
+        "report": {
+          "min": 5,
+          "q1": 6.75,
+          "median": 7.5,
+          "q3": 9.25,
+          "max": 15,
+          "n": 8
+        },
+        "compare": {
+          "min": 8,
+          "q1": 11.5,
+          "median": 15.0,
+          "q3": 18.5,
+          "max": 22,
+          "n": 2
+        },
+        "illustrate": {
+          "min": 10,
+          "q1": 11.25,
+          "median": 12.5,
+          "q3": 13.75,
+          "max": 15,
+          "n": 2
+        },
+        "narrate": {
+          "min": 7,
+          "q1": 7.0,
+          "median": 7.0,
+          "q3": 11.0,
+          "max": 15,
+          "n": 3
+        },
+        "define": {
+          "min": 6,
+          "q1": 9.25,
+          "median": 12.5,
+          "q3": 15.75,
+          "max": 19,
+          "n": 2
+        },
+        "qualify": {
+          "min": 14,
+          "q1": 14.0,
+          "median": 14.0,
+          "q3": 14.0,
+          "max": 14,
+          "n": 1
+        },
+        "instruct": {
+          "min": 10,
+          "q1": 10.0,
+          "median": 10.0,
+          "q3": 10.0,
+          "max": 10,
+          "n": 1
+        }
+      },
+      "B-original-2": {
+        "interpret": {
+          "min": 5,
+          "q1": 9.0,
+          "median": 13.0,
+          "q3": 15.0,
+          "max": 17,
+          "n": 3
+        },
+        "assert": {
+          "min": 4,
+          "q1": 6.5,
+          "median": 9.0,
+          "q3": 12.0,
+          "max": 15,
+          "n": 3
+        },
+        "explain": {
+          "min": 10,
+          "q1": 16.0,
+          "median": 20.0,
+          "q3": 22.0,
+          "max": 38,
+          "n": 9
+        },
+        "report": {
+          "min": 7,
+          "q1": 7.5,
+          "median": 8.0,
+          "q3": 14.0,
+          "max": 15,
+          "n": 7
+        },
+        "compare": {
+          "min": 18,
+          "q1": 19.0,
+          "median": 20.0,
+          "q3": 21.0,
+          "max": 22,
+          "n": 2
+        },
+        "narrate": {
+          "min": 7,
+          "q1": 11.0,
+          "median": 15.0,
+          "q3": 15.0,
+          "max": 15,
+          "n": 3
+        },
+        "illustrate": {
+          "min": 9,
+          "q1": 9.0,
+          "median": 9.0,
+          "q3": 9.0,
+          "max": 9,
+          "n": 1
+        },
+        "define": {
+          "min": 14,
+          "q1": 15.25,
+          "median": 16.5,
+          "q3": 17.75,
+          "max": 19,
+          "n": 2
+        },
+        "qualify": {
+          "min": 14,
+          "q1": 14.75,
+          "median": 15.5,
+          "q3": 16.25,
+          "max": 17,
+          "n": 2
+        },
+        "instruct": {
+          "min": 10,
+          "q1": 10.0,
+          "median": 10.0,
+          "q3": 10.0,
+          "max": 10,
+          "n": 1
+        }
+      },
+      "B-revised-1": {
+        "interpret": {
+          "min": 10,
+          "q1": 10.0,
+          "median": 15.5,
+          "q3": 24.5,
+          "max": 35,
+          "n": 4
+        },
+        "compare": {
+          "min": 22,
+          "q1": 23.5,
+          "median": 25.0,
+          "q3": 31.5,
+          "max": 38,
+          "n": 3
+        },
+        "explain": {
+          "min": 18,
+          "q1": 23.0,
+          "median": 35.0,
+          "q3": 60.0,
+          "max": 142,
+          "n": 9
+        },
+        "report": {
+          "min": 15,
+          "q1": 21.0,
+          "median": 47.0,
+          "q3": 122.0,
+          "max": 314,
+          "n": 9
+        },
+        "narrate": {
+          "min": 15,
+          "q1": 29.0,
+          "median": 43.0,
+          "q3": 99.5,
+          "max": 156,
+          "n": 3
+        },
+        "illustrate": {
+          "min": 25,
+          "q1": 25.0,
+          "median": 25.0,
+          "q3": 25.0,
+          "max": 25,
+          "n": 1
+        },
+        "assert": {
+          "min": 28,
+          "q1": 28.0,
+          "median": 28.0,
+          "q3": 28.0,
+          "max": 28,
+          "n": 1
+        },
+        "define": {
+          "min": 41,
+          "q1": 41.0,
+          "median": 41.0,
+          "q3": 41.0,
+          "max": 41,
+          "n": 1
+        },
+        "qualify": {
+          "min": 14,
+          "q1": 14.0,
+          "median": 14.0,
+          "q3": 14.0,
+          "max": 14,
+          "n": 1
+        },
+        "instruct": {
+          "min": 10,
+          "q1": 10.0,
+          "median": 10.0,
+          "q3": 10.0,
+          "max": 10,
+          "n": 1
+        }
+      },
+      "B-revised-2": {
+        "interpret": {
+          "min": 10,
+          "q1": 10.0,
+          "median": 10.0,
+          "q3": 20.0,
+          "max": 20,
+          "n": 5
+        },
+        "explain": {
+          "min": 14,
+          "q1": 20.0,
+          "median": 23.5,
+          "q3": 28.25,
+          "max": 38,
+          "n": 8
+        },
+        "report": {
+          "min": 7,
+          "q1": 15.0,
+          "median": 22.0,
+          "q3": 24.5,
+          "max": 28,
+          "n": 10
+        },
+        "compare": {
+          "min": 21,
+          "q1": 21.5,
+          "median": 22.0,
+          "q3": 23.5,
+          "max": 25,
+          "n": 3
+        },
+        "narrate": {
+          "min": 15,
+          "q1": 17.5,
+          "median": 20.0,
+          "q3": 22.5,
+          "max": 25,
+          "n": 2
+        },
+        "assert": {
+          "min": 28,
+          "q1": 28.0,
+          "median": 28.0,
+          "q3": 28.0,
+          "max": 28,
+          "n": 1
+        },
+        "orient": {
+          "min": 12,
+          "q1": 12.0,
+          "median": 12.0,
+          "q3": 12.0,
+          "max": 12,
+          "n": 1
+        },
+        "define": {
+          "min": 14,
+          "q1": 14.0,
+          "median": 15.0,
+          "q3": 19.0,
+          "max": 19,
+          "n": 5
+        },
+        "qualify": {
+          "min": 14,
+          "q1": 14.0,
+          "median": 14.0,
+          "q3": 14.0,
+          "max": 14,
+          "n": 1
+        },
+        "instruct": {
+          "min": 10,
+          "q1": 10.0,
+          "median": 10.0,
+          "q3": 10.0,
+          "max": 10,
+          "n": 1
+        }
+      }
+    },
+    "provenance": {
+      "tokenizer_path": "/workspace/repos/builderbob/write-with-purpose/experiments/corpus-analysis-2026-11-16/analysis/metrics.py",
+      "tokenizer_sha256": "2d45e32781a6b39bdd84c403bdbb744a55cd270d02bfe621bf4a9d074ab66c7a",
+      "scope": "36 unique whole target paragraphs; role spans are within-target union per clear role per coder, nonadditive across roles; context anchors excluded from role-length count",
+      "working_targets": null,
+      "minimum_limits": null,
+      "maximum_limits": null
+    }
+  },
+  "per_label": {
+    "original": {
+      "orient": {
+        "both_positive": 2,
+        "both_negative": 34,
+        "positive_agreement": 1.0
+      },
+      "define": {
+        "both_negative": 31,
+        "both_positive": 5,
+        "positive_agreement": 1.0
+      },
+      "report": {
+        "both_negative": 16,
+        "coder2_only": 3,
+        "both_positive": 16,
+        "coder1_only": 1,
+        "positive_agreement": 0.8888888888888888
+      },
+      "assert": {
+        "both_positive": 7,
+        "both_negative": 28,
+        "coder2_only": 1,
+        "positive_agreement": 0.9333333333333333
+      },
+      "support": {
+        "both_negative": 32,
+        "both_positive": 2,
+        "coder1_only": 1,
+        "coder2_only": 1,
+        "positive_agreement": 0.6666666666666666
+      },
+      "explain": {
+        "both_negative": 19,
+        "both_positive": 14,
+        "coder2_only": 2,
+        "coder1_only": 1,
+        "positive_agreement": 0.9032258064516129
+      },
+      "illustrate": {
+        "both_negative": 29,
+        "both_positive": 5,
+        "coder1_only": 2,
+        "positive_agreement": 0.8333333333333334
+      },
+      "compare": {
+        "both_negative": 28,
+        "both_positive": 7,
+        "coder2_only": 1,
+        "positive_agreement": 0.9333333333333333
+      },
+      "interpret": {
+        "both_negative": 27,
+        "both_positive": 7,
+        "coder2_only": 1,
+        "coder1_only": 1,
+        "positive_agreement": 0.875
+      },
+      "qualify": {
+        "both_negative": 28,
+        "both_positive": 6,
+        "coder2_only": 2,
+        "positive_agreement": 0.8571428571428571
+      },
+      "instruct": {
+        "both_negative": 30,
+        "both_positive": 5,
+        "coder2_only": 1,
+        "positive_agreement": 0.9090909090909091
+      },
+      "narrate": {
+        "both_negative": 26,
+        "coder1_only": 1,
+        "both_positive": 8,
+        "coder2_only": 1,
+        "positive_agreement": 0.8888888888888888
+      }
+    },
+    "revised": {
+      "orient": {
+        "both_positive": 2,
+        "both_negative": 32,
+        "coder1_only": 1,
+        "coder2_only": 1,
+        "positive_agreement": 0.6666666666666666
+      },
+      "define": {
+        "both_negative": 31,
+        "both_positive": 3,
+        "coder2_only": 2,
+        "positive_agreement": 0.75
+      },
+      "report": {
+        "both_negative": 15,
+        "both_positive": 18,
+        "coder2_only": 3,
+        "positive_agreement": 0.9230769230769231
+      },
+      "assert": {
+        "both_positive": 6,
+        "both_negative": 30,
+        "positive_agreement": 1.0
+      },
+      "support": {
+        "both_negative": 35,
+        "coder1_only": 1,
+        "positive_agreement": 0.0
+      },
+      "explain": {
+        "both_negative": 18,
+        "both_positive": 15,
+        "coder1_only": 2,
+        "coder2_only": 1,
+        "positive_agreement": 0.9090909090909091
+      },
+      "illustrate": {
+        "both_negative": 31,
+        "coder2_only": 3,
+        "both_positive": 1,
+        "coder1_only": 1,
+        "positive_agreement": 0.3333333333333333
+      },
+      "compare": {
+        "both_negative": 27,
+        "both_positive": 6,
+        "coder2_only": 2,
+        "coder1_only": 1,
+        "positive_agreement": 0.8
+      },
+      "interpret": {
+        "both_negative": 27,
+        "coder2_only": 1,
+        "both_positive": 8,
+        "positive_agreement": 0.9411764705882353
+      },
+      "qualify": {
+        "both_negative": 29,
+        "both_positive": 6,
+        "coder2_only": 1,
+        "positive_agreement": 0.9230769230769231
+      },
+      "instruct": {
+        "both_negative": 32,
+        "coder2_only": 1,
+        "both_positive": 3,
+        "positive_agreement": 0.8571428571428571
+      },
+      "narrate": {
+        "both_negative": 27,
+        "both_positive": 8,
+        "coder1_only": 1,
+        "positive_agreement": 0.9411764705882353
+      }
+    }
+  },
+  "pooled": {
+    "original": {
+      "clear_labels": {
+        "n": 36,
+        "exact": 21,
+        "strict_subset": 10,
+        "two_sided": 5,
+        "both_empty": 0,
+        "exact_rate": 0.5833333333333334,
+        "mean_jaccard": 0.8291666666666667
+      },
+      "candidate_union": {
+        "n": 36,
+        "exact": 19,
+        "strict_subset": 12,
+        "two_sided": 5,
+        "both_empty": 0,
+        "exact_rate": 0.5277777777777778,
+        "mean_jaccard": 0.8152777777777778
+      }
+    },
+    "revised": {
+      "clear_labels": {
+        "n": 36,
+        "exact": 18,
+        "strict_subset": 14,
+        "two_sided": 4,
+        "both_empty": 0,
+        "exact_rate": 0.5,
+        "mean_jaccard": 0.7953703703703704
+      },
+      "candidate_union": {
+        "n": 36,
+        "exact": 18,
+        "strict_subset": 14,
+        "two_sided": 4,
+        "both_empty": 0,
+        "exact_rate": 0.5,
+        "mean_jaccard": 0.7953703703703704
+      }
+    }
+  },
+  "revised_layers": {
+    "local_move": {
+      "n": 36,
+      "exact": 24,
+      "strict_subset": 11,
+      "two_sided": 1,
+      "both_empty": 2,
+      "exact_rate": 0.6666666666666666,
+      "mean_jaccard": 0.8171296296296297
+    },
+    "temporal_presentation": {
+      "n": 36,
+      "exact": 35,
+      "strict_subset": 1,
+      "two_sided": 0,
+      "both_empty": 27,
+      "exact_rate": 0.9722222222222222,
+      "mean_jaccard": 0.9722222222222222
+    },
+    "relation": {
+      "n": 36,
+      "exact": 29,
+      "strict_subset": 6,
+      "two_sided": 1,
+      "both_empty": 21,
+      "exact_rate": 0.8055555555555556,
+      "mean_jaccard": 0.8055555555555556
+    }
+  }
+}

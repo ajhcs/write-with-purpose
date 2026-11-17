@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_31",
+      "doi": "10.1145/984549.984551",
+      "title": "A critique of the SQL database language",
+      "authors": "[\"C. J. Date\"]",
+      "field": "engineering_computing",
+      "q": "\"A critique of the SQL database language\" Date filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_31",
+      "query": "\"A critique of the SQL database language\" Date filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "A Critique of the SQL Database Language",
+          "url": "https://courses.cs.duke.edu/spring03/cps216/papers/date-1983.pdf",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source_records_accounted_for": 2360,
+  "per_domain": {
+    "business": {
+      "records": 1200,
+      "saved_primary_file_records": 36,
+      "possible_article_file_records": 36,
+      "identity_status_for_candidate_files": {
+        "unresolved": 28,
+        "consistent": 7,
+        "unavailable": 1
+      }
+    },
+    "engineering": {
+      "records": 350,
+      "saved_primary_file_records": 13,
+      "possible_article_file_records": 13,
+      "identity_status_for_candidate_files": {
+        "unresolved": 12,
+        "consistent": 1
+      }
+    },
+    "law": {
+      "records": 494,
+      "saved_primary_file_records": 11,
+      "possible_article_file_records": 11,
+      "identity_status_for_candidate_files": {
+        "unresolved": 11
+      }
+    },
+    "personal": {
+      "records": 316,
+      "saved_primary_file_records": 160,
+      "possible_article_file_records": 129,
+      "identity_status_for_candidate_files": {
+        "title_author_consistent": 72,
+        "unresolved": 57
+      }
+    }
+  },
+  "retained_file_records": 220,
+  "unique_selected_paths": 220,
+  "unique_selected_byte_hashes": 213,
+  "possible_article_file_records": 189,
+  "library_missing_ris_entries": 2082,
+  "scope": "Saved record/file checks only. Raw captures include wrong/landing pages; candidate files and matching identity evidence do not certify completeness, version, genre, quality or permitted reuse. Counts are not unique works."
+}

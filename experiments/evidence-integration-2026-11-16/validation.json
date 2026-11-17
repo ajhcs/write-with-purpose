@@ -1,0 +1,17 @@
+{
+  "verified_utc": "2026-11-16T20:07:05.074782+00:00",
+  "supplied_pdf_hashes_verified": 18,
+  "supplied_extraction_hashes_verified": 18,
+  "recovered_author_copy_verified": true,
+  "unique_primary_works": 18,
+  "physical_pages_in_supplied_batch": 247,
+  "primary_review_hashes_verified": 7,
+  "finding_page_locators_checked": 102,
+  "reviewer_candidates": 32,
+  "integrated_candidates": 12,
+  "supplement_hashes_verified": 7,
+  "canonical_comparison_files_unchanged_since_snapshot": true,
+  "json_files_parsed": 17,
+  "local_link_errors": [],
+  "scope": "Byte provenance, source-page references, unique coverage, unchanged comparison inputs and artifact structure. No semantic correctness, statistical replication, writing improvement or market advantage is certified."
+}

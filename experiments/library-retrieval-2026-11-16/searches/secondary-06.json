@@ -1,0 +1,91 @@
+{
+  "batch": 6,
+  "queries": [
+    {
+      "candidate_key": "law:law_w4237793781",
+      "doi": "",
+      "title": "Further Evidence that Legalized Abortion Lowered Crime: A Reply to Joyce",
+      "authors": "[\"John J. Donohue\", \"Steven D. Levitt\"]",
+      "field": "law_public_policy",
+      "q": "\"Further Evidence that Legalized Abortion Lowered Crime: A Reply to Joyce\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w3005895493",
+      "doi": "",
+      "title": "Meaning in the Life of a Lawyer",
+      "authors": "[\"James Boyd White\"]",
+      "field": "law_public_policy",
+      "q": "\"Meaning in the Life of a Lawyer\" pdf"
+    },
+    {
+      "candidate_key": "law:law_china_trade",
+      "doi": "",
+      "title": "Memorandum From the President’s Assistant for National Security Affairs (Kissinger) to President Nixon",
+      "authors": "[\"Henry A. Kissinger\"]",
+      "field": "law_public_policy",
+      "q": "\"Memorandum From the President’s Assistant for National Security Affairs (Kissinger) to President Nixon\" pdf"
+    },
+    {
+      "candidate_key": "law:law_sudan",
+      "doi": "",
+      "title": "Telegram 108761/T110717 From the Department of State to Secretary of State Kissinger",
+      "authors": "[\"U.S. Department of State\"]",
+      "field": "law_public_policy",
+      "q": "\"Telegram 108761/T110717 From the Department of State to Secretary of State Kissinger\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w4237793781",
+      "query": "\"Further Evidence that Legalized Abortion Lowered Crime: A Reply to Joyce\" pdf",
+      "urls": [
+        {
+          "title": "Further Evidence that Legalized Abortion Lowered Crime: A Reply to Joyce",
+          "url": "https://ideas.repec.org/p/nbr/nberwo/9532.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Further Evidence that Legalized Abortion Lowered Crime: A Reply to Joyce",
+          "url": "https://ideas.repec.org/a/uwp/jhriss/v39y2004i1p29-49.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Legalized abortion and crime effect",
+          "url": "https://en-academic.com/dic.nsf/enwiki/553192/19507",
+          "score": 0.3333333333333333,
+          "body_score": 1
+        },
+        {
+          "title": "The Impact of Legalized Abortion on Crime",
+          "url": "https://wiki.postl.cc/content/wikipedia_de_all_maxi_2024-03/A/The_Impact_of_Legalized_Abortion_on_Crime",
+          "score": 0.3333333333333333,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w3005895493",
+      "query": "\"Meaning in the Life of a Lawyer\" pdf",
+      "urls": [
+        {
+          "title": "Meaning in the Life of a Lawyer",
+          "url": "https://repository.law.umich.edu/lqnotes/vol40/iss2/10",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_china_trade",
+      "query": "\"Memorandum From the President’s Assistant for National Security Affairs (Kissinger) to President Nixon\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "law:law_sudan",
+      "query": "\"Telegram 108761/T110717 From the Department of State to Secretary of State Kissinger\" pdf",
+      "urls": []
+    }
+  ]
+}

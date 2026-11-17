@@ -1,0 +1,46 @@
+# Round 3: editing and substantive improvement replies
+
+The frozen Round 1 position remains unchanged. Each challenge below is accepted with a revision. The current skills already authorize requested substantial rewrites and alternative comparisons; the proposed increment is how the editor selects the depth and checks the consequences of an open-ended improvement, not permission for an otherwise forbidden rewrite.
+
+## VN-C01 → EI-02: revise
+
+Accepted: a plausible cautious claim can still substitute the editor's thesis for the author's. My supplied example included an explicit author point, but the mechanism must handle situations where that point is not supplied. A source-stated conclusion and a genuinely necessary, supported connection differ from a new interpretation. Comparison against a plausible competing reading and explicit provenance are the incremental operation; explaining a missing inference is already in the skill.
+
+**Exact revised wording:** When thought development is authorized, distinguish the author's stated conclusion, a supported connection necessary to make it intelligible, and an editor-proposed interpretation. Express the first two at their supported scope. If a new interpretation could materially change the author's position, mark it provisional and offer a consequential competing reading or ask one focused question; continue independent work. For prose-only delivery, use the best grounded formulation and disclose material unresolved uncertainty briefly; do not silently attribute a new thesis to the author.
+
+## VN-C02 → EI-03: revise
+
+Accepted: moving unchanged text can alter endorsement, perceived authority and intended experience. My decision-first example is appropriate only for a settled decision. A reflective exploration may need an inquiry-led structure; its uncertainty is substantive, not an obstacle to remove. Current guidance already permits moving and comparing; the proposed additional behavior is a conditional, concrete comparison of architectures with their rhetorical consequences.
+
+**Exact revised wording:** When structural improvement is authorized and a materially different arrangement could serve the actual reader or intended experience, compare a representative transition or outline that changes an information dependency, qualification placement or discovery sequence. Retain endorsement, modality, timing and rhetorical status as well as material facts and counterconsiderations. Use a decision-led route only when the author has a decision to communicate; preserve inquiry or deliberate discovery where that is the purpose. Select independently when the brief settles the tradeoff; show alternatives or flag a material unresolved interpretation when it does not.
+
+## CE-C01 → EI-05: revise
+
+Accepted: the model's comparison is provisional editorial judgment, not measured reader gain or author approval. The colon example illustrates a possible intervention and rejection of an unsupported dependency, not evidence of improvement. There is no need to find a globally strongest candidate or produce multiple complete drafts. The distinctive test is whether an authorized broader revision deserves consideration, not a claim that current skills lack a reader edit.
+
+**Exact revised wording:** For a material improvement, compare the original and a feasible authorized revision on the intended reader task or experience and on possible losses of conditions, evidence, voice and emphasis. Treat the comparison as provisional; an unclear effect is a valid outcome. Apply the best-supported local or coordinated change, or keep the original, and stop when no specific unresolved issue warrants another pass. Claim observed reader benefit or author acceptance only when independently observed. A direct correction is sufficient for a typo.
+
+## CE-C02 → EI-02: revise
+
+Accepted: the absence of a test environment and a missed deadline does not establish causation or that a safety report is a condition. Necessary inference must be grounded in the actual source and author intent; a lexical qualifier alone does not establish support. No exhaustive proposition map is required for routine connectives. This challenge and VN-C01 are combined in the revised EI-02.
+
+**Exact revised wording:** For an authorized substantive bridge, compare the affected claim with its supplied premises and preserve force, attribution and conditions. If a missing premise changes the conclusion, leave a focused question or clearly identify a proposed interpretation; do not add causation, necessity or endorsement. Develop and edit independent portions while the issue remains unresolved. A short local source comparison suffices; full premise mapping is optional.
+
+## All five revised operative behaviors
+
+- **EI-01 (revise):** Choose the depth authorized by the request. For correction-only work make the necessary local corrections. For requested improvement, look for a consequential opportunity in thought, structure or expression; consider a representative broader revision when a local repair leaves that opportunity unresolved and broader work is authorized. Select on purpose, fidelity and likely reader or author benefit, not global diff size; preserve explicit constraints and avoid unrelated changes. A sufficient original can stand.
+
+- **EI-02 (revise):** When thought development is authorized, distinguish an author-stated conclusion, a supported connection necessary to explain it, and a new editorial interpretation. Compare an affected substantive bridge with supplied premises for force, attribution and conditions; do not infer cause, necessity or endorsement from proximity. If a new interpretation could materially change the author's position or a missing premise changes the conclusion, mark it provisional and offer a consequential competing reading or one focused question while continuing independent work. For prose-only delivery use the best grounded wording and briefly disclose material unresolved uncertainty. Routine connectives do not require exhaustive mapping.
+
+- **EI-03 (revise):** When structural improvement is authorized and a materially different arrangement could serve the actual reader or intended experience, compare a representative transition or outline that changes an information dependency, qualification placement or discovery sequence. Retain endorsement, modality, timing, rhetorical status, material facts and counterconsiderations. A decision-led route requires a decision to communicate; preserve inquiry or intended discovery when appropriate. Select independently where the brief settles the tradeoff; show alternatives or flag a material unresolved interpretation where it does not. Materialize a larger revision when plausibly better; do not require two full drafts.
+
+- **EI-04 (revise):** For authorized expression improvement, identify the intended effect as a contextual hypothesis and compare a feasible revision with the original. Retain, transform or remove an image or rhythm according to that effect, the reader and the author's actual constraints; unusual wording alone is not proof of authorial intent. Preserve required wording, stance, facts and technical meaning, and avoid invented experience. Do not equate paraphrase with voice loss or a new synonym with improvement; author judgment remains separate.
+
+- **EI-05 (revise):** For a material improvement, compare the original and a feasible authorized revision on the intended reader task or experience and on possible losses of conditions, evidence, voice and emphasis. Treat the comparison as provisional, including an unclear-effect state. Apply the best-supported local or coordinated change, or keep the original, and stop when no specific unresolved issue warrants another pass. Claim observed reader benefit or author acceptance only when independently observed. A direct correction is sufficient for a typo; no mandatory alternate versions or process notes are required in ordinary delivery.
+
+## Remaining disagreements and limits
+
+- A broad request to improve can authorize a structural or expressive change without requiring the author to preapprove every reversible choice. Where competing readings would materially change the author's position or intended experience, do not silently decide; proceed independently on unaffected text and expose the uncertainty.
+- The comparison should be bounded and conditional, not a mandatory second full draft; the model must still actively consider a broader option when an improvement task presents a plausible consequential opportunity. The threshold needs evaluation against both over-editing and under-editing.
+- Model judgments about likely reader gain are useful to select a candidate but are hypotheses. Independent readers, author feedback and measurement of harms are required to establish actual benefit; no mechanism is empirically optimized or demonstrably superior yet.
+- Existing skills already permit explicit substantial rewrites and comparing alternatives. The candidate's proposed increment is selection behavior for open-ended improvement and explicit checks on interpretive and structural consequences; novelty relative to current practice remains a testable claim, not a label-counting exercise.

@@ -1,0 +1,481 @@
+{
+  "doi": "10.1056/NEJMp1702362",
+  "source_pdf": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1702362.pdf",
+  "raw_pdf_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217",
+  "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/aca-science/NEJMp1702362.body.txt",
+  "body_sha256": "dcda88e2cf1f59b6226b48ac410837dbd90ec5205bb61cf5c3a99205f851790f",
+  "offset_units": "Unicode code points, end exclusive",
+  "normalization": "Ordered visual blocks; restore initial drop cap; remove line-wrap hyphens except identified compound hyphens; collapse whitespace; paragraphs separated by two newlines. Citation markers retained. Line-end hyphen status remains uncertain.",
+  "paragraph_boundary_status": "visually inspected by one analyst",
+  "quantitative_eligibility": true,
+  "normalization_review": "Line-end candidates inspected individually. high-quality and identity-laden retain lexical hyphens; trade-offs retained with spelling ambiguity. Soft-hyphen wraps removed before hard-wrap processing.",
+  "paragraphs": [
+    {
+      "id": "NEJMp1702362-p01",
+      "start": 0,
+      "end_exclusive": 917,
+      "sha256": "449dd536a759f45779b2ed45e28bdea968c64a60599590e6d065066895488294",
+      "fragments": [
+        {
+          "page": 1,
+          "block": 21,
+          "bbox_pdf_points": [
+            102.0,
+            635.66,
+            119.43,
+            670.5
+          ],
+          "block_text_sha256": "06f961b802bc46ee168555f066d28f4f0e9afdf3f88174c1ee6f9de004fc30a0",
+          "role": "drop cap"
+        },
+        {
+          "page": 1,
+          "block": 22,
+          "bbox_pdf_points": [
+            102.0,
+            640.83,
+            241.7,
+            688.96
+          ],
+          "block_text_sha256": "9b20b647497f0e0ff48bf37d22a4b65414e9e44120e8ebede7ab31f1fd16ef35"
+        },
+        {
+          "page": 1,
+          "block": 23,
+          "bbox_pdf_points": [
+            250.66,
+            640.83,
+            390.34,
+            688.96
+          ],
+          "block_text_sha256": "1f2f782a999a345272a0d0c0ca44db524758b8990e283455bf52d41372068210"
+        },
+        {
+          "page": 1,
+          "block": 24,
+          "bbox_pdf_points": [
+            399.33,
+            640.83,
+            539.02,
+            688.96
+          ],
+          "block_text_sha256": "7065f201f343dc76b50412305ce8e602fbcf03e526d3b2ec386e2a058c800542"
+        },
+        {
+          "page": 2,
+          "block": 4,
+          "bbox_pdf_points": [
+            71.0,
+            52.83,
+            210.71,
+            244.96
+          ],
+          "block_text_sha256": "8c2d36313279d9ec3df23a3b6328449fda2c71271b5cb620a94c3bf6f34d50e7"
+        }
+      ],
+      "section_role": "clinical experience and problem",
+      "functions": [
+        "narrate",
+        "orient",
+        "interpret"
+      ],
+      "coding_status": "single analyst; proposed labels",
+      "normalization_ambiguity": null,
+      "quantitative_eligible": true,
+      "word_count": 145,
+      "line_end_hyphen_candidates": [
+        "re-sponse",
+        "Eventu-ally",
+        "under-stand",
+        "over-coming",
+        "ap-proach",
+        "skill-fully",
+        "ex-ude"
+      ]
+    },
+    {
+      "id": "NEJMp1702362-p02",
+      "start": 919,
+      "end_exclusive": 1787,
+      "sha256": "6b73c18be6e87058f86281d1fdb1186300b984c40f99806fcbeacee1dad11d26",
+      "fragments": [
+        {
+          "page": 2,
+          "block": 5,
+          "bbox_pdf_points": [
+            71.0,
+            244.83,
+            210.71,
+            580.96
+          ],
+          "block_text_sha256": "7fc650b698b73dcd0a46888af73268b04f8d8be6f04b28d43d4cbfbd07b96685"
+        }
+      ],
+      "section_role": "political context",
+      "functions": [
+        "assert",
+        "report",
+        "qualify"
+      ],
+      "coding_status": "single analyst; proposed labels",
+      "normalization_ambiguity": null,
+      "quantitative_eligible": true,
+      "word_count": 132,
+      "line_end_hyphen_candidates": [
+        "disre-gard",
+        "Don-ald",
+        "Pro-tection",
+        "Mem-bers",
+        "post-poned"
+      ]
+    },
+    {
+      "id": "NEJMp1702362-p03",
+      "start": 1789,
+      "end_exclusive": 2566,
+      "sha256": "96cad8bf39c2d083963c118c7a5e52d23b85ba60aec762ee664c6e3831bb4e66",
+      "fragments": [
+        {
+          "page": 2,
+          "block": 6,
+          "bbox_pdf_points": [
+            71.0,
+            580.83,
+            210.7,
+            688.96
+          ],
+          "block_text_sha256": "0e4ea73242f7943864b937b5a1f63e537863975078c72a0aab0b34d5ce71385f"
+        },
+        {
+          "page": 2,
+          "block": 7,
+          "bbox_pdf_points": [
+            219.67,
+            52.83,
+            359.37,
+            232.96
+          ],
+          "block_text_sha256": "fd6532128e7aa0ad7d496a192ee649360c1f308cea949bfc05f9d62e819716fd"
+        }
+      ],
+      "section_role": "resistance question",
+      "functions": [
+        "orient",
+        "assert",
+        "explain"
+      ],
+      "coding_status": "single analyst; proposed labels",
+      "normalization_ambiguity": null,
+      "quantitative_eligible": true,
+      "word_count": 119,
+      "line_end_hyphen_candidates": [
+        "dis-semination",
+        "partic-ularly"
+      ]
+    },
+    {
+      "id": "NEJMp1702362-p04",
+      "start": 2568,
+      "end_exclusive": 3888,
+      "sha256": "9f891035fe4a1da4cee97ab7c0e9a2cc8a38151889910a081b5188fc2963a4d0",
+      "fragments": [
+        {
+          "page": 2,
+          "block": 8,
+          "bbox_pdf_points": [
+            219.66,
+            232.83,
+            359.39,
+            688.96
+          ],
+          "block_text_sha256": "96f2ce6974275584c7c91783178280deab7be727d6cf1d85301d34c5ac1400a6"
+        },
+        {
+          "page": 2,
+          "block": 9,
+          "bbox_pdf_points": [
+            368.33,
+            52.83,
+            508.04,
+            88.96
+          ],
+          "block_text_sha256": "809045e603c961a4445f996340b503500ff99a38f7ae020b870e7a98cea4ff5f"
+        }
+      ],
+      "section_role": "belief and evidence",
+      "functions": [
+        "assert",
+        "explain",
+        "report",
+        "support"
+      ],
+      "coding_status": "single analyst; proposed labels",
+      "normalization_ambiguity": null,
+      "quantitative_eligible": true,
+      "word_count": 193,
+      "line_end_hyphen_candidates": [
+        "assum-ing",
+        "re-flects",
+        "cul-tural",
+        "emo-tions",
+        "en-trench",
+        "phenom-enon",
+        "demon-strated",
+        "debunk-ing",
+        "counterintui-tively",
+        "re-flect",
+        "chal-lenges",
+        "be-liefs",
+        "modi-fied",
+        "credibil-ity"
+      ]
+    },
+    {
+      "id": "NEJMp1702362-p05",
+      "start": 3890,
+      "end_exclusive": 4891,
+      "sha256": "0e2f093b3b6ae4161321dcd731ccd720d7012debf336d8e9ff8aa123934a9c92",
+      "fragments": [
+        {
+          "page": 2,
+          "block": 10,
+          "bbox_pdf_points": [
+            368.33,
+            88.83,
+            508.03,
+            460.96
+          ],
+          "block_text_sha256": "0145a3634ea19c5ec66be14451fcc6de509445d13d77d713b94c017e5d9b7e10"
+        }
+      ],
+      "section_role": "politicization and evidence",
+      "functions": [
+        "assert",
+        "report",
+        "support"
+      ],
+      "coding_status": "single analyst; proposed labels",
+      "normalization_ambiguity": null,
+      "quantitative_eligible": true,
+      "word_count": 151,
+      "line_end_hyphen_candidates": [
+        "polar-ized",
+        "care-ful",
+        "assess-ing",
+        "warm-ing",
+        "high-ly",
+        "percep-tions"
+      ]
+    },
+    {
+      "id": "NEJMp1702362-p06",
+      "start": 4893,
+      "end_exclusive": 5846,
+      "sha256": "eb1512cc55cee05e5a40e37bb7f3eccbd152e2555100e6bf892075e70c3715f8",
+      "fragments": [
+        {
+          "page": 2,
+          "block": 11,
+          "bbox_pdf_points": [
+            368.33,
+            460.83,
+            508.04,
+            688.96
+          ],
+          "block_text_sha256": "f73f6dc2eb83459bf340c143f1890efbdc6613f3fad1e4405338c7513ff56787"
+        },
+        {
+          "page": 3,
+          "block": 4,
+          "bbox_pdf_points": [
+            101.9,
+            52.83,
+            241.6,
+            172.96
+          ],
+          "block_text_sha256": "419f9faf04a6a505fe64547e22c86f10590c1435775dd337ccf7fd364fc1817f"
+        }
+      ],
+      "section_role": "politicization risk",
+      "functions": [
+        "interpret",
+        "illustrate",
+        "report"
+      ],
+      "coding_status": "single analyst; proposed labels",
+      "normalization_ambiguity": null,
+      "quantitative_eligible": true,
+      "word_count": 146,
+      "line_end_hyphen_candidates": [
+        "identity-laden",
+        "con-tested",
+        "infarc-tion",
+        "radia-tion",
+        "com-mission",
+        "vac-cine",
+        "some-one",
+        "antago-nism",
+        "environ-ment"
+      ]
+    },
+    {
+      "id": "NEJMp1702362-p07",
+      "start": 5848,
+      "end_exclusive": 6136,
+      "sha256": "313f2556d97638b00f8e8e69c01f0c162a5cd4256c1d22738b65f6230a9d020f",
+      "fragments": [
+        {
+          "page": 3,
+          "block": 5,
+          "bbox_pdf_points": [
+            101.9,
+            172.83,
+            241.59,
+            280.96
+          ],
+          "block_text_sha256": "b8cc8ed4dceb5952c45beccbc5af8334625e766fad1182dccdcc373db73f75b9"
+        }
+      ],
+      "section_role": "identity mechanism",
+      "functions": [
+        "explain",
+        "interpret"
+      ],
+      "coding_status": "single analyst; proposed labels",
+      "normalization_ambiguity": null,
+      "quantitative_eligible": true,
+      "word_count": 42,
+      "line_end_hyphen_candidates": []
+    },
+    {
+      "id": "NEJMp1702362-p08",
+      "start": 6138,
+      "end_exclusive": 6892,
+      "sha256": "f4225034569d6e0152b659d3952e728d666371e37c2621d74f0fdc072deda5db",
+      "fragments": [
+        {
+          "page": 3,
+          "block": 6,
+          "bbox_pdf_points": [
+            101.9,
+            280.83,
+            241.6,
+            520.96
+          ],
+          "block_text_sha256": "899edc39abd6fefca38ed5ac149be249364726c53ccd44c0a6843bf2e76698c2"
+        },
+        {
+          "page": 3,
+          "block": 7,
+          "bbox_pdf_points": [
+            250.57,
+            52.83,
+            390.28,
+            88.96
+          ],
+          "block_text_sha256": "ed7a4a10e9da94a83c948c4396da57e8867a3e14df2ab3216b1241b249d3b509"
+        }
+      ],
+      "section_role": "measured response",
+      "functions": [
+        "explain",
+        "assert",
+        "illustrate"
+      ],
+      "coding_status": "single analyst; proposed labels",
+      "normalization_ambiguity": null,
+      "quantitative_eligible": true,
+      "word_count": 109,
+      "line_end_hyphen_candidates": [
+        "identi-ty",
+        "correct-ing",
+        "fur-ther",
+        "meet-ing"
+      ]
+    },
+    {
+      "id": "NEJMp1702362-p09",
+      "start": 6894,
+      "end_exclusive": 7897,
+      "sha256": "eadb6f61b5e3187371548e04ac18fc6e6beb96cdb7cb680fad5e2af751e124f4",
+      "fragments": [
+        {
+          "page": 3,
+          "block": 8,
+          "bbox_pdf_points": [
+            250.56,
+            88.83,
+            390.27,
+            460.96
+          ],
+          "block_text_sha256": "641276fa83bc65616af0b6dfc45d66cbf57cde6e63956c5694b003f891acfb1e"
+        }
+      ],
+      "section_role": "response uncertainty",
+      "functions": [
+        "qualify",
+        "compare",
+        "illustrate"
+      ],
+      "coding_status": "single analyst; proposed labels",
+      "normalization_ambiguity": null,
+      "quantitative_eligible": true,
+      "word_count": 154,
+      "line_end_hyphen_candidates": [
+        "environ-mentally",
+        "legis-lation",
+        "pro-tests",
+        "politi-cal",
+        "behav-ioral",
+        "alle-giances",
+        "commu-nicating"
+      ]
+    },
+    {
+      "id": "NEJMp1702362-p10",
+      "start": 7899,
+      "end_exclusive": 8539,
+      "sha256": "da39bd252f1f326c39b93ffd26e2a9dc601d0a35f775c0a4b7a6326730ef5bf0",
+      "fragments": [
+        {
+          "page": 3,
+          "block": 9,
+          "bbox_pdf_points": [
+            250.56,
+            460.83,
+            390.24,
+            520.96
+          ],
+          "block_text_sha256": "a088ab4f9f4b26a2feb87ebc8b67f18e8da85ea18b87550e52451942d7a51fef"
+        },
+        {
+          "page": 3,
+          "block": 10,
+          "bbox_pdf_points": [
+            399.23,
+            52.83,
+            538.95,
+            244.96
+          ],
+          "block_text_sha256": "749924e5ed0f070eda664065788d7f45435674639e1eb6aab980f08169e0be30"
+        }
+      ],
+      "section_role": "closing call",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "coding_status": "single analyst; proposed labels",
+      "normalization_ambiguity": null,
+      "quantitative_eligible": true,
+      "word_count": 101,
+      "line_end_hyphen_candidates": [
+        "em-brace",
+        "sci-entists",
+        "de-termination",
+        "ap-proached",
+        "communi-cation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_26",
+      "doi": "10.1038/421694a",
+      "title": "Looking up to the stars",
+      "authors": "[\"Owen Gingerich\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Looking up to the stars\" Gingerich filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_26",
+      "query": "\"Looking up to the stars\" Gingerich filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Looking Up to the Stars. A Call for Action to Save New Zealand’s Dark Skies for Future Generations to Come",
+          "url": "https://www.wisdomlib.org/uploads/journals/mdpi-sust/2021-volume-13-issue-23--2071-1050-13-23-13472-.pdf",
+          "score": 1
+        },
+        {
+          "title": "When I Look Up to the Stars, Beth Darowish | Santa Barbara Music Publishing, Inc.",
+          "url": "https://ww.sbmp.com/SR2.php?CatalogNumber=1901",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "Paths among the stars – Forty South",
+          "url": "https://fortysouth.com.au/paths-among-the-stars/",
+          "score": 0.6666666666666666
+        }
+      ]
+    }
+  ]
+}

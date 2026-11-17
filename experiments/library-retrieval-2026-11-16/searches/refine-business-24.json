@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_045",
+      "doi": "10.1002/9781118785317.weom120169",
+      "title": "Strategic Management",
+      "authors": "[\"Stephen Cummings\"]",
+      "field": "business_management",
+      "q": "\"Strategic Management\" Cummings pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_045",
+      "query": "\"Strategic Management\" Cummings pdf",
+      "urls": [
+        {
+          "title": "Strategic Management",
+          "url": "https://my.uopeople.edu/pluginfile.php/57436/mod_book/chapter/121631/BUS5116TextbookStrategicMgmt.pdf",
+          "score": 1
+        },
+        {
+          "title": "Strategic Management",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781118785317.weom120169",
+          "score": 1
+        },
+        {
+          "title": "Cummings, S. 2015. Strategic Management. Wiley Encyclopedia of Management. 12:1–5.",
+          "url": "https://www.researchgate.net/publication/281749008_Cummings_S_2015_Strategic_Management_Wiley_Encyclopedia_of_Management_121-5",
+          "score": 1
+        },
+        {
+          "title": "Strategic Management",
+          "url": "https://ethnos.app/works/23590413",
+          "score": 1
+        },
+        {
+          "title": "Strategic Management - Cummings, S. (2015). Strategic Management. In Wiley Encyclopedia of Management - Volume 12 Strategic Management (eds C. L. Cooper, J. McGee and T. Sammut‐Bonnici)",
+          "url": "https://www.academia.edu/40117410/Strategic_Management_Cummings_S_2015_Strategic_Management_In_Wiley_Encyclopedia_of_Management_Volume_12_Strategic_Management_eds_C_L_Cooper_J_McGee_and_T_Sammut_Bonnici_",
+          "score": 1
+        },
+        {
+          "title": "Strategic Management",
+          "url": "https://vtechworks.lib.vt.edu/items/d0db687c-01d8-4efd-b93c-d51ba70d9877",
+          "score": 1
+        },
+        {
+          "title": "Results of search for '(su:{Strategic Management})' › UOWD Library catalog",
+          "url": "https://library.uowdubai.ac.ae/cgi-bin/koha/opac-search.pl?q=%28su%3A%7BStrategic+Management%7D%29",
+          "score": 1
+        },
+        {
+          "title": "Does anyone have the PDF for Strategic Management: Competitiveness and Globalization 13th edition?",
+          "url": "https://www.reddit.com/r/CalPolyPomona/comments/ow51jc",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_037",
+      "doi": "10.4995/wpom.v9i2.10752",
+      "title": "Protocol: A Meta-Review on continuous improvement to know the state of this research field",
+      "authors": "[\"Lidia Sanchez-Ruiz\", \"Juan A. Marin-Garcia\", \"Beatriz Blanco\"]",
+      "field": "business_management",
+      "q": "\"Protocol\" Sanchez-Ruiz pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_037",
+      "query": "\"Protocol\" Sanchez-Ruiz pdf",
+      "urls": [
+        {
+          "title": "Common protocol",
+          "url": "https://vsf-iwsold-pro-portal.sanidad.gob.es/ca/organizacion/sns/planCalidadSNS/pdf/equidad/commonProtocol.pdf",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

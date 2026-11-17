@@ -1,0 +1,117 @@
+{
+  "created_utc": "2026-11-16T21:16:50.175075+00:00",
+  "scope": "Exact pre-revision canonical skills, scripts, tests, manifest and selected docs; includes pre-existing README edits. Prior research packets stay unchanged.",
+  "git_head": "609b13f4e4321b8d32fba5480e324de470f2eaa2",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "35e7cd9a17a34c2f60fe0e34af4f5bb81b64517a4948c88cffd86bda58af97fd",
+      "bytes": 11694
+    },
+    {
+      "path": "docs/evaluation.md",
+      "sha256": "b272d05913be1d6e5c2c55966128ccaff4924120419ac3f8067f60ac967577d4",
+      "bytes": 8113
+    },
+    {
+      "path": "docs/writing-harness/paragraph-functions.json",
+      "sha256": "4d119fac2f29e1c0bbdea77e65e64cba45f67931bc0f816e40a765c0ff3cdc2e",
+      "bytes": 7355
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "006c6a04494a08895c073fd8bdb9722fb1ec38ca7c35cf7d2546b4c427c1f5a9",
+      "bytes": 1210
+    },
+    {
+      "path": "skills/edit-with-purpose/SKILL.md",
+      "sha256": "99779aadcc1e66f41bd30448b84c6598cfd8e66d1aa71f4dc1d32f0e4d12abef",
+      "bytes": 6859
+    },
+    {
+      "path": "skills/edit-with-purpose/references/cole-lyons-patient-safety.md",
+      "sha256": "279009715a19618c93b3df055bb96d842fabe99bf2e41dc77c24322a39bacc71",
+      "bytes": 12285
+    },
+    {
+      "path": "skills/edit-with-purpose/references/cole-lyons-style.md",
+      "sha256": "764ee9da1a7b34fce5e1ea2695ef49e2365e2c672b0927be4322a4a2e679b815",
+      "bytes": 4486
+    },
+    {
+      "path": "skills/edit-with-purpose/references/local-edits.md",
+      "sha256": "713b9a09d5b298b07d6a4cfef2501afdd83480fe8918f0be266abf8f6e3e2797",
+      "bytes": 2653
+    },
+    {
+      "path": "skills/edit-with-purpose/references/mechanical-checks.md",
+      "sha256": "2bf2875d96d356922efb8b2d6be7cf98b6ebb2b297cd40bd6831862f92b08af0",
+      "bytes": 2328
+    },
+    {
+      "path": "skills/edit-with-purpose/references/plain-language-edit.md",
+      "sha256": "279a62a3cdb1f73f1d21e8e0316704206f54e8125d48087f724a416983b4b5a4",
+      "bytes": 6954
+    },
+    {
+      "path": "skills/edit-with-purpose/references/technical-meaning.md",
+      "sha256": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60",
+      "bytes": 2013
+    },
+    {
+      "path": "skills/edit-with-purpose/scripts/edit_locally.py",
+      "sha256": "195e6c24d4cdb239fab536a0d4a7806ce8e8a86ea042f8f2e3b944ce43328410",
+      "bytes": 9441
+    },
+    {
+      "path": "skills/write-with-purpose/SKILL.md",
+      "sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365",
+      "bytes": 6401
+    },
+    {
+      "path": "skills/write-with-purpose/references/checks.md",
+      "sha256": "27e8a948eeea5f9b5a68449d7ecf8657dee103e621be1c2a6f839cd8dd9d9cce",
+      "bytes": 3639
+    },
+    {
+      "path": "skills/write-with-purpose/references/cole-lyons-patient-safety.md",
+      "sha256": "279009715a19618c93b3df055bb96d842fabe99bf2e41dc77c24322a39bacc71",
+      "bytes": 12285
+    },
+    {
+      "path": "skills/write-with-purpose/references/cole-lyons-style.md",
+      "sha256": "764ee9da1a7b34fce5e1ea2695ef49e2365e2c672b0927be4322a4a2e679b815",
+      "bytes": 4486
+    },
+    {
+      "path": "skills/write-with-purpose/references/concepts-and-claims.md",
+      "sha256": "c4a37964c1a4303f30dcd745a4d1608e3e35b94257adb2b297eada030739f72b",
+      "bytes": 4569
+    },
+    {
+      "path": "skills/write-with-purpose/references/language-and-meaning.md",
+      "sha256": "95aeaafe5a880115507a65001b9494c970140bf3f384e48d01f9d0616aa2b01a",
+      "bytes": 5031
+    },
+    {
+      "path": "skills/write-with-purpose/references/structure-and-purpose.md",
+      "sha256": "4bd8556194c70d6588a39334b68ce029749ae5b4b84a5deb98610cc750e3d4a2",
+      "bytes": 5398
+    },
+    {
+      "path": "skills/write-with-purpose/scripts/check_text.py",
+      "sha256": "873f4286cb2848301ef2d5cacd02610744fe2581e5f4ff269ef60a53b4356cb3",
+      "bytes": 26989
+    },
+    {
+      "path": "tests/test_check_text.py",
+      "sha256": "cb733c01277f9654bafea691f62ae7366b90ed6646a94154cbcb253f3d80ab1b",
+      "bytes": 21273
+    },
+    {
+      "path": "tests/test_local_edits.py",
+      "sha256": "23825fdd21d4866204140ac33bf37f095adfb863d9b2b5bdd7636665637630e7",
+      "bytes": 10017
+    }
+  ]
+}

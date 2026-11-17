@@ -1,0 +1,1180 @@
+{
+  "status": "exploratory full-body single-coder reconstruction; all source page layouts checked; line-hyphen normalization may affect tokenization",
+  "source_sha256": "a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722",
+  "offsets": "Unicode codepoints in private body.txt; end exclusive",
+  "sections": [
+    {
+      "heading": "Designing a Blueprint",
+      "page": 3,
+      "bbox": [
+        311.4,
+        42.0,
+        441.6,
+        57.3
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "Delivering the Service",
+      "page": 4,
+      "bbox": [
+        311.4,
+        613.0,
+        443.8,
+        628.3
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "Highlighting Tangible Evidence",
+      "page": 5,
+      "bbox": [
+        54.7,
+        317.8,
+        201.0,
+        327.9
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "Making People Special",
+      "page": 5,
+      "bbox": [
+        54.7,
+        580.9,
+        159.7,
+        590.9
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "Modifying a Service",
+      "page": 5,
+      "bbox": [
+        311.4,
+        248.3,
+        434.8,
+        263.6
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "Applying the Principles",
+      "page": 5,
+      "bbox": [
+        311.4,
+        505.4,
+        450.6,
+        520.6
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "Creating Better Service",
+      "page": 8,
+      "bbox": [
+        54.7,
+        123.7,
+        194.4,
+        139.0
+      ],
+      "kind": "explicit"
+    }
+  ],
+  "paragraphs": [
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            54.7,
+            329.8,
+            293.5,
+            411.6
+          ]
+        }
+      ],
+      "functions": [
+        "orient",
+        "illustrate"
+      ],
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-001",
+      "sha256": "aa666e75b97287a3e4e7ff01f01dc022fe52db1e5e4a031208f44e1a8f909bca",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 0,
+      "char_end": 334
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            54.7,
+            413.5,
+            293.5,
+            447.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            311.4,
+            329.8,
+            550.2,
+            387.7
+          ]
+        }
+      ],
+      "functions": [
+        "orient",
+        "report",
+        "illustrate"
+      ],
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-002",
+      "sha256": "acd4f3bb04ef1f2fca9b66c0ad19a380dba08800d50a58cb8e7750e92e4ce122",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 336,
+      "char_end": 719
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            311.4,
+            389.6,
+            550.2,
+            471.4
+          ]
+        }
+      ],
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-003",
+      "sha256": "06fa41eb3530804b1b35dab58683ff45dcd60a8e7cee83b6ab7ce91c3bf84816",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 721,
+      "char_end": 1072
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            311.4,
+            473.3,
+            550.2,
+            531.2
+          ]
+        }
+      ],
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-004",
+      "sha256": "98aa08ba8850c7e76aed2276eab20bbe39ffbe59d17a26064e7836c9c906301f",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 1074,
+      "char_end": 1306
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            311.4,
+            533.1,
+            550.3,
+            674.7
+          ]
+        }
+      ],
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-005",
+      "sha256": "ad4ee78eafd6b2fed87935a0ffe6e889b5462b6b84dd96109a715fd2fdad5993",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 1308,
+      "char_end": 1931
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            311.4,
+            676.6,
+            550.2,
+            710.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            54.7,
+            42.8,
+            293.5,
+            76.8
+          ]
+        }
+      ],
+      "functions": [
+        "orient",
+        "define",
+        "explain"
+      ],
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-006",
+      "sha256": "7ec4d4444df61ef2b4186a11af5660c3c15db78f6b54d38892e209865cd00355",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 1933,
+      "char_end": 2194
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            54.7,
+            78.7,
+            293.6,
+            232.2
+          ]
+        }
+      ],
+      "functions": [
+        "define",
+        "illustrate",
+        "compare"
+      ],
+      "section": "opening",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-007",
+      "sha256": "2416e9bf8f4308c4d0e4c786fc18062a29edd6c079b9c7b266981e135fbd76d7",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 2196,
+      "char_end": 2789
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            54.7,
+            234.1,
+            293.6,
+            411.6
+          ]
+        }
+      ],
+      "functions": [
+        "report",
+        "assert"
+      ],
+      "section": "opening",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-008",
+      "sha256": "3b96396f122c89fdaf6ffa9804f376ae885ed92f2d1351239d46e2b30b04b699",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 2791,
+      "char_end": 3508
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            54.7,
+            413.5,
+            293.6,
+            590.9
+          ]
+        }
+      ],
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "section": "opening",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-009",
+      "sha256": "b6351cded63a1bf44caa3ec20d945ef6b6392c11ded77cc3deeac1ff5813e9e5",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 3510,
+      "char_end": 4231
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            54.7,
+            592.9,
+            293.6,
+            698.6
+          ]
+        }
+      ],
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "section": "opening",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-010",
+      "sha256": "4e96fcdb44395ca6e5b3d696ed9a2e34b44435015e93dad73b2019320fd6547e",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 4233,
+      "char_end": 4674
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            311.4,
+            69.7,
+            550.2,
+            115.6
+          ]
+        }
+      ],
+      "functions": [
+        "define",
+        "orient"
+      ],
+      "section": "Designing a Blueprint",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-011",
+      "sha256": "aab67635b9e24d5e94efccf4e217759e85fe3a0953c3a2678a4223aa75130fa3",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 4676,
+      "char_end": 4865
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            311.4,
+            128.4,
+            550.2,
+            270.1
+          ]
+        }
+      ],
+      "functions": [
+        "instruct",
+        "illustrate",
+        "explain"
+      ],
+      "section": "Designing a Blueprint",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-012",
+      "sha256": "bb7000336efdddd8b5399f2ea9b0ef78e76eef5a39551e359f403e33fb68d03f",
+      "metric_eligible": true,
+      "run_in_heading": "Identifying processes.",
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 4867,
+      "char_end": 5456
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            311.4,
+            272.0,
+            550.2,
+            389.7
+          ]
+        }
+      ],
+      "functions": [
+        "instruct",
+        "illustrate",
+        "explain"
+      ],
+      "section": "Designing a Blueprint",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-013",
+      "sha256": "d8ef69a9899aae1f0f411f8cd95a9c48b6574d53787af8817d1f2ee34a60fc1d",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 5458,
+      "char_end": 5925
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            311.4,
+            391.6,
+            550.3,
+            509.2
+          ]
+        }
+      ],
+      "functions": [
+        "instruct",
+        "illustrate",
+        "explain"
+      ],
+      "section": "Designing a Blueprint",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-014",
+      "sha256": "267583700f8326b789ead9ee4276fe99906ba6b4ca3354e3238149b547d8e8a7",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 5927,
+      "char_end": 6412
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            311.4,
+            522.0,
+            550.2,
+            663.7
+          ]
+        }
+      ],
+      "functions": [
+        "instruct",
+        "illustrate",
+        "explain"
+      ],
+      "section": "Designing a Blueprint",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-015",
+      "sha256": "b51bbe5b724edb2e77062fff550dd2cfd6a3f462af3cff3464acf2668a6f0acc",
+      "metric_eligible": true,
+      "run_in_heading": "Isolating fail points.",
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 6414,
+      "char_end": 6974
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            311.4,
+            676.5,
+            550.2,
+            698.6
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            54.7,
+            358.7,
+            293.5,
+            380.7
+          ]
+        }
+      ],
+      "functions": [
+        "instruct"
+      ],
+      "section": "Designing a Blueprint",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-016",
+      "sha256": "1d29a6bd5f0ad4ba6c9cf67ffcf1cfb70f0519457100125e2b47dc4af0f2d392",
+      "metric_eligible": true,
+      "run_in_heading": "Establishing time frame.",
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 6976,
+      "char_end": 7133
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            54.7,
+            382.6,
+            293.5,
+            464.4
+          ]
+        }
+      ],
+      "functions": [
+        "instruct",
+        "explain"
+      ],
+      "section": "Designing a Blueprint",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-017",
+      "sha256": "fa366d92500f03f2efb5e2d4d9b4ef388be0c569cc7862a211afb53bc7dd588b",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 7135,
+      "char_end": 7494
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            54.7,
+            466.3,
+            293.6,
+            536.1
+          ]
+        }
+      ],
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "section": "Designing a Blueprint",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-018",
+      "sha256": "d2f849ca3b0b4a2dd10a83c5ee4149037a27c040d760aa0d60bdd6f626b64ada",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 7496,
+      "char_end": 7762
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            54.7,
+            545.0,
+            293.6,
+            638.8
+          ]
+        }
+      ],
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "section": "Designing a Blueprint",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-019",
+      "sha256": "8bfb8bef36741702d4e0e18d787c22d9fd5dba1cf075c027b4c4f49d3525eef0",
+      "metric_eligible": true,
+      "run_in_heading": "Analyzing profitability.",
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 7764,
+      "char_end": 8129
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            54.7,
+            564.0,
+            550.1,
+            698.6
+          ]
+        }
+      ],
+      "functions": [
+        "instruct",
+        "explain"
+      ],
+      "section": "Designing a Blueprint",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-020",
+      "sha256": "9154960d6bf5080b4feea0c987a3ca269cab6a35ee754e40cfa5a7c83d44bbff",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 8131,
+      "char_end": 8435
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            311.4,
+            640.7,
+            550.1,
+            698.6
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            54.7,
+            42.8,
+            293.5,
+            88.7
+          ]
+        }
+      ],
+      "functions": [
+        "compare",
+        "illustrate"
+      ],
+      "section": "Delivering the Service",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-021",
+      "sha256": "7c853a82d54f2c530bca4a5f9f171d841b0255ea8d899a72a5442851c1193340",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 8437,
+      "char_end": 8841
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            54.7,
+            90.6,
+            293.6,
+            244.2
+          ]
+        }
+      ],
+      "functions": [
+        "illustrate",
+        "compare",
+        "instruct"
+      ],
+      "section": "Delivering the Service",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-022",
+      "sha256": "d08adb3fde60e2968d89bfb2dd5e3ef229706e551bb4a3072d64f0a5f4f1d1c9",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 8843,
+      "char_end": 9460
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            54.7,
+            246.1,
+            293.6,
+            304.0
+          ]
+        }
+      ],
+      "functions": [
+        "explain"
+      ],
+      "section": "Delivering the Service",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-023",
+      "sha256": "088c9bd72003c53e95ec3bd15f95c7bfbdbef25268c2502f020601af685da4e0",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 9462,
+      "char_end": 9705
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            54.7,
+            329.8,
+            293.7,
+            483.3
+          ]
+        }
+      ],
+      "functions": [
+        "instruct",
+        "define",
+        "explain"
+      ],
+      "section": "Highlighting Tangible Evidence",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-024",
+      "sha256": "da2812f149bef2738cd1a4ccadb86272cab5624bc2ab3c5d78a1b64b2a2638f9",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 9707,
+      "char_end": 10360
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            54.7,
+            485.2,
+            293.5,
+            567.0
+          ]
+        }
+      ],
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "section": "Highlighting Tangible Evidence",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-025",
+      "sha256": "37f1ab1420331bc843dc8abe494918178bd6d52c353c96469a4290f062412d21",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 10362,
+      "char_end": 10694
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            54.7,
+            592.9,
+            293.6,
+            710.5
+          ]
+        }
+      ],
+      "functions": [
+        "explain",
+        "instruct"
+      ],
+      "section": "Making People Special",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-026",
+      "sha256": "1b9ed7e202620d6a577440100ba60e7463cedc9722b50822cfd57c9be5a4db6a",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 10696,
+      "char_end": 11173
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            311.4,
+            42.8,
+            550.2,
+            124.6
+          ]
+        }
+      ],
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "section": "Making People Special",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-027",
+      "sha256": "3158c645086767c77d6fafa427ddc337c3db33a158c6467df92e7d9d3c6e1a1d",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 11175,
+      "char_end": 11497
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            311.4,
+            126.5,
+            550.2,
+            220.2
+          ]
+        }
+      ],
+      "functions": [
+        "assert",
+        "illustrate",
+        "instruct"
+      ],
+      "section": "Making People Special",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-028",
+      "sha256": "af0df6cc70806df8da5b3832a5fe8c2596c32ff9d085902a22c92321b5f4352e",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 11499,
+      "char_end": 11870
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            311.4,
+            276.0,
+            550.1,
+            309.9
+          ]
+        }
+      ],
+      "functions": [
+        "explain"
+      ],
+      "section": "Modifying a Service",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-029",
+      "sha256": "174c926eb4538e28f8635ba22e7544287485fb08d7580b99f9c74b1ebec73a25",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 11872,
+      "char_end": 11990
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            311.4,
+            311.8,
+            550.2,
+            429.5
+          ]
+        }
+      ],
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "section": "Modifying a Service",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-030",
+      "sha256": "b9cbf73cc4f1b50d1c92d061f2bd0a8c4fd202e57c709ca3a062267f5f1970a8",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 11992,
+      "char_end": 12474
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            311.4,
+            431.4,
+            550.2,
+            477.3
+          ]
+        }
+      ],
+      "functions": [
+        "assert"
+      ],
+      "section": "Modifying a Service",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-031",
+      "sha256": "b4940d65ab511bc1420396c8463cbf94aa0bff19c9ef33df1b697632a29d2ef3",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 12476,
+      "char_end": 12678
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            311.4,
+            533.1,
+            550.2,
+            602.9
+          ]
+        }
+      ],
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "section": "Applying the Principles",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-032",
+      "sha256": "c447562f5f514bd374812aaa7b71c60023dff171dad138fd55c39be3bce6ca37",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 12680,
+      "char_end": 12964
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            311.4,
+            604.8,
+            550.2,
+            674.7
+          ]
+        }
+      ],
+      "functions": [
+        "qualify",
+        "illustrate"
+      ],
+      "section": "Applying the Principles",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-033",
+      "sha256": "d4c7a9c2a96a68ea3625bd86cd233c0a52bdf8e2fc4f4eecef56a885f96f5184",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 12966,
+      "char_end": 13248
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            311.4,
+            676.6,
+            550.4,
+            710.5
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            54.7,
+            557.0,
+            293.6,
+            710.5
+          ]
+        }
+      ],
+      "functions": [
+        "illustrate",
+        "explain",
+        "report"
+      ],
+      "section": "Applying the Principles",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-034",
+      "sha256": "a0950b4f08efbfc1cf4e66d1c61ba02fd278bdf6067302741cd005f0f65dbb56",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 13250,
+      "char_end": 14010
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            311.4,
+            557.0,
+            550.2,
+            650.7
+          ]
+        }
+      ],
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "section": "Applying the Principles",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-035",
+      "sha256": "271e3b670ebe308cbf3b9980807bd71b3d6cb1c2038e0097b4577df4cc6df0c4",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 14012,
+      "char_end": 14394
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            311.4,
+            652.6,
+            550.2,
+            710.5
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            54.7,
+            676.6,
+            293.6,
+            698.6
+          ]
+        }
+      ],
+      "functions": [
+        "qualify",
+        "compare"
+      ],
+      "section": "Applying the Principles",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-036",
+      "sha256": "3bfc2f645b375ec645b6a6a17eaafb25cd357240fc91542a9d1bea64ab9feefa",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 14396,
+      "char_end": 14748
+    },
+    {
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            64.7,
+            676.6,
+            550.3,
+            710.5
+          ]
+        },
+        {
+          "page": 8,
+          "bbox": [
+            54.7,
+            42.8,
+            293.5,
+            76.8
+          ]
+        }
+      ],
+      "functions": [
+        "explain",
+        "instruct"
+      ],
+      "section": "Applying the Principles",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-037",
+      "sha256": "d821579280992cc8bbd346dd24d881ea31113787fd72c973241f925784656599",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 14750,
+      "char_end": 15088
+    },
+    {
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            54.7,
+            151.4,
+            293.5,
+            209.3
+          ]
+        }
+      ],
+      "functions": [
+        "compare",
+        "assert"
+      ],
+      "section": "Creating Better Service",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-038",
+      "sha256": "1347eabb10e8fe23737d85ef04507da5f40bec497cdc0a0797f359ca7f7f717c",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 15090,
+      "char_end": 15330
+    },
+    {
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            54.7,
+            211.2,
+            293.6,
+            269.1
+          ]
+        }
+      ],
+      "functions": [
+        "explain",
+        "instruct"
+      ],
+      "section": "Creating Better Service",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-039",
+      "sha256": "bdddabbc39a79126c19e754df7c8be234f94dbacf04c0d1bd81a508d98371f2d",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 15332,
+      "char_end": 15587
+    },
+    {
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            54.7,
+            271.0,
+            293.6,
+            328.9
+          ]
+        }
+      ],
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "section": "Creating Better Service",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-040",
+      "sha256": "2db0f139dfdbb3501ffdba05b941bc97aba583b917623b9ed2c21abdd524d752",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 15589,
+      "char_end": 15796
+    },
+    {
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            54.7,
+            330.8,
+            293.6,
+            460.4
+          ]
+        }
+      ],
+      "functions": [
+        "compare",
+        "assert",
+        "interpret"
+      ],
+      "section": "Creating Better Service",
+      "status": "exploratory single-coder judgment; page layouts rendered and body boundaries inspected",
+      "id": "designing-services-041",
+      "sha256": "443fa70e82697144b60d708a168f5c73ec7b050bbf706c5086209583487c08a4",
+      "metric_eligible": true,
+      "boundary_confidence": "reviewed exploratory",
+      "char_start": 15798,
+      "char_end": 16328
+    }
+  ]
+}

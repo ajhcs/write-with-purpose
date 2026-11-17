@@ -1,0 +1,34 @@
+{
+  "scope": "Final source metadata/scaffold validation; does not establish writing behavior.",
+  "orchestration_note": "The first capture wrapper failed before validator dispatch because a JavaScript null literal was embedded as Python; corrected wrapper executed only these two validation commands. Unit/annotation runs were unaffected.",
+  "runs": [
+    {
+      "skill": "write-with-purpose",
+      "command": [
+        "python3",
+        "/home/builderbob/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "/workspace/repos/builderbob/write-with-purpose/skills/write-with-purpose"
+      ],
+      "cwd": "/workspace/repos/builderbob/write-with-purpose",
+      "started_utc": "2026-11-16T21:34:23.741580+00:00",
+      "finished_utc": "2026-11-16T21:34:23.760208+00:00",
+      "exit_code": 0,
+      "log": "runs/skill-validation-1.log",
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "edit-with-purpose",
+      "command": [
+        "python3",
+        "/home/builderbob/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "/workspace/repos/builderbob/write-with-purpose/skills/edit-with-purpose"
+      ],
+      "cwd": "/workspace/repos/builderbob/write-with-purpose",
+      "started_utc": "2026-11-16T21:34:23.760227+00:00",
+      "finished_utc": "2026-11-16T21:34:23.777757+00:00",
+      "exit_code": 0,
+      "log": "runs/skill-validation-2.log",
+      "output": "Skill is valid!"
+    }
+  ]
+}

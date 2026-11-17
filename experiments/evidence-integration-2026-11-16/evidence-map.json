@@ -1,0 +1,2176 @@
+{
+  "status": "Full-text evidence integration; no statistical pooling or canonical rule changes",
+  "papers": [
+    {
+      "id": "P01",
+      "title": "The Effects of Jargon on Processing Fluency, Self-Perceptions, and Scientific Engagement",
+      "authors": [
+        "Hillary C. Shulman",
+        "Graham N. Dixon",
+        "Olivia M. Bullock",
+        "Daniel Colón Amill"
+      ],
+      "year": 2020,
+      "doi": "10.1177/0261927X20902177",
+      "study_kind": "Randomized 2×2 between-subjects experiment with observational serial mediation",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P01.txt",
+      "scope": "Full extracted paper pp.1–19, including methods, results, limitations, stimuli and references; actual DOI and year from p.1.",
+      "sample_and_design": "650 paid U.S. Qualtrics panel adults randomized to jargon/no jargon and optional mouseover definitions/no definitions; each read three same-condition short science-technology passages (autonomous cars, surgical robots, 3D bioprinting). Jargon had 10 terms per paragraph; no-jargon replaced terms with explanations/synonyms; within-topic word counts held constant (pp.6–8).",
+      "outcomes": "Self-reported 1–7 processing fluency, science/technology self-schema, interest, information-seeking intention, internal efficacy, perceived knowledge. Not objective comprehension or actual behavior.",
+      "findings": [
+        {
+          "claim": "Jargon condition mean subjective fluency 4.57 (SD 1.11) vs 5.27 (0.90) without jargon; F(1,636)=76.03, p<.001, eta²=.11.",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "evidence_locator": "Results and Table 1",
+          "denominator": "650 randomized; ANOVA df 636",
+          "interpretation_limits": "Randomized bundle of term substitutions and acronyms; three short topics; self-reported fluency."
+        },
+        {
+          "claim": "Definition availability: no main effect F(1,636)=0.37, p=.543 and no jargon interaction F(1,636)=0.17, p=.678.",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "Results",
+          "denominator": "650 randomized; ANOVA df 636",
+          "interpretation_limits": "Null interaction is not proof of equivalence and mouseover access was optional."
+        },
+        {
+          "claim": "Among 330 offered mouseover, 227 reported noticing it and 109 reported use (about 33% of 330); article calls it 31%. Of those aware, 109/227 ≈48%.",
+          "pdf_pages": [
+            7,
+            14,
+            15
+          ],
+          "evidence_locator": "Information condition and limitations",
+          "denominator": "330 definition-condition participants; 227 aware",
+          "interpretation_limits": "Usage is self-selected; apparent arithmetic inconsistency noted, and unaware users were not asked."
+        },
+        {
+          "claim": "Mean self-schema did not differ by jargon assignment alone, p=.590; unadjusted tests of four engagement outcomes were not significant (p=.165–.648).",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "H2/H3 follow-up tests",
+          "denominator": "study participants, outcome-specific df",
+          "interpretation_limits": "Modeled indirect pathways are not the same as randomized total effects."
+        },
+        {
+          "claim": "Serial mediation indirect effects for interest 0.18 [0.12,0.25] and perceived knowledge 0.20 [0.12,0.28], unstandardized; 5,000 bootstrap resamples.",
+          "pdf_pages": [
+            12,
+            14
+          ],
+          "evidence_locator": "Table 2 and limitations",
+          "denominator": "participant-level outcomes; exact outcome-specific complete n not reported in table",
+          "interpretation_limits": "Mediators and outcomes were not independently randomized; authors explicitly say cross-sectional serial pathway is not causal."
+        }
+      ],
+      "limitations": [
+        "Short, controlled, text-only immediate exposures; paid U.S. panel is not all audiences.",
+        "Definition treatment only offered hover access; 109/330 used by self-report. Findings do not show inline definitions are ineffective.",
+        "No objective understanding test; causal jargon manipulation does not identify causal serial mediation.",
+        "Appendix stimuli include technical claims that should not be treated as verified facts."
+      ],
+      "rule_implications": [
+        "AR01",
+        "AR02",
+        "AR05"
+      ],
+      "data_or_code_leads": "Online supplemental scale items mentioned p.8; no verified dataset or software release in full text.",
+      "extraction_issues": [
+        "Paper describes 109 as 31% of 330; calculation is approximately 33%, retain original numerator and denominator.",
+        "Table 1 repeats some jargon cells unusually; do not use suspect topic rows for independent calculation."
+      ],
+      "review_file": "reviews/audience-readability.json",
+      "review_report": "reviews/audience-readability.md",
+      "practical_takeaway": "Make term choice and the reader encounter with explanations explicit; optional mouseovers do not establish comprehension."
+    },
+    {
+      "id": "P02",
+      "title": "Winning Arguments: Interaction Dynamics and Persuasion Strategies in Good-faith Online Discussions",
+      "authors": [
+        "Chenhao Tan",
+        "Vlad Niculae",
+        "Cristian Danescu-Niculescu-Mizil",
+        "Lillian Lee"
+      ],
+      "year": 2016,
+      "doi": "10.1145/2872427.2883081",
+      "study_kind": "observational corpus analysis and predictive modelling",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P02-recovered.txt",
+      "scope": "Read all 12 recovered PDF pages including appendix and references; online CMV written interactions, invited challenge audience and original poster as recipient.",
+      "sample_and_design": "Temporal training/heldout discussion trees; matched positive and negative rooted path units from same original post and most similar root content-word Jaccard; separate OP outcome task. See findings for denominators.",
+      "outcomes": [
+        "OP-awarded delta as immediate participant-reported change in view, not truth, comprehension, enduring belief or behavior",
+        "Pairwise classification accuracy",
+        "Original-post delta prediction ROC AUC"
+      ],
+      "findings": [
+        {
+          "claim": "Training 18,363 and heldout 2,263 discussion trees; 1,114,533 and 145,733 nodes respectively.",
+          "pdf_pages": [
+            3
+          ],
+          "evidence_locator": "Table 1",
+          "denominator": "Discussion trees and nodes separately; 2013-01-01 to 2015-05-07 versus 2015-05-08 to 2015-09-01",
+          "interpretation_limits": "Archive counts, not independent selected pairs."
+        },
+        {
+          "claim": "3,456 train and 807 heldout matched pairs.",
+          "pdf_pages": [
+            5
+          ],
+          "evidence_locator": "Section 4.1",
+          "denominator": "pairs, one delta winning and one unsuccessful, within same OP and lexically similar",
+          "interpretation_limits": "At least 10 challengers, three unsuccessful paths before OP last reply, each root at least 50 words; matching does not equate content or exposure."
+        },
+        {
+          "claim": "Interplay 65.1% versus BOW 59.6% accuracy.",
+          "pdf_pages": [
+            2,
+            5,
+            8
+          ],
+          "evidence_locator": "Introduction and Figure 8",
+          "denominator": "807 later heldout matched pairs",
+          "interpretation_limits": "Pair classification, not proportion persuaded or causal effects; full-path uses later dialogue."
+        },
+        {
+          "claim": "Equal-length dissection truncates longer reply after lexical matching.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Root truncated disclaimer and Table 2",
+          "denominator": "matched root replies",
+          "interpretation_limits": "It removes material, can change distributions and reverse signs; non-significance does not establish no effect."
+        },
+        {
+          "claim": "Hedges and first/second-person pronouns are higher in raw counts in winning replies; no T indicator in Table 3.",
+          "pdf_pages": [
+            6,
+            10
+          ],
+          "evidence_locator": "Table 3 and Appendix",
+          "denominator": "selected matched winning and unsuccessful root replies and full paths",
+          "interpretation_limits": "Length-associated counts; no evidence a hedge or pronoun edit causes persuasion."
+        },
+        {
+          "claim": "Definite and indefinite raw article counts track length; definite-article fraction retained significance in truncated roots.",
+          "pdf_pages": [
+            6,
+            10
+          ],
+          "evidence_locator": "Table 3, Appendix",
+          "denominator": "selected pairs; adjusted by Bonferroni in training comparisons",
+          "interpretation_limits": "Ratio is not a prescription to substitute articles; specificity interpretation is authors inference."
+        },
+        {
+          "claim": "Among long paths, zero of 129 with six or more challenger replies and one of approximately 3,000 with five received a delta.",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Figure 4b",
+          "denominator": "paths classified by challenger reply count",
+          "interpretation_limits": "Observational selection and engagement confounding; not a causal cutoff."
+        },
+        {
+          "claim": "10,743 train and 1,529 heldout original posts; heldout AUC approximately 0.54.",
+          "pdf_pages": [
+            2,
+            8,
+            9
+          ],
+          "evidence_locator": "Section 5 and Figure 9",
+          "denominator": "selected OPs with at least ten challengers and at least one OP reply",
+          "interpretation_limits": "Weak outcome prediction; delta not personality trait or comprehension."
+        },
+        {
+          "claim": "First-person pronouns and first-person plural in original posts showed opposite associations with delta.",
+          "pdf_pages": [
+            9
+          ],
+          "evidence_locator": "Table 4 and Section 5.1",
+          "denominator": "selected OP task training set, Bonferroni-corrected comparisons",
+          "interpretation_limits": "Authors self-affirmation explanation speculative and prior work cited in opposite direction; different from reply pronoun raw counts."
+        },
+        {
+          "claim": "No significant concreteness or dominance difference in replies; root Flesch-Kincaid not significant, full-path difference significant.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "Section 4.2.2 and Table 3",
+          "denominator": "selected matched pairs",
+          "interpretation_limits": "Null comparisons are not proof of equivalence; full-path observations include later dialogue."
+        },
+        {
+          "claim": "Number of challengers and delta fraction increased sublinearly; in subtrees with two to four replies, single-challenger performed better.",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "evidence_locator": "Figure 5 and Section 3.2",
+          "denominator": "discussion trees binned by number of challengers; subtrees stratified by 2–4 replies",
+          "interpretation_limits": "Selection and differences in argument difficulty confound interpretations."
+        },
+        {
+          "claim": "Topic-model features did not improve prediction; discourse-connector sequences performed poorly.",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "evidence_locator": "Section 6",
+          "denominator": "authors tested tasks and features",
+          "interpretation_limits": "Specific implementation and corpus only."
+        }
+      ],
+      "limitations": [
+        "No randomization; timing, visibility, author selection and interaction confounded. Authors explicitly disclaim causal explanations p. 2.",
+        "Lexical matching does not isolate reasoning, evidence or claim truth. Truncation removes text.",
+        "Self-selected moderated CMV community is not general reader population.",
+        "Full-path predictors may be subsequent to opening reply; no prospective editing benefit established."
+      ],
+      "rule_implications": [
+        {
+          "id": "IP-01",
+          "status": "candidate refine",
+          "existing_rule": "skills/write-with-purpose/SKILL.md reader question and reasons",
+          "trigger": "Author requests response to known viewpoint",
+          "benefit": "Retain audience and specific claim context for author review",
+          "mechanical": "Store supplied claim, audience and source target separately",
+          "semantic": "Judge whether reply engages claim fairly and appropriately",
+          "counterexample": "Personal exploration without a known opposing claim needs no opponent record",
+          "evidence": "P02 pp. 5–8; correlation only"
+        },
+        {
+          "id": "IP-02",
+          "status": "reaffirm",
+          "existing_rule": "skills/write-with-purpose/SKILL.md; skills/edit-with-purpose/references/plain-language-edit.md qualification",
+          "trigger": "Uncertainty or qualification changes claim meaning",
+          "benefit": "Preserve warranted uncertainty",
+          "mechanical": "Locate supplied qualifier only",
+          "semantic": "Judge whether qualifier is warranted and what it scopes",
+          "counterexample": "Redundant hedges can obscure a fact; necessary may can prevent false certainty",
+          "evidence": "P02 Table 3 pp. 6, 10 raw counts do not isolate effect"
+        },
+        {
+          "id": "IP-03",
+          "status": "candidate refine",
+          "existing_rule": "docs/writing-harness/research/astra-rule-revision-2026-11-16.md; experiments/dataset-adoption-2026-11-16/plugin-reuse-notes.md",
+          "trigger": "Context contains speakers, reply edges and targets",
+          "benefit": "Keep author, addressee and referenced claim distinguishable",
+          "mechanical": "Preserve source-provided IDs, reply edge, spans and unknowns",
+          "semantic": "Determine actual actor, addressee, function and relation target in context",
+          "counterexample": "Quoted you addresses a character rather than the reader",
+          "evidence": "P02 pp. 3–6; reply edge is not function gold"
+        },
+        {
+          "id": "IP-04",
+          "status": "not justified",
+          "existing_rule": "docs/writing-harness/accepted-foundations.md",
+          "trigger": "An automatic system proposes optimizing delta proxy",
+          "benefit": "Protect author intent, evidence, voice and semantic accuracy",
+          "mechanical": "Retain count as descriptive only if task relevant",
+          "semantic": "Assess whether words, links and emphasis serve actual intent",
+          "counterexample": "Technical explanation must preserve a term; safety warning may require urgency",
+          "evidence": "P02 pp. 2, 5–10 noncausal selected-task associations"
+        }
+      ],
+      "data_or_code_leads": [
+        "https://chenhaot.com/data/cmv/README.txt",
+        "https://chenhaot.com/papers/changemyview/",
+        "https://vene.ro/blog/winning-arguments-attitude-change-reddit-cmv.html",
+        "https://convokit.cornell.edu/documentation/winning.html",
+        "https://github.com/CornellNLP/ConvoKit/blob/master/datasets/winning-args-corpus/stats.ipynb"
+      ],
+      "extraction_issues": "Original p613.pdf streams corrupt; two extractors yield blank PDF pages 1 and 4. Official Cornell author copy recovered; source hash and location in experiments/evidence-integration-2026-11-16/P02-recovery.json; all recovered pages reviewed.",
+      "review_file": "reviews/interactive-persuasion.json",
+      "review_report": "reviews/interactive-persuasion.md",
+      "practical_takeaway": "Preserve audience viewpoint and interaction context; predictive phrase associations are not prescriptive persuasion edits."
+    },
+    {
+      "id": "P03",
+      "title": "The Language that Gets People to Give: Phrases that Predict Success on Kickstarter",
+      "authors": [
+        "Tanushree Mitra",
+        "Eric Gilbert"
+      ],
+      "year": 2014,
+      "doi": "10.1145/2531602.2531656",
+      "study_kind": "observational predictive modeling with post-hoc qualitative interpretation",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P03.txt",
+      "scope": "Kickstarter public crowdfunding pitches and rewards, 13 creative categories; pages scraped August 2012 after campaign end; funding outcome is goal achieved, not proposal merit or fulfillment.",
+      "sample_and_design": "45,815 launched-project URLs, 45,810 retained after five non-ended; lasso logistic regression of 20,391 selected 1–3 grams plus 59 controls, ten-fold cross-validation and 80/20 train/test comparison. Homepages can change while campaign is live and include reward descriptions; controls include update counts, comments and Featured/Most Funded placement measured post hoc.",
+      "outcomes": "Binary funded versus not funded. No randomized wording intervention, reader understanding, funder decision mechanism or subsequent delivery outcome.",
+      "findings": [
+        {
+          "claim": "23,604 of 45,810 campaigns funded (51.53%); 22,206 not funded (48.47%).",
+          "pdf_pages": [
+            3
+          ],
+          "evidence_locator": "Unit of Analysis: End-Dated Projects",
+          "denominator": "45,810 retained ended campaigns",
+          "interpretation_limits": "US Kickstarter projects observed in 2012; not all proposal settings."
+        },
+        {
+          "claim": "Reported cross-validation error was 17.03% controls-only versus 2.4% with phrases and controls (Table 2); Figure 3 reports 2.41% cross-validation and 2.24% held-out prediction error for alpha=1 using an 80/20 split.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Table 2; Results; Figure 3; Figure 4",
+          "denominator": "45,810 campaign observations, ten-fold CV; split details not fully specified",
+          "interpretation_limits": "Retrospective homepage text and dynamic controls can include outcome information; neither evaluation establishes prospective launch-time performance. Figure 4 and adjacent prose do not clearly identify the metric basis."
+        },
+        {
+          "claim": "Paper calls 58.56% a deviance drop/variance: given reported null, control and combined deviances 63,463.47, 37,525.52 and 363.42, the increment 37,162.10 divided by null deviance is 58.56%; relative to controls-only deviance it is about 99.03%.",
+          "pdf_pages": [
+            5
+          ],
+          "evidence_locator": "Results and Table 2",
+          "denominator": "Deviance comparison for 45,810 campaigns",
+          "interpretation_limits": "Not ordinary variance explained or a causal contribution; deviance from fitted models and wording internally inconsistent."
+        },
+        {
+          "claim": "Positive and negative sentiment differences were reported statistically nonsignificant; the paper calls LIWC group differences small despite statistical significance.",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "LIWC and Sentiment",
+          "denominator": "funded and unfunded campaign language groups; sample-level sentiment test denominator not separately stated",
+          "interpretation_limits": "Do not infer that positivity improves funding or no real effect exists."
+        }
+      ],
+      "limitations": [
+        "Homepages were scraped after end and could have changed; page 10 shows live progress (\"we’ve hit the 50% mark\"). Updates, comments and Most Funded status are dynamic. Strong potential temporal leakage and reverse causation, not resolved by cross-validation.",
+        "No random assignment, no inference about individual phrases causing funding; category-wide filtering and Google presence do not establish transfer.",
+        "Paper describes the majority-class baseline as always choosing not-funded despite funded being the majority; 48.47% baseline error corresponds to predicting funded (pages 3 and 6). Figure 4 and adjacent prose do not clearly identify the metric basis; Figure 3 distinguishes cross-validation from held-out prediction error.",
+        "No independent prelaunch validation, calibration or selection-inside-fold audit established in supplied paper."
+      ],
+      "rule_implications": [
+        "No lexical positive/negative phrase scoring, automatic assertiveness increase or funding guarantee. Clear, factual rewards and audience benefits may be worth presenting when true and relevant; reciprocity interpretation is an untested mechanism.",
+        "Reaffirm skills/write-with-purpose/references/concepts-and-claims.md: separate proposals, evidence, predictions and actual outcomes; preserve uncertainty."
+      ],
+      "data_or_code_leads": [
+        "Paper page 11 lists historical KS.predicts and Gg.KS.pos/neg author URLs; access, version, data and rights not checked in this review. glmnet software is identified but no project code verified. No automatic GitHub adoption."
+      ],
+      "extraction_issues": [
+        "Page 5 says 58.56% drop without clearly stating denominator; direct calculation shown above. Figure 3 distinguishes 2.41% cross-validation error from 2.24% held-out prediction error at alpha=1; Table 2 rounds cross-validation error to 2.4%. Figure 4 and adjacent prose are metric-ambiguous."
+      ],
+      "review_file": "reviews/funding-persuasion.json",
+      "review_report": "reviews/funding-persuasion.md",
+      "practical_takeaway": "Use proposal purposes and evidence, while separating retrospective prediction from an effect of changing wording."
+    },
+    {
+      "id": "P04",
+      "title": "When curiosity gaps backfire: effects of headline concreteness on information selection decisions",
+      "authors": [
+        "Marianne Aubin Le Quéré",
+        "J. Nathan Matias"
+      ],
+      "year": 2025,
+      "doi": "10.1038/s41598-024-81575-9",
+      "study_kind": "Registered report; multilevel meta-analysis of randomized field package tests with observational feature moderator",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P04.txt",
+      "scope": "English Upworthy 2013–2015 article headline/image previews; website visitors; clicks per impression. Individual knowledge, curiosity, comprehension and quality not measured.",
+      "sample_and_design": "Pilot followed by held-out confirmatory archive subset; split image-varying tests into one-image bundles, retain bundles with at least two scorable distinct headlines; binomial random-intercept/slope model for headline score nested within test; mean test concreteness interacts with within-test deviation. Randomized assignment is to complete packages, not controlled random assignment of concreteness or mean test concreteness. Same original test may yield multiple image bundles.",
+      "outcomes": [
+        "CTR on a preview, not article comprehension or durable engagement",
+        "concreteness proxy validated against mean human ratings"
+      ],
+      "findings": [
+        {
+          "claim": "35,910 headline-package observations (31,077 unique headlines) in 8,977 valid one-image bundles after 17,867 confirmatory tests and 85,830 packages; 70,546 scorable, 82.2%.",
+          "pdf_pages": [
+            6
+          ],
+          "evidence_locator": "Results, paragraph 1–2",
+          "denominator": "17,867 tests and 85,830 packages before filtering",
+          "interpretation_limits": "Paper says 70,546 pilot headlines within confirmatory paragraph; likely textual inconsistency, not silently corrected. Bundles need not be independent original tests."
+        },
+        {
+          "claim": "The interaction of headline concreteness with test mean was −0.058 (95% CI −0.091 to −0.025; Holm-adjusted p < 0.0013).",
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "evidence_locator": "Results and Table 2",
+          "denominator": "35,910 observations nested in 8,977 bundles",
+          "interpretation_limits": "Model-based association in randomized full-headline comparisons; other wording covaries, and mean is constructed from the test alternatives."
+        },
+        {
+          "claim": "Estimated positive slope below test mean 2.58 (8.7% of tests), negative above 3.06 (50.9%); middle slopes not significantly distinct from zero.",
+          "pdf_pages": [
+            8,
+            9
+          ],
+          "evidence_locator": "Results, Johnson–Neyman and discussion",
+          "denominator": "8,977 retained tests",
+          "interpretation_limits": "These are conditional confidence boundaries in this model, not validated universal cutoffs or an experimentally measured optimum for an individual author or reader."
+        },
+        {
+          "claim": "320 sampled headlines received 3,565 ratings; 176 final raters, average 11 ratings per headline; correlation between mean judgments and algorithm r=0.61.",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "evidence_locator": "Concreteness measure validation",
+          "denominator": "320 Upworthy headlines limited to 14–16 words",
+          "interpretation_limits": "Moderate association does not establish meaning, truth, informativeness or coverage; excluded unscorable words threaten transfer to technical terms."
+        },
+        {
+          "claim": "Prior nine reported experimental contrasts included three negative significant, two positive significant, four not distinguished from chance.",
+          "pdf_pages": [
+            2
+          ],
+          "evidence_locator": "Table 1 and introduction",
+          "denominator": "9 contrasts drawn from studies with differing outcome scales",
+          "interpretation_limits": "Narrative accounting of heterogeneous contrasts; not nine independent samples or pooled effect."
+        }
+      ],
+      "limitations": [
+        "Score uses lexical concreteness, NER assigns entities maximum, excludes headlines with unmatched words ≥3 characters; removes 17.1% of headlines (p4).",
+        "Same article A/B estimates causal package contrasts but not causal interventions on concreteness or the cross-test average; inference rests on model and unmeasured co-varying features.",
+        "US English audience, one publisher, editorial selection and historical algorithm environment; no individual-level curiosity measurement.",
+        "p5 defines CTR backwards as impressions/clicks; p3 correctly defines clicks/impressions; p8 prose contradicts low/high example direction and values 4.37 versus 4.41."
+      ],
+      "rule_implications": [
+        "HA-01",
+        "HA-02",
+        "HA-04"
+      ],
+      "data_or_code_leads": [
+        "https://osf.io/fbzvw/ (paper analysis code; not independently audited)",
+        "https://github.com/maubinle/sentence_concreteness (paper names package; no install or license audit)",
+        "https://upworthy.natematias.com (archive access on request per p10)"
+      ],
+      "extraction_issues": [
+        "p5 inverse CTR formula contradicts p3; p6 pilot/confirmatory wording inconsistency; p8 upper-bound example reverses score descriptions."
+      ],
+      "review_file": "reviews/headlines-attention.json",
+      "review_report": "reviews/headlines-attention.md",
+      "practical_takeaway": "Offer context-sensitive title alternatives; concreteness has no universal optimum from these historical tests."
+    },
+    {
+      "id": "P05",
+      "title": "How Readability Shapes Social Media Engagement",
+      "authors": [
+        "Ethan Pancer",
+        "Vincent Chandler",
+        "Maxwell Poole",
+        "Theodore J. Noseworthy"
+      ],
+      "year": 2019,
+      "doi": "10.1002/jcpy.1073",
+      "study_kind": "Observational platform corpus plus randomized factorial experiment and related-platform follow-up",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P05.txt",
+      "scope": "Full extracted paper pp.1–9, including both studies, follow-up, discussion, limitations and references; DOI/year from p.1 (online 2018, 2019 issue).",
+      "sample_and_design": "Study 1: 4,064 Humans of New York Facebook posts from 2013–2015; negative-binomial models with measured controls. Study 2: 236 MTurk adults randomized to 2 vocabulary complexity × 2 post lengths (59 versus 268 words) on a fictional running-shoe community post; synonyms manipulated with Dale–Chall list. Follow-up on HONY Twitter story excerpts may reuse stories and is not independent content replication (pp.2–7).",
+      "outcomes": "Actual Facebook likes, comments and shares; experimental self-reported willingness to like/comment/share, perceived ease, affect and reading time; Twitter likes/retweets. No comprehension or writing-quality test.",
+      "findings": [
+        {
+          "claim": "Field association uses 4,064 downloaded posts but table models report N=4,063. Higher Dale–Chall difficulty correlated with fewer likes/comments/shares, controlling measured covariates.",
+          "pdf_pages": [
+            3,
+            5
+          ],
+          "evidence_locator": "Study 1 methods and Table 3",
+          "denominator": "4,064 posts; 4,063 model rows",
+          "interpretation_limits": "Single social account, historical platform, unobserved post reach/audience/content confounding; association is not causal."
+        },
+        {
+          "claim": "Observed readability × length interaction for likes and comments; share interaction p=.608.",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "evidence_locator": "Study 1 results and Table 3",
+          "denominator": "4,063 model rows",
+          "interpretation_limits": "Conditional association; no universal length or reading-grade threshold follows."
+        },
+        {
+          "claim": "Randomized simple vs complex post willingness-to-like: 4.33 (SD 1.69) vs 3.06 (1.81), F(1,232)=31.49, p<.001; complexity-by-length interaction p<.05.",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "evidence_locator": "Study 2 design and liking results",
+          "denominator": "236 participants",
+          "interpretation_limits": "Intentions on one fictional running-shoe post rather than observed social behavior."
+        },
+        {
+          "claim": "For short posts, comment p=.35 and share p=.45 did not differ significantly by complexity; long-post contrasts favored simpler wording.",
+          "pdf_pages": [
+            6
+          ],
+          "evidence_locator": "Study 2 commenting and sharing",
+          "denominator": "236 randomized, cell sizes not reported in main text",
+          "interpretation_limits": "Do not read null as equivalence; experimental lengths differ substantially."
+        },
+        {
+          "claim": "Processing fluency had no readability-by-length interaction p=.49; reading-time interaction p=.07; authors suggest long complex posts were abandoned.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "Mechanism and reading time",
+          "denominator": "236 randomized",
+          "interpretation_limits": "No direct measure establishes abandoning reading; p=.07 exploratory; mediators and affect not randomized."
+        },
+        {
+          "claim": "Twitter follow-up used same HONY source, approximately 16 words on average, and reported readability associations with likes and retweets.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "General Discussion, supplementary appendix S1 p.10",
+          "denominator": "Twitter post count not in main text",
+          "interpretation_limits": "Potential overlap in stories and photographs; supplement not inspected; no independent study-count claim."
+        }
+      ],
+      "limitations": [
+        "Vocabulary familiarity is community-specific; authors explicitly discuss oversimplification and precision tradeoffs p.8.",
+        "One historical outlet and one hypothetical brand context; metrics do not measure argument quality or truth.",
+        "Laboratory outcomes are stated intentions, and proposed serial mediation does not establish a causal mediator chain.",
+        "Observational models do not resolve distribution/exposure confounding."
+      ],
+      "rule_implications": [
+        "AR01",
+        "AR03",
+        "AR05"
+      ],
+      "data_or_code_leads": "Facepager, VADER and IPTC taxonomy named pp.2–3; original snapshot and code not verified. Supplementary MDA Appendix S1 cited, not separately accessed.",
+      "extraction_issues": [
+        "Abstract says >4,000; models N=4,063 versus sample 4,064.",
+        "Appendix statistics and actual Twitter post count were not in supplied main paper."
+      ],
+      "review_file": "reviews/audience-readability.json",
+      "review_report": "reviews/audience-readability.md",
+      "practical_takeaway": "Treat processing ease as a reader-related consideration; platform engagement and intentions differ from comprehension."
+    },
+    {
+      "id": "P06",
+      "title": "What Makes Online Content Viral?",
+      "authors": [
+        "Jonah Berger",
+        "Katherine L. Milkman"
+      ],
+      "year": 2012,
+      "doi": "10.1509/jmr.10.0353",
+      "study_kind": "Observational field study plus randomized vignette experiments",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P06.txt",
+      "scope": "News homepage/email-list virality, plus advertising, customer-service and injury-story experimental vignettes; not writing quality or comprehension. PDF is ahead-of-print © 2011; publisher issue is 2012.",
+      "sample_and_design": "6,956 NYT homepage articles Aug 30–Nov 30 2008 observed every 15 minutes; 20% reached most-emailed list. A random 2,566 received human ratings from independent groups of three per construct; uncoded values set to standardized mean with dummy. Day fixed-effects logistic models control placement and other factors. Experiments randomize story versions for amusement (N=49), anger (N=45) and sadness (N=47).",
+      "outcomes": "Field outcome binary ever appeared on most-emailed list, not direct individual sharing rate; experiments 1–7 self-reported sharing likelihood and arousal; no comprehension.",
+      "findings": [
+        {
+          "claim": "One standard deviation higher rated anger associated with 34% higher odds and awe 30% higher odds of list entry in model 4.",
+          "pdf_pages": [
+            8,
+            9
+          ],
+          "evidence_locator_or_snippet": "Table 5 model 4 and discussion, p.9",
+          "denominator": "6,956 field articles; 2,566 human rated, rest mean-imputed with indicator",
+          "interpretation_limits": "Associations conditional on model; percentage odds, not percentage-point probability or causal response."
+        },
+        {
+          "claim": "Randomized high vs low amusement: sharing likelihood 3.97 vs 2.92; high vs low anger 5.71 vs 3.37 on 1–7 scale.",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "evidence_locator_or_snippet": "Study 2a/2b Results",
+          "denominator": "49 and 45 participants respectively",
+          "interpretation_limits": "Different vignettes change substantive facts as well as emotion; intention, not observed sharing."
+        },
+        {
+          "claim": "High vs low sadness: sharing likelihood 2.39 vs 3.80 and arousal 2.75 vs 3.89, 1–7.",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "evidence_locator_or_snippet": "Study 3 Method/Results",
+          "denominator": "47 participants",
+          "interpretation_limits": "Changes injury context and title; mediation analysis is model-based, not randomized arousal."
+        },
+        {
+          "claim": "All three manual raters per construct, alpha > .70; 2,566 randomly sampled articles scored, remaining imputed at standardized mean.",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "evidence_locator_or_snippet": "Article Coding",
+          "denominator": "2,566 of 6,956 articles",
+          "interpretation_limits": "High agreement is construct-specific; imputation and coder emotional response do not establish individual reader response."
+        }
+      ],
+      "limitations": [
+        "NYT homepage and most-emailed ranking in 2008; access and prominence affect opportunity to share.",
+        "High arousal anger, anxiety and awe versus low-arousal sadness differs from positivity/negativity; not all emotion or negative content has one direction.",
+        "Experimental article versions differ in material events; assigned texts can cause stated response differences, but emotion/arousal mediation is not independently randomized.",
+        "The physical PDF shows 2011 ahead-of-print; publisher labels first online 2012."
+      ],
+      "rule_implications": [
+        "NS01",
+        "NS03",
+        "NS04"
+      ],
+      "data_or_code_leads": [
+        "Web appendix referenced in source pp.3–4, 9; availability/rights not verified."
+      ],
+      "extraction_issues": [
+        "Figure 2 reports fitted probability changes; narrative uses odds; do not substitute one for another."
+      ],
+      "primary_url": "https://doi.org/10.1509/jmr.10.0353",
+      "review_file": "reviews/narrative-style-impact.json",
+      "review_report": "reviews/narrative-style-impact.md",
+      "practical_takeaway": "Allow useful emotional or narrative routes when true and purposeful; sharing is a distinct outcome."
+    },
+    {
+      "id": "P07",
+      "title": "Linguistic effects on news headline success: Evidence from thousands of online field experiments (Registered Report)",
+      "authors": [
+        "Kristina Gligorić",
+        "George Lifchits",
+        "Robert West",
+        "Ashton Anderson"
+      ],
+      "year": 2023,
+      "doi": "10.1371/journal.pone.0281682",
+      "study_kind": "Registered predictive and regression analysis of randomized field headline tests",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P07.txt",
+      "scope": "Upworthy article headline alternatives with matched image and week; clickthrough winner classification.",
+      "sample_and_design": "Pilot 5,048 eligible pairs and 24,333 confirmatory pairs, selected within same article/image/week and significant after Bonferroni correction; disjoint headline pairings but multiple pairs may originate in a single experiment. Model trained on pilot evaluated on confirmatory for prediction; separate confirmatory coefficient regression. Whole headlines randomized, linguistic attributes not individually assigned. Selection on significance and ranking changes target population.",
+      "outcomes": [
+        "binary higher-CTR headline in filtered pairs",
+        "feature associations in logistic model; not reader understanding or downstream behavior"
+      ],
+      "findings": [
+        {
+          "claim": "Held-out prediction accuracy 54.42%, 99% CI 53.6%–55.2%, against balanced 50% baseline; recall 53.17%, precision 54.53%.",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "evidence_locator": "Sampling plan; registered analyses",
+          "denominator": "24,333 selected confirmatory pairs",
+          "interpretation_limits": "Predicts a binary winner in statistically significant selected same-image/week pairs, not all headline tests; pairs can share experiments."
+        },
+        {
+          "claim": "Negative-emotion indicator β=0.18 and headline-length comparison β=0.07; positive-emotion β=−0.04 and Flesch β=0.02 did not meet preregistered p<0.01.",
+          "pdf_pages": [
+            10,
+            11,
+            12
+          ],
+          "evidence_locator": "Analysis plan and results",
+          "denominator": "24,333 selected confirmatory pairs",
+          "interpretation_limits": "Coefficients are joint logistic pairwise winner associations, not estimated per-word or per-character CTR effects; other language differences remain."
+        },
+        {
+          "claim": "Indefinite article β=0.12, first-person singular β=0.24, first-person plural β=−0.15; second-person β=0.05 did not meet p<0.01.",
+          "pdf_pages": [
+            12
+          ],
+          "evidence_locator": "Generality and Pronouns; Table 3",
+          "denominator": "24,333 selected pairs",
+          "interpretation_limits": "Article/pronoun indicators are imperfect proxies; no universal prescription or author-voice judgment."
+        },
+        {
+          "claim": "Seven of eleven feature hypotheses supported, four not supported at preregistered threshold.",
+          "pdf_pages": [
+            11,
+            12
+          ],
+          "evidence_locator": "Registered analyses and Table 4",
+          "denominator": "11 feature hypotheses on 24,333 pairs",
+          "interpretation_limits": "Non-significant is not proof of no effect; hypothesis outcomes are not independent replications."
+        }
+      ],
+      "limitations": [
+        "Matched same image and time improve headline contrast; word-level effects remain modeled associations because variants differ on multiple correlated/unmeasured features (pp16–17).",
+        "Headline uniqueness across pairs does not guarantee statistical independence of tests, stories or users; archive aggregates impressions without individual identifiers.",
+        "Selection of significant pairs introduces winner-selection/generalization limitations. Topic, reader demographics, other forms and modern context differ.",
+        "P12 prose definite article p=0.0331 whereas Table 3 coefficient 0.0331 and p=0.123; avoid asserting disputed value."
+      ],
+      "rule_implications": [
+        "HA-01",
+        "HA-02",
+        "HA-03",
+        "HA-04"
+      ],
+      "data_or_code_leads": [
+        "https://doi.org/10.1038/s41597-021-00934-7 (shared archive, p1)",
+        "https://github.com/shivam5992/textstat (cited reference; not inspected or installed)",
+        "LIWC dictionary under separate terms; no reuse permission inferred"
+      ],
+      "extraction_issues": [
+        "p12 definite-article p-value inconsistent between text and table; p10 reports accuracy CI 0.536–0.552 while also reporting odds ratio; interpreted as accuracy interval."
+      ],
+      "review_file": "reviews/headlines-attention.json",
+      "review_report": "reviews/headlines-attention.md",
+      "practical_takeaway": "Keep headline metrics scoped; modest held-out winner prediction does not support deterministic lexical rules."
+    },
+    {
+      "id": "P08",
+      "title": "Narrative Style Influences Citation Frequency in Climate Change Science",
+      "authors": [
+        "Ann Hillier",
+        "Ryan P. Kelly",
+        "Terrie Klinger"
+      ],
+      "year": 2016,
+      "doi": "10.1371/journal.pone.0167983",
+      "study_kind": "Observational corpus study",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P08.txt",
+      "scope": "English climate-change research abstracts, 2009–2010, 19 high-output journals, cited at least once; citation count is a proxy rather than tested comprehension.",
+      "sample_and_design": "802 raw, 732 after quality control; seven crowd ratings per abstract by 155 contributors; six narrativity indicators, PCA plus regressions; minority ratings on first-person test removed and binary means rounded.",
+      "outcomes": "Web of Science total citations as of 30 March 2016, log transformed; not experimentally assigned style or reader outcomes.",
+      "findings": [
+        {
+          "claim": "Narrativity index vs log citations R²=.05; index journal-mean vs log journal impact factor R²=.62.",
+          "pdf_pages": [
+            5,
+            8
+          ],
+          "evidence_locator_or_snippet": "Results and Fig. 2",
+          "denominator": "732 selected abstracts from 19 journals; second analysis uses journal means",
+          "interpretation_limits": "Weak individual relationship; journal-level association is not individual causal effect."
+        },
+        {
+          "claim": "Conjunctions rho=.211; connectivity rho=.171; sensory rho=.138; appeal p=.0037. Setting p=.36 and narrative perspective p=.32.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator_or_snippet": "Table 1",
+          "denominator": "732 abstracts after quality control",
+          "interpretation_limits": "Univariate associations; p values not effect sizes and correlations do not show narrative causes citation."
+        },
+        {
+          "claim": "Journal ANOVA R²=.43; selected model using year, PC1, log authors and log impact factor R²=.41.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator_or_snippet": "Non-narrative variables and Multiple Linear Regression",
+          "denominator": "732 papers",
+          "interpretation_limits": "Final model uses impact factor rather than journal identity; journal confounding remains. No direct randomized test."
+        },
+        {
+          "claim": "Each abstract initially received seven judgments; 155 total contributors; 802 to 732 post-quality-control.",
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_locator_or_snippet": "Selection, Crowdsourcing, Quality Control",
+          "denominator": "802 raw abstracts, 732 final",
+          "interpretation_limits": "Excludes zero-citation articles; filtering entire coder responses based on first-person majority can remove disagreement."
+        }
+      ],
+      "limitations": [
+        "Six broad proxies for narrative include conjunctions, explicit connections and recommendations that are not uniquely stories or chronological narration.",
+        "Different journals and editorial selection are strongly linked to both narrativity and citation; paper itself says it could not test mechanisms.",
+        "Excludes zero-citation articles, narrow climate field and era, abstracts rather than complete texts.",
+        "Authors sometimes use causal language; study supports association only."
+      ],
+      "rule_implications": [
+        "NS01",
+        "NS03",
+        "NS04"
+      ],
+      "data_or_code_leads": [
+        {
+          "resource": "Official PLOS supplements S1 Text instructions and S2 Text questions",
+          "urls": [
+            "https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0167983.s003",
+            "https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0167983.s004"
+          ],
+          "inspected": "Read both: yes/no setting, narrator self-reference, and appeal/action; counts of sensory/emotional language, causal/contrast/temporal conjunctions, and links to preceding sentence. Six dimensions are not the project narrate function.",
+          "reuse": "Reuse questions as scoped examples and preserve raw judgments and disagreement; do not equate ratings with paragraph function."
+        },
+        {
+          "resource": "Official PLOS raw judgment CSV, R script and journal data",
+          "urls": [
+            "https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0167983.s009",
+            "https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0167983.s008",
+            "https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0167983.s010"
+          ],
+          "inspected": "Complete CSV aggregate: 5,614 raw judgment rows, 802 unit IDs, exactly seven rows per ID. Raw/pre-QC, not 732 post-QC abstracts. R script read as text only: groups by unit, filters to first-person-question majority, aggregates judgments and filters publication year; not executed. Journal CSV receipt records 19 rows.",
+          "reuse": "Possible provenance-backed multi-rater methodological comparison, not a reproduced analysis or independent evidence of causality; keep sensitive metadata and abstracts out of derived outputs."
+        }
+      ],
+      "extraction_issues": [
+        "Local physical PDF pages coincide with printed 1–12; word hyphenation split in extraction."
+      ],
+      "primary_url": "https://doi.org/10.1371/journal.pone.0167983",
+      "supplement_access": {
+        "receipt": "experiments/evidence-integration-2026-11-16/supplement-attempts.json",
+        "unit_and_privacy": "Raw rows include sensitive contributor and source-text fields; only aggregate counts and instrument descriptions retained here.",
+        "validation_limit": "Inspected instructions, questions, raw CSV aggregate, and script as text; no analysis executed or replicated."
+      },
+      "review_file": "reviews/narrative-style-impact.json",
+      "review_report": "reviews/narrative-style-impact.md",
+      "practical_takeaway": "Reuse narrative-rating questions and data as a distinct instrument; journal-confounded citations do not validate our narrate spans."
+    },
+    {
+      "id": "P09",
+      "title": "Better Writing in Scientific Publications Builds Reader Confidence and Understanding",
+      "authors": [
+        "Ren Ryba",
+        "Zoë A. Doubleday",
+        "Matthew J. Dry",
+        "Carolyn Semmler",
+        "Sean D. Connell"
+      ],
+      "year": 2021,
+      "doi": "10.3389/fpsyg.2021.714321",
+      "study_kind": "Randomized bundled-style experiment",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P09.txt",
+      "scope": "Full extracted paper pp.1–8, methods, results, discussion, data statement and references; DOI and publication date verified p.1.",
+      "sample_and_design": "170 third-year undergraduate science participants from 173 approached read up to three randomized distinct-topic abstract variants; four predefined style levels bundle nine correlated manipulations for real-study-based abstracts in social anxiety, solar cells and populism. Models include topic and participant random intercept (pp.2–4).",
+      "outcomes": "1–5 self-reported ease/readability and confidence; two topic-specific multiple-choice questions assess stated research purpose and take-home message. Comprehension is objective item correctness, not a broad competence test.",
+      "findings": [
+        {
+          "claim": "Analyzed 347 responses each for perceived readability/confidence (170 participants); understanding model 628 binary item responses from 143 participants.",
+          "pdf_pages": [
+            3,
+            6
+          ],
+          "evidence_locator": "Methods and Table 3",
+          "denominator": "347 reading events; 628 answer items; 170 vs 143 participants",
+          "interpretation_limits": "Repeated items are not independent participants and outcome denominators differ."
+        },
+        {
+          "claim": "Difficulty composite model: readability +2.91 percentage points [1.79,4.03], confidence +1.87 [0.75,2.99] per unit toward accessible style; topic-adjusted mixed models.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Results and Table 3",
+          "denominator": "347 responses from 170 participants",
+          "interpretation_limits": "Style axis is PCA of a bundled manipulation; no individual component effect is isolated."
+        },
+        {
+          "claim": "Understanding odds ratio 1.08 [1.01,1.15] per composite unit; p=.027, topic-adjusted mixed model.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Results and Table 3",
+          "denominator": "628 answer items from 143 participants",
+          "interpretation_limits": "Two multiple-choice questions per abstract; odds ratio, not 8 percentage-point improvement."
+        },
+        {
+          "claim": "Raw comprehension proportions nonmonotonic across easiest, easy, hard, hardest: 57.87%, 39.47%, 40.79%, 47.95%.",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Table 2",
+          "denominator": "628 responses to understanding questions overall; per-level denominators not given",
+          "interpretation_limits": "Raw group proportions do not establish monotone dose-response; modeled result adjusts topic and reader."
+        },
+        {
+          "claim": "No evidence of topic × difficulty or English-as-second-language effect in alternative models; authors caution sample not designed for ESL inference.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Results and Discussion",
+          "denominator": "170 participants; 87.1% native English speakers",
+          "interpretation_limits": "Nonsignificance is not equivalence and subgroup sample is limited."
+        },
+        {
+          "claim": "Table 2 reports easiest/hardest confidence 62.36%/48.78%; p.5 text instead gives 58.3%/44.1%, while discussion returns to 62%/49%.",
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "evidence_locator": "Table 2 vs results prose and discussion",
+          "denominator": "347 confidence responses; per-condition n not reported",
+          "interpretation_limits": "Unresolved internal discrepancy; avoid treating either contrast as independently verified."
+        }
+      ],
+      "limitations": [
+        "Nine aspects vary together (including 0 hedges versus 4, acronyms, length, punctuation); isolated removal of any single feature is not tested.",
+        "Three created abstracts, student population, short testing and two questions limit domain and professional-reader generalization.",
+        "Results text and Table 2 differ on confidence means; Discussion p.6 inaccurately describes understanding as self-reported although methods explicitly describe multiple-choice scoring.",
+        "Authors retained content and logical flow by design, but whether all qualifications are equivalently represented is not independently audited."
+      ],
+      "rule_implications": [
+        "AR01",
+        "AR02",
+        "AR04",
+        "AR05"
+      ],
+      "data_or_code_leads": "Authors state raw data available on request p.7; supplementary abstract stimuli and alternative models linked in article. No code repository confirmed.",
+      "extraction_issues": [
+        "Internal mismatch: Table 2 vs p.5 confidence means; retain both and no invented resolution.",
+        "Discussion p.6 calls all measures self-reported; methods and Tables 2–3 specify binary comprehension questions.",
+        "Table 3 confidence intercept appears extracted as 0.89 beside CI 66.30–75.47; not used."
+      ],
+      "review_file": "reviews/audience-readability.json",
+      "review_report": "reviews/audience-readability.md",
+      "practical_takeaway": "Compare bundled accessibility approaches while preserving necessary terms and uncertainty; individual ingredients were not isolated."
+    },
+    {
+      "id": "P10",
+      "title": "Use of Promotional Language in Grant Applications and Grant Success",
+      "authors": [
+        "Huilian Sophie Qiu",
+        "Hao Peng",
+        "Henrik Barslund Fosse",
+        "Teresa K. Woodruff",
+        "Brian Uzzi"
+      ],
+      "year": 2024,
+      "doi": "10.1001/jamanetworkopen.2024.48696",
+      "study_kind": "cross-sectional observational association study with regression and lexical validation",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P10.txt",
+      "scope": "Biomedical grant applications to NNF in 2015–2022 and Northwestern faculty NIH submissions in 2007–2019; funded and rejected full application texts. Audience includes agency reviewers, not general workplace decision makers.",
+      "sample_and_design": "9,096 NNF applications, 2,439 NIH applications from one university; dictionary fraction of 139 science-specific promotional words, logistic association with covariates including applicant performance and grant features and year/length fixed effects. Lexicon validation and five-fold cross-validation reported; released supplementary information and data statements not individually checked.",
+      "outcomes": "Binary funded/rejected and frequency of promotional terms; no randomized causal outcome, measured readability, merit or actual reviewer comprehension.",
+      "findings": [
+        {
+          "claim": "NNF awarded 1,579 of 9,096 applications (17.4%); NIH awarded 481 of 2,439 (19.7%).",
+          "pdf_pages": [
+            2
+          ],
+          "evidence_locator": "Methods",
+          "denominator": "respective agency sample application totals",
+          "interpretation_limits": "NIH cohort from one institution, NNF from one foundation; repeated applicants possible."
+        },
+        {
+          "claim": "Adjusted odds ratios for promotional-word percentage were 1.47 (95% CI 1.25–1.71) NNF and 1.51 (1.10–2.11) NIH; methods indicate a one percentage-point increase in the fraction.",
+          "pdf_pages": [
+            3,
+            5,
+            6
+          ],
+          "evidence_locator": "Statistical Analysis; Results; Figure 2",
+          "denominator": "9,096 NNF and 2,439 NIH applications in full samples; exact model complete cases not stated in main text",
+          "interpretation_limits": "Odds ratios, not probability ratios or effects of editing. Figure 2 displays 1.46 for the NNF multivariable model; use prose 1.47 with rounding discrepancy flagged."
+        },
+        {
+          "claim": "Mean dictionary-word fractions funded vs unfunded were 1.02% vs 0.98% for NNF and 0.93% vs 0.89% for NIH.",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Results Figure 1",
+          "denominator": "NNF funded 1,579/unfunded 7,517; NIH funded 481/unfunded 1,958",
+          "interpretation_limits": "Word fractions, not measures of inaccurate or unsupported hype; differences are descriptive."
+        },
+        {
+          "claim": "NNF binscatter estimated 14% to 22% funding probability from lowest to highest promotional-language bin; paper also describes relative increase of 53%.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Results and Figure 2",
+          "denominator": "20 equal-size bins of NNF sample; exact bin counts not printed",
+          "interpretation_limits": "Approximate fitted sample association, not benefit from adding words; figure caption also calls 53% an odds increase, creating ambiguity."
+        },
+        {
+          "claim": "Previous lexicon construction evaluated each candidate in at least 500 occurrences by two reviewers, with reported kappa 0.82.",
+          "pdf_pages": [
+            3
+          ],
+          "evidence_locator": "Methods: dictionary and validation",
+          "denominator": "at least 500 contexts per candidate term, 139-term instrument",
+          "interpretation_limits": "Context-level agreement from earlier work; does not validate each token occurrence in every grant."
+        }
+      ],
+      "limitations": [
+        "Observational covariate adjustment does not remove unmeasured project merit, reviewer expectations, selection or confounding; author notes need for causal studies (p8).",
+        "A dictionary term is not a judgment of exaggeration, truth or appropriateness in context. Their sample substitution examples are sometimes awkward or change intensity.",
+        "Five-fold validation reported (Fig 2) without predictive accuracy or independent temporal/external sample evaluation in main paper; does not establish causal or prospective performance.",
+        "Page 2 says 38.4% of NNF and 33.7% of NIH are women, with numerators using all applications although phrasing ambiguously follows awarded subset. Treat 3491/9096 and 823/2439 as full-application counts.",
+        "NIH sample and one private foundation do not represent other funders, disciplines or eras."
+      ],
+      "rule_implications": [
+        "A blanket ban on adjectives or promotional lexemes conflicts with observed positive association, not proof of improved prose or reason to add adjectives.",
+        "Reaffirm evidence-backed positive emphasis and proposal significance when substantiated; retain uncertainty and voice. Flag ungrounded novelty, superlatives and promises for contextual review, never automatic deletion or insertion."
+      ],
+      "data_or_code_leads": [
+        "Main paper pages 2, 9–10: NNF data obtainable through cooperative agreement on request; NIH data internal university request; supplement 1 lists dictionary, operationalization, model tables, supplement 2 data statement. Neither supplement inspected; no reproducible repository verified."
+      ],
+      "extraction_issues": [
+        "Article uses causal wording (\"can increase\") but discussion explicitly calls for causal analyses; this review treats estimates as associations. NNF adjusted OR in main results 1.47 while figure 2 shows 1.46. Caption and text disagree about odds versus probability for 53% change."
+      ],
+      "review_file": "reviews/funding-persuasion.json",
+      "review_report": "reviews/funding-persuasion.md",
+      "practical_takeaway": "Allow truthful positive emphasis and check claims; promotional-word associations do not demonstrate a benefit from adding hype."
+    },
+    {
+      "id": "P11",
+      "title": "The effect of writing style on success in grant applications",
+      "authors": [
+        "Peter van den Besselaar",
+        "Charlie Mom"
+      ],
+      "year": 2022,
+      "doi": "10.1016/j.joi.2022.101257",
+      "study_kind": "observational multivariable study of application language and review outcomes",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P11.txt",
+      "scope": "One early-career funding scheme in 2014, disciplinary panels; project description, abstract and CV; funding selection has staged review, later presentation and peer review.",
+      "sample_and_design": "3,207 applications received; 3,030 consented, 2,900 text-extractable after exclusions, 2,532 eligible following field and bibliometric exclusions; tables use 2,493 first-stage and 677 second-stage descriptions. English proficiency proxied by country-level score. LIWC 2015 English dictionaries; features standardized by panel; mixed, ordinal and logistic regressions control for panel, applicant publication impact and gender.",
+      "outcomes": "First and second-stage project scores, ordinal final score and decision to proceed/funding. Linguistic proxies are not observed comprehension or objective writing quality.",
+      "findings": [
+        {
+          "claim": "First-stage project-description model estimated certainty coefficient B=0.043 (95% CI 0.022–0.063; p<0.001); tentative words B=0.002 (95% CI −0.020–0.023; p=0.885).",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "Table 3, mixed model with panel fixed effects",
+          "denominator": "2,493 project descriptions",
+          "interpretation_limits": "Coefficients panel-standardized, observational, no causal proof; a null result does not justify removing hedges."
+        },
+        {
+          "claim": "First-stage progression model certainty OR 1.180 (95% CI 1.070–1.303); tentative OR 0.986 (0.890–1.093). Causal words OR 1.050 (0.952–1.158), not statistically significant.",
+          "pdf_pages": [
+            8
+          ],
+          "evidence_locator": "Table 5",
+          "denominator": "2,493 first-stage descriptions",
+          "interpretation_limits": "Per standardized predictor under model covariates; not final grant success. Do not add unsupported certainty or causal wording."
+        },
+        {
+          "claim": "First-stage project score associations include positive word count B=0.501 and squared term B=−0.360, and positive words/sentence B=0.135 with squared B=−0.159.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "Table 3",
+          "denominator": "2,493 project descriptions",
+          "interpretation_limits": "Joint quadratic model, panel-standardized; do not turn into a target or claim that increasing length causes success."
+        },
+        {
+          "claim": "In stage two, project score model common words B=−0.030, p=0.036; final funding model common words OR=0.863, 95% CI 0.707–1.053, p=0.146.",
+          "pdf_pages": [
+            8,
+            9
+          ],
+          "evidence_locator": "Tables 6 and 7",
+          "denominator": "677 selected stage-two project descriptions",
+          "interpretation_limits": "Different outcomes; later-stage sample selected on earlier success. Paper overgeneralizes significance to both outcomes."
+        },
+        {
+          "claim": "For final ordinal score model, Nagelkerke pseudo-R² was 0.191 for full model and 0.146 linguistic-only; first-stage progression 0.131 and 0.100 respectively.",
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "evidence_locator": "Tables 4 and 5",
+          "denominator": "2,493 stage-one descriptions",
+          "interpretation_limits": "Pseudo-R² is model fit statistic, not ordinary variance explained or out-of-sample accuracy; no external model validation is reported."
+        },
+        {
+          "claim": "Abstract model shows tentative words B=0.024, p=0.025 for stage-one project score; most other abstract associations were not statistically significant.",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "Table 10",
+          "denominator": "2,493 stage-one abstracts",
+          "interpretation_limits": "Paper’s blanket conclusion of no abstract effects overstates its own table; exploratory multiple comparisons and proxy interpretation cautions."
+        }
+      ],
+      "limitations": [
+        "Single year, one scheme, early career and pre-set section/page constraints. Excluded humanities, law and qualitative social sciences and applicants missing bibliometric records.",
+        "Country nationality-based English score is crude; LIWC common-word frequency conflates technical content with readability; LIWC analytic score is not demonstrated narrative quality; measures do not establish mechanisms.",
+        "Selection into second stage, intervening extended applications and oral panel presentation confound comparisons across stages.",
+        "No held-out prospective predictive assessment or causal intervention reported; significance is not measured effect of an edit.",
+        "Table 9 duplicates first-stage decision coefficients in last column, and Table 3 extracted confidence intervals have apparent inconsistencies; verify typeset table before reuse."
+      ],
+      "rule_implications": [
+        "Refine plain-language suggestions to preserve necessary technical content and vary syntax for reader function; do not impose short sentences, simple words or a complexity target.",
+        "Reaffirm preserving uncertainty; tentative terms not shown harmful, and may be epistemically necessary; candidate reassurance cannot raise modality.",
+        "Use section and audience context when reviewing presentation rather than translating LIWC narrative and analytic indexes into paragraph-function labels."
+      ],
+      "data_or_code_leads": [
+        "LIWC 2015 identified as third-party software, not a demonstrated open corpus or codebook; applications collected under consent and no reusable release verified."
+      ],
+      "extraction_issues": [
+        "Paper uses effect/causal language despite observational design. Narrative interpretations are proxies; Table 10 conflicts with blanket abstract null conclusion, Table 7 with blanket stage-two common-words statement."
+      ],
+      "review_file": "reviews/funding-persuasion.json",
+      "review_report": "reviews/funding-persuasion.md",
+      "practical_takeaway": "Respect section, stage and nonlinear variation; no transferable word/sentence target or universal penalty on tentative words."
+    },
+    {
+      "id": "P12",
+      "title": "Style, content, and the success of ideas",
+      "authors": [
+        "Reihane Boghrati",
+        "Jonah Berger",
+        "Grant Packard"
+      ],
+      "year": 2023,
+      "doi": "10.1002/jcpy.1346",
+      "study_kind": "Observational predictive analyses plus randomized one-sentence experiments",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P12.txt",
+      "scope": "Five social science fields from selected JSTOR journals, plus online volunteer ratings of isolated research descriptions; citations or perceived importance/impact, not measured actual learning.",
+      "sample_and_design": "28,774 research articles, 1990–2018; nine LIWC function-word category rates as style features, LDA topic mixture as content proxies, journal/year and other controls; negative-binomial and neural-network models. Exploratory section-level analyses. MTurk personal voice experiment N=185 and Prolific tense experiment N=234.",
+      "outcomes": "Google Scholar citation counts observationally; randomized experiments 1–7 perceived importance and expected impact, not actual citations.",
+      "findings": [
+        {
+          "claim": "Adding style features adjusted R² .208 to .217 in negative-binomial model; neural model predicted R² .209 to .234. Authors express gains as 4–11% of model-explained variance, not 4–11% of all variance.",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "evidence_locator_or_snippet": "Table 1; Study 1 results",
+          "denominator": "28,774 articles in each model",
+          "interpretation_limits": "Topic controls and function words are proxies, not clean separation of all content and style; model comparison is predictive, not causal."
+        },
+        {
+          "claim": "Exploratory first-person coefficients: front end b=.076 p<.001; empirical middle b=−.029 p=.016; conclusion b=.007 p=.29.",
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "evidence_locator_or_snippet": "Study 2 personal voice",
+          "denominator": "Article corpus; section analysis, exact eligible denominator not explicitly given in text",
+          "interpretation_limits": "Adjusted negative-binomial coefficients, not percentage citation change; section classification and confounding remain."
+        },
+        {
+          "claim": "Article/preposition coefficients front −.034/−.015; middle −.002 (p=.66)/+.027 (p<.001).",
+          "pdf_pages": [
+            8
+          ],
+          "evidence_locator_or_snippet": "Study 2 simplicity, Table S8",
+          "denominator": "Article corpus; exact section denominator not stated",
+          "interpretation_limits": "Preposition and article frequency is not comprehension; direction varies by section; p for middle article is nonsignificant."
+        },
+        {
+          "claim": "Personal-voice randomized condition vs control: importance 6.15 vs 5.76 and expected impact 5.97 vs 5.39, on 1–7 scales.",
+          "pdf_pages": [
+            9
+          ],
+          "evidence_locator_or_snippet": "Study 3 results",
+          "denominator": "185 MTurk participants",
+          "interpretation_limits": "One sentence, perceived outcomes, not citation or comprehension; treatment changes subject framing."
+        },
+        {
+          "claim": "Present vs past condition: importance 5.97 vs 5.60 and expected impact 5.69 vs 5.20, on 1–7 scales.",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "evidence_locator_or_snippet": "Study 4 results",
+          "denominator": "234 Prolific participants per Method; reported impact F(1,200) has inconsistent denominator",
+          "interpretation_limits": "One sentence; changes tense/aspect and perceived currentness, potentially factual meaning. Printed mediation paragraph incorrectly names personal voice."
+        }
+      ],
+      "limitations": [
+        "Function words carry grammatical and semantic meaning: pronouns change attribution and agency, tense/aspect changes temporal state, prepositions and negation scope. Topic mixture cannot isolate content quality or novelty; authors acknowledge this p.11.",
+        "Journal fixed effects and many controls reduce some confounding but do not remove unobserved topic quality, authorship or selection.",
+        "Section-level analyses are exploratory and paper reports null interactions; coefficients do not justify uniform first person or removal of articles/prepositions.",
+        "Study 3 and 4 manipulate a single vignette each and measure perceptions. Causal effect is for text versions and stated ratings only; mediators observational."
+      ],
+      "rule_implications": [
+        "NS02",
+        "NS04"
+      ],
+      "data_or_code_leads": [
+        "Paper references supplementary S1–S9 and LIWC dictionaries, JSTOR source and Publish or Perish; full datasets and permissions are not established by this review."
+      ],
+      "extraction_issues": [
+        "p.10 Study 4 uses personal voice in mediation paragraph despite a tense manipulation; reported F(1,200) for impact differs from N=234 and importance F(1,232). Preserve discrepancy rather than silently fixing."
+      ],
+      "primary_url": "https://doi.org/10.1002/jcpy.1346",
+      "review_file": "reviews/narrative-style-impact.json",
+      "review_report": "reviews/narrative-style-impact.md",
+      "practical_takeaway": "Consider voice and connecting language in context; small predictive improvements and sentence judgments do not establish whole-piece impact."
+    },
+    {
+      "id": "P13",
+      "title": "Negativity drives online news consumption",
+      "authors": [
+        "Claire E. Robertson",
+        "Nicolas Pröllochs",
+        "Kaoru Schwarzenegger",
+        "Philip Pärnamets",
+        "Jay J. Van Bavel",
+        "Stefan Feuerriegel"
+      ],
+      "year": 2023,
+      "doi": "10.1038/s41562-023-01538-4",
+      "study_kind": "Registered report; multilevel analysis of randomized field headline/package experiments",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P13.txt",
+      "scope": "Upworthy English viral-news headline previews, 2013–2015; aggregate CTR.",
+      "sample_and_design": "Confirmatory release: 22,743 experiments before filtering; exclude single headline tests, combine duplicate headlines including across images; 12,448 remaining experiments. Binomial model random intercepts and varying slopes with length, fog index, positive/negative lexical scores, time. Whole variants randomized; emotion tokens are post hoc attributes, not randomized word interventions. Archive aggregates headline impressions and clicks, not individual users; independence across experiments asserted by authors but repeated users cannot be tested.",
+      "outcomes": [
+        "clicks per impression; no direct measurement of sentiment, comprehension, satisfaction, share or writing quality"
+      ],
+      "findings": [
+        {
+          "claim": "After filtering: 12,448 experiments, 53,699 headline variations, more than 205 million impressions and 2,778,124 clicks; mean 4.31 variants per experiment.",
+          "pdf_pages": [
+            3
+          ],
+          "evidence_locator": "Results: RCTs comparing news consumption",
+          "denominator": "22,743 confirmatory experiments before filtering",
+          "interpretation_limits": "Figure 2 caption reports 53,669, whereas text and Table 3 report 53,699."
+        },
+        {
+          "claim": "Negative score β=0.015, 99% CI 0.013–0.018 per standardized proportion; authors estimate 2.3% relative CTR increase for each additional negative word at average 14.965-word headline.",
+          "pdf_pages": [
+            3,
+            8
+          ],
+          "evidence_locator": "Effect of negative language; model standardization",
+          "denominator": "53,699 headline observations in 12,448 filtered experiments",
+          "interpretation_limits": "Not 2.3 percentage points; model estimate rather than randomized isolated-word substitution; lexical choices and other wording may change together."
+        },
+        {
+          "claim": "Positive score β=−0.008 (99% CI −0.010 to −0.006); authors estimate 1.0% relative CTR decrease per positive word for mean-length headline.",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "evidence_locator": "Results: positive and negative language",
+          "denominator": "53,699 headline observations, 12,448 experiments",
+          "interpretation_limits": "P07 found no support for its positive-word hypothesis; different selection, estimands, modeling and lexicon processing on overlapping archive."
+        },
+        {
+          "claim": "Secondary discrete-emotion scores: sadness β=0.006; fear β=−0.007; joy β=−0.009; anger β≈0, p=0.666 and equivalence test inconclusive.",
+          "pdf_pages": [
+            5
+          ],
+          "evidence_locator": "Extension to discrete emotions",
+          "denominator": "same filtered corpus, modeled dictionary emotion proportions",
+          "interpretation_limits": "Fear sign opposes preregistered hypothesis; non-significant anger does not establish no effect. Different outcome from sharing; emotion label is lexical proxy."
+        },
+        {
+          "claim": "Varying-slope model: negative β=0.018 (99% CI 0.011–0.025), positive β=−0.017 (−0.023 to −0.010).",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Table 3",
+          "denominator": "53,699 headline observations, 12,448 experiments",
+          "interpretation_limits": "Associations under model; image variation could co-occur though authors report robustness excluding image RCTs."
+        }
+      ],
+      "limitations": [
+        "Samples share Upworthy archive with P04 and P07; overlap size not established. Do not count as independent replications.",
+        "Same story randomized variants identify effects of packages; lexical feature coefficients are observational post-treatment classifications with possible residual wording/image confounding, despite author causal language.",
+        "Dictionary and negation heuristics do not directly measure experienced emotion; same-user exposure or demographics not available.",
+        "p4 Fig 2 caption 53,669 conflicts with Table 3 and p3 53,699; p4 complexity prose prints +0.004 with negative z and interval."
+      ],
+      "rule_implications": [
+        "HA-02",
+        "HA-03",
+        "HA-04"
+      ],
+      "data_or_code_leads": [
+        "https://osf.io/uscpf/ (paper-reported data and analysis code; not independently audited)",
+        "https://www.liwc.app/ (paper says commercial purchase; no redistribution implied)",
+        "https://nrc.canada.ca/en/research-development/products-services/technical-advisory-services/sentiment-emotion-lexicons (public download, license not verified)"
+      ],
+      "extraction_issues": [
+        "Figure 2 caption denominator conflicts with paper text/table; complexity coefficient sign typo conflicts with z and interval."
+      ],
+      "review_file": "reviews/headlines-attention.json",
+      "review_report": "reviews/headlines-attention.md",
+      "practical_takeaway": "Keep negativity/attention optional and purpose-bound; whole headline packages were randomized, individual word effects are model-dependent."
+    },
+    {
+      "id": "P14",
+      "title": "Ten Simple (Empirical) Rules for Writing Science",
+      "authors": [
+        "Cody J. Weinberger",
+        "James A. Evans",
+        "Stefano Allesina"
+      ],
+      "year": 2015,
+      "doi": "10.1371/journal.pcbi.1004205",
+      "study_kind": "Editorial containing an observational quantitative analysis of article-abstract features and citations; not a systematic review, intervention trial or causal test",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P14.txt",
+      "scope": "All six supplied main-paper pages and all five pages of official S1 Supporting Information reviewed. Abstracts from scientific articles rather than full-text professional writing.",
+      "sample_and_design": "Scopus records marked Article, published 1996–2012 and downloaded May 2013 in eight JCR categories. Excluded abstracts under 50 words, records with no author or fewer than 10 references; 1,065,139 category records remained. Some journals belong to multiple categories, so records need not represent independent articles (S1 pp. 1–2). Separate linear regressions by discipline and abstract feature and then journal; outcome log(citations+1), journal-year categorical effects, journal-standardized author count, reference count and feature (S1 pp. 2–3).",
+      "outcomes": [
+        "Total citations as proxy for author-defined success, not comprehension, writing quality, causal influence or reader preference"
+      ],
+      "findings": [
+        {
+          "claim": "Rule-proxy associations and direction are inventoried individually in rule_tests.",
+          "pdf_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence_locator": "Rules 1–10, Fig. 1 and Results",
+          "denominator": "More than one million abstracts across eight selected disciplines and 17 years; individual cell denominators in inaccessible supplement",
+          "interpretation_limits": "Citation is observational and proxies imperfect; significance sign is not effect size; heterogeneity and multiple comparisons apply."
+        },
+        {
+          "claim": "Figure 1 uses 0.01/15 as per-feature criterion, Bonferroni adjustment toward an overall 1% level.",
+          "pdf_pages": [
+            3
+          ],
+          "evidence_locator": "Fig. 1 caption",
+          "denominator": "15 tested features per discipline",
+          "interpretation_limits": "Do not infer unreported precise p-values or correct for additional tests not described in supplied main text."
+        },
+        {
+          "claim": "Authors give example one-standard-deviation journal-relative changes of +4.6% for a mathematics novelty measure and −7.2% for a geology shorter-abstract measure.",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "evidence_locator": "Fig. 2 and adjacent text",
+          "denominator": "One SD of stated feature relative to journal; mathematical scale and full model details depend on S1 Text",
+          "interpretation_limits": "These are model associations, not causal impacts; the prose and features require direction-aware interpretation."
+        },
+        {
+          "claim": "Authors report sign changes in three of fifteen measured features across fields.",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Conclusions",
+          "denominator": "15 abstract feature proxies across eight disciplines",
+          "interpretation_limits": "A sign-change summary is not evidence of equal magnitude, non-significance, or no important within-discipline variation."
+        },
+        {
+          "claim": "May 2013 Scopus category sample retained 1,065,139 records after excluding abstracts under 50 words, missing author, or fewer than ten references; articles span 1996–2012.",
+          "pdf_pages": [
+            "S1:1",
+            "S1:2"
+          ],
+          "evidence_locator": "S1 Data, Table 1 and exclusions",
+          "denominator": "1,065,139 retained category records, not necessarily unique articles; 8 categories with overlapping journals",
+          "interpretation_limits": "Selection filters exclude short abstracts and sparsely referenced articles; Scopus Article indexing is selection by database classification, not independently verified original-research status."
+        },
+        {
+          "claim": "Each feature was fitted separately in linear regressions on log(citations+1), with journal-year indicators and within-journal standardized numbers of authors and references; feature standardization is over all years in the journal.",
+          "pdf_pages": [
+            "S1:2",
+            "S1:3"
+          ],
+          "evidence_locator": "S1 Analysis, equation 1",
+          "denominator": "Separate category-by-feature regressions and journal-level analyses",
+          "interpretation_limits": "Coefficients do not jointly adjust for other correlated writing features. The exp(coefficient) ratio is exact for predicted citations+1 on the model scale, not exact for citations alone; no causal interpretation."
+        },
+        {
+          "claim": "Keyword feature is unavailable when keywords are not reported; affect scores set out-of-dictionary words to zero; tense proxy also includes gerunds and past participles.",
+          "pdf_pages": [
+            "S1:3",
+            "S1:4"
+          ],
+          "evidence_locator": "S1 Abstract Features R4, R6, R10",
+          "denominator": "R6 analyses restricted by keyword availability; feature-specific usable counts not specified in supplement",
+          "interpretation_limits": "Missingness may alter R6 analysis population. NLP tagging and dictionary proxy quality or zero denominator handling are not evaluated in supplied supplement."
+        }
+      ],
+      "rule_tests": [
+        {
+          "rule": "R1",
+          "operational_proxy": "words and sentence counts",
+          "reported_direction": "Fewer words and fewer sentences associated with fewer citations across disciplines",
+          "interpretation_limit": "Journal limits or readers may require brevity; longer text may add necessary detail or noise.",
+          "pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R2",
+          "operational_proxy": "sentence length relative to journal mean",
+          "reported_direction": "Short sentences associated with citation benefit only in mathematics and physics",
+          "interpretation_limit": "Sentence length is not a direct test of comprehensibility, cohesion or syntactic complexity.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R3",
+          "operational_proxy": "Share of unique words appearing in GNU Aspell or 2,954-word Dale–Chall list (S1 p. 3)",
+          "reported_direction": "Fewer common/easy words associated with more citations",
+          "interpretation_limit": "Dictionary membership is a poor proxy for jargon or audience understanding; retain necessary terminology.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R4",
+          "operational_proxy": "(present + gerund)/(present + gerund + past + past participle), NLTK tagged (S1 p. 3)",
+          "reported_direction": "Positive association in biology and psychology, negative in chemistry and physics",
+          "interpretation_limit": "Tense must reflect chronology and study status; association does not establish readability.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R5",
+          "operational_proxy": "adjective and adverb proportion",
+          "reported_direction": "More modifiers associated with more citations",
+          "interpretation_limit": "No inference that modifiers improve prose or that indiscriminate adjectives help.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R6",
+          "operational_proxy": "Count of abstract words matching keywords; unavailable when no keywords are reported (S1 p. 4)",
+          "reported_direction": "Greater keyword matching associated with fewer citations",
+          "interpretation_limit": "Keyword overlap is a weak proxy for conceptual focus; no automatic keyword avoidance.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R7",
+          "operational_proxy": "presence of novelty or importance marker words",
+          "reported_direction": "Presence associated with more citations",
+          "interpretation_limit": "A marker is neither actual novelty nor justified significance; avoid fabricated superlatives.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R8",
+          "operational_proxy": "superlatives/(superlatives + comparatives)",
+          "reported_direction": "Greater superlative ratio associated with more citations",
+          "interpretation_limit": "The feature does not test accurate confidence, causal quality or reader trust.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R9",
+          "operational_proxy": "frequency of hedge words",
+          "reported_direction": "Fewer hedge words associated negatively in biology and physics, positively in chemistry",
+          "interpretation_limit": "Study does not measure calibration: uncertainty and qualification may be required.",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        },
+        {
+          "rule": "R10",
+          "operational_proxy": "Whissell affect dictionary values summed per word, unmatched words zero, divided by abstract words (S1 p. 4)",
+          "reported_direction": "Higher affect-word dimensions associated with more citations",
+          "interpretation_limit": "Lexicon is an affect proxy, not a measure of helpful metaphor or voice.",
+          "pdf_pages": [
+            3
+          ],
+          "denominator": "1,065,139 retained category records overall; per-feature and discipline-specific eligible counts vary and are not supplied; categories can overlap",
+          "evidence_locator": "Rule descriptions pp. 1–3 and Results/Fig. 1 p. 3"
+        }
+      ],
+      "limitations": [
+        "Observational citation associations can reflect journal selection, research content/quality, topic, exposure and other unmeasured confounding; author’s retrievability mechanism is an untested hypothesis (p. 4).",
+        "A dictionary match or keyword count is a proxy, not observed comprehension, focus or human judgment; comparison of features to citations does not validate any general stylistic instruction.",
+        "Abstracts have journal-enforced length and format constraints and are not full documents, paragraph functions or all writing.",
+        "S1 confirms that each feature was modeled separately; correlated features may confound each other. Journal-year indicators and author/reference counts do not remove topic, study-quality, exposure, or selection confounding (S1 pp. 2–3).",
+        "The model uses log(citations+1): exponentiated coefficient measures the modeled ratio of citations+1; the stated percentage change in citations is approximate and especially uncertain near zero (S1 p. 3). Main text and supplement give significance thresholds and example estimates but do not supply individual confidence intervals or fully inspectable model results in extracted supplement.",
+        "Scopus Article selection, minimum 50-word abstract and minimum 10 references constrain generalization. Overlapping journal categories prevent treating counts as independent disciplines or unique articles (S1 pp. 1–2).",
+        "Keywords missing are set to not available; excluded count and treatment in regression are not detailed. Tagger and dictionary errors and zero denominator cases are not assessed in the provided text (S1 pp. 3–4)."
+      ],
+      "rule_implications": [
+        "AR04",
+        "AR05",
+        "AR06"
+      ],
+      "data_or_code_leads": [
+        "PLOS supporting methods S1 retrieved and read: https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=info:doi/10.1371/journal.pcbi.1004205.s001 . Official receipt: experiments/evidence-integration-2026-11-16/supplement-attempts.json; prior web-tool signed redirect failed before successful direct publisher retrieval.",
+        "Authors used R biglm and NLTK; no raw Scopus data, project code repository or text rights confirmed. Main article is CC BY (p. 1), which does not license Scopus records."
+      ],
+      "extraction_issues": [
+        "Main article Figure 1/2 image data are not fully represented by plain text. Supplement pp. 4–5 reference per-journal graphs without reproducing numeric coefficients in extracted text.",
+        "Supplement p. 3 calls dictionary proportions R2a/R2b despite main text labeling R3a/R3b; interpret as the R3 prose descriptions, preserving discrepancy.",
+        "Initial web-tool supplement fetch failed; the parent subsequently retrieved the verified official publisher PDF through direct endpoint. No raw Scopus corpus or independent replication."
+      ],
+      "supplement_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/supplements/P14-S1.txt",
+      "review_file": "reviews/agreement-writing-rules.json",
+      "review_report": "reviews/agreement-writing-rules.md",
+      "practical_takeaway": "Question familiar style maxims; one-feature citation models are not causal writing advice or a universal inverse recipe."
+    },
+    {
+      "id": "P15",
+      "title": "Generic structure and rhetorical moves in English-language empirical law research articles: Sites of interdisciplinary and interdiscursive cross-over",
+      "authors": [
+        "Girolamo Tessuto"
+      ],
+      "year": 2015,
+      "doi": "10.1016/j.esp.2014.06.002",
+      "study_kind": "descriptive genre corpus study",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P15.txt",
+      "scope": "Empirical socio-legal research articles for scholarly readership, 2010–2012, three selected English-language journals; not theoretical legal essays, court decisions, or policy proposals.",
+      "sample_and_design": "90 randomly selected Article-category papers, 30 per journal and 10 per journal-year; 1,079,527 tokens excluding footnotes and references. Manual functional-semantic analysis of headings, clause/sentence moves and frequencies. Selection restricts journal and article type (PDF p. 3 Tables 1–2, p. 4).",
+      "outcomes": "Section heading categories, rhetorical macro-organization, move and step frequencies, and selected lexical realizations; no reader experiment or writing-quality causal outcome.",
+      "move_inventory": {
+        "Abstract": [
+          "Setting the background for the study and its importance",
+          "Mentioning gaps addressed by the study",
+          "Stating the purpose, question, hypothesis of study",
+          "Identifying the methodology (qualitative or quantitative)",
+          "Stating the findings (qualitative or quantitative) or argument",
+          "Offering concluding remarks (interpretations, recommendations, implications)"
+        ],
+        "Introduction": [
+          "Establishing a territory",
+          "Establishing a niche",
+          "Presenting the Present Work"
+        ],
+        "Background Review": [
+          "Establishing a territory",
+          "Establishing a niche",
+          "Describing the study"
+        ],
+        "Method": [
+          "Introducing the research method",
+          "Indicating data-collection procedure",
+          "Indicating data analysis procedure"
+        ],
+        "Results": [
+          "Restating data collection and analysis procedure",
+          "Stating key findings",
+          "Commenting on findings"
+        ],
+        "Discussion": [
+          "Providing background knowledge",
+          "Reinforcing results",
+          "Evaluating the study",
+          "Deductions from the research"
+        ],
+        "Conclusion": [
+          "Summarizing the study",
+          "Evaluating the study",
+          "Deductions from the research"
+        ]
+      },
+      "step_inventory": {
+        "8": [
+          "Indicating a gap",
+          "Adding to what is known",
+          "Presenting positive justification"
+        ],
+        "9": [
+          "Announcing present research descriptively and/or purposively",
+          "Presenting research questions or hypothesis",
+          "Summarizing methods",
+          "Announcing principal outcomes",
+          "Outlining structure of paper"
+        ],
+        "11": [
+          "Indicating a gap",
+          "Adding to what is known",
+          "Presenting positive justification"
+        ],
+        "12": [
+          "Defining and developing methods, theories, concepts, issues, phenomena",
+          "Presenting the value of the study"
+        ],
+        "13": [
+          "Providing an overview",
+          "Describing purpose, question, hypothesis",
+          "Describing limitations",
+          "Referring to other established procedures"
+        ],
+        "14": [
+          "Describing subjects",
+          "Describing materials",
+          "Describing location/time data"
+        ],
+        "15": [
+          "Describing statistical tests (p-value)",
+          "Describing measures of variability for significant difference"
+        ],
+        "16": [
+          "Reiterating purpose, question, hypothesis"
+        ],
+        "19": [
+          "Restating aims, methodology, theory, concepts",
+          "Presenting claims, generalizations, research gaps"
+        ],
+        "20": [
+          "Interpreting/evaluating relevant, (un)expected findings",
+          "Comparing findings with previous literature"
+        ],
+        "21": [
+          "Indicating significance, advantage of research",
+          "Indicating limitations"
+        ],
+        "22": [
+          "Drawing implications",
+          "Recommending further research"
+        ],
+        "24": [
+          "Indicating significance, advantage of research",
+          "Indicating limitations"
+        ],
+        "25": [
+          "Drawing implications",
+          "Recommending further research"
+        ]
+      },
+      "findings": [
+        {
+          "claim": "Background review present in 79, absent in 11.",
+          "pdf_pages": [
+            5
+          ],
+          "evidence_locator": "Table 3 and text section 3.2",
+          "denominator": "90 articles",
+          "interpretation_limit": "Presence does not mandate a separate section; heading genres vary."
+        },
+        {
+          "claim": "75 independent Conclusion sections, and seven Discussion/Conclusion or Discussion/Implications blends; 82 total independent plus blended conclusions.",
+          "pdf_pages": [
+            5,
+            6,
+            10
+          ],
+          "evidence_locator": "Tables 3–4 and conclusion discussion",
+          "denominator": "90 articles",
+          "interpretation_limit": "Section-level pattern, not a paragraph function quota."
+        },
+        {
+          "claim": "12 blended-section occurrences: 1 Methods/Results, 4 Results/Discussion and 7 Discussion/Conclusion.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Table 4",
+          "denominator": "90 articles; 12 occurrences, not verified as 12 distinct documents",
+          "interpretation_limit": "Blending may coexist with separate analytical units."
+        },
+        {
+          "claim": "25 moves, with 6/3/3/3/3/4/3 per Abstract/Introduction/Background Review/Method/Results/Discussion/Conclusion; recursively patterned in every section and occasionally inverted.",
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "evidence_locator": "Section 3.3 and Table 5",
+          "denominator": "90 selected articles; the claim every section is author statement",
+          "interpretation_limit": "Model numbering not mandatory order."
+        },
+        {
+          "claim": "Abstract moves purpose, methodology, findings, conclusion each 100%; background 44%, gap 28%.",
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "evidence_locator": "Table 5 and 3.3.1",
+          "denominator": "90 abstracts as described",
+          "interpretation_limit": "Step percentages are ambiguous in denominator: avoid converting to counts."
+        },
+        {
+          "claim": "Author reports 100% inter-rater agreement with one other applied-linguistics author.",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Section 2.2 inter-coder sentence",
+          "denominator": "Coding sample size, independent/consensus protocol and metric not specified",
+          "interpretation_limit": "Do not compare directly to our exact-set agreement."
+        }
+      ],
+      "limitations": [
+        "Table 3 says 33 unlabelled introductions but prints 27%; 33/90 is 36.7%. Its Results heading subtotals 65+10+15=90 despite underlying journal rows summing to more than 90; do not silently repair.",
+        "Step percentages generally sum to 100 within a move but denominator is not clearly stated; do not convert them into article prevalence.",
+        "Authors use obligatory for 100% observed corpus moves; sample and coding not a universal requirement.",
+        "Supplementary list of article identities mentioned PDF p.3 footnote; annotated corpus release not verified."
+      ],
+      "rule_implications": [
+        "GM-01",
+        "GM-02",
+        "GM-04"
+      ],
+      "data_or_code_leads": [
+        "PDF p.3 footnote says full sampled article list is in supplementary materials; actual files and terms unverified."
+      ],
+      "extraction_issues": [
+        "Table 3 contains arithmetic inconsistencies as printed; Table 5 multiline rows retain blank 16A frequency."
+      ],
+      "review_file": "reviews/genre-moves.json",
+      "review_report": "reviews/genre-moves.md",
+      "practical_takeaway": "Preserve empirical-law section variation, blending and recursive moves; heading does not uniquely identify purpose."
+    },
+    {
+      "id": "P16",
+      "title": "In search of commonalities: Some linguistic and rhetorical features of business reports as a genre",
+      "authors": [
+        "Lorrita Yeung"
+      ],
+      "year": 2007,
+      "doi": "10.1016/j.esp.2006.06.004",
+      "study_kind": "primarily qualitative descriptive genre corpus study",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P16.txt",
+      "scope": "Authentic internal and external business reports, mainly Hong Kong with Singapore, Malaysia and UK sources, prepared for organizational clients, management, stakeholders or public; not a sample of decision memos per se.",
+      "sample_and_design": "22 nonrandom convenience samples submitted by organizations; 12 external and 10 internal, 7 review, 6 problem-solving, 5 market and 4 feasibility reports. Management authors and some collective authorship; writers interviewed where possible, exact interview count not given (PDF pp. 4–6).",
+      "outcomes": "Observed macro organization, recommendations, rhetorical patterns and lexico-grammar; not independent measurement of decision outcomes or reader comprehension.",
+      "move_inventory": {
+        "rhetorical_cycle": [
+          "findings",
+          "conclusion/interpretation",
+          "recommendation"
+        ],
+        "argument_model": [
+          "data",
+          "warrant (implicit or explicit)",
+          "claim/recommendation"
+        ],
+        "macro_options": [
+          "executive summary (optional)",
+          "list of recommendations (optional)",
+          "introduction",
+          "methods (optional)",
+          "topical sections containing findings and interpretations/conclusions",
+          "conclusion (optional)",
+          "recommendations for decision-making"
+        ]
+      },
+      "step_inventory": "Finding, interpretation and recommendation can occur in varying order and recur by topic; Toulmin roles are analytical relations, not mandatory paragraph sequence (PDF pp. 10, 14).",
+      "findings": [
+        {
+          "claim": "19 reports contain clearly stated recommendations, and seven have clear recommendation headings; elsewhere paper says only two reports lack explicit recommendations.",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "Section 5.2",
+          "denominator": "22 reports",
+          "interpretation_limit": "19+2 does not account for all 22 under apparently similar wording; unresolved rather than silently reconciled."
+        },
+        {
+          "claim": "Four conclusion sections, all summaries of recommendations; one report used the described conventional heading pattern.",
+          "pdf_pages": [
+            9
+          ],
+          "evidence_locator": "Section 5.1.3",
+          "denominator": "22 reports",
+          "interpretation_limit": "Predominantly qualitative, small heterogeneous convenience sample."
+        },
+        {
+          "claim": "Report lengths range 409–28,593 words, median 4,614.",
+          "pdf_pages": [
+            5
+          ],
+          "evidence_locator": "Section 4.1",
+          "denominator": "22 reports",
+          "interpretation_limit": "Historical descriptive range only, not a target or minimum/maximum."
+        },
+        {
+          "claim": "One full-length feasibility report has a separate clearly labelled methods section; methods otherwise often brief or absent.",
+          "pdf_pages": [
+            8
+          ],
+          "evidence_locator": "Section 5.1.2",
+          "denominator": "22 reports",
+          "interpretation_limit": "Paper says no examples of extensive appendical methods in corpus; brief reporting is not evidence that omitting methods is safe."
+        },
+        {
+          "claim": "The suggested data/interpretation/recommendation sequence can vary; warrants may be implicit or explicit.",
+          "pdf_pages": [
+            14
+          ],
+          "evidence_locator": "Section 5.3.2.2",
+          "denominator": "Qualitative across corpus; no exact count for the cycle",
+          "interpretation_limit": "Do not force three moves or infer implicit support without contextual judgment."
+        }
+      ],
+      "limitations": [
+        "Organizations supplied examples, not random or representative; mostly Hong Kong and medium/large firms. Paper stresses its qualitative size limitation and seeks quantitative replication (pp. 5, 22–23).",
+        "19/22 vs only two without explicit recommendation wording is unresolved.",
+        "No coder agreement method or downloadable coded dataset identified in full text; example business figures anonymized.",
+        "The author claims an inherent implicit recommendation even for sales reports; inference, not a directly observed reader action."
+      ],
+      "rule_implications": [
+        "GM-01",
+        "GM-03",
+        "GM-04"
+      ],
+      "data_or_code_leads": [
+        "No open coded data or codebook release identified in paper; quotations contain confidential anonymization."
+      ],
+      "extraction_issues": [
+        "Observed numbers 19 with clearly stated recommendations and two without explicit recommendations are textually inconsistent; preserve as reported."
+      ],
+      "review_file": "reviews/genre-moves.json",
+      "review_report": "reviews/genre-moves.md",
+      "practical_takeaway": "Expose findings, interpretation, warrant and recommendation when the decision requires them; retain diverse report structures."
+    },
+    {
+      "id": "P17",
+      "title": "A move/step model for methods sections: Demonstrating Rigour and Credibility",
+      "authors": [
+        "Elena Cotos",
+        "Sarah Huffman",
+        "Stephanie Link"
+      ],
+      "year": 2017,
+      "doi": "10.1016/j.esp.2017.01.001",
+      "study_kind": "multidisciplinary descriptive corpus and expert-consultation study",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P17.txt",
+      "scope": "Methods sections of IMRD experimental research articles; excludes disciplines whose scholarship differs substantially, such as mathematics, statistics, architecture and history (PDF p. 4).",
+      "sample_and_design": "900 texts in 30 disciplines, 30 selected articles per discipline from 3–5 reputable journals; 150 exemplary sections seeded coding; expert-selected recent studies and one consultant per discipline limit representativeness; 1,423,131 words. Human annotations with sentence/phrase units and secondary overlapping functions (PDF pp. 3–6).",
+      "outcomes": "Functional-semantic move/step inventories and annotated unit frequency, sequences, consultant perceived occurrence, discipline clustering. No direct test of improved writing outcomes.",
+      "move_inventory": [
+        {
+          "move": "Contextualizing Study Methods",
+          "steps": [
+            [
+              "Referencing previous works",
+              8064,
+              37.7
+            ],
+            [
+              "Providing general information",
+              6259,
+              29.3
+            ],
+            [
+              "Identifying methodological approach",
+              293,
+              1.4
+            ],
+            [
+              "Describing the setting",
+              3271,
+              15.3
+            ],
+            [
+              "Introducing the subjects",
+              2672,
+              12.5
+            ],
+            [
+              "Rationalizing pre-experiment decisions",
+              838,
+              3.9
+            ]
+          ],
+          "within_move_denominator": 21397
+        },
+        {
+          "move": "Describing the study",
+          "steps": [
+            [
+              "Acquiring the data",
+              4300,
+              6.4
+            ],
+            [
+              "Describing the data",
+              2522,
+              3.7
+            ],
+            [
+              "Delineating experimental/study procedures",
+              21320,
+              31.7
+            ],
+            [
+              "Describing tools",
+              30693,
+              45.6
+            ],
+            [
+              "Identifying variables",
+              2055,
+              3.1
+            ],
+            [
+              "Rationalizing experiment decisions",
+              3170,
+              4.7
+            ],
+            [
+              "Reporting incrementals",
+              3277,
+              4.9
+            ]
+          ],
+          "within_move_denominator": 67337
+        },
+        {
+          "move": "Establishing credibility",
+          "steps": [
+            [
+              "Preparing the data",
+              1148,
+              18.5
+            ],
+            [
+              "Describing data analysis",
+              3999,
+              64.6
+            ],
+            [
+              "Rationalizing data processing/analysis",
+              1044,
+              16.9
+            ]
+          ],
+          "within_move_denominator": 6191
+        }
+      ],
+      "step_inventory": "Six, seven and three steps, respectively; see move_inventory counts and names. Numbering is not a prescribed order. Table 3 labels counts as sentences, while surrounding text calls overall counts functional units; sentence/phrase overlaps preclude treating these as independently observed document prevalence (PDF pp. 6, 8, 10, 12).",
+      "findings": [
+        {
+          "claim": "Three annotators: ICC .86 for moves and .80 for steps, using a two-way mixed-effects model, calculated throughout.",
+          "pdf_pages": [
+            6
+          ],
+          "evidence_locator": "Section 3.2 and footnote 6",
+          "denominator": "three annotators; number and sampling of doubly/triply coded units unspecified",
+          "interpretation_limit": "ICC is not our paragraph exact-set agreement; no metric equivalence or accuracy claim."
+        },
+        {
+          "claim": "94,925 annotated functional units: 21,397 Move 1 (22%), 67,337 Move 2 (71%), 6,191 Move 3 (7%).",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "Section 4.2.1",
+          "denominator": "94,925 annotated units, not 900 article-presence counts",
+          "interpretation_limit": "Paper describes Move 1 as optional based on distribution but also says all 900 texts contain it; unit share is not document prevalence."
+        },
+        {
+          "claim": "All 16 steps observed overall; Table 3 lists within-move sentence counts including Move 2 tools 30,693/67,337 = 45.6%.",
+          "pdf_pages": [
+            12
+          ],
+          "evidence_locator": "Table 3",
+          "denominator": "move-specific counts; table labels them sentences and allows overlapping functional tags",
+          "interpretation_limit": "No claim that 45.6% of documents have this step or should allocate that much space."
+        },
+        {
+          "claim": "All seven Move 2 steps occur in each of 30 disciplines at aggregate level; Move 3 absent from some individual texts.",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "evidence_locator": "Sections 4.2.1–4.2.2",
+          "denominator": "30 disciplines; 30 texts per discipline",
+          "interpretation_limit": "Discipline-level presence does not imply occurrence in each paper."
+        },
+        {
+          "claim": "Reporting incrementals identified in all 30 disciplines; experts report it as rare 40% or lacking 8%.",
+          "pdf_pages": [
+            14,
+            15
+          ],
+          "evidence_locator": "Table 4 and section 4.2.5",
+          "denominator": "30 disciplines for corpus; consultant response denominator not explicitly clear from extracted text",
+          "interpretation_limit": "Expert judgments and corpus measurements have different units; interpret contrast, not exact contradiction."
+        },
+        {
+          "claim": "Step transition likelihoods computed on the larger related IMRD corpus; reported zero transitions are sample/model observations.",
+          "pdf_pages": [
+            13
+          ],
+          "evidence_locator": "Section 4.2.3",
+          "denominator": "Related larger corpus includes Methods sample, so not independent replication",
+          "interpretation_limit": "Do not forbid zero-probability transitions in new writing."
+        }
+      ],
+      "limitations": [
+        "One faculty consultant per discipline, purposively selected 30 studies per field, and explicitly excluded non-IMRD disciplinary traditions; no representative prevalence claim.",
+        "Paper does not perform full lexico-grammatical realization analysis (PDF p.16).",
+        "Unit share vs document presence conflated in author’s optionality label; do not adopt.",
+        "One source paragraph misnames Move 2 Step 7 as rationalizing, whereas inventory and definition show Step 6 rationalizing and Step 7 reporting incrementals (PDF pp.9,15).",
+        "Original study imposes primary label and secondary label; this project does not require a primary function."
+      ],
+      "rule_implications": [
+        "GM-02",
+        "GM-04",
+        "GM-05"
+      ],
+      "data_or_code_leads": [
+        "Authors report annotated corpus used through Callisto or other platforms and a move/step functional concordancer (PDF pp.15–16); release URL, data rights, model and corpus files remain unverified."
+      ],
+      "extraction_issues": [
+        "Table 3 labels step frequencies sentences; paper elsewhere calls totals functional segments. Report denominator as printed and preserve overlap."
+      ],
+      "review_file": "reviews/genre-moves.json",
+      "review_report": "reviews/genre-moves.md",
+      "practical_takeaway": "Seed Methods questions from three moves and sixteen steps; do not impose sequence, step quotas or cross-form templates."
+    },
+    {
+      "id": "P18",
+      "title": "Interrater agreement in genre analysis: A methodological review and a comparison of three measures",
+      "authors": [
+        "Minjin Kim",
+        "Xixin Qiu",
+        "Yuanheng (Arthur) Wang"
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.rmal.2024.100097",
+      "study_kind": "Systematic methodological review plus observational methodological comparison of agreement metrics, not meta-analysis or randomized trial",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P18.txt",
+      "scope": "EAP research article move-step studies; social-science article introductions for direct coding; printed pages match PDF pages. All supplied text pp. 1–17 reviewed including appendices and references.",
+      "sample_and_design": "LLBA and Google Scholar returned 341 and 1,430 records, respectively; peer-reviewed manual research-article move analyses only, 2003–January 2023; 65 included. Three experienced doctoral researchers coded 65 review studies independently after instrument development (16 fields), then reconciled. Separately, nine introductions (258 sentence units) were used for practice and 26 introductions (908 sentence units) for metric comparison; all 35 from COSSRAI, not 35 in evaluation (pp. 6–7).",
+      "outcomes": [
+        "Reporting practices in review studies",
+        "Percent agreement, Cohen/Fleiss kappa, multi-valued alpha and benchmarking with Gwet AC1",
+        "No direct semantic ground truth, writing quality or reader comprehension measurement"
+      ],
+      "findings": [
+        {
+          "claim": "Review reporting gaps: 38 studies did not report agreement; nine mentioned multifunctionality, and six of those discussed handling it.",
+          "pdf_pages": [
+            8,
+            10
+          ],
+          "evidence_locator": "Fig. 3 and Fig. 5 discussion",
+          "denominator": "38/65; 9/65; 6/9",
+          "interpretation_limits": "Non-reporting does not prove the procedure was not done; review excludes automatic/semi-automatic studies."
+        },
+        {
+          "claim": "Review-code instrument has 16 fields in five categories; reviewers report average 95.38% agreement, Fleiss kappa 0.94 and alpha 0.94.",
+          "pdf_pages": [
+            6,
+            16
+          ],
+          "evidence_locator": "Methods and Appendix C",
+          "denominator": "Three independent coders of 65 papers; average across review-code items",
+          "interpretation_limits": "These describe coding the literature review, not reliability of rhetorical labels; averaging method is not fully specified in main text."
+        },
+        {
+          "claim": "Rhetorical chunk is analytic concept but every affected sentence is a fixed annotation unit; repeated functions extend to each sentence and different within-sentence clauses can yield multiple tags.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "Comparison of interrater agreement measures",
+          "denominator": "26 introductions, 908 sentence units after nine training texts",
+          "interpretation_limits": "Fixed sentence assignment does not establish independent boundary agreement or actual sub-sentence realization spans."
+        },
+        {
+          "claim": "Among 908 sentence units, 236 had multiple tags from at least one rater; authors state 671 were monofunctional throughout.",
+          "pdf_pages": [
+            12
+          ],
+          "evidence_locator": "Fig. 8 discussion",
+          "denominator": "236/908, 671/908",
+          "interpretation_limits": "236 + 671 = 907, not 908; the text does not explain the remaining unit. Do not silently treat it as missing or infer missingness."
+        },
+        {
+          "claim": "Agreement falls as categories increase from 3 move labels to 14 broad steps and 22 fine steps; one coder pair has higher multivalue alpha than single-label kappa because order of primary/secondary functions differs.",
+          "pdf_pages": [
+            11
+          ],
+          "evidence_locator": "Fig. 6 and accompanying results",
+          "denominator": "Three rater pairs; 26 introductions",
+          "interpretation_limits": "Graph values not extracted; pair-dependent results do not establish accuracy or general superiority."
+        },
+        {
+          "claim": "For this sample, authors report AC1 and kappa differences around 2% after curves level at 750 units and suggest larger samples and more than two raters.",
+          "pdf_pages": [
+            12,
+            13
+          ],
+          "evidence_locator": "Fig. 7 and conclusion",
+          "denominator": "908 sentence units, three raters; recommendation cites approximately 750 units or 22 texts",
+          "interpretation_limits": "This is a sample-specific descriptive finding, not a transferable minimum or a guarantee of stability; ordering/clustering by article matters."
+        },
+        {
+          "claim": "For review papers, Fig. 3 reports 27 of 65 studies report an agreement type while prose says 28 clearly report results.",
+          "pdf_pages": [
+            8,
+            11
+          ],
+          "evidence_locator": "Fig. 3 and opening results paragraph",
+          "denominator": "65 reviewed studies",
+          "interpretation_limits": "Reporting definitions or source accounting may differ; discrepancy unresolved."
+        }
+      ],
+      "limitations": [
+        "Metric comparison uses same three trained human genre researchers and selected social science introductions; sensitivity to rater pairing, label prevalence and granularity limits transfer.",
+        "Nominal multi-valued disagreement uses 1 − 2|C∩K|/(|C|+|K|), with both empty sets treated as zero disagreement (p. 5 Table 1); alpha corrects observed disagreement against expected disagreement. Set order is ignored. Empty versus unassessed/missing must not be conflated.",
+        "Paper discusses fixed units rather than independently locating realization boundaries; no justification that sentence coding captures the exact extent or target of every rhetorical function.",
+        "Article does not report missing-item handling for this dataset or supply raw paired annotations and study-level extraction table in the provided text. Methodological capability must not be mistaken for evidence of missing observations."
+      ],
+      "rule_implications": [
+        "AR01",
+        "AR02",
+        "AR03"
+      ],
+      "data_or_code_leads": [
+        "Appendix B is a list of 65 reviewed studies (pp. 15–16); Appendix C gives the 16-item review codebook with per-item agreement (p. 16).",
+        "COSSRAI data supplied by Xiaofei Lu (acknowledgments p. 14); data-access terms not specified. R for percent and kappa; Krippendorff and Craggs Java software for alpha, no project-specific repository or scripts identified (p. 7). No installation performed."
+      ],
+      "extraction_issues": [
+        "908 versus 236+671=907 (p. 12); leave unexplained.",
+        "Review-reporting denominator discrepancy 27 versus 28 (pp. 8 and 11); leave unresolved.",
+        "Fig. 1/6–9 curve values are not adequately extracted from supplied text; do not fabricate graph coordinates."
+      ],
+      "review_file": "reviews/agreement-writing-rules.json",
+      "review_report": "reviews/agreement-writing-rules.md",
+      "practical_takeaway": "Define shared units and multilabel agreement explicitly; separately evaluate boundaries, targets, positive agreement and semantic usefulness."
+    }
+  ],
+  "source_review_receipts": [
+    {
+      "path": "reviews/audience-readability.json",
+      "sha256": "a102d2eaef823a497c6e9a4a45a28be2bd429f473debe6a526e74e74040be376"
+    },
+    {
+      "path": "reviews/interactive-persuasion.json",
+      "sha256": "419342c403cf4250a861559724be1eb3672a7b040112b113388ecf7c2850dc60"
+    },
+    {
+      "path": "reviews/funding-persuasion.json",
+      "sha256": "edb491e18b67569b63a19ef155cb0b92466c38043661ea6d2b9be58a68be2887"
+    },
+    {
+      "path": "reviews/headlines-attention.json",
+      "sha256": "6a207a1088df378aac8f3eaf61e1c9b927505de0c55b39921af00bbd913244be"
+    },
+    {
+      "path": "reviews/narrative-style-impact.json",
+      "sha256": "53d294849103768b0ab6ee79e16fe49c339591e6418ad6ec27c676589f855498"
+    },
+    {
+      "path": "reviews/genre-moves.json",
+      "sha256": "f7f0cdf892a17a195f226a17888215999e047500fbe266206649c558580f7217"
+    },
+    {
+      "path": "reviews/agreement-writing-rules.json",
+      "sha256": "f7044e84db90c792203f8b7cc118a649d52abd2f4ccbf3749c695c51d3f551d7"
+    }
+  ],
+  "unique_supplied_works": 18,
+  "supplied_pdf_pages": 247,
+  "strategy_and_audit": "Separate records, excluded from primary-paper and replication counts",
+  "overlap_groups": [
+    {
+      "id": "upworthy",
+      "papers": [
+        "P04",
+        "P07",
+        "P13"
+      ],
+      "reason": "Shared historical headline-test archive; subsets and pair/bundle construction differ. Not independent corpus replications."
+    }
+  ],
+  "missing_finding_page_locators": [],
+  "reporting_caution_record": "reviews/independent-audit.md; selected source reporting tensions, distinct from missing page locators"
+}

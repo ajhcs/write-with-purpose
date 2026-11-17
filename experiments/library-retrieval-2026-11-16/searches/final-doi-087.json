@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-systematic_review-1",
+      "doi": "10.1001/jama.292.14.1724",
+      "title": "Bariatric surgery: a systematic review and meta-analysis.",
+      "authors": "[\"Buchwald H\", \"Avidor Y\", \"Braunwald E\", \"Jensen MD\", \"Pories W\", \"Fahrbach K\", \"Schoelles K\"]",
+      "field": "medicine_health",
+      "q": "\"Bariatric surgery: a systematic review and meta-analysis.\" Buchwald filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-systematic_review-1",
+      "query": "\"Bariatric surgery: a systematic review and meta-analysis.\" Buchwald filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "# Bariatric surgery: a systematic review and meta-analysis",
+          "url": "https://www.isdh.ie/wp-content/uploads/2020/03/Overview-of-Irish-medical-services-and-care-pathways-for-obesity.-Dr-Justine-Geoghegan-ISDH-bariatric.pdf",
+          "score": 1
+        },
+        {
+          "title": "Bariatric surgery: a systematic review and meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15479938/",
+          "score": 1
+        },
+        {
+          "title": "Bariatric Surgery: A Systematic Review and Meta-analysis",
+          "url": "https://jamanetwork.com/journals/jama/article-abstract/199587",
+          "score": 1
+        },
+        {
+          "title": "Trends in mortality in bariatric surgery: a systematic review and meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17950357/",
+          "score": 1
+        },
+        {
+          "title": "Diabetes and Weight in Comparative Studies of Bariatric Surgery vs Conventional Medical Therapy: A Systematic Review and Meta-Analysis",
+          "url": "https://link.springer.com/article/10.1007/s11695-013-1160-3",
+          "score": 1
+        },
+        {
+          "title": "Trends in mortality in bariatric surgery: A systematic review and meta-analysis",
+          "url": "https://www.bmj.com/lookup/external-ref?access_num=10.1016%2Fj.surg.2007.07.018&link_type=DOI",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-tutorial-3",
+      "doi": "10.1002/sim.2712",
+      "title": "Tutorial in biostatistics: competing risks and multi-state models.",
+      "authors": "[\"Putter H\", \"Fiocco M\", \"Geskus RB\"]",
+      "field": "medicine_health",
+      "q": "\"Tutorial in biostatistics: competing risks and multi-state models.\" Putter filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-tutorial-3",
+      "query": "\"Tutorial in biostatistics: competing risks and multi-state models.\" Putter filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Tutorial in biostatistics: competing risks and multi-state models",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17031868/",
+          "score": 1
+        },
+        {
+          "title": "Tutorial in biostatistics: competing risks and multi‐state models",
+          "url": "https://www.researchgate.net/publication/6763109_Tutorial_in_biostatistics_competing_risks_and_multi-state_models",
+          "score": 1
+        },
+        {
+          "title": "Tutorial in biostatistics: competing risks and multi-state models | JoVE Visualize",
+          "url": "https://visualize.jove.com/17031868-tutorial-in-biostatistics-competing-risks-and-multi-state-models",
+          "score": 1
+        },
+        {
+          "title": "Competing Risks and Multistate Models",
+          "url": "https://cran.rstudio.org/web/packages/survivalVignettes/vignettes/tutorial.html",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "source_records": 2256,
+  "by_source_group": {
+    "business": 1200,
+    "engineering": 350,
+    "law": 390,
+    "personal": 316
+  },
+  "held_records": 44,
+  "distinct_nonempty_dois": 1744,
+  "doi_values_appearing_multiple_times": 0,
+  "missing_dois": 512,
+  "sources": [
+    {
+      "path": "business/records.jsonl",
+      "records": 1200,
+      "sha256": "f2b330b40300d163aeb0514e76bcceb6fe62016c14e500dc0c25e8b9487d836f"
+    },
+    {
+      "path": "engineering/records.jsonl",
+      "records": 350,
+      "sha256": "ab1bf1a2555b0be4a42f7d6553fd039371499b03eaf378ad2a770d5557e49c29"
+    },
+    {
+      "path": "law/records.jsonl",
+      "records": 390,
+      "sha256": "6ab2a457e29ea8210fbabe07f4652a17844c1d685c9be8a5e35f75f21576d111"
+    },
+    {
+      "path": "personal/records.jsonl",
+      "records": 316,
+      "sha256": "f3c6db62df2cab2a49c9bce86cd37838dab242fa5d9142acf630956dd32ef256"
+    }
+  ],
+  "scope": "Source records, not verified works or measured texts. This normalization preserves source-group overlaps and does not establish bibliographic identity, original dates, access, form or quality. HeinOnline's separate ranked snapshot is not merged."
+}

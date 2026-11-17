@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_037",
+      "doi": "10.4995/wpom.v9i2.10752",
+      "title": "Protocol: A Meta-Review on continuous improvement to know the state of this research field",
+      "authors": "[\"Lidia Sanchez-Ruiz\", \"Juan A. Marin-Garcia\", \"Beatriz Blanco\"]",
+      "field": "business_management",
+      "q": "\"A Meta-Review on continuous improvement to know the\" Sanchez-Ruiz filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_037",
+      "query": "\"A Meta-Review on continuous improvement to know the\" Sanchez-Ruiz filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Protocol: A Meta-Review on continuous improvement to know the state of this research field",
+          "url": "https://www.polipapers.upv.es/index.php/WPOM/article/view/10752",
+          "score": 1
+        },
+        {
+          "title": "Protocol: A Meta-Review on continuous improvement to know the state of this research field",
+          "url": "https://polipapers.upv.es/index.php/WPOM/article/view/10752",
+          "score": 1
+        },
+        {
+          "title": "Protocol: A Meta-Review on continuous improvement to know the state of this research field",
+          "url": "https://rogle.webs.upv.es/en/research/sanchezruiz2018protocol.html",
+          "score": 1
+        },
+        {
+          "title": "Protocol: a Meta-Review on continuous improvement to know the state of this research field",
+          "url": "https://producciocientifica.uv.es/documentos/5ebf1faa2999524bdf7a8b28?lang=gl",
+          "score": 1
+        },
+        {
+          "title": "Protocol: a Meta-Review on continuous improvement to know the state of this research field",
+          "url": "https://producciocientifica.uv.es/documentos/5ebf1faa2999524bdf7a8b28",
+          "score": 1
+        },
+        {
+          "title": "Protocol: a Meta-Review on continuous improvement to know the state of this research field",
+          "url": "https://producciocientifica.uv.es/documentos/5ebf1faa2999524bdf7a8b28?lang=fr",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

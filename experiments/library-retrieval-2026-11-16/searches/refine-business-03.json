@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_005",
+      "doi": "10.5465/amr.1984.4277628",
+      "title": "Upper Echelons: The Organization as a Reflection of Its Top Managers",
+      "authors": "[\"Donald C. Hambrick\", \"Phyllis A. Mason\"]",
+      "field": "business_management",
+      "q": "\"Upper Echelons\" Hambrick pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_005",
+      "query": "\"Upper Echelons\" Hambrick pdf",
+      "urls": [
+        {
+          "title": "Upper Echelons: The Organization as a Reflection of Its Top Managers1",
+          "url": "https://journals.aom.org/doi/10.5465/amr.1984.4277628",
+          "score": 1
+        },
+        {
+          "title": "Upper Echelons: The Organization as a Reflection of Its Top Managers1",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amr.1984.4277628?download=true&journalCode=amr",
+          "score": 1
+        },
+        {
+          "title": "Upper Echelons Theory: An Update",
+          "url": "https://doi.org/10.5465/AMR.2007.24345254",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

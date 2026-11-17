@@ -1,0 +1,550 @@
+{
+  "status": "Original proposed implications preserved and namespaced; not all are adopted or independent evidence",
+  "candidates": [
+    {
+      "review": "reviews/audience-readability.json",
+      "source_rule_id": "AR01",
+      "id": "audience-readability:AR01",
+      "proposal": {
+        "id": "AR01",
+        "disposition": "refine",
+        "existing_rule": "skills/write-with-purpose/SKILL.md: familiar exact words; precise technical terminology; reader edit",
+        "trigger": "A real unfamiliar or mixed-knowledge intended audience and a term whose interpretation is consequential.",
+        "candidate": "Present a task-relevant technical term with the needed explanation in natural context or offer a more familiar accurate formulation; test both for the actual readers.",
+        "benefit": "May reduce avoidable subjective difficulty while preserving technical distinctions.",
+        "counterexample": "In specialist documentation, an exact established term can be more fluent and unambiguous than a vague paraphrase.",
+        "mechanical": "Record audience, declared terms and known glossary references; identify exact term occurrences only.",
+        "semantic": "Decide whether the audience needs explanation, whether substitutes preserve meaning and whether scope remains accurate.",
+        "evidence": [
+          "P01 pp.6–10, 14–15",
+          "P05 p.8",
+          "P09 pp.2–6"
+        ]
+      }
+    },
+    {
+      "review": "reviews/audience-readability.json",
+      "source_rule_id": "AR02",
+      "id": "audience-readability:AR02",
+      "proposal": {
+        "id": "AR02",
+        "disposition": "refine",
+        "existing_rule": "skills/write-with-purpose/references/language-and-meaning.md: place brief definition naturally near the term",
+        "trigger": "Definitions or optional glosses are introduced for readers new to a domain.",
+        "candidate": "Assess visibility and use of definition in the reading flow; do not presume mere optional availability establishes comprehension.",
+        "benefit": "Avoids a false completeness claim from existence of a glossary or hover.",
+        "counterexample": "A trained audience may not need an inline definition; mouseover failure cannot establish that inline teaching fails.",
+        "mechanical": "Check that supplied glossary entry and term link exist; log availability, not whether it was read.",
+        "semantic": "Judge context, comprehensibility, precision and readers’ needs; measure uptake and comprehension separately.",
+        "evidence": [
+          "P01 pp.7–10, 14–15"
+        ]
+      }
+    },
+    {
+      "review": "reviews/audience-readability.json",
+      "source_rule_id": "AR03",
+      "id": "audience-readability:AR03",
+      "proposal": {
+        "id": "AR03",
+        "disposition": "reaffirm",
+        "existing_rule": "accepted-foundations.md F01–F06; edit-with-purpose/SKILL.md no automatic shortness",
+        "trigger": "Reading metrics or engagement data are considered for revisions.",
+        "candidate": "Treat readability indices and length as descriptive diagnostics scoped to audience and form; do not translate a score into a grade requirement or optimize engagement by default.",
+        "benefit": "Makes tradeoffs visible without silently replacing author purpose.",
+        "counterexample": "A longer precise term or a longer complete explanation may be more accessible than a shorter obscure alternative.",
+        "mechanical": "Compute length or formula with stated tokenizer and word list; record source and scope.",
+        "semantic": "Evaluate familiarity, goal alignment, accuracy and reader benefit; models cannot infer these from a numeric score.",
+        "evidence": [
+          "P05 pp.1,3–8",
+          "P09 pp.3–5"
+        ]
+      }
+    },
+    {
+      "review": "reviews/audience-readability.json",
+      "source_rule_id": "AR04",
+      "id": "audience-readability:AR04",
+      "proposal": {
+        "id": "AR04",
+        "disposition": "conflict",
+        "existing_rule": "write-with-purpose/SKILL.md and language-and-meaning.md preserve uncertainty, qualifications, precision and voice",
+        "trigger": "A bundled style recipe advises removing hedges, acronyms or making particular punctuation mandatory.",
+        "candidate": "Reject component quotas; evaluate each qualification against evidence and preserve when it changes supported certainty or scope.",
+        "benefit": "Avoids producing a confident but stronger or misleading claim.",
+        "counterexample": "A statistically warranted possibility cannot become a certainty to imitate a low-hedge experimental condition.",
+        "mechanical": "Flag changed modal/negation or removed declared term for review, with false positives.",
+        "semantic": "Decide evidentiary force and meaning before approving edit.",
+        "evidence": [
+          "P09 pp.2–3,5–6"
+        ]
+      }
+    },
+    {
+      "review": "reviews/audience-readability.json",
+      "source_rule_id": "AR05",
+      "id": "audience-readability:AR05",
+      "proposal": {
+        "id": "AR05",
+        "disposition": "new hypothesis",
+        "existing_rule": "rule-calibration report; Astra candidate decision procedure; accepted F09 and measurement separation",
+        "trigger": "Testing whether audience-aware assistance improves writing.",
+        "candidate": "Run held-out audience-matched comparison with independent semantic fidelity, author acceptance and comprehension tests; separate readability feelings from performance and engagement.",
+        "benefit": "Could test a differentiator in preserving nuanced content while adapting to actual readers.",
+        "counterexample": "A satisfying, fluent output may omit a key qualification or be factually wrong.",
+        "mechanical": "Blind and log assigned version, source IDs, decision status, data splits and score calculations.",
+        "semantic": "Independent review of content, attribution, author authority and response quality.",
+        "evidence": [
+          "P01 pp.9–10,14",
+          "P05 pp.5–7",
+          "P09 pp.3–6",
+          "local fresh calibration 21/36 vs 18/36"
+        ]
+      }
+    },
+    {
+      "review": "reviews/interactive-persuasion.json",
+      "source_rule_id": "IP-01",
+      "id": "interactive-persuasion:IP-01",
+      "proposal": {
+        "id": "IP-01",
+        "status": "candidate refine",
+        "existing_rule": "skills/write-with-purpose/SKILL.md reader question and reasons",
+        "trigger": "Author requests response to known viewpoint",
+        "benefit": "Retain audience and specific claim context for author review",
+        "mechanical": "Store supplied claim, audience and source target separately",
+        "semantic": "Judge whether reply engages claim fairly and appropriately",
+        "counterexample": "Personal exploration without a known opposing claim needs no opponent record",
+        "evidence": "P02 pp. 5–8; correlation only"
+      }
+    },
+    {
+      "review": "reviews/interactive-persuasion.json",
+      "source_rule_id": "IP-02",
+      "id": "interactive-persuasion:IP-02",
+      "proposal": {
+        "id": "IP-02",
+        "status": "reaffirm",
+        "existing_rule": "skills/write-with-purpose/SKILL.md; skills/edit-with-purpose/references/plain-language-edit.md qualification",
+        "trigger": "Uncertainty or qualification changes claim meaning",
+        "benefit": "Preserve warranted uncertainty",
+        "mechanical": "Locate supplied qualifier only",
+        "semantic": "Judge whether qualifier is warranted and what it scopes",
+        "counterexample": "Redundant hedges can obscure a fact; necessary may can prevent false certainty",
+        "evidence": "P02 Table 3 pp. 6, 10 raw counts do not isolate effect"
+      }
+    },
+    {
+      "review": "reviews/interactive-persuasion.json",
+      "source_rule_id": "IP-03",
+      "id": "interactive-persuasion:IP-03",
+      "proposal": {
+        "id": "IP-03",
+        "status": "candidate refine",
+        "existing_rule": "docs/writing-harness/research/astra-rule-revision-2026-11-16.md; experiments/dataset-adoption-2026-11-16/plugin-reuse-notes.md",
+        "trigger": "Context contains speakers, reply edges and targets",
+        "benefit": "Keep author, addressee and referenced claim distinguishable",
+        "mechanical": "Preserve source-provided IDs, reply edge, spans and unknowns",
+        "semantic": "Determine actual actor, addressee, function and relation target in context",
+        "counterexample": "Quoted you addresses a character rather than the reader",
+        "evidence": "P02 pp. 3–6; reply edge is not function gold"
+      }
+    },
+    {
+      "review": "reviews/interactive-persuasion.json",
+      "source_rule_id": "IP-04",
+      "id": "interactive-persuasion:IP-04",
+      "proposal": {
+        "id": "IP-04",
+        "status": "not justified",
+        "existing_rule": "docs/writing-harness/accepted-foundations.md",
+        "trigger": "An automatic system proposes optimizing delta proxy",
+        "benefit": "Protect author intent, evidence, voice and semantic accuracy",
+        "mechanical": "Retain count as descriptive only if task relevant",
+        "semantic": "Assess whether words, links and emphasis serve actual intent",
+        "counterexample": "Technical explanation must preserve a term; safety warning may require urgency",
+        "evidence": "P02 pp. 2, 5–10 noncausal selected-task associations"
+      }
+    },
+    {
+      "review": "reviews/funding-persuasion.json",
+      "source_rule_id": "FP-C01",
+      "id": "funding-persuasion:FP-C01",
+      "proposal": {
+        "id": "FP-C01",
+        "status": "candidate; refine existing guidance",
+        "existing_rule": "skills/write-with-purpose/SKILL.md: organize around reader question and select evidence; references/concepts-and-claims.md: distinguish proposal from evidence",
+        "trigger": "Author requests a proposal or decision memo and its purpose, audience and source material are available.",
+        "mechanical": "Track supplied claim-to-source links and unfilled claim-evidence slots, labeled unresolved when extraction is uncertain.",
+        "judgment": "Assess whether rationale, material benefits, costs, risks and actionable request are supported and relevant; preserve truthful positive emphasis and author choice.",
+        "benefit": "Make merit and consequences legible without generic promotional phrases.",
+        "counterexample": "A speculative concept may validly state a hoped-for benefit if explicitly marked as a hypothesis; no mandate to supply absent facts.",
+        "evidence": [
+          "P03 pages 3–5, 9–11",
+          "P10 pages 4–8"
+        ]
+      }
+    },
+    {
+      "review": "reviews/funding-persuasion.json",
+      "source_rule_id": "FP-C02",
+      "id": "funding-persuasion:FP-C02",
+      "proposal": {
+        "id": "FP-C02",
+        "status": "candidate; reaffirm existing fidelity rules",
+        "existing_rule": "skills/write-with-purpose/references/language-and-meaning.md: preserve uncertainty and force; edit-with-purpose/SKILL.md: preserve source context",
+        "trigger": "A proposed edit strengthens novelty, confidence, causal direction, certainty, comparative claims or commitments.",
+        "mechanical": "Highlight changed modal, negation, number, comparative and superlative tokens as review candidates; do not decide entailment by token matching.",
+        "judgment": "Compare full claim, context and underlying source, retain warranted qualifiers; allow genuinely supported assertive wording and accurate adjectives.",
+        "benefit": "Support persuasive emphasis without making claims stronger than their evidence.",
+        "counterexample": "Replacing an unnecessarily tentative assertion with a stronger one can be valid if the supplied source actually supports it.",
+        "evidence": [
+          "P10 pages 3–8",
+          "P11 pages 3, 7–8, 10–11"
+        ]
+      }
+    },
+    {
+      "review": "reviews/funding-persuasion.json",
+      "source_rule_id": "FP-C03",
+      "id": "funding-persuasion:FP-C03",
+      "proposal": {
+        "id": "FP-C03",
+        "status": "candidate; refine existing reader edit",
+        "existing_rule": "skills/write-with-purpose/SKILL.md: keep technical terms and avoid uniform sentence-length preference",
+        "trigger": "A sentence is difficult for the intended reader or hides a relevant relation in a proposal or memo.",
+        "mechanical": "Flag only declared word limits and optionally show observed word/sentence counts without a target.",
+        "judgment": "Compare alternatives for recoverable meaning, technical precision, audience needs and rhythm; preserve complexity necessary for the argument.",
+        "benefit": "Improve explanation while retaining technical substance and voice.",
+        "counterexample": "A specialist evaluator may need a precise technical term and a multi-clause qualification.",
+        "evidence": [
+          "P11 pages 3–8, 10–11"
+        ]
+      }
+    },
+    {
+      "review": "reviews/funding-persuasion.json",
+      "source_rule_id": "FP-C04",
+      "id": "funding-persuasion:FP-C04",
+      "proposal": {
+        "id": "FP-C04",
+        "status": "candidate hypothesis only; require evaluation",
+        "existing_rule": "docs/writing-harness/accepted-foundations.md: Family → Form → Section; features are observations, not targets",
+        "trigger": "Reviewing decision-oriented forms with author-supplied purpose and evidence.",
+        "mechanical": "Show optional checklist slots for decision, options and support only when explicitly requested or required.",
+        "judgment": "Check whether proposed action, alternatives and consequences are understandable for this decision; do not require fixed sequence or all slots.",
+        "benefit": "Possible form-sensitive support and comparison, not demonstrated funding advantage.",
+        "counterexample": "A short memo may legitimately address one narrow decision with alternatives linked separately.",
+        "evidence": [
+          "P03 pages 9–11",
+          "P11 pages 4–5, 9–10"
+        ]
+      }
+    },
+    {
+      "review": "reviews/headlines-attention.json",
+      "source_rule_id": "HA-01",
+      "id": "headlines-attention:HA-01",
+      "proposal": {
+        "id": "HA-01",
+        "status": "candidate refine, not adopted",
+        "existing_rule": "skills/write-with-purpose/references/structure-and-purpose.md: choose material for contribution, consider reader question; accepted-foundations F02",
+        "trigger": "Author requests a title or heading for a known form, audience and destination.",
+        "action": "Compare whether each candidate names the contribution and gives the intended reader enough orientation; allow justified intrigue, interrogative framing or ambiguity.",
+        "expected_benefit": "Contextual title review without a single algorithmic concreteness optimum.",
+        "counterexample": "A reflective essay title may deliberately leave the meaning open until the ending; an API reference heading may need exact identifier.",
+        "mechanical": "Check declared title limits, presence/consistency of explicit terms and heading structure.",
+        "semantic": "Judge fidelity, reader expectations, justified omissions and voice with author."
+      }
+    },
+    {
+      "review": "reviews/headlines-attention.json",
+      "source_rule_id": "HA-02",
+      "id": "headlines-attention:HA-02",
+      "proposal": {
+        "id": "HA-02",
+        "status": "candidate reaffirm",
+        "existing_rule": "skills/write-with-purpose/SKILL.md: author intent and voice, source fidelity; accepted-foundations preserve originality",
+        "trigger": "Attention-oriented suggestion changes specificity, affect, or promises.",
+        "action": "Review whether the title truthfully reflects the piece and the authors intended framing; do not insert negativity or omit material facts merely for CTR.",
+        "expected_benefit": "Protect source fidelity and author control.",
+        "counterexample": "A naturally negative title is appropriate when it faithfully describes an adverse event.",
+        "mechanical": "Detect mismatched named items only with supplied canonical records; check declared constraints.",
+        "semantic": "Evaluate framing, emotional accuracy, fairness and relevance in full context."
+      }
+    },
+    {
+      "review": "reviews/headlines-attention.json",
+      "source_rule_id": "HA-03",
+      "id": "headlines-attention:HA-03",
+      "proposal": {
+        "id": "HA-03",
+        "status": "candidate conflict with universal heuristic",
+        "existing_rule": "write-with-purpose: avoid generic preference for fewer words or uniformly short sentences; no default readability grade",
+        "trigger": "A tool proposes mandatory brevity, a readability score, preferred pronoun or negative wording.",
+        "action": "Do not use lexical signals as universal pass/fail rules.",
+        "expected_benefit": "Preserve necessary technical vocabulary, voice and functional variation.",
+        "counterexample": "A publisher can set an actual character ceiling; a title can be misleadingly long or short regardless of score.",
+        "mechanical": "Count words or characters only under declared measurement rules and enforce explicit limits.",
+        "semantic": "Reader comprehension and faithful tone require assessment."
+      }
+    },
+    {
+      "review": "reviews/headlines-attention.json",
+      "source_rule_id": "HA-04",
+      "id": "headlines-attention:HA-04",
+      "proposal": {
+        "id": "HA-04",
+        "status": "new hypothesis, not demonstrated advantage",
+        "existing_rule": "dataset-adoption plugin-reuse-notes: separate purpose, form, provenance and semantic review; calibration report indicates low function agreement",
+        "trigger": "When a user asks the plugin to compare title options for a specific intended audience.",
+        "action": "Offer author-chosen alternatives with stated reader question, tradeoffs and uncertainty; evaluate actual readers against intended outcomes, not just clicks.",
+        "expected_benefit": "Plausible differentiation through source-grounded, author-controlled choice.",
+        "counterexample": "A narrow copy-edit needs no title generation, ranking or testing workflow.",
+        "mechanical": "Store candidate versions, constraints and exact source links; evaluate experimental units and outcome definitions.",
+        "semantic": "Author decides voice and goal; blinded reader task and preregistered comparison needed to demonstrate usefulness."
+      }
+    },
+    {
+      "review": "reviews/narrative-style-impact.json",
+      "source_rule_id": "NS01",
+      "id": "narrative-style-impact:NS01",
+      "proposal": {
+        "id": "NS01",
+        "status": "candidate; reaffirm",
+        "existing_rule": "skills/write-with-purpose/SKILL.md; references/cole-lyons-style.md; docs/writing-harness/paragraph-functions.json narrate/illustrate",
+        "scope_trigger": "Author supplies a relevant experience or a concrete example advances the stated purpose.",
+        "proposal": "Offer a sourced scene or example as one optional route, preserving origin and distinguishing observation from invention; never require a narrative opening.",
+        "expected_benefit": "Makes an abstract relationship recoverable while preserving choice and voice; benefit remains to be tested for this audience.",
+        "counterexample": "A technical reference entry needs a precise definition or lookup, not an invented story.",
+        "mechanical": "Record provenance, author approval, and links to the illustrated claim.",
+        "semantic_or_author": "Whether the case illuminates the point and the author wants its tone."
+      }
+    },
+    {
+      "review": "reviews/narrative-style-impact.json",
+      "source_rule_id": "NS02",
+      "id": "narrative-style-impact:NS02",
+      "proposal": {
+        "id": "NS02",
+        "status": "candidate; reaffirm",
+        "existing_rule": "skills/write-with-purpose/SKILL.md; skills/edit-with-purpose/SKILL.md; references/language-and-meaning.md",
+        "scope_trigger": "A revision changes tense, reference, article, preposition, modality or attribution.",
+        "proposal": "Protect temporal state, scope, actor and technical meaning; show alternatives rather than optimizing pronouns, grammatical word counts or tense for citation prediction.",
+        "expected_benefit": "Preserve factual meaning and author voice while giving agency and temporal framing contextual attention.",
+        "counterexample": "Changing had to has can imply continued relevance or a different time relationship; removing a preposition can lose a condition.",
+        "mechanical": "Compare tokens and declared preserved phrases; flag changes to protected terms and tense as review candidates, not errors.",
+        "semantic_or_author": "Determine whether meaning changes, and whether chosen voice serves the task."
+      }
+    },
+    {
+      "review": "reviews/narrative-style-impact.json",
+      "source_rule_id": "NS03",
+      "id": "narrative-style-impact:NS03",
+      "proposal": {
+        "id": "NS03",
+        "status": "candidate; reaffirm",
+        "existing_rule": "docs/writing-harness/paragraph-functions.json support/interpret; skills/write-with-purpose/references/structure-and-purpose.md",
+        "scope_trigger": "A claim, example, evidence or inference is present.",
+        "proposal": "Retain target links and ask whether the evidence supports the particular claim and whether inference exceeds it.",
+        "expected_benefit": "Supports source fidelity and meaningful connected reasoning.",
+        "counterexample": "A highly shared emotional anecdote may illustrate experience but cannot establish population frequency or prove a claim.",
+        "mechanical": "Check links and provenance fields resolve; count only supplied annotated evidence.",
+        "semantic_or_author": "Judge evidential relevance, inferential scope and whether explanation helps reader."
+      }
+    },
+    {
+      "review": "reviews/narrative-style-impact.json",
+      "source_rule_id": "NS04",
+      "id": "narrative-style-impact:NS04",
+      "proposal": {
+        "id": "NS04",
+        "status": "candidate; not justified as default",
+        "existing_rule": "skills/write-with-purpose/SKILL.md; accepted-foundations.md F05/F06/F09",
+        "scope_trigger": "A tool proposes changing prose to maximize sharing, citation counts, sentiment or low readability score.",
+        "proposal": "Treat these as optional user-declared outcomes with testable tradeoffs, not proxies for good writing, comprehension or accuracy.",
+        "expected_benefit": "Avoids sacrificing meaning, learning goals and voice for an indirect popularity measure.",
+        "counterexample": "A safety notice may rightly express low-arousal uncertainty and specialist terminology while serving its audience.",
+        "mechanical": "Record declared purpose and inspect counts as descriptive data only.",
+        "semantic_or_author": "Author chooses objectives; reader studies measure comprehension or task success directly."
+      }
+    },
+    {
+      "review": "reviews/genre-moves.json",
+      "source_rule_id": "GM-01",
+      "id": "genre-moves:GM-01",
+      "proposal": {
+        "id": "GM-01",
+        "status": "candidate",
+        "existing_rule": "skills/write-with-purpose/references/structure-and-purpose.md: For a decision or operational explanation, make the choice, reasons and consequences recoverable.",
+        "classification": "reaffirm",
+        "trigger": "Actual decision work with an audience and a live choice",
+        "change": "Offer optional blank prompts for decision, observations, decision criteria/warrant, interpretation, alternatives and constraints. Ask only for relevant information; author chooses sequence and completeness.",
+        "benefit": "Makes the recommendation’s connection to evidence reviewable.",
+        "counterexample": "A status-only sales report may legitimately have no explicit recommendation; an implicit one must not be invented."
+      }
+    },
+    {
+      "review": "reviews/genre-moves.json",
+      "source_rule_id": "GM-02",
+      "id": "genre-moves:GM-02",
+      "proposal": {
+        "id": "GM-02",
+        "status": "candidate",
+        "existing_rule": "docs/writing-harness/accepted-foundations.md: Family → Form → Section; section need not have a heading; preserve variation.",
+        "classification": "reaffirm",
+        "trigger": "Author requests outline for an empirical article or comparable evidence-backed report",
+        "change": "Show section jobs and optional alternative arrangements, with blends and recursion allowed; classify sections from purpose plus context rather than heading.",
+        "benefit": "Offers reusable options without flattening discipline-specific practices.",
+        "counterexample": "A section called Results can include interpretations and an unheaded Introduction can orient."
+      }
+    },
+    {
+      "review": "reviews/genre-moves.json",
+      "source_rule_id": "GM-03",
+      "id": "genre-moves:GM-03",
+      "proposal": {
+        "id": "GM-03",
+        "status": "candidate",
+        "existing_rule": "docs/writing-harness/paragraph-functions.json: assert/support/interpret/compare/qualify and explicit relations",
+        "classification": "refine",
+        "trigger": "Draft contains recommendation and potential reasons",
+        "change": "Independently note recommendation, evidence, warrant, attribution and any relation target; prompt for a missing link only when contextual review finds one needed.",
+        "benefit": "Supports examination of the inference instead of treating one label as another.",
+        "counterexample": "A bare citation, juxtaposition or claim that a warrant is implicit does not demonstrate actual support."
+      }
+    },
+    {
+      "review": "reviews/genre-moves.json",
+      "source_rule_id": "GM-04",
+      "id": "genre-moves:GM-04",
+      "proposal": {
+        "id": "GM-04",
+        "status": "candidate",
+        "existing_rule": "experiments/rule-calibration-2026-11-16/report.md: no demonstrated agreement improvement; evidence anchors are not full realization spans.",
+        "classification": "reaffirm",
+        "trigger": "Imported sentence or phrase roles mapped to paragraph functions",
+        "change": "Keep original source labels and overlapping spans, separate evidence anchors and complete realization spans, preserve uncertain and multiple readings, and run a fresh independent boundary study.",
+        "benefit": "Makes disagreements inspectable and prevents unit conversion from manufacturing certainty.",
+        "counterexample": "Cotos ICC on a different unit and scheme does not establish improved exact-set agreement on our 36 paragraphs."
+      }
+    },
+    {
+      "review": "reviews/genre-moves.json",
+      "source_rule_id": "GM-05",
+      "id": "genre-moves:GM-05",
+      "proposal": {
+        "id": "GM-05",
+        "status": "candidate",
+        "existing_rule": "skills/edit-with-purpose/SKILL.md: preserve effective wording and apply smallest targeted change.",
+        "classification": "new hypothesis",
+        "trigger": "Author asks for Methods section planning or structural review",
+        "change": "Offer context/design; study/data, tools and procedures; data preparation/analysis and reasons as optional questions, not required sections or draft language.",
+        "benefit": "Prompts recoverable reporting and design rationale in suitable empirical studies.",
+        "counterexample": "A theoretical paper, a procedure, or a business report can legitimately lack the full experimental Methods structure."
+      }
+    },
+    {
+      "review": "reviews/agreement-writing-rules.json",
+      "source_rule_id": "AR01",
+      "id": "agreement-writing-rules:AR01",
+      "proposal": {
+        "id": "AR01",
+        "status": "candidate",
+        "disposition": "reaffirm and refine",
+        "existing_rule": "docs/writing-harness/paragraph-functions.json guidance; experiments/rule-calibration-2026-11-16/report.md",
+        "trigger": "Multiple defensible functions on a shared text unit",
+        "proposal": "Preserve multiple labels and distinguish exact full-set, overlap-sensitive set distance and per-label positive agreement, with raw coder sets and denominators. Evaluate mv-alpha on comparable pre-specified shared units and separately inspect boundaries; do not force primary function.",
+        "benefit": "Makes strict-subset errors and sparse shared absences visible.",
+        "counterexample": "Two coders may assign identical sets but point to different claims or realization spans; agreement does not prove either interpretation correct.",
+        "mechanical_vs_semantic": "Set comparisons and offset checks mechanical; label and target validity semantic; author retains final editorial control.",
+        "evidence": "P18 pp. 5, 7, 11–13; local 36-paragraph report."
+      }
+    },
+    {
+      "review": "reviews/agreement-writing-rules.json",
+      "source_rule_id": "AR02",
+      "id": "agreement-writing-rules:AR02",
+      "proposal": {
+        "id": "AR02",
+        "status": "candidate",
+        "disposition": "refine",
+        "existing_rule": "docs/writing-harness/research/astra-rule-revision-2026-11-16.md; calibration report",
+        "trigger": "Relations such as support or qualification, or function-length calculation",
+        "proposal": "Retain targets, evidence anchors and complete realization spans as separate fields, including discontinuity and uncollected/uncertain status. Compare target unit, target span and semantic adequacy separately; anchor text alone does not establish realization length.",
+        "benefit": "Shows why same function set can still disagree about its target; prevents invalid function-length measurements.",
+        "counterexample": "An illustrative sentence with no explicit support target need not be coded as supporting a claim.",
+        "mechanical_vs_semantic": "Hash, source offsets and target existence are mechanical; scope, sufficiency and relation meaning require review.",
+        "evidence": "P18 p. 7 sentence unitization; calibration report target overlap and anchor limitation."
+      }
+    },
+    {
+      "review": "reviews/agreement-writing-rules.json",
+      "source_rule_id": "AR03",
+      "id": "agreement-writing-rules:AR03",
+      "proposal": {
+        "id": "AR03",
+        "status": "candidate",
+        "disposition": "refine",
+        "existing_rule": "experiments/rule-calibration-2026-11-16/report.md",
+        "trigger": "Planning a new independent coding pilot",
+        "proposal": "Freeze codebook, train with held-out examples, report coder identity/experience, sampling, all set counts, prevalence, target judgments, missing/unresolved state and pre-adjudication results. Test boundary agreement independently. Select any future decision criterion in advance; do not apply 750 as a threshold.",
+        "benefit": "Makes disagreement diagnosis and independent replication feasible.",
+        "counterexample": "High agreement can result from both coders omitting a function or using shared blank labels; adjudication alone is not accuracy.",
+        "mechanical_vs_semantic": "Completeness and provenance checks mechanical; category meaning and adjudication judged with context.",
+        "evidence": "P18 pp. 6–7, 10–14."
+      }
+    },
+    {
+      "review": "reviews/agreement-writing-rules.json",
+      "source_rule_id": "AR04",
+      "id": "agreement-writing-rules:AR04",
+      "proposal": {
+        "id": "AR04",
+        "status": "candidate",
+        "disposition": "reaffirm",
+        "existing_rule": "skills/edit-with-purpose/SKILL.md; skills/write-with-purpose/SKILL.md; accepted-foundations F01 F04 F05",
+        "trigger": "Assessing length or cutting prose",
+        "proposal": "Use counts as descriptive signals and author-specified limits; judge necessity, connection and reader task before cutting. No general shortness, lengthening, or citation-maximization rule.",
+        "benefit": "Preserves needed explanation and respects actual constraints.",
+        "counterexample": "A strict abstract word limit may require a shorter version despite positive length-citation associations.",
+        "mechanical_vs_semantic": "Count explicit budgets mechanically; decide necessary content and reader comprehension by review.",
+        "evidence": "P14 pp. 1–4; correlation does not establish comprehension."
+      }
+    },
+    {
+      "review": "reviews/agreement-writing-rules.json",
+      "source_rule_id": "AR05",
+      "id": "agreement-writing-rules:AR05",
+      "proposal": {
+        "id": "AR05",
+        "status": "candidate",
+        "disposition": "reaffirm",
+        "existing_rule": "skills/write-with-purpose/SKILL.md; skills/edit-with-purpose/references/plain-language-edit.md",
+        "trigger": "Technical terms, modifiers, tense and qualifications",
+        "proposal": "Protect accurate terms and uncertainty; choose tense by chronology, modifiers by meaning, explanation by audience. Do not automate broad deletion or insertion of hedges, adjectives or superlatives.",
+        "benefit": "Avoids distorted claims and permits author voice.",
+        "counterexample": "Unexplained specialist terminology may require a brief definition for a novice even though rarer terms correlate with citations.",
+        "mechanical_vs_semantic": "Detect candidate tense or terms mechanically; appropriateness, accuracy and reader knowledge require judgment.",
+        "evidence": "P14 pp. 2–3; keyword and frequency proxies not comprehension tests."
+      }
+    },
+    {
+      "review": "reviews/agreement-writing-rules.json",
+      "source_rule_id": "AR06",
+      "id": "agreement-writing-rules:AR06",
+      "proposal": {
+        "id": "AR06",
+        "status": "candidate",
+        "disposition": "not justified",
+        "existing_rule": "docs/writing-harness/paragraph-functions.json support and qualify; accepted-foundations F07 F09",
+        "trigger": "Abstract claims about novelty, evidence, significance or uncertainty",
+        "proposal": "Treat novelty words and hedges only as prompts to review factual basis, affected claim and scope; never assert significance, increase confidence or remove qualification merely to optimize citations.",
+        "benefit": "Separates lexical cues from evidence-grounded rhetorical function.",
+        "counterexample": "A well-grounded novel result may accurately say novel; a word alone does not establish novelty.",
+        "mechanical_vs_semantic": "Find cue words mechanically; verifying novelty and support is semantic and evidence-based.",
+        "evidence": "P14 pp. 2–4; P18 pp. 1–2."
+      }
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_020",
+      "business_021",
+      "business_022"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review."
+  },
+  {
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_013",
+      "business_023",
+      "business_024"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review."
+  },
+  {
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_034",
+      "business_035",
+      "business_036"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review."
+  },
+  {
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_025",
+      "business_026",
+      "business_027"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review."
+  },
+  {
+    "form_id": "tutorial",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_032",
+      "business_033",
+      "business_016"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review."
+  },
+  {
+    "form_id": "procedure_how_to",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_028",
+      "business_029",
+      "business_030"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review."
+  },
+  {
+    "form_id": "reference_entry",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_043",
+      "business_044",
+      "business_045"
+    ],
+    "reason": "Three individually citable publisher reference entries; two are 2015 supplemental examples. No complete books selected."
+  },
+  {
+    "form_id": "empirical_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_018",
+      "business_019",
+      "business_031"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review."
+  },
+  {
+    "form_id": "methods_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_001",
+      "business_002",
+      "business_003"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review."
+  },
+  {
+    "form_id": "theory_conceptual_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_004",
+      "business_005",
+      "business_006"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review."
+  },
+  {
+    "form_id": "case_report",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Clinical case report is not equivalent to a business teaching case; no clinical-type business analogue is counted."
+  },
+  {
+    "form_id": "study_review_protocol",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_037",
+      "business_048",
+      "business_049"
+    ],
+    "reason": "Three actual review protocols: one original through 2014 and two 2015–2019 supplements; two are management and health crossover."
+  },
+  {
+    "form_id": "narrative_critical_literature_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_007",
+      "business_008",
+      "business_009"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review."
+  },
+  {
+    "form_id": "scoping_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_038",
+      "business_046",
+      "business_047"
+    ],
+    "reason": "Three supplemental scoping reviews of organizational management in healthcare; publication years 2017–2019; general-business examples remain desirable."
+  },
+  {
+    "form_id": "systematic_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_010",
+      "business_011",
+      "business_012"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review."
+  },
+  {
+    "form_id": "proposal",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_039",
+      "business_040",
+      "business_041"
+    ],
+    "reason": "Three distinct original shareholder proposals in corporate proxy filings; selected as practical form examples without readership evidence."
+  },
+  {
+    "form_id": "decision_memo",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "A 1995 executive strategy memo is preserved as an uncounted analogue; its decision-request form is not established."
+  }
+]

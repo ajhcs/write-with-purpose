@@ -1,0 +1,127 @@
+{
+  "advocate": "reader-learning",
+  "lens": "Reader knowledge, language and learning; independent Round 1",
+  "baseline_critique": [
+    "Existing skills already require exact terminology, audience-aware connections, reader edits and preservation of voice. Repetition of these principles is not a new mechanism.",
+    "The editing skill’s smallest-change and one-at-a-time wording risks anchoring even authorized improvement to a local edit; replace change-minimization as an objective with demonstrated reader benefit subject to task constraints and fidelity.",
+    "A standalone model reread is not evidence of reader performance. Prompting a taxonomy or teaching lesson for every paragraph adds burden without demonstrated benefit."
+  ],
+  "proposals": [
+    {
+      "id": "RL01",
+      "title": "Recover a reader task and locate the failed handoff",
+      "behavior": "For a consequential passage, attempt the reader’s actual next question or action using only what is available at that point; identify the specific missing referent, distinction or inferential bridge. First look for it elsewhere in the supplied sources or draft. Move or explain supported material at the point of need; if the bridge is unavailable, show the precise gap rather than manufacture a premise.",
+      "trigger": "The requested purpose requires a reader to understand a relationship, decide, or act and a concrete handoff fails in a passage.",
+      "editing_improvement_effect": "Reorders or adds a source-supported connection rather than merely warning that a term is difficult. Can improve an entire passage through coordinated changes.",
+      "novelty_relative_to_baseline": "Existing reader edit already asks readers to recover task and connections; the proposed operational difference is a localized failed-task probe coupled to source search and a verified repair, with unavailable marked separately. This is a recombination, not a proven novel scientific technique.",
+      "model_code_author_roles": {
+        "model": "Propose a task-specific question, attempt it at the precise reading point, search provided context, perform the supported repair and reattempt.",
+        "code": "Bind original/candidate spans, source pointers and explicit missing status; exact references are not semantic proof.",
+        "author": "Correct the task or the meaning and supply an absent premise if needed; retain authority over the change."
+      },
+      "example": {
+        "source": "A technical note states: “A model is identifiable if its parameters can be uniquely inferred from the observations. The current measurement cannot distinguish these two material parameters.” Draft: “The two parameters are not identifiable. We need another test.”",
+        "edit": "“The current measurements cannot distinguish the effects of the two material parameters, so they do not identify each parameter uniquely. A different test is needed to separate their effects.”",
+        "test": "Ask what the measurement cannot distinguish and why another test is proposed; the supplied note supports the bridge, not the outcome of any particular test."
+      },
+      "counterexample": "A specialist reviewer who already knows the inference may need only the concise diagnosis; a literary ambiguity or intentionally delayed revelation is not automatically a missing bridge.",
+      "evidence": [
+        "P01 pp.7–10: jargon manipulation changed perceived fluency; hover findings do not test inline bridges or objective learning.",
+        "P09 pp.2–6: bundled variants and limited multiple-choice comprehension, not an isolated effect of a connection.",
+        "Existing structure-and-purpose.md reader edit and Astra strategy are precedents."
+      ],
+      "evaluation_needed": "On held-out real passages, have intended readers answer the predeclared task before and after, with blinded independent fidelity and author voice assessment; do not equate the model’s own reattempt with reader proof."
+    },
+    {
+      "id": "RL02",
+      "title": "Term and distinction bridge",
+      "behavior": "Retain a domain term when it names a distinction needed by the task. If the reader must use that distinction and it is not recoverable at first encounter, draft a brief context-specific bridge: term → relevant difference or operational consequence, using provided evidence. Compare term-only and bridged versions for this audience, rather than automatically replacing or defining the term everywhere.",
+      "trigger": "A technical term carries a material distinction and the target reader is plausibly unfamiliar with it.",
+      "editing_improvement_effect": "Adds or relocates the minimum useful explanation without flattening the concept; may replace several vague sentences with an exact term and one relevant distinction.",
+      "novelty_relative_to_baseline": "The current skill asks for exact terms and natural definitions. This proposal requires choosing the consequence a particular task needs and testing term-only versus bridged candidates, not applying a glossary mechanically.",
+      "model_code_author_roles": {
+        "model": "Identify exact distinction and suggest short candidate anchored to sources; separate hypothesized audience need from fact.",
+        "code": "Retain exact authorized terms, mark source and positions, track alternative versions; do not assign a difficulty grade.",
+        "author": "Choose term and intended level; verify the scientific distinction and decide whether the extra explanation belongs."
+      },
+      "example": {
+        "source": "Given the established definition in RL01 and a cross-disciplinary reader, “not identifiable” is needed for the model decision.",
+        "edit": "“The parameters are not identifiable: these measurements cannot distinguish their separate effects.”",
+        "test": "Can the reader explain what cannot be distinguished? Preserve the exact term for later use."
+      },
+      "counterexample": "If the distinction is not relevant yet, the bridge interrupts the argument; a definition cannot be fabricated for an unsettled concept or replace an expert’s judgment.",
+      "evidence": [
+        "P01 p.7: optional hover was not usually used; p.14 admits uncertainty about definition presentation.",
+        "P05 p.8: vocabulary familiarity and precision depend on community.",
+        "P09 p.3: style components were bundled; cannot attribute comprehension to definitions or term replacement."
+      ],
+      "evaluation_needed": "Compare term-only, adjacent context bridge and carefully justified paraphrase with target readers; measure meaning preservation and correct transfer, not just perceived ease. Hypothesis only."
+    },
+    {
+      "id": "RL03",
+      "title": "Compete repairs by reader result, not change count",
+      "behavior": "When substantive editing is authorized and local edits leave a demonstrated reader-task failure, produce a coordinated rewrite that rearranges, combines or develops the supplied content. Compare it with the best local repair on recoverability, source fidelity, voice and explicit constraints. Select the substantive version when it resolves the failure better, and identify consequential reorganization.",
+      "trigger": "A material connection or answer cannot be repaired within a small local adjustment, and the request permits improvement or substantial editing.",
+      "editing_improvement_effect": "Changes current behavior from treating smallest change as the default winning objective to treating the smallest sufficient repair as one candidate; permits genuine structure and reasoning improvement.",
+      "novelty_relative_to_baseline": "Existing skills already permit substantial change on explicit request, but “smallest set” and one-at-a-time edits can anchor the process to local repairs. This rule makes a comparison mandatory only when a local repair demonstrably fails and substantive improvement is authorized.",
+      "model_code_author_roles": {
+        "model": "Create a local candidate and a structurally different supported candidate, compare actual reader questions and sources, deliver the better permitted result.",
+        "code": "Preserve source snapshot and diff; verify declared boundaries, limits and exact protected terms, not the merit of ideas.",
+        "author": "Retain final authority over meaning and voice; choose or reject reorganization. No approval gate for an authorized improvement."
+      },
+      "example": {
+        "source": "Author’s notes: “The dashboard marks a repair complete when it is sent to a contractor. Rain still enters the tenant’s window. The completion status can hide unresolved work.” Draft describes the dashboard in three dispersed passages.",
+        "edit": "“The dashboard can show a leaking window repair as complete as soon as the request reaches a contractor. For the tenant, the repair remains unfinished while rain still comes in. The status therefore records a handoff, not a fixed window.”",
+        "test": "Can the reader distinguish the system’s event from the tenant’s outcome? All three sentences reflect supplied notes; a local synonym change would leave the causal relationship scattered."
+      },
+      "counterexample": "A request restricted to corrections, a prescribed order, or an intentional fragmented form prohibits unsolicited restructuring; retain a short diagnosis rather than violate scope.",
+      "evidence": [
+        "P09 pp.2–6 tested combined variants, not individual edits; it motivates evaluating the actual candidate, not the mechanism itself.",
+        "Approved local style reference favors useful context and connected contrast, but does not validate a general rewrite preference."
+      ],
+      "evaluation_needed": "A/B compare current skills and proposed mechanism on author-authorized hard cases; blind readers and fidelity reviewers, ask authors about voice, record regressions and actual interactions. No claim of improvement until tested."
+    },
+    {
+      "id": "RL04",
+      "title": "Teach one transferable choice only when useful",
+      "behavior": "When the author seeks to learn or explicitly invites explanation, connect one actual revision to the reader consequence and show a countercase where the original would work. Invite a short unaided transfer on a later, different passage; preserve that optional learning exercise separately from the delivered edit. If learning was not requested, deliver the improved writing without an unsolicited lesson.",
+      "trigger": "A learning objective exists or the author asks why a consequential edit works.",
+      "editing_improvement_effect": "Teaches a choice through the author’s real work rather than adding template sentences or requiring them to classify a paragraph.",
+      "novelty_relative_to_baseline": "P17 and Research Writing Tutor already offer goals, examples and feedback; the narrower proposed combination is an author-owned edit, a counterexample and later unaided transfer, with explicit nonintrusion. Unproven relative to existing tutoring.",
+      "model_code_author_roles": {
+        "model": "Explain the particular choice and a boundary case; do not claim expertise in the author’s voice or diagnose learning from compliance.",
+        "code": "Store optional choice and provenance only if session workflow warrants it; separate learning result from produced prose.",
+        "author": "Decide whether to see teaching, correct explanation, and perform or decline transfer."
+      },
+      "example": {
+        "source": "RL03 before/after: dashboard status and tenant outcome were separated.",
+        "edit": "One optional note: “Putting the two meanings of complete together lets a reader see why the status can mislead. If the audience already has that contrast in the preceding sentence, repeating it may be unnecessary.”",
+        "test": "On a later unrelated draft, ask the author to locate a similarly ambiguous event and choose whether to explain it."
+      },
+      "counterexample": "A requested copy edit, urgent note or personal narrative may call for no explanation or diagnostic task; a transfer example is not a universal prose template.",
+      "evidence": [
+        "P17 pp.6,15–16 is descriptive and discusses functional teaching, not an evaluation of this interaction.",
+        "P01 and P09 show distinct processing and comprehension measures, not durable learning.",
+        "Current Astra strategy already proposes optional explanations and later transfer; this is a narrower design to evaluate, not an originality claim across products."
+      ],
+      "evaluation_needed": "Use a delayed, independently scored unaided transfer task on new passages and compare to current skills; assess burden, retention, author agency and actual draft quality."
+    }
+  ],
+  "retire_or_change": [
+    "For authorized substantive improvement, retire “smallest set of changes” as the selection criterion when an inadequate local candidate can be outperformed by a supported reorganization; retain minimal change for explicitly narrow corrections.",
+    "Retain technical vocabulary and reader edit but require that feedback name a specific reader failure and its source-backed repair, not a generic difficulty score.",
+    "Do not require the twelve F09 labels, literacy grade, standardized sentence lengths or output templates in ordinary editing."
+  ],
+  "nonnegotiable_distinctions": [
+    "Perceived fluency, observed comprehension, social engagement and reader confidence are different outcomes.",
+    "Evidence-supported inference and authored intent are different from invented premises or experiences.",
+    "Model simulated reader response is provisional; code checks literal structure, not meaning; authors control voice and decisions.",
+    "Audience expertise is an assumption to test, not a fixed property inferred from a label.",
+    "Content-critical uncertainty and author-authorized preservation constrain any rewrite."
+  ],
+  "questions_for_peers": [
+    "When should failed reader simulation trigger a substantive alternative without requiring a second full draft?",
+    "What evidence is sufficient to identify a missing premise while avoiding a model inventing it?",
+    "How can voice be assessed without treating word preservation or an automatic similarity score as a proxy?"
+  ]
+}

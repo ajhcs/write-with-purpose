@@ -1,0 +1,200 @@
+{
+  "created_utc": "2026-11-16T19:28:28.042980+00:00",
+  "records": [
+    {
+      "id": "az-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/E99-1015.pdf",
+      "filename": "az-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/E99-1015.pdf",
+        "effective_url": "https://aclanthology.org/E99-1015.pdf",
+        "content_type": "application/pdf",
+        "bytes": 724873,
+        "sha256": "1a57765e64a753048b111776c43f74309ea2c186f0b6691aa0c5abd2e332bb66",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/az-paper/az-paper.pdf",
+      "status": "downloaded"
+    },
+    {
+      "id": "bawe-data",
+      "type": "archive",
+      "url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/2539.zip?sequence=4&isAllowed=y",
+      "filename": "2539.zip",
+      "download": {
+        "requested_url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/2539.zip?sequence=4&isAllowed=y",
+        "effective_url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/2539.zip?sequence=4&isAllowed=y",
+        "content_type": "application/zip;charset=ISO-8859-1",
+        "bytes": 294710516,
+        "sha256": "3612b5e24e3ebf106e7d580b9132d90b6a63bdee035b48ecefbd655c9cacab32",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/bawe-data/2539.zip",
+      "extraction": {
+        "regular_files": 22088,
+        "expanded_bytes": 1106230306,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/bawe-data/unpacked"
+      },
+      "status": "downloaded"
+    },
+    {
+      "id": "dita-task-guide",
+      "type": "codebook",
+      "url": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "filename": "task2.html",
+      "download": {
+        "requested_url": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+        "effective_url": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+        "content_type": "text/html",
+        "bytes": 17964,
+        "sha256": "e294a97a5e076c7c1157d1a523d01a32b322aca56e4f452acef31c52968529a8",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/dita-task-guide/task2.html",
+      "status": "downloaded"
+    },
+    {
+      "id": "echr-main",
+      "type": "github_archive",
+      "repo": "trusthlt/mining-legal-arguments",
+      "branch": "main",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/trusthlt/mining-legal-arguments/commits/main",
+        "effective_url": "https://api.github.com/repos/trusthlt/mining-legal-arguments/commits/main",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 4955,
+        "sha256": "1ef0fdccacff949b051a60ddfe636667a11e5c1d1f06ea47dfc7ba7c39722d94",
+        "http_status": 200
+      },
+      "commit": "a1a14832ce55c85f04c9e211f3606e04401d9c0e",
+      "download": {
+        "requested_url": "https://codeload.github.com/trusthlt/mining-legal-arguments/tar.gz/a1a14832ce55c85f04c9e211f3606e04401d9c0e",
+        "effective_url": "https://codeload.github.com/trusthlt/mining-legal-arguments/tar.gz/a1a14832ce55c85f04c9e211f3606e04401d9c0e",
+        "content_type": "application/x-gzip",
+        "bytes": 114981841,
+        "sha256": "9616fb74ec0210e7eb4278404b20cb5db842424f125aa1bda3f5a13fedbb3d01",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/echr-main/source.tar.gz",
+      "extraction": {
+        "regular_files": 1997,
+        "expanded_bytes": 841686211,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/echr-main/unpacked"
+      },
+      "status": "downloaded"
+    },
+    {
+      "id": "erst-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/2025.cl-1.3.pdf",
+      "filename": "erst-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/2025.cl-1.3.pdf",
+        "effective_url": "https://aclanthology.org/2025.cl-1.3.pdf",
+        "content_type": "application/pdf",
+        "bytes": 2107444,
+        "sha256": "f04807264324631d1ad79aade3529215afc7729cf874ef311edf5094ab52a6da",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/erst-paper/erst-paper.pdf",
+      "status": "downloaded"
+    },
+    {
+      "id": "microtext-guide",
+      "type": "codebook",
+      "url": "https://angcl.ling.uni-potsdam.de/pdfs/ArgGuidelinesEnglish.pdf",
+      "filename": "ArgGuidelinesEnglish.pdf",
+      "download": {
+        "requested_url": "https://angcl.ling.uni-potsdam.de/pdfs/ArgGuidelinesEnglish.pdf",
+        "effective_url": "https://angcl.ling.uni-potsdam.de/pdfs/ArgGuidelinesEnglish.pdf",
+        "content_type": "application/pdf",
+        "bytes": 230932,
+        "sha256": "0994108088787c9baa2ad1b87ea8bb2ed3ee133db0f1ea9f642f0f5575bed7e3",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/microtext-guide/ArgGuidelinesEnglish.pdf",
+      "status": "downloaded"
+    },
+    {
+      "id": "persuade-paper",
+      "type": "codebook-paper",
+      "url": "https://zenodo.org/api/records/8221504/files/A%20large-scale%20corpus%20for%20assessing%20written%20argumentation%20preprint.pdf/content",
+      "filename": "persuade-preprint.pdf",
+      "download": {
+        "requested_url": "https://zenodo.org/api/records/8221504/files/A%20large-scale%20corpus%20for%20assessing%20written%20argumentation%20preprint.pdf/content",
+        "effective_url": "https://zenodo.org/api/records/8221504/files/A%20large-scale%20corpus%20for%20assessing%20written%20argumentation%20preprint.pdf/content",
+        "content_type": "application/octet-stream",
+        "bytes": 400006,
+        "sha256": "9b34b069ae5465fc39e2a31c879e63ceff7efd9689aeb26fa1de888f38a83fff",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade-paper/persuade-preprint.pdf",
+      "status": "downloaded"
+    },
+    {
+      "id": "persuade-test",
+      "type": "dataset",
+      "url": "https://drive.usercontent.google.com/download?id=1K1SIJiG-2zWgMlTzxQeYOcLwOsFaVel1&export=download&confirm=t",
+      "filename": "persuade-test.zip",
+      "download": {
+        "requested_url": "https://drive.usercontent.google.com/download?id=1K1SIJiG-2zWgMlTzxQeYOcLwOsFaVel1&export=download&confirm=t",
+        "effective_url": "https://drive.usercontent.google.com/download?id=1K1SIJiG-2zWgMlTzxQeYOcLwOsFaVel1&export=download&confirm=t",
+        "content_type": "application/octet-stream",
+        "bytes": 14060214,
+        "sha256": "51c907f90b1303d610e8fcd8c0cbf3656ec88116bc34b60b93794affa77facb2",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade-test/persuade-test.zip",
+      "status": "downloaded"
+    },
+    {
+      "id": "persuade-train",
+      "type": "dataset",
+      "url": "https://drive.usercontent.google.com/download?id=13phHyDzIsb0MHyJr6q-B-qIa9P2tM135&export=download&confirm=t",
+      "filename": "persuade-training.csv",
+      "download": {
+        "requested_url": "https://drive.usercontent.google.com/download?id=13phHyDzIsb0MHyJr6q-B-qIa9P2tM135&export=download&confirm=t",
+        "effective_url": "https://drive.usercontent.google.com/download?id=13phHyDzIsb0MHyJr6q-B-qIa9P2tM135&export=download&confirm=t",
+        "content_type": "application/octet-stream",
+        "bytes": 616894963,
+        "sha256": "f61319edd8bf16a982711ea0399fad59c05afaec05cdf0767f16a2c05c467e23",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade-train/persuade-training.csv",
+      "status": "downloaded"
+    },
+    {
+      "id": "scidtb-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/D18-1388.pdf",
+      "filename": "scidtb-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/D18-1388.pdf",
+        "effective_url": "https://aclanthology.org/D18-1388.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1327473,
+        "sha256": "f1d85d1d9ad8ea4bb011c85b4ab6deec8732f97fbf55d93351cdf3ff4459071a",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scidtb-paper/scidtb-paper.pdf",
+      "status": "downloaded"
+    },
+    {
+      "id": "wlp-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/N18-2016.pdf",
+      "filename": "wlp-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/N18-2016.pdf",
+        "effective_url": "https://aclanthology.org/N18-2016.pdf",
+        "content_type": "application/pdf",
+        "bytes": 506256,
+        "sha256": "c5b251a853fad77ca65cddae21794a28c6af2f46c651ba9cd8d371fb3813efcc",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/wlp-paper/wlp-paper.pdf",
+      "status": "downloaded"
+    }
+  ]
+}

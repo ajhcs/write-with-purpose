@@ -1,0 +1,3372 @@
+{
+  "NEJM_publisher_Perspective": {
+    "range_kind": "observed_pilot_only",
+    "working_targets": null,
+    "declared_limits": null,
+    "function_coding": "Primary model interpretations; second-coder disagreements have not been adjudicated.",
+    "documents": 5,
+    "paragraph_count": 54,
+    "document_words": {
+      "min": 922,
+      "q1": 1292.0,
+      "median": 1296.0,
+      "q3": 1316.0,
+      "max": 1537,
+      "n": 5
+    },
+    "paragraphs_per_document": {
+      "min": 8,
+      "q1": 10.0,
+      "median": 11.0,
+      "q3": 12.0,
+      "max": 13,
+      "n": 5
+    },
+    "paragraph_words_pooled": {
+      "min": 42,
+      "q1": 86.0,
+      "median": 115.5,
+      "q3": 142.0,
+      "max": 220,
+      "n": 54
+    },
+    "per_document_median_paragraph_words": {
+      "min": 100.5,
+      "q1": 108.5,
+      "median": 116.0,
+      "q3": 117.0,
+      "max": 138.5,
+      "n": 5
+    },
+    "function_lengths": {
+      "orient": {
+        "documents_present": 3,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": 119,
+          "q1": 138.5,
+          "median": 154.0,
+          "q3": 177.25,
+          "max": 220,
+          "n": 4
+        },
+        "per_document_medians": {
+          "min": 132.0,
+          "q1": 147.5,
+          "median": 163.0,
+          "q3": 191.5,
+          "max": 220.0,
+          "n": 3
+        }
+      },
+      "define": {
+        "documents_present": 1,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": 116,
+          "q1": 116.0,
+          "median": 116.0,
+          "q3": 116.0,
+          "max": 116,
+          "n": 1
+        },
+        "per_document_medians": {
+          "min": 116.0,
+          "q1": 116.0,
+          "median": 116.0,
+          "q3": 116.0,
+          "max": 116.0,
+          "n": 1
+        }
+      },
+      "report": {
+        "documents_present": 5,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": 67,
+          "q1": 87.75,
+          "median": 116.0,
+          "q3": 141.25,
+          "max": 220,
+          "n": 34
+        },
+        "per_document_medians": {
+          "min": 80.5,
+          "q1": 111.0,
+          "median": 115.0,
+          "q3": 116.0,
+          "max": 148.5,
+          "n": 5
+        }
+      },
+      "assert": {
+        "documents_present": 3,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": 55,
+          "q1": 89.0,
+          "median": 114.0,
+          "q3": 141.5,
+          "max": 207,
+          "n": 15
+        },
+        "per_document_medians": {
+          "min": 89.0,
+          "q1": 101.5,
+          "median": 114.0,
+          "q3": 119.75,
+          "max": 125.5,
+          "n": 3
+        }
+      },
+      "support": {
+        "documents_present": 2,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": 69,
+          "q1": 86.0,
+          "median": 90.0,
+          "q3": 151.0,
+          "max": 193,
+          "n": 5
+        },
+        "per_document_medians": {
+          "min": 86.0,
+          "q1": 107.5,
+          "median": 129.0,
+          "q3": 150.5,
+          "max": 172.0,
+          "n": 2
+        }
+      },
+      "explain": {
+        "documents_present": 4,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": 42,
+          "q1": 104.75,
+          "median": 117.5,
+          "q3": 143.5,
+          "max": 207,
+          "n": 16
+        },
+        "per_document_medians": {
+          "min": 114.0,
+          "q1": 115.5,
+          "median": 119.25,
+          "q3": 134.125,
+          "max": 169.0,
+          "n": 4
+        }
+      },
+      "illustrate": {
+        "documents_present": 2,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": 55,
+          "q1": 91.0,
+          "median": 114.0,
+          "q3": 138.5,
+          "max": 154,
+          "n": 7
+        },
+        "per_document_medians": {
+          "min": 93.5,
+          "q1": 106.625,
+          "median": 119.75,
+          "q3": 132.875,
+          "max": 146.0,
+          "n": 2
+        }
+      },
+      "compare": {
+        "documents_present": 3,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": 111,
+          "q1": 125.0,
+          "median": 139.0,
+          "q3": 146.5,
+          "max": 154,
+          "n": 3
+        },
+        "per_document_medians": {
+          "min": 111.0,
+          "q1": 125.0,
+          "median": 139.0,
+          "q3": 146.5,
+          "max": 154.0,
+          "n": 3
+        }
+      },
+      "interpret": {
+        "documents_present": 5,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": 42,
+          "q1": 89.5,
+          "median": 129.0,
+          "q3": 145.5,
+          "max": 194,
+          "n": 19
+        },
+        "per_document_medians": {
+          "min": 92.0,
+          "q1": 123.0,
+          "median": 134.0,
+          "q3": 140.0,
+          "max": 163.0,
+          "n": 5
+        }
+      },
+      "qualify": {
+        "documents_present": 5,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": 67,
+          "q1": 108.75,
+          "median": 135.5,
+          "q3": 149.5,
+          "max": 207,
+          "n": 16
+        },
+        "per_document_medians": {
+          "min": 114.0,
+          "q1": 129.0,
+          "median": 142.0,
+          "q3": 143.0,
+          "max": 194.0,
+          "n": 5
+        }
+      },
+      "instruct": {
+        "documents_present": 0,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": null,
+          "q1": null,
+          "median": null,
+          "q3": null,
+          "max": null,
+          "n": 0
+        },
+        "per_document_medians": {
+          "min": null,
+          "q1": null,
+          "median": null,
+          "q3": null,
+          "max": null,
+          "n": 0
+        }
+      },
+      "narrate": {
+        "documents_present": 3,
+        "document_denominator": 5,
+        "tagged_paragraph_lengths": {
+          "min": 66,
+          "q1": 79.0,
+          "median": 117.0,
+          "q3": 142.0,
+          "max": 194,
+          "n": 17
+        },
+        "per_document_medians": {
+          "min": 108.5,
+          "q1": 111.75,
+          "median": 115.0,
+          "q3": 130.0,
+          "max": 145.0,
+          "n": 3
+        }
+      }
+    },
+    "analyst_role_budgets": {
+      "position and context": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1616577"
+        ],
+        "words": {
+          "min": 163,
+          "q1": 163.0,
+          "median": 163.0,
+          "q3": 163.0,
+          "max": 163,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.1257716049382716,
+          "q1": 0.1257716049382716,
+          "median": 0.1257716049382716,
+          "q3": 0.1257716049382716,
+          "max": 0.1257716049382716,
+          "n": 1
+        }
+      },
+      "reform record": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1616577"
+        ],
+        "words": {
+          "min": 159,
+          "q1": 159.0,
+          "median": 159.0,
+          "q3": 159.0,
+          "max": 159,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.12268518518518519,
+          "q1": 0.12268518518518519,
+          "median": 0.12268518518518519,
+          "q3": 0.12268518518518519,
+          "max": 0.12268518518518519,
+          "n": 1
+        }
+      },
+      "reform limits": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1616577"
+        ],
+        "words": {
+          "min": 114,
+          "q1": 114.0,
+          "median": 114.0,
+          "q3": 114.0,
+          "max": 114,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.08796296296296297,
+          "q1": 0.08796296296296297,
+          "median": 0.08796296296296297,
+          "q3": 0.08796296296296297,
+          "max": 0.08796296296296297,
+          "n": 1
+        }
+      },
+      "repeal proposal": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1616577"
+        ],
+        "words": {
+          "min": 111,
+          "q1": 111.0,
+          "median": 111.0,
+          "q3": 111.0,
+          "max": 111,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.08564814814814815,
+          "q1": 0.08564814814814815,
+          "median": 0.08564814814814815,
+          "q3": 0.08564814814814815,
+          "max": 0.08564814814814815,
+          "n": 1
+        }
+      },
+      "consequences": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1616577"
+        ],
+        "words": {
+          "min": 207,
+          "q1": 207.0,
+          "median": 207.0,
+          "q3": 207.0,
+          "max": 207,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.1597222222222222,
+          "q1": 0.1597222222222222,
+          "median": 0.1597222222222222,
+          "q3": 0.1597222222222222,
+          "max": 0.1597222222222222,
+          "n": 1
+        }
+      },
+      "repeal uncertainty": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1616577"
+        ],
+        "words": {
+          "min": 200,
+          "q1": 200.0,
+          "median": 200.0,
+          "q3": 200.0,
+          "max": 200,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.15432098765432098,
+          "q1": 0.15432098765432098,
+          "median": 0.15432098765432098,
+          "q3": 0.15432098765432098,
+          "max": 0.15432098765432098,
+          "n": 1
+        }
+      },
+      "tradeoff example": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1616577"
+        ],
+        "words": {
+          "min": 131,
+          "q1": 131.0,
+          "median": 131.0,
+          "q3": 131.0,
+          "max": 131,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.10108024691358025,
+          "q1": 0.10108024691358025,
+          "median": 0.10108024691358025,
+          "q3": 0.10108024691358025,
+          "max": 0.10108024691358025,
+          "n": 1
+        }
+      },
+      "stakes": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1616577"
+        ],
+        "words": {
+          "min": 83,
+          "q1": 83.0,
+          "median": 83.0,
+          "q3": 83.0,
+          "max": 83,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.06404320987654322,
+          "q1": 0.06404320987654322,
+          "median": 0.06404320987654322,
+          "q3": 0.06404320987654322,
+          "max": 0.06404320987654322,
+          "n": 1
+        }
+      },
+      "recommended approach": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1616577"
+        ],
+        "words": {
+          "min": 55,
+          "q1": 55.0,
+          "median": 55.0,
+          "q3": 55.0,
+          "max": 55,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.04243827160493827,
+          "q1": 0.04243827160493827,
+          "median": 0.04243827160493827,
+          "q3": 0.04243827160493827,
+          "max": 0.04243827160493827,
+          "n": 1
+        }
+      },
+      "human stakes and closing": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1616577"
+        ],
+        "words": {
+          "min": 73,
+          "q1": 73.0,
+          "median": 73.0,
+          "q3": 73.0,
+          "max": 73,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.05632716049382716,
+          "q1": 0.05632716049382716,
+          "median": 0.05632716049382716,
+          "q3": 0.05632716049382716,
+          "max": 0.05632716049382716,
+          "n": 1
+        }
+      },
+      "clinical experience and problem": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1702362"
+        ],
+        "words": {
+          "min": 145,
+          "q1": 145.0,
+          "median": 145.0,
+          "q3": 145.0,
+          "max": 145,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.11222910216718267,
+          "q1": 0.11222910216718267,
+          "median": 0.11222910216718267,
+          "q3": 0.11222910216718267,
+          "max": 0.11222910216718267,
+          "n": 1
+        }
+      },
+      "political context": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1702362"
+        ],
+        "words": {
+          "min": 132,
+          "q1": 132.0,
+          "median": 132.0,
+          "q3": 132.0,
+          "max": 132,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.1021671826625387,
+          "q1": 0.1021671826625387,
+          "median": 0.1021671826625387,
+          "q3": 0.1021671826625387,
+          "max": 0.1021671826625387,
+          "n": 1
+        }
+      },
+      "resistance question": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1702362"
+        ],
+        "words": {
+          "min": 119,
+          "q1": 119.0,
+          "median": 119.0,
+          "q3": 119.0,
+          "max": 119,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.09210526315789473,
+          "q1": 0.09210526315789473,
+          "median": 0.09210526315789473,
+          "q3": 0.09210526315789473,
+          "max": 0.09210526315789473,
+          "n": 1
+        }
+      },
+      "belief and evidence": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1702362"
+        ],
+        "words": {
+          "min": 193,
+          "q1": 193.0,
+          "median": 193.0,
+          "q3": 193.0,
+          "max": 193,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.14938080495356038,
+          "q1": 0.14938080495356038,
+          "median": 0.14938080495356038,
+          "q3": 0.14938080495356038,
+          "max": 0.14938080495356038,
+          "n": 1
+        }
+      },
+      "politicization and evidence": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1702362"
+        ],
+        "words": {
+          "min": 151,
+          "q1": 151.0,
+          "median": 151.0,
+          "q3": 151.0,
+          "max": 151,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.11687306501547988,
+          "q1": 0.11687306501547988,
+          "median": 0.11687306501547988,
+          "q3": 0.11687306501547988,
+          "max": 0.11687306501547988,
+          "n": 1
+        }
+      },
+      "politicization risk": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1702362"
+        ],
+        "words": {
+          "min": 146,
+          "q1": 146.0,
+          "median": 146.0,
+          "q3": 146.0,
+          "max": 146,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.1130030959752322,
+          "q1": 0.1130030959752322,
+          "median": 0.1130030959752322,
+          "q3": 0.1130030959752322,
+          "max": 0.1130030959752322,
+          "n": 1
+        }
+      },
+      "identity mechanism": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1702362"
+        ],
+        "words": {
+          "min": 42,
+          "q1": 42.0,
+          "median": 42.0,
+          "q3": 42.0,
+          "max": 42,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.032507739938080496,
+          "q1": 0.032507739938080496,
+          "median": 0.032507739938080496,
+          "q3": 0.032507739938080496,
+          "max": 0.032507739938080496,
+          "n": 1
+        }
+      },
+      "measured response": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1702362"
+        ],
+        "words": {
+          "min": 109,
+          "q1": 109.0,
+          "median": 109.0,
+          "q3": 109.0,
+          "max": 109,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.08436532507739938,
+          "q1": 0.08436532507739938,
+          "median": 0.08436532507739938,
+          "q3": 0.08436532507739938,
+          "max": 0.08436532507739938,
+          "n": 1
+        }
+      },
+      "response uncertainty": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1702362"
+        ],
+        "words": {
+          "min": 154,
+          "q1": 154.0,
+          "median": 154.0,
+          "q3": 154.0,
+          "max": 154,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.11919504643962849,
+          "q1": 0.11919504643962849,
+          "median": 0.11919504643962849,
+          "q3": 0.11919504643962849,
+          "max": 0.11919504643962849,
+          "n": 1
+        }
+      },
+      "closing call": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1702362"
+        ],
+        "words": {
+          "min": 101,
+          "q1": 101.0,
+          "median": 101.0,
+          "q3": 101.0,
+          "max": 101,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.0781733746130031,
+          "q1": 0.0781733746130031,
+          "median": 0.0781733746130031,
+          "q3": 0.0781733746130031,
+          "max": 0.0781733746130031,
+          "n": 1
+        }
+      },
+      "opening diagnosis and call": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1707514"
+        ],
+        "words": {
+          "min": 140,
+          "q1": 140.0,
+          "median": 140.0,
+          "q3": 140.0,
+          "max": 140,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.15184381778741865,
+          "q1": 0.15184381778741865,
+          "median": 0.15184381778741865,
+          "q3": 0.15184381778741865,
+          "max": 0.15184381778741865,
+          "n": 1
+        }
+      },
+      "family and travel": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1707514"
+        ],
+        "words": {
+          "min": 66,
+          "q1": 66.0,
+          "median": 66.0,
+          "q3": 66.0,
+          "max": 66,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.07158351409978309,
+          "q1": 0.07158351409978309,
+          "median": 0.07158351409978309,
+          "q3": 0.07158351409978309,
+          "max": 0.07158351409978309,
+          "n": 1
+        }
+      },
+      "hospital encounter": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1707514"
+        ],
+        "words": {
+          "min": 311,
+          "q1": 311.0,
+          "median": 311.0,
+          "q3": 311.0,
+          "max": 311,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.33731019522776573,
+          "q1": 0.33731019522776573,
+          "median": 0.33731019522776573,
+          "q3": 0.33731019522776573,
+          "max": 0.33731019522776573,
+          "n": 1
+        }
+      },
+      "care relationship": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1707514"
+        ],
+        "words": {
+          "min": 211,
+          "q1": 211.0,
+          "median": 211.0,
+          "q3": 211.0,
+          "max": 211,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.22885032537960953,
+          "q1": 0.22885032537960953,
+          "median": 0.22885032537960953,
+          "q3": 0.22885032537960953,
+          "max": 0.22885032537960953,
+          "n": 1
+        }
+      },
+      "recovery and reflection": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1707514"
+        ],
+        "words": {
+          "min": 194,
+          "q1": 194.0,
+          "median": 194.0,
+          "q3": 194.0,
+          "max": 194,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.210412147505423,
+          "q1": 0.210412147505423,
+          "median": 0.210412147505423,
+          "q3": 0.210412147505423,
+          "max": 0.210412147505423,
+          "n": 1
+        }
+      },
+      "patient and treatment history": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1711886"
+        ],
+        "words": {
+          "min": 210,
+          "q1": 210.0,
+          "median": 210.0,
+          "q3": 210.0,
+          "max": 210,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.13662979830839297,
+          "q1": 0.13662979830839297,
+          "median": 0.13662979830839297,
+          "q3": 0.13662979830839297,
+          "max": 0.13662979830839297,
+          "n": 1
+        }
+      },
+      "treatment and approval": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1711886"
+        ],
+        "words": {
+          "min": 210,
+          "q1": 210.0,
+          "median": 210.0,
+          "q3": 210.0,
+          "max": 210,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.13662979830839297,
+          "q1": 0.13662979830839297,
+          "median": 0.13662979830839297,
+          "q3": 0.13662979830839297,
+          "max": 0.13662979830839297,
+          "n": 1
+        }
+      },
+      "development history": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1711886"
+        ],
+        "words": {
+          "min": 365,
+          "q1": 365.0,
+          "median": 365.0,
+          "q3": 365.0,
+          "max": 365,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.23747560182173064,
+          "q1": 0.23747560182173064,
+          "median": 0.23747560182173064,
+          "q3": 0.23747560182173064,
+          "max": 0.23747560182173064,
+          "n": 1
+        }
+      },
+      "trial risk and uncertainty": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1711886"
+        ],
+        "words": {
+          "min": 129,
+          "q1": 129.0,
+          "median": 129.0,
+          "q3": 129.0,
+          "max": 129,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.08392973324658426,
+          "q1": 0.08392973324658426,
+          "median": 0.08392973324658426,
+          "q3": 0.08392973324658426,
+          "max": 0.08392973324658426,
+          "n": 1
+        }
+      },
+      "trial experience": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1711886"
+        ],
+        "words": {
+          "min": 257,
+          "q1": 257.0,
+          "median": 257.0,
+          "q3": 257.0,
+          "max": 257,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.16720884840598568,
+          "q1": 0.16720884840598568,
+          "median": 0.16720884840598568,
+          "q3": 0.16720884840598568,
+          "max": 0.16720884840598568,
+          "n": 1
+        }
+      },
+      "treatment and response": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1711886"
+        ],
+        "words": {
+          "min": 79,
+          "q1": 79.0,
+          "median": 79.0,
+          "q3": 79.0,
+          "max": 79,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.05139882888744307,
+          "q1": 0.05139882888744307,
+          "median": 0.05139882888744307,
+          "q3": 0.05139882888744307,
+          "max": 0.05139882888744307,
+          "n": 1
+        }
+      },
+      "technical limits": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1711886"
+        ],
+        "words": {
+          "min": 148,
+          "q1": 148.0,
+          "median": 148.0,
+          "q3": 148.0,
+          "max": 148,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.09629147690305791,
+          "q1": 0.09629147690305791,
+          "median": 0.09629147690305791,
+          "q3": 0.09629147690305791,
+          "max": 0.09629147690305791,
+          "n": 1
+        }
+      },
+      "cost and closing reflection": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1711886"
+        ],
+        "words": {
+          "min": 139,
+          "q1": 139.0,
+          "median": 139.0,
+          "q3": 139.0,
+          "max": 139,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.0904359141184125,
+          "q1": 0.0904359141184125,
+          "median": 0.0904359141184125,
+          "q3": 0.0904359141184125,
+          "max": 0.0904359141184125,
+          "n": 1
+        }
+      },
+      "recall and scope": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1901657"
+        ],
+        "words": {
+          "min": 377,
+          "q1": 377.0,
+          "median": 377.0,
+          "q3": 377.0,
+          "max": 377,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.2864741641337386,
+          "q1": 0.2864741641337386,
+          "median": 0.2864741641337386,
+          "q3": 0.2864741641337386,
+          "max": 0.2864741641337386,
+          "n": 1
+        }
+      },
+      "impurity and manufacturing": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1901657"
+        ],
+        "words": {
+          "min": 258,
+          "q1": 258.0,
+          "median": 258.0,
+          "q3": 258.0,
+          "max": 258,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.196048632218845,
+          "q1": 0.196048632218845,
+          "median": 0.196048632218845,
+          "q3": 0.196048632218845,
+          "max": 0.196048632218845,
+          "n": 1
+        }
+      },
+      "consequences and response": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1901657"
+        ],
+        "words": {
+          "min": 307,
+          "q1": 307.0,
+          "median": 307.0,
+          "q3": 307.0,
+          "max": 307,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.23328267477203649,
+          "q1": 0.23328267477203649,
+          "median": 0.23328267477203649,
+          "q3": 0.23328267477203649,
+          "max": 0.23328267477203649,
+          "n": 1
+        }
+      },
+      "oversight and preparedness": {
+        "documents_present": 1,
+        "document_ids": [
+          "NEJMp1901657"
+        ],
+        "words": {
+          "min": 374,
+          "q1": 374.0,
+          "median": 374.0,
+          "q3": 374.0,
+          "max": 374,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.28419452887537994,
+          "q1": 0.28419452887537994,
+          "median": 0.28419452887537994,
+          "q3": 0.28419452887537994,
+          "max": 0.28419452887537994,
+          "n": 1
+        }
+      }
+    },
+    "printed_sections": [],
+    "caveats": "Observed descriptive counts; roles interpreted. Multi-function paragraph lengths overlap and are not additive budgets. Role ranges conditional on presence; no zero is silently assigned to missing roles."
+  },
+  "systematic_review": {
+    "range_kind": "observed_pilot_only",
+    "working_targets": null,
+    "declared_limits": null,
+    "function_coding": "Primary model interpretations; second-coder disagreements have not been adjudicated.",
+    "documents": 8,
+    "paragraph_count": 287,
+    "document_words": {
+      "min": 2681,
+      "q1": 3612.5,
+      "median": 4078.0,
+      "q3": 5274.0,
+      "max": 7203,
+      "n": 8
+    },
+    "paragraphs_per_document": {
+      "min": 22,
+      "q1": 29.25,
+      "median": 35.5,
+      "q3": 40.75,
+      "max": 50,
+      "n": 8
+    },
+    "paragraph_words_pooled": {
+      "min": 13,
+      "q1": 70.5,
+      "median": 108.0,
+      "q3": 152.5,
+      "max": 453,
+      "n": 287
+    },
+    "per_document_median_paragraph_words": {
+      "min": 83.0,
+      "q1": 96.875,
+      "median": 111.5,
+      "q3": 121.5,
+      "max": 185.0,
+      "n": 8
+    },
+    "function_lengths": {
+      "orient": {
+        "documents_present": 8,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": 88,
+          "q1": 113.0,
+          "median": 129.0,
+          "q3": 152.0,
+          "max": 388,
+          "n": 13
+        },
+        "per_document_medians": {
+          "min": 95.0,
+          "q1": 113.25,
+          "median": 138.0,
+          "q3": 203.625,
+          "max": 388.0,
+          "n": 8
+        }
+      },
+      "define": {
+        "documents_present": 8,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": 59,
+          "q1": 99.0,
+          "median": 126.0,
+          "q3": 171.0,
+          "max": 358,
+          "n": 21
+        },
+        "per_document_medians": {
+          "min": 69.0,
+          "q1": 95.0,
+          "median": 112.0,
+          "q3": 157.125,
+          "max": 346.5,
+          "n": 8
+        }
+      },
+      "report": {
+        "documents_present": 8,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": 13,
+          "q1": 64.0,
+          "median": 104.0,
+          "q3": 143.0,
+          "max": 453,
+          "n": 218
+        },
+        "per_document_medians": {
+          "min": 79.0,
+          "q1": 82.25,
+          "median": 104.75,
+          "q3": 115.25,
+          "max": 141.0,
+          "n": 8
+        }
+      },
+      "assert": {
+        "documents_present": 8,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": 61,
+          "q1": 96.75,
+          "median": 121.0,
+          "q3": 147.75,
+          "max": 388,
+          "n": 36
+        },
+        "per_document_medians": {
+          "min": 97.0,
+          "q1": 115.0,
+          "median": 125.5,
+          "q3": 152.5,
+          "max": 264.5,
+          "n": 8
+        }
+      },
+      "support": {
+        "documents_present": 2,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": 88,
+          "q1": 122.5,
+          "median": 157.0,
+          "q3": 210.5,
+          "max": 264,
+          "n": 3
+        },
+        "per_document_medians": {
+          "min": 122.5,
+          "q1": 157.875,
+          "median": 193.25,
+          "q3": 228.625,
+          "max": 264.0,
+          "n": 2
+        }
+      },
+      "explain": {
+        "documents_present": 8,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": 19,
+          "q1": 97.0,
+          "median": 142.0,
+          "q3": 202.0,
+          "max": 406,
+          "n": 53
+        },
+        "per_document_medians": {
+          "min": 63.0,
+          "q1": 94.0,
+          "median": 141.75,
+          "q3": 234.0,
+          "max": 289.0,
+          "n": 8
+        }
+      },
+      "illustrate": {
+        "documents_present": 6,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": 76,
+          "q1": 124.25,
+          "median": 144.0,
+          "q3": 202.0,
+          "max": 304,
+          "n": 20
+        },
+        "per_document_medians": {
+          "min": 100.0,
+          "q1": 132.0,
+          "median": 148.5,
+          "q3": 255.75,
+          "max": 304.0,
+          "n": 6
+        }
+      },
+      "compare": {
+        "documents_present": 8,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": 46,
+          "q1": 103.5,
+          "median": 153.0,
+          "q3": 257.0,
+          "max": 453,
+          "n": 46
+        },
+        "per_document_medians": {
+          "min": 59.0,
+          "q1": 116.375,
+          "median": 132.75,
+          "q3": 204.125,
+          "max": 257.5,
+          "n": 8
+        }
+      },
+      "interpret": {
+        "documents_present": 8,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": 25,
+          "q1": 61.0,
+          "median": 96.0,
+          "q3": 157.0,
+          "max": 381,
+          "n": 41
+        },
+        "per_document_medians": {
+          "min": 41.0,
+          "q1": 90.5,
+          "median": 94.5,
+          "q3": 152.25,
+          "max": 304.0,
+          "n": 8
+        }
+      },
+      "qualify": {
+        "documents_present": 8,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": 17,
+          "q1": 89.75,
+          "median": 122.5,
+          "q3": 182.0,
+          "max": 406,
+          "n": 116
+        },
+        "per_document_medians": {
+          "min": 84.0,
+          "q1": 113.5,
+          "median": 126.5,
+          "q3": 145.75,
+          "max": 258.0,
+          "n": 8
+        }
+      },
+      "instruct": {
+        "documents_present": 0,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": null,
+          "q1": null,
+          "median": null,
+          "q3": null,
+          "max": null,
+          "n": 0
+        },
+        "per_document_medians": {
+          "min": null,
+          "q1": null,
+          "median": null,
+          "q3": null,
+          "max": null,
+          "n": 0
+        }
+      },
+      "narrate": {
+        "documents_present": 0,
+        "document_denominator": 8,
+        "tagged_paragraph_lengths": {
+          "min": null,
+          "q1": null,
+          "median": null,
+          "q3": null,
+          "max": null,
+          "n": 0
+        },
+        "per_document_medians": {
+          "min": null,
+          "q1": null,
+          "median": null,
+          "q3": null,
+          "max": null,
+          "n": 0
+        }
+      }
+    },
+    "analyst_role_budgets": {
+      "introduction": {
+        "documents_present": 8,
+        "document_ids": [
+          "xml-02359",
+          "xml-02334",
+          "xml-02298",
+          "xml-02415",
+          "xml-02282",
+          "xml-02382",
+          "xml-02317",
+          "xml-02448"
+        ],
+        "words": {
+          "min": 192,
+          "q1": 372.25,
+          "median": 510.5,
+          "q3": 663.5,
+          "max": 1261,
+          "n": 8
+        },
+        "proportion": {
+          "min": 0.051821862348178135,
+          "q1": 0.08840711335752148,
+          "median": 0.11335681324264799,
+          "q3": 0.1557152412479706,
+          "max": 0.24648162627052383,
+          "n": 8
+        }
+      },
+      "methods": {
+        "documents_present": 8,
+        "document_ids": [
+          "xml-02359",
+          "xml-02334",
+          "xml-02298",
+          "xml-02415",
+          "xml-02282",
+          "xml-02382",
+          "xml-02317",
+          "xml-02448"
+        ],
+        "words": {
+          "min": 305,
+          "q1": 584.25,
+          "median": 675.5,
+          "q3": 915.25,
+          "max": 1465,
+          "n": 8
+        },
+        "proportion": {
+          "min": 0.05306193458594294,
+          "q1": 0.1463350559343195,
+          "median": 0.17992198232867374,
+          "q3": 0.2157661942397664,
+          "max": 0.3170458784035807,
+          "n": 8
+        }
+      },
+      "results": {
+        "documents_present": 8,
+        "document_ids": [
+          "xml-02359",
+          "xml-02334",
+          "xml-02298",
+          "xml-02415",
+          "xml-02282",
+          "xml-02382",
+          "xml-02317",
+          "xml-02448"
+        ],
+        "words": {
+          "min": 286,
+          "q1": 865.25,
+          "median": 1168.0,
+          "q3": 2398.25,
+          "max": 3601,
+          "n": 8
+        },
+        "proportion": {
+          "min": 0.10667661320402835,
+          "q1": 0.23043986995720023,
+          "median": 0.26121965195412766,
+          "q3": 0.459354345720772,
+          "max": 0.6264787752261656,
+          "n": 8
+        }
+      },
+      "discussion": {
+        "documents_present": 8,
+        "document_ids": [
+          "xml-02359",
+          "xml-02334",
+          "xml-02298",
+          "xml-02415",
+          "xml-02282",
+          "xml-02382",
+          "xml-02317",
+          "xml-02448"
+        ],
+        "words": {
+          "min": 659,
+          "q1": 1060.5,
+          "median": 1480.0,
+          "q3": 1667.75,
+          "max": 1958,
+          "n": 8
+        },
+        "proportion": {
+          "min": 0.17786774628879892,
+          "q1": 0.251672620605483,
+          "median": 0.35176796493670603,
+          "q3": 0.3774167150055542,
+          "max": 0.4362818590704648,
+          "n": 8
+        }
+      },
+      "conclusion": {
+        "documents_present": 6,
+        "document_ids": [
+          "xml-02359",
+          "xml-02298",
+          "xml-02415",
+          "xml-02282",
+          "xml-02382",
+          "xml-02448"
+        ],
+        "words": {
+          "min": 61,
+          "q1": 145.5,
+          "median": 164.0,
+          "q3": 183.25,
+          "max": 279,
+          "n": 6
+        },
+        "proportion": {
+          "min": 0.016464237516869096,
+          "q1": 0.024579731129178002,
+          "median": 0.032565068601035085,
+          "q3": 0.0608507213037974,
+          "max": 0.07414297103374967,
+          "n": 6
+        }
+      }
+    },
+    "printed_sections": [
+      {
+        "document_id": "xml-02359",
+        "heading": "Introduction",
+        "words": 412
+      },
+      {
+        "document_id": "xml-02359",
+        "heading": "Identifying variables relevant to patient experience",
+        "words": 392
+      },
+      {
+        "document_id": "xml-02359",
+        "heading": "Inclusion criteria, assessment of quality and categorisation of evidence",
+        "words": 458
+      },
+      {
+        "document_id": "xml-02359",
+        "heading": "Results",
+        "words": 286
+      },
+      {
+        "document_id": "xml-02359",
+        "heading": "Discussion",
+        "words": 647
+      },
+      {
+        "document_id": "xml-02359",
+        "heading": "Study strengths and limitations",
+        "words": 298
+      },
+      {
+        "document_id": "xml-02359",
+        "heading": "Conclusion",
+        "words": 188
+      },
+      {
+        "document_id": "xml-02334",
+        "heading": "Introduction",
+        "words": 325
+      },
+      {
+        "document_id": "xml-02334",
+        "heading": "Search strategy and selection criteria",
+        "words": 276
+      },
+      {
+        "document_id": "xml-02334",
+        "heading": "Data extraction",
+        "words": 163
+      },
+      {
+        "document_id": "xml-02334",
+        "heading": "Statistical analysis",
+        "words": 230
+      },
+      {
+        "document_id": "xml-02334",
+        "heading": "Results",
+        "words": 886
+      },
+      {
+        "document_id": "xml-02334",
+        "heading": "Discussion",
+        "words": 1455
+      },
+      {
+        "document_id": "xml-02298",
+        "heading": "Introduction",
+        "words": 609
+      },
+      {
+        "document_id": "xml-02298",
+        "heading": "Search strategy",
+        "words": 142
+      },
+      {
+        "document_id": "xml-02298",
+        "heading": "Study selection",
+        "words": 80
+      },
+      {
+        "document_id": "xml-02298",
+        "heading": "Inclusion criteria",
+        "words": 118
+      },
+      {
+        "document_id": "xml-02298",
+        "heading": "Data extraction",
+        "words": 131
+      },
+      {
+        "document_id": "xml-02298",
+        "heading": "Data analysis",
+        "words": 96
+      },
+      {
+        "document_id": "xml-02298",
+        "heading": "Results",
+        "words": 296
+      },
+      {
+        "document_id": "xml-02298",
+        "heading": "Estimates of validity",
+        "words": 205
+      },
+      {
+        "document_id": "xml-02298",
+        "heading": "Quality of reporting",
+        "words": 302
+      },
+      {
+        "document_id": "xml-02298",
+        "heading": "Discussion",
+        "words": 1505
+      },
+      {
+        "document_id": "xml-02298",
+        "heading": "Conclusion",
+        "words": 279
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "METHODS",
+        "words": 122
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Search Strategy and Study Selection",
+        "words": 112
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Data Collection",
+        "words": 54
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Risk of Bias Within Studies",
+        "words": 74
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Summary Measures and Synthesis of Results",
+        "words": 228
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Study Selection",
+        "words": 77
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Study Characteristics",
+        "words": 248
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Risk of Bias Within Studies",
+        "words": 206
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Results of Individual Studies and Data Synthesis",
+        "words": 66
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "SARS-CoV Infection",
+        "words": 274
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Influenza A(H1N1)pdm09 Infection",
+        "words": 176
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Avian Influenza A(H5N1) Infection",
+        "words": 109
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Spanish Influenza A(H1N1) Infection",
+        "words": 272
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Exploratory Post Hoc Meta-analysis",
+        "words": 153
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Hospital Length of Stay",
+        "words": 140
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Duration of Critical Care Support",
+        "words": 83
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Viral Antibody Levels",
+        "words": 103
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Viral Load",
+        "words": 170
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Severe Adverse Events and Treatment Complications",
+        "words": 126
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "DISCUSSION",
+        "words": 226
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Limitations",
+        "words": 167
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Implications for Practice",
+        "words": 132
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Further Research Needs",
+        "words": 134
+      },
+      {
+        "document_id": "xml-02415",
+        "heading": "Conclusion",
+        "words": 61
+      },
+      {
+        "document_id": "xml-02282",
+        "heading": "Introduction",
+        "words": 388
+      },
+      {
+        "document_id": "xml-02282",
+        "heading": "Methods",
+        "words": 37
+      },
+      {
+        "document_id": "xml-02282",
+        "heading": "Search Strategy and Selection Criteria",
+        "words": 282
+      },
+      {
+        "document_id": "xml-02282",
+        "heading": "Data Extraction",
+        "words": 124
+      },
+      {
+        "document_id": "xml-02282",
+        "heading": "Data Analysis",
+        "words": 668
+      },
+      {
+        "document_id": "xml-02282",
+        "heading": "Results",
+        "words": 1128
+      },
+      {
+        "document_id": "xml-02282",
+        "heading": "Summary of Findings",
+        "words": 251
+      },
+      {
+        "document_id": "xml-02282",
+        "heading": "Public Health Implication",
+        "words": 289
+      },
+      {
+        "document_id": "xml-02282",
+        "heading": "Biological Plausibility",
+        "words": 264
+      },
+      {
+        "document_id": "xml-02282",
+        "heading": "Limitations",
+        "words": 821
+      },
+      {
+        "document_id": "xml-02282",
+        "heading": "Conclusions",
+        "words": 141
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Introduction",
+        "words": 181
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Stigma conceptualizations and terminology",
+        "words": 578
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Previous reviews",
+        "words": 198
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Current review",
+        "words": 304
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Search strategy and selection criteria",
+        "words": 192
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Screening and data abstraction",
+        "words": 179
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Quality assessment",
+        "words": 206
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Data synthesis",
+        "words": 105
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Results",
+        "words": 61
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Study and intervention characteristics",
+        "words": 651
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Study design and measures",
+        "words": 216
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Study duration and outcomes",
+        "words": 169
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Quality assessment",
+        "words": 111
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Discussion",
+        "words": 42
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Progress in the field",
+        "words": 282
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Intervention",
+        "words": 591
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Methodology",
+        "words": 172
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Measurement",
+        "words": 428
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Limitations",
+        "words": 281
+      },
+      {
+        "document_id": "xml-02382",
+        "heading": "Conclusions",
+        "words": 169
+      },
+      {
+        "document_id": "xml-02317",
+        "heading": "Introduction",
+        "words": 743
+      },
+      {
+        "document_id": "xml-02317",
+        "heading": "Methods",
+        "words": 305
+      },
+      {
+        "document_id": "xml-02317",
+        "heading": "Results",
+        "words": 46
+      },
+      {
+        "document_id": "xml-02317",
+        "heading": "Gastrointestinal Cancer",
+        "words": 1468
+      },
+      {
+        "document_id": "xml-02317",
+        "heading": "Lung Cancer",
+        "words": 675
+      },
+      {
+        "document_id": "xml-02317",
+        "heading": "Female Cancers",
+        "words": 455
+      },
+      {
+        "document_id": "xml-02317",
+        "heading": "Multiple Cancers",
+        "words": 429
+      },
+      {
+        "document_id": "xml-02317",
+        "heading": "Other Cancer Sites",
+        "words": 528
+      },
+      {
+        "document_id": "xml-02317",
+        "heading": "Discussion",
+        "words": 1099
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Introduction",
+        "words": 637
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Methods",
+        "words": 50
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Search strategy and selection criteria",
+        "words": 187
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Types of studies",
+        "words": 188
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Outcome data",
+        "words": 70
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Data extraction, risk of bias, and quality assessment",
+        "words": 217
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Statistical analysis",
+        "words": 753
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Results",
+        "words": 541
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Study characteristics",
+        "words": 437
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Blood pressure, renal function, blood lipids, and catecholamine levels in adults",
+        "words": 741
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "All cause mortality, cardiovascular disease, stroke, and coronary heart disease in adults",
+        "words": 351
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Blood pressure, blood lipids, and catecholamine levels in children",
+        "words": 122
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Quality of body of evidence",
+        "words": 581
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Sensitivity analysis",
+        "words": 211
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Discussion",
+        "words": 1657
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Strengths and limitations of this review",
+        "words": 301
+      },
+      {
+        "document_id": "xml-02448",
+        "heading": "Conclusion",
+        "words": 159
+      }
+    ],
+    "caveats": "Observed descriptive counts; roles interpreted. Multi-function paragraph lengths overlap and are not additive budgets. Role ranges conditional on presence; no zero is silently assigned to missing roles."
+  },
+  "HBR_practitioner_argument": {
+    "range_kind": "observed_pilot_only",
+    "working_targets": null,
+    "declared_limits": null,
+    "function_coding": "Primary model interpretations; second-coder disagreements have not been adjudicated.",
+    "documents": 4,
+    "paragraph_count": 251,
+    "document_words": {
+      "min": 4169,
+      "q1": 4715.75,
+      "median": 5806.5,
+      "q3": 6861.75,
+      "max": 7302,
+      "n": 4
+    },
+    "paragraphs_per_document": {
+      "min": 40,
+      "q1": 54.25,
+      "median": 65.0,
+      "q3": 73.5,
+      "max": 81,
+      "n": 4
+    },
+    "paragraph_words_pooled": {
+      "min": 6,
+      "q1": 64.0,
+      "median": 89.0,
+      "q3": 112.5,
+      "max": 268,
+      "n": 251
+    },
+    "per_document_median_paragraph_words": {
+      "min": 79.0,
+      "q1": 82.75,
+      "median": 90.0,
+      "q3": 96.75,
+      "max": 99.0,
+      "n": 4
+    },
+    "function_lengths": {
+      "orient": {
+        "documents_present": 4,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 30,
+          "q1": 54.0,
+          "median": 61.0,
+          "q3": 93.75,
+          "max": 198,
+          "n": 26
+        },
+        "per_document_medians": {
+          "min": 59.0,
+          "q1": 59.375,
+          "median": 60.25,
+          "q3": 63.0,
+          "max": 69.0,
+          "n": 4
+        }
+      },
+      "define": {
+        "documents_present": 4,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 31,
+          "q1": 59.0,
+          "median": 87.5,
+          "q3": 106.75,
+          "max": 268,
+          "n": 28
+        },
+        "per_document_medians": {
+          "min": 73.0,
+          "q1": 82.75,
+          "median": 93.0,
+          "q3": 105.0,
+          "max": 120.0,
+          "n": 4
+        }
+      },
+      "report": {
+        "documents_present": 4,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 48,
+          "q1": 68.5,
+          "median": 98.0,
+          "q3": 127.0,
+          "max": 175,
+          "n": 43
+        },
+        "per_document_medians": {
+          "min": 77.0,
+          "q1": 85.25,
+          "median": 92.0,
+          "q3": 101.5,
+          "max": 118.0,
+          "n": 4
+        }
+      },
+      "assert": {
+        "documents_present": 4,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 12,
+          "q1": 52.0,
+          "median": 61.0,
+          "q3": 101.0,
+          "max": 194,
+          "n": 51
+        },
+        "per_document_medians": {
+          "min": 52.0,
+          "q1": 58.0,
+          "median": 76.0,
+          "q3": 94.25,
+          "max": 101.0,
+          "n": 4
+        }
+      },
+      "support": {
+        "documents_present": 4,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 28,
+          "q1": 76.0,
+          "median": 115.0,
+          "q3": 121.0,
+          "max": 166,
+          "n": 11
+        },
+        "per_document_medians": {
+          "min": 28.0,
+          "q1": 91.0,
+          "median": 115.0,
+          "q3": 118.5,
+          "max": 120.0,
+          "n": 4
+        }
+      },
+      "explain": {
+        "documents_present": 4,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 34,
+          "q1": 72.25,
+          "median": 91.0,
+          "q3": 119.5,
+          "max": 268,
+          "n": 110
+        },
+        "per_document_medians": {
+          "min": 88.5,
+          "q1": 88.875,
+          "median": 90.75,
+          "q3": 96.125,
+          "max": 107.0,
+          "n": 4
+        }
+      },
+      "illustrate": {
+        "documents_present": 4,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 6,
+          "q1": 84.0,
+          "median": 101.0,
+          "q3": 126.0,
+          "max": 268,
+          "n": 85
+        },
+        "per_document_medians": {
+          "min": 100.0,
+          "q1": 100.0,
+          "median": 100.0,
+          "q3": 102.0,
+          "max": 108.0,
+          "n": 4
+        }
+      },
+      "compare": {
+        "documents_present": 4,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 25,
+          "q1": 64.0,
+          "median": 85.5,
+          "q3": 106.5,
+          "max": 187,
+          "n": 42
+        },
+        "per_document_medians": {
+          "min": 81.0,
+          "q1": 84.0,
+          "median": 85.5,
+          "q3": 86.5,
+          "max": 88.0,
+          "n": 4
+        }
+      },
+      "interpret": {
+        "documents_present": 4,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 27,
+          "q1": 62.0,
+          "median": 93.0,
+          "q3": 116.0,
+          "max": 170,
+          "n": 39
+        },
+        "per_document_medians": {
+          "min": 86.5,
+          "q1": 91.375,
+          "median": 94.0,
+          "q3": 98.5,
+          "max": 109.0,
+          "n": 4
+        }
+      },
+      "qualify": {
+        "documents_present": 4,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 38,
+          "q1": 66.25,
+          "median": 89.0,
+          "q3": 107.0,
+          "max": 175,
+          "n": 30
+        },
+        "per_document_medians": {
+          "min": 64.5,
+          "q1": 83.625,
+          "median": 90.0,
+          "q3": 90.25,
+          "max": 91.0,
+          "n": 4
+        }
+      },
+      "instruct": {
+        "documents_present": 3,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 23,
+          "q1": 67.0,
+          "median": 88.0,
+          "q3": 107.0,
+          "max": 194,
+          "n": 29
+        },
+        "per_document_medians": {
+          "min": 82.0,
+          "q1": 84.0,
+          "median": 86.0,
+          "q3": 140.0,
+          "max": 194.0,
+          "n": 3
+        }
+      },
+      "narrate": {
+        "documents_present": 4,
+        "document_denominator": 4,
+        "tagged_paragraph_lengths": {
+          "min": 70,
+          "q1": 90.0,
+          "median": 102.0,
+          "q3": 125.0,
+          "max": 205,
+          "n": 43
+        },
+        "per_document_medians": {
+          "min": 99.0,
+          "q1": 105.0,
+          "median": 107.75,
+          "q3": 108.875,
+          "max": 110.0,
+          "n": 4
+        }
+      }
+    },
+    "analyst_role_budgets": {
+      "opening": {
+        "documents_present": 2,
+        "document_ids": [
+          "managing-oneself",
+          "balanced-scorecard"
+        ],
+        "words": {
+          "min": 255,
+          "q1": 424.0,
+          "median": 593.0,
+          "q3": 762.0,
+          "max": 931,
+          "n": 2
+        },
+        "proportion": {
+          "min": 0.0379746835443038,
+          "q1": 0.07600040832993057,
+          "median": 0.11402613311555737,
+          "q3": 0.15205185790118414,
+          "max": 0.19007758268681094,
+          "n": 2
+        }
+      },
+      "What Are My Strengths?": {
+        "documents_present": 1,
+        "document_ids": [
+          "managing-oneself"
+        ],
+        "words": {
+          "min": 941,
+          "q1": 941.0,
+          "median": 941.0,
+          "q3": 941.0,
+          "max": 941,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.14013402829486224,
+          "q1": 0.14013402829486224,
+          "median": 0.14013402829486224,
+          "q3": 0.14013402829486224,
+          "max": 0.14013402829486224,
+          "n": 1
+        }
+      },
+      "How Do I Perform?": {
+        "documents_present": 1,
+        "document_ids": [
+          "managing-oneself"
+        ],
+        "words": {
+          "min": 1451,
+          "q1": 1451.0,
+          "median": 1451.0,
+          "q3": 1451.0,
+          "max": 1451,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.21608339538346985,
+          "q1": 0.21608339538346985,
+          "median": 0.21608339538346985,
+          "q3": 0.21608339538346985,
+          "max": 0.21608339538346985,
+          "n": 1
+        }
+      },
+      "What Are My Values?": {
+        "documents_present": 1,
+        "document_ids": [
+          "managing-oneself"
+        ],
+        "words": {
+          "min": 989,
+          "q1": 989.0,
+          "median": 989.0,
+          "q3": 989.0,
+          "max": 989,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.14728220402084885,
+          "q1": 0.14728220402084885,
+          "median": 0.14728220402084885,
+          "q3": 0.14728220402084885,
+          "max": 0.14728220402084885,
+          "n": 1
+        }
+      },
+      "Where Do I Belong?": {
+        "documents_present": 1,
+        "document_ids": [
+          "managing-oneself"
+        ],
+        "words": {
+          "min": 304,
+          "q1": 304.0,
+          "median": 304.0,
+          "q3": 304.0,
+          "max": 304,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.04527177959791512,
+          "q1": 0.04527177959791512,
+          "median": 0.04527177959791512,
+          "q3": 0.04527177959791512,
+          "max": 0.04527177959791512,
+          "n": 1
+        }
+      },
+      "What Should I Contribute?": {
+        "documents_present": 1,
+        "document_ids": [
+          "managing-oneself"
+        ],
+        "words": {
+          "min": 544,
+          "q1": 544.0,
+          "median": 544.0,
+          "q3": 544.0,
+          "max": 544,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.0810126582278481,
+          "q1": 0.0810126582278481,
+          "median": 0.0810126582278481,
+          "q3": 0.0810126582278481,
+          "max": 0.0810126582278481,
+          "n": 1
+        }
+      },
+      "Responsibility for Relationships": {
+        "documents_present": 1,
+        "document_ids": [
+          "managing-oneself"
+        ],
+        "words": {
+          "min": 968,
+          "q1": 968.0,
+          "median": 968.0,
+          "q3": 968.0,
+          "max": 968,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.14415487714072972,
+          "q1": 0.14415487714072972,
+          "median": 0.14415487714072972,
+          "q3": 0.14415487714072972,
+          "max": 0.14415487714072972,
+          "n": 1
+        }
+      },
+      "The Second Half of Your Life": {
+        "documents_present": 1,
+        "document_ids": [
+          "managing-oneself"
+        ],
+        "words": {
+          "min": 1129,
+          "q1": 1129.0,
+          "median": 1129.0,
+          "q3": 1129.0,
+          "max": 1129,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.16813104988830976,
+          "q1": 0.16813104988830976,
+          "median": 0.16813104988830976,
+          "q3": 0.16813104988830976,
+          "max": 0.16813104988830976,
+          "n": 1
+        }
+      },
+      "closing": {
+        "documents_present": 1,
+        "document_ids": [
+          "managing-oneself"
+        ],
+        "words": {
+          "min": 134,
+          "q1": 134.0,
+          "median": 134.0,
+          "q3": 134.0,
+          "max": 134,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.019955323901712584,
+          "q1": 0.019955323901712584,
+          "median": 0.019955323901712584,
+          "q3": 0.019955323901712584,
+          "max": 0.019955323901712584,
+          "n": 1
+        }
+      },
+      "Translating the Vision": {
+        "documents_present": 1,
+        "document_ids": [
+          "balanced-scorecard"
+        ],
+        "words": {
+          "min": 404,
+          "q1": 404.0,
+          "median": 404.0,
+          "q3": 404.0,
+          "max": 404,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.08248264597795019,
+          "q1": 0.08248264597795019,
+          "median": 0.08248264597795019,
+          "q3": 0.08248264597795019,
+          "max": 0.08248264597795019,
+          "n": 1
+        }
+      },
+      "Communicating and Linking": {
+        "documents_present": 1,
+        "document_ids": [
+          "balanced-scorecard"
+        ],
+        "words": {
+          "min": 294,
+          "q1": 294.0,
+          "median": 294.0,
+          "q3": 294.0,
+          "max": 294,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.06002449979583503,
+          "q1": 0.06002449979583503,
+          "median": 0.06002449979583503,
+          "q3": 0.06002449979583503,
+          "max": 0.06002449979583503,
+          "n": 1
+        }
+      },
+      "Communicating and Educating.": {
+        "documents_present": 1,
+        "document_ids": [
+          "balanced-scorecard"
+        ],
+        "words": {
+          "min": 421,
+          "q1": 421.0,
+          "median": 421.0,
+          "q3": 421.0,
+          "max": 421,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.08595345038791344,
+          "q1": 0.08595345038791344,
+          "median": 0.08595345038791344,
+          "q3": 0.08595345038791344,
+          "max": 0.08595345038791344,
+          "n": 1
+        }
+      },
+      "Setting Goals.": {
+        "documents_present": 1,
+        "document_ids": [
+          "balanced-scorecard"
+        ],
+        "words": {
+          "min": 219,
+          "q1": 219.0,
+          "median": 219.0,
+          "q3": 219.0,
+          "max": 219,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.044712127398938345,
+          "q1": 0.044712127398938345,
+          "median": 0.044712127398938345,
+          "q3": 0.044712127398938345,
+          "max": 0.044712127398938345,
+          "n": 1
+        }
+      },
+      "Linking Rewards to Performance Measures.": {
+        "documents_present": 1,
+        "document_ids": [
+          "balanced-scorecard"
+        ],
+        "words": {
+          "min": 506,
+          "q1": 506.0,
+          "median": 506.0,
+          "q3": 506.0,
+          "max": 506,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.10330747243772968,
+          "q1": 0.10330747243772968,
+          "median": 0.10330747243772968,
+          "q3": 0.10330747243772968,
+          "max": 0.10330747243772968,
+          "n": 1
+        }
+      },
+      "Business Planning": {
+        "documents_present": 1,
+        "document_ids": [
+          "balanced-scorecard"
+        ],
+        "words": {
+          "min": 918,
+          "q1": 918.0,
+          "median": 918.0,
+          "q3": 918.0,
+          "max": 918,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.1874234381380155,
+          "q1": 0.1874234381380155,
+          "median": 0.1874234381380155,
+          "q3": 0.1874234381380155,
+          "max": 0.1874234381380155,
+          "n": 1
+        }
+      },
+      "Feedback and Learning": {
+        "documents_present": 1,
+        "document_ids": [
+          "balanced-scorecard"
+        ],
+        "words": {
+          "min": 988,
+          "q1": 988.0,
+          "median": 988.0,
+          "q3": 988.0,
+          "max": 988,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.20171498570845242,
+          "q1": 0.20171498570845242,
+          "median": 0.20171498570845242,
+          "q3": 0.20171498570845242,
+          "max": 0.20171498570845242,
+          "n": 1
+        }
+      },
+      "Toward a New Strategic Management System": {
+        "documents_present": 1,
+        "document_ids": [
+          "balanced-scorecard"
+        ],
+        "words": {
+          "min": 217,
+          "q1": 217.0,
+          "median": 217.0,
+          "q3": 217.0,
+          "max": 217,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.04430379746835443,
+          "q1": 0.04430379746835443,
+          "median": 0.04430379746835443,
+          "q3": 0.04430379746835443,
+          "max": 0.04430379746835443,
+          "n": 1
+        }
+      },
+      "Opening": {
+        "documents_present": 2,
+        "document_ids": [
+          "power-of-talk",
+          "customers-as-innovators"
+        ],
+        "words": {
+          "min": 459,
+          "q1": 467.0,
+          "median": 475.0,
+          "q3": 483.0,
+          "max": 491,
+          "n": 2
+        },
+        "proportion": {
+          "min": 0.0628594905505341,
+          "q1": 0.07658812954638583,
+          "median": 0.09031676854223755,
+          "q3": 0.10404540753808927,
+          "max": 0.117774046533941,
+          "n": 2
+        }
+      },
+      "What Is Linguistic Style?": {
+        "documents_present": 1,
+        "document_ids": [
+          "power-of-talk"
+        ],
+        "words": {
+          "min": 1481,
+          "q1": 1481.0,
+          "median": 1481.0,
+          "q3": 1481.0,
+          "max": 1481,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.20282114489181047,
+          "q1": 0.20282114489181047,
+          "median": 0.20282114489181047,
+          "q3": 0.20282114489181047,
+          "max": 0.20282114489181047,
+          "n": 1
+        }
+      },
+      "One Up, One Down": {
+        "documents_present": 1,
+        "document_ids": [
+          "power-of-talk"
+        ],
+        "words": {
+          "min": 1172,
+          "q1": 1172.0,
+          "median": 1172.0,
+          "q3": 1172.0,
+          "max": 1172,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.1605039715146535,
+          "q1": 0.1605039715146535,
+          "median": 0.1605039715146535,
+          "q3": 0.1605039715146535,
+          "max": 0.1605039715146535,
+          "n": 1
+        }
+      },
+      "Conversational Rituals": {
+        "documents_present": 1,
+        "document_ids": [
+          "power-of-talk"
+        ],
+        "words": {
+          "min": 1813,
+          "q1": 1813.0,
+          "median": 1813.0,
+          "q3": 1813.0,
+          "max": 1813,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.2482881402355519,
+          "q1": 0.2482881402355519,
+          "median": 0.2482881402355519,
+          "q3": 0.2482881402355519,
+          "max": 0.2482881402355519,
+          "n": 1
+        }
+      },
+      "Negotiating Authority": {
+        "documents_present": 1,
+        "document_ids": [
+          "power-of-talk"
+        ],
+        "words": {
+          "min": 1882,
+          "q1": 1882.0,
+          "median": 1882.0,
+          "q3": 1882.0,
+          "max": 1882,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.2577376061353054,
+          "q1": 0.2577376061353054,
+          "median": 0.2577376061353054,
+          "q3": 0.2577376061353054,
+          "max": 0.2577376061353054,
+          "n": 1
+        }
+      },
+      "What to Do?": {
+        "documents_present": 1,
+        "document_ids": [
+          "power-of-talk"
+        ],
+        "words": {
+          "min": 495,
+          "q1": 495.0,
+          "median": 495.0,
+          "q3": 495.0,
+          "max": 495,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.06778964667214461,
+          "q1": 0.06778964667214461,
+          "median": 0.06778964667214461,
+          "q3": 0.06778964667214461,
+          "max": 0.06778964667214461,
+          "n": 1
+        }
+      },
+      "A Costly Problem – and a Radical Solution": {
+        "documents_present": 1,
+        "document_ids": [
+          "customers-as-innovators"
+        ],
+        "words": {
+          "min": 884,
+          "q1": 884.0,
+          "median": 884.0,
+          "q3": 884.0,
+          "max": 884,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.21204125689613817,
+          "q1": 0.21204125689613817,
+          "median": 0.21204125689613817,
+          "q3": 0.21204125689613817,
+          "max": 0.21204125689613817,
+          "n": 1
+        }
+      },
+      "An Industry Transformed": {
+        "documents_present": 1,
+        "document_ids": [
+          "customers-as-innovators"
+        ],
+        "words": {
+          "min": 769,
+          "q1": 769.0,
+          "median": 769.0,
+          "q3": 769.0,
+          "max": 769,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.18445670424562244,
+          "q1": 0.18445670424562244,
+          "median": 0.18445670424562244,
+          "q3": 0.18445670424562244,
+          "max": 0.18445670424562244,
+          "n": 1
+        }
+      },
+      "The Benefits and Challenges": {
+        "documents_present": 1,
+        "document_ids": [
+          "customers-as-innovators"
+        ],
+        "words": {
+          "min": 1032,
+          "q1": 1032.0,
+          "median": 1032.0,
+          "q3": 1032.0,
+          "max": 1032,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.24754137682897578,
+          "q1": 0.24754137682897578,
+          "median": 0.24754137682897578,
+          "q3": 0.24754137682897578,
+          "max": 0.24754137682897578,
+          "n": 1
+        }
+      },
+      "A Pattern of Migration": {
+        "documents_present": 1,
+        "document_ids": [
+          "customers-as-innovators"
+        ],
+        "words": {
+          "min": 442,
+          "q1": 442.0,
+          "median": 442.0,
+          "q3": 442.0,
+          "max": 442,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.10602062844806909,
+          "q1": 0.10602062844806909,
+          "median": 0.10602062844806909,
+          "q3": 0.10602062844806909,
+          "max": 0.10602062844806909,
+          "n": 1
+        }
+      },
+      "Questions of Value": {
+        "documents_present": 1,
+        "document_ids": [
+          "customers-as-innovators"
+        ],
+        "words": {
+          "min": 551,
+          "q1": 551.0,
+          "median": 551.0,
+          "q3": 551.0,
+          "max": 551,
+          "n": 1
+        },
+        "proportion": {
+          "min": 0.13216598704725355,
+          "q1": 0.13216598704725355,
+          "median": 0.13216598704725355,
+          "q3": 0.13216598704725355,
+          "max": 0.13216598704725355,
+          "n": 1
+        }
+      }
+    },
+    "printed_sections": [
+      {
+        "document_id": "managing-oneself",
+        "heading": "What Are My Strengths?",
+        "words": 941
+      },
+      {
+        "document_id": "managing-oneself",
+        "heading": "How Do I Perform?",
+        "words": 1451
+      },
+      {
+        "document_id": "managing-oneself",
+        "heading": "What Are My Values?",
+        "words": 989
+      },
+      {
+        "document_id": "managing-oneself",
+        "heading": "Where Do I Belong?",
+        "words": 304
+      },
+      {
+        "document_id": "managing-oneself",
+        "heading": "What Should I Contribute?",
+        "words": 544
+      },
+      {
+        "document_id": "managing-oneself",
+        "heading": "Responsibility for Relationships",
+        "words": 968
+      },
+      {
+        "document_id": "managing-oneself",
+        "heading": "The Second Half of Your Life",
+        "words": 1129
+      },
+      {
+        "document_id": "balanced-scorecard",
+        "heading": "Translating the Vision",
+        "words": 404
+      },
+      {
+        "document_id": "balanced-scorecard",
+        "heading": "Communicating and Linking",
+        "words": 294
+      },
+      {
+        "document_id": "balanced-scorecard",
+        "heading": "Communicating and Educating.",
+        "words": 421
+      },
+      {
+        "document_id": "balanced-scorecard",
+        "heading": "Setting Goals.",
+        "words": 219
+      },
+      {
+        "document_id": "balanced-scorecard",
+        "heading": "Linking Rewards to Performance Measures.",
+        "words": 506
+      },
+      {
+        "document_id": "balanced-scorecard",
+        "heading": "Business Planning",
+        "words": 918
+      },
+      {
+        "document_id": "balanced-scorecard",
+        "heading": "Feedback and Learning",
+        "words": 988
+      },
+      {
+        "document_id": "balanced-scorecard",
+        "heading": "Toward a New Strategic Management System",
+        "words": 217
+      },
+      {
+        "document_id": "power-of-talk",
+        "heading": "What Is Linguistic Style?",
+        "words": 1481
+      },
+      {
+        "document_id": "power-of-talk",
+        "heading": "One Up, One Down",
+        "words": 1172
+      },
+      {
+        "document_id": "power-of-talk",
+        "heading": "Conversational Rituals",
+        "words": 1813
+      },
+      {
+        "document_id": "power-of-talk",
+        "heading": "Negotiating Authority",
+        "words": 1882
+      },
+      {
+        "document_id": "power-of-talk",
+        "heading": "What to Do?",
+        "words": 495
+      },
+      {
+        "document_id": "customers-as-innovators",
+        "heading": "A Costly Problem – and a Radical Solution",
+        "words": 884
+      },
+      {
+        "document_id": "customers-as-innovators",
+        "heading": "An Industry Transformed",
+        "words": 769
+      },
+      {
+        "document_id": "customers-as-innovators",
+        "heading": "The Benefits and Challenges",
+        "words": 1032
+      },
+      {
+        "document_id": "customers-as-innovators",
+        "heading": "A Pattern of Migration",
+        "words": 442
+      },
+      {
+        "document_id": "customers-as-innovators",
+        "heading": "Questions of Value",
+        "words": 551
+      }
+    ],
+    "caveats": "Observed descriptive counts; roles interpreted. Multi-function paragraph lengths overlap and are not additive budgets. Role ranges conditional on presence; no zero is silently assigned to missing roles."
+  },
+  "HBR_procedure_tool_boundary": {
+    "range_kind": "observed_pilot_only",
+    "working_targets": null,
+    "declared_limits": null,
+    "function_coding": "Primary model interpretations; second-coder disagreements have not been adjudicated.",
+    "documents": 2,
+    "paragraph_count": 88,
+    "document_words": {
+      "min": 2511,
+      "q1": 2683.0,
+      "median": 2855.0,
+      "q3": 3027.0,
+      "max": 3199,
+      "n": 2
+    },
+    "paragraphs_per_document": {
+      "min": 41,
+      "q1": 42.5,
+      "median": 44.0,
+      "q3": 45.5,
+      "max": 47,
+      "n": 2
+    },
+    "paragraph_words_pooled": {
+      "min": 17,
+      "q1": 43.0,
+      "median": 60.5,
+      "q3": 83.25,
+      "max": 123,
+      "n": 88
+    },
+    "per_document_median_paragraph_words": {
+      "min": 55.0,
+      "q1": 58.0,
+      "median": 61.0,
+      "q3": 64.0,
+      "max": 67.0,
+      "n": 2
+    },
+    "function_lengths": {
+      "orient": {
+        "documents_present": 2,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 17,
+          "q1": 41.0,
+          "median": 51.0,
+          "q3": 62.0,
+          "max": 104,
+          "n": 9
+        },
+        "per_document_medians": {
+          "min": 48.0,
+          "q1": 48.75,
+          "median": 49.5,
+          "q3": 50.25,
+          "max": 51.0,
+          "n": 2
+        }
+      },
+      "define": {
+        "documents_present": 2,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 30,
+          "q1": 44.5,
+          "median": 69.0,
+          "q3": 105.5,
+          "max": 123,
+          "n": 15
+        },
+        "per_document_medians": {
+          "min": 69.0,
+          "q1": 69.0,
+          "median": 69.0,
+          "q3": 69.0,
+          "max": 69.0,
+          "n": 2
+        }
+      },
+      "report": {
+        "documents_present": 2,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 23,
+          "q1": 45.0,
+          "median": 70.0,
+          "q3": 105.5,
+          "max": 111,
+          "n": 16
+        },
+        "per_document_medians": {
+          "min": 63.0,
+          "q1": 66.5,
+          "median": 70.0,
+          "q3": 73.5,
+          "max": 77.0,
+          "n": 2
+        }
+      },
+      "assert": {
+        "documents_present": 2,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 27,
+          "q1": 37.0,
+          "median": 54.5,
+          "q3": 63.0,
+          "max": 110,
+          "n": 12
+        },
+        "per_document_medians": {
+          "min": 47.5,
+          "q1": 49.25,
+          "median": 51.0,
+          "q3": 52.75,
+          "max": 54.5,
+          "n": 2
+        }
+      },
+      "support": {
+        "documents_present": 1,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 87,
+          "q1": 87.0,
+          "median": 87.0,
+          "q3": 87.0,
+          "max": 87,
+          "n": 1
+        },
+        "per_document_medians": {
+          "min": 87.0,
+          "q1": 87.0,
+          "median": 87.0,
+          "q3": 87.0,
+          "max": 87.0,
+          "n": 1
+        }
+      },
+      "explain": {
+        "documents_present": 2,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 17,
+          "q1": 45.5,
+          "median": 62.0,
+          "q3": 81.5,
+          "max": 111,
+          "n": 47
+        },
+        "per_document_medians": {
+          "min": 58.0,
+          "q1": 60.75,
+          "median": 63.5,
+          "q3": 66.25,
+          "max": 69.0,
+          "n": 2
+        }
+      },
+      "illustrate": {
+        "documents_present": 2,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 29,
+          "q1": 56.5,
+          "median": 72.0,
+          "q3": 90.0,
+          "max": 112,
+          "n": 39
+        },
+        "per_document_medians": {
+          "min": 59.0,
+          "q1": 63.375,
+          "median": 67.75,
+          "q3": 72.125,
+          "max": 76.5,
+          "n": 2
+        }
+      },
+      "compare": {
+        "documents_present": 2,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 37,
+          "q1": 52.5,
+          "median": 59.0,
+          "q3": 80.75,
+          "max": 110,
+          "n": 10
+        },
+        "per_document_medians": {
+          "min": 57.5,
+          "q1": 60.625,
+          "median": 63.75,
+          "q3": 66.875,
+          "max": 70.0,
+          "n": 2
+        }
+      },
+      "interpret": {
+        "documents_present": 2,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 47,
+          "q1": 50.75,
+          "median": 57.0,
+          "q3": 67.25,
+          "max": 83,
+          "n": 4
+        },
+        "per_document_medians": {
+          "min": 52.0,
+          "q1": 59.75,
+          "median": 67.5,
+          "q3": 75.25,
+          "max": 83.0,
+          "n": 2
+        }
+      },
+      "qualify": {
+        "documents_present": 2,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 22,
+          "q1": 29.75,
+          "median": 46.5,
+          "q3": 64.0,
+          "max": 108,
+          "n": 8
+        },
+        "per_document_medians": {
+          "min": 32.0,
+          "q1": 37.0,
+          "median": 42.0,
+          "q3": 47.0,
+          "max": 52.0,
+          "n": 2
+        }
+      },
+      "instruct": {
+        "documents_present": 2,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 20,
+          "q1": 56.0,
+          "median": 73.5,
+          "q3": 89.5,
+          "max": 123,
+          "n": 20
+        },
+        "per_document_medians": {
+          "min": 73.0,
+          "q1": 75.25,
+          "median": 77.5,
+          "q3": 79.75,
+          "max": 82.0,
+          "n": 2
+        }
+      },
+      "narrate": {
+        "documents_present": 1,
+        "document_denominator": 2,
+        "tagged_paragraph_lengths": {
+          "min": 109,
+          "q1": 109.0,
+          "median": 109.0,
+          "q3": 109.0,
+          "max": 109,
+          "n": 1
+        },
+        "per_document_medians": {
+          "min": 109.0,
+          "q1": 109.0,
+          "median": 109.0,
+          "q3": 109.0,
+          "max": 109.0,
+          "n": 1
+        }
+      }
+    },
+    "analyst_role_budgets": {},
+    "printed_sections": [],
+    "caveats": "Observed descriptive counts; roles interpreted. Multi-function paragraph lengths overlap and are not additive budgets. Role ranges conditional on presence; no zero is silently assigned to missing roles."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w2130554796",
+      "doi": "10.1146/annurev-lawsocsci-011912-083704",
+      "title": "Empirical Studies of Contract",
+      "authors": "[\"Zev J. Eigen\"]",
+      "field": "law_public_policy",
+      "q": "\"Empirical Studies of Contract\" Eigen filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2130554796",
+      "query": "\"Empirical Studies of Contract\" Eigen filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Empirical Studies of Contract",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1998483",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

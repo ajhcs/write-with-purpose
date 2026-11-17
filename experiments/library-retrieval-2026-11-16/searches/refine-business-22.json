@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_043",
+      "doi": "10.4135/9781452276090.n192",
+      "title": "Organizational Culture Theory",
+      "authors": "[\"Joanne Martin\"]",
+      "field": "business_management",
+      "q": "\"Organizational Culture Theory\" Martin pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_043",
+      "query": "\"Organizational Culture Theory\" Martin pdf",
+      "urls": [
+        {
+          "title": "2.1.1 Organizational culture perspectives",
+          "url": "https://dspace.lib.uom.gr/bitstream/2159/20944/4/MastorasArgyriosMsc2017.pdf",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "Organizational Culture Theory",
+          "url": "https://sk.sagepub.com/ency/edvol/embed/encyclopedia-of-management-theory/chpt/organizational-culture-theory",
+          "score": 1
+        },
+        {
+          "title": "Organizational Culture: Mapping the Terrain",
+          "url": "https://www.researchgate.net/publication/238716459_Organizational_Culture_Mapping_the_Terrain",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "Meta-Theoretical Controversies in Studying Organizational Culture",
+          "url": "https://gsbpreserve.stanford.edu/view/1759/meta-theoretical-controversies-in-studying-organizational-culture?limit=50&offset=4529&sort=title.keyword",
+          "score": 0.6666666666666666
+        }
+      ]
+    }
+  ]
+}

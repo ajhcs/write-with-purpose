@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_035",
+      "doi": "10.5465/amr.1990.4309121",
+      "title": "Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry",
+      "authors": "[\"Chris Argyris\"]",
+      "field": "business_management",
+      "q": "\"Strategies for Learning: Small Group Activities in American,\" Argyris filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_035",
+      "query": "\"Strategies for Learning: Small Group Activities in American,\" Argyris filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Strategies for Learning: Small-Group Activities in American, Japanese, and Swedish Industry | UC Press E-Books Collection Archive, 1982-2004",
+          "url": "https://publishing.cdlib.org/ucpressebooks/public/book/strategies-for-learning-small-group-activities-in-american-japanese-and-swedish-industry.html",
+          "score": 1
+        },
+        {
+          "title": "Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry",
+          "url": "https://journals.aom.org/doi/10.5465/amr.1990.4309121",
+          "score": 1
+        },
+        {
+          "title": "Strategies for learning : small-group activities in American, Japanese, and Swedish industry :: Robert E. Cole :: ISBN 0520073983 :: University of California Press 1989 :: OBNB, the Open British National Bibliography",
+          "url": "https://obnb.uk/p8750019-strategies-for-learning-small-group-activities-in-american-japanese-and-swedish-industry",
+          "score": 1
+        },
+        {
+          "title": "Strategies for Learning Small Group Activities in American Japanese and Swedish Industry Robert E. Cole full chapters free | PDF | Learning | Japan",
+          "url": "https://www.scribd.com/document/1073418547/Strategies-for-Learning-Small-Group-Activities-in-American-Japanese-and-Swedish-Industry-Robert-E-Cole-full-chapters-free",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_033",
+      "doi": "10.1177/1094428104263675",
+      "title": "Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis",
+      "authors": "[\"James C. Hayton\", \"David G. Allen\", \"Vida Scarpello\"]",
+      "field": "business_management",
+      "q": "\"Factor Retention Decisions in Exploratory Factor Analysis\" Hayton pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_033",
+      "query": "\"Factor Retention Decisions in Exploratory Factor Analysis\" Hayton pdf",
+      "urls": [
+        {
+          "title": "Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/1094428104263675",
+          "score": 1
+        },
+        {
+          "title": "Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis",
+          "url": "https://doi.org/10.1177/1094428104263675",
+          "score": 1
+        },
+        {
+          "title": "Rankless | Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis",
+          "url": "https://www.rankless.org/hit-papers/10.1177/1094428104263675",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1479 @@
+{
+  "normalized_text_sha256": "eaf4567f827ccff4e08f7b5fd8507e083d744e3516d90fe452aa3f58b6130a84",
+  "source_pdf_sha256": "78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab",
+  "units": [
+    {
+      "id": "customers-001",
+      "section": "opening",
+      "kind": "prose",
+      "normalized_sha256": "ca6c9deda6e9370d17f9c00957982b5afa348548a6c77c89da5d6d9386e7fe58",
+      "source_reconstruction_sha256": "53305d860569e5842363af7f5c39b64b3c524a466bbd2e6d08a920769ac006cd",
+      "source": [
+        {
+          "page": 5,
+          "block": 6,
+          "bbox": [
+            40.56,
+            348.17,
+            81.63,
+            394.17
+          ]
+        },
+        {
+          "page": 5,
+          "block": 1,
+          "bbox": [
+            70.36,
+            349.63,
+            297.01,
+            361.36
+          ]
+        },
+        {
+          "page": 5,
+          "block": 2,
+          "bbox": [
+            63.0,
+            363.86,
+            297.01,
+            433.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 338,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "orient",
+        "assert"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-002",
+      "section": "opening",
+      "kind": "prose",
+      "normalized_sha256": "1f40765bee2ec8448d5c9f98ddb68acaaeb59700e1e5d2d8f48a06dfc52f1318",
+      "source_reconstruction_sha256": "03af71600a58b14e5b6b70ea351ea20049ed47e977eeb75dfe5afd3086c34513",
+      "source": [
+        {
+          "page": 5,
+          "block": 3,
+          "bbox": [
+            63.0,
+            435.86,
+            297.02,
+            529.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 340,
+        "end": 786,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "explain",
+        "orient"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-003",
+      "section": "opening",
+      "kind": "prose",
+      "normalized_sha256": "0bff4299d857b5389b0ee7d6e36bc018b5534b8be024f6b8ba94cf48c83ba0cb",
+      "source_reconstruction_sha256": "ae03b2050f2538ae0f5dc19bf2da76db1ba2567a4c2c5f0c44c9e674773a479f",
+      "source": [
+        {
+          "page": 5,
+          "block": 4,
+          "bbox": [
+            63.0,
+            531.86,
+            297.03,
+            685.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 788,
+        "end": 1465,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        },
+        {
+          "reason": "remove superscript reference marker 1 from prose count"
+        }
+      ],
+      "functions": [
+        "report",
+        "define"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-004",
+      "section": "opening",
+      "kind": "prose",
+      "normalized_sha256": "f713c35a6b4af01f7d6bc989636b073cb918afcb66a6485d81d3b7f2a1fac0d4",
+      "source_reconstruction_sha256": "3b1dc9157bdbd812088ac78466669b233931502499eafb9354b15619c08dfa6a",
+      "source": [
+        {
+          "page": 5,
+          "block": 5,
+          "bbox": [
+            63.0,
+            687.86,
+            297.01,
+            721.36
+          ]
+        },
+        {
+          "page": 5,
+          "block": 7,
+          "bbox": [
+            315.0,
+            351.86,
+            549.02,
+            493.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 1467,
+        "end": 2294,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "from": "Opensource",
+          "to": "Open-source",
+          "reason": "publisher layout line-break hyphen preserved"
+        },
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-005",
+      "section": "opening",
+      "kind": "prose",
+      "normalized_sha256": "c6326f165352b4102d17fd3571e49d5bf460d393990e673924d2d54808706895",
+      "source_reconstruction_sha256": "9bf9a0ceb6403efeaa9f3c7c352608c1421361f125f92d70f205f5731aa09d63",
+      "source": [
+        {
+          "page": 5,
+          "block": 8,
+          "bbox": [
+            315.0,
+            495.86,
+            549.05,
+            721.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 2296,
+        "end": 3279,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "qualify",
+        "orient"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-006",
+      "section": "problem",
+      "kind": "prose",
+      "normalized_sha256": "2fbfcedbd53bf0356f4393b56787cf5ed4cd184edd45904b33663b34b027c155",
+      "source_reconstruction_sha256": "b8741b38a8f675aea70d15151d4c8b5b0425bf9e2672297b484b52febf65ddff",
+      "source": [
+        {
+          "page": 6,
+          "block": 3,
+          "bbox": [
+            63.0,
+            100.01,
+            297.02,
+            253.51
+          ]
+        }
+      ],
+      "span": {
+        "start": 3281,
+        "end": 3965,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "explain",
+        "define"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-007",
+      "section": "problem",
+      "kind": "prose",
+      "normalized_sha256": "1ef329d44056cc200b7d1078ffc2e48bda36dfa0ebf470364fdd960f59216d72",
+      "source_reconstruction_sha256": "eacf3c3f5df8cdb430f96355fea5772a187c815bd1f76d78c4ed1f22ce1ec175",
+      "source": [
+        {
+          "page": 6,
+          "block": 4,
+          "bbox": [
+            63.0,
+            256.01,
+            297.06,
+            361.52
+          ]
+        }
+      ],
+      "span": {
+        "start": 3967,
+        "end": 4440,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "from": "timeconsuming",
+          "to": "time-consuming",
+          "reason": "publisher layout line-break hyphen preserved"
+        },
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-008",
+      "section": "problem",
+      "kind": "prose",
+      "normalized_sha256": "5f29bfb49cfc5d1cb966c4152210ea8b0686b2e657028f8382c1c343c15ef8d9",
+      "source_reconstruction_sha256": "0c24f9c50a6fc91b52ea9e7197fa68059f2bdded069082e20a294022e743db3b",
+      "source": [
+        {
+          "page": 6,
+          "block": 5,
+          "bbox": [
+            63.0,
+            364.02,
+            297.01,
+            457.52
+          ]
+        }
+      ],
+      "span": {
+        "start": 4442,
+        "end": 4881,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-009",
+      "section": "problem",
+      "kind": "prose",
+      "normalized_sha256": "29ca5e5d569e4f231cc40fc8f94d786e0f3436191465b1cd5143a1e54f7dfc56",
+      "source_reconstruction_sha256": "3c892364fb010ae5d3b276312f050766d60fa8066819f935b5f2e72f9f4604ac",
+      "source": [
+        {
+          "page": 6,
+          "block": 6,
+          "bbox": [
+            63.0,
+            460.02,
+            297.01,
+            481.52
+          ]
+        },
+        {
+          "page": 6,
+          "block": 7,
+          "bbox": [
+            315.0,
+            63.87,
+            549.03,
+            217.38
+          ]
+        }
+      ],
+      "span": {
+        "start": 4883,
+        "end": 5723,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "illustrate",
+        "narrate"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-010",
+      "section": "problem",
+      "kind": "prose",
+      "normalized_sha256": "265c115a13462c922305a17bd753934a10f74c15e46c85727de8604e07a0e017",
+      "source_reconstruction_sha256": "e1b60ff2e37d5d6e7a905b78ff81e5ef7a0fa5ea02f8e0ae2d7a50b138b95f42",
+      "source": [
+        {
+          "page": 6,
+          "block": 8,
+          "bbox": [
+            315.0,
+            219.88,
+            549.05,
+            373.38
+          ]
+        }
+      ],
+      "span": {
+        "start": 5725,
+        "end": 6417,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "explain",
+        "support"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-011",
+      "section": "problem",
+      "kind": "prose",
+      "normalized_sha256": "2ae8347d48159f2b4a74de2b15a2f538b176602016ddb51bbc6be30ba8462ed5",
+      "source_reconstruction_sha256": "da1eeee3aa1e9ff02f29030a27318a67a8a87d965e5acbe305f503b9dd2c3205",
+      "source": [
+        {
+          "page": 6,
+          "block": 9,
+          "bbox": [
+            315.0,
+            375.88,
+            549.02,
+            481.39
+          ]
+        },
+        {
+          "page": 7,
+          "block": 2,
+          "bbox": [
+            63.0,
+            63.86,
+            279.03,
+            109.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 6419,
+        "end": 7106,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-012",
+      "section": "problem",
+      "kind": "prose",
+      "normalized_sha256": "32499589e6e4cf790b63564143f995b8bdd06a22f501459e79f0ae993d8be1c4",
+      "source_reconstruction_sha256": "50b5e4f8cac30efdc5e14dfe169e493e607805d64e0c244c924c8766630bb683",
+      "source": [
+        {
+          "page": 7,
+          "block": 3,
+          "bbox": [
+            63.0,
+            111.86,
+            279.02,
+            265.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 7108,
+        "end": 7739,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-013",
+      "section": "problem",
+      "kind": "prose",
+      "normalized_sha256": "c3e14f286bf841f7fa02c30d6591eb2e8f8aa03a8e2f53864a5ca6f85344c3e6",
+      "source_reconstruction_sha256": "fcd571c03766bdf27195cf80f0b1334f6a92fc2e62fd561dd039359f74dd1572",
+      "source": [
+        {
+          "page": 7,
+          "block": 4,
+          "bbox": [
+            63.0,
+            267.87,
+            297.02,
+            541.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 7741,
+        "end": 9010,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        },
+        {
+          "reason": "remove superscript reference marker 2 from prose count"
+        }
+      ],
+      "functions": [
+        "assert",
+        "define",
+        "instruct"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-014",
+      "section": "industry",
+      "kind": "prose",
+      "normalized_sha256": "1e8211701afa21b3fa8ffd5d511087acd392df1a2c6312a477a9c29b9d0c3694",
+      "source_reconstruction_sha256": "ff0310d4a5287461d60774cd74cceeca87689a94e37de08e22b5adc24dd88b84",
+      "source": [
+        {
+          "page": 7,
+          "block": 6,
+          "bbox": [
+            63.0,
+            579.86,
+            297.02,
+            637.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 9012,
+        "end": 9253,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "from": "customers-asinnovators",
+          "to": "customers-as-innovators",
+          "reason": "publisher layout line-break hyphen preserved"
+        }
+      ],
+      "functions": [
+        "orient"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-015",
+      "section": "industry",
+      "kind": "prose",
+      "normalized_sha256": "c887edaf955a115778a7608a8a0bfdffa7d76cc8753e7b8c5696b9715f9c6eb2",
+      "source_reconstruction_sha256": "c887edaf955a115778a7608a8a0bfdffa7d76cc8753e7b8c5696b9715f9c6eb2",
+      "source": [
+        {
+          "page": 7,
+          "block": 7,
+          "bbox": [
+            63.0,
+            639.86,
+            297.02,
+            721.36
+          ]
+        },
+        {
+          "page": 7,
+          "block": 14,
+          "bbox": [
+            315.0,
+            351.86,
+            549.0,
+            385.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 9255,
+        "end": 9771,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [],
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-016",
+      "section": "industry",
+      "kind": "prose",
+      "normalized_sha256": "e881889d22270552d62a6d8620cf26dc1a66b1789e2a8a457919049e2620221d",
+      "source_reconstruction_sha256": "7f807261ba6ad974414d3533d75ec806f1e911ea35ab81794f334a5a2073d774",
+      "source": [
+        {
+          "page": 7,
+          "block": 15,
+          "bbox": [
+            315.0,
+            387.86,
+            549.02,
+            553.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 9773,
+        "end": 10519,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-017",
+      "section": "industry",
+      "kind": "prose",
+      "normalized_sha256": "47f087b991a4785f0edd91e8475fa198bd41b21361ba208240dc2a7f6f29e71c",
+      "source_reconstruction_sha256": "1420e90bee82f491b1fe1cbcb607186751fbeeead9f336c87091e414f1c6e1a7",
+      "source": [
+        {
+          "page": 7,
+          "block": 16,
+          "bbox": [
+            315.0,
+            553.64,
+            549.02,
+            649.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 10521,
+        "end": 10972,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "explain",
+        "orient"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-018",
+      "section": "industry",
+      "kind": "prose",
+      "normalized_sha256": "1bae91e19899525b3f33808232b35f5ce34e219a0bcadcb962f72e7a7e5c2ea7",
+      "source_reconstruction_sha256": "f821d6c6e36723d33f8bf27d432192834cb8d65542dfbb0e578f201ccd804de2",
+      "source": [
+        {
+          "page": 8,
+          "block": 0,
+          "bbox": [
+            63.0,
+            63.86,
+            299.55,
+            253.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 10974,
+        "end": 11788,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "from": "leadingedge",
+          "to": "leading-edge",
+          "reason": "publisher layout line-break hyphen preserved"
+        }
+      ],
+      "functions": [
+        "explain",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-019",
+      "section": "industry",
+      "kind": "prose",
+      "normalized_sha256": "b109d514fe513ac1e1b2eead80e4b81276ea1b48f6ac410d35e47e177925f7ef",
+      "source_reconstruction_sha256": "b109d514fe513ac1e1b2eead80e4b81276ea1b48f6ac410d35e47e177925f7ef",
+      "source": [
+        {
+          "page": 8,
+          "block": 1,
+          "bbox": [
+            63.0,
+            255.87,
+            297.01,
+            361.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 11790,
+        "end": 12242,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [],
+      "functions": [
+        "narrate",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-020",
+      "section": "industry",
+      "kind": "prose",
+      "normalized_sha256": "d4e8896e1436a62274734fd10caf90c27152ccf4b244e98a584eb28f54b26aae",
+      "source_reconstruction_sha256": "bb98f34b5d775f43776a89f316f61a75a4a016755a48a9ba054240e492a14b58",
+      "source": [
+        {
+          "page": 8,
+          "block": 2,
+          "bbox": [
+            63.0,
+            363.87,
+            297.02,
+            565.38
+          ]
+        }
+      ],
+      "span": {
+        "start": 12244,
+        "end": 13163,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "explain",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-021",
+      "section": "industry",
+      "kind": "prose",
+      "normalized_sha256": "47bc168fd8bbdce5d94e9fcc05620bc1d085c9dc86d61d8c48269b1fa7a95ab3",
+      "source_reconstruction_sha256": "8971d966d8d7776f770da17944582e924bef4555b8262f1dc1fd9a7674457eb5",
+      "source": [
+        {
+          "page": 8,
+          "block": 3,
+          "bbox": [
+            63.0,
+            567.88,
+            297.03,
+            721.38
+          ]
+        },
+        {
+          "page": 8,
+          "block": 4,
+          "bbox": [
+            315.0,
+            63.88,
+            549.01,
+            97.38
+          ]
+        }
+      ],
+      "span": {
+        "start": 13165,
+        "end": 14036,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-022",
+      "section": "benefits",
+      "kind": "prose",
+      "normalized_sha256": "cf342bf2843b155108d4dab16799969676f3e352a7e7662dc0a815d869d4d988",
+      "source_reconstruction_sha256": "55186703cb5c56e5028003e39309a7b041f4877e05cd657b167e1a124443e423",
+      "source": [
+        {
+          "page": 8,
+          "block": 6,
+          "bbox": [
+            315.0,
+            135.86,
+            549.02,
+            265.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 14038,
+        "end": 14645,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-023",
+      "section": "benefits",
+      "kind": "prose",
+      "normalized_sha256": "66510c8ea0da4d6c01e4a6190d0553aa366069d1cd8988e83642bfabdfd30745",
+      "source_reconstruction_sha256": "a824749f574015009c9aa441175d027a72fbc552ea5d49c19eaa32d64c54f992",
+      "source": [
+        {
+          "page": 8,
+          "block": 7,
+          "bbox": [
+            315.0,
+            267.86,
+            549.01,
+            445.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 14647,
+        "end": 15453,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "explain",
+        "assert"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-024",
+      "section": "benefits",
+      "kind": "prose",
+      "normalized_sha256": "5b58e07a9b8c393f71b3761a85de329f02535f523d41193695fd3a59432ac325",
+      "source_reconstruction_sha256": "5b58e07a9b8c393f71b3761a85de329f02535f523d41193695fd3a59432ac325",
+      "source": [
+        {
+          "page": 8,
+          "block": 8,
+          "bbox": [
+            315.0,
+            447.87,
+            549.01,
+            565.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 15455,
+        "end": 16009,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [],
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-025",
+      "section": "benefits",
+      "kind": "prose",
+      "normalized_sha256": "b035ff2d5fbeade556c2aef10ee2133cd64b9b904363c71a0c6e3f1fe4acc601",
+      "source_reconstruction_sha256": "4b452937d5fadab767d5e766d81f6516d8c808098e0a1d8b6e16fa17eaf12834",
+      "source": [
+        {
+          "page": 8,
+          "block": 9,
+          "bbox": [
+            315.0,
+            567.87,
+            549.02,
+            721.38
+          ]
+        }
+      ],
+      "span": {
+        "start": 16011,
+        "end": 16707,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "from": "userfriendly",
+          "to": "user-friendly",
+          "reason": "publisher layout line-break hyphen preserved"
+        },
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-026",
+      "section": "benefits",
+      "kind": "prose",
+      "normalized_sha256": "e9dcc39dad1a43d97f30babbf6cb35c5da050b71ee21d8585014439381de0bf7",
+      "source_reconstruction_sha256": "77d68ecc2c19767401b5f06d7a0b36dda462909cd42531ecf09c8abd4d9d35cb",
+      "source": [
+        {
+          "page": 9,
+          "block": 0,
+          "bbox": [
+            63.0,
+            63.86,
+            297.03,
+            361.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 16709,
+        "end": 18029,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-027",
+      "section": "benefits",
+      "kind": "prose",
+      "normalized_sha256": "50eed7382c773a4fdc6c763c0cdbed0b5c490e1e9678d2fbea504cdcb917ded4",
+      "source_reconstruction_sha256": "3011215f11b3c68eb47d3931c183522c632de35ee1b29fb3f2ca54dae97223db",
+      "source": [
+        {
+          "page": 9,
+          "block": 1,
+          "bbox": [
+            63.0,
+            363.87,
+            279.01,
+            469.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 18031,
+        "end": 18458,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "orient",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-028",
+      "section": "benefits",
+      "kind": "prose",
+      "normalized_sha256": "9f011580567f286ceffdbdaa37fd058ec95047894ff7f7345cdb5bebdb8da9ff",
+      "source_reconstruction_sha256": "c223cb6e73981eaed0592aa242412146b0c78061c0ea7384b0574ee3502b64d7",
+      "source": [
+        {
+          "page": 9,
+          "block": 2,
+          "bbox": [
+            63.0,
+            471.87,
+            279.09,
+            685.38
+          ]
+        }
+      ],
+      "span": {
+        "start": 18460,
+        "end": 19370,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "report",
+        "narrate"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-029",
+      "section": "benefits",
+      "kind": "prose",
+      "normalized_sha256": "a67f61efbe98287aaeb4608dac9aa2542669b026bd6998b148c7335ae51c353e",
+      "source_reconstruction_sha256": "c9791b6f0fb0397aa5b49493e878aa7b34bdcb6f0297d0e6ae83dcc37a1cdafc",
+      "source": [
+        {
+          "page": 9,
+          "block": 3,
+          "bbox": [
+            63.0,
+            687.88,
+            279.02,
+            721.38
+          ]
+        },
+        {
+          "page": 9,
+          "block": 19,
+          "bbox": [
+            315.0,
+            63.86,
+            549.01,
+            193.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 19372,
+        "end": 20110,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-030",
+      "section": "benefits",
+      "kind": "prose",
+      "normalized_sha256": "e8fc398bc627c2c734aac3da6dd96ab8231583b9c7852d7869980400a2c64c20",
+      "source_reconstruction_sha256": "e8fc398bc627c2c734aac3da6dd96ab8231583b9c7852d7869980400a2c64c20",
+      "source": [
+        {
+          "page": 9,
+          "block": 20,
+          "bbox": [
+            315.0,
+            195.86,
+            549.01,
+            253.37
+          ]
+        },
+        {
+          "page": 10,
+          "block": 4,
+          "bbox": [
+            63.0,
+            63.86,
+            297.01,
+            145.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 20112,
+        "end": 20747,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [],
+      "functions": [
+        "report",
+        "support"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-031",
+      "section": "migration",
+      "kind": "prose",
+      "normalized_sha256": "163b755c40e96472a0a64d0075f035d084838bfecf13f8f89206369d4b153f06",
+      "source_reconstruction_sha256": "07b5c4ff34ef1bc41d2128b392ec8a9b15b63fb957a7eb49c9433f9620e3d256",
+      "source": [
+        {
+          "page": 10,
+          "block": 6,
+          "bbox": [
+            63.0,
+            183.86,
+            297.02,
+            253.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 20749,
+        "end": 21075,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "from": "customers-asinnovators",
+          "to": "customers-as-innovators",
+          "reason": "publisher layout line-break hyphen preserved"
+        }
+      ],
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-032",
+      "section": "migration",
+      "kind": "prose",
+      "normalized_sha256": "771ccb10b0b25fa7848235052181df5a68ce2708c47e6ca29d3ea8fb750f5e1b",
+      "source_reconstruction_sha256": "1aa5201eac456a87f89580593d8a4370fb0a8b913fa786b84073b3b2b13957b5",
+      "source": [
+        {
+          "page": 10,
+          "block": 7,
+          "bbox": [
+            63.0,
+            255.86,
+            297.54,
+            373.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 21077,
+        "end": 21607,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-033",
+      "section": "migration",
+      "kind": "prose",
+      "normalized_sha256": "95b34ee99cea0847cc0faf7fc3d197c76ab5c54474b55667d27d9c59fe00b04f",
+      "source_reconstruction_sha256": "d40b667d0d4bc638d40863ed87a15da1ad929185ed206f086a97cb03411241f4",
+      "source": [
+        {
+          "page": 10,
+          "block": 8,
+          "bbox": [
+            63.0,
+            375.87,
+            297.02,
+            493.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 21609,
+        "end": 22152,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "explain",
+        "compare"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-034",
+      "section": "migration",
+      "kind": "prose",
+      "normalized_sha256": "28515be97d6ea61796be688972ca790f703e3d6aef3f18f7f11dbd6ef9363162",
+      "source_reconstruction_sha256": "24b2cf62d389c70887ea77dd71f3adcaaa1b759ef246b157d700ac4456ec647f",
+      "source": [
+        {
+          "page": 10,
+          "block": 0,
+          "bbox": [
+            315.0,
+            63.86,
+            549.05,
+            181.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 22154,
+        "end": 22704,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-035",
+      "section": "migration",
+      "kind": "prose",
+      "normalized_sha256": "b098061ba857aa434e7154478ab5c1068d0e6bb76a72f8f590bb43c66d272d74",
+      "source_reconstruction_sha256": "b098061ba857aa434e7154478ab5c1068d0e6bb76a72f8f590bb43c66d272d74",
+      "source": [
+        {
+          "page": 10,
+          "block": 1,
+          "bbox": [
+            315.0,
+            183.86,
+            549.01,
+            349.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 22706,
+        "end": 23510,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [],
+      "functions": [
+        "interpret",
+        "narrate"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-036",
+      "section": "value",
+      "kind": "prose",
+      "normalized_sha256": "9cb29143dfe07290f2ad9bfd4ba9c9c0ebe6646bf314d52a2eb0c5328b659ddc",
+      "source_reconstruction_sha256": "10df6e4fe99005328a4d3fdda79dff88ed704c36dd94af17e4fb963ec24f87b8",
+      "source": [
+        {
+          "page": 10,
+          "block": 3,
+          "bbox": [
+            315.0,
+            387.86,
+            549.01,
+            493.36
+          ]
+        },
+        {
+          "page": 11,
+          "block": 0,
+          "bbox": [
+            63.0,
+            327.86,
+            297.02,
+            493.36
+          ]
+        }
+      ],
+      "span": {
+        "start": 23512,
+        "end": 24763,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "from": "masscustomized",
+          "to": "mass-customized",
+          "reason": "publisher layout line-break hyphen preserved"
+        },
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "orient",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-037",
+      "section": "value",
+      "kind": "prose",
+      "normalized_sha256": "99fadb292e077cc7224552d54303d4848f087c7ba19c62c03b658095fc27a708",
+      "source_reconstruction_sha256": "a824e8f11ca626045061a2cd39fb70f1cb44747904815af69be2ac2e4efac101",
+      "source": [
+        {
+          "page": 11,
+          "block": 1,
+          "bbox": [
+            63.0,
+            495.86,
+            297.01,
+            613.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 24765,
+        "end": 25276,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "assert",
+        "illustrate"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-038",
+      "section": "value",
+      "kind": "prose",
+      "normalized_sha256": "b1fe413460e657577675a0a40ada4efdc51fc50be7e32465a5316f760fe8ca33",
+      "source_reconstruction_sha256": "ee21a24aeaede4f96efde41678cff511899ff135dc28634cae9391b20c1fbbbd",
+      "source": [
+        {
+          "page": 11,
+          "block": 2,
+          "bbox": [
+            63.0,
+            615.87,
+            297.01,
+            721.37
+          ]
+        }
+      ],
+      "span": {
+        "start": 25278,
+        "end": 25772,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "from": "massdistribute",
+          "to": "mass-distribute",
+          "reason": "publisher layout line-break hyphen preserved"
+        },
+        {
+          "reason": "restore missing spacing at punctuation; typography normalized"
+        }
+      ],
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-039",
+      "section": "value",
+      "kind": "prose",
+      "normalized_sha256": "cd8da3acfa3b67a981bdd2223ee773aa2b71dbdd04dd187d5169b79d6639ed6e",
+      "source_reconstruction_sha256": "cd8da3acfa3b67a981bdd2223ee773aa2b71dbdd04dd187d5169b79d6639ed6e",
+      "source": [
+        {
+          "page": 11,
+          "block": 3,
+          "bbox": [
+            315.0,
+            327.87,
+            549.01,
+            481.38
+          ]
+        }
+      ],
+      "span": {
+        "start": 25774,
+        "end": 26447,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [],
+      "functions": [
+        "illustrate",
+        "narrate"
+      ],
+      "coding_status": "single coder, interpretive"
+    },
+    {
+      "id": "customers-040",
+      "section": "value",
+      "kind": "prose",
+      "normalized_sha256": "5f6d7c2eff17b431f37fdcfc2260ccdde64ca27ef9624b25c95d635cb81f024d",
+      "source_reconstruction_sha256": "4a2bb7fe81c97dcdaeb5ebfb370fc8e2868505cf109f4e1fe833987c0ed38ac8",
+      "source": [
+        {
+          "page": 11,
+          "block": 4,
+          "bbox": [
+            315.0,
+            483.88,
+            549.01,
+            613.38
+          ]
+        }
+      ],
+      "span": {
+        "start": 26449,
+        "end": 27047,
+        "unit": "Unicode code points in customers-body-normalized.txt"
+      },
+      "edits": [
+        {
+          "from": "topsyturvy",
+          "to": "topsy-turvy",
+          "reason": "publisher layout line-break hyphen preserved"
+        }
+      ],
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "coding_status": "single coder, interpretive"
+    }
+  ]
+}

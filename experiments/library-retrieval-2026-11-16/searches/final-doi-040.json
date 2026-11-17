@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_29",
+      "doi": "10.5210/fm.v4i12.708",
+      "title": "A second look at the Cathedral and the Bazaar",
+      "authors": "[\"Nikolai Bezroukov\"]",
+      "field": "engineering_computing",
+      "q": "\"A second look at the Cathedral and the\" Bezroukov filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_29",
+      "query": "\"A second look at the Cathedral and the\" Bezroukov filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "A second look at the Cathedral and the Bazaar",
+          "url": "https://firstmonday.org/ojs/index.php/fm/article/view/708",
+          "score": 1
+        },
+        {
+          "title": "The cathedral’s ivory tower and the open education bazaar – catalyzing innovation in the higher education sector",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/02680513.2019.1662285",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "The Cathedral and the Bazaar - Academic Kids",
+          "url": "https://academickids.com/encyclopedia/index.php/The_Cathedral_and_the_Bazaar",
+          "score": 0.6666666666666666
+        }
+      ]
+    }
+  ]
+}

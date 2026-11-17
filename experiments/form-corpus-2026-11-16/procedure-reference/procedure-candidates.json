@@ -1,0 +1,532 @@
+[
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-11-10"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-11-17"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-09-11"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-09-04"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Installing",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-09-17"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Associate_files_with_your_PWA",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-06-30"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-08-14"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/WebDriver/How_to/Create_BiDi_connection",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2026-03-24"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/Using_the_JavaScript_API",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-02-19"
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/auth-remote-user/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/csp/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/csrf/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/custom-file-storage/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/custom-lookups/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/custom-management-commands/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/custom-model-fields/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/custom-shell/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/custom-template-backend/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/custom-template-tags/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/delete-app/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/asgi/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/checklist/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/wsgi/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/error-reporting/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/initial-data/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/legacy-databases/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/logging/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/mailers-migration/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/outputting-csv/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/outputting-pdf/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/overriding-templates/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/static-files/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/static-files/deployment/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/upgrade-version/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/windows/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/writing-migrations/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animation_triggers/Using_scroll-triggered_animations",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-10-12"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Breadcrumb_navigation",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-07-09"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Setting_up_adaptive_streaming_media_sources",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-03-10"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-10-06"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Create_a_standalone_app",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2026-09-28"
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/asgi/daphne/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/wsgi/apache-auth/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-11-10"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Card",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-03-13"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Customize_your_app_colors",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-12-18"
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/asgi/granian/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/wsgi/granian/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-05-04"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/CORS_enabled_image",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-09-18"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-06-30"
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/asgi/hypercorn/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/wsgi/gunicorn/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-08-27"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Define_terms_with_HTML",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-07-09"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Display_badge_on_app_icon",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2026-08-04"
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/asgi/uvicorn/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/wsgi/modwsgi/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Applying_color",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-10-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Contribute_a_recipe",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-10-31"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Use_data_attributes",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-12-17"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Expose_common_actions_as_shortcuts",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-06-30"
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.1/howto/deployment/wsgi/uwsgi/",
+    "original_type": "Django how-to",
+    "sitemap_lastmod": null
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Using_color_wisely",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-08-27"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Contribute_a_recipe/Cookbook_template",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-10-29"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Localize_an_app_manifest",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2026-07-17"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-11-10"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Grid_wrapper",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2026-02-12"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Share_data_between_apps",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-06-30"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-12-16"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/List_group_with_badges",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Trigger_install_prompt",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-06-04"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Using",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Media_objects",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Counter_styles/Using_counters",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-11-12"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Pagination",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Split_navigation",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Environment_variables/Using",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Sticky_footers",
+    "original_type": "MDN how-to",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Filter_effects/Using",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-11-10"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Images/Implementing_image_sprites",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Images/Using_gradients",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-09-28"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Images/Using_object-view-box",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-11-10"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Testing",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-09-08"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using_for_accessibility",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Multicol_layout/Using",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-12-15"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Nesting/Using",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-10-21"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Positioned_layout/Using_z-index",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll_snap/Using_scroll_snap_events",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Selectors/Using_:target",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-09-22"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-12-16"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transforms/Using",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-11-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions/Using",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-12-16"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Values_and_units/Using_math_functions",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2025-12-16"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-08-07"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Writing_modes",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-05-11"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Writing_modes/Vertical_controls",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-10-14"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Writing_modes/Writing_mode_systems",
+    "original_type": "MDN guide with task-oriented title",
+    "sitemap_lastmod": "2026-09-28"
+  }
+]

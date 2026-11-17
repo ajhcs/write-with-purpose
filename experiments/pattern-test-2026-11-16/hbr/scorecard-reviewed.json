@@ -1,0 +1,2101 @@
+{
+  "status": "reviewed_reconstruction_exploratory",
+  "title": "Using the Balanced Scorecard as a Strategic Management System",
+  "source_sha256": "7d86992e261841fc4c9695260a35f266a563bd3d26ffb1cc79210c2e989cd7d1",
+  "private_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/scorecard-coded-reviewed.json",
+  "scope": "Publisher reprint main prose PDF pp. 3–13. Summary, author note, diagrams/exhibits, running furniture, and reprint notice excluded; ordinary inline quotation retained as prose. Six-item p. 13 list is separate from prose. Heading text excluded, including three run-in subheadings.",
+  "method": "Read all reconstructed prose and reviewed all page renderings; manually selected blocks based on column and diagram positions, joined cross-column/page continuations, normalized Unicode NFKC, joined wrapped words and repaired known meaningful compounds. Character-level normalization may contain remaining uncertainty. Function labels are a single coder interpretation.",
+  "sections": [
+    {
+      "section_id": "opening",
+      "first_id": "scorecard-001",
+      "last_id": "scorecard-011",
+      "heading": null,
+      "heading_printed": false,
+      "heading_level": null
+    },
+    {
+      "section_id": "vision",
+      "first_id": "scorecard-012",
+      "last_id": "scorecard-015",
+      "heading": "Translating the Vision",
+      "heading_printed": true,
+      "heading_level": 1
+    },
+    {
+      "section_id": "communication",
+      "first_id": "scorecard-016",
+      "last_id": "scorecard-019",
+      "heading": "Communicating and Linking",
+      "heading_printed": true,
+      "heading_level": 1
+    },
+    {
+      "section_id": "educating",
+      "first_id": "scorecard-020",
+      "last_id": "scorecard-024",
+      "heading": "Communicating and Educating.",
+      "heading_printed": true,
+      "heading_level": 2
+    },
+    {
+      "section_id": "goals",
+      "first_id": "scorecard-025",
+      "last_id": "scorecard-026",
+      "heading": "Setting Goals.",
+      "heading_printed": true,
+      "heading_level": 2
+    },
+    {
+      "section_id": "rewards",
+      "first_id": "scorecard-027",
+      "last_id": "scorecard-032",
+      "heading": "Linking Rewards to Performance Measures.",
+      "heading_printed": true,
+      "heading_level": 2
+    },
+    {
+      "section_id": "planning",
+      "first_id": "scorecard-033",
+      "last_id": "scorecard-045",
+      "heading": "Business Planning",
+      "heading_printed": true,
+      "heading_level": 1
+    },
+    {
+      "section_id": "feedback",
+      "first_id": "scorecard-046",
+      "last_id": "scorecard-056",
+      "heading": "Feedback and Learning",
+      "heading_printed": true,
+      "heading_level": 1
+    },
+    {
+      "section_id": "closing",
+      "first_id": "scorecard-057",
+      "last_id": "scorecard-059",
+      "heading": "Toward a New Strategic Management System",
+      "heading_printed": true,
+      "heading_level": 1
+    }
+  ],
+  "metrics": {
+    "prose_words": 4898,
+    "prose_paragraphs": 59,
+    "estimated_sentences": 213,
+    "median_paragraph_words": 79.0,
+    "median_sentence_words": 22.0,
+    "headings": 8,
+    "list_words": 41,
+    "section_words": {
+      "opening": 931,
+      "vision": 404,
+      "communication": 294,
+      "educating": 421,
+      "goals": 219,
+      "rewards": 506,
+      "planning": 918,
+      "feedback": 988,
+      "closing": 217
+    },
+    "section_shares": {
+      "opening": 0.19007758268681094,
+      "vision": 0.08248264597795019,
+      "communication": 0.06002449979583503,
+      "educating": 0.08595345038791344,
+      "goals": 0.044712127398938345,
+      "rewards": 0.10330747243772968,
+      "planning": 0.1874234381380155,
+      "feedback": 0.20171498570845242,
+      "closing": 0.04430379746835443
+    },
+    "paragraph_word_distribution": {
+      "min": 12,
+      "q1": 52.0,
+      "median": 79.0,
+      "q3": 106.0,
+      "max": 185,
+      "n": 59
+    },
+    "paragraph_sentence_distribution": {
+      "min": 1,
+      "q1": 2.0,
+      "median": 3.0,
+      "q3": 5.0,
+      "max": 9,
+      "n": 59
+    },
+    "sentence_word_distribution": {
+      "min": 5,
+      "q1": 16.0,
+      "median": 22.0,
+      "q3": 29.0,
+      "max": 60,
+      "n": 213
+    }
+  },
+  "units": [
+    {
+      "id": "scorecard-001",
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            192.0,
+            440.2,
+            372.4,
+            689.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "85aedef231a26eec5d1e24488c3957471c8259d9ae182ad1356476634a249fa7",
+      "functions": [
+        "orient",
+        "define",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 905,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-002",
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            192.0,
+            692.2,
+            372.5,
+            725.2
+          ],
+          "block": 6
+        },
+        {
+          "page": 3,
+          "bbox": [
+            390.0,
+            440.2,
+            570.4,
+            497.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "077b233d2c5f874d16e9f2247060a4515ad1c94a0d639ed142d99f6b91d7c2fd",
+      "functions": [
+        "report",
+        "assert",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 342,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-003",
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            390.0,
+            500.2,
+            570.4,
+            605.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "e0317782e5fd07c79cf90c4f9a9fedf48c6fb50ec2cc572787119bf0f3419f2a",
+      "functions": [
+        "orient",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 352,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-004",
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            390.0,
+            608.2,
+            570.4,
+            713.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "58d8c37592fb736b91b43eb919cb75fcd0eefbba912e60848285fe0a02afc36b",
+      "functions": [
+        "assert",
+        "define"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 375,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-005",
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            400.8,
+            716.2,
+            570.3,
+            725.2
+          ],
+          "block": 10
+        },
+        {
+          "page": 4,
+          "bbox": [
+            192.0,
+            80.2,
+            372.5,
+            233.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "8737aec72f97f0d674caafde68fd0b2a24e8838865e6fc1afd1eedbc1dbc2971",
+      "functions": [
+        "define",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 620,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-006",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            192.0,
+            236.2,
+            372.5,
+            377.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "9265e1d0eb99362b46a25337877e9fcec8ef30c15fd9d5f1ca82d089c5cc89e7",
+      "functions": [
+        "define",
+        "compare",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 499,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-007",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            192.0,
+            380.2,
+            372.5,
+            581.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "2e529589aec3879780e9355cc1a72fb6318570a9a165a3a9b42a5255d76ec560",
+      "functions": [
+        "define",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 739,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-008",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            192.0,
+            584.2,
+            372.5,
+            725.2
+          ],
+          "block": 5
+        },
+        {
+          "page": 4,
+          "bbox": [
+            390.0,
+            80.2,
+            570.4,
+            113.2
+          ],
+          "block": 6
+        }
+      ],
+      "sha256": "d9bfad2bcc9c619cf126767cfa71412db7a9c5e34397093005a8fc47281e0803",
+      "functions": [
+        "define",
+        "compare",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 622,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-009",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            390.0,
+            116.2,
+            570.5,
+            317.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "e4c821300030b1dcc5ae83296688b7b9430a67084e9e4108bc0820005f1d477b",
+      "functions": [
+        "report",
+        "compare",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 756,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-010",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            390.0,
+            320.2,
+            570.5,
+            485.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "b6f61fe62f3acb2096c7372c2416c956ff338241f8e5c9da5997e0ab5e82d8e8",
+      "functions": [
+        "illustrate",
+        "narrate"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 587,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-011",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            390.0,
+            488.2,
+            570.5,
+            665.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "d84c72f2b13df2b617584de2978a5e75857711d6c0093035aa7efb2a4fd41fe7",
+      "functions": [
+        "narrate",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "opening",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 611,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-012",
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            390.0,
+            680.1,
+            570.4,
+            725.2
+          ],
+          "block": 10
+        },
+        {
+          "page": 5,
+          "bbox": [
+            192.0,
+            80.2,
+            372.4,
+            161.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "bb2ca41f5ee6bf0aaa42ca67e7f43386d9812a4e2caaa7e77f850f41aa5fd774",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "printed_heading": "Translating the Vision",
+      "section_id": "vision",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 401,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-013",
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            192.0,
+            164.2,
+            372.5,
+            305.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "300fc97e1ed97798e6d9ee6dc8d6a531fd59edc12142b12d45d08265df39d13f",
+      "functions": [
+        "explain",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "vision",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 513,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-014",
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            192.0,
+            308.2,
+            372.4,
+            353.2
+          ],
+          "block": 4
+        },
+        {
+          "page": 5,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            233.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "df4878e0d13998ceed5049eb57b16940c58e053229026ab95e326591513ac89d",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "vision",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 718,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-015",
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            390.0,
+            236.2,
+            570.5,
+            353.2
+          ],
+          "block": 6
+        },
+        {
+          "page": 6,
+          "bbox": [
+            192.0,
+            80.2,
+            372.5,
+            221.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "b8306ec15794e52e42b68e50727bfe04d27c01285a362706ce13a51f73ef752c",
+      "functions": [
+        "narrate",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "vision",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 942,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-016",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            192.0,
+            236.1,
+            372.4,
+            317.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "870459b53bb9dc7744e88dfc8624953f9ef5dcb7725d1ad961ddf64fd24a57a8",
+      "functions": [
+        "illustrate",
+        "assert"
+      ],
+      "printed_heading": "Communicating and Linking",
+      "section_id": "communication",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 264,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-017",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            192.0,
+            320.2,
+            372.5,
+            425.2
+          ],
+          "block": 4
+        },
+        {
+          "page": 6,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            221.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "f8042b4af9608028c5c8da8fd8d10dfe20b9366c64b99336ccdffbbeb6ded5c1",
+      "functions": [
+        "narrate",
+        "illustrate",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "communication",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 918,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-018",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            390.0,
+            224.2,
+            570.5,
+            353.2
+          ],
+          "block": 6
+        }
+      ],
+      "sha256": "438b3d1eef940e0483605a5dbd0a1db9be831f6f22f56656ba3861ece2c4281d",
+      "functions": [
+        "explain",
+        "qualify"
+      ],
+      "printed_heading": null,
+      "section_id": "communication",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 469,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-019",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            390.0,
+            356.2,
+            570.5,
+            449.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "42d0daafaa907ded89f772ff5a10dbe44946c92c4401ddbfc95225fe96d7512a",
+      "functions": [
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "communication",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 341,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-020",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            390.0,
+            452.2,
+            570.5,
+            689.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "595e16c405e965d137c4fe48b31d6bdb49fde0cc73ac9e91d7e7b5836844ec98",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "printed_heading": "Communicating and Educating.",
+      "section_id": "educating",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 886,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-021",
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            390.0,
+            692.2,
+            570.5,
+            725.2
+          ],
+          "block": 9
+        },
+        {
+          "page": 7,
+          "bbox": [
+            192.0,
+            80.2,
+            372.5,
+            257.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "eb64e7576e689689f908275e9b3c18dc529244af299d753eaaef33178729e5a3",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "educating",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 785,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-022",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            192.0,
+            260.2,
+            372.6,
+            365.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "868429a4dab340cc6312807fb6fb4bf64673d86f465a8866b9754b3f78d360bf",
+      "functions": [
+        "qualify",
+        "assert"
+      ],
+      "printed_heading": null,
+      "section_id": "educating",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 386,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-023",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            192.0,
+            368.2,
+            372.5,
+            557.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "0856e20196f5d55d5b79f62027752082390cdceec8a559099092738ef80b9046",
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "printed_heading": null,
+      "section_id": "educating",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 663,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-024",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            192.0,
+            560.2,
+            372.5,
+            617.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "eb225adacca7d8e368b8151af2dbb3911d8401d19e67ea749cf81170867435db",
+      "functions": [
+        "assert",
+        "support"
+      ],
+      "printed_heading": null,
+      "section_id": "educating",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 214,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-025",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            192.0,
+            620.2,
+            372.6,
+            689.2
+          ],
+          "block": 6
+        }
+      ],
+      "sha256": "2a389d8a971a17f6e98f782be7ee7288106d158b924a335568420aab3b37ae85",
+      "functions": [
+        "explain",
+        "assert"
+      ],
+      "printed_heading": "Setting Goals.",
+      "section_id": "goals",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 249,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-026",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            192.0,
+            692.2,
+            372.6,
+            725.2
+          ],
+          "block": 7
+        },
+        {
+          "page": 7,
+          "bbox": [
+            390.0,
+            80.2,
+            570.6,
+            353.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "4d37cb28cfc1f9d08c285c2eb43ae4a938799a2e05b4141174d5edc3f9daac2e",
+      "functions": [
+        "narrate",
+        "illustrate",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "goals",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 1198,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-027",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            390.0,
+            356.2,
+            570.4,
+            641.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "0f8b5ea0f29bb9738708575c6df2bb665068e25832d71303be44379685f002d0",
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "printed_heading": "Linking Rewards to Performance Measures.",
+      "section_id": "rewards",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 993,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-028",
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            390.0,
+            644.2,
+            570.5,
+            725.2
+          ],
+          "block": 10
+        },
+        {
+          "page": 8,
+          "bbox": [
+            192.0,
+            80.2,
+            372.5,
+            101.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "310a155eb83c1aee7afa436e760c80c46ff57cd0fb0772aeac0b61a6acf7b5cd",
+      "functions": [
+        "qualify",
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "rewards",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 369,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-029",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            192.0,
+            104.2,
+            372.5,
+            305.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "0c10299655ba6c0241850bfb33bc6a0ebce19fbecd45fb20708fc38429099d3b",
+      "functions": [
+        "explain",
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "rewards",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 732,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-030",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            192.0,
+            308.2,
+            372.5,
+            389.2
+          ],
+          "block": 4
+        },
+        {
+          "page": 8,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            185.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "849bfb21ee18c1346ec91a335aac30d94d2247146982e907fb2ce95f241b0f2c",
+      "functions": [
+        "compare",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "rewards",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 702,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-031",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            390.0,
+            188.2,
+            570.5,
+            305.2
+          ],
+          "block": 6
+        }
+      ],
+      "sha256": "24edc95e9821adcdc8c499c7ba14f34ff9a310d6e643858c2ae6e1d2c0dc85c4",
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "printed_heading": null,
+      "section_id": "rewards",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 403,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-032",
+      "source": [
+        {
+          "page": 8,
+          "bbox": [
+            390.0,
+            308.2,
+            570.5,
+            377.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "f2afec693a183af31b3b0290609f1f898def18be76be539da4a7120748a19b80",
+      "functions": [
+        "assert",
+        "qualify"
+      ],
+      "printed_heading": null,
+      "section_id": "rewards",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 238,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-033",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            192.0,
+            80.1,
+            372.6,
+            173.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "0f08fd5dee6467415a21e410eabaeb47087d56efb9d6ce429bbfdf3f1c6eae45",
+      "functions": [
+        "illustrate",
+        "orient",
+        "explain"
+      ],
+      "printed_heading": "Business Planning",
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 309,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-034",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            192.0,
+            176.2,
+            372.6,
+            329.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "3b0633453adfb78740a9bca7cbd9d0a6c5090bfbb686ba36f3eb1b7736bc7e32",
+      "functions": [
+        "explain",
+        "report"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 587,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-035",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            192.0,
+            332.2,
+            372.6,
+            389.2
+          ],
+          "block": 4
+        },
+        {
+          "page": 9,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            101.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "cc6bc36c6e4f8a0ff25302488cb01b13c4daa995f3553bc5c5d9bf2a0e28e2a8",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 329,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-036",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            390.0,
+            104.2,
+            570.6,
+            209.2
+          ],
+          "block": 6
+        }
+      ],
+      "sha256": "eb0fbcea049c866cc110cd418fad9df8d58a8d52a7680a6e17236cf98f0e521a",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 412,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-037",
+      "source": [
+        {
+          "page": 9,
+          "bbox": [
+            390.0,
+            212.2,
+            570.6,
+            389.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "95e10e41eb47b78f9bcee048ee1c3bb4228cdc1cf23221d5fcde1b965d1d37d0",
+      "functions": [
+        "explain",
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 690,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-038",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            192.0,
+            80.2,
+            372.6,
+            257.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "fba0bd2c9af53ead821919b5ee479ab3f6f5c708e6cb2e72bcce0b79c257393a",
+      "functions": [
+        "illustrate",
+        "narrate"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 666,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-039",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            192.0,
+            260.2,
+            372.6,
+            317.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "3b363bf1f964e5ed9338f2bd716a245e84785cfe87866f86187b012aa251cbb2",
+      "functions": [
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 184,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-040",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            192.0,
+            320.2,
+            372.6,
+            425.2
+          ],
+          "block": 4
+        },
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            80.2,
+            570.6,
+            101.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "3e4b48f79a058d167c73a5c488328927571d9b679f1faca6eea422034ef31929",
+      "functions": [
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 488,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-041",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            104.2,
+            570.6,
+            365.2
+          ],
+          "block": 6
+        }
+      ],
+      "sha256": "d471dd9ae1c7491ae1df0c75e5a0b1a520cc365a6e76d86079359accd7fccac3",
+      "functions": [
+        "narrate",
+        "illustrate",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 991,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-042",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            368.2,
+            570.6,
+            449.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "b66196a97fc2d8963602fc4261978785fa792cccf6d06a7c9557d1d7be16af5a",
+      "functions": [
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 288,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-043",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            452.2,
+            570.6,
+            521.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "4ad08e7199f0aee06b300c3ff10c5161c1f1837d752f6b90591d3ad5073f7a1d",
+      "functions": [
+        "instruct",
+        "define"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 280,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-044",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            524.2,
+            570.6,
+            701.2
+          ],
+          "block": 9
+        }
+      ],
+      "sha256": "c4ab2e069a7114ba2b0f6b6a9a0dadf777ebda80bf2be6fa7170e494ba91ca07",
+      "functions": [
+        "explain",
+        "compare"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 675,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-045",
+      "source": [
+        {
+          "page": 10,
+          "bbox": [
+            390.0,
+            704.2,
+            570.5,
+            725.2
+          ],
+          "block": 10
+        },
+        {
+          "page": 11,
+          "bbox": [
+            192.0,
+            80.2,
+            372.6,
+            161.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "65ab0ff4566233edcf630092186a8fe685f2a1c8858aae01021bd0fb9f2909be",
+      "functions": [
+        "instruct"
+      ],
+      "printed_heading": null,
+      "section_id": "planning",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 412,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-046",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            192.0,
+            176.1,
+            372.4,
+            293.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "03622e3129fca24f60d59ff8a57cd29a1110ecb16cdce75d8d00685fda145042",
+      "functions": [
+        "illustrate",
+        "assert",
+        "define"
+      ],
+      "printed_heading": "Feedback and Learning",
+      "section_id": "feedback",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 365,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-047",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            192.0,
+            296.2,
+            372.5,
+            401.2
+          ],
+          "block": 4
+        },
+        {
+          "page": 11,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            125.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "6b72a861a6b65af951cdc498f4c9c9c2701f9163963048d2e307a9c504720ce2",
+      "functions": [
+        "compare",
+        "define",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "feedback",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 576,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-048",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            390.0,
+            128.2,
+            570.5,
+            269.2
+          ],
+          "block": 6
+        }
+      ],
+      "sha256": "5b8bee5ca29085ef4eb2b61f0dfc78d21f69d3a358a6175658f6e81d266db0e1",
+      "functions": [
+        "orient",
+        "define",
+        "qualify"
+      ],
+      "printed_heading": null,
+      "section_id": "feedback",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 510,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-049",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            390.0,
+            272.2,
+            570.5,
+            377.2
+          ],
+          "block": 7
+        }
+      ],
+      "sha256": "67b9dad3272d4e503847de284000a4c93ab87599d9f540b9bcccecca37bc6b8c",
+      "functions": [
+        "compare",
+        "define",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "feedback",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 389,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-050",
+      "source": [
+        {
+          "page": 11,
+          "bbox": [
+            390.0,
+            380.2,
+            570.4,
+            401.2
+          ],
+          "block": 8
+        }
+      ],
+      "sha256": "48c2fe5c2a3b4c3fe254b2367b845d9ee9b56314c6de388f90784af0edfa5385",
+      "functions": [
+        "assert"
+      ],
+      "printed_heading": null,
+      "section_id": "feedback",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 88,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-051",
+      "source": [
+        {
+          "page": 12,
+          "bbox": [
+            192.0,
+            80.2,
+            372.5,
+            149.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "65076372a896b0c62e7af5669d55c9d5cc1f41977ea7797ab9e809eafd00e7e9",
+      "functions": [
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "feedback",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 276,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-052",
+      "source": [
+        {
+          "page": 12,
+          "bbox": [
+            192.0,
+            152.2,
+            372.5,
+            245.2
+          ],
+          "block": 3
+        },
+        {
+          "page": 12,
+          "bbox": [
+            390.0,
+            80.2,
+            570.5,
+            209.2
+          ],
+          "block": 4
+        }
+      ],
+      "sha256": "f764203351295f46f47835152893e5f2dc452a483381b8056a49aaab30c238be",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "printed_heading": null,
+      "section_id": "feedback",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 857,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-053",
+      "source": [
+        {
+          "page": 12,
+          "bbox": [
+            390.0,
+            212.2,
+            570.5,
+            545.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "4d4a06f55cf62b308d526e50d23746601e227417877f6010d123d3c55df68705",
+      "functions": [
+        "illustrate",
+        "report",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "feedback",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 1215,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-054",
+      "source": [
+        {
+          "page": 12,
+          "bbox": [
+            390.0,
+            548.2,
+            570.6,
+            725.2
+          ],
+          "block": 6
+        }
+      ],
+      "sha256": "66dcaee2c4a37c0ea0d20551602a72783969c7f7a6105cd13af557487912a546",
+      "functions": [
+        "qualify",
+        "compare"
+      ],
+      "printed_heading": null,
+      "section_id": "feedback",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 668,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-055",
+      "source": [
+        {
+          "page": 13,
+          "bbox": [
+            192.0,
+            80.2,
+            372.6,
+            353.2
+          ],
+          "block": 2
+        }
+      ],
+      "sha256": "08099b19f1d32d1fd2c639633e88bad3cda51f7e57842d4cd193945ed3422ebd",
+      "functions": [
+        "compare",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "feedback",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 1063,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-056",
+      "source": [
+        {
+          "page": 13,
+          "bbox": [
+            192.0,
+            356.2,
+            372.6,
+            593.2
+          ],
+          "block": 3
+        }
+      ],
+      "sha256": "a554cc7286d1ac98959db4b4d2a37abbe6ad4a77579b470cd007a50b4a724c4d",
+      "functions": [
+        "instruct",
+        "interpret"
+      ],
+      "printed_heading": null,
+      "section_id": "feedback",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 912,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-057",
+      "source": [
+        {
+          "page": 13,
+          "bbox": [
+            192.0,
+            608.1,
+            372.4,
+            677.2
+          ],
+          "block": 4
+        },
+        {
+          "page": 13,
+          "bbox": [
+            390.0,
+            80.2,
+            570.4,
+            173.2
+          ],
+          "block": 5
+        }
+      ],
+      "sha256": "33ad6b8a80d726e829464eff88a2c983f5570131931da3b8986be87921feaec0",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "printed_heading": "Toward a New Strategic Management System",
+      "section_id": "closing",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 472,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-058",
+      "source": [
+        {
+          "page": 13,
+          "bbox": [
+            390.0,
+            296.2,
+            570.5,
+            473.2
+          ],
+          "block": 10
+        }
+      ],
+      "sha256": "67902ec21e77fb152a70059682280cb1472be0d8b012c05cd1ae877f0fbabb28",
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "closing",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 634,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    },
+    {
+      "id": "scorecard-059",
+      "source": [
+        {
+          "page": 13,
+          "bbox": [
+            390.0,
+            476.2,
+            570.5,
+            593.2
+          ],
+          "block": 11
+        }
+      ],
+      "sha256": "31a53d0de31a7199b2fa3b25397c15281ed7023916c4a96f91d573a4ee2a7728",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "printed_heading": null,
+      "section_id": "closing",
+      "boundary_status": "reviewed_reconstruction_exploratory",
+      "label_status": "single_coder_interpretation",
+      "span": {
+        "start": 0,
+        "end": 424,
+        "units": "unicode_codepoints_end_exclusive",
+        "text_field": "text in private record matching id"
+      }
+    }
+  ],
+  "list_evidence": {
+    "page": 13,
+    "blocks": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "item_count": 6,
+    "treatment": "excluded from prose, included in list_words"
+  },
+  "figures_and_sidebar": {
+    "treatment": "excluded from prose; present in source",
+    "examples": "PDF pp. 5–6, 8–12 contain diagrams and exhibits; summary p. 2, margin author note p. 4."
+  }
+}

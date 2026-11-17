@@ -1,0 +1,206 @@
+[
+  {
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-personal_reflective_essay-1",
+      "medicine-personal_reflective_essay-2",
+      "medicine-personal_reflective_essay-3"
+    ],
+    "reason": "Three source-verified examples; individual prominence has not been demonstrated."
+  },
+  {
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-argument_perspective-1",
+      "medicine-argument_perspective-2",
+      "medicine-argument_perspective-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-critical_review_of_work-1",
+      "medicine-critical_review_of_work-2",
+      "medicine-critical_review_of_work-3"
+    ],
+    "reason": "Three specific work reviews with publisher genre verification; two have publisher access-count evidence; formal prose coding remains pending."
+  },
+  {
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-conceptual_explainer-1",
+      "medicine-conceptual_explainer-2",
+      "medicine-conceptual_explainer-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "tutorial",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-tutorial-1",
+      "medicine-tutorial-2",
+      "medicine-tutorial-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "procedure_how_to",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-procedure_how_to-1",
+      "medicine-procedure_how_to-2",
+      "medicine-procedure_how_to-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "reference_entry",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-reference_entry-1",
+      "medicine-reference_entry-2",
+      "medicine-reference_entry-3"
+    ],
+    "reason": "Clinical topic reviews support consultation but are not reference entries."
+  },
+  {
+    "form_id": "empirical_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-empirical_report-1",
+      "medicine-empirical_report-2",
+      "medicine-empirical_report-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "methods_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-methods_paper-1",
+      "medicine-methods_paper-2",
+      "medicine-methods_paper-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "theory_conceptual_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-theory_conceptual_paper-1",
+      "medicine-theory_conceptual_paper-2",
+      "medicine-theory_conceptual_paper-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "case_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-case_report-1",
+      "medicine-case_report-2",
+      "medicine-case_report-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "study_review_protocol",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-study_review_protocol-1",
+      "medicine-study_review_protocol-2",
+      "medicine-study_review_protocol-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "narrative_critical_literature_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-narrative_critical_literature_review-1",
+      "medicine-narrative_critical_literature_review-2",
+      "medicine-narrative_critical_literature_review-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "scoping_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-scoping_review-1",
+      "medicine-scoping_review-2",
+      "medicine-scoping_review-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "systematic_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-systematic_review-1",
+      "medicine-systematic_review-2",
+      "medicine-systematic_review-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection."
+  },
+  {
+    "form_id": "proposal",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-proposal-1",
+      "medicine-proposal-2",
+      "medicine-proposal-3"
+    ],
+    "reason": "Classification proposals are conditional analogues to project or grant proposals."
+  },
+  {
+    "form_id": "decision_memo",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-decision_memo-1",
+      "medicine-decision_memo-2",
+      "medicine-decision_memo-3"
+    ],
+    "reason": "Recommendation statements are public decision-support analogues, not internal memos."
+  }
+]

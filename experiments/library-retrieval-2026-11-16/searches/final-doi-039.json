@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_28",
+      "doi": "10.1109/tse.2002.1019480",
+      "title": "CCFinder: a multilinguistic token-based code clone detection system for large scale source code",
+      "authors": "[\"T. Kamiya\", \"S. Kusumoto\", \"Koji Inoue\"]",
+      "field": "engineering_computing",
+      "q": "\"CCFinder: a multilinguistic token-based code clone detection system\" Kamiya filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_28",
+      "query": "\"CCFinder: a multilinguistic token-based code clone detection system\" Kamiya filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "CCFinder: a multilinguistic token-based code clone detection system for large scale source code | IEEE Journals & Magazine | IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/abstract/document/1019480",
+          "score": 1
+        },
+        {
+          "title": "CCFinder: a multilinguistic token-based code clone detection system for large scale source code",
+          "url": "https://explore.openaire.eu/search/publication?pid=10.1109%2Ftse.2002.1019480",
+          "score": 1
+        },
+        {
+          "title": "CCFinder: a multilinguistic token-based code clone detection system for large scale source code",
+          "url": "https://cir.nii.ac.jp/crid/1360292618920385024",
+          "score": 1
+        },
+        {
+          "title": "CCFinder: a multilinguistic token-based code clone detection system for large scale source code",
+          "url": "https://scispace.com/papers/ccfinder-a-multilinguistic-token-based-code-clone-detection-3uimzrhga0",
+          "score": 1
+        },
+        {
+          "title": "CCFinder: a multilinguistic token-based code clone detection system for large scale source code",
+          "url": "https://www.researchgate.net/publication/3188248_CCFinder_A_multilinguistic_token-based_code_clone_detection_system_for_large_scale_source_code",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

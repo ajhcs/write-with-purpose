@@ -1,0 +1,9 @@
+{
+  "max_words": 45,
+  "protected_literals": [
+    {
+      "text": "retry-safe",
+      "min_count": 1
+    }
+  ]
+}

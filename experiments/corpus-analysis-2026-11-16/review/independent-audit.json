@@ -1,0 +1,129 @@
+{
+  "scope": "Two selected source files per format; selective source checks, not complete validation. XML and docs numerical checks refreshed after owners regenerated their outputs.",
+  "samples": [
+    {
+      "format": "xml",
+      "id": "PMC10008412",
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/case-protocol/PMC10008412.xml",
+      "sha256": "79c9ea69b287fdf123a47c41a3a57e69f79086589288b7c5aba44155c9d21c7d",
+      "hash_matches_record": true,
+      "prose_words": 1226,
+      "paragraphs": 18,
+      "sentences_estimated": 50,
+      "paragraph_sum_matches": true,
+      "section_sum_matches": true
+    },
+    {
+      "format": "xml",
+      "id": "PMC10011205",
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/case-protocol/PMC10011205.xml",
+      "sha256": "049b1b9098a6657366c3374e8a1d6089f494f72bcf61a42bb96548231aa242e1",
+      "hash_matches_record": true,
+      "prose_words": 5265,
+      "paragraphs": 36,
+      "sentences_estimated": 201,
+      "paragraph_sum_matches": true,
+      "section_sum_matches": true
+    },
+    {
+      "format": "html",
+      "id": "pg-3",
+      "source_path": "/workspace/repos/builderbob/.essay-corpus-cache/2026-11-16/paulgraham/selfindulgence.html",
+      "sha256": "c8358c36c68f93062bc054f54ca201d510fa2ae4f6cf1a80330803d4594cb3c9",
+      "hash_matches_record": true,
+      "prose_words": 657,
+      "paragraphs": 8,
+      "sentences_estimated": 39,
+      "paragraph_sum_matches": true,
+      "section_sum_matches": true
+    },
+    {
+      "format": "html",
+      "id": "pg-1",
+      "source_path": "/workspace/repos/builderbob/.essay-corpus-cache/2026-11-16/paulgraham/greatwork.html",
+      "sha256": "4fef5341413f24d5b23d55c955d66aef1a3c71c45443b8a86ec25736389c1d04",
+      "hash_matches_record": true,
+      "prose_words": 10455,
+      "paragraphs": 201,
+      "sentences_estimated": 681,
+      "paragraph_sum_matches": true,
+      "section_sum_matches": true
+    },
+    {
+      "format": "docs",
+      "id": "b24ef0e9823783e8",
+      "source_path": "/workspace/tmp/builderbob/writing-corpus/explanation-tutorial/b24ef0e9823783e8114f46c792db2948ec3f2dd3485b3b1400e87339e4da2aa7",
+      "sha256": "0a00ef71bb7d6a72f1d5e91c51b201fcc4be292ba2296c4553df7c335b2fad04",
+      "hash_matches_record": true,
+      "prose_words": 475,
+      "paragraphs": 21,
+      "sentences_estimated": 30,
+      "paragraph_sum_matches": true,
+      "section_sum_matches": true
+    },
+    {
+      "format": "docs",
+      "id": "0a03bb01b0122aa4",
+      "source_path": "/workspace/tmp/builderbob/writing-corpus/explanation-tutorial/0a03bb01b0122aa49b733048e8db25e459acb65ff02202ca29116d8e0aef3483",
+      "sha256": "1938e55a4e5c8ceb7f341b4359ab7c7bfcf7477149f71664d7b5b54d993e5ab3",
+      "hash_matches_record": true,
+      "prose_words": 400,
+      "paragraphs": 22,
+      "sentences_estimated": 30,
+      "paragraph_sum_matches": true,
+      "section_sum_matches": true
+    },
+    {
+      "format": "pdf",
+      "id": "user_attachment-01fed50b48b04dce",
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/Cloud_computing_Issues_and_challenges.pdf",
+      "sha256": "01fed50b48b04dceb09ba45eed5098833eaf166cf4ebbe175cb16637a13c8cd4",
+      "hash_matches_record": true,
+      "prose_words": 5280,
+      "paragraphs": 142,
+      "sentences_estimated": 332,
+      "paragraph_sum_matches": true,
+      "section_sum_matches": true
+    },
+    {
+      "format": "pdf",
+      "id": "user_attachment-5b188e90d00b4a93",
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/How-Will-You-Measure-Your-Life.pdf",
+      "sha256": "5b188e90d00b4a93969b005e5607561fb6faaaf8984dfd3ae3df904beb9c6760",
+      "hash_matches_record": true,
+      "prose_words": 54724,
+      "paragraphs": 779,
+      "sentences_estimated": 2949,
+      "paragraph_sum_matches": true,
+      "section_sum_matches": true
+    }
+  ],
+  "attachment_original_and_copy_sha256_matches": 17,
+  "attachment_count": 17,
+  "medical_span_hash_matches": 22,
+  "medical_span_count": 22,
+  "findings": [
+    {
+      "id": "XML-BODY-REF",
+      "status": "corrected_and_spot_checked",
+      "evidence": "PMC10008412 source has 29 ref elements within body sections, while the sampled record counted 0 references and retained References as a heading. Ethics statements and Patient consent for publication administrative sections also entered prose.",
+      "resolution": "Regenerated sample counts 29 references and 864 reference words; administrative ethics statements are excluded, substantive Ethics and dissemination remains."
+    },
+    {
+      "id": "DOC-LINE-WRAP",
+      "status": "corrected_and_spot_checked_still_ineligible",
+      "evidence": "cgroups.md line breaks concatenate theunderlying, enforceresource and isthe. Inline cgroup code is omitted and shortcode source is counted as prose. Cloud Controller Manager likewise concatenates words.",
+      "resolution": "Regenerated sampled blocks have spaces at line wraps, inline cgroup is retained, and first standalone shortcode omitted. Rendered-page coverage still requires review."
+    },
+    {
+      "id": "PDF-CLOUD",
+      "status": "confirmed_ineligible",
+      "evidence": "Cloud computing sample contains 32 one-word paragraph blocks out of 142 and other layout artifacts. Its median paragraph size is not a usable norm."
+    },
+    {
+      "id": "PDF-BOOK",
+      "status": "confirmed_ineligible",
+      "evidence": "How Will You Measure Your Life is 168 pages; books are outside the accepted initial scope. The generic extracted whole-file metrics include front matter and are not an article profile."
+    }
+  ]
+}

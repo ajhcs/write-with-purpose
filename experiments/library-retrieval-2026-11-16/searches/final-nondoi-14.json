@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_03",
+      "doi": "",
+      "title": "Biographical",
+      "authors": "[\"Vitaly L. Ginzburg\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Biographical\" Ginzburg pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_03",
+      "query": "\"Biographical\" Ginzburg pdf",
+      "urls": [
+        {
+          "title": "Biographical - Jewish Public Library Archives",
+          "url": "https://jplarchives.org/index.php/biographical",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

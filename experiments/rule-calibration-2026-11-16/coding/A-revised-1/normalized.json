@@ -1,0 +1,3052 @@
+{
+  "coder_id": "A-revised-1",
+  "arm": "revised",
+  "stage": "A",
+  "model": "gpt-6.1-terra",
+  "started_at_utc": "2026-11-16T16:24:20Z",
+  "finished_at_utc": "2026-11-16T16:26:05Z",
+  "rule_version": "astra-f09-0.2-candidate",
+  "catalogue_version": "0.1",
+  "annotations": [
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p005",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "argument/perspective",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Transitions from preliminary examples to a thesis on work and prosperity.",
+        "reviewed_units": [
+          "LF-d23d38c43ea7-p004",
+          "LF-d23d38c43ea7-p005",
+          "LF-d23d38c43ea7-p006"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-d23d38c43ea7-p005-assert-1",
+          "function_id": "assert",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p005",
+              "quote": "a great deal of harm",
+              "occurrence": 0,
+              "start": 70,
+              "end": 90,
+              "text_sha256": "840e99a8a47303e3b00d570dfa44d159f1bfa1948441ffe3f962ebde667091e0",
+              "source_id": "LF-d23d38c43ea7",
+              "unit_sha256": "af37e69f1eb4127166b0b27fa3b6515981cd12423189c613157fb2d704dd6050"
+            }
+          ],
+          "reason": "Belief in the virtue of work harms society; organized reduction of work leads to happiness and prosperity.",
+          "role_fields": {
+            "position": "Belief in the virtue of work harms society; organized reduction of work leads to happiness and prosperity.",
+            "position_holder": "Russell",
+            "commitment_job": "States the central argument."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-d23d38c43ea7-p005-orient-2",
+          "function_id": "orient",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p005",
+              "quote": "All this is only preliminary.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 29,
+              "text_sha256": "3fe29fd53ecbfe7025e7e513904ca97fcbb946057d76ef35ffb249c22991dc5e",
+              "source_id": "LF-d23d38c43ea7",
+              "unit_sha256": "af37e69f1eb4127166b0b27fa3b6515981cd12423189c613157fb2d704dd6050"
+            }
+          ],
+          "reason": "Definition and analysis of work",
+          "role_fields": {
+            "prepared_contribution": "Definition and analysis of work",
+            "preparation_link": "Signals a transition from preliminary argument to the central question."
+          },
+          "targets": [
+            {
+              "target_id": "LF-d23d38c43ea7-p005-orient-2-target",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "LF-d23d38c43ea7-p006",
+                  "quote": "First of all: what is work?",
+                  "occurrence": 0,
+                  "start": 0,
+                  "end": 27,
+                  "text_sha256": "1554235543b32508a06a72c296ced017a91a61223d5cf6d3c0bcfc5e059c3431",
+                  "source_id": "LF-d23d38c43ea7",
+                  "unit_sha256": "da4f5f996f680305220e2b9765cbc33c78d98242acfac1a03cd59fbe912343c1"
+                }
+              ],
+              "paraphrase": "The following analysis asks what work is.",
+              "status": "clear",
+              "reason": "The quoted passage identifies the related contribution or claim."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-d23d38c43ea7-p005",
+        "stage": "A",
+        "source_id": "LF-d23d38c43ea7"
+      },
+      "clear_labels": [
+        "assert",
+        "orient"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "assert",
+        "orient"
+      ]
+    },
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p015",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "argument/perspective",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Contrasts idle beneficiaries and overworked wage earners, proposes shorter work and discusses resistance.",
+        "reviewed_units": [
+          "LF-d23d38c43ea7-p014",
+          "LF-d23d38c43ea7-p015",
+          "LF-d23d38c43ea7-p016"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-d23d38c43ea7-p015-assert-1",
+          "function_id": "assert",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "If the ordinary wage-earner worked four hours a day",
+              "occurrence": 0,
+              "start": 346,
+              "end": 397,
+              "text_sha256": "f3d1f75b8d94f219ffae3425e0ebbae9dbd52e8f3ebfbb975bb4633d19c5de9f",
+              "source_id": "LF-d23d38c43ea7",
+              "unit_sha256": "5520bbced7d7305677e7ba4187d2863b612d8d6e55194cc2828573a0f1f192e1"
+            }
+          ],
+          "reason": "Four-hour work with moderate organization would provide enough and eliminate unemployment.",
+          "role_fields": {
+            "position": "Four-hour work with moderate organization would provide enough and eliminate unemployment.",
+            "position_holder": "Russell",
+            "commitment_job": "Advances a proposed social arrangement."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-d23d38c43ea7-p015-qualify-2",
+          "function_id": "qualify",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "assuming a certain very moderate amount of sensible organization",
+              "occurrence": 0,
+              "start": 457,
+              "end": 521,
+              "text_sha256": "3bc78470521c94b845975aaa2ef2516907530af9cd3ab94740c30be2f1783178",
+              "source_id": "LF-d23d38c43ea7",
+              "unit_sha256": "5520bbced7d7305677e7ba4187d2863b612d8d6e55194cc2828573a0f1f192e1"
+            }
+          ],
+          "reason": "Four hours of work would provide enough and eliminate unemployment.",
+          "role_fields": {
+            "affected_claim": "Four hours of work would provide enough and eliminate unemployment.",
+            "scope_change": "Depends on sensible organization.",
+            "qualification_kind": "condition"
+          },
+          "targets": [
+            {
+              "target_id": "LF-d23d38c43ea7-p015-qualify-2-target",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "LF-d23d38c43ea7-p015",
+                  "quote": "If the ordinary wage-earner worked four hours a day there would be enough for everybody, and no unemployment",
+                  "occurrence": 0,
+                  "start": 346,
+                  "end": 454,
+                  "text_sha256": "1847982684ea38259bb009cf699b95125cfb46675b908ce24bee4841168bdd62",
+                  "source_id": "LF-d23d38c43ea7",
+                  "unit_sha256": "5520bbced7d7305677e7ba4187d2863b612d8d6e55194cc2828573a0f1f192e1"
+                }
+              ],
+              "paraphrase": "Four hours would yield enough and no unemployment.",
+              "status": "clear",
+              "reason": "The quoted passage identifies the related contribution or claim."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-d23d38c43ea7-p015-compare-3",
+          "function_id": "compare",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "I do not think the fact",
+              "occurrence": 0,
+              "start": 194,
+              "end": 217,
+              "text_sha256": "b5a357b8af048ed35c1be00712e24ad27c3fca361eae3c2138a0fe95d9eb64e5",
+              "source_id": "LF-d23d38c43ea7",
+              "unit_sha256": "5520bbced7d7305677e7ba4187d2863b612d8d6e55194cc2828573a0f1f192e1"
+            }
+          ],
+          "reason": "['inherited or marital wealth idleness', 'wage-earner overwork or starvation']",
+          "role_fields": {
+            "alternatives": [
+              "inherited or marital wealth idleness",
+              "wage-earner overwork or starvation"
+            ],
+            "shared_dimension": "harm",
+            "stated_relationship": "The latter is judged much more harmful."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-d23d38c43ea7-p015-explain-4",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p015",
+              "quote": "This idea shocks the well-to-do",
+              "occurrence": 0,
+              "start": 523,
+              "end": 554,
+              "text_sha256": "e5004e083d43ddf804bfaa8916c9eb86d8a05ffd1947289f691bf6dcf229648e",
+              "source_id": "LF-d23d38c43ea7",
+              "unit_sha256": "5520bbced7d7305677e7ba4187d2863b612d8d6e55194cc2828573a0f1f192e1"
+            }
+          ],
+          "reason": "Well-to-do people’s beliefs about the poor and their reaction to reduced work",
+          "role_fields": {
+            "relata": "Well-to-do people’s beliefs about the poor and their reaction to reduced work",
+            "connection_made_intelligible": "Their belief that the poor cannot use leisure explains their shock."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-d23d38c43ea7-p015",
+        "stage": "A",
+        "source_id": "LF-d23d38c43ea7"
+      },
+      "clear_labels": [
+        "assert",
+        "compare",
+        "explain",
+        "qualify"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "assert",
+        "compare",
+        "explain",
+        "qualify"
+      ]
+    },
+    {
+      "paragraph_id": "LF-d23d38c43ea7-p025",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "argument/perspective",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Clarifies the four-hour proposal, education, and why leisure activities are passive.",
+        "reviewed_units": [
+          "LF-d23d38c43ea7-p024",
+          "LF-d23d38c43ea7-p025",
+          "LF-d23d38c43ea7-p026"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-d23d38c43ea7-p025-assert-1",
+          "function_id": "assert",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p025",
+              "quote": "It is an essential part of any such social system",
+              "occurrence": 0,
+              "start": 342,
+              "end": 391,
+              "text_sha256": "99b532ae3f2636b4d745129ca5c2b631ed1c8db1689dbd2d0dc291ff0227ca7e",
+              "source_id": "LF-d23d38c43ea7",
+              "unit_sha256": "05ed15e21069896a323a14a6dbf847202f163823f1ce16a21310b9cc7b3a3d6f"
+            }
+          ],
+          "reason": "Education should cultivate tastes for intelligent leisure.",
+          "role_fields": {
+            "position": "Education should cultivate tastes for intelligent leisure.",
+            "position_holder": "Russell",
+            "commitment_job": "Specifies a necessary part of his proposal."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-d23d38c43ea7-p025-qualify-2",
+          "function_id": "qualify",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p025",
+              "quote": "I am not meaning to imply",
+              "occurrence": 0,
+              "start": 61,
+              "end": 86,
+              "text_sha256": "8c3e1fa436435e626c2c2dc65fa3d855f8a85417df945045464ef65ca8cc4846",
+              "source_id": "LF-d23d38c43ea7",
+              "unit_sha256": "05ed15e21069896a323a14a6dbf847202f163823f1ce16a21310b9cc7b3a3d6f"
+            }
+          ],
+          "reason": "Proposal to reduce work to four hours",
+          "role_fields": {
+            "affected_claim": "Proposal to reduce work to four hours",
+            "scope_change": "Does not require all remaining time to be frivolous.",
+            "qualification_kind": "clarification of scope"
+          },
+          "targets": [
+            {
+              "target_id": "LF-d23d38c43ea7-p025-qualify-2-target",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "LF-d23d38c43ea7-p025",
+                  "quote": "working hours should be reduced to four",
+                  "occurrence": 0,
+                  "start": 20,
+                  "end": 59,
+                  "text_sha256": "967b115c63041ccb7ac4e1aa5be2eff5dfbe85eb2c570c8d86cde20ed247101b",
+                  "source_id": "LF-d23d38c43ea7",
+                  "unit_sha256": "05ed15e21069896a323a14a6dbf847202f163823f1ce16a21310b9cc7b3a3d6f"
+                }
+              ],
+              "paraphrase": "The workday should be reduced to four hours.",
+              "status": "clear",
+              "reason": "The quoted passage identifies the related contribution or claim."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-d23d38c43ea7-p025-explain-3",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-d23d38c43ea7-p025",
+              "quote": "This results from the fact",
+              "occurrence": 0,
+              "start": 935,
+              "end": 961,
+              "text_sha256": "237d70628a8dd6033d87e623c2e1307b5bfaa436c5e1a9733eca9ba6b5f0e1e7",
+              "source_id": "LF-d23d38c43ea7",
+              "unit_sha256": "05ed15e21069896a323a14a6dbf847202f163823f1ce16a21310b9cc7b3a3d6f"
+            }
+          ],
+          "reason": "Work consuming active energies and passive urban recreation",
+          "role_fields": {
+            "relata": "Work consuming active energies and passive urban recreation",
+            "connection_made_intelligible": "Work exhausts active energies, leaving passive pleasures; more leisure might permit active pleasure."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-d23d38c43ea7-p025",
+        "stage": "A",
+        "source_id": "LF-d23d38c43ea7"
+      },
+      "clear_labels": [
+        "assert",
+        "explain",
+        "qualify"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "assert",
+        "explain",
+        "qualify"
+      ]
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p006",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "argument/perspective",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Reflects on the author’s learned elitist attitudes and what his education failed to teach.",
+        "reviewed_units": [
+          "LF-80bd6f30b443-p005",
+          "LF-80bd6f30b443-p006",
+          "LF-80bd6f30b443-p007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-80bd6f30b443-p006-interpret-1",
+          "function_id": "interpret",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p006",
+              "quote": "My education taught me to believe",
+              "occurrence": 0,
+              "start": 37,
+              "end": 70,
+              "text_sha256": "1d0973964a117b46c32a3e124e08682973e8cf5527e9043031a926dbaa98cb40",
+              "source_id": "LF-80bd6f30b443",
+              "unit_sha256": "0ad2942c389a67c543ca310ef7f9cfb77a14c09718ca7e5ed94c3e1b7cb99b8c"
+            }
+          ],
+          "reason": "Author’s education and reactions to less prestigious colleges",
+          "role_fields": {
+            "input_material": "Author’s education and reactions to less prestigious colleges",
+            "inference_or_significance": "Education imparted contempt for non-elite people and obscured their intelligence.",
+            "transformation": "Reflects on the significance of personal experience."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-80bd6f30b443-p006-report-2",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p006",
+              "quote": "I learned to give that little nod",
+              "occurrence": 0,
+              "start": 395,
+              "end": 428,
+              "text_sha256": "3bc33167b3189202fdbaec73e935d6c5349d3e5e449b0c85a8ec08c85117a9a3",
+              "source_id": "LF-80bd6f30b443",
+              "unit_sha256": "0ad2942c389a67c543ca310ef7f9cfb77a14c09718ca7e5ed94c3e1b7cb99b8c"
+            }
+          ],
+          "reason": "The author learned a sympathetic reaction when told of a less prestigious college.",
+          "role_fields": {
+            "reported_content": "The author learned a sympathetic reaction when told of a less prestigious college.",
+            "attribution": "Author’s personal account",
+            "event_or_claim_status": "recalled experience"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-80bd6f30b443-p006",
+        "stage": "A",
+        "source_id": "LF-80bd6f30b443"
+      },
+      "clear_labels": [
+        "interpret",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "interpret",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p018",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "argument/perspective",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Argues that an elite education narrows opportunities to choose fulfilling non-rich careers.",
+        "reviewed_units": [
+          "LF-80bd6f30b443-p017",
+          "LF-80bd6f30b443-p018",
+          "LF-80bd6f30b443-p019"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-80bd6f30b443-p018-assert-1",
+          "function_id": "assert",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p018",
+              "quote": "An elite education gives you the chance to be rich",
+              "occurrence": 0,
+              "start": 350,
+              "end": 400,
+              "text_sha256": "98aceec094e7c52d4ebf46e12f8cf6312cc5d902e4b1e3d17ed210bf6d78dd25",
+              "source_id": "LF-80bd6f30b443",
+              "unit_sha256": "ac27c568569fb499aed6e1a68dde4a464a7d71bfe6dd8766d4ae7c616dbaf679"
+            }
+          ],
+          "reason": "Elite education forecloses the opportunity not to be rich.",
+          "role_fields": {
+            "position": "Elite education forecloses the opportunity not to be rich.",
+            "position_holder": "Deresiewicz",
+            "commitment_job": "Advances the criticism of security as a constraint."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-80bd6f30b443-p018-compare-2",
+          "function_id": "compare",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p018",
+              "quote": "You have to live in an ordinary house",
+              "occurrence": 0,
+              "start": 1017,
+              "end": 1054,
+              "text_sha256": "b57303887bc4c9af1992abb525b3ef79913c88312905e41f62736fe63f31f4a8",
+              "source_id": "LF-80bd6f30b443",
+              "unit_sha256": "ac27c568569fb499aed6e1a68dde4a464a7d71bfe6dd8766d4ae7c616dbaf679"
+            }
+          ],
+          "reason": "['ordinary living and meaningful work', 'luxury housing, cars and holidays']",
+          "role_fields": {
+            "alternatives": [
+              "ordinary living and meaningful work",
+              "luxury housing, cars and holidays"
+            ],
+            "shared_dimension": "material comfort versus work satisfaction",
+            "stated_relationship": "Material sacrifices are weighed against a fulfilling career."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-80bd6f30b443-p018-support-3",
+          "function_id": "support",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p018",
+              "quote": "You can live comfortably in the United States",
+              "occurrence": 0,
+              "start": 836,
+              "end": 881,
+              "text_sha256": "924de09a5a27c2de8e3e95a3ac9dc50281ff09f82d88160ff29fb8c4cf22b3f9",
+              "source_id": "LF-80bd6f30b443",
+              "unit_sha256": "ac27c568569fb499aed6e1a68dde4a464a7d71bfe6dd8766d4ae7c616dbaf679"
+            }
+          ],
+          "reason": "The opportunity not to be rich is valuable.",
+          "role_fields": {
+            "supported_claim": "The opportunity not to be rich is valuable.",
+            "intended_link": "Comfortable non-wealthy careers can allow meaningful work.",
+            "basis_kind": "reasoning"
+          },
+          "targets": [
+            {
+              "target_id": "LF-80bd6f30b443-p018-support-3-target",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "LF-80bd6f30b443-p018",
+                  "quote": "the opportunity not to be rich is one of the greatest opportunities",
+                  "occurrence": 0,
+                  "start": 491,
+                  "end": 558,
+                  "text_sha256": "e04ba5bb194ecb5817aa68e70371d1f726bc18ad71da9261a51211eb062e3929",
+                  "source_id": "LF-80bd6f30b443",
+                  "unit_sha256": "ac27c568569fb499aed6e1a68dde4a464a7d71bfe6dd8766d4ae7c616dbaf679"
+                }
+              ],
+              "paraphrase": "The opportunity not to be rich is valuable.",
+              "status": "clear",
+              "reason": "The quoted passage identifies the related contribution or claim."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-80bd6f30b443-p018",
+        "stage": "A",
+        "source_id": "LF-80bd6f30b443"
+      },
+      "clear_labels": [
+        "assert",
+        "compare",
+        "support"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "assert",
+        "compare",
+        "support"
+      ]
+    },
+    {
+      "paragraph_id": "LF-80bd6f30b443-p029",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "argument/perspective",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Relates intellectual independence to elite selection and contrasts possible second-tier student paths.",
+        "reviewed_units": [
+          "LF-80bd6f30b443-p028",
+          "LF-80bd6f30b443-p029",
+          "LF-80bd6f30b443-p030"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-80bd6f30b443-p029-define-1",
+          "function_id": "define",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "Being an intellectual begins",
+              "occurrence": 0,
+              "start": 0,
+              "end": 28,
+              "text_sha256": "b36cd8acc96807122fece5f4dab40a2c8adaa553633a165b688087f07cf7c2ce",
+              "source_id": "LF-80bd6f30b443",
+              "unit_sha256": "0cdb62d713b356502b4f4ceb39d6a6c2c343c4534e5dc135c434ad2fec11fb53"
+            }
+          ],
+          "reason": "Being an intellectual",
+          "role_fields": {
+            "term": "Being an intellectual",
+            "meaning_or_distinction": "Beginning by thinking outside assumptions and their enforcing system.",
+            "definition_scope": "An initial condition for intellectual life."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-80bd6f30b443-p029-explain-2",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "students who get into elite schools",
+              "occurrence": 0,
+              "start": 119,
+              "end": 154,
+              "text_sha256": "dc7b6ba4ab7f248decd42c33d241e2c359e44e9267c30334c67bf3196d0a728d",
+              "source_id": "LF-80bd6f30b443",
+              "unit_sha256": "0cdb62d713b356502b4f4ceb39d6a6c2c343c4534e5dc135c434ad2fec11fb53"
+            }
+          ],
+          "reason": "Working within the system and inability to see outside it",
+          "role_fields": {
+            "relata": "Working within the system and inability to see outside it",
+            "connection_made_intelligible": "Those selected for working within the system have difficulty recognizing or questioning it."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-80bd6f30b443-p029-compare-3",
+          "function_id": "compare",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "the situation may be better at second-tier schools",
+              "occurrence": 0,
+              "start": 639,
+              "end": 689,
+              "text_sha256": "d1f2f0449022400ab9d8c01abe73942da421df34dd7fbfd534f5d4650a932a0f",
+              "source_id": "LF-80bd6f30b443",
+              "unit_sha256": "0cdb62d713b356502b4f4ceb39d6a6c2c343c4534e5dc135c434ad2fec11fb53"
+            }
+          ],
+          "reason": "['second-tier and liberal arts colleges', 'most prestigious universities']",
+          "role_fields": {
+            "alternatives": [
+              "second-tier and liberal arts colleges",
+              "most prestigious universities"
+            ],
+            "shared_dimension": "conditions for intellectual independence",
+            "stated_relationship": "The author suggests the former may be better."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-80bd6f30b443-p029-qualify-4",
+          "function_id": "qualify",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-80bd6f30b443-p029",
+              "quote": "the situation may be better",
+              "occurrence": 0,
+              "start": 639,
+              "end": 666,
+              "text_sha256": "10275096a5e5824851a02f3825d833c08587c9bfc81abdc122877c819d97c778",
+              "source_id": "LF-80bd6f30b443",
+              "unit_sha256": "0cdb62d713b356502b4f4ceb39d6a6c2c343c4534e5dc135c434ad2fec11fb53"
+            }
+          ],
+          "reason": "Conditions for independent thought at second-tier schools relative to prestigious universities",
+          "role_fields": {
+            "affected_claim": "Conditions for independent thought at second-tier schools relative to prestigious universities",
+            "scope_change": "Possibility rather than certainty.",
+            "qualification_kind": "uncertainty"
+          },
+          "targets": [
+            {
+              "target_id": "LF-80bd6f30b443-p029-qualify-4-target",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "LF-80bd6f30b443-p029",
+                  "quote": "the situation may be better at second-tier schools and, in particular, again, at liberal arts colleges than at the most prestigious universities",
+                  "occurrence": 0,
+                  "start": 639,
+                  "end": 783,
+                  "text_sha256": "c6b14ca7afaec68c8bef2e5a196c07f7ae671a02e133baa73ee65d8eb20b87ba",
+                  "source_id": "LF-80bd6f30b443",
+                  "unit_sha256": "0cdb62d713b356502b4f4ceb39d6a6c2c343c4534e5dc135c434ad2fec11fb53"
+                }
+              ],
+              "paraphrase": "Conditions may be better at second-tier schools.",
+              "status": "clear",
+              "reason": "The quoted passage identifies the related contribution or claim."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-80bd6f30b443-p029",
+        "stage": "A",
+        "source_id": "LF-80bd6f30b443"
+      },
+      "clear_labels": [
+        "compare",
+        "define",
+        "explain",
+        "qualify"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "compare",
+        "define",
+        "explain",
+        "qualify"
+      ]
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p006",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "personal reflection",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Recounts Utton’s reaction and the interview for a mortuary job.",
+        "reviewed_units": [
+          "LF-fca9142fd337-p005",
+          "LF-fca9142fd337-p006",
+          "LF-fca9142fd337-p007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-fca9142fd337-p006-narrate-1",
+          "function_id": "narrate",
+          "layer": "temporal_presentation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-fca9142fd337-p006",
+              "quote": "He seemed surprised.",
+              "occurrence": 0,
+              "start": 0,
+              "end": 20,
+              "text_sha256": "bdf3215c9215895ac98e04021cc0b0432ec83534788ea277402864280f0198d3",
+              "source_id": "LF-fca9142fd337",
+              "unit_sha256": "0d63759e929823bf5869ad64b1027f065de23c6d58779a07fc433c9d1767b2d5"
+            }
+          ],
+          "reason": "Narrator and Mr. Utton",
+          "role_fields": {
+            "participant_or_subject": "Narrator and Mr. Utton",
+            "events": "They discuss the job, meet for interview, and discuss wages and body bonuses.",
+            "change_through_time": "Initial reaction leads into an interview and offer terms."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-fca9142fd337-p006",
+        "stage": "A",
+        "source_id": "LF-fca9142fd337"
+      },
+      "clear_labels": [
+        "narrate"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "narrate"
+      ]
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p018",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "personal reflection",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Recounts preparing the corpse and exposing the femur.",
+        "reviewed_units": [
+          "LF-fca9142fd337-p017",
+          "LF-fca9142fd337-p018",
+          "LF-fca9142fd337-p019"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-fca9142fd337-p018-narrate-1",
+          "function_id": "narrate",
+          "layer": "temporal_presentation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-fca9142fd337-p018",
+              "quote": "I removed the old gent’s pinstriped trousers",
+              "occurrence": 0,
+              "start": 33,
+              "end": 77,
+              "text_sha256": "0f285536e8a32c1f0ddc742170df9b7f76299a90d185f04e29fab611aacf35b2",
+              "source_id": "LF-fca9142fd337",
+              "unit_sha256": "bb0aa62d4be16a7701aff9ca4f0e7f6f14255a46d5fbab81d6b09ac68653dc9a"
+            }
+          ],
+          "reason": "Narrator and deceased man",
+          "role_fields": {
+            "participant_or_subject": "Narrator and deceased man",
+            "events": "The narrator strips the body, makes incisions and exposes the femur.",
+            "change_through_time": "Preparation proceeds from undressing to exposing the bone."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-fca9142fd337-p018",
+        "stage": "A",
+        "source_id": "LF-fca9142fd337"
+      },
+      "clear_labels": [
+        "narrate"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "narrate"
+      ]
+    },
+    {
+      "paragraph_id": "LF-fca9142fd337-p029",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "personal reflection",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Recounts Utton’s disclosure that the deceased was cremated.",
+        "reviewed_units": [
+          "LF-fca9142fd337-p028",
+          "LF-fca9142fd337-p029",
+          "LF-fca9142fd337-p030"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-fca9142fd337-p029-narrate-1",
+          "function_id": "narrate",
+          "layer": "temporal_presentation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-fca9142fd337-p029",
+              "quote": "He waited for a second",
+              "occurrence": 0,
+              "start": 0,
+              "end": 22,
+              "text_sha256": "730a1a3eb1a0c32b2ff077db23fb6bf75080c28d3bf2cdc1b6ff192beec51140",
+              "source_id": "LF-fca9142fd337",
+              "unit_sha256": "fb1fa9252e0221c699fad62c842747b9b17aec88c5749fbc163a19742c7eaad1"
+            }
+          ],
+          "reason": "Utton and narrator",
+          "role_fields": {
+            "participant_or_subject": "Utton and narrator",
+            "events": "Utton pauses and reveals the man was cremated, not buried.",
+            "change_through_time": "The pause heightens apprehension before the revelation."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-fca9142fd337-p029",
+        "stage": "A",
+        "source_id": "LF-fca9142fd337"
+      },
+      "clear_labels": [
+        "narrate"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "narrate"
+      ]
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p003",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "personal reflection",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Redirects the essay from the author’s own cooking to his mother and her influence.",
+        "reviewed_units": [
+          "LF-2cb0e10879f3-p002",
+          "LF-2cb0e10879f3-p003",
+          "LF-2cb0e10879f3-p004"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-2cb0e10879f3-p003-orient-1",
+          "function_id": "orient",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p003",
+              "quote": "It is the story of my mother",
+              "occurrence": 0,
+              "start": 280,
+              "end": 308,
+              "text_sha256": "5fdf04f5edbb02d773932f0b7cf62920ca2b235bf284b8180f34c52aa1e83cb0",
+              "source_id": "LF-2cb0e10879f3",
+              "unit_sha256": "841597e2adeea37c7c9c8296ca250822f00b054cf6153c649badc7c10650e7cc"
+            }
+          ],
+          "reason": "The ensuing account of the mother and her cooking",
+          "role_fields": {
+            "prepared_contribution": "The ensuing account of the mother and her cooking",
+            "preparation_link": "Names the subject and its relation to the narrator’s role as family cook."
+          },
+          "targets": [
+            {
+              "target_id": "LF-2cb0e10879f3-p003-orient-1-target",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "LF-2cb0e10879f3-p004",
+                  "quote": "My mother, Frances Junod",
+                  "occurrence": 0,
+                  "start": 0,
+                  "end": 24,
+                  "text_sha256": "d39c6d167c7baedc26ff911130e888959254fc711df2b45b08b28e8e3c15f7c1",
+                  "source_id": "LF-2cb0e10879f3",
+                  "unit_sha256": "83b198a139b5285814263f94ad393009a903e45315a48972fe5449f2b454710b"
+                }
+              ],
+              "paraphrase": "The next paragraph introduces the author’s mother.",
+              "status": "clear",
+              "reason": "The quoted passage identifies the related contribution or claim."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-2cb0e10879f3-p003",
+        "stage": "A",
+        "source_id": "LF-2cb0e10879f3"
+      },
+      "clear_labels": [
+        "orient"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "orient"
+      ]
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p007",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "personal reflection",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Recounts family cooking and dishonesty while reflecting on food, love and truth.",
+        "reviewed_units": [
+          "LF-2cb0e10879f3-context002",
+          "LF-2cb0e10879f3-p007",
+          "LF-2cb0e10879f3-p008"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-2cb0e10879f3-p007-narrate-1",
+          "function_id": "narrate",
+          "layer": "temporal_presentation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p007",
+              "quote": "I was in high school",
+              "occurrence": 0,
+              "start": 489,
+              "end": 509,
+              "text_sha256": "ac68fae77155771b6607044d739681bc844476ada4b276527a79ed7b939098d8",
+              "source_id": "LF-2cb0e10879f3",
+              "unit_sha256": "44cc6dc5dbe85b5123b750e24fb2d4f8c61e29f9f1ca81acf7d8d4d0f8622770"
+            }
+          ],
+          "reason": "Narrator and parents",
+          "role_fields": {
+            "participant_or_subject": "Narrator and parents",
+            "events": "Parents eat out while the narrator cooks; family meal stories and reactions recur.",
+            "change_through_time": "The narrator’s high-school independence develops alongside family meal practices."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-2cb0e10879f3-p007-interpret-2",
+          "function_id": "interpret",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p007",
+              "quote": "the more necessary connection was between food and honesty",
+              "occurrence": 0,
+              "start": 767,
+              "end": 825,
+              "text_sha256": "44ba27706a4c527038bd5369c00dca40405ab198f75f7c380d9a296264356038",
+              "source_id": "LF-2cb0e10879f3",
+              "unit_sha256": "44cc6dc5dbe85b5123b750e24fb2d4f8c61e29f9f1ca81acf7d8d4d0f8622770"
+            }
+          ],
+          "reason": "Cooking for himself and the family’s food-related deceptions",
+          "role_fields": {
+            "input_material": "Cooking for himself and the family’s food-related deceptions",
+            "inference_or_significance": "Food is linked to honesty as well as love.",
+            "transformation": "Draws a personal meaning from family practice."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-2cb0e10879f3-p007-explain-3",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p007",
+              "quote": "To do otherwise was not only to make her cry",
+              "occurrence": 0,
+              "start": 1593,
+              "end": 1637,
+              "text_sha256": "bc74de48c7adc6e4ffb767966a3300cdbe861f98abb5f37a809010dff1a6ec22",
+              "source_id": "LF-2cb0e10879f3",
+              "unit_sha256": "44cc6dc5dbe85b5123b750e24fb2d4f8c61e29f9f1ca81acf7d8d4d0f8622770"
+            }
+          ],
+          "reason": "Accepting the mother’s food stories and family reactions",
+          "role_fields": {
+            "relata": "Accepting the mother’s food stories and family reactions",
+            "connection_made_intelligible": "Disputing the fibs risked upsetting her and provoking the father."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-2cb0e10879f3-p007",
+        "stage": "A",
+        "source_id": "LF-2cb0e10879f3"
+      },
+      "clear_labels": [
+        "explain",
+        "interpret",
+        "narrate"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain",
+        "interpret",
+        "narrate"
+      ]
+    },
+    {
+      "paragraph_id": "LF-2cb0e10879f3-p011",
+      "context": {
+        "family": {
+          "value": "essays and commentary",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "personal reflection",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "General readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Recalls family dinners and the mother’s reaction to pot roast, then revises the author’s understanding of his parents.",
+        "reviewed_units": [
+          "LF-2cb0e10879f3-context003",
+          "LF-2cb0e10879f3-p011",
+          "LF-2cb0e10879f3-p012"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "LF-2cb0e10879f3-p011-narrate-1",
+          "function_id": "narrate",
+          "layer": "temporal_presentation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p011",
+              "quote": "On Sunday nights after they moved near us",
+              "occurrence": 0,
+              "start": 287,
+              "end": 328,
+              "text_sha256": "106811b238639439775b56c8c991048f33b26b4d7ed74262b12297d46ed761a7",
+              "source_id": "LF-2cb0e10879f3",
+              "unit_sha256": "dd1157c7cdb1f7e59df111838f0df758510e1cfe09fed8b02ca62860f8bc0aaa"
+            }
+          ],
+          "reason": "Narrator and parents",
+          "role_fields": {
+            "participant_or_subject": "Narrator and parents",
+            "events": "He serves pot roast, his mother observes and asks about tenderness.",
+            "change_through_time": "Recurring dinners lead to the narrator’s discovery."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-2cb0e10879f3-p011-interpret-2",
+          "function_id": "interpret",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p011",
+              "quote": "Now I understood that she hated cooking",
+              "occurrence": 0,
+              "start": 2254,
+              "end": 2293,
+              "text_sha256": "7a0a691e183a8411fa1c9976c8fb4cba80ef15b2de964dad036ea2cdbe5af3dd",
+              "source_id": "LF-2cb0e10879f3",
+              "unit_sha256": "dd1157c7cdb1f7e59df111838f0df758510e1cfe09fed8b02ca62860f8bc0aaa"
+            }
+          ],
+          "reason": "Mother’s cooking, uncertainty and questions about pot roast",
+          "role_fields": {
+            "input_material": "Mother’s cooking, uncertainty and questions about pot roast",
+            "inference_or_significance": "Her dislike and fibs arose from lack of knowledge and social expectations; both parents were unhappy and deserved forgiveness.",
+            "transformation": "Revises earlier judgments of her motives."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "LF-2cb0e10879f3-p011-explain-3",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-2cb0e10879f3-p011",
+              "quote": "she hated cooking because she didn't know how to do it",
+              "occurrence": 0,
+              "start": 2276,
+              "end": 2330,
+              "text_sha256": "3210a01f17621d50a55f8e2cd509d0f046bc0ad72b717ea18073b4f9677ae37e",
+              "source_id": "LF-2cb0e10879f3",
+              "unit_sha256": "dd1157c7cdb1f7e59df111838f0df758510e1cfe09fed8b02ca62860f8bc0aaa"
+            }
+          ],
+          "reason": "Mother’s lack of cooking knowledge, uncertainty and dislike",
+          "role_fields": {
+            "relata": "Mother’s lack of cooking knowledge, uncertainty and dislike",
+            "connection_made_intelligible": "Not knowing how food would turn out made cooking distressing."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "LF-2cb0e10879f3-p011",
+        "stage": "A",
+        "source_id": "LF-2cb0e10879f3"
+      },
+      "clear_labels": [
+        "explain",
+        "interpret",
+        "narrate"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain",
+        "interpret",
+        "narrate"
+      ]
+    },
+    {
+      "paragraph_id": "PMC2867979-p011",
+      "context": {
+        "family": {
+          "value": "evidence syntheses",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "research/synthesis",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Research readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Summarizes reported associations of industry ties with favorable conclusions and publication restrictions.",
+        "reviewed_units": [
+          "PMC2867979-context006",
+          "PMC2867979-p011",
+          "PMC2867979-context007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "PMC2867979-p011-report-1",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p011",
+              "quote": "An association has been shown",
+              "occurrence": 0,
+              "start": 0,
+              "end": 29,
+              "text_sha256": "c2dc498c6ebd3cb81f00e9394be0ea289b21f5c064778e0f390220c85fee90bf",
+              "source_id": "PMC2867979",
+              "unit_sha256": "76be7558f3f4a0cd8e5069b265c41a6c6cd77e44257fa139943c842c4b29e9d5"
+            }
+          ],
+          "reason": "Reported associations of industry sponsorship or affiliation with favorable findings and publication constraints.",
+          "role_fields": {
+            "reported_content": "Reported associations of industry sponsorship or affiliation with favorable findings and publication constraints.",
+            "attribution": "Review authors summarizing cited studies",
+            "event_or_claim_status": "attributed research findings"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "PMC2867979-p011-illustrate-2",
+          "function_id": "illustrate",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p011",
+              "quote": "For example, in a systematic review",
+              "occurrence": 0,
+              "start": 226,
+              "end": 261,
+              "text_sha256": "e3932b87c9b45fafe24d07bd18cc96d4381e08e2b916e59be597add32827fbc4",
+              "source_id": "PMC2867979",
+              "unit_sha256": "76be7558f3f4a0cd8e5069b265c41a6c6cd77e44257fa139943c842c4b29e9d5"
+            }
+          ],
+          "reason": "Industry sponsorship is associated with favorable research conclusions.",
+          "role_fields": {
+            "illustrated_idea": "Industry sponsorship is associated with favorable research conclusions.",
+            "concretizing_link": "An aggregation of eight analyses provides a specific instance.",
+            "case_status": "reported systematic review"
+          },
+          "targets": [
+            {
+              "target_id": "PMC2867979-p011-illustrate-2-target",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "PMC2867979-p011",
+                  "quote": "An association has been shown between industry sponsorship or industry affiliation of authors and positive research outcomes and conclusions",
+                  "occurrence": 0,
+                  "start": 0,
+                  "end": 140,
+                  "text_sha256": "cc1d7b8c7d8b33b4a0d506696162b449c1208be8f8d9ad9e7e494f39653467e3",
+                  "source_id": "PMC2867979",
+                  "unit_sha256": "76be7558f3f4a0cd8e5069b265c41a6c6cd77e44257fa139943c842c4b29e9d5"
+                }
+              ],
+              "paraphrase": "Industry ties are associated with positive outcomes and conclusions.",
+              "status": "clear",
+              "reason": "The quoted passage identifies the related contribution or claim."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "PMC2867979-p011-qualify-3",
+          "function_id": "qualify",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p011",
+              "quote": "Other aspects of industry involvement",
+              "occurrence": 0,
+              "start": 994,
+              "end": 1031,
+              "text_sha256": "ce77b6b80e8b42c6e3523ccdc5ffe867c3b61e8cf7fe556c8664cd33daaa0188",
+              "source_id": "PMC2867979",
+              "unit_sha256": "76be7558f3f4a0cd8e5069b265c41a6c6cd77e44257fa139943c842c4b29e9d5"
+            }
+          ],
+          "reason": "The paper’s treatment of industry involvement",
+          "role_fields": {
+            "affected_claim": "The paper’s treatment of industry involvement",
+            "scope_change": "Excludes other aspects such as design bias.",
+            "qualification_kind": "scope exclusion"
+          },
+          "targets": [
+            {
+              "target_id": "PMC2867979-p011-qualify-3-target",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "PMC2867979-p011",
+                  "quote": "publication constraints and active attempts to prevent publication have been identified in industry-sponsored research",
+                  "occurrence": 0,
+                  "start": 857,
+                  "end": 975,
+                  "text_sha256": "ac768fc7f53d825392f57412b60af656ad1b9d5138f0bf2daf7d07df32e3c8e7",
+                  "source_id": "PMC2867979",
+                  "unit_sha256": "76be7558f3f4a0cd8e5069b265c41a6c6cd77e44257fa139943c842c4b29e9d5"
+                }
+              ],
+              "paraphrase": "The discussion considers publication restrictions in industry-sponsored research.",
+              "status": "clear",
+              "reason": "The quoted passage identifies the related contribution or claim."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC2867979-p011",
+        "stage": "A",
+        "source_id": "PMC2867979"
+      },
+      "clear_labels": [
+        "illustrate",
+        "qualify",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "illustrate",
+        "qualify",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "PMC2867979-p033",
+      "context": {
+        "family": {
+          "value": "evidence syntheses",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "research/synthesis",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Research readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Reports the VIGOR trial’s findings, interpretation, later concern, and subsequent analysis.",
+        "reviewed_units": [
+          "PMC2867979-context024",
+          "PMC2867979-p033",
+          "PMC2867979-context025"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "PMC2867979-p033-report-1",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p033",
+              "quote": "In 2000, a trial comparing",
+              "occurrence": 0,
+              "start": 0,
+              "end": 26,
+              "text_sha256": "5396a22bddbaa1575e1d520f4a56475ca2fbfe2f6885ef38f69afb60577867b8",
+              "source_id": "PMC2867979",
+              "unit_sha256": "97f595a39888ff8358cc6ad6cdeab36f3b48f186f0d96a5e074421fd00312bb4"
+            }
+          ],
+          "reason": "Trial reported fewer gastrointestinal events with rofecoxib, attributed MI difference to naproxen, and a later analysis found increased thrombotic events.",
+          "role_fields": {
+            "reported_content": "Trial reported fewer gastrointestinal events with rofecoxib, attributed MI difference to naproxen, and a later analysis found increased thrombotic events.",
+            "attribution": "Review authors citing VIGOR and later studies",
+            "event_or_claim_status": "reported published research"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "PMC2867979-p033-narrate-2",
+          "function_id": "narrate",
+          "layer": "temporal_presentation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p033",
+              "quote": "Concerns about the risk",
+              "occurrence": 0,
+              "start": 432,
+              "end": 455,
+              "text_sha256": "8cf59b3d2106fe7bd6bccd3e425063c71a0767c9063a29aefe92211116526761",
+              "source_id": "PMC2867979",
+              "unit_sha256": "97f595a39888ff8358cc6ad6cdeab36f3b48f186f0d96a5e074421fd00312bb4"
+            }
+          ],
+          "reason": "Research on rofecoxib cardiovascular risk",
+          "role_fields": {
+            "participant_or_subject": "Research on rofecoxib cardiovascular risk",
+            "events": "Trial results were followed by concern in 2001 and analysis in 2002.",
+            "change_through_time": "Evidence and concern develop after the original trial."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC2867979-p033",
+        "stage": "A",
+        "source_id": "PMC2867979"
+      },
+      "clear_labels": [
+        "narrate",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "narrate",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "PMC2867979-p055",
+      "context": {
+        "family": {
+          "value": "evidence syntheses",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "research/synthesis",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Research readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Identifies source validity as a review limitation and explains value of non-peer-reviewed sources.",
+        "reviewed_units": [
+          "PMC2867979-p054",
+          "PMC2867979-p055",
+          "PMC2867979-context046"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "PMC2867979-p055-qualify-1",
+          "function_id": "qualify",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p055",
+              "quote": "Another potential limitation of the review",
+              "occurrence": 0,
+              "start": 0,
+              "end": 42,
+              "text_sha256": "bdeace5fccc5af0bc5b5325621ca495f859808e9ea819d457be81dfdf131af43",
+              "source_id": "PMC2867979",
+              "unit_sha256": "d73f893b645cfc8d7c6544aa48ad2d7ba3f54c76474060f0f377e896cf5f7b56"
+            }
+          ],
+          "reason": "The review’s cases of reporting bias",
+          "role_fields": {
+            "affected_claim": "The review’s cases of reporting bias",
+            "scope_change": "Some cases rely on sources whose validity may be uncertain.",
+            "qualification_kind": "source limitation"
+          },
+          "targets": [
+            {
+              "target_id": "PMC2867979-p055-qualify-1-target",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "PMC2867979-p055",
+                  "quote": "several cases were based on information from other sources such as newspaper articles and websites",
+                  "occurrence": 0,
+                  "start": 187,
+                  "end": 285,
+                  "text_sha256": "2ca876764348483d01e14d5e65fb9f5ad06d8749f6334ac180fd0874f4b24512",
+                  "source_id": "PMC2867979",
+                  "unit_sha256": "d73f893b645cfc8d7c6544aa48ad2d7ba3f54c76474060f0f377e896cf5f7b56"
+                }
+              ],
+              "paraphrase": "Several cases rely on non-journal sources.",
+              "status": "clear",
+              "reason": "The quoted passage identifies the related contribution or claim."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "PMC2867979-p055-explain-2",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC2867979-p055",
+              "quote": "these sources to be valuable",
+              "occurrence": 0,
+              "start": 311,
+              "end": 339,
+              "text_sha256": "73b0929ebcb7ac5231d7addc0928dbc3e36c88f6b364e5359c1867d51b69a7ff",
+              "source_id": "PMC2867979",
+              "unit_sha256": "d73f893b645cfc8d7c6544aa48ad2d7ba3f54c76474060f0f377e896cf5f7b56"
+            }
+          ],
+          "reason": "Non-journal sources and their value to the review",
+          "role_fields": {
+            "relata": "Non-journal sources and their value to the review",
+            "connection_made_intelligible": "They broaden the overview and provide a starting point for further research."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC2867979-p055",
+        "stage": "A",
+        "source_id": "PMC2867979"
+      },
+      "clear_labels": [
+        "explain",
+        "qualify"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain",
+        "qualify"
+      ]
+    },
+    {
+      "paragraph_id": "PMC4053896-p007",
+      "context": {
+        "family": {
+          "value": "evidence syntheses",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "research/synthesis",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Research readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Reports literature retrieval approach and sets up the inclusion criteria.",
+        "reviewed_units": [
+          "PMC4053896-p006",
+          "PMC4053896-p007",
+          "PMC4053896-context003"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "PMC4053896-p007-report-1",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p007",
+              "quote": "we conducted a four step approach",
+              "occurrence": 0,
+              "start": 6,
+              "end": 39,
+              "text_sha256": "df7d7dc08086c9ab5736c7443187bee1fddbe2f26c4083d809669a5aff10766a",
+              "source_id": "PMC4053896",
+              "unit_sha256": "5f46891471c05f632783800c136a1cc4628db23210d015570fedc509d83df7bd"
+            }
+          ],
+          "reason": "Authors conducted a four-step literature search and used prospective snowballing of five key reviews to establish criteria.",
+          "role_fields": {
+            "reported_content": "Authors conducted a four-step literature search and used prospective snowballing of five key reviews to establish criteria.",
+            "attribution": "Review authors’ methods account",
+            "event_or_claim_status": "completed method"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "PMC4053896-p007-orient-2",
+          "function_id": "orient",
+          "layer": "relation",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p007",
+              "quote": "The inclusion criteria were as follows:",
+              "occurrence": 0,
+              "start": 717,
+              "end": 756,
+              "text_sha256": "9f75055ca28a981bbc9352397d94baae58657297a739c21dea15f0b3b43cc177",
+              "source_id": "PMC4053896",
+              "unit_sha256": "5f46891471c05f632783800c136a1cc4628db23210d015570fedc509d83df7bd"
+            }
+          ],
+          "reason": "The ensuing inclusion criteria list",
+          "role_fields": {
+            "prepared_contribution": "The ensuing inclusion criteria list",
+            "preparation_link": "Introduces the selection criteria that follow."
+          },
+          "targets": [
+            {
+              "target_id": "PMC4053896-p007-orient-2-target",
+              "kind": "explicit_span",
+              "anchors": [
+                {
+                  "unit_id": "PMC4053896-context003",
+                  "quote": "Empirical study",
+                  "occurrence": 0,
+                  "start": 2,
+                  "end": 17,
+                  "text_sha256": "f5f67b52ed1bb755796f6b0164d6be94fb4e590b412387eb9da30f78bf78cadf",
+                  "source_id": "PMC4053896",
+                  "unit_sha256": "d917f21acf6c86164c005b8db4869c2dab1bff1cc8122577a5a6e93c7421b99b"
+                }
+              ],
+              "paraphrase": "The following list begins with the empirical-study criterion.",
+              "status": "clear",
+              "reason": "The quoted passage identifies the related contribution or claim."
+            }
+          ],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC4053896-p007",
+        "stage": "A",
+        "source_id": "PMC4053896"
+      },
+      "clear_labels": [
+        "orient",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "orient",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "PMC4053896-p021",
+      "context": {
+        "family": {
+          "value": "evidence syntheses",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "research/synthesis",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Research readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Summarizes participant groups, study comparisons and investigated natural settings.",
+        "reviewed_units": [
+          "PMC4053896-p020",
+          "PMC4053896-p021",
+          "PMC4053896-p022"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "PMC4053896-p021-report-1",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p021",
+              "quote": "Although most of the studies had student participants",
+              "occurrence": 0,
+              "start": 0,
+              "end": 53,
+              "text_sha256": "fa68ca3cb153864aba6a2a46519e5be64f9920bc4c460206e2ea12c507f96303",
+              "source_id": "PMC4053896",
+              "unit_sha256": "3236342c7940b851094365a26944f21c15e833fc1915724250ff8d7edfd0b54e"
+            }
+          ],
+          "reason": "Studies mostly involved students and urban versus nature comparisons, with forests most investigated and other settings represented.",
+          "role_fields": {
+            "reported_content": "Studies mostly involved students and urban versus nature comparisons, with forests most investigated and other settings represented.",
+            "attribution": "Review authors’ synthesis of included studies",
+            "event_or_claim_status": "reported review findings"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "PMC4053896-p021-compare-2",
+          "function_id": "compare",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p021",
+              "quote": "The majority of the studies compared urban with Nature environments",
+              "occurrence": 0,
+              "start": 169,
+              "end": 236,
+              "text_sha256": "9154e356e6e22a66414916c32a20321f95c28d09c739fe56638c7dcf6e92b183",
+              "source_id": "PMC4053896",
+              "unit_sha256": "3236342c7940b851094365a26944f21c15e833fc1915724250ff8d7edfd0b54e"
+            }
+          ],
+          "reason": "['urban versus nature comparisons', 'indoor versus outdoor comparisons or uncontrolled nature studies']",
+          "role_fields": {
+            "alternatives": [
+              "urban versus nature comparisons",
+              "indoor versus outdoor comparisons or uncontrolled nature studies"
+            ],
+            "shared_dimension": "frequency among reviewed study designs",
+            "stated_relationship": "Urban versus nature comparisons were more common."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC4053896-p021",
+        "stage": "A",
+        "source_id": "PMC4053896"
+      },
+      "clear_labels": [
+        "compare",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "compare",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "PMC4053896-p035",
+      "context": {
+        "family": {
+          "value": "evidence syntheses",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "research/synthesis",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Research readers",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Frames the review’s societal contribution and proposes nature for stress prevention.",
+        "reviewed_units": [
+          "PMC4053896-p034",
+          "PMC4053896-p035",
+          "PMC4053896-p036"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "PMC4053896-p035-interpret-1",
+          "function_id": "interpret",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p035",
+              "quote": "the major achievement of our present review",
+              "occurrence": 0,
+              "start": 388,
+              "end": 431,
+              "text_sha256": "3b725cbe5f5f184b7bea6d6c8b555f205cf36c60e69812557e612b4f6cc9f070",
+              "source_id": "PMC4053896",
+              "unit_sha256": "521edd0a1fb1148971bd503f66631236d9a0bb920da2d74bc5f0de3fd07d1b30"
+            }
+          ],
+          "reason": "Review findings and literature on public-health decision support",
+          "role_fields": {
+            "input_material": "Review findings and literature on public-health decision support",
+            "inference_or_significance": "The review could enhance the societal impact of knowledge about nature and health.",
+            "transformation": "Interprets the potential significance of the review."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "PMC4053896-p035-report-2",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p035",
+              "quote": "The most evident finding was",
+              "occurrence": 0,
+              "start": 717,
+              "end": 745,
+              "text_sha256": "88b46e37ccbbbf48d2c75a0c2ef0254d724db57c51fd05622c8d102c3996d770",
+              "source_id": "PMC4053896",
+              "unit_sha256": "521edd0a1fb1148971bd503f66631236d9a0bb920da2d74bc5f0de3fd07d1b30"
+            }
+          ],
+          "reason": "The review found short-term stress-reducing potential of outdoor natural environments.",
+          "role_fields": {
+            "reported_content": "The review found short-term stress-reducing potential of outdoor natural environments.",
+            "attribution": "Review authors",
+            "event_or_claim_status": "authors’ review finding"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "PMC4053896-p035-assert-3",
+          "function_id": "assert",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4053896-p035",
+              "quote": "suggests to use the resource nature",
+              "occurrence": 0,
+              "start": 1010,
+              "end": 1045,
+              "text_sha256": "d07a88d75b878b0ec9c8297eacba7250342c990d4a11d7f7197bf5e6c2b0e5c4",
+              "source_id": "PMC4053896",
+              "unit_sha256": "521edd0a1fb1148971bd503f66631236d9a0bb920da2d74bc5f0de3fd07d1b30"
+            }
+          ],
+          "reason": "Use nature for primary, secondary and tertiary stress prevention.",
+          "role_fields": {
+            "position": "Use nature for primary, secondary and tertiary stress prevention.",
+            "position_holder": "Review authors",
+            "commitment_job": "Offers a practical public health recommendation."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "PMC4053896-p035",
+        "stage": "A",
+        "source_id": "PMC4053896"
+      },
+      "clear_labels": [
+        "assert",
+        "interpret",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "assert",
+        "interpret",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "git-p02",
+      "context": {
+        "family": {
+          "value": "explanation and documentation",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "explanation/procedure",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Users learning the documented software",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Describes branch filtering options and the default commit.",
+        "reviewed_units": [
+          "git-p01",
+          "git-p02",
+          "git-p03"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "git-p02-report-1",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p02",
+              "quote": "With `--contains`",
+              "occurrence": 0,
+              "start": 0,
+              "end": 17,
+              "text_sha256": "6dabb2fc300f55e34a69c0611fe0316f412d0444b6600797334b1e48a7f29dfc",
+              "source_id": "git",
+              "unit_sha256": "a9c848b3c58e0cfec332d0983e233009cda6b6da06c37a65d99461ce4e70d079"
+            }
+          ],
+          "reason": "Git branch options filter by containment or merged status, and omitted commit defaults to HEAD.",
+          "role_fields": {
+            "reported_content": "Git branch options filter by containment or merged status, and omitted commit defaults to HEAD.",
+            "attribution": "Git reference documentation",
+            "event_or_claim_status": "documented command behavior"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "git-p02",
+        "stage": "A",
+        "source_id": "git"
+      },
+      "clear_labels": [
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "git-p05",
+      "context": {
+        "family": {
+          "value": "explanation and documentation",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "explanation/procedure",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Users learning the documented software",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Describes automatic tracking configuration and ways to change it.",
+        "reviewed_units": [
+          "git-p04",
+          "git-p05",
+          "git-p06"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "git-p05-report-1",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p05",
+              "quote": "When a local branch is started off a remote-tracking branch",
+              "occurrence": 0,
+              "start": 0,
+              "end": 59,
+              "text_sha256": "e7b397d7215b02ff43a6042010fd2a39c515b58984940cea8c763ac351357dd2",
+              "source_id": "git",
+              "unit_sha256": "19a918cbae7aca793008787057cd508893fac0d15b57b6f8f60f39edb9604b2b"
+            }
+          ],
+          "reason": "Git configures upstream settings for branches started from remote-tracking branches; options and configuration can alter it.",
+          "role_fields": {
+            "reported_content": "Git configures upstream settings for branches started from remote-tracking branches; options and configuration can alter it.",
+            "attribution": "Git reference documentation",
+            "event_or_claim_status": "documented behavior"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "git-p05-explain-2",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p05",
+              "quote": "so that",
+              "occurrence": 0,
+              "start": 174,
+              "end": 181,
+              "text_sha256": "ab6b7abe5e492f9b6d750de7961c627380f376d321fccbb8be082915be4cdf03",
+              "source_id": "git",
+              "unit_sha256": "19a918cbae7aca793008787057cd508893fac0d15b57b6f8f60f39edb9604b2b"
+            }
+          ],
+          "reason": "Automatic upstream configuration and git pull",
+          "role_fields": {
+            "relata": "Automatic upstream configuration and git pull",
+            "connection_made_intelligible": "Configuration allows pull to merge from the remote-tracking branch."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "git-p05",
+        "stage": "A",
+        "source_id": "git"
+      },
+      "clear_labels": [
+        "explain",
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "explain",
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "git-p07",
+      "context": {
+        "family": {
+          "value": "explanation and documentation",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "explanation/procedure",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Users learning the documented software",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Describes branch deletion options and the effect on reflogs.",
+        "reviewed_units": [
+          "git-p06",
+          "git-p07",
+          "git-p08"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "git-p07-report-1",
+          "function_id": "report",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "git-p07",
+              "quote": "With a `-d` or `-D` option",
+              "occurrence": 0,
+              "start": 0,
+              "end": 26,
+              "text_sha256": "d09a1a4719deff7e1ede5b3c48d1ef06f088c8d5355af777e2ad9646dd79bcdf",
+              "source_id": "git",
+              "unit_sha256": "d8907e6bccc59a6fa9e801c6f35d6f54dd4f8c27a5da4e8113fdfc325e4de328"
+            }
+          ],
+          "reason": "The options delete named branches and any corresponding reflog; multiple names are possible.",
+          "role_fields": {
+            "reported_content": "The options delete named branches and any corresponding reflog; multiple names are possible.",
+            "attribution": "Git reference documentation",
+            "event_or_claim_status": "documented command behavior"
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "attributed_report",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "git-p07",
+        "stage": "A",
+        "source_id": "git"
+      },
+      "clear_labels": [
+        "report"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "report"
+      ]
+    },
+    {
+      "paragraph_id": "python-p02",
+      "context": {
+        "family": {
+          "value": "explanation and documentation",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "explanation/procedure",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Users learning the documented software",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Introduces modules as reusable files of definitions and explains importing.",
+        "reviewed_units": [
+          "python-p01",
+          "python-p02",
+          "python-p03"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "python-p02-define-1",
+          "function_id": "define",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p02",
+              "quote": "Such a file is called a *module*",
+              "occurrence": 0,
+              "start": 138,
+              "end": 170,
+              "text_sha256": "23a2b0e94016cd4d66bb321415d52dde66faf76e115719f6db444dd80673c70d",
+              "source_id": "python",
+              "unit_sha256": "43b955d82a4bcc62a9d74a2e8c99d3c044994b3b753dc13294ee19bc2ac17c1c"
+            }
+          ],
+          "reason": "module",
+          "role_fields": {
+            "term": "module",
+            "meaning_or_distinction": "A file containing definitions usable in scripts or the interpreter.",
+            "definition_scope": "Python module in this introductory context."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        },
+        {
+          "annotation_id": "python-p02-explain-2",
+          "function_id": "explain",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p02",
+              "quote": "definitions from a module can be *imported*",
+              "occurrence": 0,
+              "start": 172,
+              "end": 215,
+              "text_sha256": "4ccbe2c505735ee0bbebe22dcdc2f5952e3ec0fab1fd9ea0b1ef23744c475a37",
+              "source_id": "python",
+              "unit_sha256": "43b955d82a4bcc62a9d74a2e8c99d3c044994b3b753dc13294ee19bc2ac17c1c"
+            }
+          ],
+          "reason": "A module’s definitions and other modules or main module",
+          "role_fields": {
+            "relata": "A module’s definitions and other modules or main module",
+            "connection_made_intelligible": "Import makes definitions available in other contexts."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "reasoning",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "python-p02",
+        "stage": "A",
+        "source_id": "python"
+      },
+      "clear_labels": [
+        "define",
+        "explain"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "define",
+        "explain"
+      ]
+    },
+    {
+      "paragraph_id": "python-p04",
+      "context": {
+        "family": {
+          "value": "explanation and documentation",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "explanation/procedure",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Users learning the documented software",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Directs the reader to enter Python and import the prepared module.",
+        "reviewed_units": [
+          "python-context002",
+          "python-p04",
+          "python-context003"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "python-p04-instruct-1",
+          "function_id": "instruct",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p04",
+              "quote": "Now enter the Python interpreter",
+              "occurrence": 0,
+              "start": 0,
+              "end": 32,
+              "text_sha256": "5bfe9f5e8cc005d5c647a857b8594430a42bc44bc4be37656c9959fa7250f7d2",
+              "source_id": "python",
+              "unit_sha256": "8dc68c9ffd3a48420aaec7002f47f4e32e7da08cb3dec8c93bc863bf06bfd758"
+            }
+          ],
+          "reason": "Tutorial reader",
+          "role_fields": {
+            "addressed_actor": "Tutorial reader",
+            "action": "Enter the interpreter and import the module with the following command.",
+            "directive_context": "After creating the Fibonacci module."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "python-p04",
+        "stage": "A",
+        "source_id": "python"
+      },
+      "clear_labels": [
+        "instruct"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "instruct"
+      ]
+    },
+    {
+      "paragraph_id": "python-p06",
+      "context": {
+        "family": {
+          "value": "explanation and documentation",
+          "hypothesis_status": "inferred",
+          "reason": "Inferred from the source and passage."
+        },
+        "form": {
+          "value": "explanation/procedure",
+          "hypothesis_status": "provisional",
+          "reason": "Packet classification."
+        },
+        "section": {
+          "value": null,
+          "reason": "Local section inferred from nearby text; no formal section identified."
+        },
+        "audience": "Users learning the documented software",
+        "reader_task": "Follow the local contribution in its surrounding passage.",
+        "neutral_contribution": "Suggests assigning a frequently used function to a local name.",
+        "reviewed_units": [
+          "python-context004",
+          "python-p06",
+          "python-context005"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected unit and immediate available neighbors reviewed for the judgments recorded.",
+        "extraction_issues": [],
+        "source_status": "reviewed_reconstruction"
+      },
+      "roles": [
+        {
+          "annotation_id": "python-p06-instruct-1",
+          "function_id": "instruct",
+          "layer": "local_move",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "python-p06",
+              "quote": "you can assign it to a local name",
+              "occurrence": 0,
+              "start": 38,
+              "end": 71,
+              "text_sha256": "8388a3a1c9558d27efcb7fbb62867afd14a26a4c5a0bed1b7cc7759630601e3c",
+              "source_id": "python",
+              "unit_sha256": "d7e8cfdc341cb2b1edc5d05a10877ae07932d59c4781ac775631bb1e78dd2f9d"
+            }
+          ],
+          "reason": "Tutorial reader using a function often",
+          "role_fields": {
+            "addressed_actor": "Tutorial reader using a function often",
+            "action": "Assign the function to a local name.",
+            "directive_context": "Optional convenience illustrated by the following command."
+          },
+          "targets": [],
+          "alternatives": [],
+          "evidence_assessment": {
+            "basis_kind": "not_applicable",
+            "role_adequacy": "not_assessed",
+            "empirical_evidence_status": "not_claimed",
+            "truth_status": "not_assessed",
+            "assessment_reason": "Role classification only; underlying truth and adequacy not independently assessed."
+          }
+        }
+      ],
+      "source_binding": {
+        "unit_id": "python-p06",
+        "stage": "A",
+        "source_id": "python"
+      },
+      "clear_labels": [
+        "instruct"
+      ],
+      "unresolved_labels": [],
+      "candidate_union": [
+        "instruct"
+      ]
+    }
+  ],
+  "submission": {
+    "path": "coding/A-revised-1/raw.json",
+    "sha256": "7b38f3fa31997d67597397f9107f55c4e7759bf16423da29c3f8f89fc5625b3d",
+    "bytes": 95461,
+    "compact_characters": 66710,
+    "submission_count": 1
+  }
+}

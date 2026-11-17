@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-systematic_review-3",
+      "doi": "10.7326/0003-4819-155-2-201107190-00005",
+      "title": "Low health literacy and health outcomes: an updated systematic review.",
+      "authors": "[\"Berkman ND\", \"Sheridan SL\", \"Donahue KE\", \"Halpern DJ\", \"Crotty K\"]",
+      "field": "medicine_health",
+      "q": "\"Low health literacy and health outcomes: an updated\" Berkman filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-systematic_review-3",
+      "query": "\"Low health literacy and health outcomes: an updated\" Berkman filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "2. Berkman ND, Sheridan SL, Donahue KE, Halpern DJ, Crotty K: **Low health literacy and health outcomes: an updated systematic review.** *Ann Intern Med* 2011. **155**(2): 97-107.",
+          "url": "https://assets-eu.researchsquare.com/files/rs-141576/v1/98f2ed1e-a7d3-45ae-a918-d6a6d0958be9.pdf?c=1634110154",
+          "score": 1
+        },
+        {
+          "title": "Health Literacy Interventions and Outcomes: An Updated Systematic Review",
+          "url": "https://www.govinfo.gov/content/pkg/GOVPUB-HE20_6500-PURL-gpo142083/pdf/GOVPUB-HE20_6500-PURL-gpo142083.pdf",
+          "score": 0.8571428571428571
+        },
+        {
+          "title": "Low health literacy and health outcomes: an updated systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21768583/",
+          "score": 1
+        },
+        {
+          "title": "Low health literacy and health outcomes: An updated systematic review",
+          "url": "https://www.rti.org/publication/low-health-literacy-health-outcomes-updated-systematic-review",
+          "score": 1
+        },
+        {
+          "title": "Low Health Literacy and Health Outcomes: An Updated Systematic Review",
+          "url": "https://www.academia.edu/19190357/Low_Health_Literacy_and_Health_Outcomes_An_Updated_Systematic_Review",
+          "score": 1
+        },
+        {
+          "title": "Low health literacy and health outcomes: an updated systematic review | CETR reference database",
+          "url": "https://respect-references.stanford.edu/publications/health-literacy/low-health-literacy-and-health-outcomes-updated-systematic-review",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

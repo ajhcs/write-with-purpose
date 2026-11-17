@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://longform.org/sitemap/posts.xml",
+    "retrieved_at": "2026-11-16T00:10:14.641615+00:00",
+    "sha256": "b5de00a6b4f0af4fa940a1e63349c26d63204e7d5f3a8b77d527fa4c1ec5180d",
+    "bytes": 2302401,
+    "final_url": "https://longform.org/sitemap/posts.xml",
+    "output": "longform-post-candidates.csv",
+    "records": 13053,
+    "unit": "Sitemap entries; not unique original works or verified essays",
+    "output_sha256": "7f3733eb387bc8241ecb787b9baa7927fc4c433bfcaa72974f252ab9661356d6"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/gprana/READMEClassifier/master/input/dataset_combined.csv",
+    "retrieved_at": "2026-11-16T00:10:14.941146+00:00",
+    "sha256": "52d8676cbb0ee66b7871f9dc1aaca345b884aae82bdb87d8fcfdc8eac97ce764",
+    "bytes": 411140,
+    "final_url": "https://raw.githubusercontent.com/gprana/READMEClassifier/master/input/dataset_combined.csv",
+    "output": "readme-section-source.csv",
+    "records": 4922,
+    "unit": "Source section annotation rows including excluded labels",
+    "retained_section_rows": 4226,
+    "retained_document_urls": 393,
+    "excluded_rows": 696,
+    "filter": "Codes with >= 2 votes stripped != '-'",
+    "derived_output": "readme-document-candidates.csv",
+    "output_sha256": "52d8676cbb0ee66b7871f9dc1aaca345b884aae82bdb87d8fcfdc8eac97ce764"
+  }
+]

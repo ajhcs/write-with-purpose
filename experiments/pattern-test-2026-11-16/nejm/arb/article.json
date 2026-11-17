@@ -1,0 +1,463 @@
+{
+  "title": "Hypertension Hot Potato — Anatomy of the Angiotensin-Receptor Blocker Recalls",
+  "year": 2019,
+  "doi": "10.1056/NEJMp1901657",
+  "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1901657.pdf",
+  "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792",
+  "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/arb/body.txt",
+  "body_text_sha256": "d16b7738d231c97ebac6b8ed4288f5b1b53932027b7f6ec68c95751db1bd5ab8",
+  "body_scope": "Main prose from opening drop cap A to final period before disclosure; excludes title, byline, timeline and caption, disclosure, references, running matter and audio prompt.",
+  "source_validation": "All three PDF pages rendered and inspected; page 2 figure and page 3 audio prompt excluded; ordered blocks checked against three-column reading order.",
+  "normalization": "Whitespace collapsed, line-wrap hyphenation removed except explicit preserved compounds; zero-width and soft hyphens removed; paragraphs separated by blank lines.",
+  "word_count_method": "experiments/corpus-analysis-2026-11-16/analysis/metrics.py word_tokens",
+  "word_count": 1316,
+  "paragraph_count": 11,
+  "quantitative_eligible": true,
+  "coding_status": "fully_coded_single_reviewer",
+  "sections": [
+    {
+      "role": "recall and scope",
+      "printed_heading": false,
+      "paragraph_ids": [
+        "arb-p01",
+        "arb-p02"
+      ],
+      "words": 377
+    },
+    {
+      "role": "impurity and manufacturing",
+      "printed_heading": false,
+      "paragraph_ids": [
+        "arb-p03",
+        "arb-p04"
+      ],
+      "words": 258
+    },
+    {
+      "role": "consequences and response",
+      "printed_heading": false,
+      "paragraph_ids": [
+        "arb-p05",
+        "arb-p06",
+        "arb-p07"
+      ],
+      "words": 307
+    },
+    {
+      "role": "oversight and preparedness",
+      "printed_heading": false,
+      "paragraph_ids": [
+        "arb-p08",
+        "arb-p09",
+        "arb-p10",
+        "arb-p11"
+      ],
+      "words": 374
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "arb-p01",
+      "start": 0,
+      "end_exclusive": 1551,
+      "offset_units": "unicode_codepoints",
+      "span_sha256": "e7c3cb6bf1f022554f1859e4d6966899697c6d350926b338f9569d59afbf97f4",
+      "source_fragments": [
+        {
+          "page": 1,
+          "bbox": [
+            101.74,
+            312.06,
+            140.17,
+            388.87
+          ],
+          "source_text_sha256": "06f961b802bc46ee168555f066d28f4f0e9afdf3f88174c1ee6f9de004fc30a0",
+          "role": "drop cap"
+        },
+        {
+          "page": 1,
+          "bbox": [
+            101.74,
+            325.84,
+            384.66,
+            390.09
+          ],
+          "source_text_sha256": "2a6156eb30fd6dd2fe4b49411f491c5c108048606c0f88029d67f353c1341ba7"
+        },
+        {
+          "page": 1,
+          "bbox": [
+            101.74,
+            400.96,
+            241.44,
+            677.09
+          ],
+          "source_text_sha256": "6cc04397f8024b16d65767d43c5e3c30b1f23567a0b6ce2c28b8fac5c54ca6bc"
+        },
+        {
+          "page": 1,
+          "bbox": [
+            250.38,
+            400.96,
+            390.09,
+            641.09
+          ],
+          "source_text_sha256": "63500d1cb4f762c873a71db872e3ea82e51729e0ca868906d00f3f7ccbe89df3"
+        }
+      ],
+      "functions": [
+        "orient",
+        "report"
+      ],
+      "section_role": "recall and scope",
+      "word_count": 220,
+      "boundary_status": "visually checked source paragraph; joined source fragments",
+      "quantitative_eligible": true
+    },
+    {
+      "id": "arb-p02",
+      "start": 1553,
+      "end_exclusive": 2553,
+      "offset_units": "unicode_codepoints",
+      "span_sha256": "d8c001a780723fe50d199689132fde30d97e1e9990a2d9ed584f8a085ba859c0",
+      "source_fragments": [
+        {
+          "page": 1,
+          "bbox": [
+            250.38,
+            640.96,
+            390.07,
+            677.09
+          ],
+          "source_text_sha256": "9c973441ae7d671934806aa4a330c6aa887ac712689403f88fd48c873a8f8f89"
+        },
+        {
+          "page": 1,
+          "bbox": [
+            399.05,
+            328.96,
+            538.77,
+            665.09
+          ],
+          "source_text_sha256": "97e2e2a362d1e4d30c0ea35a9bc94d6620401d5ae698a8be4ddc33464dda3497"
+        }
+      ],
+      "functions": [
+        "qualify",
+        "report"
+      ],
+      "section_role": "recall and scope",
+      "word_count": 157,
+      "boundary_status": "visually checked source paragraph; joined source fragments",
+      "quantitative_eligible": true
+    },
+    {
+      "id": "arb-p03",
+      "start": 2555,
+      "end_exclusive": 3256,
+      "offset_units": "unicode_codepoints",
+      "span_sha256": "7045d913ec0cfcd63afe6bf030aba90d8c35d7b27f2153aabc315dac23d94043",
+      "source_fragments": [
+        {
+          "page": 1,
+          "bbox": [
+            411.07,
+            664.96,
+            538.76,
+            677.09
+          ],
+          "source_text_sha256": "5186b33cb684e9bf8417ca204e46b8352662fe4dfcb2393220b87d537bdea47e"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            71.0,
+            364.83,
+            210.7,
+            628.96
+          ],
+          "source_text_sha256": "084987e797f183cd85c75e64b74f21d7b31188ed50d12e76d86dd0ced9440999"
+        }
+      ],
+      "functions": [
+        "define",
+        "report",
+        "explain"
+      ],
+      "section_role": "impurity and manufacturing",
+      "word_count": 116,
+      "boundary_status": "visually checked source paragraph; joined source fragments",
+      "quantitative_eligible": true
+    },
+    {
+      "id": "arb-p04",
+      "start": 3258,
+      "end_exclusive": 4207,
+      "offset_units": "unicode_codepoints",
+      "span_sha256": "cc6b3d0e479823364d9b4c4980aeef40d62294001894c64b497b628226f2a464",
+      "source_fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            71.0,
+            628.83,
+            210.68,
+            676.96
+          ],
+          "source_text_sha256": "5add5c0b5a1d4b3b7786580da8029c0d47c50cb99661287689dc23503f55ffba"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            219.66,
+            364.83,
+            359.37,
+            676.96
+          ],
+          "source_text_sha256": "2f070b8a45abf4bbc0cbbf39617f78a88d4fad8e1b65b5c5b4098cf443971701"
+        }
+      ],
+      "functions": [
+        "report",
+        "explain",
+        "qualify"
+      ],
+      "section_role": "impurity and manufacturing",
+      "word_count": 142,
+      "boundary_status": "visually checked source paragraph; joined source fragments",
+      "quantitative_eligible": true
+    },
+    {
+      "id": "arb-p05",
+      "start": 4209,
+      "end_exclusive": 4670,
+      "offset_units": "unicode_codepoints",
+      "span_sha256": "5512005a9911bf60248ee60489580f546167cee1dc1e4821e01271aa3b10aa6b",
+      "source_fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            368.33,
+            364.83,
+            508.04,
+            544.96
+          ],
+          "source_text_sha256": "c55e3836fb86be469208b1e3d35401b8e2292beef7057c98cf76f24ddb282da6"
+        }
+      ],
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "section_role": "consequences and response",
+      "word_count": 67,
+      "boundary_status": "visually checked source paragraph; joined source fragments",
+      "quantitative_eligible": true
+    },
+    {
+      "id": "arb-p06",
+      "start": 4672,
+      "end_exclusive": 5437,
+      "offset_units": "unicode_codepoints",
+      "span_sha256": "0b23267ef6125296dbe3b948bf5b40e8559c14193afdb7e8a1c270ab1317a77a",
+      "source_fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            368.34,
+            544.83,
+            508.05,
+            676.96
+          ],
+          "source_text_sha256": "8fb81f966eb84fb6700fc4e25854ab6aafadd58791ddc181dbee30dcb62105fd"
+        },
+        {
+          "page": 3,
+          "bbox": [
+            101.9,
+            52.83,
+            241.59,
+            220.96
+          ],
+          "source_text_sha256": "3473164d5681b250f56897aadcc8c4731472561ea1b761a23b5385302d12976f"
+        }
+      ],
+      "functions": [
+        "report",
+        "explain",
+        "interpret"
+      ],
+      "section_role": "consequences and response",
+      "word_count": 116,
+      "boundary_status": "visually checked source paragraph; joined source fragments",
+      "quantitative_eligible": true
+    },
+    {
+      "id": "arb-p07",
+      "start": 5439,
+      "end_exclusive": 6297,
+      "offset_units": "unicode_codepoints",
+      "span_sha256": "3c27cf5fd2f118dcb691b647002dc4635eda4b4de4335b594d7f69afc1efeb86",
+      "source_fragments": [
+        {
+          "page": 3,
+          "bbox": [
+            101.9,
+            220.83,
+            241.61,
+            544.96
+          ],
+          "source_text_sha256": "9ba13d5609b1ffca430b06178cb4b4d5e18752e09018d72e639677a5b7c09320"
+        }
+      ],
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "section_role": "consequences and response",
+      "word_count": 124,
+      "boundary_status": "visually checked source paragraph; joined source fragments",
+      "quantitative_eligible": true
+    },
+    {
+      "id": "arb-p08",
+      "start": 6299,
+      "end_exclusive": 6835,
+      "offset_units": "unicode_codepoints",
+      "span_sha256": "3c9fe416207a3d54af4f9ea52990c5237d8d5eb296b18d1b38de0e8c0d9a942a",
+      "source_fragments": [
+        {
+          "page": 3,
+          "bbox": [
+            101.9,
+            544.83,
+            241.59,
+            580.96
+          ],
+          "source_text_sha256": "a2289a1d57fa829add342adbcb97c4dffd38aa178ec54c5ee3bbe5555567e493"
+        },
+        {
+          "page": 3,
+          "bbox": [
+            101.9,
+            580.83,
+            241.6,
+            676.96
+          ],
+          "source_text_sha256": "c9f17cbb2d672d86da4d29a9afa7fa5cba86dee78ac3a016b031f37c32d9a4e9"
+        },
+        {
+          "page": 3,
+          "bbox": [
+            250.57,
+            52.83,
+            390.27,
+            148.96
+          ],
+          "source_text_sha256": "0e7c2227ec6e4eaf7ae315edab9b5fe0001a3b8256e67401f06578cc1ae8e96d"
+        }
+      ],
+      "functions": [
+        "report",
+        "qualify",
+        "interpret"
+      ],
+      "section_role": "oversight and preparedness",
+      "word_count": 81,
+      "boundary_status": "visually checked source paragraph; joined source fragments",
+      "quantitative_eligible": true
+    },
+    {
+      "id": "arb-p09",
+      "start": 6837,
+      "end_exclusive": 7604,
+      "offset_units": "unicode_codepoints",
+      "span_sha256": "5a441176dc8e67a93dec6ffb1673305a14dad970aad4c76ff88ba8ca24ffc686",
+      "source_fragments": [
+        {
+          "page": 3,
+          "bbox": [
+            250.57,
+            148.83,
+            390.28,
+            448.96
+          ],
+          "source_text_sha256": "7d5fc71c1f188bd9791bbcf4efd41c1a4651d34d9e5a890b7de0ad63e12549d3"
+        }
+      ],
+      "functions": [
+        "report",
+        "interpret"
+      ],
+      "section_role": "oversight and preparedness",
+      "word_count": 115,
+      "boundary_status": "visually checked source paragraph; joined source fragments",
+      "quantitative_eligible": true
+    },
+    {
+      "id": "arb-p10",
+      "start": 7606,
+      "end_exclusive": 8164,
+      "offset_units": "unicode_codepoints",
+      "span_sha256": "0ef005768fc8660d78bb3599d018ca8a4c2cddfeadec80f30c72c30c83838fb0",
+      "source_fragments": [
+        {
+          "page": 3,
+          "bbox": [
+            250.57,
+            448.83,
+            390.29,
+            664.96
+          ],
+          "source_text_sha256": "fa626d79703efd9ea804f1c2d40b16cb34d06cd350cee7b0d990861ba227c78f"
+        }
+      ],
+      "functions": [
+        "interpret",
+        "assert",
+        "explain"
+      ],
+      "section_role": "oversight and preparedness",
+      "word_count": 92,
+      "boundary_status": "visually checked source paragraph; joined source fragments",
+      "quantitative_eligible": true
+    },
+    {
+      "id": "arb-p11",
+      "start": 8166,
+      "end_exclusive": 8717,
+      "offset_units": "unicode_codepoints",
+      "span_sha256": "5eb374d8fe05f61548fb2eb85574858a5a699eb43011a2a09c827459a487c41b",
+      "source_fragments": [
+        {
+          "page": 3,
+          "bbox": [
+            262.57,
+            664.83,
+            390.26,
+            676.96
+          ],
+          "source_text_sha256": "c0cdbe95d7bd44f34702709453e8fdaf64cd3af58df0af24f5b4226bd14682b5"
+        },
+        {
+          "page": 3,
+          "bbox": [
+            399.23,
+            52.83,
+            538.94,
+            256.96
+          ],
+          "source_text_sha256": "7d6aac6d617c655b757e42ea9d560ab18433134c620043de5a247e9e73667c02"
+        }
+      ],
+      "functions": [
+        "assert",
+        "interpret"
+      ],
+      "section_role": "oversight and preparedness",
+      "word_count": 86,
+      "boundary_status": "visually checked source paragraph; joined source fragments",
+      "quantitative_eligible": true
+    }
+  ]
+}

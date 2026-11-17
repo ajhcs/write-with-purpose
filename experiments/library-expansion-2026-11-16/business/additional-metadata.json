@@ -1,0 +1,5879 @@
+[
+  {
+    "doi_query": "10.1287/orsc.1060.0191",
+    "crossref_query_url": "https://api.crossref.org/works/10.1287/orsc.1060.0191",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            3
+          ]
+        ],
+        "date-time": "2026-11-03T14:52:07Z",
+        "timestamp": 1793717527072,
+        "version": "4.6.1"
+      },
+      "reference-count": 79,
+      "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+      "issue": "3",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Organization Science"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:p>In this paper we examine social capital and its relationship with performance at the organizational level. We predict that both internal and external social capital will have a positive effect on organizational performance. We test our hypotheses in 88 urban public schools where we collected data from principals, teachers, parents, and students. Results indicate that both internal social capital (relations among teachers) and external social capital (relations between the principal and external stakeholders) predict student achievement in mathematics and reading. These effects were sustained over time for reading achievement, providing support for a causal relationship between social capital and performance. We provide evidence that social capital’s impact on student achievement in math—but not reading—is mediated by the quality of instruction provided by teachers. These results underscore the importance of context in studies of social capital.</jats:p>",
+      "DOI": "10.1287/orsc.1060.0191",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2006,
+            5,
+            16
+          ]
+        ],
+        "date-time": "2006-05-16T14:38:35Z",
+        "timestamp": 1147790315000
+      },
+      "page": "353-366",
+      "source": "Crossref",
+      "is-referenced-by-count": 449,
+      "title": [
+        "Social Capital and Organizational Performance: Evidence from Urban Public Schools"
+      ],
+      "prefix": "10.1287",
+      "volume": "17",
+      "author": [
+        {
+          "given": "Carrie R.",
+          "family": "Leana",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Pittsburgh, 342 Mervis Hall, Pittsburgh, Pennsylvania 15260"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Frits K.",
+          "family": "Pil",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Pittsburgh, 326 Mervis Hall, Pittsburgh, Pennsylvania 15260"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "109",
+      "reference": [
+        {
+          "key": "B1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/4134367"
+        },
+        {
+          "key": "B2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/229573"
+        },
+        {
+          "key": "B3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1037/0022-3514.51.6.1173"
+        },
+        {
+          "key": "B4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/S15328007SEM0703_6"
+        },
+        {
+          "key": "B5",
+          "first-page": "241",
+          "volume-title": "Handbook of Theory and Research for the Sociology of Education",
+          "author": "Bourdieu P.",
+          "year": "1986"
+        },
+        {
+          "key": "B6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.so.15.080189.000525"
+        },
+        {
+          "key": "B7",
+          "first-page": "136",
+          "volume-title": "Testing Structural Equation Models",
+          "author": "Browne M. W.",
+          "year": "1993"
+        },
+        {
+          "key": "B8",
+          "volume-title": "Trust in Schools: A Core Resource for Improvement",
+          "author": "Bryk A. S.",
+          "year": "2002"
+        },
+        {
+          "key": "B9",
+          "volume-title": "Charting Chicago School Reform. Democratic Localism as a Lever for Change",
+          "author": "Bryk A. S.",
+          "year": "1998"
+        },
+        {
+          "key": "B10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/499738"
+        },
+        {
+          "key": "B11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4159/9780674029095"
+        },
+        {
+          "key": "B12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2393923"
+        },
+        {
+          "key": "B13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0191-3085(00)22009-1"
+        },
+        {
+          "key": "B14",
+          "first-page": "55",
+          "volume": "13",
+          "author": "Cappelli P.",
+          "year": "1991",
+          "journal-title": "Res. Organ. Behavior"
+        },
+        {
+          "key": "B15",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.12987/yale/9780300089479.001.0001",
+          "volume-title": "Learning Policy: When State Education Reform Works",
+          "author": "Cohen D.",
+          "year": "2001"
+        },
+        {
+          "key": "B16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/228943"
+        },
+        {
+          "key": "B17",
+          "volume-title": "Foundations of Social Theory",
+          "author": "Coleman J. S.",
+          "year": "1990"
+        },
+        {
+          "key": "B18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/30040665"
+        },
+        {
+          "key": "B19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/3380579"
+        },
+        {
+          "key": "B20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3102/0013189X031009013"
+        },
+        {
+          "key": "B21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5465/amr.1998.1255632"
+        },
+        {
+          "key": "B22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/3151312"
+        },
+        {
+          "key": "B23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2393653"
+        },
+        {
+          "key": "B24",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1093/oso/9780198287872.001.0001",
+          "volume-title": "Changing Times",
+          "author": "Gershuny J.",
+          "year": "2000"
+        },
+        {
+          "key": "B25",
+          "first-page": "293",
+          "volume-title": "Images of Schools, Structures and Roles in Organizational Behavior",
+          "author": "Goldring E.",
+          "year": "1995"
+        },
+        {
+          "key": "B26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/000271621606700118"
+        },
+        {
+          "key": "B27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2667032"
+        },
+        {
+          "key": "B28",
+          "volume-title": "Education Epidemic: Transforming Secondary Schools through Innovation Networks",
+          "author": "Hargreaves D.",
+          "year": "2003"
+        },
+        {
+          "key": "B29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/job.77"
+        },
+        {
+          "key": "B30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/461815"
+        },
+        {
+          "key": "B31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/10705519909540118"
+        },
+        {
+          "key": "B32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/749810"
+        },
+        {
+          "key": "B33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1744-6570.1997.tb00703.x"
+        },
+        {
+          "key": "B34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1037/0021-9010.69.2.307"
+        },
+        {
+          "key": "B35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/job.80"
+        },
+        {
+          "key": "B36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5465/amr.2006.20208687"
+        },
+        {
+          "key": "B37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0277-9536(89)90317-1"
+        },
+        {
+          "key": "B38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0193841X8100500502"
+        },
+        {
+          "key": "B39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1097-0266(200003)21:3<217::AID-SMJ95>3.0.CO;2-Y"
+        },
+        {
+          "key": "B40",
+          "volume-title": "Using LISREL for Structural Equation Modeling: A Researcher’s Guide",
+          "author": "Kelloway E. K.",
+          "year": "1998"
+        },
+        {
+          "key": "B41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1037/0022-3514.48.2.339"
+        },
+        {
+          "key": "B42",
+          "first-page": "512",
+          "volume-title": "Multilevel Theory, Research, and Methods in Organizations",
+          "author": "Klein K. J.",
+          "year": "2000"
+        },
+        {
+          "key": "B43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1097-0266(200003)21:3<405::AID-SMJ103>3.0.CO;2-5"
+        },
+        {
+          "key": "B44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/smj.252"
+        },
+        {
+          "key": "B45",
+          "doi-asserted-by": "crossref",
+          "first-page": "753",
+          "DOI": "10.2307/259203",
+          "volume": "25",
+          "author": "Leana C. R.",
+          "year": "2000",
+          "journal-title": "Acad. Management Rev."
+        },
+        {
+          "key": "B46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5465/amr.1999.2202136"
+        },
+        {
+          "key": "B47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/0924345940050302"
+        },
+        {
+          "key": "B48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.soc.25.1.467"
+        },
+        {
+          "key": "B49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3102/0013189X031006003"
+        },
+        {
+          "key": "B50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/444197"
+        },
+        {
+          "key": "B51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3102/00028312033004757"
+        },
+        {
+          "key": "B52",
+          "volume-title": "Professional Communities and the Work of High School Teaching",
+          "author": "McLaughlin M.",
+          "year": "2001"
+        },
+        {
+          "key": "B53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/job.86"
+        },
+        {
+          "key": "B54",
+          "volume-title": "Principals in Action: The Reality of Managing Schools",
+          "author": "Morris V. C.",
+          "year": "1984"
+        },
+        {
+          "key": "B55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.ps.44.020193.001211"
+        },
+        {
+          "key": "B56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5465/amr.1998.533225"
+        },
+        {
+          "key": "B57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0021886300361002"
+        },
+        {
+          "key": "B58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1464-0597.1998.tb00034.x"
+        },
+        {
+          "key": "B60",
+          "volume-title": "The External Control of Organizations",
+          "author": "Pfeffer J.",
+          "year": "1978"
+        },
+        {
+          "key": "B61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.soc.24.1.1"
+        },
+        {
+          "key": "B62",
+          "volume-title": "A Theory of Action for Urban School Districts",
+          "author": "Resnick L.",
+          "year": "2001"
+        },
+        {
+          "issue": "1",
+          "key": "B63",
+          "first-page": "11",
+          "volume": "117",
+          "author": "Robinson J.",
+          "year": "1994",
+          "journal-title": "Monthly Labor Rev."
+        },
+        {
+          "key": "B64",
+          "unstructured": "Rosenthal E. Social networks and team performance. (1996) . Ph.D. dissertation, University of Chicago, Chicago, IL"
+        },
+        {
+          "key": "B65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/job.78"
+        },
+        {
+          "key": "B66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5465/AMR.1998.926617"
+        },
+        {
+          "key": "B67",
+          "volume-title": "Explorations in Economic Sociology",
+          "author": "Sable C.",
+          "year": "1993"
+        },
+        {
+          "key": "B68",
+          "volume-title": "The Predictable Failure of Educational Reform",
+          "author": "Sarason S. B.",
+          "year": "1990"
+        },
+        {
+          "key": "B69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3102/0013189X031001013"
+        },
+        {
+          "key": "B70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/3069452"
+        },
+        {
+          "key": "B71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0092070397254003"
+        },
+        {
+          "key": "B72",
+          "first-page": "421",
+          "volume-title": "Handbook of Research on Educational Administration",
+          "author": "Smylie M.",
+          "year": "1999"
+        },
+        {
+          "key": "B73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/3069458"
+        },
+        {
+          "issue": "3",
+          "key": "B74",
+          "first-page": "23",
+          "volume-title": "Educational Researcher",
+          "volume": "30",
+          "author": "Spillane J. P.",
+          "year": "2001"
+        },
+        {
+          "key": "B75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/749621"
+        },
+        {
+          "key": "B76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/257085"
+        },
+        {
+          "key": "B77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/s15327671espr0201_5"
+        },
+        {
+          "key": "B78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2393808"
+        },
+        {
+          "issue": "2",
+          "key": "B79",
+          "doi-asserted-by": "crossref",
+          "first-page": "139",
+          "DOI": "10.17730/humo.34.2.x6695w88741p7703",
+          "volume": "34",
+          "author": "Warren R.",
+          "year": "1975",
+          "journal-title": "Human Organ."
+        },
+        {
+          "key": "B80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1287/orsc.6.1.76"
+        }
+      ],
+      "container-title": [
+        "Organization Science"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://pubsonline.informs.org/doi/pdf/10.1287/orsc.1060.0191",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            4
+          ]
+        ],
+        "date-time": "2024-02-04T12:21:50Z",
+        "timestamp": 1707049310000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://pubsonline.informs.org/doi/10.1287/orsc.1060.0191"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2006,
+            6
+          ]
+        ]
+      },
+      "references-count": 79,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1287/orsc.1060.0191"
+      ],
+      "URL": "https://doi.org/10.1287/orsc.1060.0191",
+      "relation": {},
+      "ISSN": [
+        "1047-7039",
+        "1526-5455"
+      ],
+      "issn-type": [
+        {
+          "value": "1047-7039",
+          "type": "print"
+        },
+        {
+          "value": "1526-5455",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2006,
+            6
+          ]
+        ]
+      }
+    },
+    "openalex_query_url": "https://api.openalex.org/works/https://doi.org/10.1287/orsc.1060.0191",
+    "openalex": {
+      "id": "https://openalex.org/W2155711245",
+      "doi": "https://doi.org/10.1287/orsc.1060.0191",
+      "title": "Social Capital and Organizational Performance: Evidence from Urban Public Schools",
+      "display_name": "Social Capital and Organizational Performance: Evidence from Urban Public Schools",
+      "publication_year": 2006,
+      "publication_date": "2006-05-16",
+      "ids": {
+        "openalex": "https://openalex.org/W2155711245",
+        "doi": "https://doi.org/10.1287/orsc.1060.0191",
+        "mag": "2155711245"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1287/orsc.1060.0191",
+        "doi": "https://doi.org/10.1287/orsc.1060.0191",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1287/orsc.1060.0191",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S206124708",
+          "display_name": "Organization Science",
+          "issn_l": "1047-7039",
+          "issn": [
+            "1047-7039",
+            "1526-5455"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-1-star",
+            "ft50",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "utd24",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310315699",
+          "host_organization_name": "Institute for Operations Research and the Management Sciences",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315699"
+          ],
+          "host_organization_lineage_names": [
+            "Institute for Operations Research and the Management Sciences"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Organization Science",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2155711245"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5015909635",
+            "display_name": "Carrie R. Leana",
+            "orcid": "https://orcid.org/0000-0002-4558-1633",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4558-1633"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I170201317",
+              "display_name": "University of Pittsburgh",
+              "ror": "https://ror.org/01an3r305",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I170201317"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Carrie R. Leana",
+          "raw_affiliation_strings": [
+            "University of Pittsburgh, 342 Mervis Hall, Pittsburgh, Pennsylvania 15260"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Pittsburgh, 342 Mervis Hall, Pittsburgh, Pennsylvania 15260",
+              "institution_ids": [
+                "https://openalex.org/I170201317"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5034297872",
+            "display_name": "Frits K. Pil",
+            "orcid": "https://orcid.org/0000-0001-5267-2042",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5267-2042"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I170201317",
+              "display_name": "University of Pittsburgh",
+              "ror": "https://ror.org/01an3r305",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I170201317"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Frits K. Pil",
+          "raw_affiliation_strings": [
+            "University of Pittsburgh, 326 Mervis Hall, Pittsburgh, Pennsylvania 15260"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Pittsburgh, 326 Mervis Hall, Pittsburgh, Pennsylvania 15260",
+              "institution_ids": [
+                "https://openalex.org/I170201317"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I170201317"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 34.2478,
+      "has_fulltext": false,
+      "cited_by_count": 703,
+      "citation_normalized_percentile": {
+        "value": 0.99680303,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 99,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "17",
+        "issue": "3",
+        "first_page": "353",
+        "last_page": "366"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11239",
+        "display_name": "Social Capital and Networks",
+        "score": 0.7372999787330627,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11239",
+          "display_name": "Social Capital and Networks",
+          "score": 0.7372999787330627,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3312",
+            "display_name": "Sociology and Political Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13884",
+          "display_name": "Educational Leadership and Practices",
+          "score": 0.06849999725818634,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11676",
+          "display_name": "Parental Involvement in Education",
+          "score": 0.06289999932050705,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/social-capital",
+          "display_name": "social capital",
+          "score": 0.9990000128746033
+        },
+        {
+          "id": "https://openalex.org/keywords/organizational-performance",
+          "display_name": "organizational performance",
+          "score": 0.9800000190734863
+        },
+        {
+          "id": "https://openalex.org/keywords/urban-public-schools",
+          "display_name": "urban public schools",
+          "score": 0.9580000042915344
+        },
+        {
+          "id": "https://openalex.org/keywords/internal-social-capital",
+          "display_name": "internal social capital",
+          "score": 0.8830000162124634
+        },
+        {
+          "id": "https://openalex.org/keywords/external-social-capital",
+          "display_name": "external social capital",
+          "score": 0.9940000176429749
+        },
+        {
+          "id": "https://openalex.org/keywords/academic-achievement",
+          "display_name": "academic performance",
+          "score": 0.7879999876022339
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematics-achievement",
+          "display_name": "mathematics achievement",
+          "score": 0.9110000133514404
+        },
+        {
+          "id": "https://openalex.org/keywords/reading-achievement",
+          "display_name": "reading achievement",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/teacher-quality",
+          "display_name": "teacher quality",
+          "score": 0.7519999742507935
+        },
+        {
+          "id": "https://openalex.org/keywords/teacher-relationships",
+          "display_name": "teacher relationships",
+          "score": 0.5759999752044678
+        },
+        {
+          "id": "https://openalex.org/keywords/mediation",
+          "display_name": "mediation",
+          "score": 0.47099998593330383
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C68062652",
+          "wikidata": "https://www.wikidata.org/wiki/Q214693",
+          "display_name": "Social capital",
+          "level": 2,
+          "score": 0.7689902782440186
+        },
+        {
+          "id": "https://openalex.org/C554936623",
+          "wikidata": "https://www.wikidata.org/wiki/Q199657",
+          "display_name": "Reading (process)",
+          "level": 2,
+          "score": 0.5893122553825378
+        },
+        {
+          "id": "https://openalex.org/C37129596",
+          "wikidata": "https://www.wikidata.org/wiki/Q194417",
+          "display_name": "Social mobility",
+          "level": 2,
+          "score": 0.5391005277633667
+        },
+        {
+          "id": "https://openalex.org/C2779343474",
+          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+          "display_name": "Context (archaeology)",
+          "level": 2,
+          "score": 0.496072381734848
+        },
+        {
+          "id": "https://openalex.org/C63545947",
+          "wikidata": "https://www.wikidata.org/wiki/Q10958910",
+          "display_name": "Individual capital",
+          "level": 4,
+          "score": 0.48812445998191833
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.43142324686050415
+        },
+        {
+          "id": "https://openalex.org/C2776037352",
+          "wikidata": "https://www.wikidata.org/wiki/Q7102010",
+          "display_name": "Organizational capital",
+          "level": 3,
+          "score": 0.42067188024520874
+        },
+        {
+          "id": "https://openalex.org/C2776943663",
+          "wikidata": "https://www.wikidata.org/wiki/Q165687",
+          "display_name": "Human capital",
+          "level": 2,
+          "score": 0.3977334797382355
+        },
+        {
+          "id": "https://openalex.org/C77805123",
+          "wikidata": "https://www.wikidata.org/wiki/Q161272",
+          "display_name": "Social psychology",
+          "level": 1,
+          "score": 0.37638986110687256
+        },
+        {
+          "id": "https://openalex.org/C39549134",
+          "wikidata": "https://www.wikidata.org/wiki/Q133080",
+          "display_name": "Public relations",
+          "level": 1,
+          "score": 0.34565165638923645
+        },
+        {
+          "id": "https://openalex.org/C44750222",
+          "wikidata": "https://www.wikidata.org/wiki/Q1897397",
+          "display_name": "Financial capital",
+          "level": 3,
+          "score": 0.2864011526107788
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.2802378535270691
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.2690267562866211
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.2068854570388794
+        },
+        {
+          "id": "https://openalex.org/C36289849",
+          "wikidata": "https://www.wikidata.org/wiki/Q34749",
+          "display_name": "Social science",
+          "level": 1,
+          "score": 0.13463017344474792
+        },
+        {
+          "id": "https://openalex.org/C50522688",
+          "wikidata": "https://www.wikidata.org/wiki/Q189833",
+          "display_name": "Economic growth",
+          "level": 1,
+          "score": 0.11646786332130432
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C86803240",
+          "wikidata": "https://www.wikidata.org/wiki/Q420",
+          "display_name": "Biology",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1287/orsc.1060.0191",
+          "doi": "https://doi.org/10.1287/orsc.1060.0191",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1287/orsc.1060.0191",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S206124708",
+            "display_name": "Organization Science",
+            "issn_l": "1047-7039",
+            "issn": [
+              "1047-7039",
+              "1526-5455"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a-star",
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "erih-plus",
+              "fnege-1-star",
+              "ft50",
+              "jufo-3",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1",
+              "utd24",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310315699",
+            "host_organization_name": "Institute for Operations Research and the Management Sciences",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315699"
+            ],
+            "host_organization_lineage_names": [
+              "Institute for Operations Research and the Management Sciences"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Organization Science",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/4",
+          "display_name": "Quality education",
+          "score": 0.6164000034332275
+        }
+      ],
+      "study_designs": [
+        {
+          "id": "https://openalex.org/study-designs/observational-study",
+          "display_name": "Observational Study"
+        }
+      ],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 126,
+      "referenced_works": [
+        "https://openalex.org/W70862730",
+        "https://openalex.org/W91218348",
+        "https://openalex.org/W123354321",
+        "https://openalex.org/W341684880",
+        "https://openalex.org/W380575115",
+        "https://openalex.org/W1498488428",
+        "https://openalex.org/W1517602275",
+        "https://openalex.org/W1522361246",
+        "https://openalex.org/W1522581641",
+        "https://openalex.org/W1528074835",
+        "https://openalex.org/W1544506755",
+        "https://openalex.org/W1546584051",
+        "https://openalex.org/W1548098784",
+        "https://openalex.org/W1560905799",
+        "https://openalex.org/W1566172004",
+        "https://openalex.org/W1578976078",
+        "https://openalex.org/W1586930966",
+        "https://openalex.org/W1588454345",
+        "https://openalex.org/W1601562930",
+        "https://openalex.org/W1964455891",
+        "https://openalex.org/W1965229803",
+        "https://openalex.org/W1971440513",
+        "https://openalex.org/W1975174386",
+        "https://openalex.org/W1981709842",
+        "https://openalex.org/W1982695941",
+        "https://openalex.org/W1983785178",
+        "https://openalex.org/W1984200947",
+        "https://openalex.org/W1985447481",
+        "https://openalex.org/W1986854242",
+        "https://openalex.org/W1987554649",
+        "https://openalex.org/W1988771976",
+        "https://openalex.org/W1989497771",
+        "https://openalex.org/W1990944405",
+        "https://openalex.org/W1993663609",
+        "https://openalex.org/W1995532516",
+        "https://openalex.org/W1995646485",
+        "https://openalex.org/W1996339572",
+        "https://openalex.org/W1999216122",
+        "https://openalex.org/W2002159405",
+        "https://openalex.org/W2003653760",
+        "https://openalex.org/W2010091818",
+        "https://openalex.org/W2019758655",
+        "https://openalex.org/W2024120027",
+        "https://openalex.org/W2024573942",
+        "https://openalex.org/W2025795695",
+        "https://openalex.org/W2030147583",
+        "https://openalex.org/W2030477495",
+        "https://openalex.org/W2030799799",
+        "https://openalex.org/W2035254464",
+        "https://openalex.org/W2038790402",
+        "https://openalex.org/W2044336570",
+        "https://openalex.org/W2044595850",
+        "https://openalex.org/W2049890080",
+        "https://openalex.org/W2061336947",
+        "https://openalex.org/W2061977616",
+        "https://openalex.org/W2062271071",
+        "https://openalex.org/W2065231053",
+        "https://openalex.org/W2071666535",
+        "https://openalex.org/W2073895501",
+        "https://openalex.org/W2080786613",
+        "https://openalex.org/W2084525052",
+        "https://openalex.org/W2085491458",
+        "https://openalex.org/W2087824311",
+        "https://openalex.org/W2088913158",
+        "https://openalex.org/W2091877193",
+        "https://openalex.org/W2100466789",
+        "https://openalex.org/W2101989259",
+        "https://openalex.org/W2102289125",
+        "https://openalex.org/W2106947891",
+        "https://openalex.org/W2107678607",
+        "https://openalex.org/W2108183214",
+        "https://openalex.org/W2109427417",
+        "https://openalex.org/W2114647797",
+        "https://openalex.org/W2114844053",
+        "https://openalex.org/W2115059495",
+        "https://openalex.org/W2117942482",
+        "https://openalex.org/W2121162031",
+        "https://openalex.org/W2123709218",
+        "https://openalex.org/W2124013233",
+        "https://openalex.org/W2124177331",
+        "https://openalex.org/W2124756263",
+        "https://openalex.org/W2129658695",
+        "https://openalex.org/W2130140239",
+        "https://openalex.org/W2132081716",
+        "https://openalex.org/W2134661145",
+        "https://openalex.org/W2135294225",
+        "https://openalex.org/W2136315780",
+        "https://openalex.org/W2136754123",
+        "https://openalex.org/W2137440056",
+        "https://openalex.org/W2140090975",
+        "https://openalex.org/W2140294498",
+        "https://openalex.org/W2140956556",
+        "https://openalex.org/W2142488799",
+        "https://openalex.org/W2146458355",
+        "https://openalex.org/W2147403160",
+        "https://openalex.org/W2149896351",
+        "https://openalex.org/W2152636057",
+        "https://openalex.org/W2153739619",
+        "https://openalex.org/W2153943092",
+        "https://openalex.org/W2157618535",
+        "https://openalex.org/W2158460690",
+        "https://openalex.org/W2162614344",
+        "https://openalex.org/W2162789680",
+        "https://openalex.org/W2166949559",
+        "https://openalex.org/W2168666931",
+        "https://openalex.org/W2191469296",
+        "https://openalex.org/W2314388214",
+        "https://openalex.org/W2321650456",
+        "https://openalex.org/W2324619618",
+        "https://openalex.org/W2330004525",
+        "https://openalex.org/W2420701085",
+        "https://openalex.org/W2552787802",
+        "https://openalex.org/W2585757493",
+        "https://openalex.org/W2796976961",
+        "https://openalex.org/W2970538389",
+        "https://openalex.org/W2992472238",
+        "https://openalex.org/W3106324100",
+        "https://openalex.org/W3123534837",
+        "https://openalex.org/W4235678817",
+        "https://openalex.org/W4236584116",
+        "https://openalex.org/W4244387885",
+        "https://openalex.org/W4248242548",
+        "https://openalex.org/W4252146759",
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W4299927410",
+        "https://openalex.org/W4388113596"
+      ],
+      "related_works": [
+        "https://openalex.org/W1997843870",
+        "https://openalex.org/W312506893",
+        "https://openalex.org/W3197154540",
+        "https://openalex.org/W7097588029",
+        "https://openalex.org/W6885069841",
+        "https://openalex.org/W1993802452",
+        "https://openalex.org/W2516207759",
+        "https://openalex.org/W1990588388",
+        "https://openalex.org/W7100964749",
+        "https://openalex.org/W64872833"
+      ],
+      "abstract_inverted_index": {
+        "In": [
+          0
+        ],
+        "this": [
+          1
+        ],
+        "paper": [
+          2
+        ],
+        "we": [
+          3,
+          43
+        ],
+        "examine": [
+          4
+        ],
+        "social": [
+          5,
+          23,
+          57,
+          64,
+          96,
+          104,
+          133
+        ],
+        "capital": [
+          6,
+          24,
+          58,
+          65,
+          97
+        ],
+        "and": [
+          7,
+          21,
+          50,
+          62,
+          70,
+          78,
+          98
+        ],
+        "its": [
+          8
+        ],
+        "relationship": [
+          9,
+          94
+        ],
+        "with": [
+          10
+        ],
+        "performance": [
+          11
+        ],
+        "at": [
+          12
+        ],
+        "the": [
+          13,
+          68,
+          116,
+          126
+        ],
+        "organizational": [
+          14,
+          31
+        ],
+        "level.": [
+          15
+        ],
+        "We": [
+          16,
+          33,
+          100
+        ],
+        "predict": [
+          17,
+          73
+        ],
+        "that": [
+          18,
+          54,
+          103
+        ],
+        "both": [
+          19,
+          55
+        ],
+        "internal": [
+          20,
+          56
+        ],
+        "external": [
+          22,
+          63,
+          71
+        ],
+        "will": [
+          25
+        ],
+        "have": [
+          26
+        ],
+        "a": [
+          27,
+          92
+        ],
+        "positive": [
+          28
+        ],
+        "effect": [
+          29
+        ],
+        "on": [
+          30,
+          107
+        ],
+        "performance.": [
+          32,
+          99
+        ],
+        "test": [
+          34
+        ],
+        "our": [
+          35
+        ],
+        "hypotheses": [
+          36
+        ],
+        "in": [
+          37,
+          76,
+          110,
+          130
+        ],
+        "88": [
+          38
+        ],
+        "urban": [
+          39
+        ],
+        "public": [
+          40
+        ],
+        "schools": [
+          41
+        ],
+        "where": [
+          42
+        ],
+        "collected": [
+          44
+        ],
+        "data": [
+          45
+        ],
+        "from": [
+          46
+        ],
+        "principals,": [
+          47
+        ],
+        "teachers,": [
+          48
+        ],
+        "parents,": [
+          49
+        ],
+        "students.": [
+          51
+        ],
+        "Results": [
+          52
+        ],
+        "indicate": [
+          53
+        ],
+        "(relations": [
+          59,
+          66
+        ],
+        "among": [
+          60
+        ],
+        "teachers)": [
+          61
+        ],
+        "between": [
+          67,
+          95
+        ],
+        "principal": [
+          69
+        ],
+        "stakeholders)": [
+          72
+        ],
+        "student": [
+          74,
+          108
+        ],
+        "achievement": [
+          75,
+          109
+        ],
+        "mathematics": [
+          77
+        ],
+        "reading.": [
+          79
+        ],
+        "These": [
+          80,
+          123
+        ],
+        "effects": [
+          81
+        ],
+        "were": [
+          82
+        ],
+        "sustained": [
+          83
+        ],
+        "over": [
+          84
+        ],
+        "time": [
+          85
+        ],
+        "for": [
+          86,
+          91
+        ],
+        "reading": [
+          87
+        ],
+        "achievement,": [
+          88
+        ],
+        "providing": [
+          89
+        ],
+        "support": [
+          90
+        ],
+        "causal": [
+          93
+        ],
+        "provide": [
+          101
+        ],
+        "evidence": [
+          102
+        ],
+        "capital’s": [
+          105
+        ],
+        "impact": [
+          106
+        ],
+        "math—but": [
+          111
+        ],
+        "not": [
+          112
+        ],
+        "reading—is": [
+          113
+        ],
+        "mediated": [
+          114
+        ],
+        "by": [
+          115,
+          121
+        ],
+        "quality": [
+          117
+        ],
+        "of": [
+          118,
+          128,
+          132
+        ],
+        "instruction": [
+          119
+        ],
+        "provided": [
+          120
+        ],
+        "teachers.": [
+          122
+        ],
+        "results": [
+          124
+        ],
+        "underscore": [
+          125
+        ],
+        "importance": [
+          127
+        ],
+        "context": [
+          129
+        ],
+        "studies": [
+          131
+        ],
+        "capital.": [
+          134
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 26
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 28
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 35
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 42
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 51
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 45
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 55
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 56
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 41
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 52
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 33
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 40
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 30
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+  },
+  {
+    "doi_query": "10.5465/amj.2009.44632557",
+    "crossref_query_url": "https://api.crossref.org/works/10.5465/amj.2009.44632557",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ],
+        "date-time": "2026-11-12T22:31:16Z",
+        "timestamp": 1794522676250,
+        "version": "4.9.1"
+      },
+      "reference-count": 30,
+      "publisher": "Academy of Management",
+      "issue": "5",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "AMJ"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            10
+          ]
+        ]
+      },
+      "DOI": "10.5465/amj.2009.44632557",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2011,
+            5,
+            5
+          ]
+        ],
+        "date-time": "2011-05-05T15:42:37Z",
+        "timestamp": 1304610157000
+      },
+      "page": "856-862",
+      "source": "Crossref",
+      "is-referenced-by-count": 1365,
+      "title": [
+        "From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research"
+      ],
+      "prefix": "10.5465",
+      "volume": "52",
+      "author": [
+        {
+          "given": "Michael G.",
+          "family": "Pratt",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Boston College"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "3433",
+      "reference": [
+        {
+          "key": "B1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1515/9781400828883",
+          "volume-title": "Moral gray zones",
+          "author": "Anteby M",
+          "year": "2008"
+        },
+        {
+          "key": "B2",
+          "doi-asserted-by": "crossref",
+          "first-page": "9",
+          "DOI": "10.5465/amj.2006.20785494",
+          "volume": "49",
+          "author": "Bartunek J.",
+          "journal-title": "Academy of Management Journal"
+        },
+        {
+          "key": "B3",
+          "doi-asserted-by": "crossref",
+          "first-page": "160",
+          "DOI": "10.1177/1094428106292900",
+          "volume": "11",
+          "author": "Bitektine A",
+          "year": "2008",
+          "journal-title": "Organizational Research Methods"
+        },
+        {
+          "key": "B4",
+          "first-page": "94",
+          "volume-title": "Science in context",
+          "author": "Collins H. M",
+          "year": "1982"
+        },
+        {
+          "key": "B5",
+          "doi-asserted-by": "crossref",
+          "first-page": "173",
+          "DOI": "10.2307/4131471",
+          "volume": "49",
+          "author": "Corley K.",
+          "year": "2004",
+          "journal-title": "Administrative Science Quarterly"
+        },
+        {
+          "key": "B6",
+          "unstructured": "Creswell J. 2003. Mixed methods procedures.\n                      Research design: Qualitative, quantitative, and mixed methods approaches\n                      (2nd ed.). Thousand Oaks, CA: Sage."
+        },
+        {
+          "key": "B7",
+          "doi-asserted-by": "crossref",
+          "first-page": "532",
+          "DOI": "10.5465/amr.1989.4279003",
+          "volume": "14",
+          "author": "Eisenhardt K",
+          "year": "1989",
+          "journal-title": "Academy of Management Review"
+        },
+        {
+          "key": "B8",
+          "volume-title": "The interpretation of culture: Selected essays",
+          "author": "Geertz C",
+          "year": "1973"
+        },
+        {
+          "key": "B9",
+          "doi-asserted-by": "crossref",
+          "first-page": "454",
+          "DOI": "10.5465/amj.2004.14438580",
+          "volume": "7",
+          "author": "Gephardt R",
+          "year": "2004",
+          "journal-title": "Academy of Management Journal"
+        },
+        {
+          "key": "B10",
+          "doi-asserted-by": "crossref",
+          "first-page": "217",
+          "DOI": "10.2307/2573808",
+          "volume": "36",
+          "author": "Gold R. L",
+          "year": "1957",
+          "journal-title": "Social Forces"
+        },
+        {
+          "key": "B11",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.4135/9781412983709",
+          "volume-title": "Composing qualitative research",
+          "author": "Golden-Biddle K.",
+          "year": "2007",
+          "edition": "2"
+        },
+        {
+          "key": "B12",
+          "doi-asserted-by": "crossref",
+          "first-page": "764",
+          "DOI": "10.2307/2667055",
+          "volume": "44",
+          "author": "Ibarra H",
+          "year": "1999",
+          "journal-title": "Administrative Science Quarterly"
+        },
+        {
+          "key": "B13",
+          "doi-asserted-by": "crossref",
+          "first-page": "161",
+          "DOI": "10.1006/jvbe.1999.1707",
+          "volume": "55",
+          "author": "Lee T.",
+          "year": "1999",
+          "journal-title": "Journal of Vocational Behavior"
+        },
+        {
+          "key": "B14",
+          "volume-title": "Analyzing social settings: A guide to qualitative observation and analysis",
+          "author": "Lofland J.",
+          "year": "1995",
+          "edition": "3"
+        },
+        {
+          "key": "B15",
+          "doi-asserted-by": "crossref",
+          "first-page": "847",
+          "DOI": "10.5465/amj.2008.34789639",
+          "volume": "51",
+          "author": "Margolis J. D.",
+          "year": "2008",
+          "journal-title": "Academy of Management Journal"
+        },
+        {
+          "key": "B16",
+          "first-page": "491",
+          "volume": "5",
+          "author": "Morgan G.",
+          "year": "1990",
+          "journal-title": "Management Review"
+        },
+        {
+          "key": "B17",
+          "volume-title": "Qualitative evaluation and research methods",
+          "author": "Patton M. Q",
+          "year": "1990",
+          "edition": "2"
+        },
+        {
+          "key": "B18",
+          "doi-asserted-by": "crossref",
+          "first-page": "267",
+          "DOI": "10.1287/orsc.1.3.267",
+          "volume": "1",
+          "author": "Pettigrew A",
+          "year": "1990",
+          "journal-title": "Organization Science"
+        },
+        {
+          "key": "B19",
+          "doi-asserted-by": "crossref",
+          "first-page": "456",
+          "DOI": "10.2307/2667106",
+          "volume": "45",
+          "author": "Pratt M. G",
+          "year": "2000",
+          "journal-title": "Administrative Science Quarterly"
+        },
+        {
+          "key": "B20",
+          "doi-asserted-by": "crossref",
+          "first-page": "481",
+          "DOI": "10.1177/1094428107303349",
+          "volume": "11",
+          "author": "Pratt M. G",
+          "year": "2008",
+          "journal-title": "Organizational Research Methods"
+        },
+        {
+          "key": "B21",
+          "doi-asserted-by": "crossref",
+          "first-page": "862",
+          "DOI": "10.2307/256951",
+          "volume": "40",
+          "author": "Pratt M. G.",
+          "year": "1997",
+          "journal-title": "Academy of Management Journal"
+        },
+        {
+          "key": "B22",
+          "doi-asserted-by": "crossref",
+          "first-page": "235",
+          "DOI": "10.5465/amj.2006.20786060",
+          "volume": "49",
+          "author": "Pratt M. G.",
+          "year": "2006",
+          "journal-title": "Academy of Management Journal"
+        },
+        {
+          "key": "B23",
+          "doi-asserted-by": "crossref",
+          "first-page": "395",
+          "DOI": "10.2307/30040635",
+          "volume": "46",
+          "author": "Pratt M. G.",
+          "year": "2003",
+          "journal-title": "Academy of Management Journal"
+        },
+        {
+          "key": "B24",
+          "doi-asserted-by": "crossref",
+          "first-page": "710",
+          "DOI": "10.2307/256756",
+          "volume": "36",
+          "author": "Ross J.",
+          "year": "1993",
+          "journal-title": "Academy of Management Journal"
+        },
+        {
+          "key": "B25",
+          "volume-title": "The ethnographic interview",
+          "author": "Spradley J",
+          "year": "1979"
+        },
+        {
+          "key": "B26",
+          "volume-title": "Basics of qualitative research",
+          "author": "Strauss A.",
+          "year": "1998",
+          "edition": "2"
+        },
+        {
+          "key": "B27",
+          "doi-asserted-by": "crossref",
+          "first-page": "633",
+          "DOI": "10.5465/amj.2006.22083020",
+          "volume": "49",
+          "author": "Suddaby R",
+          "year": "2006",
+          "journal-title": "Academy of Management Journal"
+        },
+        {
+          "key": "B28",
+          "doi-asserted-by": "crossref",
+          "first-page": "379",
+          "DOI": "10.1177/107780049500100401",
+          "volume": "1",
+          "author": "Tierney W. G",
+          "year": "1995",
+          "journal-title": "Qualitative Inquiry"
+        },
+        {
+          "key": "B29",
+          "volume-title": "What is a case? 173–202.",
+          "author": "Vaughn D",
+          "year": "1992"
+        },
+        {
+          "key": "B30",
+          "volume-title": "Case study research: Design and method",
+          "volume": "3",
+          "author": "Yin R",
+          "year": "2003"
+        }
+      ],
+      "container-title": [
+        "Academy of Management Journal"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://journals.aom.org/doi/10.5465/amj.2009.44632557",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            6
+          ]
+        ],
+        "date-time": "2023-06-06T12:39:56Z",
+        "timestamp": 1686055196000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://journals.aom.org/doi/10.5465/amj.2009.44632557"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2009,
+            10
+          ]
+        ]
+      },
+      "references-count": 30,
+      "journal-issue": {
+        "issue": "5",
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              10
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.5465/amj.2009.44632557"
+      ],
+      "URL": "https://doi.org/10.5465/amj.2009.44632557",
+      "relation": {},
+      "ISSN": [
+        "0001-4273",
+        "1948-0989"
+      ],
+      "issn-type": [
+        {
+          "value": "0001-4273",
+          "type": "print"
+        },
+        {
+          "value": "1948-0989",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            10
+          ]
+        ]
+      }
+    },
+    "openalex_query_url": "https://api.openalex.org/works/https://doi.org/10.5465/amj.2009.44632557",
+    "openalex": {
+      "id": "https://openalex.org/W2160923392",
+      "doi": "https://doi.org/10.5465/amj.2009.44632557",
+      "title": "From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research",
+      "display_name": "From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research",
+      "publication_year": 2009,
+      "publication_date": "2009-10-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2160923392",
+        "doi": "https://doi.org/10.5465/amj.2009.44632557",
+        "mag": "2160923392"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.5465/amj.2009.44632557",
+        "doi": "https://doi.org/10.5465/amj.2009.44632557",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.5465/amj.2009.44632557",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S117778295",
+          "display_name": "Academy of Management Journal",
+          "issn_l": "0001-4273",
+          "issn": [
+            "0001-4273",
+            "1948-0989"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-1-star",
+            "ft50",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "utd24",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310316266",
+          "host_organization_name": "Academy of Management",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316266"
+          ],
+          "host_organization_lineage_names": [
+            "Academy of Management"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Academy of Management Journal",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2160923392"
+      ],
+      "child_works_count": 0,
+      "type": "editorial",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5081867610",
+            "display_name": "Michael G. Pratt",
+            "orcid": "https://orcid.org/0000-0002-2917-1781",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2917-1781"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I103531236",
+              "display_name": "Boston College",
+              "ror": "https://ror.org/02n2fzt79",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I103531236"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Michael G. Pratt",
+          "raw_affiliation_strings": [
+            "Boston College"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Boston College",
+              "institution_ids": [
+                "https://openalex.org/I103531236"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5081867610"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I103531236"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "has_fulltext": false,
+      "cited_by_count": 1744,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "52",
+        "issue": "5",
+        "first_page": "856",
+        "last_page": "862"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12880",
+        "display_name": "Qualitative Research Methods and Applications",
+        "score": 0.9833999872207642,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12880",
+          "display_name": "Qualitative Research Methods and Applications",
+          "score": 0.9833999872207642,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12648",
+          "display_name": "Academic Writing and Publishing",
+          "score": 0.004399999976158142,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3309",
+            "display_name": "Library and Information Sciences"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12926",
+          "display_name": "Business Strategies and Management Research",
+          "score": 0.0034000000450760126,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1408",
+            "display_name": "Strategy and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/qualitative-writing",
+          "display_name": "qualitative research writing",
+          "score": 0.7710000276565552
+        },
+        {
+          "id": "https://openalex.org/keywords/research-reporting",
+          "display_name": "research reporting",
+          "score": 0.3919999897480011
+        },
+        {
+          "id": "https://openalex.org/keywords/peer-review",
+          "display_name": "peer review",
+          "score": 0.7250000238418579
+        },
+        {
+          "id": "https://openalex.org/keywords/academic-writing",
+          "display_name": "academic writing",
+          "score": 0.33000001311302185
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C75701414",
+          "wikidata": "https://www.wikidata.org/wiki/Q1651672",
+          "display_name": "Boilerplate text",
+          "level": 2,
+          "score": 0.7532823085784912
+        },
+        {
+          "id": "https://openalex.org/C190248442",
+          "wikidata": "https://www.wikidata.org/wiki/Q839486",
+          "display_name": "Qualitative research",
+          "level": 2,
+          "score": 0.5475533604621887
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.41512805223464966
+        },
+        {
+          "id": "https://openalex.org/C55587333",
+          "wikidata": "https://www.wikidata.org/wiki/Q1133029",
+          "display_name": "Engineering ethics",
+          "level": 1,
+          "score": 0.38911595940589905
+        },
+        {
+          "id": "https://openalex.org/C39549134",
+          "wikidata": "https://www.wikidata.org/wiki/Q133080",
+          "display_name": "Public relations",
+          "level": 1,
+          "score": 0.35473230481147766
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.3323298692703247
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.32271960377693176
+        },
+        {
+          "id": "https://openalex.org/C144133560",
+          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+          "display_name": "Business",
+          "level": 0,
+          "score": 0.22973176836967468
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.2075149118900299
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.17942818999290466
+        },
+        {
+          "id": "https://openalex.org/C36289849",
+          "wikidata": "https://www.wikidata.org/wiki/Q34749",
+          "display_name": "Social science",
+          "level": 1,
+          "score": 0.16346850991249084
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.12773600220680237
+        },
+        {
+          "id": "https://openalex.org/C112698675",
+          "wikidata": "https://www.wikidata.org/wiki/Q37038",
+          "display_name": "Advertising",
+          "level": 1,
+          "score": 0.12439009547233582
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.5465/amj.2009.44632557",
+          "doi": "https://doi.org/10.5465/amj.2009.44632557",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.5465/amj.2009.44632557",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S117778295",
+            "display_name": "Academy of Management Journal",
+            "issn_l": "0001-4273",
+            "issn": [
+              "0001-4273",
+              "1948-0989"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a-star",
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "erih-plus",
+              "fnege-1-star",
+              "ft50",
+              "jufo-3",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1",
+              "utd24",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310316266",
+            "host_organization_name": "Academy of Management",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310316266"
+            ],
+            "host_organization_lineage_names": [
+              "Academy of Management"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Academy of Management Journal",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 28,
+      "referenced_works": [
+        "https://openalex.org/W1495403436",
+        "https://openalex.org/W1506150625",
+        "https://openalex.org/W1527311855",
+        "https://openalex.org/W1562773932",
+        "https://openalex.org/W1930074288",
+        "https://openalex.org/W1970959237",
+        "https://openalex.org/W1975346963",
+        "https://openalex.org/W1984804982",
+        "https://openalex.org/W2008913319",
+        "https://openalex.org/W2009196937",
+        "https://openalex.org/W2030072787",
+        "https://openalex.org/W2062412138",
+        "https://openalex.org/W2070244092",
+        "https://openalex.org/W2073167412",
+        "https://openalex.org/W2085643406",
+        "https://openalex.org/W2095299437",
+        "https://openalex.org/W2103261934",
+        "https://openalex.org/W2108576434",
+        "https://openalex.org/W2118771233",
+        "https://openalex.org/W2137240809",
+        "https://openalex.org/W2144519697",
+        "https://openalex.org/W2146339376",
+        "https://openalex.org/W2147226379",
+        "https://openalex.org/W2155129137",
+        "https://openalex.org/W2390008750",
+        "https://openalex.org/W2782878764",
+        "https://openalex.org/W2905821330",
+        "https://openalex.org/W4233358251"
+      ],
+      "related_works": [
+        "https://openalex.org/W6903665329",
+        "https://openalex.org/W6922374830",
+        "https://openalex.org/W4251041536",
+        "https://openalex.org/W2483090347",
+        "https://openalex.org/W2899597397",
+        "https://openalex.org/W2793684105",
+        "https://openalex.org/W3208531287",
+        "https://openalex.org/W2954332150",
+        "https://openalex.org/W7005641038",
+        "https://openalex.org/W4239992491"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 125
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 130
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 136
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 109
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 133
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 130
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 126
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 129
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 112
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 95
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 106
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 99
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 77
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 75
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 72
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+  },
+  {
+    "doi_query": "10.1177/1094428104263675",
+    "crossref_query_url": "https://api.crossref.org/works/10.1177/1094428104263675",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            15
+          ]
+        ],
+        "date-time": "2026-11-15T01:14:38Z",
+        "timestamp": 1794705278402,
+        "version": "4.9.1"
+      },
+      "reference-count": 43,
+      "publisher": "SAGE Publications",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2004,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2004-04-01T00:00:00Z",
+            "timestamp": 1080777600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Organizational Research Methods"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2004,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:p>The decision of how many factors to retain is a critical component of exploratory factor analysis. Evidence is presented that parallel analysis is one of the most accurate factor retention methods while also being one of the most underutilized in management and organizational research. Therefore, a step-by-step guide to performing parallel analysis is described, and an example is provided using data from the Minnesota Satisfaction Questionnaire. Recommendations for making factor retention decisions are discussed.</jats:p>",
+      "DOI": "10.1177/1094428104263675",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2004,
+            5,
+            27
+          ]
+        ],
+        "date-time": "2004-05-27T11:59:35Z",
+        "timestamp": 1085659175000
+      },
+      "page": "191-205",
+      "source": "Crossref",
+      "is-referenced-by-count": 2352,
+      "title": [
+        "Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis"
+      ],
+      "prefix": "10.1177",
+      "volume": "7",
+      "author": [
+        {
+          "given": "James C.",
+          "family": "Hayton",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Utah State University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David G.",
+          "family": "Allen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Memphis"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vida",
+          "family": "Scarpello",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Florida"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "179",
+      "published-online": {
+        "date-parts": [
+          [
+            2004,
+            4,
+            1
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "atypb1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.2044-8317.1950.tb00285.x"
+        },
+        {
+          "key": "atypb2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2466/pms.1979.48.3.985"
+        },
+        {
+          "key": "atypb3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/s15327906mbr2704_2"
+        },
+        {
+          "key": "atypb4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Carraher, S. M. & Buckley, M. R. (1991). The effect of retention rule on the number of components retained: The case of the Pay Satisfaction Questionnaire. Proceedings of the Southern Management Association.",
+          "DOI": "10.2466/PR0.69.7.887-890"
+        },
+        {
+          "key": "atypb5",
+          "unstructured": "Carraher, S. M. & Buckley, M. R. (1995). The effect of retention rule on the number of components retained: The case of cognitive complexity and the PSQ. Proceedings of the Southern Management Association."
+        },
+        {
+          "key": "atypb6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/s15327906mbr0102_10"
+        },
+        {
+          "key": "atypb7",
+          "unstructured": "Cattell, R. B. & Jaspers, J. (1967). A general plasmode for factor analytic exercises and research. Multivariate Behavioral Research Monographs, 3, 1-212."
+        },
+        {
+          "key": "atypb8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02291261"
+        },
+        {
+          "key": "atypb9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1037/h0025178"
+        },
+        {
+          "key": "atypb10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2466/pms.1979.49.1.223"
+        },
+        {
+          "key": "atypb11",
+          "unstructured": "Eaton, C. A., Velicer, W. F. & Fava, J. L. (1999).\n                      Determining the number of components: An evaluation of parallel analysis and the minimum average partial correlation procedures\n                      . Unpublished manuscript."
+        },
+        {
+          "key": "atypb12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1037/1082-989X.4.3.272"
+        },
+        {
+          "key": "atypb13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1744-6570.1986.tb00583.x"
+        },
+        {
+          "key": "atypb14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0013164495055003002"
+        },
+        {
+          "key": "atypb15",
+          "unstructured": "Gorsuch, R. L. (1983). Factor analysis (2nd ed.). Hillsdale, NJ: Lawrence Erlbaum."
+        },
+        {
+          "key": "atypb16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/001316444600600401"
+        },
+        {
+          "key": "atypb17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02289162"
+        },
+        {
+          "key": "atypb18",
+          "unstructured": "Harshman, R. A. & Reddon, J. R. (1983). Determining the number of factors by comparing real with random data: A serious flaw and some possible corrections. Proceedings of the Classification Society of North America at Philadelphia, 14-15."
+        },
+        {
+          "key": "atypb19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0013164486461009"
+        },
+        {
+          "key": "atypb20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02289447"
+        },
+        {
+          "key": "atypb21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/s15327906mbr1002_5"
+        },
+        {
+          "key": "atypb22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1099-1379(199711)18:6<667::AID-JOB874>3.0.CO;2-T"
+        },
+        {
+          "key": "atypb23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/001316446002000116"
+        },
+        {
+          "key": "atypb24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02291817"
+        },
+        {
+          "key": "atypb25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/s15327906mbr2403_6"
+        },
+        {
+          "key": "atypb26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/s15327906mbr1403_2"
+        },
+        {
+          "key": "atypb27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02289675"
+        },
+        {
+          "key": "atypb28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/s15327906mbr2401_4"
+        },
+        {
+          "key": "atypb29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02293559"
+        },
+        {
+          "key": "atypb30",
+          "unstructured": "Nunnally, J. C. (1978). Psychometric theory (2nd ed.). New York: McGraw-Hill."
+        },
+        {
+          "key": "atypb31",
+          "unstructured": "Nunnally, J. C. & Bernstein, I. H. (1994). Psychometric theory (3rd ed.). New York: McGraw-Hill."
+        },
+        {
+          "key": "atypb32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/s15327906mbr1404_2"
+        },
+        {
+          "key": "atypb33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2466/pr0.1977.41.2.387"
+        },
+        {
+          "key": "atypb34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2466/pr0.1987.61.2.351"
+        },
+        {
+          "key": "atypb35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0013164496056002001"
+        },
+        {
+          "key": "atypb36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02290601"
+        },
+        {
+          "key": "atypb37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0013164498058004001"
+        },
+        {
+          "key": "atypb38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02293557"
+        },
+        {
+          "key": "atypb39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Velicer, W. F., Eaton, C. A. &amp; Fava, J. L. (2000). Construct explication through factor or component analysis: A review and evaluation of alternative procedures for determining the number of factors or components. InR. D. Goffin &amp; E. Helmes (Eds.), Problems and solutions in human assessment: Honoring Douglas N. Jackson at seventy. Norwell, MA: Kluwer Academic.",
+          "DOI": "10.1007/978-1-4615-4397-8_3"
+        },
+        {
+          "key": "atypb40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Weiss, D. J., Dawis, R. V., England, G. W. &amp; Lofquist, L. H. (1967). Manual for the Minnesota Satisfaction Questionnaire. Minnesota Studies in Vocational Rehabilitation, 22.",
+          "DOI": "10.1037/t05540-000"
+        },
+        {
+          "key": "atypb41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wood, J. M., Tataryn, D. J. &amp; Gorsuch, R. L. (1996). Effects of under- and overextraction on principal axis factor analysis with varimax rotation. Psychological Methods, 1, 254-365.",
+          "DOI": "10.1037//1082-989X.1.4.354"
+        },
+        {
+          "key": "atypb42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1207/s15327906mbr1702_5"
+        },
+        {
+          "key": "atypb43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1037/0033-2909.99.3.432"
+        }
+      ],
+      "container-title": [
+        "Organizational Research Methods"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1094428104263675",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1094428104263675",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            2
+          ]
+        ],
+        "date-time": "2026-05-02T04:14:24Z",
+        "timestamp": 1777695264000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://journals.sagepub.com/doi/10.1177/1094428104263675"
+        },
+        "secondary": [
+          {
+            "URL": "http://srmo.sagepub.com/view/sage-quantitative-research-methods/d57.xml",
+            "label": "sage-research"
+          },
+          {
+            "URL": "http://srmo.sagepub.com/view/sage-quantitative-research-methods/d57.xml",
+            "label": "sage-research"
+          }
+        ]
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2004,
+            4
+          ]
+        ]
+      },
+      "references-count": 43,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2004,
+              4
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1177/1094428104263675"
+      ],
+      "URL": "https://doi.org/10.1177/1094428104263675",
+      "relation": {},
+      "ISSN": [
+        "1094-4281",
+        "1552-7425"
+      ],
+      "issn-type": [
+        {
+          "value": "1094-4281",
+          "type": "print"
+        },
+        {
+          "value": "1552-7425",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2004,
+            4
+          ]
+        ]
+      }
+    },
+    "openalex_query_url": "https://api.openalex.org/works/https://doi.org/10.1177/1094428104263675",
+    "openalex": {
+      "id": "https://openalex.org/W2160643014",
+      "doi": "https://doi.org/10.1177/1094428104263675",
+      "title": "Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis",
+      "display_name": "Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis",
+      "publication_year": 2004,
+      "publication_date": "2004-04-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2160643014",
+        "doi": "https://doi.org/10.1177/1094428104263675",
+        "mag": "2160643014"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1177/1094428104263675",
+        "doi": "https://doi.org/10.1177/1094428104263675",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1177/1094428104263675",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S133599136",
+          "display_name": "Organizational Research Methods",
+          "issn_l": "1094-4281",
+          "issn": [
+            "1094-4281",
+            "1552-7425"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-1",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Organizational Research Methods",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2160643014"
+      ],
+      "child_works_count": 0,
+      "type": "article",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref",
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://doi.org/10.25405/ncl.34133904",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5015423251",
+            "display_name": "James C. Hayton",
+            "orcid": "https://orcid.org/0000-0002-7723-2964",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7723-2964"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I121980950",
+              "display_name": "Utah State University",
+              "ror": "https://ror.org/00h6set76",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I121980950"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "James C. Hayton",
+          "raw_affiliation_strings": [
+            "Utah State University"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Utah State University",
+              "institution_ids": [
+                "https://openalex.org/I121980950"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5059374621",
+            "display_name": "David Grayson Allen",
+            "orcid": "https://orcid.org/0000-0003-0067-2117",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0067-2117"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I94658018",
+              "display_name": "University of Memphis",
+              "ror": "https://ror.org/01cq23130",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I94658018"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "David G. Allen",
+          "raw_affiliation_strings": [
+            "University of Memphis"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Memphis",
+              "institution_ids": [
+                "https://openalex.org/I94658018"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5052301874",
+            "display_name": "Vida Scarpello",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I33213144",
+              "display_name": "University of Florida",
+              "ror": "https://ror.org/02y3ad647",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I33213144"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Vida Scarpello",
+          "raw_affiliation_strings": [
+            "University of Florida"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Florida",
+              "institution_ids": [
+                "https://openalex.org/I33213144"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": {
+        "value": 3900,
+        "currency": "USD",
+        "value_usd": 3900
+      },
+      "apc_paid": null,
+      "fwci": 22.4187,
+      "has_fulltext": false,
+      "cited_by_count": 3358,
+      "citation_normalized_percentile": {
+        "value": 0.99671395,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 99,
+        "max": 100
+      },
+      "biblio": {
+        "volume": "7",
+        "issue": "2",
+        "first_page": "191",
+        "last_page": "205"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10467",
+        "display_name": "Psychometric Methodologies and Testing",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10467",
+          "display_name": "Psychometric Methodologies and Testing",
+          "score": 0.9990000128746033,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1803",
+            "display_name": "Management Science and Operations Research"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/18",
+            "display_name": "Decision Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13141",
+          "display_name": "Statistical Methods and Applications",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2613",
+            "display_name": "Statistics and Probability"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/26",
+            "display_name": "Mathematics"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13283",
+          "display_name": "Mental Health Research Topics",
+          "score": 9.999999747378752e-05,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3205",
+            "display_name": "Experimental and Cognitive Psychology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/32",
+            "display_name": "Psychology"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/factor-retention",
+          "display_name": "factor retention",
+          "score": 0.906000018119812
+        },
+        {
+          "id": "https://openalex.org/keywords/parallel-analysis",
+          "display_name": "parallel analysis",
+          "score": 0.9490000009536743
+        },
+        {
+          "id": "https://openalex.org/keywords/exploratory-factor-analysis",
+          "display_name": "exploratory factor analysis",
+          "score": 0.9879999756813049
+        },
+        {
+          "id": "https://openalex.org/keywords/minnesota-satisfaction-questionnaire",
+          "display_name": "Minnesota Satisfaction Questionnaire",
+          "score": 0.9399999976158142
+        },
+        {
+          "id": "https://openalex.org/keywords/satisfaction-measurement",
+          "display_name": "satisfaction measurement",
+          "score": 0.40799999237060547
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C165957694",
+          "wikidata": "https://www.wikidata.org/wiki/Q5421350",
+          "display_name": "Exploratory factor analysis",
+          "level": 3,
+          "score": 0.8299380540847778
+        },
+        {
+          "id": "https://openalex.org/C2781039887",
+          "wikidata": "https://www.wikidata.org/wiki/Q1391724",
+          "display_name": "Factor (programming language)",
+          "level": 2,
+          "score": 0.7154668569564819
+        },
+        {
+          "id": "https://openalex.org/C3018260909",
+          "wikidata": "https://www.wikidata.org/wiki/Q1322871",
+          "display_name": "Exploratory analysis",
+          "level": 2,
+          "score": 0.6147789359092712
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.48368769884109497
+        },
+        {
+          "id": "https://openalex.org/C15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "level": 0,
+          "score": 0.3967052400112152
+        },
+        {
+          "id": "https://openalex.org/C2522767166",
+          "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+          "display_name": "Data science",
+          "level": 1,
+          "score": 0.2844051718711853
+        },
+        {
+          "id": "https://openalex.org/C71104824",
+          "wikidata": "https://www.wikidata.org/wiki/Q1476639",
+          "display_name": "Structural equation modeling",
+          "level": 2,
+          "score": 0.18410316109657288
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.11528462171554565
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 5,
+      "locations": [
+        {
+          "id": "doi:10.1177/1094428104263675",
+          "doi": "https://doi.org/10.1177/1094428104263675",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1177/1094428104263675",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S133599136",
+            "display_name": "Organizational Research Methods",
+            "issn_l": "1094-4281",
+            "issn": [
+              "1094-4281",
+              "1552-7425"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a-star",
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "erih-plus",
+              "fnege-1",
+              "jufo-3",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320017",
+            "host_organization_name": "SAGE Publishing",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320017"
+            ],
+            "host_organization_lineage_names": [
+              "SAGE Publishing"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Organizational Research Methods",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:iris.unibocconi.it:11565/40153",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://hdl.handle.net/11565/40153",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407055170",
+            "display_name": "Archivio istituzionale della Ricerca - Bocconi",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "info:eu-repo/semantics/article"
+        },
+        {
+          "id": "doi:10.25405/ncl.34133904",
+          "doi": "https://doi.org/10.25405/ncl.34133904",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.25405/ncl.34133904",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402485",
+            "display_name": "Newcastle University ePrints (Newcastle Univesity)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I84884186",
+            "host_organization_name": "Newcastle University",
+            "host_organization_lineage": [
+              "https://openalex.org/I84884186"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "JournalArticle"
+        },
+        {
+          "id": "doi:10.25405/ncl.34133904.v1",
+          "doi": "https://doi.org/10.25405/ncl.34133904.v1",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.25405/ncl.34133904.v1",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402485",
+            "display_name": "Newcastle University ePrints (Newcastle Univesity)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I84884186",
+            "host_organization_name": "Newcastle University",
+            "host_organization_lineage": [
+              "https://openalex.org/I84884186"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "JournalArticle"
+        },
+        {
+          "id": "pmh:oai:CiteSeerX.psu:10.1.1.890.7652",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.890.7652",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "http://orm.sagepub.com/content/7/2/191.full.pdf",
+          "raw_type": "text"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.25405/ncl.34133904",
+        "doi": "https://doi.org/10.25405/ncl.34133904",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.25405/ncl.34133904",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402485",
+          "display_name": "Newcastle University ePrints (Newcastle Univesity)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I84884186",
+          "host_organization_name": "Newcastle University",
+          "host_organization_lineage": [
+            "https://openalex.org/I84884186"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "JournalArticle"
+      },
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 39,
+      "referenced_works": [
+        "https://openalex.org/W1697663338",
+        "https://openalex.org/W1931276471",
+        "https://openalex.org/W1956700811",
+        "https://openalex.org/W1972806788",
+        "https://openalex.org/W1974462750",
+        "https://openalex.org/W1977775666",
+        "https://openalex.org/W1982724808",
+        "https://openalex.org/W1984962881",
+        "https://openalex.org/W1985234779",
+        "https://openalex.org/W1989528006",
+        "https://openalex.org/W1990517582",
+        "https://openalex.org/W1994561670",
+        "https://openalex.org/W1999558567",
+        "https://openalex.org/W2000432226",
+        "https://openalex.org/W2007356270",
+        "https://openalex.org/W2023350458",
+        "https://openalex.org/W2025415929",
+        "https://openalex.org/W2038551576",
+        "https://openalex.org/W2041404177",
+        "https://openalex.org/W2041963641",
+        "https://openalex.org/W2050270396",
+        "https://openalex.org/W2050853365",
+        "https://openalex.org/W2051441204",
+        "https://openalex.org/W2058872518",
+        "https://openalex.org/W2059171950",
+        "https://openalex.org/W2067543520",
+        "https://openalex.org/W2087329389",
+        "https://openalex.org/W2088477804",
+        "https://openalex.org/W2090723672",
+        "https://openalex.org/W2094088393",
+        "https://openalex.org/W2094102654",
+        "https://openalex.org/W2100603396",
+        "https://openalex.org/W2110818662",
+        "https://openalex.org/W2133097426",
+        "https://openalex.org/W2160172778",
+        "https://openalex.org/W2169040237",
+        "https://openalex.org/W2322947608",
+        "https://openalex.org/W2416099221",
+        "https://openalex.org/W2914337878"
+      ],
+      "related_works": [
+        "https://openalex.org/W2726932788",
+        "https://openalex.org/W3158553341",
+        "https://openalex.org/W109462893",
+        "https://openalex.org/W2991651364",
+        "https://openalex.org/W4407505555",
+        "https://openalex.org/W2162455491",
+        "https://openalex.org/W7095933305",
+        "https://openalex.org/W7214922589",
+        "https://openalex.org/W4246232844"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "decision": [
+          1
+        ],
+        "of": [
+          2,
+          12,
+          24,
+          35
+        ],
+        "how": [
+          3
+        ],
+        "many": [
+          4
+        ],
+        "factors": [
+          5
+        ],
+        "to": [
+          6,
+          48
+        ],
+        "retain": [
+          7
+        ],
+        "is": [
+          8,
+          17,
+          22,
+          52,
+          57
+        ],
+        "a": [
+          9,
+          45
+        ],
+        "critical": [
+          10
+        ],
+        "component": [
+          11
+        ],
+        "exploratory": [
+          13
+        ],
+        "factor": [
+          14,
+          28,
+          69
+        ],
+        "analysis.": [
+          15
+        ],
+        "Evidence": [
+          16
+        ],
+        "presented": [
+          18
+        ],
+        "that": [
+          19
+        ],
+        "parallel": [
+          20,
+          50
+        ],
+        "analysis": [
+          21,
+          51
+        ],
+        "one": [
+          23,
+          34
+        ],
+        "the": [
+          25,
+          36,
+          62
+        ],
+        "most": [
+          26,
+          37
+        ],
+        "accurate": [
+          27
+        ],
+        "retention": [
+          29,
+          70
+        ],
+        "methods": [
+          30
+        ],
+        "while": [
+          31
+        ],
+        "also": [
+          32
+        ],
+        "being": [
+          33
+        ],
+        "underutilized": [
+          38
+        ],
+        "in": [
+          39
+        ],
+        "management": [
+          40
+        ],
+        "and": [
+          41,
+          54
+        ],
+        "organizational": [
+          42
+        ],
+        "research.": [
+          43
+        ],
+        "Therefore,": [
+          44
+        ],
+        "step-by-step": [
+          46
+        ],
+        "guide": [
+          47
+        ],
+        "performing": [
+          49
+        ],
+        "described,": [
+          53
+        ],
+        "an": [
+          55
+        ],
+        "example": [
+          56
+        ],
+        "provided": [
+          58
+        ],
+        "using": [
+          59
+        ],
+        "data": [
+          60
+        ],
+        "from": [
+          61
+        ],
+        "Minnesota": [
+          63
+        ],
+        "Satisfaction": [
+          64
+        ],
+        "Questionnaire.": [
+          65
+        ],
+        "Recommendations": [
+          66
+        ],
+        "for": [
+          67
+        ],
+        "making": [
+          68
+        ],
+        "decisions": [
+          71
+        ],
+        "are": [
+          72
+        ],
+        "discussed.": [
+          73
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 292
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 234
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 235
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 238
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 221
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 237
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 235
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 189
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 201
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 163
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 165
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 152
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 153
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 143
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 149
+        }
+      ],
+      "updated_date": "2026-11-15T12:55:33.944570",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+  },
+  {
+    "doi_query": "10.5465/amr.1998.192979",
+    "crossref_query_url": "https://api.crossref.org/works/10.5465/amr.1998.192979",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            30
+          ]
+        ],
+        "date-time": "2022-03-30T09:29:32Z",
+        "timestamp": 1648632572345
+      },
+      "reference-count": 4,
+      "publisher": "Academy of Management",
+      "issue": "1",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "AMR"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1998,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.5465/amr.1998.192979",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2011,
+            5,
+            5
+          ]
+        ],
+        "date-time": "2011-05-05T19:40:54Z",
+        "timestamp": 1304624454000
+      },
+      "page": "180-182",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "From the Ground Up: Six Principles for Building the New Logic CorporationFrom the Ground Up: Six Principles for Building the New Logic Corporation, by LawlerEdward E.III. San Francisco: Jossey Bass, 1997."
+      ],
+      "prefix": "10.5465",
+      "volume": "23",
+      "author": [
+        {
+          "given": "Dave",
+          "family": "Ulrich",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Michigan, Ann Arbor, Michigan."
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "3433",
+      "reference": [
+        {
+          "key": "B1",
+          "volume-title": "Organization design",
+          "author": "Galbraith J. R.",
+          "year": "1997"
+        },
+        {
+          "key": "B2",
+          "volume-title": "Organizing for the future: The new logic for managing complex organizations",
+          "author": "Galbraith J. R.",
+          "year": "1993"
+        },
+        {
+          "key": "B3",
+          "first-page": "887",
+          "volume": "2",
+          "author": "Ulrich D.",
+          "year": "1997",
+          "journal-title": "Leader to Leader"
+        },
+        {
+          "key": "B4",
+          "volume-title": "Organizational capability: Competing from the inside/out",
+          "author": "Ulrich D.",
+          "year": "1990"
+        }
+      ],
+      "container-title": [
+        "Academy of Management Review"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://journals.aom.org/doi/10.5465/amr.1998.192979",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            15
+          ]
+        ],
+        "date-time": "2021-10-15T17:47:57Z",
+        "timestamp": 1634320077000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://journals.aom.org/doi/10.5465/amr.1998.192979"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1998,
+            1
+          ]
+        ]
+      },
+      "references-count": 4,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              1998,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.5465/amr.1998.192979"
+      ],
+      "URL": "https://doi.org/10.5465/amr.1998.192979",
+      "relation": {},
+      "ISSN": [
+        "0363-7425",
+        "1930-3807"
+      ],
+      "issn-type": [
+        {
+          "value": "0363-7425",
+          "type": "print"
+        },
+        {
+          "value": "1930-3807",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1998,
+            1
+          ]
+        ]
+      }
+    },
+    "openalex_query_url": "https://api.openalex.org/works/https://doi.org/10.5465/amr.1998.192979",
+    "openalex": {
+      "id": "https://openalex.org/W2180686622",
+      "doi": "https://doi.org/10.5465/amr.1998.192979",
+      "title": "From the Ground Up: Six Principles for Building the New Logic CorporationFrom the Ground Up: Six Principles for Building the New Logic Corporation, by LawlerEdward E.III. San Francisco: Jossey Bass, 1997.",
+      "display_name": "From the Ground Up: Six Principles for Building the New Logic CorporationFrom the Ground Up: Six Principles for Building the New Logic Corporation, by LawlerEdward E.III. San Francisco: Jossey Bass, 1997.",
+      "publication_year": 1998,
+      "publication_date": "1998-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2180686622",
+        "doi": "https://doi.org/10.5465/amr.1998.192979",
+        "mag": "2180686622"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.5465/amr.1998.192979",
+        "doi": "https://doi.org/10.5465/amr.1998.192979",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.5465/amr.1998.192979",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S46763546",
+          "display_name": "Academy of Management Review",
+          "issn_l": "0363-7425",
+          "issn": [
+            "0363-7425",
+            "1930-3807"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-1-star",
+            "ft50",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "utd24",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310316266",
+          "host_organization_name": "Academy of Management",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316266"
+          ],
+          "host_organization_lineage_names": [
+            "Academy of Management"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Academy of Management Review",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2180686622"
+      ],
+      "child_works_count": 0,
+      "type": "book-review",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5113520133",
+            "display_name": "Dave Ulrich",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Dave Ulrich",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5112294555",
+            "display_name": "Edward E. Lawler",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Edward E. Lawler",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "has_fulltext": false,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "23",
+        "issue": "1",
+        "first_page": "180",
+        "last_page": "180"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T12751",
+        "display_name": "Leadership and Management in Organizations",
+        "score": 0.6503999829292297,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1408",
+          "display_name": "Strategy and Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T12751",
+          "display_name": "Leadership and Management in Organizations",
+          "score": 0.6503999829292297,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1408",
+            "display_name": "Strategy and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13449",
+          "display_name": "Organizational Management and Change",
+          "score": 0.07699999958276749,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12815",
+          "display_name": "Management and Organizational Practices",
+          "score": 0.07660000026226044,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1408",
+            "display_name": "Strategy and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/organizational-design",
+          "display_name": "organizational design",
+          "score": 0.6380000114440918
+        },
+        {
+          "id": "https://openalex.org/keywords/organizational-structure",
+          "display_name": "organizational structure",
+          "score": 0.46299999952316284
+        },
+        {
+          "id": "https://openalex.org/keywords/organizational-change",
+          "display_name": "organizational change",
+          "score": 0.39500001072883606
+        },
+        {
+          "id": "https://openalex.org/keywords/principles-of-management",
+          "display_name": "management principles",
+          "score": 0.5189999938011169
+        },
+        {
+          "id": "https://openalex.org/keywords/corporate-restructuring",
+          "display_name": "corporate restructuring",
+          "score": 0.375
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2778348171",
+          "wikidata": "https://www.wikidata.org/wiki/Q167037",
+          "display_name": "Corporation",
+          "level": 2,
+          "score": 0.7313876748085022
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.47957557439804077
+        },
+        {
+          "id": "https://openalex.org/C2777877512",
+          "wikidata": "https://www.wikidata.org/wiki/Q1116097",
+          "display_name": "Common ground",
+          "level": 2,
+          "score": 0.4228285849094391
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.3869299590587616
+        },
+        {
+          "id": "https://openalex.org/C170154142",
+          "wikidata": "https://www.wikidata.org/wiki/Q150737",
+          "display_name": "Architectural engineering",
+          "level": 1,
+          "score": 0.3438482880592346
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.2851991057395935
+        },
+        {
+          "id": "https://openalex.org/C17744445",
+          "wikidata": "https://www.wikidata.org/wiki/Q36442",
+          "display_name": "Political science",
+          "level": 0,
+          "score": 0.27020972967147827
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.261461079120636
+        },
+        {
+          "id": "https://openalex.org/C199539241",
+          "wikidata": "https://www.wikidata.org/wiki/Q7748",
+          "display_name": "Law",
+          "level": 1,
+          "score": 0.13913676142692566
+        },
+        {
+          "id": "https://openalex.org/C46312422",
+          "wikidata": "https://www.wikidata.org/wiki/Q11024",
+          "display_name": "Communication",
+          "level": 1,
+          "score": 0.11248281598091125
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.5465/amr.1998.192979",
+          "doi": "https://doi.org/10.5465/amr.1998.192979",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.5465/amr.1998.192979",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S46763546",
+            "display_name": "Academy of Management Review",
+            "issn_l": "0363-7425",
+            "issn": [
+              "0363-7425",
+              "1930-3807"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a-star",
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "erih-plus",
+              "fnege-1-star",
+              "ft50",
+              "jufo-3",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1",
+              "utd24",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310316266",
+            "host_organization_name": "Academy of Management",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310316266"
+            ],
+            "host_organization_lineage_names": [
+              "Academy of Management"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Academy of Management Review",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "doi:10.2307/259109",
+          "doi": "https://doi.org/10.2307/259109",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2307/259109",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S46763546",
+            "display_name": "Academy of Management Review",
+            "issn_l": "0363-7425",
+            "issn": [
+              "0363-7425",
+              "1930-3807"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a-star",
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "erih-plus",
+              "fnege-1-star",
+              "ft50",
+              "jufo-3",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1",
+              "utd24",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310316266",
+            "host_organization_name": "Academy of Management",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310316266"
+            ],
+            "host_organization_lineage_names": [
+              "Academy of Management"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "The Academy of Management Review",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 4,
+      "referenced_works": [
+        "https://openalex.org/W589388187",
+        "https://openalex.org/W1512866344",
+        "https://openalex.org/W1550230156",
+        "https://openalex.org/W2970657937"
+      ],
+      "related_works": [
+        "https://openalex.org/W1994426401",
+        "https://openalex.org/W1592222830",
+        "https://openalex.org/W7131627291",
+        "https://openalex.org/W2281383181",
+        "https://openalex.org/W2496439510",
+        "https://openalex.org/W2811303526",
+        "https://openalex.org/W4238310009",
+        "https://openalex.org/W4298367979",
+        "https://openalex.org/W2800667718"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "article": [
+          1
+        ],
+        "reviews": [
+          2
+        ],
+        "the": [
+          3,
+          6,
+          13
+        ],
+        "book": [
+          4
+        ],
+        "“From": [
+          5
+        ],
+        "Ground": [
+          7
+        ],
+        "Up:": [
+          8
+        ],
+        "Six": [
+          9
+        ],
+        "Principles": [
+          10
+        ],
+        "for": [
+          11
+        ],
+        "Building": [
+          12
+        ],
+        "New": [
+          14
+        ],
+        "Logic": [
+          15
+        ],
+        "Corporation,”": [
+          16
+        ],
+        "by": [
+          17
+        ],
+        "Edward": [
+          18
+        ],
+        "E.": [
+          19
+        ],
+        "Lawler.": [
+          20
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+  },
+  {
+    "doi_query": "10.5465/amr.1990.4309121",
+    "crossref_query_url": "https://api.crossref.org/works/10.5465/amr.1990.4309121",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            31
+          ]
+        ],
+        "date-time": "2022-03-31T14:48:49Z",
+        "timestamp": 1648738129802
+      },
+      "reference-count": 0,
+      "publisher": "Academy of Management",
+      "issue": "3",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "AMR"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1990,
+            7
+          ]
+        ]
+      },
+      "DOI": "10.5465/amr.1990.4309121",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2011,
+            5,
+            5
+          ]
+        ],
+        "date-time": "2011-05-05T19:40:36Z",
+        "timestamp": 1304624436000
+      },
+      "page": "536-537",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Strategies for Learning: Small Group Activities in American, Japanese, and Swedish IndustryStrategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry, by ColeRobert E. Berkeley: University of California Press, 1989, 354 pp., $29.95, cloth."
+      ],
+      "prefix": "10.5465",
+      "volume": "15",
+      "author": [
+        {
+          "given": "Chris",
+          "family": "Argyris",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Graduate Schools of Business and Education, Harvard University, Boston, MA 02163."
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "3433",
+      "container-title": [
+        "Academy of Management Review"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://journals.aom.org/doi/10.5465/amr.1990.4309121",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            12
+          ]
+        ],
+        "date-time": "2021-10-12T17:14:13Z",
+        "timestamp": 1634058853000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://journals.aom.org/doi/10.5465/amr.1990.4309121"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1990,
+            7
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              1990,
+              7
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.5465/amr.1990.4309121"
+      ],
+      "URL": "https://doi.org/10.5465/amr.1990.4309121",
+      "relation": {},
+      "ISSN": [
+        "0363-7425",
+        "1930-3807"
+      ],
+      "issn-type": [
+        {
+          "value": "0363-7425",
+          "type": "print"
+        },
+        {
+          "value": "1930-3807",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1990,
+            7
+          ]
+        ]
+      }
+    },
+    "openalex_query_url": "https://api.openalex.org/works/https://doi.org/10.5465/amr.1990.4309121",
+    "openalex": {
+      "id": "https://openalex.org/W2032955418",
+      "doi": "https://doi.org/10.5465/amr.1990.4309121",
+      "title": "Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry",
+      "display_name": "Strategies for Learning: Small Group Activities in American, Japanese, and Swedish Industry",
+      "publication_year": 1990,
+      "publication_date": "1990-07-01",
+      "ids": {
+        "openalex": "https://openalex.org/W2032955418",
+        "doi": "https://doi.org/10.5465/amr.1990.4309121",
+        "mag": "2032955418"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.5465/amr.1990.4309121",
+        "doi": "https://doi.org/10.5465/amr.1990.4309121",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.5465/amr.1990.4309121",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S46763546",
+          "display_name": "Academy of Management Review",
+          "issn_l": "0363-7425",
+          "issn": [
+            "0363-7425",
+            "1930-3807"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-1-star",
+            "ft50",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "utd24",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310316266",
+          "host_organization_name": "Academy of Management",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316266"
+          ],
+          "host_organization_lineage_names": [
+            "Academy of Management"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Academy of Management Review",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W2032955418"
+      ],
+      "child_works_count": 0,
+      "type": "book-review",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5111617712",
+            "display_name": "Chris Argyris",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I136199984",
+              "display_name": "Harvard University",
+              "ror": "https://ror.org/03vek6s52",
+              "country_code": "US",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I136199984"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Chris Argyris",
+          "raw_affiliation_strings": [
+            "1Graduate Schools of Business and Education, Harvard University, Boston, MA 02163"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "1Graduate Schools of Business and Education, Harvard University, Boston, MA 02163",
+              "institution_ids": [
+                "https://openalex.org/I136199984"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5056637831",
+            "display_name": "Robert Evan Cole",
+            "orcid": "https://orcid.org/0009-0007-6510-204X",
+            "observed_orcids": [
+              "https://orcid.org/0009-0007-6510-204X"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Robert E. Cole",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5111617712"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I136199984"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "has_fulltext": false,
+      "cited_by_count": 58,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "15",
+        "issue": "3",
+        "first_page": "536",
+        "last_page": "536"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T14031",
+        "display_name": "Global and Cross-Cultural Management",
+        "score": 0.5522000193595886,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1403",
+          "display_name": "Business and International Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T14031",
+          "display_name": "Global and Cross-Cultural Management",
+          "score": 0.5522000193595886,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1403",
+            "display_name": "Business and International Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11466",
+          "display_name": "Innovative Education and Learning Practices",
+          "score": 0.2847000062465668,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3304",
+            "display_name": "Education"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13163",
+          "display_name": "Organizational Learning and Leadership",
+          "score": 0.07119999825954437,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/small-group-work",
+          "display_name": "small group work",
+          "score": 0.8500000238418579
+        },
+        {
+          "id": "https://openalex.org/keywords/learning-strategies",
+          "display_name": "learning strategies",
+          "score": 0.5839999914169312
+        },
+        {
+          "id": "https://openalex.org/keywords/organizational-learning",
+          "display_name": "organizational learning",
+          "score": 0.6460000276565552
+        },
+        {
+          "id": "https://openalex.org/keywords/cross-national-comparison",
+          "display_name": "cross-national comparison",
+          "score": 0.6019999980926514
+        },
+        {
+          "id": "https://openalex.org/keywords/american-industry",
+          "display_name": "American industry",
+          "score": 0.8240000009536743
+        },
+        {
+          "id": "https://openalex.org/keywords/japanese-industry",
+          "display_name": "Japanese industry",
+          "score": 1.0
+        },
+        {
+          "id": "https://openalex.org/keywords/swedish-industry",
+          "display_name": "Swedish industry",
+          "score": 0.9990000128746033
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C161191863",
+          "wikidata": "https://www.wikidata.org/wiki/Q199655",
+          "display_name": "Library science",
+          "level": 1,
+          "score": 0.5399643778800964
+        },
+        {
+          "id": "https://openalex.org/C187736073",
+          "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+          "display_name": "Management",
+          "level": 1,
+          "score": 0.4420168697834015
+        },
+        {
+          "id": "https://openalex.org/C2781311116",
+          "wikidata": "https://www.wikidata.org/wiki/Q83306",
+          "display_name": "Group (periodic table)",
+          "level": 2,
+          "score": 0.43481093645095825
+        },
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.40446287393569946
+        },
+        {
+          "id": "https://openalex.org/C29595303",
+          "wikidata": "https://www.wikidata.org/wiki/Q165650",
+          "display_name": "Media studies",
+          "level": 1,
+          "score": 0.3653642535209656
+        },
+        {
+          "id": "https://openalex.org/C162324750",
+          "wikidata": "https://www.wikidata.org/wiki/Q8134",
+          "display_name": "Economics",
+          "level": 0,
+          "score": 0.10265031456947327
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "doi:10.5465/amr.1990.4309121",
+          "doi": "https://doi.org/10.5465/amr.1990.4309121",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.5465/amr.1990.4309121",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S46763546",
+            "display_name": "Academy of Management Review",
+            "issn_l": "0363-7425",
+            "issn": [
+              "0363-7425",
+              "1930-3807"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a-star",
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "erih-plus",
+              "fnege-1-star",
+              "ft50",
+              "jufo-3",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1",
+              "utd24",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310316266",
+            "host_organization_name": "Academy of Management",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310316266"
+            ],
+            "host_organization_lineage_names": [
+              "Academy of Management"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Academy of Management Review",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "doi:10.2307/258022",
+          "doi": "https://doi.org/10.2307/258022",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2307/258022",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S46763546",
+            "display_name": "Academy of Management Review",
+            "issn_l": "0363-7425",
+            "issn": [
+              "0363-7425",
+              "1930-3807"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a-star",
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "erih-plus",
+              "fnege-1-star",
+              "ft50",
+              "jufo-3",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1",
+              "utd24",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310316266",
+            "host_organization_name": "Academy of Management",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310316266"
+            ],
+            "host_organization_lineage_names": [
+              "Academy of Management"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "The Academy of Management Review",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Quality education",
+          "score": 0.5,
+          "id": "https://metadata.un.org/sdg/4"
+        }
+      ],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W3082564347",
+        "https://openalex.org/W4206677610",
+        "https://openalex.org/W648644845",
+        "https://openalex.org/W2626037978",
+        "https://openalex.org/W129707576",
+        "https://openalex.org/W101088882",
+        "https://openalex.org/W1987759969",
+        "https://openalex.org/W2263243633",
+        "https://openalex.org/W6906423315"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2023,
+          "cited_by_count": 26
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-14T11:04:58.165337",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+  },
+  {
+    "doi_query": "10.1177/0170840611416736",
+    "crossref_query_url": "https://api.crossref.org/works/10.1177/0170840611416736",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            4
+          ]
+        ],
+        "date-time": "2026-05-04T16:31:44Z",
+        "timestamp": 1777912304060,
+        "version": "3.51.4"
+      },
+      "reference-count": 5,
+      "publisher": "SAGE Publications",
+      "issue": "11",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2011,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2011-11-01T00:00:00Z",
+            "timestamp": 1320105600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "journals.sagepub.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Organization Studies"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2011,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.1177/0170840611416736",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2011,
+            11,
+            3
+          ]
+        ],
+        "date-time": "2011-11-03T08:03:24Z",
+        "timestamp": 1320307404000
+      },
+      "page": "1587-1589",
+      "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Book Review: Cambridge Handbook of Strategy as Practice"
+      ],
+      "prefix": "10.1177",
+      "volume": "32",
+      "author": [
+        {
+          "given": "Stewart R.",
+          "family": "Clegg",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Technology, Sydney, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "179",
+      "published-online": {
+        "date-parts": [
+          [
+            2011,
+            11,
+            3
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "bibr1-0170840611416736",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/1476127007087154"
+        },
+        {
+          "key": "bibr2-0170840611416736",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1057/palgrave.emr.1500011"
+        },
+        {
+          "key": "bibr3-0170840611416736",
+          "volume-title": "Discipline and punish",
+          "author": "Foucault M.",
+          "year": "1977"
+        },
+        {
+          "key": "bibr4-0170840611416736",
+          "volume-title": "Studies in ethnomethodology",
+          "author": "Garfinkel H.",
+          "year": "1967"
+        },
+        {
+          "key": "bibr5-0170840611416736",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4135/9781849200387"
+        }
+      ],
+      "container-title": [
+        "Organization Studies"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0170840611416736",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/0170840611416736",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0170840611416736",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            1
+          ]
+        ],
+        "date-time": "2026-05-01T15:50:53Z",
+        "timestamp": 1777650653000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://journals.sagepub.com/doi/10.1177/0170840611416736"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2011,
+            11
+          ]
+        ]
+      },
+      "references-count": 5,
+      "journal-issue": {
+        "issue": "11",
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              11
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1177/0170840611416736"
+      ],
+      "URL": "https://doi.org/10.1177/0170840611416736",
+      "relation": {},
+      "ISSN": [
+        "0170-8406",
+        "1741-3044"
+      ],
+      "issn-type": [
+        {
+          "value": "0170-8406",
+          "type": "print"
+        },
+        {
+          "value": "1741-3044",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            11
+          ]
+        ]
+      }
+    },
+    "openalex_query_url": "https://api.openalex.org/works/https://doi.org/10.1177/0170840611416736",
+    "openalex": {
+      "id": "https://openalex.org/W1979012747",
+      "doi": "https://doi.org/10.1177/0170840611416736",
+      "title": "Book Review: Cambridge Handbook of Strategy as Practice",
+      "display_name": "Book Review: Cambridge Handbook of Strategy as Practice",
+      "publication_year": 2011,
+      "publication_date": "2011-11-01",
+      "ids": {
+        "openalex": "https://openalex.org/W1979012747",
+        "doi": "https://doi.org/10.1177/0170840611416736",
+        "mag": "1979012747"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1177/0170840611416736",
+        "doi": "https://doi.org/10.1177/0170840611416736",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1177/0170840611416736",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S28882882",
+          "display_name": "Organization Studies",
+          "issn_l": "0170-8406",
+          "issn": [
+            "0170-8406",
+            "1741-3044"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-1",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Organization Studies",
+        "raw_type": "journal-article"
+      },
+      "parent_works": [],
+      "lineage": [
+        "https://openalex.org/W1979012747"
+      ],
+      "child_works_count": 0,
+      "type": "book-review",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5080767366",
+            "display_name": "Stewart Roger Clegg",
+            "orcid": "https://orcid.org/0000-0001-6083-4283",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-6083-4283"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I114017466",
+              "display_name": "University of Technology Sydney",
+              "ror": "https://ror.org/03f0f6041",
+              "country_code": "AU",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I114017466"
+              ]
+            }
+          ],
+          "countries": [
+            "AU"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Stewart R. Clegg",
+          "raw_affiliation_strings": [
+            "University of Technology, Sydney, Australia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "University of Technology, Sydney, Australia",
+              "institution_ids": [
+                "https://openalex.org/I114017466"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5080767366"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I114017466"
+      ],
+      "apc_list": {
+        "value": 3900,
+        "currency": "USD",
+        "value_usd": 3900
+      },
+      "apc_paid": null,
+      "fwci": null,
+      "has_fulltext": false,
+      "cited_by_count": 6,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "32",
+        "issue": "11",
+        "first_page": "1587",
+        "last_page": "1589"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10344",
+        "display_name": "Management and Organizational Studies",
+        "score": 0.9824000000953674,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1407",
+          "display_name": "Organizational Behavior and Human Resource Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10344",
+          "display_name": "Management and Organizational Studies",
+          "score": 0.9824000000953674,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12815",
+          "display_name": "Management and Organizational Practices",
+          "score": 0.007000000216066837,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1408",
+            "display_name": "Strategy and Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T13803",
+          "display_name": "Organizational Strategy and Culture",
+          "score": 0.001500000013038516,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1407",
+            "display_name": "Organizational Behavior and Human Resource Management"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/14",
+            "display_name": "Business, Management and Accounting"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/strategy-as-practice",
+          "display_name": "strategy as practice",
+          "score": 0.9409999847412109
+        },
+        {
+          "id": "https://openalex.org/keywords/strategic-management",
+          "display_name": "strategic management",
+          "score": 0.6209999918937683
+        },
+        {
+          "id": "https://openalex.org/keywords/business-practices",
+          "display_name": "organizational practices",
+          "score": 0.5299999713897705
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C144024400",
+          "wikidata": "https://www.wikidata.org/wiki/Q21201",
+          "display_name": "Sociology",
+          "level": 0,
+          "score": 0.4424532353878021
+        },
+        {
+          "id": "https://openalex.org/C55587333",
+          "wikidata": "https://www.wikidata.org/wiki/Q1133029",
+          "display_name": "Engineering ethics",
+          "level": 1,
+          "score": 0.425743967294693
+        },
+        {
+          "id": "https://openalex.org/C148383697",
+          "wikidata": "https://www.wikidata.org/wiki/Q1781695",
+          "display_name": "Regional science",
+          "level": 1,
+          "score": 0.3835567533969879
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0.22200673818588257
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1177/0170840611416736",
+          "doi": "https://doi.org/10.1177/0170840611416736",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1177/0170840611416736",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S28882882",
+            "display_name": "Organization Studies",
+            "issn_l": "0170-8406",
+            "issn": [
+              "0170-8406",
+              "1741-3044"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "abdc-a-star",
+              "anvur-class-a",
+              "anvur-scientific",
+              "cwts-core",
+              "erih-plus",
+              "fnege-1",
+              "jufo-3",
+              "ki-jl-1",
+              "norway-2",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320017",
+            "host_organization_name": "SAGE Publishing",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320017"
+            ],
+            "host_organization_lineage_names": [
+              "SAGE Publishing"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Organization Studies",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 6,
+      "referenced_works": [
+        "https://openalex.org/W1606575258",
+        "https://openalex.org/W2024642405",
+        "https://openalex.org/W2104865991",
+        "https://openalex.org/W2112789268",
+        "https://openalex.org/W4250186215",
+        "https://openalex.org/W4301962337"
+      ],
+      "related_works": [
+        "https://openalex.org/W3212286954",
+        "https://openalex.org/W2576660163",
+        "https://openalex.org/W7047469616",
+        "https://openalex.org/W2300686697",
+        "https://openalex.org/W2098099890",
+        "https://openalex.org/W4252575058"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 2
+        }
+      ],
+      "updated_date": "2026-09-22T06:50:58.402377",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    "retrieved_at": "2026-11-16T15:18:42.970787+00:00"
+  }
+]

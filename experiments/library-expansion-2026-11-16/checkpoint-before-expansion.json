@@ -1,0 +1,11 @@
+{
+  "kind": "local_research_checkpoint",
+  "created_utc": "20261116T151354Z",
+  "repository": "/workspace/repos/builderbob/write-with-purpose",
+  "head": "609b13f4e4321b8d32fba5480e324de470f2eaa2",
+  "git_status": " M README.md\n?? docs/writing-harness/\n?? experiments/corpus-analysis-2026-11-16/\n?? experiments/form-corpus-2026-11-16/\n?? experiments/library-expansion-2026-11-16/\n?? experiments/paragraph-functions/\n?? experiments/pattern-test-2026-11-16/\n?? work/\n",
+  "git_index_modified": false,
+  "archive": "/workspace/build/builderbob/write-with-purpose/checkpoints/20261116T151354Z/writing-harness-checkpoint.tar.gz",
+  "archive_sha256": "bf0b1a1a5adb95a1eaa6e91e76f5031cc5fe06251b9e4fe8aeccde9e68f86e64",
+  "source_cache_policy": "Original article bytes and normalized source caches remain in their existing persistent /workspace paths; not embedded in this repository-work checkpoint. New Astra/library work in progress is excluded and will receive a final checkpoint."
+}

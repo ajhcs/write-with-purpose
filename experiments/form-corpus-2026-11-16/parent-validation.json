@@ -1,0 +1,26 @@
+{
+  "json_files": 40,
+  "jsonl_files": 23,
+  "python_files": 33,
+  "source_hashes_checked": 1500,
+  "checks": {
+    "library_queue": {
+      "discovery": 400,
+      "held": 26,
+      "unheld": 374,
+      "library_first": 275
+    },
+    "empirical_methods": {
+      "empirical": 200,
+      "methods": 200
+    },
+    "systematic_review": 300,
+    "narrative": 200,
+    "scoping": 200,
+    "historical-narrative": 200,
+    "historical-scoping": 200,
+    "procedure": 222,
+    "reference": 216
+  },
+  "scope": "Mechanical/provenance only. Repeated sources across overlapping cohorts are counted as repeated checks, not independent works; no semantic genre/quality/completeness assessment."
+}

@@ -1,0 +1,124 @@
+<style>
+#writing-plan-explorer {display:flex;flex-direction:column;gap:calc(var(--font-size-base)*1.1);color:var(--foreground)}
+#writing-plan-explorer .wp-title {padding-right:95px;display:flex;flex-direction:column;gap:calc(var(--font-size-base)*.3)}
+#writing-plan-explorer .wp-main {display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:calc(var(--font-size-base)*1.6)}
+#writing-plan-explorer .wp-main > div {min-width:0}
+#writing-plan-explorer .wp-stack {display:flex;flex-direction:column;gap:calc(var(--font-size-base)*.8)}
+#writing-plan-explorer .wp-plan {padding:0;margin:0;list-style:none;display:flex;flex-direction:column;gap:calc(var(--font-size-base)*.8)}
+#writing-plan-explorer .wp-line {display:grid;grid-template-columns:minmax(0,1fr) auto;gap:calc(var(--font-size-base)*.6);align-items:baseline}
+#writing-plan-explorer .wp-bar {height:5px;margin-top:calc(var(--font-size-base)*.35);background:var(--muted)}
+#writing-plan-explorer .wp-bar span {display:block;height:100%;background:var(--viz-series-1)}
+#writing-plan-explorer .wp-item {display:flex;flex-direction:column;gap:calc(var(--font-size-base)*.2)}
+#writing-plan-explorer .wp-policy {display:grid;grid-template-columns:90px minmax(0,1fr);gap:calc(var(--font-size-base)*.5)}
+#writing-plan-explorer .wp-policy dt {font-weight:500}
+#writing-plan-explorer .wp-policy dd {margin:0}
+#writing-plan-explorer dl {margin:0}
+#writing-plan-explorer .wp-outline {display:flex;flex-direction:column;gap:calc(var(--font-size-base)*.8)}
+@media(max-width:570px) {#writing-plan-explorer .wp-main {grid-template-columns:minmax(0,1fr)} #writing-plan-explorer .wp-policy {grid-template-columns:80px minmax(0,1fr)}}
+</style>
+<div id="writing-plan-explorer">
+  <div class="wp-title"><h2>Writing plan</h2><span class="text-small text-muted">Proposed behavior · illustrative profiles</span></div>
+  <div class="viz-controls">
+    <label class="form-label" for="wp-form">Form<select class="form-select" id="wp-form"><option value="blog">Personal blog / essay</option><option value="explainer" selected>Technical explainer</option><option value="review">Systematic review / meta-analysis</option><option value="manual">Manual: how-to guide</option><option value="readme">README</option></select></label>
+    <label class="form-label" for="wp-audience">Reader’s subject knowledge<select class="form-select" id="wp-audience"><option value="general" selected>New to the subject</option><option value="adjacent">Related professional experience</option><option value="specialist">Subject specialist</option></select></label>
+    <label class="form-label" for="wp-domain">Subject<select class="form-select" id="wp-domain"><option value="writing" selected>AI-assisted writing</option><option value="healthcare">Healthcare systems</option><option value="engineering">Systems engineering</option></select></label>
+    <label class="form-label" for="wp-mode">AI assistance<select class="form-select" id="wp-mode"><option value="coach" selected>Coach me</option><option value="cowrite">Write with me</option><option value="draft">Draft from my material</option></select></label>
+  </div>
+  <div class="wp-main" aria-live="polite" aria-atomic="false">
+    <div class="wp-outline">
+      <h3 id="wp-outline-title">Suggested shape</h3>
+      <div id="wp-length" class="text-small"></div>
+      <ol class="wp-plan" id="wp-sections"></ol>
+      <div class="text-small text-muted" id="wp-structure-note"></div>
+    </div>
+    <div class="wp-stack">
+      <h3>Reader and voice</h3>
+      <dl class="wp-policy">
+        <dt>Assume</dt><dd id="wp-known"></dd>
+        <dt>Explain</dt><dd id="wp-teach"></dd>
+        <dt>Voice</dt><dd id="wp-voice"></dd>
+        <dt>Length</dt><dd id="wp-audience-length"></dd>
+      </dl>
+      <hr>
+      <h3>Your next writing move</h3>
+      <div id="wp-your-move"></div>
+      <div class="text-small" id="wp-ai-move"></div>
+      <hr>
+      <h3>Relevant checks</h3>
+      <div id="wp-checks"></div>
+    </div>
+  </div>
+</div>
+<script>
+(() => {
+  const root = document.getElementById('writing-plan-explorer');
+  const fields = {form:root.querySelector('#wp-form'), audience:root.querySelector('#wp-audience'), domain:root.querySelector('#wp-domain'), mode:root.querySelector('#wp-mode')};
+  const plans = {
+    blog:{length:'Example working budget: 1,000 words',sections:[['An observation',150,'What you noticed'],['The question it raises',150,'Why it matters to you'],['Develop the insight',350,'Examples and reasoning'],['Complication',250,'What qualifies or changes your view'],['Where this leaves you',100,'A further thought the piece earns']],note:'Section roles can remain invisible in the published essay.',voice:'Personal perspective; your own observations and phrasing.',move:'Write the observation that made you want to say something.',checks:'Declared length, quotations, unresolved claims, source links.'},
+    explainer:{length:'Example working budget: 1,500 words',sections:[['Reader’s question',150,'The problem to understand'],['Essential background',200,'Only the concepts needed next'],['Mechanism and worked example',600,'How it works, step by step'],['Limits and exceptions',350,'Where the explanation needs qualification'],['Useful implication',200,'What the reader can now understand or do']],note:'Budgets guide emphasis; only an agreed ceiling blocks completion.',voice:'Your explanations, examples, and judgments; precise subject terms.',move:'Write your explanation of the main mechanism in ordinary language.',checks:'Terms and abbreviations, examples, source references, declared limits.'},
+    review:{length:'Journal limits and reporting requirements',sections:[['Introduction',null,'Question, rationale, objective'],['Methods',null,'What was actually planned and done'],['Results',null,'Traceable synthesis and analysis outputs'],['Discussion',null,'Interpretation, limitations, implications'],['Abstract and supporting material',null,'Consistent with the completed manuscript']],note:'A reporting profile requires the underlying review and analysis records.',voice:'Your reasoning and interpretation within academic conventions.',move:'Write why this research question matters and what remains unresolved.',checks:'Reporting-item locations, citations, study counts, table and result agreement.'},
+    manual:{length:'Scope per task; length follows successful completion',sections:[['Task and outcome',null,'What the reader will accomplish'],['Prerequisites',null,'Tools, access, initial state'],['Actions',null,'Ordered steps with expected results'],['Exceptions',null,'Failures, recovery, limits'],['Completion check',null,'How the reader knows the task succeeded']],note:'Tutorial, procedure, and reference pages can use different profiles.',voice:'Your clear explanations; consistent names for actions and controls.',move:'Write one real task and the state that proves it is complete.',checks:'Step references, UI names, prerequisites, expected results, tested examples.'},
+    readme:{length:'Brief entry point; longer guidance in linked documents',sections:[['Purpose and fit',null,'What this project does and who it serves'],['First successful use',null,'Prerequisites and a working example'],['Common usage',null,'The main workflows'],['Limits and troubleshooting',null,'Known constraints and useful recovery'],['Further documentation',null,'Reference, contribution, support']],note:'The reader should reach a useful result without reading every document.',voice:'Your purpose and explanations, with concise operational instructions.',move:'Write what someone should be able to do after their first visit.',checks:'Commands and paths, links, version consistency, example outputs.'}
+  };
+  const domains = {
+    writing:{general:{known:'Everyday experience of writing and editing.',teach:'harness, skill, evaluation'},adjacent:{known:'Prompts and AI-assisted drafts.',teach:'runtime, isolated review, verification limits'},specialist:{known:'Agent workflows and evaluation methods.',teach:'Project-specific terms and unusual uses'}},
+    healthcare:{general:{known:'Everyday experience of receiving care.',teach:'handoff, safety incident, reporting system'},adjacent:{known:'Routine work in a healthcare organization.',teach:'Specialist safety and systems concepts'},specialist:{known:'The discipline’s established vocabulary.',teach:'Study-specific definitions and contested terms'}},
+    engineering:{general:{known:'Everyday descriptions of a system.',teach:'requirement, interface, verification'},adjacent:{known:'Technical projects and their constraints.',teach:'Discipline-specific modeling and evidence terms'},specialist:{known:'Established systems engineering concepts.',teach:'Project-specific definitions and notation'}}
+  };
+  let state = {form:'explainer',audience:'general',domain:'writing',mode:'coach'};
+  function restore(snapshot) {
+    const input = snapshot && snapshot.modelContent && snapshot.modelContent.writingPlan;
+    if (!input) return;
+    for (const key of Object.keys(fields)) {
+      if ([...fields[key].options].some(option => option.value === input[key])) state[key] = input[key];
+    }
+  }
+  const put = (id,text) => { root.querySelector('#'+id).textContent = text; };
+  function render() {
+    for (const key of Object.keys(fields)) fields[key].value = state[key];
+    const p = plans[state.form];
+    const a = domains[state.domain][state.audience];
+    put('wp-length',p.length);
+    put('wp-structure-note',p.note);
+    put('wp-known',a.known);
+    put('wp-teach',a.teach + '.');
+    put('wp-voice',p.voice);
+    put('wp-audience-length',state.audience==='general'?'Budget space for definitions and a concrete example.':state.audience==='adjacent'?'Explain unfamiliar concepts; build on relevant experience.':'Spend space on the contribution, evidence, and qualifications.');
+    put('wp-checks',p.checks);
+    const list = root.querySelector('#wp-sections');
+    list.replaceChildren();
+    const total = p.sections.reduce((sum,s) => sum+(s[1]||0),0);
+    p.sections.forEach((s,i) => {
+      const li = document.createElement('li');
+      li.className='wp-item';
+      const line=document.createElement('div');line.className='wp-line';
+      const title=document.createElement('span');title.textContent=(i+1)+'. '+s[0];line.append(title);
+      if (s[1]!==null) {const n=document.createElement('span');n.className='tabular-nums text-small';n.textContent=s[1]+' words';line.append(n);}
+      const role=document.createElement('span');role.className='text-small text-muted';role.textContent=s[2];
+      li.append(line,role);
+      if (s[1]!==null) {const bar=document.createElement('div');bar.className='wp-bar';bar.setAttribute('aria-hidden','true');const fill=document.createElement('span');fill.style.width=(s[1]/total*100)+'%';bar.append(fill);li.append(bar);}
+      list.append(li);
+    });
+    if(state.mode==='coach') {
+      put('wp-your-move',p.move);
+      put('wp-ai-move','Codex: diagnose one writing choice, explain it, then let you revise.');
+    } else if(state.mode==='cowrite') {
+      put('wp-your-move','Choose the central claim and supply the example or interpretation only you can contribute.');
+      put('wp-ai-move','Codex: organize the material and propose prose for the sections you assign.');
+    } else {
+      put('wp-your-move','Supply your viewpoint, source material, and intended result; judge the candidate.');
+      put('wp-ai-move','Codex: prepare a draft, show gaps and proposed changes, then run the relevant checks.');
+    }
+  }
+  restore(window.openai && window.openai.widgetState);
+  render();
+  Object.entries(fields).forEach(([key,field]) => field.addEventListener('change',() => {
+    state[key]=field.value;render();
+    if(window.openai && window.openai.setWidgetState) window.openai.setWidgetState({modelContent:{writingPlan:{...state}},privateContent:null}).catch(()=>{});
+  }));
+  window.addEventListener('openai:set_globals',event => {
+    const globals=event.detail && event.detail.globals;
+    if(globals && globals.widgetState) {restore(globals.widgetState);render();}
+  });
+})();
+</script>

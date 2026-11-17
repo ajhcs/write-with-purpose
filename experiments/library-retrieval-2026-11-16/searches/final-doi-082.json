@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-study_review_protocol-3",
+      "doi": "10.1111/jan.12178",
+      "title": "Factors influencing self-management in patients with type 2 diabetes: a quantitative systematic review protocol.",
+      "authors": "[\"Bagnasco A\", \"Di Giacomo P\", \"Da Rin Della Mora R\", \"Catania G\", \"Turci C\", \"Rocco G\", \"Sasso L\"]",
+      "field": "medicine_health",
+      "q": "\"Factors influencing self-management in patients with type 2\" Bagnasco filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-study_review_protocol-3",
+      "query": "\"Factors influencing self-management in patients with type 2\" Bagnasco filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Factors influencing self-management in patients with type 2 diabetes: a quantitative systematic review protocol.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23763567/",
+          "score": 1
+        },
+        {
+          "title": "Factors influencing self-management in patients with type 2 diabetes in general practice: a qualitative study",
+          "url": "https://www.publish.csiro.au/py/pdf/PY18095",
+          "score": 1
+        },
+        {
+          "title": "Factors influencing self-management in patients with type 2 diabetes in general practice: a qualitative study",
+          "url": "https://doi.org/10.1071/py18095",
+          "score": 1
+        },
+        {
+          "title": "Factors influencing self-management in patients with type 2 diabetes: a quantitative systematic review protocol",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jan.12178",
+          "score": 1
+        },
+        {
+          "title": "Factors influencing self‐management in patients with type 2 diabetes: a quantitative systematic review protocol",
+          "url": "https://openalex.org/W1972281370",
+          "score": 1
+        },
+        {
+          "title": "Factors influencing self-management in patients with type 2 diabetes: Aquantitative systematic revie",
+          "url": "https://centrodieccellenza.eu/ricerca/progetti/la-continuita-assistenziale-sicurezza-nellarea-dellemergenza-2010/factors-influencing-self-management-in-patients-with-type-2-diabetes-aquantitative-systematic-revie/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

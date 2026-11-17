@@ -1,0 +1,2367 @@
+{
+  "scope": "Five independent articles selected from user-provided NEJM Perspectives 2017–2019; 2013 comparison article excluded. Convenience set, not population sample. Single analyst coding per article.",
+  "word_count_method": "experiments/corpus-analysis-2026-11-16/analysis/metrics.py word_tokens; inline citation markers retained",
+  "documents": [
+    {
+      "id": "NEJMp1616577",
+      "title": "Repealing the ACA without a Replacement — The Risks to American Health Care",
+      "doi": "10.1056/NEJMp1616577",
+      "year": 2017,
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1616577.pdf",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483",
+      "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/aca-science/NEJMp1616577.body.txt",
+      "body_text_sha256": "89a642b55fe720f4b7915b514cb65c8be875cb51c84eeddf44e72f55626f6d43",
+      "offset_units": "zero_based_unicode_codepoints_end_exclusive",
+      "coding_record": "aca-science/NEJMp1616577-coding.json",
+      "body_word_tokens": 1296,
+      "paragraph_count": 12,
+      "body_quantitative_eligible": true,
+      "paragraph_quantitative_eligible": true,
+      "sections": [
+        {
+          "role": "position and context",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1616577-p01"
+          ]
+        },
+        {
+          "role": "reform record",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1616577-p02",
+            "NEJMp1616577-p03"
+          ]
+        },
+        {
+          "role": "reform limits",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1616577-p04"
+          ]
+        },
+        {
+          "role": "repeal proposal",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1616577-p05"
+          ]
+        },
+        {
+          "role": "consequences",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1616577-p06"
+          ]
+        },
+        {
+          "role": "repeal uncertainty",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1616577-p07"
+          ]
+        },
+        {
+          "role": "tradeoff example",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1616577-p08"
+          ]
+        },
+        {
+          "role": "repeal uncertainty",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1616577-p09"
+          ]
+        },
+        {
+          "role": "stakes",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1616577-p10"
+          ]
+        },
+        {
+          "role": "recommended approach",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1616577-p11"
+          ]
+        },
+        {
+          "role": "human stakes and closing",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1616577-p12"
+          ]
+        }
+      ],
+      "paragraphs": [
+        {
+          "id": "NEJMp1616577-p01",
+          "start": 0,
+          "end_exclusive": 958,
+          "span_sha256": "aab86f1c9cf3a11aeac15abc0013755c1dece5b13dfba1a51cfce22decd5a172",
+          "word_count": 163,
+          "functions": [
+            "orient",
+            "report",
+            "interpret",
+            "assert"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "block": 4,
+              "bbox_pdf_points": [
+                99.96,
+                323.99,
+                146.25,
+                400.8
+              ],
+              "block_text_sha256": "d98c786cff70da9d10a2c49cf9d849025d3669b95dd56cc7c27c1ebf4cbabc2c",
+              "role": "drop cap"
+            },
+            {
+              "page": 1,
+              "block": 5,
+              "bbox_pdf_points": [
+                101.74,
+                337.77,
+                389.77,
+                402.02
+              ],
+              "block_text_sha256": "a5d8b42692d92e5c93f05c05a0aa4e0ce19ec9bacf71d5a69e0686469cb0869d"
+            },
+            {
+              "page": 1,
+              "block": 6,
+              "bbox_pdf_points": [
+                101.74,
+                412.89,
+                243.45,
+                677.02
+              ],
+              "block_text_sha256": "49063d3f9ad63bae4ffc8231938df352d8adbfb31bc4eb8deb73d8f1aed448a5"
+            },
+            {
+              "page": 1,
+              "block": 7,
+              "bbox_pdf_points": [
+                249.4,
+                412.89,
+                388.07,
+                437.02
+              ],
+              "block_text_sha256": "f86e8ebcd6c416601fcd7300240f69f9578d932fe72f806635aadf2aab842cdc"
+            }
+          ],
+          "section_role": "position and context",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1616577-p02",
+          "start": 960,
+          "end_exclusive": 1401,
+          "span_sha256": "cc9025597c4c6a3bbd4689c5f43e188a4e19d80aeea27ad792e1dbab8c907e6b",
+          "word_count": 69,
+          "functions": [
+            "report",
+            "support"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "block": 8,
+              "bbox_pdf_points": [
+                249.4,
+                436.89,
+                391.1,
+                605.02
+              ],
+              "block_text_sha256": "adf540d99f414c4deffbdd5ea7f8f3afcc18517bca7827cfa14c705a216e0086"
+            }
+          ],
+          "section_role": "reform record",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1616577-p03",
+          "start": 1403,
+          "end_exclusive": 1974,
+          "span_sha256": "e782491a01f26ccd1c9026212a5e79fb9abade911e79bfb04c4bb6857ae83dd3",
+          "word_count": 90,
+          "functions": [
+            "report",
+            "support"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "block": 9,
+              "bbox_pdf_points": [
+                249.4,
+                604.89,
+                391.11,
+                677.02
+              ],
+              "block_text_sha256": "75a374ba83371a16aedd21bd002a74e6c303cbeace95d812665b1e872288a82a"
+            },
+            {
+              "page": 1,
+              "block": 10,
+              "bbox_pdf_points": [
+                397.07,
+                340.89,
+                538.77,
+                485.02
+              ],
+              "block_text_sha256": "8335ad4c86807dd021e3d07a642932a4ddef95f6ed7e86fd02566c53059813a4"
+            }
+          ],
+          "section_role": "reform record",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1616577-p04",
+          "start": 1976,
+          "end_exclusive": 2690,
+          "span_sha256": "0a33fc1f40a92dc0da41fcaa97b289b7baf0f774d7ef40c3003041776a1be7da",
+          "word_count": 114,
+          "functions": [
+            "qualify",
+            "report",
+            "assert"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "block": 11,
+              "bbox_pdf_points": [
+                397.07,
+                484.89,
+                538.78,
+                677.02
+              ],
+              "block_text_sha256": "3dd0a864fd0a44f0124865c714eb2b9f2ce1849a4b36061eaa168fcb145c0c0f"
+            },
+            {
+              "page": 2,
+              "block": 4,
+              "bbox_pdf_points": [
+                71.0,
+                52.83,
+                210.68,
+                124.96
+              ],
+              "block_text_sha256": "856249662a06de4f61690c7255c784bf88f24213dd1c37674e8c6b3e9cc43279"
+            }
+          ],
+          "section_role": "reform limits",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1616577-p05",
+          "start": 2692,
+          "end_exclusive": 3337,
+          "span_sha256": "5bf45e17135c067c69aa9dd18fd13f04b33c0115bed54c59fe4a506886ef3589",
+          "word_count": 111,
+          "functions": [
+            "report",
+            "compare"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 5,
+              "bbox_pdf_points": [
+                71.0,
+                124.83,
+                210.7,
+                364.96
+              ],
+              "block_text_sha256": "8cc1fba7081595511bb99847285c55f56cb3b2fd53b2cf1cd1442da3ef99fdd7"
+            }
+          ],
+          "section_role": "repeal proposal",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1616577-p06",
+          "start": 3339,
+          "end_exclusive": 4609,
+          "span_sha256": "fc6f9959bf4af9566305efe1a6b6751ee350974f79dce63ec7f9c36329a0764c",
+          "word_count": 207,
+          "functions": [
+            "assert",
+            "explain",
+            "qualify"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 6,
+              "bbox_pdf_points": [
+                71.0,
+                364.83,
+                210.7,
+                664.96
+              ],
+              "block_text_sha256": "58b3230276877cdbe1f7a491d1f6d97b30f4a295f1200dc9bedbf1f9d139d5e2"
+            },
+            {
+              "page": 2,
+              "block": 7,
+              "bbox_pdf_points": [
+                219.67,
+                52.83,
+                359.37,
+                220.96
+              ],
+              "block_text_sha256": "42173b9dc87074a6c5b639dde6ff31c65cb11f53cc88632fc35e3be40ca448fa"
+            }
+          ],
+          "section_role": "consequences",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1616577-p07",
+          "start": 4611,
+          "end_exclusive": 5278,
+          "span_sha256": "9a7d6e57ce2f544648bb70d4be7d815882d40dd9af955a0c14d5f55e6400141e",
+          "word_count": 114,
+          "functions": [
+            "assert",
+            "explain",
+            "illustrate"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 8,
+              "bbox_pdf_points": [
+                219.67,
+                220.83,
+                359.38,
+                472.96
+              ],
+              "block_text_sha256": "ee9d866811e5a6e17cb71fb632aac5e7db4f651c9d9cc8a61ec1216ceb48abb4"
+            }
+          ],
+          "section_role": "repeal uncertainty",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1616577-p08",
+          "start": 5280,
+          "end_exclusive": 6210,
+          "span_sha256": "68c5cbd4123999a613628a22e3c16e4fdca3ab604bdd1a993e1e2122373c6d8c",
+          "word_count": 131,
+          "functions": [
+            "illustrate",
+            "explain",
+            "report"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 9,
+              "bbox_pdf_points": [
+                219.67,
+                472.83,
+                359.37,
+                664.96
+              ],
+              "block_text_sha256": "0a9a91f00955a410c98398daf423841cb593995c3c0044ea6197da4d9c0d7539"
+            },
+            {
+              "page": 2,
+              "block": 10,
+              "bbox_pdf_points": [
+                368.33,
+                52.83,
+                508.04,
+                208.96
+              ],
+              "block_text_sha256": "d4dd810c53439912caad4fe36f908a63eefb5fda9cc9dde1298c8e2e8971716e"
+            }
+          ],
+          "section_role": "tradeoff example",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1616577-p09",
+          "start": 6212,
+          "end_exclusive": 6711,
+          "span_sha256": "6e6a208b409db97edda259d79097fde5c7c88e65db6f307fef6b6a35d9f59221",
+          "word_count": 86,
+          "functions": [
+            "qualify",
+            "report",
+            "support"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 11,
+              "bbox_pdf_points": [
+                368.33,
+                208.83,
+                508.04,
+                400.96
+              ],
+              "block_text_sha256": "7df06e4a3eb568bbdbf2530f1ddbe7aec4fe8a7e2813d72d9e8dc2c0ff131f3f"
+            }
+          ],
+          "section_role": "repeal uncertainty",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1616577-p10",
+          "start": 6713,
+          "end_exclusive": 7203,
+          "span_sha256": "8b09305d20a3eab3cde3e146989dd64f8cad051fb73efce8e3fb30806e55d8b6",
+          "word_count": 83,
+          "functions": [
+            "assert",
+            "explain"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 12,
+              "bbox_pdf_points": [
+                368.33,
+                400.83,
+                508.05,
+                580.96
+              ],
+              "block_text_sha256": "7cc31e522a23be378c9950a1fc9551c51b3e9d495f7b54533df2cd006b4630a9"
+            }
+          ],
+          "section_role": "stakes",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1616577-p11",
+          "start": 7205,
+          "end_exclusive": 7573,
+          "span_sha256": "2d0d2812c3bc2c51186f03ae70e3693934b51232a0a28cb2424568e4b8414228",
+          "word_count": 55,
+          "functions": [
+            "assert",
+            "illustrate"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 13,
+              "bbox_pdf_points": [
+                368.33,
+                580.83,
+                508.03,
+                664.96
+              ],
+              "block_text_sha256": "50de2fd53b5b6570c2e6a91d802cc024c808bda248fb15907367cce5babf6dd0"
+            },
+            {
+              "page": 3,
+              "block": 4,
+              "bbox_pdf_points": [
+                101.9,
+                52.83,
+                241.59,
+                112.96
+              ],
+              "block_text_sha256": "16c71c8507a26e37d970f8061951752bca492b9700696be18f4286eb41c085b7"
+            }
+          ],
+          "section_role": "recommended approach",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1616577-p12",
+          "start": 7575,
+          "end_exclusive": 8015,
+          "span_sha256": "b87027def5a29272a4162784eb88f7d8071a01b589258aa2dc970cc089116532",
+          "word_count": 73,
+          "functions": [
+            "illustrate",
+            "assert"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "block": 5,
+              "bbox_pdf_points": [
+                101.9,
+                112.83,
+                241.6,
+                232.96
+              ],
+              "block_text_sha256": "2030107cf73fe9f56bc263737fe189b67b78ca47c492c8a0329f3be91e8436d6"
+            },
+            {
+              "page": 3,
+              "block": 6,
+              "bbox_pdf_points": [
+                250.57,
+                52.83,
+                390.27,
+                100.96
+              ],
+              "block_text_sha256": "07ebc9a6e4abb1f1fbe6b0a6194acd57b3921dd37f9bc1b9cbfc0aa4ae1181c7"
+            }
+          ],
+          "section_role": "human stakes and closing",
+          "quantitative_eligible": true
+        }
+      ]
+    },
+    {
+      "id": "NEJMp1702362",
+      "title": "Resisting the Suppression of Science",
+      "doi": "10.1056/NEJMp1702362",
+      "year": 2017,
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1702362.pdf",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217",
+      "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/aca-science/NEJMp1702362.body.txt",
+      "body_text_sha256": "dcda88e2cf1f59b6226b48ac410837dbd90ec5205bb61cf5c3a99205f851790f",
+      "offset_units": "zero_based_unicode_codepoints_end_exclusive",
+      "coding_record": "aca-science/NEJMp1702362-coding.json",
+      "body_word_tokens": 1292,
+      "paragraph_count": 10,
+      "body_quantitative_eligible": true,
+      "paragraph_quantitative_eligible": true,
+      "sections": [
+        {
+          "role": "clinical experience and problem",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1702362-p01"
+          ]
+        },
+        {
+          "role": "political context",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1702362-p02"
+          ]
+        },
+        {
+          "role": "resistance question",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1702362-p03"
+          ]
+        },
+        {
+          "role": "belief and evidence",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1702362-p04"
+          ]
+        },
+        {
+          "role": "politicization and evidence",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1702362-p05"
+          ]
+        },
+        {
+          "role": "politicization risk",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1702362-p06"
+          ]
+        },
+        {
+          "role": "identity mechanism",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1702362-p07"
+          ]
+        },
+        {
+          "role": "measured response",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1702362-p08"
+          ]
+        },
+        {
+          "role": "response uncertainty",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1702362-p09"
+          ]
+        },
+        {
+          "role": "closing call",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1702362-p10"
+          ]
+        }
+      ],
+      "paragraphs": [
+        {
+          "id": "NEJMp1702362-p01",
+          "start": 0,
+          "end_exclusive": 917,
+          "span_sha256": "449dd536a759f45779b2ed45e28bdea968c64a60599590e6d065066895488294",
+          "word_count": 145,
+          "functions": [
+            "narrate",
+            "orient",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "block": 21,
+              "bbox_pdf_points": [
+                102.0,
+                635.66,
+                119.43,
+                670.5
+              ],
+              "block_text_sha256": "06f961b802bc46ee168555f066d28f4f0e9afdf3f88174c1ee6f9de004fc30a0",
+              "role": "drop cap"
+            },
+            {
+              "page": 1,
+              "block": 22,
+              "bbox_pdf_points": [
+                102.0,
+                640.83,
+                241.7,
+                688.96
+              ],
+              "block_text_sha256": "9b20b647497f0e0ff48bf37d22a4b65414e9e44120e8ebede7ab31f1fd16ef35"
+            },
+            {
+              "page": 1,
+              "block": 23,
+              "bbox_pdf_points": [
+                250.66,
+                640.83,
+                390.34,
+                688.96
+              ],
+              "block_text_sha256": "1f2f782a999a345272a0d0c0ca44db524758b8990e283455bf52d41372068210"
+            },
+            {
+              "page": 1,
+              "block": 24,
+              "bbox_pdf_points": [
+                399.33,
+                640.83,
+                539.02,
+                688.96
+              ],
+              "block_text_sha256": "7065f201f343dc76b50412305ce8e602fbcf03e526d3b2ec386e2a058c800542"
+            },
+            {
+              "page": 2,
+              "block": 4,
+              "bbox_pdf_points": [
+                71.0,
+                52.83,
+                210.71,
+                244.96
+              ],
+              "block_text_sha256": "8c2d36313279d9ec3df23a3b6328449fda2c71271b5cb620a94c3bf6f34d50e7"
+            }
+          ],
+          "section_role": "clinical experience and problem",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1702362-p02",
+          "start": 919,
+          "end_exclusive": 1787,
+          "span_sha256": "6b73c18be6e87058f86281d1fdb1186300b984c40f99806fcbeacee1dad11d26",
+          "word_count": 132,
+          "functions": [
+            "assert",
+            "report",
+            "qualify"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 5,
+              "bbox_pdf_points": [
+                71.0,
+                244.83,
+                210.71,
+                580.96
+              ],
+              "block_text_sha256": "7fc650b698b73dcd0a46888af73268b04f8d8be6f04b28d43d4cbfbd07b96685"
+            }
+          ],
+          "section_role": "political context",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1702362-p03",
+          "start": 1789,
+          "end_exclusive": 2566,
+          "span_sha256": "96cad8bf39c2d083963c118c7a5e52d23b85ba60aec762ee664c6e3831bb4e66",
+          "word_count": 119,
+          "functions": [
+            "orient",
+            "assert",
+            "explain"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 6,
+              "bbox_pdf_points": [
+                71.0,
+                580.83,
+                210.7,
+                688.96
+              ],
+              "block_text_sha256": "0e4ea73242f7943864b937b5a1f63e537863975078c72a0aab0b34d5ce71385f"
+            },
+            {
+              "page": 2,
+              "block": 7,
+              "bbox_pdf_points": [
+                219.67,
+                52.83,
+                359.37,
+                232.96
+              ],
+              "block_text_sha256": "fd6532128e7aa0ad7d496a192ee649360c1f308cea949bfc05f9d62e819716fd"
+            }
+          ],
+          "section_role": "resistance question",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1702362-p04",
+          "start": 2568,
+          "end_exclusive": 3888,
+          "span_sha256": "9f891035fe4a1da4cee97ab7c0e9a2cc8a38151889910a081b5188fc2963a4d0",
+          "word_count": 193,
+          "functions": [
+            "assert",
+            "explain",
+            "report",
+            "support"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 8,
+              "bbox_pdf_points": [
+                219.66,
+                232.83,
+                359.39,
+                688.96
+              ],
+              "block_text_sha256": "96f2ce6974275584c7c91783178280deab7be727d6cf1d85301d34c5ac1400a6"
+            },
+            {
+              "page": 2,
+              "block": 9,
+              "bbox_pdf_points": [
+                368.33,
+                52.83,
+                508.04,
+                88.96
+              ],
+              "block_text_sha256": "809045e603c961a4445f996340b503500ff99a38f7ae020b870e7a98cea4ff5f"
+            }
+          ],
+          "section_role": "belief and evidence",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1702362-p05",
+          "start": 3890,
+          "end_exclusive": 4891,
+          "span_sha256": "0e2f093b3b6ae4161321dcd731ccd720d7012debf336d8e9ff8aa123934a9c92",
+          "word_count": 151,
+          "functions": [
+            "assert",
+            "report",
+            "support"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 10,
+              "bbox_pdf_points": [
+                368.33,
+                88.83,
+                508.03,
+                460.96
+              ],
+              "block_text_sha256": "0145a3634ea19c5ec66be14451fcc6de509445d13d77d713b94c017e5d9b7e10"
+            }
+          ],
+          "section_role": "politicization and evidence",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1702362-p06",
+          "start": 4893,
+          "end_exclusive": 5846,
+          "span_sha256": "eb1512cc55cee05e5a40e37bb7f3eccbd152e2555100e6bf892075e70c3715f8",
+          "word_count": 146,
+          "functions": [
+            "interpret",
+            "illustrate",
+            "report"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "block": 11,
+              "bbox_pdf_points": [
+                368.33,
+                460.83,
+                508.04,
+                688.96
+              ],
+              "block_text_sha256": "f73f6dc2eb83459bf340c143f1890efbdc6613f3fad1e4405338c7513ff56787"
+            },
+            {
+              "page": 3,
+              "block": 4,
+              "bbox_pdf_points": [
+                101.9,
+                52.83,
+                241.6,
+                172.96
+              ],
+              "block_text_sha256": "419f9faf04a6a505fe64547e22c86f10590c1435775dd337ccf7fd364fc1817f"
+            }
+          ],
+          "section_role": "politicization risk",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1702362-p07",
+          "start": 5848,
+          "end_exclusive": 6136,
+          "span_sha256": "313f2556d97638b00f8e8e69c01f0c162a5cd4256c1d22738b65f6230a9d020f",
+          "word_count": 42,
+          "functions": [
+            "explain",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "block": 5,
+              "bbox_pdf_points": [
+                101.9,
+                172.83,
+                241.59,
+                280.96
+              ],
+              "block_text_sha256": "b8cc8ed4dceb5952c45beccbc5af8334625e766fad1182dccdcc373db73f75b9"
+            }
+          ],
+          "section_role": "identity mechanism",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1702362-p08",
+          "start": 6138,
+          "end_exclusive": 6892,
+          "span_sha256": "f4225034569d6e0152b659d3952e728d666371e37c2621d74f0fdc072deda5db",
+          "word_count": 109,
+          "functions": [
+            "explain",
+            "assert",
+            "illustrate"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "block": 6,
+              "bbox_pdf_points": [
+                101.9,
+                280.83,
+                241.6,
+                520.96
+              ],
+              "block_text_sha256": "899edc39abd6fefca38ed5ac149be249364726c53ccd44c0a6843bf2e76698c2"
+            },
+            {
+              "page": 3,
+              "block": 7,
+              "bbox_pdf_points": [
+                250.57,
+                52.83,
+                390.28,
+                88.96
+              ],
+              "block_text_sha256": "ed7a4a10e9da94a83c948c4396da57e8867a3e14df2ab3216b1241b249d3b509"
+            }
+          ],
+          "section_role": "measured response",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1702362-p09",
+          "start": 6894,
+          "end_exclusive": 7897,
+          "span_sha256": "eadb6f61b5e3187371548e04ac18fc6e6beb96cdb7cb680fad5e2af751e124f4",
+          "word_count": 154,
+          "functions": [
+            "qualify",
+            "compare",
+            "illustrate"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "block": 8,
+              "bbox_pdf_points": [
+                250.56,
+                88.83,
+                390.27,
+                460.96
+              ],
+              "block_text_sha256": "641276fa83bc65616af0b6dfc45d66cbf57cde6e63956c5694b003f891acfb1e"
+            }
+          ],
+          "section_role": "response uncertainty",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1702362-p10",
+          "start": 7899,
+          "end_exclusive": 8539,
+          "span_sha256": "da39bd252f1f326c39b93ffd26e2a9dc601d0a35f775c0a4b7a6326730ef5bf0",
+          "word_count": 101,
+          "functions": [
+            "interpret",
+            "assert"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "block": 9,
+              "bbox_pdf_points": [
+                250.56,
+                460.83,
+                390.24,
+                520.96
+              ],
+              "block_text_sha256": "a088ab4f9f4b26a2feb87ebc8b67f18e8da85ea18b87550e52451942d7a51fef"
+            },
+            {
+              "page": 3,
+              "block": 10,
+              "bbox_pdf_points": [
+                399.23,
+                52.83,
+                538.95,
+                244.96
+              ],
+              "block_text_sha256": "749924e5ed0f070eda664065788d7f45435674639e1eb6aab980f08169e0be30"
+            }
+          ],
+          "section_role": "closing call",
+          "quantitative_eligible": true
+        }
+      ]
+    },
+    {
+      "id": "NEJMp1707514",
+      "title": "The Other End of the Stethoscope",
+      "doi": "10.1056/NEJMp1707514",
+      "year": 2017,
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1707514.pdf",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4",
+      "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/narratives/NEJMp1707514.txt",
+      "body_text_sha256": "4282fa1393643dde9cad853085229c5dfc872508c23c4516014b7283b02a243b",
+      "offset_units": "zero_based_unicode_codepoints_end_exclusive",
+      "coding_record": "narratives/NEJMp1707514-coding.json",
+      "body_word_tokens": 922,
+      "paragraph_count": 8,
+      "body_quantitative_eligible": true,
+      "paragraph_quantitative_eligible": true,
+      "sections": [
+        {
+          "role": "opening diagnosis and call",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1707514-p001"
+          ]
+        },
+        {
+          "role": "family and travel",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1707514-p002"
+          ]
+        },
+        {
+          "role": "hospital encounter",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1707514-p003",
+            "NEJMp1707514-p004",
+            "NEJMp1707514-p005"
+          ]
+        },
+        {
+          "role": "care relationship",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1707514-p006",
+            "NEJMp1707514-p007"
+          ]
+        },
+        {
+          "role": "recovery and reflection",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1707514-p008"
+          ]
+        }
+      ],
+      "paragraphs": [
+        {
+          "id": "NEJMp1707514-p001",
+          "start": 0,
+          "end_exclusive": 728,
+          "span_sha256": "2d6d36101ffa25d79243a3a2be394ce7f1259bb6dbddd294878b6273237cea5d",
+          "word_count": 140,
+          "functions": [
+            "narrate",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "bbox": [
+                102.0,
+                563.66,
+                119.84,
+                598.5
+              ],
+              "raw_block_sha256": "ae33acec6a3627bc8cdf95b4b7121d4fa1dd9b799e7ac400343e4c8f88ab21ad"
+            },
+            {
+              "page": 1,
+              "bbox": [
+                102.0,
+                568.83,
+                241.69,
+                652.96
+              ],
+              "raw_block_sha256": "d6bfb2521251ff86c342be4698a23978ad6e441750fac8895f91b58c3b83f2fc"
+            },
+            {
+              "page": 1,
+              "bbox": [
+                250.66,
+                568.83,
+                390.36,
+                652.96
+              ],
+              "raw_block_sha256": "8aa44e1537e126af3d8a04dab6ad5413f1286f4bf7f124c9e4765b863d9d4649"
+            },
+            {
+              "page": 1,
+              "bbox": [
+                399.33,
+                568.83,
+                539.04,
+                652.96
+              ],
+              "raw_block_sha256": "13b6bfeee89fe3fbb89b99c2e522a3016cbfe48c04fbafbc2096babb62b51b93"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                71.0,
+                52.83,
+                210.7,
+                88.96
+              ],
+              "raw_block_sha256": "48579ba1f41bc6a39c61e75750280f6821ed095ee980cf29bab9f7dd05d30cfa"
+            }
+          ],
+          "section_role": "opening diagnosis and call",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1707514-p002",
+          "start": 730,
+          "end_exclusive": 1122,
+          "span_sha256": "337020133d6594836860178825625312dce23ac6caac4ef6cd85370627da049f",
+          "word_count": 66,
+          "functions": [
+            "narrate",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                71.0,
+                88.83,
+                210.71,
+                232.96
+              ],
+              "raw_block_sha256": "4911e595f19b6fe97858d9e0541d8ba25e6e9703dc213ceac5b05acfe7752f3c"
+            }
+          ],
+          "section_role": "family and travel",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1707514-p003",
+          "start": 1124,
+          "end_exclusive": 1536,
+          "span_sha256": "fc169f7082c746ea1de5bc54af7b863788ecf2970f90056baabee87cbec4174f",
+          "word_count": 85,
+          "functions": [
+            "narrate",
+            "report"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                71.0,
+                232.83,
+                210.7,
+                268.96
+              ],
+              "raw_block_sha256": "a80f9eafdfa0297efc70d7457aa33c07d776d127cf4c74ed98093277a719609e"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                71.0,
+                496.83,
+                210.7,
+                616.96
+              ],
+              "raw_block_sha256": "3a902a49ddafe617c40dfb3bb627084e689d510ea6f9aa9781fef8dfbbfa6d1e"
+            }
+          ],
+          "section_role": "hospital encounter",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1707514-p004",
+          "start": 1538,
+          "end_exclusive": 1945,
+          "span_sha256": "5f98717399dd8c54cce2c427afd818b7451f43c9143f549f50036f19acd1e647",
+          "word_count": 76,
+          "functions": [
+            "narrate",
+            "report"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                71.0,
+                616.83,
+                210.69,
+                652.96
+              ],
+              "raw_block_sha256": "f13cd1f465af33516ba71f7438aaee31f95d3ae77b78fd6a662f38e81257f1fe"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                219.67,
+                52.83,
+                359.38,
+                184.96
+              ],
+              "raw_block_sha256": "23f1f887cd98d067aa19bf0ff2b550289391877672268a2310ce9d6ecf029bc1"
+            }
+          ],
+          "section_role": "hospital encounter",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1707514-p005",
+          "start": 1947,
+          "end_exclusive": 2759,
+          "span_sha256": "2e84c562bba1c36350ac81804d890549e2d7e770430d1b94346e471bed466250",
+          "word_count": 150,
+          "functions": [
+            "narrate",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                219.67,
+                184.83,
+                359.37,
+                268.96
+              ],
+              "raw_block_sha256": "a70172f2aaaeb30c638d1bdb0408c39c0c1717592f48f29e1786dbe32a76bd79"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                219.67,
+                496.83,
+                359.37,
+                652.96
+              ],
+              "raw_block_sha256": "1046455f17f6745e7267e18a0ba544e427536aee4def4c0c34419005adeb39ae"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                368.33,
+                52.83,
+                508.04,
+                124.96
+              ],
+              "raw_block_sha256": "a0e63b9f3ca90a25edd23b110ad88c28d3236e60dcc6e282d8097fd66170b8f5"
+            }
+          ],
+          "section_role": "hospital encounter",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1707514-p006",
+          "start": 2761,
+          "end_exclusive": 3432,
+          "span_sha256": "68fb02613531764e098dd4ae2174028da5f5c58be5c95585e6902000513ab0f9",
+          "word_count": 132,
+          "functions": [
+            "narrate",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                368.33,
+                124.83,
+                508.04,
+                376.96
+              ],
+              "raw_block_sha256": "b8d290ecaf008d4484043d58df2e77499fd2b145f9cecb4c891d7d7fdab7d189"
+            }
+          ],
+          "section_role": "care relationship",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1707514-p007",
+          "start": 3434,
+          "end_exclusive": 3851,
+          "span_sha256": "7e12859ae60af8094345961d6e3aeade659f4ef2776a1aa50afa39f0160fbfe5",
+          "word_count": 79,
+          "functions": [
+            "narrate"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                368.33,
+                376.83,
+                508.05,
+                544.96
+              ],
+              "raw_block_sha256": "362223c4607adb334e3e8ea4b90f9f3753e80b1333e1e0721ed4aae35cbb56dd"
+            }
+          ],
+          "section_role": "care relationship",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1707514-p008",
+          "start": 3853,
+          "end_exclusive": 4845,
+          "span_sha256": "a98808b6c9932c05aa419caf0c4bbf8ed41119b8f4c322c603ba47cb8d7aabd6",
+          "word_count": 194,
+          "functions": [
+            "narrate",
+            "interpret",
+            "qualify"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                368.33,
+                544.83,
+                508.04,
+                652.96
+              ],
+              "raw_block_sha256": "cd7613c3e397b13f25c4523fd923c7445f10f758a773861d5f8124d1cf17f958"
+            },
+            {
+              "page": 3,
+              "bbox": [
+                101.9,
+                160.83,
+                241.61,
+                244.96
+              ],
+              "raw_block_sha256": "6d1822fb59950b81dfd1dfb5e517e04450c55a344c3b3ef42b18526d0e59cb33"
+            },
+            {
+              "page": 3,
+              "bbox": [
+                250.57,
+                160.83,
+                390.28,
+                244.96
+              ],
+              "raw_block_sha256": "6096646fe31d8d6e1d4e4efb6ce483e61160470a419d542825d181a4662649be"
+            },
+            {
+              "page": 3,
+              "bbox": [
+                399.23,
+                52.83,
+                538.95,
+                172.96
+              ],
+              "raw_block_sha256": "691f2ab48c1864559bc563c9a9f23487eb49bb57dade3a0bbffbb7cb79751da5"
+            }
+          ],
+          "section_role": "recovery and reflection",
+          "quantitative_eligible": true
+        }
+      ]
+    },
+    {
+      "id": "NEJMp1711886",
+      "title": "Tragedy, Perseverance, and Chance — The Story of CAR-T Therapy",
+      "doi": "10.1056/NEJMp1711886",
+      "year": 2017,
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1711886.pdf",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99",
+      "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/narratives/NEJMp1711886.txt",
+      "body_text_sha256": "9a1fea49d0e7ca9c829d346b8832d795bd6ee9feddf8fa2cab0b43ef2bfe7abc",
+      "offset_units": "zero_based_unicode_codepoints_end_exclusive",
+      "coding_record": "narratives/NEJMp1711886-coding.json",
+      "body_word_tokens": 1537,
+      "paragraph_count": 13,
+      "body_quantitative_eligible": true,
+      "paragraph_quantitative_eligible": true,
+      "sections": [
+        {
+          "role": "patient and treatment history",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1711886-p001",
+            "NEJMp1711886-p002"
+          ]
+        },
+        {
+          "role": "treatment and approval",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1711886-p003",
+            "NEJMp1711886-p004"
+          ]
+        },
+        {
+          "role": "development history",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1711886-p005",
+            "NEJMp1711886-p006",
+            "NEJMp1711886-p007"
+          ]
+        },
+        {
+          "role": "trial risk and uncertainty",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1711886-p008"
+          ]
+        },
+        {
+          "role": "trial experience",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1711886-p009",
+            "NEJMp1711886-p010"
+          ]
+        },
+        {
+          "role": "treatment and response",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1711886-p011"
+          ]
+        },
+        {
+          "role": "technical limits",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1711886-p012"
+          ]
+        },
+        {
+          "role": "cost and closing reflection",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "NEJMp1711886-p013"
+          ]
+        }
+      ],
+      "paragraphs": [
+        {
+          "id": "NEJMp1711886-p001",
+          "start": 0,
+          "end_exclusive": 744,
+          "span_sha256": "da7bc98757c41a0f2cf5f00ebd20f745055401672a570327b21ae1830e138153",
+          "word_count": 113,
+          "functions": [
+            "narrate",
+            "report"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "bbox": [
+                101.9,
+                131.66,
+                119.74,
+                166.5
+              ],
+              "raw_block_sha256": "ae33acec6a3627bc8cdf95b4b7121d4fa1dd9b799e7ac400343e4c8f88ab21ad"
+            },
+            {
+              "page": 1,
+              "bbox": [
+                101.9,
+                136.83,
+                241.61,
+                424.96
+              ],
+              "raw_block_sha256": "7c02d0619708637652e311daadd246f53492ab18dcf3599b318f817e8289fe96"
+            }
+          ],
+          "section_role": "patient and treatment history",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p002",
+          "start": 746,
+          "end_exclusive": 1363,
+          "span_sha256": "f9eee21eab5fce57c8bb11d92733104d95c11d4e9affd105f91acc97a30d7d7b",
+          "word_count": 97,
+          "functions": [
+            "narrate",
+            "report"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "bbox": [
+                101.9,
+                424.83,
+                241.61,
+                652.96
+              ],
+              "raw_block_sha256": "278c204e7af46ec93a8c90ca4cb78aa0ce81fd310d00c21331c22778cfa5fc6d"
+            },
+            {
+              "page": 1,
+              "bbox": [
+                250.56,
+                136.83,
+                390.25,
+                160.96
+              ],
+              "raw_block_sha256": "ae5b8fe215a8fc7836bbbfdf7be3c8043685d9640144c65aec1b7dd4035621b0"
+            }
+          ],
+          "section_role": "patient and treatment history",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p003",
+          "start": 1365,
+          "end_exclusive": 2095,
+          "span_sha256": "dc80fa2c2c6b553011009ebbf50f97d9c7c741847ba5f37c30398de0fca8e88e",
+          "word_count": 117,
+          "functions": [
+            "narrate",
+            "report",
+            "qualify"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "bbox": [
+                250.56,
+                160.83,
+                390.27,
+                436.96
+              ],
+              "raw_block_sha256": "c8feff0f878473170493eb148e7c449e4f8c93757cb280d8809dc3d3307f5974"
+            }
+          ],
+          "section_role": "treatment and approval",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p004",
+          "start": 2097,
+          "end_exclusive": 2754,
+          "span_sha256": "ff68297aa449263935e1c3291d569477895bab107e4f135383bc8e4d6e23a038",
+          "word_count": 93,
+          "functions": [
+            "report",
+            "qualify"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "bbox": [
+                250.57,
+                436.83,
+                390.28,
+                652.96
+              ],
+              "raw_block_sha256": "5b363cea3d40d11186de7e64be4a1d49395622a137a0daa9d4b09aa5f392a8b0"
+            },
+            {
+              "page": 1,
+              "bbox": [
+                399.23,
+                136.83,
+                538.92,
+                172.96
+              ],
+              "raw_block_sha256": "235f9518371bb5b6ded4be5cb01c3cbd38494c447e8f47426237ab5320ba427a"
+            }
+          ],
+          "section_role": "treatment and approval",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p005",
+          "start": 2756,
+          "end_exclusive": 3324,
+          "span_sha256": "438863d6ad13cc2cee103a1625b7b060f89d1548a646111a19e1bdfd2059420f",
+          "word_count": 87,
+          "functions": [
+            "report",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "bbox": [
+                399.23,
+                172.83,
+                538.94,
+                400.96
+              ],
+              "raw_block_sha256": "c725fe0d80fcb1213b309714978dee3af7451523256ec48291f747d898cff071"
+            }
+          ],
+          "section_role": "development history",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p006",
+          "start": 3326,
+          "end_exclusive": 4187,
+          "span_sha256": "269c358de5b4dd78fcd1c997b8788cefb52bcec0494c97baeb6263bf7edc25a3",
+          "word_count": 136,
+          "functions": [
+            "narrate",
+            "report"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "bbox": [
+                399.23,
+                400.83,
+                538.93,
+                652.96
+              ],
+              "raw_block_sha256": "f25ca7df0717b32dd42bc198dd0330cb62c5ea3e4e8b8613634acc8e441196fd"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                71.0,
+                52.83,
+                210.71,
+                136.96
+              ],
+              "raw_block_sha256": "0218cec67765a90704d40c57bd67b15e1ac61a7f1704ea6f4833e01e2861298a"
+            }
+          ],
+          "section_role": "development history",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p007",
+          "start": 4189,
+          "end_exclusive": 5147,
+          "span_sha256": "bc1855ef3156d06068c1a7809bc57149df369a9a40c72b932da566a79d2a1de5",
+          "word_count": 142,
+          "functions": [
+            "narrate",
+            "report",
+            "qualify"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                71.0,
+                136.83,
+                210.7,
+                184.96
+              ],
+              "raw_block_sha256": "2297e56cddff726ad21ffab1933bb851573a7a8869d5fe26a7bee211b4e2da06"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                71.0,
+                376.83,
+                210.72,
+                652.96
+              ],
+              "raw_block_sha256": "04db83bba384e4b49194b3d928e65c87e22c7971530a8fd1f5027c0c93917f76"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                219.67,
+                52.83,
+                359.36,
+                88.96
+              ],
+              "raw_block_sha256": "e0a5dd550a0fc144f3a00bb0161182ae9f6027d9b5124ba8e88096067f6ad58c"
+            }
+          ],
+          "section_role": "development history",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p008",
+          "start": 5149,
+          "end_exclusive": 5888,
+          "span_sha256": "26d59792a142111f105faa37e080100881860b6b9a52414cbf769dd94814ec36",
+          "word_count": 129,
+          "functions": [
+            "report",
+            "interpret",
+            "qualify"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                219.67,
+                88.83,
+                359.37,
+                184.96
+              ],
+              "raw_block_sha256": "fc157c8ff07f92350b0f725db962e6c035179df66f12693c58d5d22607572160"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                219.67,
+                376.83,
+                359.38,
+                568.96
+              ],
+              "raw_block_sha256": "18e779934b27d884827db2fdb08fe936067919c410d0f76817d4e4ecffa89cae"
+            }
+          ],
+          "section_role": "trial risk and uncertainty",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p009",
+          "start": 5890,
+          "end_exclusive": 6303,
+          "span_sha256": "b8e9a0d8df8fb66bffa3aead27a71f401989e4d2d75cf98920bb21741cac655b",
+          "word_count": 67,
+          "functions": [
+            "narrate",
+            "report",
+            "qualify"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                219.67,
+                568.83,
+                359.38,
+                652.96
+              ],
+              "raw_block_sha256": "7a75e5c2defe085ad439570973692cffde217c09825f02fd7c960a43fb8a1d9a"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                368.34,
+                52.83,
+                508.04,
+                124.96
+              ],
+              "raw_block_sha256": "003d75a915cdf747d660ebb27b81b1891d25a2c77f79b6fe719a6a0fb9d2d61c"
+            }
+          ],
+          "section_role": "trial experience",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p010",
+          "start": 6305,
+          "end_exclusive": 7508,
+          "span_sha256": "35b1f328072e491016085eb0480f1930e33eb892b949d597d47f01ed9da073f3",
+          "word_count": 190,
+          "functions": [
+            "narrate",
+            "explain",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                368.34,
+                124.83,
+                508.05,
+                580.96
+              ],
+              "raw_block_sha256": "5d42dda1737dcf0ab2d1d668486538156ac3bbd0fa083a5997304fd6347729ff"
+            }
+          ],
+          "section_role": "trial experience",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p011",
+          "start": 7510,
+          "end_exclusive": 7976,
+          "span_sha256": "f7b857948a7e156589b388790dbbb76aeeb65d56706f0c32cee3a5bb2e7a82fd",
+          "word_count": 79,
+          "functions": [
+            "narrate",
+            "report"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                368.34,
+                580.83,
+                508.04,
+                652.96
+              ],
+              "raw_block_sha256": "9c2e98f33eaffbb04809f29ad82e74955e092bf3cdaf1c9c7af0726963485f7b"
+            },
+            {
+              "page": 3,
+              "bbox": [
+                101.9,
+                52.83,
+                241.62,
+                160.96
+              ],
+              "raw_block_sha256": "2e48b454b030cfa061bf0063fdfe11c7179eb5221f2597da14e75b7f0c430e0c"
+            }
+          ],
+          "section_role": "treatment and response",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p012",
+          "start": 7978,
+          "end_exclusive": 9019,
+          "span_sha256": "98fdfbdc716b082d76802a3f58255738fe49805ba58c1ba61119a3988eaa5783",
+          "word_count": 148,
+          "functions": [
+            "qualify",
+            "explain",
+            "report"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "bbox": [
+                101.9,
+                160.83,
+                241.61,
+                472.96
+              ],
+              "raw_block_sha256": "9a2cf42c6b9cfc93263ba19a52058be20f6eb7505966cc55c8742dbfdaadd947"
+            },
+            {
+              "page": 3,
+              "bbox": [
+                250.57,
+                52.83,
+                390.26,
+                148.96
+              ],
+              "raw_block_sha256": "ac3608d7ba6f000e9c6a6c995c99e02c8fbe139de4c71a9d6aa6300851ef9cda"
+            }
+          ],
+          "section_role": "technical limits",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "NEJMp1711886-p013",
+          "start": 9021,
+          "end_exclusive": 9982,
+          "span_sha256": "8165987e98b442e8f295e3ab024b816147bb554014669a19085694d8c28e0e40",
+          "word_count": 139,
+          "functions": [
+            "report",
+            "compare",
+            "qualify",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "bbox": [
+                250.57,
+                148.83,
+                390.28,
+                472.96
+              ],
+              "raw_block_sha256": "2deb56f8667439cfb81ed0ff2408835e933391bcf7437029c287e1b0e8af3856"
+            },
+            {
+              "page": 3,
+              "bbox": [
+                399.23,
+                52.83,
+                538.92,
+                100.96
+              ],
+              "raw_block_sha256": "5c41b953a4fa9390d57907975f95facb39b61aac5b6537540635c559932ab629"
+            }
+          ],
+          "section_role": "cost and closing reflection",
+          "quantitative_eligible": true
+        }
+      ]
+    },
+    {
+      "id": "NEJMp1901657",
+      "title": "Hypertension Hot Potato — Anatomy of the Angiotensin-Receptor Blocker Recalls",
+      "doi": "10.1056/NEJMp1901657",
+      "year": 2019,
+      "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1901657.pdf",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792",
+      "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/arb/body.txt",
+      "body_text_sha256": "d16b7738d231c97ebac6b8ed4288f5b1b53932027b7f6ec68c95751db1bd5ab8",
+      "offset_units": "zero_based_unicode_codepoints_end_exclusive",
+      "coding_record": "arb/article.json",
+      "body_word_tokens": 1316,
+      "paragraph_count": 11,
+      "body_quantitative_eligible": true,
+      "paragraph_quantitative_eligible": true,
+      "sections": [
+        {
+          "role": "recall and scope",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "arb-p01",
+            "arb-p02"
+          ]
+        },
+        {
+          "role": "impurity and manufacturing",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "arb-p03",
+            "arb-p04"
+          ]
+        },
+        {
+          "role": "consequences and response",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "arb-p05",
+            "arb-p06",
+            "arb-p07"
+          ]
+        },
+        {
+          "role": "oversight and preparedness",
+          "printed_heading": false,
+          "role_status": "inferred by single analyst",
+          "paragraph_ids": [
+            "arb-p08",
+            "arb-p09",
+            "arb-p10",
+            "arb-p11"
+          ]
+        }
+      ],
+      "paragraphs": [
+        {
+          "id": "arb-p01",
+          "start": 0,
+          "end_exclusive": 1551,
+          "span_sha256": "e7c3cb6bf1f022554f1859e4d6966899697c6d350926b338f9569d59afbf97f4",
+          "word_count": 220,
+          "functions": [
+            "orient",
+            "report"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "bbox": [
+                101.74,
+                312.06,
+                140.17,
+                388.87
+              ],
+              "source_text_sha256": "06f961b802bc46ee168555f066d28f4f0e9afdf3f88174c1ee6f9de004fc30a0",
+              "role": "drop cap"
+            },
+            {
+              "page": 1,
+              "bbox": [
+                101.74,
+                325.84,
+                384.66,
+                390.09
+              ],
+              "source_text_sha256": "2a6156eb30fd6dd2fe4b49411f491c5c108048606c0f88029d67f353c1341ba7"
+            },
+            {
+              "page": 1,
+              "bbox": [
+                101.74,
+                400.96,
+                241.44,
+                677.09
+              ],
+              "source_text_sha256": "6cc04397f8024b16d65767d43c5e3c30b1f23567a0b6ce2c28b8fac5c54ca6bc"
+            },
+            {
+              "page": 1,
+              "bbox": [
+                250.38,
+                400.96,
+                390.09,
+                641.09
+              ],
+              "source_text_sha256": "63500d1cb4f762c873a71db872e3ea82e51729e0ca868906d00f3f7ccbe89df3"
+            }
+          ],
+          "section_role": "recall and scope",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "arb-p02",
+          "start": 1553,
+          "end_exclusive": 2553,
+          "span_sha256": "d8c001a780723fe50d199689132fde30d97e1e9990a2d9ed584f8a085ba859c0",
+          "word_count": 157,
+          "functions": [
+            "qualify",
+            "report"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "bbox": [
+                250.38,
+                640.96,
+                390.07,
+                677.09
+              ],
+              "source_text_sha256": "9c973441ae7d671934806aa4a330c6aa887ac712689403f88fd48c873a8f8f89"
+            },
+            {
+              "page": 1,
+              "bbox": [
+                399.05,
+                328.96,
+                538.77,
+                665.09
+              ],
+              "source_text_sha256": "97e2e2a362d1e4d30c0ea35a9bc94d6620401d5ae698a8be4ddc33464dda3497"
+            }
+          ],
+          "section_role": "recall and scope",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "arb-p03",
+          "start": 2555,
+          "end_exclusive": 3256,
+          "span_sha256": "7045d913ec0cfcd63afe6bf030aba90d8c35d7b27f2153aabc315dac23d94043",
+          "word_count": 116,
+          "functions": [
+            "define",
+            "report",
+            "explain"
+          ],
+          "source_fragments": [
+            {
+              "page": 1,
+              "bbox": [
+                411.07,
+                664.96,
+                538.76,
+                677.09
+              ],
+              "source_text_sha256": "5186b33cb684e9bf8417ca204e46b8352662fe4dfcb2393220b87d537bdea47e"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                71.0,
+                364.83,
+                210.7,
+                628.96
+              ],
+              "source_text_sha256": "084987e797f183cd85c75e64b74f21d7b31188ed50d12e76d86dd0ced9440999"
+            }
+          ],
+          "section_role": "impurity and manufacturing",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "arb-p04",
+          "start": 3258,
+          "end_exclusive": 4207,
+          "span_sha256": "cc6b3d0e479823364d9b4c4980aeef40d62294001894c64b497b628226f2a464",
+          "word_count": 142,
+          "functions": [
+            "report",
+            "explain",
+            "qualify"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                71.0,
+                628.83,
+                210.68,
+                676.96
+              ],
+              "source_text_sha256": "5add5c0b5a1d4b3b7786580da8029c0d47c50cb99661287689dc23503f55ffba"
+            },
+            {
+              "page": 2,
+              "bbox": [
+                219.66,
+                364.83,
+                359.37,
+                676.96
+              ],
+              "source_text_sha256": "2f070b8a45abf4bbc0cbbf39617f78a88d4fad8e1b65b5c5b4098cf443971701"
+            }
+          ],
+          "section_role": "impurity and manufacturing",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "arb-p05",
+          "start": 4209,
+          "end_exclusive": 4670,
+          "span_sha256": "5512005a9911bf60248ee60489580f546167cee1dc1e4821e01271aa3b10aa6b",
+          "word_count": 67,
+          "functions": [
+            "report",
+            "explain"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                368.33,
+                364.83,
+                508.04,
+                544.96
+              ],
+              "source_text_sha256": "c55e3836fb86be469208b1e3d35401b8e2292beef7057c98cf76f24ddb282da6"
+            }
+          ],
+          "section_role": "consequences and response",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "arb-p06",
+          "start": 4672,
+          "end_exclusive": 5437,
+          "span_sha256": "0b23267ef6125296dbe3b948bf5b40e8559c14193afdb7e8a1c270ab1317a77a",
+          "word_count": 116,
+          "functions": [
+            "report",
+            "explain",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 2,
+              "bbox": [
+                368.34,
+                544.83,
+                508.05,
+                676.96
+              ],
+              "source_text_sha256": "8fb81f966eb84fb6700fc4e25854ab6aafadd58791ddc181dbee30dcb62105fd"
+            },
+            {
+              "page": 3,
+              "bbox": [
+                101.9,
+                52.83,
+                241.59,
+                220.96
+              ],
+              "source_text_sha256": "3473164d5681b250f56897aadcc8c4731472561ea1b761a23b5385302d12976f"
+            }
+          ],
+          "section_role": "consequences and response",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "arb-p07",
+          "start": 5439,
+          "end_exclusive": 6297,
+          "span_sha256": "3c27cf5fd2f118dcb691b647002dc4635eda4b4de4335b594d7f69afc1efeb86",
+          "word_count": 124,
+          "functions": [
+            "report",
+            "explain"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "bbox": [
+                101.9,
+                220.83,
+                241.61,
+                544.96
+              ],
+              "source_text_sha256": "9ba13d5609b1ffca430b06178cb4b4d5e18752e09018d72e639677a5b7c09320"
+            }
+          ],
+          "section_role": "consequences and response",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "arb-p08",
+          "start": 6299,
+          "end_exclusive": 6835,
+          "span_sha256": "3c9fe416207a3d54af4f9ea52990c5237d8d5eb296b18d1b38de0e8c0d9a942a",
+          "word_count": 81,
+          "functions": [
+            "report",
+            "qualify",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "bbox": [
+                101.9,
+                544.83,
+                241.59,
+                580.96
+              ],
+              "source_text_sha256": "a2289a1d57fa829add342adbcb97c4dffd38aa178ec54c5ee3bbe5555567e493"
+            },
+            {
+              "page": 3,
+              "bbox": [
+                101.9,
+                580.83,
+                241.6,
+                676.96
+              ],
+              "source_text_sha256": "c9f17cbb2d672d86da4d29a9afa7fa5cba86dee78ac3a016b031f37c32d9a4e9"
+            },
+            {
+              "page": 3,
+              "bbox": [
+                250.57,
+                52.83,
+                390.27,
+                148.96
+              ],
+              "source_text_sha256": "0e7c2227ec6e4eaf7ae315edab9b5fe0001a3b8256e67401f06578cc1ae8e96d"
+            }
+          ],
+          "section_role": "oversight and preparedness",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "arb-p09",
+          "start": 6837,
+          "end_exclusive": 7604,
+          "span_sha256": "5a441176dc8e67a93dec6ffb1673305a14dad970aad4c76ff88ba8ca24ffc686",
+          "word_count": 115,
+          "functions": [
+            "report",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "bbox": [
+                250.57,
+                148.83,
+                390.28,
+                448.96
+              ],
+              "source_text_sha256": "7d5fc71c1f188bd9791bbcf4efd41c1a4651d34d9e5a890b7de0ad63e12549d3"
+            }
+          ],
+          "section_role": "oversight and preparedness",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "arb-p10",
+          "start": 7606,
+          "end_exclusive": 8164,
+          "span_sha256": "0ef005768fc8660d78bb3599d018ca8a4c2cddfeadec80f30c72c30c83838fb0",
+          "word_count": 92,
+          "functions": [
+            "interpret",
+            "assert",
+            "explain"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "bbox": [
+                250.57,
+                448.83,
+                390.29,
+                664.96
+              ],
+              "source_text_sha256": "fa626d79703efd9ea804f1c2d40b16cb34d06cd350cee7b0d990861ba227c78f"
+            }
+          ],
+          "section_role": "oversight and preparedness",
+          "quantitative_eligible": true
+        },
+        {
+          "id": "arb-p11",
+          "start": 8166,
+          "end_exclusive": 8717,
+          "span_sha256": "5eb374d8fe05f61548fb2eb85574858a5a699eb43011a2a09c827459a487c41b",
+          "word_count": 86,
+          "functions": [
+            "assert",
+            "interpret"
+          ],
+          "source_fragments": [
+            {
+              "page": 3,
+              "bbox": [
+                262.57,
+                664.83,
+                390.26,
+                676.96
+              ],
+              "source_text_sha256": "c0cdbe95d7bd44f34702709453e8fdaf64cd3af58df0af24f5b4226bd14682b5"
+            },
+            {
+              "page": 3,
+              "bbox": [
+                399.23,
+                52.83,
+                538.94,
+                256.96
+              ],
+              "source_text_sha256": "7d6aac6d617c655b757e42ea9d560ab18433134c620043de5a247e9e73667c02"
+            }
+          ],
+          "section_role": "oversight and preparedness",
+          "quantitative_eligible": true
+        }
+      ]
+    }
+  ],
+  "function_presence_anywhere": {
+    "denominator": 5,
+    "counts": {
+      "assert": 3,
+      "compare": 3,
+      "define": 1,
+      "explain": 4,
+      "illustrate": 2,
+      "instruct": 0,
+      "interpret": 5,
+      "narrate": 3,
+      "orient": 3,
+      "qualify": 5,
+      "report": 5,
+      "support": 2
+    },
+    "interpretation": "Number of documents with at least one paragraph bearing each proposed function label; not evidence of an ordered template. Labels coexist; not independent consensus."
+  },
+  "ordered_hypothesis": "Not tallied mechanically: experiential opening, wider evidence, qualification, action, and stakes are interpretive section roles, not synonyms for paragraph-function labels. See report for document-level counterpatterns."
+}

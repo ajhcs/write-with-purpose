@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-11-16T01:11:17.097660+00:00",
+  "sources": [
+    {
+      "source": "New York Review of Books",
+      "source_id": "S122513169",
+      "match_count": 544,
+      "records_returned": 200,
+      "request": "https://api.openalex.org/works?filter=primary_location.source.id%3AS122513169%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location"
+    },
+    {
+      "source": "Theory & Psychology",
+      "source_id": "S110667073",
+      "match_count": 1356,
+      "records_returned": 200,
+      "request": "https://api.openalex.org/works?filter=primary_location.source.id%3AS110667073%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location"
+    },
+    {
+      "source": "Academy of Management Review",
+      "source_id": "S46763546",
+      "match_count": 3027,
+      "records_returned": 200,
+      "request": "https://api.openalex.org/works?filter=primary_location.source.id%3AS46763546%2Cto_publication_date%3A2014-12-31&sort=cited_by_count%3Adesc&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cprimary_location"
+    }
+  ]
+}

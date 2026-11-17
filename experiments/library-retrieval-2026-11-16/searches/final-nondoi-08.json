@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p09",
+      "doi": "",
+      "title": "Overexposed",
+      "authors": "[\"Witold Rybczynski\"]",
+      "field": "personal_public_writing",
+      "q": "\"Overexposed\" Rybczynski pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p09",
+      "query": "\"Overexposed\" Rybczynski pdf",
+      "urls": [
+        {
+          "title": "Overexposed : art, technology, and the body | Search Results | IUCAT Indianapolis !",
+          "url": "https://iucat.iu.edu/iui/21843632",
+          "score": 1
+        },
+        {
+          "title": "-- Overexposed: Perverting Perversions --",
+          "url": "https://redemmas.org/titles/7442-overexposed-perverting-perversions/",
+          "score": 1
+        },
+        {
+          "title": "\"Overexposed\" als eBook kaufen",
+          "url": "https://www.orellfuessli.ch/shop/home/artikeldetails/A1046123523",
+          "score": 1
+        },
+        {
+          "title": "Overexposed - Tradebook for Courses",
+          "url": "https://academic.macmillan.com/academictrade/9780312581572/overexposed/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

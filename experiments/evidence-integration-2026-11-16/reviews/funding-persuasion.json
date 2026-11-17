@@ -1,0 +1,325 @@
+{
+  "reviewer": "funding-persuasion",
+  "papers": [
+    {
+      "id": "P03",
+      "title": "The Language that Gets People to Give: Phrases that Predict Success on Kickstarter",
+      "authors": [
+        "Tanushree Mitra",
+        "Eric Gilbert"
+      ],
+      "year": 2014,
+      "doi": "10.1145/2531602.2531656",
+      "study_kind": "observational predictive modeling with post-hoc qualitative interpretation",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P03.txt",
+      "scope": "Kickstarter public crowdfunding pitches and rewards, 13 creative categories; pages scraped August 2012 after campaign end; funding outcome is goal achieved, not proposal merit or fulfillment.",
+      "sample_and_design": "45,815 launched-project URLs, 45,810 retained after five non-ended; lasso logistic regression of 20,391 selected 1–3 grams plus 59 controls, ten-fold cross-validation and 80/20 train/test comparison. Homepages can change while campaign is live and include reward descriptions; controls include update counts, comments and Featured/Most Funded placement measured post hoc.",
+      "outcomes": "Binary funded versus not funded. No randomized wording intervention, reader understanding, funder decision mechanism or subsequent delivery outcome.",
+      "findings": [
+        {
+          "claim": "23,604 of 45,810 campaigns funded (51.53%); 22,206 not funded (48.47%).",
+          "pdf_pages": [
+            3
+          ],
+          "evidence_locator": "Unit of Analysis: End-Dated Projects",
+          "denominator": "45,810 retained ended campaigns",
+          "interpretation_limits": "US Kickstarter projects observed in 2012; not all proposal settings."
+        },
+        {
+          "claim": "Reported cross-validation error was 17.03% controls-only versus 2.4% with phrases and controls (Table 2); Figure 3 reports 2.41% cross-validation and 2.24% held-out prediction error for alpha=1 using an 80/20 split.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Table 2; Results; Figure 3; Figure 4",
+          "denominator": "45,810 campaign observations, ten-fold CV; split details not fully specified",
+          "interpretation_limits": "Retrospective homepage text and dynamic controls can include outcome information; neither evaluation establishes prospective launch-time performance. Figure 4 and adjacent prose do not clearly identify the metric basis."
+        },
+        {
+          "claim": "Paper calls 58.56% a deviance drop/variance: given reported null, control and combined deviances 63,463.47, 37,525.52 and 363.42, the increment 37,162.10 divided by null deviance is 58.56%; relative to controls-only deviance it is about 99.03%.",
+          "pdf_pages": [
+            5
+          ],
+          "evidence_locator": "Results and Table 2",
+          "denominator": "Deviance comparison for 45,810 campaigns",
+          "interpretation_limits": "Not ordinary variance explained or a causal contribution; deviance from fitted models and wording internally inconsistent."
+        },
+        {
+          "claim": "Positive and negative sentiment differences were reported statistically nonsignificant; the paper calls LIWC group differences small despite statistical significance.",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "LIWC and Sentiment",
+          "denominator": "funded and unfunded campaign language groups; sample-level sentiment test denominator not separately stated",
+          "interpretation_limits": "Do not infer that positivity improves funding or no real effect exists."
+        }
+      ],
+      "limitations": [
+        "Homepages were scraped after end and could have changed; page 10 shows live progress (\"we’ve hit the 50% mark\"). Updates, comments and Most Funded status are dynamic. Strong potential temporal leakage and reverse causation, not resolved by cross-validation.",
+        "No random assignment, no inference about individual phrases causing funding; category-wide filtering and Google presence do not establish transfer.",
+        "Paper describes the majority-class baseline as always choosing not-funded despite funded being the majority; 48.47% baseline error corresponds to predicting funded (pages 3 and 6). Figure 4 and adjacent prose do not clearly identify the metric basis; Figure 3 distinguishes cross-validation from held-out prediction error.",
+        "No independent prelaunch validation, calibration or selection-inside-fold audit established in supplied paper."
+      ],
+      "rule_implications": [
+        "No lexical positive/negative phrase scoring, automatic assertiveness increase or funding guarantee. Clear, factual rewards and audience benefits may be worth presenting when true and relevant; reciprocity interpretation is an untested mechanism.",
+        "Reaffirm skills/write-with-purpose/references/concepts-and-claims.md: separate proposals, evidence, predictions and actual outcomes; preserve uncertainty."
+      ],
+      "data_or_code_leads": [
+        "Paper page 11 lists historical KS.predicts and Gg.KS.pos/neg author URLs; access, version, data and rights not checked in this review. glmnet software is identified but no project code verified. No automatic GitHub adoption."
+      ],
+      "extraction_issues": [
+        "Page 5 says 58.56% drop without clearly stating denominator; direct calculation shown above. Figure 3 distinguishes 2.41% cross-validation error from 2.24% held-out prediction error at alpha=1; Table 2 rounds cross-validation error to 2.4%. Figure 4 and adjacent prose are metric-ambiguous."
+      ]
+    },
+    {
+      "id": "P10",
+      "title": "Use of Promotional Language in Grant Applications and Grant Success",
+      "authors": [
+        "Huilian Sophie Qiu",
+        "Hao Peng",
+        "Henrik Barslund Fosse",
+        "Teresa K. Woodruff",
+        "Brian Uzzi"
+      ],
+      "year": 2024,
+      "doi": "10.1001/jamanetworkopen.2024.48696",
+      "study_kind": "cross-sectional observational association study with regression and lexical validation",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P10.txt",
+      "scope": "Biomedical grant applications to NNF in 2015–2022 and Northwestern faculty NIH submissions in 2007–2019; funded and rejected full application texts. Audience includes agency reviewers, not general workplace decision makers.",
+      "sample_and_design": "9,096 NNF applications, 2,439 NIH applications from one university; dictionary fraction of 139 science-specific promotional words, logistic association with covariates including applicant performance and grant features and year/length fixed effects. Lexicon validation and five-fold cross-validation reported; released supplementary information and data statements not individually checked.",
+      "outcomes": "Binary funded/rejected and frequency of promotional terms; no randomized causal outcome, measured readability, merit or actual reviewer comprehension.",
+      "findings": [
+        {
+          "claim": "NNF awarded 1,579 of 9,096 applications (17.4%); NIH awarded 481 of 2,439 (19.7%).",
+          "pdf_pages": [
+            2
+          ],
+          "evidence_locator": "Methods",
+          "denominator": "respective agency sample application totals",
+          "interpretation_limits": "NIH cohort from one institution, NNF from one foundation; repeated applicants possible."
+        },
+        {
+          "claim": "Adjusted odds ratios for promotional-word percentage were 1.47 (95% CI 1.25–1.71) NNF and 1.51 (1.10–2.11) NIH; methods indicate a one percentage-point increase in the fraction.",
+          "pdf_pages": [
+            3,
+            5,
+            6
+          ],
+          "evidence_locator": "Statistical Analysis; Results; Figure 2",
+          "denominator": "9,096 NNF and 2,439 NIH applications in full samples; exact model complete cases not stated in main text",
+          "interpretation_limits": "Odds ratios, not probability ratios or effects of editing. Figure 2 displays 1.46 for the NNF multivariable model; use prose 1.47 with rounding discrepancy flagged."
+        },
+        {
+          "claim": "Mean dictionary-word fractions funded vs unfunded were 1.02% vs 0.98% for NNF and 0.93% vs 0.89% for NIH.",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Results Figure 1",
+          "denominator": "NNF funded 1,579/unfunded 7,517; NIH funded 481/unfunded 1,958",
+          "interpretation_limits": "Word fractions, not measures of inaccurate or unsupported hype; differences are descriptive."
+        },
+        {
+          "claim": "NNF binscatter estimated 14% to 22% funding probability from lowest to highest promotional-language bin; paper also describes relative increase of 53%.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Results and Figure 2",
+          "denominator": "20 equal-size bins of NNF sample; exact bin counts not printed",
+          "interpretation_limits": "Approximate fitted sample association, not benefit from adding words; figure caption also calls 53% an odds increase, creating ambiguity."
+        },
+        {
+          "claim": "Previous lexicon construction evaluated each candidate in at least 500 occurrences by two reviewers, with reported kappa 0.82.",
+          "pdf_pages": [
+            3
+          ],
+          "evidence_locator": "Methods: dictionary and validation",
+          "denominator": "at least 500 contexts per candidate term, 139-term instrument",
+          "interpretation_limits": "Context-level agreement from earlier work; does not validate each token occurrence in every grant."
+        }
+      ],
+      "limitations": [
+        "Observational covariate adjustment does not remove unmeasured project merit, reviewer expectations, selection or confounding; author notes need for causal studies (p8).",
+        "A dictionary term is not a judgment of exaggeration, truth or appropriateness in context. Their sample substitution examples are sometimes awkward or change intensity.",
+        "Five-fold validation reported (Fig 2) without predictive accuracy or independent temporal/external sample evaluation in main paper; does not establish causal or prospective performance.",
+        "Page 2 says 38.4% of NNF and 33.7% of NIH are women, with numerators using all applications although phrasing ambiguously follows awarded subset. Treat 3491/9096 and 823/2439 as full-application counts.",
+        "NIH sample and one private foundation do not represent other funders, disciplines or eras."
+      ],
+      "rule_implications": [
+        "A blanket ban on adjectives or promotional lexemes conflicts with observed positive association, not proof of improved prose or reason to add adjectives.",
+        "Reaffirm evidence-backed positive emphasis and proposal significance when substantiated; retain uncertainty and voice. Flag ungrounded novelty, superlatives and promises for contextual review, never automatic deletion or insertion."
+      ],
+      "data_or_code_leads": [
+        "Main paper pages 2, 9–10: NNF data obtainable through cooperative agreement on request; NIH data internal university request; supplement 1 lists dictionary, operationalization, model tables, supplement 2 data statement. Neither supplement inspected; no reproducible repository verified."
+      ],
+      "extraction_issues": [
+        "Article uses causal wording (\"can increase\") but discussion explicitly calls for causal analyses; this review treats estimates as associations. NNF adjusted OR in main results 1.47 while figure 2 shows 1.46. Caption and text disagree about odds versus probability for 53% change."
+      ]
+    },
+    {
+      "id": "P11",
+      "title": "The effect of writing style on success in grant applications",
+      "authors": [
+        "Peter van den Besselaar",
+        "Charlie Mom"
+      ],
+      "year": 2022,
+      "doi": "10.1016/j.joi.2022.101257",
+      "study_kind": "observational multivariable study of application language and review outcomes",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P11.txt",
+      "scope": "One early-career funding scheme in 2014, disciplinary panels; project description, abstract and CV; funding selection has staged review, later presentation and peer review.",
+      "sample_and_design": "3,207 applications received; 3,030 consented, 2,900 text-extractable after exclusions, 2,532 eligible following field and bibliometric exclusions; tables use 2,493 first-stage and 677 second-stage descriptions. English proficiency proxied by country-level score. LIWC 2015 English dictionaries; features standardized by panel; mixed, ordinal and logistic regressions control for panel, applicant publication impact and gender.",
+      "outcomes": "First and second-stage project scores, ordinal final score and decision to proceed/funding. Linguistic proxies are not observed comprehension or objective writing quality.",
+      "findings": [
+        {
+          "claim": "First-stage project-description model estimated certainty coefficient B=0.043 (95% CI 0.022–0.063; p<0.001); tentative words B=0.002 (95% CI −0.020–0.023; p=0.885).",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "Table 3, mixed model with panel fixed effects",
+          "denominator": "2,493 project descriptions",
+          "interpretation_limits": "Coefficients panel-standardized, observational, no causal proof; a null result does not justify removing hedges."
+        },
+        {
+          "claim": "First-stage progression model certainty OR 1.180 (95% CI 1.070–1.303); tentative OR 0.986 (0.890–1.093). Causal words OR 1.050 (0.952–1.158), not statistically significant.",
+          "pdf_pages": [
+            8
+          ],
+          "evidence_locator": "Table 5",
+          "denominator": "2,493 first-stage descriptions",
+          "interpretation_limits": "Per standardized predictor under model covariates; not final grant success. Do not add unsupported certainty or causal wording."
+        },
+        {
+          "claim": "First-stage project score associations include positive word count B=0.501 and squared term B=−0.360, and positive words/sentence B=0.135 with squared B=−0.159.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "Table 3",
+          "denominator": "2,493 project descriptions",
+          "interpretation_limits": "Joint quadratic model, panel-standardized; do not turn into a target or claim that increasing length causes success."
+        },
+        {
+          "claim": "In stage two, project score model common words B=−0.030, p=0.036; final funding model common words OR=0.863, 95% CI 0.707–1.053, p=0.146.",
+          "pdf_pages": [
+            8,
+            9
+          ],
+          "evidence_locator": "Tables 6 and 7",
+          "denominator": "677 selected stage-two project descriptions",
+          "interpretation_limits": "Different outcomes; later-stage sample selected on earlier success. Paper overgeneralizes significance to both outcomes."
+        },
+        {
+          "claim": "For final ordinal score model, Nagelkerke pseudo-R² was 0.191 for full model and 0.146 linguistic-only; first-stage progression 0.131 and 0.100 respectively.",
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "evidence_locator": "Tables 4 and 5",
+          "denominator": "2,493 stage-one descriptions",
+          "interpretation_limits": "Pseudo-R² is model fit statistic, not ordinary variance explained or out-of-sample accuracy; no external model validation is reported."
+        },
+        {
+          "claim": "Abstract model shows tentative words B=0.024, p=0.025 for stage-one project score; most other abstract associations were not statistically significant.",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "Table 10",
+          "denominator": "2,493 stage-one abstracts",
+          "interpretation_limits": "Paper’s blanket conclusion of no abstract effects overstates its own table; exploratory multiple comparisons and proxy interpretation cautions."
+        }
+      ],
+      "limitations": [
+        "Single year, one scheme, early career and pre-set section/page constraints. Excluded humanities, law and qualitative social sciences and applicants missing bibliometric records.",
+        "Country nationality-based English score is crude; LIWC common-word frequency conflates technical content with readability; LIWC analytic score is not demonstrated narrative quality; measures do not establish mechanisms.",
+        "Selection into second stage, intervening extended applications and oral panel presentation confound comparisons across stages.",
+        "No held-out prospective predictive assessment or causal intervention reported; significance is not measured effect of an edit.",
+        "Table 9 duplicates first-stage decision coefficients in last column, and Table 3 extracted confidence intervals have apparent inconsistencies; verify typeset table before reuse."
+      ],
+      "rule_implications": [
+        "Refine plain-language suggestions to preserve necessary technical content and vary syntax for reader function; do not impose short sentences, simple words or a complexity target.",
+        "Reaffirm preserving uncertainty; tentative terms not shown harmful, and may be epistemically necessary; candidate reassurance cannot raise modality.",
+        "Use section and audience context when reviewing presentation rather than translating LIWC narrative and analytic indexes into paragraph-function labels."
+      ],
+      "data_or_code_leads": [
+        "LIWC 2015 identified as third-party software, not a demonstrated open corpus or codebook; applications collected under consent and no reusable release verified."
+      ],
+      "extraction_issues": [
+        "Paper uses effect/causal language despite observational design. Narrative interpretations are proxies; Table 10 conflicts with blanket abstract null conclusion, Table 7 with blanket stage-two common-words statement."
+      ]
+    }
+  ],
+  "cross_paper_synthesis": [
+    "All three studies are observational; award success or statistical prediction is not comprehension, scientific quality or a causal effect of rewriting. P03 retrospective end-state predictors raise strong temporal leakage concerns.",
+    "Promotional vocabulary has positive adjusted funding associations in P10, while P11 shows nonlinear and section-dependent linguistic associations plus non-significant tentative-word estimates. These results contradict blanket adjective removal and qualify blanket simplicity guidance, but do not support adding hype, certainty or complexity.",
+    "P03 concerns rewards-based crowdfunding; P10 biomedical funders; P11 one early-career funding round and panels. They are different samples, not independent replications of one mechanism.",
+    "Existing preserve-voice, source-fidelity and uncertainty guidance already captures the strongest supported editorial principle; an author-controlled claim-to-evidence and context check is a plausible advantage to test, not a measured advantage."
+  ],
+  "proposed_rule_changes": [
+    {
+      "id": "FP-C01",
+      "status": "candidate; refine existing guidance",
+      "existing_rule": "skills/write-with-purpose/SKILL.md: organize around reader question and select evidence; references/concepts-and-claims.md: distinguish proposal from evidence",
+      "trigger": "Author requests a proposal or decision memo and its purpose, audience and source material are available.",
+      "mechanical": "Track supplied claim-to-source links and unfilled claim-evidence slots, labeled unresolved when extraction is uncertain.",
+      "judgment": "Assess whether rationale, material benefits, costs, risks and actionable request are supported and relevant; preserve truthful positive emphasis and author choice.",
+      "benefit": "Make merit and consequences legible without generic promotional phrases.",
+      "counterexample": "A speculative concept may validly state a hoped-for benefit if explicitly marked as a hypothesis; no mandate to supply absent facts.",
+      "evidence": [
+        "P03 pages 3–5, 9–11",
+        "P10 pages 4–8"
+      ]
+    },
+    {
+      "id": "FP-C02",
+      "status": "candidate; reaffirm existing fidelity rules",
+      "existing_rule": "skills/write-with-purpose/references/language-and-meaning.md: preserve uncertainty and force; edit-with-purpose/SKILL.md: preserve source context",
+      "trigger": "A proposed edit strengthens novelty, confidence, causal direction, certainty, comparative claims or commitments.",
+      "mechanical": "Highlight changed modal, negation, number, comparative and superlative tokens as review candidates; do not decide entailment by token matching.",
+      "judgment": "Compare full claim, context and underlying source, retain warranted qualifiers; allow genuinely supported assertive wording and accurate adjectives.",
+      "benefit": "Support persuasive emphasis without making claims stronger than their evidence.",
+      "counterexample": "Replacing an unnecessarily tentative assertion with a stronger one can be valid if the supplied source actually supports it.",
+      "evidence": [
+        "P10 pages 3–8",
+        "P11 pages 3, 7–8, 10–11"
+      ]
+    },
+    {
+      "id": "FP-C03",
+      "status": "candidate; refine existing reader edit",
+      "existing_rule": "skills/write-with-purpose/SKILL.md: keep technical terms and avoid uniform sentence-length preference",
+      "trigger": "A sentence is difficult for the intended reader or hides a relevant relation in a proposal or memo.",
+      "mechanical": "Flag only declared word limits and optionally show observed word/sentence counts without a target.",
+      "judgment": "Compare alternatives for recoverable meaning, technical precision, audience needs and rhythm; preserve complexity necessary for the argument.",
+      "benefit": "Improve explanation while retaining technical substance and voice.",
+      "counterexample": "A specialist evaluator may need a precise technical term and a multi-clause qualification.",
+      "evidence": [
+        "P11 pages 3–8, 10–11"
+      ]
+    },
+    {
+      "id": "FP-C04",
+      "status": "candidate hypothesis only; require evaluation",
+      "existing_rule": "docs/writing-harness/accepted-foundations.md: Family → Form → Section; features are observations, not targets",
+      "trigger": "Reviewing decision-oriented forms with author-supplied purpose and evidence.",
+      "mechanical": "Show optional checklist slots for decision, options and support only when explicitly requested or required.",
+      "judgment": "Check whether proposed action, alternatives and consequences are understandable for this decision; do not require fixed sequence or all slots.",
+      "benefit": "Possible form-sensitive support and comparison, not demonstrated funding advantage.",
+      "counterexample": "A short memo may legitimately address one narrow decision with alternatives linked separately.",
+      "evidence": [
+        "P03 pages 9–11",
+        "P11 pages 4–5, 9–10"
+      ]
+    }
+  ],
+  "github_reuse": [
+    "No GitHub repository was established by these three papers. P03 historical author-hosted coefficient files, P10 supplementary lexicon and access-controlled application data, and LIWC are leads requiring separate access and rights checks. Do not equate imported lexical cues, section labels, relation annotations or paragraph functions.",
+    "Dataset adoption notes recommend source version, original labels, span boundaries and rights, and keep structural roles and passage functions separate; no imported tool installed or evaluated.",
+    "Local function calibration 21/36 versus 18/36 exact-set agreement is no validation of new rhetorical function classifications; apply no function quotas and do not infer function-length profiles."
+  ],
+  "open_questions": [
+    "Were P03 dynamic text and features available at the time a prediction would actually be made, and was all feature selection inside each training fold?",
+    "Can P10 supplements resolve complete-case sample counts and per-percentage-point model units, and disclose data rights and uncertainty for cross-validation?",
+    "Can P11 typeset tables resolve duplicated CV column and confidence-interval discrepancies, and would section-specific patterns hold in another funding program?",
+    "Would human raters and authors judge evidence-linked emphasis more accurate, useful and voice-faithful than blanket anti-hype edits, without optimizing funding?"
+  ]
+}

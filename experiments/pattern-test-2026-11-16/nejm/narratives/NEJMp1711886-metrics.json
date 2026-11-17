@@ -1,0 +1,22 @@
+{
+  "document_id": "NEJMp1711886",
+  "paragraph_count": 13,
+  "body_words": 1537,
+  "paragraph_word_range": [
+    67,
+    190
+  ],
+  "paragraph_word_median": 117,
+  "word_rule": "experiments/corpus-analysis-2026-11-16/analysis/metrics.py word_tokens; reference numbers included",
+  "function_counts_multilabel": {
+    "narrate": 8,
+    "report": 12,
+    "qualify": 7,
+    "interpret": 4,
+    "explain": 2,
+    "compare": 1
+  },
+  "body_quant_eligible": true,
+  "paragraph_quant_eligible": true,
+  "status": "Single-analyst visual reconstruction; inline reference numerals are included in token counts."
+}

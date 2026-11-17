@@ -1,0 +1,126 @@
+{
+  "trial_id": "blind-longform-20261116",
+  "revealed": false,
+  "histories": {
+    "R01": [
+      {
+        "recorded_utc": "2026-11-16T22:59:39.883967+00:00",
+        "submission_sha256": "bda5a403e43de5fefcd74d9f275ef2e48509e37abbe8279469fe784ced580c5f",
+        "review": {
+          "id": "R01",
+          "choice": "B",
+          "substantive_improvement": "B",
+          "comment": "Night and day, I honestly am extremely impressed. The one part I hate is at the end \"I am not claiming Harvard Enrollment or Academic Credit\" yes I am lol but it's also a weird and useless piece of information. But honeslty yeah B was great. "
+        }
+      }
+    ],
+    "R02": [
+      {
+        "recorded_utc": "2026-11-16T22:59:39.883967+00:00",
+        "submission_sha256": "3b0cead268e17d6b1e85f5abd8fec3a317d2d9af31901199ad7cb09d01bd7270",
+        "review": {
+          "id": "R02",
+          "choice": "B",
+          "substantive_improvement": "B",
+          "comment": "One thing I don't like with either is the long lists. Lists of more than three things are offensive to me, and multiple lists in a paragraph are also offensive and appear as word filler. Example: \"how information is represented, where a boundary belongs, how to check a result, and what happens when separately sensible components meet. \""
+        }
+      }
+    ],
+    "R03": [
+      {
+        "recorded_utc": "2026-11-16T22:59:39.883967+00:00",
+        "submission_sha256": "3b0cead268e17d6b1e85f5abd8fec3a317d2d9af31901199ad7cb09d01bd7270",
+        "review": {
+          "id": "R03",
+          "choice": "A",
+          "substantive_improvement": "A",
+          "comment": "I think the one thing I don't like is this pattern: AI can now produce an answer, a page, or a software change before a person has made the underlying problem explicit. --- but the following makes it almost worth enduring \"The speed makes it all the more useful to know what each part is meant to do and to check what happens when the parts meet.\" an excellent point. "
+        }
+      }
+    ],
+    "R05": [
+      {
+        "recorded_utc": "2026-11-16T22:59:39.883967+00:00",
+        "submission_sha256": "3b0cead268e17d6b1e85f5abd8fec3a317d2d9af31901199ad7cb09d01bd7270",
+        "review": {
+          "id": "R05",
+          "choice": "A",
+          "substantive_improvement": "A",
+          "comment": "Unoquivically better"
+        }
+      }
+    ],
+    "R07": [
+      {
+        "recorded_utc": "2026-11-16T23:16:18.222004+00:00",
+        "submission_sha256": "59f1e74f3cf851c97bd07ac73728ad2ef9727cc6c5fde6f9bba38b3ae06c9f7f",
+        "review": {
+          "id": "R07",
+          "choice": "A",
+          "substantive_improvement": "A",
+          "comment": ""
+        }
+      }
+    ],
+    "R09": [
+      {
+        "recorded_utc": "2026-11-16T23:16:18.222004+00:00",
+        "submission_sha256": "59f1e74f3cf851c97bd07ac73728ad2ef9727cc6c5fde6f9bba38b3ae06c9f7f",
+        "review": {
+          "id": "R09",
+          "choice": "A",
+          "substantive_improvement": "A",
+          "comment": ""
+        }
+      }
+    ],
+    "R06": [
+      {
+        "recorded_utc": "2026-11-16T23:16:18.222004+00:00",
+        "submission_sha256": "59f1e74f3cf851c97bd07ac73728ad2ef9727cc6c5fde6f9bba38b3ae06c9f7f",
+        "review": {
+          "id": "R06",
+          "choice": "B",
+          "substantive_improvement": "Unsure",
+          "comment": ""
+        }
+      }
+    ],
+    "R10": [
+      {
+        "recorded_utc": "2026-11-16T23:16:18.222004+00:00",
+        "submission_sha256": "59f1e74f3cf851c97bd07ac73728ad2ef9727cc6c5fde6f9bba38b3ae06c9f7f",
+        "review": {
+          "id": "R10",
+          "choice": "A",
+          "substantive_improvement": "A",
+          "comment": ""
+        }
+      }
+    ],
+    "R11": [
+      {
+        "recorded_utc": "2026-11-16T23:16:18.222004+00:00",
+        "submission_sha256": "59f1e74f3cf851c97bd07ac73728ad2ef9727cc6c5fde6f9bba38b3ae06c9f7f",
+        "review": {
+          "id": "R11",
+          "choice": "Original",
+          "substantive_improvement": "A",
+          "comment": "The original seems to tell the overall story better, despite some word errors that A and B fixed. "
+        }
+      }
+    ],
+    "R13": [
+      {
+        "recorded_utc": "2026-11-16T23:16:18.222004+00:00",
+        "submission_sha256": "59f1e74f3cf851c97bd07ac73728ad2ef9727cc6c5fde6f9bba38b3ae06c9f7f",
+        "review": {
+          "id": "R13",
+          "choice": "A",
+          "substantive_improvement": "",
+          "comment": ""
+        }
+      }
+    ]
+  }
+}

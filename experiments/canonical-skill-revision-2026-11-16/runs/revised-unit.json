@@ -1,0 +1,22 @@
+{
+  "scope": "Captured final-source qualification after review fixes01\u201303; source snapshot recorded separately.",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "/workspace/repos/builderbob/write-with-purpose",
+      "started_utc": "2026-11-16T21:34:09.122420+00:00",
+      "finished_utc": "2026-11-16T21:34:10.595085+00:00",
+      "exit_code": 0,
+      "test_count": 47,
+      "log": "runs/revised-unit.log"
+    }
+  ]
+}

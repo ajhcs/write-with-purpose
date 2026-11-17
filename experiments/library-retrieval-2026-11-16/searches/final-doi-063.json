@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-personal_reflective_essay-3",
+      "doi": "10.1001/jama.2012.116971",
+      "title": "A piece of my mind. Preparing for the 21st-century patient.",
+      "authors": "[\"Pandey A\"]",
+      "field": "medicine_health",
+      "q": "\"Preparing for the 21st-century patient.\" Pandey filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-personal_reflective_essay-3",
+      "query": "\"Preparing for the 21st-century patient.\" Pandey filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Paper from 'Preparing for the 21st Century'",
+          "url": "https://storage.googleapis.com/mnhs-finding-aids-public/library/findaids/00697/pdfa/00697-00197-17.pdf",
+          "score": 0.8333333333333334
+        },
+        {
+          "title": "# Preparing for the 21st Century",
+          "url": "https://www.covenanthealthcare.com/Uploads/Public/Documents/Workfiles/2019/TheChart/TheChart_March2019.pdf",
+          "score": 0.8333333333333334
+        },
+        {
+          "title": "Preparing for the 21st-Century Patient",
+          "url": "https://jamanetwork.com/journals/jama/article-abstract/1677377",
+          "score": 1
+        },
+        {
+          "title": "A piece of my mind. Preparing for the 21st-century patient",
+          "url": "https://eurekamag.com/research/051/210/051210371.php",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

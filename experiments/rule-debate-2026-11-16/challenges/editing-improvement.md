@@ -1,0 +1,50 @@
+# Round 2: editing and improvement challenges
+
+These are concrete challenges to frozen Round 1 positions; they do not change those positions. Existing skills already allow an explicitly requested substantial rewrite, comparison of concrete alternatives, and moving passages. Novelty must lie in a distinct, useful operation—not the claim that these behaviors were previously forbidden.
+
+## EI-X01 — VN-03
+
+The stated rule allows a plain alternative, but its starting demand to retain a distinctive image or rhythm can still privilege an accidental awkward phrase as if it were established voice. Distinctiveness and intention must be evidenced, not inferred solely from unusual phrasing. Its own example replaces the image, so the model should be equally free to select that route on an improvement request without an additional plain-language instruction.
+
+**Case.** Author says 'Make this clearer and stronger' and writes 'The request walked the hallway without its reason'; supplied material says the safety concern became a purchase request but does not establish the route or decision-makers' knowledge. A literal-image-preserving rewrite may retain an invented hallway and hide the actual administrative transition.
+
+**Proposed resolution.** Replace 'compare the original against a repair that retains the distinctive image or rhythm, and, when the brief permits, a plainer alternative' with 'Identify the intended effect and evidenced facts; compare a context-faithful revision that may retain, transform, or remove the image with the original. Preserve imagery the author expressly requires or demonstrably uses for an intended effect; do not infer such a requirement from awkwardness alone.' Example candidate: 'The safety concern became a purchase request, and its reason could be lost along the way.' Label loss as a possibility if that is all the source supports; let the author reject it.
+
+**Novelty assessment.** Existing edit-with-purpose already says a plain-language request can override deliberate imagery and explicit substantial rewrites are allowed. Novel contribution would be making inferred distinctiveness defeasible during a general improvement request, not simply allowing imagery to be removed. This candidate is a design hypothesis, not evidence of superior voice.
+
+## EI-X02 — FF-03
+
+The counterexample protects a requested full corpus, but optimizing function definitions can itself require resolving disagreements that do not change the immediate prose edit. If the consequence test decides only which edit to make, it may prematurely close an ambiguous boundary and conceal definition instability or disagreement patterns needed for the stated research objective.
+
+**Case.** Two coders disagree whether an explanation of an experimental choice is support, explanation, or both. Both would leave the paragraph unchanged. In a copy edit that disagreement need not be resolved; in an explicit evaluation of the function definitions it is the data under study, even if no complete annotated corpus was requested.
+
+**Proposed resolution.** Precede the difference-in-action test with an objective gate: 'When the deliverable is function-definition development, reliability analysis, boundary adjudication, or corpus annotation, retain and investigate disagreements and their context according to the research protocol regardless of editing effect. In an ordinary editing workflow, resolve only ambiguity that affects an authorized action; record not-assessed separately from agreement.' Preserve independent records and unresolved outcomes; do not treat shared edits as semantic gold.
+
+**Novelty assessment.** An action-sensitive triage criterion is distinct from existing generic advice to conserve effort, but it is a workflow optimization only if it preserves task-relevant research evidence. Neither P17 nor 21/36 versus 18/36 calibration measures its usefulness.
+
+## EI-X03 — VN-02
+
+Two alternative maps can be renamed headings rather than real options, and mandatory two-map production on every substantial draft may add burden without improving the chosen draft. The existing skill already instructs the editor to move units and compare concrete alternatives in context, and explicitly authorizes substantial rewrites; the new requirement must have an operational difference and a selection rule.
+
+**Case.** A grant memo states an evidence-based recommendation and one condition. 'Recommendation → evidence → caveat' and 'Decision → rationale → exception' retain the same progression; calling them separate routes offers no reader gain. For a time-constrained memo, requiring the author to choose between them adds a needless interruption.
+
+**Proposed resolution.** Generate a second route only when it changes an information dependency, the location of a material qualification, or the reader's experience. Construct a short executable before/after for the decisive transition, test what the intended reader can recover and what gets delayed, and select independently where task intent resolves the tradeoff. Ask the author only where an unresolved choice would materially change meaning or their desired experience. Permit a single route if no distinct feasible alternative exists.
+
+**Novelty assessment.** Comparing alternatives and substantive relocation are existing capabilities. A conditional executable contrast plus an explicit dependency and selection test is a more precise operational hypothesis, not proven innovation or a newly discovered genre rule.
+
+## EI-X04 — FF-02
+
+Two hypothetical warrants can expose uncertainty but can also produce choices ungrounded in evidence or cause an unnecessary interrogation. An actionable improvement must show which supplied premise connects to a bounded claim and continue with portions that do not depend on the choice; hypotheses are not necessarily equally likely or author beliefs.
+
+**Case.** Draft: 'Absences rose after the schedule changed. We should hire staff.' Supplied operational record establishes that unfilled shifts increased, but contains no causal analysis. The model should not offer the false dilemma that absences either came from capacity or scheduling; both may be wrong.
+
+**Proposed resolution.** Offer a grounded provisional formulation: 'Unfilled shifts increased after the schedule change. Additional staff may help cover those shifts; the record does not establish why absences rose.' If the exact source does not support the proposed relation between added staff and coverage, retain that as the author's proposal rather than a proven result. When material alternatives change the recommendation, ask one specific evidence question while editing independent passages; never treat a generated fork as exhaustive.
+
+**Novelty assessment.** The baseline already asks for missing premises and reader inference, while FF-02's explicit contrast and discrimination test can add a falsifiable operation when evidence permits. It remains a hypothesis until tested against ordinary drafting for factual fidelity, author control, and useful reader recovery.
+
+## Concessions
+
+- VN-03 explicitly permits a plainer alternative and substantial paragraph repair. My challenge identifies a possible implementation bias, not an actual categorical ban on replacing metaphors. Its preservation of an author's intentional rhythm is a needed correction to EI-04 when a seemingly clearer version weakens the experience.
+- FF-03 already explicitly exempts a full annotated corpus. My challenge extends that exemption to definition optimization and reliability research, including work that does not request a finished corpus. Its distinct assessed/unresolved/not-collected states are stronger than my initial round's brief provenance proposal.
+- VN-02 and FF-01 explicitly compare contributions and reader tradeoffs, a stronger procedural specification than EI-03's open-ended alternate ordering. A combined rule should retain their concrete dependency-based checks without requiring hollow alternatives or redundant author choices.
+- FF-02's explicit competing warrants and discriminating evidence improve EI-02's single bounded-bridge formulation; retain both the fork when materially uncertain and a grounded revision when the premises suffice.

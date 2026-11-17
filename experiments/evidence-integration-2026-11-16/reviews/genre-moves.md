@@ -1,0 +1,42 @@
+# Full-text review: legal articles, business reports and Methods moves
+
+The three papers support optional, purpose-based planning questions and reusable distinctions between sections, moves, passage functions and relations. They do **not** validate a fixed outline, the harness’s twelve labels, or a tool advantage. Full inventories, cited pages, denominators and proposed rule implications are recorded in [genre-moves.json](genre-moves.json). The author’s ideas, destination requirements and editorial choices remain authoritative.
+
+## Tessuto: empirical law research articles
+
+Girolamo Tessuto (2015), [*Generic structure and rhetorical moves in English-language empirical law research articles*](https://doi.org/10.1016/j.esp.2014.06.002), is a descriptive corpus study of **90 articles**, randomly sampled across three selected journals and three publication years, 2010–2012. The articles total 1,079,527 tokens excluding notes and references (PDF pp. 3–4, Tables 1–2). Their interdisciplinary empirical character matters: these are not legal essays, judgments or proposals.
+
+Full-text review adds the actual model omitted from the previous preview: **25 moves** grouped across Abstract (6), Introduction (3), Background Review (3), Method (3), Results (3), Discussion (4) and Conclusion (3), including the Table 5 step names in the JSON. The paper reports recursive move patterns in every section and some inverted sequences (PDF pp. 6–7). A separate background review appears in **79/90**; **11/90** omit it. The paper lists **12 blended-section occurrences**: one Methods/Results, four Results/Discussion and seven Discussion/Conclusion (pp. 5–6, Tables 3–4). These support multiple outline choices, including unheaded or blended jobs, not mandatory headings or sequences.
+
+The author reports 100% inter-rater agreement with another applied linguist (p. 4), but does not specify the coded denominator, independence or full calculation. Table 3 also prints **33** unlabelled introductions as **27%** even though 33/90 is 36.7%; its Results heading journal rows do not reconcile cleanly with the subtotals. Table 5’s step percentages are not clearly documented as document-level prevalence. Preserve the reported table; do not compute thresholds from it.
+
+## Yeung: business reports
+
+Lorrita Yeung (2007), [*In search of commonalities: Some linguistic and rhetorical features of business reports as a genre*](https://doi.org/10.1016/j.esp.2006.06.004), closely studies **22 authentic but nonrandom reports**, mainly from Hong Kong. There are 12 external and 10 internal reports; seven review, six problem-solving, five market and four feasibility reports. The sample ranges from **409 to 28,593 words** with median **4,614**, and writers were interviewed when possible (PDF pp. 4–6). These are historical sample descriptions, not targets.
+
+The full text supplies a three-part **finding → interpretation/conclusion → recommendation** analytic pattern; its order may vary, it may recur by topic, and the connection or warrant can be explicit or implicit (p. 14). This can seed blank questions: What was observed? What does it mean for this decision? What criteria connect the evidence to the option? What action, if any, is proposed? A full-length report can also put findings and interpretation together under topic headings, and methods and conclusions can be optional sections (pp. 8–10). Those are options, not a mandate to omit methods when trust or reproducibility requires them.
+
+The paper reports **19/22** reports with clearly stated recommendations and seven with recommendation headings, but also says only **two** reports lack explicit recommendations (p. 10). Those statements do not reconcile without an unstated distinction; do not manufacture one. It finds four conclusion sections and one report with the particular conventional heading pattern described (p. 9). It is primarily qualitative, highlights commonality over variation, and calls for larger quantitative research (pp. 22–23); no source coding reliability or reusable coded data was identified.
+
+## Cotos, Huffman and Link: Methods sections
+
+The 2017 [DRaC study](https://doi.org/10.1016/j.esp.2017.01.001) studies **900 Methods sections**, 30 texts in each of 30 disciplines, selected with faculty consultants for IMRD experimental research. It excludes several fields with substantially different publication traditions; each field has one consultant. The corpus has **1,423,131 words**, and 150 exemplary articles initially seeded the model (PDF pp. 3–6). This is an observational genre study, not an effectiveness trial.
+
+The full model’s **three moves and sixteen steps** are:
+
+- **Contextualizing Study Methods:** reference previous works; provide general information; identify methodological approach; describe setting; introduce subjects; rationalize pre-experiment decisions.
+- **Describing the study:** acquire data; describe data; delineate study procedures; describe tools; identify variables; rationalize experiment decisions; report incrementals.
+- **Establishing credibility:** prepare data; describe data analysis; rationalize data processing/analysis.
+
+The authors stress that numbering is not prescribed order (pp. 8–9). One functional segment can be a full sentence or phrase; secondary tags can overlap a sentence’s primary tag (p. 6). For our harness, preserve that evidence of overlap while retaining the accepted choice **not** to require a primary function. Completed methods generally `report`; they do not automatically `instruct` the reader. Reasons for methods may `support` a recoverable choice or `explain` it, depending on the text.
+
+The study reports three-coder ICCs of **.86 for moves** and **.80 for steps**, using a two-way mixed-effects model; the number of multiply coded units is not given in the inspected text (p. 6). These figures cannot be compared directly with our exact-set paragraph agreement. It reports **94,925** annotated units: **21,397** contextualizing, **67,337** describing and **6,191** credibility (p. 10). The paper then calls the first move optional while saying all **900/900** texts contained it: share of coded units and prevalence across documents are different denominators. Table 3 calls its step counts “sentences,” although the methods allow phrase-level and overlapping annotations; the full counts are preserved in JSON, without converting them to document prevalence. All seven study-description steps occur across the **30 disciplines in aggregate**, not necessarily in every paper (p. 11). The extracted p. 15 text also calls Move 2 Step 7 rationalizing; the actual inventory names Step 6 rationalizing and Step 7 reporting incrementals (pp. 9, 15).
+
+## Implications for our plugin
+
+1. **Reaffirm Family → Form → Section.** A section job, a local passage function and a relation between contributions are separate layers. A topical business section may mix results, interpretation and a proposed action. A scholarly heading does not prove the corresponding function appears.
+2. **Offer blank, optional prompts.** Methods planning can ask about design, data, procedures, analysis and choices; decision writing can ask about observations, criteria, implications and options. Skip questions that do not fit the writer’s task. These papers cannot justify universal obligations or default paragraph sequences.
+3. **Preserve multi-function spans and attribution.** README and BAWE supply form and section precedents; DITA supplies reader-directed task structure; MuLMS supplies scientific labels; GUM supplies relations. Retain each source’s original unit and provenance. A completed method is not a reader instruction, and a citation or actor label does not establish support.
+4. **Test the claimed improvement.** Our fresh-paragraph pilot had original exact-set agreement **21/36**, revised **18/36**; neither paper resolves this difference or validates the twelve local functions. Cotos’s ICC used different labels and units. Collect complete realization spans separately from short evidence anchors, review nonempty relation targets, and test reader usefulness and author control on fresh documents before claiming a benefit.
+
+Deterministic checks can validate source identity, span bounds, labels and referenced IDs. They cannot determine whether a warrant is sound, a comparison fair, a claim endorsed, a paragraph useful, or a passage preserves the author’s intention. No canonical rule, taxonomy or dataset was changed by this review.

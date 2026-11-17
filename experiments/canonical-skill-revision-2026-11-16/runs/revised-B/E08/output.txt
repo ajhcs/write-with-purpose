@@ -1,0 +1,1 @@
+The operation is retry-safe only if the request identifier remains unchanged: a repeated request returns the existing result, while a new identifier starts another operation. This behavior was tested in the prototype, not in production.

@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p10",
+      "doi": "",
+      "title": "The End of Night",
+      "authors": "[\"Rebecca Boyle\"]",
+      "field": "personal_public_writing",
+      "q": "\"The End of Night\" Boyle pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p10",
+      "query": "\"The End of Night\" Boyle pdf",
+      "urls": [
+        {
+          "title": "The End of Night — ponder",
+          "url": "https://www.readponder.com/essay/the-end-of-night-rebecca-boyle-aeon",
+          "score": 1
+        },
+        {
+          "title": "The End of Night: Searching for Natural Darkness in an... (PDF)",
+          "url": "https://pdfroom.com/books/the-end-of-night-searching-for-natural-darkness-in-an-age-of-artificial-light/bLvgBQEqdDw",
+          "score": 1
+        },
+        {
+          "title": "The End of Night",
+          "url": "https://books.google.com/books/about/The_End_of_Night.html?id=WeYdnwEACAAJ",
+          "score": 1
+        },
+        {
+          "title": "jmap.org —Rebecca Boyle of104 excerpted and adapted from “The End of Night” https://aeon.c [Literature]",
+          "url": "https://www.gauthmath.com/solution/1834474072018001/jmap-org-Rebecca-Boyle-of104-excerpted-and-adapted-from-The-End-of-Night-https-a",
+          "score": 1
+        },
+        {
+          "title": "The End of Night by Paul Bogard | Hachette Book Group",
+          "url": "https://www.hachettebookgroup.com/titles/paul-bogard/the-end-of-night/9780316182911/",
+          "score": 1
+        },
+        {
+          "title": "The End of Night: Searching for Natural Darkness in an Age of Artificial Light by Paul Bogard",
+          "url": "https://darkskyarkansas.org/wp-content/uploads/2016/02/978-0-316-18290-4",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

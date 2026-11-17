@@ -1,0 +1,14 @@
+{
+  "kind": "local_research_checkpoint",
+  "created_utc": "20261116T154448Z",
+  "repository": "/workspace/repos/builderbob/write-with-purpose",
+  "head": "609b13f4e4321b8d32fba5480e324de470f2eaa2",
+  "git_status": " M README.md\n?? docs/writing-harness/\n?? experiments/corpus-analysis-2026-11-16/\n?? experiments/form-corpus-2026-11-16/\n?? experiments/library-expansion-2026-11-16/\n?? experiments/paragraph-functions/\n?? experiments/pattern-test-2026-11-16/\n?? work/\n",
+  "git_index_modified": false,
+  "archive": "/workspace/build/builderbob/write-with-purpose/checkpoints/20261116T154448Z/writing-harness-checkpoint.tar.gz",
+  "archive_sha256": "a5ad93eb098eb217e105519a022676f1b08aa5fc3269e5866ebccd53cce8e35b",
+  "archive_entries_read_verified": true,
+  "source_cache_policy": "Original full article bytes and normalized source caches remain in their existing persistent /workspace locations; not embedded in this repository-work checkpoint. This is local recovery, not offsite backup.",
+  "manifest": "/workspace/build/builderbob/write-with-purpose/checkpoints/20261116T154448Z/manifest.json",
+  "saved_files": 452
+}

@@ -1,0 +1,372 @@
+{
+  "reviewer": "audience-readability",
+  "papers": [
+    {
+      "id": "P01",
+      "title": "The Effects of Jargon on Processing Fluency, Self-Perceptions, and Scientific Engagement",
+      "authors": [
+        "Hillary C. Shulman",
+        "Graham N. Dixon",
+        "Olivia M. Bullock",
+        "Daniel Colón Amill"
+      ],
+      "year": 2020,
+      "doi": "10.1177/0261927X20902177",
+      "study_kind": "Randomized 2×2 between-subjects experiment with observational serial mediation",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P01.txt",
+      "scope": "Full extracted paper pp.1–19, including methods, results, limitations, stimuli and references; actual DOI and year from p.1.",
+      "sample_and_design": "650 paid U.S. Qualtrics panel adults randomized to jargon/no jargon and optional mouseover definitions/no definitions; each read three same-condition short science-technology passages (autonomous cars, surgical robots, 3D bioprinting). Jargon had 10 terms per paragraph; no-jargon replaced terms with explanations/synonyms; within-topic word counts held constant (pp.6–8).",
+      "outcomes": "Self-reported 1–7 processing fluency, science/technology self-schema, interest, information-seeking intention, internal efficacy, perceived knowledge. Not objective comprehension or actual behavior.",
+      "findings": [
+        {
+          "claim": "Jargon condition mean subjective fluency 4.57 (SD 1.11) vs 5.27 (0.90) without jargon; F(1,636)=76.03, p<.001, eta²=.11.",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "evidence_locator": "Results and Table 1",
+          "denominator": "650 randomized; ANOVA df 636",
+          "interpretation_limits": "Randomized bundle of term substitutions and acronyms; three short topics; self-reported fluency."
+        },
+        {
+          "claim": "Definition availability: no main effect F(1,636)=0.37, p=.543 and no jargon interaction F(1,636)=0.17, p=.678.",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "Results",
+          "denominator": "650 randomized; ANOVA df 636",
+          "interpretation_limits": "Null interaction is not proof of equivalence and mouseover access was optional."
+        },
+        {
+          "claim": "Among 330 offered mouseover, 227 reported noticing it and 109 reported use (about 33% of 330); article calls it 31%. Of those aware, 109/227 ≈48%.",
+          "pdf_pages": [
+            7,
+            14,
+            15
+          ],
+          "evidence_locator": "Information condition and limitations",
+          "denominator": "330 definition-condition participants; 227 aware",
+          "interpretation_limits": "Usage is self-selected; apparent arithmetic inconsistency noted, and unaware users were not asked."
+        },
+        {
+          "claim": "Mean self-schema did not differ by jargon assignment alone, p=.590; unadjusted tests of four engagement outcomes were not significant (p=.165–.648).",
+          "pdf_pages": [
+            10
+          ],
+          "evidence_locator": "H2/H3 follow-up tests",
+          "denominator": "study participants, outcome-specific df",
+          "interpretation_limits": "Modeled indirect pathways are not the same as randomized total effects."
+        },
+        {
+          "claim": "Serial mediation indirect effects for interest 0.18 [0.12,0.25] and perceived knowledge 0.20 [0.12,0.28], unstandardized; 5,000 bootstrap resamples.",
+          "pdf_pages": [
+            12,
+            14
+          ],
+          "evidence_locator": "Table 2 and limitations",
+          "denominator": "participant-level outcomes; exact outcome-specific complete n not reported in table",
+          "interpretation_limits": "Mediators and outcomes were not independently randomized; authors explicitly say cross-sectional serial pathway is not causal."
+        }
+      ],
+      "limitations": [
+        "Short, controlled, text-only immediate exposures; paid U.S. panel is not all audiences.",
+        "Definition treatment only offered hover access; 109/330 used by self-report. Findings do not show inline definitions are ineffective.",
+        "No objective understanding test; causal jargon manipulation does not identify causal serial mediation.",
+        "Appendix stimuli include technical claims that should not be treated as verified facts."
+      ],
+      "rule_implications": [
+        "AR01",
+        "AR02",
+        "AR05"
+      ],
+      "data_or_code_leads": "Online supplemental scale items mentioned p.8; no verified dataset or software release in full text.",
+      "extraction_issues": [
+        "Paper describes 109 as 31% of 330; calculation is approximately 33%, retain original numerator and denominator.",
+        "Table 1 repeats some jargon cells unusually; do not use suspect topic rows for independent calculation."
+      ]
+    },
+    {
+      "id": "P05",
+      "title": "How Readability Shapes Social Media Engagement",
+      "authors": [
+        "Ethan Pancer",
+        "Vincent Chandler",
+        "Maxwell Poole",
+        "Theodore J. Noseworthy"
+      ],
+      "year": 2019,
+      "doi": "10.1002/jcpy.1073",
+      "study_kind": "Observational platform corpus plus randomized factorial experiment and related-platform follow-up",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P05.txt",
+      "scope": "Full extracted paper pp.1–9, including both studies, follow-up, discussion, limitations and references; DOI/year from p.1 (online 2018, 2019 issue).",
+      "sample_and_design": "Study 1: 4,064 Humans of New York Facebook posts from 2013–2015; negative-binomial models with measured controls. Study 2: 236 MTurk adults randomized to 2 vocabulary complexity × 2 post lengths (59 versus 268 words) on a fictional running-shoe community post; synonyms manipulated with Dale–Chall list. Follow-up on HONY Twitter story excerpts may reuse stories and is not independent content replication (pp.2–7).",
+      "outcomes": "Actual Facebook likes, comments and shares; experimental self-reported willingness to like/comment/share, perceived ease, affect and reading time; Twitter likes/retweets. No comprehension or writing-quality test.",
+      "findings": [
+        {
+          "claim": "Field association uses 4,064 downloaded posts but table models report N=4,063. Higher Dale–Chall difficulty correlated with fewer likes/comments/shares, controlling measured covariates.",
+          "pdf_pages": [
+            3,
+            5
+          ],
+          "evidence_locator": "Study 1 methods and Table 3",
+          "denominator": "4,064 posts; 4,063 model rows",
+          "interpretation_limits": "Single social account, historical platform, unobserved post reach/audience/content confounding; association is not causal."
+        },
+        {
+          "claim": "Observed readability × length interaction for likes and comments; share interaction p=.608.",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "evidence_locator": "Study 1 results and Table 3",
+          "denominator": "4,063 model rows",
+          "interpretation_limits": "Conditional association; no universal length or reading-grade threshold follows."
+        },
+        {
+          "claim": "Randomized simple vs complex post willingness-to-like: 4.33 (SD 1.69) vs 3.06 (1.81), F(1,232)=31.49, p<.001; complexity-by-length interaction p<.05.",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "evidence_locator": "Study 2 design and liking results",
+          "denominator": "236 participants",
+          "interpretation_limits": "Intentions on one fictional running-shoe post rather than observed social behavior."
+        },
+        {
+          "claim": "For short posts, comment p=.35 and share p=.45 did not differ significantly by complexity; long-post contrasts favored simpler wording.",
+          "pdf_pages": [
+            6
+          ],
+          "evidence_locator": "Study 2 commenting and sharing",
+          "denominator": "236 randomized, cell sizes not reported in main text",
+          "interpretation_limits": "Do not read null as equivalence; experimental lengths differ substantially."
+        },
+        {
+          "claim": "Processing fluency had no readability-by-length interaction p=.49; reading-time interaction p=.07; authors suggest long complex posts were abandoned.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "Mechanism and reading time",
+          "denominator": "236 randomized",
+          "interpretation_limits": "No direct measure establishes abandoning reading; p=.07 exploratory; mediators and affect not randomized."
+        },
+        {
+          "claim": "Twitter follow-up used same HONY source, approximately 16 words on average, and reported readability associations with likes and retweets.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "General Discussion, supplementary appendix S1 p.10",
+          "denominator": "Twitter post count not in main text",
+          "interpretation_limits": "Potential overlap in stories and photographs; supplement not inspected; no independent study-count claim."
+        }
+      ],
+      "limitations": [
+        "Vocabulary familiarity is community-specific; authors explicitly discuss oversimplification and precision tradeoffs p.8.",
+        "One historical outlet and one hypothetical brand context; metrics do not measure argument quality or truth.",
+        "Laboratory outcomes are stated intentions, and proposed serial mediation does not establish a causal mediator chain.",
+        "Observational models do not resolve distribution/exposure confounding."
+      ],
+      "rule_implications": [
+        "AR01",
+        "AR03",
+        "AR05"
+      ],
+      "data_or_code_leads": "Facepager, VADER and IPTC taxonomy named pp.2–3; original snapshot and code not verified. Supplementary MDA Appendix S1 cited, not separately accessed.",
+      "extraction_issues": [
+        "Abstract says >4,000; models N=4,063 versus sample 4,064.",
+        "Appendix statistics and actual Twitter post count were not in supplied main paper."
+      ]
+    },
+    {
+      "id": "P09",
+      "title": "Better Writing in Scientific Publications Builds Reader Confidence and Understanding",
+      "authors": [
+        "Ren Ryba",
+        "Zoë A. Doubleday",
+        "Matthew J. Dry",
+        "Carolyn Semmler",
+        "Sean D. Connell"
+      ],
+      "year": 2021,
+      "doi": "10.3389/fpsyg.2021.714321",
+      "study_kind": "Randomized bundled-style experiment",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P09.txt",
+      "scope": "Full extracted paper pp.1–8, methods, results, discussion, data statement and references; DOI and publication date verified p.1.",
+      "sample_and_design": "170 third-year undergraduate science participants from 173 approached read up to three randomized distinct-topic abstract variants; four predefined style levels bundle nine correlated manipulations for real-study-based abstracts in social anxiety, solar cells and populism. Models include topic and participant random intercept (pp.2–4).",
+      "outcomes": "1–5 self-reported ease/readability and confidence; two topic-specific multiple-choice questions assess stated research purpose and take-home message. Comprehension is objective item correctness, not a broad competence test.",
+      "findings": [
+        {
+          "claim": "Analyzed 347 responses each for perceived readability/confidence (170 participants); understanding model 628 binary item responses from 143 participants.",
+          "pdf_pages": [
+            3,
+            6
+          ],
+          "evidence_locator": "Methods and Table 3",
+          "denominator": "347 reading events; 628 answer items; 170 vs 143 participants",
+          "interpretation_limits": "Repeated items are not independent participants and outcome denominators differ."
+        },
+        {
+          "claim": "Difficulty composite model: readability +2.91 percentage points [1.79,4.03], confidence +1.87 [0.75,2.99] per unit toward accessible style; topic-adjusted mixed models.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Results and Table 3",
+          "denominator": "347 responses from 170 participants",
+          "interpretation_limits": "Style axis is PCA of a bundled manipulation; no individual component effect is isolated."
+        },
+        {
+          "claim": "Understanding odds ratio 1.08 [1.01,1.15] per composite unit; p=.027, topic-adjusted mixed model.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Results and Table 3",
+          "denominator": "628 answer items from 143 participants",
+          "interpretation_limits": "Two multiple-choice questions per abstract; odds ratio, not 8 percentage-point improvement."
+        },
+        {
+          "claim": "Raw comprehension proportions nonmonotonic across easiest, easy, hard, hardest: 57.87%, 39.47%, 40.79%, 47.95%.",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Table 2",
+          "denominator": "628 responses to understanding questions overall; per-level denominators not given",
+          "interpretation_limits": "Raw group proportions do not establish monotone dose-response; modeled result adjusts topic and reader."
+        },
+        {
+          "claim": "No evidence of topic × difficulty or English-as-second-language effect in alternative models; authors caution sample not designed for ESL inference.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Results and Discussion",
+          "denominator": "170 participants; 87.1% native English speakers",
+          "interpretation_limits": "Nonsignificance is not equivalence and subgroup sample is limited."
+        },
+        {
+          "claim": "Table 2 reports easiest/hardest confidence 62.36%/48.78%; p.5 text instead gives 58.3%/44.1%, while discussion returns to 62%/49%.",
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "evidence_locator": "Table 2 vs results prose and discussion",
+          "denominator": "347 confidence responses; per-condition n not reported",
+          "interpretation_limits": "Unresolved internal discrepancy; avoid treating either contrast as independently verified."
+        }
+      ],
+      "limitations": [
+        "Nine aspects vary together (including 0 hedges versus 4, acronyms, length, punctuation); isolated removal of any single feature is not tested.",
+        "Three created abstracts, student population, short testing and two questions limit domain and professional-reader generalization.",
+        "Results text and Table 2 differ on confidence means; Discussion p.6 inaccurately describes understanding as self-reported although methods explicitly describe multiple-choice scoring.",
+        "Authors retained content and logical flow by design, but whether all qualifications are equivalently represented is not independently audited."
+      ],
+      "rule_implications": [
+        "AR01",
+        "AR02",
+        "AR04",
+        "AR05"
+      ],
+      "data_or_code_leads": "Authors state raw data available on request p.7; supplementary abstract stimuli and alternative models linked in article. No code repository confirmed.",
+      "extraction_issues": [
+        "Internal mismatch: Table 2 vs p.5 confidence means; retain both and no invented resolution.",
+        "Discussion p.6 calls all measures self-reported; methods and Tables 2–3 specify binary comprehension questions.",
+        "Table 3 confidence intercept appears extracted as 0.89 beside CI 66.30–75.47; not used."
+      ]
+    }
+  ],
+  "cross_paper_synthesis": [
+    "P01 manipulates wording and measures perceived processing ease, not objective comprehension; its serial mediation is observational. P05 combines historical behavior associations and randomized intent ratings; social engagement is not accuracy or utility. P09 randomized bundled styles and measured both perceptions and limited multiple-choice correctness.",
+    "Effects and targets depend on audience, task, vocabulary, topic and manipulation; numerical scales and denominators are not interchangeable. P09 does not isolate a style feature or justify removing qualifications.",
+    "The current skills already preserve precise technical terms and reject shorter-is-always-better. Existing audience-aware editing is common infrastructure; an advantage would need independent measures. The fresh F09 pilot showed 21/36 versus 18/36 exact set agreement and no semantic gold; this corpus cannot establish improved labels, function-length profiles or reader outcomes."
+  ],
+  "proposed_rule_changes": [
+    {
+      "id": "AR01",
+      "disposition": "refine",
+      "existing_rule": "skills/write-with-purpose/SKILL.md: familiar exact words; precise technical terminology; reader edit",
+      "trigger": "A real unfamiliar or mixed-knowledge intended audience and a term whose interpretation is consequential.",
+      "candidate": "Present a task-relevant technical term with the needed explanation in natural context or offer a more familiar accurate formulation; test both for the actual readers.",
+      "benefit": "May reduce avoidable subjective difficulty while preserving technical distinctions.",
+      "counterexample": "In specialist documentation, an exact established term can be more fluent and unambiguous than a vague paraphrase.",
+      "mechanical": "Record audience, declared terms and known glossary references; identify exact term occurrences only.",
+      "semantic": "Decide whether the audience needs explanation, whether substitutes preserve meaning and whether scope remains accurate.",
+      "evidence": [
+        "P01 pp.6–10, 14–15",
+        "P05 p.8",
+        "P09 pp.2–6"
+      ]
+    },
+    {
+      "id": "AR02",
+      "disposition": "refine",
+      "existing_rule": "skills/write-with-purpose/references/language-and-meaning.md: place brief definition naturally near the term",
+      "trigger": "Definitions or optional glosses are introduced for readers new to a domain.",
+      "candidate": "Assess visibility and use of definition in the reading flow; do not presume mere optional availability establishes comprehension.",
+      "benefit": "Avoids a false completeness claim from existence of a glossary or hover.",
+      "counterexample": "A trained audience may not need an inline definition; mouseover failure cannot establish that inline teaching fails.",
+      "mechanical": "Check that supplied glossary entry and term link exist; log availability, not whether it was read.",
+      "semantic": "Judge context, comprehensibility, precision and readers’ needs; measure uptake and comprehension separately.",
+      "evidence": [
+        "P01 pp.7–10, 14–15"
+      ]
+    },
+    {
+      "id": "AR03",
+      "disposition": "reaffirm",
+      "existing_rule": "accepted-foundations.md F01–F06; edit-with-purpose/SKILL.md no automatic shortness",
+      "trigger": "Reading metrics or engagement data are considered for revisions.",
+      "candidate": "Treat readability indices and length as descriptive diagnostics scoped to audience and form; do not translate a score into a grade requirement or optimize engagement by default.",
+      "benefit": "Makes tradeoffs visible without silently replacing author purpose.",
+      "counterexample": "A longer precise term or a longer complete explanation may be more accessible than a shorter obscure alternative.",
+      "mechanical": "Compute length or formula with stated tokenizer and word list; record source and scope.",
+      "semantic": "Evaluate familiarity, goal alignment, accuracy and reader benefit; models cannot infer these from a numeric score.",
+      "evidence": [
+        "P05 pp.1,3–8",
+        "P09 pp.3–5"
+      ]
+    },
+    {
+      "id": "AR04",
+      "disposition": "conflict",
+      "existing_rule": "write-with-purpose/SKILL.md and language-and-meaning.md preserve uncertainty, qualifications, precision and voice",
+      "trigger": "A bundled style recipe advises removing hedges, acronyms or making particular punctuation mandatory.",
+      "candidate": "Reject component quotas; evaluate each qualification against evidence and preserve when it changes supported certainty or scope.",
+      "benefit": "Avoids producing a confident but stronger or misleading claim.",
+      "counterexample": "A statistically warranted possibility cannot become a certainty to imitate a low-hedge experimental condition.",
+      "mechanical": "Flag changed modal/negation or removed declared term for review, with false positives.",
+      "semantic": "Decide evidentiary force and meaning before approving edit.",
+      "evidence": [
+        "P09 pp.2–3,5–6"
+      ]
+    },
+    {
+      "id": "AR05",
+      "disposition": "new hypothesis",
+      "existing_rule": "rule-calibration report; Astra candidate decision procedure; accepted F09 and measurement separation",
+      "trigger": "Testing whether audience-aware assistance improves writing.",
+      "candidate": "Run held-out audience-matched comparison with independent semantic fidelity, author acceptance and comprehension tests; separate readability feelings from performance and engagement.",
+      "benefit": "Could test a differentiator in preserving nuanced content while adapting to actual readers.",
+      "counterexample": "A satisfying, fluent output may omit a key qualification or be factually wrong.",
+      "mechanical": "Blind and log assigned version, source IDs, decision status, data splits and score calculations.",
+      "semantic": "Independent review of content, attribution, author authority and response quality.",
+      "evidence": [
+        "P01 pp.9–10,14",
+        "P05 pp.5–7",
+        "P09 pp.3–6",
+        "local fresh calibration 21/36 vs 18/36"
+      ]
+    }
+  ],
+  "github_reuse": [
+    "Prior scientific-crosswalk records AZ, MuLMS-AZ and SciPara labels, units and cautionary mismatches. These can supply context examples and tests of attribution/defined terms, not labels for reader comprehension or universal templates.",
+    "No GitHub resource in these three papers was verified as a reusable reader-outcome benchmark. Reuse existing schema and rule comparisons without installing or claiming classifier validity."
+  ],
+  "open_questions": [
+    "Which reader audiences and actual tasks matter for this author, and how can held-out samples represent them?",
+    "Can we preserve technical meaning and uncertainty while improving independently measured comprehension and retaining author voice?",
+    "Which definition placement works for a given reader and medium, as distinct from optional hover availability?",
+    "Can independent author and expert review establish semantic accuracy, not merely label agreement?"
+  ]
+}

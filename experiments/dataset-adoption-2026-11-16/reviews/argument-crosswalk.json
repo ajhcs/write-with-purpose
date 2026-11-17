@@ -1,0 +1,358 @@
+{
+  "scope": "Provisional crosswalk for user-owned plugin/harness; comparison only, no catalogue modifications.",
+  "source_contract": "docs/writing-harness/paragraph-functions.json version 0.1 and accepted-foundations.md. Twelve functions may coexist; do not infer mandatory one-label paragraphs.",
+  "mapping_kinds": {
+    "conditional": "possible only when listed conditions hold",
+    "partial": "overlap with some uses, not equivalent",
+    "relation_only": "source encodes a relation; function mapping requires contextual projection",
+    "none": "no determinate mapping from label alone"
+  },
+  "technical_observations": [
+    "Webis archive TXT actual split-by-portal-final: 300 files; row counts include continued 25933, no-unit 16399, assumption 9805, par-sep 4664, anecdote 2607, testimony 1091, statistics 421, title 300, common-ground 243, other 167. These are row counts, not final-unit counts.",
+    "Webis paper reports final 14313 units; its six categories are forced single labels, with segmentation and post-processing, and gives no claim target graph.",
+    "Argument microtext DTD distinguishes edu, adu, joint, ADU role pro/opp, document stance pro/con/unclear, and six edges. Undercut targets an edge; source taxonomy must not be flattened.",
+    "Source-published output supports mechanical integrity and provenance checks; semantic relevance, adequacy and paragraph function still require human editorial review."
+  ],
+  "records": [
+    {
+      "dataset": "Webis-Editorials-16",
+      "original_label": "common-ground",
+      "unit": "argumentative discourse unit; proposition span of at most one sentence",
+      "definition": "General issues represented as accepted without proof by nearly all possible readers.",
+      "definition_evidence": "https://aclanthology.org/C16-1324.pdf#page=4",
+      "proposed_functions": [
+        "orient",
+        "report"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context_or_counterexample": "Orientation requires contextual preparation for the next contribution; a supposedly shared general claim can instead be part of the argument. Shared acceptance is annotator judgment, not verified truth.",
+      "computable_validation": "Check label vocabulary and paragraph membership; context and audience acceptance require review."
+    },
+    {
+      "dataset": "Webis-Editorials-16",
+      "original_label": "assumption",
+      "unit": "argumentative discourse unit; proposition span of at most one sentence",
+      "definition": "Author assumption, conclusion, judgment, opinion, general observation or potentially false fact requiring support.",
+      "definition_evidence": "https://aclanthology.org/C16-1324.pdf#page=4",
+      "proposed_functions": [
+        "assert",
+        "report",
+        "interpret"
+      ],
+      "mapping_kind": "partial",
+      "necessary_context_or_counterexample": "A genuine position can be assert, observation report, and conclusion interpret only when it develops an inference; not every declarative proposition is assert.",
+      "computable_validation": "Check span boundaries and paragraph overlap; assertion ownership and interpretation need review."
+    },
+    {
+      "dataset": "Webis-Editorials-16",
+      "original_label": "testimony",
+      "unit": "argumentative discourse unit; proposition span of at most one sentence",
+      "definition": "Evidence via an attributed proposition from an expert, authority, witness, organization or similar.",
+      "definition_evidence": "https://aclanthology.org/C16-1324.pdf#page=4",
+      "proposed_functions": [
+        "report",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context_or_counterexample": "Report if it faithfully attributes what was said. Support requires a recoverable claim and a connection; attribution alone does not prove truth or support.",
+      "computable_validation": "Check attribution and recorded target references when present; Webis lacks argument-target links, so semantic support needs new annotation."
+    },
+    {
+      "dataset": "Webis-Editorials-16",
+      "original_label": "statistics",
+      "unit": "argumentative discourse unit; proposition span of at most one sentence",
+      "definition": "Quantitative research, empirical analysis results or conclusions presented as evidence, with optional reference.",
+      "definition_evidence": "https://aclanthology.org/C16-1324.pdf#page=4",
+      "proposed_functions": [
+        "report",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context_or_counterexample": "A numeric result can be reported; support requires an identified claim and meaningful connection. A figure by itself is not support, and a reference is not proof.",
+      "computable_validation": "Validate numeric/text span, paragraph and optional target IDs; determine evidential connection by review."
+    },
+    {
+      "dataset": "Webis-Editorials-16",
+      "original_label": "anecdote",
+      "unit": "argumentative discourse unit; proposition span of at most one sentence",
+      "definition": "Personal experience, anecdote, concrete instance, example or specific event given as evidence.",
+      "definition_evidence": "https://aclanthology.org/C16-1324.pdf#page=4",
+      "proposed_functions": [
+        "report",
+        "illustrate",
+        "narrate",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context_or_counterexample": "Specific event alone is not narrative: narrate needs experience developed through time/change. Illustrate needs an idea illuminated; support needs identifiable claim and connection.",
+      "computable_validation": "Check spans, instance and paragraph alignment; event development, illustrative purpose and claim connection need review."
+    },
+    {
+      "dataset": "Webis-Editorials-16",
+      "original_label": "other",
+      "unit": "argumentative discourse unit; proposition span of at most one sentence",
+      "definition": "Adds little or nothing to argumentative discourse, or does not match prior five categories.",
+      "definition_evidence": "https://aclanthology.org/C16-1324.pdf#page=4",
+      "proposed_functions": [
+        "orient",
+        "define",
+        "report",
+        "assert",
+        "support",
+        "explain",
+        "illustrate",
+        "compare",
+        "interpret",
+        "qualify",
+        "instruct",
+        "narrate"
+      ],
+      "mapping_kind": "none",
+      "necessary_context_or_counterexample": "Unmatched in this argument scheme does not mean no function in the harness; no individual target function can be inferred.",
+      "computable_validation": "Preserve exact source label and route to open review; never reject or auto-label a paragraph from this value."
+    },
+    {
+      "dataset": "Webis-Editorials-16",
+      "original_label": "no-unit",
+      "unit": "TSV segmentation or document structure",
+      "definition": "Segment outside an argumentative unit, including punctuation in final post-processing.",
+      "definition_evidence": "https://aclanthology.org/C16-1324.pdf#page=5; ZIP README.txt and annotated-txt/split-by-portal-final/",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context_or_counterexample": "Structural processing marker; neither a negative example nor a paragraph-function class. Preserve punctuation and original markers.",
+      "computable_validation": "Validate row types and count, continuation chains and paragraph separators; retain optional fourth field and original sequence."
+    },
+    {
+      "dataset": "Webis-Editorials-16",
+      "original_label": "continued",
+      "unit": "TSV segmentation or document structure",
+      "definition": "Segment merged with subsequent segments until terminal unit class.",
+      "definition_evidence": "https://aclanthology.org/C16-1324.pdf#page=5; ZIP README.txt and annotated-txt/split-by-portal-final/",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context_or_counterexample": "Structural processing marker; neither a negative example nor a paragraph-function class. Preserve punctuation and original markers.",
+      "computable_validation": "Validate row types and count, continuation chains and paragraph separators; retain optional fourth field and original sequence."
+    },
+    {
+      "dataset": "Webis-Editorials-16",
+      "original_label": "par-sep",
+      "unit": "TSV segmentation or document structure",
+      "definition": "Paragraph separator in distributed TSV.",
+      "definition_evidence": "https://aclanthology.org/C16-1324.pdf#page=5; ZIP README.txt and annotated-txt/split-by-portal-final/",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context_or_counterexample": "Structural processing marker; neither a negative example nor a paragraph-function class. Preserve punctuation and original markers.",
+      "computable_validation": "Validate row types and count, continuation chains and paragraph separators; retain optional fourth field and original sequence."
+    },
+    {
+      "dataset": "Webis-Editorials-16",
+      "original_label": "title",
+      "unit": "TSV segmentation or document structure",
+      "definition": "Editorial title in distributed TSV.",
+      "definition_evidence": "https://aclanthology.org/C16-1324.pdf#page=5; ZIP README.txt and annotated-txt/split-by-portal-final/",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context_or_counterexample": "Structural processing marker; neither a negative example nor a paragraph-function class. Preserve punctuation and original markers.",
+      "computable_validation": "Validate row types and count, continuation chains and paragraph separators; retain optional fourth field and original sequence."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "edu",
+      "unit": "text-bearing node",
+      "definition": "Elementary discourse unit, typically clause/sentence-level.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [
+        "orient",
+        "define",
+        "report",
+        "assert",
+        "support",
+        "explain",
+        "illustrate",
+        "compare",
+        "interpret",
+        "qualify",
+        "instruct",
+        "narrate"
+      ],
+      "mapping_kind": "none",
+      "necessary_context_or_counterexample": "Text unit, not an editorial function. An EDU can be outside the argument or joined into an ADU.",
+      "computable_validation": "Validate unique XML IDs, nonempty text, and seg endpoints; no semantic function inference."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "adu",
+      "unit": "argument node",
+      "definition": "Argumentatively relevant claim grounded in one or more EDUs.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [
+        "assert"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context_or_counterexample": "Only the author-endorsed proposition may be assert; opponent voice can be reported or raised for refutation and need not be author belief.",
+      "computable_validation": "Validate ADU role, graph incidence, grounding paths and referenced IDs; resolve endorsement and paragraph context manually."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "joint",
+      "unit": "structural node",
+      "definition": "Combines adjacent EDUs argumentatively relevant only together.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context_or_counterexample": "Grouping is not an independent claim or communicative function.",
+      "computable_validation": "Verify joint has at least two adjacent EDU sources and a seg path to ADU; use corpus-specific exceptions if detected."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "pro",
+      "unit": "ADU dialectical role",
+      "definition": "Proponent, presenting or defending main claim.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [
+        "assert",
+        "report"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context_or_counterexample": "Dialectical role is not author endorsement: opponent may be a hypothetical voice. A proponent premise may report data rather than state the author’s thesis.",
+      "computable_validation": "Validate allowed role on ADU and retain speaker/role provenance; human review resolves attribution."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "opp",
+      "unit": "ADU dialectical role",
+      "definition": "Opponent, challenging proponent arguments.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [
+        "assert",
+        "report"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context_or_counterexample": "Dialectical role is not author endorsement: opponent may be a hypothetical voice. A proponent premise may report data rather than state the author’s thesis.",
+      "computable_validation": "Validate allowed role on ADU and retain speaker/role provenance; human review resolves attribution."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "pro",
+      "unit": "document stance attribute",
+      "definition": "Author stance in favor of yes/no issue.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context_or_counterexample": "Document stance concerns answer to prompt, not ADU role or paragraph function. Do not conflate stance pro with ADU role pro.",
+      "computable_validation": "Validate optional document attribute vocabulary; preserve separately from ADU type."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "con",
+      "unit": "document stance attribute",
+      "definition": "Author stance against yes/no issue.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context_or_counterexample": "Document stance concerns answer to prompt, not ADU role or paragraph function. Do not conflate stance pro with ADU role pro.",
+      "computable_validation": "Validate optional document attribute vocabulary; preserve separately from ADU type."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "unclear",
+      "unit": "document stance attribute",
+      "definition": "Author stance toward the issue is unclear.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context_or_counterexample": "Document stance concerns answer to prompt, not ADU role or paragraph function. Do not conflate stance pro with ADU role pro.",
+      "computable_validation": "Validate optional document attribute vocabulary; preserve separately from ADU type."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "seg",
+      "unit": "segmentation edge",
+      "definition": "Links EDU to ADU, EDU to joint, or joint to ADU.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context_or_counterexample": "A structural grounding edge is not an argumentation or paragraph function.",
+      "computable_validation": "Validate direction, node types, IDs and continuity; preserve linked or repeated nonadjacent spans."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "sup",
+      "unit": "argument relation edge",
+      "definition": "Normal support from source ADU to target ADU.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [
+        "support"
+      ],
+      "mapping_kind": "relation_only",
+      "necessary_context_or_counterexample": "The argument relation supports the target, including opponent-to-opponent support; cannot turn all source paragraphs into author-endorsed support.",
+      "computable_validation": "Validate src/trg ADU references and preserve direction; flag role mismatch and review edge meaning and paragraph projection."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "exa",
+      "unit": "argument relation edge",
+      "definition": "Support by example from source ADU to target ADU.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [
+        "support",
+        "illustrate"
+      ],
+      "mapping_kind": "relation_only",
+      "necessary_context_or_counterexample": "Relation encodes argumentative use of example; illustrating intelligibility and supporting a claim are distinct and need paragraph/context review.",
+      "computable_validation": "Validate endpoints and direction; preserve source target and check cross-paragraph placement; semantic adequacy is editorial."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "add",
+      "unit": "argument relation edge",
+      "definition": "Additional source of a relation with more than one premise, including combined/convergent arguments.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [
+        "support"
+      ],
+      "mapping_kind": "relation_only",
+      "necessary_context_or_counterexample": "Additional premise is graph structure; preserve other premises and original target structure rather than invent a simple independent support edge.",
+      "computable_validation": "Validate references and connected base edge in release representation; inspect actual files before enforcing node/edge endpoint constraints."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "reb",
+      "unit": "argument relation edge",
+      "definition": "Rebutting attack on a proposition/ADU.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [
+        "qualify"
+      ],
+      "mapping_kind": "relation_only",
+      "necessary_context_or_counterexample": "An outright refutation is not automatically a limitation or concession; do not reverse polarity into support.",
+      "computable_validation": "Validate ADU references and polarity; an attack has no direct harness relation equivalent; review contextual qualification."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "und",
+      "unit": "argument relation edge",
+      "definition": "Undercutting attack on an inference or relation, not necessarily on the proposition itself.",
+      "definition_evidence": "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+      "proposed_functions": [
+        "qualify"
+      ],
+      "mapping_kind": "relation_only",
+      "necessary_context_or_counterexample": "An exception may qualify an inference but attack may instead refute it; preserve edge-to-edge target and do not flatten it into a node attack.",
+      "computable_validation": "Validate source ADU and target edge IDs and reject dangling references; semantic distinction and qualification require human review."
+    },
+    {
+      "dataset": "argumentative microtexts, part 1",
+      "original_label": "main claim / central claim",
+      "unit": "graph root concept, sometimes inferred implicit segment",
+      "definition": "Core proposition for which the author argues; may be implicit and inserted as MC.",
+      "definition_evidence": "https://angcl.ling.uni-potsdam.de/pdfs/ArgGuidelinesEnglish.pdf#page=4",
+      "proposed_functions": [
+        "assert"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context_or_counterexample": "Claim may be an inferred inserted segment with no actual text span; do not fabricate a quote, span or a paragraph function.",
+      "computable_validation": "Verify root in argument subgraph after parsing seg and relation edges, retain inferred status; review centrality and text provenance."
+    }
+  ]
+}

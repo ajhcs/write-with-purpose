@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p07",
+      "doi": "",
+      "title": "Difficult Women",
+      "authors": "[\"Emily Nussbaum\"]",
+      "field": "personal_public_writing",
+      "q": "\"Difficult Women\" Nussbaum pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p07",
+      "query": "\"Difficult Women\" Nussbaum pdf",
+      "urls": [
+        {
+          "title": "Difficult Women on",
+          "url": "https://s3-euw1-ap-pe-df-pch-content-store-p.s3.eu-west-1.amazonaws.com/9781003031598/69e1b884-2df2-41bc-b4e1-b9d6886cb8a1/googleScholarPdf.pdf?AWSAccessKeyId=ASIAQFVOSJ57WMRN65ZO&Expires=1770741796&Signature=RuNvHN0Ij%2FlgDkNq96PD5Wtssog%3D&response-content-disposition=attachment%3B+filename%3D%2210.4324_9781003031598_previewpdf.pdf%22&x-amz-security-token=IQoJb3JpZ2luX2VjEN7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCOGse4xTd1UC4FCQNoWc5s4%2B44u9RvXkbKGeNyRDYGhwIhAPUMLSUUe7vnSgidH7NFwzZEftx8Tp%2F%2F2OvxidxP746CKpYECKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMDEyMTc3MjY0NTExIgxlxuwj4QdkzEU7eKQq6gPGIzwz%2BDDmJr0zkgE6Mhc3zz0gXvsKgFanqA3cL%2FQFpzOwH5%2BIM49kSsEjUH0bs1lCALYuHAU%2FEKwPkRDqmA2uIYtMQWunCj%2Bu6cjse03jIQ6Zy5wxRk9QHkXRkVSc6F%2FzD8u2aiu868ACf4fET3RKJ8R1V0Ex5QfIBowOC51uTj9Z2m3zrfbZNT%2Bn%2BZg7cnktjdnzWNH8YtD4KHYUpif%2FOavREv2%2FyzppN7D52YK4FnFMaWkIvhxJG%2F%2FJB4L6hexcLniuxsaqI6yddZTHva6pvaGsPmEUTUa9SmkDsfKVdIKhoHk2nPLW4tmgd7%2BIb1dedryMy8jgHcDQnq9ao2s2qOR2MRB9DuZCNypPgO0cJJXPnWpn5zM%2F%2FXK0orRhvRGmgbwRDnTZ24%2F5T0D2g6XwtlPbqzLx9IWfBIgliNWgP4MVkkUYwtyL%2FWj9luGtXT4kChrJ8qOGceNwEFvTmgsBwVurtePCQdRDKbP38p1DJsJGVDV4M79fw9xSdpg8jl3vWYeoavQxZrRXKC5ToMVpW7dzIovoAB060U25Ebu0qh7tOH4lexs%2F%2FUrrnu%2BBBEW1Nd7mR%2FNDvlIVC47Yit9YkJw7x8utmqeSrtAnpwXaV%2FzsBMas9Q%2FogNu6gOUPM%2Fh1XeY%2FFn9w%2FZLnMK7grMwGOqQB%2FtOwCd8cv2usYiYAEpXiksQrt2842X9jgVc9O6AazYM3SX8oabd9X7vrw4tujYoyDEYqo1%2FQKXR0GqNeHFFSrKgtaRNNc2JbW5%2FZkC2l60OztFJGWZtmg1eEZzwgGdxzSEpZhkjtCaQc8nfMThmDiyB98XR3SROu2F4dtZ1qTfWwy8pgXtSigibXM%2B8ZrsmMeOVHeEcgIV%2BmwKYhImZzBPdXvHg%3D",
+          "score": 1
+        },
+        {
+          "title": "Difficult Women | Mémoire d'Encrier",
+          "url": "https://memoiredencrier.com/catalogue/difficult-women/",
+          "score": 1
+        },
+        {
+          "title": "Difficult Women by David Plante: 9781681371498 | PenguinRandomHouse.com: Books",
+          "url": "https://www.penguinrandomhouse.com/books/555860/difficult-women-by-david-plante-introduction-by-scott-spencer/9781681371498/",
+          "score": 1
+        },
+        {
+          "title": "Difficult Women launches Feb. 16, 2021 (Routledge)",
+          "url": "https://www.academia.edu/44983123/Difficult_Women_launches_Feb_16_2021_Routledge_",
+          "score": 1
+        },
+        {
+          "title": "Difficult women",
+          "url": "https://www.cambridge.org/core/books/father-and-daughter/difficult-women/2224C612DC2C4B385491766251FDA7E6",
+          "score": 1
+        },
+        {
+          "title": "Difficult Women | Penguin Random House Retail",
+          "url": "https://www.penguinrandomhouseretail.com/book/?isbn=9781681371498",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

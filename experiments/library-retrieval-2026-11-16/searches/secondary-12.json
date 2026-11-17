@@ -1,0 +1,116 @@
+{
+  "batch": 12,
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-procedure_how_to-1",
+      "doi": "10.1016/j.amepre.2009.02.002",
+      "title": "How we design feasibility studies.",
+      "authors": "[\"Bowen DJ\", \"Kreuter M\", \"Spring B\", \"Cofta-Woerpel L\", \"Linnan L\", \"Weiner D\", \"Bakken S\", \"Kaplan CP\", \"Squiers L\", \"Fabrizio C\", \"Fernandez M\"]",
+      "field": "medicine_health",
+      "q": "\"How we design feasibility studies.\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-procedure_how_to-2",
+      "doi": "10.1200/jco.2007.12.9791",
+      "title": "How to build and interpret a nomogram for cancer prognosis.",
+      "authors": "[\"Iasonos A\", \"Schrag D\", \"Raj GV\", \"Panageas KS\"]",
+      "field": "medicine_health",
+      "q": "\"How to build and interpret a nomogram for cancer prognosis.\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-procedure_how_to-3",
+      "doi": "10.1002/sim.1187",
+      "title": "How should meta-regression analyses be undertaken and interpreted?",
+      "authors": "[\"Thompson SG\", \"Higgins JP\"]",
+      "field": "medicine_health",
+      "q": "\"How should meta-regression analyses be undertaken and interpreted?\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-empirical_report-1",
+      "doi": "10.1001/jama.288.3.321",
+      "title": "Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women's Health Initiative randomized controlled trial.",
+      "authors": "[\"Rossouw JE\", \"Anderson GL\", \"Prentice RL\", \"LaCroix AZ\", \"Kooperberg C\", \"Stefanick ML\", \"Jackson RD\", \"Beresford SA\", \"Howard BV\", \"Johnson KC\", \"Kotchen JM\", \"Ockene J\", \"Writing Group for the Women's Health Initiative Investigators\"]",
+      "field": "medicine_health",
+      "q": "\"Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women's Health Initiative randomized controlled trial.\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-procedure_how_to-1",
+      "query": "\"How we design feasibility studies.\" pdf",
+      "urls": [
+        {
+          "title": "How We Design Feasibility Studies",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/2859314/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "How We Design Feasibility Studies",
+          "url": "https://profiles.wustl.edu/en/publications/how-we-design-feasibility-studies/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "How We Design Feasibility Studies",
+          "url": "https://bishtref.com/articles/10.1016/j.amepre.2009.02.002",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "medicine:medicine-procedure_how_to-2",
+      "query": "\"How to build and interpret a nomogram for cancer prognosis.\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "medicine:medicine-procedure_how_to-3",
+      "query": "\"How should meta-regression analyses be undertaken and interpreted?\" pdf",
+      "urls": [
+        {
+          "title": "35. Thompson SG, Higgins JP. How should meta-regression analyses be undertaken and interpreted? *Stat Med.* 2002;21(11):1559–1573.",
+          "url": "https://academic.oup.com/jnci/article-pdf/102/14/1023/18085782/djq223.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Chapter 10: Analysing data and undertaking meta-analyses | Cochrane",
+          "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10",
+          "score": 0.375,
+          "body_score": 0.875
+        }
+      ]
+    },
+    {
+      "candidate_key": "medicine:medicine-empirical_report-1",
+      "query": "\"Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women's Health Initiative randomized controlled trial.\" pdf",
+      "urls": [
+        {
+          "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women's Health Initiative Randomized Controlled Trial",
+          "url": "https://cptraininghub.nhs.uk/wp-content/uploads/2023/04/HRT-research-data-WHI.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women's Health Initiative randomized controlled trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12117397/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the Women's Health Initiative Randomized Controlled Trial",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/195120%5C",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Postmenopausal hormone replacement therapy for chronic disease prevention: results from the Women's Health Initiative trial",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC117857/",
+          "score": 0.47368421052631576,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

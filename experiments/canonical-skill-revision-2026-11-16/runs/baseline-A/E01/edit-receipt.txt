@@ -1,0 +1,88 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E01/source.txt",
+    "sha256": "2f9cd16a03ab33875b04817df2f3edffccdbad9234752cd79c78d31fa51fcfb7",
+    "bytes": 143
+  },
+  "plan": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E01/edits.json",
+    "sha256": "1f13a7dd606b8ebdfbcf76e552a6aa50b27dade7053d7d10fbc6216f4a347b60"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "fa5c850de488f3e6e91e233e8343253e5a1c81ace935616ddb8f64ebf07a64d8",
+    "bytes": 145
+  },
+  "output": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E01/revision.txt",
+    "sha256": "fa5c850de488f3e6e91e233e8343253e5a1c81ace935616ddb8f64ebf07a64d8",
+    "bytes": 145
+  },
+  "changes": [
+    {
+      "start": 90,
+      "end": 90,
+      "before": "",
+      "after": "s",
+      "reason": "Correct subject-verb agreement",
+      "plan_index": 0,
+      "location": {
+        "line": 1,
+        "column": 91
+      }
+    },
+    {
+      "start": 143,
+      "end": 143,
+      "before": "",
+      "after": "\n",
+      "reason": "Correct subject-verb agreement",
+      "plan_index": 1,
+      "location": {
+        "line": 2,
+        "column": 1
+      }
+    }
+  ],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 142,
+      "original_characters": 142,
+      "original_characters_selected": 0,
+      "selected_percent": 0.0,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 1
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 26,
+    "after_words": 26,
+    "net_words_removed": 0,
+    "net_reduction_percent": 0.0,
+    "words_inserted": 1,
+    "words_removed_or_replaced": 1,
+    "original_tokens_removed_or_replaced_percent": 3.846,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

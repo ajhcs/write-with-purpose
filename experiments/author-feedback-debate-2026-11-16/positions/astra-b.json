@@ -1,0 +1,55 @@
+{
+  "agent": "Astra B",
+  "stage": "independent_initial",
+  "parent_recommendations_read": false,
+  "peer_position_read": false,
+  "proposals": [
+    {
+      "id": "B01",
+      "status": "recommend",
+      "cases": [
+        "R02",
+        "R03"
+      ],
+      "evidence_status": "Explicit author preference, with bounded editorial operationalization",
+      "target": "Both Cole style references; replace Let a useful example develop the argument bullet",
+      "wording": "**Let a useful example develop the argument.** Cole explicitly dislikes prose lists of more than three items and multiple lists in a paragraph. For his prose, replace illustrative inventories with the relationship they support or develop the most useful example; a shorter list can still be filler. Preserve distinctions and coverage the task requires, explaining them in connected prose when useful. The wheelchair request shows how a warning can lose its meaning without inventorying every role or repeating the mechanism.",
+      "falsification": "on fresh Cole passages, if the replacement merely hides inventories or removes distinct mechanisms, it fails even if counts fall. If Cole repeatedly prefers required connected enumerations over the attempted prose rewrite, narrow the operational guidance rather than forcing it."
+    },
+    {
+      "id": "B02",
+      "status": "recommend",
+      "cases": [
+        "R05",
+        "R11",
+        "R01"
+      ],
+      "evidence_status": "Source comparison/model audit; not author reason",
+      "target": "Writer language-and-meaning Actors and reference; editor technical-meaning after actual before/after paragraph",
+      "wording": "Small relational words can change the account. An argument that “stayed with me from” a report was not necessarily “first encountered” there. Changing SEO junk that piggybacks “on the former” to “on both” expands the claim to a second referent. Repair the unsupported relationship while retaining useful changes around it; an appealing revision need not be accepted or rejected as a whole.",
+      "falsification": "test fresh scope and autobiographical-sequence traps alongside harmless paraphrases. If the addition encourages literal copying, needless caveats or abandonment of substantive revision, it fails. Success must include preserving useful improvements while repairing only the unsupported relation."
+    },
+    {
+      "id": "B03",
+      "status": "defer",
+      "cases": [
+        "R11",
+        "R03",
+        "R09",
+        "R10"
+      ],
+      "evidence_status": "Story preference explicit; cadence mechanism hypothesis",
+      "target": "Both structure-and-purpose Expression can improve paragraph; replacement only after test",
+      "wording": "Expression can improve through a new rhythm, a clearer connection or a useful image. Compare the passage's developing movement as well as its individual sentences: a cleaner sentence can interrupt an accumulation, detach a reason or weaken a turn. Retain, transform or remove those choices for their contextual effect and actual constraints. A stronger alternative may reorganize the passage; preserving its effect does not require preserving every sentence. Allow “effect unclear.”",
+      "falsification": "if fresh readers prefer a new arrangement with different cadence, that must count as a successful substantive revision, not a violation. If current guidance already produces that balance, omit this change."
+    }
+  ],
+  "case_assessment_document": "experiments/author-feedback-debate-2026-11-16/positions/astra-b.md",
+  "scope_limits": [
+    "Eight WRITER generators; no direct EDITOR test",
+    "Ten selected clustered passage ratings; whole works unrated",
+    "Preference is separate from source fidelity and reader outcomes",
+    "No causal rule-effect or general success-rate inference"
+  ],
+  "next_test": "Six fresh passages; isolated candidate changes, fixed route/context/prompt, two paired generations per relevant passage; original/tie/Unsure options; separate source and preference judgments; no evaluation launched"
+}

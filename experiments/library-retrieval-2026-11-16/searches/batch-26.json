@@ -1,0 +1,161 @@
+{
+  "batch": 26,
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_20",
+      "doi": "10.1103/physrev.140.a1133",
+      "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Self-Consistent Equations Including Exchange and Correlation Effects\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_21",
+      "doi": "10.1103/revmodphys.86.419",
+      "title": "Bell nonlocality",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Bell nonlocality\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_22",
+      "doi": "10.1103/revmodphys.71.463",
+      "title": "Theory of Bose-Einstein condensation in trapped gases",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Theory of Bose-Einstein condensation in trapped gases\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_23",
+      "doi": "10.1103/revmodphys.82.3045",
+      "title": "Colloquium : Topological insulators",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Colloquium : Topological insulators\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_20",
+      "query": "\"Self-Consistent Equations Including Exchange and Correlation Effects\" pdf",
+      "urls": [
+        {
+          "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
+          "url": "https://griest.physics.ucsd.edu/2025/Spring/physics152b/kohnsham.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
+          "url": "https://courses.physics.ucsd.edu/2024/Spring/physics152b/kohnsham.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Self-Consistent Equations Including Exchange and Correlation Effects | DeepDyve",
+          "url": "https://www.deepdyve.com/lp/american-physical-society-aps/self-consistent-equations-including-exchange-and-correlation-effects-mcPl5mmpkK",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Self-Consistent Equations Including… — Paper Nexus",
+          "url": "https://papernex.us/paper/05IvFZ",
+          "score": 0.5,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_21",
+      "query": "\"Bell nonlocality\" pdf",
+      "urls": [
+        {
+          "title": "Bell nonlocality",
+          "url": "https://doi.org/10.48550/arxiv.1303.2849",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "First Encounter with Bell Nonlocality",
+          "url": "https://academic.oup.com/book/36528/chapter/321331193",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Bell nonlocality using tensor networks and sparse recovery",
+          "url": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.023198",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Quantum Bell nonlocality as a form of entanglement",
+          "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.052208",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Bell nonlocality",
+          "url": "https://arxiv.org/abs/1303.2849",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Bell nonlocality, signal locality and unpredictability (or What Bohr could have told Einstein at Solvay had he known about Bell experiments)",
+          "url": "https://arxiv.org/abs/0911.2504",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_22",
+      "query": "\"Theory of Bose-Einstein condensation in trapped gases\" pdf",
+      "urls": [
+        {
+          "title": "# Theory of Bose-Einstein condensation in trapped gases",
+          "url": "https://journals.aps.org/rmp/issues/71/3/deliverables/miscellaneous/print/A",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Theory of Bose-Einstein condensation in trapped gases",
+          "url": "https://arxiv.org/abs/cond-mat/9806038",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Theory of Bose-Einstein condensation in trapped gases",
+          "url": "https://www.scienceopen.com/document?vid=51d1f8a6-ad0b-4106-9385-5a119e3742fe",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Theory of Bose-Einstein condensation in trapped gases",
+          "url": "https://www.academia.edu/129148991/Theory_of_Bose_Einstein_condensation_in_trapped_gases",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Theory of Bose-Einstein condensation in trapped gases",
+          "url": "https://www.researchgate.net/publication/1947259_Theory_of_Bose-Einstein_condensation_in_trapped_gases",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_23",
+      "query": "\"Colloquium : Topological insulators\" pdf",
+      "urls": [
+        {
+          "title": "Colloquium: Topological insulators",
+          "url": "https://www.researchgate.net/publication/49128762_Colloquium_Topological_Insulators",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Colloquium: Topological Band Theory",
+          "url": "https://arxiv.org/abs/1603.03576",
+          "score": 0.6666666666666666,
+          "body_score": 0.6666666666666666
+        }
+      ]
+    }
+  ]
+}

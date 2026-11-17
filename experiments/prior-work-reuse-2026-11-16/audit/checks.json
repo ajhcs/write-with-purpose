@@ -1,0 +1,100 @@
+{
+  "input_records": 67,
+  "doi_deduplicated_records": 66,
+  "input_files": [
+    {
+      "path": "agents/business-workplace/findings.json",
+      "sha256": "18d69f3973d66ec87566d96074b282383713eadbba333bba76841c8931d9efdf"
+    },
+    {
+      "path": "agents/discourse-corpora/findings.json",
+      "sha256": "2bbe32e4154562b76cab79cd7b6cbb74c9c3fc2fe05aac0bc85be1cdbe66da5b"
+    },
+    {
+      "path": "agents/genre-syntheses/findings.json",
+      "sha256": "6fe6f7a9757d3fd7754c197a2f94f460861cc39e26a9dcd39bb6fc8c18a3549d"
+    },
+    {
+      "path": "agents/law-policy/findings.json",
+      "sha256": "87fabd8e8e2a3d9516929819bd761f4fb773604df56dc06cf3922ea36dc4ba7e"
+    },
+    {
+      "path": "agents/metrics-toolchains/findings.json",
+      "sha256": "e2fb1c088317037ab2c47b25036fa9e79e7d47fcef606c23ee8c4020f881e79a"
+    },
+    {
+      "path": "agents/personal-public/findings.json",
+      "sha256": "62a8e58ad47390c579861805b883f6933235be4d021911f7394c8dc776e096ec"
+    },
+    {
+      "path": "agents/scientific-roles/findings.json",
+      "sha256": "1f05c92c24ddb1c295a724dadc86638b0136050a7b18ac8f98a1f492232192ab"
+    },
+    {
+      "path": "agents/technical-docs/findings.json",
+      "sha256": "4e166dcdfad3cf2dee5a56408b0e2e7a1282d83af558fdd0fa1d62190093d559"
+    }
+  ],
+  "missing_required_fields": [],
+  "duplicate_dois": {
+    "10.1016/j.rmal.2024.100097": [
+      {
+        "scout": "genre-syntheses",
+        "id": "GS03"
+      },
+      {
+        "scout": "metrics-toolchains",
+        "id": "M10"
+      }
+    ]
+  },
+  "manual_families": [
+    "GUM/GDTB/GENTLE/DISRPT share source documents or converted annotations",
+    "Webis 2016/2018 are related releases",
+    "WLP 2018/2020 overlap",
+    "BAWE classification and corpus share assignments",
+    "PERSUADE releases are related",
+    "RST-DT/PDTB/DiscAlign overlap WSJ material"
+  ],
+  "proof": {
+    "source": "https://zenodo.org/records/3254405",
+    "archive_local_path": "/workspace/repos/builderbob/.writing-corpus-cache/prior-work-reuse-2026-11-16/webis-editorials-16.zip",
+    "archive_sha256": "a6f430d5917001bbdcba892c0cab40dbd3ea6ce3fd55c2cb2a6c98c43dd8ffdc",
+    "scope": "All TXT files under annotated-txt/split-by-portal-final; duplicate time-split omitted; UTF-8 physical lines; label is second tab-delimited field; extra tabs preserved in text. No source text included.",
+    "files": 300,
+    "files_by_portal": {
+      "aljazeera": 100,
+      "guardian": 100,
+      "foxnews": 100
+    },
+    "rows_by_tab_field_count": {
+      "3": 58688,
+      "4": 2905,
+      "5": 37
+    },
+    "row_labels": {
+      "title": 300,
+      "par-sep": 4664,
+      "assumption": 9805,
+      "no-unit": 16399,
+      "continued": 25933,
+      "anecdote": 2607,
+      "testimony": 1091,
+      "statistics": 421,
+      "common-ground": 243,
+      "other": 167
+    },
+    "six_substantive_label_rows": 14334,
+    "upstream_reported_units": 14313,
+    "difference_unresolved": "14,334 label rows versus 14,313 source-reported units; row != independently validated unit; version, segmentation and counting semantics need investigation. par-sep count is separator rows, not validated paragraph count.",
+    "readme_path_note": "README says split-by-portal; actual ZIP uses split-by-portal-final.",
+    "limitations": "No complete-text or underlying source-rights verification; other split organizations duplicate source documents.",
+    "substantive_row_checks": {
+      "empty_text_rows": 0,
+      "non_numeric_ids": 0,
+      "duplicate_id_rows_within_same_document": 0,
+      "scope": "Substantive rows; IDs checked within each file, not across documents"
+    }
+  },
+  "source_status": "See audit/report.md for independent source and scope checks; no claim of independent samples."
+}

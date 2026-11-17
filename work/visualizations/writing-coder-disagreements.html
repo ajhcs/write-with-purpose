@@ -1,0 +1,133 @@
+<div id="writing-coder-disagreements">
+  <style>
+    #writing-coder-disagreements { display: flex; flex-direction: column; gap: calc(var(--font-size-base) * 1); }
+    #writing-coder-disagreements .reading-columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: calc(var(--font-size-base) * 1.5); }
+    #writing-coder-disagreements .reading-section { min-width: 0; display: flex; flex-direction: column; gap: calc(var(--font-size-base) * .5); }
+    #writing-coder-disagreements blockquote { margin: 0; padding: 0; }
+    #writing-coder-disagreements .context-group { display: flex; flex-direction: column; gap: calc(var(--font-size-base) * .5); margin-top: calc(var(--font-size-base) * .5); }
+    #writing-coder-disagreements .source-attribution { overflow-wrap: anywhere; }
+    #writing-coder-disagreements mark { color: var(--foreground); background: color-mix(in srgb, var(--viz-series-1) 20%, transparent); }
+    @media (max-width: 620px) { #writing-coder-disagreements .reading-columns { grid-template-columns: minmax(0, 1fr); } }
+  </style>
+  <div class="viz-controls">
+    <label class="form-label" for="disagreement-case">Paragraph
+      <select class="form-select" id="disagreement-case">
+        <option value="NEJMp1616577-p10">NEJM: explanation or interpretation?</option>
+        <option value="drucker-034">HBR: orientation or instruction?</option>
+        <option value="xml-02359-p018">Review: examples, definition and scope</option>
+        <option value="drucker-007">HBR: history offered as support</option>
+      </select>
+    </label>
+  </div>
+  <div class="reading-columns" aria-live="polite">
+    <section class="reading-section" aria-labelledby="source-paragraph-heading">
+      <h3 id="source-paragraph-heading">Source paragraph</h3>
+      <div class="text-small source-attribution" data-attribution></div>
+      <blockquote data-paragraph></blockquote>
+      <div class="text-small text-muted" data-scope></div>
+      <details>
+        <summary>Source context</summary>
+        <div class="context-group">
+          <span class="text-small text-muted">Preceding paragraph</span>
+          <blockquote data-previous></blockquote>
+          <span class="text-small text-muted">Following paragraph</span>
+          <blockquote data-following></blockquote>
+        </div>
+      </details>
+    </section>
+    <section class="reading-section" aria-labelledby="coder-label-heading">
+      <h3 id="coder-label-heading">Recorded codings</h3>
+      <div class="text-small text-muted">A: original coding · B: independent second pass</div>
+      <table class="table table-sm">
+        <thead><tr><th scope="col">Coder</th><th scope="col">Functions</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">A</th><td data-coder-a></td></tr>
+          <tr><th scope="row">B</th><td data-coder-b></td></tr>
+        </tbody>
+      </table>
+      <table class="table table-sm">
+        <tbody>
+          <tr><th scope="row">Shared</th><td data-shared></td></tr>
+          <tr><th scope="row">Only A</th><td data-only-a></td></tr>
+          <tr><th scope="row">Only B</th><td data-only-b></td></tr>
+        </tbody>
+      </table>
+      <details>
+        <summary>Recorded rationale</summary>
+        <div class="context-group">
+          <span class="text-small text-muted">Coder A</span>
+          <p data-a-reason></p>
+          <span class="text-small text-muted">Coder B</span>
+          <p data-b-reason></p>
+          <span class="text-small text-muted">Coder B uncertainty note</span>
+          <p data-b-uncertainty></p>
+        </div>
+      </details>
+    </section>
+  </div>
+  <script type="application/json" data-cases>[{"id": "NEJMp1616577-p10", "label": "NEJM: explanation or interpretation?", "attribution": "Barack H. Obama, NEJM, 2017; supplied PDF p. 2", "url": "https://doi.org/10.1056/NEJMp1616577", "title": "Repealing the ACA without a Replacement — The Risks to American Health Care", "paragraph": "Put simply, all our gains are at stake if Congress takes up repealing the health law without an alternative that covers more Americans, improves quality, and makes health care more affordable. That move takes away the opportunity to build on what works and fix what does not. It adds uncertainty to lives of patients, the work of their doctors, and the hospitals and health systems that care for them. And it jeopardizes the improvements in health care that millions of Americans now enjoy.", "previous": "Given that Republicans have yet to craft a replacement plan, and that unforeseen events might overtake their planned agenda, there might never be a second vote on a plan to replace the ACA if it is repealed. And if a second vote does not happen, tens of millions of Americans will be harmed. A recent Urban Institute analysis estimated that a likely repeal bill would not only reverse recent gains in insurance coverage, but leave us with more uninsured and uncompensated care than when we started.5", "following": "Congress can take a responsible, bipartisan approach to improving the health care system. This was how we overhauled Medicare’s flawed physician payment system less than 2 years ago. I will applaud legislation that improves Americans’ care, but Republicans should identify improvements and explain their plan from the start — they owe the American people nothing less.", "words": 83, "coder_a": ["assert", "explain"], "coder_b": ["assert", "interpret"], "coder_a_rationale": null, "coder_b_rationale": "Synthesizes the claimed stakes of repeal without an alternative.", "coder_b_uncertainty": false, "proposal": "Prefer interpret for the disputed job: this paragraph summarizes stakes developed in the preceding reasoning. It names consequences without developing their mechanism. Assert remains compatible. This is a proposed reading, not an exhaustive reference label set.", "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1616577.pdf", "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483", "paragraph_sha256": "8b09305d20a3eab3cde3e146989dd64f8cad051fb73efce8e3fb30806e55d8b6", "provenance": {"packet": "aca-science/NEJMp1616577-coding.json", "start": 6713, "end": 7203, "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/aca-science/NEJMp1616577.body.txt"}, "highlight": null, "license_label": null, "license_url": null}, {"id": "drucker-034", "label": "HBR: orientation or instruction?", "attribution": "Peter F. Drucker, Managing Oneself, 1999; supplied 2005 reprint, PDF p. 6", "url": null, "title": "Managing Oneself", "paragraph": "To be able to manage yourself, you finally have to ask, What are my values? This is not a question of ethics. With respect to ethics, the rules are the same for everybody, and the test is a simple one. I call it the “mirror test.”", "previous": "The conclusion bears repeating: Do not try to change yourself—you are unlikely to succeed. But work hard to improve the way you perform. And try not to take on work you cannot perform or will only perform poorly.", "following": "In the early years of this century, the most highly respected diplomat of all the great powers was the German ambassador in London. He was clearly destined for great things—to become his country’s foreign minister, at least, if not its federal chancellor. Yet in 1906 he abruptly resigned rather than preside over a dinner given by the diplomatic corps for Edward VII. The king was a notorious womanizer and made it clear what kind of dinner he wanted. The ambassador is reported to have said, “I refuse to see a pimp in the mirror in the morning when I shave.”", "words": 46, "coder_a": ["define", "orient"], "coder_b": ["define", "instruct", "orient"], "coder_a_rationale": null, "coder_b_rationale": "Introduces values as the next self-management question, distinguishes it from ethics, and asks the reader to examine their values.", "coder_b_uncertainty": ["instruct: asking the question is actionable, but the test is not yet explained"], "proposal": "Orientation and a directed self-question can coexist. Clarify whether reflective prompts count as instructions; a bare question heading and an actual request to examine oneself need contrasting examples. The distinction from ethics is limited clarification, not a complete definition of values.", "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/hbr-managing-oneself.pdf", "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b", "paragraph_sha256": "957f53713332d04acca3b8d691e9032592201617317375208850c64f58d426ea", "provenance": {"private_units": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json", "unit_id": "drucker-034", "source": "/workspace/repos/builderbob/write-with-purpose/experiments/pattern-test-2026-11-16/hbr/drucker-reviewed.json", "source_section_hint": "values"}, "highlight": null, "license_label": null, "license_url": null}, {"id": "xml-02359-p018", "label": "Review: examples, definition and scope", "attribution": "Cathal Doyle, Laura Lennox and Derek Bell, BMJ Open, 2013; Results paragraph", "url": "https://doi.org/10.1136/bmjopen-2012-001570", "title": "A systematic review of evidence on the links between patient experience and clinical safety and effectiveness", "paragraph": "Table 3 presents the frequency of positive associations and ‘no associations’ categorised by type of outcomes (for 378 of the 556 cases where sufficient information was available to categorise). These include objectively measured health outcomes (eg, ‘mortality’, ‘blood glucose levels’, ‘infections’, ‘medical errors’); self-reported health and well-being outcomes (eg, ‘health status’, ‘functional ability’ ‘quality of life’, ‘anxiety’); adherence to recommended treatment and use of preventive care services likely to improve health outcomes (eg, ‘medication compliance’, ‘adherence to treatment’ and screening for a variety of conditions); outcomes related to healthcare resource use (eg, ‘hospitalisations’, ‘hospital readmission’, ‘emergency department use’, ‘primary care visits’); errors or adverse events and measures of the technical quality of care.", "previous": "Table 2 shows surveys to be the predominant method used to measure variables for individual studies (figure 1).", "following": "Table 4 shows associations categorised by type of care provider (for the subset of studies focusing on one setting) and for studies focused on chronic conditions.", "words": 113, "coder_a": ["define", "qualify", "report"], "coder_b": ["illustrate", "report"], "coder_a_rationale": "Categorizes association outcomes and limited coverage.", "coder_b_rationale": "Describes the table and outcome categories using concrete examples.", "coder_b_uncertainty": "Examples enumerate category contents; illustration is borderline.", "proposal": "Proposed reading: report plus qualify plus illustrate. The denominator condition limits the table claim; the listed instances illustrate category contents without establishing complete category boundaries. Different clauses perform different jobs.", "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC3549241.xml", "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47", "paragraph_sha256": "c0a142a2832eedf368e1f502bb68681ca803dac23dca3dabc30db68d1b511550", "provenance": {"packet": "/workspace/repos/builderbob/write-with-purpose/experiments/pattern-test-2026-11-16/systematic/xml-02359-coding.json", "body_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02359.txt", "start": 9592, "end": 10452, "xml_path": "/article/body/sec[3]/p[3]"}, "highlight": {"text": "for 378 of the 556 cases where sufficient information was available to categorise", "start": 111, "end": 192, "words": 13, "label": "Scope condition"}, "license_label": "CC BY-NC 2.0", "license_url": "https://creativecommons.org/licenses/by-nc/2.0/"}, {"id": "drucker-007", "label": "HBR: history offered as support", "attribution": "Peter F. Drucker, Managing Oneself, 1999; supplied 2005 reprint, PDF p. 4", "url": null, "title": "Managing Oneself", "paragraph": "Feedback analysis is by no means new. It was invented sometime in the fourteenth century by an otherwise totally obscure German theologian and picked up quite independently, some 150 years later, by John Calvin and Ignatius of Loyola, each of whom incorporated it into the practice of his followers. In fact, the steadfast focus on performance and results that this habit produces explains why the institutions these two men founded, the Calvinist church and the Jesuit order, came to dominate Europe within 30 years.", "previous": "The only way to discover your strengths is through feedback analysis. Whenever you make a key decision or take a key action, write down what you expect will happen. Nine or 12 months later, compare the actual results with your expectations. I have been practicing this method for 15 to 20 years now, and every time I do it, I am surprised. The feedback analysis showed me, for instance—and to my great surprise—that I have an intuitive understanding of technical people, whether they are engineers or accountants or market researchers. It also showed me that I don’t really resonate with generalists.", "following": "Practiced consistently, this simple method will show you within a fairly short period of time, maybe two or three years, where your strengths lie—and this is the most important thing to know. The method will show you what you are doing or failing to do that deprives you of the full benefits of your strengths. It will show you where you are not particularly competent. And finally, it will show you where you have no strengths and cannot perform.", "words": 84, "coder_a": ["explain", "report"], "coder_b": ["explain", "narrate", "report", "support"], "coder_a_rationale": null, "coder_b_rationale": "Recounts the method's historical adoption and advances a causal account of institutional success, supplying a historical reason for its importance.", "coder_b_uncertainty": ["support: the historical causal claim is asserted rather than independently established in this excerpt"], "proposal": "Reporting content, narrative organization, a causal explanation and intended support for the preceding feedback-analysis recommendation can coexist. Mark the claim being supported, then assess the truth and adequacy of the historical reasoning separately. Neither coding set establishes historical validity.", "source_path": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/hbr-managing-oneself.pdf", "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b", "paragraph_sha256": "abd51a67b3cf2286493ede9b52d14227e84d1ad10cc4d043caa3be8367e40fad", "provenance": {"private_units": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/hbr/drucker-coded-reviewed.json", "unit_id": "drucker-007", "source": "/workspace/repos/builderbob/write-with-purpose/experiments/pattern-test-2026-11-16/hbr/drucker-reviewed.json", "source_section_hint": "strengths"}, "highlight": null, "license_label": null, "license_url": null}]</script>
+  <script>
+    (() => {
+      const root = document.getElementById('writing-coder-disagreements');
+      const cases = JSON.parse(root.querySelector('[data-cases]').textContent);
+      const select = root.querySelector('#disagreement-case');
+      const get = key => root.querySelector('[data-' + key + ']');
+      const join = values => values.length ? values.join(', ') : 'None';
+      function render(id) {
+        const entry = cases.find(item => item.id === id) || cases[0];
+        select.value = entry.id;
+        const attribution = get('attribution');
+        attribution.replaceChildren(document.createTextNode(entry.title + ' · ' + entry.attribution));
+        if (entry.url) {
+          const link = document.createElement('a');
+          link.href = entry.url; link.target = '_blank'; link.rel = 'noopener noreferrer';
+          link.textContent = ' · Source'; attribution.appendChild(link);
+        }
+        if (entry.license_url) {
+          const license = document.createElement('a');
+          license.href = entry.license_url; license.target = '_blank'; license.rel = 'noopener noreferrer';
+          license.textContent = ' · ' + entry.license_label; attribution.appendChild(license);
+        }
+        const paragraph = get('paragraph');
+        paragraph.replaceChildren();
+        if (entry.highlight) {
+          paragraph.appendChild(document.createTextNode(entry.paragraph.slice(0, entry.highlight.start)));
+          const mark = document.createElement('mark');
+          mark.textContent = entry.paragraph.slice(entry.highlight.start, entry.highlight.end);
+          paragraph.appendChild(mark);
+          paragraph.appendChild(document.createTextNode(entry.paragraph.slice(entry.highlight.end)));
+        } else paragraph.textContent = entry.paragraph;
+        get('scope').textContent = entry.words + ' words · Normalized source text' +
+          (entry.highlight ? ' · Marked scope condition: ' + entry.highlight.words + ' words' : '');
+        get('previous').textContent = entry.previous || 'No preceding paragraph in retained body.';
+        get('following').textContent = entry.following || 'No following paragraph in retained body.';
+        get('coder-a').textContent = join(entry.coder_a);
+        get('coder-b').textContent = join(entry.coder_b);
+        get('shared').textContent = join(entry.coder_a.filter(label => entry.coder_b.includes(label)));
+        get('only-a').textContent = join(entry.coder_a.filter(label => !entry.coder_b.includes(label)));
+        get('only-b').textContent = join(entry.coder_b.filter(label => !entry.coder_a.includes(label)));
+        get('a-reason').textContent = entry.coder_a_rationale || 'No paragraph-level rationale was recorded in the source coding packet.';
+        get('b-reason').textContent = entry.coder_b_rationale;
+        const uncertainty = entry.coder_b_uncertainty;
+        get('b-uncertainty').textContent = Array.isArray(uncertainty) && uncertainty.length ? uncertainty.join('; ') :
+          typeof uncertainty === 'string' && uncertainty ? uncertainty :
+          uncertainty === true ? 'Uncertainty flagged without a specific note.' : 'No uncertainty note recorded.';
+      }
+      function restore(state) {
+        const selection = state && state.coderDisagreement;
+        render(selection && selection.version === 1 ? selection.paragraph : cases[0].id);
+      }
+      select.addEventListener('change', () => {
+        render(select.value);
+        if (window.openai && window.openai.setWidgetState) {
+          window.openai.setWidgetState({ modelContent: { coderDisagreement: { version: 1, paragraph: select.value } }, privateContent: null }).catch(() => {});
+        }
+      });
+      window.addEventListener('openai:set_globals', event => {
+        const globals = event.detail && event.detail.globals;
+        if (globals && Object.prototype.hasOwnProperty.call(globals, 'widgetState')) restore(globals.widgetState);
+      });
+      restore(window.openai && window.openai.widgetState);
+    })();
+  </script>
+</div>

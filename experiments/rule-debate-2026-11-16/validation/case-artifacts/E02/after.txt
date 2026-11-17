@@ -1,0 +1,1 @@
+The backlog rose from 12 to 30 tickets last month because 36 tickets arrived and 18 were closed. The gap shows that incoming work exceeded closures for that month, but it does not establish how many additional analysts are needed. To reduce the backlog, assess the ticket mix, seasonal demand, and the capacity another analyst could add before deciding on staffing.

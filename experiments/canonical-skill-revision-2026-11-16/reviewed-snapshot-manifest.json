@@ -1,0 +1,81 @@
+{
+  "scope": "Final canonical content after source and observed-behavior review fixes01\u201303. Used for captured qualification and four-case retest.",
+  "files": [
+    {
+      "path": "skills/edit-with-purpose/SKILL.md",
+      "sha256": "7b612c6b8253ffc2b1926ac826cfd2fd32c65b72a57e564a808522a8739bbea5"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/cole-lyons-patient-safety.md",
+      "sha256": "279009715a19618c93b3df055bb96d842fabe99bf2e41dc77c24322a39bacc71"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/cole-lyons-style.md",
+      "sha256": "764ee9da1a7b34fce5e1ea2695ef49e2365e2c672b0927be4322a4a2e679b815"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/functions-and-ambiguity.md",
+      "sha256": "3de26e14bbad14a17188a874541357512331059da10ce08dbb1bc35d0db17501"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/local-edits.md",
+      "sha256": "fc3bc0b8917c1ceecc162f0b670937b4f6f909fb1c0a890eacb44fd0c0584a80"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/mechanical-checks.md",
+      "sha256": "d4ba34812241ba7092f21716fbc4d5528e9c03c583954b1989275190d25d23dd"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/plain-language-edit.md",
+      "sha256": "193a9cc6332da1b4d6c94735d7db0539313c693d7b48304acac1025132efd987"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/structure-and-purpose.md",
+      "sha256": "ca7bed5792f329df5d357e0ad0e36c007d0eaf1bbb3927ebe44ab07c81ce0434"
+    },
+    {
+      "path": "skills/edit-with-purpose/references/technical-meaning.md",
+      "sha256": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60"
+    },
+    {
+      "path": "skills/edit-with-purpose/scripts/edit_locally.py",
+      "sha256": "195e6c24d4cdb239fab536a0d4a7806ce8e8a86ea042f8f2e3b944ce43328410"
+    },
+    {
+      "path": "skills/write-with-purpose/SKILL.md",
+      "sha256": "9c2824bae19c6aeef0e13845124b98c1805f4b2b0901bb61b4b537fbe287748b"
+    },
+    {
+      "path": "skills/write-with-purpose/references/checks.md",
+      "sha256": "ef94e377abaa223a5b4b2f53724eb8c2c1749b60704b91e26df939a52279b538"
+    },
+    {
+      "path": "skills/write-with-purpose/references/cole-lyons-patient-safety.md",
+      "sha256": "279009715a19618c93b3df055bb96d842fabe99bf2e41dc77c24322a39bacc71"
+    },
+    {
+      "path": "skills/write-with-purpose/references/cole-lyons-style.md",
+      "sha256": "764ee9da1a7b34fce5e1ea2695ef49e2365e2c672b0927be4322a4a2e679b815"
+    },
+    {
+      "path": "skills/write-with-purpose/references/concepts-and-claims.md",
+      "sha256": "c4a37964c1a4303f30dcd745a4d1608e3e35b94257adb2b297eada030739f72b"
+    },
+    {
+      "path": "skills/write-with-purpose/references/functions-and-ambiguity.md",
+      "sha256": "3de26e14bbad14a17188a874541357512331059da10ce08dbb1bc35d0db17501"
+    },
+    {
+      "path": "skills/write-with-purpose/references/language-and-meaning.md",
+      "sha256": "95aeaafe5a880115507a65001b9494c970140bf3f384e48d01f9d0616aa2b01a"
+    },
+    {
+      "path": "skills/write-with-purpose/references/structure-and-purpose.md",
+      "sha256": "ca7bed5792f329df5d357e0ad0e36c007d0eaf1bbb3927ebe44ab07c81ce0434"
+    },
+    {
+      "path": "skills/write-with-purpose/scripts/check_text.py",
+      "sha256": "873f4286cb2848301ef2d5cacd02610744fe2581e5f4ff269ef60a53b4356cb3"
+    }
+  ]
+}

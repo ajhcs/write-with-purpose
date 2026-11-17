@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_048",
+      "doi": "10.1002/14651858.cd010905",
+      "title": "Human resource management training of supervisors for improving health and well-being of employees",
+      "authors": "[\"Andreas Kuehnl\", \"Eva Rehfuess\", \"Erik von Elm\", \"Dennis Nowak\", \"Jürgen Glaser\"]",
+      "field": "business_management",
+      "q": "\"Human resource management training of supervisors for improving\" Kuehnl filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_048",
+      "query": "\"Human resource management training of supervisors for improving\" Kuehnl filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Human resource management training of supervisors for improving health and well-being of employees",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31560414/",
+          "score": 1
+        },
+        {
+          "title": "Human resource management training of supervisors for improving health and well-being of employees",
+          "url": "https://sonar.ch/global/documents/166244",
+          "score": 1
+        },
+        {
+          "title": "Human resource management training of supervisors for improving health and well-being of employees",
+          "url": "https://documentsdelivered.com/source/054/191/054191814.php",
+          "score": 1
+        },
+        {
+          "title": "Human resource management training of supervisors for improving health and well-being of employees",
+          "url": "https://documentsdelivered.com/source/034/201/034201406.php",
+          "score": 1
+        },
+        {
+          "title": "Human resource management training of supervisors for improving health and well‐being of employees | Cochrane Abstracts",
+          "url": "https://evidence.unboundmedicine.com/evidence/view/Cochrane/434394/0/Human_resource_management_training_of_supervisors_for_improving_health_and_well%E2%80%90being_of_employees",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

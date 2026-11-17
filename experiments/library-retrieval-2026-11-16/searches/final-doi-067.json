@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-critical_review_of_work-1",
+      "doi": "10.1096/fj.14-0901ufm",
+      "title": "Mycins v Microbes Missing Microbes: How the Overuse of Antibiotics Is Fueling Our Modern Plagues by Martin J. Blaser (2014) Holt New York, USA.",
+      "authors": "[\"Proctor LM\"]",
+      "field": "medicine_health",
+      "q": "\"Mycins v Microbes Missing Microbes: How the Overuse\" Proctor filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-critical_review_of_work-1",
+      "query": "\"Mycins v Microbes Missing Microbes: How the Overuse\" Proctor filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Mycins v Microbes Missing Microbes: How the Overuse of Antibiotics Is Fueling Our Modern Plagues by Martin J. Blaser (2014) Holt New York, USA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29405744/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

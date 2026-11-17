@@ -1,0 +1,3 @@
+The model correctly classified 80 of 100 cases.
+
+This replaces “very, very good” with the supplied result, so readers can see what was measured. It does not call the result good or imply a comparison because no baseline or comparator was provided.

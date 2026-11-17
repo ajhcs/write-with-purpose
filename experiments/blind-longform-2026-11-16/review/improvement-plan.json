@@ -1,0 +1,50 @@
+{
+  "status": "Proposed refinements; canonical skills and frozen trial outputs have not been changed.",
+  "working_recommendation": "Continue with revised writer as the candidate; use the baseline wins and original-preferred case as contrasting examples.",
+  "changes": [
+    {
+      "id": "IP01",
+      "topic": "Purposeful example selection",
+      "author_evidence": [
+        "R02: objects to long inline lists and multiple lists in a paragraph.",
+        "R03: objects to a three-item setup as well."
+      ],
+      "proposed_guidance": "For Cole's prose, select at most three useful illustrative items where a list is warranted. A smaller count is not sufficient: select the examples that establish the point or express their accurate shared role. Required coverage remains a separate task obligation. Do not split a long list into several filler lists.",
+      "placement": "Author profile and conditional structure/plain-language references; avoid a universal rule for every author and form.",
+      "prompt_hypothesis": "The common trial brief protected material facts and examples. Clarify illustrative selection separately from mandatory coverage instead of assuming the skill alone caused retention.",
+      "code_role": "An explicit-list count and heuristic inline-enumeration warning could be advisory inputs. No new linter exists from this analysis.",
+      "evaluation": "Compare candidates on illustrative lists versus required inventories; preserve source meaning and measure author usefulness separately from item counts."
+    },
+    {
+      "id": "IP02",
+      "topic": "Explanatory force and narrative progression",
+      "author_evidence": [
+        "R03: explicitly praises the baseline sentence linking AI speed to the greater usefulness of understanding and checking the parts.",
+        "R11: prefers the original overall story while recognizing wording fixes and marking revised A as a substantive improvement."
+      ],
+      "proposed_guidance": "Check whether consolidation or reordering preserves what leads to what and why the conclusion matters. Preserve a useful causal connection rather than replacing it with a continuing obligation. Retain the stronger original progression and apply local corrections when it better serves the work.",
+      "placement": "Short contrasting examples in the existing structure/development reference; no extra mandatory outline or universal story template.",
+      "mode_distinction": "A deliberate-alternative experiment can require a rewrite. Final editorial selection should still be allowed to choose the original with local corrections.",
+      "code_role": "Exact diffs can locate changed relationships; they do not assess narrative quality.",
+      "evaluation": "Retest baseline-winning R03 plus fresh comparable material; include an original-stronger countercase rather than rewarding larger changes."
+    },
+    {
+      "id": "IP03",
+      "topic": "Grounded new implications and relevant caveats",
+      "author_evidence": [
+        "R01: author rejects the inherited enrollment/credit disclaimer.",
+        "Preferred revised R05 adds an unstated first-encounter claim; source review flags it.",
+        "Unpreferred baseline R11 changes the source's former reference to both; source review flags the scope change."
+      ],
+      "proposed_guidance": "Use author corrections to update the task's factual context. Preserve the supported claim without adding unestablished chronology, causation, endorsement or scope for smoother prose. Keep qualifications that serve accuracy and the reader; omit irrelevant defensive framing when appropriate.",
+      "placement": "Source/meaning references and per-project author-fact context. Do not turn personal credential assertions into global installed-skill facts.",
+      "code_role": "Existing exact-change and number/literal checks support review, but do not certify the meaning of first, former or both. Avoid a word blacklist.",
+      "evaluation": "Retain the preferred R05 wording while removing or grounding first; test source ambiguity and author-corrected facts separately from stylistic preference."
+    }
+  ],
+  "test_gaps": [
+    "Test edit-with-purpose directly with editorial briefs or explicit component invocation; every current trial generator selected the writer.",
+    "Use a manageable number of whole-work judgments and repeat generations on fresh material; all current rated cases are passages with shared context by source.",
+    "Hold prompt/example changes apart when testing mechanisms; this trial compares skill packages and cannot identify one rule's causal effect."
+  ]
+}

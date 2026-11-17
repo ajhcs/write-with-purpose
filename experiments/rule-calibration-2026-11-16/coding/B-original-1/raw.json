@@ -1,0 +1,631 @@
+{
+  "coder_id": "B-original-1",
+  "arm": "original",
+  "stage": "B",
+  "model": "gpt-6.1-terra",
+  "started_at_utc": "2026-11-16T16:27:06Z",
+  "finished_at_utc": "2026-11-16T16:27:46Z",
+  "annotations": [
+    {
+      "paragraph_id": "LF-536f04360ed3-p007",
+      "context": {
+        "reviewed_units": [
+          "LF-536f04360ed3-p005",
+          "LF-536f04360ed3-p006",
+          "LF-536f04360ed3-p007",
+          "LF-536f04360ed3-context001",
+          "LF-536f04360ed3-p008"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p007",
+              "quote": "blame-the-victim framework",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Characterizes the earlier advice as victim blaming and reflects on its meaning."
+        },
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p007",
+              "quote": "rather than that we transform public space",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Advocates changing public space or men so women can walk unharassed."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p007",
+              "quote": "because violence against women is now a public issue",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Explains the author’s exhilaration at the disturbing material becoming public."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p020",
+      "context": {
+        "reviewed_units": [
+          "LF-536f04360ed3-p018",
+          "LF-536f04360ed3-p019",
+          "LF-536f04360ed3-p020",
+          "LF-536f04360ed3-context002",
+          "LF-536f04360ed3-p021"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "Some men wrote publicly about their realisation",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reports men’s public accounts of their realization."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "another sign of what seems to have been new and transformative this year",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Interprets engaged men as a sign of a wider change."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "changing the world for women means changing what is acceptable and admirable among men",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Gives the reason men’s engagement matters for changing conditions for women."
+        },
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p020",
+              "quote": "women can no more mitigate sexism without engaging men than people of colour can address racism without the participation of white people",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Compares participation across sexism and racism to clarify the claim."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-536f04360ed3-p033",
+      "context": {
+        "reviewed_units": [
+          "LF-536f04360ed3-p031",
+          "LF-536f04360ed3-p032",
+          "LF-536f04360ed3-p033",
+          "LF-536f04360ed3-p034",
+          "LF-536f04360ed3-p035"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "a campus professional who handles sexual assault cases told me the other day",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Attributes a judgment to a campus professional."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "The tables have turned.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Interprets a change in the pattern of discredit and shame."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "When Jennifer Lawrence’s nude photographs were stolen and distributed online",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Uses a named incident to make the shift in shame concrete."
+        },
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-536f04360ed3-p033",
+              "quote": "she started on the usual route of being ashamed and apologetic, but then she revolted",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recounts a change in Lawrence’s response over time."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p005",
+      "context": {
+        "reviewed_units": [
+          "LF-03f718ef8cc6-p003",
+          "LF-03f718ef8cc6-p004",
+          "LF-03f718ef8cc6-p005",
+          "LF-03f718ef8cc6-p006",
+          "LF-03f718ef8cc6-p007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "compare",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p005",
+              "quote": "how much time he spent in the outdoors",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Contrasts Leo’s outdoor activity with the parents’ preferences."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p005",
+              "quote": "My father once said to me",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recounts parental preferences and the narrator’s indoor experiences."
+        },
+        {
+          "function_id": "interpret",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p005",
+              "quote": "Leo’s stories about his far-flung wilderness adventures were exotic to me",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reflects on the personal significance of Leo’s stories."
+        },
+        {
+          "function_id": "illustrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p005",
+              "quote": "as if I were listening to an alien describe a cocktail party on the moon",
+              "occurrence": 0
+            }
+          ],
+          "reason": "An analogy makes the narrator’s sense of unfamiliarity concrete."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p013",
+      "context": {
+        "reviewed_units": [
+          "LF-03f718ef8cc6-p011",
+          "LF-03f718ef8cc6-p012",
+          "LF-03f718ef8cc6-p013",
+          "LF-03f718ef8cc6-p014",
+          "LF-03f718ef8cc6-p015"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p013",
+              "quote": "“I don’t really get scared,” he said.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "The quoted reply advances the scene’s exchange about fear."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p013",
+              "quote": "“And if I do, it’s already too late.”",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Records the speaker’s stated attitude toward fear."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "LF-03f718ef8cc6-p021",
+      "context": {
+        "reviewed_units": [
+          "LF-03f718ef8cc6-p019",
+          "LF-03f718ef8cc6-p020",
+          "LF-03f718ef8cc6-p021",
+          "LF-03f718ef8cc6-p022",
+          "LF-03f718ef8cc6-p023"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "narrate",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p021",
+              "quote": "Four days after we’d arrived in Brazil",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Recounts the decision and trip to a hang-gliding launch."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "LF-03f718ef8cc6-p021",
+              "quote": "By that, he meant that I should not hesitate when it came time to run off the cliff.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Explains the meaning of the handler’s instruction in the situation."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "PMC4566873-p010",
+      "context": {
+        "reviewed_units": [
+          "PMC4566873-p008",
+          "PMC4566873-p009",
+          "PMC4566873-p010",
+          "PMC4566873-p011",
+          "PMC4566873-p012"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "assert",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p010",
+              "quote": "we need to consider, across relevant disciplines",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Proposes considering a wider range of theories for selection and application."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p010",
+              "quote": "By identifying a range of theories we can assess",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Connects identification of theories to assessing their value for a given context."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p010",
+              "quote": "we conducted a scoping review and consensus exercise",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reports the study approach and its primary question."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "PMC4566873-p028",
+      "context": {
+        "reviewed_units": [
+          "PMC4566873-p027",
+          "PMC4566873-context008",
+          "PMC4566873-p028",
+          "PMC4566873-p029",
+          "PMC4566873-p030"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p028",
+              "quote": "Screening of articles was in two stages.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Reports the screening process and eligibility rules used."
+        },
+        {
+          "function_id": "define",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p028",
+              "quote": "Descriptive articles were defined as those",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Establishes operational meanings for the review’s article categories."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p028",
+              "quote": "because there are a number of factors further along the causal chain",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Explains the rationale for using behaviour rather than its consequences as the endpoint."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "PMC4566873-p046",
+      "context": {
+        "reviewed_units": [
+          "PMC4566873-context019",
+          "PMC4566873-p045",
+          "PMC4566873-p046",
+          "PMC4566873-p047",
+          "PMC4566873-p048"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "qualify",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p046",
+              "quote": "it does not reflect the wider application of these theories to public health-related research",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Limits what the identified literature can represent."
+        },
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "PMC4566873-p046",
+              "quote": "reflects the search strategy that aimed to identify theories rather than exhaustively review theoretically informed empirical studies",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Connects the limitation to the search strategy."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "curl-p04",
+      "context": {
+        "reviewed_units": [
+          "curl-p03",
+          "curl-context003",
+          "curl-p04",
+          "curl-p05",
+          "curl-p06"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "define",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p04",
+              "quote": "The response code is the server's way of giving the client a hint about how the request was handled.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes the meaning and communicative role of an HTTP response code."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p04",
+              "quote": "An HTTP transfer gets a 3 digit response code back in the first response line.",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes where the response code appears."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "curl-p11",
+      "context": {
+        "reviewed_units": [
+          "curl-context006",
+          "curl-p10",
+          "curl-p11",
+          "curl-p12",
+          "curl-context007"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p11",
+              "quote": "Every individual chunk starts with the size of that particular chunk",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Explains how chunk structure and a terminal chunk let the client determine the end."
+        },
+        {
+          "function_id": "report",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p11",
+              "quote": "there's a `Transfer-Encoding: chunked` header",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Describes the header and data arrangement used in a chunked response."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "curl-p17",
+      "context": {
+        "reviewed_units": [
+          "curl-p15",
+          "curl-p16",
+          "curl-p17",
+          "curl-context009",
+          "curl-p18"
+        ],
+        "context_sufficiency": "sufficient",
+        "context_reason": "Selected passage and adjacent supplied units establish the local contribution."
+      },
+      "roles": [
+        {
+          "function_id": "explain",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p17",
+              "quote": "if acceptable, it will respond with a header indicating that it will",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Explains the conditional exchange and resulting decompression."
+        },
+        {
+          "function_id": "instruct",
+          "decision": "present",
+          "status": "clear",
+          "anchors": [
+            {
+              "unit_id": "curl-p17",
+              "quote": "A user enables asking for compressed transfer encoding with `--tr-encoding`",
+              "occurrence": 0
+            }
+          ],
+          "reason": "Gives the reader the option needed to request transfer compression."
+        }
+      ]
+    }
+  ]
+}

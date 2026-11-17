@@ -1,0 +1,1418 @@
+[
+  {
+    "query_url": "https://api.crossref.org/works/10.1108/LHS-02-2017-0007",
+    "retrieved_at": "2026-11-16T15:22:39.792216+00:00",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            19
+          ]
+        ],
+        "date-time": "2026-10-19T06:49:07Z",
+        "timestamp": 1792392547381,
+        "version": "4.4.0"
+      },
+      "reference-count": 51,
+      "publisher": "Emerald",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2017,
+                11,
+                15
+              ]
+            ],
+            "date-time": "2017-11-15T00:00:00Z",
+            "timestamp": 1510704000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.emerald.com/insight/site-policies"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "LHS"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            2,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Purpose</jats:title>\n<jats:p>The purpose of this paper is to review peer-reviewed original research articles on authentic leadership (AL) in health care to identify potential research gaps and present recommendations for future research. The objectives are to examine and map evidence of the main characteristics, research themes and methodologies in the studies. AL is a leader\u2019s non-authoritarian, ethical and transparent behaviour pattern.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Design/methodology/approach</jats:title>\n<jats:p>A scoping review with thematic analysis was conducted. A three-step search strategy was used with database and manual searches. The included studies were composed of English language peer-reviewed original research articles referring to both AL and health care.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Findings</jats:title>\n<jats:p>In total, 29 studies were included. The studies favoured Canadian nurses in acute care hospitals. AL was understood as its original definition. The review identified four research themes: well-being at work, patient care quality, work environment and AL promotion. Quantitative research methodology with the authentic leadership questionnaire and cross-sectional design were prevalent.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Research limitations/implications</jats:title>\n<jats:p>Future research needs more variation in research themes, study populations, settings, organisations, work sectors, geographical origins and theory perspectives. Different research methodologies, such as qualitative and mixed methods research and longitudinal designs, should be used more.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Originality/value</jats:title>\n<jats:p>This is presumably the first literature review to map the research on AL in health care.</jats:p>\n</jats:sec>",
+      "DOI": "10.1108/lhs-02-2017-0007",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            15
+          ]
+        ],
+        "date-time": "2017-11-15T09:52:32Z",
+        "timestamp": 1510739552000
+      },
+      "page": "129-146",
+      "source": "Crossref",
+      "is-referenced-by-count": 52,
+      "title": [
+        "Authentic leadership in healthcare: a scoping review"
+      ],
+      "prefix": "10.1108",
+      "volume": "31",
+      "author": [
+        {
+          "given": "Niina",
+          "family": "Malila",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nina",
+          "family": "Lunkka",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marjo",
+          "family": "Suhonen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "140",
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            15
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "1",
+          "key": "key2021041509192204600_ref001",
+          "doi-asserted-by": "crossref",
+          "first-page": "118",
+          "DOI": "10.1016/j.leaqua.2011.11.010",
+          "article-title": "Radical authentic leadership: co-creating the conditions under which all members of the organization can be authentic",
+          "volume": "23",
+          "year": "2012",
+          "journal-title": "The Leadership Quarterly"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509192204600_ref002",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1080/1364557032000119616",
+          "article-title": "Scoping studies: towards a methodological framework",
+          "volume": "8",
+          "year": "2005",
+          "journal-title": "International Journal of Social Research Methodology"
+        },
+        {
+          "issue": "3",
+          "key": "key2021041509192204600_ref003",
+          "doi-asserted-by": "crossref",
+          "first-page": "315",
+          "DOI": "10.1016/j.leaqua.2005.03.001",
+          "article-title": "Authentic leadership development: getting to the root of positive forms of leadership",
+          "volume": "16",
+          "year": "2005",
+          "journal-title": "The Leadership Quarterly"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509192204600_ref004",
+          "doi-asserted-by": "crossref",
+          "first-page": "421",
+          "DOI": "10.1146/annurev.psych.60.110707.163621",
+          "article-title": "Leadership: current theories, research, and future directions",
+          "volume": "60",
+          "year": "2009",
+          "journal-title": "Annual Review of Psychology"
+        },
+        {
+          "issue": "6",
+          "key": "key2021041509192204600_ref005",
+          "doi-asserted-by": "crossref",
+          "first-page": "801",
+          "DOI": "10.1016/j.leaqua.2004.09.003",
+          "article-title": "Unlocking the mask: a look at the process by which authentic leaders impact follower attitudes and behaviors",
+          "volume": "15",
+          "year": "2004",
+          "journal-title": "The Leadership Quarterly"
+        },
+        {
+          "issue": "3",
+          "key": "key2021041509192204600_ref006",
+          "doi-asserted-by": "crossref",
+          "first-page": "529",
+          "DOI": "10.1111/j.1365-2834.2012.01399.x",
+          "article-title": "The influence of authentic leadership and areas of worklife on work engagement of registered nurses",
+          "volume": "21",
+          "year": "2013",
+          "journal-title": "Journal of Nursing Management"
+        },
+        {
+          "key": "key2021041509192204600_ref007",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jan.13215",
+          "article-title": "Factors influencing new graduate nurse burnout development, job satisfaction, and patient care quality: a time-lagged study",
+          "year": "2016",
+          "journal-title": "Journal of Advanced Nursing"
+        },
+        {
+          "key": "key2021041509192204600_ref008",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.4135/9781446268247.n5",
+          "article-title": "Why use qualitative methods to study health care organizations? Insights from multi-level case studies",
+          "volume-title": "The SAGE Handbook of Qualitative Methods in Health Research",
+          "year": "2010"
+        },
+        {
+          "issue": "3",
+          "key": "key2021041509192204600_ref009",
+          "first-page": "227",
+          "article-title": "Authentic leadership and positive psychological capital: the mediating role of trust at the group level of analysis",
+          "volume": "15",
+          "year": "2009",
+          "journal-title": "Organizational Studies"
+        },
+        {
+          "issue": "9",
+          "key": "key2021041509192204600_ref010",
+          "doi-asserted-by": "crossref",
+          "first-page": "1195",
+          "DOI": "10.1177/0170840612448157",
+          "article-title": "The return of the primal father\u2019 in postmodernity? A Lacanian analysis of authentic leadership",
+          "volume": "33",
+          "year": "2012",
+          "journal-title": "Organization Studies"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509192204600_ref011",
+          "first-page": "1",
+          "article-title": "Authentic leadership and organisational citizenship behaviour in the public health care sector: the role of workplace trust",
+          "volume": "42",
+          "year": "2016",
+          "journal-title": "SA Journal of Industrial Psychology"
+        },
+        {
+          "issue": "4",
+          "key": "key2021041509192204600_ref012",
+          "doi-asserted-by": "crossref",
+          "first-page": "292",
+          "DOI": "10.1108/17511870910996132",
+          "article-title": "Transformations in Canadian health systems leadership: an analytical perspective",
+          "volume": "22",
+          "year": "2009",
+          "journal-title": "Leadership in Health Services"
+        },
+        {
+          "issue": "2",
+          "key": "key2021041509192204600_ref013",
+          "doi-asserted-by": "crossref",
+          "first-page": "125",
+          "DOI": "10.1177/1744987115624135",
+          "article-title": "The influence of authentic leadership and supportive professional practice environments on new graduate nurses\u2019 job satisfaction",
+          "volume": "21",
+          "year": "2016",
+          "journal-title": "Journal of Research in Nursing"
+        },
+        {
+          "key": "key2021041509192204600_ref014",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.outlook.2016.11.020",
+          "article-title": "The effects of authentic leadership, organizational identification, and occupational coping self-efficacy on new graduate nurses\u2019 job turnover intentions in Canada",
+          "year": "2016",
+          "journal-title": "Nursing Outlook"
+        },
+        {
+          "issue": "15",
+          "key": "key2021041509192204600_ref015",
+          "first-page": "99",
+          "article-title": "A critique of the discourse of authentic leadership",
+          "volume": "2",
+          "year": "2011",
+          "journal-title": "International Journal of Business and Social Science"
+        },
+        {
+          "issue": "8",
+          "key": "key2021041509192204600_ref016",
+          "doi-asserted-by": "crossref",
+          "first-page": "993",
+          "DOI": "10.1111/j.1365-2834.2010.01126.x",
+          "article-title": "Authentic leadership of preceptors: predictor of new graduate nurses\u2019 work engagement and job satisfaction",
+          "volume": "18",
+          "year": "2010",
+          "journal-title": "Journal of Nursing Management"
+        },
+        {
+          "issue": "2",
+          "key": "key2021041509192204600_ref017",
+          "doi-asserted-by": "crossref",
+          "first-page": "135",
+          "DOI": "10.1108/17511871111125701",
+          "article-title": "Authentic and congruent leadership providing excellent work environment in palliative care",
+          "volume": "24",
+          "year": "2011",
+          "journal-title": "Leadership in Health Services"
+        },
+        {
+          "issue": "2",
+          "key": "key2021041509192204600_ref018",
+          "doi-asserted-by": "crossref",
+          "first-page": "6",
+          "DOI": "10.1002/jls.21360",
+          "article-title": "Existential-experiential view of self-sourced (in)authentic healthcare identity",
+          "volume": "9",
+          "year": "2015",
+          "journal-title": "Journal of Leadership Studies"
+        },
+        {
+          "key": "key2021041509192204600_ref019",
+          "volume-title": "The Leadership Challenge: How to Make Extraordinary Things Happen in Organizations",
+          "year": "2012"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509192204600_ref020",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1186/1748-5908-5-69",
+          "article-title": "Scoping studies: advancing the methodology",
+          "volume": "5",
+          "year": "2010",
+          "journal-title": "Implementation Science"
+        },
+        {
+          "key": "key2021041509192204600_ref021",
+          "first-page": "241",
+          "article-title": "Authentic leadership development",
+          "volume-title": "Positive Organizational Scholarship: Foundations of a New Discipline",
+          "year": "2003"
+        },
+        {
+          "key": "key2021041509192204600_ref022",
+          "doi-asserted-by": "crossref",
+          "first-page": "28",
+          "DOI": "10.1016/j.ijnurstu.2016.08.004",
+          "article-title": "Authentic leadership and its impact on creativity of nursing staff: a cross sectional questionnaire survey of Indian nurses and their supervisors",
+          "volume": "63",
+          "year": "2016",
+          "journal-title": "International Journal of Nursing Studies"
+        },
+        {
+          "issue": "4",
+          "key": "key2021041509192204600_ref023",
+          "doi-asserted-by": "crossref",
+          "first-page": "264",
+          "DOI": "10.7326/0003-4819-151-4-200908180-00135",
+          "article-title": "Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement",
+          "volume": "151",
+          "year": "2009",
+          "journal-title": "Annals of Internal Medicine"
+        },
+        {
+          "issue": "3",
+          "key": "key2021041509192204600_ref024",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1111/jonm.12329",
+          "article-title": "Authentic leadership and thriving among nurses: the mediating role of empathy",
+          "volume": "24",
+          "year": "2016",
+          "journal-title": "Journal of Nursing Management"
+        },
+        {
+          "issue": "11",
+          "key": "key2021041509192204600_ref025",
+          "doi-asserted-by": "crossref",
+          "first-page": "507",
+          "DOI": "10.1097/NNA.0b013e3182714460",
+          "article-title": "Authentic leadership: becoming and remaining an authentic nurse leader",
+          "volume": "42",
+          "year": "2012",
+          "journal-title": "Journal of Nursing Administration"
+        },
+        {
+          "issue": "6",
+          "key": "key2021041509192204600_ref026",
+          "doi-asserted-by": "crossref",
+          "first-page": "1146",
+          "DOI": "10.1016/j.leaqua.2011.09.008",
+          "article-title": "The authentic leadership inventory (ALI): development and empirical tests",
+          "volume": "22",
+          "year": "2011",
+          "journal-title": "The Leadership Quarterly"
+        },
+        {
+          "issue": "2",
+          "key": "key2021041509192204600_ref027",
+          "doi-asserted-by": "crossref",
+          "first-page": "90",
+          "DOI": "10.1016/j.burn.2014.08.001",
+          "article-title": "Authentic leadership and psychological well-being at work of nurses: the mediating role of work climate at the individual level of analysis",
+          "volume": "1",
+          "year": "2014",
+          "journal-title": "Burnout Research"
+        },
+        {
+          "key": "key2021041509192204600_ref028",
+          "volume-title": "Qualitative and Mixed Methods in Public Health",
+          "year": "2012"
+        },
+        {
+          "issue": "3",
+          "key": "key2021041509192204600_ref029",
+          "doi-asserted-by": "crossref",
+          "first-page": "141",
+          "DOI": "10.1097/XEB.0000000000000050",
+          "article-title": "Guidance for conducting systematic scoping reviews",
+          "volume": "13",
+          "year": "2015",
+          "journal-title": "International Journal of Evidence-Based Healthcare"
+        },
+        {
+          "issue": "2",
+          "key": "key2021041509192204600_ref030",
+          "doi-asserted-by": "crossref",
+          "first-page": "363",
+          "DOI": "10.1007/s10551-014-2318-1",
+          "article-title": "Authentic leadership and employee well-being: the mediating role of attachment insecurity",
+          "volume": "132",
+          "year": "2015",
+          "journal-title": "Journal of Business Ethics"
+        },
+        {
+          "issue": "7",
+          "key": "key2021041509192204600_ref031",
+          "doi-asserted-by": "crossref",
+          "first-page": "1611",
+          "DOI": "10.1111/jan.12625",
+          "article-title": "The influence of authentic leadership and empowerment on nurses\u2019 relational social capital, mental health and job satisfaction over the first year of practice",
+          "volume": "71",
+          "year": "2015",
+          "journal-title": "Journal of Advanced Nursing"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509192204600_ref032",
+          "doi-asserted-by": "crossref",
+          "first-page": "E54",
+          "DOI": "10.1111/jonm.12288",
+          "article-title": "The influence of empowerment, authentic leadership, and professional practice environments on nurses\u2019 perceived interprofessional collaboration",
+          "volume": "24",
+          "year": "2016",
+          "journal-title": "Journal of Nursing Management"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509192204600_ref033",
+          "doi-asserted-by": "crossref",
+          "first-page": "60",
+          "DOI": "10.1111/j.1365-2834.2012.01426.x",
+          "article-title": "Simulations in nursing practice: toward authentic leadership",
+          "volume": "22",
+          "year": "2014",
+          "journal-title": "Journal of Nursing Management"
+        },
+        {
+          "issue": "3",
+          "key": "key2021041509192204600_ref034",
+          "doi-asserted-by": "crossref",
+          "first-page": "256",
+          "DOI": "10.4037/ajcc2006.15.3.256",
+          "article-title": "Authentic leaders creating healthy work environments for nursing practice",
+          "volume": "15",
+          "year": "2006",
+          "journal-title": "American Journal of Critical Care"
+        },
+        {
+          "issue": "3",
+          "key": "key2021041509192204600_ref035",
+          "doi-asserted-by": "crossref",
+          "first-page": "189",
+          "DOI": "10.1097/CNQ.0b013e3181ab91db",
+          "article-title": "Authentic leadership, organizational culture, and healthy work environments",
+          "volume": "32",
+          "year": "2009",
+          "journal-title": "Critical Care Nursing Quarterly"
+        },
+        {
+          "issue": "5",
+          "key": "key2021041509192204600_ref036",
+          "doi-asserted-by": "crossref",
+          "first-page": "739",
+          "DOI": "10.1080/1359432X.2013.804646",
+          "article-title": "A time-lagged analysis of the effect of authentic leadership on workplace bullying, burnout, and occupational turnover intentions",
+          "volume": "23",
+          "year": "2014",
+          "journal-title": "European Journal of Work and Organizational Psychology"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509192204600_ref037",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1016/j.burn.2014.03.002",
+          "article-title": "New nurses burnout and workplace wellbeing: the influence of authentic leadership and psychological capital",
+          "volume": "1",
+          "year": "2014",
+          "journal-title": "Burnout Research"
+        },
+        {
+          "issue": "5",
+          "key": "key2021041509192204600_ref038",
+          "doi-asserted-by": "crossref",
+          "first-page": "276",
+          "DOI": "10.1097/NNA.0000000000000198",
+          "article-title": "Linking nurses\u2019 perceptions of patient care quality to job satisfaction: the role of authentic leadership and empowering professional practice environments",
+          "volume": "45",
+          "year": "2015",
+          "journal-title": "Journal of Nursing Administration"
+        },
+        {
+          "issue": "11",
+          "key": "key2021041509192204600_ref039",
+          "doi-asserted-by": "crossref",
+          "first-page": "574",
+          "DOI": "10.1097/NNA.0000000000000407",
+          "article-title": "The effect of authentic leadership, person-job fit, and civility norms on new graduate nurses\u2019 experiences of coworker incivility and burnout",
+          "volume": "46",
+          "year": "2016",
+          "journal-title": "Journal of Nursing Administration"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509192204600_ref040",
+          "doi-asserted-by": "crossref",
+          "first-page": "24",
+          "DOI": "10.1097/NNA.0b013e3182786064",
+          "article-title": "The influence of authentic leadership and empowerment on new-graduate nurses\u2019 perceptions of interprofessional collaboration",
+          "volume": "43",
+          "year": "2013",
+          "journal-title": "Journal of Nursing Administration"
+        },
+        {
+          "issue": "3",
+          "key": "key2021041509192204600_ref041",
+          "doi-asserted-by": "crossref",
+          "first-page": "541",
+          "DOI": "10.1111/j.1365-2834.2012.01375.x",
+          "article-title": "Authentic leadership, empowerment and burnout: a comparison in new graduates and experienced nurses",
+          "volume": "21",
+          "year": "2013",
+          "journal-title": "Journal of Nursing Management"
+        },
+        {
+          "issue": "10",
+          "key": "key2021041509192204600_ref042",
+          "doi-asserted-by": "crossref",
+          "first-page": "1266",
+          "DOI": "10.1016/j.ijnurstu.2012.05.012",
+          "article-title": "The influence of authentic leadership on newly graduated nurses\u2019 experiences of workplace bullying, burnout and retention outcomes: a cross-sectional study",
+          "volume": "49",
+          "year": "2012",
+          "journal-title": "International Journal of Nursing Studies"
+        },
+        {
+          "issue": "6",
+          "key": "key2021041509192204600_ref043",
+          "doi-asserted-by": "crossref",
+          "first-page": "1080",
+          "DOI": "10.1016/j.ijnurstu.2015.03.002",
+          "article-title": "The effects of authentic leadership, six areas of worklife, and occupational coping self-efficacy on new graduate nurses\u2019 burnout and mental health: a cross-sectional study",
+          "volume": "52",
+          "year": "2015",
+          "journal-title": "International Journal of Nursing Studies"
+        },
+        {
+          "key": "key2021041509192204600_ref044",
+          "article-title": "Authentic leadership as a source of optimism, trust in the organisation and work engagement in the public health care sector",
+          "volume": "13",
+          "year": "2015",
+          "journal-title": "SA Journal of Human Resource Management"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509192204600_ref045",
+          "doi-asserted-by": "crossref",
+          "first-page": "20",
+          "DOI": "10.1108/LHS-09-2012-0029",
+          "article-title": "Clinical leadership style and hand hygiene compliance",
+          "volume": "27",
+          "year": "2014",
+          "journal-title": "Leadership in Health Services"
+        },
+        {
+          "issue": "4",
+          "key": "key2021041509192204600_ref046",
+          "first-page": "346",
+          "article-title": "Henkil\u00f6st\u00f6johtamista kuntien muutostilanteissa: autenttisuus ja ihmisl\u00e4heinen johtamisote",
+          "volume": "40",
+          "year": "2012",
+          "journal-title": "Kunnallistieteellinen Aikakauskirja"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509192204600_ref047",
+          "doi-asserted-by": "crossref",
+          "first-page": "89",
+          "DOI": "10.1177/0149206307308913",
+          "article-title": "Authentic leadership: development and validation of a theory-based measure",
+          "volume": "34",
+          "year": "2008",
+          "journal-title": "Journal of Management"
+        },
+        {
+          "issue": "2",
+          "key": "key2021041509192204600_ref048",
+          "doi-asserted-by": "crossref",
+          "first-page": "6",
+          "DOI": "10.1002/jls.20104",
+          "article-title": "The influence of authentic leadership behaviors on trust and work outcomes of health care staff",
+          "volume": "3",
+          "year": "2009",
+          "journal-title": "Journal of Leadership Studies"
+        },
+        {
+          "issue": "5",
+          "key": "key2021041509192204600_ref049",
+          "doi-asserted-by": "crossref",
+          "first-page": "740",
+          "DOI": "10.1111/jonm.12075",
+          "article-title": "Authentic leadership and nurse-assessed adverse patient outcomes",
+          "volume": "21",
+          "year": "2013",
+          "journal-title": "Journal of Nursing Management"
+        },
+        {
+          "issue": "4",
+          "key": "key2021041509192204600_ref050",
+          "doi-asserted-by": "crossref",
+          "first-page": "947",
+          "DOI": "10.1111/j.1365-2648.2012.06089.x",
+          "article-title": "Authentic leadership, performance, and job satisfaction: the mediating role of empowerment",
+          "volume": "69",
+          "year": "2013",
+          "journal-title": "Journal of Advanced Nursing"
+        },
+        {
+          "issue": "8",
+          "key": "key2021041509192204600_ref051",
+          "doi-asserted-by": "crossref",
+          "first-page": "889",
+          "DOI": "10.1111/j.1365-2834.2010.01113.x",
+          "article-title": "Authentic leadership and nurses\u2019 voice behaviour and perceptions of care quality",
+          "volume": "18",
+          "year": "2010",
+          "journal-title": "Journal of Nursing Management"
+        }
+      ],
+      "container-title": [
+        "Leadership in Health Services"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.emerald.com/insight/content/doi/10.1108/LHS-02-2017-0007/full/xml",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.emerald.com/insight/content/doi/10.1108/LHS-02-2017-0007/full/html",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2025-07-24T22:12:18Z",
+        "timestamp": 1753395138000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://www.emerald.com/lhs/article/31/1/129-146/266014"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            15
+          ]
+        ]
+      },
+      "references-count": 51,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              15
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              7
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1108/LHS-02-2017-0007"
+      ],
+      "URL": "https://doi.org/10.1108/lhs-02-2017-0007",
+      "relation": {},
+      "ISSN": [
+        "1751-1879"
+      ],
+      "issn-type": [
+        {
+          "value": "1751-1879",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            15
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "query_url": "https://api.crossref.org/works/10.1108/LHS-02-2017-0005",
+    "retrieved_at": "2026-11-16T15:22:39.792216+00:00",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            13
+          ]
+        ],
+        "date-time": "2026-10-13T06:12:22Z",
+        "timestamp": 1791871942855,
+        "version": "4.3.4"
+      },
+      "reference-count": 42,
+      "publisher": "Emerald",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2017,
+                11,
+                15
+              ]
+            ],
+            "date-time": "2017-11-15T00:00:00Z",
+            "timestamp": 1510704000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.emerald.com/insight/site-policies"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "LHS"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            2,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:sec>\n                    <jats:title content-type=\"abstract-subheading\">Purpose</jats:title>\n                    <jats:p>Strong leadership has been shown to foster change, including loyalty, improved performance and decreased error rates, but there is a dearth of evidence on effectiveness of leadership development programs. To ensure a return on the huge investments made, evidence-based approaches are needed to assess the impact of leadership on health-care establishments. As a part of a pan-Canadian initiative to design an effective evaluative instrument, the purpose of this paper was to identify and summarize evidence on health-care outcomes/return on investment (ROI) indicators and metrics associated with leadership quality, leadership development programs and existing evaluative instruments.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title content-type=\"abstract-subheading\">Design/methodology/approach</jats:title>\n                    <jats:p>The authors performed a scoping review using the Arksey and O\u2019Malley framework, searching eight databases from 2006 through June 2016.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title content-type=\"abstract-subheading\">Findings</jats:title>\n                    <jats:p>Of 11,868 citations screened, the authors included 223 studies reporting on health-care outcomes/ROI indicators and metrics associated with leadership quality (73 studies), leadership development programs (138 studies) and existing evaluative instruments (12 studies). The extracted ROI indicators and metrics have been summarized in detail.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title content-type=\"abstract-subheading\">Originality/value</jats:title>\n                    <jats:p>This review provides a snapshot in time of the current evidence on ROI indicators and metrics associated with leadership. Summarized ROI indicators and metrics can be used to design an effective evaluative instrument to assess the impact of leadership on health-care organizations.</jats:p>\n                  </jats:sec>",
+      "DOI": "10.1108/lhs-02-2017-0005",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            15
+          ]
+        ],
+        "date-time": "2017-11-15T09:58:18Z",
+        "timestamp": 1510739898000
+      },
+      "page": "77-97",
+      "source": "Crossref",
+      "is-referenced-by-count": 32,
+      "title": [
+        "Return on investment in healthcare leadership development programs"
+      ],
+      "prefix": "10.1108",
+      "volume": "31",
+      "author": [
+        {
+          "given": "Maya M.",
+          "family": "Jeyaraman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sheikh Muhammad Zeeshan",
+          "family": "Qadar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aleksandra",
+          "family": "Wierzbowski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Farnaz",
+          "family": "Farshidfar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Justin",
+          "family": "Lys",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Graham",
+          "family": "Dickson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kelly",
+          "family": "Grimes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Leah A.",
+          "family": "Phillips",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan I.",
+          "family": "Mitchell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John",
+          "family": "Van Aerde",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dave",
+          "family": "Johnson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Frank",
+          "family": "Krupka",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ryan",
+          "family": "Zarychanski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ahmed M.",
+          "family": "Abou-Setta",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "140",
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            15
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "1",
+          "key": "key2021041509191835300_ref001",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1080/1364557032000119616",
+          "article-title": "Scoping studies: towards a methodological framework",
+          "volume": "8",
+          "year": "2005",
+          "journal-title": "International Journal of Social Research Methodology"
+        },
+        {
+          "issue": "3",
+          "key": "key2021041509191835300_ref002",
+          "doi-asserted-by": "crossref",
+          "first-page": "315",
+          "DOI": "10.1016/j.leaqua.2005.03.001",
+          "article-title": "Authentic leadership development: getting to the root of positive forms of leadership",
+          "volume": "16",
+          "year": "2005",
+          "journal-title": "Leadership Quarterly"
+        },
+        {
+          "issue": "6",
+          "key": "key2021041509191835300_ref003",
+          "doi-asserted-by": "crossref",
+          "first-page": "801",
+          "DOI": "10.1016/j.leaqua.2004.09.003",
+          "article-title": "Unlocking the mask: a look at the process by which authentic leaders impact follower attitudes and behaviors",
+          "volume": "15",
+          "year": "2004",
+          "journal-title": "Leadership Quarterly"
+        },
+        {
+          "key": "key2021041509191835300_ref004",
+          "volume-title": "Evidence Boost: A Review of Research Highlighting How Patient Engagement Contributes to Improved Care",
+          "year": "2014"
+        },
+        {
+          "key": "key2021041509191835300_ref005",
+          "first-page": "191",
+          "volume-title": "Leadership and Performance Beyond Expectations",
+          "year": "1985"
+        },
+        {
+          "key": "key2021041509191835300_ref007",
+          "unstructured": "Canadian Health Leadership Network (2016) Canadian Health Leadership Benchmarking Survey Report, available at: http://chlnet.ca/wp-content/uploads/CHLNet-Leadership-Benchmarking-Study-Final-Report.pdf (accessed 6 August 2016)."
+        },
+        {
+          "key": "key2021041509191835300_ref008",
+          "first-page": "25",
+          "article-title": "Improving the quality of emergency department care by removing waste using lean value stream mapping",
+          "volume": "17",
+          "year": "2011",
+          "journal-title": "International Journal of Clinical Leadership"
+        },
+        {
+          "issue": "10",
+          "key": "key2021041509191835300_ref009",
+          "doi-asserted-by": "crossref",
+          "first-page": "1386",
+          "DOI": "10.1016/j.ijnurstu.2009.02.010",
+          "article-title": "What are scoping studies? A review of the nursing literature",
+          "volume": "46",
+          "year": "2009",
+          "journal-title": "International Journal of Nursing Studies"
+        },
+        {
+          "issue": "2",
+          "key": "key2021041509191835300_ref010",
+          "doi-asserted-by": "crossref",
+          "first-page": "53",
+          "DOI": "10.1177/0840470416628635",
+          "article-title": "Health reform in Canada: enabling perspectives for health leadership",
+          "volume": "29",
+          "year": "2016",
+          "journal-title": "Healthcare Management Forum"
+        },
+        {
+          "key": "key2021041509191835300_ref011",
+          "unstructured": "Dickson, G. and Tholl, B. (2013), Leadership in Health System Redesign Research Project: Partnerships for Health System Improvement (PHSI) Cross Case Analysis Final Report, Royal Roads University, Victoria."
+        },
+        {
+          "key": "key2021041509191835300_ref012",
+          "article-title": "Backgrounder - healthcare reform in Canada",
+          "volume-title": "Queen\u2019s Helath Policy change conference series",
+          "year": "2013"
+        },
+        {
+          "issue": "S1",
+          "key": "key2021041509191835300_ref013",
+          "first-page": "S27",
+          "article-title": "Facilitators of transforming primary care: a look under the hood at practice leadership",
+          "volume": "11",
+          "year": "2013",
+          "journal-title": "Annals of Family Medicine"
+        },
+        {
+          "issue": "3",
+          "key": "key2021041509191835300_ref014",
+          "doi-asserted-by": "crossref",
+          "first-page": "32",
+          "DOI": "10.12927/hcq.2013.20877",
+          "article-title": "Leading lean: a Canadian healthcare leader\u2019s guide",
+          "volume": "12",
+          "year": "2009",
+          "journal-title": "Healthcare Quarterly"
+        },
+        {
+          "issue": "2",
+          "key": "key2021041509191835300_ref015",
+          "doi-asserted-by": "crossref",
+          "first-page": "129",
+          "DOI": "10.1097/HMR.0b013e31819e9169",
+          "article-title": "Knowledge management as a mediator for the efficacy of transformational leadership and quality management initiatives in U.S. health care",
+          "volume": "34",
+          "year": "2009",
+          "journal-title": "Health Care Manage Review"
+        },
+        {
+          "issue": "4",
+          "key": "key2021041509191835300_ref016",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1016/j.mnl.2008.06.002",
+          "article-title": "Building the business case for the clinical nurse leader role",
+          "volume": "6",
+          "year": "2008",
+          "journal-title": "Nurse Leader"
+        },
+        {
+          "key": "key2021041509191835300_ref017",
+          "article-title": "Why build health leadership capacity across Canada?",
+          "year": "2016",
+          "journal-title": "Longwoods Essay Series"
+        },
+        {
+          "issue": "6",
+          "key": "key2021041509191835300_ref018",
+          "doi-asserted-by": "crossref",
+          "first-page": "40",
+          "DOI": "10.1016/j.mnl.2010.04.003",
+          "article-title": "Developing charge nurse leaders with experiential learning",
+          "volume": "8",
+          "year": "2010",
+          "journal-title": "Nurse Leader"
+        },
+        {
+          "issue": "1/2",
+          "key": "key2021041509191835300_ref019",
+          "first-page": "34",
+          "article-title": "Successful strategies to improve RN retention and patient outcomes in a large medical centre in Hawaii",
+          "volume": "20",
+          "year": "2011",
+          "journal-title": "Journal of Clinical Nursing"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509191835300_ref020",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.1097/01.NAQ.0000305945.23569.2b",
+          "article-title": "Nurses supporting nurses: creating a mentoring program for staff nurses to improve the workforce environment",
+          "volume": "32",
+          "year": "2008",
+          "journal-title": "Nursing Administration Quarterly"
+        },
+        {
+          "key": "key2021041509191835300_ref021",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1186/1748-5908-5-69",
+          "article-title": "Scoping studies: advancing the methodology",
+          "volume": "5",
+          "year": "2010",
+          "journal-title": "Implementation Science: Is"
+        },
+        {
+          "key": "key2021041509191835300_ref022",
+          "doi-asserted-by": "crossref",
+          "first-page": "40",
+          "DOI": "10.1016/j.jclinepi.2016.01.021",
+          "article-title": "PRESS peer review of electronic search strategies: 2015 guideline statement",
+          "volume": "75",
+          "year": "2016",
+          "journal-title": "Journal of Clinical Epidemiology"
+        },
+        {
+          "issue": "3",
+          "key": "key2021041509191835300_ref023",
+          "doi-asserted-by": "crossref",
+          "first-page": "155",
+          "DOI": "10.1097/00005110-200603000-00010",
+          "article-title": "Leadership development: an external-internal coaching partnership",
+          "volume": "36",
+          "year": "2006",
+          "journal-title": "Journal of Nursing Administration"
+        },
+        {
+          "issue": "1",
+          "key": "key2021041509191835300_ref024",
+          "first-page": "1",
+          "article-title": "Canada: health system review",
+          "volume": "15",
+          "year": "2013",
+          "journal-title": "Health Systems in Transition"
+        },
+        {
+          "issue": "7",
+          "key": "key2021041509191835300_ref025",
+          "doi-asserted-by": "crossref",
+          "first-page": "301",
+          "DOI": "10.1016/S1553-7250(12)38040-9",
+          "article-title": "Eisenberg patient safety and quality awards. Mentored implementation: building leaders and achieving results through a collaborative improvement model: innovation in patient safety and quality at the national level",
+          "volume": "38",
+          "year": "2012",
+          "journal-title": "Joint Commission Journal on Quality and Patient Safety/Joint Commission Resources"
+        },
+        {
+          "issue": "4",
+          "key": "key2021041509191835300_ref026",
+          "first-page": "E35-E35",
+          "article-title": "What is the return on investment for changing a medical center culture?",
+          "volume": "219",
+          "year": "2014",
+          "journal-title": "Journal of the American College of Surgeons"
+        },
+        {
+          "key": "key2021041509191835300_ref027",
+          "unstructured": "National Health Expenditure Database (2016) Canadian Institute for Health Information, available at: www.cihi.ca/en/spending-and-health-workforce/spending/nhex-national-health-expenditure-database-nhex-0"
+        },
+        {
+          "key": "key2021041509191835300_ref028",
+          "unstructured": "Ontario Ministry of Health and Long Term Care (2016) Putting Patients First: Action Plan for Health Care, available at: www.health.gov.on.ca/en/ms/ecfa/healthy_change/docs/rep_patientsfirst.pdf (Published February 2015, accessed 5 August2016)."
+        },
+        {
+          "issue": "8",
+          "key": "key2021041509191835300_ref029",
+          "doi-asserted-by": "crossref",
+          "first-page": "751",
+          "DOI": "10.2217/BMM.15.39",
+          "article-title": "Independent validation test of the vote-counting strategy used to rank biomarkers from published studies",
+          "volume": "9",
+          "year": "2015",
+          "journal-title": "Biomarkers in Medicine"
+        },
+        {
+          "key": "key2021041509191835300_ref030",
+          "first-page": "30",
+          "article-title": "Finance for nurse managers: return on investment",
+          "volume": "5",
+          "year": "2010",
+          "journal-title": "American Nurse Today"
+        },
+        {
+          "issue": "2",
+          "key": "key2021041509191835300_ref031",
+          "doi-asserted-by": "crossref",
+          "first-page": "63",
+          "DOI": "10.1016/j.mnl.2014.07.014",
+          "article-title": "The leadership practice circle program: an evidence-based approach to leadership development in healthcare",
+          "volume": "13",
+          "year": "2015",
+          "journal-title": "Nurse Leader"
+        },
+        {
+          "key": "key2021041509191835300_ref033",
+          "unstructured": "The Common Wealth Fund (2015), International Profiles of Health Care Systems, available at: www.commonwealthfund.org/\u223c/media/files/publications/fund-report/2016/jan/1857_mossialos_intl_profiles_2015_v7.pdf?la=en"
+        },
+        {
+          "key": "key2021041509191835300_ref034",
+          "volume-title": "Leadership and Leadership Development in Health Care: The Evidence Base",
+          "year": "2015"
+        },
+        {
+          "key": "key2021041509191835300_ref032",
+          "volume-title": "A Pan-Canadian and International Project on Return on Investments in Leadership Development in Healthcare: A Proposal",
+          "author": "The Canadian Health Leadership Network - Research and Evaluation working group (CHLNet-R)",
+          "year": "2016"
+        },
+        {
+          "key": "key2021041509191835300_ref006",
+          "volume-title": "Advisory Panel on Healthcare Innovation Commissioned Research: Patient Engagement: Catalyzing Improvement and Innovation in Canadian Healthcare",
+          "author": "Canadian Foundation for Healthcare Improvement (CFHI) and Baker GR",
+          "year": "2015"
+        },
+        {
+          "key": "key2021041509191835300_ref035",
+          "unstructured": "BC Ministry of Health (2015), The British Columbia Patient-Centred Care Framework, available at: www.health.gov.bc.ca/library/publications/year/2015_a/pt-centred-care-framework.pdf (Published February 2015, accessed 1 December 2015)."
+        },
+        {
+          "key": "key2021041509191835300_ref036",
+          "unstructured": "CHLNet (2014), Closing the Gap: A Canadian Health Leadership Action Plan, available at: http://chlnet.ca/wp-content/uploads/Canadian-Health-Leadership-Action-Plan.pdf"
+        },
+        {
+          "key": "key2021041509191835300_ref037",
+          "unstructured": "Government of Saskatchewan (2016), Patient and Family Advisor Program, available at: www.saskatchewan.ca/residents/health/accessing-healthcare-services/patient-and-family-advisorprogram (accessed 5 August 2016)."
+        },
+        {
+          "key": "key2021041509191835300_ref038",
+          "unstructured": "Health (2016), The Conference Board of Canada, available at: www.conferenceboard.ca/hcp/details/health.aspx"
+        },
+        {
+          "key": "key2021041509191835300_ref039",
+          "volume-title": "Which Way to Quality? Key Perspectives on Quality Improvement in Health Care",
+          "author": "Health Council of Canada",
+          "year": "2013"
+        },
+        {
+          "key": "key2021041509191835300_ref040",
+          "unstructured": "Health Council of Canada (2014), Better Health, Better Care, Better Value for All: Refocusing Health Care Reform in Canada, available at: www.cahspr.ca/web/uploads/conference/2014-02-14Better_Health_Better_Care_Better_Value_For_All.pdf (Published September 2013, accessed 6 August 2016)."
+        },
+        {
+          "key": "key2021041509191835300_ref041",
+          "unstructured": "Healthy Canadians (2015), Unleashing Innovation: Excellent Healthcare for Canada. Report of the Advisory Panel on Healthcare Innovation, available at: www.healthycanadians.gc.ca/publications/health-system-systeme-sante/report-healthcare-innovation-rapport-soins/alt/report-healthcare-innovation-rapport-soins-eng.pdfPublished (July 2015, accessed 4 August 2016)."
+        },
+        {
+          "key": "key2021041509191835300_ref042",
+          "unstructured": "McMaster Health Forum (2016), \u201cImproving leadership capacity in primary and community care in Ontario\u201d, available at: https://macsphere.mcmaster.ca/bitstream/11375/17247/1/leadership-capacity-in-ontario-eb.pdf (Published January 2015, accessed 5 August 2016)."
+        }
+      ],
+      "container-title": [
+        "Leadership in Health Services"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.emerald.com/insight/content/doi/10.1108/LHS-02-2017-0005/full/xml",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.emerald.com/insight/content/doi/10.1108/LHS-02-2017-0005/full/html",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2025-07-24T22:12:18Z",
+        "timestamp": 1753395138000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://www.emerald.com/lhs/article/31/1/77-97/266032"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            15
+          ]
+        ]
+      },
+      "references-count": 42,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              15
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              7
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1108/LHS-02-2017-0005"
+      ],
+      "URL": "https://doi.org/10.1108/lhs-02-2017-0005",
+      "relation": {},
+      "ISSN": [
+        "1751-1879"
+      ],
+      "issn-type": [
+        {
+          "value": "1751-1879",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            15
+          ]
+        ]
+      }
+    }
+  }
+]

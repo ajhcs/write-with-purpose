@@ -1,0 +1,78 @@
+{
+  "status": "jointly_accepted_proposal_not_implemented",
+  "confirmed_utc": "2026-11-17T00:07:22.200779+00:00",
+  "items": [
+    "J01",
+    "J02",
+    "J03"
+  ],
+  "exact_proposal_sha256": {
+    "proposed-joint.json": "40e6f0fd113aaf759408285aa66fc83078c3ce6968509591a0ad5a8bcf8139f0",
+    "proposed-joint.md": "cf4500e2c2c424427e65e9bba76239786eed2c18e52d3f5840cc8f4e10341cd8"
+  },
+  "confirmations": [
+    "agreement/astra-a-confirmation.json",
+    "agreement/astra-b-review.json"
+  ],
+  "patch": "agreement/proposed-reference-changes.patch",
+  "edits": [
+    {
+      "id": "J01",
+      "path": "skills/write-with-purpose/references/cole-lyons-style.md",
+      "old_text_occurrences": 1,
+      "before_sha256": "764ee9da1a7b34fce5e1ea2695ef49e2365e2c672b0927be4322a4a2e679b815",
+      "candidate_sha256": "b3e513717cd2e24427ad36922d62a872769440fd09924d595592bbbfe801ab57",
+      "net_whitespace_tokens": 44
+    },
+    {
+      "id": "J01",
+      "path": "skills/edit-with-purpose/references/cole-lyons-style.md",
+      "old_text_occurrences": 1,
+      "before_sha256": "764ee9da1a7b34fce5e1ea2695ef49e2365e2c672b0927be4322a4a2e679b815",
+      "candidate_sha256": "b3e513717cd2e24427ad36922d62a872769440fd09924d595592bbbfe801ab57",
+      "net_whitespace_tokens": 44
+    },
+    {
+      "id": "J02",
+      "path": "skills/write-with-purpose/references/structure-and-purpose.md",
+      "old_text_occurrences": 1,
+      "before_sha256": "ca7bed5792f329df5d357e0ad0e36c007d0eaf1bbb3927ebe44ab07c81ce0434",
+      "candidate_sha256": "c016e50a4fde4b104b4517ab937f7bfe3cf5e1f1f01d7f12e90db96ae74c52ef",
+      "net_whitespace_tokens": 28
+    },
+    {
+      "id": "J02",
+      "path": "skills/edit-with-purpose/references/structure-and-purpose.md",
+      "old_text_occurrences": 1,
+      "before_sha256": "ca7bed5792f329df5d357e0ad0e36c007d0eaf1bbb3927ebe44ab07c81ce0434",
+      "candidate_sha256": "c016e50a4fde4b104b4517ab937f7bfe3cf5e1f1f01d7f12e90db96ae74c52ef",
+      "net_whitespace_tokens": 28
+    },
+    {
+      "id": "J03",
+      "path": "skills/write-with-purpose/references/language-and-meaning.md",
+      "old_text_occurrences": 1,
+      "before_sha256": "95aeaafe5a880115507a65001b9494c970140bf3f384e48d01f9d0616aa2b01a",
+      "candidate_sha256": "3e7f2ca2cb2fb79468ec2e2b853c7a65f70093d62b0e3f8d4816649f70d986ac",
+      "net_whitespace_tokens": 65
+    },
+    {
+      "id": "J03",
+      "path": "skills/edit-with-purpose/references/technical-meaning.md",
+      "old_text_occurrences": 1,
+      "before_sha256": "4a630e9a298ab03989ca2431f038b9c68a18b2ad11e8df8a4f396fe208f2fa60",
+      "candidate_sha256": "787a5e955d6584adf93647d693d10e8e2b894c6c05dd8f0772aff28622286948",
+      "net_whitespace_tokens": 65
+    }
+  ],
+  "clarifications": {
+    "matched_loading": "Both test arms load the identical reference set and full context; only the relevant proposed bytes differ. No candidate-only reference loading or prompt change.",
+    "style_provenance": "J01 derives from November 16, 2026 author feedback, especially R02, distinct from the October 31, 2026 approved article. Preserve a dated attribution in any eventual implementation report; if the installed reference is distributed without that report, add the dated attribution beside the changed bullet. Approved article bytes remain fixed."
+  },
+  "next_test_status": "proposal_only_not_run",
+  "residual_nonblocking_preferences": [
+    "J01 reported author objection rather than avoidance command",
+    "J02 reason-versus-obligation example rather than compact comparison replacement"
+  ],
+  "scope": "Three reference refinements mirrored across writer/editor. No canonical edits, installed changes or new writing evaluation. Editor mirroring is consistency, not demonstrated benefit."
+}

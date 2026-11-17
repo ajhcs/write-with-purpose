@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_008",
+      "doi": "10.5465/amr.1985.4277352",
+      "title": "Sources of Conflict between Work and Family Roles",
+      "authors": "[\"Jeffrey H. Greenhaus\", \"Nicholas J. Beutell\"]",
+      "field": "business_management",
+      "q": "\"Sources of Conflict between Work and Family Roles\" Greenhaus pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_008",
+      "query": "\"Sources of Conflict between Work and Family Roles\" Greenhaus pdf",
+      "urls": [
+        {
+          "title": "GREENHAUS, J. H.; BEUTELL, N. J. Sources of conflict between work and family roles. **Academy of Management Review**, v. 10, n. 1, p. 76-88, 1985.",
+          "url": "https://repositorio.ufsc.br/bitstream/handle/123456789/201932/102_00183.pdf",
+          "score": 1
+        },
+        {
+          "title": "Greenhaus, J. H., & Beutell, N. J. (1985). Sources of conflict between work and family roles. *Academy of Management Review, 10*, 76–88.",
+          "url": "https://ueaeprints.uea.ac.uk/id/eprint/65907/1/Accepted_manuscript.pdf",
+          "score": 1
+        },
+        {
+          "title": "Grennhaus, J., & Beutell, N. (1985). Sources of Conflict between Work and Family Roles. *The Academy of Management Review, 10*, 76-88. doi:10.5465/amr.1985.4277352.",
+          "url": "https://repositorio.ulisboa.pt/bitstream/10451/33361/1/ulfpie052876_tm_tese.pdf",
+          "score": 1
+        },
+        {
+          "title": "Sources of Conflict between Work and Family Roles | JSTOR",
+          "url": "https://doi.org/10.2307/258214",
+          "score": 1
+        },
+        {
+          "title": "Sources of Conflict between Work and Family Roles | JSTOR",
+          "url": "https://www.jstor.org/pss/258214",
+          "score": 1
+        },
+        {
+          "title": "Sources of Conflict between Work and Family Roles",
+          "url": "https://www.scienceopen.com/document?vid=6894be9d-40a6-4334-bfe1-f63c5c55a069",
+          "score": 1
+        },
+        {
+          "title": "Sources of conflict between work and family roles, Academy of Management Review, Vol",
+          "url": "https://www.researchgate.net/publication/287011938_Sources_of_conflict_between_work_and_family_roles_Academy_of_Management_Review_Vol",
+          "score": 1
+        },
+        {
+          "title": "Greenhaus: Sources of conflict between work and family roles - Google Scholar",
+          "url": "https://www.tandfonline.com/action/getFTRLinkout?doi=10.1080%2F13668803.2020.1809995&doiOfLink=10.2307%2F258214&linkLocation=Reference&linkSource=FULL_TEXT&linkType=gs&url=http%3A%2F%2Fscholar.google.com%2Fscholar_lookup%3Fhl%3Den%26volume%3D10%26publication_year%3D1985%26pages%3D76-88%26journal%3DAcademy%2Bof%2BManagement%2BReview%26issue%3D1%26author%3DJ.%2BH.%2BGreenhaus%26author%3DN.%2BJ.%2BBeutell%26title%3DSources%2Bof%2Bconflict%2Bbetween%2Bwork%2Band%2Bfamily%2Broles",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

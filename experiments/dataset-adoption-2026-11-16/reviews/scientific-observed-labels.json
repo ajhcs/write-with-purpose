@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-16",
+  "purpose": "Observed source values only; not paragraph function predictions.",
+  "sources": [
+    {
+      "id": "AZ",
+      "archive": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/az/AZ_distribution.tar.gz",
+      "archive_sha256": "cc23b800a3e052c16a1c6f2717b2d5388867367e4795ac438abcde09c8864c49",
+      "files": 80,
+      "method": "Regex count of AZ attributes in every .az-scixml file; includes A-S abstract and body sentence or item tags. Counts are not paragraphs.",
+      "attribute_counts": {
+        "AIM": 314,
+        "BAS": 246,
+        "BKG": 789,
+        "CTR": 600,
+        "OTH": 2019,
+        "OWN": 8623,
+        "TXT": 227
+      },
+      "scheme_to_serialized": {
+        "BACKGROUND": "BKG",
+        "OTHER": "OTH",
+        "OWN": "OWN",
+        "AIM": "AIM",
+        "TEXTUAL": "TXT",
+        "CONTRAST": "CTR",
+        "BASIS": "BAS"
+      }
+    },
+    {
+      "id": "MuLMS-AZ",
+      "archive": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/mulms/source.tar.gz",
+      "archive_sha256": "70963c17c2343f824e96dcd21e191103b8a9b2af3aa958fa7aaf6a9a4a688936",
+      "files": 50,
+      "method": "XML parse each .xmi; count MatSci_Sentence elements and exact ContentInformation and StructureInformation attributes independently. These are annotation elements including overlapping spans and different layers, not unique sentences; paper projected label counts have a different denominator.",
+      "annotation_elements": 20700,
+      "attribute_counts": {
+        "ContentInformation": {
+          "Background": 3159,
+          "Background_PriorWork": 1840,
+          "Conclusion": 684,
+          "Exp_Characterization": 1358,
+          "Exp_Preparation": 1470,
+          "Experiment": 2582,
+          "Explanation": 604,
+          "Explanation_Assumption": 51,
+          "Explanation_Hypothesis": 158,
+          "MEASUREMENT": 2118,
+          "Motivation": 372,
+          "None": 9,
+          "QUAL_MEASUREMENT": 1476,
+          "Results": 2974
+        },
+        "StructureInformation": {
+          "Abstract": 270,
+          "Acknowledgment": 54,
+          "Author Contribution": 27,
+          "Caption": 616,
+          "Confict of Interest": 1,
+          "Conflict of Interest": 2,
+          "Conflict_of_Interest": 19,
+          "Figure/Table": 13,
+          "Heading": 721,
+          "Metadata": 223,
+          "None": 36,
+          "References": 8,
+          "Supporting Information": 12,
+          "TO_BE_DELETED": 1
+        }
+      },
+      "mismatches": [
+        "Guide names EXPERIMENTS/PREPARATION and EXPERIMENTS/CHARACTERIZATION serialize as Exp_Preparation and Exp_Characterization.",
+        "Raw Exp_Preparation 1470 elements vs paper Table 8 projected sentence count 962; no one-to-one equivalence.",
+        "MEASUREMENT and QUAL_MEASUREMENT are present as ContentInformation values but absent from inspected AZ codebook; excluded from function mappings pending separate layer definitions.",
+        "SYNTHESIS PROCEDURE is named in codebook list without located definition; exact value was not observed in XMI.",
+        "EXPLANATION/ASSUMPTION and EXPLANATION/HYPOTHESIS occur in raw XMI but paper Table 8 lacks separate projected counts.",
+        "Extra structural annotations and spelling variants appear in raw XMI; do not silently normalize or infer meaning."
+      ]
+    },
+    {
+      "id": "SciDTB selected example",
+      "archive": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scidtb/source.tar.gz",
+      "archive_sha256": "f31663a53708962d2d3406b46040ff8eda27c277482fcb6fab5acaada19bd1ac",
+      "example_member": "SciDTB-1520d612fb19f739e099be867128360898219f24/dataset/train/D14-1101.edu.txt.dep",
+      "method": "JSON parse one dependency tree; counts include artificial root and apply only to this example, not corpus-wide.",
+      "sample_relation_counts": {
+        "ROOT": 1,
+        "cause": 1,
+        "comparison": 1,
+        "elab-addition": 2,
+        "elab-aspect": 2,
+        "enablement": 1,
+        "evaluation": 1,
+        "manner-means": 1,
+        "null": 1
+      },
+      "mismatches": [
+        "Data serialize examples using lowercase or prefixes such as elab-aspect and elab-addition; paper Table 1 prints coarse and fine names. Relations link elementary discourse units and are not paragraph functions."
+      ]
+    }
+  ],
+  "not_inspected": "SciPara serialized pickle was not executed. MuLMS paper counts are quoted as source claims in scientific-crosswalk.json rather than recomputed from model projection."
+}

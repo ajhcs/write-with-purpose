@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_37",
+      "doi": "",
+      "title": "Technical Proposal for FASER: ForwArd Search ExpeRiment at the LHC",
+      "authors": "[\"Akitaka Ariga and others\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Technical Proposal for FASER: ForwArd Search ExpeRiment at the LHC\" others pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_37",
+      "query": "\"Technical Proposal for FASER: ForwArd Search ExpeRiment at the LHC\" others pdf",
+      "urls": [
+        {
+          "title": "Technical Proposal for FASER: ForwArd Search ExpeRiment at the LHC",
+          "url": "https://shamra-academia.com/index.php/show/3a43da7a15ca26",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

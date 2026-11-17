@@ -1,0 +1,9 @@
+{
+  "trial_id": "blind-longform-20261116",
+  "cases": 16,
+  "workers": 8,
+  "model": "gpt-6.1-terra",
+  "reasoning_effort": "high",
+  "key_commitment_sha256": "b3e4f7e39b576745f267fc72cf97027346d0e7c8894e90852947ff8b67c6bf3b",
+  "scope": "Commitment created before generation. The key and condition identities are withheld from human review materials."
+}

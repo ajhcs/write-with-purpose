@@ -1,0 +1,1507 @@
+[
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2020-08-07T16:46:52+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/access_documentation/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-13T11:05:25-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/access_ui/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster-services/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-26T14:08:36-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/auth_bearer/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-01-01T21:15:50+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/benchmark_performance/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_config_networks/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-07-12T01:25:31+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_config_storage/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-single-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-10-23T20:45:43+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_form/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/configure-dns-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-10-31T07:49:48+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_groups/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/connecting-frontend-backend/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_links_create/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-10-22T18:49:50+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_links_manage/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/list-all-running-container-images/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-06-19T15:16:49+02:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_manage/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-03-09T19:39:29-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_manage_instance/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/service-access-application-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-05-28T09:50:19+10:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_placement_groups/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-02-03T17:52:07+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_recover/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2021-06-16T17:57:00+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_recover_volumes/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/access-cluster-api/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-09-06T20:14:09+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/cluster_vip/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/certificates/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-05-12T09:31:59+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/container_gpu_passthrough_with_docker/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/change-default-storage-class/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-10-04T23:16:34+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/database_recovery/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/change-pv-access-mode-readwriteoncepod/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-11T13:36:54-07:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/decommission/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/change-pv-reclaim-policy/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-05-13T21:32:47+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/devlxd_authenticate/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/cluster-shutdown-and-restart/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-11-16T01:13:54+09:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/disaster_recovery/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-12-08T18:53:01+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/disaster_recovery_replication/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/configure-feature-gates/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-12-14T04:38:51+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/disaster_recovery_replicators/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-10-27T19:36:51+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/dqlite_troubleshoot/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/controller-manager-leader-migration/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-09T06:47:42+03:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/grafana/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/coredns/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-26T14:08:36-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/image_registries/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/cpu-management-policies/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-26T14:36:25-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/images_copy/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-02T16:16:18+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/images_create/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/decrypt-data/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-09-13T09:33:51+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/images_manage/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/developing-cloud-controller-manager/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-11T11:12:34-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/images_profiles/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/dns-custom-nameservers/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-01-08T02:06:42+02:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/images_remote/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-26T14:08:36-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/import_machines_to_instances/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/dns-horizontal-autoscaling/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-10-31T20:39:47+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/initialize/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/enable-disable-api/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-11T11:12:34-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/instances_access_files/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-05-09T12:28:29-07:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/instances_backup/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/extended-resource-node/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-27T20:54:50+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/instances_configure/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/guaranteed-scheduling-critical-addon-pods/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-01-20T08:58:02+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/instances_console/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/hardening-dra/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-04-07T16:30:25+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/instances_create/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/ip-masq-agent/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-07-31T16:52:54+10:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/instances_manage/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kms-provider/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-05-09T12:28:29-07:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/instances_migrate/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-09-13T16:59:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/instances_routed_nic_vm/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/adding-linux-nodes/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-08-23T21:50:11-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/instances_troubleshoot/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/adding-windows-nodes/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-09T06:47:42+03:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/instances_ubuntu_pro_attach/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/change-package-repository/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-09-13T16:59:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/logs_loki/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-10-31T20:39:47+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/lxc_alias/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-reconfigure/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-12-17T13:45:05+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_acls/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-10-22T14:20:25+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_bgp/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-04T09:32:35Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-linux-nodes/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-29T17:36:05+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_bridge_firewalld/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/upgrading-windows-nodes/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-09-13T16:59:16+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_bridge_resolved/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubelet-config-file/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-28T11:44:46+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_configure/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubelet-credential-provider/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-03-16T18:05:29-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_create/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubelet-in-userns/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-02T04:45:29+09:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_forwards/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/limit-storage-consumption/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-07-12T15:08:41+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_increase_bandwidth/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-11T11:12:34-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_ipam/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/cpu-constraint-namespace/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-09-28T10:43:13+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_load_balancers/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/cpu-default-namespace/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-10-30T17:17:57+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_ovn_peers/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-constraint-namespace/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-09-28T10:43:13+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_ovn_setup/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-10-30T17:17:57+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/network_zones/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/quota-memory-cpu-namespace/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-10-28T17:05:55-07:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/oidc/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/quota-pod-namespace/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-09-28T10:43:13+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/oidc_auth0/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/memory-manager/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-29T00:04:09+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/oidc_authentik/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-02-11T17:08:36+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/oidc_entra_id/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/change-runtime-containerd/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-09-09T08:46:07-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/oidc_keycloak/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/check-if-dockershim-removal-affects-you/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-03-23T11:16:51-07:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/oidc_ory/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/find-out-runtime-you-use/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-06-05T16:22:51+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/oidc_pocket_id/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-11T11:12:34-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/projects_confine/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/troubleshooting-cni-plugin-related-errors/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-02-11T17:08:36+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/projects_create/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/namespaces/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-18T12:09:07+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/projects_work/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-11T11:12:34-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/replicators_create/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-13T16:57:08Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/antrea-network-policy/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2021-04-14T16:52:33+08:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/replicators_manage/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/calico-network-policy/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-02-19T19:46:41+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/security_events/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/cilium-network-policy/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-02-12T20:14:01+09:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/security_harden/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/kube-router-network-policy/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-11T11:12:34-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/server_configure/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/node-overprovisioning/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-11-18T17:22:12+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/server_expose/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/nodelocaldns/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-26T14:08:36-04:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/snap/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/quota-api-object/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-10-30T17:17:57+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/snap_track_fix/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/reserve-compute-resources/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-10-09T08:57:05+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/storage_backup_volume/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/running-cloud-controller/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-02-20T13:00:33+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/storage_block_tracking/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-04T09:32:35Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-06T22:29:03+09:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/storage_buckets/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-27T20:54:50+01:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/storage_create_instance/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/switch-to-evented-pleg/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-05-07T00:25:17+05:30"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/storage_csi/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-04T09:32:35Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-25T18:45:31+00:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/storage_move_volume/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/topology-manager/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-10-04T18:55:32+09:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/storage_pools/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-11-04T09:32:35Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/use-cascading-deletion/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-11T11:12:34-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/storage_replication_setup/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/administer-cluster/verify-signed-artifacts/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-09-17T13:06:41+02:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/storage_volumes/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-10-22T17:23:21Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configmap-secret/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-13T11:05:25-05:00"
+  },
+  {
+    "url": "https://canonical.com/lxd/docs/latest/howto/troubleshoot/",
+    "original_type": "Canonical LXD how-to",
+    "sitemap_lastmod": "2026-09-08T21:53:33Z"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configmap-secret/managing-secret-using-config-file/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-10-09T21:53:43+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configmap-secret/managing-secret-using-kubectl/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-10-24T14:54:07+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configmap-secret/managing-secret-using-kustomize/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-07-19T09:39:55+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-13T11:05:25-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-11-30T18:45:19+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-10-18T19:59:30+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/assign-pod-level-resources/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-26T14:36:25-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes-using-node-affinity/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/assign-resources/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-05-26T19:26:51+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/assign-resources/access-dra-device-metadata/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-09T07:47:37-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/assign-resources/allocate-devices-dra/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-27T20:54:50+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/assign-resources/set-up-dra-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-27T20:54:50+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/attach-handler-lifecycle-event/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-bind-mount-options/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-30T14:59:44+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-emptydir-volume-mode/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-30T15:35:34+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-gmsa/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-07-10T14:05:27+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-30T15:26:34+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-16T12:53:28+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-initialization/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-projected-volume-storage/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-runasusername/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-04-05T14:45:11+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-10-31T16:23:09+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-volume-storage/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/create-hostprocess-pod/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-13T11:05:25-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/enforce-standards-admission-controller/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-10-17T14:00:40+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/enforce-standards-namespace-labels/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2022-11-05T18:40:06+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/extended-resource/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-05T21:00:34+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/image-volumes/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-02-03T09:50:48+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/migrate-from-psp/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-04-15T18:38:24+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-05-13T21:32:47+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/quality-service-pod/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-01-10T14:42:37+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/resize-container-resources/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-11-13T09:58:00+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/resize-pod-resources/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-01T17:00:15+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/security-context/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-28T13:55:25+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/share-process-namespace/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-10-09T23:18:56+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-03-27T10:30:56+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-05-07T03:00:49+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/configure-pod-container/user-namespaces/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-02-13T17:32:31+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-08-09T14:51:46+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-application/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2022-04-26T00:30:51-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-application/debug-init-containers/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-10-18T11:54:14+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-24T11:13:38+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-application/debug-running-pod/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-25T14:56:46-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-application/debug-service/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-09T06:47:42+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-application/debug-statefulset/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2022-07-11T08:41:04-07:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-application/determine-reason-pod-failure/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-01-21T22:31:23-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-application/get-shell-running-container/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-09-19T23:12:40+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-07-04T23:28:02+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-03-16T17:03:11+03:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/crictl/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-03-03T14:41:57+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/kubectl-node-debug/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-06-27T08:48:44+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/local-debugging/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-11-24T16:55:07+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/monitor-node-health/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-01T23:36:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-usage-monitoring/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-04-02T11:42:24+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/topology/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-04-01T14:55:47+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/troubleshoot-kubectl/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-04-21T14:37:30+10:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/windows/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-12-24T21:00:53-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/logging/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-08-09T14:51:46+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/debug/monitoring/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-08-09T14:51:46+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-09-09T08:46:07-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-17T09:14:01-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/configure-aggregation-layer/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-13T17:18:21+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/configure-multiple-schedulers/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-09T13:32:59+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2021-06-16T17:57:00+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definition-versioning/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-29T16:59:20+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-10-20T19:36:23+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/http-proxy-access-api/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-06-02T02:43:16+03:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/setup-extension-api-server/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2022-07-21T13:41:01-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/setup-konnectivity/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-02-03T21:36:06-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/socks5-proxy-access-api/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-02-13T14:14:10+05:45"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/inject-data-application/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-17T09:14:01-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-04-17T20:20:06+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-06-28T23:52:19+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-via-file/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-06T00:26:02+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/inject-data-application/define-interdependent-environment-variables/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/job/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-17T09:14:01-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/job/automated-tasks-with-cron-jobs/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-07-04T19:39:12+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/job/coarse-parallel-processing-work-queue/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-08-26T14:08:36-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/job/fine-parallel-processing-work-queue/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-10-20T00:36:20+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/job/indexed-parallel-processing-static/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/job/job-with-pod-to-pod-communication/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-02-08T16:05:46+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/job/parallel-processing-expansion/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/job/pod-failure-policy/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-02-12T16:20:26+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-daemon/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2021-06-16T17:57:00+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-daemon/create-daemon-set/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-01-07T09:41:04+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-daemon/pods-some-nodes/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-daemon/rollback-daemon-set/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2021-02-11T15:51:47-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-daemon/update-daemon-set/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-08-24T18:38:23+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-09-20T20:33:05+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-hugepages/scheduling-hugepages/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-06-06T00:21:27+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-17T09:14:01-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/declarative-config/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-10-12T00:15:47+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/imperative-command/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2022-05-19T17:00:59+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/imperative-config/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2022-05-19T17:00:59+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-09-19T21:38:03+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/storage-version-migration/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-29T16:59:20+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/update-api-object-kubectl-patch/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-02-19T11:19:57+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/network/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-17T09:14:01-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/network/customize-hosts-file-for-pods/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-10-03T16:50:08+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/network/extend-service-ip-ranges/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-09T06:47:42+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/network/reconfigure-default-service-ip-ranges/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-05-06T14:43:18+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/network/validate-dual-stack/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-01-23T09:50:25+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-17T09:14:01-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/access-api-from-pod/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-02-19T21:42:24+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/configure-pdb/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-10-06T01:11:49+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/delete-stateful-set/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-03-14T20:12:58+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/force-delete-stateful-set-pod/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-06T22:29:03+09:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-03-15T15:21:34+00:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/run-replicated-stateful-application/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2024-10-08T22:10:03+05:30"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-05-07T11:35:23+02:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/run-stateless-application-deployment/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-03-15T18:56:43+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/scale-deployment/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-03-15T17:56:40+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/scale-stateful-set/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-03-14T20:12:58+08:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/run-application/update-deployment-rolling/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-03-15T18:56:43+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/tls/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2023-01-17T09:14:01-05:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/tls/certificate-issue-client-csr/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-07-23T19:19:06+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/tls/certificate-rotation/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-18T15:22:01+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-18T15:22:01+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/tls/manual-rotation-of-ca-certificates/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-06-18T15:22:01+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/tools/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-01-12T23:29:45+01:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2026-09-09T08:46:07-04:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-05-15T09:23:35+03:00"
+  },
+  {
+    "url": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
+    "original_type": "Kubernetes task",
+    "sitemap_lastmod": "2025-05-15T09:23:35+03:00"
+  }
+]

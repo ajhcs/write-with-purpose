@@ -1,0 +1,7 @@
+{
+  "manifest_path": "/workspace/build/builderbob/write-with-purpose/checkpoints/20261116T163526Z-rule-calibration/manifest.json",
+  "archive_path": "/workspace/build/builderbob/write-with-purpose/checkpoints/20261116T163526Z-rule-calibration/rule-calibration.tar.gz",
+  "archive_sha256": "39355caf8292d6dba705c7ae03be3d936ca4dbf5ec8208cc01cc702b3c6b6a90",
+  "verified_file_count": 51,
+  "source_caches_embedded": false
+}

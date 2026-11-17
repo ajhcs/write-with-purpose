@@ -1,0 +1,1161 @@
+{
+  "created_utc": "2026-11-16T19:30:39.179720+00:00",
+  "purpose": "Downloaded bytes and access outcomes; package contents and analysis readiness require source-specific inspection.",
+  "artifact_records": 54,
+  "downloaded_records": 48,
+  "downloaded_bytes_including_reused_and_duplicate_artifacts": 2117464965,
+  "remaining_endpoint_failures": [
+    "build-dev",
+    "build-train",
+    "moreno-swales",
+    "nathan-options"
+  ],
+  "warning": "Multiple codebooks, converted annotations and overlapping releases are not independent samples. Rejected wrong-identity paper is excluded from acquired-codebook counts.",
+  "records": [
+    {
+      "id": "acawriter",
+      "type": "github_archive",
+      "repo": "uts-cic/acawriter",
+      "branch": "master",
+      "commit": "adc49ed10292852620bcbb09d0549afc75c04253",
+      "download": {
+        "requested_url": "https://codeload.github.com/uts-cic/acawriter/tar.gz/adc49ed10292852620bcbb09d0549afc75c04253",
+        "effective_url": "https://codeload.github.com/uts-cic/acawriter/tar.gz/adc49ed10292852620bcbb09d0549afc75c04253",
+        "content_type": "application/x-gzip",
+        "bytes": 945842,
+        "sha256": "1fcf3959152ba20b9c726f27a0cdef30596cc8e384c0bd441fc277bb84646d32",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/acawriter/source.tar.gz",
+      "extraction": {
+        "regular_files": 283,
+        "expanded_bytes": 2883668,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/acawriter/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "amalgum",
+      "type": "github_archive",
+      "repo": "gucorpling/amalgum",
+      "branch": "master",
+      "commit": "a2dbd33e757f75a61d68d22d1a29e840bdffa711",
+      "download": {
+        "requested_url": "https://codeload.github.com/gucorpling/amalgum/tar.gz/a2dbd33e757f75a61d68d22d1a29e840bdffa711",
+        "effective_url": "https://codeload.github.com/gucorpling/amalgum/tar.gz/a2dbd33e757f75a61d68d22d1a29e840bdffa711",
+        "content_type": "application/x-gzip",
+        "bytes": 224566213,
+        "sha256": "4b78b5a11fade1a4c4b10e6891266c48ae93a94da664c35871a59158a185026d",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/amalgum/source.tar.gz",
+      "extraction": {
+        "regular_files": 24537,
+        "expanded_bytes": 908579427,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/amalgum/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "az",
+      "type": "archive",
+      "url": "https://www.cl.cam.ac.uk/~sht25/AZ_distribution.tar.gz",
+      "filename": "AZ_distribution.tar.gz",
+      "download": {
+        "requested_url": "https://www.cl.cam.ac.uk/~sht25/AZ_distribution.tar.gz",
+        "effective_url": "https://www.cl.cam.ac.uk/~sht25/AZ_distribution.tar.gz",
+        "content_type": "application/x-gzip",
+        "bytes": 732617,
+        "sha256": "cc23b800a3e052c16a1c6f2717b2d5388867367e4795ac438abcde09c8864c49",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/az/AZ_distribution.tar.gz",
+      "extraction": {
+        "regular_files": 82,
+        "expanded_bytes": 2636590,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/az/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "bawe-classification",
+      "type": "methods",
+      "url": "https://pure.coventry.ac.uk/ws/portalfiles/portal/3978905/gardnercomb.pdf",
+      "filename": "gardner-nesi.pdf",
+      "download": {
+        "requested_url": "https://pure.coventry.ac.uk/ws/portalfiles/portal/3978905/gardnercomb.pdf",
+        "effective_url": "https://pure.coventry.ac.uk/ws/portalfiles/portal/3978905/gardnercomb.pdf",
+        "content_type": "application/octet-stream",
+        "bytes": 305837,
+        "sha256": "0e7d24a0ece030a5092aacdef485ae20eec80793b006b64c9a75e50b94ad0e66",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/bawe-classification/gardner-nesi.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "bawe-manual",
+      "type": "codebook",
+      "url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/BAWE.documentation.pdf?isAllowed=y&sequence=5",
+      "filename": "BAWE.documentation.pdf",
+      "download": {
+        "requested_url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/BAWE.documentation.pdf?isAllowed=y&sequence=5",
+        "effective_url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/BAWE.documentation.pdf?isAllowed=y&sequence=5",
+        "content_type": "application/pdf;charset=ISO-8859-1",
+        "bytes": 327947,
+        "sha256": "2647d86b73659507bb33ffa778bdb8d27a9058cbe00fc2c6bacf913c5c49b3b3",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/bawe-manual/BAWE.documentation.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "build",
+      "type": "github_archive",
+      "repo": "Legal-NLP-EkStep/rhetorical-role-baseline",
+      "branch": "main",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/Legal-NLP-EkStep/rhetorical-role-baseline/commits/main",
+        "effective_url": "https://api.github.com/repos/Legal-NLP-EkStep/rhetorical-role-baseline/commits/main",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 5612,
+        "sha256": "f6d639a9e2a3262b25d5fbb8492888451372a7c23768426e808fedf6c36e9d2b",
+        "http_status": 200
+      },
+      "commit": "bc0c9079734e4626a080721a3b4012953fdda0b5",
+      "download": {
+        "requested_url": "https://codeload.github.com/Legal-NLP-EkStep/rhetorical-role-baseline/tar.gz/bc0c9079734e4626a080721a3b4012953fdda0b5",
+        "effective_url": "https://codeload.github.com/Legal-NLP-EkStep/rhetorical-role-baseline/tar.gz/bc0c9079734e4626a080721a3b4012953fdda0b5",
+        "content_type": "application/x-gzip",
+        "bytes": 196092,
+        "sha256": "dfbf0316326c5ebb2c5cbdfe8f4ff63d66692a2fcf19613360ddfbd230591e7b",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/build/source.tar.gz",
+      "extraction": {
+        "regular_files": 93,
+        "expanded_bytes": 655398,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/build/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "build-dev",
+      "type": "dataset",
+      "url": "https://huggingface.co/datasets/opennyaiorg/InRhetoricalRoles/resolve/main/dev.json?download=true",
+      "filename": "dev.json",
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 401: Unauthorized",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "build-train",
+      "type": "dataset",
+      "url": "https://huggingface.co/datasets/opennyaiorg/InRhetoricalRoles/resolve/main/train.json?download=true",
+      "filename": "train.json",
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 401: Unauthorized",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "business-english-review",
+      "type": "methods",
+      "url": "https://www.ets.org/Media/Research/pdf/TOEIC-RR-02.pdf",
+      "filename": "business-english-review.pdf",
+      "download": {
+        "requested_url": "https://www.ets.org/Media/Research/pdf/TOEIC-RR-02.pdf",
+        "effective_url": "https://www.ets.org/Media/Research/pdf/TOEIC-RR-02.pdf",
+        "content_type": "application/pdf",
+        "bytes": 3369954,
+        "sha256": "ec19545fdc7367770ba00b35cba3ce106e02bce09de5661fee33189cce9ec531",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/business-english-review/business-english-review.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "core",
+      "type": "github_archive",
+      "repo": "TurkuNLP/CORE-corpus",
+      "branch": "master",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/TurkuNLP/CORE-corpus/commits/master",
+        "effective_url": "https://api.github.com/repos/TurkuNLP/CORE-corpus/commits/master",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 5377,
+        "sha256": "c851b0b5fa196b1548d7ef474458c1902e563ad815061866fc444c171a84fd49",
+        "http_status": 200
+      },
+      "commit": "b57dbdb5ebee4b2688fa94889a2cbdb341d86ee7",
+      "download": {
+        "requested_url": "https://codeload.github.com/TurkuNLP/CORE-corpus/tar.gz/b57dbdb5ebee4b2688fa94889a2cbdb341d86ee7",
+        "effective_url": "https://codeload.github.com/TurkuNLP/CORE-corpus/tar.gz/b57dbdb5ebee4b2688fa94889a2cbdb341d86ee7",
+        "content_type": "application/x-gzip",
+        "bytes": 130760117,
+        "sha256": "8fe5fef22a4f5522e641649d127661238e4ea02ad11f83e5d35b6bd3fb6064fb",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/core/source.tar.gz",
+      "extraction": {
+        "regular_files": 6,
+        "expanded_bytes": 130749656,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/core/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "coresc-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/L10-1440.pdf",
+      "filename": "coresc-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/L10-1440.pdf",
+        "effective_url": "https://aclanthology.org/L10-1440.pdf",
+        "content_type": "application/pdf",
+        "bytes": 431292,
+        "sha256": "2c7d430c5d5c733104686478dabbda3fd0f79dbc74cfe5c71d9b24d9d6508fb8",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/coresc-paper/coresc-paper.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "disrpt2023",
+      "type": "github_archive",
+      "repo": "disrpt/sharedtask2023",
+      "branch": "main",
+      "commit": "2afec39f8f32c00a238b8a33daf5b0c7341a31fa",
+      "download": {
+        "requested_url": "https://codeload.github.com/disrpt/sharedtask2023/tar.gz/2afec39f8f32c00a238b8a33daf5b0c7341a31fa",
+        "effective_url": "https://codeload.github.com/disrpt/sharedtask2023/tar.gz/2afec39f8f32c00a238b8a33daf5b0c7341a31fa",
+        "content_type": "application/x-gzip",
+        "bytes": 69116322,
+        "sha256": "1200f189175fdbd6aa00a06ff9be4406d7e05e9cff77ff7ac66e722b7f59bac9",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/disrpt2023/source.tar.gz",
+      "extraction": {
+        "regular_files": 258,
+        "expanded_bytes": 519933072,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/disrpt2023/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "dita",
+      "type": "standard",
+      "url": "https://docs.oasis-open.org/dita/v1.2/spec/DITA1.2-spec.pdf",
+      "filename": "DITA1.2-spec.pdf",
+      "download": {
+        "requested_url": "https://docs.oasis-open.org/dita/v1.2/spec/DITA1.2-spec.pdf",
+        "effective_url": "https://docs.oasis-open.org/dita/v1.2/spec/DITA1.2-spec.pdf",
+        "content_type": "application/pdf",
+        "bytes": 20261390,
+        "sha256": "b0d5cf9a9353287fd04daa31470281f2c3b605b7a7955e0abab236233859bb90",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/dita/DITA1.2-spec.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "drinventor-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/L16-1492.pdf",
+      "filename": "drinventor-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/L16-1492.pdf",
+        "effective_url": "https://aclanthology.org/L16-1492.pdf",
+        "content_type": "application/pdf",
+        "bytes": 643621,
+        "sha256": "4314112e625cde8ead1c74f4ea2e2aa47b539e8c62077ad2779f1111324fcf90",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/drinventor-paper/drinventor-paper.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "echr",
+      "type": "github_archive",
+      "repo": "trusthlt/mining-legal-arguments",
+      "branch": "master",
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 422: Unprocessable Entity",
+      "receipt_file": "acquisition.json",
+      "resolved_by": "echr-main"
+    },
+    {
+      "id": "essay-semantic",
+      "type": "github_archive",
+      "repo": "discourse-lab/arg-essays-semantic-types",
+      "branch": "main",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/discourse-lab/arg-essays-semantic-types/commits/main",
+        "effective_url": "https://api.github.com/repos/discourse-lab/arg-essays-semantic-types/commits/main",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 5242,
+        "sha256": "1eee2e95c04150285347fc9e77b66aa6eee71c9c845abdeb24440a027ae76c9f",
+        "http_status": 200
+      },
+      "commit": "0dce719cc23905a33752233440e7527b595179c6",
+      "download": {
+        "requested_url": "https://codeload.github.com/discourse-lab/arg-essays-semantic-types/tar.gz/0dce719cc23905a33752233440e7527b595179c6",
+        "effective_url": "https://codeload.github.com/discourse-lab/arg-essays-semantic-types/tar.gz/0dce719cc23905a33752233440e7527b595179c6",
+        "content_type": "application/x-gzip",
+        "bytes": 231423,
+        "sha256": "eeafbb81572bf8278c7ebcc5c0fcc84051ab44850b856609df1c7154669d286a",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/essay-semantic/source.tar.gz",
+      "extraction": {
+        "regular_files": 4,
+        "expanded_bytes": 389670,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/essay-semantic/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "gum",
+      "type": "github_archive",
+      "repo": "amir-zeldes/gum",
+      "branch": "master",
+      "commit": "1d999e5a0327ecb83015007774f6a9be23ecbc41",
+      "download": {
+        "requested_url": "https://codeload.github.com/amir-zeldes/gum/tar.gz/1d999e5a0327ecb83015007774f6a9be23ecbc41",
+        "effective_url": "https://codeload.github.com/amir-zeldes/gum/tar.gz/1d999e5a0327ecb83015007774f6a9be23ecbc41",
+        "content_type": "application/x-gzip",
+        "bytes": 306157354,
+        "sha256": "56a515a79af963f8fc7d8ab06f9ec9d06d890b68bcef5dc726962463a3543fc5",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/gum/source.tar.gz",
+      "extraction": {
+        "regular_files": 6843,
+        "expanded_bytes": 737762546,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/gum/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "gum-guide",
+      "type": "codebook",
+      "url": "https://wiki.gucorpling.org/gum/rst",
+      "filename": "gum-rst.html",
+      "download": {
+        "requested_url": "https://wiki.gucorpling.org/gum/rst",
+        "effective_url": "https://wiki.gucorpling.org/gum/rst",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 61587,
+        "sha256": "d2a5dcd9797feecf1095c9ec96cb9f30ed2aaf220347753a3b40b4c261f2261e",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/gum-guide/gum-rst.html",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "india50",
+      "type": "github_archive",
+      "repo": "Law-AI/semantic-segmentation",
+      "branch": "master",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/Law-AI/semantic-segmentation/commits/master",
+        "effective_url": "https://api.github.com/repos/Law-AI/semantic-segmentation/commits/master",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 5297,
+        "sha256": "f671f68051406b2570116c579987b66931c8d9b1ab7cab18073f4a0e7699b59c",
+        "http_status": 200
+      },
+      "commit": "16d16b2c9bad824b527d4ffa3e94e029e282b133",
+      "download": {
+        "requested_url": "https://codeload.github.com/Law-AI/semantic-segmentation/tar.gz/16d16b2c9bad824b527d4ffa3e94e029e282b133",
+        "effective_url": "https://codeload.github.com/Law-AI/semantic-segmentation/tar.gz/16d16b2c9bad824b527d4ffa3e94e029e282b133",
+        "content_type": "application/x-gzip",
+        "bytes": 6532079,
+        "sha256": "ab63089d97e02dd9c88696fa577ee47dc0059f1d06a2a0120cd6c25bef0d4f3c",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/india50/source.tar.gz",
+      "extraction": {
+        "regular_files": 113,
+        "expanded_bytes": 18130057,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/india50/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "microtexts",
+      "type": "github_archive",
+      "repo": "peldszus/arg-microtexts",
+      "branch": "master",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/peldszus/arg-microtexts/commits/master",
+        "effective_url": "https://api.github.com/repos/peldszus/arg-microtexts/commits/master",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 5384,
+        "sha256": "8dcf6ee675608c3844ba9ec651e9f5490cffda4ce6c2629c1cd3ca15b0d84172",
+        "http_status": 200
+      },
+      "commit": "6707c133de713130cabe647f2f218681d65fdc15",
+      "download": {
+        "requested_url": "https://codeload.github.com/peldszus/arg-microtexts/tar.gz/6707c133de713130cabe647f2f218681d65fdc15",
+        "effective_url": "https://codeload.github.com/peldszus/arg-microtexts/tar.gz/6707c133de713130cabe647f2f218681d65fdc15",
+        "content_type": "application/x-gzip",
+        "bytes": 2578548,
+        "sha256": "19544acd64183537314a2c836ebda0e3c40807a0cdecae538519ca951418f1d9",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/microtexts/source.tar.gz",
+      "extraction": {
+        "regular_files": 677,
+        "expanded_bytes": 3272376,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/microtexts/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "moreno-swales",
+      "type": "methods",
+      "url": "https://buleria.unileon.es/bitstream/handle/10612/10667/Strengthening_Move_Analysis_Methodology.pdf?sequence=6",
+      "filename": "moreno-swales.pdf",
+      "status": "unavailable",
+      "error": "URLError: <urlopen error [Errno 111] Connection refused>",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "mulms",
+      "type": "github_archive",
+      "repo": "boschresearch/mulms-az-codi2023",
+      "branch": "main",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/boschresearch/mulms-az-codi2023/commits/main",
+        "effective_url": "https://api.github.com/repos/boschresearch/mulms-az-codi2023/commits/main",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 2077,
+        "sha256": "2d86ecaed0da5451ef9befe47a0e6bcd20c027167d27d78eb927e4ecda9aef72",
+        "http_status": 200
+      },
+      "commit": "21cc89f5d4a01d363c61fabaec25042e83195090",
+      "download": {
+        "requested_url": "https://codeload.github.com/boschresearch/mulms-az-codi2023/tar.gz/21cc89f5d4a01d363c61fabaec25042e83195090",
+        "effective_url": "https://codeload.github.com/boschresearch/mulms-az-codi2023/tar.gz/21cc89f5d4a01d363c61fabaec25042e83195090",
+        "content_type": "application/x-gzip",
+        "bytes": 14864202,
+        "sha256": "70963c17c2343f824e96dcd21e191103b8a9b2af3aa958fa7aaf6a9a4a688936",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/mulms/source.tar.gz",
+      "extraction": {
+        "regular_files": 104,
+        "expanded_bytes": 51998870,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/mulms/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "nathan-options",
+      "type": "methods-codebook",
+      "url": "https://durham-repository.worktribe.com/preview/1401020/34717.pdf",
+      "filename": "nathan-options.pdf",
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "nathan-thesis",
+      "type": "methods-codebook",
+      "url": "https://etheses.bham.ac.uk/id/eprint/711/1/Nathan10PhD.pdf",
+      "filename": "Nathan10PhD.pdf",
+      "download": {
+        "requested_url": "https://etheses.bham.ac.uk/id/eprint/711/1/Nathan10PhD.pdf",
+        "effective_url": "https://etheses.bham.ac.uk/id/eprint/711/1/Nathan10PhD.pdf",
+        "content_type": "application/pdf",
+        "bytes": 8129997,
+        "sha256": "0fc612500e9d6d3c75515b6731d96a4303b368665720574d448eafeb3ff50b06",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/nathan-thesis/Nathan10PhD.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "openpi",
+      "type": "github_archive",
+      "repo": "allenai/openpi-dataset",
+      "branch": "main",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/allenai/openpi-dataset/commits/main",
+        "effective_url": "https://api.github.com/repos/allenai/openpi-dataset/commits/main",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 7241,
+        "sha256": "d3e938244a3e816d0e27dfee3d29189bdaf168549c49b25ac87a05b83630719d",
+        "http_status": 200
+      },
+      "commit": "90acda8957e232decad40c41d86af79800bdd68e",
+      "download": {
+        "requested_url": "https://codeload.github.com/allenai/openpi-dataset/tar.gz/90acda8957e232decad40c41d86af79800bdd68e",
+        "effective_url": "https://codeload.github.com/allenai/openpi-dataset/tar.gz/90acda8957e232decad40c41d86af79800bdd68e",
+        "content_type": "application/x-gzip",
+        "bytes": 26607182,
+        "sha256": "74f4b8271f06165106f1b83cad23c363aa9a10536db6e79d318ce58179cc6baf",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/openpi/source.tar.gz",
+      "extraction": {
+        "regular_files": 817,
+        "expanded_bytes": 279365223,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/openpi/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "parakweet",
+      "type": "github_archive",
+      "repo": "ParakweetLabs/EmailIntentDataSet",
+      "branch": "master",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/ParakweetLabs/EmailIntentDataSet/commits/master",
+        "effective_url": "https://api.github.com/repos/ParakweetLabs/EmailIntentDataSet/commits/master",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 15777,
+        "sha256": "1c9d5373ba2343878a8bb11247a19df8f4e9cfba997c6bbe73d7fbcf053d45f9",
+        "http_status": 200
+      },
+      "commit": "055f62857b3214c1682a0b18a2c5fc2c9f0c00e6",
+      "download": {
+        "requested_url": "https://codeload.github.com/ParakweetLabs/EmailIntentDataSet/tar.gz/055f62857b3214c1682a0b18a2c5fc2c9f0c00e6",
+        "effective_url": "https://codeload.github.com/ParakweetLabs/EmailIntentDataSet/tar.gz/055f62857b3214c1682a0b18a2c5fc2c9f0c00e6",
+        "content_type": "application/x-gzip",
+        "bytes": 11912647,
+        "sha256": "93ebf74bab17728e94f7fc193c1a63cafca4402b9ae336dca914732430aeebf9",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/parakweet/source.tar.gz",
+      "extraction": {
+        "regular_files": 12,
+        "expanded_bytes": 16201592,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/parakweet/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "pdtb-manual",
+      "type": "codebook",
+      "url": "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+      "filename": "PDTB3-Annotation-Manual.pdf",
+      "download": {
+        "requested_url": "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+        "effective_url": "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+        "content_type": "application/pdf",
+        "bytes": 507859,
+        "sha256": "15f12df435ae03670f11fd3f2bf547cd603038111810a5e0376f02c708e17756",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/pdtb-manual/PDTB3-Annotation-Manual.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "persuade2",
+      "type": "github_archive",
+      "repo": "scrosseye/persuade_corpus_2.0",
+      "branch": "main",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/scrosseye/persuade_corpus_2.0/commits/main",
+        "effective_url": "https://api.github.com/repos/scrosseye/persuade_corpus_2.0/commits/main",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 5521,
+        "sha256": "390e51ec9226bbb10bde538a7224fdd2ce026dc121b918df72d95463e4148cc4",
+        "http_status": 200
+      },
+      "commit": "5bdbad1175d1d5adec082b3f1c4e3ce37b7bd1bf",
+      "download": {
+        "requested_url": "https://codeload.github.com/scrosseye/persuade_corpus_2.0/tar.gz/5bdbad1175d1d5adec082b3f1c4e3ce37b7bd1bf",
+        "effective_url": "https://codeload.github.com/scrosseye/persuade_corpus_2.0/tar.gz/5bdbad1175d1d5adec082b3f1c4e3ce37b7bd1bf",
+        "content_type": "application/x-gzip",
+        "bytes": 87689,
+        "sha256": "b8bc2aa5285d0d917898da2ac0088cd8f8e34015c551b7a46e31c01f2f4dc147",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade2/source.tar.gz",
+      "extraction": {
+        "regular_files": 4,
+        "expanded_bytes": 110431,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade2/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "pubmed-rct",
+      "type": "github_archive",
+      "repo": "Franck-Dernoncourt/pubmed-rct",
+      "branch": "master",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/Franck-Dernoncourt/pubmed-rct/commits/master",
+        "effective_url": "https://api.github.com/repos/Franck-Dernoncourt/pubmed-rct/commits/master",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 5661,
+        "sha256": "14d8931511670f4b4c6df4a1a2bc26707251b747530640297be6ee14b5f1419f",
+        "http_status": 200
+      },
+      "commit": "17ed2cb0590decfca0266add0c76f254f67232b4",
+      "download": {
+        "requested_url": "https://codeload.github.com/Franck-Dernoncourt/pubmed-rct/tar.gz/17ed2cb0590decfca0266add0c76f254f67232b4",
+        "effective_url": "https://codeload.github.com/Franck-Dernoncourt/pubmed-rct/tar.gz/17ed2cb0590decfca0266add0c76f254f67232b4",
+        "content_type": "application/x-gzip",
+        "bytes": 196904709,
+        "sha256": "7834e812608d5b896a838e7212c1410081e7b157a25dba7d3f3c48af0fcf89c4",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/pubmed-rct/source.tar.gz",
+      "extraction": {
+        "regular_files": 13,
+        "expanded_bytes": 263611468,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/pubmed-rct/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "quagga",
+      "type": "github_archive",
+      "repo": "HPI-Information-Systems/Quagga",
+      "branch": "master",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/HPI-Information-Systems/Quagga/commits/master",
+        "effective_url": "https://api.github.com/repos/HPI-Information-Systems/Quagga/commits/master",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 25535,
+        "sha256": "896198d7af18ad754078ccb18691d213b690a6f702981c6b6b2277b822e39e27",
+        "http_status": 200
+      },
+      "commit": "4ba5be0fd4a0a5954527ea93cf6592f54f4fc3f0",
+      "download": {
+        "requested_url": "https://codeload.github.com/HPI-Information-Systems/Quagga/tar.gz/4ba5be0fd4a0a5954527ea93cf6592f54f4fc3f0",
+        "effective_url": "https://codeload.github.com/HPI-Information-Systems/Quagga/tar.gz/4ba5be0fd4a0a5954527ea93cf6592f54f4fc3f0",
+        "content_type": "application/x-gzip",
+        "bytes": 32289552,
+        "sha256": "55c488fd4710ce80b5b24a3e5f98694d0e1e0396926fbba2192915abed34ae7e",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/quagga/source.tar.gz",
+      "extraction": {
+        "regular_files": 4139,
+        "expanded_bytes": 54475122,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/quagga/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "readme",
+      "type": "github_archive",
+      "repo": "gprana/READMEClassifier",
+      "branch": "master",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/gprana/READMEClassifier/commits/master",
+        "effective_url": "https://api.github.com/repos/gprana/READMEClassifier/commits/master",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 5153,
+        "sha256": "51141389590d8db3d631d06ac61830a958af8eaff4f748f63c44e19e10396ece",
+        "http_status": 200
+      },
+      "commit": "f6aa84ac8a4874b06fcc9fd2763be791ac98b9ac",
+      "download": {
+        "requested_url": "https://codeload.github.com/gprana/READMEClassifier/tar.gz/f6aa84ac8a4874b06fcc9fd2763be791ac98b9ac",
+        "effective_url": "https://codeload.github.com/gprana/READMEClassifier/tar.gz/f6aa84ac8a4874b06fcc9fd2763be791ac98b9ac",
+        "content_type": "application/x-gzip",
+        "bytes": 2988016,
+        "sha256": "6e77ecaaad203640791985514734aa6cb13038ec87741a08527364875d25d867",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/readme/source.tar.gz",
+      "extraction": {
+        "regular_files": 484,
+        "expanded_bytes": 10517590,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/readme/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "readme-paper",
+      "type": "codebook-paper",
+      "url": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf",
+      "filename": "readme-paper.pdf",
+      "download": {
+        "requested_url": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf",
+        "effective_url": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1119001,
+        "sha256": "2ea4fd63e5b05b241c2796c527d0464ed6de05ee9a5c3e13b497df9b04d22073",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/readme-paper/readme-paper.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "rstmulti",
+      "type": "github_archive",
+      "repo": "discourse-lab/RSTmulti",
+      "branch": "main",
+      "commit": "4e4eca188b19edc87ce801bc0760b25d31dd9e10",
+      "download": {
+        "requested_url": "https://codeload.github.com/discourse-lab/RSTmulti/tar.gz/4e4eca188b19edc87ce801bc0760b25d31dd9e10",
+        "effective_url": "https://codeload.github.com/discourse-lab/RSTmulti/tar.gz/4e4eca188b19edc87ce801bc0760b25d31dd9e10",
+        "content_type": "application/x-gzip",
+        "bytes": 244136,
+        "sha256": "9aae8d18ae2cc76b8e38711e70d2b773f6361fbdcbcea84b52876c58a7fcb391",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/rstmulti/source.tar.gz",
+      "extraction": {
+        "regular_files": 401,
+        "expanded_bytes": 1431443,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/rstmulti/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "sappelli",
+      "type": "dataset",
+      "url": "https://cs.ru.nl/~msappelli/data/AllDataENRON-transposed-final.csv",
+      "filename": "AllDataENRON-transposed-final.csv",
+      "download": {
+        "requested_url": "https://cs.ru.nl/~msappelli/data/AllDataENRON-transposed-final.csv",
+        "effective_url": "https://cs.ru.nl/~msappelli/data/AllDataENRON-transposed-final.csv",
+        "content_type": "text/csv",
+        "bytes": 370266,
+        "sha256": "2b90354a06295510ff69b6184fb9e4ea718b45257f18bf0b1499b17ee868a0b9",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/sappelli/AllDataENRON-transposed-final.csv",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "scidtb",
+      "type": "github_archive",
+      "repo": "PKU-TANGENT/SciDTB",
+      "branch": "master",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/PKU-TANGENT/SciDTB/commits/master",
+        "effective_url": "https://api.github.com/repos/PKU-TANGENT/SciDTB/commits/master",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 4951,
+        "sha256": "68e35bd471194bd537abacf999374655723eb3ec3a7fb43a79d019285710dc4b",
+        "http_status": 200
+      },
+      "commit": "1520d612fb19f739e099be867128360898219f24",
+      "download": {
+        "requested_url": "https://codeload.github.com/PKU-TANGENT/SciDTB/tar.gz/1520d612fb19f739e099be867128360898219f24",
+        "effective_url": "https://codeload.github.com/PKU-TANGENT/SciDTB/tar.gz/1520d612fb19f739e099be867128360898219f24",
+        "content_type": "application/x-gzip",
+        "bytes": 574384,
+        "sha256": "f31663a53708962d2d3406b46040ff8eda27c277482fcb6fab5acaada19bd1ac",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scidtb/source.tar.gz",
+      "extraction": {
+        "regular_files": 1662,
+        "expanded_bytes": 3078104,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scidtb/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "scipara",
+      "type": "github_archive",
+      "repo": "annamkiepura/SciPara",
+      "branch": "main",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/annamkiepura/SciPara/commits/main",
+        "effective_url": "https://api.github.com/repos/annamkiepura/SciPara/commits/main",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 5271,
+        "sha256": "9aff8bb2e6d78972de99e39ee3a5735a11df44af258ebe735347a9fa92e7f33e",
+        "http_status": 200
+      },
+      "commit": "88c8829311da25ebcc2873831ad76080349d0cb2",
+      "download": {
+        "requested_url": "https://codeload.github.com/annamkiepura/SciPara/tar.gz/88c8829311da25ebcc2873831ad76080349d0cb2",
+        "effective_url": "https://codeload.github.com/annamkiepura/SciPara/tar.gz/88c8829311da25ebcc2873831ad76080349d0cb2",
+        "content_type": "application/x-gzip",
+        "bytes": 484305,
+        "sha256": "4e67a87ca751c800027aacb08b5e295444fa07a3abee52eb496e51e7ae81d0ec",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scipara/source.tar.gz",
+      "extraction": {
+        "regular_files": 3,
+        "expanded_bytes": 1554121,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scipara/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "scipara-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/2024.codi-1.2.pdf",
+      "filename": "scipara-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/2024.codi-1.2.pdf",
+        "effective_url": "https://aclanthology.org/2024.codi-1.2.pdf",
+        "content_type": "application/pdf",
+        "bytes": 429996,
+        "sha256": "872eeb92977e30053cff3be091eee0f7d01222fe23f2e546511b45c5eb20c785",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scipara-paper/scipara-paper.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "upton-cohen",
+      "type": "methods",
+      "url": "https://scholarworks.indianapolis.iu.edu/bitstream/handle/1805/2332/Approach_to_Corpus_based.pdf",
+      "filename": "upton-cohen.pdf",
+      "download": {
+        "requested_url": "https://scholarworks.indianapolis.iu.edu/bitstream/handle/1805/2332/Approach_to_Corpus_based.pdf",
+        "effective_url": "https://scholarworks.indianapolis.iu.edu/server/api/core/bitstreams/c45917c7-280e-4b33-9440-ae1a88aa5fee/content",
+        "content_type": "application/pdf;charset=UTF-8",
+        "bytes": 637408,
+        "sha256": "1a23929cefa5078d3ecdaeddc1637b1f472990a513783810b675f9f59c599ea9",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/upton-cohen/upton-cohen.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "webis",
+      "type": "existing_archive",
+      "url": "https://zenodo.org/records/3254405",
+      "existing_path": "/workspace/repos/builderbob/.writing-corpus-cache/prior-work-reuse-2026-11-16/webis-editorials-16.zip",
+      "download": {
+        "requested_url": "https://zenodo.org/records/3254405",
+        "local_reuse": true,
+        "bytes": 5305530,
+        "sha256": "a6f430d5917001bbdcba892c0cab40dbd3ea6ce3fd55c2cb2a6c98c43dd8ffdc"
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/prior-work-reuse-2026-11-16/webis-editorials-16.zip",
+      "extraction": {
+        "regular_files": 1208,
+        "expanded_bytes": 14532628,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/webis/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "webis-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/C16-1324.pdf",
+      "filename": "webis-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/C16-1324.pdf",
+        "effective_url": "https://aclanthology.org/C16-1324.pdf",
+        "content_type": "application/pdf",
+        "bytes": 367951,
+        "sha256": "38e6ba21f776aefa020693c9f7336533fd1c402d5ff61edc3e00d34e66bc7577",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/webis-paper/webis-paper.pdf",
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "wlp",
+      "type": "github_archive",
+      "repo": "chaitanya2334/WLP-Dataset",
+      "branch": "master",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/chaitanya2334/WLP-Dataset/commits/master",
+        "effective_url": "https://api.github.com/repos/chaitanya2334/WLP-Dataset/commits/master",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 6016,
+        "sha256": "d71dc658ae2ccfaae104eef955a4f65da67afd2edecbd2b7405cae2ac2ff60ff",
+        "http_status": 200
+      },
+      "commit": "1f51ae6e620a5aa3590acf725713f430783f56d7",
+      "download": {
+        "requested_url": "https://codeload.github.com/chaitanya2334/WLP-Dataset/tar.gz/1f51ae6e620a5aa3590acf725713f430783f56d7",
+        "effective_url": "https://codeload.github.com/chaitanya2334/WLP-Dataset/tar.gz/1f51ae6e620a5aa3590acf725713f430783f56d7",
+        "content_type": "application/x-gzip",
+        "bytes": 1399035,
+        "sha256": "951d80dbd0c36396c4e2c763ef58d5ec0bb918a816363d6c592d5fc704ed64c3",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/wlp/source.tar.gz",
+      "extraction": {
+        "regular_files": 1246,
+        "expanded_bytes": 4108726,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/wlp/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "acquisition.json"
+    },
+    {
+      "id": "az-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/E99-1015.pdf",
+      "filename": "az-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/E99-1015.pdf",
+        "effective_url": "https://aclanthology.org/E99-1015.pdf",
+        "content_type": "application/pdf",
+        "bytes": 724873,
+        "sha256": "1a57765e64a753048b111776c43f74309ea2c186f0b6691aa0c5abd2e332bb66",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/az-paper/az-paper.pdf",
+      "status": "downloaded",
+      "receipt_file": "followup-acquisition.json"
+    },
+    {
+      "id": "bawe-data",
+      "type": "archive",
+      "url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/2539.zip?sequence=4&isAllowed=y",
+      "filename": "2539.zip",
+      "download": {
+        "requested_url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/2539.zip?sequence=4&isAllowed=y",
+        "effective_url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/2539.zip?sequence=4&isAllowed=y",
+        "content_type": "application/zip;charset=ISO-8859-1",
+        "bytes": 294710516,
+        "sha256": "3612b5e24e3ebf106e7d580b9132d90b6a63bdee035b48ecefbd655c9cacab32",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/bawe-data/2539.zip",
+      "extraction": {
+        "regular_files": 22088,
+        "expanded_bytes": 1106230306,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/bawe-data/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "followup-acquisition.json"
+    },
+    {
+      "id": "dita-task-guide",
+      "type": "codebook",
+      "url": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "filename": "task2.html",
+      "download": {
+        "requested_url": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+        "effective_url": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+        "content_type": "text/html",
+        "bytes": 17964,
+        "sha256": "e294a97a5e076c7c1157d1a523d01a32b322aca56e4f452acef31c52968529a8",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/dita-task-guide/task2.html",
+      "status": "downloaded",
+      "receipt_file": "followup-acquisition.json"
+    },
+    {
+      "id": "echr-main",
+      "type": "github_archive",
+      "repo": "trusthlt/mining-legal-arguments",
+      "branch": "main",
+      "revision_metadata": {
+        "requested_url": "https://api.github.com/repos/trusthlt/mining-legal-arguments/commits/main",
+        "effective_url": "https://api.github.com/repos/trusthlt/mining-legal-arguments/commits/main",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 4955,
+        "sha256": "1ef0fdccacff949b051a60ddfe636667a11e5c1d1f06ea47dfc7ba7c39722d94",
+        "http_status": 200
+      },
+      "commit": "a1a14832ce55c85f04c9e211f3606e04401d9c0e",
+      "download": {
+        "requested_url": "https://codeload.github.com/trusthlt/mining-legal-arguments/tar.gz/a1a14832ce55c85f04c9e211f3606e04401d9c0e",
+        "effective_url": "https://codeload.github.com/trusthlt/mining-legal-arguments/tar.gz/a1a14832ce55c85f04c9e211f3606e04401d9c0e",
+        "content_type": "application/x-gzip",
+        "bytes": 114981841,
+        "sha256": "9616fb74ec0210e7eb4278404b20cb5db842424f125aa1bda3f5a13fedbb3d01",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/echr-main/source.tar.gz",
+      "extraction": {
+        "regular_files": 1997,
+        "expanded_bytes": 841686211,
+        "extracted_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/echr-main/unpacked"
+      },
+      "status": "downloaded",
+      "receipt_file": "followup-acquisition.json"
+    },
+    {
+      "id": "erst-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/2025.cl-1.3.pdf",
+      "filename": "erst-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/2025.cl-1.3.pdf",
+        "effective_url": "https://aclanthology.org/2025.cl-1.3.pdf",
+        "content_type": "application/pdf",
+        "bytes": 2107444,
+        "sha256": "f04807264324631d1ad79aade3529215afc7729cf874ef311edf5094ab52a6da",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/erst-paper/erst-paper.pdf",
+      "status": "downloaded",
+      "receipt_file": "followup-acquisition.json"
+    },
+    {
+      "id": "microtext-guide",
+      "type": "codebook",
+      "url": "https://angcl.ling.uni-potsdam.de/pdfs/ArgGuidelinesEnglish.pdf",
+      "filename": "ArgGuidelinesEnglish.pdf",
+      "download": {
+        "requested_url": "https://angcl.ling.uni-potsdam.de/pdfs/ArgGuidelinesEnglish.pdf",
+        "effective_url": "https://angcl.ling.uni-potsdam.de/pdfs/ArgGuidelinesEnglish.pdf",
+        "content_type": "application/pdf",
+        "bytes": 230932,
+        "sha256": "0994108088787c9baa2ad1b87ea8bb2ed3ee133db0f1ea9f642f0f5575bed7e3",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/microtext-guide/ArgGuidelinesEnglish.pdf",
+      "status": "downloaded",
+      "receipt_file": "followup-acquisition.json"
+    },
+    {
+      "id": "persuade-paper",
+      "type": "codebook-paper",
+      "url": "https://zenodo.org/api/records/8221504/files/A%20large-scale%20corpus%20for%20assessing%20written%20argumentation%20preprint.pdf/content",
+      "filename": "persuade-preprint.pdf",
+      "download": {
+        "requested_url": "https://zenodo.org/api/records/8221504/files/A%20large-scale%20corpus%20for%20assessing%20written%20argumentation%20preprint.pdf/content",
+        "effective_url": "https://zenodo.org/api/records/8221504/files/A%20large-scale%20corpus%20for%20assessing%20written%20argumentation%20preprint.pdf/content",
+        "content_type": "application/octet-stream",
+        "bytes": 400006,
+        "sha256": "9b34b069ae5465fc39e2a31c879e63ceff7efd9689aeb26fa1de888f38a83fff",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade-paper/persuade-preprint.pdf",
+      "status": "downloaded",
+      "receipt_file": "followup-acquisition.json"
+    },
+    {
+      "id": "persuade-test",
+      "type": "dataset",
+      "url": "https://drive.usercontent.google.com/download?id=1K1SIJiG-2zWgMlTzxQeYOcLwOsFaVel1&export=download&confirm=t",
+      "filename": "persuade-test.zip",
+      "download": {
+        "requested_url": "https://drive.usercontent.google.com/download?id=1K1SIJiG-2zWgMlTzxQeYOcLwOsFaVel1&export=download&confirm=t",
+        "effective_url": "https://drive.usercontent.google.com/download?id=1K1SIJiG-2zWgMlTzxQeYOcLwOsFaVel1&export=download&confirm=t",
+        "content_type": "application/octet-stream",
+        "bytes": 14060214,
+        "sha256": "51c907f90b1303d610e8fcd8c0cbf3656ec88116bc34b60b93794affa77facb2",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade-test/persuade-test.zip",
+      "status": "downloaded",
+      "receipt_file": "followup-acquisition.json"
+    },
+    {
+      "id": "persuade-train",
+      "type": "dataset",
+      "url": "https://drive.usercontent.google.com/download?id=13phHyDzIsb0MHyJr6q-B-qIa9P2tM135&export=download&confirm=t",
+      "filename": "persuade-training.csv",
+      "download": {
+        "requested_url": "https://drive.usercontent.google.com/download?id=13phHyDzIsb0MHyJr6q-B-qIa9P2tM135&export=download&confirm=t",
+        "effective_url": "https://drive.usercontent.google.com/download?id=13phHyDzIsb0MHyJr6q-B-qIa9P2tM135&export=download&confirm=t",
+        "content_type": "application/octet-stream",
+        "bytes": 616894963,
+        "sha256": "f61319edd8bf16a982711ea0399fad59c05afaec05cdf0767f16a2c05c467e23",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/persuade-train/persuade-training.csv",
+      "status": "downloaded",
+      "receipt_file": "followup-acquisition.json"
+    },
+    {
+      "id": "scidtb-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/D18-1388.pdf",
+      "filename": "scidtb-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/D18-1388.pdf",
+        "effective_url": "https://aclanthology.org/D18-1388.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1327473,
+        "sha256": "f1d85d1d9ad8ea4bb011c85b4ab6deec8732f97fbf55d93351cdf3ff4459071a",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scidtb-paper/scidtb-paper.pdf",
+      "status": "rejected_wrong_identity",
+      "receipt_file": "followup-acquisition.json",
+      "superseded_by": "scidtb-paper-correct",
+      "identity_note": "D18-1388 is a different paper. The corrected SciDTB P18-2071 PDF is separately retained."
+    },
+    {
+      "id": "wlp-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/N18-2016.pdf",
+      "filename": "wlp-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/N18-2016.pdf",
+        "effective_url": "https://aclanthology.org/N18-2016.pdf",
+        "content_type": "application/pdf",
+        "bytes": 506256,
+        "sha256": "c5b251a853fad77ca65cddae21794a28c6af2f46c651ba9cd8d371fb3813efcc",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/wlp-paper/wlp-paper.pdf",
+      "status": "downloaded",
+      "receipt_file": "followup-acquisition.json"
+    },
+    {
+      "id": "scidtb-paper-correct",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/P18-2071.pdf",
+      "filename": "scidtb-paper.pdf",
+      "download": {
+        "requested_url": "https://aclanthology.org/P18-2071.pdf",
+        "effective_url": "https://aclanthology.org/P18-2071.pdf",
+        "content_type": "application/pdf",
+        "bytes": 219079,
+        "sha256": "ab168356d438a31408e4ef064675073283474d557fb93146cd076fc88be06af1",
+        "http_status": 200
+      },
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scidtb-paper-correct/scidtb-paper.pdf",
+      "status": "downloaded",
+      "supersedes": "scidtb-paper",
+      "reason": "Independent audit identified D18-1388 as an unrelated political-ideology paper; excluded from codebook counts and crosswalk evidence.",
+      "receipt_file": "identity-corrections.json"
+    },
+    {
+      "id": "mulms-guide-independent",
+      "type": "codebook",
+      "status": "downloaded",
+      "local_path": "/workspace/repos/builderbob/.writing-corpus-cache/dataset-adoption-2026-11-16/scientific-codebooks/MuLMS-AZ_Guidelines.pdf",
+      "download": {
+        "requested_url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "sha256": "27cb612f9b1897299b484846d18ad900b79de75b65db26fb7397193d58fbab5d",
+        "bytes": 168777
+      },
+      "receipt_file": "scientific agent message and crosswalk; duplicate guide is not an independent codebook"
+    }
+  ]
+}

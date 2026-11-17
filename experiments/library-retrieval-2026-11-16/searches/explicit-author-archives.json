@@ -1,0 +1,17 @@
+{
+  "queries": [
+    {"candidate_key":"engineering:eng_17","q":"Dijkstra EWD340 humble programmer pdf"},
+    {"candidate_key":"engineering:eng_22","q":"Dijkstra EWD215 go to statement considered harmful author archive"}
+  ],
+  "candidates": [
+    {"candidate_key":"engineering:eng_17","urls":[
+      {"url":"https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD340.PDF","title":"The humble programmer, author archive manuscript"},
+      {"url":"https://www.eecs.northwestern.edu/~haizhou/357/EWD340.PDF","title":"ACM Turing Lecture 1972 EWD340"},
+      {"url":"https://lass.cs.umass.edu/~shenoy/courses/spring04/677/readings/Dijkstra_humble_prog.pdf","title":"The humble programmer with copyright cover"}
+    ]},
+    {"candidate_key":"engineering:eng_22","urls":[
+      {"url":"https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF","title":"Go to statement considered harmful, author archive manuscript"}
+    ]}
+  ],
+  "provenance":"University source links identified in web search and the cited author-archive bibliography; manuscript and published versions may differ."
+}

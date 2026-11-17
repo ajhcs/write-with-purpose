@@ -1,0 +1,14 @@
+[
+  {
+    "skill": "write-with-purpose",
+    "exists": true,
+    "resolved_path": "/home/builderbob/.agents/skills/write-with-purpose/SKILL.md",
+    "sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365"
+  },
+  {
+    "skill": "edit-with-purpose",
+    "exists": true,
+    "resolved_path": "/home/builderbob/.agents/skills/edit-with-purpose/SKILL.md",
+    "sha256": "99779aadcc1e66f41bd30448b84c6598cfd8e66d1aa71f4dc1d32f0e4d12abef"
+  }
+]

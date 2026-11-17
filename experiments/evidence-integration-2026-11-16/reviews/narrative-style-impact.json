@@ -1,0 +1,325 @@
+{
+  "reviewer": "narrative-style-impact",
+  "papers": [
+    {
+      "id": "P06",
+      "title": "What Makes Online Content Viral?",
+      "authors": [
+        "Jonah Berger",
+        "Katherine L. Milkman"
+      ],
+      "year": 2012,
+      "doi": "10.1509/jmr.10.0353",
+      "study_kind": "Observational field study plus randomized vignette experiments",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P06.txt",
+      "scope": "News homepage/email-list virality, plus advertising, customer-service and injury-story experimental vignettes; not writing quality or comprehension. PDF is ahead-of-print © 2011; publisher issue is 2012.",
+      "sample_and_design": "6,956 NYT homepage articles Aug 30–Nov 30 2008 observed every 15 minutes; 20% reached most-emailed list. A random 2,566 received human ratings from independent groups of three per construct; uncoded values set to standardized mean with dummy. Day fixed-effects logistic models control placement and other factors. Experiments randomize story versions for amusement (N=49), anger (N=45) and sadness (N=47).",
+      "outcomes": "Field outcome binary ever appeared on most-emailed list, not direct individual sharing rate; experiments 1–7 self-reported sharing likelihood and arousal; no comprehension.",
+      "findings": [
+        {
+          "claim": "One standard deviation higher rated anger associated with 34% higher odds and awe 30% higher odds of list entry in model 4.",
+          "pdf_pages": [
+            8,
+            9
+          ],
+          "evidence_locator_or_snippet": "Table 5 model 4 and discussion, p.9",
+          "denominator": "6,956 field articles; 2,566 human rated, rest mean-imputed with indicator",
+          "interpretation_limits": "Associations conditional on model; percentage odds, not percentage-point probability or causal response."
+        },
+        {
+          "claim": "Randomized high vs low amusement: sharing likelihood 3.97 vs 2.92; high vs low anger 5.71 vs 3.37 on 1–7 scale.",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "evidence_locator_or_snippet": "Study 2a/2b Results",
+          "denominator": "49 and 45 participants respectively",
+          "interpretation_limits": "Different vignettes change substantive facts as well as emotion; intention, not observed sharing."
+        },
+        {
+          "claim": "High vs low sadness: sharing likelihood 2.39 vs 3.80 and arousal 2.75 vs 3.89, 1–7.",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "evidence_locator_or_snippet": "Study 3 Method/Results",
+          "denominator": "47 participants",
+          "interpretation_limits": "Changes injury context and title; mediation analysis is model-based, not randomized arousal."
+        },
+        {
+          "claim": "All three manual raters per construct, alpha > .70; 2,566 randomly sampled articles scored, remaining imputed at standardized mean.",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "evidence_locator_or_snippet": "Article Coding",
+          "denominator": "2,566 of 6,956 articles",
+          "interpretation_limits": "High agreement is construct-specific; imputation and coder emotional response do not establish individual reader response."
+        }
+      ],
+      "limitations": [
+        "NYT homepage and most-emailed ranking in 2008; access and prominence affect opportunity to share.",
+        "High arousal anger, anxiety and awe versus low-arousal sadness differs from positivity/negativity; not all emotion or negative content has one direction.",
+        "Experimental article versions differ in material events; assigned texts can cause stated response differences, but emotion/arousal mediation is not independently randomized.",
+        "The physical PDF shows 2011 ahead-of-print; publisher labels first online 2012."
+      ],
+      "rule_implications": [
+        "NS01",
+        "NS03",
+        "NS04"
+      ],
+      "data_or_code_leads": [
+        "Web appendix referenced in source pp.3–4, 9; availability/rights not verified."
+      ],
+      "extraction_issues": [
+        "Figure 2 reports fitted probability changes; narrative uses odds; do not substitute one for another."
+      ],
+      "primary_url": "https://doi.org/10.1509/jmr.10.0353"
+    },
+    {
+      "id": "P08",
+      "title": "Narrative Style Influences Citation Frequency in Climate Change Science",
+      "authors": [
+        "Ann Hillier",
+        "Ryan P. Kelly",
+        "Terrie Klinger"
+      ],
+      "year": 2016,
+      "doi": "10.1371/journal.pone.0167983",
+      "study_kind": "Observational corpus study",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P08.txt",
+      "scope": "English climate-change research abstracts, 2009–2010, 19 high-output journals, cited at least once; citation count is a proxy rather than tested comprehension.",
+      "sample_and_design": "802 raw, 732 after quality control; seven crowd ratings per abstract by 155 contributors; six narrativity indicators, PCA plus regressions; minority ratings on first-person test removed and binary means rounded.",
+      "outcomes": "Web of Science total citations as of 30 March 2016, log transformed; not experimentally assigned style or reader outcomes.",
+      "findings": [
+        {
+          "claim": "Narrativity index vs log citations R²=.05; index journal-mean vs log journal impact factor R²=.62.",
+          "pdf_pages": [
+            5,
+            8
+          ],
+          "evidence_locator_or_snippet": "Results and Fig. 2",
+          "denominator": "732 selected abstracts from 19 journals; second analysis uses journal means",
+          "interpretation_limits": "Weak individual relationship; journal-level association is not individual causal effect."
+        },
+        {
+          "claim": "Conjunctions rho=.211; connectivity rho=.171; sensory rho=.138; appeal p=.0037. Setting p=.36 and narrative perspective p=.32.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator_or_snippet": "Table 1",
+          "denominator": "732 abstracts after quality control",
+          "interpretation_limits": "Univariate associations; p values not effect sizes and correlations do not show narrative causes citation."
+        },
+        {
+          "claim": "Journal ANOVA R²=.43; selected model using year, PC1, log authors and log impact factor R²=.41.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator_or_snippet": "Non-narrative variables and Multiple Linear Regression",
+          "denominator": "732 papers",
+          "interpretation_limits": "Final model uses impact factor rather than journal identity; journal confounding remains. No direct randomized test."
+        },
+        {
+          "claim": "Each abstract initially received seven judgments; 155 total contributors; 802 to 732 post-quality-control.",
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence_locator_or_snippet": "Selection, Crowdsourcing, Quality Control",
+          "denominator": "802 raw abstracts, 732 final",
+          "interpretation_limits": "Excludes zero-citation articles; filtering entire coder responses based on first-person majority can remove disagreement."
+        }
+      ],
+      "limitations": [
+        "Six broad proxies for narrative include conjunctions, explicit connections and recommendations that are not uniquely stories or chronological narration.",
+        "Different journals and editorial selection are strongly linked to both narrativity and citation; paper itself says it could not test mechanisms.",
+        "Excludes zero-citation articles, narrow climate field and era, abstracts rather than complete texts.",
+        "Authors sometimes use causal language; study supports association only."
+      ],
+      "rule_implications": [
+        "NS01",
+        "NS03",
+        "NS04"
+      ],
+      "data_or_code_leads": [
+        {
+          "resource": "Official PLOS supplements S1 Text instructions and S2 Text questions",
+          "urls": [
+            "https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0167983.s003",
+            "https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0167983.s004"
+          ],
+          "inspected": "Read both: yes/no setting, narrator self-reference, and appeal/action; counts of sensory/emotional language, causal/contrast/temporal conjunctions, and links to preceding sentence. Six dimensions are not the project narrate function.",
+          "reuse": "Reuse questions as scoped examples and preserve raw judgments and disagreement; do not equate ratings with paragraph function."
+        },
+        {
+          "resource": "Official PLOS raw judgment CSV, R script and journal data",
+          "urls": [
+            "https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0167983.s009",
+            "https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0167983.s008",
+            "https://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0167983.s010"
+          ],
+          "inspected": "Complete CSV aggregate: 5,614 raw judgment rows, 802 unit IDs, exactly seven rows per ID. Raw/pre-QC, not 732 post-QC abstracts. R script read as text only: groups by unit, filters to first-person-question majority, aggregates judgments and filters publication year; not executed. Journal CSV receipt records 19 rows.",
+          "reuse": "Possible provenance-backed multi-rater methodological comparison, not a reproduced analysis or independent evidence of causality; keep sensitive metadata and abstracts out of derived outputs."
+        }
+      ],
+      "extraction_issues": [
+        "Local physical PDF pages coincide with printed 1–12; word hyphenation split in extraction."
+      ],
+      "primary_url": "https://doi.org/10.1371/journal.pone.0167983",
+      "supplement_access": {
+        "receipt": "experiments/evidence-integration-2026-11-16/supplement-attempts.json",
+        "unit_and_privacy": "Raw rows include sensitive contributor and source-text fields; only aggregate counts and instrument descriptions retained here.",
+        "validation_limit": "Inspected instructions, questions, raw CSV aggregate, and script as text; no analysis executed or replicated."
+      }
+    },
+    {
+      "id": "P12",
+      "title": "Style, content, and the success of ideas",
+      "authors": [
+        "Reihane Boghrati",
+        "Jonah Berger",
+        "Grant Packard"
+      ],
+      "year": 2023,
+      "doi": "10.1002/jcpy.1346",
+      "study_kind": "Observational predictive analyses plus randomized one-sentence experiments",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P12.txt",
+      "scope": "Five social science fields from selected JSTOR journals, plus online volunteer ratings of isolated research descriptions; citations or perceived importance/impact, not measured actual learning.",
+      "sample_and_design": "28,774 research articles, 1990–2018; nine LIWC function-word category rates as style features, LDA topic mixture as content proxies, journal/year and other controls; negative-binomial and neural-network models. Exploratory section-level analyses. MTurk personal voice experiment N=185 and Prolific tense experiment N=234.",
+      "outcomes": "Google Scholar citation counts observationally; randomized experiments 1–7 perceived importance and expected impact, not actual citations.",
+      "findings": [
+        {
+          "claim": "Adding style features adjusted R² .208 to .217 in negative-binomial model; neural model predicted R² .209 to .234. Authors express gains as 4–11% of model-explained variance, not 4–11% of all variance.",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "evidence_locator_or_snippet": "Table 1; Study 1 results",
+          "denominator": "28,774 articles in each model",
+          "interpretation_limits": "Topic controls and function words are proxies, not clean separation of all content and style; model comparison is predictive, not causal."
+        },
+        {
+          "claim": "Exploratory first-person coefficients: front end b=.076 p<.001; empirical middle b=−.029 p=.016; conclusion b=.007 p=.29.",
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "evidence_locator_or_snippet": "Study 2 personal voice",
+          "denominator": "Article corpus; section analysis, exact eligible denominator not explicitly given in text",
+          "interpretation_limits": "Adjusted negative-binomial coefficients, not percentage citation change; section classification and confounding remain."
+        },
+        {
+          "claim": "Article/preposition coefficients front −.034/−.015; middle −.002 (p=.66)/+.027 (p<.001).",
+          "pdf_pages": [
+            8
+          ],
+          "evidence_locator_or_snippet": "Study 2 simplicity, Table S8",
+          "denominator": "Article corpus; exact section denominator not stated",
+          "interpretation_limits": "Preposition and article frequency is not comprehension; direction varies by section; p for middle article is nonsignificant."
+        },
+        {
+          "claim": "Personal-voice randomized condition vs control: importance 6.15 vs 5.76 and expected impact 5.97 vs 5.39, on 1–7 scales.",
+          "pdf_pages": [
+            9
+          ],
+          "evidence_locator_or_snippet": "Study 3 results",
+          "denominator": "185 MTurk participants",
+          "interpretation_limits": "One sentence, perceived outcomes, not citation or comprehension; treatment changes subject framing."
+        },
+        {
+          "claim": "Present vs past condition: importance 5.97 vs 5.60 and expected impact 5.69 vs 5.20, on 1–7 scales.",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "evidence_locator_or_snippet": "Study 4 results",
+          "denominator": "234 Prolific participants per Method; reported impact F(1,200) has inconsistent denominator",
+          "interpretation_limits": "One sentence; changes tense/aspect and perceived currentness, potentially factual meaning. Printed mediation paragraph incorrectly names personal voice."
+        }
+      ],
+      "limitations": [
+        "Function words carry grammatical and semantic meaning: pronouns change attribution and agency, tense/aspect changes temporal state, prepositions and negation scope. Topic mixture cannot isolate content quality or novelty; authors acknowledge this p.11.",
+        "Journal fixed effects and many controls reduce some confounding but do not remove unobserved topic quality, authorship or selection.",
+        "Section-level analyses are exploratory and paper reports null interactions; coefficients do not justify uniform first person or removal of articles/prepositions.",
+        "Study 3 and 4 manipulate a single vignette each and measure perceptions. Causal effect is for text versions and stated ratings only; mediators observational."
+      ],
+      "rule_implications": [
+        "NS02",
+        "NS04"
+      ],
+      "data_or_code_leads": [
+        "Paper references supplementary S1–S9 and LIWC dictionaries, JSTOR source and Publish or Perish; full datasets and permissions are not established by this review."
+      ],
+      "extraction_issues": [
+        "p.10 Study 4 uses personal voice in mediation paragraph despite a tense manipulation; reported F(1,200) for impact differs from N=234 and importance F(1,232). Preserve discrepancy rather than silently fixing."
+      ],
+      "primary_url": "https://doi.org/10.1002/jcpy.1346"
+    }
+  ],
+  "cross_paper_synthesis": [
+    "Sharing and citation are context-bound measures of diffusion; neither is evidence of reader comprehension, factual accuracy or author satisfaction.",
+    "P08 and P12 use different citation samples and different feature constructions; shared topic is not independent replications of a paragraph function or narrative intervention. P12 itself cites P06 as prior work.",
+    "Arousal and valence are distinct; neither emotion nor positivity is a universal writing target.",
+    "Function words are style indicators in P12, not semantically empty in an actual edit; grammar contributes reference, polarity, time and scope."
+  ],
+  "proposed_rule_changes": [
+    {
+      "id": "NS01",
+      "status": "candidate; reaffirm",
+      "existing_rule": "skills/write-with-purpose/SKILL.md; references/cole-lyons-style.md; docs/writing-harness/paragraph-functions.json narrate/illustrate",
+      "scope_trigger": "Author supplies a relevant experience or a concrete example advances the stated purpose.",
+      "proposal": "Offer a sourced scene or example as one optional route, preserving origin and distinguishing observation from invention; never require a narrative opening.",
+      "expected_benefit": "Makes an abstract relationship recoverable while preserving choice and voice; benefit remains to be tested for this audience.",
+      "counterexample": "A technical reference entry needs a precise definition or lookup, not an invented story.",
+      "mechanical": "Record provenance, author approval, and links to the illustrated claim.",
+      "semantic_or_author": "Whether the case illuminates the point and the author wants its tone."
+    },
+    {
+      "id": "NS02",
+      "status": "candidate; reaffirm",
+      "existing_rule": "skills/write-with-purpose/SKILL.md; skills/edit-with-purpose/SKILL.md; references/language-and-meaning.md",
+      "scope_trigger": "A revision changes tense, reference, article, preposition, modality or attribution.",
+      "proposal": "Protect temporal state, scope, actor and technical meaning; show alternatives rather than optimizing pronouns, grammatical word counts or tense for citation prediction.",
+      "expected_benefit": "Preserve factual meaning and author voice while giving agency and temporal framing contextual attention.",
+      "counterexample": "Changing had to has can imply continued relevance or a different time relationship; removing a preposition can lose a condition.",
+      "mechanical": "Compare tokens and declared preserved phrases; flag changes to protected terms and tense as review candidates, not errors.",
+      "semantic_or_author": "Determine whether meaning changes, and whether chosen voice serves the task."
+    },
+    {
+      "id": "NS03",
+      "status": "candidate; reaffirm",
+      "existing_rule": "docs/writing-harness/paragraph-functions.json support/interpret; skills/write-with-purpose/references/structure-and-purpose.md",
+      "scope_trigger": "A claim, example, evidence or inference is present.",
+      "proposal": "Retain target links and ask whether the evidence supports the particular claim and whether inference exceeds it.",
+      "expected_benefit": "Supports source fidelity and meaningful connected reasoning.",
+      "counterexample": "A highly shared emotional anecdote may illustrate experience but cannot establish population frequency or prove a claim.",
+      "mechanical": "Check links and provenance fields resolve; count only supplied annotated evidence.",
+      "semantic_or_author": "Judge evidential relevance, inferential scope and whether explanation helps reader."
+    },
+    {
+      "id": "NS04",
+      "status": "candidate; not justified as default",
+      "existing_rule": "skills/write-with-purpose/SKILL.md; accepted-foundations.md F05/F06/F09",
+      "scope_trigger": "A tool proposes changing prose to maximize sharing, citation counts, sentiment or low readability score.",
+      "proposal": "Treat these as optional user-declared outcomes with testable tradeoffs, not proxies for good writing, comprehension or accuracy.",
+      "expected_benefit": "Avoids sacrificing meaning, learning goals and voice for an indirect popularity measure.",
+      "counterexample": "A safety notice may rightly express low-arousal uncertainty and specialist terminology while serving its audience.",
+      "mechanical": "Record declared purpose and inspect counts as descriptive data only.",
+      "semantic_or_author": "Author chooses objectives; reader studies measure comprehension or task success directly."
+    }
+  ],
+  "github_reuse": {
+    "common_infrastructure": "GUM eRST relation graphs and discourse-crosswalk.json; argument corpora link evidence and claim targets; retain labels, spans, uncertainty and rights, not semantic equivalence.",
+    "plausible_differentiator": "An author-controlled adapter can preserve source labels, expose exact target links and voice constraints, and invite contextual comparison of alternatives.",
+    "demonstrated_advantage": "None established; 36-item calibration and imported crosswalks do not validate reader outcomes, voice preservation or superiority.",
+    "missing_evidence": "Test reader understanding, factual fidelity, perceived author voice and task completion with independent raters or readers; annotations are not outcome measurements."
+  },
+  "open_questions": [
+    "Can readers recover the target claim, story-to-idea connection and evidence strength without changing author intent?",
+    "Do voice-preserving alternative drafts improve comprehension or task performance for the specified audience?",
+    "What citation or reach goals, if any, has the author explicitly prioritized and what constraints govern them?"
+  ]
+}

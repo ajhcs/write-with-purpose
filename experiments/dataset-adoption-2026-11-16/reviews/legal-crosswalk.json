@@ -1,0 +1,584 @@
+{
+  "status": "proposed research crosswalk; no mappings validated or adopted",
+  "date": "2026-11-16",
+  "authority_files": [
+    "docs/writing-harness/paragraph-functions.json",
+    "docs/writing-harness/accepted-foundations.md"
+  ],
+  "sources": [
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "warning": "README calls each sentence one role but describes ANALYSIS as parent co-tag on STA, PRE_RELIED and PRE_NOT_RELIED. Preserve possible multiple source labels; verify actual files rather than impose either interpretation. README labels include spelling typo PRE_RLEIED in prose; table PRE_RELIED."
+    },
+    {
+      "dataset": "Indian-50 2019",
+      "definition_url": "https://arxiv.org/html/1911.05405#S4.SS1",
+      "warning": "Paper specifies exactly one whole-sentence legal label; its Argument is the court weighing parties, unlike BUILD’s party-specific labels. Source paper reports 50 documents; no count independently recomputed here."
+    },
+    {
+      "dataset": "LAM:ECHR",
+      "definition_url": "https://link.springer.com/article/10.1007/s10506-023-09361-y#Sec5",
+      "warning": "Two orthogonal label layers: five actor types and sixteen legal argument types; flat token spans bounded by paragraphs. They are not source-target support/attack relations. Its raw UIMA gold and processed The Law onward BIO layers differ; avoid assuming complete document context."
+    }
+  ],
+  "mapping_legend": {
+    "conditional": "function plausible only where specific text/context realizes the function",
+    "partial": "some category instances overlap; category includes material with no corresponding function",
+    "relation_only": "structural relation only, not paragraph function",
+    "none": "no supported function inference"
+  },
+  "crosswalk": [
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Preamble",
+      "original_label": "PREAMBLE",
+      "original_definition_paraphrase": "Court, parties, counsel, judges and related header/headnote material.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "orient",
+        "report"
+      ],
+      "mapping_kind": "partial",
+      "context": "Orient only when metadata establishes context for a reader; report a faithful description when prose does so.",
+      "counterexample": "A bare court name is metadata, not necessarily orientation or a paragraph.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Facts",
+      "original_label": "FAC",
+      "original_definition_paraphrase": "Chronology leading to filing and development through the legal system, including depositions and court proceedings.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "narrate"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Report the recorded state; narrate when events develop through time.",
+      "counterexample": "A standalone date or a static fact does not establish a narrative.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Ruling by Lower Court",
+      "original_label": "RLC",
+      "original_definition_paraphrase": "Earlier court verdict, analysis and ratio underlying the appeal.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "explain",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Report attributed earlier result; explain or support only where surrounding text conveys its rationale or connects it to a claim.",
+      "counterexample": "A quoted disposition alone supplies no reason or support for the present decision.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Issues",
+      "original_label": "ISSUE",
+      "original_definition_paraphrase": "Legal questions framed by the court for determination.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "orient"
+      ],
+      "mapping_kind": "partial",
+      "context": "A framed issue can orient the reader to the decision problem, if it prepares subsequent analysis.",
+      "counterexample": "A question mechanically listed as a heading does not prove an orient function.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Argument by Petitioner",
+      "original_label": "ARG_PETITIONER",
+      "original_definition_paraphrase": "Petitioner counsel arguments, including precedent argued by counsel.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "assert",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Report when the court attributes a position; support if a reason is linked to an identifiable claim; assert only if the current writer actually advances a proposition.",
+      "counterexample": "Reporting counsel’s claim does not mean the court endorses or asserts it.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Argument by Respondent",
+      "original_label": "ARG_RESPONDENT",
+      "original_definition_paraphrase": "Respondent counsel arguments, including precedent argued by counsel.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "assert",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Preserve respondent attribution; inspect claim and reason in context before assigning assert or support.",
+      "counterexample": "A statement that counsel opposed an appeal is a report, not the court’s own assertion.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Analysis",
+      "original_label": "ANALYSIS",
+      "original_definition_paraphrase": "Court discussion of evidence, facts, prior cases, statutes and their application; parent tag for statute and precedent tags in README.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "interpret",
+        "explain",
+        "support",
+        "compare",
+        "qualify"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Select any function actually realized: faithful account, inference, linkage to a claim, comparison or scoped limitation.",
+      "counterexample": "An analysis label alone does not establish all or any specific functions.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Statute",
+      "original_label": "STA",
+      "original_definition_paraphrase": "Court discussion of established laws and quotations of legal instruments.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "define",
+        "interpret",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Quote or summarize as report; define only when meaning or scope is established; infer or support only when text performs that work.",
+      "counterexample": "A quoted statutory command reports legal language and does not automatically instruct the harness reader.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Precedent Relied",
+      "original_label": "PRE_RELIED",
+      "original_definition_paraphrase": "Prior cases the court discusses and relies on in its decision.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "support",
+        "compare",
+        "interpret"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Report the prior holding; support requires a recoverable present claim and connection; compare or interpret only if text performs those actions.",
+      "counterexample": "Citation to a relied-upon case by itself does not show how it supports the current claim.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Precedent Not Relied",
+      "original_label": "PRE_NOT_RELIED",
+      "original_definition_paraphrase": "Prior cases the court discusses but does not rely upon, including irrelevant cases.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "compare",
+        "qualify",
+        "interpret"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Report a prior holding; compare when relevant shared dimensions are articulated; qualify only if a claim is limited.",
+      "counterexample": "A citation followed by no reasoning does not demonstrate contrast or qualification.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Ratio of the decision",
+      "original_label": "Ratio",
+      "original_definition_paraphrase": "Main reason for application of a legal principle to the issue; README expressly distinguishes this from the academic legal term ratio decidendi.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "support",
+        "explain",
+        "interpret"
+      ],
+      "mapping_kind": "conditional",
+      "context": "A rationale can support an identifiable decision or explain its legal application; interpretation requires a developed inference.",
+      "counterexample": "A bare conclusion with no stated rationale is not automatically support or explanation.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "Ruling by Present Court",
+      "original_label": "RPC",
+      "original_definition_paraphrase": "Final decision, conclusion and court order following the rationale.",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "interpret"
+      ],
+      "mapping_kind": "partial",
+      "context": "An explicit conclusion may be interpret if it develops a synthesis; reporting a ruling can be report when recounting it. Preserve institutional action separately.",
+      "counterexample": "An operative dismissal enacts a legal decision and is not automatically an assert or an instruction to the reader.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "BUILD / InRhetoricalRoles",
+      "original_name": "NONE",
+      "original_label": "NONE",
+      "original_definition_paraphrase": "Sentence does not fit the other categories. Defer mapping; not a negative function annotation. ",
+      "definition_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#appendix",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "context": "Do not infer absence of harness functions from absence of a legal role.",
+      "counterexample": "A NONE sentence could orient, report, or perform another function in this project.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "Indian-50 2019",
+      "original_name": "Facts",
+      "original_label": "FAC",
+      "original_definition_paraphrase": "Chronology of events leading to the case and its evolution in the legal system.",
+      "definition_url": "https://arxiv.org/html/1911.05405#S4.SS1",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "narrate"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Narrate where a temporal event sequence is developed; otherwise report.",
+      "counterexample": "A bare static factual statement is not necessarily narrative.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "Indian-50 2019",
+      "original_name": "Ruling by Lower Court",
+      "original_label": "RLC",
+      "original_definition_paraphrase": "Earlier courts’ verdict and ratio underlying the current appeal.",
+      "definition_url": "https://arxiv.org/html/1911.05405#S4.SS1",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "explain",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Report an attributed prior disposition; explain or support only if an actual reasoning linkage is present.",
+      "counterexample": "A prior verdict without reasons does not support a present claim merely because it is cited.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "Indian-50 2019",
+      "original_name": "Argument",
+      "original_label": "ARG",
+      "original_definition_paraphrase": "Court discussion of applicable law and proven facts by weighing the contending parties’ arguments.",
+      "definition_url": "https://arxiv.org/html/1911.05405#S4.SS1",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "interpret",
+        "compare",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Compare only where positions share a dimension; support requires an explicit or recoverable claim and reason; retain attribution.",
+      "counterexample": "Mentioning two sides without a comparison is not compare.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "Indian-50 2019",
+      "original_name": "Statute",
+      "original_label": "STA",
+      "original_definition_paraphrase": "Established laws from acts, sections, rules, orders and other legal instruments, including quotations.",
+      "definition_url": "https://arxiv.org/html/1911.05405#S4.SS1",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "define",
+        "interpret",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "context": "A statute may be quoted or summarized, used as a definition, interpreted, or connected to a claim depending on context.",
+      "counterexample": "A legal command quoted as evidence does not instruct this reader to act.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "Indian-50 2019",
+      "original_name": "Precedent",
+      "original_label": "PRE",
+      "original_definition_paraphrase": "Prior case documents; source gives instructions similar to statute citations.",
+      "definition_url": "https://arxiv.org/html/1911.05405#S4.SS1",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "support",
+        "compare",
+        "interpret"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Reconstruct how the prior case is used before assigning any function; preserve court and party attribution.",
+      "counterexample": "The mere name or citation of a case is not itself support, comparison, or interpretation.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "Indian-50 2019",
+      "original_name": "Ratio of the decision",
+      "original_label": "Ratio",
+      "original_definition_paraphrase": "Application of law with reasoning on contested points; reason for applying a legal principle to an issue.",
+      "definition_url": "https://arxiv.org/html/1911.05405#S4.SS1",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "support",
+        "explain",
+        "interpret"
+      ],
+      "mapping_kind": "conditional",
+      "context": "Only apply support when a target claim is recoverable; explanation requires an intelligible legal connection.",
+      "counterexample": "An unsupported disposition or a quotation alone is not automatically reasoning.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "Indian-50 2019",
+      "original_name": "Ruling by Present Court",
+      "original_label": "RPC",
+      "original_definition_paraphrase": "Ultimate court decision or conclusion following the rationale.",
+      "definition_url": "https://arxiv.org/html/1911.05405#S4.SS1",
+      "unit": "sentence in judgment; map to harness paragraph/span only after source alignment",
+      "proposed_functions": [
+        "report",
+        "interpret"
+      ],
+      "mapping_kind": "partial",
+      "context": "A recounting can report; synthesis may interpret. Preserve operative institutional decision separately.",
+      "counterexample": "An order dismissing an appeal is a legal action, not automatically the writer’s assert function.",
+      "deterministic_checks": [
+        "Validate original label membership and preserve exact original string",
+        "Check source offsets and paragraph/sentence alignment where offsets exist; retain unmatched spans",
+        "If a relation is explicitly supplied, validate target ID exists; do not infer relation or semantic function"
+      ]
+    },
+    {
+      "dataset": "LAM:ECHR actors",
+      "original_name": "ECHR",
+      "original_label": "ECHR",
+      "original_definition_paraphrase": "argument introduced by the Court",
+      "definition_url": "https://link.springer.com/article/10.1007/s10506-023-09361-y#Sec5",
+      "unit": "token-aligned argument span; actor is orthogonal to argument type",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "context": "Store as source/stance attribution metadata, not a function. Examine attribution and surrounding authorial voice before assigning report or assert.",
+      "counterexample": "An argument attributed to ECHR does not by itself establish that the present writer endorses it or that a reason supports a claim.",
+      "deterministic_checks": [
+        "Validate actor code against documented source label vocabulary and retain original label",
+        "Check actor and argument-type span alignment and valid document offsets; do not infer actor from a keyword"
+      ]
+    },
+    {
+      "dataset": "LAM:ECHR actors",
+      "original_name": "Applicant",
+      "original_label": "Applicant",
+      "original_definition_paraphrase": "person or contracting party alleging violation",
+      "definition_url": "https://link.springer.com/article/10.1007/s10506-023-09361-y#Sec5",
+      "unit": "token-aligned argument span; actor is orthogonal to argument type",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "context": "Store as source/stance attribution metadata, not a function. Examine attribution and surrounding authorial voice before assigning report or assert.",
+      "counterexample": "An argument attributed to Applicant does not by itself establish that the present writer endorses it or that a reason supports a claim.",
+      "deterministic_checks": [
+        "Validate actor code against documented source label vocabulary and retain original label",
+        "Check actor and argument-type span alignment and valid document offsets; do not infer actor from a keyword"
+      ]
+    },
+    {
+      "dataset": "LAM:ECHR actors",
+      "original_name": "State",
+      "original_label": "State",
+      "original_definition_paraphrase": "respondent state",
+      "definition_url": "https://link.springer.com/article/10.1007/s10506-023-09361-y#Sec5",
+      "unit": "token-aligned argument span; actor is orthogonal to argument type",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "context": "Store as source/stance attribution metadata, not a function. Examine attribution and surrounding authorial voice before assigning report or assert.",
+      "counterexample": "An argument attributed to State does not by itself establish that the present writer endorses it or that a reason supports a claim.",
+      "deterministic_checks": [
+        "Validate actor code against documented source label vocabulary and retain original label",
+        "Check actor and argument-type span alignment and valid document offsets; do not infer actor from a keyword"
+      ]
+    },
+    {
+      "dataset": "LAM:ECHR actors",
+      "original_name": "Third parties",
+      "original_label": "Third parties",
+      "original_definition_paraphrase": "other participating parties",
+      "definition_url": "https://link.springer.com/article/10.1007/s10506-023-09361-y#Sec5",
+      "unit": "token-aligned argument span; actor is orthogonal to argument type",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "context": "Store as source/stance attribution metadata, not a function. Examine attribution and surrounding authorial voice before assigning report or assert.",
+      "counterexample": "An argument attributed to Third parties does not by itself establish that the present writer endorses it or that a reason supports a claim.",
+      "deterministic_checks": [
+        "Validate actor code against documented source label vocabulary and retain original label",
+        "Check actor and argument-type span alignment and valid document offsets; do not infer actor from a keyword"
+      ]
+    },
+    {
+      "dataset": "LAM:ECHR actors",
+      "original_name": "Commission/Chamber",
+      "original_label": "Commission/Chamber",
+      "original_definition_paraphrase": "prior Commission or Chamber whose arguments the Court reproduces",
+      "definition_url": "https://link.springer.com/article/10.1007/s10506-023-09361-y#Sec5",
+      "unit": "token-aligned argument span; actor is orthogonal to argument type",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "context": "Store as source/stance attribution metadata, not a function. Examine attribution and surrounding authorial voice before assigning report or assert.",
+      "counterexample": "An argument attributed to Commission/Chamber does not by itself establish that the present writer endorses it or that a reason supports a claim.",
+      "deterministic_checks": [
+        "Validate actor code against documented source label vocabulary and retain original label",
+        "Check actor and argument-type span alignment and valid document offsets; do not infer actor from a keyword"
+      ]
+    }
+  ],
+  "echr_argument_layer": {
+    "source_url": "https://link.springer.com/article/10.1007/s10506-023-09361-y#Sec6",
+    "unit": "token-aligned span, cannot cross source paragraph; actor layer independent",
+    "examples": [
+      {
+        "original_name": "Institutional arguments—Distinguishing",
+        "mapping_kind": "conditional",
+        "proposed_functions": [
+          "compare",
+          "interpret"
+        ],
+        "condition": "Only if the text compares relevant facts or develops an inference; legal label alone is not proof of either."
+      },
+      {
+        "original_name": "Precedents of the ECHR",
+        "mapping_kind": "conditional",
+        "proposed_functions": [
+          "report",
+          "support",
+          "compare"
+        ],
+        "condition": "A cited precedent does not itself support a claim; verify linkage and comparison basis."
+      },
+      {
+        "original_name": "Decision of the ECHR",
+        "mapping_kind": "partial",
+        "proposed_functions": [
+          "report",
+          "interpret"
+        ],
+        "condition": "A legal decision can be an institutional action. Do not automatically assign assert."
+      },
+      {
+        "original_name": "Application to the concrete case",
+        "mapping_kind": "conditional",
+        "proposed_functions": [
+          "interpret",
+          "explain",
+          "support"
+        ],
+        "condition": "Text must make inference, explain connection or supply a reason for an identifiable decision."
+      }
+    ],
+    "coverage_note": "Illustrative argument-type crosswalk only, not a complete enumeration of 16 legal types; full source definitions in section 3.1.2. Actors above are all five. No relation target is annotated in this scheme."
+  },
+  "adoption_recommendations": [
+    "Keep actor attribution independent of function and claim target.",
+    "Retain original legal labels and span coordinates; never coerce a single sentence role into a mandatory single paragraph function.",
+    "Pilot context windows and expert review; preserve unresolved and mixed functions.",
+    "Check valid offsets, IDs, allowed labels and explicit relation references deterministically; semantic validity and actual support require review.",
+    "Use boundary cases where a citation only reports, legal command is quoted, a court issues an operative ruling, and competing parties are attributed.",
+    "Do not estimate target-form function frequencies from these non-target judicial datasets."
+  ]
+}

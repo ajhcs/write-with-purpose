@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-3",
+      "doi": "10.1016/s0140-6736(08)61375-6",
+      "title": "Task shifting in health care in resource-poor countries.",
+      "authors": "[\"McPake B\", \"Mensah K\"]",
+      "field": "medicine_health",
+      "q": "\"Task shifting in health care in resource-poor countries.\" McPake filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-3",
+      "query": "\"Task shifting in health care in resource-poor countries.\" McPake filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Task shifting in health care in resource-poor countries",
+          "url": "https://eresearch.qmu.ac.uk/items/97b817bc-fd0a-4554-8f76-095b93d38d13",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

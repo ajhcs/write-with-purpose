@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "cases": 4,
+  "selector_resolution": true,
+  "primary_selection_updates": true,
+  "state_restore_and_invalid_fallback": true,
+  "source_text_preserved": true,
+  "uncertainty_notes_rendered": true,
+  "browser_rendering_inspected": false
+}

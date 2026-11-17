@@ -1,0 +1,353 @@
+{
+  "scout": "business-workplace",
+  "scope": "Professional and student business genres, organizational writing, move-coded data and syntheses",
+  "searches": [
+    {
+      "query": "business reports rhetorical genre move annotated corpus",
+      "source": "web search and primary publisher/institution/repository verification",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "pedagogical business case report move analysis data",
+      "source": "web search and primary publisher/institution/repository verification",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "organizational communication genres memo proposal",
+      "source": "web search and primary publisher/institution/repository verification",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "Enron email intent annotated dataset",
+      "source": "web search and primary publisher/institution/repository verification",
+      "date": "2026-11-16"
+    }
+  ],
+  "records": [
+    {
+      "repository_url": "https://github.com/ParakweetLabs/EmailIntentDataSet",
+      "doi": null,
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/ParakweetLabs/EmailIntentDataSet/master/src/resources/Ask0729-fixed.txt",
+        "https://raw.githubusercontent.com/ParakweetLabs/EmailIntentDataSet/master/src/resources/testSet-qualifiedBatch-fixed.txt",
+        "https://github.com/ParakweetLabs/EmailIntentDataSet/blob/master/LICENSE"
+      ],
+      "baseline_status": "new lead",
+      "human_or_automatic": "labeled; method not specified",
+      "reliability": "not established from inspected material",
+      "code_license": "repository declares Apache-2.0",
+      "annotation_license": "repository declares Apache-2.0; applicability to labels and third-party source rights not separately clarified",
+      "source_text_rights": "unknown",
+      "paywall_retrieval_record": null,
+      "id": "parakweet",
+      "title": "EmailIntentDataSet",
+      "authors": [
+        "Parakweet Labs"
+      ],
+      "year": 2014,
+      "kind": "labeled corpus",
+      "primary_urls": [
+        "https://github.com/ParakweetLabs/EmailIntentDataSet",
+        "https://github.com/ParakweetLabs/EmailIntentDataSet/wiki"
+      ],
+      "verified_scope": "README, wiki, license, repository tree, and both raw text files inspected",
+      "unit": "sentence",
+      "genres_or_forms": "Enron workplace email",
+      "annotation_or_metrics_available": "binary intent: mainly request/propose, some dated commit; tab-separated No/Yes and sentence",
+      "size_and_count_basis": "Wiki: 4,213 training/991 test cases; raw train 3,657 physical lines and test 992 physical lines, discrepancy unresolved",
+      "access_status": "public files accessible; rights of underlying messages unverified",
+      "reuse_recommendation": "Reuse label definitions for comparison and evaluate mismatch before relying on data; do not treat as memo/proposal corpus",
+      "project_feature_mapping": [
+        "F09 hypothesis: requests and proposals as speech acts"
+      ],
+      "limitations": "Single company and short sentences; labels collapsed, training physical-line discrepancy; annotation process and agreement not specified"
+    },
+    {
+      "repository_url": null,
+      "doi": "10.1016/j.ins.2016.03.002",
+      "artifact_urls": [
+        "https://cs.ru.nl/~msappelli/data/AllDataENRON-transposed-final.csv"
+      ],
+      "baseline_status": "new lead",
+      "human_or_automatic": "human annotation indicated by A1/A2; assignment protocol not checked",
+      "reliability": "not established from inspected material",
+      "code_license": "not applicable",
+      "annotation_license": "unknown",
+      "source_text_rights": "unknown",
+      "paywall_retrieval_record": "Publisher not inspected; author site schema and CSV retrieved; no claim about full paper access.",
+      "id": "sappelli",
+      "title": "Assessing e-mail intent and tasks in e-mail messages",
+      "authors": [
+        "Maya Sappelli",
+        "Gabriella Pasi",
+        "Suzan Verberne",
+        "Maaike de Boer",
+        "Wessel Kraaij"
+      ],
+      "year": 2016,
+      "kind": "annotated corpus and single empirical study",
+      "primary_urls": [
+        "https://cs.ru.nl/~msappelli/data/",
+        "https://doi.org/10.1016/j.ins.2016.03.002"
+      ],
+      "verified_scope": "Official schema and downloadable semicolon-delimited CSV inspected; 1,145 data rows after header; two annotator columns",
+      "unit": "message and task",
+      "genres_or_forms": "Enron workplace email",
+      "annotation_or_metrics_available": "ACT1/ACT2, reason, response expectation, number of tasks, and task description, spatial/time sensitivity, type, subject for A1/A2",
+      "size_and_count_basis": "1,145 CSV data rows by local line count; independent annotator coverage not established",
+      "access_status": "CSV HTTP 200; Avocado annotations restricted to LDC licensees on request",
+      "reuse_recommendation": "Reuse original schema and paired columns for disagreement and task/function comparisons after rights clearance",
+      "project_feature_mapping": [
+        "F09 hypothesis; F07 task context"
+      ],
+      "limitations": "Not rhetorical spans or long-form proposals; agreement metrics and scope of two-person overlap require paper verification; raw email text separate"
+    },
+    {
+      "repository_url": "https://github.com/HPI-Information-Systems/Quagga",
+      "doi": null,
+      "artifact_urls": [
+        "https://hpi.de/oldsite/fileadmin/user_upload/fachgebiete/naumann/projekte/WebScience/BusinessCommunicationAnalysis/Quagga/Enron/enron_zones.tar.gz"
+      ],
+      "baseline_status": "new lead",
+      "human_or_automatic": "site says manually annotated",
+      "reliability": "not established from inspected material",
+      "code_license": "not inspected",
+      "annotation_license": "unknown",
+      "source_text_rights": "unknown",
+      "paywall_retrieval_record": null,
+      "id": "quagga",
+      "title": "Bringing Back Structure to Free Text Email Conversations with Recurrent Neural Networks",
+      "authors": [
+        "Tim Repke",
+        "Ralf Krestel"
+      ],
+      "year": 2018,
+      "kind": "annotated corpus and tool",
+      "primary_urls": [
+        "https://hpi.de/naumann/projects/web-science/mimir-corpus-exploration-and-knowledge-management/email-structure.html",
+        "https://github.com/HPI-Information-Systems/Quagga"
+      ],
+      "verified_scope": "Official dataset documentation and schema inspected; archive link returned HTTP 403 to local client",
+      "unit": "character-offset email zones",
+      "genres_or_forms": "Enron and Apache mailing-list email",
+      "annotation_or_metrics_available": "Header, Body, Body/Intro, Body/Outro, Body/Signature; detailed variant adds entities and relations",
+      "size_and_count_basis": "Site states approximately 800 Enron zone emails; approximately 400 detailed; approximately 170 rudimentary; Apache 400 sampled emails",
+      "access_status": "Documentation open; cited zone archive HTTP 403 in local fetch; sample artifact not inspected",
+      "reuse_recommendation": "Use schema as example of span offsets, not a ready-to-import dataset until archive and rights verified",
+      "project_feature_mapping": [
+        "F02/F08 structural preprocessing; not F09"
+      ],
+      "limitations": "Email-specific zones; no direct reuse as longform sections; site download failure is not proof archive absent"
+    },
+    {
+      "repository_url": null,
+      "doi": "10.1016/j.esp.2006.06.004",
+      "artifact_urls": [],
+      "baseline_status": "new lead",
+      "human_or_automatic": "author corpus analysis; specific protocol not verified",
+      "reliability": "not established from inspected material",
+      "code_license": "not applicable",
+      "annotation_license": "unknown",
+      "source_text_rights": "unknown",
+      "paywall_retrieval_record": "Publisher article accessed through indexed abstract/snippets; full text offered for purchase; author university page abstract inspected; no purchase or bypass.",
+      "id": "yeung",
+      "title": "In search of commonalities: Some linguistic and rhetorical features of business reports as a genre",
+      "authors": [
+        "Lorrita Yeung"
+      ],
+      "year": 2007,
+      "kind": "single corpus study",
+      "primary_urls": [
+        "https://doi.org/10.1016/j.esp.2006.06.004",
+        "https://scholars.ln.edu.hk/en/publications/in-search-of-commonalities-some-linguistic-and-rhetorical-feature/"
+      ],
+      "verified_scope": "Publisher abstract, corpus snippet and institutional abstract inspected; full paper gated; Nathan thesis independently reports sample characteristics",
+      "unit": "complete report; macro and micro rhetorical organization",
+      "genres_or_forms": "authentic internal and external business reports",
+      "annotation_or_metrics_available": "publisher/institutional abstract reports topical organization, recommendations and rhetorical patterns; limited counts",
+      "size_and_count_basis": "22 authentic reports, mainly Hong Kong plus Singapore, Malaysia and UK; different industry and company contexts",
+      "access_status": "publisher presents purchase PDF; no annotated data release identified",
+      "reuse_recommendation": "Highest-priority professional report comparison; obtain legitimate full paper for coding details, boundaries and counts",
+      "project_feature_mapping": [
+        "F02, F03 and F09 hypotheses"
+      ],
+      "limitations": "Heterogeneous small convenience corpus; no transferable universal norms; dataset availability unverified"
+    },
+    {
+      "repository_url": null,
+      "doi": null,
+      "artifact_urls": [
+        "https://etheses.bham.ac.uk/id/eprint/711/1/Nathan10PhD.pdf"
+      ],
+      "baseline_status": "new lead",
+      "human_or_automatic": "researcher discourse analysis; interrater reliability not verified",
+      "reliability": "not established from inspected material",
+      "code_license": "not applicable",
+      "annotation_license": "unknown",
+      "source_text_rights": "unknown",
+      "paywall_retrieval_record": null,
+      "id": "nathan-thesis",
+      "title": "A Genre-based Study of Pedagogical Business Case Reports",
+      "authors": [
+        "Philip Nathan"
+      ],
+      "year": 2010,
+      "kind": "doctoral thesis and corpus study",
+      "primary_urls": [
+        "https://etheses.bham.ac.uk/id/eprint/711/1/Nathan10PhD.pdf"
+      ],
+      "verified_scope": "Full institutional thesis accessible; abstract, findings and figure 32 inspected",
+      "unit": "report components and rhetorical moves",
+      "genres_or_forms": "student pedagogical business case reports",
+      "annotation_or_metrics_available": "orientation, situation analysis, advisory, options and alternatives, summary and consolidation, supplementary supporting information; BAWE comparison adds reflection",
+      "size_and_count_basis": "BCR-1 student corpus plus BAWE comparisons; exact corpus count not verified",
+      "access_status": "open author institutional PDF",
+      "reuse_recommendation": "Reuse defined move labels and decision-oriented examples as seed hypotheses; pilot on expert workplace texts",
+      "project_feature_mapping": [
+        "F02/F09 hypothetical mapping"
+      ],
+      "limitations": "Reported obligatory/optional labels are observations for assignments; do not impose as rules; student genre not workplace"
+    },
+    {
+      "repository_url": null,
+      "doi": "10.1016/j.esp.2016.04.006",
+      "artifact_urls": [
+        "https://durham-repository.worktribe.com/preview/1401020/34717.pdf"
+      ],
+      "baseline_status": "new lead",
+      "human_or_automatic": "researcher move analysis; agreement not checked",
+      "reliability": "not established from inspected material",
+      "code_license": "not applicable",
+      "annotation_license": "unknown",
+      "source_text_rights": "unknown",
+      "paywall_retrieval_record": null,
+      "id": "nathan-options",
+      "title": "Analysing options in pedagogical business case reports: Genre, process and language",
+      "authors": [
+        "Philip Nathan"
+      ],
+      "year": 2016,
+      "kind": "single corpus study",
+      "primary_urls": [
+        "https://doi.org/10.1016/j.esp.2016.04.006",
+        "https://durham-repository.worktribe.com/preview/1401020/34717.pdf"
+      ],
+      "verified_scope": "Publisher abstract and institutional author manuscript with methods and tables available",
+      "unit": "options-analysis excerpt and moves/submoves",
+      "genres_or_forms": "postgraduate student business case reports",
+      "annotation_or_metrics_available": "orientation, identifying option, rationale/motivation, feasibility and evaluational information; repeating cycles; move frequency tables",
+      "size_and_count_basis": "23 extracts, 17,931 words",
+      "access_status": "institutional author manuscript open",
+      "reuse_recommendation": "Use move hierarchy and cycling to design comparisons; extract counts with attribution and retain original unit",
+      "project_feature_mapping": [
+        "F09 and F07 hypotheses"
+      ],
+      "limitations": "Student task excerpts, not complete professional business cases; corpus data itself not located"
+    },
+    {
+      "repository_url": null,
+      "doi": "10.18552/joaw.v6i1.290",
+      "artifact_urls": [],
+      "baseline_status": "new lead",
+      "human_or_automatic": "rhetorical analysis; coding protocol not checked",
+      "reliability": "not established from inspected material",
+      "code_license": "not applicable",
+      "annotation_license": "unknown",
+      "source_text_rights": "unknown",
+      "paywall_retrieval_record": null,
+      "id": "nathan-mba",
+      "title": "A Genre-based Study of Case Response Writing on an MBA Programme",
+      "authors": [
+        "Philip B. Nathan"
+      ],
+      "year": 2016,
+      "kind": "single corpus study",
+      "primary_urls": [
+        "https://doi.org/10.18552/joaw.v6i1.290",
+        "https://publications.coventry.ac.uk/index.php/joaw/article/view/290"
+      ],
+      "verified_scope": "Journal abstract and citation metadata inspected",
+      "unit": "student non-report case response",
+      "genres_or_forms": "case critique, case advisory, case comparison",
+      "annotation_or_metrics_available": "reports variation in rhetorical structure, orientation, analysis and conclusion and lexical metrics",
+      "size_and_count_basis": "36 student texts, approximately 40,000 words",
+      "access_status": "journal article page public; separate corpus and license not verified",
+      "reuse_recommendation": "Compare within-business genre distinctions; locate full text and tables before extracting results",
+      "project_feature_mapping": [
+        "F02/F09 hypothesis"
+      ],
+      "limitations": "Only abstract inspected; student assignments not practitioner norms"
+    },
+    {
+      "repository_url": null,
+      "doi": null,
+      "artifact_urls": [
+        "https://www.ets.org/Media/Research/pdf/TOEIC-RR-02.pdf"
+      ],
+      "baseline_status": "new lead",
+      "human_or_automatic": "unknown",
+      "reliability": "not established from inspected material",
+      "code_license": "not applicable",
+      "annotation_license": "unknown",
+      "source_text_rights": "unknown",
+      "paywall_retrieval_record": null,
+      "id": "dudley-evans-stjohn",
+      "title": "Report on Business English: A Review of Research and Published Teaching Materials",
+      "authors": [
+        "Tony Dudley-Evans",
+        "Maggie Jo St. John"
+      ],
+      "year": 1996,
+      "kind": "narrative research and teaching-materials review",
+      "primary_urls": [
+        "https://www.ets.org/research/policy_research_reports/publications/publication/1996/czey.html",
+        "https://www.ets.org/Media/Research/pdf/TOEIC-RR-02.pdf"
+      ],
+      "verified_scope": "ETS metadata and full PDF section on genre analysis and business practitioner writing inspected",
+      "unit": "research literature and text types",
+      "genres_or_forms": "memos, letters, reports and other business English",
+      "annotation_or_metrics_available": "critical review of business communication research and contextual purposes; reports sparse research as of 1996",
+      "size_and_count_basis": "45 pages per publisher; no systematic review or pooled studies count claimed",
+      "access_status": "public official PDF",
+      "reuse_recommendation": "Mine cited studies and distinctions between genres and purposes; no dataset pooling inferred",
+      "project_feature_mapping": [
+        "F09 and form-context conceptual guidance"
+      ],
+      "limitations": "Historical narrative review and materials evaluation; instructional and language-training orientation, not quantitative meta-analysis"
+    },
+    {
+      "repository_url": null,
+      "doi": "10.5465/amr.1992.4279545",
+      "artifact_urls": [],
+      "baseline_status": "new lead",
+      "human_or_automatic": "unknown",
+      "reliability": "not established from inspected material",
+      "code_license": "not applicable",
+      "annotation_license": "unknown",
+      "source_text_rights": "unknown",
+      "paywall_retrieval_record": "Publisher PDF returned HTTP 403; no access claims beyond abstract.",
+      "id": "yates-orlikowski",
+      "title": "Genres of Organizational Communication: A Structurational Approach to Studying Communication and Media",
+      "authors": [
+        "JoAnne Yates",
+        "Wanda J. Orlikowski"
+      ],
+      "year": 1992,
+      "kind": "conceptual/methodological synthesis",
+      "primary_urls": [
+        "https://doi.org/10.5465/amr.1992.4279545"
+      ],
+      "verified_scope": "publisher abstract and citation metadata inspected; full PDF returned HTTP 403",
+      "unit": "organizational communicative action",
+      "genres_or_forms": "memo, proposal, meeting",
+      "annotation_or_metrics_available": "genre as recurrent communicative action with shared substance and form; historical example",
+      "size_and_count_basis": "conceptual paper; corpus count not applicable",
+      "access_status": "publisher abstract accessible, full PDF fetch HTTP 403",
+      "reuse_recommendation": "Use to anchor social context and purpose, not a corpus or prescriptive structure",
+      "project_feature_mapping": [
+        "F09 contextual interpretation"
+      ],
+      "limitations": "Only abstract inspected; no coded data or general prevalence inferred"
+    }
+  ]
+}

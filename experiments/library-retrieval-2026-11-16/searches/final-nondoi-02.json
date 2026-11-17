@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p03",
+      "doi": "",
+      "title": "The Old Man at Burning Man",
+      "authors": "[\"Wells Tower\"]",
+      "field": "personal_public_writing",
+      "q": "\"The Old Man at Burning Man\" Tower pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p03",
+      "query": "\"The Old Man at Burning Man\" Tower pdf",
+      "urls": [
+        {
+          "title": "‘The Old Man at Burning Man’ by Wells Tower – A Personal Anthology",
+          "url": "https://apersonalanthology.com/2020/02/21/the-old-man-at-burning-man-by-wells-tower/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

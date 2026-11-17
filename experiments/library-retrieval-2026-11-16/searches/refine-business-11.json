@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_016",
+      "doi": "10.5465/amr.1989.4308371",
+      "title": "What Constitutes a Theoretical Contribution?",
+      "authors": "[\"David A. Whetten\"]",
+      "field": "business_management",
+      "q": "\"What Constitutes a Theoretical Contribution?\" Whetten pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_016",
+      "query": "\"What Constitutes a Theoretical Contribution?\" Whetten pdf",
+      "urls": [
+        {
+          "title": "What Constitutes a Theoretical Contribution?",
+          "url": "https://cci.drexel.edu/faculty/sgasson/Readings/Whetten%5B1989%5D-WhatConstitutesATheoreticalContribution.pdf",
+          "score": 1
+        },
+        {
+          "title": "What Constitutes a Theoretical Contribution?",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amr.1989.4308371?ijkey=5ee9c561bd64a10e80a35a6d739a8bf62b7b11e8k14%2F4%2F490r14%2F4%2F490c14%2F4%2F490r14%2F4%2F490",
+          "score": 1
+        },
+        {
+          "title": "What Constitutes a Theoretical Contribution?",
+          "url": "https://www.academia.edu/116558361/What_Constitutes_a_Theoretical_Contribution",
+          "score": 1
+        },
+        {
+          "title": "What Constitutes a Theoretical Contribution? | TG Scholar",
+          "url": "https://scholar.teselagen.com/works/W2044744663/what-constitutes-a-theoretical-contribution",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

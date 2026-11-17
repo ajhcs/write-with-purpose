@@ -1,0 +1,33 @@
+{
+  "scope": "Read-only debate comparison baseline; historical decisions and installed skills remain preserved.",
+  "files": [
+    {
+      "path": "skills/write-with-purpose/SKILL.md",
+      "sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365"
+    },
+    {
+      "path": "skills/edit-with-purpose/SKILL.md",
+      "sha256": "99779aadcc1e66f41bd30448b84c6598cfd8e66d1aa71f4dc1d32f0e4d12abef"
+    },
+    {
+      "path": "docs/writing-harness/accepted-foundations.md",
+      "sha256": "2a8aa40b545299d3ec4d5c33f9597ca1548c3715cef17e978134bccf505f5b62"
+    },
+    {
+      "path": "docs/writing-harness/paragraph-functions.json",
+      "sha256": "4d119fac2f29e1c0bbdea77e65e64cba45f67931bc0f816e40a765c0ff3cdc2e"
+    },
+    {
+      "path": "experiments/evidence-integration-2026-11-16/rule-decision-ledger.json",
+      "sha256": "e79f8a7d267c7027bb301fb2d3bda0a20f5f71c9127caa9d3b51d92a3390822e"
+    },
+    {
+      "path": "experiments/evidence-integration-2026-11-16/reviews/astra-advantage.md",
+      "sha256": "a76c5bda0d142cc673c357e2b4f663b474bf055e0b77893198089dc8edb47989"
+    },
+    {
+      "path": "experiments/rule-calibration-2026-11-16/report.md",
+      "sha256": "bd6c02f27faa73f3c5dbbc130f7611463fa2a8219a4f2d04cb1d87ebb11667c6"
+    }
+  ]
+}

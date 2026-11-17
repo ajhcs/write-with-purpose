@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_046",
+      "doi": "10.1108/lhs-02-2017-0007",
+      "title": "Authentic leadership in healthcare: a scoping review",
+      "authors": "[\"Niina Malila\", \"Nina Lunkka\", \"Marjo Suhonen\"]",
+      "field": "business_management",
+      "q": "\"Authentic leadership in healthcare: a scoping review\" Malila filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_046",
+      "query": "\"Authentic leadership in healthcare: a scoping review\" Malila filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Authentic leadership in healthcare: a scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29412093/",
+          "score": 1
+        },
+        {
+          "title": "Authentic leadership in healthcare:a scoping review | Oulun yliopisto | Finna.fi",
+          "url": "https://www.finna.fi/Record/jultika.nbnfioulu-201702231281",
+          "score": 1
+        },
+        {
+          "title": "Authentic leadership in healthcare:  a scoping review",
+          "url": "https://research.ulapland.fi/en/publications/authentic-leadership-in-healthcare-a-scoping-review/",
+          "score": 1
+        },
+        {
+          "title": "Authentic leadership in healthcare: a scoping review",
+          "url": "https://www.academia.edu/67173083/Authentic_leadership_in_healthcare_a_scoping_review",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

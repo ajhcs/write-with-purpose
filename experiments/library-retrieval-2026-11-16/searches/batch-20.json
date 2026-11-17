@@ -1,0 +1,106 @@
+{
+  "batch": 20,
+  "queries": [
+    {
+      "candidate_key": "law:law_w2959253837",
+      "doi": "10.1002/cl2.174",
+      "title": "PROTOCOL: Community‐oriented policing to reduce crime, disorder, and fear and improve legitimacy and satisfaction with police: a systematic review",
+      "field": "law_public_policy",
+      "q": "\"PROTOCOL: Community‐oriented policing to reduce crime, disorder, and fear and improve legitimacy and satisfaction with police: a systematic review\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2058917614",
+      "doi": "10.1093/lpr/mgr019",
+      "title": "Causal diagrams for empirical legal research: a methodology for identifying causation, avoiding bias and interpreting results",
+      "field": "law_public_policy",
+      "q": "\"Causal diagrams for empirical legal research: a methodology for identifying causation, avoiding bias and interpreting results\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2171128603",
+      "doi": "10.1146/annurev-lawsocsci-102510-105423",
+      "title": "Credible Causal Inference for Empirical Legal Studies",
+      "field": "law_public_policy",
+      "q": "\"Credible Causal Inference for Empirical Legal Studies\" pdf"
+    },
+    {
+      "candidate_key": "law:law_w2140991056",
+      "doi": "10.1146/annurev-lawsocsci-102209-152910",
+      "title": "Social Historical Studies of Women, Crime, and Courts",
+      "field": "law_public_policy",
+      "q": "\"Social Historical Studies of Women, Crime, and Courts\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2959253837",
+      "query": "\"PROTOCOL: Community‐oriented policing to reduce crime, disorder, and fear and improve legitimacy and satisfaction with police: a systematic review\" pdf",
+      "urls": [
+        {
+          "title": "PROTOCOL: Community-oriented policing to reduce crime, disorder, and fear and improve legitimacy and satisfaction with police: a systematic review",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1002/CL2.174",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "PROTOCOL: Community-oriented policing to reduce crime, disorder, and fear and improve legitimacy and satisfaction with police: a systematic review",
+          "url": "https://journals.sagepub.com/doi/10.1002/CL2.174",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Community-oriented policing to reduce crime, disorder and fear and increase satisfaction and legitimacy among citizens: a systematic review",
+          "url": "https://www.academia.edu/60628673/Community_oriented_policing_to_reduce_crime_disorder_and_fear_and_increase_satisfaction_and_legitimacy_among_citizens_a_systematic_review",
+          "score": 0.7777777777777778,
+          "body_score": 0.8888888888888888
+        },
+        {
+          "title": "Community-oriented policing to reduce crime, disorder and fear and increase satisfaction and legitimacy among citizens: a systematic review — CiteStamp",
+          "url": "https://citestamp.com/paper/10.1007/s11292-014-9210-y",
+          "score": 0.7777777777777778,
+          "body_score": 0.7777777777777778
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w2058917614",
+      "query": "\"Causal diagrams for empirical legal research: a methodology for identifying causation, avoiding bias and interpreting results\" pdf",
+      "urls": [
+        {
+          "title": "Causal diagrams for empirical legal research: a methodology for identifying causation, avoiding bias and interpreting results",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4324363/",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w2171128603",
+      "query": "\"Credible Causal Inference for Empirical Legal Studies\" pdf",
+      "urls": [
+        {
+          "title": "Credible Causal Inference for Empirical Legal Studies",
+          "url": "https://www.academia.edu/105740345/Credible_Causal_Inference_for_Empirical_Legal_Studies",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Causal diagrams for empirical legal research: a methodology for identifying causation, avoiding bias and interpreting results",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4324363/",
+          "score": 0.5714285714285714,
+          "body_score": 0.7142857142857143
+        },
+        {
+          "title": "A Plea for More Aggregation: The Looming Threat to Empirical Legal Scholarship",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1641435",
+          "score": 0.42857142857142855,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_w2140991056",
+      "query": "\"Social Historical Studies of Women, Crime, and Courts\" pdf",
+      "urls": []
+    }
+  ]
+}

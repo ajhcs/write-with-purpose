@@ -1,0 +1,49 @@
+{
+  "scope": "One visually reconstructed Perspective; not a genre norm.",
+  "paragraph_count": 10,
+  "function_counts_multilabel": {
+    "narrate": 1,
+    "orient": 2,
+    "interpret": 4,
+    "assert": 6,
+    "report": 4,
+    "qualify": 2,
+    "explain": 4,
+    "support": 2,
+    "illustrate": 3,
+    "compare": 1
+  },
+  "role_counts": {
+    "clinical experience and problem": 1,
+    "political context": 1,
+    "resistance question": 1,
+    "belief and evidence": 1,
+    "politicization and evidence": 1,
+    "politicization risk": 1,
+    "identity mechanism": 1,
+    "measured response": 1,
+    "response uncertainty": 1,
+    "closing call": 1
+  },
+  "body_words": 1292,
+  "paragraph_word_range": [
+    42,
+    193
+  ],
+  "paragraph_word_median": 138.5,
+  "role_words": {
+    "political context": 132,
+    "resistance question": 119,
+    "belief and evidence": 193,
+    "politicization risk": 146,
+    "identity mechanism": 42,
+    "politicization and evidence": 151,
+    "clinical experience and problem": 145,
+    "closing call": 101,
+    "response uncertainty": 154,
+    "measured response": 109
+  },
+  "word_count_note": "Citation markers retained and may affect counts.",
+  "word_count_method": "experiments/corpus-analysis-2026-11-16/analysis/metrics.py word_tokens",
+  "coding_status": "single analyst; interpretive and provisional"
+}

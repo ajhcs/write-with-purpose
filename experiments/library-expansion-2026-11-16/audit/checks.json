@@ -1,0 +1,1599 @@
+{
+  "checked_utc": "2026-11-16T15:23:08.462043+00:00",
+  "fields": {
+    "law": {
+      "candidate_count": 44,
+      "coverage_count": 17,
+      "structural_issues": []
+    },
+    "medicine": {
+      "candidate_count": 51,
+      "coverage_count": 17,
+      "structural_issues": []
+    },
+    "personal": {
+      "candidate_count": 12,
+      "coverage_count": 17,
+      "structural_issues": []
+    },
+    "physical-sciences": {
+      "candidate_count": 37,
+      "coverage_count": 17,
+      "structural_issues": []
+    },
+    "business": {
+      "candidate_count": 47,
+      "coverage_count": 17,
+      "structural_issues": [
+        "unreferenced rows: ['business_014', 'business_015', 'business_017', 'business_042']"
+      ]
+    },
+    "engineering": {
+      "candidate_count": 42,
+      "coverage_count": 17,
+      "structural_issues": []
+    }
+  },
+  "live": [
+    {
+      "field": "law",
+      "id": "law_w46302826",
+      "url": "https://api.crossref.org/works/10.2307/1341787",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w143173597",
+      "url": "https://api.crossref.org/works/10.2307/1340546",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2989863638",
+      "url": "https://api.crossref.org/works/10.2307/1338225",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.2307/1338225",
+      "method": "GET",
+      "crossref_title": "Positivism and the Separation of Law and Morals",
+      "crossref_type": "journal-article",
+      "crossref_year": "1958",
+      "title_similarity": 1.0
+    },
+    {
+      "field": "law",
+      "id": "law_w3023063752",
+      "url": "https://api.crossref.org/works/10.2307/1340059",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2166987116",
+      "url": "https://api.crossref.org/works/10.2307/1342203",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2337002970",
+      "url": "https://api.crossref.org/works/10.2307/1229039",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.2307/1229039",
+      "method": "GET",
+      "crossref_title": "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color",
+      "crossref_type": "journal-article",
+      "crossref_year": "1991",
+      "title_similarity": 1.0
+    },
+    {
+      "field": "law",
+      "id": "law_w1578338854",
+      "url": "https://scholarship.law.tamu.edu/facscholar/2481/",
+      "status": 200,
+      "final_url": "https://scholarship.law.tamu.edu/facscholar/2481/",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_w2657814049",
+      "url": "https://harvardlawreview.org/print/vol-128/the-laws-of-capitalism/",
+      "status": 200,
+      "final_url": "https://harvardlawreview.org/print/vol-128/the-laws-of-capitalism/",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_w2319044928",
+      "url": "https://api.crossref.org/works/10.2307/1340684",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.2307/1340684",
+      "method": "GET",
+      "crossref_title": "Democracy and Distrust: A Theory of Judicial Review",
+      "crossref_type": "journal-article",
+      "crossref_year": "1981",
+      "title_similarity": 1.0
+    },
+    {
+      "field": "law",
+      "id": "law_w1501821359",
+      "url": "https://api.crossref.org/works/10.2307/1341478",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w3123985438",
+      "url": "https://api.crossref.org/works/10.1086/666006",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2177794968",
+      "url": "https://api.crossref.org/works/10.1371/journal.pone.0157223",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w4237793781",
+      "url": "https://doi.org/10.3368/jhr.xxxix.1.29",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "field": "law",
+      "id": "law_w2186243923",
+      "url": "https://api.crossref.org/works/10.4073/csr.2008.14",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.4073/csr.2008.14",
+      "method": "GET",
+      "crossref_title": "The Effects of Problem-Oriented Policing on Crime and Disorder\n                    <sup/>",
+      "crossref_type": "journal-article",
+      "crossref_year": "2008",
+      "title_similarity": 0.972
+    },
+    {
+      "field": "law",
+      "id": "law_w2112915715",
+      "url": "https://api.crossref.org/works/10.4073/csr.2013.1",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.4073/csr.2013.1",
+      "method": "GET",
+      "crossref_title": "Legitimacy in Policing: A Systematic Review",
+      "crossref_type": "journal-article",
+      "crossref_year": "2013",
+      "title_similarity": 1.0
+    },
+    {
+      "field": "law",
+      "id": "law_w2180537218",
+      "url": "https://api.crossref.org/works/10.4073/csr.2007.1",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2956864763",
+      "url": "https://api.crossref.org/works/10.1002/cl2.20",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2590707784",
+      "url": "https://api.crossref.org/works/10.1002/cl2.153",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2959253837",
+      "url": "https://api.crossref.org/works/10.1002/cl2.174",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2058917614",
+      "url": "https://api.crossref.org/works/10.1093/lpr/mgr019",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2171128603",
+      "url": "https://api.crossref.org/works/10.1146/annurev-lawsocsci-102510-105423",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2140991056",
+      "url": "https://api.crossref.org/works/10.1146/annurev-lawsocsci-102209-152910",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2130554796",
+      "url": "https://api.crossref.org/works/10.1146/annurev-lawsocsci-011912-083704",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2160783861",
+      "url": "https://api.crossref.org/works/10.1146/annurev-lawsocsci-110413-030807",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w2152242095",
+      "url": "https://api.crossref.org/works/10.1017/s0731126500005527",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_w407944384",
+      "url": "https://api.crossref.org/works/10.2307/1289310",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.2307/1289310",
+      "method": "GET",
+      "crossref_title": "A Tale of Two Clients: Thinking about Law as Language",
+      "crossref_type": "journal-article",
+      "crossref_year": "1989",
+      "title_similarity": 1.0
+    },
+    {
+      "field": "law",
+      "id": "law_w3005895493",
+      "url": "https://repository.law.umich.edu/lqnotes/vol40/iss2/10/",
+      "status": 200,
+      "final_url": "https://repository.law.umich.edu/lqnotes/vol40/iss2/10/",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_edwards_1979",
+      "url": "https://api.crossref.org/works/10.36646/mjlr.13.1.on",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_china_trade",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76v17/d131",
+      "status": 200,
+      "final_url": "https://history.state.gov/historicaldocuments/frus1969-76v17/d131",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_sudan",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76ve06/d234",
+      "status": 200,
+      "final_url": "https://history.state.gov/historicaldocuments/frus1969-76ve06/d234",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_biafra",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76ve05p1/d107",
+      "status": 200,
+      "final_url": "https://history.state.gov/historicaldocuments/frus1969-76ve05p1/d107",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_incarceration",
+      "url": "https://www.hamiltonproject.org/publication/policy-proposal/a-new-approach-to-reducing-incarceration-while-maintaining-low-rates-of-crime/",
+      "status": 200,
+      "final_url": "https://www.hamiltonproject.org/publication/policy-proposal/a-new-approach-to-reducing-incarceration-while-maintaining-low-rates-of-crime/",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_visa",
+      "url": "https://www.brookings.edu/articles/overhauling-the-temporary-work-visa-system/",
+      "status": 200,
+      "final_url": "https://www.brookings.edu/articles/overhauling-the-temporary-work-visa-system/",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_saving",
+      "url": "https://www.brookings.edu/articles/better-ways-to-promote-saving-through-the-tax-system/",
+      "status": 200,
+      "final_url": "https://www.brookings.edu/articles/better-ways-to-promote-saving-through-the-tax-system/",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_duke",
+      "url": "https://law.duke.edu/ilrt/",
+      "status": 200,
+      "final_url": "https://law.duke.edu/ilrt/",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_osborne",
+      "url": "https://api.crossref.org/works/10.1080/0270319X.2013.759041",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "law",
+      "id": "law_start_civil",
+      "url": "https://www.mnd.uscourts.gov/sites/mnd/files/InfoSheet1-StartingCivilCase.pdf",
+      "status": 200,
+      "final_url": "https://www.mnd.uscourts.gov/sites/mnd/files/InfoSheet1-StartingCivilCase.pdf",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_service_process",
+      "url": "https://www.mnd.uscourts.gov/sites/mnd/files/InfoSheet2-Service.pdf",
+      "status": 200,
+      "final_url": "https://www.mnd.uscourts.gov/sites/mnd/files/InfoSheet2-Service.pdf",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_wex_judicial",
+      "url": "https://www.law.cornell.edu/wex/judicial_review",
+      "status": 200,
+      "final_url": "https://www.law.cornell.edu/wex/judicial_review",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_wex_consideration",
+      "url": "https://www.law.cornell.edu/wex/consideration",
+      "status": 200,
+      "final_url": "https://www.law.cornell.edu/wex/consideration",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_wex_research",
+      "url": "https://www.law.cornell.edu/wex/Legal_research",
+      "status": 200,
+      "final_url": "https://www.law.cornell.edu/wex/Legal_research",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_rulemaking",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc227990/",
+      "status": 200,
+      "final_url": "https://digital.library.unt.edu/ark:/67531/metadc227990/",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_avoidance",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc462944/",
+      "status": 200,
+      "final_url": "https://digital.library.unt.edu/ark:/67531/metadc462944/",
+      "method": "HEAD"
+    },
+    {
+      "field": "law",
+      "id": "law_executive_orders",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc287968/",
+      "status": 200,
+      "final_url": "https://digital.library.unt.edu/ark:/67531/metadc287968/",
+      "method": "HEAD"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-personal_reflective_essay-1",
+      "url": "https://api.crossref.org/works/10.1001/jama.300.12.1393",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-personal_reflective_essay-2",
+      "url": "https://api.crossref.org/works/10.1001/jama.2013.276135",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-personal_reflective_essay-3",
+      "url": "https://api.crossref.org/works/10.1001/jama.2012.116971",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-argument_perspective-1",
+      "url": "https://api.crossref.org/works/10.1016/S0140-6736%2812%2960482-6",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-argument_perspective-2",
+      "url": "https://api.crossref.org/works/10.1016/S0140-6736%2809%2960258-0",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-argument_perspective-3",
+      "url": "https://api.crossref.org/works/10.1016/S0140-6736%2808%2961375-6",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-critical_review_of_work-1",
+      "url": "https://api.crossref.org/works/10.1096/fj.14-0901ufm",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-conceptual_explainer-1",
+      "url": "https://api.crossref.org/works/10.1042/BJ20081386",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-conceptual_explainer-2",
+      "url": "https://api.crossref.org/works/10.1016/j.freeradbiomed.2010.09.006",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-conceptual_explainer-3",
+      "url": "https://api.crossref.org/works/10.1038/nri2343",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-tutorial-1",
+      "url": "https://api.crossref.org/works/10.1016/j.jclinepi.2010.03.016",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-tutorial-2",
+      "url": "https://api.crossref.org/works/10.1186/1471-2288-10-1",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-tutorial-3",
+      "url": "https://api.crossref.org/works/10.1002/sim.2712",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-procedure_how_to-1",
+      "url": "https://api.crossref.org/works/10.1016/j.amepre.2009.02.002",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-procedure_how_to-2",
+      "url": "https://api.crossref.org/works/10.1200/JCO.2007.12.9791",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-procedure_how_to-3",
+      "url": "https://api.crossref.org/works/10.1002/sim.1187",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-reference_entry-1",
+      "url": "https://api.crossref.org/works/10.1001/jama.2013.280319",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-reference_entry-2",
+      "url": "https://api.crossref.org/works/10.1001/jama.2014.3266",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-reference_entry-3",
+      "url": "https://api.crossref.org/works/10.1186/1750-1172-5-40",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-empirical_report-1",
+      "url": "https://api.crossref.org/works/10.1001/jama.288.3.321",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-empirical_report-2",
+      "url": "https://api.crossref.org/works/10.1056/NEJM199909023411001",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-empirical_report-3",
+      "url": "https://api.crossref.org/works/10.1200/JCO.1997.15.6.2403",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-methods_paper-1",
+      "url": "https://api.crossref.org/works/10.7326/0003-4819-130-6-199903160-00002",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-methods_paper-2",
+      "url": "https://api.crossref.org/works/10.1038/clpt.1981.154",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-methods_paper-3",
+      "url": "https://api.crossref.org/works/10.1177/0272989X06295361",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-theory_conceptual_paper-1",
+      "url": "https://api.crossref.org/works/10.2105/AJPH.2012.300750",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-theory_conceptual_paper-2",
+      "url": "https://api.crossref.org/works/10.1007/s10464-005-6233-6",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-theory_conceptual_paper-3",
+      "url": "https://api.crossref.org/works/10.1016/j.socscimed.2009.09.042",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-case_report-1",
+      "url": "https://api.crossref.org/works/10.1186/1752-1947-5-111",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-case_report-2",
+      "url": "https://api.crossref.org/works/10.1186/1752-1947-2-139",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-case_report-3",
+      "url": "https://api.crossref.org/works/10.1186/1752-1947-8-41",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-study_review_protocol-1",
+      "url": "https://api.crossref.org/works/10.1159/000078753",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-study_review_protocol-2",
+      "url": "https://api.crossref.org/works/10.1093/ajcn/47.2.366",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-study_review_protocol-3",
+      "url": "https://api.crossref.org/works/10.1111/jan.12178",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-narrative_critical_literature_review-1",
+      "url": "https://api.crossref.org/works/10.7326/0003-4819-146-1-200701020-00007",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-narrative_critical_literature_review-2",
+      "url": "https://api.crossref.org/works/10.1111/j.1365-2648.2012.06064.x",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-narrative_critical_literature_review-3",
+      "url": "https://api.crossref.org/works/10.7326/0003-4819-152-2-201001190-00008",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-scoping_review-1",
+      "url": "https://api.crossref.org/works/10.1136/amiajnl-2011-000105",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-scoping_review-2",
+      "url": "https://api.crossref.org/works/10.1016/j.healthpol.2009.01.005",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-scoping_review-3",
+      "url": "https://api.crossref.org/works/10.3109/09638288.2012.748840",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-systematic_review-1",
+      "url": "https://api.crossref.org/works/10.1001/jama.292.14.1724",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-systematic_review-2",
+      "url": "https://api.crossref.org/works/10.1002/mds.23429",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-systematic_review-3",
+      "url": "https://api.crossref.org/works/10.7326/0003-4819-155-2-201107190-00005",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-proposal-1",
+      "url": "https://api.crossref.org/works/10.1097/01.sla.0000133083.54934.ae",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-proposal-2",
+      "url": "https://api.crossref.org/works/10.1111/j.1469-0691.2011.03570.x",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-proposal-3",
+      "url": "https://api.crossref.org/works/10.1111/j.1572-0241.1999.01377.x",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-decision_memo-1",
+      "url": "https://api.crossref.org/works/10.7326/M13-2771",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-decision_memo-2",
+      "url": "https://api.crossref.org/works/10.7326/0003-4819-157-2-201207170-00459",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-decision_memo-3",
+      "url": "https://api.crossref.org/works/10.7326/0003-4819-149-9-200811040-00243",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-critical_review_of_work-2",
+      "url": "https://api.crossref.org/works/10.1186/1756-3305-3-112",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "medicine",
+      "id": "medicine-critical_review_of_work-3",
+      "url": "https://api.crossref.org/works/10.1186/1756-3305-2-1",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "personal",
+      "id": "p01",
+      "url": "https://aeon.co/essays/there-is-no-shame-worse-than-poor-teeth-in-a-rich-world",
+      "status": 200,
+      "final_url": "https://aeon.co/essays/there-is-no-shame-worse-than-poor-teeth-in-a-rich-world",
+      "method": "HEAD"
+    },
+    {
+      "field": "personal",
+      "id": "p02",
+      "url": "https://harpers.org/archive/2013/01/sliver-of-sky/",
+      "status": 200,
+      "final_url": "https://harpers.org/archive/2013/01/sliver-of-sky/",
+      "method": "HEAD"
+    },
+    {
+      "field": "personal",
+      "id": "p03",
+      "url": "https://www.gq.com/story/burning-man-experiences-wells-tower-gq-february-2013",
+      "status": 200,
+      "final_url": "https://www.gq.com/story/burning-man-experiences-wells-tower-gq-february-2013",
+      "method": "HEAD"
+    },
+    {
+      "field": "personal",
+      "id": "p04",
+      "url": "https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "field": "personal",
+      "id": "p05",
+      "url": "https://gawker.com/my-vassar-college-faculty-id-makes-everything-ok-1664133077",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "field": "personal",
+      "id": "p06",
+      "url": "https://tomdispatch.com/best-of-tomdispatch-rebecca-solnit-the-archipelago-of-arrogance/",
+      "status": 200,
+      "final_url": "https://tomdispatch.com/best-of-tomdispatch-rebecca-solnit-the-archipelago-of-arrogance/",
+      "method": "HEAD"
+    },
+    {
+      "field": "personal",
+      "id": "p07",
+      "url": "https://www.newyorker.com/magazine/2013/07/29/sex-and-the-city-difficult-women",
+      "status": 200,
+      "final_url": "https://www.newyorker.com/magazine/2013/07/29/sex-and-the-city-difficult-women",
+      "method": "HEAD"
+    },
+    {
+      "field": "personal",
+      "id": "p08",
+      "url": "https://www.tabletmag.com/sections/arts-letters/articles/hannah-arendt-guilty-pleasure",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "field": "personal",
+      "id": "p09",
+      "url": "https://www.architectmagazine.com/architects/overexposed.aspx",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "field": "personal",
+      "id": "p10",
+      "url": "https://aeon.co/essays/we-can-t-thrive-in-a-world-without-darkness",
+      "status": 200,
+      "final_url": "https://aeon.co/essays/we-can-t-thrive-in-a-world-without-darkness",
+      "method": "HEAD"
+    },
+    {
+      "field": "personal",
+      "id": "p11",
+      "url": "https://gizmodo.com/diy-diagnosis-how-one-woman-uncovered-her-own-genetic-1623734397",
+      "status": 200,
+      "final_url": "https://gizmodo.com/diy-diagnosis-how-one-woman-uncovered-her-own-genetic-1623734397",
+      "method": "HEAD"
+    },
+    {
+      "field": "personal",
+      "id": "p12",
+      "url": "https://medium.com/mosaic-science/arrested-development-c3e153332db4",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_01",
+      "url": "https://calteches.library.caltech.edu/3090/",
+      "status": 200,
+      "final_url": "https://calteches.library.caltech.edu/3090/",
+      "method": "HEAD"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_02",
+      "url": "https://www.nobelprize.org/prizes/physics/2001/cornell/biographical/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/physics/2001/cornell/biographical/",
+      "method": "HEAD"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_03",
+      "url": "https://www.nobelprize.org/prizes/physics/2003/ginzburg/biographical/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/physics/2003/ginzburg/biographical/",
+      "method": "HEAD"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_04",
+      "url": "https://api.crossref.org/works/10.1126/science.177.4047.393",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_05",
+      "url": "https://api.crossref.org/works/10.1002/cpa.3160130102",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_06",
+      "url": "https://api.crossref.org/works/10.1103/revmodphys.81.1727",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_07",
+      "url": "https://api.crossref.org/works/10.1103/revmodphys.75.715",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_08",
+      "url": "https://api.crossref.org/works/10.1103/revmodphys.82.2835",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_09",
+      "url": "https://api.crossref.org/works/10.1140/epjst/e2012-01535-1",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_10",
+      "url": "https://api.crossref.org/works/10.1080/00107514.2011.603578",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_11",
+      "url": "https://api.crossref.org/works/10.1088/0953-4075/48/8/083001",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_12",
+      "url": "https://api.crossref.org/works/10.1103/physrevlett.116.061102",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_13",
+      "url": "https://api.crossref.org/works/10.1103/physrevlett.75.3969",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_14",
+      "url": "https://api.crossref.org/works/10.1103/physrevlett.49.1804",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_15",
+      "url": "https://api.crossref.org/works/10.1103/physrev.136.b864",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_16",
+      "url": "https://api.crossref.org/works/10.1103/physrevlett.77.3865",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_17",
+      "url": "https://api.crossref.org/works/10.1103/physrevlett.69.2863",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_18",
+      "url": "https://api.crossref.org/works/10.1103/physrev.47.777",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_19",
+      "url": "https://api.crossref.org/works/10.1103/physrev.108.1175",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_20",
+      "url": "https://api.crossref.org/works/10.1103/physrev.140.a1133",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_21",
+      "url": "https://api.crossref.org/works/10.1103/revmodphys.86.419",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_22",
+      "url": "https://api.crossref.org/works/10.1103/revmodphys.71.463",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_23",
+      "url": "https://api.crossref.org/works/10.1103/revmodphys.82.3045",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_24",
+      "url": "https://api.crossref.org/works/10.1038/379309a0",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_25",
+      "url": "https://api.crossref.org/works/10.1038/366418a0",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_26",
+      "url": "https://api.crossref.org/works/10.1038/421694a",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_27",
+      "url": "https://nsarchive.gwu.edu/document/28523-document-22-memorandum-arthur-b-compton-secretary-war-enclosing-memorandum-political",
+      "status": 200,
+      "final_url": "https://nsarchive.gwu.edu/document/28523-document-22-memorandum-arthur-b-compton-secretary-war-enclosing-memorandum-political",
+      "method": "HEAD"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_28",
+      "url": "https://calteches.library.caltech.edu/3043/",
+      "status": 200,
+      "final_url": "https://calteches.library.caltech.edu/3043/",
+      "method": "HEAD"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_29",
+      "url": "https://plato.stanford.edu/archives/win2014/entries/qt-entangle/",
+      "status": 200,
+      "final_url": "https://plato.stanford.edu/archives/win2014/entries/qt-entangle/",
+      "method": "HEAD"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_30",
+      "url": "https://plato.stanford.edu/archives/spr2012/entries/qt-epr/",
+      "status": 200,
+      "final_url": "https://plato.stanford.edu/archives/spr2012/entries/qt-epr/",
+      "method": "HEAD"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_31",
+      "url": "https://plato.stanford.edu/archives/fall2014/entries/spacetime-convensimul/",
+      "status": 200,
+      "final_url": "https://plato.stanford.edu/archives/fall2014/entries/spacetime-convensimul/",
+      "method": "HEAD"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_32",
+      "url": "https://www.nist.gov/system/files/documents/2017/05/09/NISTIR_6969_20140926_20150624Rev.pdf",
+      "status": 200,
+      "final_url": "https://www.nist.gov/system/files/documents/2017/05/09/NISTIR_6969_20140926_20150624Rev.pdf",
+      "method": "HEAD"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_33",
+      "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=913224",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_34",
+      "url": "https://api.crossref.org/works/10.1119/1.2343229",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_35",
+      "url": "https://cds.cern.ch/record/290968",
+      "status": 200,
+      "final_url": "https://cds.cern.ch/record/290968",
+      "method": "HEAD"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_36",
+      "url": "https://cds.cern.ch/record/300668",
+      "status": 200,
+      "final_url": "https://cds.cern.ch/record/300668",
+      "method": "HEAD"
+    },
+    {
+      "field": "physical-sciences",
+      "id": "psm_37",
+      "url": "https://arxiv.org/abs/1812.09139",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/1812.09139",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_001",
+      "url": "https://api.crossref.org/works/10.5465/amr.1989.4308385",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_002",
+      "url": "https://api.crossref.org/works/10.5465/amr.1999.2553248",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_003",
+      "url": "https://api.crossref.org/works/10.5465/amr.2007.26586086",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_004",
+      "url": "https://api.crossref.org/works/10.5465/amr.1995.9508080335",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_005",
+      "url": "https://api.crossref.org/works/10.5465/amr.1984.4277628",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_006",
+      "url": "https://api.crossref.org/works/10.5465/amr.1998.1255632",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_007",
+      "url": "https://api.crossref.org/works/10.5465/amr.1989.4279003",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_008",
+      "url": "https://api.crossref.org/works/10.5465/amr.1985.4277352",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_009",
+      "url": "https://api.crossref.org/works/10.5465/amr.1993.9402210153",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_010",
+      "url": "https://api.crossref.org/works/10.5465/amj.2011.0088",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_011",
+      "url": "https://api.crossref.org/works/10.5465/amj.2005.18803921",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_012",
+      "url": "https://api.crossref.org/works/10.5465/amj.2013.0319",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_013",
+      "url": "https://api.crossref.org/works/10.5465/amr.2001.4011928",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_014",
+      "url": "https://api.crossref.org/works/10.5465/amr.2006.22527456",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_015",
+      "url": "https://api.crossref.org/works/10.5465/amr.1996.9602161563",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_016",
+      "url": "https://api.crossref.org/works/10.5465/amr.1989.4308371",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_017",
+      "url": "https://api.crossref.org/works/10.1002/smj.4250050306",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_018",
+      "url": "https://api.crossref.org/works/10.5465/amj.2007.25525821",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_019",
+      "url": "https://api.crossref.org/works/10.5465/256741",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_020",
+      "url": "https://hbr.org/2010/03/how-i-did-it-giving-up-the-ceo-seat",
+      "status": 200,
+      "final_url": "https://hbr.org/2010/03/how-i-did-it-giving-up-the-ceo-seat",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_021",
+      "url": "https://hbr.org/2011/03/how-i-did-it-the-ceo-of-aramex-on-turning-a-failed-sale-into-a-huge-opportunity",
+      "status": 200,
+      "final_url": "https://hbr.org/2011/03/how-i-did-it-the-ceo-of-aramex-on-turning-a-failed-sale-into-a-huge-opportunity",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_022",
+      "url": "https://hbr.org/2010/07/how-will-you-measure-your-life",
+      "status": 200,
+      "final_url": "https://hbr.org/2010/07/how-will-you-measure-your-life",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_023",
+      "url": "https://hbr.org/1996/11/what-is-strategy",
+      "status": 200,
+      "final_url": "https://hbr.org/1996/11/what-is-strategy",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_024",
+      "url": "https://hbr.org/1994/01/the-fall-and-rise-of-strategic-planning",
+      "status": 200,
+      "final_url": "https://hbr.org/1994/01/the-fall-and-rise-of-strategic-planning",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_025",
+      "url": "https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy",
+      "status": 200,
+      "final_url": "https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_026",
+      "url": "https://hbr.org/2002/05/why-business-models-matter",
+      "status": 200,
+      "final_url": "https://hbr.org/2002/05/why-business-models-matter",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_027",
+      "url": "https://hbr.org/2015/12/what-is-disruptive-innovation",
+      "status": 200,
+      "final_url": "https://hbr.org/2015/12/what-is-disruptive-innovation",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_028",
+      "url": "https://hbr.org/1997/07/how-to-write-a-great-business-plan",
+      "status": 200,
+      "final_url": "https://hbr.org/1997/07/how-to-write-a-great-business-plan",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_029",
+      "url": "https://hbr.org/2005/01/managing-your-boss",
+      "status": 200,
+      "final_url": "https://hbr.org/2005/01/managing-your-boss",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_030",
+      "url": "https://hbr.org/2007/02/discovering-your-authentic-leadership",
+      "status": 200,
+      "final_url": "https://hbr.org/2007/02/discovering-your-authentic-leadership",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_031",
+      "url": "https://api.crossref.org/works/10.1287/orsc.1060.0191",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_032",
+      "url": "https://api.crossref.org/works/10.5465/amj.2009.44632557",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_033",
+      "url": "https://api.crossref.org/works/10.1177/1094428104263675",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_034",
+      "url": "https://api.crossref.org/works/10.5465/amr.1998.192979",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_035",
+      "url": "https://api.crossref.org/works/10.5465/amr.1990.4309121",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_036",
+      "url": "https://api.crossref.org/works/10.1177/0170840611416736",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1177/0170840611416736",
+      "method": "GET",
+      "crossref_title": "Book Review: Cambridge Handbook of Strategy as Practice",
+      "crossref_type": "journal-article",
+      "crossref_year": "2011",
+      "title_similarity": 1.0
+    },
+    {
+      "field": "business",
+      "id": "business_037",
+      "url": "https://api.crossref.org/works/10.4995/wpom.v9i2.10752",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_038",
+      "url": "https://api.crossref.org/works/10.1108/JHOM-06-2018-0176",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_039",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065088/000119312514112751/d661450ddefc14a.htm",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "field": "business",
+      "id": "business_040",
+      "url": "https://www.sec.gov/Archives/edgar/data/1103982/000119312512129962/d294291dpre14a.htm",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "field": "business",
+      "id": "business_041",
+      "url": "https://www.sec.gov/Archives/edgar/data/77360/000095013707003224/c12468pre14a.htm",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "field": "business",
+      "id": "business_042",
+      "url": "https://www.justice.gov/sites/default/files/atr/legacy/2006/03/03/20.pdf",
+      "status": 200,
+      "final_url": "https://www.justice.gov/sites/default/files/atr/legacy/2006/03/03/20.pdf",
+      "method": "HEAD"
+    },
+    {
+      "field": "business",
+      "id": "business_043",
+      "url": "https://api.crossref.org/works/10.4135/9781452276090.n192",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_044",
+      "url": "https://api.crossref.org/works/10.1002/9781118785317.weom120077",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_045",
+      "url": "https://api.crossref.org/works/10.1002/9781118785317.weom120169",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_046",
+      "url": "https://api.crossref.org/works/10.1108/LHS-02-2017-0007",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "business",
+      "id": "business_047",
+      "url": "https://api.crossref.org/works/10.1108/LHS-02-2017-0005",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1108/LHS-02-2017-0005",
+      "method": "GET",
+      "crossref_title": "Return on investment in healthcare leadership development programs",
+      "crossref_type": "journal-article",
+      "crossref_year": "2017",
+      "title_similarity": 1.0
+    },
+    {
+      "field": "engineering",
+      "id": "eng_01",
+      "url": "https://api.crossref.org/works/10.1007/s10664-008-9102-8",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_02",
+      "url": "https://api.crossref.org/works/10.1016/j.infsof.2008.09.009",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_03",
+      "url": "https://api.crossref.org/works/10.1016/j.infsof.2010.03.006",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_04",
+      "url": "https://api.crossref.org/works/10.1115/1.2429697",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_05",
+      "url": "https://api.crossref.org/works/10.1109/tse.2004.1265817",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_06",
+      "url": "https://api.crossref.org/works/10.1109/tse.2010.62",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_07",
+      "url": "https://api.crossref.org/works/10.1109/tse.2003.1205177",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_08",
+      "url": "https://api.crossref.org/works/10.1109/32.988497",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_09",
+      "url": "https://api.crossref.org/works/10.1109/32.895989",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_10",
+      "url": "https://api.crossref.org/works/10.1115/1.1649968",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_11",
+      "url": "https://api.crossref.org/works/10.1109/tse.2011.104",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_12",
+      "url": "https://api.crossref.org/works/10.1109/tse.2009.67",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_13",
+      "url": "https://api.crossref.org/works/10.1016/j.infsof.2014.05.006",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_14",
+      "url": "https://api.crossref.org/works/10.1023/a%3A1009715923555",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_15",
+      "url": "https://api.crossref.org/works/10.1023/b%3Astco.0000035301.49549.88",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_16",
+      "url": "https://hdl.handle.net/10468/7039",
+      "status": 200,
+      "final_url": "https://cora.ucc.ie/handle/10468/7039",
+      "method": "HEAD"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_17",
+      "url": "https://api.crossref.org/works/10.1145/355604.361591",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_18",
+      "url": "https://api.crossref.org/works/10.1145/358549.358561",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_19",
+      "url": "https://api.crossref.org/works/10.1145/358198.358210",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_20",
+      "url": "https://api.crossref.org/works/10.1109/mc.1987.1663532",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_21",
+      "url": "https://api.crossref.org/works/10.1109/2.348001",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_22",
+      "url": "https://api.crossref.org/works/10.1145/362929.362947",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_23",
+      "url": "https://api.crossref.org/works/10.1145/103162.103163",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_24",
+      "url": "https://api.crossref.org/works/10.1145/945445.945450",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_25",
+      "url": "https://api.crossref.org/works/10.1145/1327452.1327492",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_26",
+      "url": "https://api.crossref.org/works/10.1145/359576.359579",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_27",
+      "url": "https://api.crossref.org/works/10.1145/357401.357402",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_28",
+      "url": "https://api.crossref.org/works/10.1109/tse.2002.1019480",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_29",
+      "url": "https://api.crossref.org/works/10.5210/fm.v4i12.708",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_30",
+      "url": "https://api.crossref.org/works/10.1145/223784.223785",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_31",
+      "url": "https://api.crossref.org/works/10.1145/984549.984551",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_32",
+      "url": "https://api.crossref.org/works/10.48550/arXiv.1902.03331",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_33",
+      "url": "https://api.crossref.org/works/10.17487/RFC1134",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_34",
+      "url": "https://api.crossref.org/works/10.17487/RFC1347",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_36",
+      "url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/howto/logging.rst",
+      "status": 200,
+      "final_url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/howto/logging.rst",
+      "method": "HEAD"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_37",
+      "url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/howto/argparse.rst",
+      "status": 200,
+      "final_url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/howto/argparse.rst",
+      "method": "HEAD"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_38",
+      "url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/howto/regex.rst",
+      "status": 200,
+      "final_url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/howto/regex.rst",
+      "method": "HEAD"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_39",
+      "url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/library/functions.rst#L742",
+      "status": 200,
+      "final_url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/library/functions.rst#L742",
+      "method": "HEAD"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_40",
+      "url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/library/functions.rst#L864",
+      "status": 200,
+      "final_url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/library/functions.rst#L864",
+      "method": "HEAD"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_41",
+      "url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/library/functions.rst#L1259",
+      "status": 200,
+      "final_url": "https://github.com/python/cpython/blob/3101b7076270756f8be699358c69c5d15ea2cc48/Doc/library/functions.rst#L1259",
+      "method": "HEAD"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_42",
+      "url": "https://www.w3.org/Proposal",
+      "status": 200,
+      "final_url": "https://www.w3.org/Proposal",
+      "method": "HEAD"
+    },
+    {
+      "field": "engineering",
+      "id": "eng_43",
+      "url": "https://api.crossref.org/works/10.18260/1-2--33485",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ]
+}

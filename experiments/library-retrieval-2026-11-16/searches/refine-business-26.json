@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_047",
+      "doi": "10.1108/lhs-02-2017-0005",
+      "title": "Return on investment in healthcare leadership development programs",
+      "authors": "[\"Maya M. Jeyaraman\", \"Sheikh Muhammad Zeeshan Qadar\", \"Aleksandra Wierzbowski\", \"Farnaz Farshidfar\", \"Justin Lys\", \"Graham Dickson\", \"Kelly Grimes\", \"Leah A. Phillips\", \"Jonathan I. Mitchell\", \"John Van Aerde\", \"Dave Johnson\", \"Frank Krupka\", \"Ryan Zarychanski\", \"Ahmed M. Abou-Setta\"]",
+      "field": "business_management",
+      "q": "\"Return on investment in healthcare leadership development programs\" Jeyaraman pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_047",
+      "query": "\"Return on investment in healthcare leadership development programs\" Jeyaraman pdf",
+      "urls": [
+        {
+          "title": "Return on investment in healthcare leadership development programs",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29412095/",
+          "score": 1
+        },
+        {
+          "title": "What benefits do healthcare organisations receive from leadership and management development programmes? A systematic review of the evidence",
+          "url": "https://bmjleader.bmj.com/content/leader/early/2020/02/04/leader-2019-000141.full.pdf",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_33",
+      "doi": "10.17487/rfc1134",
+      "title": "Point-to-Point Protocol: A proposal for multi-protocol transmission of datagrams over Point-to-Point links",
+      "authors": "[\"David Perkins\"]",
+      "field": "engineering_computing",
+      "q": "\"Point-to-Point Protocol: A proposal for multi-protocol transmission of\" Perkins filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_33",
+      "query": "\"Point-to-Point Protocol: A proposal for multi-protocol transmission of\" Perkins filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "RFC 1134 - Point-to-Point Protocol: A proposal for multi-protocol transmission of datagrams over Point-to-Point links",
+          "url": "https://datatracker.ietf.org/doc/html/rfc1134",
+          "score": 1
+        },
+        {
+          "title": "Point-to-Point Protocol: A proposal for multi-protocol transmission of datagrams over Point-to-Point links",
+          "url": "https://www.rfc-editor.org/info/rfc1134/",
+          "score": 1
+        },
+        {
+          "title": "RFC 1134: Point-to-Point Protocol: A proposal for multi-protocol transmission of datagrams over Point-to-Point links",
+          "url": "https://2rfc.net/b/contributor/j-k-rowling/_/1134",
+          "score": 1
+        },
+        {
+          "title": "Point-to-Point Protocol for the transmission of multi-protocol datagrams over Point-to-Point links",
+          "url": "https://www.rfc-editor.org/info/rfc1171/",
+          "score": 0.875
+        }
+      ]
+    }
+  ]
+}

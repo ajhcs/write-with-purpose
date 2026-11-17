@@ -1,0 +1,402 @@
+[
+  {
+    "paragraph_id": "LF-d23d38c43ea7-p005",
+    "record_id": "R1",
+    "coder_id": "A-revised-1"
+  },
+  {
+    "paragraph_id": "LF-d23d38c43ea7-p005",
+    "record_id": "R2",
+    "coder_id": "A-original-2"
+  },
+  {
+    "paragraph_id": "LF-d23d38c43ea7-p005",
+    "record_id": "R3",
+    "coder_id": "A-revised-2"
+  },
+  {
+    "paragraph_id": "LF-d23d38c43ea7-p005",
+    "record_id": "R4",
+    "coder_id": "A-original-1"
+  },
+  {
+    "paragraph_id": "LF-80bd6f30b443-p006",
+    "record_id": "R1",
+    "coder_id": "A-original-2"
+  },
+  {
+    "paragraph_id": "LF-80bd6f30b443-p006",
+    "record_id": "R2",
+    "coder_id": "A-revised-2"
+  },
+  {
+    "paragraph_id": "LF-80bd6f30b443-p006",
+    "record_id": "R3",
+    "coder_id": "A-revised-1"
+  },
+  {
+    "paragraph_id": "LF-80bd6f30b443-p006",
+    "record_id": "R4",
+    "coder_id": "A-original-1"
+  },
+  {
+    "paragraph_id": "LF-fca9142fd337-p006",
+    "record_id": "R1",
+    "coder_id": "A-revised-2"
+  },
+  {
+    "paragraph_id": "LF-fca9142fd337-p006",
+    "record_id": "R2",
+    "coder_id": "A-original-1"
+  },
+  {
+    "paragraph_id": "LF-fca9142fd337-p006",
+    "record_id": "R3",
+    "coder_id": "A-original-2"
+  },
+  {
+    "paragraph_id": "LF-fca9142fd337-p006",
+    "record_id": "R4",
+    "coder_id": "A-revised-1"
+  },
+  {
+    "paragraph_id": "LF-2cb0e10879f3-p003",
+    "record_id": "R1",
+    "coder_id": "A-original-1"
+  },
+  {
+    "paragraph_id": "LF-2cb0e10879f3-p003",
+    "record_id": "R2",
+    "coder_id": "A-revised-2"
+  },
+  {
+    "paragraph_id": "LF-2cb0e10879f3-p003",
+    "record_id": "R3",
+    "coder_id": "A-original-2"
+  },
+  {
+    "paragraph_id": "LF-2cb0e10879f3-p003",
+    "record_id": "R4",
+    "coder_id": "A-revised-1"
+  },
+  {
+    "paragraph_id": "PMC2867979-p011",
+    "record_id": "R1",
+    "coder_id": "A-revised-1"
+  },
+  {
+    "paragraph_id": "PMC2867979-p011",
+    "record_id": "R2",
+    "coder_id": "A-original-2"
+  },
+  {
+    "paragraph_id": "PMC2867979-p011",
+    "record_id": "R3",
+    "coder_id": "A-revised-2"
+  },
+  {
+    "paragraph_id": "PMC2867979-p011",
+    "record_id": "R4",
+    "coder_id": "A-original-1"
+  },
+  {
+    "paragraph_id": "PMC4053896-p007",
+    "record_id": "R1",
+    "coder_id": "A-revised-1"
+  },
+  {
+    "paragraph_id": "PMC4053896-p007",
+    "record_id": "R2",
+    "coder_id": "A-original-2"
+  },
+  {
+    "paragraph_id": "PMC4053896-p007",
+    "record_id": "R3",
+    "coder_id": "A-original-1"
+  },
+  {
+    "paragraph_id": "PMC4053896-p007",
+    "record_id": "R4",
+    "coder_id": "A-revised-2"
+  },
+  {
+    "paragraph_id": "git-p02",
+    "record_id": "R1",
+    "coder_id": "A-revised-1"
+  },
+  {
+    "paragraph_id": "git-p02",
+    "record_id": "R2",
+    "coder_id": "A-original-2"
+  },
+  {
+    "paragraph_id": "git-p02",
+    "record_id": "R3",
+    "coder_id": "A-revised-2"
+  },
+  {
+    "paragraph_id": "git-p02",
+    "record_id": "R4",
+    "coder_id": "A-original-1"
+  },
+  {
+    "paragraph_id": "python-p02",
+    "record_id": "R1",
+    "coder_id": "A-revised-1"
+  },
+  {
+    "paragraph_id": "python-p02",
+    "record_id": "R2",
+    "coder_id": "A-original-1"
+  },
+  {
+    "paragraph_id": "python-p02",
+    "record_id": "R3",
+    "coder_id": "A-original-2"
+  },
+  {
+    "paragraph_id": "python-p02",
+    "record_id": "R4",
+    "coder_id": "A-revised-2"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p007",
+    "record_id": "R1",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p007",
+    "record_id": "R2",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p007",
+    "record_id": "R3",
+    "coder_id": "B-revised-1"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p007",
+    "record_id": "R4",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p020",
+    "record_id": "R1",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p020",
+    "record_id": "R2",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p020",
+    "record_id": "R3",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p020",
+    "record_id": "R4",
+    "coder_id": "B-revised-1"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p033",
+    "record_id": "R1",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p033",
+    "record_id": "R2",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p033",
+    "record_id": "R3",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "LF-536f04360ed3-p033",
+    "record_id": "R4",
+    "coder_id": "B-revised-1"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p005",
+    "record_id": "R1",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p005",
+    "record_id": "R2",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p005",
+    "record_id": "R3",
+    "coder_id": "B-revised-1"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p005",
+    "record_id": "R4",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p013",
+    "record_id": "R1",
+    "coder_id": "B-revised-1"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p013",
+    "record_id": "R2",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p013",
+    "record_id": "R3",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p013",
+    "record_id": "R4",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p021",
+    "record_id": "R1",
+    "coder_id": "B-revised-1"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p021",
+    "record_id": "R2",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p021",
+    "record_id": "R3",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "LF-03f718ef8cc6-p021",
+    "record_id": "R4",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "PMC4566873-p010",
+    "record_id": "R1",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "PMC4566873-p010",
+    "record_id": "R2",
+    "coder_id": "B-revised-1"
+  },
+  {
+    "paragraph_id": "PMC4566873-p010",
+    "record_id": "R3",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "PMC4566873-p010",
+    "record_id": "R4",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "PMC4566873-p028",
+    "record_id": "R1",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "PMC4566873-p028",
+    "record_id": "R2",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "PMC4566873-p028",
+    "record_id": "R3",
+    "coder_id": "B-revised-1"
+  },
+  {
+    "paragraph_id": "PMC4566873-p028",
+    "record_id": "R4",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "PMC4566873-p046",
+    "record_id": "R1",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "PMC4566873-p046",
+    "record_id": "R2",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "PMC4566873-p046",
+    "record_id": "R3",
+    "coder_id": "B-revised-1"
+  },
+  {
+    "paragraph_id": "PMC4566873-p046",
+    "record_id": "R4",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "curl-p04",
+    "record_id": "R1",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "curl-p04",
+    "record_id": "R2",
+    "coder_id": "B-revised-1"
+  },
+  {
+    "paragraph_id": "curl-p04",
+    "record_id": "R3",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "curl-p04",
+    "record_id": "R4",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "curl-p11",
+    "record_id": "R1",
+    "coder_id": "B-revised-1"
+  },
+  {
+    "paragraph_id": "curl-p11",
+    "record_id": "R2",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "curl-p11",
+    "record_id": "R3",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "curl-p11",
+    "record_id": "R4",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "curl-p17",
+    "record_id": "R1",
+    "coder_id": "B-revised-2"
+  },
+  {
+    "paragraph_id": "curl-p17",
+    "record_id": "R2",
+    "coder_id": "B-original-2"
+  },
+  {
+    "paragraph_id": "curl-p17",
+    "record_id": "R3",
+    "coder_id": "B-original-1"
+  },
+  {
+    "paragraph_id": "curl-p17",
+    "record_id": "R4",
+    "coder_id": "B-revised-1"
+  }
+]

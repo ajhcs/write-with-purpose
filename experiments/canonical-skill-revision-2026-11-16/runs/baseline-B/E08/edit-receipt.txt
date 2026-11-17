@@ -1,0 +1,112 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E08/source.txt",
+    "sha256": "c2c1d77faa67d15b40bef5eba1deb871718878b5f55da3d3bf84f9296631a7ef",
+    "bytes": 253
+  },
+  "plan": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E08/edits.json",
+    "sha256": "fd3ec577b38431148ffe36cf0e361b89cd7601d3139241708d1b5b1b646b2f88"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "497275c9656f25ce46121c7a7cfabe176119073ed8efae4d791a53bd6c7c0fab",
+    "bytes": 254
+  },
+  "output": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E08/output.txt",
+    "sha256": "497275c9656f25ce46121c7a7cfabe176119073ed8efae4d791a53bd6c7c0fab",
+    "bytes": 254
+  },
+  "changes": [
+    {
+      "start": 79,
+      "end": 80,
+      "before": ".",
+      "after": ":",
+      "reason": "Improve the requested passage while preserving supported meaning.",
+      "plan_index": 0,
+      "location": {
+        "line": 1,
+        "column": 80
+      }
+    },
+    {
+      "start": 81,
+      "end": 82,
+      "before": "A",
+      "after": "a",
+      "reason": "Improve the requested passage while preserving supported meaning.",
+      "plan_index": 1,
+      "location": {
+        "line": 1,
+        "column": 82
+      }
+    },
+    {
+      "start": 187,
+      "end": 203,
+      "before": "We have tested t",
+      "after": "T",
+      "reason": "Improve the requested passage while preserving supported meaning.",
+      "plan_index": 2,
+      "location": {
+        "line": 1,
+        "column": 188
+      }
+    },
+    {
+      "start": 215,
+      "end": 215,
+      "before": "",
+      "after": " has been tested",
+      "reason": "Improve the requested passage while preserving supported meaning.",
+      "plan_index": 3,
+      "location": {
+        "line": 1,
+        "column": 216
+      }
+    }
+  ],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 252,
+      "original_characters": 252,
+      "original_characters_selected": 18,
+      "selected_percent": 7.143,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 16
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 38,
+    "after_words": 38,
+    "net_words_removed": 0,
+    "net_reduction_percent": 0.0,
+    "words_inserted": 6,
+    "words_removed_or_replaced": 6,
+    "original_tokens_removed_or_replaced_percent": 15.789,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

@@ -1,0 +1,313 @@
+<style>
+#writing-form-explorer {display:flex;flex-direction:column;gap:calc(var(--font-size-base)*1);color:var(--foreground)}
+#writing-form-explorer .wfe-title {padding-right:95px;display:flex;flex-direction:column;gap:calc(var(--font-size-base)*.25)}
+#writing-form-explorer .wfe-result {display:flex;flex-direction:column;gap:calc(var(--font-size-base)*.5);min-width:0}
+</style>
+<div id="writing-form-explorer">
+  <div class="wfe-title">
+    <h2>What form changes</h2>
+    <span class="text-small text-muted">Proposed profiles · suggested structures</span>
+  </div>
+  <div class="viz-controls">
+    <label class="form-label" for="wfe-family">Writing family
+      <select class="form-select" id="wfe-family">
+        <option value="essay">Essays and commentary</option>
+        <option value="documentation" selected>Explanation and documentation</option>
+        <option value="research">Research reports</option>
+        <option value="synthesis">Evidence syntheses</option>
+        <option value="decision">Proposals and decisions</option>
+      </select>
+    </label>
+    <label class="form-label" for="wfe-form">Form
+      <select class="form-select" id="wfe-form"></select>
+    </label>
+  </div>
+  <div class="wfe-result" aria-live="polite" aria-atomic="true">
+    <div id="wfe-outcome"></div>
+    <table class="table">
+      <caption class="sr-only">How the selected form changes the writing plan</caption>
+      <thead><tr><th scope="col">Part of the plan</th><th scope="col">Suggested treatment</th></tr></thead>
+      <tbody id="wfe-effects"></tbody>
+    </table>
+  </div>
+</div>
+<script>
+(() => {
+  const root = document.getElementById('writing-form-explorer');
+  const familyField = root.querySelector('#wfe-family');
+  const formField = root.querySelector('#wfe-form');
+  const outcome = root.querySelector('#wfe-outcome');
+  const effects = root.querySelector('#wfe-effects');
+  const profiles = [
+    {
+      id:'personal-essay',family:'essay',name:'Personal / reflective essay',
+      outcome:'Reader task: follow an experience and the insight you develop from it.',
+      shape:'Observation or scene → developing reflection → complication → earned ending',
+      inputs:'Your memories, notes, observations, and sources for claims beyond personal experience.',
+      length:'Budget around the experience and developing thought; agree any publication ceiling.',
+      language:'Personal perspective and concrete detail; explain unfamiliar ideas for the chosen reader.',
+      contribution:'What you noticed, the connections you make, and how your understanding changes.',
+      coach:'Write the moment or observation that made this worth saying.',
+      mechanical:'Declared word ceiling; quotation preservation; reference links.',
+      editorial:'Does reflection develop? Are experience, inference, and broader claims distinguishable?'
+    },
+    {
+      id:'argument',family:'essay',name:'Argument / perspective',
+      outcome:'Reader task: understand and assess a position and its reasons.',
+      shape:'Question at issue → position → reasons and evidence → serious objection → implications',
+      inputs:'Your position, supporting material, alternative explanations, and the strongest relevant objection.',
+      length:'Budget by the argument’s burden; adapt to the venue and the reader’s context.',
+      language:'Clear stance with qualifications; academic variants add relevant scholarly conventions.',
+      contribution:'The position you defend, your interpretation, and the objections you take seriously.',
+      coach:'Write your main claim and the reason a thoughtful reader might resist it.',
+      mechanical:'Declared limits; citation keys; quotation preservation.',
+      editorial:'Do the reasons support the position? Does the argument fairly address a real objection?'
+    },
+    {
+      id:'critical-review',family:'essay',name:'Critical review of a work',
+      outcome:'Reader task: understand a work and assess your evaluation of it.',
+      shape:'Work and context → evaluation criteria → close examples → judgment and limits',
+      inputs:'The work itself, exact examples, your criteria, and any necessary context.',
+      length:'Budget for enough close analysis to justify the judgment; separate summary from evaluation.',
+      language:'Accurate description and clearly attributed interpretation; domain terms as needed.',
+      contribution:'Your criteria, close reading, comparisons, and considered judgment.',
+      coach:'Choose one feature of the work and explain what it achieves or fails to achieve.',
+      mechanical:'Reference locations; quotation preservation; declared word ceiling.',
+      editorial:'Are the criteria fair and the judgment grounded in the actual work?'
+    },
+    {
+      id:'explainer',family:'documentation',name:'Conceptual explainer',
+      outcome:'Reader task: understand an idea, mechanism, or relationship.',
+      shape:'Reader’s question → necessary concepts → mechanism and example → limits → implication',
+      inputs:'The concept, source material, a useful example, and the boundaries of the explanation.',
+      length:'Budget around conceptual dependencies and the reader’s prior knowledge.',
+      language:'Stable technical names; definitions where the chosen reader needs them.',
+      contribution:'Your way of making the mechanism intelligible, including examples and useful distinctions.',
+      coach:'Explain one important relationship using a concrete example.',
+      mechanical:'Term consistency; unresolved markers; references; declared limits.',
+      editorial:'Can the reader explain the mechanism and recognize a limit of the explanation?'
+    },
+    {
+      id:'tutorial',family:'documentation',name:'Tutorial',
+      outcome:'Reader task: build competence through a guided practical experience.',
+      shape:'Learning outcome → prepared starting point → guided practice → checkpoints → transfer',
+      inputs:'A tested learning path, suitable practice material, prerequisites, and expected results.',
+      length:'Budget for one coherent learning experience; show estimated time only when supported.',
+      language:'Introduce tools and terms during use; state expected results at meaningful checkpoints.',
+      contribution:'Your teaching sequence, examples, and knowledge of where learners struggle.',
+      coach:'Design one practice step and describe what the learner should notice.',
+      mechanical:'Links and paths; step references; examples executable in an appropriate test environment.',
+      editorial:'Can the intended learner complete the experience and apply the learned skill elsewhere?'
+    },
+    {
+      id:'howto',family:'documentation',name:'How-to / procedure',
+      outcome:'Reader task: complete a real task from a stated starting condition.',
+      shape:'Goal and prerequisites → actions with results → relevant branches → completion and recovery',
+      inputs:'Actual task steps, initial conditions, interface names, failure cases, and success criteria.',
+      length:'Budget by task scope and necessary exceptions; support quick use at the point of action.',
+      language:'Direct actions and exact names; prior competence is specific to this task.',
+      contribution:'Your practical choices, useful cautions, and understanding of failure and recovery.',
+      coach:'Write one action, its condition, and the result that tells the reader it worked.',
+      mechanical:'Step references; exact labels; paths; testable commands in a suitable environment.',
+      editorial:'Can the intended reader complete the task and handle the relevant variations?'
+    },
+    {
+      id:'reference',family:'documentation',name:'Reference',
+      outcome:'Reader task: find a precise fact, definition, parameter, or behavior.',
+      shape:'Navigable categories → consistent entries → constraints → related entries',
+      inputs:'An authoritative inventory, definitions, values, versions, and relationships.',
+      length:'Budget per entry and required coverage; maintain consistent information density.',
+      language:'Stable terms, exact values, and explicit conditions; consistent descriptive register.',
+      contribution:'Your organization, distinctions, and selection of useful examples.',
+      coach:'Write one complete entry using the information a reader needs to look up.',
+      mechanical:'Declared inventory coverage; unique identifiers; links; values compared with selected records.',
+      editorial:'Can a reader locate and correctly interpret the needed information?'
+    },
+    {
+      id:'empirical',family:'research',name:'Empirical research report',
+      outcome:'Reader task: evaluate a study’s methods, findings, and interpretation.',
+      shape:'Research question → methods → findings → interpretation and limitations; adapt to discipline',
+      inputs:'Study records, data and analysis outputs, methodological decisions, and relevant literature.',
+      length:'Apply venue rules separately to the manuscript, abstract, and other components.',
+      language:'Exact study and analysis terms; distinguish observations from interpretation.',
+      contribution:'The question, methodological reasoning, interpretation, and limits you judge material.',
+      coach:'Write one finding and then the narrower interpretation that it supports.',
+      mechanical:'Citation keys; supplied result agreement; reporting-item locations; scoped word counts.',
+      editorial:'Are the methods and claims warranted? Apply reporting guidance for the actual study design.'
+    },
+    {
+      id:'methods',family:'research',name:'Methods paper',
+      outcome:'Reader task: understand, reproduce, and assess a method.',
+      shape:'Problem and prior approaches → method and assumptions → evaluation → limits and use',
+      inputs:'Method definition, algorithms or procedures, implementations where relevant, and evaluation records.',
+      length:'Budget for reproducibility and assessment within the target venue’s rules.',
+      language:'Precise definitions and consistent notation; explain what each methodological choice changes.',
+      contribution:'The methodological insight, design choices, and interpretation of the evaluation.',
+      coach:'Describe one method step and explain why the method needs it.',
+      mechanical:'Symbol and reference consistency; artifact links; numerical agreement; scoped word counts.',
+      editorial:'Can the method be reproduced and assessed? Is the claimed contribution supported?'
+    },
+    {
+      id:'theory',family:'research',name:'Theory / conceptual paper',
+      outcome:'Reader task: follow and assess a theoretical or conceptual contribution.',
+      shape:'Problem → concepts and assumptions → argument or model → implications → objections and limits',
+      inputs:'Definitions, premises, derivations or reasoning, related scholarship, and counterexamples.',
+      length:'Budget around the reasoning required to establish the contribution and its boundaries.',
+      language:'Stable concept names; explicit distinctions and carefully scoped claims.',
+      contribution:'Your concepts, reasoning, model, and proposed implications.',
+      coach:'State one premise and show the next step in the argument it supports.',
+      mechanical:'Term and symbol consistency; cross-references; citations; declared limits.',
+      editorial:'Does the argument follow? Are assumptions and limits explicit, and the contribution meaningful?'
+    },
+    {
+      id:'case-report',family:'research',name:'Case report',
+      outcome:'Reader task: understand a particular case and its supported significance.',
+      shape:'Reason for reporting → case and course → interpretation → limits and relevant learning',
+      inputs:'Verified case records, chronology, outcomes, and relevant reporting requirements.',
+      length:'Use the venue’s case-report requirements and the detail needed to interpret the case.',
+      language:'Precise chronology and attribution; general claims remain bounded by the evidence.',
+      contribution:'Your selection of meaningful details, interpretation, and connection to existing knowledge.',
+      coach:'Identify the feature that makes this case informative and the record supporting it.',
+      mechanical:'Date and value consistency against selected records; references; reporting-item locations.',
+      editorial:'Does the interpretation fit the case record, and are its generalization limits clear?'
+    },
+    {
+      id:'protocol',family:'research',name:'Study or review protocol',
+      outcome:'Reader task: assess what is planned and how important decisions will be made.',
+      shape:'Rationale and question → design → planned methods and analysis → governance and amendments',
+      inputs:'The actual study or review plan, decision criteria, and applicable protocol guidance.',
+      length:'Budget for an assessable plan; apply the destination’s component limits.',
+      language:'Distinguish planned actions, settled decisions, and unresolved choices.',
+      contribution:'Your research question, design reasoning, and explicit decisions under uncertainty.',
+      coach:'Write one planned decision rule and explain the uncertainty it resolves.',
+      mechanical:'Version and identifier consistency; references; applicable reporting-item locations.',
+      editorial:'Is the plan coherent and feasible? Are prospective decisions clear and amendments traceable?'
+    },
+    {
+      id:'narrative-review',family:'synthesis',name:'Narrative / critical literature review',
+      outcome:'Reader task: understand an interpretation of a body of literature.',
+      shape:'Question and scope → organizing themes or debate → critical synthesis → unresolved questions',
+      inputs:'Selected literature, a transparent account of selection, and your synthesis notes.',
+      length:'Budget around the synthesis and relevant coverage; follow the venue’s review requirements.',
+      language:'Compare ideas and findings precisely; make scope and certainty clear.',
+      contribution:'Your organizing interpretation, comparisons, and identification of unresolved questions.',
+      coach:'Connect two sources through an agreement, disagreement, or distinction that matters.',
+      mechanical:'Citation resolution; quotation preservation; declared limits.',
+      editorial:'Does the synthesis fairly represent the literature within its stated scope?'
+    },
+    {
+      id:'scoping-review',family:'synthesis',name:'Scoping review',
+      outcome:'Reader task: understand the extent and characteristics of an evidence base.',
+      shape:'Scope and question → review methods → evidence map → gaps and limitations',
+      inputs:'Search and selection records, charted evidence, synthesis records, and applicable reporting guidance.',
+      length:'Apply venue limits; allocate space to methods, evidence characteristics, and the map.',
+      language:'Define categories and boundaries; distinguish the extent of research from what it establishes.',
+      contribution:'Your scope, classification decisions, and interpretation of the mapped evidence.',
+      coach:'Define one category in the evidence map and explain what its contents show.',
+      mechanical:'Flow-count reconciliation; citation keys; charted-data agreement; reporting-item locations.',
+      editorial:'Does the map answer the scoping question? Are claimed gaps supported by the search and scope?'
+    },
+    {
+      id:'systematic-review',family:'synthesis',name:'Systematic review',
+      outcome:'Reader task: assess what an explicit review of evidence supports about a defined question.',
+      shape:'Review question → methods → findings and synthesis → interpretation and limitations',
+      inputs:'Search, screening, extraction, applicable appraisal, and synthesis records; analysis outputs if used.',
+      length:'Apply venue rules and applicable reporting requirements to each manuscript component.',
+      language:'Precise review and synthesis terms; define method-specific terms for the chosen audience.',
+      contribution:'Your question, methodological decisions, synthesis, and warranted interpretation.',
+      coach:'State what the evidence supports and the limitation that most affects that statement.',
+      mechanical:'Flow-count reconciliation; references; analysis-output agreement; reporting-item locations.',
+      editorial:'Are the synthesis and conclusions justified? Meta-analysis requires separate methodological assessment.'
+    },
+    {
+      id:'proposal',family:'decision',name:'Proposal',
+      outcome:'Reader task: assess a proposed course of action and decide whether to support it.',
+      shape:'Need → proposed action → rationale and alternatives → resources and risks → requested decision',
+      inputs:'A defined problem, proposed work, relevant evidence, resources, constraints, and alternatives.',
+      length:'Budget for the decision-maker’s needs; apply any call or application requirements.',
+      language:'Explicit commitments and assumptions; distinguish planned benefits from established results.',
+      contribution:'Your proposed approach, reasoning, priorities, and judgment of feasibility.',
+      coach:'Write the action you want supported and the reason it addresses the problem.',
+      mechanical:'Budget totals against supplied records; dates; required fields; declared limits.',
+      editorial:'Does the proposal address the need, and are the commitments, alternatives, and risks credible?'
+    },
+    {
+      id:'decision-memo',family:'decision',name:'Decision memo',
+      outcome:'Reader task: choose among alternatives using explicit criteria and consequences.',
+      shape:'Decision and recommendation → criteria → options and tradeoffs → consequences → next action',
+      inputs:'The decision, viable options, criteria, evidence, constraints, and unresolved uncertainties.',
+      length:'Budget for an informed decision; move supporting detail to accessible references when useful.',
+      language:'Direct recommendations with reasons; distinguish facts, assumptions, and judgments.',
+      contribution:'Your weighting of tradeoffs, recommendation, and assessment of uncertainty.',
+      coach:'State the criterion that most affects your recommendation and explain why.',
+      mechanical:'Values compared with supplied records; option-label consistency; references; declared limits.',
+      editorial:'Could the reader understand the tradeoffs and make a justified decision?'
+    }
+  ];
+  const rows = [
+    ['Structure','shape'], ['Material needed','inputs'], ['Length','length'],
+    ['Language','language'], ['Your contribution','contribution'],
+    ['First writing move','coach'], ['Computable checks','mechanical'], ['Editorial review','editorial']
+  ];
+  let selected = 'howto';
+  const getProfile = id => profiles.find(profile => profile.id === id);
+  function restore(snapshot) {
+    const saved = snapshot && snapshot.modelContent && snapshot.modelContent.formExploration;
+    selected = saved && saved.version === 1 && getProfile(saved.form) ? saved.form : 'howto';
+  }
+  function render() {
+    const profile = getProfile(selected);
+    familyField.value = profile.family;
+    formField.replaceChildren();
+    profiles.filter(item => item.family === profile.family).forEach(item => {
+      const option = document.createElement('option');
+      option.value = item.id;
+      option.textContent = item.name;
+      formField.append(option);
+    });
+    formField.value = profile.id;
+    outcome.textContent = profile.outcome;
+    effects.replaceChildren();
+    rows.forEach(([label,key]) => {
+      const row = document.createElement('tr');
+      const heading = document.createElement('th');
+      heading.setAttribute('scope','row');
+      heading.textContent = label;
+      const value = document.createElement('td');
+      value.textContent = profile[key];
+      row.append(heading,value);
+      effects.append(row);
+    });
+  }
+  function remember() {
+    if (!window.openai || typeof window.openai.setWidgetState !== 'function') return;
+    try {
+      Promise.resolve(window.openai.setWidgetState({
+        modelContent:{formExploration:{version:1,form:selected}},privateContent:null
+      })).catch(() => {});
+    } catch (_) {}
+  }
+  restore(window.openai && window.openai.widgetState);
+  render();
+  familyField.addEventListener('change',() => {
+    const match = profiles.find(profile => profile.family === familyField.value);
+    if (!match) return;
+    selected = match.id;
+    render();
+    remember();
+  });
+  formField.addEventListener('change',() => {
+    if (!getProfile(formField.value)) return;
+    selected = formField.value;
+    render();
+    remember();
+  });
+  window.addEventListener('openai:set_globals',event => {
+    const globals = event.detail && event.detail.globals;
+    if (globals && Object.prototype.hasOwnProperty.call(globals,'widgetState')) {
+      restore(globals.widgetState);
+      render();
+    }
+  });
+})();
+</script>

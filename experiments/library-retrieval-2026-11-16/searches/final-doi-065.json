@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-2",
+      "doi": "10.1016/s0140-6736(09)60258-0",
+      "title": "Universal health care and the removal of user fees.",
+      "authors": "[\"Yates R\"]",
+      "field": "medicine_health",
+      "q": "\"Universal health care and the removal of user\" Yates filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-2",
+      "query": "\"Universal health care and the removal of user\" Yates filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Universal health care and the removal of user fees",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19362359/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

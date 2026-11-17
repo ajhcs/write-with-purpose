@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-methods_paper-1",
+      "doi": "10.7326/0003-4819-130-6-199903160-00002",
+      "title": "A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation. Modification of Diet in Renal Disease Study Group.",
+      "authors": "[\"Levey AS\", \"Bosch JP\", \"Lewis JB\", \"Greene T\", \"Rogers N\", \"Roth D\"]",
+      "field": "medicine_health",
+      "q": "\"A more accurate method to estimate glomerular filtration\" Levey filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-methods_paper-1",
+      "query": "\"A more accurate method to estimate glomerular filtration\" Levey filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "• Levey AS, Bosch JP, Lewis JB, Greene T, Rogers N, Roth D: A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation. Modification of Diet in Renal Disease Study Group. Ann Intern Med 130:461-470, 1999",
+          "url": "https://www.documents.philips.com/assets/Instruction%20for%20Use/20230307/f27a8c1243814b788903afbe003168ac.pdf?feed=ifu_docs_feed",
+          "score": 1
+        },
+        {
+          "title": "21. Levey AS, Bosch JP, Lewis JB, et al. A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation. *Modification of Diet in Renal Disease Study Group.* *Ann Intern Med* 1999;130:461–70.",
+          "url": "https://bmjopen.bmj.com/content/bmjopen/9/3/e024033.full.pdf",
+          "score": 1
+        },
+        {
+          "title": "A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation. Modification of Diet in Renal Disease Study Group.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10075613/",
+          "score": 1
+        },
+        {
+          "title": "A More Accurate Method To Estimate Glomerular Filtration Rate from Serum Creatinine: A New Prediction Equation",
+          "url": "https://www.tandfonline.com/servlet/linkout?type=Scholix&url=https%3A%2F%2Fdx.doi.org%2F10.7326%252F0003-4819-130-6-199903160-00002",
+          "score": 1
+        },
+        {
+          "title": "A more accurate method to estimate glomerular filtration rate from serum creatinine : a new prediction equation | NDLサーチ | 国立国会図書館",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1571698600450536320",
+          "score": 1
+        },
+        {
+          "title": "A More Accurate Method To Estimate Glomerular Filtration Rate from Serum Creatinine: A New Prediction Equation",
+          "url": "https://www.scienceopen.com/document?vid=5b2feec0-0bfe-4682-abef-f5a77f278431",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

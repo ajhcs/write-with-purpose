@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_038",
+      "doi": "10.1108/jhom-06-2018-0176",
+      "title": "Lean implementation in healthcare supply chain: a scoping review",
+      "authors": "[\"Gabriela Aline Borges\", \"Guilherme Tortorella\", \"Matteo Rossini\", \"Alberto Portioli-Staudacher\"]",
+      "field": "business_management",
+      "q": "\"Lean implementation in healthcare supply chain: a scoping\" Borges filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_038",
+      "query": "\"Lean implementation in healthcare supply chain: a scoping\" Borges filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Lean healthcare supply chain & waste management",
+          "url": "https://www.preprints.org/frontend/manuscript/103b08ef4081be63b4bb87ed705c149d/download_pub",
+          "score": 0.6666666666666666
+        },
+        {
+          "title": "Lean implementation in healthcare supply chain: a scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31122116/",
+          "score": 1
+        },
+        {
+          "title": "Lean implementation in healthcare supply chain: a scoping review | OpenAlex",
+          "url": "https://openalex.org/works/W2940210425",
+          "score": 1
+        },
+        {
+          "title": "Lean implementation in healthcare supply chain: a scoping review",
+          "url": "https://scispace.com/papers/lean-implementation-in-healthcare-supply-chain-a-scoping-u17n9zd1r0",
+          "score": 1
+        },
+        {
+          "title": "Making Healthcare Safer IV: Supply Chain Disruption Monitoring Programs",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK615420/pdf/Bookshelf_NBK615420.pdf",
+          "score": 0.5
+        },
+        {
+          "title": "Simulation-based analysis of lean practices implementation on the supply chain of a public hospital",
+          "url": "https://www.scielo.br/j/prod/a/qYpDgjCwYXdm9BNrqGSkRSm/?format=html",
+          "score": 0.6666666666666666
+        }
+      ]
+    }
+  ]
+}

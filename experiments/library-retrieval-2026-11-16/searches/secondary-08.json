@@ -1,0 +1,98 @@
+{
+  "batch": 8,
+  "queries": [
+    {
+      "candidate_key": "law:law_rulemaking",
+      "doi": "",
+      "title": "The Federal Rulemaking Process: An Overview",
+      "authors": "[\"Maeve P. Carey\"]",
+      "field": "law_public_policy",
+      "q": "\"The Federal Rulemaking Process: An Overview\" pdf"
+    },
+    {
+      "candidate_key": "law:law_avoidance",
+      "doi": "",
+      "title": "The Doctrine of Constitutional Avoidance: A Legal Overview",
+      "authors": "[\"Andrew Nolan\"]",
+      "field": "law_public_policy",
+      "q": "\"The Doctrine of Constitutional Avoidance: A Legal Overview\" pdf"
+    },
+    {
+      "candidate_key": "law:law_executive_orders",
+      "doi": "",
+      "title": "Executive Orders: Issuance, Modification, and Revocation",
+      "authors": "[\"Vivian S. Chu\", \"Todd Garvey\"]",
+      "field": "law_public_policy",
+      "q": "\"Executive Orders: Issuance, Modification, and Revocation\" pdf"
+    },
+    {
+      "candidate_key": "medicine:medicine-personal_reflective_essay-1",
+      "doi": "10.1001/jama.300.12.1393",
+      "title": "A piece of my mind. Who's afraid of the empowered patient?",
+      "authors": "[\"Chiaramonte D\"]",
+      "field": "medicine_health",
+      "q": "\"Who's afraid of the empowered patient?\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_rulemaking",
+      "query": "\"The Federal Rulemaking Process: An Overview\" pdf",
+      "urls": [
+        {
+          "title": "File:RL32240 The Federal Rulemaking Process An Overview (IA RL32240TheFederalRulemakingProcessAnOverview-crs).pdf - Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File%3ARL32240_The_Federal_Rulemaking_Process_An_Overview_%28IA_RL32240TheFederalRulemakingProcessAnOverview-crs%29.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "The Federal Rulemaking Process: An Overview",
+          "url": "https://congressionalresearch.com/RL32240/document.php?study=The+Federal+Rulemaking+Process+An+Overview",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Research Guides: Federal Administrative Law Research Guide: Rulemaking & the Federal Register",
+          "url": "https://libguides.law.umn.edu/c.php?g=125807&p=823482",
+          "score": 0.6,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_avoidance",
+      "query": "\"The Doctrine of Constitutional Avoidance: A Legal Overview\" pdf",
+      "urls": [
+        {
+          "title": "The Doctrine of Constitutional Avoidance: A",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R43706/R43706.3.pdf",
+          "score": 0.6666666666666666,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "law:law_executive_orders",
+      "query": "\"Executive Orders: Issuance, Modification, and Revocation\" pdf",
+      "urls": [
+        {
+          "title": "Executive orders: issuance, modification, and revocation - Free Library Catalog",
+          "url": "https://catalog.freelibrary.org/Record/2514819",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Executive Orders and Other Presidential Documents Sources and Explanations",
+          "url": "https://www.llsdc.org/executive-orders-and-other-presidential-documents",
+          "score": 0.5,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "medicine:medicine-personal_reflective_essay-1",
+      "query": "\"Who's afraid of the empowered patient?\" pdf",
+      "urls": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_edwards_1979",
+      "doi": "10.36646/mjlr.13.1.on",
+      "title": "On Becoming a Lawyer: Some Challenges for the Future",
+      "authors": "[\"Harry T. Edwards\"]",
+      "field": "law_public_policy",
+      "q": "\"On Becoming a Lawyer: Some Challenges for the\" Edwards filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_edwards_1979",
+      "query": "\"On Becoming a Lawyer: Some Challenges for the\" Edwards filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "\"On Becoming a Lawyer: Some Challenges for the Future\" by Harry T. Edwards",
+          "url": "https://repository.law.umich.edu/mjlr/vol13/iss1/2/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

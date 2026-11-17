@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_036",
+      "doi": "10.1177/0170840611416736",
+      "title": "Book Review: Cambridge Handbook of Strategy as Practice",
+      "authors": "[\"Stewart R. Clegg\"]",
+      "field": "business_management",
+      "q": "\"Cambridge Handbook of Strategy as Practice\" Clegg filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_036",
+      "query": "\"Cambridge Handbook of Strategy as Practice\" Clegg filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Cambridge Handbook of Strategy as Practice",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9E91EC8FB4CAA91CBF27E725BA1F3D04/9781009216074int_1-22.pdf/introduction_what_is_strategy_as_practice.pdf",
+          "score": 1
+        },
+        {
+          "title": "Cambridge Handbook of Strategy as Practice",
+          "url": "https://www.cambridge.org/core/books/cambridge-handbook-of-strategy-as-practice/7C62E3CFEE2546575503964D83D61BB8",
+          "score": 1
+        },
+        {
+          "title": "Cambridge Handbook of Strategy as Practice",
+          "url": "https://www.cambridge.org/core/books/cambridge-handbook-of-strategy-as-practice/1AAF572D02EC804947E57322FC04567A",
+          "score": 1
+        },
+        {
+          "title": "Cambridge Handbook of Strategy as Practice",
+          "url": "https://www.cambridge.org/core/books/abs/cambridge-handbook-of-strategy-as-practice/cambridge-handbook-of-strategy-as-practice/9B4401108762C71E03B2795023FF2FDD",
+          "score": 1
+        },
+        {
+          "title": "Cambridge Handbook of Strategy as Practice",
+          "url": "https://www.cambridge.org/core/books/cambridge-handbook-of-strategy-as-practice/25D931561CA99D9BAF3524DC064E8F87/listing",
+          "score": 1
+        },
+        {
+          "title": "Analytical frames for studying power in strategy as practice and beyond",
+          "url": "https://research.em-lyon.com/esploro/outputs/bookChapter/Analytical-frames-for-studying-power-in/9917309709453?institution=33EML_INST&recordUsage=false&skipUsageReporting=true",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

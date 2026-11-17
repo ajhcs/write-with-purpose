@@ -1,0 +1,290 @@
+{
+  "status": "development/debugging; not held-out quality validation or proof of optimization",
+  "guide_hashes_sha256": {
+    "candidate/operative-rules.md": "3f6703101041e24e33c85a6abacc52a442dee3d4cc3523f7c19ef41370dcf2aa",
+    "candidate/coding-clarifications.md": "d1dfd92374476f03d5b5cd783684f061baa981a898cb75a2f7dbf127cdfc3d06",
+    "candidate/rules.json": "d16a838e98f3c8a0b43faa04cdd9c99e26c38fa0595dd5b36a5b89ae621d6e89"
+  },
+  "case_source": "development-cases.json",
+  "records": [
+    {
+      "id": "E01",
+      "actual_output": "The sensor does not transmit while the valve is closed. In the current prototype it records pressure every 5 s. We have not tested it outdoors.",
+      "selected_rule_ids": [
+        "B01",
+        "R01",
+        "B03"
+      ],
+      "changes_and_gains": "Corrected subject-verb agreement; retained sequence, negation, interval and uncertainty.",
+      "losses_or_uncertainties": "No material loss identified.",
+      "rejected_alternative": "not needed for a typo",
+      "semantic_review": "Grammar and meaning checked against supplied source, not against device behavior.",
+      "mechanical_checks": {
+        "word_count_whitespace": 26,
+        "before_word_count_whitespace": 26,
+        "word_count_note": "Preliminary whitespace count; authoritative declared-contract checker may tokenize differently.",
+        "protected_literals": [
+          {
+            "text": "does not transmit",
+            "min_count": 1,
+            "actual_count": 1
+          },
+          {
+            "text": "5 s",
+            "min_count": 1,
+            "actual_count": 1
+          },
+          {
+            "text": "not tested it outdoors",
+            "min_count": 1,
+            "actual_count": 1
+          }
+        ],
+        "declared_max_words": null,
+        "declared_max_growth_words": 0
+      }
+    },
+    {
+      "id": "E02",
+      "actual_output": "The backlog rose from 12 to 30 tickets last month because 36 tickets arrived and 18 were closed. The gap shows that incoming work exceeded closures for that month, but it does not establish how many additional analysts are needed. To reduce the backlog, assess the ticket mix, seasonal demand, and the capacity another analyst could add before deciding on staffing.",
+      "selected_rule_ids": [
+        "B01",
+        "R01",
+        "R02",
+        "R03",
+        "B03"
+      ],
+      "changes_and_gains": "Connected arrivals and closures to the 18-ticket backlog increase; replaced unsupported two-hire conclusion with an evaluation of demand and capacity to guide staffing.",
+      "losses_or_uncertainties": "A process recommendation is made, but exact staffing remains unresolved because capacity, mix and seasonality are unknown.",
+      "rejected_alternative": "Hiring two analysts cannot be inferred from the current evidence.",
+      "semantic_review": "Arithmetic 12+36−18=30; whether evaluation will reduce backlog or estimates will be available remains open.",
+      "mechanical_checks": {
+        "word_count_whitespace": 61,
+        "before_word_count_whitespace": 26,
+        "word_count_note": "Preliminary whitespace count; authoritative declared-contract checker may tokenize differently.",
+        "protected_literals": [],
+        "declared_max_words": null,
+        "declared_max_growth_words": null
+      }
+    },
+    {
+      "id": "E03",
+      "actual_output": "I kept the ticket. It proved nothing, and I knew that. Still, I kept it. By morning the address had smudged; the date stayed. I do not know why that mattered.",
+      "selected_rule_ids": [
+        "B01",
+        "R01",
+        "R03",
+        "B03"
+      ],
+      "changes_and_gains": "Kept the original after comparing the short alternative. Repetition, smudging and the unresolved ending retain their rhythm.",
+      "losses_or_uncertainties": "No substantive change; comparison is editorial judgment, not proof of author acceptance.",
+      "rejected_alternative": "“By morning the address had smudged, but the date remained.” Clarifies contrast but adds a more formal rhythm and weakens the original pause.",
+      "semantic_review": "All story details and uncertainty remain; no explanation of the narrator’s motives added.",
+      "mechanical_checks": {
+        "word_count_whitespace": 31,
+        "before_word_count_whitespace": 31,
+        "word_count_note": "Preliminary whitespace count; authoritative declared-contract checker may tokenize differently.",
+        "protected_literals": [
+          {
+            "text": "I kept it",
+            "min_count": 1,
+            "actual_count": 1
+          },
+          {
+            "text": "I do not know why that mattered.",
+            "min_count": 1,
+            "actual_count": 1
+          }
+        ],
+        "declared_max_words": null,
+        "declared_max_growth_words": null
+      }
+    },
+    {
+      "id": "E04",
+      "actual_output": "This operation is idempotent: retrying it any number of times leaves the status in the same state, Ready. A retry does not append a record or send a notification.",
+      "selected_rule_ids": [
+        "B01",
+        "R01",
+        "R03",
+        "B03"
+      ],
+      "changes_and_gains": "Defined idempotence for this operation through the same resulting state and retained both absent side effects.",
+      "losses_or_uncertainties": "Only the specified behavior is described; no guarantee about failures or other operations is inferred.",
+      "rejected_alternative": "Omitting the standard term would lose vocabulary the learner needs.",
+      "semantic_review": "Definition is scoped to this operation and repeated requests as provided; semantic fidelity requires human review.",
+      "mechanical_checks": {
+        "word_count_whitespace": 29,
+        "before_word_count_whitespace": 22,
+        "word_count_note": "Preliminary whitespace count; authoritative declared-contract checker may tokenize differently.",
+        "protected_literals": [
+          {
+            "text": "idempotent",
+            "min_count": 1,
+            "actual_count": 1
+          },
+          {
+            "text": "Ready",
+            "min_count": 1,
+            "actual_count": 1
+          }
+        ],
+        "declared_max_words": null,
+        "declared_max_growth_words": null
+      }
+    },
+    {
+      "id": "E05",
+      "actual_output": "Teams can spend too long choosing note apps. An app can store every note and still leave a project stuck: a complete record does not by itself tell the team what to ask next. Deciding what to ask is the hard part.",
+      "selected_rule_ids": [
+        "B01",
+        "R01",
+        "R02",
+        "R03",
+        "B03"
+      ],
+      "changes_and_gains": "Made the gap between a complete record and selecting the next inquiry explicit and retained the author’s distinction.",
+      "losses_or_uncertainties": "The bridge is an editorial formulation of the given contrast, not an observed empirical result; author acceptance is unknown.",
+      "rejected_alternative": "A broader claim that teams avoid questions because they fear uncertainty would invent a motive.",
+      "semantic_review": "“Can” keeps the opening impression from being presented as a measured population rate; no new evidence or experience supplied.",
+      "mechanical_checks": {
+        "word_count_whitespace": 42,
+        "before_word_count_whitespace": 28,
+        "word_count_note": "Preliminary whitespace count; authoritative declared-contract checker may tokenize differently.",
+        "protected_literals": [],
+        "declared_max_words": null,
+        "declared_max_growth_words": null
+      }
+    },
+    {
+      "id": "E06",
+      "actual_output": "We warmed the samples to 40 °C for 10 min.",
+      "selected_rule_ids": [
+        "B01",
+        "R01",
+        "R04",
+        "B03"
+      ],
+      "changes_and_gains": "Retained completed warming procedure and removed the unsupported accuracy assertion and reader directive from Methods.",
+      "losses_or_uncertainties": "The removed rationale and recommendation are not supported by the supplied study record; a legitimate rationale might exist elsewhere but was not supplied.",
+      "rejected_alternative": "“Warm samples to improve accuracy” would turn an unsupported claim into instruction.",
+      "semantic_review": "A report of what happened is preserved; the record does not support improved accuracy or a general procedure.",
+      "mechanical_checks": {
+        "word_count_whitespace": 10,
+        "before_word_count_whitespace": 22,
+        "word_count_note": "Preliminary whitespace count; authoritative declared-contract checker may tokenize differently.",
+        "protected_literals": [
+          {
+            "text": "40 °C",
+            "min_count": 1,
+            "actual_count": 1
+          },
+          {
+            "text": "10 min",
+            "min_count": 1,
+            "actual_count": 1
+          }
+        ],
+        "declared_max_words": null,
+        "declared_max_growth_words": null
+      }
+    },
+    {
+      "id": "E07",
+      "actual_output": "No prose rewrite requested. Analysis is recorded as competing hypotheses below.",
+      "selected_rule_ids": [
+        "B01",
+        "R04",
+        "B03"
+      ],
+      "changes_and_gains": "Recorded opposed proposition, hypothetical status, logical support target, and overlapping illustrative and directive roles.",
+      "losses_or_uncertainties": "No independent coder or gold labels; qualify is an unresolved alternative; anchor spans do not establish full realization.",
+      "rejected_alternative": "Treating the hypothetical scenario as an observed case or as evidence of population frequency.",
+      "semantic_review": "The hypothetical case offers a logical counterexample to a universal proposition, provided the proposed rule does cover this approval scenario. It does not establish that delays have a particular prevalence. Keep candidate readings and attribution separate.",
+      "function_instances": [
+        {
+          "candidate_function": "report",
+          "status": "hypothesis: present",
+          "speaker_attribution": "Current writer reports a proposed rule; the rule is an opposed position, not the writer’s endorsed assertion.",
+          "anchor": "The proposed rule says that every delayed task is low priority.",
+          "target": "Proposed universal delay-to-priority rule",
+          "realization_extent": "not_collected"
+        },
+        {
+          "candidate_function": "illustrate",
+          "status": "hypothesis: present",
+          "speaker_attribution": "Current writer offers a hypothetical approval case.",
+          "anchor": "Consider an urgent approval that arrives on Friday when no authorized person is available until Monday.",
+          "target": "Distinction between delay and low priority",
+          "realization_extent": "not_collected"
+        },
+        {
+          "candidate_function": "instruct",
+          "status": "hypothesis: present",
+          "speaker_attribution": "Current writer directs reader to consider a case; this is a cognitive action.",
+          "anchor": "Consider an urgent approval",
+          "target": "Reader’s consideration of the hypothetical",
+          "realization_extent": "not_collected"
+        },
+        {
+          "candidate_function": "support",
+          "status": "hypothesis: present",
+          "speaker_attribution": "Current writer offers a possible counterexample as logical reasoning, not an observed incident.",
+          "anchor": "Consider an urgent approval that arrives on Friday when no authorized person is available until Monday. That possible delay would not establish low priority.",
+          "target": "Writer’s rejection of the proposed universal inference",
+          "realization_extent": "not_collected"
+        },
+        {
+          "candidate_function": "assert",
+          "status": "hypothesis: present",
+          "speaker_attribution": "Current writer advances a bounded objection to the opposed rule.",
+          "anchor": "That possible delay would not establish low priority.",
+          "target": "A possible delay does not establish low priority",
+          "realization_extent": "not_collected"
+        },
+        {
+          "candidate_function": "qualify",
+          "status": "unresolved alternative",
+          "speaker_attribution": "Could be read as limiting a delay-to-priority inference; a rebuttal of the opponent’s rule need not be a qualification of the writer’s claim.",
+          "anchor": "That possible delay would not establish low priority.",
+          "target": "Opposed universal rule, if coded as limited rather than rejected",
+          "realization_extent": "not_collected"
+        }
+      ],
+      "mechanical_checks": {
+        "anchors_exact_substrings": true,
+        "anchor_count": 6,
+        "realization_spans_collected": false
+      }
+    },
+    {
+      "id": "E08",
+      "actual_output": "The operation is retry-safe only while the request identifier stays unchanged: a repeated request returns the existing result. A new identifier starts another operation. This behavior was tested in the prototype, not in production.",
+      "selected_rule_ids": [
+        "B01",
+        "R01",
+        "R03",
+        "B03"
+      ],
+      "changes_and_gains": "Joined the retry condition to its existing-result behavior and retained the consequence of a new identifier and the prototype-only test.",
+      "losses_or_uncertainties": "No cause or production behavior inferred.",
+      "rejected_alternative": "Removing the production qualification would overstate what was tested.",
+      "semantic_review": "Confirm unchanged identifier, result, new-identifier operation and scope manually; a literal match cannot prove them.",
+      "mechanical_checks": {
+        "word_count_whitespace": 34,
+        "before_word_count_whitespace": 38,
+        "word_count_note": "Preliminary whitespace count; authoritative declared-contract checker may tokenize differently.",
+        "protected_literals": [
+          {
+            "text": "retry-safe",
+            "min_count": 1,
+            "actual_count": 1
+          }
+        ],
+        "declared_max_words": 45,
+        "declared_max_growth_words": null
+      }
+    }
+  ],
+  "execution_note": "First execution used operative-rules.md and coding-clarifications.md; rules.json arrived immediately afterward and was inspected as the structured duplicate. Both original guide hashes remained unchanged."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "Partial opening only; not article metrics",
+  "reviewed_paragraphs": 2,
+  "candidate_units_excluded": 60,
+  "unit_counts": [
+    {
+      "id": "manufacturing-001",
+      "word_count": 50,
+      "estimated_sentences": 2
+    },
+    {
+      "id": "manufacturing-002",
+      "word_count": 59,
+      "estimated_sentences": 2
+    }
+  ],
+  "limitations": "Sentence segmentation algorithmic; all other text excluded due OCR and boundary errors."
+}

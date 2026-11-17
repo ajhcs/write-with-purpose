@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-study_review_protocol-2",
+      "doi": "10.1093/ajcn/47.2.366",
+      "title": "Study protocol: a randomized clinical trial of total parenteral nutrition in malnourished surgical patients.",
+      "authors": "[\"Buzby GP\", \"Knox LS\", \"Crosby LO\", \"Eisenberg JM\", \"Haakenson CM\", \"McNeal GE\", \"Page CP\", \"Peterson OL\", \"Reinhardt GF\", \"Williford WO\"]",
+      "field": "medicine_health",
+      "q": "\"Study protocol: a randomized clinical trial of total\" Buzby filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-study_review_protocol-2",
+      "query": "\"Study protocol: a randomized clinical trial of total\" Buzby filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Study protocol: a randomized clinical trial of total parenteral nutrition in malnourished surgical patients",
+          "url": "https://ajcn.nutrition.org/article/S0002-9165%2823%2916593-2/abstract",
+          "score": 1
+        },
+        {
+          "title": "Study protocol: a randomized clinical trial of total parenteral nutrition in malnourished surgical patients.",
+          "url": "https://scispace.com/papers/study-protocol-a-randomized-clinical-trial-of-total-43nw99kvbo",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "source_xml_sha256": "f93142c43a9d09b5e4c84f6a0b2ff1d2755c9b5e04b43077d8b73730c62cce93",
+  "cache_sha256": "ed9c491146ca461a648bd8f0ab5da2056f29a0bcf57817ac80ebee84e208feb5",
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "Introduction",
+      "parent": null,
+      "analyst_role": "introduction"
+    },
+    {
+      "id": "s2",
+      "heading": "Methods",
+      "parent": null,
+      "analyst_role": "methods"
+    },
+    {
+      "id": "s2a",
+      "heading": "Search Strategy and Selection Criteria",
+      "parent": "s2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "s2b",
+      "heading": "Data Extraction",
+      "parent": "s2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "s2c",
+      "heading": "Data Analysis",
+      "parent": "s2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "s3",
+      "heading": "Results",
+      "parent": null,
+      "analyst_role": "results"
+    },
+    {
+      "id": "s4",
+      "heading": "Discussion",
+      "parent": null,
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "s4a",
+      "heading": "Summary of Findings",
+      "parent": "s4",
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "s4b",
+      "heading": "Public Health Implication",
+      "parent": "s4",
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "s4c",
+      "heading": "Biological Plausibility",
+      "parent": "s4",
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "s4d",
+      "heading": "Limitations",
+      "parent": "s4",
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "s4e",
+      "heading": "Conclusions",
+      "parent": "s4",
+      "analyst_role": "conclusion"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "xml-02282-p001",
+      "section_id": "s1",
+      "source_xml_path": "/article/body/sec[1]/p[1]",
+      "start": 0,
+      "end": 2423,
+      "span_sha256": "3e4267b7b05c5cfc07b5df19876259edd1f68738a3ea015c1d882931ab0476dd",
+      "functions": [
+        "orient",
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Context, uncertainty about direction, review purpose and exclusion of reverse association.",
+      "analyst_role": "introduction",
+      "word_count": 388
+    },
+    {
+      "id": "xml-02282-p002",
+      "section_id": "s2",
+      "source_xml_path": "/article/body/sec[2]/p[1]",
+      "start": 2425,
+      "end": 2678,
+      "span_sha256": "be82ef3a8f7db47bfc03148a1a02d993184a5fa7679a6f86a8d3dfadb0c22abe",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Reports MOOSE reporting approach.",
+      "analyst_role": "methods",
+      "word_count": 37
+    },
+    {
+      "id": "xml-02282-p003",
+      "section_id": "s2a",
+      "source_xml_path": "/article/body/sec[2]/sec[1]/p[1]",
+      "start": 2680,
+      "end": 4441,
+      "span_sha256": "4b8e5dcb56e35f55e3d66232f66319d3223d68170175a9bae874a8c6f92d4e29",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Database and supplementary search; eligibility and exclusions.",
+      "analyst_role": "methods",
+      "word_count": 282
+    },
+    {
+      "id": "xml-02282-p004",
+      "section_id": "s2b",
+      "source_xml_path": "/article/body/sec[2]/sec[2]/p[1]",
+      "start": 4443,
+      "end": 5303,
+      "span_sha256": "ffd5fb311bebdee9ae29dc948c5786941bb0ffd1bbf350aea59ed47912048647",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Independent extraction and consensus, with external background incidence sources.",
+      "analyst_role": "methods",
+      "word_count": 124
+    },
+    {
+      "id": "xml-02282-p005",
+      "section_id": "s2c",
+      "source_xml_path": "/article/body/sec[2]/sec[3]/p[1]",
+      "start": 5305,
+      "end": 6496,
+      "span_sha256": "f5842fcf79fdcc275b5d459fb4c1ae6a20582663dca7d5f259ef801f1db42277",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Analysis and rationale for pooling model.",
+      "analyst_role": "methods",
+      "word_count": 181
+    },
+    {
+      "id": "xml-02282-p006",
+      "section_id": "s2c",
+      "source_xml_path": "/article/body/sec[2]/sec[3]/p[2]",
+      "start": 6498,
+      "end": 8761,
+      "span_sha256": "58454820c175b96ee69c917593b2bcdfbcfa31c4001869c74b2ca28fb5b3b290",
+      "functions": [
+        "report",
+        "define",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Sensitivity analysis, quality criteria, assumptions and meta-regression.",
+      "analyst_role": "methods",
+      "word_count": 335
+    },
+    {
+      "id": "xml-02282-p007",
+      "section_id": "s2c",
+      "source_xml_path": "/article/body/sec[2]/sec[3]/p[3]",
+      "start": 8763,
+      "end": 9420,
+      "span_sha256": "aea1366384b810759724813a87d3a2f74edd0faac52b5ca0fed107b5d275a817",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Age effect modification analysis.",
+      "analyst_role": "methods",
+      "word_count": 112
+    },
+    {
+      "id": "xml-02282-p008",
+      "section_id": "s2c",
+      "source_xml_path": "/article/body/sec[2]/sec[3]/p[4]",
+      "start": 9422,
+      "end": 9652,
+      "span_sha256": "c4c4a25e6cbacf1ec72ee38cffc0ef749798ed3cedde623b26344fa706b0a5ee",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Publication-bias tests and software.",
+      "analyst_role": "methods",
+      "word_count": 40
+    },
+    {
+      "id": "xml-02282-p009",
+      "section_id": "s3",
+      "source_xml_path": "/article/body/sec[3]/p[1]",
+      "start": 9654,
+      "end": 11973,
+      "span_sha256": "a27dbf726059a6af42d4b4f4205243c6bf5dd792873b36fc69760835fdc3a801",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Study flow and included-study characteristics.",
+      "analyst_role": "results",
+      "word_count": 389
+    },
+    {
+      "id": "xml-02282-p010",
+      "section_id": "s3",
+      "source_xml_path": "/article/body/sec[3]/p[2]",
+      "start": 11975,
+      "end": 12902,
+      "span_sha256": "aeadbea52b114ed3b532494f63839bd32c3fc78c2385b92525362a91a6867b8e",
+      "functions": [
+        "report",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Effects across designs, heterogeneity and confidence interval.",
+      "analyst_role": "results",
+      "word_count": 149
+    },
+    {
+      "id": "xml-02282-p011",
+      "section_id": "s3",
+      "source_xml_path": "/article/body/sec[3]/p[3]",
+      "start": 12904,
+      "end": 13546,
+      "span_sha256": "eb3f8013292335191a96e9f1cfd4dd1123d553c7ea66d4d1b9614f396c5a7ba8",
+      "functions": [
+        "report",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Subgroup estimates and nonsignificant trend.",
+      "analyst_role": "results",
+      "word_count": 103
+    },
+    {
+      "id": "xml-02282-p012",
+      "section_id": "s3",
+      "source_xml_path": "/article/body/sec[3]/p[4]",
+      "start": 13548,
+      "end": 14149,
+      "span_sha256": "5361a60344e8c35e04ae8d0b7c3357df0454f33780cd6ef3d49991e12733a4eb",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Regional and ethnicity subgroup comparison.",
+      "analyst_role": "results",
+      "word_count": 97
+    },
+    {
+      "id": "xml-02282-p013",
+      "section_id": "s3",
+      "source_xml_path": "/article/body/sec[3]/p[5]",
+      "start": 14151,
+      "end": 15845,
+      "span_sha256": "f8ac0f7c556783e76e05448c0904b755403b222ad3d90e86758792991c895bf3",
+      "functions": [
+        "report",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Quality-related subgroup contrasts with caveat.",
+      "analyst_role": "results",
+      "word_count": 265
+    },
+    {
+      "id": "xml-02282-p014",
+      "section_id": "s3",
+      "source_xml_path": "/article/body/sec[3]/p[6]",
+      "start": 15847,
+      "end": 16446,
+      "span_sha256": "ce7bd8e9a03f563191ac23ebfad49aaa2d997d4218642249cb60888bc3a82a8f",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Age-stratified results and heterogeneous patterns.",
+      "analyst_role": "results",
+      "word_count": 109
+    },
+    {
+      "id": "xml-02282-p015",
+      "section_id": "s3",
+      "source_xml_path": "/article/body/sec[3]/p[7]",
+      "start": 16448,
+      "end": 16543,
+      "span_sha256": "acfcc061daa878aa1163be59e30bac924dbb2d486b6b2dafcabdd36383d566d5",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Tests for publication bias.",
+      "analyst_role": "results",
+      "word_count": 16
+    },
+    {
+      "id": "xml-02282-p016",
+      "section_id": "s4a",
+      "source_xml_path": "/article/body/sec[4]/sec[1]/p[1]",
+      "start": 16545,
+      "end": 18132,
+      "span_sha256": "c57de344e919cacc6b2ba124f16a58b2a6efdf601791fb211b1b2d41ac1e7eb7",
+      "functions": [
+        "report",
+        "interpret",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Summary, possible heterogeneity explanations, population limitation, comparison with prior review.",
+      "analyst_role": "discussion",
+      "word_count": 251
+    },
+    {
+      "id": "xml-02282-p017",
+      "section_id": "s4b",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/p[1]",
+      "start": 18134,
+      "end": 19755,
+      "span_sha256": "45e0f8aaf8f79c8a8637f532966e6d2d743459ab9fe1822df2857df00380e6ad",
+      "functions": [
+        "interpret",
+        "illustrate",
+        "compare",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Conditional example and comparison of population burden, with proposed confounding explanation.",
+      "analyst_role": "discussion",
+      "word_count": 289
+    },
+    {
+      "id": "xml-02282-p018",
+      "section_id": "s4c",
+      "source_xml_path": "/article/body/sec[4]/sec[3]/p[1]",
+      "start": 19757,
+      "end": 21545,
+      "span_sha256": "de759c3af10f25887e6624d858a64a945d1ed39197b59dce93a51d11fce65ed0",
+      "functions": [
+        "support",
+        "compare",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Biological evidence linked to proposed causal mechanism.",
+      "analyst_role": "discussion",
+      "word_count": 264
+    },
+    {
+      "id": "xml-02282-p019",
+      "section_id": "s4d",
+      "source_xml_path": "/article/body/sec[4]/sec[4]/p[1]",
+      "start": 21547,
+      "end": 22767,
+      "span_sha256": "228f1b6de8cb2ac086505d40aaa7199095c26e4a069ca118d1440cc170e53fd7",
+      "functions": [
+        "qualify",
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Observational confounding and residual uncertainty, including sensitivity analysis.",
+      "analyst_role": "discussion",
+      "word_count": 189
+    },
+    {
+      "id": "xml-02282-p020",
+      "section_id": "s4d",
+      "source_xml_path": "/article/body/sec[4]/sec[4]/p[2]",
+      "start": 22769,
+      "end": 25112,
+      "span_sha256": "e0c46c41e2be08fa133faa1b06edf03867f18c8ee0eeeb7675611aa6229fa4b8",
+      "functions": [
+        "qualify",
+        "define",
+        "explain",
+        "compare",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Selection and misclassification biases and alternative explanations.",
+      "analyst_role": "discussion",
+      "word_count": 358
+    },
+    {
+      "id": "xml-02282-p021",
+      "section_id": "s4d",
+      "source_xml_path": "/article/body/sec[4]/sec[4]/p[3]",
+      "start": 25114,
+      "end": 26726,
+      "span_sha256": "7f37d3e314ed555105e71986e841df4dd96f029142affe44697ecfd1589fa6c4",
+      "functions": [
+        "qualify",
+        "compare",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Incomplete age-effect evidence and competing explanations.",
+      "analyst_role": "discussion",
+      "word_count": 274
+    },
+    {
+      "id": "xml-02282-p022",
+      "section_id": "s4e",
+      "source_xml_path": "/article/body/sec[4]/sec[5]/p[1]",
+      "start": 26728,
+      "end": 27643,
+      "span_sha256": "4b99c23c251dab8f07daf6c53be0ec90357f3860b054dbf5588a0b17083502ac",
+      "functions": [
+        "report",
+        "interpret",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Concluding synthesis and recommendations for programs and further research.",
+      "analyst_role": "conclusion",
+      "word_count": 141
+    }
+  ],
+  "encountered_element_counts": {
+    "sec": 18,
+    "title": 12,
+    "p": 22,
+    "boxed-text": 1,
+    "fig": 3,
+    "table-wrap": 3
+  },
+  "document_id": "xml-02282",
+  "offset_units": "zero-based Unicode code points, end-exclusive",
+  "scope": "Main-body prose paragraphs, excluding nested lists, figures, tables, captions, boxes, supplements and administrative sections; normalized XML text.",
+  "method_checks": {
+    "introduction_question_gap": "present p001",
+    "search_selection": "present p003 and p009",
+    "extraction": "present p004",
+    "appraisal": "present p006 and p013",
+    "synthesis": "present p005–p008",
+    "study_flow": "present p009",
+    "findings_uncertainty": "present p010–p015",
+    "comparison_limits_implications": "present p016–p021",
+    "conclusion": "present p022",
+    "combined_or_unheaded": "Introductory context, prior evidence, gap and aim combined in one paragraph; methods reporting guideline at parent before search subsections."
+  }
+}

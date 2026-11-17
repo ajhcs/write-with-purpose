@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-procedure_how_to-2",
+      "doi": "10.1200/jco.2007.12.9791",
+      "title": "How to build and interpret a nomogram for cancer prognosis.",
+      "authors": "[\"Iasonos A\", \"Schrag D\", \"Raj GV\", \"Panageas KS\"]",
+      "field": "medicine_health",
+      "q": "\"How to build and interpret a nomogram for\" Iasonos filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-procedure_how_to-2",
+      "query": "\"How to build and interpret a nomogram for\" Iasonos filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "28. Iasonos A, Schrag D, Raj GV, Panageas KS. How to build and interpret a nomogram for cancer prognosis. J Clin Oncol. 2008;26(8):1364–70.",
+          "url": "https://assets-eu.researchsquare.com/files/rs-1622093/v1/038619c6-f359-44ac-b094-957866dd7d1e.pdf?c=1714227320",
+          "score": 1
+        },
+        {
+          "title": "How To Build and Interpret a Nomogram for Cancer Prognosis",
+          "url": "https://ascopubs.org/doi/pdf/10.1200/JCO.2007.12.9791",
+          "score": 1
+        },
+        {
+          "title": "How To Build and Interpret a Nomogram for Cancer Prognosis",
+          "url": "https://ascopubs.org/doi/10.1200/JCO.2007.12.9791",
+          "score": 1
+        },
+        {
+          "title": "How To Build and Interpret a Nomogram for Cancer Prognosis",
+          "url": "https://ascopubs.org/doi/abs/10.1200/jco.2007.12.9791",
+          "score": 1
+        },
+        {
+          "title": "How To Build and Interpret a Nomogram for Cancer Prognosis",
+          "url": "https://ascopubs.org/doi/abs/10.1200/JCO.2007.12.9791",
+          "score": 1
+        },
+        {
+          "title": "How To Build and Interpret a Nomogram for Cancer Prognosis",
+          "url": "https://ascopubs.org/doi/abs/10.1200/JCO.2007.12.9791?role=tab",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

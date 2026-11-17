@@ -1,0 +1,924 @@
+{
+  "purpose": "Source-to-project function crosswalk for review; no plugin or catalogue changes.",
+  "project_source": "docs/writing-harness/paragraph-functions.json",
+  "status": "Proposed mappings, not validated conversion; functions may coexist and cross paragraphs.",
+  "inspection": "Original MuLMS codebook and AZ, SciPara and SciDTB papers inspected. Local AZ archive inspected and all 80 files counted; all 50 MuLMS XMI files parsed and raw attribute values counted; SciDTB D14-1101 EDU sample inspected. SciPara pickle was not executed.",
+  "rows": [
+    {
+      "dataset": "AZ",
+      "original_label": "BACKGROUND",
+      "definition_source": {
+        "url": "https://aclanthology.org/E99-1015.pdf",
+        "anchor": "Figure 1, p.112"
+      },
+      "source_definition_paraphrase": "General established knowledge",
+      "annotation_unit": "sentence in paper",
+      "proposed_functions": [
+        "report",
+        "orient",
+        "define"
+      ],
+      "mapping_kind": "partial",
+      "necessary_context": "Reader need and text contribution",
+      "counterexample": "A domain fact can report without orienting.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 789,
+      "count_basis": "locally counted AZ attributes across 80 .az-scixml files; includes abstract and body sentence/item elements; not paragraph counts",
+      "notes": "1999 scheme long label paired with actual abbreviated XML value.",
+      "serialized_label": "BKG"
+    },
+    {
+      "dataset": "AZ",
+      "original_label": "OTHER",
+      "definition_source": {
+        "url": "https://aclanthology.org/E99-1015.pdf",
+        "anchor": "Figure 1, p.112"
+      },
+      "source_definition_paraphrase": "Neutral description of specific other work",
+      "annotation_unit": "sentence in paper",
+      "proposed_functions": [
+        "report"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Attribution and source content",
+      "counterexample": "Prior work does not automatically support the present claim.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 2019,
+      "count_basis": "locally counted AZ attributes across 80 .az-scixml files; includes abstract and body sentence/item elements; not paragraph counts",
+      "notes": "1999 scheme long label paired with actual abbreviated XML value.",
+      "serialized_label": "OTH"
+    },
+    {
+      "dataset": "AZ",
+      "original_label": "OWN",
+      "definition_source": {
+        "url": "https://aclanthology.org/E99-1015.pdf",
+        "anchor": "Figure 1, p.112"
+      },
+      "source_definition_paraphrase": "Own work except AIM and TEXTUAL, including methods and limits",
+      "annotation_unit": "sentence in paper",
+      "proposed_functions": [
+        "report",
+        "qualify",
+        "assert",
+        "interpret"
+      ],
+      "mapping_kind": "partial",
+      "necessary_context": "Method, limit, planned or completed work",
+      "counterexample": "Reporting methods does not instruct a reader.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 8623,
+      "count_basis": "locally counted AZ attributes across 80 .az-scixml files; includes abstract and body sentence/item elements; not paragraph counts",
+      "notes": "1999 scheme long label paired with actual abbreviated XML value.",
+      "serialized_label": "OWN"
+    },
+    {
+      "dataset": "AZ",
+      "original_label": "AIM",
+      "definition_source": {
+        "url": "https://aclanthology.org/E99-1015.pdf",
+        "anchor": "Figure 1, p.112"
+      },
+      "source_definition_paraphrase": "Main research goal",
+      "annotation_unit": "sentence in paper",
+      "proposed_functions": [
+        "orient",
+        "assert"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Purpose, reader and proposal",
+      "counterexample": "Study aim does not necessarily state a hypothesis.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 314,
+      "count_basis": "locally counted AZ attributes across 80 .az-scixml files; includes abstract and body sentence/item elements; not paragraph counts",
+      "notes": "1999 scheme long label paired with actual abbreviated XML value.",
+      "serialized_label": "AIM"
+    },
+    {
+      "dataset": "AZ",
+      "original_label": "TEXTUAL",
+      "definition_source": {
+        "url": "https://aclanthology.org/E99-1015.pdf",
+        "anchor": "Figure 1, p.112"
+      },
+      "source_definition_paraphrase": "Statement on textual organization",
+      "annotation_unit": "sentence in paper",
+      "proposed_functions": [
+        "orient"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Navigation role and surrounding text",
+      "counterexample": "A bare heading is not necessarily orientation.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 227,
+      "count_basis": "locally counted AZ attributes across 80 .az-scixml files; includes abstract and body sentence/item elements; not paragraph counts",
+      "notes": "1999 scheme long label paired with actual abbreviated XML value.",
+      "serialized_label": "TXT"
+    },
+    {
+      "dataset": "AZ",
+      "original_label": "CONTRAST",
+      "definition_source": {
+        "url": "https://aclanthology.org/E99-1015.pdf",
+        "anchor": "Figure 1, p.112"
+      },
+      "source_definition_paraphrase": "Contrasts, weaknesses or novelty versus prior work",
+      "annotation_unit": "sentence in paper",
+      "proposed_functions": [
+        "compare",
+        "qualify",
+        "orient"
+      ],
+      "mapping_kind": "partial",
+      "necessary_context": "Objects, comparison dimension and affected claim",
+      "counterexample": "A novelty assertion need not compare alternatives.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 600,
+      "count_basis": "locally counted AZ attributes across 80 .az-scixml files; includes abstract and body sentence/item elements; not paragraph counts",
+      "notes": "1999 scheme long label paired with actual abbreviated XML value.",
+      "serialized_label": "CTR"
+    },
+    {
+      "dataset": "AZ",
+      "original_label": "BASIS",
+      "definition_source": {
+        "url": "https://aclanthology.org/E99-1015.pdf",
+        "anchor": "Figure 1, p.112"
+      },
+      "source_definition_paraphrase": "Own work builds on or obtains support from other work",
+      "annotation_unit": "sentence in paper",
+      "proposed_functions": [
+        "report",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Whether borrowed method or evidence and target claim",
+      "counterexample": "Using an earlier method does not necessarily support a conclusion.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 246,
+      "count_basis": "locally counted AZ attributes across 80 .az-scixml files; includes abstract and body sentence/item elements; not paragraph counts",
+      "notes": "1999 scheme long label paired with actual abbreviated XML value.",
+      "serialized_label": "BAS"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "MOTIVATION",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§2.1 p.5"
+      },
+      "source_definition_paraphrase": "Study aim, rationale, rhetorical question or paper organization",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [
+        "orient",
+        "assert"
+      ],
+      "mapping_kind": "partial",
+      "necessary_context": "Which contribution and reader need",
+      "counterexample": "A section roadmap is not a hypothesis.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 363,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Motivation",
+      "raw_xmi_element_count": 372,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "BACKGROUND",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§2.2 p.5"
+      },
+      "source_definition_paraphrase": "Domain knowledge or literature state",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [
+        "report",
+        "define",
+        "orient",
+        "explain"
+      ],
+      "mapping_kind": "partial",
+      "necessary_context": "Whether preparing reader, defining or explaining",
+      "counterexample": "A domain fact mid-section need not orient.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 3155,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Background",
+      "raw_xmi_element_count": 3159,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "BACKGROUND/PRIOR WORK",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§2.3 pp.5–6"
+      },
+      "source_definition_paraphrase": "Specific relevant prior study",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [
+        "report",
+        "compare",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Attribution, objects and evidence-to-claim relation",
+      "counterexample": "A neutral literature summary need not support the present claim.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 1824,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Background_PriorWork",
+      "raw_xmi_element_count": 1840,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "EXPERIMENTS",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§2.4 p.6"
+      },
+      "source_definition_paraphrase": "Experimental features or simulation execution",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [
+        "report",
+        "explain"
+      ],
+      "mapping_kind": "partial",
+      "necessary_context": "Completed versus planned work and purpose",
+      "counterexample": "A completed method does not instruct the reader.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 2579,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Experiment",
+      "raw_xmi_element_count": 2582,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "EXPERIMENTS/PREPARATION",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§2.5 p.6"
+      },
+      "source_definition_paraphrase": "Preparation steps, materials or simulation setup",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [
+        "report",
+        "instruct"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Directed executable actions versus description",
+      "counterexample": "A supplier name is not an instruction.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 962,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Exp_Preparation",
+      "raw_xmi_element_count": 1470,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "EXPERIMENTS/CHARACTERIZATION",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§2.6 pp.6–7"
+      },
+      "source_definition_paraphrase": "Characterization methods, measurement and data extraction",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [
+        "report",
+        "define"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Whether operational meaning is established",
+      "counterexample": "Naming an assay does not define its measurement.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 1347,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Exp_Characterization",
+      "raw_xmi_element_count": 1358,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "EXPLANATION",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§2.7 p.7"
+      },
+      "source_definition_paraphrase": "Study-specific mechanisms and assumptions",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [
+        "explain",
+        "assert",
+        "qualify"
+      ],
+      "mapping_kind": "partial",
+      "necessary_context": "Mechanism, author claim and affected scope",
+      "counterexample": "An assumption is not necessarily a causal explanation.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 603,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Explanation",
+      "raw_xmi_element_count": 604,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "EXPLANATION/ASSUMPTION",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§2.8 p.7"
+      },
+      "source_definition_paraphrase": "Study-specific approximation or assumption",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [
+        "assert",
+        "qualify"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "What claim is bounded and author stance",
+      "counterexample": "A modeling assumption without limiting a claim is not necessarily qualify.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Explanation_Assumption",
+      "raw_xmi_element_count": 51,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "EXPLANATION/HYPOTHESIS",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§2.9 p.7"
+      },
+      "source_definition_paraphrase": "Post-hoc proposed explanation without supplied evidence",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [
+        "assert",
+        "explain",
+        "interpret"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Author, hypothesis, inference and mechanism",
+      "counterexample": "A speculative claim without mechanism is not a full explanation.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Explanation_Hypothesis",
+      "raw_xmi_element_count": 158,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "RESULTS",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§2.10 p.7"
+      },
+      "source_definition_paraphrase": "Current experiment results, trends or image contents",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [
+        "report",
+        "compare"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Observed quantities and comparison dimension",
+      "counterexample": "A measurement is not automatically interpretation.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 2953,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Results",
+      "raw_xmi_element_count": 2974,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "CONCLUSION",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§2.11 pp.7–8"
+      },
+      "source_definition_paraphrase": "Overall judgments or findings based on current results",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [
+        "interpret",
+        "report",
+        "assert",
+        "define"
+      ],
+      "mapping_kind": "partial",
+      "necessary_context": "Inference versus faithful recap, attribution, new concept",
+      "counterexample": "A recap of earlier finding is report, not necessarily interpret.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 680,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Conclusion",
+      "raw_xmi_element_count": 684,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "SYNTHESIS PROCEDURE",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§1.5 p.4"
+      },
+      "source_definition_paraphrase": "Listed in taxonomy; no definition located",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context": "Definition and occurrence in release",
+      "counterexample": "Label name alone does not establish instruction.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review."
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "ABSTRACT",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§3.1 p.9"
+      },
+      "source_definition_paraphrase": "Sentences in abstract",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context": "Structural information",
+      "counterexample": "An abstract may include many functions.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 269,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Abstract",
+      "raw_xmi_element_count": 270,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "HEADING",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§3.2 p.9"
+      },
+      "source_definition_paraphrase": "Title or heading including numbered headings",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context": "Structural information",
+      "counterexample": "Heading alone does not establish paragraph function.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 702,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Heading",
+      "raw_xmi_element_count": 721,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "METADATA",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§3.3 p.9"
+      },
+      "source_definition_paraphrase": "Ancillary author, licensing, DOI and other metadata",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context": "Structural information",
+      "counterexample": "DOI presence does not prove support.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 210,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Metadata",
+      "raw_xmi_element_count": 223,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "CAPTION",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§3.4 p.9"
+      },
+      "source_definition_paraphrase": "Figure or table caption",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context": "Structural information",
+      "counterexample": "A caption may report a result but label alone cannot decide.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 485,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Caption",
+      "raw_xmi_element_count": 616,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "MuLMS-AZ",
+      "original_label": "FIGURE/TABLE",
+      "definition_source": {
+        "url": "https://raw.githubusercontent.com/boschresearch/mulms-az-codi2023/main/annotation%20guidelines/MuLMS-AZ_Guidelines.pdf",
+        "anchor": "§3.5 p.9"
+      },
+      "source_definition_paraphrase": "Transcribed text from figures or tables",
+      "annotation_unit": "sentence; guide allows spans, modeling projects span labels to sentence",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context": "Structure and content",
+      "counterexample": "A table is not itself evidence that supports a claim.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Guide spelling; repository README and serialized data may use different label names. No count means codebook-only in this review.",
+      "serialized_label": "Figure/Table",
+      "raw_xmi_element_count": 13,
+      "raw_xmi_count_basis": "local count of ContentInformation or StructureInformation exact attribute on MatSci_Sentence elements in 50 XMI files; includes unprojected spans and overlaps, not paper sentence counts"
+    },
+    {
+      "dataset": "SciPara",
+      "original_label": "Topic Sentence",
+      "definition_source": {
+        "url": "https://aclanthology.org/2024.codi-1.2.pdf",
+        "anchor": "§2.2, Table 1 pp.13–14"
+      },
+      "source_definition_paraphrase": "Central theme expanded by other paragraph sentences",
+      "annotation_unit": "sentence within paragraph",
+      "proposed_functions": [
+        "assert",
+        "report",
+        "orient"
+      ],
+      "mapping_kind": "partial",
+      "necessary_context": "Paragraph and authorship",
+      "counterexample": "A measurement topic need not assert a position.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 724,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": null
+    },
+    {
+      "dataset": "SciPara",
+      "original_label": "Supporting Sentence",
+      "definition_source": {
+        "url": "https://aclanthology.org/2024.codi-1.2.pdf",
+        "anchor": "§2.2, Table 1 pp.13–14"
+      },
+      "source_definition_paraphrase": "Information bolstering topic, e.g. explanation, elaboration or example",
+      "annotation_unit": "sentence within paragraph",
+      "proposed_functions": [
+        "explain",
+        "illustrate",
+        "report",
+        "support"
+      ],
+      "mapping_kind": "partial",
+      "necessary_context": "Whether evidentiary support and identifiable claim",
+      "counterexample": "A descriptive example elaborating a topic may not support a claim.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 2869,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": null
+    },
+    {
+      "dataset": "SciPara",
+      "original_label": "Concluding Sentence",
+      "definition_source": {
+        "url": "https://aclanthology.org/2024.codi-1.2.pdf",
+        "anchor": "§2.2, Table 1 pp.13–14"
+      },
+      "source_definition_paraphrase": "Summarizes and closes paragraph narrative",
+      "annotation_unit": "sentence within paragraph",
+      "proposed_functions": [
+        "report",
+        "interpret"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Recap versus new inference and attribution",
+      "counterexample": "Recapping another source is report, not necessarily interpret.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 273,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": null
+    },
+    {
+      "dataset": "SciPara",
+      "original_label": "Transition Sentence",
+      "definition_source": {
+        "url": "https://aclanthology.org/2024.codi-1.2.pdf",
+        "anchor": "§2.2, Table 1 pp.13–14"
+      },
+      "source_definition_paraphrase": "Connects paragraph to next",
+      "annotation_unit": "sentence within paragraph",
+      "proposed_functions": [
+        "orient"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Both paragraphs and purpose",
+      "counterexample": "A connective alone need not orient.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 188,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": null
+    },
+    {
+      "dataset": "SciPara",
+      "original_label": "Off-Topic Sentence",
+      "definition_source": {
+        "url": "https://aclanthology.org/2024.codi-1.2.pdf",
+        "anchor": "§2.2, Table 1 pp.13–14"
+      },
+      "source_definition_paraphrase": "Lacks information pertinent to topic",
+      "annotation_unit": "sentence within paragraph",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context": "Topic and broader context",
+      "counterexample": "A necessary qualification might seem off-topic under narrow topic selection.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 3,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": null
+    },
+    {
+      "dataset": "SciPara",
+      "original_label": "Redundant Sentence",
+      "definition_source": {
+        "url": "https://aclanthology.org/2024.codi-1.2.pdf",
+        "anchor": "§2.2, Table 1 pp.13–14"
+      },
+      "source_definition_paraphrase": "Content already stated in paragraph",
+      "annotation_unit": "sentence within paragraph",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context": "Both statements and rhetorical purpose",
+      "counterexample": "Purposeful restatement can still serve a function.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": 14,
+      "count_basis": "source paper reported sentence-label counts, not independently counted or paragraph counts",
+      "notes": null
+    },
+    {
+      "dataset": "SciDTB",
+      "original_label": "Attribution",
+      "definition_source": {
+        "url": "https://aclanthology.org/P18-2071.pdf",
+        "anchor": "§2.2, Table 1 pp.445–446"
+      },
+      "source_definition_paraphrase": "Relation in inventory; paper does not separately define every relation",
+      "annotation_unit": "directed relation between elementary discourse units in abstract",
+      "proposed_functions": [
+        "report"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Claim owner, target and stance",
+      "counterexample": "Attribution does not establish author endorsement.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Coarse: fine table names; raw serialized values may differ; relation is not paragraph role."
+    },
+    {
+      "dataset": "SciDTB",
+      "original_label": "Background: Goal",
+      "definition_source": {
+        "url": "https://aclanthology.org/P18-2071.pdf",
+        "anchor": "§2.2, Table 1 pp.445–446"
+      },
+      "source_definition_paraphrase": "Relation in inventory; paper does not separately define every relation",
+      "annotation_unit": "directed relation between elementary discourse units in abstract",
+      "proposed_functions": [
+        "orient",
+        "assert"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Linked spans and role of goal",
+      "counterexample": "An objective need not be a hypothesis.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Coarse: fine table names; raw serialized values may differ; relation is not paragraph role."
+    },
+    {
+      "dataset": "SciDTB",
+      "original_label": "Cause-effect: Cause",
+      "definition_source": {
+        "url": "https://aclanthology.org/P18-2071.pdf",
+        "anchor": "§2.2, Table 1 pp.445–446"
+      },
+      "source_definition_paraphrase": "Relation in inventory; paper does not separately define every relation",
+      "annotation_unit": "directed relation between elementary discourse units in abstract",
+      "proposed_functions": [
+        "explain"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Both spans and causal relationship",
+      "counterexample": "Sequence alone is not causation.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Coarse: fine table names; raw serialized values may differ; relation is not paragraph role."
+    },
+    {
+      "dataset": "SciDTB",
+      "original_label": "Comparison: Comparison",
+      "definition_source": {
+        "url": "https://aclanthology.org/P18-2071.pdf",
+        "anchor": "§2.2, Table 1 pp.445–446"
+      },
+      "source_definition_paraphrase": "Relation in inventory; paper does not separately define every relation",
+      "annotation_unit": "directed relation between elementary discourse units in abstract",
+      "proposed_functions": [
+        "compare"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Two spans and shared comparison dimension",
+      "counterexample": "Mentioning two objects alone is not a comparison.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Coarse: fine table names; raw serialized values may differ; relation is not paragraph role."
+    },
+    {
+      "dataset": "SciDTB",
+      "original_label": "Contrast: Contrast",
+      "definition_source": {
+        "url": "https://aclanthology.org/P18-2071.pdf",
+        "anchor": "§2.2, Table 1 pp.445–446"
+      },
+      "source_definition_paraphrase": "Relation in inventory; paper does not separately define every relation",
+      "annotation_unit": "directed relation between elementary discourse units in abstract",
+      "proposed_functions": [
+        "compare",
+        "qualify"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Both spans and affected claim",
+      "counterexample": "Different observations do not automatically limit a claim.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Coarse: fine table names; raw serialized values may differ; relation is not paragraph role."
+    },
+    {
+      "dataset": "SciDTB",
+      "original_label": "Elaboration: Definition",
+      "definition_source": {
+        "url": "https://aclanthology.org/P18-2071.pdf",
+        "anchor": "§2.2, Table 1 pp.445–446"
+      },
+      "source_definition_paraphrase": "Relation in inventory; paper does not separately define every relation",
+      "annotation_unit": "directed relation between elementary discourse units in abstract",
+      "proposed_functions": [
+        "define"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Defined term and distinguishing properties",
+      "counterexample": "Expanding an acronym alone need not define the concept.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Coarse: fine table names; raw serialized values may differ; relation is not paragraph role."
+    },
+    {
+      "dataset": "SciDTB",
+      "original_label": "Elaboration: Example",
+      "definition_source": {
+        "url": "https://aclanthology.org/P18-2071.pdf",
+        "anchor": "§2.2, Table 1 pp.445–446"
+      },
+      "source_definition_paraphrase": "Relation in inventory; paper does not separately define every relation",
+      "annotation_unit": "directed relation between elementary discourse units in abstract",
+      "proposed_functions": [
+        "illustrate"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "General concept and example status",
+      "counterexample": "An example is not necessarily empirical support.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Coarse: fine table names; raw serialized values may differ; relation is not paragraph role."
+    },
+    {
+      "dataset": "SciDTB",
+      "original_label": "Explain: Evidence",
+      "definition_source": {
+        "url": "https://aclanthology.org/P18-2071.pdf",
+        "anchor": "§2.2, Table 1 pp.445–446"
+      },
+      "source_definition_paraphrase": "Relation in inventory; paper does not separately define every relation",
+      "annotation_unit": "directed relation between elementary discourse units in abstract",
+      "proposed_functions": [
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Identifiable claim, evidence and direction",
+      "counterexample": "An adjacent datum need not support a claim.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Coarse: fine table names; raw serialized values may differ; relation is not paragraph role."
+    },
+    {
+      "dataset": "SciDTB",
+      "original_label": "Explain: Reason",
+      "definition_source": {
+        "url": "https://aclanthology.org/P18-2071.pdf",
+        "anchor": "§2.2, Table 1 pp.445–446"
+      },
+      "source_definition_paraphrase": "Relation in inventory; paper does not separately define every relation",
+      "annotation_unit": "directed relation between elementary discourse units in abstract",
+      "proposed_functions": [
+        "explain",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Linked units and reason relationship",
+      "counterexample": "A reason for a task may not support a scientific conclusion.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Coarse: fine table names; raw serialized values may differ; relation is not paragraph role."
+    },
+    {
+      "dataset": "SciDTB",
+      "original_label": "Summary: Summary",
+      "definition_source": {
+        "url": "https://aclanthology.org/P18-2071.pdf",
+        "anchor": "§2.2, Table 1 pp.445–446"
+      },
+      "source_definition_paraphrase": "Relation in inventory; paper does not separately define every relation",
+      "annotation_unit": "directed relation between elementary discourse units in abstract",
+      "proposed_functions": [
+        "report",
+        "interpret"
+      ],
+      "mapping_kind": "conditional",
+      "necessary_context": "Source and inference",
+      "counterexample": "Repeating a conclusion need not add inference.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Coarse: fine table names; raw serialized values may differ; relation is not paragraph role."
+    },
+    {
+      "dataset": "SciDTB",
+      "original_label": "Same-unit: Same-unit",
+      "definition_source": {
+        "url": "https://aclanthology.org/P18-2071.pdf",
+        "anchor": "§2.2, Table 1 pp.445–446"
+      },
+      "source_definition_paraphrase": "Relation in inventory; paper does not separately define every relation",
+      "annotation_unit": "directed relation between elementary discourse units in abstract",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "necessary_context": "Reconstruct segments",
+      "counterexample": "Segmentation repair is not a communicative function.",
+      "deterministic_check": "Check source label, offsets and links where available; semantic function requires contextual review.",
+      "observed_count": null,
+      "count_basis": "not locally counted; source label or codebook only",
+      "notes": "Coarse: fine table names; raw serialized values may differ; relation is not paragraph role."
+    }
+  ],
+  "observed_extra_labels": {
+    "MuLMS-AZ": {
+      "basis": "local counts across 50 XMI files of ContentInformation on MatSci_Sentence elements; may reflect a separate annotation layer; not in AZ guide and no proposed mapping",
+      "MEASUREMENT": 2118,
+      "QUAL_MEASUREMENT": 1476,
+      "None": 9
+    },
+    "SciDTB": {
+      "sample_file": "dataset/train/D14-1101.edu.txt.dep",
+      "values_observed": [
+        "ROOT",
+        "enablement",
+        "elab-aspect",
+        "cause",
+        "elab-addition",
+        "comparison",
+        "manner-means",
+        "evaluation"
+      ],
+      "basis": "one inspected sample; not corpus-wide counts"
+    }
+  }
+}

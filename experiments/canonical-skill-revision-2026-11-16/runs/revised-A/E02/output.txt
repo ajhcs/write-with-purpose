@@ -1,0 +1,3 @@
+Last month, 36 tickets arrived and the team closed 18, increasing the backlog from 12 to 30. To reduce the backlog, the team must close more tickets than arrive over the relevant period.
+
+Before deciding how many analysts to hire, assess the ticket mix, whether last month’s arrivals are representative, and the additional capacity an analyst could provide. Those unknowns prevent the current figures from supporting a recommendation to hire two analysts.

@@ -1,0 +1,27 @@
+{
+  "generated_utc": "2026-11-16T01:50:37.920639+00:00",
+  "records": 350,
+  "results": {
+    "library_needed": 336,
+    "deferred_rate_limit": 1,
+    "pdf_retrieved": 13
+  },
+  "pdf_identity": {
+    "unresolved": 12,
+    "consistent": 1
+  },
+  "manual_needed_or_identity_review": 349,
+  "no_public_fulltext_retrieved": 337,
+  "publisher_fallback": {
+    "publisher_fallback_unavailable": 337,
+    "already_retrieved": 13
+  },
+  "blocked_hosts": {
+    "dspace.mit.edu": {
+      "retry_after": "900",
+      "at": "2026-11-16T01:42:28.441880+00:00"
+    }
+  },
+  "metadata_cache": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/metadata",
+  "pdf_cache": "/workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf"
+}

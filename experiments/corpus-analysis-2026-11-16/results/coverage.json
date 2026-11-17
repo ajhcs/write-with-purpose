@@ -1,0 +1,62 @@
+{
+  "inventory_records_including_unavailable_and_held": 4375,
+  "measured_source_records_before_work_dedup": 4104,
+  "measured_linked_work_groups": 4104,
+  "retained_unique_source_paths": 4218,
+  "linked_version_groups": 2,
+  "different_title_response_collision_groups": 1,
+  "profile_eligible": 0,
+  "by_parser": {
+    "xml": {
+      "records": 3242,
+      "measured": 3228,
+      "statuses": {
+        "measured_provisional_form": 3228,
+        "excluded": 14
+      }
+    },
+    "docs": {
+      "records": 494,
+      "measured": 494,
+      "statuses": {
+        "candidate_source_typed_needs_human_review": 469,
+        "excluded_under_120_prose_words_or_fragment": 23,
+        "excluded_conflicting_declared_type": 2
+      }
+    },
+    "html": {
+      "records": 559,
+      "measured": 303,
+      "statuses": {
+        "measured": 303,
+        "extraction_failed": 14,
+        "policy_hold": 55,
+        "missing": 156,
+        "excluded": 30,
+        "other_format": 1
+      }
+    },
+    "pdf": {
+      "records": 80,
+      "measured": 79,
+      "statuses": {
+        "extracted": 79,
+        "no_extractable_text": 1
+      }
+    }
+  },
+  "manual_review": {
+    "files": 17,
+    "passage_annotations": 36
+  },
+  "legacy_derived_only_records": 535,
+  "legacy_derived_records_in_prior_screened_samples": 534,
+  "legacy_derived_only_by_form": {
+    "procedure": 229,
+    "reference": 216,
+    "critical_review": 67,
+    "conceptual_paper": 23
+  },
+  "legacy_derived_records_linking_to_current_inventory": 0,
+  "dedup_limit": "Identity links are candidate work groups; unreviewed titles, versions, supplements and unresolved PDF identities can leave duplicates undetected. They do not assert unique complete articles."
+}

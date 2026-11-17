@@ -2,3 +2,12 @@
 
 # Preserve archived source hashes and exact-span receipts across checkouts.
 experiments/editor-language-comparison/** -text
+
+# Research receipts and source spans bind exact archived bytes.
+experiments/** -text
+docs/writing-harness/** -text
+work/** -text
+
+# Keep historical CSV line endings and authored trailing whitespace intact.
+experiments/*-2026-11-16/** -whitespace
+docs/writing-harness/research/corpus-inventories/*.csv -whitespace

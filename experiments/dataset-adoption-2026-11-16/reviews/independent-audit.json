@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-16",
+  "scope": "Four existing crosswalk JSONs, scientific-observed-labels and acquisition manifest; independent bounded cached-file checks; later parent artifacts not yet reviewed; followup-acquisition checked after initial audit",
+  "status": "conditional hypotheses only; no source-label-to-paragraph-function conversion validated",
+  "checks": [
+    {
+      "id": "gum_relation_inventory",
+      "files": 301,
+      "expected_semantic_labels_observed": 32,
+      "additional_structural_marker": "span",
+      "span_relname_occurrences": 26862,
+      "warning": "Preserve tree attachment; do not classify marker as a semantic relation or paragraph label."
+    },
+    {
+      "id": "az_recount",
+      "files": 80,
+      "attribute_counts": {
+        "OWN": 8623,
+        "OTH": 2019,
+        "BKG": 789,
+        "CTR": 600,
+        "AIM": 314,
+        "BAS": 246,
+        "TXT": 227
+      },
+      "denominator": "all AZ attribute occurrences including abstract and body item tags"
+    },
+    {
+      "id": "mulms_recount",
+      "files": 50,
+      "nested_zip": "data/mulms_corpus.zip",
+      "attribute_counts_match_observed_receipt": true,
+      "examples": {
+        "Exp_Preparation": 1470,
+        "Background": 3159
+      },
+      "denominator": "XML annotation elements, not unique sentences; no unpickling"
+    },
+    {
+      "id": "india50",
+      "data_text_files": 50,
+      "limitations": "not independently complete, label-aligned, or rights-cleared"
+    },
+    {
+      "id": "build",
+      "archive_files": 93,
+      "status": "repository archive and codebook present; train and dev requests returned 401; no downloaded split claimed"
+    },
+    {
+      "id": "persuade2",
+      "archive_files": 4,
+      "status": "GitHub archive has README and three PDFs. Follow-up separately downloaded training CSV and test ZIP; training CSV header and first row shape checked.",
+      "privacy": "Training CSV includes demographic and disability-status columns; minimize handling and retain only fields needed."
+    },
+    {
+      "id": "echr",
+      "status": "Initial master archive returned HTTP 422; follow-up main branch archive acquired 1,997 regular files; token/BIO CSV present."
+    },
+    {
+      "id": "scipara",
+      "status": "pickle and notebook present; pickle not inspected; rights unverified"
+    },
+    {
+      "id": "rights",
+      "status": "source text, annotations, code and dependencies need separate grants; GUM license enumerates different text licenses including noncommercial and CC BY 4.0 annotations"
+    },
+    {
+      "id": "scidtb_paper_wrong_acquisition",
+      "status": "followup-acquisition scidtb-paper URL D18-1388 is an unrelated political ideology paper; correct paper P18-2071, which the crosswalk cites",
+      "wrong_url": "https://aclanthology.org/D18-1388/",
+      "correct_url": "https://aclanthology.org/P18-2071/",
+      "correction": "Correct PDF separately acquired and earlier receipt superseded in identity-corrections.json"
+    },
+    {
+      "id": "merged_crosswalk",
+      "json_rows": 159,
+      "csv_rows": 159,
+      "unique_ids": true,
+      "all_six_source_review_hashes_match": true,
+      "json_csv_fields_checked_match": true,
+      "none_relation_only_nonempty_candidate_arrays": 0,
+      "limitations": "Assembly checks do not establish semantic crosswalk validity or coverage."
+    },
+    {
+      "id": "persuade_and_india_serialization",
+      "scope": "first 10000 PERSUADE training rows and one Indian-50 document",
+      "results": "PERSUADE all eight discourse values observed including Concluding Statement and Unannotated; Indian-50 full serialized names match crosswalk."
+    },
+    {
+      "id": "gum_profile_count_basis",
+      "status": "Corrected profile separately reports primary and secondary; readback agrees with independent counts and combined counts equal their sum.",
+      "element_counts": {
+        "segment": 37987,
+        "group": 34367,
+        "secedge": 1461
+      },
+      "profile_totals": {
+        "primary": 72354,
+        "secondary": 1461,
+        "combined": 73815,
+        "span": 26862
+      }
+    },
+    {
+      "id": "persuade_offset_flags",
+      "status": "60 train and 37 test flagged; basis under investigation; no independent determination of data defect."
+    },
+    {
+      "id": "acawriter",
+      "status": "Archive contains feature seeders, feature rule JSON and Apache 2.0 LICENSE; do not impose cue-based wording as writing stems."
+    }
+  ],
+  "remaining": "Review later parent normalized crosswalk and profile receipts; no mapping coverage inference from listed candidates."
+}

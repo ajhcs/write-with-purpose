@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_11",
+      "doi": "10.1088/0953-4075/48/8/083001",
+      "title": "Quantum computing with photons: introduction to the circuit model, the one-way quantum computer, and the fundamental principles of photonic experiments",
+      "authors": "[\"Stefanie Barz\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Quantum computing with photons: introduction to the circuit\" Barz filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_11",
+      "query": "\"Quantum computing with photons: introduction to the circuit\" Barz filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Quantum computing with photons: introduction to the circuit model, the one-way quantum computer, and the fundamental principles of photonic experiments",
+          "url": "https://physlab.org/wp-content/uploads/2016/07/QComp-Photons-2015-J-Phys-B.pdf",
+          "score": 1
+        },
+        {
+          "title": "Quantum computing with photons: Introduction to the circuit model, the one-way quantum computer, and the fundamental principles of photonic experiments",
+          "url": "https://eurekamag.com/research/108/194/108194145.php",
+          "score": 1
+        },
+        {
+          "title": "Distributed Quantum Computing with Photons and Atomic Memories",
+          "url": "https://inspirehep.net/literature/2106536",
+          "score": 0.5714285714285714
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "status": "Proposed conditional mappings, not validated conversions. Full README codebook and selected DITA/WLP/OpenPI structures only; no claim of exhaustive WLP label coverage.",
+  "serialized_readme_codes": {
+    "1": "What",
+    "2": "Why",
+    "3": "How",
+    "4": "When",
+    "5": "Who",
+    "6": "References",
+    "7": "Contribution",
+    "8": "Other"
+  },
+  "records": [
+    {
+      "dataset": "READMEClassifier original human codebook",
+      "original_label": "What",
+      "source_definition_paraphrase": "Project purpose and functionality.",
+      "source_unit": "README section; multiple codes permitted",
+      "proposed_functions": [
+        "orient",
+        "report",
+        "define"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "Determine whether the section introduces context, describes capabilities or establishes meaning.",
+      "counterexample": "An About heading alone does not orient.",
+      "definition_evidence": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf#page=9",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "READMEClassifier original human codebook",
+      "original_label": "Why",
+      "source_definition_paraphrase": "Advantages and explicit comparisons with other projects.",
+      "source_unit": "README section; multiple codes permitted",
+      "proposed_functions": [
+        "assert",
+        "support",
+        "compare"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "A benefit claim asserts; support needs a claim connection; comparison needs a relevant dimension.",
+      "counterexample": "Marketing a benefit does not establish evidence.",
+      "definition_evidence": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf#page=9",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "READMEClassifier original human codebook",
+      "original_label": "How",
+      "source_definition_paraphrase": "Installation, configuration, usage and other programming-related information.",
+      "source_unit": "README section; multiple codes permitted",
+      "proposed_functions": [
+        "instruct",
+        "report",
+        "define"
+      ],
+      "mapping_kind": "partial",
+      "condition": "Distinguish reader actions, behavior descriptions and parameter definitions.",
+      "counterexample": "A configuration-key inventory is not necessarily a procedure.",
+      "definition_evidence": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf#page=9",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "READMEClassifier original human codebook",
+      "original_label": "When",
+      "source_definition_paraphrase": "Project status, versions, progress and planned functionality.",
+      "source_unit": "README section; multiple codes permitted",
+      "proposed_functions": [
+        "report",
+        "qualify"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "Retain time and planned/completed status; a limitation must attach to a claim.",
+      "counterexample": "A version number or date is metadata, not a qualification.",
+      "definition_evidence": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf#page=9",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "READMEClassifier original human codebook",
+      "original_label": "Who",
+      "source_definition_paraphrase": "Credits, license, contact and conduct information.",
+      "source_unit": "README section; multiple codes permitted",
+      "proposed_functions": [
+        "report"
+      ],
+      "mapping_kind": "partial",
+      "condition": "Prose can report attribution or obligations, while lists and identifiers remain metadata.",
+      "counterexample": "A list of author names has no automatic paragraph function.",
+      "definition_evidence": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf#page=9",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "READMEClassifier original human codebook",
+      "original_label": "References",
+      "source_definition_paraphrase": "Links to documentation, help, translations or related projects.",
+      "source_unit": "README section; multiple codes permitted",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "condition": "Retain as section/navigation metadata; inspect any surrounding prose independently.",
+      "counterexample": "A link is not evidence that supports a proposition.",
+      "definition_evidence": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf#page=9",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "READMEClassifier original human codebook",
+      "original_label": "Contribution",
+      "source_definition_paraphrase": "How to contribute, fork or clone, and get involved.",
+      "source_unit": "README section; multiple codes permitted",
+      "proposed_functions": [
+        "instruct",
+        "report"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "Reader actions can instruct; contributor policies can describe the process.",
+      "counterexample": "A link to CONTRIBUTING.md is navigation rather than an executable instruction.",
+      "definition_evidence": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf#page=9",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "READMEClassifier original human codebook",
+      "original_label": "Other",
+      "source_definition_paraphrase": "Content outside the seven original section types.",
+      "source_unit": "README section; multiple codes permitted",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "condition": "Keep unresolved content for open review; no function inference follows.",
+      "counterexample": "Other does not mean meaningless or bad writing.",
+      "definition_evidence": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf#page=9",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "prereq",
+      "source_definition_paraphrase": "Conditions or actions required before starting the task.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "qualify",
+        "instruct"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "Separate constraints on a task from actions the reader must perform.",
+      "counterexample": "A list of equipment is a prerequisite inventory, not an instruction by itself.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "context",
+      "source_definition_paraphrase": "Context needed to understand the task.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "orient",
+        "report"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "It orients if it prepares this reader for the selected task.",
+      "counterexample": "XML element membership does not prove the text provides useful context.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "steps",
+      "source_definition_paraphrase": "Container of ordered steps.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "condition": "Retain hierarchy and order; inspect commands individually.",
+      "counterexample": "A container has no independent prose function.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "step",
+      "source_definition_paraphrase": "One step containing its command and optional explanatory material.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "condition": "Keep a composite object; its children may have several functions.",
+      "counterexample": "A step object is not one homogeneous paragraph function.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "cmd",
+      "source_definition_paraphrase": "Action performed in a step.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "instruct"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "The text must communicate an executable action for its intended reader.",
+      "counterexample": "An incomplete verb phrase can satisfy a structural field without enabling action.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "info",
+      "source_definition_paraphrase": "Additional information about a step.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "explain",
+        "report",
+        "qualify"
+      ],
+      "mapping_kind": "partial",
+      "condition": "Determine what the information contributes to the command or result.",
+      "counterexample": "Additional text is not automatically explanatory.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "substeps",
+      "source_definition_paraphrase": "Nested sequence of smaller actions.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "condition": "Keep parent/child and sequencing relationships.",
+      "counterexample": "Sequence alone establishes neither causation nor task success.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "tutorialinfo",
+      "source_definition_paraphrase": "Information associated with learning while doing a step.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "explain",
+        "illustrate"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "A tutorial may explain a reason or develop a worked instance.",
+      "counterexample": "Learner-directed text can still be a factual aside.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "stepxmp",
+      "source_definition_paraphrase": "Example illustrating a step.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "illustrate"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "A concrete instance must illuminate the action or concept.",
+      "counterexample": "An irrelevant sample is still an example element but fails the reader job.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "choices",
+      "source_definition_paraphrase": "Alternative ways of completing an action.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "instruct",
+        "compare"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "Actions can instruct; comparison additionally needs an explicit meaningful dimension.",
+      "counterexample": "Listing choices is not necessarily comparing them.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "stepresult",
+      "source_definition_paraphrase": "Expected outcome of one step.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "report"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "Describe a predicted outcome and retain its status rather than claim it was observed.",
+      "counterexample": "Expected output is not verification that the real action succeeded.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "result",
+      "source_definition_paraphrase": "Expected outcome of the task.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "report"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "Preserve scope and expected versus observed status.",
+      "counterexample": "A results element does not certify an executable procedure.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "example",
+      "source_definition_paraphrase": "Example associated with the task.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "illustrate"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "It must make a task-related idea or case recoverable.",
+      "counterexample": "An unrelated anecdote does not illustrate the task.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "postreq",
+      "source_definition_paraphrase": "Actions to perform after completing the task.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "instruct"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "State a reader action with enough context.",
+      "counterexample": "A vague reminder may not tell the intended reader what to do.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "DITA 1.2 task model",
+      "original_label": "stepsection",
+      "source_definition_paraphrase": "Expository material among steps, distinguished from an action.",
+      "source_unit": "XML task element; not an observed paragraph label",
+      "proposed_functions": [
+        "orient",
+        "report"
+      ],
+      "mapping_kind": "partial",
+      "condition": "Inspect its contribution without converting it into another numbered command.",
+      "counterexample": "Its placement between commands does not make it an instruction.",
+      "definition_evidence": "https://docs.oasis-open.org/dita/v1.2/cd03/spec/common/task2.html",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "WLP 2018",
+      "original_label": "Action",
+      "source_definition_paraphrase": "Action predicate marked as a text span.",
+      "source_unit": "entity/action character span",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "condition": "Use to locate a candidate action within context; reader-directed instruction is a separate question.",
+      "counterexample": "A single verb cannot establish that a complete paragraph instructs.",
+      "definition_evidence": "https://aclanthology.org/N18-2016.pdf",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "WLP 2018",
+      "original_label": "Acts-on",
+      "source_definition_paraphrase": "Typed semantic argument linked to an action.",
+      "source_unit": "event-to-span argument link",
+      "proposed_functions": [],
+      "mapping_kind": "relation_only",
+      "condition": "Preserve role, source action and argument IDs; use to check that supplied participants exist.",
+      "counterexample": "The argument role says nothing about whether the surrounding text teaches or reports a completed method.",
+      "definition_evidence": "https://aclanthology.org/N18-2016.pdf",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "WLP 2018",
+      "original_label": "Using",
+      "source_definition_paraphrase": "Typed semantic argument linked to an action.",
+      "source_unit": "event-to-span argument link",
+      "proposed_functions": [],
+      "mapping_kind": "relation_only",
+      "condition": "Preserve role, source action and argument IDs; use to check that supplied participants exist.",
+      "counterexample": "The argument role says nothing about whether the surrounding text teaches or reports a completed method.",
+      "definition_evidence": "https://aclanthology.org/N18-2016.pdf",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "WLP 2018",
+      "original_label": "Creates",
+      "source_definition_paraphrase": "Typed semantic argument linked to an action.",
+      "source_unit": "event-to-span argument link",
+      "proposed_functions": [],
+      "mapping_kind": "relation_only",
+      "condition": "Preserve role, source action and argument IDs; use to check that supplied participants exist.",
+      "counterexample": "The argument role says nothing about whether the surrounding text teaches or reports a completed method.",
+      "definition_evidence": "https://aclanthology.org/N18-2016.pdf",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    },
+    {
+      "dataset": "OpenPI",
+      "original_label": "entity / attribute / before / after",
+      "source_definition_paraphrase": "State-change fields tied to a procedural step.",
+      "source_unit": "structured state-change tuple",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "condition": "Keep task, step and state-transition layers; inspect any proposed explanatory prose separately.",
+      "counterexample": "A state tuple is not a paragraph and is not proof that a causal explanation has been written.",
+      "definition_evidence": "https://github.com/allenai/openpi-dataset",
+      "deterministic_checks": "Validate original vocabulary, IDs and structural boundaries; count only declared units. Conditional function meaning needs contextual review."
+    }
+  ]
+}

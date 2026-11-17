@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w2171128603",
+      "doi": "10.1146/annurev-lawsocsci-102510-105423",
+      "title": "Credible Causal Inference for Empirical Legal Studies",
+      "authors": "[\"Daniel E. Ho\", \"Donald B. Rubin\"]",
+      "field": "law_public_policy",
+      "q": "\"Credible Causal Inference for Empirical Legal Studies\" Ho filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2171128603",
+      "query": "\"Credible Causal Inference for Empirical Legal Studies\" Ho filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Credible Causal Inference for Empirical Legal Studies",
+          "url": "https://dho.stanford.edu/wp-content/uploads/HoRubin.pdf",
+          "score": 1
+        },
+        {
+          "title": "Credible Causal Inference for Empirical Legal Studies",
+          "url": "https://www.academia.edu/105740345/Credible_Causal_Inference_for_Empirical_Legal_Studies",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

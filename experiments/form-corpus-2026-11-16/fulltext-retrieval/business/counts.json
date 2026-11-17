@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-11-16T01:56:29.556465+00:00",
+  "counts": {
+    "records_in_manifest": 1200,
+    "metadata_found": 1200,
+    "records_with_http_response": 519,
+    "primary_status": {
+      "deferred_host_access_or_rate": 1014,
+      "pdf_retrieved": 36,
+      "not_retrieved": 139,
+      "robots_disallowed": 11
+    },
+    "files_with_primary_identity": {
+      "unresolved": 28,
+      "consistent": 7,
+      "unavailable": 1
+    },
+    "files_missing": 0,
+    "files_hash_mismatch": 0,
+    "files_unreferenced_in_cache": 0,
+    "closed_canonical_publisher_blocked_deferrals": 632,
+    "completeness_verified": 0
+  },
+  "missing_files": [],
+  "mismatched_files": [],
+  "unreferenced_cache_files": []
+}

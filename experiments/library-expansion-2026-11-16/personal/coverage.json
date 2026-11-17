@@ -1,0 +1,154 @@
+[
+  {
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "p01",
+      "p02",
+      "p03"
+    ],
+    "reason": "Three metadata-verified editorial or award selections; full-text form and version screening remains pending."
+  },
+  {
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "p04",
+      "p05",
+      "p06"
+    ],
+    "reason": "Three metadata-verified editorial or award selections; full-text form and version screening remains pending."
+  },
+  {
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "p07",
+      "p08",
+      "p09"
+    ],
+    "reason": "Three metadata-verified editorial or award selections; full-text form and version screening remains pending."
+  },
+  {
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "p10",
+      "p11",
+      "p12"
+    ],
+    "reason": "Three metadata-verified editorial or award selections; full-text form and version screening remains pending."
+  },
+  {
+    "form_id": "tutorial",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Public-facing service writing exists, but sources and reader tasks differ from the personal/literary context; none established as comparable within this scope."
+  },
+  {
+    "form_id": "procedure_how_to",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Public-facing service writing exists, but sources and reader tasks differ from the personal/literary context; none established as comparable within this scope."
+  },
+  {
+    "form_id": "reference_entry",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Public-facing service writing exists, but sources and reader tasks differ from the personal/literary context; none established as comparable within this scope."
+  },
+  {
+    "form_id": "empirical_report",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context."
+  },
+  {
+    "form_id": "methods_paper",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context."
+  },
+  {
+    "form_id": "theory_conceptual_paper",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context."
+  },
+  {
+    "form_id": "case_report",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context."
+  },
+  {
+    "form_id": "study_review_protocol",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context."
+  },
+  {
+    "form_id": "narrative_critical_literature_review",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context."
+  },
+  {
+    "form_id": "scoping_review",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context."
+  },
+  {
+    "form_id": "systematic_review",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context."
+  },
+  {
+    "form_id": "proposal",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Actual institutional proposals or decision memos may be public, but no comparable personal/public literary example was verified."
+  },
+  {
+    "form_id": "decision_memo",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Actual institutional proposals or decision memos may be public, but no comparable personal/public literary example was verified."
+  }
+]

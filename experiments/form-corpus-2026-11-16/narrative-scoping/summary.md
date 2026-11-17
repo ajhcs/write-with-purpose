@@ -1,0 +1,45 @@
+# Narrative and scoping review corpus: bounded pilot
+
+## Selection and authority
+
+The exploratory sample searches Europe PMC open-access records for the exact title phrases “narrative review” and “scoping review”, sorted by the service’s `CITED desc` ordering. The selected cases are the first 200 parseable full texts passing publisher-type exclusions among the first 275 title-screen survivors. The historical sample repeats this process with the service filter `FIRST_PDATE:[1900-01-01 TO 2019-12-31]`. The source may assign a different publication year to the same article; each record keeps its reported publication year. These are two overlapping samples, not independent replicates. Searches, results, times, service echo and citation counts are recorded in the JSON receipts and screen files. This is a bounded query ranking, not a global ranking.
+
+A narrative/critical literature review synthesizes a body of literature; it is not a review of one work. Title screening excludes named protocols, systematic and scoping reviews, methods/guidance and other conflicting forms where the rule matches. A publisher `systematic-review` article type also excludes a narrative candidate. Scoping reviews use the NLM form and PRISMA-ScR as anchors; the 2018 guideline is not a date cutoff. Both searches deliberately require a self-described title, so neither represents all work in the form. Publisher article-type and subject labels are retained verbatim; original NLM publication types are retained where supplied. Form classification is provisional: the title and publisher labels do not prove the methods, writing quality, audience, or suitability as a model. No full-set manual semantic or quality assessment has been completed.
+
+## Counts and era
+
+| Sample | Measured | Publication year <2015 | 2015–2019 | 2020+ | Publication years |
+| --- | ---: | ---: | ---: | ---: | --- |
+| narrative | 200 | 6 | 56 | 138 | 2010–2025 |
+| scoping | 200 | 16 | 70 | 114 | 2010–2024 |
+| historical-narrative | 200 | 20 | 171 | 9 | 2008–2022 |
+| historical-scoping | 200 | 31 | 167 | 2 | 2010–2022 |
+
+Narrative samples overlap by 64 PMCID records; the union contains 336 distinct measured records.
+
+Scoping samples overlap by 87 PMCID records; the union contains 313 distinct measured records.
+
+## Descriptive measures
+
+Median (interquartile range); document-level quantities weight each article equally. Paragraph and sentence values summarize each article’s median, giving each article equal weight. These observations describe these samples, not targets or limits.
+
+| Sample | Body words | Top-level sections | Paragraph words, per-document medians | Sentence words, per-document medians | References | Figures | Tables |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| narrative | 5,125 (4,008–6,738.5) | 7 (5–9) | 107 (83.9–141.2) | 24 (21–27) | 110 (79.8–156) | 1 (0–2) | 1 (0–3) |
+| scoping | 5,008 (3,901.2–6,529.5) | 7 (5.8–8.2) | 104.8 (84–124.2) | 23 (22–25) | 86 (64.8–113) | 2 (1–3) | 3 (1.8–4) |
+| historical-narrative | 4,616.5 (3,588–5,978.8) | 6 (5–8) | 106.5 (86.4–137) | 25 (22–27) | 88 (65–121) | 1 (0–2) | 2 (0–3) |
+| historical-scoping | 4,668.5 (3,777.8–6,094) | 7 (5–9) | 104.5 (86–128) | 23.2 (21.9–25) | 77 (56.8–98) | 1 (1–2) | 3 (2–4) |
+
+## Counting and caveats
+
+- Body prose comprises text of JATS `<p>` elements under `<body>` after removing figure/table wrappers, supplementary material, reference lists, displayed formulae, boxed text, code, preformatted text, lists, and sections whose titles exactly match a controlled list of administrative headings (acknowledgments, contributions, funding, data availability, declarations, ethics, competing interests, footnotes, associated data). Other administrative headings may remain, and a similarly named substantive section can be removed. Section headings, abstracts, captions and references are excluded. Inline markup, including citation labels, remains part of paragraph text. List and code counts are separate XML-element signals, not estimates of their word proportions.
+- A word is a Unicode alphanumeric token with optional internal apostrophe or hyphen. Characters count the full token, including its internal punctuation. Sentence segments use a simple punctuation-plus-whitespace-plus-capital/digit heuristic; abbreviations and non-English conventions can produce errors. Paragraph, sentence and word arrays are derived counts, not source prose.
+- Section counts and section shares use top-level JATS `<sec>` elements; nested section words are included in their parent. Body paragraphs outside such sections are in the body total but not a section share. Heading-role matches are simple keyword labels, not annotations of communicative function. Maximum heading depth follows nested `<sec>` elements.
+- Abstract words count text within JATS `<abstract>`, including any included labels/headings. Reference counts sum direct `<ref>` children of every `<ref-list>` in the article, including lists placed within body sections. Figures, tables, lists, code and bibliographic cross-references are counts of corresponding JATS elements inside the original body; absent or unusual encoding can undercount. Figure/table captions are not body prose. Zero can mean absent markup as well as absence of the item.
+- Publication type and title checks are discovery filters, not proof of a representative or high-quality review. Selection is restricted to indexed, open-access English-title matches and citation ordering, biased toward older papers with time to accumulate citations as well as recent highly cited subjects. This corpus is biomedical and is not representative of literature reviews across disciplines. Examples, quotations, audience, paragraph functions and evidence quality have not been assessed. Some section labels are signals rather than function judgments.
+
+## Artifacts and reproducibility
+
+`*-search-screen.json` records up to the first 1,000 returned records and title rejection matches; `*-candidates.json` records the bounded 275 attempted XML candidates, source identifiers, Europe PMC pubYear, citation count and search snapshot, XML SHA-256 and cache file modification time, article-type labels, and selection outcome. The cache modification time is filesystem evidence, not a verified provider retrieval timestamp. `*-metrics.json` holds per-document derived measurements and section-role signals; `*-aggregate.json` holds descriptive distributions. `receipt.json` and `historical-receipt.json` preserve query and service details. Run `acquire.py` and `acquire-historical.py` with Python 3 and `requests`; cached full-text XML is outside the repository at `/workspace/repos/builderbob/.writing-corpus-cache/narrative-scoping`. `recalculate.py` reproduces the documented corrections to both samples without refetching. Query results and citation counts may drift on rerun.
+
+Definitions: [NLM publication types](https://www.nlm.nih.gov/mesh/pubtypes.html), [PRISMA-ScR](https://www.prisma-statement.org/scoping), [project authority crosswalk](../../../docs/writing-harness/research/authority-and-definition-crosswalk.md).

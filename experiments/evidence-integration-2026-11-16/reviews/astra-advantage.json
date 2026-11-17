@@ -1,0 +1,533 @@
+{
+  "reviewer": {
+    "role": "Requested Astra strategy adviser",
+    "status": "candidate strategy; no implementation or demonstrated advantage",
+    "full_text_reviews_consumed": [
+      "audience-readability",
+      "headlines-attention",
+      "narrative-style-impact",
+      "funding-persuasion",
+      "genre-moves",
+      "agreement-writing-rules",
+      "interactive-persuasion"
+    ],
+    "verification": "Selected decisive passages checked in source text; all seven specialist syntheses and bounded independent audit read. Reported inconsistencies do not underpin design claims.",
+    "scope": "Own author-controlled plugin; no skill/catalogue changes, installation, deployment or external messages."
+  },
+  "papers": [
+    {
+      "id": "P01",
+      "title": "The Effects of Jargon on Processing Fluency, Self-Perceptions, and Scientific Engagement",
+      "authors": [
+        "Hillary C. Shulman",
+        "Graham N. Dixon",
+        "Olivia M. Bullock",
+        "Daniel Colón Amill"
+      ],
+      "year": 2020,
+      "doi": "10.1177/0261927X20902177",
+      "study_kind": "Randomized 2×2 between-subjects experiment with observational serial mediation",
+      "scope": "Full extracted paper pp.1–19, including methods, results, limitations, stimuli and references; actual DOI and year from p.1.",
+      "sample_and_design": "650 paid U.S. Qualtrics panel adults randomized to jargon/no jargon and optional mouseover definitions/no definitions; each read three same-condition short science-technology passages (autonomous cars, surgical robots, 3D bioprinting). Jargon had 10 terms per paragraph; no-jargon replaced terms with explanations/synonyms; within-topic word counts held constant (pp.6–8).",
+      "outcomes": "Self-reported 1–7 processing fluency, science/technology self-schema, interest, information-seeking intention, internal efficacy, perceived knowledge. Not objective comprehension or actual behavior.",
+      "limitations": [
+        "Short, controlled, text-only immediate exposures; paid U.S. panel is not all audiences.",
+        "Definition treatment only offered hover access; 109/330 used by self-report. Findings do not show inline definitions are ineffective.",
+        "No objective understanding test; causal jargon manipulation does not identify causal serial mediation.",
+        "Appendix stimuli include technical claims that should not be treated as verified facts."
+      ],
+      "data_or_code_leads": "Online supplemental scale items mentioned p.8; no verified dataset or software release in full text.",
+      "extraction_issues": [
+        "Paper describes 109 as 31% of 330; calculation is approximately 33%, retain original numerator and denominator.",
+        "Table 1 repeats some jargon cells unusually; do not use suspect topic rows for independent calculation."
+      ],
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P01.txt",
+      "review_scope": "Strategy-use verification of selected decisive passages; specialist review supplies full-paper extraction.",
+      "specialist_review": "reviews/audience-readability.json",
+      "findings": [
+        {
+          "claim": "Lower reported processing fluency under jargon and no significant definition-condition mitigation; optional mouseover access does not test inline teaching or establish objective comprehension.",
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10,
+            14,
+            15
+          ],
+          "evidence_locator": "Methods, Results and limitations: jargon and definition conditions; active use of mouseover; immediate and cross-sectional measures.",
+          "denominator": "No new numeric effect estimate in this strategic finding; see specialist record for original study units.",
+          "interpretation_limits": "Scoped study result or pedagogical implication; not a test of this plugin."
+        }
+      ],
+      "rule_implications": [
+        "ASTRA-ADV-01",
+        "ASTRA-ADV-03",
+        "ASTRA-ADV-05"
+      ]
+    },
+    {
+      "id": "P04",
+      "title": "When curiosity gaps backfire: effects of headline concreteness on information selection decisions",
+      "authors": [
+        "Marianne Aubin Le Quéré",
+        "J. Nathan Matias"
+      ],
+      "year": 2025,
+      "doi": "10.1038/s41598-024-81575-9",
+      "study_kind": "Registered report; multilevel meta-analysis of randomized field package tests with observational feature moderator",
+      "scope": "English Upworthy 2013–2015 article headline/image previews; website visitors; clicks per impression. Individual knowledge, curiosity, comprehension and quality not measured.",
+      "sample_and_design": "Pilot followed by held-out confirmatory archive subset; split image-varying tests into one-image bundles, retain bundles with at least two scorable distinct headlines; binomial random-intercept/slope model for headline score nested within test; mean test concreteness interacts with within-test deviation. Randomized assignment is to complete packages, not controlled random assignment of concreteness or mean test concreteness. Same original test may yield multiple image bundles.",
+      "outcomes": [
+        "CTR on a preview, not article comprehension or durable engagement",
+        "concreteness proxy validated against mean human ratings"
+      ],
+      "limitations": [
+        "Score uses lexical concreteness, NER assigns entities maximum, excludes headlines with unmatched words ≥3 characters; removes 17.1% of headlines (p4).",
+        "Same article A/B estimates causal package contrasts but not causal interventions on concreteness or the cross-test average; inference rests on model and unmeasured co-varying features.",
+        "US English audience, one publisher, editorial selection and historical algorithm environment; no individual-level curiosity measurement.",
+        "p5 defines CTR backwards as impressions/clicks; p3 correctly defines clicks/impressions; p8 prose contradicts low/high example direction and values 4.37 versus 4.41."
+      ],
+      "data_or_code_leads": [
+        "https://osf.io/fbzvw/ (paper analysis code; not independently audited)",
+        "https://github.com/maubinle/sentence_concreteness (paper names package; no install or license audit)",
+        "https://upworthy.natematias.com (archive access on request per p10)"
+      ],
+      "extraction_issues": [
+        "p5 inverse CTR formula contradicts p3; p6 pilot/confirmatory wording inconsistency; p8 upper-bound example reverses score descriptions."
+      ],
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P04.txt",
+      "review_scope": "Strategy-use verification of selected decisive passages; specialist review supplies full-paper extraction.",
+      "specialist_review": "reviews/headlines-attention.json",
+      "findings": [
+        {
+          "claim": "Headline-concreteness associations with click-through vary with baseline; the paper does not establish a universal concrete-writing optimum.",
+          "pdf_pages": [
+            1,
+            9
+          ],
+          "evidence_locator": "Abstract and Discussion/limitations: direction depends on baseline and sampled Upworthy audience.",
+          "denominator": "No new numeric effect estimate in this strategic finding; see specialist record for original study units.",
+          "interpretation_limits": "Scoped study result or pedagogical implication; not a test of this plugin."
+        }
+      ],
+      "rule_implications": [
+        "ASTRA-ADV-01",
+        "ASTRA-ADV-03",
+        "ASTRA-ADV-05"
+      ]
+    },
+    {
+      "id": "P10",
+      "title": "Use of Promotional Language in Grant Applications and Grant Success",
+      "authors": [
+        "Huilian Sophie Qiu",
+        "Hao Peng",
+        "Henrik Barslund Fosse",
+        "Teresa K. Woodruff",
+        "Brian Uzzi"
+      ],
+      "year": 2024,
+      "doi": "10.1001/jamanetworkopen.2024.48696",
+      "study_kind": "cross-sectional observational association study with regression and lexical validation",
+      "scope": "Biomedical grant applications to NNF in 2015–2022 and Northwestern faculty NIH submissions in 2007–2019; funded and rejected full application texts. Audience includes agency reviewers, not general workplace decision makers.",
+      "sample_and_design": "9,096 NNF applications, 2,439 NIH applications from one university; dictionary fraction of 139 science-specific promotional words, logistic association with covariates including applicant performance and grant features and year/length fixed effects. Lexicon validation and five-fold cross-validation reported; released supplementary information and data statements not individually checked.",
+      "outcomes": "Binary funded/rejected and frequency of promotional terms; no randomized causal outcome, measured readability, merit or actual reviewer comprehension.",
+      "limitations": [
+        "Observational covariate adjustment does not remove unmeasured project merit, reviewer expectations, selection or confounding; author notes need for causal studies (p8).",
+        "A dictionary term is not a judgment of exaggeration, truth or appropriateness in context. Their sample substitution examples are sometimes awkward or change intensity.",
+        "Five-fold validation reported (Fig 2) without predictive accuracy or independent temporal/external sample evaluation in main paper; does not establish causal or prospective performance.",
+        "Page 2 says 38.4% of NNF and 33.7% of NIH are women, with numerators using all applications although phrasing ambiguously follows awarded subset. Treat 3491/9096 and 823/2439 as full-application counts.",
+        "NIH sample and one private foundation do not represent other funders, disciplines or eras."
+      ],
+      "data_or_code_leads": [
+        "Main paper pages 2, 9–10: NNF data obtainable through cooperative agreement on request; NIH data internal university request; supplement 1 lists dictionary, operationalization, model tables, supplement 2 data statement. Neither supplement inspected; no reproducible repository verified."
+      ],
+      "extraction_issues": [
+        "Article uses causal wording (\"can increase\") but discussion explicitly calls for causal analyses; this review treats estimates as associations. NNF adjusted OR in main results 1.47 while figure 2 shows 1.46. Caption and text disagree about odds versus probability for 53% change."
+      ],
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P10.txt",
+      "review_scope": "Strategy-use verification of selected decisive passages; specialist review supplies full-paper extraction.",
+      "specialist_review": "reviews/funding-persuasion.json",
+      "findings": [
+        {
+          "claim": "Promotional language is associated with grant success; the paper explicitly calls for causal investigation of mechanisms. Neither blanket deletion nor insertion of promotional words follows.",
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "evidence_locator": "Discussion, Limitations and Conclusions: statistical association, future causal analyses, agency scope.",
+          "denominator": "No new numeric effect estimate in this strategic finding; see specialist record for original study units.",
+          "interpretation_limits": "Scoped study result or pedagogical implication; not a test of this plugin."
+        }
+      ],
+      "rule_implications": [
+        "ASTRA-ADV-01",
+        "ASTRA-ADV-03",
+        "ASTRA-ADV-05"
+      ]
+    },
+    {
+      "id": "P16",
+      "title": "In search of commonalities: Some linguistic and rhetorical features of business reports as a genre",
+      "authors": [
+        "Lorrita Yeung"
+      ],
+      "year": 2007,
+      "doi": "10.1016/j.esp.2006.06.004",
+      "study_kind": "primarily qualitative descriptive genre corpus study",
+      "scope": "Authentic internal and external business reports, mainly Hong Kong with Singapore, Malaysia and UK sources, prepared for organizational clients, management, stakeholders or public; not a sample of decision memos per se.",
+      "sample_and_design": "22 nonrandom convenience samples submitted by organizations; 12 external and 10 internal, 7 review, 6 problem-solving, 5 market and 4 feasibility reports. Management authors and some collective authorship; writers interviewed where possible, exact interview count not given (PDF pp. 4–6).",
+      "outcomes": "Observed macro organization, recommendations, rhetorical patterns and lexico-grammar; not independent measurement of decision outcomes or reader comprehension.",
+      "limitations": [
+        "Organizations supplied examples, not random or representative; mostly Hong Kong and medium/large firms. Paper stresses its qualitative size limitation and seeks quantitative replication (pp. 5, 22–23).",
+        "19/22 vs only two without explicit recommendation wording is unresolved.",
+        "No coder agreement method or downloadable coded dataset identified in full text; example business figures anonymized.",
+        "The author claims an inherent implicit recommendation even for sales reports; inference, not a directly observed reader action."
+      ],
+      "data_or_code_leads": [
+        "No open coded data or codebook release identified in paper; quotations contain confidential anonymization."
+      ],
+      "extraction_issues": [
+        "Observed numbers 19 with clearly stated recommendations and two without explicit recommendations are textually inconsistent; preserve as reported."
+      ],
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P16.txt",
+      "review_scope": "Strategy-use verification of selected decisive passages; specialist review supplies full-paper extraction.",
+      "specialist_review": "reviews/genre-moves.json",
+      "findings": [
+        {
+          "claim": "The recommendation, findings and warrant can appear in varying sequence; warrants may be explicit or implicit.",
+          "pdf_pages": [
+            14
+          ],
+          "evidence_locator": "Section 5.3.2.2: Logical syllogism in a three-step cyclical move; evaluative criteria.",
+          "denominator": "No new numeric effect estimate in this strategic finding; see specialist record for original study units.",
+          "interpretation_limits": "Scoped study result or pedagogical implication; not a test of this plugin."
+        }
+      ],
+      "rule_implications": [
+        "ASTRA-ADV-01",
+        "ASTRA-ADV-03",
+        "ASTRA-ADV-05"
+      ]
+    },
+    {
+      "id": "P17",
+      "title": "A move/step model for methods sections: Demonstrating Rigour and Credibility",
+      "authors": [
+        "Elena Cotos",
+        "Sarah Huffman",
+        "Stephanie Link"
+      ],
+      "year": 2017,
+      "doi": "10.1016/j.esp.2017.01.001",
+      "study_kind": "multidisciplinary descriptive corpus and expert-consultation study",
+      "scope": "Methods sections of IMRD experimental research articles; excludes disciplines whose scholarship differs substantially, such as mathematics, statistics, architecture and history (PDF p. 4).",
+      "sample_and_design": "900 texts in 30 disciplines, 30 selected articles per discipline from 3–5 reputable journals; 150 exemplary sections seeded coding; expert-selected recent studies and one consultant per discipline limit representativeness; 1,423,131 words. Human annotations with sentence/phrase units and secondary overlapping functions (PDF pp. 3–6).",
+      "outcomes": "Functional-semantic move/step inventories and annotated unit frequency, sequences, consultant perceived occurrence, discipline clustering. No direct test of improved writing outcomes.",
+      "limitations": [
+        "One faculty consultant per discipline, purposively selected 30 studies per field, and explicitly excluded non-IMRD disciplinary traditions; no representative prevalence claim.",
+        "Paper does not perform full lexico-grammatical realization analysis (PDF p.16).",
+        "Unit share vs document presence conflated in author’s optionality label; do not adopt.",
+        "One source paragraph misnames Move 2 Step 7 as rationalizing, whereas inventory and definition show Step 6 rationalizing and Step 7 reporting incrementals (PDF pp.9,15).",
+        "Original study imposes primary label and secondary label; this project does not require a primary function."
+      ],
+      "data_or_code_leads": [
+        "Authors report annotated corpus used through Callisto or other platforms and a move/step functional concordancer (PDF pp.15–16); release URL, data rights, model and corpus files remain unverified."
+      ],
+      "extraction_issues": [
+        "Table 3 labels step frequencies sentences; paper elsewhere calls totals functional segments. Report denominator as printed and preserve overlap."
+      ],
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P17.txt",
+      "review_scope": "Strategy-use verification of selected decisive passages; specialist review supplies full-paper extraction.",
+      "specialist_review": "reviews/genre-moves.json",
+      "findings": [
+        {
+          "claim": "Layered rhetorical functions and discipline-sensitive section purposes can inform instructional questions; research content governs structure, and learning benefit from this harness remains untested.",
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            15,
+            16
+          ],
+          "evidence_locator": "Section 3.2 layered phrase/sentence coding; Conclusions and implications on research determining articulation and functional inquiry.",
+          "denominator": "No new numeric effect estimate in this strategic finding; see specialist record for original study units.",
+          "interpretation_limits": "Scoped study result or pedagogical implication; not a test of this plugin."
+        }
+      ],
+      "rule_implications": [
+        "ASTRA-ADV-01",
+        "ASTRA-ADV-03",
+        "ASTRA-ADV-05"
+      ]
+    },
+    {
+      "id": "P18",
+      "title": "Interrater agreement in genre analysis: A methodological review and a comparison of three measures",
+      "authors": [
+        "Minjin Kim",
+        "Xixin Qiu",
+        "Yuanheng (Arthur) Wang"
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.rmal.2024.100097",
+      "study_kind": "Systematic methodological review and empirical comparison of agreement measures",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P18.txt",
+      "scope": "EAP rhetorical move annotation and method suitability; not writing-harness effectiveness",
+      "sample_and_design": {
+        "description": "Review of 65 studies; three researchers annotated 35 introductions: nine practice introductions (258 units) and 26 evaluation introductions (908 units), sampled from the 600-introduction parent corpus.",
+        "pdf_pages": [
+          1,
+          6,
+          7,
+          8
+        ],
+        "evidence_locator": "Abstract and Methods; practice/evaluation separation verified by specialist and independent audit. Study units do not measure plugin outcomes."
+      },
+      "outcomes": [
+        "Reported coding practices and behavior of interrater measures under varied coding conditions"
+      ],
+      "findings": [
+        {
+          "claim": "Secondary-function disagreements matter; the discussion recommends calibration and transparent coding procedures while acknowledging limited practical superiority of multivalued alpha over alternatives in their data.",
+          "pdf_pages": [
+            12,
+            13,
+            14
+          ],
+          "evidence_locator": "Conclusion and methodological recommendations",
+          "denominator": "No new numeric effect estimate in this strategic finding",
+          "interpretation_limits": "Do not import the study-specific sample threshold as a universal rule or confuse agreement with accuracy or reader outcomes."
+        }
+      ],
+      "limitations": [
+        "Selected EAP genre work and one introduction corpus do not validate our twelve functions across all forms.",
+        "Agreement is not an independent test of reader benefit."
+      ],
+      "rule_implications": [
+        "ASTRA-ADV-02",
+        "ASTRA-ADV-06"
+      ],
+      "data_or_code_leads": [
+        "Use specialist methodological review for further code/data leads; no new acquisition in this task."
+      ],
+      "extraction_issues": [
+        "No issue asserted from selected passages; complete extraction audit belongs to specialist reviewer."
+      ],
+      "review_scope": "Selected decisive passage verification; not a full-paper re-review.",
+      "specialist_review": "reviews/agreement-writing-rules.json"
+    }
+  ],
+  "cross_paper_synthesis": {
+    "thesis": "Build persistent author-led thought elicitation, visible structural choices and minimal source-bound feedback; demonstrate benefit against current skills.",
+    "commodity": "Taxonomies, counts, classifiers, configurable feedback and annotated-example teaching have existing precedents.",
+    "plausible_distinct_advantage": "Reliable integration of author idea provenance, scoped decisions, evidence-sensitive alternatives and task-specific reader review across sessions; unique market position unproven.",
+    "demonstrated": [
+      "Existing mechanical checker and local edit scripts",
+      "Downloaded sources and review-only crosswalks",
+      "Richer Astra records expose disagreements for inspection"
+    ],
+    "not_demonstrated": [
+      "Better agreement from Astra candidate",
+      "Semantic accuracy for our exact taxonomy",
+      "Valid function-length profiles",
+      "Author/reader improvement from final plugin",
+      "Validation of all seventeen forms"
+    ],
+    "local_result": {
+      "unique_paragraphs": 36,
+      "documents": 12,
+      "original_exact_set": 21,
+      "revised_exact_set": 18,
+      "interpretation": "No demonstrated improvement; no human semantic gold.",
+      "rich_record_ratio": 3.04,
+      "ratio_unit": "compact JSON artifact volume; not cost"
+    },
+    "outcome_boundaries": [
+      "Fluency feelings differ from objective comprehension",
+      "Awards/sharing/citations/clicks differ from writing quality",
+      "Randomization of packages does not isolate individual words",
+      "P04/P07/P13 share Upworthy archive; no independent replication claim"
+    ],
+    "architecture_challenge": "Do not gate writing on exhaustive taxonomy assignment. Preserve research annotation separately.",
+    "evidence_upgrade": "P15-P18 full-text reviews upgrade prior source access, not independent replication. Tentative-word associations do not authorize changing factual uncertainty."
+  },
+  "proposed_rule_changes": [
+    {
+      "id": "ASTRA-ADV-01",
+      "status": "candidate",
+      "disposition": "new hypothesis operationalizing existing guidance",
+      "existing_rule": "skills/write-with-purpose/SKILL.md contribution, voice and standalone reader edit; accepted-foundations.md",
+      "scope_trigger": "Substantial writing or a long revision session with supplied author materials",
+      "proposal": "Persist original ideas and their provenance, current reader task, structural alternatives and scoped author decisions; retrieve only relevant guidance.",
+      "expected_benefit": "Fewer repeated corrections and lost ideas across turns while exposing useful author choices.",
+      "counterexample": "A one-sentence copy edit needs no session questionnaire or outline.",
+      "code": "Store source roles, exact bytes, decisions and versioned diffs; enforce only actual declared constraints.",
+      "model": "Infer tentative structure and ask a consequential missing-content question; propose minimal revisions.",
+      "author": "Supply intent, experience and judgment; choose voice and structural route.",
+      "evidence": [
+        "Current skills",
+        "Accepted foundations",
+        "P17 PDF pp.15-16",
+        "AcaWriter/RWT local reuse inspection"
+      ],
+      "validation": "Same-model skills baseline versus harness; measure repair effort, author-recognized meaning and reader task success."
+    },
+    {
+      "id": "ASTRA-ADV-02",
+      "status": "candidate",
+      "disposition": "refine architecture; reject mandatory exhaustive runtime labeling",
+      "existing_rule": "Astra candidate revision and rule-calibration report",
+      "scope_trigger": "Routine drafting or feedback rather than research annotation",
+      "proposal": "Use sparse issue-centered feedback; collect detailed functions/targets only for a consequential ambiguity. Keep realization spans separate from evidence anchors.",
+      "expected_benefit": "Lower irrelevant interaction and easier inspection without forced single-function prose.",
+      "counterexample": "A function-boundary research study requires complete annotation, including negative and uncertain cases.",
+      "code": "Validate recorded anchors and targets, maintain missing/not-collected status.",
+      "model": "State concrete reader consequence and alternative; abstain where source context is inadequate.",
+      "author": "Keep wording or choose remedy.",
+      "evidence": [
+        "Local original21/36 versus revised18/36 calibration",
+        "P18 PDF pp.12-14"
+      ],
+      "validation": "Feedback precision and false alarms, missed material issues, interaction burden; no semantic-success claim from fewer labels."
+    },
+    {
+      "id": "ASTRA-ADV-03",
+      "status": "candidate",
+      "disposition": "reaffirm and operationalize",
+      "existing_rule": "Accepted Family→Form→Section; paragraph functions; dataset-adoption crosswalk",
+      "scope_trigger": "Planning a section or inspecting a draft in a known or provisional form",
+      "proposal": "Show section jobs and optional functional blanks; preserve source layers and alternate sequences.",
+      "expected_benefit": "Author learns available structures without copying source phrasing or normalizing prose toward a median.",
+      "counterexample": "A reflective essay may need neither printed headings nor a final resolved lesson.",
+      "code": "Preserve original label namespaces, units, spans and source rights.",
+      "model": "Explain structural options and tradeoffs appropriate to material.",
+      "author": "Choose, combine or replace structure.",
+      "evidence": [
+        "P17 PDF pp.6,15-16",
+        "P16 PDF p.14",
+        "159 conditional/partial/source-layer comparison entries"
+      ],
+      "validation": "Author can explain selected structure and transfer choice to an unaided task; readers recover intended relation."
+    },
+    {
+      "id": "ASTRA-ADV-04",
+      "status": "candidate",
+      "disposition": "refine",
+      "existing_rule": "Technical-term and source-fidelity protections in both current skills",
+      "scope_trigger": "A term, condition or assertive phrase creates a real audience or evidence question",
+      "proposal": "Protect meaningful terms and certainty while considering explanation in the reading flow; permit truthful positive emphasis rather than vocabulary bans.",
+      "expected_benefit": "Preserve precise ideas while reducing avoidable reader difficulty.",
+      "counterexample": "Specialist readers may prefer an exact technical term to a longer everyday paraphrase; a supported novel contribution may deserve assertive wording.",
+      "code": "Locate declared terms and changed tokens as review candidates; no semantic entailment claim.",
+      "model": "Judge referents, conditions, claim strength and reader assumptions against context.",
+      "author": "Confirm intended meaning and tone.",
+      "evidence": [
+        "P01 PDF pp.7-10,14-15",
+        "P10 PDF pp.7-8",
+        "Audience-readability and funding-persuasion specialist reviews"
+      ],
+      "validation": "Independent fidelity review and actual audience task, distinct from perceived ease or award prediction."
+    },
+    {
+      "id": "ASTRA-ADV-05",
+      "status": "candidate",
+      "disposition": "reaffirm boundary; new runtime representation",
+      "existing_rule": "Accepted observed-range/working-target/declared-limits distinction",
+      "scope_trigger": "A source-based style rule or metric is suggested",
+      "proposal": "Keep source scope, outcome, trigger, counterexample and check type with the rule. Do not optimize attention, citations, funding or readability unless they are the author-declared objective, and retain fidelity.",
+      "expected_benefit": "Prevent descriptive associations becoming universal edits.",
+      "counterexample": "A user may explicitly request a truthful headline experiment with click-through as an outcome.",
+      "code": "Resolve provenance, scope metadata and declared limits; no automatic conversion from observations.",
+      "model": "Assess applicability and communicate material uncertainty.",
+      "author": "Choose objectives and acceptable tradeoffs.",
+      "evidence": [
+        "P04 PDF pp.1,9",
+        "P10 PDF pp.7-8",
+        "Headlines-attention shared-population review",
+        "Current skills"
+      ],
+      "validation": "Audit scope violations and unsupported rule applications on held-out forms."
+    },
+    {
+      "id": "ASTRA-ADV-06",
+      "status": "candidate",
+      "disposition": "new evaluation proposal",
+      "existing_rule": "Current skills distinguish conformance, correctness and usefulness; calibration limitations",
+      "scope_trigger": "Claiming this harness improves writing or learning",
+      "proposal": "Test same-model current-skills baseline versus harness on fresh matched author tasks; counterbalance order, separate fidelity/voice/reader performance/burden and unaided transfer.",
+      "expected_benefit": "Attribute benefit to harness behavior and identify tradeoffs or harm.",
+      "counterexample": "Higher acceptance or lower word count alone can reflect compliance or omission.",
+      "code": "Retain assigned conditions, frozen versions, actual usage/timing and reproducible calculations.",
+      "model": "Support analysis without acting as sole gold judge.",
+      "author": "Judge intended voice and usable outcome; choose meaningful priorities before results.",
+      "evidence": [
+        "Local failed calibration",
+        "P18 PDF pp.12-14",
+        "Specialist outcome limitations"
+      ],
+      "validation": "Predeclare success criteria; do not treat feasibility pilot as general superiority."
+    }
+  ],
+  "github_reuse": [
+    {
+      "source": "uts-cic/acawriter",
+      "reuse": "Configurable schema, condition and message pattern; inspect pinned downloaded implementation rather than inventing it",
+      "limit": "No runtime accuracy test; dependencies/content separate from Apache-2.0 application license."
+    },
+    {
+      "source": "amir-zeldes/gum",
+      "reuse": "Original relations, spans, paragraph alignment and attribution through minimal adapter",
+      "limit": "Relation layer is not local paragraph-function gold; preserve source-text rights."
+    },
+    {
+      "source": "gprana/READMEClassifier",
+      "reuse": "Section-role comparison and codebook for README pilot",
+      "limit": "Original roles differ from classifier merge and general paragraph functions; verify file joins and rights."
+    },
+    {
+      "source": "allenai/openpi-dataset and WLP data",
+      "reuse": "Optional procedure participant/action/state distinctions; DITA task fields as separate standard precedent",
+      "limit": "No paragraph-label equivalence or proof of execution."
+    },
+    {
+      "source": "Existing local skills/scripts",
+      "reuse": "check_text.py and edit_locally.py plus bounded source-span validator",
+      "limit": "Mechanical invariants only; current tools cannot certify meaning or force model compliance."
+    },
+    {
+      "source": "Iowa State Research Writing Tutor",
+      "reuse": "Teaching progression precedent: goal learning, examples, draft feedback",
+      "limit": "Not a verified open-source application/corpus release."
+    }
+  ],
+  "pilot": {
+    "first_build": "Thin local plugin with session state, scoped rules, visible section map, original/candidate/diff, sparse feedback and declared mechanical checks.",
+    "primary_paths": [
+      "Idea-to-explainer",
+      "Meaning-preserving targeted revision"
+    ],
+    "stress_case": "Author-supplied reflective piece for voice and unresolved ending",
+    "other_forms": "Provisional form choices with explicit evidence gaps; no claim of seventeen validated profiles",
+    "interaction_details": "See astra-advantage.md for five concrete synthetic interactions and functional blanks.",
+    "feedback_budget": "Up to three material issues as configurable usability hypothesis; never hide consequential fidelity findings."
+  },
+  "stop_and_abstention": [
+    "No named benefit: retain original",
+    "Missing source/context: judgment unavailable",
+    "Multiple defensible readings: retain alternatives",
+    "Out-of-scope corpus signal: no warning",
+    "Declared-limit/source-condition conflict: repair or expose conflict",
+    "Rejected advice: retain scoped author decision and stop repetition"
+  ],
+  "open_questions": [
+    "Does persistent decision state reduce repeated author corrections over a long session?",
+    "Does visible functional choice teach transferable skill without excessive interruption?",
+    "Which semantic uncertainties merit detailed target records in routine work?",
+    "How should author preferences generalize across forms without turning local acceptance into a global rule?",
+    "Which professional memo/proposal and personal-writing evidence gaps matter for the initial pilot?",
+    "What reader outcomes and practical success thresholds will be fixed before comparison?"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "manifest_path": "/workspace/build/builderbob/write-with-purpose/checkpoints/20261116T181401Z-library-retrieval/manifest.json",
+  "verified_files": 227,
+  "fulltext_bundle": "/workspace/build/builderbob/write-with-purpose/library-retrieval-2026-11-16/retrieved-fulltexts.zip",
+  "fulltext_bundle_sha256": "097f0a4220aab9058b7efbe400deeb3f5a261692fea930ea5a0696d7b93ed2de"
+}

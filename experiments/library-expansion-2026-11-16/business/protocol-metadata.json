@@ -1,0 +1,1602 @@
+[
+  {
+    "url": "https://api.crossref.org/works/10.1002/14651858.CD010905",
+    "retrieved_at": "2026-11-16T15:23:52.029558+00:00",
+    "response": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            30
+          ]
+        ],
+        "date-time": "2025-12-30T22:50:31Z",
+        "timestamp": 1767135031285,
+        "version": "build-2238731810"
+      },
+      "reference-count": 74,
+      "publisher": "Wiley",
+      "content-domain": {
+        "domain": [
+          "wiley.com",
+          "cochranelibrary.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "DOI": "10.1002/14651858.cd010905",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2014,
+            1,
+            8
+          ]
+        ],
+        "date-time": "2014-01-08T06:01:41Z",
+        "timestamp": 1389160901000
+      },
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Human resource management training of supervisors for improving health and well-being of employees"
+      ],
+      "prefix": "10.1002",
+      "author": [
+        {
+          "given": "Andreas",
+          "family": "Kuehnl",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Innsbruck; Institute of Psychology, Department for Applied Psychology; Maximilianstrasse 2 Innsbruck Austria A-6020"
+            },
+            {
+              "name": "University of Munich; Institute and Outpatient Clinic for Occupational, Social and Environmental Medicine; Ziemssenstrasse 1 Munich Germany 80336"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Eva",
+          "family": "Rehfuess",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Ludwig-Maximilians-University Munich; Institute for Medical Informatics, Biometry and Epidemiology; Marchioninistr. 15 Munich Germany 81377"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Erik",
+          "family": "von Elm",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Lausanne University Hospital; Cochrane Switzerland, Institute of Social and Preventive Medicine; Route de la Corniche 10 Lausanne Switzerland CH-1010"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Dennis",
+          "family": "Nowak",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Munich; Institute and Outpatient Clinic for Occupational, Social and Environmental Medicine; Ziemssenstrasse 1 Munich Germany 80336"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J\u00fcrgen",
+          "family": "Glaser",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Innsbruck; Institute of Psychology, Department for Applied Psychology; Maximilianstrasse 2 Innsbruck Austria A-6020"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2014,
+            1,
+            8
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "3",
+          "key": "10.1002/14651858.CD010905-BIB0001|cit1",
+          "doi-asserted-by": "crossref",
+          "first-page": "200",
+          "DOI": "10.1136/oem.58.3.200",
+          "article-title": "Are neck flexion, neck rotation, and sitting at work risk factors for neck pain? Results of a prospective cohort study",
+          "volume": "58",
+          "author": "Ariens",
+          "year": "2001",
+          "journal-title": "Occupational and Environmental Medicine"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0002|cit2",
+          "unstructured": "Australian Public Service Commission Leadership development strategy 2011-12 www.apsc.gov.au/__data/assets/pdf_file/0009/1350/leadershipdevelopmentdtrategy.pdf"
+        },
+        {
+          "issue": "6",
+          "key": "10.1002/14651858.CD010905-BIB0003|cit3",
+          "doi-asserted-by": "crossref",
+          "first-page": "723",
+          "DOI": "10.1177/0018726706066852",
+          "article-title": "Abusive supervision and subordinate problem drinking: Taking resistance, stress and subordinate personality into account",
+          "volume": "59",
+          "author": "Bamberger",
+          "year": "2006",
+          "journal-title": "Human Relations"
+        },
+        {
+          "issue": "2",
+          "key": "10.1002/14651858.CD010905-BIB0004|cit4",
+          "doi-asserted-by": "crossref",
+          "first-page": "85",
+          "DOI": "10.5271/sjweh.769",
+          "article-title": "Is job strain a major source of cardiovascular disease risk?",
+          "volume": "30",
+          "author": "Belkic",
+          "year": "2004",
+          "journal-title": "Scandinavian Journal of Work, Environment and Health"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0005|cit5",
+          "article-title": "Social organization, stress, and health",
+          "volume-title": "Social determinants of health",
+          "author": "Brunner",
+          "year": "2006"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0006|cit6",
+          "unstructured": "Bureau of Labor Statistics Absence from work of employed full-time wage and salary workers by age, sex, race, and Hispanic or Latino ethnicity. 2012 http://www.bls.gov/cps/cpsaat46.pdf"
+        },
+        {
+          "issue": "3",
+          "key": "10.1002/14651858.CD010905-BIB0007|cit7",
+          "doi-asserted-by": "crossref",
+          "first-page": "391",
+          "DOI": "10.1002/1097-0258(20010215)20:3<391::AID-SIM800>3.0.CO;2-Z",
+          "article-title": "Cluster trials in implementation research: estimation of intracluster correlation coefficients and sample size",
+          "volume": "20",
+          "author": "Campbell",
+          "year": "2001",
+          "journal-title": "Statistics in Medicine"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0008|cit8",
+          "unstructured": "Cochrane Effective Practice and Organisation of Care Group Suggested risk of bias criteria for EPOC reviews. 2013 http://epoc.cochrane.org/sites/epoc.cochrane.org/files/uploads/14%20Suggested%20risk%20of%20bias%20criteria%20for%20EPOC%20reviews%202013%2008%2012.pdf"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0009|cit9",
+          "unstructured": "Cochrane Effective Practice and Organisation of Care Group What study designs should be included in an EPOC review and what should they be called? http://epoc.cochrane.org/sites/epoc.cochrane.org/files/uploads/05%20What%20study%20designs%20should%20be%20included%20in%20an%20EPOC%20review%202013%2008%2012.pdf"
+        },
+        {
+          "issue": "4",
+          "key": "10.1002/14651858.CD010905-BIB0010|cit10",
+          "doi-asserted-by": "crossref",
+          "first-page": "385",
+          "DOI": "10.2307/2136404",
+          "article-title": "A global measure of perceived stress",
+          "volume": "24",
+          "author": "Cohen",
+          "year": "1983",
+          "journal-title": "Journal of Health and Social Behavior"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0011|cit11",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.4135/9781412975995.n4",
+          "article-title": "Organizational Justice",
+          "volume-title": "Handbook of work stress",
+          "author": "Cropanzano",
+          "year": "2005"
+        },
+        {
+          "issue": "2",
+          "key": "10.1002/14651858.CD010905-BIB0012|cit12",
+          "doi-asserted-by": "crossref",
+          "first-page": "79",
+          "DOI": "10.1002/jrsm.37",
+          "article-title": "A further use for the Harvest plot: a novel method for the presentation of data synthesis",
+          "volume": "2",
+          "author": "Crowther",
+          "year": "2011",
+          "journal-title": "Research Synthesis Methods"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0013|cit13",
+          "unstructured": "D'Mello S Stress: The global economic downturn has taken its toll on employees. What is the impact for organisations? http://khpi.com/home"
+        },
+        {
+          "issue": "4",
+          "key": "10.1002/14651858.CD010905-BIB0014|cit14",
+          "doi-asserted-by": "crossref",
+          "first-page": "293",
+          "DOI": "10.1037/a0012639",
+          "article-title": "Work strain, health, and absenteeism: a meta-analysis",
+          "volume": "13",
+          "author": "Darr",
+          "year": "2008",
+          "journal-title": "Journal of Occupational Health Psychology"
+        },
+        {
+          "issue": "2",
+          "key": "10.1002/14651858.CD010905-BIB0015|cit15",
+          "doi-asserted-by": "crossref",
+          "first-page": "276",
+          "DOI": "10.1037/0033-2909.125.2.276",
+          "article-title": "Subjective well-being: Three decades of progress",
+          "volume": "125",
+          "author": "Diener",
+          "year": "1999",
+          "journal-title": "Psychological Bulletin"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0016|cit16",
+          "unstructured": "European Foundation for the Improvement of Living and Working Conditions (Eurofound) Preventing absenteeism at the workplace: research summary. 1997 www.eurofound.europa.eu/pubdocs/1997/15/en/1/ef9715en.pdf\u200e"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0017|cit17",
+          "unstructured": "European Foundation for the Improvement of Living and Working Conditions (Eurofound) Fifth European Working Conditions Survey - 2010 http://www.eurofound.europa.eu/surveys/ewcs/2010/"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0018|cit18",
+          "unstructured": "European Agency for Safety and Health at Work Expert Forecast on Emerging Psychosocial Risks Related to Occupational Safety and Health. 2007 https://osha.europa.eu/en/publications/reports/7807118"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0019|cit19",
+          "unstructured": "European Commission Commission Recommendation of 6 May 2003 concerning the definition of micro, small and medium-sized enterprises. Official Journal L 124 of 20.05.2003 http://europa.eu/legislation_summaries/enterprise/business_environment/n26026_en.htm"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0020|cit20",
+          "unstructured": "European Commission Health and safety at work in Europe (1999-2007). 2010 http://epp.eurostat.ec.europa.eu/cache/ITY_OFFPUB/KS-31-09-290/EN/KS-31-09-290-EN.PDF"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0021|cit21",
+          "unstructured": "European Commission Europe in figures - Eurostat yearbook 2011 http://epp.eurostat.ec.europa.eu/cache/ITY_OFFPUB/KS-CD-11-001/EN/KS-CD-11-001-EN.PDF"
+        },
+        {
+          "issue": "12",
+          "key": "10.1002/14651858.CD010905-BIB0022|cit22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1078",
+          "DOI": "10.1093/aje/kws336",
+          "article-title": "Job strain as a risk factor for leisure-time physical inactivity: an individual-participant meta-analysis of up to 170,000 men and women: The IPD-Work Consortium",
+          "volume": "176",
+          "author": "Fransson",
+          "year": "2012",
+          "journal-title": "American Journal of Epidemiology"
+        },
+        {
+          "issue": "1",
+          "key": "10.1002/14651858.CD010905-BIB0023|cit23",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1055/s-0029-1246180",
+          "article-title": "Leadership behaviour and health - current research state",
+          "volume": "73",
+          "author": "Gregersen",
+          "year": "2011",
+          "journal-title": "Gesundheitswesen"
+        },
+        {
+          "issue": "7",
+          "key": "10.1002/14651858.CD010905-BIB0024|cit24",
+          "doi-asserted-by": "crossref",
+          "first-page": "e35463",
+          "DOI": "10.1371/journal.pone.0035463",
+          "article-title": "Job strain and tobacco smoking: an individual-participant data meta-analysis of 166,130 adults in 15 European studies",
+          "volume": "7",
+          "author": "Heikkil\u00e4",
+          "year": "2012",
+          "journal-title": "PLoS One"
+        },
+        {
+          "issue": "7",
+          "key": "10.1002/14651858.CD010905-BIB0025|cit25",
+          "doi-asserted-by": "crossref",
+          "first-page": "e40101",
+          "DOI": "10.1371/journal.pone.0040101",
+          "article-title": "Job strain and alcohol intake: a collaborative meta-analysis of individual-participant data from 140,000 men and women",
+          "volume": "7",
+          "author": "Heikkil\u00e4",
+          "year": "2012",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0026|cit26",
+          "unstructured": "Higgins JPT Green S (editors) Cochrane Handbook for Systematic Reviews of Interventions Version 5.1.0 [updated March 2011]. The Cochrane Collaboration, 2011 Available from www.cochrane-handbook.org"
+        },
+        {
+          "issue": "16",
+          "key": "10.1002/14651858.CD010905-BIB0027|cit27",
+          "doi-asserted-by": "crossref",
+          "first-page": "2114",
+          "DOI": "10.1097/00007632-200008150-00017",
+          "article-title": "Systematic review of psychosocial factors at work and private life as risk factors for back pain",
+          "volume": "25",
+          "author": "Hoogendoorn",
+          "year": "2000",
+          "journal-title": "Spine (Phila Pa 1976)"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0028|cit28",
+          "unstructured": "Houtman I Work-related stress http://www.eurofound.europa.eu/ewco/reports/TN0502TR01/TN0502TR01.htm"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0029|cit29",
+          "unstructured": "Houtman I Jettinghoff K Protecting Workers' Health Series No. 6Raising awareness of stress at work in developing countries. 2007 http://www.who.int/entity/occupational_health/publications/raisingawarenessofstress.pdf"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0030|cit30",
+          "volume-title": "Blackwell Encyclopedia of Sociology",
+          "author": "Johns",
+          "year": "2007"
+        },
+        {
+          "issue": "4",
+          "key": "10.1002/14651858.CD010905-BIB0031|cit31",
+          "doi-asserted-by": "crossref",
+          "first-page": "519",
+          "DOI": "10.1002/job.630",
+          "article-title": "Presenteeism in the workplace: A review and research agenda",
+          "volume": "31",
+          "author": "Johns",
+          "year": "2010",
+          "journal-title": "Journal of Organizational Behavior"
+        },
+        {
+          "issue": "2",
+          "key": "10.1002/14651858.CD010905-BIB0032|cit32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/14651858.CD008009.pub2",
+          "article-title": "Flexible working conditions and their effects on employee health and wellbeing",
+          "author": "Joyce",
+          "year": "2010",
+          "journal-title": "Cochrane Database of Systematic Reviews"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0033|cit33",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-3-642-19035-3",
+          "article-title": "Organizational Justice",
+          "volume-title": "Justice and Conflicts",
+          "author": "Kals",
+          "year": "2012"
+        },
+        {
+          "issue": "3",
+          "key": "10.1002/14651858.CD010905-BIB0034|cit34",
+          "doi-asserted-by": "crossref",
+          "first-page": "260",
+          "DOI": "10.1080/02678373.2010.518441",
+          "article-title": "Leadership development as an intervention in occupational health psychology",
+          "volume": "24",
+          "author": "Kelloway",
+          "year": "2010",
+          "journal-title": "Work & Stress"
+        },
+        {
+          "issue": "7369",
+          "key": "10.1002/14651858.CD010905-BIB0035|cit35",
+          "doi-asserted-by": "crossref",
+          "first-page": "857",
+          "DOI": "10.1136/bmj.325.7369.857",
+          "article-title": "Work stress and risk of cardiovascular mortality: prospective cohort study of industrial employees",
+          "volume": "325",
+          "author": "Kivim\u00e4ki",
+          "year": "2002",
+          "journal-title": "BMJ"
+        },
+        {
+          "issue": "9852",
+          "key": "10.1002/14651858.CD010905-BIB0036|cit36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1491",
+          "DOI": "10.1016/S0140-6736(12)60994-5",
+          "article-title": "Job strain as a risk factor for coronary heart disease: a collaborative meta-analysis of individual participant data",
+          "volume": "380",
+          "author": "Kivim\u00e4ki",
+          "year": "2012",
+          "journal-title": "Lancet"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0037|cit37",
+          "volume-title": "Einf\u00fchrung in die Gesundheitspsychologie",
+          "author": "Knoll",
+          "year": "2011"
+        },
+        {
+          "issue": "8",
+          "key": "10.1002/14651858.CD010905-BIB0038|cit38",
+          "doi-asserted-by": "crossref",
+          "first-page": "904",
+          "DOI": "10.1097/JOM.0b013e31817e918d",
+          "article-title": "Leadership, job well-being, and health effects - a systematic review and a meta-analysis",
+          "volume": "50",
+          "author": "Kuoppala",
+          "year": "2008",
+          "journal-title": "Journal of Occupational and Environmental Medicine"
+        },
+        {
+          "issue": "3",
+          "key": "10.1002/14651858.CD010905-BIB0039|cit39",
+          "doi-asserted-by": "crossref",
+          "first-page": "267",
+          "DOI": "10.1055/s-2002-35401",
+          "article-title": "Systematic review of prospective cohort studies of psychosocial factors in the etiology and prognosis of coronary heart disease",
+          "volume": "2",
+          "author": "Kuper",
+          "year": "2002",
+          "journal-title": "Seminars in Vascular Medicine"
+        },
+        {
+          "issue": "7",
+          "key": "10.1002/14651858.CD010905-BIB0040|cit40",
+          "doi-asserted-by": "crossref",
+          "first-page": "1163",
+          "DOI": "10.1016/j.socscimed.2012.04.015",
+          "article-title": "Psychosocial work stressors as antecedents of musculoskeletal problems: a systematic review and meta-analysis of stability-adjusted longitudinal studies",
+          "volume": "75",
+          "author": "Lang",
+          "year": "2012",
+          "journal-title": "Social Science and Medicine"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0041|cit41",
+          "unstructured": "Livanos I Zangelidis A Sickness Absence: a Pan-European Study. 2010. Munich Personal RePEc Archive (MPRA) Paper http://mpra.ub.uni-muenchen.de/22627/1/MPRA_paper_22627.pdf"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0042|cit42",
+          "unstructured": "Lohmann-Haislah Stress report Germany 2012 www.baua.de/dok/3430796"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0043|cit43",
+          "article-title": "Health and the psychosocial environment at work",
+          "volume-title": "Social determinants of health",
+          "author": "Marmot",
+          "year": "2006"
+        },
+        {
+          "issue": "9846",
+          "key": "10.1002/14651858.CD010905-BIB0044|cit44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1011",
+          "DOI": "10.1016/S0140-6736(12)61228-8",
+          "article-title": "WHO European review of social determinants of health and the health divide",
+          "volume": "380",
+          "author": "Marmot",
+          "year": "2012",
+          "journal-title": "Lancet"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0045|cit45",
+          "volume-title": "The Maslach Burnout Inventory Manual",
+          "author": "Maslach",
+          "year": "1996"
+        },
+        {
+          "issue": "7",
+          "key": "10.1002/14651858.CD010905-BIB0046|cit46",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1000097",
+          "DOI": "10.1371/journal.pmed.1000097",
+          "article-title": "Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement",
+          "volume": "6",
+          "author": "Moher",
+          "year": "2009",
+          "journal-title": "PLoS Medicine"
+        },
+        {
+          "issue": "1",
+          "key": "10.1002/14651858.CD010905-BIB0047|cit47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/14651858.CD010306",
+          "article-title": "Organisational interventions for improving wellbeing and reducing work-related stress in teachers",
+          "author": "Naghieh",
+          "year": "2013",
+          "journal-title": "Cochrane Database of Systematic Reviews"
+        },
+        {
+          "issue": "4",
+          "key": "10.1002/14651858.CD010905-BIB0048|cit48",
+          "doi-asserted-by": "crossref",
+          "first-page": "277",
+          "DOI": "10.1093/occmed/kqq081",
+          "article-title": "Psychosocial work environment and stress-related disorders, a systematic review",
+          "volume": "60",
+          "author": "Nieuwenhuijsen",
+          "year": "2010",
+          "journal-title": "Occupational Medicine (Lond)"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0049|cit49",
+          "volume-title": "Handbook of Leadership Theory and Practice",
+          "author": "Nohria",
+          "year": "2010"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0050|cit50",
+          "unstructured": "Nyberg A Bernin P Theorell T The impact of leadership on the health of subordinates. National Institute for Working Life. 2005 www.su.se/polopoly_fs/1.51750.1321891474!/P2456_AN.pdf"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0051|cit51",
+          "unstructured": "Office for National Statistics Sickness Absence in the Labour Market, April 2012 http://www.ons.gov.uk/ons/dcp171776_265016.pdf"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0052|cit52",
+          "doi-asserted-by": "crossref",
+          "first-page": "8",
+          "DOI": "10.1186/1471-2288-8-8",
+          "article-title": "The harvest plot: a method for synthesising evidence about the differential effects of interventions",
+          "volume": "8",
+          "author": "Ogilvie",
+          "year": "2008",
+          "journal-title": "BMC Medical Research Methodology"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0053|cit53",
+          "unstructured": "Oxford Dictionaries Absenteeism www.oxforddictionaries.com/definition/english/absenteeism?q=absenteeism"
+        },
+        {
+          "issue": "11",
+          "key": "10.1002/14651858.CD010905-BIB0054|cit54",
+          "doi-asserted-by": "crossref",
+          "first-page": "1230",
+          "DOI": "10.1016/j.jclinepi.2013.06.005",
+          "article-title": "Synthesizing evidence on complex interventions: how meta-analytical, qualitative, and mixed-method approaches can contribute",
+          "volume": "66",
+          "author": "Petticrew",
+          "year": "2013",
+          "journal-title": "Journal of Clinical Epidemiology"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0055|cit55",
+          "unstructured": "Psychiatric Research Unit WHO Collaborating Centre in Mental Health WHO (Five) Well-Being Index (1998 version) http://www.psykiatri-regionh.dk/NR/rdonlyres/ACF049D6-C94D-49B2-B34C-96A7C5DA463B/0/WHO5_English.pdf"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0056|cit56",
+          "unstructured": "The Nordic Cochrane Centre, The Cochrane Collaboration. Review Manager (RevMan) 2013"
+        },
+        {
+          "issue": "1",
+          "key": "10.1002/14651858.CD010905-BIB0057|cit57",
+          "doi-asserted-by": "crossref",
+          "first-page": "14",
+          "DOI": "10.1159/000289026",
+          "article-title": "Psychological well-being: meaning, measurement, and implications for psychotherapy research",
+          "volume": "65",
+          "author": "Ryff",
+          "year": "1996",
+          "journal-title": "Psychotherapy and Psychosomatics"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0058|cit58",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1023/A:1015630930326",
+          "article-title": "The measurement of engagement and burnout: A confirmatory analytic approach",
+          "volume": "3",
+          "author": "Schaufeli",
+          "year": "2002",
+          "journal-title": "Journal of Happiness Studies"
+        },
+        {
+          "issue": "1",
+          "key": "10.1002/14651858.CD010905-BIB0059|cit59",
+          "doi-asserted-by": "crossref",
+          "first-page": "70",
+          "DOI": "10.1111/j.1464-0597.2009.00416.x",
+          "article-title": "Illegitimate tasks and counterproductive work behaviour",
+          "volume": "59",
+          "author": "Semmer",
+          "year": "2010",
+          "journal-title": "Applied Psychology"
+        },
+        {
+          "issue": "6",
+          "key": "10.1002/14651858.CD010905-BIB0060|cit60",
+          "doi-asserted-by": "crossref",
+          "first-page": "473",
+          "DOI": "10.5271/sjweh.1052",
+          "article-title": "Work stress and health risk behavior",
+          "volume": "32",
+          "author": "Siegrist",
+          "year": "2006",
+          "journal-title": "Scandinavian Journal of Work, Environment and Health"
+        },
+        {
+          "issue": "2",
+          "key": "10.1002/14651858.CD010905-BIB0061|cit61",
+          "doi-asserted-by": "crossref",
+          "first-page": "107",
+          "DOI": "10.1080/02678373.2010.495262",
+          "article-title": "Are leaders' well-being, behaviours and style associated with the affective well-being of their employees? A systematic review of three decades of research",
+          "volume": "24",
+          "author": "Skakon",
+          "year": "2010",
+          "journal-title": "Work & Stress"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0062|cit62",
+          "volume-title": "Psychosoziale Gef\u00e4hrdung am Arbeitsplatz - Optimierung der Beanspruchung durch die Entwicklung von Gestaltungskriterien",
+          "author": "Stadler",
+          "year": "2003"
+        },
+        {
+          "issue": "6",
+          "key": "10.1002/14651858.CD010905-BIB0063|cit63",
+          "doi-asserted-by": "crossref",
+          "first-page": "443",
+          "DOI": "10.5271/sjweh.1050",
+          "article-title": "Psychosocial work environment and mental health - a meta-analytic review",
+          "volume": "32",
+          "author": "Stansfeld",
+          "year": "2006",
+          "journal-title": "Scandinavian Journal of Work, Environment & Health"
+        },
+        {
+          "issue": "12",
+          "key": "10.1002/14651858.CD010905-BIB0064|cit64",
+          "doi-asserted-by": "crossref",
+          "first-page": "2360",
+          "DOI": "10.2105/AJPH.2011.300589",
+          "article-title": "Repeated job strain and the risk of depression: longitudinal analyses from the Whitehall II study",
+          "volume": "102",
+          "author": "Stansfeld",
+          "year": "2012",
+          "journal-title": "American Journal of Public Health"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0065|cit65",
+          "unstructured": "The World Bank How we Classify Countries http://data.worldbank.org/about/country-classifications/"
+        },
+        {
+          "issue": "4",
+          "key": "10.1002/14651858.CD010905-BIB0066|cit66",
+          "doi-asserted-by": "crossref",
+          "first-page": "230",
+          "DOI": "10.1136/tc.2007.023911",
+          "article-title": "Population tobacco control interventions and their effects on social inequalities in smoking: systematic review",
+          "volume": "17",
+          "author": "Thomas",
+          "year": "2008",
+          "journal-title": "Tobacco Control"
+        },
+        {
+          "issue": "1",
+          "key": "10.1002/14651858.CD010905-BIB0067|cit67",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1539/joh.R10002",
+          "article-title": "Development of an evidence-based guideline for supervisor training in promoting mental health: literature review",
+          "volume": "53",
+          "author": "Tsutsumi",
+          "year": "2011",
+          "journal-title": "Journal of Occupational Health"
+        },
+        {
+          "issue": "1",
+          "key": "10.1002/14651858.CD010905-BIB0068|cit68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/14651858.CD010067.pub2",
+          "article-title": "Slum upgrading strategies involving physical environment and infrastructure interventions and their effects on health and socio-economic outcomes",
+          "author": "Turley",
+          "year": "2013",
+          "journal-title": "Cochrane Database of Systematic Reviews"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0069|cit69",
+          "unstructured": "Verbeek J Sickness Absence as an outcome measure in Cochrane Reviews. 2009 osh.cochrane.org/sites/osh.cochrane.org/files/uploads/Sickness%20Absence%20as%20an%20outcome%20measure%20in%20Cochrane%20Reviews.pdf"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0070|cit70",
+          "unstructured": "World Health Organization Department of Mental Health and Substance Abuse in collaboration with the Victorian Health Promotion Foundation and The University of Melbourne Promoting Mental Health: Concepts, Emerging Evidence, Practice. 2005 www.who.int/mental_health/evidence/MH_Promotion_Book.pdf"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0071|cit71",
+          "unstructured": "World Health Organization Occupational health - Stress at the workplace www.who.int/occupational_health/topics/stressatwp/en/"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0072|cit72",
+          "unstructured": "WHO Regional Office for Europe Mental health and well-being at the workplace - protection and inclusion in challenging times. 2010 www.euro.who.int/__data/assets/pdf_file/0018/124047/e94345.pdf"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0073|cit73",
+          "volume-title": "Fehlzeiten Report 2012: Gesundheit in der flexiblen Arbeitswelt: Chancen nutzen - Risiken minimieren",
+          "author": "Wissenschaftliches Institut der AOK",
+          "year": "2012"
+        },
+        {
+          "key": "10.1002/14651858.CD010905-BIB0074|cit74",
+          "volume-title": "Leadership in Organizations",
+          "author": "Yukl",
+          "year": "2012"
+        }
+      ],
+      "updated-by": [
+        {
+          "DOI": "10.1002/14651858.cd010905.pub2",
+          "type": "new_version",
+          "label": "New version",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2019,
+                9,
+                27
+              ]
+            ],
+            "date-time": "2019-09-27T00:00:00Z",
+            "timestamp": 1569542400000
+          }
+        }
+      ],
+      "container-title": [
+        "Cochrane Database of Systematic Reviews"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/full/10.1002/14651858.CD010905",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            9
+          ]
+        ],
+        "date-time": "2021-08-09T18:49:57Z",
+        "timestamp": 1628534997000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://doi.wiley.com/10.1002/14651858.CD010905"
+        }
+      },
+      "subtitle": [],
+      "editor": [
+        {
+          "name": "Cochrane Work Group",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "editor",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2014,
+            1,
+            8
+          ]
+        ]
+      },
+      "references-count": 74,
+      "URL": "https://doi.org/10.1002/14651858.cd010905",
+      "relation": {},
+      "ISSN": [
+        "1465-1858"
+      ],
+      "issn-type": [
+        {
+          "value": "1465-1858",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            1,
+            8
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1136/bmjopen-2018-025777",
+    "retrieved_at": "2026-11-16T15:23:52.029558+00:00",
+    "response": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            18
+          ]
+        ],
+        "date-time": "2025-10-18T19:41:22Z",
+        "timestamp": 1760816482448,
+        "version": "build-2065373602"
+      },
+      "reference-count": 54,
+      "publisher": "BMJ",
+      "issue": "5",
+      "funder": [
+        {
+          "name": "Victorian Department of Health and Human Services, Australia"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "bmj.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "BMJ Open"
+      ],
+      "accepted": {
+        "date-parts": [
+          [
+            2019,
+            4,
+            12
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            5
+          ]
+        ]
+      },
+      "abstract": "<jats:sec>\n                  <jats:title>Introduction</jats:title>\n                  <jats:p>Supervision training aims to develop workplace supervisory competencies. Despite extensive supervision literature, including literature reviews, the processes through which supervision training interventions produce their effects, for whom and under what circumstances is not clearly delineated. The purpose of this study is to explain the effect of contextual factors on the underpinning mechanisms of supervision training outcomes.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Methods and analysis</jats:title>\n                  <jats:p>We propose to examine supervision training interventions across the health and human services workforce using realist methods. Pawson\u2019s five stages for undertaking a realist synthesis will be followed: (1) clarifying the scope of the review; (2) determining the search strategy; (3) study selection; (4) extracting data and (5) synthesising the evidence and drawing conclusions. Extracted data will include study characteristics, characteristics of participant cohort, intervention type, contextual factors, underlying mechanisms and supervision training outcomes. Patterns in context\u2013mechanism\u2013outcome configurations will be identified. Initial programme theories will be developed based on a comprehensive search of the literature, which will include key terms relating to supervision and training. The search strategy will involve: (1) electronic database searching using Medline, Cumulative Index to Nursing and Allied Health Literature, Social Services Abstracts, Educational Resources Information Center, PsycINFO and Australian Public Affairs Information Service and (2) hand and citation searching. We will also contact authors where necessary and discuss identified literature among the project team with extensive expertise in supervision training.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Ethics and dissemination</jats:title>\n                  <jats:p>The realist synthesis will propose an evidence-informed theory of supervision training interventions (ie, what interventions work for whom and why). The findings will be disseminated in peer-reviewed journals and presentations and through discussions with relevant organisations and stakeholders. The research will be used by educators to develop evidenced-based supervision training interventions. It will also help workplace supervisors to better understand what types of supervision training might work most optimally for them and their colleagues. Other researchers could use the synthesis findings to guide future supervision research.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>PROSPERO registration number</jats:title>\n                  <jats:p>CRD42018094186</jats:p>\n               </jats:sec>",
+      "DOI": "10.1136/bmjopen-2018-025777",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2019-06-01T11:05:30Z",
+        "timestamp": 1559387130000
+      },
+      "page": "e025777",
+      "update-policy": "https://doi.org/10.1136/crossmarkpolicy",
+      "source": "Crossref",
+      "is-referenced-by-count": 11,
+      "title": [
+        "Supervision training interventions in the health and human services: realist synthesis protocol"
+      ],
+      "prefix": "10.1136",
+      "volume": "9",
+      "author": [
+        {
+          "given": "Sarah",
+          "family": "Lee",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Faculty of Medicine, Nursing and Health Sciences, Monash Centre for Scholarship in Health Education (MCSHE), Monash University, Melbourne, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Charlotte",
+          "family": "Denniston",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Medicine, Nursing and Health Sciences, Monash Centre for Scholarship in Health Education (MCSHE), Monash University, Melbourne, Victoria, Australia"
+            },
+            {
+              "name": "Department of Medical Education, Melbourne Medical School, The University of Melbourne, Melbourne, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Vicki",
+          "family": "Edouard",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Medicine, Nursing and Health Sciences, Monash Centre for Scholarship in Health Education (MCSHE), Monash University, Melbourne, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Claire",
+          "family": "Palermo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Medicine, Nursing and Health Sciences, Monash Centre for Scholarship in Health Education (MCSHE), Monash University, Melbourne, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kirsty",
+          "family": "Pope",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Occupational Therapy, Monash University, Frankston, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Keith",
+          "family": "Sutton",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Rural Health, Monash University, Warragul, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Susan",
+          "family": "Waller",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Rural Health, Monash University, Warragul, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bernadette",
+          "family": "Ward",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Rural Health, Monash University, Bendigo, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Charlotte",
+          "family": "Rees",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Medicine, Nursing and Health Sciences, Monash Centre for Scholarship in Health Education (MCSHE), Monash University, Melbourne, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "239",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            6,
+            1
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "2025101812004105000_9.5.e025777.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jclp.20013"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Falender CA , Shafranske EP . Clinical supervision: a competency-based approach. Washington, DC: American Psychological Association, 2004.",
+          "DOI": "10.1037/10806-000"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-2923.2000.00758.x"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.4",
+          "unstructured": "Proctor B . Supervision: a co-operative exercise in accountability, enabling and ensuring. Leicester: Leicester National Youth Bureau and Council for Education and Training in Youth Work, 1986:21\u20134."
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.5",
+          "first-page": "309",
+          "article-title": "Supervision\u2013competence, confidence, accountability",
+          "volume": "22",
+          "author": "Proctor",
+          "year": "1994",
+          "journal-title": "Brit J Guid Couns"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.6",
+          "first-page": "86",
+          "article-title": "The effectiveness of clinical supervision in nursing: an evidenced based literature review",
+          "volume": "25",
+          "author": "Brunero",
+          "year": "2008",
+          "journal-title": "Aust J Adv Nurs"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.7",
+          "first-page": "290",
+          "article-title": "Clinical supervision: a framework for practice",
+          "volume": "3",
+          "author": "Jones",
+          "year": "1996",
+          "journal-title": "Int J Psychiatr Nurs Res"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jsat.2008.02.003"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.3109/0142159X.2013.852166",
+          "article-title": "Twelve tips for effective clinical supervision based on a narrative literature review and expert opinion",
+          "volume": "36",
+          "author": "Martin",
+          "year": "2014",
+          "journal-title": "Med Teach"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "282",
+          "DOI": "10.1111/j.1473-6861.2009.00226.x",
+          "article-title": "Clinical supervision: an appropriate term for physiotherapists?",
+          "volume": "8",
+          "author": "Hall",
+          "year": "2009",
+          "journal-title": "Learning in Health and Social Care"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "301",
+          "DOI": "10.1111/j.1473-6861.2009.00218.x",
+          "article-title": "The experience of therapy supervision within a UK multi-centre randomized controlled trial",
+          "volume": "8",
+          "author": "Diane",
+          "year": "2009",
+          "journal-title": "Learning in Health and Social Care"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "344",
+          "DOI": "10.1177/030802269906200802",
+          "article-title": "Staff supervision for occupational therapists",
+          "volume": "62",
+          "author": "Hunter",
+          "year": "1999",
+          "journal-title": "Br J Occup Ther"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2850.2005.00851.x"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "830",
+          "DOI": "10.12968/bjon.2011.20.13.830",
+          "article-title": "Supporting self and others: from staff nurse to nurse consultant. Part 5: clinical supervision",
+          "volume": "20",
+          "author": "Fowler",
+          "year": "2011",
+          "journal-title": "Br J Nurs"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "577",
+          "DOI": "10.1111/j.1365-2934.2006.00716.x",
+          "article-title": "Clinical supervision: what do we know and what do we need to know? A review and commentary",
+          "volume": "14",
+          "author": "Jones",
+          "year": "2006",
+          "journal-title": "J Nurs Manag"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.5172/conu.2013.45.1.22",
+          "article-title": "Finding a way forward: a literature review on the current debates around clinical supervision",
+          "volume": "45",
+          "author": "Dilworth",
+          "year": "2013",
+          "journal-title": "Contemp Nurse"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "2",
+          "DOI": "10.1177/030802260807100102",
+          "article-title": "The integration of clinical and managerial supervision: a critical literature review",
+          "volume": "71",
+          "author": "Kleiser",
+          "year": "2008",
+          "journal-title": "Br J Occup Ther"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2702.2006.01370.x"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "555",
+          "DOI": "10.1080/01421590802109834",
+          "article-title": "Faculty development: yesterday, today and tomorrow",
+          "volume": "30",
+          "author": "McLean",
+          "year": "2008",
+          "journal-title": "Medical Teacher"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1097/ACM.0b013e31816bee61"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1097/ACM.0b013e318276d070"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.22",
+          "first-page": "23",
+          "article-title": "The training of psychotherapy supervisors",
+          "volume": "13",
+          "author": "Hoffman",
+          "year": "1994",
+          "journal-title": "Psychotherapy in Private Practice"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.23",
+          "unstructured": "Simpson S , Sparkes C . Are you getting enough? - (2) supervision models and barriers. Speech Lang Thera Prac 2008:18\u201319."
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "191",
+          "DOI": "10.1300/J001v22n01_13",
+          "article-title": "Supervision practice for allied health professionals within a large mental health service",
+          "volume": "22",
+          "author": "Strong",
+          "year": "2004",
+          "journal-title": "Clin Superv"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1044/1058-0360(2008/07-0053)"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "143",
+          "DOI": "10.1300/J001v22n01_10",
+          "article-title": "Models of supervision: shaping professional identity",
+          "volume": "22",
+          "author": "Kaufman",
+          "year": "2004",
+          "journal-title": "Clin Superv"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/0959523021000002705"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.28",
+          "unstructured": "Siggins M . Promoting quality in clinical placements: literature review and national stakeholder consultation. Adelaide, Australia: Health Workforce Australia, 2012."
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.29",
+          "unstructured": "Davys A , Beddoe L . Best practice in professional supervision: a guide for the helping professions. London, UK: Jessica Kingsley Publishers, 2010."
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.30",
+          "first-page": "77",
+          "article-title": "Training of supervisors in speech-language pathology and audiology",
+          "volume": "23",
+          "author": "Anderson",
+          "year": "1981",
+          "journal-title": "ASHA"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.31",
+          "unstructured": "Dowling S . Implementing the supervisory process: theory and practice. Englewood Cliffs: Prentice-Hall, 1992."
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.32",
+          "unstructured": "American Speech-Language-Hearing Association. Clinical supervision in speech-language pathology. https://www.asha.org (Accessed Jul 2008)."
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "53",
+          "DOI": "10.1080/07325223.2011.564955",
+          "article-title": "Evidence-based training for clinical supervisors: a systematic review of 11 controlled studies",
+          "volume": "30",
+          "author": "Milne",
+          "year": "2011",
+          "journal-title": "Clin Superv"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.1016/S0962-1849(05)80106-4",
+          "article-title": "Issues in training effective supervisors",
+          "volume": "3",
+          "author": "Russell",
+          "year": "1994",
+          "journal-title": "Appl Prev Psychol"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1176/appi.ap.25.3.156"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "301",
+          "DOI": "10.1002/j.1556-6978.2004.tb01854.x",
+          "article-title": "Supervision training for professional counselors: an exploratory study",
+          "volume": "43",
+          "author": "McMahon",
+          "year": "2004",
+          "journal-title": "Couns Educ Superv"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "119",
+          "DOI": "10.1177/030802260807100310",
+          "article-title": "Supervision in occupational therapy: how are we doing?",
+          "volume": "71",
+          "author": "Gaitskell",
+          "year": "2008",
+          "journal-title": "Br J Occup Ther"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "233",
+          "DOI": "10.1080/00050067.2010.512612",
+          "article-title": "Clinical supervisor training in Australia: a review of current problems and possible solutions",
+          "volume": "45",
+          "author": "Gonsalvez",
+          "year": "2010",
+          "journal-title": "Aust Psychol"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.39",
+          "unstructured": "Bernard JM , Goodyear RK . Fundamentals of clinical supervision. 3rd ed. Needham Heights, MA, US: Allyn & Bacon, 2004."
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1539/joh.R10002",
+          "article-title": "Development of an evidence-based guideline for supervisor training in promoting mental health: literature review",
+          "volume": "53",
+          "author": "Tsutsumi",
+          "year": "2011",
+          "journal-title": "J Occup Health"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pawson R , Tilley N . An introduction to scientific realist evaluation. Evaluation for the 21st century: A handbook. Thousand Oaks: Sage Publications, Inc, 1997:405\u201318.",
+          "DOI": "10.4135/9781483348896.n29"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "787",
+          "DOI": "10.1111/medu.13290",
+          "article-title": "Balancing health care education and patient care in the UK workplace: a realist synthesis",
+          "volume": "51",
+          "author": "Sholl",
+          "year": "2017",
+          "journal-title": "Med Educ"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ajjawi R , Crampton PES , Rees CE . What really matters for successful research environments? A realist synthesis. Med Educ 2018:936\u201350.doi:10.1111/medu.13643",
+          "DOI": "10.1111/medu.13643"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3310/hsdr05280",
+          "article-title": "Quality and reporting standards, resources, training materials and information for realist evaluation: the RAMESES II project",
+          "volume": "5",
+          "author": "Wong",
+          "year": "2017",
+          "journal-title": "Health Services and Delivery Research"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "903",
+          "DOI": "10.1111/medu.13346",
+          "article-title": "Pre-registration interprofessional clinical education in the workplace: a realist review",
+          "volume": "51",
+          "author": "Kent",
+          "year": "2017",
+          "journal-title": "Med Educ"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1258/1355819054308530"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.47",
+          "unstructured": "Pawson R , Greenhalgh T , Harvey G , et al ; Realist synthesis: an introduction. Manchester: ESRC Research Methods Programme, University of Manchester, 2004."
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1741-7015-11-21"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.49",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1136/bmjopen-2018-024876",
+          "article-title": "Understanding the impact of delegated home visiting services accessed via general practice by community-dwelling patients: a realist review protocol",
+          "volume": "8",
+          "author": "Abrams",
+          "year": "2018",
+          "journal-title": "BMJ Open"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "442",
+          "DOI": "10.1016/j.amjsurg.2009.01.024",
+          "article-title": "An assessment of the methodologic quality of medical education research studies published in The American Journal of Surgery",
+          "volume": "198",
+          "author": "Reed",
+          "year": "2009",
+          "journal-title": "Am J Surg"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1097/ACM.0000000000000786"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.52",
+          "unstructured": "Critical Appraisal Skills Programme (CASP). Qualitative research checklist checklist. 2018. http://www.casp-uk.net/casp-tools-checklists/"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.53",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1136/bmjopen-2014-005466",
+          "article-title": "Understanding how appraisal of doctors produces its effects: a realist review protocol",
+          "volume": "4",
+          "author": "Brennan",
+          "year": "2014",
+          "journal-title": "BMJ Open"
+        },
+        {
+          "key": "2025101812004105000_9.5.e025777.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wong G . Data gathering in realist reviews. Looking for needles in haystacks. In: Emmel N , Greenhalgh J , Manzano A , eds. Doing realist research. London: Sage, 2018:131\u201345.",
+          "DOI": "10.4135/9781526451729.n9"
+        }
+      ],
+      "container-title": [
+        "BMJ Open"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1136/bmjopen-2018-025777",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            18
+          ]
+        ],
+        "date-time": "2025-10-18T19:00:51Z",
+        "timestamp": 1760814051000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2018-025777"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2019,
+            5
+          ]
+        ]
+      },
+      "references-count": 54,
+      "journal-issue": {
+        "issue": "5",
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              5
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1136/bmjopen-2018-025777"
+      ],
+      "URL": "https://doi.org/10.1136/bmjopen-2018-025777",
+      "relation": {},
+      "ISSN": [
+        "2044-6055",
+        "2044-6055"
+      ],
+      "issn-type": [
+        {
+          "type": "print",
+          "value": "2044-6055"
+        },
+        {
+          "type": "electronic",
+          "value": "2044-6055"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            5
+          ]
+        ]
+      }
+    }
+  }
+]

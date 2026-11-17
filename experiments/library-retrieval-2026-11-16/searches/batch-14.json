@@ -1,0 +1,94 @@
+{
+  "batch": 14,
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_27",
+      "doi": "10.1145/357401.357402",
+      "title": "End-to-end arguments in system design",
+      "field": "engineering_computing",
+      "q": "\"End-to-end arguments in system design\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_28",
+      "doi": "10.1109/tse.2002.1019480",
+      "title": "CCFinder: a multilinguistic token-based code clone detection system for large scale source code",
+      "field": "engineering_computing",
+      "q": "\"CCFinder: a multilinguistic token-based code clone detection system for large scale source code\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_29",
+      "doi": "10.5210/fm.v4i12.708",
+      "title": "A second look at the Cathedral and the Bazaar",
+      "field": "engineering_computing",
+      "q": "\"A second look at the Cathedral and the Bazaar\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_30",
+      "doi": "10.1145/223784.223785",
+      "title": "A critique of ANSI SQL isolation levels",
+      "field": "engineering_computing",
+      "q": "\"A critique of ANSI SQL isolation levels\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_27",
+      "query": "\"End-to-end arguments in system design\" pdf",
+      "urls": [
+        {
+          "title": "End-to-end arguments in system design",
+          "url": "https://www.researchgate.net/publication/220439243_End-To-End_Arguments_in_System_Design",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "End-to-End Arguments (1984) Explained for FDEs",
+          "url": "https://fdeinterviews.com/papers/end-to-end-arguments",
+          "score": 0.6,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_28",
+      "query": "\"CCFinder: a multilinguistic token-based code clone detection system for large scale source code\" pdf",
+      "urls": [
+        {
+          "title": "CCFinder: a multilinguistic token-based code clone detection system for large scale source code",
+          "url": "https://doi.org/10.1109/TSE.2002.1019480",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_29",
+      "query": "\"A second look at the Cathedral and the Bazaar\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "engineering:eng_30",
+      "query": "\"A critique of ANSI SQL isolation levels\" pdf",
+      "urls": [
+        {
+          "title": "A critique of ANSI SQL isolation levels",
+          "url": "https://www.scienceopen.com/document?vid=b1836e1c-26c2-4dba-a8b0-fd793c820a38",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Critique of ANSI SQL Isolation Levels",
+          "url": "https://studylib.net/doc/18241890/a-critique-of-ansi-sql-isolation-levels",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Critique of ANSI SQL Isolation Levels | Presentation | Advanced Database Systems - YouTube",
+          "url": "https://www.youtube.com/watch?v=azc2mufckds",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

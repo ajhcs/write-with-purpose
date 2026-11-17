@@ -1,0 +1,91 @@
+{
+  "batch": 1,
+  "queries": [
+    {
+      "candidate_key": "business:business_024",
+      "doi": "",
+      "title": "The Fall and Rise of Strategic Planning",
+      "authors": "[\"Henry Mintzberg\"]",
+      "field": "business_management",
+      "q": "\"The Fall and Rise of Strategic Planning\" pdf"
+    },
+    {
+      "candidate_key": "business:business_025",
+      "doi": "",
+      "title": "The Five Competitive Forces That Shape Strategy",
+      "authors": "[\"Michael E. Porter\"]",
+      "field": "business_management",
+      "q": "\"The Five Competitive Forces That Shape Strategy\" pdf"
+    },
+    {
+      "candidate_key": "business:business_026",
+      "doi": "",
+      "title": "Why Business Models Matter",
+      "authors": "[\"Joan Magretta\"]",
+      "field": "business_management",
+      "q": "\"Why Business Models Matter\" pdf"
+    },
+    {
+      "candidate_key": "business:business_027",
+      "doi": "",
+      "title": "What Is Disruptive Innovation?",
+      "authors": "[\"Clayton M. Christensen\", \"Michael E. Raynor\", \"Rory McDonald\"]",
+      "field": "business_management",
+      "q": "\"What Is Disruptive Innovation?\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_024",
+      "query": "\"The Fall and Rise of Strategic Planning\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "business:business_025",
+      "query": "\"The Five Competitive Forces That Shape Strategy\" pdf",
+      "urls": [
+        {
+          "title": "The Five Competitive Forces That Shape Strategy",
+          "url": "https://alea.ee/wp-content/uploads/2023/04/Porter_The-Five-Competitive-Forces-That-Shape-Strategy.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Five Competitive Forces That Shape Strategy | Harvard Business Review",
+          "url": "https://studylib.net/doc/28182157/the-five-competitve-forces-that-shape-strategy",
+          "score": 0.8571428571428571,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_026",
+      "query": "\"Why Business Models Matter\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "business:business_027",
+      "query": "\"What Is Disruptive Innovation?\" pdf",
+      "urls": [
+        {
+          "title": "2. WHAT IS DISRUPTIVE INNOVATION?",
+          "url": "https://media.crai.com/wp-content/uploads/2026/03/18155052/Italian-Antitrust-Review_Disruptive-Innovation_Caffarra_Latham.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "What Is Disruptive Innovation?",
+          "url": "https://hbr.org/2015/12/what-is-disruptive-innovation",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Disruptive Innovation | The Encyclopedia of Human-Computer Interaction, 2nd Ed.",
+          "url": "https://assets.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/disruptive-innovation",
+          "score": 0.6666666666666666,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

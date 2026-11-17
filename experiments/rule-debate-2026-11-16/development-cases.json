@@ -1,0 +1,200 @@
+{
+  "status": "Original synthetic development challenges; not held-out empirical validation or gold paragraph labels.",
+  "cases": [
+    {
+      "id": "E01",
+      "kind": "correction-only",
+      "form": "technical note",
+      "task": "Correct grammar only; preserve the ordering, technical terms, facts and uncertainty. Do not grow the text.",
+      "before": "The sensor does not transmit while the valve is closed. In the current prototype it record pressure every 5 s. We have not tested it outdoors.",
+      "source_notes": [
+        "The sensor does not transmit while the valve is closed.",
+        "Sampling interval is 5 s.",
+        "Outdoor testing has not been performed."
+      ],
+      "declared_contract": {
+        "max_growth_words": 0,
+        "protected_literals": [
+          {
+            "text": "does not transmit",
+            "min_count": 1
+          },
+          {
+            "text": "5 s",
+            "min_count": 1
+          },
+          {
+            "text": "not tested it outdoors",
+            "min_count": 1
+          }
+        ]
+      },
+      "development_questions": [
+        "Does the correction stay within scope?",
+        "Are unsupported expansions or global stylistic replacements avoided?"
+      ]
+    },
+    {
+      "id": "E02",
+      "kind": "substantive improvement",
+      "form": "decision memo",
+      "task": "Improve the reasoning and recommendation, including structure if useful. Reconsider the requested staffing level if the supplied evidence does not support it; retain the aim of reducing backlog.",
+      "before": "Our backlog increased from 12 to 30 tickets last month. The team closed 18 tickets. We should hire two analysts because the backlog is now 30.",
+      "source_notes": [
+        "36 tickets arrived last month; 18 were closed.",
+        "Starting backlog12; ending backlog30.",
+        "The ticket mix, seasonality and marginal capacity of another analyst are unknown.",
+        "No headcount or budget decision has been made."
+      ],
+      "declared_contract": {},
+      "development_questions": [
+        "Does the candidate expose the actual flow relationship and the missing capacity-to-headcount inference?",
+        "Can it develop a useful decision without inventing analyst productivity or treating two hires as protected fact?"
+      ]
+    },
+    {
+      "id": "E03",
+      "kind": "expression improvement",
+      "form": "personal reflective essay",
+      "task": "Improve flow while preserving the repeated I kept it and the unresolved ending. Do not invent the narrator's experience or explain away their ambivalence.",
+      "before": "I kept the ticket. It proved nothing, and I knew that. Still, I kept it. By morning the address had smudged; the date stayed. I do not know why that mattered.",
+      "source_notes": [
+        "The passage is synthetic; every supplied story detail is fixed for this exercise.",
+        "The repetition and unresolved final thought are explicit aesthetic choices."
+      ],
+      "declared_contract": {
+        "protected_literals": [
+          {
+            "text": "I kept it",
+            "min_count": 1
+          },
+          {
+            "text": "I do not know why that mattered.",
+            "min_count": 1
+          }
+        ]
+      },
+      "development_questions": [
+        "Is improvement possible without flattening the distinctive rhythm?",
+        "Is keeping the original allowed after a genuine comparison finds the alternative worse?"
+      ]
+    },
+    {
+      "id": "E04",
+      "kind": "audience improvement",
+      "form": "conceptual explainer",
+      "task": "Explain this behavior to a novice who knows what a request and a status are but has not encountered idempotence. Keep the standard term idempotent.",
+      "before": "Retrying this operation is idempotent. Each retry sets the status to Ready. It does not append a record or send a notification.",
+      "source_notes": [
+        "Any number of retries leaves the same state: Ready.",
+        "No retry appends a record or sends a notification.",
+        "Do not claim anything about failures, network effects or other operations."
+      ],
+      "declared_contract": {
+        "protected_literals": [
+          {
+            "text": "idempotent",
+            "min_count": 1
+          },
+          {
+            "text": "Ready",
+            "min_count": 1
+          }
+        ]
+      },
+      "development_questions": [
+        "Does the revision supply the missing distinction instead of merely replacing a long word?",
+        "Are side effects and scope faithfully limited?"
+      ]
+    },
+    {
+      "id": "E05",
+      "kind": "idea development",
+      "form": "argument essay",
+      "task": "Develop the author's distinction and improve the paragraph. You may propose an interpretation as a hypothesis or question, but do not turn it into the author's settled belief or add empirical evidence.",
+      "before": "Teams spend too long choosing note apps. An app can store every note and still leave a project stuck. The hard part is deciding what to ask next.",
+      "source_notes": [
+        "The author wants to distinguish information storage from inquiry.",
+        "The opening broad claim is an untested impression, not a measured population result.",
+        "No personal anecdote, survey, adoption rate or account of other people's motives is supplied."
+      ],
+      "declared_contract": {},
+      "development_questions": [
+        "Does the candidate make the distinctive contribution clearer rather than add generic productivity advice?",
+        "Are an inferred bridge and a new factual claim treated differently?"
+      ]
+    },
+    {
+      "id": "E06",
+      "kind": "source-faithful edit",
+      "form": "empirical report Methods section",
+      "task": "Improve the Methods passage while accurately reporting what was done. Flag any unsupported rationale or instruction separately; do not invent a source.",
+      "before": "We warmed the samples to 40 °C for 10 min, which improves accuracy. That is why readers should warm their samples too.",
+      "source_notes": [
+        "The study warmed samples to40°C for10min.",
+        "No comparison of temperature conditions or accuracy effects was performed.",
+        "No supporting external study is supplied.",
+        "The text belongs to a report of the completed study, not a reader procedure."
+      ],
+      "declared_contract": {
+        "protected_literals": [
+          {
+            "text": "40 °C",
+            "min_count": 1
+          },
+          {
+            "text": "10 min",
+            "min_count": 1
+          }
+        ]
+      },
+      "development_questions": [
+        "Does the revision retain the procedure while avoiding an unsupported causal claim or reader directive?",
+        "Can the model improve the passage rather than merely attach a warning?"
+      ]
+    },
+    {
+      "id": "E07",
+      "kind": "annotation-research",
+      "form": "argument paragraph",
+      "task": "Analyze the paragraph's functions and relations for coding research, even if no prose edit is necessary. Keep an evidence anchor separate from any complete realization span; allow overlapping readings.",
+      "before": "The proposed rule says that every delayed task is low priority. Consider an urgent approval that arrives on Friday when no authorized person is available until Monday. That possible delay would not establish low priority.",
+      "source_notes": [
+        "The approval scenario is explicitly hypothetical, not an observed case.",
+        "The paragraph challenges a universal proposition through a possible counterexample.",
+        "No population rate or empirical case evidence is supplied."
+      ],
+      "declared_contract": {},
+      "development_questions": [
+        "Can hypothetical reasoning offer support for a logical objection and illustrate it without being treated as empirical data?",
+        "Are the opposed claim, hypothetical voice and unit/span boundaries explicit?",
+        "Is coding research preserved as a legitimate standalone objective?"
+      ]
+    },
+    {
+      "id": "E08",
+      "kind": "bounded improvement",
+      "form": "technical summary",
+      "task": "Improve the explanation under a maximum of 45 words. Retain the exact term retry-safe and all material conditions. Do not add facts about causes or tests.",
+      "before": "The operation is retry-safe only while the request identifier remains unchanged. A repeated request returns the existing result. A request with a new identifier starts another operation. We have tested this behavior in the prototype, not in production.",
+      "source_notes": [
+        "The guarantee is conditional on an unchanged request identifier.",
+        "A new identifier starts another operation.",
+        "Evidence comes only from the prototype; production behavior has not been tested."
+      ],
+      "declared_contract": {
+        "max_words": 45,
+        "protected_literals": [
+          {
+            "text": "retry-safe",
+            "min_count": 1
+          }
+        ]
+      },
+      "development_questions": [
+        "Do declared limits remain hard constraints while semantic conditions are reviewed separately?",
+        "Is the result an actual improvement rather than a shorter but stronger unsupported claim?"
+      ]
+    }
+  ]
+}

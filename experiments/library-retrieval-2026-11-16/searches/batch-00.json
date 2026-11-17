@@ -1,0 +1,130 @@
+{
+  "batch": 0,
+  "queries": [
+    {
+      "candidate_key": "business:business_001",
+      "doi": "10.5465/amr.1989.4308385",
+      "title": "Building Theories from Case Study Research",
+      "field": "business_management",
+      "q": "\"Building Theories from Case Study Research\" pdf"
+    },
+    {
+      "candidate_key": "business:business_002",
+      "doi": "10.5465/amr.1999.2553248",
+      "title": "Strategies for Theorizing from Process Data",
+      "field": "business_management",
+      "q": "\"Strategies for Theorizing from Process Data\" pdf"
+    },
+    {
+      "candidate_key": "business:business_003",
+      "doi": "10.5465/amr.2007.26586086",
+      "title": "Methodological fit in management field research",
+      "field": "business_management",
+      "q": "\"Methodological fit in management field research\" pdf"
+    },
+    {
+      "candidate_key": "business:business_004",
+      "doi": "10.5465/amr.1995.9508080335",
+      "title": "An Integrative Model of Organizational Trust",
+      "field": "business_management",
+      "q": "\"An Integrative Model of Organizational Trust\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_001",
+      "query": "\"Building Theories from Case Study Research\" pdf",
+      "urls": [
+        {
+          "title": "Building Theories from Case Study Research",
+          "url": "https://iacmr.org/wp-content/uploads/sites/26/2024/05/1.1989-Eisenhardt-Building-theories-from-case-study-research.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "**Building Theories from Case Study Research**",
+          "url": "https://qualquant.org/wp-content/uploads/text/Eisenhardt%201989b.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Building Theories from Case Study Research",
+          "url": "https://explore.metascienceobservatory.org/papers/W2141951329",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Building Theories from Case Study Research – ScienceOpen",
+          "url": "https://www.scienceopen.com/book?vid=d9e26c80-c740-4012-a047-983112d37522",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Building Theories from Case Study Research | Synapse",
+          "url": "https://synapsesocial.com/papers/696a770e61079de713763255",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Building Theories from Case Study Research",
+          "url": "https://www.minicod.com/papers/building-theories-from-case-study-research-9e60bc4d",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Building Theories from Case Study Research",
+          "url": "https://www.academia.edu/44396611/Building_Theories_from_Case_Study_Research",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Case study",
+          "url": "https://en.wikipedia.org/wiki/Case_study",
+          "score": 0.3333333333333333,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_002",
+      "query": "\"Strategies for Theorizing from Process Data\" pdf",
+      "urls": [
+        {
+          "title": "Strategies for Theorizing from Process Data - Dialnet",
+          "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=471619",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Strategies for Theorizing from Process Data",
+          "url": "https://journals.aom.org/doi/abs/10.5465/amr.1999.2553248?journalCode=amr",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Strategies for Theorizing from Process Data",
+          "url": "https://explore.metascienceobservatory.org/papers/W2115497642",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_003",
+      "query": "\"Methodological fit in management field research\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "business:business_004",
+      "query": "\"An Integrative Model of Organizational Trust\" pdf",
+      "urls": [
+        {
+          "title": "GESIS-Suche: An integrative model of organizational trust",
+          "url": "https://search.gesis.org/publication/zis-MayerDavisSchoorman1995An",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

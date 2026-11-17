@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p02",
+      "doi": "",
+      "title": "Sliver of Sky: Confronting the Trauma of Sexual Abuse",
+      "authors": "[\"Barry Lopez\"]",
+      "field": "personal_public_writing",
+      "q": "\"Sliver of Sky: Confronting the Trauma of Sexual Abuse\" Lopez pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p02",
+      "query": "\"Sliver of Sky: Confronting the Trauma of Sexual Abuse\" Lopez pdf",
+      "urls": [
+        {
+          "title": "In 'Sliver Of Sky,' Barry Lopez Confronts Childhood Sexual Abuse. | Fresh Air Archive: Interviews with Terry Gross",
+          "url": "https://freshairarchive.org/segments/sliver-sky-barry-lopez-confronts-childhood-sexual-abuse",
+          "score": 0.5714285714285714
+        }
+      ]
+    }
+  ]
+}

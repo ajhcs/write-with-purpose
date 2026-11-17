@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_30",
+      "doi": "",
+      "title": "The Einstein-Podolsky-Rosen Argument in Quantum Theory",
+      "authors": "[\"Arthur Fine\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"The Einstein-Podolsky-Rosen Argument in Quantum Theory\" Fine pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_30",
+      "query": "\"The Einstein-Podolsky-Rosen Argument in Quantum Theory\" Fine pdf",
+      "urls": [
+        {
+          "title": "The Einstein-Podolsky-Rosen Argument in Quantum T...",
+          "url": "https://jontalle.web.engr.illinois.edu/uploads/537.F18/Papers/Public/Einstein-Podolsky-Rosen.04.pdf",
+          "score": 0.8571428571428571
+        },
+        {
+          "title": "The Einstein-Podolsky-Rosen Argument in Quantum T...                                                                 https://plato.stanford.edu/entries/qt-epr/",
+          "url": "https://jontalle.web.engr.illinois.edu/Public/Einstein-Podolsky-Rosen.04.pdf",
+          "score": 0.8571428571428571
+        },
+        {
+          "title": "The Einstein-Podolsky-Rosen Argument in Quantum Theory",
+          "url": "https://plato.stanford.edu/archives/win2020/entries/qt-epr/",
+          "score": 1
+        },
+        {
+          "title": "The Einstein-Podolsky-Rosen Argument in Quantum Theory",
+          "url": "https://plato.stanford.edu/archives/win2015/entries/qt-epr/",
+          "score": 1
+        },
+        {
+          "title": "The Einstein-Podolsky-Rosen Argument in Quantum Theory",
+          "url": "https://philpapers.org/rec/FINTEA-5",
+          "score": 1
+        },
+        {
+          "title": "The Einstein-Podolsky-Rosen Argument in Quantum Theory",
+          "url": "https://plato.stanford.edu/archives/sum2017/entries/qt-epr/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

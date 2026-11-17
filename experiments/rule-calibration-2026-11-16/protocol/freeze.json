@@ -1,0 +1,29 @@
+{
+  "frozen_at_utc": "2026-11-16T16:21:37.897763+00:00",
+  "files": [
+    {
+      "file": "original-catalogue.json",
+      "source": "docs/writing-harness/paragraph-functions.json",
+      "sha256": "4d119fac2f29e1c0bbdea77e65e64cba45f67931bc0f816e40a765c0ff3cdc2e"
+    },
+    {
+      "file": "original-guide.md",
+      "source": "docs/writing-harness/paragraph-functions.md",
+      "sha256": "20b7e6eb32f966651e32af42c4965978e1cf137589c82afbb6ce53e3e14a6ee1"
+    },
+    {
+      "file": "revised-rules.json",
+      "source": "experiments/pattern-test-2026-11-16/disagreement-review/astra-candidate-rules.json",
+      "sha256": "72935543d48b50bca2d92f497ac9fcadc086fa8d609588b7a7d492a2a086a231"
+    },
+    {
+      "file": "revised-examples.json",
+      "source": "experiments/pattern-test-2026-11-16/disagreement-review/astra-contrastive-examples.json",
+      "sha256": "faccf2fafc96767b9aff17dc6c35d8a4c87186025bda7fc1600dd562dab30fd9"
+    },
+    {
+      "file": "plan.md",
+      "sha256": "cd01901aaf2ee059042b71c2f9ccc46c6ee6534db1d54259eebcc768b682472c"
+    }
+  ]
+}

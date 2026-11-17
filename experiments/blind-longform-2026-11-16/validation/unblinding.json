@@ -1,0 +1,10 @@
+{
+  "scope": "Frozen-key/data bindings, arithmetic and manifest interpretation; not semantic correctness or statistical superiority.",
+  "key_matches_pre_generation_commitment": true,
+  "public_data_matches_original_release": true,
+  "raw_author_reviews_unchanged": true,
+  "eight_generators_selected_writer": true,
+  "ten_cases_reconciled": true,
+  "counts_reconcile_across_source_and_section": true,
+  "uncertain_blank_and_original_preference_preserved": true
+}

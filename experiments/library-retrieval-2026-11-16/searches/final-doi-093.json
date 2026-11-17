@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_14",
+      "doi": "10.1103/physrevlett.49.1804",
+      "title": "Experimental Test of Bell's Inequalities Using Time- Varying Analyzers",
+      "authors": "[\"Alain Aspect\", \"Jean Dalibard\", \"Gérard Roger\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Experimental Test of Bell's Inequalities Using Time- Varying\" Aspect filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_14",
+      "query": "\"Experimental Test of Bell's Inequalities Using Time- Varying\" Aspect filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Experimental Test of Bell's Inequalities Using Time- Varying Analyzers",
+          "url": "https://quantum.country/assets4/Aspect1982.pdf",
+          "score": 1
+        },
+        {
+          "title": "Experimental Test of Bell's Inequalities Using Time-Varying Analyzers",
+          "url": "https://doi.org/10.1103/PhysRevLett.49.1804",
+          "score": 1
+        },
+        {
+          "title": "Experimental Test of Bell's Inequalities Using Time-Varying Analyzers",
+          "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.49.1804",
+          "score": 1
+        },
+        {
+          "title": "EXPERIMENTAL TEST OF BELL'S INEQUALITIES USING TIME-VARYING ANALYZERS",
+          "url": "https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=PASCAL83X0210995",
+          "score": 1
+        },
+        {
+          "title": "Experimental Test of Bell's Inequalities Using Time- Varying Analyzers",
+          "url": "https://ai.updf.com/paper-detail/experimental-test-of-bell-s-inequalities-using-time-varying-analyzers-aspect-dalibard-372d928bf1ef5ddab3145ae951c39bcf93437ebf",
+          "score": 1
+        },
+        {
+          "title": "Experimental Test of Bell`s Inequalities Using Time",
+          "url": "https://studyres.com/doc/17940236/experimental-test-of-bell-s-inequalities-using-time",
+          "score": 0.8571428571428571
+        }
+      ]
+    }
+  ]
+}

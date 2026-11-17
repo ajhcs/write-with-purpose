@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_013",
+      "doi": "10.5465/amr.2001.4011928",
+      "title": "Is the Resource-Based “View” a Useful Perspective for Strategic Management Research?",
+      "authors": "[\"Richard L. Priem\", \"John E. Butler\"]",
+      "field": "business_management",
+      "q": "\"Is the Resource-Based View a Useful Perspective for\" Priem filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_013",
+      "query": "\"Is the Resource-Based View a Useful Perspective for\" Priem filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Is the resource-based \"view\" a useful perspective for strategic management research?",
+          "url": "https://courses.umass.edu/marta/schmgmt802-marta/priem%20and%20butler%20resource%20based.pdf",
+          "score": 1
+        },
+        {
+          "title": "Priem, R.L. and Butler, J.E., 2001. Is the resource-based “view” a useful perspective for strategic management research?. Academy of management review, 26(1), pp.22-40.",
+          "url": "https://bura.brunel.ac.uk/bitstream/2438/23502/1/FulltextThesis.pdf",
+          "score": 1
+        },
+        {
+          "title": "Is the Resource-Based “View” a Useful Perspective for Strategic Management Research?",
+          "url": "https://journals.aom.org/doi/10.5465/AMR.2001.4011928",
+          "score": 1
+        },
+        {
+          "title": "Is the Resource-Based “View” a Useful Perspective for Strategic Management Research?",
+          "url": "https://journals.aom.org/doi/10.5465/amr.2001.4011928",
+          "score": 1
+        },
+        {
+          "title": "Is the Resource-Based “View” a Useful Perspective for Strategic Management Research? Yes",
+          "url": "https://journals.aom.org/doi/10.5465/AMR.2001.4011938",
+          "score": 1
+        },
+        {
+          "title": "Is the Resource-Based “View” a Useful Perspective for Strategic Management Research? Yes",
+          "url": "https://journals.aom.org/doi/10.5465/amr.2001.4011938",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_019",
+      "doi": "10.5465/256741",
+      "title": "THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.",
+      "authors": "[\"M. A. HUSELID\"]",
+      "field": "business_management",
+      "q": "\"THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON\" HUSELID filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_019",
+      "query": "\"THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON\" HUSELID filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "The Impact of Human Resource Management Practices on Turnover, Productivity, and",
+          "url": "https://www.bincube.org.in/wp-content/uploads/2021/03/256741.pdf",
+          "score": 1
+        },
+        {
+          "title": "The Impact Of Human Resource Management Practices On Turnover, Productivity, And Corporate Financial Performance",
+          "url": "https://scispace.com/pdf/the-impact-of-human-resource-management-practices-on-hesrlz2jwc.pdf",
+          "score": 1
+        },
+        {
+          "title": "The Impact of Human Resource Management Practices on Turnover, Productivity, and Corporate Financial Performance | JSTOR",
+          "url": "https://www.jstor.org/stable/256741?seq=1",
+          "score": 1
+        },
+        {
+          "title": "THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.",
+          "url": "https://openurl.ebsco.com/linksvc/linking.aspx?authtype=shib&custid=s1661893&date=1995-06&epage=372&genre=article&issn=0001-4273&issue=3&sid=Primo&spage=635&title=The+Academy+of+Management+journal.&volume=38",
+          "score": 1
+        },
+        {
+          "title": "The Impact of Human Resource Management Practices on Turnover, Productivity, and Corporate Financial Performance",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1803666&trk=article-ssr-frontend-pulse_little-text-block",
+          "score": 1
+        },
+        {
+          "title": "The Impact of Human Resource Management Practices on Turnover, Productivity, and Corporate Financial Performance",
+          "url": "https://www.academia.edu/107271021/The_Impact_of_Human_Resource_Management_Practices_on_Turnover_Productivity_and_Corporate_Financial_Performance",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

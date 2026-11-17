@@ -1,0 +1,188 @@
+[
+  {
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_01",
+      "psm_02",
+      "psm_03"
+    ],
+    "reason": "One first-person reminiscence and two first-person Nobel autobiographies, replacing the earlier technical lectures."
+  },
+  {
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_04",
+      "psm_05",
+      "psm_28"
+    ],
+    "reason": "Three science arguments, including Feynman’s 1974 commencement address."
+  },
+  {
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_24",
+      "psm_25",
+      "psm_26"
+    ],
+    "reason": "Three reviews selected by Nature for its Hawking collection; article contents not fully assessed."
+  },
+  {
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_06",
+      "psm_07",
+      "psm_08"
+    ],
+    "reason": "Three physics explanatory articles; review and colloquium forms overlap."
+  },
+  {
+    "form_id": "tutorial",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_09",
+      "psm_10",
+      "psm_11"
+    ],
+    "reason": "Three tutorial texts; one is 2015 supplement, and citation counts are modest for two."
+  },
+  {
+    "form_id": "procedure_how_to",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_32",
+      "psm_33",
+      "psm_34"
+    ],
+    "reason": "Two bounded national laboratory SOPs plus one physics teaching procedure; publication prominence varies."
+  },
+  {
+    "form_id": "reference_entry",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_29",
+      "psm_30",
+      "psm_31"
+    ],
+    "reason": "Three individually authored physics-philosophy encyclopedia entries, with archived pre-2015 editions."
+  },
+  {
+    "form_id": "empirical_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_12",
+      "psm_13",
+      "psm_14"
+    ],
+    "reason": "Three empirical discoveries; gravitational-wave report is 2016 supplement."
+  },
+  {
+    "form_id": "methods_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_15",
+      "psm_16",
+      "psm_17"
+    ],
+    "reason": "Three method-originating papers."
+  },
+  {
+    "form_id": "theory_conceptual_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_18",
+      "psm_19",
+      "psm_20"
+    ],
+    "reason": "Three theoretical/conceptual papers."
+  },
+  {
+    "form_id": "case_report",
+    "status": "no_verified_targets",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "No suitable disciplinary case reports verified; experimental reports are not case reports."
+  },
+  {
+    "form_id": "study_review_protocol",
+    "status": "no_verified_targets",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "No public, standalone advance study or review protocols meeting this selection threshold verified."
+  },
+  {
+    "form_id": "narrative_critical_literature_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_21",
+      "psm_22",
+      "psm_23"
+    ],
+    "reason": "Three topical narrative syntheses; none represented as a systematic or scoping review."
+  },
+  {
+    "form_id": "scoping_review",
+    "status": "no_verified_targets",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "No qualifying pre-2020 review with explicit scoping methods verified in this pass."
+  },
+  {
+    "form_id": "systematic_review",
+    "status": "no_verified_targets",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "No qualifying pre-2020 review with explicit systematic search and screening verified in this pass."
+  },
+  {
+    "form_id": "proposal",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_35",
+      "psm_36",
+      "psm_37"
+    ],
+    "reason": "Three CERN scientific experiment technical proposals; FASER 2018 is supplemental."
+  },
+  {
+    "form_id": "decision_memo",
+    "status": "partial_gap",
+    "requested": 3,
+    "provided": 1,
+    "candidate_ids": [
+      "psm_27"
+    ],
+    "reason": "One archived scientist-authored policy memorandum verified; two missing."
+  }
+]

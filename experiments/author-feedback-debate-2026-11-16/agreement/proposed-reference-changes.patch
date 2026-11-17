@@ -1,0 +1,64 @@
+--- a/skills/write-with-purpose/references/cole-lyons-style.md
++++ b/skills/write-with-purpose/references/cole-lyons-style.md
+@@ -11,7 +11,7 @@
+ - **Begin where the reader can follow what happened.** The article opens with the wheelchair account, then develops the institutional argument. For other work, use the relevant situation, question, or finding already supported by the material. Do not invent an anecdote to reproduce the opening.
+ - **Use familiar words to explain the relationship.** The approved passage names what the staff member fears and what the budget reviewer sees. Replace phrases such as “priced out of urgency” with the actual reason a request might be set aside. Retain technical terms when they make a necessary distinction, and explain them where needed.
+ - **Connect thoughts naturally.** Keep context and connecting language that help the reader follow the sentence. Related clauses can belong together. Shorter sentences and fewer words are not goals by themselves, and the reference's transitions are not mandatory phrases.
+-- **Let a useful example develop the argument.** The wheelchair request explains how a warning can lose its meaning. Remove inventories and second explanations that repeat the same point, while retaining examples or detail that the task requires.
++- **Let examples develop the argument.** For Cole's prose, avoid illustrative series of more than three items and repeated lists within a paragraph; a shorter list can still be filler. Select the example that advances the point or explain the relationship the inventory stood in for. Do not merely spread the same inventory across sentences. Preserve required coverage and materially distinct reasons, developing or reorganizing them rather than silently dropping them. This is Cole's preference, not a rule for every author's voice.
+ - **Keep qualifications with the claims they limit.** Preserve words such as “may,” “only,” and “alone” when they change the meaning. Distinguish what the author observed, what they infer, and what they propose. A style match does not justify changing certainty or adding a cause that the evidence does not establish.
+ - **Match the amount of editing to the request.** This article was a requested substantial rewrite. For cleanup, preserve effective wording and repair the parts that need it; the reference does not authorize reorganizing every draft.
+ 
+--- a/skills/edit-with-purpose/references/cole-lyons-style.md
++++ b/skills/edit-with-purpose/references/cole-lyons-style.md
+@@ -11,7 +11,7 @@
+ - **Begin where the reader can follow what happened.** The article opens with the wheelchair account, then develops the institutional argument. For other work, use the relevant situation, question, or finding already supported by the material. Do not invent an anecdote to reproduce the opening.
+ - **Use familiar words to explain the relationship.** The approved passage names what the staff member fears and what the budget reviewer sees. Replace phrases such as “priced out of urgency” with the actual reason a request might be set aside. Retain technical terms when they make a necessary distinction, and explain them where needed.
+ - **Connect thoughts naturally.** Keep context and connecting language that help the reader follow the sentence. Related clauses can belong together. Shorter sentences and fewer words are not goals by themselves, and the reference's transitions are not mandatory phrases.
+-- **Let a useful example develop the argument.** The wheelchair request explains how a warning can lose its meaning. Remove inventories and second explanations that repeat the same point, while retaining examples or detail that the task requires.
++- **Let examples develop the argument.** For Cole's prose, avoid illustrative series of more than three items and repeated lists within a paragraph; a shorter list can still be filler. Select the example that advances the point or explain the relationship the inventory stood in for. Do not merely spread the same inventory across sentences. Preserve required coverage and materially distinct reasons, developing or reorganizing them rather than silently dropping them. This is Cole's preference, not a rule for every author's voice.
+ - **Keep qualifications with the claims they limit.** Preserve words such as “may,” “only,” and “alone” when they change the meaning. Distinguish what the author observed, what they infer, and what they propose. A style match does not justify changing certainty or adding a cause that the evidence does not establish.
+ - **Match the amount of editing to the request.** This article was a requested substantial rewrite. For cleanup, preserve effective wording and repair the parts that need it; the reference does not authorize reorganizing every draft.
+ 
+--- a/skills/write-with-purpose/references/structure-and-purpose.md
++++ b/skills/write-with-purpose/references/structure-and-purpose.md
+@@ -36,7 +36,7 @@
+ 
+ An alternative structure must change an information dependency, the placement of a material qualification, or the intended experience. Renamed headings alone do not qualify. A sketch can locate the difference; write the decisive transition or representative passage to judge it, then carry a selected route into the requested writing. Two complete drafts are needed only when the tradeoff cannot otherwise be assessed or the author requests them.
+ 
+-Compare what the actual versions make recoverable, what they delay and what they might lose. Moving the same words can change endorsement, timing or rhetorical force: an unresolved closing reflection can become an apparent opening thesis. Preserve these relationships as well as factual content. Choose independently when the brief settles the tradeoff; expose consequential unresolved intent rather than silently deciding a new belief.
++Compare what the actual versions make recoverable, what they delay and what they might lose. Read a passage with its surroundings: what makes the next claim matter, or prepares the next event or turn? Moving or dividing material can change endorsement, timing or rhetorical force without changing the underlying facts. An unresolved reflection can become an apparent thesis; coordination can become an asserted sequence. Preserve supported relationships while pursuing a stronger arrangement. Choose independently when the brief settles the tradeoff; expose consequential unresolved intent rather than silently deciding a new belief.
+ 
+ Expression can improve through a new rhythm, a clearer connection or a useful image. Retain, transform or remove imagery according to its contextual effect and actual preservation requirements. Strangeness alone is not proof of voice; shorter sentences or a smaller diff do not prove improvement. Deliberate delay, repetition, humor and sound can earn their place. Allow “effect unclear”; do not fabricate a gain/loss rationale for every aesthetic choice.
+ 
+--- a/skills/edit-with-purpose/references/structure-and-purpose.md
++++ b/skills/edit-with-purpose/references/structure-and-purpose.md
+@@ -36,7 +36,7 @@
+ 
+ An alternative structure must change an information dependency, the placement of a material qualification, or the intended experience. Renamed headings alone do not qualify. A sketch can locate the difference; write the decisive transition or representative passage to judge it, then carry a selected route into the requested writing. Two complete drafts are needed only when the tradeoff cannot otherwise be assessed or the author requests them.
+ 
+-Compare what the actual versions make recoverable, what they delay and what they might lose. Moving the same words can change endorsement, timing or rhetorical force: an unresolved closing reflection can become an apparent opening thesis. Preserve these relationships as well as factual content. Choose independently when the brief settles the tradeoff; expose consequential unresolved intent rather than silently deciding a new belief.
++Compare what the actual versions make recoverable, what they delay and what they might lose. Read a passage with its surroundings: what makes the next claim matter, or prepares the next event or turn? Moving or dividing material can change endorsement, timing or rhetorical force without changing the underlying facts. An unresolved reflection can become an apparent thesis; coordination can become an asserted sequence. Preserve supported relationships while pursuing a stronger arrangement. Choose independently when the brief settles the tradeoff; expose consequential unresolved intent rather than silently deciding a new belief.
+ 
+ Expression can improve through a new rhythm, a clearer connection or a useful image. Retain, transform or remove imagery according to its contextual effect and actual preservation requirements. Strangeness alone is not proof of voice; shorter sentences or a smaller diff do not prove improvement. Deliberate delay, repetition, humor and sound can earn their place. Allow “effect unclear”; do not fabricate a gain/loss rationale for every aesthetic choice.
+ 
+--- a/skills/write-with-purpose/references/language-and-meaning.md
++++ b/skills/write-with-purpose/references/language-and-meaning.md
+@@ -11,6 +11,8 @@
+ ## Evidence, inference and action
+ 
+ When a conclusion depends on a relationship, supply the link between the stated facts and the judgment. A useful framing sentence can orient the reader before the particulars. Keep precise terms for the relevant concepts and use plain clauses to explain their relationship: what each refers to, how one affects another, or why a fact supports the judgment. A connective can expose that link; it cannot supply missing evidence for it.
++
++An argument that “stayed with me from” a report was not necessarily “first encountered” there. Make the useful connection without adding unsupported personal history. A disclaimer is also a claim: follow an author's correction at its supported scope without inferring a credential or experience they have not specified, and retain independent qualifications that still apply. Repair the unsupported relationship while retaining useful changes around it.
+ 
+ For a proposed change, identify what currently happens and what should happen instead. State the affected object, action and relevant completion condition. A compressed label for the change is useful when the reader can recover the concrete instruction from it. If the reader must reconstruct that instruction, write it directly.
+ 
+--- a/skills/edit-with-purpose/references/technical-meaning.md
++++ b/skills/edit-with-purpose/references/technical-meaning.md
+@@ -10,4 +10,6 @@
+ 
+ Compare the actual before and after. A rewrite can retain every number while changing its subject, denominator or logical role. Conversely, a supported paraphrase or conversion can change the words and digits without changing the claim. Exact matches are observations, not semantic proof.
+ 
++An argument that “stayed with me from” a report was not necessarily “first encountered” there. Make the useful connection without adding unsupported personal history. A disclaimer is also a claim: follow an author's correction at its supported scope without inferring a credential or experience they have not specified, and retain independent qualifications that still apply. Repair the unsupported relationship while retaining useful changes around it.
++
+ Correctness review should distinguish supported corrections, unresolved source conflicts and optional wording choices. Preserve useful technical language while making the connection around it readable. Additional factual research belongs to the authorized task; editorial work does not itself establish new clinical or engineering evidence.

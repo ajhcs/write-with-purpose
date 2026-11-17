@@ -1,0 +1,9 @@
+{
+  "output_sha256": "b714f5220cf11b9d0067332777d1e1d338442f1206280f8158cdab56f7f5a96c",
+  "word_count_whitespace_tokens": 36,
+  "max_words": 45,
+  "literal": "retry-safe",
+  "literal_count": 1,
+  "checks_pass": true,
+  "scope": "entire output.txt; semantic fidelity reviewed separately"
+}

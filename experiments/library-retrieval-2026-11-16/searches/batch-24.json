@@ -1,0 +1,125 @@
+{
+  "batch": 24,
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_12",
+      "doi": "10.1103/physrevlett.116.061102",
+      "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Observation of Gravitational Waves from a Binary Black Hole Merger\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_13",
+      "doi": "10.1103/physrevlett.75.3969",
+      "title": "Bose-Einstein Condensation in a Gas of Sodium Atoms",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Bose-Einstein Condensation in a Gas of Sodium Atoms\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_14",
+      "doi": "10.1103/physrevlett.49.1804",
+      "title": "Experimental Test of Bell's Inequalities Using Time- Varying Analyzers",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Experimental Test of Bell's Inequalities Using Time- Varying Analyzers\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_15",
+      "doi": "10.1103/physrev.136.b864",
+      "title": "Inhomogeneous Electron Gas",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Inhomogeneous Electron Gas\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_12",
+      "query": "\"Observation of Gravitational Waves from a Binary Black Hole Merger\" pdf",
+      "urls": [
+        {
+          "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+          "url": "https://arxiv.org/abs/1602.03837",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+          "url": "https://doi.org/gcp5km",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Reproducing GW150914: the first observation of gravitational waves from a binary black hole merger",
+          "url": "https://arxiv.org/abs/2010.07244",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_13",
+      "query": "\"Bose-Einstein Condensation in a Gas of Sodium Atoms\" pdf",
+      "urls": [
+        {
+          "title": "Bose-Einstein Condensation in a Gas of Sodium Atoms",
+          "url": "https://doi.org/10.1103/PhysRevLett.75.3969",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_14",
+      "query": "\"Experimental Test of Bell's Inequalities Using Time- Varying Analyzers\" pdf",
+      "urls": [
+        {
+          "title": "Experimental Test of Bell's Inequalities Using Time-Varying Analyzers",
+          "url": "https://doi.org/10.1103/PhysRevLett.49.1804",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "EXPERIMENTAL TEST OF BELL'S INEQUALITIES USING TIME-VARYING ANALYZERS",
+          "url": "https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=PASCAL83X0210995",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Aspect, Alain, Dalibard, Jean, Roger, Gérard (1982) Experimental Test of Bell's Inequalities Using Time- Varying Analyzers. Physical Review Letters, 49 (25). 1804-1807 doi:10.1103/physrevlett.49.1804",
+          "url": "https://www.mindat.org/reference.php?id=10539908",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Experimental Test of Bell's Inequalities Using Time- Varying Analyzers",
+          "url": "https://bishtref.com/articles/10.1103/physrevlett.49.1804",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_15",
+      "query": "\"Inhomogeneous Electron Gas\" pdf",
+      "urls": [
+        {
+          "title": "Inhomogeneous Electron Gas",
+          "url": "https://www.scienceopen.com/document?vid=43aef779-b29c-4e23-8cb9-b7376a751816",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Density functional theory and free energy of inhomogeneous electron gas",
+          "url": "https://arxiv.org/abs/1004.0885",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "The non-uniform electron gas",
+          "url": "https://arxiv.org/abs/2603.21200",
+          "score": 0.6666666666666666,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

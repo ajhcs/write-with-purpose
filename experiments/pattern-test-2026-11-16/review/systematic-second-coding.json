@@ -1,0 +1,458 @@
+{
+  "scope": "Independent second coding of the 48 supplied target paragraphs from eight systematic reviews. Neighboring paragraphs and literal headings were used as context only. Function IDs follow the supplied proposed catalog; source-claim truth was not assessed.",
+  "paragraphs": [
+    {
+      "id": "xml-02359-p003",
+      "functions": [
+        "orient",
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "rationale": "Frames the value of patient experience, gives concrete care examples, and reasons from fragmentation to a whole-system perspective.",
+      "uncertain": "The explanatory relationship is plausible but brief."
+    },
+    {
+      "id": "xml-02359-p008",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Describes the search terms and outcomes used.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02359-p013",
+      "functions": [
+        "report"
+      ],
+      "rationale": "States the inclusion threshold and application to studies extracted from reviews.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02359-p018",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "rationale": "Describes the table and outcome categories using concrete examples.",
+      "uncertain": "Examples enumerate category contents; illustration is borderline."
+    },
+    {
+      "id": "xml-02359-p023",
+      "functions": [
+        "interpret",
+        "report",
+        "support"
+      ],
+      "rationale": "Judges adherence evidence strong and summarizes studies that bear on this judgment, then reports other associated outcomes.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02359-p028",
+      "functions": [
+        "report",
+        "qualify",
+        "assert"
+      ],
+      "rationale": "Describes methodological constraints and their implications for evidence and generalizability, with proposals for further work.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02334-p003",
+      "functions": [
+        "report"
+      ],
+      "rationale": "States review scope and research questions.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02334-p007",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Describes definitions and procedure used to assess severity.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02334-p012",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Summarizes follow-up, impairment counts and risk estimates.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02334-p016",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "rationale": "Reports the pooled risk and contrasts highest and lowest risks across insults.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02334-p021",
+      "functions": [
+        "orient",
+        "report",
+        "interpret",
+        "qualify",
+        "assert"
+      ],
+      "rationale": "Frames the burden, reports the small evidence base and interprets a possible association with an explicit sample-size limitation and research recommendation.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02334-p025",
+      "functions": [
+        "interpret",
+        "assert"
+      ],
+      "rationale": "Draws policy and research implications and recommends prevention, treatment, resources and assessment.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02298-p003",
+      "functions": [
+        "orient",
+        "report",
+        "illustrate",
+        "explain",
+        "compare",
+        "qualify"
+      ],
+      "rationale": "Frames validity as important, illustrates it with autism studies, describes data checks and contrasts recording processes and limitations.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02298-p009",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Describes classification and calculation methods.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02298-p014",
+      "functions": [
+        "report",
+        "compare",
+        "interpret",
+        "illustrate"
+      ],
+      "rationale": "Summarizes validation results, compares database estimates to external sources and code sets, gives examples, and infers verification by stricter criteria.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02298-p020",
+      "functions": [
+        "report",
+        "qualify",
+        "explain"
+      ],
+      "rationale": "Recaps validation findings and explains why method limitations, reporting quality and possible publication bias restrict an overall validity conclusion.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02298-p025",
+      "functions": [
+        "compare",
+        "report",
+        "explain",
+        "qualify"
+      ],
+      "rationale": "Compares cost and time tradeoffs, reports reporting gaps and explains resulting bias and completeness limitations.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02298-p031",
+      "functions": [
+        "assert",
+        "qualify",
+        "explain"
+      ],
+      "rationale": "Recommends validation and argues for internal algorithms while identifying cost and generalizability limitations of external validation.",
+      "uncertain": "Whether the claim about algorithms deserves report or assertion is context dependent."
+    },
+    {
+      "id": "xml-02415-p004",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Summarizes the review eligibility criteria, interventions, comparators and outcomes.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02415-p010",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Reports software and significance threshold used.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02415-p016",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "rationale": "Reports that three studies were not assessed and gives insufficient data as the reason.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02415-p023",
+      "functions": [
+        "report",
+        "explain",
+        "qualify"
+      ],
+      "rationale": "Reports a risk-of-bias assessment and identifies methodological and historical reasons for that risk.",
+      "uncertain": "The assessment is a finding about included studies and a limitation on their evidence."
+    },
+    {
+      "id": "xml-02415-p029",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "rationale": "Reports a subgroup outcome and limits its interpretation because of selection bias and confounding.",
+      "uncertain": "Source contains an apparent mismatch between SARS-CoV and influenza; coding does not resolve it."
+    },
+    {
+      "id": "xml-02415-p035",
+      "functions": [
+        "qualify",
+        "report",
+        "explain"
+      ],
+      "rationale": "Describes evidence and review limitations, explains potential directions of bias and calls for cautious interpretation.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02282-p002",
+      "functions": [
+        "report"
+      ],
+      "rationale": "States the reporting guideline used for the review.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02282-p006",
+      "functions": [
+        "report",
+        "define",
+        "explain"
+      ],
+      "rationale": "Reports sensitivity and meta-regression methods, operational quality criteria, and the reason for assuming odds ratios approximate risk ratios.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02282-p010",
+      "functions": [
+        "report",
+        "compare",
+        "qualify"
+      ],
+      "rationale": "Reports pooled effects and heterogeneity across study designs, noting the exception and disproportionate study weight.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02282-p013",
+      "functions": [
+        "report",
+        "compare",
+        "interpret",
+        "qualify"
+      ],
+      "rationale": "Compares association estimates across study characteristics and synthesizes a tentative quality pattern with a counterexample and statistical uncertainty.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02282-p017",
+      "functions": [
+        "interpret",
+        "support",
+        "illustrate",
+        "compare",
+        "explain",
+        "qualify"
+      ],
+      "rationale": "Infers population burden, illustrates it with an explicitly assumed calculation, compares diabetes and HIV risk and prevalence, and proposes an explanation for contrary trends.",
+      "uncertain": "The country comparison and causal interpretation are conditional and speculative."
+    },
+    {
+      "id": "xml-02282-p021",
+      "functions": [
+        "qualify",
+        "report",
+        "explain",
+        "compare"
+      ],
+      "rationale": "Identifies missing effect-modification analysis, compares studies and proposes explanations while acknowledging inability to distinguish diabetes types.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02382-p005",
+      "functions": [
+        "explain"
+      ],
+      "rationale": "States the relationship of drivers and facilitators to application of stigma.",
+      "uncertain": "Very brief; the prior context may determine whether this is primarily a summary or explanation."
+    },
+    {
+      "id": "xml-02382-p013",
+      "functions": [
+        "report"
+      ],
+      "rationale": "States review method and objectives.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02382-p021",
+      "functions": [
+        "report",
+        "define"
+      ],
+      "rationale": "Reports additional analytic categories and specifies the domains and socio-ecological levels assessed.",
+      "uncertain": "The listed parentheticals also provide operational meaning for levels."
+    },
+    {
+      "id": "xml-02382-p030",
+      "functions": [
+        "report",
+        "compare",
+        "illustrate"
+      ],
+      "rationale": "Reports variation in duration and contrasts two concrete interventions using similar strategies.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02382-p038",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "rationale": "Argues that manifestations must be addressed and explains how they may impede testing, disclosure and intervention goals.",
+      "uncertain": "The initial observation also provides context for the recommendation."
+    },
+    {
+      "id": "xml-02382-p046",
+      "functions": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "rationale": "Recommends validated multidomain measures, explains their feasibility and use, and points to existing instruments as models.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02317-p004",
+      "functions": [
+        "orient",
+        "report",
+        "qualify"
+      ],
+      "rationale": "Frames albumin as a prognostic topic using prior studies, identifies differences among studies and states the review purpose.",
+      "uncertain": "The source summary could be viewed as support for the opening assessment."
+    },
+    {
+      "id": "xml-02317-p010",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Summarizes individual studies and their prognostic results.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02317-p016",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "rationale": "Summarizes results from lung cancer studies and contrasts predictive results at diagnosis and follow-up.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02317-p023",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Describes the content and ordering of a table.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02317-p029",
+      "functions": [
+        "report",
+        "interpret"
+      ],
+      "rationale": "Summarizes study designs and synthesizes the shared prognostic finding.",
+      "uncertain": "The synthesis is close to a faithful recap; interpret is borderline."
+    },
+    {
+      "id": "xml-02317-p035",
+      "functions": [
+        "report",
+        "interpret"
+      ],
+      "rationale": "Summarizes study designs, adjustment variables and the common association across studies.",
+      "uncertain": "The final cross-study synthesis may be read as report alone."
+    },
+    {
+      "id": "xml-02448-p005",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Describes the review search and conditional selection of original references.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02448-p013",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Describes data entry, checking and disagreement resolution.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02448-p021",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Reports study identification, exclusions and the final numbers and types included.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02448-p029",
+      "functions": [
+        "report"
+      ],
+      "rationale": "Reports trial results and uncertainty intervals for urinary and plasma catecholamines.",
+      "uncertain": null
+    },
+    {
+      "id": "xml-02448-p037",
+      "functions": [
+        "report",
+        "qualify",
+        "explain",
+        "support"
+      ],
+      "rationale": "Reports GRADE judgments and explains downgrades using study design, blinding, inconsistency and indirectness.",
+      "uncertain": "The evidence-quality ratings are evaluative findings as well as limitations."
+    },
+    {
+      "id": "xml-02448-p045",
+      "functions": [
+        "report",
+        "compare",
+        "explain",
+        "interpret",
+        "qualify",
+        "support"
+      ],
+      "rationale": "Reports and compares reviews and durations, explains proposed physiology, infers differences between acute and sustained reductions, and qualifies biomarker implications with supporting reasons.",
+      "uncertain": "Long multi-function paragraph; inference about mechanism remains conditional."
+    }
+  ]
+}

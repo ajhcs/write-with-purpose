@@ -1,0 +1,36 @@
+{
+  "records": 316,
+  "statuses": {
+    "http_200_html_body_extracted_unverified_completeness": 130,
+    "robots_unavailable": 12,
+    "previous_cache_reused": 1,
+    "http_404": 61,
+    "http_200_html_landing_or_short_body": 28,
+    "http_200_declared_paywall": 32,
+    "http_403": 17,
+    "robots_unavailable_html": 6,
+    "crawl_delay_deferred": 3,
+    "http_429": 1,
+    "deferred_rate": 3,
+    "robots_error": 6,
+    "robots_disallowed": 3,
+    "http_410": 4,
+    "network_error": 1,
+    "robots_cross_host_redirect_unresolved": 2,
+    "missing_article_url": 5,
+    "http_200_pdf_retrieved_unverified_completeness": 1
+  },
+  "records_with_saved_file": 160,
+  "candidate_article_bodies_not_confirmed": 129,
+  "candidate_title_author_consistent": 74,
+  "candidate_robots_policy": {
+    "unresolved: recheck_robots_cross_host_redirect_unresolved": 39,
+    "unresolved: previous_cache_capture_rules_not_retained": 1,
+    "rechecked_unchanged_and_no_ai_input_no_signal": 86,
+    "unresolved: robots_changed_since_capture": 3
+  },
+  "manual_false_positives_removed": 3,
+  "prior_automatic_robots_redirect_records": 217,
+  "manual_review_needed": 316,
+  "source_file_sha256": "f3c6db62df2cab2a49c9bce86cd37838dab242fa5d9142acf630956dd32ef256"
+}

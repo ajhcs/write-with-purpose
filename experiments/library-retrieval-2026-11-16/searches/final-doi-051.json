@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w2180537218",
+      "doi": "10.4073/csr.2007.1",
+      "title": "Effects of Hot Spots Policing on Crime",
+      "authors": "[\"Anthony A. Braga\"]",
+      "field": "law_public_policy",
+      "q": "\"Effects of Hot Spots Policing on Crime\" Braga filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2180537218",
+      "query": "\"Effects of Hot Spots Policing on Crime\" Braga filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Effects of Hot Spots Policing on Crime†",
+          "url": "https://onlinelibrary.wiley.com/doi/10.4073/csr.2007.1",
+          "score": 1
+        },
+        {
+          "title": "Effects of Hot Spots Policing on Crime: An Updated Systematic Review and Meta-Analysis | Office of Justice Programs",
+          "url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/effects-hot-spots-policing-crime-updated-systematic-review-and-meta",
+          "score": 1
+        },
+        {
+          "title": "The Effects of Hot Spots Policing on Crime",
+          "url": "https://ideas.repec.org/a/sae/anname/v578y2001i1p104-125.html",
+          "score": 1
+        },
+        {
+          "title": "The Effects of Hot Spots Policing on Crime: An Updated Systematic Review and Meta-Analysis",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/07418825.2012.673632?needAccess=true&scroll=top",
+          "score": 1
+        },
+        {
+          "title": "Effects of Hot Spots Policing on Crime1",
+          "url": "https://journals.sagepub.com/doi/pdf/10.4073/csr.2007.1",
+          "score": 0.8
+        },
+        {
+          "title": "Effects of Hot Spots Policing on Crime1",
+          "url": "https://journals.sagepub.com/doi/full/10.4073/csr.2007.1",
+          "score": 0.8
+        }
+      ]
+    }
+  ]
+}

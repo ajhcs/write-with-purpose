@@ -1,0 +1,3602 @@
+{
+  "scope": "138 independently compared targets; labels are interpretations, neither coder is truth",
+  "classification_rules": {
+    "exact": "sets equal",
+    "subset": "one set is a proper subset of the other",
+    "exclusive": "each set contains at least one label absent from the other"
+  },
+  "selection_rule": "Within each cohort, sort IDs lexicographically; select two strict-subset and two exclusive disagreements, preferring source documents not already selected within that cohort; if insufficient, fill in sorted order. No exact cases selected.",
+  "counts_by_cohort": {
+    "nejm": {
+      "subset": 12,
+      "exact": 23,
+      "exclusive": 19
+    },
+    "systematic": {
+      "exclusive": 5,
+      "exact": 25,
+      "subset": 18
+    },
+    "hbr": {
+      "subset": 20,
+      "exclusive": 9,
+      "exact": 7
+    }
+  },
+  "total_counts": {
+    "subset": 50,
+    "exact": 55,
+    "exclusive": 33
+  },
+  "symmetric_difference_sizes": {
+    "1": 41,
+    "0": 55,
+    "2": 32,
+    "3": 6,
+    "4": 4
+  },
+  "primary_only_label_occurrences": {
+    "report": 19,
+    "qualify": 8,
+    "explain": 4,
+    "assert": 2,
+    "orient": 2,
+    "compare": 1,
+    "narrate": 1,
+    "interpret": 5,
+    "define": 5,
+    "instruct": 1
+  },
+  "second_only_label_occurrences": {
+    "illustrate": 13,
+    "support": 7,
+    "assert": 10,
+    "interpret": 15,
+    "orient": 6,
+    "report": 16,
+    "narrate": 2,
+    "explain": 11,
+    "compare": 3,
+    "qualify": 5,
+    "instruct": 3
+  },
+  "uncertainty_categories": {
+    "explicit_false": 49,
+    "explicit_true": 5,
+    "nonempty_text_or_list": 21,
+    "null_or_absent": 34,
+    "empty_list": 29
+  },
+  "selected_cases": [
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p01",
+      "primary": [
+        "assert",
+        "interpret",
+        "orient",
+        "report"
+      ],
+      "second": [
+        "assert",
+        "interpret",
+        "orient"
+      ],
+      "classification": "subset",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "aab86f1c9cf3a11aeac15abc0013755c1dece5b13dfba1a51cfce22decd5a172",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483",
+      "source_id": "NEJMp1616577",
+      "source_title": "Repealing the ACA without a Replacement \u2014 The Risks to American Health Care",
+      "hash_verified": true,
+      "reading": "Opening mixes contextual history, evaluation and recommendation. Whether the past administration sentence is independently substantial reporting is a paragraph threshold decision.",
+      "cause": "granularity; legitimate multi-function",
+      "recommendation": "Clarify a minimum independent contribution and use a paired example; existing report/assert boundaries already cover declaratives."
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1702362-p01",
+      "primary": [
+        "interpret",
+        "narrate",
+        "orient"
+      ],
+      "second": [
+        "illustrate",
+        "interpret",
+        "narrate",
+        "orient"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "illustrate"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "449dd536a759f45779b2ed45e28bdea968c64a60599590e6d065066895488294",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217",
+      "source_id": "NEJMp1702362",
+      "source_title": "Resisting the Suppression of Science",
+      "hash_verified": true,
+      "reading": "A narrated personal episode also makes a general communication problem concrete; both narrative and illustration are plausible.",
+      "cause": "legitimate multi-function; relational vs intrinsic",
+      "recommendation": "Keep both; illustrate requires an identifiable idea or relationship made concrete, not merely a story."
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1707514-p008",
+      "primary": [
+        "interpret",
+        "narrate",
+        "qualify"
+      ],
+      "second": [
+        "interpret",
+        "report"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "narrate",
+        "qualify"
+      ],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 3,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "a98808b6c9932c05aa419caf0c4bbf8ed41119b8f4c322c603ba47cb8d7aabd6",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4",
+      "source_id": "NEJMp1707514",
+      "source_title": "The Other End of the Stethoscope",
+      "hash_verified": true,
+      "reading": "Brief temporal updates lead into reflection. A sequence of life states can be reporting without necessarily constituting a developed narrative; the closing uncertainty may or may not limit an identifiable claim.",
+      "cause": "granularity; existing boundary application",
+      "recommendation": "Use contrasting report/narrate and qualify examples; require the claim limited, not merely a question."
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p001",
+      "primary": [
+        "narrate",
+        "report"
+      ],
+      "second": [
+        "narrate",
+        "orient"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "orient"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "da7bc98757c41a0f2cf5f00ebd20f745055401672a570327b21ae1830e138153",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99",
+      "source_id": "NEJMp1711886",
+      "source_title": "Tragedy, Perseverance, and Chance \u2014 The Story of CAR-T Therapy",
+      "hash_verified": true,
+      "reading": "A patient history narrates events and introduces a treatment that gains significance from the following article; orientation is relational to subsequent text, while report reflects content.",
+      "cause": "relational vs intrinsic; context",
+      "recommendation": "Keep roles distinct; annotate the later contribution that makes orient operative. Local text alone cannot resolve all relationships."
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02282-p013",
+      "primary": [
+        "compare",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "interpret",
+        "qualify",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "f8ac0f7c556783e76e05448c0904b755403b222ad3d90e86758792991c895bf3",
+      "source_sha256": "f93142c43a9d09b5e4c84f6a0b2ff1d2755c9b5e04b43077d8b73730c62cce93",
+      "source_id": "xml-02282",
+      "source_title": "Diabetes Mellitus Increases the Risk of Active Tuberculosis: A Systematic Review of 13 Observational Studies",
+      "hash_verified": true,
+      "reading": "The final generalization about study quality explicitly goes beyond the individual estimates and includes a counterexample. The established report/interpret boundary applies.",
+      "cause": "existing boundary application; legitimate multi-function",
+      "recommendation": "Keep both; use inference versus faithful recap as a contrastive example."
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02298-p003",
+      "primary": [
+        "compare",
+        "explain",
+        "illustrate",
+        "qualify"
+      ],
+      "second": [
+        "compare",
+        "explain",
+        "illustrate",
+        "orient",
+        "qualify",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "orient",
+        "report"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "0ea6fe0adfd282d2834c9724daa0e975b2470c8b726b8870d2c13d5133c9d421",
+      "source_sha256": "f603ac5be9cda2adb455f06648e3d3c460dfa97dfe1bf2e5f11b86d097bbd3d3",
+      "source_id": "xml-02298",
+      "source_title": "Validation and validity of diagnoses in the General Practice Research Database: a systematic review",
+      "hash_verified": true,
+      "reading": "A long paragraph combines data quality framing, a case, process description and exceptions. Added report and orient depend on scope and threshold, not missing concepts.",
+      "cause": "granularity; legitimate multi-function",
+      "recommendation": "Offer a multi-function example with paragraph-level threshold and links to subsequent text."
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02359-p003",
+      "primary": [
+        "illustrate",
+        "interpret"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "illustrate",
+        "orient"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "interpret"
+      ],
+      "second_only": [
+        "assert",
+        "explain",
+        "orient"
+      ],
+      "symmetric_difference_size": 4,
+      "second_uncertainty": "The explanatory relationship is plausible but brief.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "2b7b257f8d39d1f5eef263dd64ccc72520dd6aa7f97efbf9790cf3958da16e33",
+      "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47",
+      "source_id": "xml-02359",
+      "source_title": "A systematic review of evidence on the links between patient experience and clinical safety and effectiveness",
+      "hash_verified": true,
+      "reading": "The author values patient experience, lists cases and reasons that fragmented care makes a whole-system perspective useful. Assertion, illustration, explanation and interpretation can coexist depending on contribution threshold.",
+      "cause": "granularity; legitimate multi-function",
+      "recommendation": "Keep the functions; illustrate coexisting claim and reason, and distinguish inference from mechanism using paired examples."
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02382-p038",
+      "primary": [
+        "explain",
+        "interpret"
+      ],
+      "second": [
+        "assert",
+        "explain"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "interpret"
+      ],
+      "second_only": [
+        "assert"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": "The initial observation also provides context for the recommendation.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "2149cc9e7873df035fa05c34d26ef736ce9cc1453366bcfea5646d160300537e",
+      "source_sha256": "87bebfa927bb0cac2bd5ca3a2df45d4fed40cb011d9370a4cece58916525e3e6",
+      "source_id": "xml-02382",
+      "source_title": "A systematic review of interventions to reduce HIV-related stigma and discrimination from 2002 to 2013: how far have we come?",
+      "hash_verified": true,
+      "reading": "A recommendation to address stigma and its hypothesized effects coexist; calling the final forecast interpretation or assertion depends on whether synthesis or proposed position is the relevant job.",
+      "cause": "semantic boundary; legitimate multi-function",
+      "recommendation": "Clarify assert versus interpret operationally with examples rather than merge them."
+    },
+    {
+      "cohort": "hbr",
+      "id": "customers-004",
+      "primary": [
+        "illustrate",
+        "report"
+      ],
+      "second": [
+        "assert",
+        "illustrate",
+        "report",
+        "support"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "assert",
+        "support"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "f713c35a6b4af01f7d6bc989636b073cb918afcb66a6485d81d3b7f2a1fac0d4",
+      "source_sha256": "78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab",
+      "source_id": "customers-as-innovators",
+      "source_title": "Customers as Innovators: A New Way to Create Value",
+      "hash_verified": true,
+      "reading": "Industry examples accompany an explicit transformation claim and a market figure. Illustration and support can coexist if the figure is linked as a reason, regardless of whether it proves the broad claim.",
+      "cause": "relational vs intrinsic; role vs evidence validity",
+      "recommendation": "Retain illustrate and support; code intended evidential link separately from whether evidence justifies the claim."
+    },
+    {
+      "cohort": "hbr",
+      "id": "designing-services-018",
+      "primary": [
+        "illustrate",
+        "report"
+      ],
+      "second": [
+        "illustrate",
+        "interpret",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "d2f849ca3b0b4a2dd10a83c5ee4149037a27c040d760aa0d60bdd6f626b64ada",
+      "source_sha256": "a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722",
+      "source_id": "designing-services",
+      "source_title": "Designing Services That Deliver",
+      "hash_verified": true,
+      "reading": "A measured tolerance is converted into an acceptable time. Whether that conclusion counts as inference beyond faithful restatement is close; illustrative status depends on its relation to surrounding method.",
+      "cause": "existing boundary application; context",
+      "recommendation": "Use a near-boundary report/interpret example and record the contextual target of illustration."
+    },
+    {
+      "cohort": "hbr",
+      "id": "house-020",
+      "primary": [
+        "explain",
+        "orient"
+      ],
+      "second": [
+        "explain",
+        "instruct"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "orient"
+      ],
+      "second_only": [
+        "instruct"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "733eb33ad1e55dc1a1ab0711721855d7908f03aebd8c39a48bf6d26f48b14517",
+      "source_sha256": "495611e01d213eb92218ca1b884f9af22f03827ea734c75cd4985e4673f131e7",
+      "source_id": "house-of-quality",
+      "source_title": "The House of Quality",
+      "hash_verified": true,
+      "reading": "The authors describe where they place evaluations in a diagram as part of a method. Whether this is instruction for the reader or narration of the authors\u2019 practice depends on surrounding procedural framing.",
+      "cause": "context; semantic boundary",
+      "recommendation": "Clarify instruct as an actionable direction in context, including descriptive first-person method wording; no automatic label."
+    },
+    {
+      "cohort": "hbr",
+      "id": "power-030",
+      "primary": [
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "qualify",
+        "report"
+      ],
+      "second_only": [
+        "assert",
+        "illustrate"
+      ],
+      "symmetric_difference_size": 4,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "c4f67815a88867713f64ffa7c38f94d9e104347851bb3c1039201a880eeb3066",
+      "source_sha256": "c97652cef05d7fed50328f5a87b4fcaa8c20af7fe36c1eaece9ff80c6f6c98a9",
+      "source_id": "power-of-talk",
+      "source_title": "The Power of Talk: Who Gets Heard and Why",
+      "hash_verified": true,
+      "reading": "The paragraph mixes a tentative gender-related proposition, a directions example and a proposed mechanism. An example can illustrate a claim even when its evidential basis is weak; qualification requires a limit attached to a claim.",
+      "cause": "legitimate multi-function; role vs evidence validity",
+      "recommendation": "Separate illustration, assertion, explanation and qualification from the strength or truth of the generalization."
+    }
+  ],
+  "all_targets": [
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p01",
+      "primary": [
+        "assert",
+        "interpret",
+        "orient",
+        "report"
+      ],
+      "second": [
+        "assert",
+        "interpret",
+        "orient"
+      ],
+      "classification": "subset",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "aab86f1c9cf3a11aeac15abc0013755c1dece5b13dfba1a51cfce22decd5a172",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p02",
+      "primary": [
+        "report",
+        "support"
+      ],
+      "second": [
+        "report",
+        "support"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "cc9025597c4c6a3bbd4689c5f43e188a4e19d80aeea27ad792e1dbab8c907e6b",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p03",
+      "primary": [
+        "report",
+        "support"
+      ],
+      "second": [
+        "report",
+        "support"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "e782491a01f26ccd1c9026212a5e79fb9abade911e79bfb04c4bb6857ae83dd3",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p04",
+      "primary": [
+        "assert",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "assert",
+        "illustrate",
+        "qualify"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "illustrate"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "0a33fc1f40a92dc0da41fcaa97b289b7baf0f774d7ef40c3003041776a1be7da",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p05",
+      "primary": [
+        "compare",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "5bf45e17135c067c69aa9dd18fd13f04b33c0115bed54c59fe4a506886ef3589",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p06",
+      "primary": [
+        "assert",
+        "explain",
+        "qualify"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "qualify"
+      ],
+      "second_only": [
+        "illustrate"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "fc6f9959bf4af9566305efe1a6b6751ee350974f79dce63ec7f9c36329a0764c",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p07",
+      "primary": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": true,
+      "second_uncertainty_category": "explicit_true",
+      "text_sha256": "9a7d6e57ce2f544648bb70d4be7d815882d40dd9af955a0c14d5f55e6400141e",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p08",
+      "primary": [
+        "explain",
+        "illustrate",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "illustrate",
+        "support"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "support"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "68c5cbd4123999a613628a22e3c16e4fdca3ab604bdd1a993e1e2122373c6d8c",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p09",
+      "primary": [
+        "qualify",
+        "report",
+        "support"
+      ],
+      "second": [
+        "assert",
+        "qualify",
+        "report",
+        "support"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "assert"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "6e6a208b409db97edda259d79097fde5c7c88e65db6f307fef6b6a35d9f59221",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p10",
+      "primary": [
+        "assert",
+        "explain"
+      ],
+      "second": [
+        "assert",
+        "interpret"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "explain"
+      ],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "8b09305d20a3eab3cde3e146989dd64f8cad051fb73efce8e3fb30806e55d8b6",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p11",
+      "primary": [
+        "assert",
+        "illustrate"
+      ],
+      "second": [
+        "assert",
+        "illustrate"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "2d0d2812c3bc2c51186f03ae70e3693934b51232a0a28cb2424568e4b8414228",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1616577-p12",
+      "primary": [
+        "assert",
+        "illustrate"
+      ],
+      "second": [
+        "assert",
+        "illustrate",
+        "interpret"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "b87027def5a29272a4162784eb88f7d8071a01b589258aa2dc970cc089116532",
+      "source_sha256": "76855d0c41ddf57acc2ba214836173bec62b37fefadca5afd9a006389c42d483"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1702362-p01",
+      "primary": [
+        "interpret",
+        "narrate",
+        "orient"
+      ],
+      "second": [
+        "illustrate",
+        "interpret",
+        "narrate",
+        "orient"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "illustrate"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "449dd536a759f45779b2ed45e28bdea968c64a60599590e6d065066895488294",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1702362-p02",
+      "primary": [
+        "assert",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "orient",
+        "report"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "assert",
+        "qualify"
+      ],
+      "second_only": [
+        "orient"
+      ],
+      "symmetric_difference_size": 3,
+      "second_uncertainty": true,
+      "second_uncertainty_category": "explicit_true",
+      "text_sha256": "6b73c18be6e87058f86281d1fdb1186300b984c40f99806fcbeacee1dad11d26",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1702362-p03",
+      "primary": [
+        "assert",
+        "explain",
+        "orient"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "interpret"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "orient"
+      ],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "96cad8bf39c2d083963c118c7a5e52d23b85ba60aec762ee664c6e3831bb4e66",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1702362-p04",
+      "primary": [
+        "assert",
+        "explain",
+        "report",
+        "support"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "illustrate",
+        "support"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "illustrate"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "9f891035fe4a1da4cee97ab7c0e9a2cc8a38151889910a081b5188fc2963a4d0",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1702362-p05",
+      "primary": [
+        "assert",
+        "report",
+        "support"
+      ],
+      "second": [
+        "assert",
+        "report",
+        "support"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "0e2f093b3b6ae4161321dcd731ccd720d7012debf336d8e9ff8aa123934a9c92",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1702362-p06",
+      "primary": [
+        "illustrate",
+        "interpret",
+        "report"
+      ],
+      "second": [
+        "illustrate",
+        "interpret",
+        "support"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "support"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": true,
+      "second_uncertainty_category": "explicit_true",
+      "text_sha256": "eb1512cc55cee05e5a40e37bb7f3eccbd152e2555100e6bf892075e70c3715f8",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1702362-p07",
+      "primary": [
+        "explain",
+        "interpret"
+      ],
+      "second": [
+        "explain",
+        "interpret"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "313f2556d97638b00f8e8e69c01f0c162a5cd4256c1d22738b65f6230a9d020f",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1702362-p08",
+      "primary": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "f4225034569d6e0152b659d3952e728d666371e37c2621d74f0fdc072deda5db",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1702362-p09",
+      "primary": [
+        "compare",
+        "illustrate",
+        "qualify"
+      ],
+      "second": [
+        "illustrate",
+        "qualify",
+        "report"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "compare"
+      ],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "eadb6f61b5e3187371548e04ac18fc6e6beb96cdb7cb680fad5e2af751e124f4",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1702362-p10",
+      "primary": [
+        "assert",
+        "interpret"
+      ],
+      "second": [
+        "assert",
+        "interpret"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "da39bd252f1f326c39b93ffd26e2a9dc601d0a35f775c0a4b7a6326730ef5bf0",
+      "source_sha256": "0e2eaa1909748f38f36aa1283fa3a9fd3bbcef0d4668a15ee083c4e79eeaa217"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1707514-p001",
+      "primary": [
+        "interpret",
+        "narrate"
+      ],
+      "second": [
+        "interpret",
+        "narrate"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "2d6d36101ffa25d79243a3a2be394ce7f1259bb6dbddd294878b6273237cea5d",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1707514-p002",
+      "primary": [
+        "interpret",
+        "narrate"
+      ],
+      "second": [
+        "interpret",
+        "narrate"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "337020133d6594836860178825625312dce23ac6caac4ef6cd85370627da049f",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1707514-p003",
+      "primary": [
+        "narrate",
+        "report"
+      ],
+      "second": [
+        "narrate"
+      ],
+      "classification": "subset",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "fc169f7082c746ea1de5bc54af7b863788ecf2970f90056baabee87cbec4174f",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1707514-p004",
+      "primary": [
+        "narrate",
+        "report"
+      ],
+      "second": [
+        "narrate"
+      ],
+      "classification": "subset",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "5f98717399dd8c54cce2c427afd818b7451f43c9143f549f50036f19acd1e647",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1707514-p005",
+      "primary": [
+        "interpret",
+        "narrate"
+      ],
+      "second": [
+        "interpret",
+        "narrate"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "2e84c562bba1c36350ac81804d890549e2d7e770430d1b94346e471bed466250",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1707514-p006",
+      "primary": [
+        "interpret",
+        "narrate"
+      ],
+      "second": [
+        "interpret",
+        "narrate"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "68fb02613531764e098dd4ae2174028da5f5c58be5c95585e6902000513ab0f9",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1707514-p007",
+      "primary": [
+        "narrate"
+      ],
+      "second": [
+        "narrate"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "7e12859ae60af8094345961d6e3aeade659f4ef2776a1aa50afa39f0160fbfe5",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1707514-p008",
+      "primary": [
+        "interpret",
+        "narrate",
+        "qualify"
+      ],
+      "second": [
+        "interpret",
+        "report"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "narrate",
+        "qualify"
+      ],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 3,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "a98808b6c9932c05aa419caf0c4bbf8ed41119b8f4c322c603ba47cb8d7aabd6",
+      "source_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p001",
+      "primary": [
+        "narrate",
+        "report"
+      ],
+      "second": [
+        "narrate",
+        "orient"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "orient"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "da7bc98757c41a0f2cf5f00ebd20f745055401672a570327b21ae1830e138153",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p002",
+      "primary": [
+        "narrate",
+        "report"
+      ],
+      "second": [
+        "narrate"
+      ],
+      "classification": "subset",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "f9eee21eab5fce57c8bb11d92733104d95c11d4e9affd105f91acc97a30d7d7b",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p003",
+      "primary": [
+        "narrate",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "interpret",
+        "narrate",
+        "report"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "qualify"
+      ],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "dc80fa2c2c6b553011009ebbf50f97d9c7c741847ba5f37c30398de0fca8e88e",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p004",
+      "primary": [
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "qualify",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "ff68297aa449263935e1c3291d569477895bab107e4f135383bc8e4d6e23a038",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p005",
+      "primary": [
+        "interpret",
+        "report"
+      ],
+      "second": [
+        "interpret",
+        "narrate"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "narrate"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "438863d6ad13cc2cee103a1625b7b060f89d1548a646111a19e1bdfd2059420f",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p006",
+      "primary": [
+        "narrate",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "narrate"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "explain"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "269c358de5b4dd78fcd1c997b8788cefb52bcec0494c97baeb6263bf7edc25a3",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p007",
+      "primary": [
+        "narrate",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "narrate",
+        "qualify"
+      ],
+      "classification": "subset",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "bc1855ef3156d06068c1a7809bc57149df369a9a40c72b932da566a79d2a1de5",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p008",
+      "primary": [
+        "interpret",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "illustrate",
+        "interpret",
+        "qualify"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "illustrate"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": true,
+      "second_uncertainty_category": "explicit_true",
+      "text_sha256": "26d59792a142111f105faa37e080100881860b6b9a52414cbf769dd94814ec36",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p009",
+      "primary": [
+        "narrate",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "illustrate",
+        "narrate",
+        "qualify"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "illustrate"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "b8e9a0d8df8fb66bffa3aead27a71f401989e4d2d75cf98920bb21741cac655b",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p010",
+      "primary": [
+        "explain",
+        "interpret",
+        "narrate"
+      ],
+      "second": [
+        "explain",
+        "narrate"
+      ],
+      "classification": "subset",
+      "primary_only": [
+        "interpret"
+      ],
+      "second_only": [],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "35b1f328072e491016085eb0480f1930e33eb892b949d597d47f01ed9da073f3",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p011",
+      "primary": [
+        "narrate",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "narrate"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "explain"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "f7b857948a7e156589b388790dbbb76aeeb65d56706f0c32cee3a5bb2e7a82fd",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p012",
+      "primary": [
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "illustrate",
+        "qualify"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "illustrate"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "98fdfbdc716b082d76802a3f58255738fe49805ba58c1ba61119a3988eaa5783",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "NEJMp1711886-p013",
+      "primary": [
+        "compare",
+        "interpret",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "interpret",
+        "qualify",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "8165987e98b442e8f295e3ab024b816147bb554014669a19085694d8c28e0e40",
+      "source_sha256": "88b538c1e13defe14f2683497453a7a15e65fc0282141ec3308caf616630bb99"
+    },
+    {
+      "cohort": "nejm",
+      "id": "arb-p01",
+      "primary": [
+        "orient",
+        "report"
+      ],
+      "second": [
+        "interpret",
+        "orient",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "e7c3cb6bf1f022554f1859e4d6966899697c6d350926b338f9569d59afbf97f4",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "cohort": "nejm",
+      "id": "arb-p02",
+      "primary": [
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "qualify",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "d8c001a780723fe50d199689132fde30d97e1e9990a2d9ed584f8a085ba859c0",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "cohort": "nejm",
+      "id": "arb-p03",
+      "primary": [
+        "define",
+        "explain",
+        "report"
+      ],
+      "second": [
+        "define",
+        "explain",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "7045d913ec0cfcd63afe6bf030aba90d8c35d7b27f2153aabc315dac23d94043",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "cohort": "nejm",
+      "id": "arb-p04",
+      "primary": [
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "cc6b3d0e479823364d9b4c4980aeef40d62294001894c64b497b628226f2a464",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "cohort": "nejm",
+      "id": "arb-p05",
+      "primary": [
+        "explain",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "5512005a9911bf60248ee60489580f546167cee1dc1e4821e01271aa3b10aa6b",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "cohort": "nejm",
+      "id": "arb-p06",
+      "primary": [
+        "explain",
+        "interpret",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "interpret"
+      ],
+      "classification": "subset",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "0b23267ef6125296dbe3b948bf5b40e8559c14193afdb7e8a1c270ab1317a77a",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "cohort": "nejm",
+      "id": "arb-p07",
+      "primary": [
+        "explain",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "3c27cf5fd2f118dcb691b647002dc4635eda4b4de4335b594d7f69afc1efeb86",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "cohort": "nejm",
+      "id": "arb-p08",
+      "primary": [
+        "interpret",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "interpret",
+        "qualify",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "3c9fe416207a3d54af4f9ea52990c5237d8d5eb296b18d1b38de0e8c0d9a942a",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "cohort": "nejm",
+      "id": "arb-p09",
+      "primary": [
+        "interpret",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "interpret",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "compare"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": true,
+      "second_uncertainty_category": "explicit_true",
+      "text_sha256": "5a441176dc8e67a93dec6ffb1673305a14dad970aad4c76ff88ba8ca24ffc686",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "cohort": "nejm",
+      "id": "arb-p10",
+      "primary": [
+        "assert",
+        "explain",
+        "interpret"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "interpret"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "0ef005768fc8660d78bb3599d018ca8a4c2cddfeadec80f30c72c30c83838fb0",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "cohort": "nejm",
+      "id": "arb-p11",
+      "primary": [
+        "assert",
+        "interpret"
+      ],
+      "second": [
+        "assert",
+        "qualify"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "interpret"
+      ],
+      "second_only": [
+        "qualify"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": false,
+      "second_uncertainty_category": "explicit_false",
+      "text_sha256": "5eb374d8fe05f61548fb2eb85574858a5a699eb43011a2a09c827459a487c41b",
+      "source_sha256": "595d2e2d39d649f64f608deda6a2d4bfd8222f431880267084f9e724dbeb3792"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02359-p003",
+      "primary": [
+        "illustrate",
+        "interpret"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "illustrate",
+        "orient"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "interpret"
+      ],
+      "second_only": [
+        "assert",
+        "explain",
+        "orient"
+      ],
+      "symmetric_difference_size": 4,
+      "second_uncertainty": "The explanatory relationship is plausible but brief.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "2b7b257f8d39d1f5eef263dd64ccc72520dd6aa7f97efbf9790cf3958da16e33",
+      "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02359-p008",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "c0b58f25e98c2d4c72d9503c837cf67ee95a61073150694689428d9c9420d55c",
+      "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02359-p013",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "b39f450ef263c2013cf06ab9364e2438938338a254bd3cf83611e51e83b4704f",
+      "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02359-p018",
+      "primary": [
+        "define",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "illustrate",
+        "report"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "define",
+        "qualify"
+      ],
+      "second_only": [
+        "illustrate"
+      ],
+      "symmetric_difference_size": 3,
+      "second_uncertainty": "Examples enumerate category contents; illustration is borderline.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "c0a142a2832eedf368e1f502bb68681ca803dac23dca3dabc30db68d1b511550",
+      "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02359-p023",
+      "primary": [
+        "report",
+        "support"
+      ],
+      "second": [
+        "interpret",
+        "report",
+        "support"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "6bedcbcc2d74262f0533d351e66dfd28d28fd96009723dd7ef15f6555a4df09e",
+      "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02359-p028",
+      "primary": [
+        "assert",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "assert",
+        "qualify",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "e884cb5230a038ff6a54421c658f64a01939494508d788dff935fd1dfb2eaffc",
+      "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02334-p003",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "b84a370667fa304665772775be97d63777289a7108c075c3ac2cba5319e51d0a",
+      "source_sha256": "125c062cedd823c5de8bb699e99069125d8bdcabd3afe9246aecfca0b3822651"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02334-p007",
+      "primary": [
+        "define",
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [
+        "define"
+      ],
+      "second_only": [],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "1c46fe019d7c399ad6515457de7f3f6de1d1bb9449b6a2fdf424012c3b30cab8",
+      "source_sha256": "125c062cedd823c5de8bb699e99069125d8bdcabd3afe9246aecfca0b3822651"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02334-p012",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "22474cf19253c3581ffa6f358ca0be0dd4baba20d0c98f5601dffd90cbf703a0",
+      "source_sha256": "125c062cedd823c5de8bb699e99069125d8bdcabd3afe9246aecfca0b3822651"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02334-p016",
+      "primary": [
+        "compare",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "e63cc6dac9435a9be4f772cc36991c1eda801f485247bc8088af94230954c37d",
+      "source_sha256": "125c062cedd823c5de8bb699e99069125d8bdcabd3afe9246aecfca0b3822651"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02334-p021",
+      "primary": [
+        "assert",
+        "orient",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "assert",
+        "interpret",
+        "orient",
+        "qualify",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "b777341cce6667e919dff135705748b70f91c135dc66873f55c0697b4665817d",
+      "source_sha256": "125c062cedd823c5de8bb699e99069125d8bdcabd3afe9246aecfca0b3822651"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02334-p025",
+      "primary": [
+        "assert",
+        "interpret"
+      ],
+      "second": [
+        "assert",
+        "interpret"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "68c4db119f831b50ddf7d2b25490d2f27ce5767ead257f0b25bcd6ddf7b73152",
+      "source_sha256": "125c062cedd823c5de8bb699e99069125d8bdcabd3afe9246aecfca0b3822651"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02298-p003",
+      "primary": [
+        "compare",
+        "explain",
+        "illustrate",
+        "qualify"
+      ],
+      "second": [
+        "compare",
+        "explain",
+        "illustrate",
+        "orient",
+        "qualify",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "orient",
+        "report"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "0ea6fe0adfd282d2834c9724daa0e975b2470c8b726b8870d2c13d5133c9d421",
+      "source_sha256": "f603ac5be9cda2adb455f06648e3d3c460dfa97dfe1bf2e5f11b86d097bbd3d3"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02298-p009",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "2137d2b4de34dc2c53ccf4604c33acdd976c841b35959bb231060e9f6b6d795a",
+      "source_sha256": "f603ac5be9cda2adb455f06648e3d3c460dfa97dfe1bf2e5f11b86d097bbd3d3"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02298-p014",
+      "primary": [
+        "compare",
+        "illustrate",
+        "interpret",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "illustrate",
+        "interpret",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "a9e22f5162d16469ba6b0fe928b0fa49629ee7f2e2f3a2e1691d14671289c419",
+      "source_sha256": "f603ac5be9cda2adb455f06648e3d3c460dfa97dfe1bf2e5f11b86d097bbd3d3"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02298-p020",
+      "primary": [
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "ab41c59540a87afbd311646ed471b9a11c8275648fc820079c8fe3f4e9e8df22",
+      "source_sha256": "f603ac5be9cda2adb455f06648e3d3c460dfa97dfe1bf2e5f11b86d097bbd3d3"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02298-p025",
+      "primary": [
+        "compare",
+        "explain",
+        "qualify"
+      ],
+      "second": [
+        "compare",
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "463f0974b29c6664eadf4ab42c041036bf41d9ca36c51bd120bf6e18a31a9d6c",
+      "source_sha256": "f603ac5be9cda2adb455f06648e3d3c460dfa97dfe1bf2e5f11b86d097bbd3d3"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02298-p031",
+      "primary": [
+        "assert",
+        "interpret",
+        "qualify"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "qualify"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "interpret"
+      ],
+      "second_only": [
+        "explain"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": "Whether the claim about algorithms deserves report or assertion is context dependent.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "5700695999580b7997c7852cc29a2cf43c56d50b387bdf1e3af6c6cf2c0b8d71",
+      "source_sha256": "f603ac5be9cda2adb455f06648e3d3c460dfa97dfe1bf2e5f11b86d097bbd3d3"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02415-p004",
+      "primary": [
+        "define",
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [
+        "define"
+      ],
+      "second_only": [],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "370fb1edc7db9b39e1ee8aec568984e5b2893390bfc22d687edcf8154e2647c6",
+      "source_sha256": "31c9672d54a4d1066b6b3727b355ccfa7b1b1c15a6594d7a90ac51855f544efa"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02415-p010",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "aed371fc22554a19a9a4cf548dfd8551edb9dbbd602a1dc5713a4ff1a74ce725",
+      "source_sha256": "31c9672d54a4d1066b6b3727b355ccfa7b1b1c15a6594d7a90ac51855f544efa"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02415-p016",
+      "primary": [
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "report"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "qualify"
+      ],
+      "second_only": [
+        "explain"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "4c067198465849834d29dbfe4a8c84dff0a148b5ccb5d6cb40f1c323933cb240",
+      "source_sha256": "31c9672d54a4d1066b6b3727b355ccfa7b1b1c15a6594d7a90ac51855f544efa"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02415-p023",
+      "primary": [
+        "explain",
+        "qualify"
+      ],
+      "second": [
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": "The assessment is a finding about included studies and a limitation on their evidence.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "818cfd647c7ecde7521b62a5f1675747fb14f22df218bc2a472b61bf67d0213c",
+      "source_sha256": "31c9672d54a4d1066b6b3727b355ccfa7b1b1c15a6594d7a90ac51855f544efa"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02415-p029",
+      "primary": [
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "qualify",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": "Source contains an apparent mismatch between SARS-CoV and influenza; coding does not resolve it.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "c6befafd299351bc491a22054cde7a23ea0ef4fb3abcc7f778a7119c2dc7d144",
+      "source_sha256": "31c9672d54a4d1066b6b3727b355ccfa7b1b1c15a6594d7a90ac51855f544efa"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02415-p035",
+      "primary": [
+        "explain",
+        "qualify"
+      ],
+      "second": [
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "4211203e783ff79f9ef83c52f7227b3c00f6fa932ad8b775739cc9853106ea29",
+      "source_sha256": "31c9672d54a4d1066b6b3727b355ccfa7b1b1c15a6594d7a90ac51855f544efa"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02282-p002",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "be82ef3a8f7db47bfc03148a1a02d993184a5fa7679a6f86a8d3dfadb0c22abe",
+      "source_sha256": "f93142c43a9d09b5e4c84f6a0b2ff1d2755c9b5e04b43077d8b73730c62cce93"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02282-p006",
+      "primary": [
+        "define",
+        "explain",
+        "report"
+      ],
+      "second": [
+        "define",
+        "explain",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "58454820c175b96ee69c917593b2bcdfbcfa31c4001869c74b2ca28fb5b3b290",
+      "source_sha256": "f93142c43a9d09b5e4c84f6a0b2ff1d2755c9b5e04b43077d8b73730c62cce93"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02282-p010",
+      "primary": [
+        "compare",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "qualify",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "aeadbea52b114ed3b532494f63839bd32c3fc78c2385b92525362a91a6867b8e",
+      "source_sha256": "f93142c43a9d09b5e4c84f6a0b2ff1d2755c9b5e04b43077d8b73730c62cce93"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02282-p013",
+      "primary": [
+        "compare",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "interpret",
+        "qualify",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "f8ac0f7c556783e76e05448c0904b755403b222ad3d90e86758792991c895bf3",
+      "source_sha256": "f93142c43a9d09b5e4c84f6a0b2ff1d2755c9b5e04b43077d8b73730c62cce93"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02282-p017",
+      "primary": [
+        "compare",
+        "explain",
+        "illustrate",
+        "interpret"
+      ],
+      "second": [
+        "compare",
+        "explain",
+        "illustrate",
+        "interpret",
+        "qualify",
+        "support"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "qualify",
+        "support"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": "The country comparison and causal interpretation are conditional and speculative.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "45e0f8aaf8f79c8a8637f532966e6d2d743459ab9fe1822df2857df00380e6ad",
+      "source_sha256": "f93142c43a9d09b5e4c84f6a0b2ff1d2755c9b5e04b43077d8b73730c62cce93"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02282-p021",
+      "primary": [
+        "compare",
+        "explain",
+        "qualify"
+      ],
+      "second": [
+        "compare",
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "7f37d3e314ed555105e71986e841df4dd96f029142affe44697ecfd1589fa6c4",
+      "source_sha256": "f93142c43a9d09b5e4c84f6a0b2ff1d2755c9b5e04b43077d8b73730c62cce93"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02382-p005",
+      "primary": [
+        "explain"
+      ],
+      "second": [
+        "explain"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": "Very brief; the prior context may determine whether this is primarily a summary or explanation.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "c83e92e0221bde0c1ed88918683fab38cdb5a8af8c0d6cfa38dc13da57972b0b",
+      "source_sha256": "87bebfa927bb0cac2bd5ca3a2df45d4fed40cb011d9370a4cece58916525e3e6"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02382-p013",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "c35080aeeb361802aef777166c3599e3806b5f257887eff5c29496afee5bc262",
+      "source_sha256": "87bebfa927bb0cac2bd5ca3a2df45d4fed40cb011d9370a4cece58916525e3e6"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02382-p021",
+      "primary": [
+        "define",
+        "report"
+      ],
+      "second": [
+        "define",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": "The listed parentheticals also provide operational meaning for levels.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "e68e1a1f6a7a0faf2e94bd806de8877302ecde07ef49955e4de94b24552a199b",
+      "source_sha256": "87bebfa927bb0cac2bd5ca3a2df45d4fed40cb011d9370a4cece58916525e3e6"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02382-p030",
+      "primary": [
+        "compare",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "illustrate",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "illustrate"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "7156f7259a021b15f3fa76f0cdd1222271b3ef0f900f7efa4eb32d30bfd397c2",
+      "source_sha256": "87bebfa927bb0cac2bd5ca3a2df45d4fed40cb011d9370a4cece58916525e3e6"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02382-p038",
+      "primary": [
+        "explain",
+        "interpret"
+      ],
+      "second": [
+        "assert",
+        "explain"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "interpret"
+      ],
+      "second_only": [
+        "assert"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": "The initial observation also provides context for the recommendation.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "2149cc9e7873df035fa05c34d26ef736ce9cc1453366bcfea5646d160300537e",
+      "source_sha256": "87bebfa927bb0cac2bd5ca3a2df45d4fed40cb011d9370a4cece58916525e3e6"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02382-p046",
+      "primary": [
+        "assert",
+        "illustrate"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "explain"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "05b5088d751aaa71a042698930da623aca20a899a0defe9eb21d4e0ed63b5f6d",
+      "source_sha256": "87bebfa927bb0cac2bd5ca3a2df45d4fed40cb011d9370a4cece58916525e3e6"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02317-p004",
+      "primary": [
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "orient",
+        "qualify",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "orient"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": "The source summary could be viewed as support for the opening assessment.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "abf7b4f9356aba60781af950676d72890d259681c94121e129b41729e44ee8cd",
+      "source_sha256": "a863c8bb0ada539f58eccf015f46885c5f4173cfd8e8bb62757a8108e461976f"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02317-p010",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "054a5ad1e2fd5bd4c5f96308e7b057beec141f7bb956f37fd995400cbf13ea5a",
+      "source_sha256": "a863c8bb0ada539f58eccf015f46885c5f4173cfd8e8bb62757a8108e461976f"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02317-p016",
+      "primary": [
+        "compare",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "2ef76979a44568cc4e25a92828b3af42790dcc357deacb0dec35d9e5007658c7",
+      "source_sha256": "a863c8bb0ada539f58eccf015f46885c5f4173cfd8e8bb62757a8108e461976f"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02317-p023",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "00ce2380456bc26ae63ea0a4087278dac4c1e29fdd6aff764c278ad9ad323637",
+      "source_sha256": "a863c8bb0ada539f58eccf015f46885c5f4173cfd8e8bb62757a8108e461976f"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02317-p029",
+      "primary": [
+        "interpret",
+        "report"
+      ],
+      "second": [
+        "interpret",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": "The synthesis is close to a faithful recap; interpret is borderline.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "3c6b42bfaf20048ce92e65213cf06126e59eab869e0cd2b76003bd971e6bd138",
+      "source_sha256": "a863c8bb0ada539f58eccf015f46885c5f4173cfd8e8bb62757a8108e461976f"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02317-p035",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "interpret",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": "The final cross-study synthesis may be read as report alone.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "ec9c2e0ca334978d467cb5e34715146fe35a44a1f80ef3798fb282b3771664c2",
+      "source_sha256": "a863c8bb0ada539f58eccf015f46885c5f4173cfd8e8bb62757a8108e461976f"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02448-p005",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "441aa525b3ec9a8eb0c57c52de2ac0eceab7d1aeda7b38f05ce95b659edc408d",
+      "source_sha256": "c26fa6bc63b941326a171c81f7254d5ea92e50f8850fd1d0eba2ccaf0a3207c3"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02448-p013",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "497ff404aa57669b9c3b979b37453fe90031b2c0866ce1002922ea7996969656",
+      "source_sha256": "c26fa6bc63b941326a171c81f7254d5ea92e50f8850fd1d0eba2ccaf0a3207c3"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02448-p021",
+      "primary": [
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [
+        "qualify"
+      ],
+      "second_only": [],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "8b87043ecae5659a96d5986ee10d58e5f8ce82d4bca743764e98025eb8519e35",
+      "source_sha256": "c26fa6bc63b941326a171c81f7254d5ea92e50f8850fd1d0eba2ccaf0a3207c3"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02448-p029",
+      "primary": [
+        "report"
+      ],
+      "second": [
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": null,
+      "second_uncertainty_category": "null_or_absent",
+      "text_sha256": "d128708a1abb3a38b764844ab8c461658dac9baef1a525aed2e8f567d1c0de3c",
+      "source_sha256": "c26fa6bc63b941326a171c81f7254d5ea92e50f8850fd1d0eba2ccaf0a3207c3"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02448-p037",
+      "primary": [
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "qualify",
+        "report",
+        "support"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "support"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": "The evidence-quality ratings are evaluative findings as well as limitations.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "6929d87db2bbbdf1d2bd2a3bbcea1a4af8e2baf3f3bf3e1ba8de494ec022c6f1",
+      "source_sha256": "c26fa6bc63b941326a171c81f7254d5ea92e50f8850fd1d0eba2ccaf0a3207c3"
+    },
+    {
+      "cohort": "systematic",
+      "id": "xml-02448-p045",
+      "primary": [
+        "compare",
+        "explain",
+        "qualify"
+      ],
+      "second": [
+        "compare",
+        "explain",
+        "interpret",
+        "qualify",
+        "report",
+        "support"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret",
+        "report",
+        "support"
+      ],
+      "symmetric_difference_size": 3,
+      "second_uncertainty": "Long multi-function paragraph; inference about mechanism remains conditional.",
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "fae6bc4b3cfd23ae638c543caa6eb329e638a0fee844676c65007e828d709428",
+      "source_sha256": "c26fa6bc63b941326a171c81f7254d5ea92e50f8850fd1d0eba2ccaf0a3207c3"
+    },
+    {
+      "cohort": "hbr",
+      "id": "drucker-007",
+      "primary": [
+        "explain",
+        "report"
+      ],
+      "second": [
+        "explain",
+        "narrate",
+        "report",
+        "support"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "narrate",
+        "support"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [
+        "support: the historical causal claim is asserted rather than independently established in this excerpt"
+      ],
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "abd51a67b3cf2286493ede9b52d14227e84d1ad10cc4d043caa3be8367e40fad",
+      "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b"
+    },
+    {
+      "cohort": "hbr",
+      "id": "drucker-021",
+      "primary": [
+        "assert",
+        "interpret"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "interpret"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "explain"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "baf37a186beb01eb5839067999b97b37a2424c8d6df86110a33e4e6e6ce3bd7e",
+      "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b"
+    },
+    {
+      "cohort": "hbr",
+      "id": "drucker-034",
+      "primary": [
+        "define",
+        "orient"
+      ],
+      "second": [
+        "define",
+        "instruct",
+        "orient"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "instruct"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [
+        "instruct: asking the question is actionable, but the test is not yet explained"
+      ],
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "957f53713332d04acca3b8d691e9032592201617317375208850c64f58d426ea",
+      "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b"
+    },
+    {
+      "cohort": "hbr",
+      "id": "drucker-048",
+      "primary": [
+        "illustrate",
+        "instruct"
+      ],
+      "second": [
+        "assert",
+        "illustrate",
+        "instruct"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "assert"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "9f51b0e5a242eefe9c1d2eae720f183ff8c5cf8555b8aed09a80890f33c8f2d6",
+      "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b"
+    },
+    {
+      "cohort": "hbr",
+      "id": "drucker-061",
+      "primary": [
+        "define",
+        "explain"
+      ],
+      "second": [
+        "define",
+        "explain",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "f10e29e2f48ba1b7ea5c803c43b304f1d4b707b27bba3a7e4aaf23d86529a1ab",
+      "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b"
+    },
+    {
+      "cohort": "hbr",
+      "id": "drucker-075",
+      "primary": [
+        "assert",
+        "support"
+      ],
+      "second": [
+        "assert",
+        "report",
+        "support"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [
+        "support: the excerpt does not establish the broad age-related claim"
+      ],
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "6a89610945a2f60cf347053c07ec234d4df8f82c3f36b774c75ef731d2d82fe3",
+      "source_sha256": "51a9cfd777119d78296e6691d44658f2c1dc3704bb46ec8c2a10fb7fd32a5f9b"
+    },
+    {
+      "cohort": "hbr",
+      "id": "scorecard-005",
+      "primary": [
+        "define",
+        "explain"
+      ],
+      "second": [
+        "assert",
+        "define",
+        "explain"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "assert"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "8737aec72f97f0d674caafde68fd0b2a24e8838865e6fc1afd1eedbc1dbc2971",
+      "source_sha256": "7d86992e261841fc4c9695260a35f266a563bd3d26ffb1cc79210c2e989cd7d1"
+    },
+    {
+      "cohort": "hbr",
+      "id": "scorecard-015",
+      "primary": [
+        "explain",
+        "narrate"
+      ],
+      "second": [
+        "illustrate",
+        "interpret",
+        "narrate",
+        "report"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "explain"
+      ],
+      "second_only": [
+        "illustrate",
+        "interpret",
+        "report"
+      ],
+      "symmetric_difference_size": 4,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "b8306ec15794e52e42b68e50727bfe04d27c01285a362706ce13a51f73ef752c",
+      "source_sha256": "7d86992e261841fc4c9695260a35f266a563bd3d26ffb1cc79210c2e989cd7d1"
+    },
+    {
+      "cohort": "hbr",
+      "id": "scorecard-025",
+      "primary": [
+        "assert",
+        "explain"
+      ],
+      "second": [
+        "assert",
+        "explain"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "2a389d8a971a17f6e98f782be7ee7288106d158b924a335568420aab3b37ae85",
+      "source_sha256": "7d86992e261841fc4c9695260a35f266a563bd3d26ffb1cc79210c2e989cd7d1"
+    },
+    {
+      "cohort": "hbr",
+      "id": "scorecard-035",
+      "primary": [
+        "compare",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "cc6bc36c6e4f8a0ff25302488cb01b13c4daa995f3553bc5c5d9bf2a0e28e2a8",
+      "source_sha256": "7d86992e261841fc4c9695260a35f266a563bd3d26ffb1cc79210c2e989cd7d1"
+    },
+    {
+      "cohort": "hbr",
+      "id": "scorecard-045",
+      "primary": [
+        "instruct"
+      ],
+      "second": [
+        "instruct"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": [
+        "The checklist describes expected outputs more than the steps for producing each one"
+      ],
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "65ab0ff4566233edcf630092186a8fe685f2a1c8858aae01021bd0fb9f2909be",
+      "source_sha256": "7d86992e261841fc4c9695260a35f266a563bd3d26ffb1cc79210c2e989cd7d1"
+    },
+    {
+      "cohort": "hbr",
+      "id": "scorecard-055",
+      "primary": [
+        "compare",
+        "explain"
+      ],
+      "second": [
+        "compare",
+        "explain",
+        "illustrate",
+        "interpret"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "illustrate",
+        "interpret"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "08099b19f1d32d1fd2c639633e88bad3cda51f7e57842d4cd193945ed3422ebd",
+      "source_sha256": "7d86992e261841fc4c9695260a35f266a563bd3d26ffb1cc79210c2e989cd7d1"
+    },
+    {
+      "cohort": "hbr",
+      "id": "designing-services-004",
+      "primary": [
+        "assert",
+        "explain"
+      ],
+      "second": [
+        "assert",
+        "explain"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "98aa08ba8850c7e76aed2276eab20bbe39ffbe59d17a26064e7836c9c906301f",
+      "source_sha256": "a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722"
+    },
+    {
+      "cohort": "hbr",
+      "id": "designing-services-011",
+      "primary": [
+        "define",
+        "orient"
+      ],
+      "second": [
+        "orient",
+        "report"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "define"
+      ],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "aab67635b9e24d5e94efccf4e217759e85fe3a0953c3a2678a4223aa75130fa3",
+      "source_sha256": "a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722"
+    },
+    {
+      "cohort": "hbr",
+      "id": "designing-services-018",
+      "primary": [
+        "illustrate",
+        "report"
+      ],
+      "second": [
+        "illustrate",
+        "interpret",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "d2f849ca3b0b4a2dd10a83c5ee4149037a27c040d760aa0d60bdd6f626b64ada",
+      "source_sha256": "a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722"
+    },
+    {
+      "cohort": "hbr",
+      "id": "designing-services-024",
+      "primary": [
+        "define",
+        "explain",
+        "instruct"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "define",
+        "instruct"
+      ],
+      "second_only": [
+        "assert",
+        "illustrate"
+      ],
+      "symmetric_difference_size": 4,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "da2812f149bef2738cd1a4ccadb86272cab5624bc2ab3c5d78a1b64b2a2638f9",
+      "source_sha256": "a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722"
+    },
+    {
+      "cohort": "hbr",
+      "id": "designing-services-031",
+      "primary": [
+        "assert"
+      ],
+      "second": [
+        "explain",
+        "report"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "assert"
+      ],
+      "second_only": [
+        "explain",
+        "report"
+      ],
+      "symmetric_difference_size": 3,
+      "second_uncertainty": [
+        "explain: the passage states the benefit more than its mechanism"
+      ],
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "b4940d65ab511bc1420396c8463cbf94aa0bff19c9ef33df1b697632a29d2ef3",
+      "source_sha256": "a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722"
+    },
+    {
+      "cohort": "hbr",
+      "id": "designing-services-038",
+      "primary": [
+        "assert",
+        "compare"
+      ],
+      "second": [
+        "assert",
+        "compare",
+        "interpret"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "1347eabb10e8fe23737d85ef04507da5f40bec497cdc0a0797f359ca7f7f717c",
+      "source_sha256": "a94f8556eec6466af63a6bfdec4844f4c79afdd61c54506a26112ea33f0d8722"
+    },
+    {
+      "cohort": "hbr",
+      "id": "power-006",
+      "primary": [
+        "explain",
+        "interpret"
+      ],
+      "second": [
+        "explain",
+        "interpret"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "7409d0420149fcc15b55f50a7b267182800a049942d9b8a1df23e63194f4bd94",
+      "source_sha256": "c97652cef05d7fed50328f5a87b4fcaa8c20af7fe36c1eaece9ff80c6f6c98a9"
+    },
+    {
+      "cohort": "hbr",
+      "id": "power-018",
+      "primary": [
+        "assert",
+        "interpret"
+      ],
+      "second": [
+        "assert",
+        "interpret",
+        "qualify"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "qualify"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "a95506863578747271998ee03daa64d93d304032a82806d33731e75bcf2160e6",
+      "source_sha256": "c97652cef05d7fed50328f5a87b4fcaa8c20af7fe36c1eaece9ff80c6f6c98a9"
+    },
+    {
+      "cohort": "hbr",
+      "id": "power-030",
+      "primary": [
+        "explain",
+        "qualify",
+        "report"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "qualify",
+        "report"
+      ],
+      "second_only": [
+        "assert",
+        "illustrate"
+      ],
+      "symmetric_difference_size": 4,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "c4f67815a88867713f64ffa7c38f94d9e104347851bb3c1039201a880eeb3066",
+      "source_sha256": "c97652cef05d7fed50328f5a87b4fcaa8c20af7fe36c1eaece9ff80c6f6c98a9"
+    },
+    {
+      "cohort": "hbr",
+      "id": "power-043",
+      "primary": [
+        "qualify",
+        "report",
+        "support"
+      ],
+      "second": [
+        "interpret",
+        "qualify",
+        "report",
+        "support"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "interpret"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [
+        "support: the compliment finding is indirect evidence about this specific exchange"
+      ],
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "4085879b9de8e5c1fe0d0863c97260785910cb9c9c5ced5a319c963562ba97d5",
+      "source_sha256": "c97652cef05d7fed50328f5a87b4fcaa8c20af7fe36c1eaece9ff80c6f6c98a9"
+    },
+    {
+      "cohort": "hbr",
+      "id": "power-055",
+      "primary": [
+        "compare",
+        "report"
+      ],
+      "second": [
+        "assert",
+        "compare",
+        "orient"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "report"
+      ],
+      "second_only": [
+        "assert",
+        "orient"
+      ],
+      "symmetric_difference_size": 3,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "bdb157700e48eb03f171cb5e3d0d11ca10b75b931383a11faf15098580b1bce4",
+      "source_sha256": "c97652cef05d7fed50328f5a87b4fcaa8c20af7fe36c1eaece9ff80c6f6c98a9"
+    },
+    {
+      "cohort": "hbr",
+      "id": "power-068",
+      "primary": [
+        "explain",
+        "illustrate",
+        "narrate"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "illustrate",
+        "narrate",
+        "qualify"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "assert",
+        "qualify"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "b5a29689ff71d972c5c3eab7390ced3f89429835b584c60d2a52b47b22dbfd1e",
+      "source_sha256": "c97652cef05d7fed50328f5a87b4fcaa8c20af7fe36c1eaece9ff80c6f6c98a9"
+    },
+    {
+      "cohort": "hbr",
+      "id": "customers-004",
+      "primary": [
+        "illustrate",
+        "report"
+      ],
+      "second": [
+        "assert",
+        "illustrate",
+        "report",
+        "support"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "assert",
+        "support"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "f713c35a6b4af01f7d6bc989636b073cb918afcb66a6485d81d3b7f2a1fac0d4",
+      "source_sha256": "78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab"
+    },
+    {
+      "cohort": "hbr",
+      "id": "customers-011",
+      "primary": [
+        "illustrate",
+        "narrate"
+      ],
+      "second": [
+        "explain",
+        "illustrate",
+        "narrate",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "explain",
+        "report"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "2ae8347d48159f2b4a74de2b15a2f538b176602016ddb51bbc6be30ba8462ed5",
+      "source_sha256": "78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab"
+    },
+    {
+      "cohort": "hbr",
+      "id": "customers-017",
+      "primary": [
+        "explain",
+        "orient"
+      ],
+      "second": [
+        "orient",
+        "qualify"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "explain"
+      ],
+      "second_only": [
+        "qualify"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "47f087b991a4785f0edd91e8475fa198bd41b21361ba208240dc2a7f6f29e71c",
+      "source_sha256": "78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab"
+    },
+    {
+      "cohort": "hbr",
+      "id": "customers-024",
+      "primary": [
+        "explain",
+        "qualify"
+      ],
+      "second": [
+        "compare",
+        "explain",
+        "qualify"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "compare"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "5b58e07a9b8c393f71b3761a85de329f02535f523d41193695fd3a59432ac325",
+      "source_sha256": "78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab"
+    },
+    {
+      "cohort": "hbr",
+      "id": "customers-031",
+      "primary": [
+        "assert",
+        "interpret"
+      ],
+      "second": [
+        "assert",
+        "explain",
+        "interpret"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "explain"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "163b755c40e96472a0a64d0075f035d084838bfecf13f8f89206369d4b153f06",
+      "source_sha256": "78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab"
+    },
+    {
+      "cohort": "hbr",
+      "id": "customers-037",
+      "primary": [
+        "assert",
+        "illustrate"
+      ],
+      "second": [
+        "assert",
+        "illustrate",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "99fadb292e077cc7224552d54303d4848f087c7ba19c62c03b658095fc27a708",
+      "source_sha256": "78ce1dfc8869d35f68ba71982143c7ed7d334e47628d8a14ab11008ec1dd3bab"
+    },
+    {
+      "cohort": "hbr",
+      "id": "house-004",
+      "primary": [
+        "define",
+        "orient",
+        "report"
+      ],
+      "second": [
+        "define",
+        "orient",
+        "report"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "913e23f8c02e82472bea2e26827d04d5feea88dbbfded66a485978ab7f2c8e9e",
+      "source_sha256": "495611e01d213eb92218ca1b884f9af22f03827ea734c75cd4985e4673f131e7"
+    },
+    {
+      "cohort": "hbr",
+      "id": "house-012",
+      "primary": [
+        "illustrate",
+        "orient"
+      ],
+      "second": [
+        "illustrate",
+        "orient",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "report"
+      ],
+      "symmetric_difference_size": 1,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "825818968b67c26c25d76ca245c0017fac3c2f3bd5372594dbfce73f1ab1be65",
+      "source_sha256": "495611e01d213eb92218ca1b884f9af22f03827ea734c75cd4985e4673f131e7"
+    },
+    {
+      "cohort": "hbr",
+      "id": "house-020",
+      "primary": [
+        "explain",
+        "orient"
+      ],
+      "second": [
+        "explain",
+        "instruct"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "orient"
+      ],
+      "second_only": [
+        "instruct"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "733eb33ad1e55dc1a1ab0711721855d7908f03aebd8c39a48bf6d26f48b14517",
+      "source_sha256": "495611e01d213eb92218ca1b884f9af22f03827ea734c75cd4985e4673f131e7"
+    },
+    {
+      "cohort": "hbr",
+      "id": "house-028",
+      "primary": [
+        "define",
+        "explain"
+      ],
+      "second": [
+        "define",
+        "instruct"
+      ],
+      "classification": "exclusive",
+      "primary_only": [
+        "explain"
+      ],
+      "second_only": [
+        "instruct"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [
+        "instruct: phrased as a description of a team's process but embedded in a stepwise method"
+      ],
+      "second_uncertainty_category": "nonempty_text_or_list",
+      "text_sha256": "0199f7a328d77ff612aa7ff3b936024fb7b71519b2d058a706e216fbf79160b2",
+      "source_sha256": "495611e01d213eb92218ca1b884f9af22f03827ea734c75cd4985e4673f131e7"
+    },
+    {
+      "cohort": "hbr",
+      "id": "house-036",
+      "primary": [
+        "illustrate",
+        "report"
+      ],
+      "second": [
+        "compare",
+        "explain",
+        "illustrate",
+        "report"
+      ],
+      "classification": "subset",
+      "primary_only": [],
+      "second_only": [
+        "compare",
+        "explain"
+      ],
+      "symmetric_difference_size": 2,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "b1aaa13b63029e67032131d93aa1942d5c33aa896c6cabc241762ed4dc943b40",
+      "source_sha256": "495611e01d213eb92218ca1b884f9af22f03827ea734c75cd4985e4673f131e7"
+    },
+    {
+      "cohort": "hbr",
+      "id": "house-048",
+      "primary": [
+        "explain",
+        "illustrate"
+      ],
+      "second": [
+        "explain",
+        "illustrate"
+      ],
+      "classification": "exact",
+      "primary_only": [],
+      "second_only": [],
+      "symmetric_difference_size": 0,
+      "second_uncertainty": [],
+      "second_uncertainty_category": "empty_list",
+      "text_sha256": "7c99489e9957c554ac14e3b211955cb121fa4eb7b4162a1f8d8c021cc958e57d",
+      "source_sha256": "495611e01d213eb92218ca1b884f9af22f03827ea734c75cd4985e4673f131e7"
+    }
+  ],
+  "inputs_sha256": {
+    "docs/writing-harness/paragraph-functions.json": "4d119fac2f29e1c0bbdea77e65e64cba45f67931bc0f816e40a765c0ff3cdc2e",
+    "experiments/pattern-test-2026-11-16/results/coding-agreement.json": "92e93b24041bc49da6cf35503c113db8851534a26c0ff81c9c6fe6383fecce8f",
+    "experiments/pattern-test-2026-11-16/results/documents.json": "c8cd4928e3a48f9d0cce1acd613a4d8a6724ef038dba91bf67803f54952b70f6"
+  },
+  "limitations": "Selection is deterministic but not representative; paragraph readings are not adjudicated truth. Text hashes verify recovered text against recorded provenance, not extraction fidelity or source licensing. No full paragraph text is redistributed."
+}

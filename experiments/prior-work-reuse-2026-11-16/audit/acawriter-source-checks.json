@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/uts-cic/acawriter/adc49ed10292852620bcbb09d0549afc75c04253/LICENSE",
+    "status": 200,
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/uts-cic/acawriter/adc49ed10292852620bcbb09d0549afc75c04253/app/Http/Controllers/FeedbackController.php",
+    "status": 200,
+    "bytes": 7973,
+    "sha256": "386061cee3030364df2828f4a9f311b8b3e880943afe30a0eba94c70c108c6e7"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/uts-cic/acawriter/adc49ed10292852620bcbb09d0549afc75c04253/app/Http/Traits/Profiler.php",
+    "status": 200,
+    "bytes": 9484,
+    "sha256": "d64481d74936955f6c50ab29de537b6e05d385385cc2717acd274e7821cb4c6c"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/uts-cic/acawriter/adc49ed10292852620bcbb09d0549afc75c04253/docker-compose.yml",
+    "status": 200,
+    "bytes": 3973,
+    "sha256": "557d99abbc7f478e141a8bd51b3ebf7b4780a3f702d722736ed52743302e4380"
+  }
+]

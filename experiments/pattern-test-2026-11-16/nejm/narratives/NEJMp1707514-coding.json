@@ -1,0 +1,334 @@
+{
+  "document_id": "NEJMp1707514",
+  "source_pdf": "/workspace/repos/builderbob/.writing-corpus-cache/analysis/attachments/NEJMp1707514.pdf",
+  "source_pdf_sha256": "8470ec94c1ea77ac10900c597c85f9056b945527313d9378e46f344a353a51b4",
+  "normalized_body_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/nejm/narratives/NEJMp1707514.txt",
+  "normalized_body_sha256": "4282fa1393643dde9cad853085229c5dfc872508c23c4516014b7283b02a243b",
+  "offset_units": "zero-based Unicode code points, end-exclusive",
+  "scope": "Main-body paragraphs; excludes adjacent article, title, byline, running matter, graphics, pull quotes, references and disclosures.",
+  "normalization": "Join fragments in reading order; remove extraction soft hyphens and discretionary line-end hyphens; normalize whitespace; restore selected compound hyphens. Superscript reference numbers retained inline.",
+  "verification": "Single analyst visually inspected all six rendered pages and paragraph boundaries and reviewed every extracted line-end hyphen. The PDF extraction retains superscript reference numerals inline; token counts include them.",
+  "body_quant_eligible": true,
+  "paragraph_quant_eligible": true,
+  "ambiguities": [],
+  "paragraphs": [
+    {
+      "id": "NEJMp1707514-p001",
+      "start": 0,
+      "end": 728,
+      "sha256": "2d6d36101ffa25d79243a3a2be394ce7f1259bb6dbddd294878b6273237cea5d",
+      "fragments": [
+        {
+          "page": 1,
+          "bbox": [
+            102.0,
+            563.66,
+            119.84,
+            598.5
+          ],
+          "raw_block_sha256": "ae33acec6a3627bc8cdf95b4b7121d4fa1dd9b799e7ac400343e4c8f88ab21ad"
+        },
+        {
+          "page": 1,
+          "bbox": [
+            102.0,
+            568.83,
+            241.69,
+            652.96
+          ],
+          "raw_block_sha256": "d6bfb2521251ff86c342be4698a23978ad6e441750fac8895f91b58c3b83f2fc"
+        },
+        {
+          "page": 1,
+          "bbox": [
+            250.66,
+            568.83,
+            390.36,
+            652.96
+          ],
+          "raw_block_sha256": "8aa44e1537e126af3d8a04dab6ad5413f1286f4bf7f124c9e4765b863d9d4649"
+        },
+        {
+          "page": 1,
+          "bbox": [
+            399.33,
+            568.83,
+            539.04,
+            652.96
+          ],
+          "raw_block_sha256": "13b6bfeee89fe3fbb89b99c2e522a3016cbfe48c04fbafbc2096babb62b51b93"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            71.0,
+            52.83,
+            210.7,
+            88.96
+          ],
+          "raw_block_sha256": "48579ba1f41bc6a39c61e75750280f6821ed095ee980cf29bab9f7dd05d30cfa"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "interpret"
+      ],
+      "analyst_role": "opening diagnosis and call",
+      "status": "coded_single_analyst",
+      "word_count": 140,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1707514-p002",
+      "start": 730,
+      "end": 1122,
+      "sha256": "337020133d6594836860178825625312dce23ac6caac4ef6cd85370627da049f",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            71.0,
+            88.83,
+            210.71,
+            232.96
+          ],
+          "raw_block_sha256": "4911e595f19b6fe97858d9e0541d8ba25e6e9703dc213ceac5b05acfe7752f3c"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "interpret"
+      ],
+      "analyst_role": "family and travel",
+      "status": "coded_single_analyst",
+      "word_count": 66,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1707514-p003",
+      "start": 1124,
+      "end": 1536,
+      "sha256": "fc169f7082c746ea1de5bc54af7b863788ecf2970f90056baabee87cbec4174f",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            71.0,
+            232.83,
+            210.7,
+            268.96
+          ],
+          "raw_block_sha256": "a80f9eafdfa0297efc70d7457aa33c07d776d127cf4c74ed98093277a719609e"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            71.0,
+            496.83,
+            210.7,
+            616.96
+          ],
+          "raw_block_sha256": "3a902a49ddafe617c40dfb3bb627084e689d510ea6f9aa9781fef8dfbbfa6d1e"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "report"
+      ],
+      "analyst_role": "hospital encounter",
+      "status": "coded_single_analyst",
+      "word_count": 85,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1707514-p004",
+      "start": 1538,
+      "end": 1945,
+      "sha256": "5f98717399dd8c54cce2c427afd818b7451f43c9143f549f50036f19acd1e647",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            71.0,
+            616.83,
+            210.69,
+            652.96
+          ],
+          "raw_block_sha256": "f13cd1f465af33516ba71f7438aaee31f95d3ae77b78fd6a662f38e81257f1fe"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            219.67,
+            52.83,
+            359.38,
+            184.96
+          ],
+          "raw_block_sha256": "23f1f887cd98d067aa19bf0ff2b550289391877672268a2310ce9d6ecf029bc1"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "report"
+      ],
+      "analyst_role": "hospital encounter",
+      "status": "coded_single_analyst",
+      "word_count": 76,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1707514-p005",
+      "start": 1947,
+      "end": 2759,
+      "sha256": "2e84c562bba1c36350ac81804d890549e2d7e770430d1b94346e471bed466250",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            219.67,
+            184.83,
+            359.37,
+            268.96
+          ],
+          "raw_block_sha256": "a70172f2aaaeb30c638d1bdb0408c39c0c1717592f48f29e1786dbe32a76bd79"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            219.67,
+            496.83,
+            359.37,
+            652.96
+          ],
+          "raw_block_sha256": "1046455f17f6745e7267e18a0ba544e427536aee4def4c0c34419005adeb39ae"
+        },
+        {
+          "page": 2,
+          "bbox": [
+            368.33,
+            52.83,
+            508.04,
+            124.96
+          ],
+          "raw_block_sha256": "a0e63b9f3ca90a25edd23b110ad88c28d3236e60dcc6e282d8097fd66170b8f5"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "interpret"
+      ],
+      "analyst_role": "hospital encounter",
+      "status": "coded_single_analyst",
+      "word_count": 150,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1707514-p006",
+      "start": 2761,
+      "end": 3432,
+      "sha256": "68fb02613531764e098dd4ae2174028da5f5c58be5c95585e6902000513ab0f9",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            368.33,
+            124.83,
+            508.04,
+            376.96
+          ],
+          "raw_block_sha256": "b8d290ecaf008d4484043d58df2e77499fd2b145f9cecb4c891d7d7fdab7d189"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "interpret"
+      ],
+      "analyst_role": "care relationship",
+      "status": "coded_single_analyst",
+      "word_count": 132,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1707514-p007",
+      "start": 3434,
+      "end": 3851,
+      "sha256": "7e12859ae60af8094345961d6e3aeade659f4ef2776a1aa50afa39f0160fbfe5",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            368.33,
+            376.83,
+            508.05,
+            544.96
+          ],
+          "raw_block_sha256": "362223c4607adb334e3e8ea4b90f9f3753e80b1333e1e0721ed4aae35cbb56dd"
+        }
+      ],
+      "functions": [
+        "narrate"
+      ],
+      "analyst_role": "care relationship",
+      "status": "coded_single_analyst",
+      "word_count": 79,
+      "paragraph_quant_eligible": true
+    },
+    {
+      "id": "NEJMp1707514-p008",
+      "start": 3853,
+      "end": 4845,
+      "sha256": "a98808b6c9932c05aa419caf0c4bbf8ed41119b8f4c322c603ba47cb8d7aabd6",
+      "fragments": [
+        {
+          "page": 2,
+          "bbox": [
+            368.33,
+            544.83,
+            508.04,
+            652.96
+          ],
+          "raw_block_sha256": "cd7613c3e397b13f25c4523fd923c7445f10f758a773861d5f8124d1cf17f958"
+        },
+        {
+          "page": 3,
+          "bbox": [
+            101.9,
+            160.83,
+            241.61,
+            244.96
+          ],
+          "raw_block_sha256": "6d1822fb59950b81dfd1dfb5e517e04450c55a344c3b3ef42b18526d0e59cb33"
+        },
+        {
+          "page": 3,
+          "bbox": [
+            250.57,
+            160.83,
+            390.28,
+            244.96
+          ],
+          "raw_block_sha256": "6096646fe31d8d6e1d4e4efb6ce483e61160470a419d542825d181a4662649be"
+        },
+        {
+          "page": 3,
+          "bbox": [
+            399.23,
+            52.83,
+            538.95,
+            172.96
+          ],
+          "raw_block_sha256": "691f2ab48c1864559bc563c9a9f23487eb49bb57dade3a0bbffbb7cb79751da5"
+        }
+      ],
+      "functions": [
+        "narrate",
+        "interpret",
+        "qualify"
+      ],
+      "analyst_role": "recovery and reflection",
+      "status": "coded_single_analyst",
+      "word_count": 194,
+      "paragraph_quant_eligible": true
+    }
+  ]
+}

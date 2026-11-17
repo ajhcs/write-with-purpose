@@ -1,0 +1,103 @@
+{
+  "trial_id": "blind-longform-20261116",
+  "scope": "Blinding, artifact correspondence, declared code constraints and observed browser checks only; human judgments remain pending. Source audit findings stay separate and no quality ranking is made.",
+  "checks": [
+    {
+      "check": "Private key matches pre-generation commitment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Sixteen unique blind comparisons",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Thirty-two nonempty rewrites",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Human payload has only allowed blind fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Public rewrites exactly equal frozen first outputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Public originals equal frozen selected source spans",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All eight supplied skill snapshots unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All fenced source examples preserve content and order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Separate source-fidelity audit retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded data equals blind public JSON",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Fragment below one megabyte",
+      "passed": true,
+      "detail": {
+        "bytes": 203688
+      }
+    },
+    {
+      "check": "No control paths or named skill versions in human reader",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No human verdicts prefilled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Browser-tested fragment hash matches final file",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No private source findings in human packet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Third-party short quotation reuse stays within limit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Canonical skill source unchanged by trial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Native conversation copy matches tested source",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_scoped_checks_passed": true,
+  "public_data_sha256": "bb960244a79b061b3a604220a280e9e6628258b5afff61be6da8b82e7fae4272",
+  "fragment_sha256": "9753c91dd9aa6762991edbf277c9e9c89161e32ed4edf0fa4129c32f46466376",
+  "host_state_limit": "Host persistence and send APIs were mocked in browser tests; actual cross-client delivery has not been exercised.",
+  "reader_repairs": "Narrow-screen selector overflow and a reproduced stale host-state overwrite were fixed; final synthetic and 58 grouped real-data browser checks passed with host APIs mocked."
+}

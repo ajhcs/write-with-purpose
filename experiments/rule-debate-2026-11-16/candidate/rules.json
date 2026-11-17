@@ -1,0 +1,329 @@
+{
+  "candidate_id": "wwp-debate-0.1.1",
+  "date": "2026-11-16",
+  "status": "Adjudicated operative candidate; not installed, validated or empirically optimized",
+  "scope": [
+    "drafting",
+    "editing",
+    "improvement",
+    "task-directed coding clarification"
+  ],
+  "hierarchy": [
+    "Family",
+    "Form",
+    "Section"
+  ],
+  "accepted_feature_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09"
+  ],
+  "rules": [
+    {
+      "id": "R01",
+      "title": "Choose the depth, then examine the whole requested work",
+      "status": "adjudicated_candidate_not_validated",
+      "operative_wording": "For correction or polish, repair the specified problem and preserve effective surrounding choices. For an improvement request, actively look for a consequential opportunity in the thought, organization or expression, even when the original is adequate. For new writing, recover the contribution from the supplied ideas before expanding them. Infer the scope from the request and context; routine authorized work needs no permission pause.\n\nReview the relevant whole before settling for a local fix. Choose an intervention for its contribution to the author's purpose, not the fewest changed words. A broader revision need not wait for a local repair to fail. Carry a worthwhile, authorized improvement through to actual prose; do not stop at an outline or critique when writing was requested. Keep collateral changes proportionate. An improvement request does not require a change if no candidate earns its tradeoff.\n\nFinish after the requested work, relevant checks and a final reading of the result as a whole. Another pass needs a specific worthwhile opportunity or unresolved issue; no fixed rewrite count, exhaustive search or consensus loop.",
+      "model_code_author_roles": {
+        "model": "Infer scope; inspect relevant whole; actively consider a consequential opportunity and execute it within authority.",
+        "code": "Preserve snapshots and actual constraints; no software measure selects edit depth.",
+        "author": "Sets purpose and scope, identifies real preservation constraints; judges consequential preferences."
+      },
+      "trigger": "Any drafting/editing request; affirmative whole-work opportunity search specifically for authorized improvement.",
+      "stop": "Requested work and relevant checks complete; final whole reading finds no further specific worthwhile opportunity or unresolved issue.",
+      "baseline_change": "Current skills already permit substantial rewrites and reader edits. Candidate makes open improvement trigger an affirmative search beyond defect repair, without waiting for a local fix to fail.",
+      "novelty_class": "incremental operational change",
+      "evidence_classes": [
+        "novel recombination",
+        "new hypothesis"
+      ],
+      "source_proposal_ids": [
+        "EI-01",
+        "EI-05",
+        "RL03",
+        "FF-04",
+        "CE-04"
+      ],
+      "counterexample": "Grammar-only correction cannot trigger wholesale restructuring. An adequate original can remain after a real assessment.",
+      "evaluation": "Compare under-editing and over-editing on matched fresh tasks, including adequate drafts and narrow briefs.",
+      "evidence": [
+        {
+          "source": "skills/edit-with-purpose/SKILL.md",
+          "role": "Comparison baseline, not evidence of a measured failure."
+        },
+        {
+          "source": "adjudication/charter.md and user instruction",
+          "role": "Authority to pursue improvement beyond defects."
+        },
+        {
+          "source": "experiments/rule-calibration-2026-11-16/report.md",
+          "role": "No demonstrated benefit from richer prior coding; not an editing-impact trial."
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "Develop the thought without substituting a thesis",
+      "status": "adjudicated_candidate_not_validated",
+      "operative_wording": "When a contribution is unsettled or reasoning needs development, first recover the author's observation, position, open question and relevant reasons. Distinguish an already stated conclusion, a supported connection that makes it intelligible, and a new interpretation you are proposing. Express the first two at their supported scope. Treat the third as a proposal, question or hypothesis unless the author adopts it; do not manufacture evidence, experience or endorsement.\n\nWhen stronger thinking is requested, test a consequential claim against a relevant alternative explanation, boundary case or objection. State what would change in the claim and what evidence would distinguish the readings. Use genuinely different questions or non-exhaustive hypotheses only when they help; they need not be equally plausible, and neither may fit. Then develop the grounded connection, revise the permitted claim, or identify the specific unresolved premise. A cautious word such as “may” does not make an unsupported inference sound.\n\nAsk only when unresolved intent or evidence materially blocks the dependent work, and continue independent work. Do not invent an objection to every paragraph or demand a causal explanation for a copy edit. Stop when the contribution is sufficiently grounded for this task or its material uncertainty is honestly preserved.",
+      "model_code_author_roles": {
+        "model": "Recover supplied intent and evidence; construct bounded inference/alternative and actual revision; distinguish proposal from author belief.",
+        "code": "Optional anchors and provenance track supplied versus proposed content; cannot prove entailment or endorsement.",
+        "author": "Owns interpretation and commitments; resolves a materially blocking intent choice, but need not approve routine supported connectives."
+      },
+      "trigger": "Unsettled contribution, consequential inference gap, or authorized strengthening of reasoning.",
+      "stop": "Grounded contribution developed at permitted scope, or material intent/evidence gap preserved without invented premise; independent work continues.",
+      "baseline_change": "Beyond generic missing-premise advice, distinguish stated conclusion, supported connective and new thesis; test a consequential competing reading or boundary and show its consequence for the actual revised claim.",
+      "novelty_class": "substantive mechanism change relative to inspected baseline; unvalidated",
+      "evidence_classes": [
+        "novel recombination",
+        "new hypothesis",
+        "scoped empirical finding"
+      ],
+      "source_proposal_ids": [
+        "VN-01",
+        "VN-04",
+        "EI-02",
+        "FF-02",
+        "RL01"
+      ],
+      "counterexample": "A correlation and recommendation do not justify an invented causal fork; a correction-only request needs no interrogation.",
+      "evaluation": "Check hallucinated premises, displaced author thesis, useful new connections and author repair burden separately.",
+      "evidence": [
+        {
+          "source": "P16",
+          "pdf_pages": [
+            14
+          ],
+          "role": "Descriptive finding/warrant/recommendation relationships motivate testing; do not establish efficacy of hypothetical alternatives.",
+          "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P16.txt"
+        },
+        {
+          "source": "P17",
+          "pdf_pages": [
+            15,
+            16
+          ],
+          "role": "Pedagogical discussion motivates functional inquiry; no trial of this mechanism.",
+          "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P17.txt"
+        },
+        {
+          "source": "skills/write-with-purpose/references/structure-and-purpose.md",
+          "role": "Existing recovery of contribution and missing premises; residual novelty is the bounded decision among connective and new interpretation."
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "Make the consequential alternative real",
+      "status": "adjudicated_candidate_not_validated",
+      "operative_wording": "When a material structural or expressive choice could improve the work, compare the original with a feasible alternative at the smallest useful scale. A structural alternative must change an information dependency, the placement of a consequential condition, or the reader's intended experience—not merely rename headings. Write the decisive transition or representative passage so the choice can be judged. An outline can locate the change, but does not substitute for the requested revision.\n\nConsider what the actual versions let the reader understand, do or experience, and what they may lose. Preserve endorsement, timing, conditions and rhetorical status when moving text: unchanged words can acquire a stronger claim in a new position. For expression, retain, transform or remove imagery and rhythm according to the task and context. Keep an important technical term and explain the needed distinction where appropriate. Deliberate ambiguity, sound or surprise need not justify themselves through faster information retrieval. “Effect unclear” is a valid judgment.\n\nSelect independently where the brief resolves the tradeoff; expose a consequential unresolved choice rather than silently changing the author's position. Execute the selected revision or keep the original. Do not require two complete drafts, invent a loss to fill a record, or compare an obvious typo correction. This is provisional editorial judgment, not measured reader benefit or author approval.",
+      "model_code_author_roles": {
+        "model": "Write representative alternative; compare task or experience and possible losses; implement within brief without treating aesthetic judgment as measurement.",
+        "code": "Can expose moves, exact diffs, changed values and terms; cannot certify retained rhetorical force or improved voice.",
+        "author": "Defines intended effect; decides materially unresolved preferences when needed and evaluates voice."
+      },
+      "trigger": "A material feasible structural or expressive alternative could improve authorized work; direct corrections do not require comparison.",
+      "stop": "Actual feasible revision or original selected after a proportionate contextual comparison; unclear effect can justify retaining original or surfacing a consequential preference.",
+      "baseline_change": "Existing skills already compare moves. Candidate specifies genuine dependency/condition/experience changes, actual decisive prose, and checks altered rhetorical status alongside retained facts; no compulsory two drafts.",
+      "novelty_class": "incremental operational change within a novel recombination",
+      "evidence_classes": [
+        "novel recombination",
+        "new hypothesis",
+        "scoped empirical finding"
+      ],
+      "source_proposal_ids": [
+        "VN-02",
+        "VN-03",
+        "FF-01",
+        "FF-04",
+        "EI-03",
+        "EI-04",
+        "EI-05",
+        "RL01",
+        "RL02",
+        "RL03",
+        "CE-01",
+        "CE-03"
+      ],
+      "counterexample": "Renamed headings are not different structures; a delayed reveal or repeated prerequisite may outperform faster answer recovery.",
+      "evaluation": "Blind reader task assessment where appropriate; author voice/experience judgments, fidelity and burden remain separate.",
+      "evidence": [
+        {
+          "source": "P15",
+          "pdf_pages": [
+            5,
+            6,
+            7
+          ],
+          "role": "Descriptive genre variation motivates alternatives, not a mandatory order.",
+          "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P15.txt"
+        },
+        {
+          "source": "P16",
+          "pdf_pages": [
+            14
+          ],
+          "role": "Variable sequence of recommendation reasoning; no causal test of ordering.",
+          "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P16.txt"
+        },
+        {
+          "source": "P17",
+          "pdf_pages": [
+            6,
+            15,
+            16
+          ],
+          "role": "Overlapping functions and function-oriented inquiry; no measured benefit for this runtime comparison.",
+          "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P17.txt"
+        },
+        {
+          "source": "P01",
+          "pdf_pages": [
+            14,
+            15
+          ],
+          "role": "Limits transfer from optional definitions; does not prove term-first or inline alternatives.",
+          "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P01.txt"
+        },
+        {
+          "source": "skills/write-with-purpose/references/structure-and-purpose.md",
+          "role": "Existing concrete reader edit and deletion/movement comparison; not invented here."
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "Resolve ambiguity according to the deliverable",
+      "status": "adjudicated_candidate_not_validated",
+      "operative_wording": "In ordinary writing or editing, inspect a competing reading when it could change meaning, attribution or an authorized action. If both readings permit the same sound edit, retain the uncertainty and proceed without forcing a function label. If the difference matters, inspect the actual source, affected claim and surrounding context; resolve what is supported and expose what remains open.\n\nFor function-definition work, boundary adjudication, annotation or reliability research, investigate and record task-relevant disagreements even when no prose change follows. Follow the research protocol; do not apply the editing shortcut to its data. Unassessed, assessed absent and unresolved are different. Function presence does not establish effectiveness, truth or a need to edit. Use the [coding appendix](coding-clarifications.md) when that distinction matters.",
+      "model_code_author_roles": {
+        "model": "Identify the task; compare what readings would change; inspect relevant sources/targets or preserve research disagreement.",
+        "code": "May validate known records and distinguish unassessed, absent, unresolved and present; cannot treat shared edits as semantic agreement.",
+        "author": "States annotation/research or writing objective and resolves own intended position when material."
+      },
+      "trigger": "Competing semantic readings or function decisions; determine whether deliverable is ordinary writing/editing or explicit research.",
+      "stop": "Resolve uncertainty sufficient for authorized action in runtime, retaining unresolved readings; research follows its declared protocol regardless of edit consequence.",
+      "baseline_change": "Adds an objective gate and counterfactual action test before expanding annotation; separate standalone definition/reliability work from runtime triage.",
+      "novelty_class": "substantive mechanism change relative to inspected baseline; unvalidated",
+      "evidence_classes": [
+        "novel recombination",
+        "new hypothesis"
+      ],
+      "source_proposal_ids": [
+        "FF-03",
+        "RL01",
+        "CE-04"
+      ],
+      "counterexample": "Two coders would keep prose unchanged, but definition-development task still requires examining their support/explain disagreement.",
+      "evaluation": "Compare semantic harms, missed consequential ambiguities and actual interaction burden; evaluate research completeness separately.",
+      "evidence": [
+        {
+          "source": "experiments/rule-calibration-2026-11-16/report.md",
+          "role": "21/36 versus18/36 exact-set agreement and missing full spans expose recording/interpretation limits; no trial of triage."
+        },
+        {
+          "source": "P18",
+          "pdf_pages": [
+            12,
+            13,
+            14
+          ],
+          "role": "Multifunctional disagreement and methodological transparency support preserving research distinctions; no validation of runtime shortcut.",
+          "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P18.txt"
+        },
+        {
+          "source": "experiments/dataset-adoption-2026-11-16/comparison.md",
+          "role": "Original units/relations/functions remain separate; source comparisons are not gold."
+        }
+      ]
+    }
+  ],
+  "inherited_rules": [
+    {
+      "id": "B01",
+      "title": "The author's purpose and actual constraints govern.",
+      "operative_wording": "Preserve factual meaning, attribution, warranted uncertainty, meaningful technical terms and required wording. Distinguish the author's material, factual sources, approved voice references and rejected output. Preserve effective expression; neither unusual wording nor a small diff establishes authenticity. A model-proposed thought is not an accepted author belief. An explicitly revisable recommendation is not a protected fact.",
+      "source_proposal_ids": [
+        "RL02",
+        "VN-03",
+        "EI-04"
+      ],
+      "status": "retained_foundation_not_claimed_innovation",
+      "evidence_classes": [
+        "established principle"
+      ],
+      "classification_limit": "Established in the accepted local practice or inspected precedent, not proven universally effective."
+    },
+    {
+      "id": "B02",
+      "title": "Structure offers choices.",
+      "operative_wording": "Keep Family → Form → Section visible in substantial planning or structural work, with provisional or mixed forms allowed. Sections need not have headings. Use functional blanks and useful alternatives, not borrowed sentence stems. Retain the nine accepted features; observed ranges, working targets and declared limits are different records. No label, count, readability grade or popularity measure is a universal quality target.",
+      "source_proposal_ids": [],
+      "status": "retained_foundation_not_claimed_innovation",
+      "evidence_classes": [
+        "established principle"
+      ],
+      "classification_limit": "Established in the accepted local practice or inspected precedent, not proven universally effective."
+    },
+    {
+      "id": "B03",
+      "title": "Check the delivered result at the appropriate level.",
+      "operative_wording": "Verify actual mechanical obligations against the final scoped artifact when tools support them. Separately review meaning, source support, voice and flow; a hash or literal match cannot certify them. Disclose material unavailable checks or unresolved conflicts. Deliver the writing and only the change notes the task needs.",
+      "source_proposal_ids": [
+        "CE-02",
+        "CE-04",
+        "EI-05"
+      ],
+      "status": "retained_foundation_not_claimed_innovation",
+      "evidence_classes": [
+        "established principle"
+      ],
+      "classification_limit": "Established in the accepted local practice or inspected precedent, not proven universally effective."
+    },
+    {
+      "id": "B04",
+      "title": "Teach through wanted choices.",
+      "operative_wording": "When explanation is requested or a learning workflow is established, connect a consequential choice to the actual wording and its effect; use a countercase when helpful. Practice is optional and follows the deliverable only when requested or part of that workflow. For chosen practice, let the author attempt before showing a solution; give a requested worked solution directly. Acceptance of an edit is not evidence of learning.",
+      "source_proposal_ids": [
+        "VN-05",
+        "RL04"
+      ],
+      "status": "retained_foundation_not_claimed_innovation",
+      "evidence_classes": [
+        "established principle"
+      ],
+      "classification_limit": "Established in the accepted local practice or inspected precedent, not proven universally effective."
+    }
+  ],
+  "runtime_policy": {
+    "selective": "Apply triggered rules only; no blanket compare-everything requirement.",
+    "scope": "Correction/polish resolves requested defect; improvement actively seeks worthwhile thought/structure/expression opportunities even in adequate prose.",
+    "authority": "Routine authorized reversible work proceeds; materially unresolved author position cannot be silently settled.",
+    "assessment": "Model judgment is provisional; author acceptance and measured reader outcomes are separate evidence.",
+    "recording": "No mandatory forms, full annotation, two full drafts, or saved gain/loss receipt in ordinary prose work."
+  },
+  "coding_guidance": "coding-guidance.json",
+  "coding_clarifications": "coding-clarifications.md",
+  "worked_operations": "worked-improvements.md",
+  "migration": "migration.md",
+  "source_debate": {
+    "positions": "../positions/",
+    "challenges": "../challenges/",
+    "replies": "../replies/",
+    "decisions": "../adjudication/decisions.json"
+  },
+  "guide_sha256": "0cfa57f8280320eb6eeba7234d041c7d6a796a9ecb38c18293eea5265f70c367",
+  "implementation_limits": [
+    "This is guidance and structured candidate data, not a new classifier, validator, installed hook or delivery-binding implementation.",
+    "Existing exact-limit and local-edit tools retain their current narrow guarantees.",
+    "No numeric novelty score, effect score or function-length limits are introduced."
+  ],
+  "revision": "0.1.1 narrows inherited B04 attempt-first to chosen practice and expressly permits requested worked solutions; R01-R04 unchanged."
+}

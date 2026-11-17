@@ -2,6 +2,8 @@
 
 Use an exact-span plan when a file revision needs a reproducible record. The bundled Python 3 tool reconstructs a separate edited file from the source and selected changes. Text outside those changes is preserved, including whitespace and line endings.
 
+Choose the authorized editorial depth before choosing the representation. A coordinated rewrite may use a whole-passage replacement or a separately written candidate in compare mode; it need not be fragmented into artificial word edits. Neither an exact-span plan nor a change measurement is required for an ordinary chat edit. A small footprint is not the objective of an improvement task.
+
 ```text
 python <editor-skill>/scripts/edit_locally.py original.txt --plan edits.json --output edited.txt
 python <editor-skill>/scripts/edit_locally.py original.txt --compare existing-edit.txt
@@ -15,7 +17,7 @@ The plan is a JSON object with `source_sha256` and `edits`. Each edit contains e
 {
   "source_sha256": "<64-character SHA-256 of the original bytes>",
   "edits": [
-    {"start": 0, "end": 1, "before": "<source substring>", "after": "<replacement>", "reason": "<the particular problem this change resolves>"}
+    {"start": 0, "end": 1, "before": "<source substring>", "after": "<replacement>", "reason": "<the particular correction or improvement this change serves>"}
   ]
 }
 ```

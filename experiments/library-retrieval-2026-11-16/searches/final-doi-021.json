@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_045",
+      "doi": "10.1002/9781118785317.weom120169",
+      "title": "Strategic Management",
+      "authors": "[\"Stephen Cummings\"]",
+      "field": "business_management",
+      "q": "\"Strategic Management\" Cummings filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_045",
+      "query": "\"Strategic Management\" Cummings filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Strategic Management",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781118785317.weom120169",
+          "score": 1
+        },
+        {
+          "title": "Strategic Management - Cummings, S. (2015). Strategic Management. In Wiley Encyclopedia of Management - Volume 12 Strategic Management (eds C. L. Cooper, J. McGee and T. Sammut‐Bonnici)",
+          "url": "https://www.academia.edu/40117410/Strategic_Management_Cummings_S_2015_Strategic_Management_In_Wiley_Encyclopedia_of_Management_Volume_12_Strategic_Management_eds_C_L_Cooper_J_McGee_and_T_Sammut_Bonnici_",
+          "score": 1
+        },
+        {
+          "title": "Readings in Strategic Management - DOKUMEN.PUB",
+          "url": "https://dokumen.pub/readings-in-strategic-management.html",
+          "score": 1
+        },
+        {
+          "title": "Strategic Management: A Competitive Advantage Approach, Concepts and Cases",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/strategic-management-a-competitive-advantage-approach-concepts-and-cases-rental-edition-/P200000005870/9780135199930",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

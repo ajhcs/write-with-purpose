@@ -1,0 +1,283 @@
+{
+  "scout": "law-policy",
+  "scope": "Legal and policy rhetorical roles, argument structure and writing research; no extrapolation from court judgments to professional policy proposals. Access checked 2026-11-16.",
+  "searches": [
+    {
+      "query": "Indian judgments rhetorical roles annotation dataset license",
+      "source": "web primary-source discovery and official repository HTTP",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "ECHR legal argument mining annotated corpus",
+      "source": "web primary-source discovery and official repository HTTP",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "House of Lords HOLJ rhetorical status sentence annotation",
+      "source": "web primary-source discovery and official repository HTTP",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "policy argument mining annotations microtexts",
+      "source": "web primary-source discovery and official repository HTTP",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "legal academic rhetorical moves empirical law research articles",
+      "source": "web primary-source discovery and official repository HTTP",
+      "date": "2026-11-16"
+    },
+    {
+      "query": "judicial writing manuals move analysis review",
+      "source": "web primary-source discovery and official repository HTTP",
+      "date": "2026-11-16"
+    }
+  ],
+  "records": [
+    {
+      "baseline_status": "new lead; not identified by name in inspected baseline",
+      "reliability": "Triple-coded batches used for agreement; do not apply its score to singly annotated remainder.",
+      "code_license": "Apache 2.0 repository LICENSE",
+      "annotation_license": "Repository claims open licenses; precise annotation grant not independently separated from Apache LICENSE",
+      "source_text_rights": "Judgments from HUDOC; underlying Court terms must be independently checked, repository license does not establish original rights",
+      "paywall_retrieval_record": null,
+      "id": "echr-argument",
+      "title": "Mining legal arguments in court decisions",
+      "authors": "Ivan Habernal, Daniel Faber, Nicola Recchia, Sebastian Bretthauer, Iryna Gurevych, Indra Spiecker genannt Döhmann, Christoph Burchard",
+      "year": 2023,
+      "kind": "human annotated corpus and methods study",
+      "doi": "10.1007/s10506-023-09361-y",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s10506-023-09361-y"
+      ],
+      "repository_url": "https://github.com/trusthlt/mining-legal-arguments",
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/trusthlt/mining-legal-arguments/master/data/agent/001-100469.csv",
+        "https://github.com/trusthlt/mining-legal-arguments/tree/master/gold_data",
+        "https://raw.githubusercontent.com/trusthlt/mining-legal-arguments/master/LICENSE"
+      ],
+      "verified_scope": "Full publisher article methods and repository README, license, and one token-label CSV inspected. CSV contains Python-list tokens and BIO labels, one row per paragraph. Article states paragraph restriction and orthogonal actor/type layers.",
+      "unit": "Nonoverlapping token-aligned argument span; may cross sentence but not paragraph boundary. 16 argument types and five actor types; no support/attack links.",
+      "genres_or_forms": "ECHR judicial decisions, Articles 3, 7 and 8; not law essays or policy proposals",
+      "annotation_or_metrics_available": "Full source scheme and definitions; argument-type and actor labels. Single-label within each orthogonal layer.",
+      "size_and_count_basis": "373 court decisions, 2,395,100 tokens, 15,205 annotated argument spans; publisher paper. Data preparation example begins at Article 8 section, full-document inclusion must not be presumed.",
+      "human_or_automatic": "Human legal annotators; initial all six, then triple-coded batches, then singly coded material.",
+      "access_status": "Open paper, repository and sample CSV",
+      "reuse_recommendation": "Reuse operational distinctions between argument type, attributed actor and boundary; review original adjudication and adapt with fresh cross-form validation.",
+      "project_feature_mapping": [
+        "F09 tentative argument/evidence and attribution; not a one-to-one paragraph function",
+        "F07 evidence handling candidate"
+      ],
+      "limitations": "Legal argument categories and select legal sections are specific to court judgments, not proposal or memo norms."
+    },
+    {
+      "baseline_status": "new lead; not identified by name in inspected baseline",
+      "reliability": "Not assessed in this investigation",
+      "code_license": "MIT repository LICENSE",
+      "annotation_license": "MIT repository license present; explicit separate annotation grant not identified",
+      "source_text_rights": "Unknown; verify source rights independently before redistribution",
+      "paywall_retrieval_record": null,
+      "id": "india-50",
+      "title": "Identification of Rhetorical Roles of Sentences in Indian Legal Judgments",
+      "authors": "Paheli Bhattacharya, Shounak Paul, Kripabandhu Ghosh, Saptarshi Ghosh, Adam Wyner",
+      "year": 2019,
+      "kind": "human annotated corpus and tool",
+      "doi": null,
+      "primary_urls": [
+        "https://arxiv.org/abs/1911.05405"
+      ],
+      "repository_url": "https://github.com/Law-AI/semantic-segmentation",
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/Law-AI/semantic-segmentation/master/data/text/1953_L_1.txt",
+        "https://raw.githubusercontent.com/Law-AI/semantic-segmentation/master/categories.txt",
+        "https://raw.githubusercontent.com/Law-AI/semantic-segmentation/master/LICENSE"
+      ],
+      "verified_scope": "README, actual text/label example, category index and license inspected. Sample is tab-separated sentence and role; one displayed row lacks label. Extent of original text and processing completeness not verified.",
+      "unit": "Sentence, single role, ordered within case",
+      "genres_or_forms": "Indian Supreme Court decisions",
+      "annotation_or_metrics_available": "Seven labels: Arguments, Precedent, Statutes, Facts, Ratio Decidendi, Ruling of Lower Court, Ruling of Present Court.",
+      "size_and_count_basis": "50 cases according to README; index lists five legal subject categories",
+      "human_or_automatic": "Law student human annotation; automated embeddings and model are separate",
+      "access_status": "Open repository and sample",
+      "reuse_recommendation": "Compare role definitions and sentence sequences as a historical legal-domain benchmark, retaining role names and missing labels.",
+      "project_feature_mapping": [
+        "F09 hypothetical mappings for facts, argument and decision",
+        "F04 sentence-level analysis only if segmentation verified"
+      ],
+      "limitations": "A sentence-specific single-label setup cannot validate paragraph multi-function labels; no inference to other genres."
+    },
+    {
+      "baseline_status": "new lead; not identified by name in inspected baseline",
+      "reliability": "Paper documents calibration and adjudication; specific agreement not independently extracted.",
+      "code_license": "Apache 2.0",
+      "annotation_license": "CC BY-SA 4.0 dataset per repository",
+      "source_text_rights": "Unknown; verify source rights independently before redistribution",
+      "paywall_retrieval_record": null,
+      "id": "build-rr",
+      "title": "Corpus for Automatic Structuring of Legal Documents",
+      "authors": "Prathamesh Kalamkar, Aman Tiwari, Astha Agarwal, Saurabh Karn, Smita Gupta, Vivek Raghavan, Ashutosh Modi",
+      "year": 2022,
+      "kind": "human annotated corpus and tool",
+      "doi": null,
+      "primary_urls": [
+        "https://aclanthology.org/2022.lrec-1.470/"
+      ],
+      "repository_url": "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline",
+      "artifact_urls": [
+        "https://huggingface.co/datasets/opennyaiorg/InRhetoricalRoles/resolve/main/train.json?download=true",
+        "https://huggingface.co/datasets/opennyaiorg/InRhetoricalRoles/resolve/main/dev.json?download=true",
+        "https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline#rhetorical-roles"
+      ],
+      "verified_scope": "Original paper abstract, repository README and role definitions, split download URLs and code license inspected; direct dev.json returned HTTP 401, no data example inspected.",
+      "unit": "Sentence assigned one of 13 rhetorical roles; document context needed",
+      "genres_or_forms": "Indian court judgments across court levels",
+      "annotation_or_metrics_available": "README defines roles including Preamble, Facts, arguments, reasoning, decisions and statutes.",
+      "size_and_count_basis": "354 judgments, 40,315 sentences reported by paper; do not assume exact parity with current hosted splits without file verification.",
+      "human_or_automatic": "Law student volunteers; final annotation and adjudication described in paper.",
+      "access_status": "Code and definitions public; current direct dev file returned HTTP 401 on 16 November 2026",
+      "reuse_recommendation": "Use README operational definitions as a candidate crosswalk; resolve hosted-data access and original judgment rights before corpus reuse.",
+      "project_feature_mapping": [
+        "F09 tentative fact, argument, rationale and ruling mappings"
+      ],
+      "limitations": "Labels mandatory single sentence roles in legal judgments; direct sample inaccessible, source rights remain separate."
+    },
+    {
+      "baseline_status": "new lead; not identified by name in inspected baseline",
+      "reliability": "README points to Peldszus 2014 for agreement; values not independently checked",
+      "code_license": "Unknown / not applicable",
+      "annotation_license": "CC BY-NC-SA 4.0 corpus as declared",
+      "source_text_rights": "Corpus license declares CC BY-NC-SA 4.0; verify individual author rights and translation coverage before other use",
+      "paywall_retrieval_record": null,
+      "id": "microtexts",
+      "title": "An annotated corpus of argumentative microtexts",
+      "authors": "Andreas Peldszus and Manfred Stede",
+      "year": 2016,
+      "kind": "human annotated elicited corpus",
+      "doi": null,
+      "primary_urls": [
+        "https://angcl.ling.uni-potsdam.de/resources/argmicro.html"
+      ],
+      "repository_url": "https://github.com/peldszus/arg-microtexts",
+      "artifact_urls": [
+        "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/en/micro_b003.xml",
+        "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/corpus/arggraph.dtd",
+        "https://raw.githubusercontent.com/peldszus/arg-microtexts/master/LICENSE"
+      ],
+      "verified_scope": "Institutional corpus page, repository README, license and English XML example inspected. Example exposes edu, adu, src/trg edge IDs and seg, reb, und edge types.",
+      "unit": "Elementary discourse units grouped as argumentative units with directed graph edges; edge may target another edge",
+      "genres_or_forms": "Elicited short argumentative texts on controversial and policy topics; not professional proposals or memos",
+      "annotation_or_metrics_available": "Argumentative trees, stance, pro/opp, relation edges; additional parallel RST/SDRT annotations linked on institution page.",
+      "size_and_count_basis": "Part 1: 112 German originals, professionally translated to English; 23 authors generated most, 23 author-written teaching/test texts. Separate Part 2: 178 English crowdsourced texts, not included in Part 1 count.",
+      "human_or_automatic": "Human authored and annotated",
+      "access_status": "Public repository and institution-hosted annotation guides",
+      "reuse_recommendation": "Reuse relation-target schema and guideline as a practical test of claim, support and counterargument boundaries; retain noncommercial share-alike restrictions.",
+      "project_feature_mapping": [
+        "F09 potential relation and multi-span tests",
+        "F07 evidence relationships candidate"
+      ],
+      "limitations": "Very short prompted arguments and translations; not distributions of professional full-length policy writing."
+    },
+    {
+      "baseline_status": "new lead; not identified by name in inspected baseline",
+      "reliability": "Not assessed in this investigation",
+      "code_license": "Unknown / not applicable",
+      "annotation_license": "Unknown",
+      "source_text_rights": "Unknown; verify source rights independently before redistribution",
+      "paywall_retrieval_record": "Publisher DOI identified; legitimate Edinburgh author PDF available and methods inspected.",
+      "id": "holj",
+      "title": "Extractive summarisation of legal texts",
+      "authors": "Ben Hachey and Claire Grover",
+      "year": 2006,
+      "kind": "single corpus study and historical corpus",
+      "doi": "10.1007/s10506-007-9039-z",
+      "primary_urls": [
+        "https://link.springer.com/article/10.1007/s10506-007-9039-z",
+        "https://www.ltg.ed.ac.uk/np/publications/ltg/papers/Hachey2006Extractive.pdf"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://www.ltg.ed.ac.uk/np/publications/ltg/papers/Hachey2006Extractive.pdf"
+      ],
+      "verified_scope": "Legitimate author PDF corpus, methods and hierarchical XML description inspected; annotated dataset file or license not located.",
+      "unit": "Sentence role and sentence-to-human-summary relevance; judgments contain individual LORD speeches and paragraphs.",
+      "genres_or_forms": "UK House of Lords judicial decisions, 2001–2003",
+      "annotation_or_metrics_available": "Human rhetorical status and relevance layers; automatic linguistic layer separate.",
+      "size_and_count_basis": "188 judgments, 2,887,037 body words and 98,645 sentences; rhetorical-role labels for 69 judgments and relevance for 47 of those, according to paper.",
+      "human_or_automatic": "Manual role and relevance annotations; other linguistic annotations automatic.",
+      "access_status": "Author PDF open; no usable annotated-data download located in this search",
+      "reuse_recommendation": "Reuse hierarchical judgment/speech/paragraph distinctions and distinguish discourse role from relevance to summaries. Seek corpus owner for access.",
+      "project_feature_mapping": [
+        "F01-F04 contingent on accessing source data and preserved boundaries",
+        "F09 candidate role distinctions"
+      ],
+      "limitations": "Subset annotation only; judicial decisions are not proposals. No inspected data file or reuse grant."
+    },
+    {
+      "baseline_status": "new lead; not identified by name in inspected baseline",
+      "reliability": "Not assessed in this investigation",
+      "code_license": "Unknown / not applicable",
+      "annotation_license": "Unknown",
+      "source_text_rights": "Unknown; verify source rights independently before redistribution",
+      "paywall_retrieval_record": null,
+      "id": "judicial-manuals",
+      "title": "Who’s Really Got the Right Moves? Analyzing Recommendations for Writing American Judicial Opinions",
+      "authors": "Mary C. Lavissière and Warren Bonnard",
+      "year": 2024,
+      "kind": "manuals comparison and single corpus move study; narrative literature background",
+      "doi": "10.3390/languages9040119",
+      "primary_urls": [
+        "https://www.mdpi.com/2226-471X/9/4/119"
+      ],
+      "repository_url": null,
+      "artifact_urls": [
+        "https://www.mdpi.com/2226-471X/9/4/119"
+      ],
+      "verified_scope": "Open full article abstract, methods and selected bibliography inspected. Compares professional manuals and annotated judicial opinions; literature background is not a systematic review or meta-analysis.",
+      "unit": "Move and step analysis; professional writing manuals and judicial opinions",
+      "genres_or_forms": "US judicial opinions and advice for judges and law clerks",
+      "annotation_or_metrics_available": "Manual recommendations compared with observed Swalesian moves and steps; paper reports annotation agreement.",
+      "size_and_count_basis": "Consult full methods for corpus and manual count before quantitative reuse.",
+      "human_or_automatic": "Human move annotations",
+      "access_status": "Open full text",
+      "reuse_recommendation": "Reuse its comparison of prescriptive advice against observed practice and its distinctions between moves and steps; use backreferences to identify historical studies.",
+      "project_feature_mapping": [
+        "F02 section organization",
+        "F09 moves/steps as hypotheses"
+      ],
+      "limitations": "Not a pooled estimate, systematic evidence map, policy memo study or general legal writing norm."
+    },
+    {
+      "baseline_status": "new lead; not identified by name in inspected baseline",
+      "reliability": "Not assessed in this investigation",
+      "code_license": "Unknown / not applicable",
+      "annotation_license": "Unknown",
+      "source_text_rights": "Unknown; verify source rights independently before redistribution",
+      "paywall_retrieval_record": "2015 publication, 37:13–26; DOI and publisher preview verified. Direct open returned 403; no legitimate author copy verified. Request through library.",
+      "id": "tessuto-law",
+      "title": "Generic structure and rhetorical moves in English-language empirical law research articles: Sites of interdisciplinary and interdiscursive cross-over",
+      "authors": "Girolamo Tessuto",
+      "year": 2015,
+      "kind": "single descriptive corpus study",
+      "doi": "10.1016/j.esp.2014.06.002",
+      "primary_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0889490614000386",
+        "https://doi.org/10.1016/j.esp.2014.06.002"
+      ],
+      "repository_url": null,
+      "artifact_urls": [],
+      "verified_scope": "Publisher search preview abstract, introduction, data-collection excerpt and conclusion inspected; direct publisher open returned HTTP 403. Full methods and actual annotations not inspected.",
+      "unit": "Document section and rhetorical move",
+      "genres_or_forms": "English empirical law research articles, interdisciplinary journals",
+      "annotation_or_metrics_available": "IMRD variation and communicative move organization, as described in abstract; no dataset verified.",
+      "size_and_count_basis": "Publisher preview reports 90 randomly selected articles 2010–2012 from three journals.",
+      "human_or_automatic": "Not independently determined from accessible preview",
+      "access_status": "Publisher access via institution or purchase; full text gated",
+      "reuse_recommendation": "Library retrieval candidate for direct empirical-report coverage outside medicine; check detailed definitions and reliability before crosswalk.",
+      "project_feature_mapping": [
+        "F02 section structure",
+        "F09 move functions candidate"
+      ],
+      "limitations": "Single genre sample, not a systematic review/meta-analysis; no transferable universal IMRD requirement."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p08",
+      "doi": "",
+      "title": "Hannah Arendt, Guilty Pleasure",
+      "authors": "[\"J. Hoberman\"]",
+      "field": "personal_public_writing",
+      "q": "\"Hannah Arendt, Guilty Pleasure\" Hoberman pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p08",
+      "query": "\"Hannah Arendt, Guilty Pleasure\" Hoberman pdf",
+      "urls": [
+        {
+          "title": "J. Hoberman Reviews Margarethe von Trotta's New Film 'Hannah Arendt' - Tablet Magazine",
+          "url": "https://www.tabletmag.com/sections/arts-letters/articles/hannah-arendt-guilty-pleasure",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

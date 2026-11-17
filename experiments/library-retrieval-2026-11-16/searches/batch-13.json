@@ -1,0 +1,131 @@
+{
+  "batch": 13,
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_23",
+      "doi": "10.1145/103162.103163",
+      "title": "What every computer scientist should know about floating-point arithmetic",
+      "field": "engineering_computing",
+      "q": "\"What every computer scientist should know about floating-point arithmetic\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_24",
+      "doi": "10.1145/945445.945450",
+      "title": "The Google file system",
+      "field": "engineering_computing",
+      "q": "\"The Google file system\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_25",
+      "doi": "10.1145/1327452.1327492",
+      "title": "MapReduce: simplified data processing on large clusters",
+      "field": "engineering_computing",
+      "q": "\"MapReduce: simplified data processing on large clusters\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_26",
+      "doi": "10.1145/359576.359579",
+      "title": "Can programming be liberated from the von Neumann style? a functional style and its algebra of programs",
+      "field": "engineering_computing",
+      "q": "\"Can programming be liberated from the von Neumann style? a functional style and its algebra of programs\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_23",
+      "query": "\"What every computer scientist should know about floating-point arithmetic\" pdf",
+      "urls": [
+        {
+          "title": "What Every Computer Scientist Should Know About Floating-Point Arithmetic",
+          "url": "https://www.digitaltheorylab.org/items/what-every-computer-scientist-should-know-about-floating-point-arithmetic",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "What every computer scientist should know about floating-point arithmetic (1991) [pdf] | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47343902",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "What Every Computer Scientist Should Know About Floating-Point Arithmetic | PDF | Rounding | Arithmetic",
+          "url": "https://www.scribd.com/document/990157619/What-Every-Computer-Scientist-Should-Know-About-Floating-Point-Arithmetic",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Revisiting \"What Every Computer Scientist Should Know About Floating-point Arithmetic\"",
+          "url": "https://arxiv.org/abs/2012.02492",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "What Every Computer Scientist Should Know About Floating-Point Arithmetic",
+          "url": "https://www.reddit.com/r/programming/comments/13630sy",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "what to do for floating point precision problems in cpp or as a programmer.",
+          "url": "https://www.reddit.com/r/cpp_questions/comments/1ro3enr/what_to_do_for_floating_point_precision_problems/",
+          "score": 0.3,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_24",
+      "query": "\"The Google file system\" pdf",
+      "urls": [
+        {
+          "title": "The Google File System",
+          "url": "https://research.google/pubs/the-google-file-system/",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_25",
+      "query": "\"MapReduce: simplified data processing on large clusters\" pdf",
+      "urls": [
+        {
+          "title": "dblp: MapReduce: simplified data processing on large clusters.",
+          "url": "https://dblp.org/rec/journals/cacm/DeanG08.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "dblp: MapReduce: Simplified Data Processing on Large Clusters.",
+          "url": "https://dblp.org/rec/conf/osdi/DeanG04.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "MapReduce: Simplified Data Processing on Large Clusters — Paper Graph",
+          "url": "https://paper-graph-ui.vercel.app/p/distributed-training/mapreduce-2004-MapReduce-Simplified-Data-Processing-on-Large-Clusters",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_26",
+      "query": "\"Can programming be liberated from the von Neumann style? a functional style and its algebra of programs\" pdf",
+      "urls": [
+        {
+          "title": "Can programming be liberated from the von Neumann style?: a functional style and its algebra of programs",
+          "url": "https://www.hinkali.com/Education/BackusTuringLecture1977.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Can programming be liberated from the von Neumann style?: a functional style and its algebra of programs",
+          "url": "https://www.researchgate.net/publication/316857693_Can_programming_be_liberated_from_the_von_Neumann_style_a_functional_style_and_its_algebra_of_programs",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

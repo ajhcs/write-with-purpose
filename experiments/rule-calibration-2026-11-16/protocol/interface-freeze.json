@@ -1,0 +1,21 @@
+{
+  "frozen_at_utc": "2026-11-16T16:23:39.257340+00:00",
+  "files": [
+    {
+      "path": "experiments/rule-calibration-2026-11-16/protocol/common-format.md",
+      "sha256": "f14c27863610648cf51c817e7d9059730a5f4798fd3859162b70e22b209d6387"
+    },
+    {
+      "path": "experiments/rule-calibration-2026-11-16/analysis/contract.py",
+      "sha256": "964b93039abc4e109d80fce319ec1526ba1a6c41464259d29243c91cd5d45fbc"
+    },
+    {
+      "path": "experiments/rule-calibration-2026-11-16/analysis/test_contract.py",
+      "sha256": "d752200315ffd0aae6b95de79fe08dba611cbfab9d904fdcbc67ad3287c95fc4"
+    },
+    {
+      "path": "experiments/rule-calibration-2026-11-16/analysis/build_packets.py",
+      "sha256": "4494685e9342513ac533305c54341471afef267a7a13c7b470584662b5a585b5"
+    }
+  ]
+}

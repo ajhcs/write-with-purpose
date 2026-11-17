@@ -1,0 +1,44 @@
+{
+  "status": "exploratory_holdout_test_not_preregistered",
+  "development_examples_excluded": [
+    "10.1056/NEJMp1312793",
+    "What Makes a Leader?",
+    "10.1016/j.ophtha.2014.05.013"
+  ],
+  "sampling": {
+    "nejm": "All five other supplied publisher-Perspective copies, 2017\u20132019; do not substitute editorials or empirical studies.",
+    "hbr": "Seven retained complete publisher-form practitioner essays, before 2015; screen identity/body completeness and document exclusions.",
+    "systematic": "Eight deterministic length-rank choices from the earlier 113 pre-2015 screened XML candidates; retain any false positives, do not replace based on scaffold fit."
+  },
+  "units": [
+    "whole main-prose document",
+    "printed section or explicitly interpreted unheaded movement",
+    "reconstructed prose paragraph"
+  ],
+  "coding": {
+    "functions": "Existing twelve IDs; multiple per paragraph; unresolved allowed; labels are model interpretations.",
+    "section_roles": "Separate printed headings from analyst roles; source-specific roles preserved.",
+    "independence": "Second coder receives source text/context and codebook without first-coder labels. Report agreement and disagreements, not consensus by assumption."
+  },
+  "statistics": {
+    "presence": "Count distinct documents with observed feature, always report numerator and denominator. Presence anywhere does not establish ordered template.",
+    "length": "Shared metrics.py tokenizer. Report min/q1/median/q3/max and document/paragraph counts. For function lengths show pooled tagged-paragraph observations AND per-document medians to expose weighting.",
+    "section_lengths": "Retain each named section and disjoint paragraph membership. Matched roles may be summarized only within cohort; an unheaded move is not a printed section.",
+    "overlap": "A multi-label paragraph contributes its entire length to each function distribution; these distributions are not additive word budgets.",
+    "limits": "Observed extrema are not hard limits; no automatic working targets, grade levels or causal quality claims.",
+    "uncertainty": "Single-analyst reconstruction limitations; rare-function samples and narrow venues/eras explicit. No population confidence intervals from this convenience sample."
+  },
+  "completion": "Report fully read/coded and quantifiable scope separately from selective passages, incomplete copies and unvalidated candidates.",
+  "final_sample_disposition": {
+    "reviewed_texts": 19,
+    "fully_coded_prose_paragraphs": 680,
+    "nejm_publisher_cohort": 5,
+    "hbr_primary_arguments": 4,
+    "hbr_coded_boundary_cases": 2,
+    "systematic_reviews": 8,
+    "hbr_ocr_candidate_excluded_from_measurement": 1,
+    "second_coding_targets": 138,
+    "section_mapping_complete_documents": 17,
+    "incomplete_boundary_section_mappings": 2
+  }
+}

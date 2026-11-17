@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_08",
+      "doi": "10.1109/32.988497",
+      "title": "Test case prioritization: a family of empirical studies",
+      "authors": "[\"S. Elbaum\", \"A.G. Malishevsky\", \"G. Rothermel\"]",
+      "field": "engineering_computing",
+      "q": "\"Test case prioritization: a family of empirical studies\" Elbaum filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_08",
+      "query": "\"Test case prioritization: a family of empirical studies\" Elbaum filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "\"Test Case Prioritization: A Family of Empirical Studies\" by Sebastian Elbaum, Alexey G. Malishevsky et al.",
+          "url": "https://digitalcommons.unl.edu/csearticles/8/",
+          "score": 1
+        },
+        {
+          "title": "Test case prioritization: a family of empirical studies",
+          "url": "https://www.researchgate.net/publication/3187955_Test_case_prioritization_a_family_of_empirical_studies",
+          "score": 1
+        },
+        {
+          "title": "Test case prioritization in limited environment",
+          "url": "https://www.know-center.at/filemaker/pdf_wissarbeiten/Test-case-prioritization-in-limited-environment.pdf",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

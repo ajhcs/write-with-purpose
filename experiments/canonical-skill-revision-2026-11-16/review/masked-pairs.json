@@ -1,0 +1,612 @@
+{
+  "scope": "Twelve masked pairs of synthetic writing/analysis/learning deliverables. Judge against each actual task and supplied source notes; neither variant is presumed better.",
+  "review_contract": "Assess conformance, factual/source fidelity and usefulness separately. Select A, B, tie or unresolved, with concrete textual reasons and material defects. Brevity, more change, more labels, confidence or additional cautions are not automatic benefits. Distinguish adequate differences from errors. No human gold, author acceptance or measured comprehension is supplied.",
+  "function_vocabulary": {
+    "version": "0.1",
+    "status": "proposed_initial_catalogue",
+    "created": "2026-11-15",
+    "feature": "F09",
+    "hierarchy": [
+      "family",
+      "form",
+      "section"
+    ],
+    "numeric_profiles": "unestimated",
+    "default_limits": null,
+    "guidance": "Functions may coexist and span paragraph boundaries. These definitions are a design synthesis, not a validated classification or an exhaustive taxonomy.",
+    "functions": [
+      {
+        "id": "orient",
+        "name": "Orient",
+        "reader_question": "Where are we, and why does this matter here?",
+        "contribution": "Prepare the reader with relevant context, a problem, stakes, or a change of direction.",
+        "prompt": "What does the reader need to notice or know before your next thought?",
+        "boundary": "Location at the start of a section does not establish orientation.",
+        "review": "Does the context prepare the contribution without delaying it?"
+      },
+      {
+        "id": "define",
+        "name": "Define",
+        "reader_question": "What does this term mean here?",
+        "contribution": "Establish a concept's meaning, scope, distinguishing properties, or operational definition.",
+        "prompt": "What does this term include, exclude, or distinguish in your explanation?",
+        "boundary": "An instance alone may not define the category.",
+        "review": "Could this reader distinguish the concept from a nearby one?"
+      },
+      {
+        "id": "report",
+        "name": "Report or describe",
+        "reader_question": "What is present, observed, or recorded?",
+        "contribution": "Present a state, feature, method, result, or faithful summary with attribution and conditions.",
+        "prompt": "What did you or the source observe, do, or say, before interpreting it?",
+        "boundary": "Reporting a claim does not endorse it; preserve planned versus completed status.",
+        "variants": [
+          "describe",
+          "summarize"
+        ],
+        "review": "Are observation, attribution, and inference distinguishable?"
+      },
+      {
+        "id": "assert",
+        "name": "Assert",
+        "reader_question": "What position, hypothesis, or proposal is being put forward?",
+        "contribution": "Offer a proposition for consideration, including a recommendation.",
+        "prompt": "What do you think, propose, or want the reader to accept?",
+        "boundary": "Not every declarative sentence needs a separate argumentative assertion label.",
+        "variants": [
+          "hypothesize",
+          "recommend"
+        ],
+        "review": "Is the proposition clear and no stronger than the available reasons?"
+      },
+      {
+        "id": "support",
+        "name": "Support",
+        "reader_question": "Why should I accept that claim?",
+        "contribution": "Connect evidence or reasoning to an identifiable claim.",
+        "prompt": "Which observation, source, or reason makes your claim more credible?",
+        "boundary": "Citation presence alone is not support, and an invented case is not empirical evidence.",
+        "review": "Does the evidence bear on this claim, with the right scope and certainty?"
+      },
+      {
+        "id": "explain",
+        "name": "Explain",
+        "reader_question": "How or why does this work?",
+        "contribution": "Make a mechanism, dependency, reason, or relationship intelligible.",
+        "prompt": "What connects the cause, condition, or earlier step to the result?",
+        "boundary": "Sequence alone does not establish a mechanism or cause.",
+        "review": "Can the reader recover the connection, including its assumptions?"
+      },
+      {
+        "id": "illustrate",
+        "name": "Illustrate",
+        "reader_question": "What would this look like in a concrete case?",
+        "contribution": "Make an idea recoverable through an instance, analogy, or worked case.",
+        "prompt": "Which concrete case makes your idea visible, and is it observed or invented?",
+        "boundary": "An analogy does not prove equivalence or population frequency.",
+        "review": "Does the case illuminate the intended relationship without misleading?"
+      },
+      {
+        "id": "compare",
+        "name": "Compare or contrast",
+        "reader_question": "How are these alike or different in a relevant respect?",
+        "contribution": "Relate alternatives along a meaningful dimension.",
+        "prompt": "Which alternatives matter, and on what shared dimension do they differ?",
+        "boundary": "Mentioning alternatives is not yet comparison; comparison need not rank them.",
+        "review": "Are the alternatives and comparison basis recoverable and fair?"
+      },
+      {
+        "id": "interpret",
+        "name": "Interpret",
+        "reader_question": "What should I understand from this?",
+        "contribution": "Develop an inference, implication, synthesis, significance, or personal reflection.",
+        "prompt": "What do you make of this, and which part of the material leads you there?",
+        "boundary": "A faithful recap is report; a new inference or synthesis is interpret.",
+        "variants": [
+          "synthesize",
+          "reflect"
+        ],
+        "review": "Is the meaning earned by the preceding material and appropriately limited?"
+      },
+      {
+        "id": "qualify",
+        "name": "Qualify",
+        "reader_question": "Under which conditions, and with what limits, does this hold?",
+        "contribution": "Bind scope, uncertainty, an exception, concession, or limitation to a claim.",
+        "prompt": "When would your claim need to change, or what does the evidence leave open?",
+        "boundary": "A hedge word does not establish that the relevant limitation is explained.",
+        "review": "Is the affected claim identifiable, and is the limitation sufficient?"
+      },
+      {
+        "id": "instruct",
+        "name": "Instruct",
+        "reader_question": "What should I do, under which conditions, and what should happen?",
+        "contribution": "Guide an executable action, including prerequisites, order, or expected results where needed.",
+        "prompt": "What should the reader do next, and how will they recognize the intended result?",
+        "boundary": "A description of what researchers did is not automatically a reader instruction.",
+        "review": "Can the intended reader perform the action from this text and context?"
+      },
+      {
+        "id": "narrate",
+        "name": "Narrate",
+        "reader_question": "What happened, to whom, and what changed?",
+        "contribution": "Develop an event or experience through time, including nonchronological presentation.",
+        "prompt": "What happened, what did you notice, and what changed as it unfolded?",
+        "boundary": "An event sequence does not necessarily explain causality or instruct a reader.",
+        "review": "Can the reader follow the experience without invented facts or forced lessons?"
+      }
+    ],
+    "relations": [
+      "supports",
+      "explains",
+      "illustrates",
+      "contrasts",
+      "qualifies",
+      "elaborates",
+      "follows"
+    ],
+    "relations_note": "These local labels relate supplied paragraph IDs. Their registration does not establish semantic validity or implement the full RST formalism.",
+    "references": [
+      "https://writingcenter.fas.harvard.edu/anatomy-body-paragraph",
+      "https://owl.purdue.edu/owl/general_writing/academic_writing/paragraphs_and_paragraphing/index.html",
+      "https://www.phrasebank.manchester.ac.uk/about-academic-phrasebank/",
+      "https://www.sfu.ca/rst/01intro/intro.html",
+      "https://doi.org/10.1016/j.esp.2004.08.003",
+      "https://doi.org/10.1016/S0889-4906(02)00026-1"
+    ]
+  },
+  "pairs": [
+    {
+      "id": "E01",
+      "task": {
+        "id": "E01",
+        "form": "technical note",
+        "task": "Correct grammar only; preserve the ordering, technical terms, facts and uncertainty. Do not grow the text.",
+        "before": "The sensor does not transmit while the valve is closed. In the current prototype it record pressure every 5 s. We have not tested it outdoors.",
+        "source_notes": [
+          "The sensor does not transmit while the valve is closed.",
+          "Sampling interval is 5 s.",
+          "Outdoor testing has not been performed."
+        ],
+        "declared_contract": {
+          "max_growth_words": 0,
+          "protected_literals": [
+            {
+              "text": "does not transmit",
+              "min_count": 1
+            },
+            {
+              "text": "5 s",
+              "min_count": 1
+            },
+            {
+              "text": "not tested it outdoors",
+              "min_count": 1
+            }
+          ]
+        }
+      },
+      "variants": {
+        "A": {
+          "text": "The sensor does not transmit while the valve is closed. In the current prototype it records pressure every 5 s. We have not tested it outdoors.\n",
+          "notes": {
+            "material_change_notes": "Corrected verb agreement only.",
+            "unresolved_issues": []
+          }
+        },
+        "B": {
+          "text": "The sensor does not transmit while the valve is closed. In the current prototype it records pressure every 5 s. We have not tested it outdoors.\n",
+          "notes": {
+            "material_change_notes": "Corrected subject-verb agreement; preserved ordering and wording otherwise.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    },
+    {
+      "id": "E02",
+      "task": {
+        "id": "E02",
+        "form": "decision memo",
+        "task": "Improve the reasoning and recommendation, including structure if useful. Reconsider the requested staffing level if the supplied evidence does not support it; retain the aim of reducing backlog.",
+        "before": "Our backlog increased from 12 to 30 tickets last month. The team closed 18 tickets. We should hire two analysts because the backlog is now 30.",
+        "source_notes": [
+          "36 tickets arrived last month; 18 were closed.",
+          "Starting backlog12; ending backlog30.",
+          "The ticket mix, seasonality and marginal capacity of another analyst are unknown.",
+          "No headcount or budget decision has been made."
+        ],
+        "declared_contract": {}
+      },
+      "variants": {
+        "B": {
+          "text": "The backlog rose from 12 to 30 tickets last month because 36 tickets arrived and the team closed 18. To reduce the backlog, assess the ticket mix, whether arrivals are seasonal, and how much capacity another analyst could add before deciding on staffing. The increase establishes a gap of 18 tickets for the month, but it does not establish that hiring two analysts would close the gap or that this gap will persist.\n",
+          "notes": {
+            "material_change_notes": "Explained the monthly inflow and outflow and proposed assessing capacity and demand before a staffing decision.",
+            "unresolved_issues": []
+          }
+        },
+        "A": {
+          "text": "Last month, 36 tickets arrived and the team closed 18, increasing the backlog from 12 to 30. To reduce the backlog, the team must close more tickets than arrive over the relevant period.\n\nBefore deciding how many analysts to hire, assess the ticket mix, whether last month\u2019s arrivals are representative, and the additional capacity an analyst could provide. Those unknowns prevent the current figures from supporting a recommendation to hire two analysts.\n",
+          "notes": {
+            "material_change_notes": "Replaced unsupported two-analyst recommendation with capacity assessment and backlog reduction condition.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    },
+    {
+      "id": "E03",
+      "task": {
+        "id": "E03",
+        "form": "personal reflective essay",
+        "task": "Improve flow while preserving the repeated I kept it and the unresolved ending. Do not invent the narrator's experience or explain away their ambivalence.",
+        "before": "I kept the ticket. It proved nothing, and I knew that. Still, I kept it. By morning the address had smudged; the date stayed. I do not know why that mattered.",
+        "source_notes": [
+          "The passage is synthetic; every supplied story detail is fixed for this exercise.",
+          "The repetition and unresolved final thought are explicit aesthetic choices."
+        ],
+        "declared_contract": {
+          "protected_literals": [
+            {
+              "text": "I kept it",
+              "min_count": 1
+            },
+            {
+              "text": "I do not know why that mattered.",
+              "min_count": 1
+            }
+          ]
+        }
+      },
+      "variants": {
+        "A": {
+          "text": "I kept the ticket. It proved nothing, and I knew that. Still, I kept it. By morning the address had smudged; the date stayed. I do not know why that mattered.\n",
+          "notes": {
+            "material_change_notes": "The supplied progression and repetition already serve the requested effect; retained unchanged.",
+            "unresolved_issues": []
+          }
+        },
+        "B": {
+          "text": "I kept the ticket. I knew it proved nothing. Still, I kept it. By morning, the address had smudged; the date stayed. I do not know why that mattered.\n",
+          "notes": {
+            "material_change_notes": "Adjusted rhythm and punctuation while retaining the repetition, fixed details, and unresolved ending.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    },
+    {
+      "id": "E04",
+      "task": {
+        "id": "E04",
+        "form": "conceptual explainer",
+        "task": "Explain this behavior to a novice who knows what a request and a status are but has not encountered idempotence. Keep the standard term idempotent.",
+        "before": "Retrying this operation is idempotent. Each retry sets the status to Ready. It does not append a record or send a notification.",
+        "source_notes": [
+          "Any number of retries leaves the same state: Ready.",
+          "No retry appends a record or sends a notification.",
+          "Do not claim anything about failures, network effects or other operations."
+        ],
+        "declared_contract": {
+          "protected_literals": [
+            {
+              "text": "idempotent",
+              "min_count": 1
+            },
+            {
+              "text": "Ready",
+              "min_count": 1
+            }
+          ]
+        }
+      },
+      "variants": {
+        "A": {
+          "text": "Retrying this operation is idempotent: any number of retries leaves the status at Ready. Each retry sets the status to Ready. It does not append a record or send a notification.\n",
+          "notes": {
+            "material_change_notes": "Added a plain-language explanation of the term while retaining the stated behavior.",
+            "unresolved_issues": []
+          }
+        },
+        "B": {
+          "text": "Retrying this operation is idempotent: each retry sets the status to Ready, so any number of retries leaves it at Ready. No retry appends a record or sends a notification.\n",
+          "notes": {
+            "material_change_notes": "Explained the technical term using the supplied state and retry effects.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    },
+    {
+      "id": "E05",
+      "task": {
+        "id": "E05",
+        "form": "argument essay",
+        "task": "Develop the author's distinction and improve the paragraph. You may propose an interpretation as a hypothesis or question, but do not turn it into the author's settled belief or add empirical evidence.",
+        "before": "Teams spend too long choosing note apps. An app can store every note and still leave a project stuck. The hard part is deciding what to ask next.",
+        "source_notes": [
+          "The author wants to distinguish information storage from inquiry.",
+          "The opening broad claim is an untested impression, not a measured population result.",
+          "No personal anecdote, survey, adoption rate or account of other people's motives is supplied."
+        ],
+        "declared_contract": {}
+      },
+      "variants": {
+        "A": {
+          "text": "Teams can spend a long time choosing note apps, but an app can store every note and still leave a project stuck. Storage keeps information available; inquiry determines what to ask next. Perhaps the difficult choice is not where to put the notes, but which question will move the project forward.\n",
+          "notes": {
+            "material_change_notes": "Developed storage versus inquiry and framed the further interpretation as a possibility; softened the untested opening.",
+            "unresolved_issues": []
+          }
+        },
+        "B": {
+          "text": "Teams can spend a long time choosing note apps, but an app that stores every note can still leave a project stuck. Storage keeps information available; inquiry asks what to do with it. The harder question is what to ask next.\n",
+          "notes": {
+            "material_change_notes": "Developed the storage versus inquiry distinction and bounded the opening as an impression; no empirical evidence added.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    },
+    {
+      "id": "E06",
+      "task": {
+        "id": "E06",
+        "form": "empirical report Methods section",
+        "task": "Improve the Methods passage while accurately reporting what was done. Flag any unsupported rationale or instruction separately; do not invent a source.",
+        "before": "We warmed the samples to 40 \u00b0C for 10 min, which improves accuracy. That is why readers should warm their samples too.",
+        "source_notes": [
+          "The study warmed samples to40\u00b0C for10min.",
+          "No comparison of temperature conditions or accuracy effects was performed.",
+          "No supporting external study is supplied.",
+          "The text belongs to a report of the completed study, not a reader procedure."
+        ],
+        "declared_contract": {
+          "protected_literals": [
+            {
+              "text": "40 \u00b0C",
+              "min_count": 1
+            },
+            {
+              "text": "10 min",
+              "min_count": 1
+            }
+          ]
+        }
+      },
+      "variants": {
+        "B": {
+          "text": "We warmed the samples to 40 \u00b0C for 10 min.\n",
+          "notes": {
+            "material_change_notes": "Removed unsupported accuracy rationale and reader instruction; see issue note.",
+            "unresolved_issues": [
+              "The accuracy rationale and instruction to readers lack support; see E06/issue-note.txt."
+            ],
+            "additional_user_facing_notes": {
+              "issue-note.txt": "The claim that warming improves accuracy is unsupported: the study did not compare temperature conditions or accuracy, and no external source was supplied. The instruction that readers should warm their samples is also unsupported in this completed-study Methods section.\n"
+            }
+          }
+        },
+        "A": {
+          "text": "We warmed the samples to 40 \u00b0C for 10 min.\n\nThe claim that warming improves accuracy is unsupported by the supplied evidence: the study did not compare temperature conditions or accuracy effects. The instruction that readers should warm their samples is also unsupported and does not belong in this Methods report.\n",
+          "notes": {
+            "material_change_notes": "Kept the reported procedure and separately flagged the unsupported accuracy rationale and reader instruction.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    },
+    {
+      "id": "E07",
+      "task": {
+        "id": "E07",
+        "form": "argument paragraph",
+        "task": "Analyze the paragraph's functions and relations for coding research, even if no prose edit is necessary. Keep an evidence anchor separate from any complete realization span; allow overlapping readings.",
+        "before": "The proposed rule says that every delayed task is low priority. Consider an urgent approval that arrives on Friday when no authorized person is available until Monday. That possible delay would not establish low priority.",
+        "source_notes": [
+          "The approval scenario is explicitly hypothetical, not an observed case.",
+          "The paragraph challenges a universal proposition through a possible counterexample.",
+          "No population rate or empirical case evidence is supplied."
+        ],
+        "declared_contract": {}
+      },
+      "variants": {
+        "A": {
+          "text": "The catalogue permits overlapping functions; the readings below are analytical choices, not mutually exclusive labels. The quoted anchors identify evidence for a reading. Realization spans give the complete text used for that reading.\n\n- **report** \u2014 Anchor: \u201cThe proposed rule says\u201d. Realization: \u201cThe proposed rule says that every delayed task is low priority.\u201d The sentence reports a proposed universal rule; reporting it does not endorse it. It also **orients** the reader to the proposition under challenge.\n- **illustrate** \u2014 Anchor: \u201can urgent approval\u201d. Realization: \u201cConsider an urgent approval that arrives on Friday when no authorized person is available until Monday.\u201d This is a hypothetical case, not an observed event or evidence of a population rate.\n- **interpret** and **assert** \u2014 Anchor: \u201cwould not establish low priority\u201d. Realization: \u201cThat possible delay would not establish low priority.\u201d The sentence draws and asserts a limited inference about the imagined delay.\n- **support** \u2014 Anchor: \u201cevery delayed task\u201d and \u201cThat possible delay would not establish low priority.\u201d Realization: the entire paragraph. The imagined urgent approval supplies a possible counterexample to the universal rule. This is reasoning from a hypothetical, not empirical case evidence. The scenario and the conclusion may also be read together as **explain**, because they make the challenge to the rule intelligible.\n\nRelations: The hypothetical scenario **illustrates** a possible delayed urgent task. The final inference **follows** from the scenario and **supports** the challenge to the reported rule; the hypothetical's urgency **contrasts** with the rule's assignment of low priority. These are local analytical readings, not a claim of a complete formal discourse parse.\n",
+          "notes": {
+            "material_change_notes": "Coded overlapping functions and relations with distinct anchors and realization spans; the scenario remains hypothetical.",
+            "unresolved_issues": []
+          }
+        },
+        "B": {
+          "text": "Context: One paragraph; the proposed rule belongs to its proponent, while the writer challenges it. The approval is hypothetical. Catalogue: paragraph-functions version 0.1, proposed initial catalogue; functions may overlap. The extents below quote the full assessed realization, while anchors are diagnostic excerpts.\n\n1. report and orient \u2014 Anchor: \u201cThe proposed rule says\u201d. Realization: \u201cThe proposed rule says that every delayed task is low priority.\u201d The writer reports the rule and sets up the challenge; this is not endorsement of the rule.\n2. illustrate \u2014 Anchor: \u201can urgent approval that arrives on Friday\u201d. Realization: \u201cConsider an urgent approval that arrives on Friday when no authorized person is available until Monday.\u201d This hypothetical instance makes a possible delay involving an urgent task concrete.\n3. support \u2014 Anchor: \u201cThat possible delay would not establish low priority.\u201d Realization: \u201cConsider an urgent approval that arrives on Friday when no authorized person is available until Monday. That possible delay would not establish low priority.\u201d The scenario and its stated implication provide a logical counterexample to the universal rule, not an observed case or evidence of frequency.\n4. assert and interpret \u2014 Anchor: \u201cwould not establish low priority\u201d. Realization: \u201cThat possible delay would not establish low priority.\u201d The writer draws and advances a limited conclusion from the hypothetical scenario.\n5. instruct \u2014 Anchor: \u201cConsider\u201d. Realization: \u201cConsider an urgent approval that arrives on Friday when no authorized person is available until Monday.\u201d The writer directs the reader to consider the case; this overlaps the illustration.\n\nRelations within the paragraph: the hypothetical illustrates the delay/priority distinction and supports the rejection of the proposed universal rule; the last sentence interprets the hypothetical and contrasts with the rule. The catalogue\u2019s registered relations are defined for paragraph IDs, so these are intra-paragraph analytical relationships rather than registered paragraph-to-paragraph links. A qualification reading is possible if the last sentence is treated as limiting the rule\u2019s application, but it is more directly a rejection of its universal inference, not a qualification of an author-endorsed proposition. No other functions are assessed here.\n",
+          "notes": {
+            "material_change_notes": "Recorded overlapping functions, attribution, anchors, complete realization extents and intra-paragraph relations; a qualification reading remains a recorded alternative.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    },
+    {
+      "id": "E08",
+      "task": {
+        "id": "E08",
+        "form": "technical summary",
+        "task": "Improve the explanation under a maximum of 45 words. Retain the exact term retry-safe and all material conditions. Do not add facts about causes or tests.",
+        "before": "The operation is retry-safe only while the request identifier remains unchanged. A repeated request returns the existing result. A request with a new identifier starts another operation. We have tested this behavior in the prototype, not in production.",
+        "source_notes": [
+          "The guarantee is conditional on an unchanged request identifier.",
+          "A new identifier starts another operation.",
+          "Evidence comes only from the prototype; production behavior has not been tested."
+        ],
+        "declared_contract": {
+          "max_words": 45,
+          "protected_literals": [
+            {
+              "text": "retry-safe",
+              "min_count": 1
+            }
+          ]
+        }
+      },
+      "variants": {
+        "B": {
+          "text": "The operation is retry-safe only while the request identifier remains unchanged: a repeated request returns the existing result. A request with a new identifier starts another operation. This behavior has been tested in the prototype, not in production.\n",
+          "notes": {
+            "material_change_notes": "Connected the condition to the repeated-request result and retained the prototype-only test scope.",
+            "unresolved_issues": []
+          }
+        },
+        "A": {
+          "text": "The operation is retry-safe only if the request identifier remains unchanged: a repeated request returns the existing result, while a new identifier starts another operation. This behavior was tested in the prototype, not in production.\n",
+          "notes": {
+            "material_change_notes": "Connected repeated and new identifiers to their outcomes and retained prototype-only testing.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    },
+    {
+      "id": "L01",
+      "task": {
+        "id": "L01",
+        "task": "Show me a worked revision of this sentence and explain your choice. Do not ask me to attempt it first.",
+        "before": "The results were very, very good.",
+        "source_notes": [
+          "The model correctly classified 80 of 100 cases.",
+          "No comparator, baseline or additional outcome was supplied."
+        ]
+      },
+      "variants": {
+        "B": {
+          "text": "The model correctly classified 80 of 100 cases.\n\nThis replaces vague praise with the supplied result. Without a comparator or baseline, the result alone does not establish how good the performance is.\n",
+          "notes": {
+            "material_change_notes": "Replaced vague praise with the supplied count and explained the absence of a basis for a comparative judgment.",
+            "unresolved_issues": []
+          }
+        },
+        "A": {
+          "text": "The model correctly classified 80 of 100 cases.\n\nThis replaces \u201cvery, very good\u201d with the supplied result, so readers can see what was measured. It does not call the result good or imply a comparison because no baseline or comparator was provided.\n",
+          "notes": {
+            "material_change_notes": "Provided the worked revision and explained its evidence and comparison limits.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    },
+    {
+      "id": "L02",
+      "task": {
+        "id": "L02",
+        "task": "Help me practise replacing vague praise with a specific result. Give me the source facts and let me attempt a sentence before showing an answer.",
+        "before": "The results were very, very good.",
+        "source_notes": [
+          "The model correctly classified 80 of 100 cases.",
+          "No comparator, baseline or additional outcome was supplied."
+        ]
+      },
+      "variants": {
+        "B": {
+          "text": "The model correctly classified 80 of 100 cases. No comparator, baseline, or additional outcome was supplied.\n\nHow would you replace \u201cThe results were very, very good\u201d with a sentence that states the specific result?\n",
+          "notes": {
+            "material_change_notes": "Provided the facts and an invitation to attempt a sentence, without revealing an answer.",
+            "unresolved_issues": []
+          }
+        },
+        "A": {
+          "text": "The model correctly classified 80 of 100 cases. No comparator, baseline, or additional outcome was supplied.\n\nTry replacing \u201cThe results were very, very good\u201d with a sentence that states the specific result.\n",
+          "notes": {
+            "material_change_notes": "Provided the source facts and a practice prompt without showing a worked answer.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    },
+    {
+      "id": "D01",
+      "task": {
+        "id": "D01",
+        "form": "novice technical explainer",
+        "task": "Draft an explanation for new support staff of why the displayed stock can differ from the current inventory. Use the standard terms cache and synchronization, with their meaning clear in context. Maximum 120 words. Use only the supplied facts; do not imply production validation or invent behavior.",
+        "source_notes": [
+          "In this system, a cache is a stored copy of the inventory.",
+          "Synchronization copies the current inventory into the cache every 5 minutes.",
+          "The displayed stock comes from the cache.",
+          "Between synchronizations, inventory can change and the cache can still contain the earlier value.",
+          "The screen shows the time of the most recent synchronization.",
+          "No production test results or other system behavior are supplied."
+        ],
+        "declared_contract": {
+          "max_words": 120,
+          "protected_literals": [
+            {
+              "text": "cache",
+              "min_count": 1
+            },
+            {
+              "text": "synchronization",
+              "min_count": 1
+            }
+          ]
+        }
+      },
+      "variants": {
+        "B": {
+          "text": "The displayed stock comes from a cache, a stored copy of the inventory. Synchronization copies the current inventory into that cache every 5 minutes. Inventory can change between synchronizations, so the cache may still contain an earlier value and the displayed stock may differ from the current inventory. The screen shows the time of the most recent synchronization.\n",
+          "notes": {
+            "material_change_notes": "Drafted an explanation of the displayed value, synchronization interval, and timestamp.",
+            "unresolved_issues": []
+          }
+        },
+        "A": {
+          "text": "The displayed stock comes from a cache, a stored copy of the inventory. Synchronization copies the current inventory into that cache every 5 minutes. If the inventory changes between synchronizations, the cache can still contain the earlier value, so the displayed stock can differ from the current inventory. The screen shows the time of the most recent synchronization.\n",
+          "notes": {
+            "material_change_notes": "Drafted a novice explanation with both terms and the supplied synchronization timing.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    },
+    {
+      "id": "D02",
+      "task": {
+        "id": "D02",
+        "form": "personal blog opening",
+        "task": "Draft a brief personal blog opening from these notes, maximum 90 words. Keep the uncertainty open and retain the exact sentence I did not knock. Do not invent memories, sensory details or a concluding life lesson.",
+        "source_notes": [
+          "The narrator walked past a closed bakery at six.",
+          "A light was on in the kitchen.",
+          "The narrator wanted to go to the door, but did not knock.",
+          "The narrator is unsure whether they missed a ritual or simply wanted somewhere to begin the day.",
+          "These are fictional supplied notes; no other experiences or motives are established."
+        ],
+        "declared_contract": {
+          "max_words": 90,
+          "protected_literals": [
+            {
+              "text": "I did not knock.",
+              "min_count": 1
+            }
+          ]
+        }
+      },
+      "variants": {
+        "A": {
+          "text": "I walked past the closed bakery at six. A light was on in the kitchen, and I wanted to go to the door. I did not knock. I am not sure whether I missed a ritual or simply wanted somewhere to begin the day.\n",
+          "notes": {
+            "material_change_notes": "Drafted from the supplied scene and kept the uncertainty unresolved.",
+            "unresolved_issues": []
+          }
+        },
+        "B": {
+          "text": "At six, I walked past the closed bakery. A light was on in the kitchen, and I wanted to go to the door. I did not knock.\n\nI am not sure whether I missed a ritual or simply wanted somewhere to begin the day.\n",
+          "notes": {
+            "material_change_notes": "Drafted the opening from the supplied fictional details while leaving the question unresolved.",
+            "unresolved_issues": []
+          }
+        }
+      }
+    }
+  ]
+}

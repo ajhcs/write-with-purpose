@@ -1,0 +1,256 @@
+{
+  "scope": "Accessible datasets and operational codebooks from prior-work map; originals retained in private workspace cache. Public archives may include linked source files and code, which are not executed. Licensed/restricted text is not reconstructed. Complete packages and guides are distinguished from methods-only papers.",
+  "artifacts": [
+    {
+      "id": "gum",
+      "type": "github_archive",
+      "repo": "amir-zeldes/gum",
+      "branch": "master",
+      "commit": "1d999e5a0327ecb83015007774f6a9be23ecbc41"
+    },
+    {
+      "id": "rstmulti",
+      "type": "github_archive",
+      "repo": "discourse-lab/RSTmulti",
+      "branch": "main",
+      "commit": "4e4eca188b19edc87ce801bc0760b25d31dd9e10"
+    },
+    {
+      "id": "amalgum",
+      "type": "github_archive",
+      "repo": "gucorpling/amalgum",
+      "branch": "master",
+      "commit": "a2dbd33e757f75a61d68d22d1a29e840bdffa711"
+    },
+    {
+      "id": "disrpt2023",
+      "type": "github_archive",
+      "repo": "disrpt/sharedtask2023",
+      "branch": "main",
+      "commit": "2afec39f8f32c00a238b8a33daf5b0c7341a31fa"
+    },
+    {
+      "id": "mulms",
+      "type": "github_archive",
+      "repo": "boschresearch/mulms-az-codi2023",
+      "branch": "main"
+    },
+    {
+      "id": "scipara",
+      "type": "github_archive",
+      "repo": "annamkiepura/SciPara",
+      "branch": "main"
+    },
+    {
+      "id": "scidtb",
+      "type": "github_archive",
+      "repo": "PKU-TANGENT/SciDTB",
+      "branch": "master"
+    },
+    {
+      "id": "readme",
+      "type": "github_archive",
+      "repo": "gprana/READMEClassifier",
+      "branch": "master"
+    },
+    {
+      "id": "wlp",
+      "type": "github_archive",
+      "repo": "chaitanya2334/WLP-Dataset",
+      "branch": "master"
+    },
+    {
+      "id": "openpi",
+      "type": "github_archive",
+      "repo": "allenai/openpi-dataset",
+      "branch": "main"
+    },
+    {
+      "id": "echr",
+      "type": "github_archive",
+      "repo": "trusthlt/mining-legal-arguments",
+      "branch": "master"
+    },
+    {
+      "id": "india50",
+      "type": "github_archive",
+      "repo": "Law-AI/semantic-segmentation",
+      "branch": "master"
+    },
+    {
+      "id": "build",
+      "type": "github_archive",
+      "repo": "Legal-NLP-EkStep/rhetorical-role-baseline",
+      "branch": "main"
+    },
+    {
+      "id": "microtexts",
+      "type": "github_archive",
+      "repo": "peldszus/arg-microtexts",
+      "branch": "master"
+    },
+    {
+      "id": "essay-semantic",
+      "type": "github_archive",
+      "repo": "discourse-lab/arg-essays-semantic-types",
+      "branch": "main"
+    },
+    {
+      "id": "persuade2",
+      "type": "github_archive",
+      "repo": "scrosseye/persuade_corpus_2.0",
+      "branch": "main"
+    },
+    {
+      "id": "parakweet",
+      "type": "github_archive",
+      "repo": "ParakweetLabs/EmailIntentDataSet",
+      "branch": "master"
+    },
+    {
+      "id": "quagga",
+      "type": "github_archive",
+      "repo": "HPI-Information-Systems/Quagga",
+      "branch": "master"
+    },
+    {
+      "id": "core",
+      "type": "github_archive",
+      "repo": "TurkuNLP/CORE-corpus",
+      "branch": "master"
+    },
+    {
+      "id": "pubmed-rct",
+      "type": "github_archive",
+      "repo": "Franck-Dernoncourt/pubmed-rct",
+      "branch": "master"
+    },
+    {
+      "id": "acawriter",
+      "type": "github_archive",
+      "repo": "uts-cic/acawriter",
+      "branch": "master",
+      "commit": "adc49ed10292852620bcbb09d0549afc75c04253"
+    },
+    {
+      "id": "az",
+      "type": "archive",
+      "url": "https://www.cl.cam.ac.uk/~sht25/AZ_distribution.tar.gz",
+      "filename": "AZ_distribution.tar.gz"
+    },
+    {
+      "id": "pdtb-manual",
+      "type": "codebook",
+      "url": "https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf",
+      "filename": "PDTB3-Annotation-Manual.pdf"
+    },
+    {
+      "id": "bawe-manual",
+      "type": "codebook",
+      "url": "https://llds.phon.ox.ac.uk/llds/xmlui/bitstream/handle/20.500.14106/2539/BAWE.documentation.pdf?isAllowed=y&sequence=5",
+      "filename": "BAWE.documentation.pdf"
+    },
+    {
+      "id": "bawe-classification",
+      "type": "methods",
+      "url": "https://pure.coventry.ac.uk/ws/portalfiles/portal/3978905/gardnercomb.pdf",
+      "filename": "gardner-nesi.pdf"
+    },
+    {
+      "id": "upton-cohen",
+      "type": "methods",
+      "url": "https://scholarworks.indianapolis.iu.edu/bitstream/handle/1805/2332/Approach_to_Corpus_based.pdf",
+      "filename": "upton-cohen.pdf"
+    },
+    {
+      "id": "moreno-swales",
+      "type": "methods",
+      "url": "https://buleria.unileon.es/bitstream/handle/10612/10667/Strengthening_Move_Analysis_Methodology.pdf?sequence=6",
+      "filename": "moreno-swales.pdf"
+    },
+    {
+      "id": "dita",
+      "type": "standard",
+      "url": "https://docs.oasis-open.org/dita/v1.2/spec/DITA1.2-spec.pdf",
+      "filename": "DITA1.2-spec.pdf"
+    },
+    {
+      "id": "webis-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/C16-1324.pdf",
+      "filename": "webis-paper.pdf"
+    },
+    {
+      "id": "scipara-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/2024.codi-1.2.pdf",
+      "filename": "scipara-paper.pdf"
+    },
+    {
+      "id": "readme-paper",
+      "type": "codebook-paper",
+      "url": "https://ctreude.ca/pdf/categorizing-the-content-of-github-2019.pdf",
+      "filename": "readme-paper.pdf"
+    },
+    {
+      "id": "nathan-thesis",
+      "type": "methods-codebook",
+      "url": "https://etheses.bham.ac.uk/id/eprint/711/1/Nathan10PhD.pdf",
+      "filename": "Nathan10PhD.pdf"
+    },
+    {
+      "id": "nathan-options",
+      "type": "methods-codebook",
+      "url": "https://durham-repository.worktribe.com/preview/1401020/34717.pdf",
+      "filename": "nathan-options.pdf"
+    },
+    {
+      "id": "business-english-review",
+      "type": "methods",
+      "url": "https://www.ets.org/Media/Research/pdf/TOEIC-RR-02.pdf",
+      "filename": "business-english-review.pdf"
+    },
+    {
+      "id": "sappelli",
+      "type": "dataset",
+      "url": "https://cs.ru.nl/~msappelli/data/AllDataENRON-transposed-final.csv",
+      "filename": "AllDataENRON-transposed-final.csv"
+    },
+    {
+      "id": "build-train",
+      "type": "dataset",
+      "url": "https://huggingface.co/datasets/opennyaiorg/InRhetoricalRoles/resolve/main/train.json?download=true",
+      "filename": "train.json"
+    },
+    {
+      "id": "build-dev",
+      "type": "dataset",
+      "url": "https://huggingface.co/datasets/opennyaiorg/InRhetoricalRoles/resolve/main/dev.json?download=true",
+      "filename": "dev.json"
+    },
+    {
+      "id": "gum-guide",
+      "type": "codebook",
+      "url": "https://wiki.gucorpling.org/gum/rst",
+      "filename": "gum-rst.html"
+    },
+    {
+      "id": "drinventor-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/L16-1492.pdf",
+      "filename": "drinventor-paper.pdf"
+    },
+    {
+      "id": "coresc-paper",
+      "type": "codebook-paper",
+      "url": "https://aclanthology.org/L10-1440.pdf",
+      "filename": "coresc-paper.pdf"
+    },
+    {
+      "id": "webis",
+      "type": "existing_archive",
+      "url": "https://zenodo.org/records/3254405",
+      "existing_path": "/workspace/repos/builderbob/.writing-corpus-cache/prior-work-reuse-2026-11-16/webis-editorials-16.zip"
+    }
+  ]
+}

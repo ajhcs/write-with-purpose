@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_36",
+      "doi": "",
+      "title": "Technical Proposal",
+      "authors": "[\"DELPHI Collaboration\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Technical Proposal\" Collaboration pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_36",
+      "query": "\"Technical Proposal\" Collaboration pdf",
+      "urls": [
+        {
+          "title": "3. Attachment 3 Step 2 Technical Proposal Format.pdf",
+          "url": "https://govtribe.com/file/government-file/3-dot-attachment-3-step-2-technical-proposal-format-dot-pdf",
+          "score": 1
+        },
+        {
+          "title": "Technical Proposal | PDF | Artificial Intelligence | Intelligence (AI) & Semantics",
+          "url": "https://www.scribd.com/document/1043420827/Technical-Proposal-1",
+          "score": 1
+        },
+        {
+          "title": "Technical Proposal Template Guide | PDF | Project Management | Science And Technology",
+          "url": "https://fr.scribd.com/document/79324278/CTSA-Technical-Proposal-Template-10-001",
+          "score": 1
+        },
+        {
+          "title": "Technical Proposa - Annex_2a",
+          "url": "https://tevtreform.jobs.gov.pk/wp-content/uploads/downloads/training%20fund/Annex%201%20-%20Financing%20Agreement%20-%20Technical%20Proposal%20-%20Template.pdf",
+          "score": 0.5
+        },
+        {
+          "title": "RFP 2026 011 9204274 - 260605 - 214931 | PDF | Request For Proposal | Unicef",
+          "url": "https://www.scribd.com/document/1059476849/RFP-2026-011-9204274-260605-214931",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

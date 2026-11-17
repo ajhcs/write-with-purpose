@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_15",
+      "doi": "10.1023/b:stco.0000035301.49549.88",
+      "title": "A tutorial on support vector regression",
+      "authors": "[\"Alex J. Smola\", \"Bernhard Schölkopf\"]",
+      "field": "engineering_computing",
+      "q": "\"A tutorial on support vector regression\" Smola filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_15",
+      "query": "\"A tutorial on support vector regression\" Smola filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "A tutorial on support vector regression",
+          "url": "https://ise.ncsu.edu/wp-content/uploads/sites/9/2022/08/SVR-Tutorial.pdf",
+          "score": 1
+        },
+        {
+          "title": "A tutorial on support vector regression",
+          "url": "https://i2pc.es/coss/Docencia/SignalProcessingReviews/Smola2004.pdf",
+          "score": 1
+        },
+        {
+          "title": "A Tutorial on Support Vector Regression*Alex J. Smola<sup>†</sup> and Bernhard Schölkopf<sup>‡</sup>September 30, 2003AbstractAs such, it is firmly grounded in the framework of statistical",
+          "url": "https://www2.cs.uh.edu/~ceick/ML/SVM-Regression.pdf",
+          "score": 1
+        },
+        {
+          "title": "A tutorial on support vector regression",
+          "url": "https://dspace-test.anu.edu.au/items/c7e91373-b6f9-421e-84a9-ac67512a9eb3/request-a-copy?bitstream=9507e7ad-212b-4899-ae89-8b037e16a9e4",
+          "score": 1
+        },
+        {
+          "title": "A tutorial on support vector regression",
+          "url": "https://dspace-test.anu.edu.au/items/d4df3cb0-cb38-47ba-9c5f-c349804d066d",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

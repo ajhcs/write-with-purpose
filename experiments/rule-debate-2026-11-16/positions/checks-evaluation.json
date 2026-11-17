@@ -1,0 +1,115 @@
+{
+  "advocate": "checks-evaluation",
+  "lens": "Computable checks, rule execution and evaluation",
+  "baseline_critique": [
+    "Existing check_text.py enforces only declared literals and raw whitespace-token limits; default exit zero may include findings and none of the checks establishes usefulness.",
+    "edit_locally.py enforces exact source hash and span reconstruction but size of changes is not value, correctness or preservation of meaning.",
+    "The current smallest-set wording can be misread as inhibiting needed structural changes. Existing guidance already includes meaningful alternatives and reader edits, so credit these rather than claiming to invent them.",
+    "Local candidate exact-set agreement 18/36 versus original 21/36 did not improve; neither supplies semantic gold. Evidence quotations are not complete realization spans."
+  ],
+  "proposals": [
+    {
+      "id": "CE-01",
+      "title": "Execute a repair and compare the reader task",
+      "behavior": "Name a reader failure and intervention; construct the actual candidate; compare original and candidate by attempting the same concrete reader task. Select the defensible result, including original if repair fails.",
+      "trigger": "Material writing or improvement requested, scaled to authorization.",
+      "editing_improvement_effect": "Makes an actual change such as moving a decision or explicating an inference and tests what becomes recoverable.",
+      "novelty_relative_to_baseline": "structure-and-purpose already suggests removal or movement; adds a specified before/after reader task and permits coordinated restructuring instead of edit-size minimization.",
+      "model_code_author_roles": {
+        "model": "Generate and provisionally compare actual candidate.",
+        "code": "Optional exact reconstruction or separate comparison; cannot model real reader understanding.",
+        "author": "Provide intent or choose materially different directions when needed."
+      },
+      "example": "Move an existing decision memo recommendation earlier and test that both choice and condition are recoverable.",
+      "counterexample": "Moving the insight to the start of a reflective essay may ruin its intended development.",
+      "evidence": [
+        "skills/write-with-purpose/references/structure-and-purpose.md",
+        "skills/edit-with-purpose/SKILL.md",
+        "skills/edit-with-purpose/scripts/edit_locally.py"
+      ],
+      "evaluation_needed": "Fresh varied tasks; blinded independent reader task, factual and author evaluation, time; compare against existing workflow."
+    },
+    {
+      "id": "CE-02",
+      "title": "Bind actual constraints to final artifact and retain semantic remainder",
+      "behavior": "Map explicitly declared obligations to supported checks or contextual review; check final artifact after last edit, inspect enforcement status and hash; fix actual violations without imposing invented limits.",
+      "trigger": "Explicit measurable constraint or high-stakes preservation obligation.",
+      "editing_improvement_effect": "Make a candidate satisfy the actual brief while exposing unresolved meaning or scoping conflicts.",
+      "novelty_relative_to_baseline": "Current guidance already checks explicit limits; adds a single obligation-to-final-receipt or semantic-remainder mapping and disallows generic pass claims.",
+      "model_code_author_roles": {
+        "model": "Translate only supported requirements and assess contextual remainder.",
+        "code": "Existing checker enforces literals, max words and max growth; emits hash and advisory findings. Automatic receipt linkage is proposed, not implemented.",
+        "author": "Resolve real conflicts or specify missing counted scope."
+      },
+      "example": "Check body-only literal and word ceiling, and separately review quotation attribution.",
+      "counterexample": "An exact phrase present inside code or a quotation can satisfy raw-file counting without satisfying intended prose placement.",
+      "evidence": [
+        "skills/write-with-purpose/scripts/check_text.py",
+        "skills/write-with-purpose/references/checks.md"
+      ],
+      "evaluation_needed": "Test stale-artifact linkage, scope isolation, unsupported counter semantics and semantic false positives; no claim that checker judges quality."
+    },
+    {
+      "id": "CE-03",
+      "title": "Compare alternatives by gains and explicit losses",
+      "behavior": "When an edit has a consequential tradeoff, create a few genuinely different alternatives including original; record intended gain and strongest specific loss; select for the actual task.",
+      "trigger": "A keep/move/delete or local-versus-structural decision has material consequences.",
+      "editing_improvement_effect": "Supports actual deletion, relocation, explanation or restructuring while preserving useful repetition and original contribution.",
+      "novelty_relative_to_baseline": "Current guidance already tries local deletion; extends it with competing intervention levels, explicit loss and original as eligible outcome.",
+      "model_code_author_roles": {
+        "model": "Generate distinct alternatives and inspect each loss.",
+        "code": "Source-bound plan or comparison records edits; does not score novelty or merit.",
+        "author": "Decide meaningful preference conflicts or voice where uncertain."
+      },
+      "example": "Compare deleting a repeated prerequisite with keeping it at an independent entry point.",
+      "counterexample": "A warning repeated before separate dangerous actions is valuable even if token duplication increases.",
+      "evidence": [
+        "skills/edit-with-purpose/scripts/edit_locally.py",
+        "skills/write-with-purpose/references/structure-and-purpose.md",
+        "docs/writing-harness/accepted-foundations.md"
+      ],
+      "evaluation_needed": "Fresh author-reviewed tasks; independent benefit, fidelity and burden, with no lexical-distance quality proxy."
+    },
+    {
+      "id": "CE-04",
+      "title": "Separate rule reliability, reader benefit, and issue-based stopping",
+      "behavior": "Freeze rule trigger and counterexamples, retain independent decisions and unresolved states, inspect agreement and disagreement by label and target; separately evaluate baseline vs candidate on actual author and reader outcomes. Stop routine editing when requested issue and relevant checks are resolved and no named issue warrants another pass.",
+      "trigger": "New semantic rule evaluation or completion decision for a real edit.",
+      "editing_improvement_effect": "Provides a mechanism for rejecting nonworking rules and avoiding redundant rewrite loops while preserving targeted repairs.",
+      "novelty_relative_to_baseline": "Calibration checked agreement and source binding; this adds a distinct task-benefit comparison and links further passes to an identified issue rather than a loop.",
+      "model_code_author_roles": {
+        "model": "Propose candidate, carry out edit, identify named remaining issues.",
+        "code": "Validate supported schema, anchors, hashes and bounds, never semantic correctness.",
+        "author": "Choose goal and accept or reject tradeoffs; independent readers and coders assess claims."
+      },
+      "example": "Compare procedural drafts on whether readers perform the actual task, while checking source conditions independently.",
+      "counterexample": "Shared empty-label sets can yield high agreement while both coders miss a relationship.",
+      "evidence": [
+        "experiments/evidence-integration-2026-11-16/reviews/agreement-writing-rules.md",
+        "experiments/rule-calibration-2026-11-16/report.md",
+        "experiments/dataset-adoption-2026-11-16/scripts/profile_sources.py",
+        "experiments/dataset-adoption-2026-11-16/persuade-offset-diagnostics.json"
+      ],
+      "evaluation_needed": "Freeze task and selection; group documents, preserve unresolved cases and report independent outcomes and burden separately. No universal thresholds."
+    }
+  ],
+  "retire_or_change": [
+    "Retire an implicit minimize-edits goal when a meaningful rewrite is authorized; select the intervention needed for the actual task.",
+    "Retire generic all-checks-passed claims that conceal unavailable checks or semantic obligations.",
+    "Retire automatic repetition of polish/review cycles without a named issue.",
+    "Do not require full semantic annotation or show process bureaucracy for ordinary edits."
+  ],
+  "nonnegotiable_distinctions": [
+    "Preserve accepted F01-F09 and Family → Form → Section; measured ranges, working targets and actual limits remain separate.",
+    "Mechanically valid, factually faithful, author-accepted and useful are distinct outcomes; no universal quality or novelty score.",
+    "Original contribution and necessary technical terms are not replaceable by generic novelty, literal preservation or conformity to a median.",
+    "Empty, missing and unresolved annotations differ; source labels and units, targets, boundaries and proposed mappings remain distinct.",
+    "Unknown author intent should not be invented and a model self-comparison does not establish independent reader benefit."
+  ],
+  "questions_for_peers": [
+    "What would demonstrate that a broader restructure serves the author rather than merely changing surface shape?",
+    "Which conditions trigger competing alternatives without imposing noticeable burden on simple work?",
+    "Can the constraint receipt remain auditable when the final response is chat rather than a saved file?",
+    "What smallest independent reader task could distinguish a genuine gain from a superficially persuasive rationale?"
+  ]
+}

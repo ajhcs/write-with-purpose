@@ -1,0 +1,52 @@
+{
+  "advocate": "checks-evaluation",
+  "responses": [
+    {
+      "challenge_id": "VN-C03",
+      "proposal_id": "CE-02",
+      "decision": "revise",
+      "response": "Agree. Semantic uncertainty and observed wording do not become exact literals; scoped receipt only for actual testable obligations, hash is not author acceptance or proof of delivered chat. Semantic remainder remains contextual, not mandatory record.",
+      "revised_wording": "For an explicit, mechanically testable obligation, use a scoped check of the final artifact when supported, inspect its status, and bind any receipt to the checked bytes. Distinguish exact protected wording from observed wording and semantic preservation. Review material meaning, attribution and uncertainty in context, without requiring a saved record. If the check or delivery binding is unavailable, state the limitation when it matters. Do not infer literal or numerical constraints from a general preference."
+    },
+    {
+      "challenge_id": "VN-C04",
+      "proposal_id": "CE-03",
+      "decision": "revise",
+      "response": "Agree. An effect may be unclear; aesthetics and intended tension need not be justified as analytic productivity. No forced formal gain/loss record, multiple complete drafts or model-preference ranking.",
+      "revised_wording": "When an authorized change presents a material, uncertain tradeoff, compare the original and the relevant alternative at the least costly level that makes the choice intelligible. Consider possible gains, losses and intended experience, allowing the effect to remain unclear. Make or retain the change that best serves the author's task and protected constraints; surface alternatives when a consequential preference cannot be inferred. Do not require a formal record, multiple complete drafts, a quantified score or a model-invented rationale for each creative choice."
+    },
+    {
+      "challenge_id": "FF-C01",
+      "proposal_id": "CE-04",
+      "decision": "revise",
+      "response": "Agree. A narrow issue list can miss stronger organization or a legitimate aesthetic opportunity. Substantive work needs task-scaled whole-passage review before stopping; explicit standalone research annotation follows its protocol separately.",
+      "revised_wording": "For substantive improvement, examine the whole passage against the author's purpose and intended reader or experience; consider consequential opportunities to improve reasoning, organization or expression, as well as material losses. Execute a supported, authorized improvement where warranted and complete relevant checks. Stop when that task-scaled review is complete and no further authorized alternative offers a specific expected benefit worth its tradeoff; do not create fixed rewrite or consensus loops. A model's judgment remains provisional. For a separately requested annotation or research deliverable, follow its frozen sampling, units, independent coding, uncertainty, adjudication and agreement protocol regardless of whether a label would change the edit."
+    }
+  ],
+  "revised_proposals": [
+    {
+      "id": "CE-01",
+      "status": "revised",
+      "revised_wording": "When a material authorized revision has a specific reader or experiential objective, make the intended change and compare the affected original and revised material against that objective and any material loss. For an aesthetic objective, consider the intended effect without requiring an analytic productivity claim. Use the original when the alternative does not earn its tradeoff. A comparison may be a local passage; a second full draft is not required. Model assessment is provisional, not observed reader success."
+    },
+    {
+      "id": "CE-02",
+      "status": "revised",
+      "revised_wording": "For an explicit, mechanically testable obligation, use a scoped check of the final artifact when supported, inspect its status, and bind any receipt to the checked bytes. Distinguish exact protected wording from observed wording and semantic preservation. Review material meaning, attribution and uncertainty in context, without requiring a saved record. If the check or delivery binding is unavailable, state the limitation when it matters. Do not infer literal or numerical constraints from a general preference."
+    },
+    {
+      "id": "CE-03",
+      "status": "revised",
+      "revised_wording": "When an authorized change presents a material, uncertain tradeoff, compare the original and the relevant alternative at the least costly level that makes the choice intelligible. Consider possible gains, losses and intended experience, allowing the effect to remain unclear. Make or retain the change that best serves the author's task and protected constraints; surface alternatives when a consequential preference cannot be inferred. Do not require a formal record, multiple complete drafts, a quantified score or a model-invented rationale for each creative choice."
+    },
+    {
+      "id": "CE-04",
+      "status": "revised",
+      "revised_wording": "For substantive improvement, examine the whole passage against the author's purpose and intended reader or experience; consider consequential opportunities to improve reasoning, organization or expression, as well as material losses. Execute a supported, authorized improvement where warranted and complete relevant checks. Stop when that task-scaled review is complete and no further authorized alternative offers a specific expected benefit worth its tradeoff; do not create fixed rewrite or consensus loops. A model's judgment remains provisional. For a separately requested annotation or research deliverable, follow its frozen sampling, units, independent coding, uncertainty, adjudication and agreement protocol regardless of whether a label would change the edit."
+    }
+  ],
+  "remaining_disagreements": [
+    "Retain a lightweight consideration of plausible gain and loss for material uncertain choices, without requiring analytic justification, measurable effect or a saved record for each creative decision.",
+    "Model self-comparison is provisional; independent evidence and author feedback are needed to claim observed benefit or acceptance."
+  ]
+}

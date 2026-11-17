@@ -1,0 +1,48 @@
+{
+  "trial_id": "blind-longform-20261116",
+  "status": "Author review closed; feedback captured without changing frozen stimuli or canonical skills.",
+  "author_stated_preferences": [
+    {
+      "source_case": "R02",
+      "comment_verbatim": "One thing I don't like with either is the long lists. Lists of more than three things are offensive to me, and multiple lists in a paragraph are also offensive and appear as word filler. Example: \"how information is represented, where a boundary belongs, how to check a result, and what happens when separately sensible components meet. \"",
+      "scope": "Strong objection to long prose enumerations and multiple enumerations in a paragraph; the supplied example is an inline enumeration."
+    },
+    {
+      "source_case": "R03",
+      "comment_verbatim": "I think the one thing I don't like is this pattern: AI can now produce an answer, a page, or a software change before a person has made the underlying problem explicit. --- but the following makes it almost worth enduring \"The speed makes it all the more useful to know what each part is meant to do and to check what happens when the parts meet.\" an excellent point. ",
+      "scope": "Dislikes the example-list setup while explicitly valuing the following explanatory point. This is not approval of the list."
+    },
+    {
+      "source_case": "R11",
+      "comment_verbatim": "The original seems to tell the overall story better, despite some word errors that A and B fixed. ",
+      "scope": "Author prefers the original overall story while crediting wording fixes and marking A as a substantive improvement. Preserve both dimensions; do not rewrite these as a contradiction."
+    }
+  ],
+  "author_factual_clarification": {
+    "source_case": "R01",
+    "comment_verbatim": "Night and day, I honestly am extremely impressed. The one part I hate is at the end \"I am not claiming Harvard Enrollment or Academic Credit\" yes I am lol but it's also a weird and useless piece of information. But honeslty yeah B was great. ",
+    "source_observation": "The credential disclaimer already occurs in the frozen original and is retained by B.",
+    "scope": "Author rejects the denial of enrollment/academic credit. Do not infer an unstated degree, credential type or independently verified status."
+  },
+  "implementation_hypotheses_not_yet_generalized": [
+    "Select the examples needed for the point or express their supported relationship; splitting a long list into several lists would not address the stated objection.",
+    "A three-item limit alone does not ensure good prose: R03 criticizes a three-item setup too. Judge what the enumeration contributes.",
+    "Preserve useful explanations while reconsidering irrelevant caveats with the author; a source-preserved caveat may itself need factual correction.",
+    "Check whole-piece narrative continuity separately from word-level correction; local fixes do not by themselves establish a better story."
+  ],
+  "unreviewed_cases": [
+    "R04",
+    "R08",
+    "R12",
+    "R14",
+    "R15",
+    "R16"
+  ],
+  "unrated_definition": "No submitted case-level rating; does not imply the author did not read the case.",
+  "unanswered_substantive_fields": [
+    "R13"
+  ],
+  "uncertain_substantive_fields": [
+    "R06"
+  ]
+}

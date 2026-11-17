@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_17",
+      "doi": "10.1103/physrevlett.69.2863",
+      "title": "Density matrix formulation for quantum renormalization groups",
+      "authors": "[\"Steven R. White\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Density matrix formulation for quantum renormalization groups\" White filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_17",
+      "query": "\"Density matrix formulation for quantum renormalization groups\" White filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "[31] White, S. R. Density matrix formulation for quantum renormalization groups. *Phys. Rev. Lett.* **1992**, *69*, 2863–2866.",
+          "url": "https://knowledge.uchicago.edu/record/15474/files/hennefarth_thesis.pdf",
+          "score": 1
+        },
+        {
+          "title": "Density matrix formulation for quantum renormalization groups",
+          "url": "https://bishtref.com/articles/10.1103/physrevlett.69.2863",
+          "score": 1
+        },
+        {
+          "title": "Physics:Quantum Density matrix formulation for quantum renormalization groups - ScholarlyWiki",
+          "url": "https://scholarlywiki.org/wiki/Physics%3AQuantum_Density_matrix_formulation_for_quantum_renormalization_groups",
+          "score": 1
+        },
+        {
+          "title": "Density matrix formulation for quantum renormalization groups | Tensor Network Optimization Atlas | Maha Strategies Research",
+          "url": "https://research.mahastrategies.com/atlas/tensor-networks/sources/white-1992",
+          "score": 1
+        },
+        {
+          "title": "White, Steven R. (1992) Density matrix formulation for quantum renormalization groups. Physical Review Letters, 69 (19). 2863-2866 doi:10.1103/physrevlett.69.2863",
+          "url": "https://www.mindat.org/reference.php?id=10557671",
+          "score": 1
+        },
+        {
+          "title": "Density matrix formulation for quantum renormalization groups · Scinovex",
+          "url": "https://www.scinovex.com/articles/W2037768897",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

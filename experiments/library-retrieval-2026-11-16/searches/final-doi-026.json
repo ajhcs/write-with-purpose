@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_04",
+      "doi": "10.1115/1.2429697",
+      "title": "Review of Metamodeling Techniques in Support of Engineering Design Optimization",
+      "authors": "[\"G. Gary Wang\", \"S. Shan\"]",
+      "field": "engineering_computing",
+      "q": "\"Review of Metamodeling Techniques in Support of Engineering\" Wang filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_04",
+      "query": "\"Review of Metamodeling Techniques in Support of Engineering\" Wang filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "[13] Wang, G. G. and Shan, S., “Review of metamodeling techniques in support of engineering design optimization,” *Journal of Mechanical Design*, Vol. 129, No. 4, 2007, pp. 370–380.",
+          "url": "https://ufdcimages.uflib.ufl.edu/UF/E0/04/31/01/00001/viana_f.pdf",
+          "score": 1
+        },
+        {
+          "title": "Review of metamodeling techniques in support of engineering design optimization",
+          "url": "https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=18674358",
+          "score": 1
+        },
+        {
+          "title": "Review of Metamodeling Techniques in Support of Engineering Design Optimization",
+          "url": "https://cir.nii.ac.jp/crid/1363107368630236800",
+          "score": 1
+        },
+        {
+          "title": "Review of Metamodeling Techniques in Support of Engineering Design Optimization",
+          "url": "https://www.citedrive.com/en/discovery/review-of-metamodeling-techniques-in-support-of-engineering-design-optimization/",
+          "score": 1
+        },
+        {
+          "title": "Review of Metamodeling Techniques in Support of Engineering Design Optimization - 科研通",
+          "url": "https://www.ablesci.com/scholar/paper?id=3dDNLNPa3",
+          "score": 1
+        },
+        {
+          "title": "Review of Metamodeling Techniques in Support of",
+          "url": "https://paperzz.com/doc/9258828/review-of-metamodeling-techniques-in-support-of",
+          "score": 0.8
+        }
+      ]
+    }
+  ]
+}

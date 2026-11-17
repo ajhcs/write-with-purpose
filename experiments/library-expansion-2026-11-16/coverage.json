@@ -1,0 +1,1434 @@
+[
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_020",
+      "business_021",
+      "business_022"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review.",
+    "form_name": "Personal / reflective essay"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_013",
+      "business_023",
+      "business_024"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review.",
+    "form_name": "Argument / perspective"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_034",
+      "business_035",
+      "business_036"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review.",
+    "form_name": "Critical review of a work"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_025",
+      "business_026",
+      "business_027"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review.",
+    "form_name": "Conceptual explainer"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "tutorial",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_032",
+      "business_033",
+      "business_016"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review.",
+    "form_name": "Tutorial"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "procedure_how_to",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_028",
+      "business_029",
+      "business_030"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review.",
+    "form_name": "How-to / procedure"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "reference_entry",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_043",
+      "business_044",
+      "business_045"
+    ],
+    "reason": "Three individually citable publisher reference entries; two are 2015 supplemental examples. No complete books selected.",
+    "form_name": "Reference entry"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "empirical_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_018",
+      "business_019",
+      "business_031"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review.",
+    "form_name": "Empirical report"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "methods_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_001",
+      "business_002",
+      "business_003"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review.",
+    "form_name": "Methods paper"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "theory_conceptual_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_004",
+      "business_005",
+      "business_006"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review.",
+    "form_name": "Theory / conceptual paper"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "case_report",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Clinical case report is not equivalent to a business teaching case; no clinical-type business analogue is counted.",
+    "form_name": "Case report"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "study_review_protocol",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_037",
+      "business_048",
+      "business_049"
+    ],
+    "reason": "Three actual review protocols: one original through 2014 and two 2015–2019 supplements; two are management and health crossover.",
+    "form_name": "Study / review protocol"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "narrative_critical_literature_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_007",
+      "business_008",
+      "business_009"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review.",
+    "form_name": "Narrative / critical literature review"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "scoping_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_038",
+      "business_046",
+      "business_047"
+    ],
+    "reason": "Three supplemental scoping reviews of organizational management in healthcare; publication years 2017–2019; general-business examples remain desirable.",
+    "form_name": "Scoping review"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "systematic_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_010",
+      "business_011",
+      "business_012"
+    ],
+    "reason": "Three publisher-described examples identified; source relevance and complete-copy status still require corpus review.",
+    "form_name": "Systematic review"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "proposal",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "business_039",
+      "business_040",
+      "business_041"
+    ],
+    "reason": "Three distinct original shareholder proposals in corporate proxy filings; selected as practical form examples without readership evidence.",
+    "form_name": "Proposal"
+  },
+  {
+    "field": "business",
+    "field_name": "Business and management",
+    "form_id": "decision_memo",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "A 1995 executive strategy memo is preserved as an uncounted analogue; its decision-request form is not established.",
+    "form_name": "Decision memo"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_17",
+      "eng_18",
+      "eng_19"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Personal / reflective essay"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_20",
+      "eng_21",
+      "eng_22"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Argument / perspective"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_29",
+      "eng_30",
+      "eng_31"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Critical review of a work"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_23",
+      "eng_24",
+      "eng_25"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Conceptual explainer"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "tutorial",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_01",
+      "eng_14",
+      "eng_15"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Tutorial"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "procedure_how_to",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_36",
+      "eng_37",
+      "eng_38"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "How-to / procedure"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "reference_entry",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_39",
+      "eng_40",
+      "eng_41"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Reference entry"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "empirical_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_07",
+      "eng_08",
+      "eng_09"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Empirical report"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "methods_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_10",
+      "eng_11",
+      "eng_28"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Methods paper"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "theory_conceptual_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_12",
+      "eng_26",
+      "eng_27"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Theory / conceptual paper"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "case_report",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Clinical case-report taxonomy does not map automatically to engineering case studies; empirical cases are covered separately.",
+    "form_name": "Case report"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "study_review_protocol",
+    "status": "partial_gap",
+    "requested": 3,
+    "provided": 2,
+    "candidate_ids": [
+      "eng_16",
+      "eng_32"
+    ],
+    "reason": "Two bounded protocols, one in 2019; a third eligible protocol remains unverified.",
+    "form_name": "Study / review protocol"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "narrative_critical_literature_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_04",
+      "eng_05",
+      "eng_06"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Narrative / critical literature review"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "scoping_review",
+    "status": "partial_gap",
+    "requested": 3,
+    "provided": 1,
+    "candidate_ids": [
+      "eng_43"
+    ],
+    "reason": "One explicitly identified scoping review, supplemental 2019; two more pre-2020 examples not verified. Mapping studies are not silently counted.",
+    "form_name": "Scoping review"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "systematic_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_02",
+      "eng_03",
+      "eng_13"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Systematic review"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "proposal",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_33",
+      "eng_34",
+      "eng_42"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending.",
+    "form_name": "Proposal"
+  },
+  {
+    "field": "engineering",
+    "field_name": "Engineering and computing",
+    "form_id": "decision_memo",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "No verified conventional engineering decision memo; RFC 1752 is a public decision-recommendation analogue in conditional-alternatives.json, not counted. NASA mission records of decision are further analogues, not silently equated with internal memos.",
+    "form_name": "Decision memo"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w407944384",
+      "law_w3005895493",
+      "law_edwards_1979"
+    ],
+    "reason": "Three primary-repository reflective examples, including a speech and a later adaptation; readership is not verified and full text requires screening.",
+    "form_name": "Personal / reflective essay"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w46302826",
+      "law_w143173597",
+      "law_w2989863638"
+    ],
+    "reason": "Three original legal arguments, screened provisionally from article records.",
+    "form_name": "Argument / perspective"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w1578338854",
+      "law_w2657814049",
+      "law_w2319044928"
+    ],
+    "reason": "Three reviews of specific books, not the books; reviewer and pagination should be confirmed in original journal.",
+    "form_name": "Critical review of a work"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_rulemaking",
+      "law_avoidance",
+      "law_executive_orders"
+    ],
+    "reason": "Three historical CRS overview reports catalogued by university government-documents repository; limited readership signals.",
+    "form_name": "Conceptual explainer"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "tutorial",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 2,
+    "candidate_ids": [
+      "law_duke",
+      "law_osborne"
+    ],
+    "reason": "Two potential examples; one is a 2013 teaching-methods paper with exercises and one is an undated current research tutorial. No third verified.",
+    "form_name": "Tutorial"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "procedure_how_to",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w2152242095",
+      "law_start_civil",
+      "law_service_process"
+    ],
+    "reason": "One 2010 historical how-to plus two current undated federal court procedural sheets; the latter are exploratory rather than historical targets.",
+    "form_name": "How-to / procedure"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "reference_entry",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_wex_judicial",
+      "law_wex_consideration",
+      "law_wex_research"
+    ],
+    "reason": "Three current Cornell Wex entries with review dates in 2023–2025, original dates unknown; exploratory contemporary comparisons, not pre-2015 verified versions.",
+    "form_name": "Reference entry"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "empirical_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w3123985438",
+      "law_w2177794968",
+      "law_w4237793781"
+    ],
+    "reason": "Three published empirical studies including crime-policy work; one is a 2015–2019 supplement.",
+    "form_name": "Empirical report"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "methods_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w1501821359",
+      "law_w2058917614",
+      "law_w2171128603"
+    ],
+    "reason": "Three legal methods papers; causal inference examples identified by original publisher descriptions.",
+    "form_name": "Methods paper"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "theory_conceptual_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w3023063752",
+      "law_w2166987116",
+      "law_w2337002970"
+    ],
+    "reason": "Three conceptual contributions grounded in legal theory.",
+    "form_name": "Theory / conceptual paper"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "case_report",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Clinical case-report form does not map directly to judicial opinions or doctrinal case commentary; case studies may be considered only with a separately defined analogue.",
+    "form_name": "Case report"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "study_review_protocol",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w2956864763",
+      "law_w2590707784",
+      "law_w2959253837"
+    ],
+    "reason": "Three research protocols adjacent to law via policing policy; two are 2015–2019 supplements.",
+    "form_name": "Study / review protocol"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "narrative_critical_literature_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w2140991056",
+      "law_w2130554796",
+      "law_w2160783861"
+    ],
+    "reason": "Three actual scholarly literature syntheses, including a 2015 supplement; distinct from doctrinal essays and book reviews.",
+    "form_name": "Narrative / critical literature review"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "scoping_review",
+    "status": "no_verified_targets",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Applicable to public-policy research; no pre-2020 eligible study verified.",
+    "form_name": "Scoping review"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "systematic_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_w2186243923",
+      "law_w2112915715",
+      "law_w2180537218"
+    ],
+    "reason": "Three Campbell reviews are criminology/policing policy, not doctrinal legal reviews.",
+    "form_name": "Systematic review"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "proposal",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_incarceration",
+      "law_visa",
+      "law_saving"
+    ],
+    "reason": "Three public-policy proposals from primary publisher records, not claims of accepted policy.",
+    "form_name": "Proposal"
+  },
+  {
+    "field": "law",
+    "field_name": "Law and public policy",
+    "form_id": "decision_memo",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "law_china_trade",
+      "law_sudan",
+      "law_biafra"
+    ],
+    "reason": "Three actual historical recommendations for decisions in primary U.S. government diplomatic records; one is transmitted by telegram.",
+    "form_name": "Decision memo"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-personal_reflective_essay-1",
+      "medicine-personal_reflective_essay-2",
+      "medicine-personal_reflective_essay-3"
+    ],
+    "reason": "Three source-verified examples; individual prominence has not been demonstrated.",
+    "form_name": "Personal / reflective essay"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-argument_perspective-1",
+      "medicine-argument_perspective-2",
+      "medicine-argument_perspective-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "Argument / perspective"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-critical_review_of_work-1",
+      "medicine-critical_review_of_work-2",
+      "medicine-critical_review_of_work-3"
+    ],
+    "reason": "Three specific work reviews with publisher genre verification; two have publisher access-count evidence; formal prose coding remains pending.",
+    "form_name": "Critical review of a work"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-conceptual_explainer-1",
+      "medicine-conceptual_explainer-2",
+      "medicine-conceptual_explainer-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "Conceptual explainer"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "tutorial",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-tutorial-1",
+      "medicine-tutorial-2",
+      "medicine-tutorial-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "Tutorial"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "procedure_how_to",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-procedure_how_to-1",
+      "medicine-procedure_how_to-2",
+      "medicine-procedure_how_to-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "How-to / procedure"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "reference_entry",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-reference_entry-1",
+      "medicine-reference_entry-2",
+      "medicine-reference_entry-3"
+    ],
+    "reason": "Clinical topic reviews support consultation but are not reference entries.",
+    "form_name": "Reference entry"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "empirical_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-empirical_report-1",
+      "medicine-empirical_report-2",
+      "medicine-empirical_report-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "Empirical report"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "methods_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-methods_paper-1",
+      "medicine-methods_paper-2",
+      "medicine-methods_paper-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "Methods paper"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "theory_conceptual_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-theory_conceptual_paper-1",
+      "medicine-theory_conceptual_paper-2",
+      "medicine-theory_conceptual_paper-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "Theory / conceptual paper"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "case_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-case_report-1",
+      "medicine-case_report-2",
+      "medicine-case_report-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "Case report"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "study_review_protocol",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-study_review_protocol-1",
+      "medicine-study_review_protocol-2",
+      "medicine-study_review_protocol-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "Study / review protocol"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "narrative_critical_literature_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-narrative_critical_literature_review-1",
+      "medicine-narrative_critical_literature_review-2",
+      "medicine-narrative_critical_literature_review-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "Narrative / critical literature review"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "scoping_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-scoping_review-1",
+      "medicine-scoping_review-2",
+      "medicine-scoping_review-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "Scoping review"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "systematic_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-systematic_review-1",
+      "medicine-systematic_review-2",
+      "medicine-systematic_review-3"
+    ],
+    "reason": "Three metadata and abstract supported targets; full texts still need inspection.",
+    "form_name": "Systematic review"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "proposal",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-proposal-1",
+      "medicine-proposal-2",
+      "medicine-proposal-3"
+    ],
+    "reason": "Classification proposals are conditional analogues to project or grant proposals.",
+    "form_name": "Proposal"
+  },
+  {
+    "field": "medicine",
+    "field_name": "Medicine and health",
+    "form_id": "decision_memo",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "medicine-decision_memo-1",
+      "medicine-decision_memo-2",
+      "medicine-decision_memo-3"
+    ],
+    "reason": "Recommendation statements are public decision-support analogues, not internal memos.",
+    "form_name": "Decision memo"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "p01",
+      "p02",
+      "p03"
+    ],
+    "reason": "Three metadata-verified editorial or award selections; full-text form and version screening remains pending.",
+    "form_name": "Personal / reflective essay"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "p04",
+      "p05",
+      "p06"
+    ],
+    "reason": "Three metadata-verified editorial or award selections; full-text form and version screening remains pending.",
+    "form_name": "Argument / perspective"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "p07",
+      "p08",
+      "p09"
+    ],
+    "reason": "Three metadata-verified editorial or award selections; full-text form and version screening remains pending.",
+    "form_name": "Critical review of a work"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "p10",
+      "p11",
+      "p12"
+    ],
+    "reason": "Three metadata-verified editorial or award selections; full-text form and version screening remains pending.",
+    "form_name": "Conceptual explainer"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "tutorial",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Public-facing service writing exists, but sources and reader tasks differ from the personal/literary context; none established as comparable within this scope.",
+    "form_name": "Tutorial"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "procedure_how_to",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Public-facing service writing exists, but sources and reader tasks differ from the personal/literary context; none established as comparable within this scope.",
+    "form_name": "How-to / procedure"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "reference_entry",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Public-facing service writing exists, but sources and reader tasks differ from the personal/literary context; none established as comparable within this scope.",
+    "form_name": "Reference entry"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "empirical_report",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context.",
+    "form_name": "Empirical report"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "methods_paper",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context.",
+    "form_name": "Methods paper"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "theory_conceptual_paper",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context.",
+    "form_name": "Theory / conceptual paper"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "case_report",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context.",
+    "form_name": "Case report"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "study_review_protocol",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context.",
+    "form_name": "Study / review protocol"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "narrative_critical_literature_review",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context.",
+    "form_name": "Narrative / critical literature review"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "scoping_review",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context.",
+    "form_name": "Scoping review"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "systematic_review",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Formal research form outside this personal and public literary writing stratum; related disciplinary work belongs in its own context.",
+    "form_name": "Systematic review"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "proposal",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Actual institutional proposals or decision memos may be public, but no comparable personal/public literary example was verified.",
+    "form_name": "Proposal"
+  },
+  {
+    "field": "personal",
+    "field_name": "Personal and public writing",
+    "form_id": "decision_memo",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Actual institutional proposals or decision memos may be public, but no comparable personal/public literary example was verified.",
+    "form_name": "Decision memo"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_01",
+      "psm_02",
+      "psm_03"
+    ],
+    "reason": "One first-person reminiscence and two first-person Nobel autobiographies, replacing the earlier technical lectures.",
+    "form_name": "Personal / reflective essay"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_04",
+      "psm_05",
+      "psm_28"
+    ],
+    "reason": "Three science arguments, including Feynman’s 1974 commencement address.",
+    "form_name": "Argument / perspective"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_24",
+      "psm_25",
+      "psm_26"
+    ],
+    "reason": "Three reviews selected by Nature for its Hawking collection; article contents not fully assessed.",
+    "form_name": "Critical review of a work"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_06",
+      "psm_07",
+      "psm_08"
+    ],
+    "reason": "Three physics explanatory articles; review and colloquium forms overlap.",
+    "form_name": "Conceptual explainer"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "tutorial",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_09",
+      "psm_10",
+      "psm_11"
+    ],
+    "reason": "Three tutorial texts; one is 2015 supplement, and citation counts are modest for two.",
+    "form_name": "Tutorial"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "procedure_how_to",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_32",
+      "psm_33",
+      "psm_34"
+    ],
+    "reason": "Two bounded national laboratory SOPs plus one physics teaching procedure; publication prominence varies.",
+    "form_name": "How-to / procedure"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "reference_entry",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_29",
+      "psm_30",
+      "psm_31"
+    ],
+    "reason": "Three individually authored physics-philosophy encyclopedia entries, with archived pre-2015 editions.",
+    "form_name": "Reference entry"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "empirical_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_12",
+      "psm_13",
+      "psm_14"
+    ],
+    "reason": "Three empirical discoveries; gravitational-wave report is 2016 supplement.",
+    "form_name": "Empirical report"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "methods_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_15",
+      "psm_16",
+      "psm_17"
+    ],
+    "reason": "Three method-originating papers.",
+    "form_name": "Methods paper"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "theory_conceptual_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_18",
+      "psm_19",
+      "psm_20"
+    ],
+    "reason": "Three theoretical/conceptual papers.",
+    "form_name": "Theory / conceptual paper"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "case_report",
+    "status": "no_verified_targets",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "No suitable disciplinary case reports verified; experimental reports are not case reports.",
+    "form_name": "Case report"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "study_review_protocol",
+    "status": "no_verified_targets",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "No public, standalone advance study or review protocols meeting this selection threshold verified.",
+    "form_name": "Study / review protocol"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "narrative_critical_literature_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_21",
+      "psm_22",
+      "psm_23"
+    ],
+    "reason": "Three topical narrative syntheses; none represented as a systematic or scoping review.",
+    "form_name": "Narrative / critical literature review"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "scoping_review",
+    "status": "no_verified_targets",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "No qualifying pre-2020 review with explicit scoping methods verified in this pass.",
+    "form_name": "Scoping review"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "systematic_review",
+    "status": "no_verified_targets",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "No qualifying pre-2020 review with explicit systematic search and screening verified in this pass.",
+    "form_name": "Systematic review"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "proposal",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "psm_35",
+      "psm_36",
+      "psm_37"
+    ],
+    "reason": "Three CERN scientific experiment technical proposals; FASER 2018 is supplemental.",
+    "form_name": "Proposal"
+  },
+  {
+    "field": "physical-sciences",
+    "field_name": "Physical sciences and mathematics",
+    "form_id": "decision_memo",
+    "status": "partial_gap",
+    "requested": 3,
+    "provided": 1,
+    "candidate_ids": [
+      "psm_27"
+    ],
+    "reason": "One archived scientist-authored policy memorandum verified; two missing.",
+    "form_name": "Decision memo"
+  }
+]

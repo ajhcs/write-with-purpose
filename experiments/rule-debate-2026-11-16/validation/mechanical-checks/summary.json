@@ -1,0 +1,120 @@
+{
+  "scope": "Existing checker run on seven pure prose artifacts. Five nonempty declared contracts enforced; two unconstrained cases receive advisory checks only. No semantic or quality certification.",
+  "results": [
+    {
+      "id": "E01",
+      "return_code": 0,
+      "declared_contract_enforced": true,
+      "contract_enforcement": {
+        "requested": true,
+        "status": "passed",
+        "scope": "Declared literal and word-limit requirements only; all other findings remain advisory.",
+        "violated_checks": []
+      },
+      "before_words": 26,
+      "after_words": 26,
+      "after_sha256": "99396d9d880c7c9ca6401859a4995b9b7ea1d1eb23586fb6bcf36f5ee7868fba",
+      "report": "validation/mechanical-checks/E01.json",
+      "finding_count": 0
+    },
+    {
+      "id": "E02",
+      "return_code": 0,
+      "declared_contract_enforced": false,
+      "contract_enforcement": {
+        "requested": false,
+        "status": "not_requested",
+        "scope": "Declared literal and word-limit requirements only; all other findings remain advisory."
+      },
+      "before_words": 26,
+      "after_words": 61,
+      "after_sha256": "67093e474c199a5f53ef5b2d896f5f924c96070cf38d4dd549cc31c755f287c9",
+      "report": "validation/mechanical-checks/E02.json",
+      "finding_count": 1
+    },
+    {
+      "id": "E03",
+      "return_code": 0,
+      "declared_contract_enforced": true,
+      "contract_enforcement": {
+        "requested": true,
+        "status": "passed",
+        "scope": "Declared literal and word-limit requirements only; all other findings remain advisory.",
+        "violated_checks": []
+      },
+      "before_words": 31,
+      "after_words": 31,
+      "after_sha256": "5cacc86addaecae088d3fd180595093cd91cdc81976ae40c34f1869c3bc71ac1",
+      "report": "validation/mechanical-checks/E03.json",
+      "finding_count": 0
+    },
+    {
+      "id": "E04",
+      "return_code": 0,
+      "declared_contract_enforced": true,
+      "contract_enforcement": {
+        "requested": true,
+        "status": "passed",
+        "scope": "Declared literal and word-limit requirements only; all other findings remain advisory.",
+        "violated_checks": []
+      },
+      "before_words": 22,
+      "after_words": 29,
+      "after_sha256": "bed9a07ebdffac759757b7d8c6da086f22b5646e1ea71b37b7b2be5752028679",
+      "report": "validation/mechanical-checks/E04.json",
+      "finding_count": 0
+    },
+    {
+      "id": "E05",
+      "return_code": 0,
+      "declared_contract_enforced": false,
+      "contract_enforcement": {
+        "requested": false,
+        "status": "not_requested",
+        "scope": "Declared literal and word-limit requirements only; all other findings remain advisory."
+      },
+      "before_words": 28,
+      "after_words": 42,
+      "after_sha256": "1bb983f5f2ffe0a1db7831aead49e64e6fe938578a2a49c1584692e0776cee6a",
+      "report": "validation/mechanical-checks/E05.json",
+      "finding_count": 0
+    },
+    {
+      "id": "E06",
+      "return_code": 0,
+      "declared_contract_enforced": true,
+      "contract_enforcement": {
+        "requested": true,
+        "status": "passed",
+        "scope": "Declared literal and word-limit requirements only; all other findings remain advisory.",
+        "violated_checks": []
+      },
+      "before_words": 22,
+      "after_words": 10,
+      "after_sha256": "6cc5c05363c1adf5d42fd2ef61fcef00babb70f7d1e822e0c3358820216995c9",
+      "report": "validation/mechanical-checks/E06.json",
+      "finding_count": 0
+    },
+    {
+      "id": "E07",
+      "prose_checker": "not_applicable",
+      "reason": "Standalone annotation analysis, no revised prose artifact."
+    },
+    {
+      "id": "E08",
+      "return_code": 0,
+      "declared_contract_enforced": true,
+      "contract_enforcement": {
+        "requested": true,
+        "status": "passed",
+        "scope": "Declared literal and word-limit requirements only; all other findings remain advisory.",
+        "violated_checks": []
+      },
+      "before_words": 38,
+      "after_words": 34,
+      "after_sha256": "05a153f8df61522cb271c9fc4a7d008bfd06881c3fb05581177c6221f3e2634c",
+      "report": "validation/mechanical-checks/E08.json",
+      "finding_count": 0
+    }
+  ]
+}

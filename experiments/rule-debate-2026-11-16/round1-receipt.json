@@ -1,0 +1,57 @@
+{
+  "stage": "Independent positions completed before peer challenges",
+  "files": [
+    {
+      "path": "positions/checks-evaluation.json",
+      "sha256": "0aea8b7f494d60267308dcc6dc00043255b106836e2ebedbe2a3513c5d486ab6",
+      "proposal_ids": [
+        "CE-01",
+        "CE-02",
+        "CE-03",
+        "CE-04"
+      ]
+    },
+    {
+      "path": "positions/editing-improvement.json",
+      "sha256": "10ba95657cc7c089ab0dfaa2d7cec5b226852538ab956174d6274329bb6f8c27",
+      "proposal_ids": [
+        "EI-01",
+        "EI-02",
+        "EI-03",
+        "EI-04",
+        "EI-05"
+      ]
+    },
+    {
+      "path": "positions/form-functions.json",
+      "sha256": "d9466e3994f0207a0c06ca1de575933c8282592d2085c865e2c6446600fdf035",
+      "proposal_ids": [
+        "FF-01",
+        "FF-02",
+        "FF-03",
+        "FF-04"
+      ]
+    },
+    {
+      "path": "positions/reader-learning.json",
+      "sha256": "2b0a9854cf38f7e0db461b34c7de0e3dc076fb75d4ec931652e3c070f479022c",
+      "proposal_ids": [
+        "RL01",
+        "RL02",
+        "RL03",
+        "RL04"
+      ]
+    },
+    {
+      "path": "positions/voice-novelty.json",
+      "sha256": "345c869af99864cabc4537eb7b756ffce00d1dc2d15c05625d03a20dbe32ec54",
+      "proposal_ids": [
+        "VN-01",
+        "VN-02",
+        "VN-03",
+        "VN-04",
+        "VN-05"
+      ]
+    }
+  ]
+}

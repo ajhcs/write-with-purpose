@@ -1,0 +1,202 @@
+
+personal_reflective_essay 8
+18812523 9 2008 A piece of my mind. Who's afraid of the empowered patient?
+23571585 6 2013 A piece of my mind. Preparing for the 21st-century patient.
+24002273 1 2013 A piece of my mind. The good physician.
+8114227 0 1994 A piece of my mind. When the patient paid.
+22215164 0 2012 A piece of my mind. A physician goes to Washington... and safely returns.
+19584330 0 2009 A piece of my mind. Physician by number.
+18827198 0 2008 A piece of my mind. The physician in winter.
+9613900 0 1998 A piece of my mind. The ungifted physician.
+
+argument_perspective 426
+9717920 918 1998 UK multicentre project on assessment of risk of trisomy 21 by maternal age and fetal nuchal-translucency thickness at 10-14 weeks of gestati
+19376436 383 2009 Launch of the health-care reform plan in China.
+22579042 216 2012 Multimorbidity: redesigning health care for people who use it.
+19362359 143 2009 Universal health care and the removal of user fees.
+18790295 80 2008 Task shifting in health care in resource-poor countries.
+21146208 67 2011 Health-care-associated infections in developing countries.
+10465212 64 1999 Rise and fall of modern medicine.
+21520507 56 2011 How did Sierra Leone provide free health care?
+19854371 53 2009 Multimorbidity: another key issue for cardiovascular medicine.
+25435446 43 2014 Learning objectives for sustainable health care.
+
+critical_review_of_work 52240
+23258348 299 2013 Estimates of penetrance for recurrent pathogenic copy-number variations.
+20207857 177 2010 Diagnosis of scrub typhus.
+17357254 95 2007 Nonreceptor tyrosine kinases in prostate cancer.
+23842098 86 2013 Physiologically-Based Pharmacokinetic (PBPK) Modeling and Simulations Principles, Methods, and Applications in the Pharmaceutical Industry.
+18323016 85 2008 The sodium pump alpha1 subunit as a potential target to combat apoptosis-resistant glioblastomas.
+17655728 63 2007 Recommendations for the management of the haematological and onco-haematological aspects of Gaucher disease.
+29405744 60 2014 Mycins v Microbes Missing Microbes: How the Overuse of Antibiotics Is Fueling Our Modern Plagues by Martin J. Blaser (2014) Holt New York, U
+None 39 2007 Ethnopharmacology of Medicinal Plants: Asia and the Pacific
+23037934 38 2013 Lifting the lid on unborn lethal Mendelian phenotypes through exome sequencing.
+17907434 38 2007 Anterior femoroacetabular impingement: a diverse disease with evolving treatment options.
+
+conceptual_explainer 843
+11762933 584 2001 High incidence of cardiovascular events in a rheumatoid arthritis cohort not explained by traditional cardiac risk factors.
+1565624 419 1992 Kinetics of protein-protein association explained by Brownian dynamics computer simulation.
+22298051 400 2012 The dramatic increase in total knee replacement utilization rates in the United States cannot be fully explained by growth in population siz
+9249922 382 1997 Estimating the proportion of treatment effect explained by a surrogate marker.
+23745156 358 2013 JOINT AND INDIVIDUAL VARIATION EXPLAINED (JIVE) FOR INTEGRATED ANALYSIS OF MULTIPLE DATA TYPES.
+10631149 358 2000 Melanocortin-1 receptor polymorphisms and risk of melanoma: is the association explained solely by pigmentation phenotype?
+10966499 342 2000 Explained and unexplained ischemic heart disease risk after renal transplantation.
+15132735 335 2004 n-3 Fatty acids and cardiovascular disease: evidence explained and mechanisms explored.
+17446824 327 2007 Are regional variations in end-of-life care intensity explained by patient preferences?: A Study of the US Medicare Population.
+20385790 283 2010 Venous thrombosis risk associated with plasma hypofibrinolysis is explained by elevated plasma levels of TAFI and PAI-1.
+
+tutorial 509
+20688472 2968 2011 Graphical methods and numerical summaries for presenting results from multiple-treatment meta-analysis: an overview and tutorial.
+20053272 1991 2010 A tutorial on pilot studies: the what, why and how.
+17031868 1713 2007 Tutorial in biostatistics: competing risks and multi-state models.
+16537344 1286 2006 A brief conceptual tutorial of multilevel analysis in social epidemiology: using measures of clustering in multilevel logistic regression to
+8274302 1136 1993 Basic biomechanical measurements of bone: a tutorial.
+19070668 1099 2009 Machine learning classifiers and fMRI: a tutorial overview.
+23508673 1020 2013 A tutorial on propensity score estimation for multiple treatments using generalized boosted models.
+10686361 989 2000 ERP components on reaction errors and their functional significance: a tutorial.
+24409142 855 2013 Gradient boosting machines, a tutorial.
+16983374 803 2006 A tutorial on statistical methods for population association studies.
+
+procedure_how_to 43603
+19061483 6372 2009 How mitochondria produce reactive oxygen species.
+18216768 5593 2008 Membrane lipids: where they are and how they behave.
+23793146 4446 2013 How good are my data and what is the resolution?
+3045356 4029 1988 The quality of care. How can it be assessed?
+20840865 3841 2010 Oxidative stress, inflammation, and cancer: how are they linked?
+8563639 3033 1995 How to measure and predict the molar absorption coefficient of a protein.
+11687497 2833 2001 How matrix metalloproteinases regulate cell behavior.
+18566595 2623 2008 How regulatory T cells work.
+19362699 2557 2009 How we design feasibility studies.
+18323559 2549 2008 How to build and interpret a nomogram for cancer prognosis.
+
+reference_entry 1112
+24193082 1874 2013 Glioblastoma and other malignant gliomas: a clinical review.
+24737367 1178 2014 Fibromyalgia: a clinical review.
+25514304 994 2014 The diagnosis and management of mild cognitive impairment: a clinical review.
+24282187 931 2014 Depression and cardiovascular disease: a clinical review.
+21171977 705 2010 Huntington's disease: a clinical review.
+17482987 656 2007 Acute lung injury and the acute respiratory distress syndrome: a clinical review.
+24231879 598 2014 Long-term drug treatment for obesity: a systematic and clinical review.
+12133178 527 2002 Clinical review: complications and risk factors of peripheral arterial catheters used for haemodynamic monitoring in anaesthesia and intensi
+20525906 484 2010 Clinical review 1: Adverse effects of testosterone therapy in adult men: a systematic review and meta-analysis.
+21816776 480 2011 Clinical review: Endogenous testosterone and mortality in men: a systematic review and meta-analysis.
+
+empirical_report 70838
+12117397 10248 2002 Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women's Health Initiative randomiz
+10471456 6085 1999 The effect of spironolactone on morbidity and mortality in patients with severe heart failure. Randomized Aldactone Evaluation Study Investi
+25517348 5027 2015 A randomized trial of intraarterial treatment for acute ischemic stroke.
+9196156 4126 1997 Improvements in survival and clinical benefit with gemcitabine as first-line therapy for patients with advanced pancreas cancer: a randomize
+9718051 3702 1998 Randomized trial of estrogen plus progestin for secondary prevention of coronary heart disease in postmenopausal women. Heart and Estrogen/p
+12479763 3535 2002 Major outcomes in high-risk hypertensive patients randomized to angiotensin-converting enzyme inhibitor or calcium channel blocker vs diuret
+9971864 3111 1999 A multicenter, randomized, controlled clinical trial of transfusion requirements in critical care. Transfusion Requirements in Critical Care
+15082697 2914 2004 Effects of conjugated equine estrogen in postmenopausal women with hysterectomy: the Women's Health Initiative randomized controlled trial.
+8041414 2733 1994 A randomized comparison of coronary-stent placement and balloon angioplasty in the treatment of coronary artery disease. Stent Restenosis St
+12050336 2720 2002 A randomized comparison of a sirolimus-eluting stent with a standard stent for coronary revascularization.
+
+methods_paper 36100
+10075613 11648 1999 A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation. Modification of Diet in Rena
+10877304 9468 2000 Trim and fill: A simple funnel-plot-based method of testing and adjusting for publication bias in meta-analysis.
+21513547 8718 2011 The behaviour change wheel: a new method for characterising and designing behaviour change interventions.
+7249508 8195 1981 A method for estimating the probability of adverse drug reactions.
+24047204 7382 2013 Using the framework method for the analysis of qualitative data in multi-disciplinary health research.
+10501650 6562 1999 Measuring agreement in method comparison studies.
+17099194 5048 2006 Decision curve analysis: a novel method for evaluating prediction models.
+13458125 4978 1957 A colorimetric method for the determination of serum glutamic oxalacetic and glutamic pyruvic transaminases.
+5325707 4356 1966 Antibiotic susceptibility testing by a standardized single disk method.
+6187540 3878 1983 A new method for off-line removal of ocular artifact.
+
+theory_conceptual_paper 210
+22594719 1808 2012 The problem with the phrase women and minorities: intersectionality-an important theoretical framework for public health.
+16060799 1390 2005 Informant discrepancies in the assessment of childhood psychopathology: a critical review, theoretical framework, and recommendations for fu
+16134045 363 2005 A theoretical framework for understanding help-seeking processes among survivors of intimate partner violence.
+23051902 357 2013 Social cognition and the anterior temporal lobes: a review and theoretical framework.
+21270366 350 2011 Responsive feeding is embedded in a theoretical framework of responsive parenting.
+18599171 312 2008 HIV-related stigma: adapting a theoretical framework for use in India.
+21609138 182 2011 A theoretical framework for predicting the oxidative stress potential of oxide nanoparticles.
+17040154 145 2006 Preparing caregivers for the death of a loved one: a theoretical framework and suggestions for future research.
+19850390 140 2010 Rebuilding health systems to improve health and promote statebuilding in post-conflict countries: a theoretical framework and research agend
+16519957 134 2006 Health disparities in Canada today: some evidence and a theoretical framework.
+
+case_report 3082
+21418591 89 2011 Abscopal effect of radiation on lung metastases of hepatocellular carcinoma: a case report.
+18447934 61 2008 The first report of human illness associated with the Panola Mountain Ehrlichia species: a case report.
+24513181 53 2014 Elevated brain aluminium and early onset Alzheimer's disease in an individual occupationally exposed to aluminium: a case report.
+20731843 48 2010 Gallbladder agenesis diagnosed intra-operatively: a case report.
+20062780 45 2009 Right-sided Bochdalek hernia in an adult: a case report.
+22040324 43 2011 Full-term extrauterine abdominal pregnancy: a case report.
+21496288 43 2011 Corneal melting after collagen cross-linking for keratoconus: a case report.
+24283496 40 2013 The CARE (CAse REport) guidelines and the standardization of case reports.
+18447915 40 2008 Disseminated cysticercosis: a case report and review of the literature.
+18042278 40 2007 Successful removal of a telephone cable, a foreign body through the urethra into the bladder: a case report.
+
+study_protocol 2090
+25412575 602 2014 The Cambridge Centre for Ageing and Neuroscience (Cam-CAN) study protocol: a cross-sectional, lifespan, multidisciplinary examination of hea
+10909945 356 2000 Randomized controlled trial of audio computer-assisted self-interviewing: utility and acceptability in longitudinal studies. HIVNET Vaccine 
+18378136 336 2008 Phase III randomised study to evaluate the role of adjuvant pelvic radiotherapy in the treatment of uterine sarcomas stages I and II: an Eur
+3901425 297 1985 Multicenter trial of hemodilution in ischemic stroke--background and study protocol. Scandinavian Stroke Study Group.
+20876364 292 2010 Bioindicators in the MIDUS national study: protocol, measures, sample, and comparative context.
+10334408 267 1999 The Women's Ischemia Syndrome Evaluation (WISE) study: protocol design, methodology and feasibility report.
+25179366 229 2014 MR CLEAN, a multicenter randomized clinical trial of endovascular treatment for acute ischemic stroke in the Netherlands: study protocol for
+3124598 224 1988 Study protocol: a randomized clinical trial of total parenteral nutrition in malnourished surgical patients.
+24524229 193 2014 HPTN 071 (PopART): rationale and design of a cluster-randomised trial of the population impact of an HIV combination prevention intervention
+9514413 191 1998 Effects of reducing dietary saturated fatty acids on plasma lipids and lipoproteins in healthy subjects: the DELTA Study, protocol 1.
+
+narrative_critical_literature_review 467
+17200220 575 2007 Narrative review: reversible cerebral vasoconstriction syndromes.
+22709336 550 2013 What are the core elements of patient-centred care? A narrative review and synthesis of the literature from health policy, medicine and nurs
+19940844 457 2010 Probing compulsive and impulsive behaviors, from animal models to endophenotypes: a narrative review.
+20083828 437 2010 Narrative review: the role of leptin in human physiology: emerging clinical applications.
+16442453 417 2006 Patients' preference for involvement in medical decision making: a narrative review.
+17116920 405 2006 Narrative review: the new epidemic of Clostridium difficile-associated enteric disease.
+24404300 388 2013 "Best practice" for patient-centered communication: a narrative review.
+23958435 333 2013 Malnutrition in the elderly: a narrative review.
+21194394 323 2011 Epidemiology of chronic non-cancer pain in Europe: narrative review of prevalence, pain treatments and pain impact.
+15867411 322 2005 Narrative review: alternative causes for elevated cardiac troponin levels when acute coronary syndromes are excluded.
+
+scoping_review 292
+26052958 1512 2014 A scoping review of scoping reviews: advancing the approach and enhancing the consistency.
+25104107 679 2015 Theories of behaviour and behaviour change across the social and behavioural sciences: a scoping review.
+25358236 336 2014 Comorbidity and dementia: a scoping review of the literature.
+25231576 324 2014 Single item measures of self-rated mental health: a scoping review.
+24947822 317 2014 Scoping review of patient-centered care approaches in healthcare.
+22913549 270 2012 Determinants of patient choice of healthcare providers: a scoping review.
+21672914 266 2011 Personal health records: a scoping review.
+24751192 247 2014 Osteoarthritis, obesity and weight loss: evidence, hypotheses and horizons - a scoping review.
+19261347 227 2009 Public participation in health care priority setting: A scoping review.
+23350759 214 2013 The effect of the environment on participation of children and youth with disabilities: a scoping review.
+
+systematic_review 26202
+24974815 5138 2014 Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis.
+15479938 4414 2004 Bariatric surgery: a systematic review and meta-analysis.
+25104651 4002 2014 Global prevalence of age-related macular degeneration and disease burden projection for 2020 and 2040: a systematic review and meta-analysis
+15595944 3887 2004 Diffusion of innovations in service organizations: systematic review and recommendations.
+21069833 3649 2010 Systematic review of levodopa dose equivalency reporting in Parkinson's disease.
+22001864 3569 2012 Increasing incidence and prevalence of the inflammatory bowel diseases with time, based on systematic review.
+21768583 3540 2011 Low health literacy and health outcomes: an updated systematic review.
+22276600 3358 2012 Health literacy and public health: a systematic review and integration of definitions and models.
+17541055 3341 2007 The worldwide prevalence of ADHD: a systematic review and metaregression analysis.
+23305823 3181 2013 The global prevalence of dementia: a systematic review and metaanalysis.
+
+proposal 4006
+15273542 24982 2004 Classification of surgical complications: a new proposal with evaluation in a cohort of 6336 patients and results of a survey.
+10789670 17208 2000 Meta-analysis of observational studies in epidemiology: a proposal for reporting. Meta-analysis Of Observational Studies in Epidemiology (MO
+21793988 9701 2012 Multidrug-resistant, extensively drug-resistant and pandrug-resistant bacteria: an international expert proposal for interim standard defini
+6231933 4059 1984 Evaluation of diagnostic criteria for ankylosing spondylitis. A proposal for modification of the New York criteria.
+19889013 3402 2010 Definition of drug resistant epilepsy: consensus proposal by the ad hoc Task Force of the ILAE Commission on Therapeutic Strategies.
+10484010 2869 1999 Nonalcoholic steatohepatitis: a proposal for grading and staging the histological lesions.
+8129773 2248 1994 Nomenclature of systemic vasculitides. Proposal of an international consensus conference.
+6790275 2047 1981 Proposal for revised clinical and electroencephalographic classification of epileptic seizures. From the Commission on Classification and Te
+3579504 1803 1987 A systematic method for clinical description and classification of personality variants. A proposal.
+16609072 1318 2006 Clinical application and proposal for modification of the International Working Group (IWG) response criteria in myelodysplasia.
+
+decision_memo 886
+7823386 3931 1995 Physical activity and public health. A recommendation from the Centers for Disease Control and Prevention and the American College of Sports
+17762377 3033 2007 Physical activity and public health: updated recommendation for adults from the American College of Sports Medicine and the American Heart A
+17671237 2324 2007 Physical activity and public health: updated recommendation for adults from the American College of Sports Medicine and the American Heart A
+24378917 1584 2014 Screening for lung cancer: U.S. Preventive Services Task Force recommendation statement.
+22801674 1499 2012 Screening for prostate cancer: U.S. Preventive Services Task Force recommendation statement.
+18838716 1090 2008 Screening for colorectal cancer: U.S. Preventive Services Task Force recommendation statement.
+19920272 1063 2009 Screening for breast cancer: U.S. Preventive Services Task Force recommendation statement.
+23570745 1011 2013 GRADE guidelines: 15. Going from evidence to recommendation-determinants of a recommendation's direction and strength.
+22711081 683 2012 Screening for cervical cancer: U.S. Preventive Services Task Force recommendation statement.
+19732133 588 2010 Recommendation for a definition of acute symptomatic seizure.

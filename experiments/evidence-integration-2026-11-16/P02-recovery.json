@@ -1,0 +1,51 @@
+{
+  "id": "P02",
+  "requested_url": "https://www.cs.cornell.edu/~cristian/pdfs/winning_arguments.pdf",
+  "pdf_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/P02-author-copy.pdf",
+  "bytes": 1050281,
+  "sha256": "6db969e273cb8393072afb42082b65319420fd19d9ca07c72474ea22a680900d",
+  "scope": "Official Cornell author copy used because attachment has broken streams and missing text on pages1/4. Original attachment retained.",
+  "readable_page_comparison": [
+    {
+      "pdf_page": 2,
+      "normalized_text_similarity": 0.999604
+    },
+    {
+      "pdf_page": 3,
+      "normalized_text_similarity": 0.99972
+    },
+    {
+      "pdf_page": 5,
+      "normalized_text_similarity": 0.999731
+    },
+    {
+      "pdf_page": 6,
+      "normalized_text_similarity": 0.996075
+    },
+    {
+      "pdf_page": 7,
+      "normalized_text_similarity": 0.998973
+    },
+    {
+      "pdf_page": 8,
+      "normalized_text_similarity": 0.999683
+    },
+    {
+      "pdf_page": 9,
+      "normalized_text_similarity": 0.999713
+    },
+    {
+      "pdf_page": 10,
+      "normalized_text_similarity": 0.999714
+    },
+    {
+      "pdf_page": 11,
+      "normalized_text_similarity": 0.983654
+    },
+    {
+      "pdf_page": 12,
+      "normalized_text_similarity": 0.98058
+    }
+  ],
+  "comparison_scope": "Normalized whitespace/Unicode similarity on recoverable pages only; missing attachment pages1/4 remain missing. Distinct source copy and hash retained."
+}

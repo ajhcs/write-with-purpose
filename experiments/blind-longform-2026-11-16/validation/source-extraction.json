@@ -1,0 +1,117 @@
+{
+  "checks": [
+    {
+      "check": "cached cole-cs50 hash",
+      "pass": true
+    },
+    {
+      "check": "cached cole-engineering hash",
+      "pass": true
+    },
+    {
+      "check": "cached doctorow hash",
+      "pass": true
+    },
+    {
+      "check": "cached python hash",
+      "pass": true
+    },
+    {
+      "check": "cached python-license hash",
+      "pass": true
+    },
+    {
+      "check": "S01 sha256",
+      "pass": true
+    },
+    {
+      "check": "S01 three unique spans",
+      "pass": true
+    },
+    {
+      "check": "S01 context",
+      "pass": true
+    },
+    {
+      "check": "S01 navigation patterns absent",
+      "pass": true
+    },
+    {
+      "check": "S02 sha256",
+      "pass": true
+    },
+    {
+      "check": "S02 three unique spans",
+      "pass": true
+    },
+    {
+      "check": "S02 context",
+      "pass": true
+    },
+    {
+      "check": "S02 navigation patterns absent",
+      "pass": true
+    },
+    {
+      "check": "S03 sha256",
+      "pass": true
+    },
+    {
+      "check": "S03 three unique spans",
+      "pass": true
+    },
+    {
+      "check": "S03 context",
+      "pass": true
+    },
+    {
+      "check": "S03 navigation patterns absent",
+      "pass": true
+    },
+    {
+      "check": "S04 sha256",
+      "pass": true
+    },
+    {
+      "check": "S04 three unique spans",
+      "pass": true
+    },
+    {
+      "check": "S04 context",
+      "pass": true
+    },
+    {
+      "check": "S04 navigation patterns absent",
+      "pass": true
+    },
+    {
+      "check": "all Python preformatted examples exact and ordered",
+      "pass": true
+    },
+    {
+      "check": "Python licence cached copy byte identical",
+      "pass": true
+    },
+    {
+      "check": "Doctorow source includes CC BY 4.0 rights statement",
+      "pass": true
+    },
+    {
+      "check": "all Cole article note sections present",
+      "pass": true
+    }
+  ],
+  "passed": 25,
+  "total": 25,
+  "rights_evidence": {
+    "doctorow": "Cached original post colophon states Creative Commons Attribution 4.0 and excludes quotations and images; https://pluralistic.net/2023/01/21/potemkin-ai/ ; https://creativecommons.org/licenses/by/4.0/",
+    "python": "Cached Python license retained as sources/python-license.html; https://docs.python.org/3.8/license.html",
+    "cole": "User authorized use in this trial."
+  },
+  "limitations": [
+    "Extraction is presentation conversion, not editorial rewriting: omitted article title, byline, dates, navigation, visual inserts and duplicated interactive note panels; kept narrative, notes, external links, and code.",
+    "Doctorow source retains a third-party quotation as part of the source; the post expressly excludes quotations and images from its CC license.",
+    "Paragraph selection uses exact Unicode offsets in the extracted Markdown; several windows are shorter than 120 words because of paragraph and section boundaries.",
+    "Checks establish extraction and index consistency, not semantic gold, independent rights clearance for third-party quotations, or writing quality."
+  ]
+}

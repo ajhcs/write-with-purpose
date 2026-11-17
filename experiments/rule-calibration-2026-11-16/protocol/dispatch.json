@@ -1,0 +1,33 @@
+{
+  "recorded_at_utc": "2026-11-16T16:28:01.012078+00:00",
+  "model": "gpt-6.1-terra",
+  "reasoning_effort": "high",
+  "fork_turns": "none",
+  "isolation": "Separate agent context; same filesystem, assigned-file instructions; no technical access-control sandbox",
+  "stages": [
+    {
+      "stage": "A",
+      "coders": [
+        "A-original-1",
+        "A-original-2",
+        "A-revised-1",
+        "A-revised-2"
+      ],
+      "source_packet": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/",
+      "no_cross_coder_feedback": true
+    },
+    {
+      "stage": "B",
+      "coders": [
+        "B-original-1",
+        "B-original-2",
+        "B-revised-1",
+        "B-revised-2"
+      ],
+      "source_packet": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/",
+      "no_cross_coder_feedback": true
+    }
+  ],
+  "rule_tuning_between_stages": false,
+  "baseline_reporting_accommodation": "Typed decision/status and exact quotes; original definitions unchanged. No mandatory revised role_fields/target contract for baseline."
+}

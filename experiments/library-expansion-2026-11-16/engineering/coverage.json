@@ -1,0 +1,195 @@
+[
+  {
+    "form_id": "personal_reflective_essay",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_17",
+      "eng_18",
+      "eng_19"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "argument_perspective",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_20",
+      "eng_21",
+      "eng_22"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "critical_review_of_work",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_29",
+      "eng_30",
+      "eng_31"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "conceptual_explainer",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_23",
+      "eng_24",
+      "eng_25"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "tutorial",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_01",
+      "eng_14",
+      "eng_15"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "procedure_how_to",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_36",
+      "eng_37",
+      "eng_38"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "reference_entry",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_39",
+      "eng_40",
+      "eng_41"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "empirical_report",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_07",
+      "eng_08",
+      "eng_09"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "methods_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_10",
+      "eng_11",
+      "eng_28"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "theory_conceptual_paper",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_12",
+      "eng_26",
+      "eng_27"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "case_report",
+    "status": "not_applicable",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "Clinical case-report taxonomy does not map automatically to engineering case studies; empirical cases are covered separately."
+  },
+  {
+    "form_id": "study_review_protocol",
+    "status": "partial_gap",
+    "requested": 3,
+    "provided": 2,
+    "candidate_ids": [
+      "eng_16",
+      "eng_32"
+    ],
+    "reason": "Two bounded protocols, one in 2019; a third eligible protocol remains unverified."
+  },
+  {
+    "form_id": "narrative_critical_literature_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_04",
+      "eng_05",
+      "eng_06"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "scoping_review",
+    "status": "partial_gap",
+    "requested": 3,
+    "provided": 1,
+    "candidate_ids": [
+      "eng_43"
+    ],
+    "reason": "One explicitly identified scoping review, supplemental 2019; two more pre-2020 examples not verified. Mapping studies are not silently counted."
+  },
+  {
+    "form_id": "systematic_review",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_02",
+      "eng_03",
+      "eng_13"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "proposal",
+    "status": "three_targets",
+    "requested": 3,
+    "provided": 3,
+    "candidate_ids": [
+      "eng_33",
+      "eng_34",
+      "eng_42"
+    ],
+    "reason": "Three distinct source units identified; complete text and library deduplication pending."
+  },
+  {
+    "form_id": "decision_memo",
+    "status": "conditional_analogue",
+    "requested": 3,
+    "provided": 0,
+    "candidate_ids": [],
+    "reason": "No verified conventional engineering decision memo; RFC 1752 is a public decision-recommendation analogue in conditional-alternatives.json, not counted. NASA mission records of decision are further analogues, not silently equated with internal memos."
+  }
+]

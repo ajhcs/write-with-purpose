@@ -1,0 +1,39 @@
+{
+  "checked_utc": "2026-11-16T15:39:53.707549+00:00",
+  "fields": {
+    "law": {
+      "candidate_count": 44,
+      "coverage_count": 17,
+      "structural_issues": []
+    },
+    "medicine": {
+      "candidate_count": 51,
+      "coverage_count": 17,
+      "structural_issues": []
+    },
+    "personal": {
+      "candidate_count": 12,
+      "coverage_count": 17,
+      "structural_issues": []
+    },
+    "physical-sciences": {
+      "candidate_count": 37,
+      "coverage_count": 17,
+      "structural_issues": []
+    },
+    "business": {
+      "candidate_count": 49,
+      "coverage_count": 17,
+      "structural_issues": [
+        "unreferenced rows: ['business_014', 'business_015', 'business_017', 'business_042']"
+      ]
+    },
+    "engineering": {
+      "candidate_count": 42,
+      "coverage_count": 17,
+      "structural_issues": []
+    }
+  },
+  "live": [],
+  "live_scope": "No network requests; earlier live attempt remains in checks.json."
+}

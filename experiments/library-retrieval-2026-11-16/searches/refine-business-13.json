@@ -1,0 +1,55 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_019",
+      "doi": "10.5465/256741",
+      "title": "THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.",
+      "authors": "[\"M. A. HUSELID\"]",
+      "field": "business_management",
+      "q": "\"THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.\" HUSELID pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_019",
+      "query": "\"THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.\" HUSELID pdf",
+      "urls": [
+        {
+          "title": "The Impact Of Human Resource Management Practices On Turnover, Productivity, And Corporate Financial Performance",
+          "url": "https://scispace.com/pdf/the-impact-of-human-resource-management-practices-on-hesrlz2jwc.pdf",
+          "score": 1
+        },
+        {
+          "title": "Huselid, M. A. (1995). The impact of human resource management practices on turnover, productivity, and corporate financial performance. *Academy of management journal, 38*(3), 635-672.",
+          "url": "https://sitioanterior.cucea.udg.mx/include/publicaciones/coorinv/pdf/La_investigacion_en_ciencias_economico_administrativas_PDF.pdf",
+          "score": 1
+        },
+        {
+          "title": "The Impact Of Human Resource Management Practices On Turnover, Productivity, And Corporate Financial Performance",
+          "url": "https://journals.aom.org/doi/full/10.5465/256741",
+          "score": 1
+        },
+        {
+          "title": "The Impact Of Human Resource Management Practices On Turnover, Productivity, And Corporate Financial Performance",
+          "url": "https://doi.org/10.2307/256741",
+          "score": 1
+        },
+        {
+          "title": "The Impact of Human Resource Management Practices on Turnover, Productivity, and Corporate Financial Performance | JSTOR",
+          "url": "https://www.jstor.org/stable/256741",
+          "score": 1
+        },
+        {
+          "title": "The Impact Of Human Resource Management Practices On Turnover, Productivity, And Corporate Financial Performance",
+          "url": "https://www.scienceopen.com/document?vid=99db6c19-e9dc-4979-9615-62db8af3e05d",
+          "score": 1
+        },
+        {
+          "title": "The Impact of Human Resource Management Practices on Turnover, Productivity, and Corporate Financial Performance",
+          "url": "https://www.academia.edu/95332455/The_Impact_of_Human_Resource_Management_Practices_on_Turnover_Productivity_and_Corporate_Financial_Performance",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

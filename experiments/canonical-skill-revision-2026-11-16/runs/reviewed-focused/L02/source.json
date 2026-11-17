@@ -1,0 +1,9 @@
+{
+  "id": "L02",
+  "task": "Help me practise replacing vague praise with a specific result. Give me the source facts and let me attempt a sentence before showing an answer.",
+  "before": "The results were very, very good.",
+  "source_notes": [
+    "The model correctly classified 80 of 100 cases.",
+    "No comparator, baseline or additional outcome was supplied."
+  ]
+}

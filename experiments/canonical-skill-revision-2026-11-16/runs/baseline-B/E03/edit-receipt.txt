@@ -1,0 +1,63 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E03/source.txt",
+    "sha256": "5cacc86addaecae088d3fd180595093cd91cdc81976ae40c34f1869c3bc71ac1",
+    "bytes": 159
+  },
+  "plan": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E03/edits.json",
+    "sha256": "c37d847a9a0e6eab3bd1920dae540962b9df429dfb9260fba3b65d2b1f18dd99"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "5cacc86addaecae088d3fd180595093cd91cdc81976ae40c34f1869c3bc71ac1",
+    "bytes": 159
+  },
+  "output": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E03/output.txt",
+    "sha256": "5cacc86addaecae088d3fd180595093cd91cdc81976ae40c34f1869c3bc71ac1",
+    "bytes": 159
+  },
+  "changes": [],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 158,
+      "original_characters": 158,
+      "original_characters_selected": 0,
+      "selected_percent": 0.0,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 0
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 31,
+    "after_words": 31,
+    "net_words_removed": 0,
+    "net_reduction_percent": 0.0,
+    "words_inserted": 0,
+    "words_removed_or_replaced": 0,
+    "original_tokens_removed_or_replaced_percent": 0.0,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

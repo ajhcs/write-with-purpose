@@ -1,0 +1,37 @@
+{
+  "challenger": "reader-learning",
+  "challenges": [
+    {
+      "id": "RL-CH01",
+      "target_advocate": "form-functions",
+      "target_proposal_id": "FF-02",
+      "objection": "Two model-generated warrants can create a false choice, imply unverified mechanisms, and delay an otherwise authorized edit. Calling both viable overstates what is known when the author supplies only a correlation and a recommendation. Selecting one may invite the author to adopt a hypothesis they did not hold.",
+      "case": "A manager writes “Absences rose after the schedule changed. We should hire staff.” The available record contains no explanation, hiring rationale, or capacity data. Absences may have external causes or hiring may address a separate constraint; neither staffing shortage nor shift effects follows.",
+      "proposed_resolution": "Replace “contrast at most two plausible connecting principles” with: “First find the author’s stated reason in supplied material. If it is missing, preserve the observation and recommendation as separate claims; ask what connects them only if the gap prevents the requested decision. Offer alternative warrants only when the author asks for reasoning help or supplied evidence bounds the alternatives; label them as model hypotheses and include neither/other. Do not silently select one or call it viable without evidence.” In a copy edit, retain the original scope and avoid demanding a causal explanation.",
+      "novelty_assessment": "Conditional warrant forks are an operational addition to the baseline demand for supported claims, but alternatives and author provenance already appear in Astra’s strategy; novelty is limited to a more explicit fork and discriminating evidence, not the principle of asking about reasons."
+    },
+    {
+      "id": "RL-CH02",
+      "target_advocate": "voice-novelty",
+      "target_proposal_id": "VN-05",
+      "objection": "Even optional transfer offers can interrupt a writing session, shift work onto the author, or imply their request for an explanation is a request for an exercise. The distinction matters when the author wants a rationale but needs a finished draft now. My RL04 has the same risk and should be narrowed as well.",
+      "case": "A writer preparing an urgent scientific note asks, “Why did you move that condition?” A relevant answer is one sentence about which claim the condition limits; proposing a second passage and asking the author to solve it introduces a task the author did not request.",
+      "proposed_resolution": "Use this wording: “If asked, explain the consequential edit briefly against the actual wording and reader consequence. Offer an exercise only when the author requests instruction, practice, or a previously established learning workflow; defer it until the writing deliverable is complete. If practice is requested, let the author attempt first and permit immediate decline. Never infer learning from acceptance.” Explicitly change my RL04 in the same way.",
+      "novelty_assessment": "Original-versus-revised examples, optional rationale, feedback and later transfer already appear in prior Astra guidance and tutoring precedents. The actionable difference is deferring a consent-based exercise and separating a request for rationale from practice, not a newly invented teaching method."
+    },
+    {
+      "id": "RL-CH03",
+      "target_advocate": "form-functions",
+      "target_proposal_id": "FF-04",
+      "objection": "The diagnosis that the current skill prohibits larger revisions overstates the baseline: edit-with-purpose already permits coordinated changes and substantive reorganization when requested, and says the smallest set that resolves the problem. Forcing two alternatives on every plausible case can add needless generation and miss a single obvious safe fix.",
+      "case": "An authorized improvement draft scatters a recommendation and its binding condition; moving them together is an evident repair. Requiring a full local and full structural draft may add work without improving the decision. Conversely, when the existing draft is difficult because it delays a purposeful reveal, a recommendation-first rewrite may defeat the experience.",
+      "proposed_resolution": "Replace mandatory comparison with: “For an authorized improvement, choose the intervention that resolves a specific problem while honoring purpose and constraints. When more than one materially different repair is plausible and consequential, compare their reader effects; otherwise implement the supported repair directly.” Evaluate both insufficient local repairs and unnecessary rewrites.",
+      "novelty_assessment": "Authorized substantive rewriting is an existing capability, not novel. Selective comparison of real alternatives on reader outcomes is a concrete workflow hypothesis also present in my RL03; the condition for invoking comparison should be narrower than my original wording."
+    }
+  ],
+  "concessions": [
+    "FF-03 offers a stronger decision rule than RL01 for a case where ambiguity has multiple valid readings: resolve an interpretation only when its possible outcomes change the edit; retain unassessed versus unresolved distinctly. RL01 contributes source lookup and a localized reader-task probe.",
+    "VN-03 is better than my RL02 for preserving distinctive imagery and rhythm: explicitly name what the unusual wording contributes and compare a repair that retains it with a plain alternative only when permitted. The current skills already reject uniform simplicity; the contextual side-by-side test is the candidate mechanism.",
+    "Current edit-with-purpose already authorizes substantial reorganization in scope; RL03 and FF-04 should not claim that broad rewriting was prohibited. Their proposed behavioral refinement is outcome-based, selective comparison, not a newly granted permission."
+  ]
+}

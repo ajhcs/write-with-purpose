@@ -1,0 +1,1818 @@
+{
+  "status": "partial source correction; incomplete OCR correction and coding; only two paragraphs metric eligible",
+  "source_sha256": "60df32d3bf67e51ddb676f8bebed56a421236d7d0fc4700d8a9961e762956d18",
+  "offsets": "Unicode code points in private manufacturing-body-candidate.txt; end exclusive",
+  "sections": [
+    {
+      "heading": "Three Tiers of Production",
+      "page": 2,
+      "bbox": [
+        289.4,
+        450.0,
+        432.7,
+        473.3
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "How Assemblers Do Well",
+      "page": 3,
+      "bbox": [
+        288.4,
+        215.6,
+        433.3,
+        239.0
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "Subassemblies, Components, Quality",
+      "page": 4,
+      "bbox": [
+        47.9,
+        638.0,
+        265.4,
+        661.4
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "Suppliers Get Bigger, Not Richer",
+      "page": 5,
+      "bbox": [
+        285.5,
+        471.6,
+        468.4,
+        494.9
+      ],
+      "kind": "explicit"
+    },
+    {
+      "heading": "Will Competitors Be Your Suppliers?",
+      "page": 7,
+      "bbox": [
+        30,
+        362,
+        237,
+        385
+      ],
+      "kind": "explicit"
+    }
+  ],
+  "paragraphs": [
+    {
+      "source": [
+        {
+          "page": 1,
+          "bbox": [
+            32.4,
+            380.9,
+            264.8,
+            466.9
+          ]
+        }
+      ],
+      "section": "opening",
+      "id": "manufacturing-001",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "visually checked against p. 1 render; quoted source wording retained",
+      "sha256": "40fcd6b59f0bb1aa99483b0bce5506e70ed2a5a3ce665cc727cfb4edbfdbcd7d",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 0,
+      "char_end": 347
+    },
+    {
+      "source": [
+        {
+          "page": 1,
+          "bbox": [
+            32.4,
+            464.8,
+            265.2,
+            562.6
+          ]
+        }
+      ],
+      "section": "opening",
+      "id": "manufacturing-002",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": true,
+      "boundary_confidence": "visually checked against p. 1 render; quoted source wording retained",
+      "sha256": "09f82e08ae0dc4a8e9c82bbf78960fa5a25d401b01302a897f0d872cdfe941ef",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 349,
+      "char_end": 731
+    },
+    {
+      "source": [
+        {
+          "page": 1,
+          "bbox": [
+            32.0,
+            573.1,
+            264.3,
+            682.9
+          ]
+        },
+        {
+          "page": 1,
+          "bbox": [
+            283.0,
+            381.6,
+            515.6,
+            479.5
+          ]
+        }
+      ],
+      "section": "opening",
+      "id": "manufacturing-003",
+      "functions": [
+        "report",
+        "define",
+        "compare"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "6f3095b73408d0633992db36e65c6ef1331d3f8e3e075c9bc7a7d16a75e7bb66",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 733,
+      "char_end": 1529
+    },
+    {
+      "source": [
+        {
+          "page": 1,
+          "bbox": [
+            282.6,
+            477.4,
+            514.8,
+            575.2
+          ]
+        },
+        {
+          "page": 1,
+          "bbox": [
+            282.6,
+            572.4,
+            514.9,
+            599.0
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            40.0,
+            400.9,
+            271.1,
+            439.3
+          ]
+        }
+      ],
+      "section": "opening",
+      "id": "manufacturing-004",
+      "functions": [
+        "report",
+        "support"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "fbef4f0de95dfb1d17bf85ed9ec8cce8ce59dc2b5f08cae80b45e7d54bd61d39",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 1531,
+      "char_end": 2175
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            40.0,
+            437.2,
+            271.9,
+            546.9
+          ]
+        }
+      ],
+      "section": "opening",
+      "id": "manufacturing-006",
+      "functions": [
+        "interpret",
+        "support"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "bc6b71cbbe6a330c30cc12f10c6036db96b01ac3ca2e94ceab839ebcd276445d",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 2177,
+      "char_end": 2615
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            40.3,
+            545.2,
+            272.9,
+            714.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            288.0,
+            50.2,
+            520.2,
+            76.8
+          ]
+        }
+      ],
+      "section": "opening",
+      "id": "manufacturing-007",
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "19037f8a24be962d509cd5a318a3c8d32ac265b4aa20734f40c2a7a5f59f000b",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 2617,
+      "char_end": 3411
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            288.4,
+            74.3,
+            521.0,
+            267.2
+          ]
+        }
+      ],
+      "section": "opening",
+      "id": "manufacturing-008",
+      "functions": [
+        "qualify",
+        "compare"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "ffffd0a7343c3a620c754b3d68f6e24cd6f2d8f2f840e986a61133f406304d55",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 3413,
+      "char_end": 4169
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            289.1,
+            267.3,
+            521.6,
+            436.4
+          ]
+        }
+      ],
+      "section": "opening",
+      "id": "manufacturing-009",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "d9861ed6f15f3744fa60afc6d4d14e91c1beb7ce5eb1fda8d86e608f4471d6aa",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 4171,
+      "char_end": 4830
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            289.8,
+            496.3,
+            521.7,
+            546.6
+          ]
+        }
+      ],
+      "section": "Three Tiers of Production",
+      "id": "manufacturing-010",
+      "functions": [
+        "orient"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "f4cf49e98a0b4ab58cb90a03a8dc356b7308c8a0006fd09c2b37ccf5497b7461",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 4832,
+      "char_end": 5003
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            290.2,
+            544.5,
+            522.8,
+            678.0
+          ]
+        }
+      ],
+      "section": "Three Tiers of Production",
+      "id": "manufacturing-011",
+      "functions": [
+        "define",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "391ea4332e5b170e9fafd24782a26ed7e7a5f2a6cb459b26513c19449c0f80e4",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 5005,
+      "char_end": 5546
+    },
+    {
+      "source": [
+        {
+          "page": 2,
+          "bbox": [
+            290.5,
+            676.3,
+            522.8,
+            714.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            37.8,
+            56.4,
+            269.8,
+            154.2
+          ]
+        }
+      ],
+      "section": "Three Tiers of Production",
+      "id": "manufacturing-012",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "dd08b5ab372ba7524ad32991f66a429aa82ea8baed06d35b85a31d2dcfcd48ef",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 5548,
+      "char_end": 6070
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            37.1,
+            153.2,
+            270.2,
+            322.3
+          ]
+        }
+      ],
+      "section": "Three Tiers of Production",
+      "id": "manufacturing-013",
+      "functions": [
+        "define",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "a52eb3622c159d198b528b018ba4c4621902508fd1450831ac8f8d2533102dff",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 6072,
+      "char_end": 6725
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            36.4,
+            333.9,
+            269.1,
+            419.9
+          ]
+        }
+      ],
+      "section": "Three Tiers of Production",
+      "id": "manufacturing-014",
+      "functions": [
+        "assert",
+        "compare"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "04fdaf746ff5b66fac01ba13c7e0474ce63dabcd41c0558bc87db687768b04e2",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 6727,
+      "char_end": 7041
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            35.6,
+            417.8,
+            269.1,
+            598.8
+          ]
+        }
+      ],
+      "section": "Three Tiers of Production",
+      "id": "manufacturing-015",
+      "functions": [
+        "compare",
+        "report"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "e8388529fec62257dd863692fe7cafdbf0873842fc1f9cd92536a13d1bd84e5a",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 7043,
+      "char_end": 7786
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            35.6,
+            598.2,
+            268.3,
+            719.8
+          ]
+        }
+      ],
+      "section": "Three Tiers of Production",
+      "id": "manufacturing-016",
+      "functions": [
+        "assert",
+        "instruct"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "360c4964f7f015e2ca0f45cc1d50904b081e842bab8e14809e3a92335873bcf2",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 7788,
+      "char_end": 8288
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            287.6,
+            57.8,
+            520.6,
+            203.2
+          ]
+        }
+      ],
+      "section": "Three Tiers of Production",
+      "id": "manufacturing-017",
+      "functions": [
+        "illustrate",
+        "support"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "a0bda05a608dda5ce5f64eef9cf7f68ec0f1447d7a77153951b98df218c4517f",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 8290,
+      "char_end": 8903
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            287.3,
+            263.0,
+            519.9,
+            337.1
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            286.6,
+            334.3,
+            519.2,
+            515.3
+          ]
+        }
+      ],
+      "section": "How Assemblers Do Well",
+      "id": "manufacturing-018",
+      "functions": [
+        "assert",
+        "explain",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "6324ca88f5e89d0d150653ec64e53bcb087259288984062eefe3465ef7fca681",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 8905,
+      "char_end": 9990
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            286.2,
+            515.4,
+            518.5,
+            625.1
+          ]
+        }
+      ],
+      "section": "How Assemblers Do Well",
+      "id": "manufacturing-020",
+      "functions": [
+        "explain",
+        "assert"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "0d6c64039eeed2230efddb67f3c70c058b146ea7b01ce5a5b6de986c485ff196",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 9992,
+      "char_end": 10435
+    },
+    {
+      "source": [
+        {
+          "page": 3,
+          "bbox": [
+            285.8,
+            623.4,
+            518.1,
+            697.5
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            48.2,
+            58.3,
+            279.9,
+            96.7
+          ]
+        }
+      ],
+      "section": "How Assemblers Do Well",
+      "id": "manufacturing-021",
+      "functions": [
+        "explain",
+        "assert"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "044e4d123089ac20d0bfba9c119d56aa762a3cb7e5ff1622c209fc4f4864dfb9",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 10437,
+      "char_end": 10894
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            48.2,
+            106.5,
+            279.4,
+            287.5
+          ]
+        }
+      ],
+      "section": "How Assemblers Do Well",
+      "id": "manufacturing-022",
+      "functions": [
+        "qualify",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "419a4dc9eeee972d1a6c72d3c85a0e6a5468f9d3fd7a68738a018db0b56fa075",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 10896,
+      "char_end": 11595
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            48.2,
+            287.6,
+            280.4,
+            468.6
+          ]
+        }
+      ],
+      "section": "How Assemblers Do Well",
+      "id": "manufacturing-023",
+      "functions": [
+        "illustrate",
+        "explain"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "7b32b232c2bd5059a26f9e9a11ca731028b20a8ef0ef3d97617b8b8231e9cc0f",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 11597,
+      "char_end": 12331
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            47.9,
+            468.3,
+            280.1,
+            625.5
+          ]
+        }
+      ],
+      "section": "How Assemblers Do Well",
+      "id": "manufacturing-024",
+      "functions": [
+        "qualify",
+        "assert"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "2b45d15aba7f1a31314345e679a6e4a86caeb27218f4433b15f922c1d010de07",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 12333,
+      "char_end": 12996
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            47.9,
+            684.3,
+            279.4,
+            722.7
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            297.0,
+            58.3,
+            529.5,
+            108.6
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            297.4,
+            105.8,
+            530.3,
+            300.1
+          ]
+        }
+      ],
+      "section": "Subassemblies, Components, Quality",
+      "id": "manufacturing-025",
+      "functions": [
+        "orient",
+        "assert"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "67c7a5e47ccc598fee371adb297eedf8bf531f0e412afe5cb2acb2a9d4482d41",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 12998,
+      "char_end": 13462
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            297.4,
+            105.8,
+            530.3,
+            300.1
+          ]
+        }
+      ],
+      "section": "Subassemblies, Components, Quality",
+      "id": "manufacturing-026",
+      "functions": [
+        "support",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "8085db02a61c4c92053a0d33fddb296039185536984f11dfb51adcfdf36e342a",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 13464,
+      "char_end": 14167
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            297.4,
+            299.5,
+            529.9,
+            444.8
+          ]
+        }
+      ],
+      "section": "Subassemblies, Components, Quality",
+      "id": "manufacturing-027",
+      "functions": [
+        "illustrate",
+        "support"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "7c656e20d0b320f50755474719e6955b86cf577dfbd2c4bf8dd267e58599d1f2",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 14169,
+      "char_end": 14752
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            297.7,
+            444.5,
+            530.0,
+            578.0
+          ]
+        }
+      ],
+      "section": "Subassemblies, Components, Quality",
+      "id": "manufacturing-028",
+      "functions": [
+        "qualify",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "78f2f39fed526ee653243e346789ee56fe177ed7b691413e1e461aad27fcf1ef",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 14754,
+      "char_end": 15283
+    },
+    {
+      "source": [
+        {
+          "page": 4,
+          "bbox": [
+            297.7,
+            576.3,
+            530.3,
+            697.9
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            35.3,
+            361.3,
+            267.0,
+            387.8
+          ]
+        }
+      ],
+      "section": "Subassemblies, Components, Quality",
+      "id": "manufacturing-029",
+      "functions": [
+        "explain",
+        "compare"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "6eac34e70bce6a4819d6558f1a1246b678303a0c69903b7e4f71a1087a39efad",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 15285,
+      "char_end": 15864
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            34.9,
+            385.0,
+            267.4,
+            530.4
+          ]
+        }
+      ],
+      "section": "Subassemblies, Components, Quality",
+      "id": "manufacturing-030",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "f535c9cf14c4125ae033bd4cb6e2a793122bd77fe531ac3cbcfdf0b44adf56b4",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 15866,
+      "char_end": 16441
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            34.6,
+            541.6,
+            267.4,
+            687.0
+          ]
+        }
+      ],
+      "section": "Subassemblies, Components, Quality",
+      "id": "manufacturing-031",
+      "functions": [
+        "interpret",
+        "explain"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "28544c3a18560e31494726f6e4e76cdac96eecd9a41db3fa57bd04706d74f70a",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 16443,
+      "char_end": 17039
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            34.9,
+            685.6,
+            266.5,
+            712.2
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            286.2,
+            48.8,
+            518.6,
+            170.4
+          ]
+        }
+      ],
+      "section": "Subassemblies, Components, Quality",
+      "id": "manufacturing-032",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "a54aa56c728a3a08952cdd05817239c99b70bac578e5ffceb87fc868abfe4b17",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 17041,
+      "char_end": 17609
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            285.5,
+            169.7,
+            518.5,
+            350.7
+          ]
+        }
+      ],
+      "section": "Subassemblies, Components, Quality",
+      "id": "manufacturing-033",
+      "functions": [
+        "explain",
+        "compare"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "38567f200f79ad880b3cb0611490adc6412105367099315e3ec4f5e50d90234f",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 17611,
+      "char_end": 18320
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            285.1,
+            350.1,
+            518.3,
+            459.8
+          ]
+        }
+      ],
+      "section": "Subassemblies, Components, Quality",
+      "id": "manufacturing-034",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "c724ec510c72e623d4108b5b55ff52dc10be32dddc458eb472926c2e40aecd95",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 18322,
+      "char_end": 18740
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            285.1,
+            518.6,
+            517.3,
+            545.1
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            285.1,
+            542.3,
+            517.7,
+            628.3
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-035",
+      "functions": [
+        "orient",
+        "assert"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "efa6296a5810d39b2acf0ec3415b23adfe7f355053584abc9a50146bc8c07027",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 18742,
+      "char_end": 19167
+    },
+    {
+      "source": [
+        {
+          "page": 5,
+          "bbox": [
+            284.4,
+            626.9,
+            517.0,
+            706.0
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            46.1,
+            48.6,
+            277.6,
+            134.6
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-037",
+      "functions": [
+        "define",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "a3501885462568511520e42727c7b1bde99dd1ec702f62642f33045c6497fee4",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 19169,
+      "char_end": 19811
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            68.0,
+            145.8,
+            277.2,
+            160.5
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            70.9,
+            157.7,
+            277.6,
+            172.4
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            71.3,
+            169.6,
+            277.6,
+            184.3
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            46.4,
+            181.5,
+            278.0,
+            303.1
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-038",
+      "functions": [
+        "narrate",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "ffa6870a8c35c5e07c3e1a50c15419e6cfc46fa54c2b2b4bae0b656209b0715d",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 19813,
+      "char_end": 20406
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            46.8,
+            302.8,
+            283.8,
+            436.3
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-042",
+      "functions": [
+        "illustrate",
+        "report"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "6e72d06958b83d51c243b0b92960d2d908e25b839cc37f62fbfbb6c16160652c",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 20408,
+      "char_end": 20920
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            47.2,
+            435.3,
+            279.1,
+            592.5
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-043",
+      "functions": [
+        "interpret",
+        "compare"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "f3e36a403b6b4e3a932d33a78165fe645fd95fbdca358f28e390b9dfce8dc747",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 20922,
+      "char_end": 21566
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            47.5,
+            591.5,
+            279.2,
+            713.1
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-044",
+      "functions": [
+        "explain",
+        "compare"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "298a6b75fa2fcd45bca136adabb86736c8b1dbe441dc684ba08b3b9d9a586333",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 21568,
+      "char_end": 22060
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            295.9,
+            48.3,
+            528.5,
+            217.4
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-045",
+      "functions": [
+        "explain",
+        "qualify"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "0ecc31997d0c2b7f2ef07e78f5046a469006c18fe0cabe3d0434f6b52d518a7f",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 22062,
+      "char_end": 22777
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            296.3,
+            217.8,
+            528.9,
+            339.4
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-046",
+      "functions": [
+        "qualify",
+        "instruct"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "26f3036a8ff04a1d067ed8eee05de0bc261cc7822552f07b3b4a521f11875add",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 22779,
+      "char_end": 23283
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            296.6,
+            338.1,
+            529.5,
+            424.0
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-047",
+      "functions": [
+        "interpret",
+        "explain"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "1afc314f6bcadc75043e093af59f021630203c2afc17e9f7d8366952aa7ce963",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 23285,
+      "char_end": 23650
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            324.0,
+            434.5,
+            528.4,
+            449.2
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            323.6,
+            446.4,
+            528.5,
+            461.1
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            324.0,
+            458.3,
+            528.5,
+            473.0
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            296.6,
+            470.2,
+            529.1,
+            520.5
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-048",
+      "functions": [
+        "assert",
+        "explain"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "281f825bd46498fee7b2e7dad97ccc8536c027803001740f40a3aac71fbd63dc",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 23652,
+      "char_end": 23977
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            297.0,
+            517.7,
+            528.9,
+            544.3
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-052",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "0e84f6de070bc3f42bee2a157142c1ac613bb001b789903e1c32ceaa3b21ae80",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 23979,
+      "char_end": 24045
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            430.2,
+            548.3,
+            470.9,
+            563.0
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-053",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "f7eab0e185afd21fafd52d62f4456cb467b2491d52ce60054f63d2d23ba2ff7a",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24047,
+      "char_end": 24057
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            321.8,
+            549.0,
+            351.0,
+            563.7
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-054",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "4fda739fc7358264e48963706354ec7b0abd0f2334163bf7a48e380302793fcc",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24059,
+      "char_end": 24064
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            430.6,
+            560.5,
+            470.5,
+            575.2
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-055",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "ee354ae9dc9025e350dd8ffcad3bab7a0703bda3448d385137767caf250e31ff",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24066,
+      "char_end": 24076
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            320.8,
+            560.9,
+            363.9,
+            575.6
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-056",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "61a2dda90bef584fad81dc1628fe11931c097a9516d7aaa09cc49d5fc29d1ca8",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24078,
+      "char_end": 24088
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            430.2,
+            572.4,
+            488.8,
+            587.1
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-057",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "93ab72a013e2f9ba752e94673f493369c6cb59c706cf82e0cbd1f73c48701f54",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24090,
+      "char_end": 24102
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            320.4,
+            572.8,
+            364.3,
+            587.5
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-058",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "e4ec6c3aad37f90bbcafa1d1411696cb0f575237004ba3256b8c24ab571598ac",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24104,
+      "char_end": 24114
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            430.2,
+            584.3,
+            488.8,
+            599.0
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-059",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "2f4e0a328562db4211fa21bf41d4ac35b6c1fd6c03fc1cb31369dc6b78e53b66",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24116,
+      "char_end": 24129
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            320.8,
+            584.7,
+            371.2,
+            599.3
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-060",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "dc758a16055d550aaae88d117be4dde236897c99bfb5d6f86d8566c5e44eb653",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24131,
+      "char_end": 24142
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            321.1,
+            596.5,
+            413.3,
+            611.2
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-061",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "f25d14da2506580b1d895a7881d2ae593528a02beff1dc668a097516a269db9d",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24144,
+      "char_end": 24164
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            425.9,
+            596.5,
+            461.1,
+            611.2
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-062",
+      "functions": [
+        "unresolved"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "e06d7bbd63207d46e342b731e5062fa35bad131219310777a64a250ef8acec41",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24166,
+      "char_end": 24175
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            297.0,
+            614.5,
+            529.3,
+            688.6
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-063",
+      "functions": [
+        "report",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "742e4783aa943e65ea4b719c396d922516a2b4ab90d157616362cbfee1cd7090",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24177,
+      "char_end": 24436
+    },
+    {
+      "source": [
+        {
+          "page": 6,
+          "bbox": [
+            297.4,
+            686.9,
+            529.5,
+            713.5
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            30.2,
+            46.9,
+            262.5,
+            180.4
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-064",
+      "functions": [
+        "explain",
+        "assert"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "beb9d457c7e9c8b7e747e19060c9fd42e016e17a37211a8ec730201c5baad0a0",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 24438,
+      "char_end": 25069
+    },
+    {
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            30.2,
+            180.1,
+            262.9,
+            289.8
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-065",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "6ff99d8701178965c2158e0f5a4a5f26fad5bc41c2fff44c20faffa2fb0c73cb",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 25071,
+      "char_end": 25486
+    },
+    {
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            30.2,
+            288.1,
+            263.1,
+            385.4
+          ]
+        }
+      ],
+      "section": "Suppliers Get Bigger, Not Richer",
+      "id": "manufacturing-066",
+      "functions": [
+        "compare",
+        "assert"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "ec2b2264e00ab6df165a04b32ab9611e3c94e01d9bba0ddbca59b2d8c442e6da",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 25488,
+      "char_end": 25717
+    },
+    {
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            30.2,
+            408.7,
+            263.1,
+            518.4
+          ]
+        }
+      ],
+      "section": "Will Competitors Be Your Suppliers?",
+      "id": "manufacturing-067",
+      "functions": [
+        "qualify",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "76163f4ada65d0e1220715300cbe735d34d8a403231fcedc6505dd96769a0cca",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 25719,
+      "char_end": 26159
+    },
+    {
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            30.6,
+            516.7,
+            262.5,
+            543.3
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            280.1,
+            47.3,
+            512.3,
+            109.5
+          ]
+        }
+      ],
+      "section": "Will Competitors Be Your Suppliers?",
+      "id": "manufacturing-068",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "e6faccb5a9d1381b910bef88b9ebd74a79df9a95bb3c28cd346c07fb804ecb76",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 26161,
+      "char_end": 26491
+    },
+    {
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            280.4,
+            108.1,
+            512.7,
+            205.9
+          ]
+        }
+      ],
+      "section": "Will Competitors Be Your Suppliers?",
+      "id": "manufacturing-069",
+      "functions": [
+        "assert",
+        "support"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "4c0263371fb2b8a6d92850446c7cb44bdb0e07f91fff34a192016857ff1671f8",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 26493,
+      "char_end": 26886
+    },
+    {
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            302.4,
+            216.1,
+            512.0,
+            230.8
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            305.3,
+            228.0,
+            512.6,
+            242.7
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            305.3,
+            239.9,
+            512.9,
+            254.5
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            280.4,
+            251.7,
+            513.4,
+            397.1
+          ]
+        }
+      ],
+      "section": "Will Competitors Be Your Suppliers?",
+      "id": "manufacturing-070",
+      "functions": [
+        "explain",
+        "illustrate"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "313f94480355ee682bdc49c872735964854b770410cd05dc05c55cd82d80003b",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 26888,
+      "char_end": 27635
+    },
+    {
+      "source": [
+        {
+          "page": 7,
+          "bbox": [
+            280.8,
+            396.8,
+            513.2,
+            530.3
+          ]
+        }
+      ],
+      "section": "Will Competitors Be Your Suppliers?",
+      "id": "manufacturing-074",
+      "functions": [
+        "assert",
+        "interpret"
+      ],
+      "metric_eligible": false,
+      "boundary_confidence": "unreviewed; OCR errors and drop caps may corrupt paragraph",
+      "sha256": "b6e19673a88d1181db993b6ee0fe6da2092b0756dd5932020f6dc698e56f7034",
+      "label_status": "provisional single-coder judgment on OCR text; unresolved where source or form is unclear",
+      "char_start": 27637,
+      "char_end": 28151
+    }
+  ]
+}

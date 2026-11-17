@@ -1,0 +1,45 @@
+{
+  "scope": "Only xml-02298; not a multi-document range or a writing target",
+  "word_rule": "Shared corpus-analysis metrics.py word_tokens; citations may affect counts",
+  "body_words": 3763,
+  "paragraph_count": 33,
+  "paragraph_word_range": [
+    42,
+    259
+  ],
+  "paragraph_word_median": 107,
+  "roles": {
+    "introduction": {
+      "paragraphs": 4,
+      "words": 609
+    },
+    "methods": {
+      "paragraphs": 5,
+      "words": 567
+    },
+    "results": {
+      "paragraphs": 9,
+      "words": 803
+    },
+    "discussion": {
+      "paragraphs": 12,
+      "words": 1505
+    },
+    "conclusion": {
+      "paragraphs": 3,
+      "words": 279
+    }
+  },
+  "function_counts_multilabel": {
+    "orient": 2,
+    "report": 22,
+    "explain": 10,
+    "illustrate": 7,
+    "compare": 4,
+    "qualify": 16,
+    "define": 2,
+    "interpret": 6,
+    "assert": 10
+  },
+  "function_status": "one analyst, proposed catalog; zero count is not evidence of impossibility"
+}

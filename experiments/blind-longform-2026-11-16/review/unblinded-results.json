@@ -1,0 +1,294 @@
+{
+  "trial_id": "blind-longform-20261116",
+  "unblinded_utc": "2026-11-16T23:34:41.265871+00:00",
+  "rated_cases": 10,
+  "preference_counts": {
+    "baseline": 3,
+    "revised": 6,
+    "original": 1
+  },
+  "among_rewrite_preferences": {
+    "revised": 6,
+    "baseline": 3,
+    "denominator": 9
+  },
+  "explicit_substantive_marks": {
+    "baseline": 3,
+    "revised": 5,
+    "unsure": 1,
+    "unanswered": 1
+  },
+  "by_source": [
+    {
+      "source_doc_id": "S01",
+      "title": "Learning CS50 at 256 Kilobits per Second",
+      "rated": 3,
+      "preferences": {
+        "baseline": 2,
+        "revised": 1
+      }
+    },
+    {
+      "source_doc_id": "S02",
+      "title": "Making engineering part of healthcare’s work",
+      "rated": 3,
+      "preferences": {
+        "revised": 3
+      }
+    },
+    {
+      "source_doc_id": "S03",
+      "title": "Tiktok’s enshittification",
+      "rated": 3,
+      "preferences": {
+        "baseline": 1,
+        "revised": 1,
+        "original": 1
+      }
+    },
+    {
+      "source_doc_id": "S04",
+      "title": "Floating Point Arithmetic: Issues and Limitations",
+      "rated": 1,
+      "preferences": {
+        "revised": 1
+      }
+    }
+  ],
+  "by_section": {
+    "opening": {
+      "baseline": 2,
+      "revised": 2
+    },
+    "middle": {
+      "revised": 3
+    },
+    "closing": {
+      "baseline": 1,
+      "revised": 1,
+      "original": 1
+    }
+  },
+  "cases": [
+    {
+      "id": "R01",
+      "source_doc_id": "S01",
+      "title": "Learning CS50 at 256 Kilobits per Second",
+      "scope": "opening",
+      "A": "revised",
+      "B": "baseline",
+      "choice_verbatim": "B",
+      "preferred": "baseline",
+      "substantive_improvement_verbatim": "B",
+      "substantive_improvement_decoded": "baseline",
+      "comment_verbatim": "Night and day, I honestly am extremely impressed. The one part I hate is at the end \"I am not claiming Harvard Enrollment or Academic Credit\" yes I am lol but it's also a weird and useless piece of information. But honeslty yeah B was great. ",
+      "submitted_before_reveal": true
+    },
+    {
+      "id": "R02",
+      "source_doc_id": "S01",
+      "title": "Learning CS50 at 256 Kilobits per Second",
+      "scope": "middle",
+      "A": "baseline",
+      "B": "revised",
+      "choice_verbatim": "B",
+      "preferred": "revised",
+      "substantive_improvement_verbatim": "B",
+      "substantive_improvement_decoded": "revised",
+      "comment_verbatim": "One thing I don't like with either is the long lists. Lists of more than three things are offensive to me, and multiple lists in a paragraph are also offensive and appear as word filler. Example: \"how information is represented, where a boundary belongs, how to check a result, and what happens when separately sensible components meet. \"",
+      "submitted_before_reveal": true
+    },
+    {
+      "id": "R03",
+      "source_doc_id": "S01",
+      "title": "Learning CS50 at 256 Kilobits per Second",
+      "scope": "closing",
+      "A": "baseline",
+      "B": "revised",
+      "choice_verbatim": "A",
+      "preferred": "baseline",
+      "substantive_improvement_verbatim": "A",
+      "substantive_improvement_decoded": "baseline",
+      "comment_verbatim": "I think the one thing I don't like is this pattern: AI can now produce an answer, a page, or a software change before a person has made the underlying problem explicit. --- but the following makes it almost worth enduring \"The speed makes it all the more useful to know what each part is meant to do and to check what happens when the parts meet.\" an excellent point. ",
+      "submitted_before_reveal": true
+    },
+    {
+      "id": "R05",
+      "source_doc_id": "S02",
+      "title": "Making engineering part of healthcare’s work",
+      "scope": "opening",
+      "A": "revised",
+      "B": "baseline",
+      "choice_verbatim": "A",
+      "preferred": "revised",
+      "substantive_improvement_verbatim": "A",
+      "substantive_improvement_decoded": "revised",
+      "comment_verbatim": "Unoquivically better",
+      "submitted_before_reveal": true
+    },
+    {
+      "id": "R06",
+      "source_doc_id": "S02",
+      "title": "Making engineering part of healthcare’s work",
+      "scope": "middle",
+      "A": "baseline",
+      "B": "revised",
+      "choice_verbatim": "B",
+      "preferred": "revised",
+      "substantive_improvement_verbatim": "Unsure",
+      "substantive_improvement_decoded": "unsure",
+      "comment_verbatim": "",
+      "submitted_before_reveal": true
+    },
+    {
+      "id": "R07",
+      "source_doc_id": "S02",
+      "title": "Making engineering part of healthcare’s work",
+      "scope": "closing",
+      "A": "revised",
+      "B": "baseline",
+      "choice_verbatim": "A",
+      "preferred": "revised",
+      "substantive_improvement_verbatim": "A",
+      "substantive_improvement_decoded": "revised",
+      "comment_verbatim": "",
+      "submitted_before_reveal": true
+    },
+    {
+      "id": "R09",
+      "source_doc_id": "S03",
+      "title": "Tiktok’s enshittification",
+      "scope": "opening",
+      "A": "baseline",
+      "B": "revised",
+      "choice_verbatim": "A",
+      "preferred": "baseline",
+      "substantive_improvement_verbatim": "A",
+      "substantive_improvement_decoded": "baseline",
+      "comment_verbatim": "",
+      "submitted_before_reveal": true
+    },
+    {
+      "id": "R10",
+      "source_doc_id": "S03",
+      "title": "Tiktok’s enshittification",
+      "scope": "middle",
+      "A": "revised",
+      "B": "baseline",
+      "choice_verbatim": "A",
+      "preferred": "revised",
+      "substantive_improvement_verbatim": "A",
+      "substantive_improvement_decoded": "revised",
+      "comment_verbatim": "",
+      "submitted_before_reveal": true
+    },
+    {
+      "id": "R11",
+      "source_doc_id": "S03",
+      "title": "Tiktok’s enshittification",
+      "scope": "closing",
+      "A": "revised",
+      "B": "baseline",
+      "choice_verbatim": "Original",
+      "preferred": "original",
+      "substantive_improvement_verbatim": "A",
+      "substantive_improvement_decoded": "revised",
+      "comment_verbatim": "The original seems to tell the overall story better, despite some word errors that A and B fixed. ",
+      "submitted_before_reveal": true
+    },
+    {
+      "id": "R13",
+      "source_doc_id": "S04",
+      "title": "Floating Point Arithmetic: Issues and Limitations",
+      "scope": "opening",
+      "A": "revised",
+      "B": "baseline",
+      "choice_verbatim": "A",
+      "preferred": "revised",
+      "substantive_improvement_verbatim": "",
+      "substantive_improvement_decoded": "unanswered",
+      "comment_verbatim": "",
+      "submitted_before_reveal": true
+    }
+  ],
+  "execution": [
+    {
+      "source_doc_id": "S01",
+      "condition": "baseline",
+      "selected_skill": "write-with-purpose",
+      "skill_version": "0.4.0-alpha.5",
+      "entrypoint_sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365",
+      "manifest_sha256": "7f17a17a6d626169292c86966cff60048dfff488efb4c1bc17b7704d300dffc8"
+    },
+    {
+      "source_doc_id": "S01",
+      "condition": "revised",
+      "selected_skill": "write-with-purpose",
+      "skill_version": "0.4.0-alpha.6",
+      "entrypoint_sha256": "9c2824bae19c6aeef0e13845124b98c1805f4b2b0901bb61b4b537fbe287748b",
+      "manifest_sha256": "d7865ed9c2aabf2c4d6b15a6ebc27501579500bc43af3a4596fe133083556e96"
+    },
+    {
+      "source_doc_id": "S02",
+      "condition": "baseline",
+      "selected_skill": "write-with-purpose",
+      "skill_version": "0.4.0-alpha.5",
+      "entrypoint_sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365",
+      "manifest_sha256": "57733d26266bd11f709ade8698063ca4b201d913152ac1b04e900710e7e43451"
+    },
+    {
+      "source_doc_id": "S02",
+      "condition": "revised",
+      "selected_skill": "write-with-purpose",
+      "skill_version": "0.4.0-alpha.6",
+      "entrypoint_sha256": "9c2824bae19c6aeef0e13845124b98c1805f4b2b0901bb61b4b537fbe287748b",
+      "manifest_sha256": "d0328960f1e252d45758482a945e060f9ea3bb3e6f3ba202f6d5d99b01628dab"
+    },
+    {
+      "source_doc_id": "S03",
+      "condition": "baseline",
+      "selected_skill": "write-with-purpose",
+      "skill_version": "0.4.0-alpha.5",
+      "entrypoint_sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365",
+      "manifest_sha256": "57493e4e190431877ec6b189049e7a2ed94582bf1f1840ba10323040c3b55398"
+    },
+    {
+      "source_doc_id": "S03",
+      "condition": "revised",
+      "selected_skill": "write-with-purpose",
+      "skill_version": "0.4.0-alpha.6",
+      "entrypoint_sha256": "9c2824bae19c6aeef0e13845124b98c1805f4b2b0901bb61b4b537fbe287748b",
+      "manifest_sha256": "64faf733ba1728735aed5ce53ec3b74a7a9795ac40d8e0b36b1cf460144a1a7a"
+    },
+    {
+      "source_doc_id": "S04",
+      "condition": "baseline",
+      "selected_skill": "write-with-purpose",
+      "skill_version": "0.4.0-alpha.5",
+      "entrypoint_sha256": "0f837a198b6e3e9caaa390bb1f46d57e092a49ea927916f084188c77b1809365",
+      "manifest_sha256": "a2ecd43def2a7850e8ac06eae3a1143c5caf1a347f4115abf95c237f83cbf6b8"
+    },
+    {
+      "source_doc_id": "S04",
+      "condition": "revised",
+      "selected_skill": "write-with-purpose",
+      "skill_version": "0.4.0-alpha.6",
+      "entrypoint_sha256": "9c2824bae19c6aeef0e13845124b98c1805f4b2b0901bb61b4b537fbe287748b",
+      "manifest_sha256": "b67b881092fcb2852d4b589e296898630435623677d6947ae30bbd65568f8833"
+    }
+  ],
+  "scope_limits": [
+    "All eight generators selected write-with-purpose; this trial does not directly evaluate edit-with-purpose.",
+    "Ten rated cases are section passages; all four whole-work cases remain unrated.",
+    "One paired generation per source/condition with multiple tasks per context; observations are clustered and selected, not ten independent replications.",
+    "An author preference is separate from supplied-source fidelity, external truth, reader comprehension or demonstrated learning."
+  ],
+  "unrated_cases": [
+    "R04",
+    "R08",
+    "R12",
+    "R14",
+    "R15",
+    "R16"
+  ]
+}

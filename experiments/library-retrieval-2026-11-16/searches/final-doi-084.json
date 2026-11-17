@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-narrative_critical_literature_review-2",
+      "doi": "10.1111/j.1365-2648.2012.06064.x",
+      "title": "What are the core elements of patient-centred care? A narrative review and synthesis of the literature from health policy, medicine and nursing.",
+      "authors": "[\"Kitson A\", \"Marshall A\", \"Bassett K\", \"Zeitz K\"]",
+      "field": "medicine_health",
+      "q": "\"What are the core elements of patient-centred care?\" Kitson filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-narrative_critical_literature_review-2",
+      "query": "\"What are the core elements of patient-centred care?\" Kitson filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Kitson, A. L. (2012) What are the core elements of patient-centred care? A narrative review and synthesis of the literature from health policy, medicine and nursing. *Journal of Advanced Nursing*, 69 (1), pp. 4-15. doi: 10.1111/j.1365-2648.2012.06064.x.",
+          "url": "https://radar.brookes.ac.uk/radar/file/14b34b45-ebe4-441c-9290-63f8b2d53a83/1/FordeJohnston2025ElectronicPatientRecords.pdf",
+          "score": 1
+        },
+        {
+          "title": "93. Kitson, A., Marshall, A., Bassett, K. & Zeitz, K. (2013). What are the core elements of patient-centred care? A narrative review and synthesis of the literature from health policy, medicine and nursing. Journal of Advanced Nursing. 69(1), 4-15. DOI:10.1111/j.1365-2648.2012.06064.x.",
+          "url": "https://kclpure.kcl.ac.uk/ws/portalfiles/portal/115823584/2019_Alders_Matthew_0805106_ethesis.pdf",
+          "score": 1
+        },
+        {
+          "title": "What are the core elements of patient-centred care? A narrative review and synthesis of the literature from health policy, medicine and nursing",
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1365-2648.2012.06064.x",
+          "score": 1
+        },
+        {
+          "title": "What are the core elements of patient-centred care? A narrative review and synthesis of the literature from health policy, medicine and nursing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22709336/",
+          "score": 1
+        },
+        {
+          "title": "What are the core elements of patient-centred care? A narrative review and synthesis of the literature from health policy, medicine and nursing",
+          "url": "https://digital.library.adelaide.edu.au/items/9ff603e0-c0b3-4013-9888-a8af57a4799e",
+          "score": 1
+        },
+        {
+          "title": "What are the core elements of patient-centred care? A narrative review and synthesis of the literature from health policy, medicine and nursing",
+          "url": "https://researchnow.flinders.edu.au/en/publications/what-are-the-core-elements-of-patient-centred-care-a-narrative-re/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

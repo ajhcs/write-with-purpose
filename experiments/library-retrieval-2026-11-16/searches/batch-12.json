@@ -1,0 +1,148 @@
+{
+  "batch": 12,
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_19",
+      "doi": "10.1145/358198.358210",
+      "title": "Reflections on trusting trust",
+      "field": "engineering_computing",
+      "q": "\"Reflections on trusting trust\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_20",
+      "doi": "10.1109/mc.1987.1663532",
+      "title": "No Silver Bullet Essence and Accidents of Software Engineering",
+      "field": "engineering_computing",
+      "q": "\"No Silver Bullet Essence and Accidents of Software Engineering\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_21",
+      "doi": "10.1109/2.348001",
+      "title": "A plea for lean software",
+      "field": "engineering_computing",
+      "q": "\"A plea for lean software\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_22",
+      "doi": "10.1145/362929.362947",
+      "title": "Letters to the editor: go to statement considered harmful",
+      "field": "engineering_computing",
+      "q": "\"Letters to the editor: go to statement considered harmful\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_19",
+      "query": "\"Reflections on trusting trust\" pdf",
+      "urls": [
+        {
+          "title": "Reflections on trusting trust",
+          "url": "https://oamonitor.ireland.openaire.eu/rpo/rcsi/search/publication?pid=10.1145%2F358198.358210",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks",
+          "url": "https://arxiv.org/abs/2609.17817",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Reflections on trusting distributed trust",
+          "url": "https://arxiv.org/abs/2210.08127",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "I created \"Once Upon a Science\" where I review remarkable papers. My latest post was on Reflections on Trusting Trust by Ken Thompson",
+          "url": "https://www.reddit.com/r/unix/comments/v6e0a1",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Countering Trusting Trust through Diverse Double-Compiling",
+          "url": "https://arxiv.org/abs/1004.5548",
+          "score": 0.6666666666666666,
+          "body_score": 1
+        },
+        {
+          "title": "Fully Countering Trusting Trust through Diverse Double-Compiling",
+          "url": "https://arxiv.org/abs/1004.5534",
+          "score": 0.6666666666666666,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_20",
+      "query": "\"No Silver Bullet Essence and Accidents of Software Engineering\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "engineering:eng_21",
+      "query": "\"A plea for lean software\" pdf",
+      "urls": [
+        {
+          "title": "dblp: A Plea for Lean Software.",
+          "url": "https://dblp.uni-trier.de/rec/journals/computer/Wirth95.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "liam_on_linux | \"A Plea for Lean Software\" by Prof. Niklaus Wirth",
+          "url": "https://liam-on-linux.dreamwidth.org/88032.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Plea for Lean Software (1995) [pdf] | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=27661559",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A 2024 Plea for Lean Software (with running code) - Bert Hubert's writings",
+          "url": "https://berthub.eu/articles/posts/a-2024-plea-for-lean-software/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Plea for Lean Software",
+          "url": "https://www.reddit.com/r/programming/comments/1auay62/a_plea_for_lean_software/",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Plea for Lean Software",
+          "url": "https://www.reddit.com/r/agile/comments/1anmbmn",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Plea for Lean Software",
+          "url": "https://www.reddit.com/r/softwarecrafters/comments/1atywmd",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "A Plea for Lean Software",
+          "url": "https://www.reddit.com/r/webdev/comments/1arexd1",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_22",
+      "query": "\"Letters to the editor: go to statement considered harmful\" pdf",
+      "urls": [
+        {
+          "title": "Goto statement considered harmful pdf",
+          "url": "https://img1.wsimg.com/blobby/go/d37a9b24-bc42-4cb1-ab3b-3d1b21b01aec/downloads/goto_statement_considered_harmful.pdf",
+          "score": 0.5,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

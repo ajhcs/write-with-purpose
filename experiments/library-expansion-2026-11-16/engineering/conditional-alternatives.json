@@ -1,0 +1,37 @@
+[
+  {
+    "id": "eng_35",
+    "field": "engineering_computing",
+    "form_id": "decision_memo",
+    "title": "The Recommendation for the IP Next Generation Protocol",
+    "authors": [
+      "Scott O. Bradner",
+      "Allison Mankin"
+    ],
+    "year": 1995,
+    "venue": null,
+    "doi": "10.17487/RFC1752",
+    "stable_url": "https://doi.org/10.17487/RFC1752",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "form_basis": "IETF recommendation records the choice of an IP next-generation design and its selection context; decision-document analogue.",
+    "form_status": "primary source description verified; complete writing-model assessment pending",
+    "selection_signal_type": "citation_count",
+    "selection_evidence": "OpenAlex 150 cited-by works at 2026-11-16T15:19:10.879696+00:00; attention indicator, not readership. RFCs also selected for historical role in standards processes, not citation count alone.",
+    "selection_source_url": "https://api.openalex.org/works/https://doi.org/10.17487/RFC1752",
+    "citation_count": 150,
+    "citation_provider": "OpenAlex",
+    "citation_snapshot": "2026-11-16T15:19:10.879696+00:00",
+    "verification_status": "DOI and title retrieved from live OpenAlex; source content and DOI checked separately.",
+    "verification_sources": [
+      "https://api.openalex.org/works/https://doi.org/10.17487/RFC1752",
+      "https://www.rfc-editor.org/info/rfc1752/"
+    ],
+    "date_notes": "Historical publication; check edition at retrieval.",
+    "copy_status": "unknown; parent library deduplication required",
+    "retrieval_locator": "https://doi.org/10.17487/RFC1752",
+    "why_this_example": "IETF recommendation records the choice of an IP next-generation design and its selection context; decision-document analogue.",
+    "limitations": "Description assessed; complete text not downloaded. For RFC1752, recommendation memo is a decision-document analogue, not a conventional internal memo."
+  }
+]

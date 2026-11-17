@@ -1,0 +1,45 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_25",
+      "doi": "10.1038/366418a0",
+      "title": "Time and time again",
+      "authors": "[\"Felicity Mellor\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Time and time again\" Mellor filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_25",
+      "query": "\"Time and time again\" Mellor filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Time and Time Again:",
+          "url": "https://central.bac-lac.gc.ca/.item?app=Library&id=NR37089&is_thesis=1&oclc_number=612700881&op=pdf",
+          "score": 1
+        },
+        {
+          "title": "Time, and Time Again",
+          "url": "https://www.researchgate.net/publication/264486818_Time_and_Time_Again",
+          "score": 1
+        },
+        {
+          "title": "Time and Time Again",
+          "url": "https://gutenberg.net.au/ebooks06/0600891h.html",
+          "score": 1
+        },
+        {
+          "title": "Time and time again :: Ronald Harris :: ISBN 0951100106 :: Runeville 1985 :: OBNB, the Open British National Bibliography",
+          "url": "https://obnb.uk/p8820154-time-and-time-again",
+          "score": 1
+        },
+        {
+          "title": "Time and Time Again - Michaelsbund",
+          "url": "https://www.michaelsbund.de/product/9781411621527-time-and-time-again.html",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

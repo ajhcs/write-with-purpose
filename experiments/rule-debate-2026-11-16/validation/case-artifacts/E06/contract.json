@@ -1,0 +1,12 @@
+{
+  "protected_literals": [
+    {
+      "text": "40 °C",
+      "min_count": 1
+    },
+    {
+      "text": "10 min",
+      "min_count": 1
+    }
+  ]
+}

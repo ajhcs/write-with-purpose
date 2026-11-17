@@ -1,0 +1,131 @@
+{
+  "status": "Proposed mappings; source rubric effectiveness scores are not professional writing norms. Concluding summary is the rubric wording; Concluding Statement is the released CSV value.",
+  "records": [
+    {
+      "dataset": "PERSUADE 2.0",
+      "original_label": "Lead",
+      "serialized_label": "Lead",
+      "source_definition_paraphrase": "Opening that attracts attention and points toward the position.",
+      "source_unit": "character span within a school essay; not a paragraph",
+      "proposed_functions": [
+        "orient"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "It must prepare this reader for the argument; introduction position alone does not establish orientation.",
+      "counterexample": "A generic attention-grabber can fail to orient.",
+      "definition_evidence": "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/argumentation_effectiveness_rubric.pdf#page=1",
+      "deterministic_checks": "Check exact released label, essay/discourse IDs, offsets, text alignment and any explicit hierarchy IDs. Do not infer quality or claim targets from role membership."
+    },
+    {
+      "dataset": "PERSUADE 2.0",
+      "original_label": "Position",
+      "serialized_label": "Position",
+      "source_definition_paraphrase": "Stance addressing the assigned topic.",
+      "source_unit": "character span within a school essay; not a paragraph",
+      "proposed_functions": [
+        "assert"
+      ],
+      "mapping_kind": "partial",
+      "condition": "Identify the stance and its author; a source label includes weak or irrelevant attempts.",
+      "counterexample": "A prompt repetition rated as a position may not advance a clear proposition.",
+      "definition_evidence": "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/argumentation_effectiveness_rubric.pdf#page=1",
+      "deterministic_checks": "Check exact released label, essay/discourse IDs, offsets, text alignment and any explicit hierarchy IDs. Do not infer quality or claim targets from role membership."
+    },
+    {
+      "dataset": "PERSUADE 2.0",
+      "original_label": "Claim",
+      "serialized_label": "Claim",
+      "source_definition_paraphrase": "Point or perspective offered in relation to the position.",
+      "source_unit": "character span within a school essay; not a paragraph",
+      "proposed_functions": [
+        "assert",
+        "support"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "Assert if it offers a proposition; support requires its relation to an identifiable position or claim.",
+      "counterexample": "A disconnected claim is not support merely because it has this label.",
+      "definition_evidence": "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/argumentation_effectiveness_rubric.pdf#page=1",
+      "deterministic_checks": "Check exact released label, essay/discourse IDs, offsets, text alignment and any explicit hierarchy IDs. Do not infer quality or claim targets from role membership."
+    },
+    {
+      "dataset": "PERSUADE 2.0",
+      "original_label": "Counterclaim",
+      "serialized_label": "Counterclaim",
+      "source_definition_paraphrase": "Opposing position or objection to the writer's position.",
+      "source_unit": "character span within a school essay; not a paragraph",
+      "proposed_functions": [
+        "report",
+        "assert"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "Retain opposing voice and target; distinguish reporting an objection from endorsing it.",
+      "counterexample": "An objection is not automatically a qualification accepted by the author.",
+      "definition_evidence": "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/argumentation_effectiveness_rubric.pdf#page=2",
+      "deterministic_checks": "Check exact released label, essay/discourse IDs, offsets, text alignment and any explicit hierarchy IDs. Do not infer quality or claim targets from role membership."
+    },
+    {
+      "dataset": "PERSUADE 2.0",
+      "original_label": "Rebuttal",
+      "serialized_label": "Rebuttal",
+      "source_definition_paraphrase": "Response intended to answer or refute a counterclaim.",
+      "source_unit": "character span within a school essay; not a paragraph",
+      "proposed_functions": [
+        "assert",
+        "support",
+        "interpret",
+        "qualify"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "Record opposition and target; determine whether it reasons, infers or limits a claim.",
+      "counterexample": "A dismissal without reasons is not support; a flat rejection is not necessarily qualification.",
+      "definition_evidence": "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/argumentation_effectiveness_rubric.pdf#page=2",
+      "deterministic_checks": "Check exact released label, essay/discourse IDs, offsets, text alignment and any explicit hierarchy IDs. Do not infer quality or claim targets from role membership."
+    },
+    {
+      "dataset": "PERSUADE 2.0",
+      "original_label": "Evidence",
+      "serialized_label": "Evidence",
+      "source_definition_paraphrase": "Material intended to support a claim, including facts, reasons or examples.",
+      "source_unit": "character span within a school essay; not a paragraph",
+      "proposed_functions": [
+        "support",
+        "illustrate",
+        "report"
+      ],
+      "mapping_kind": "partial",
+      "condition": "Support requires the identifiable claim and connection; distinguish a reported fact, invented illustration and empirical evidence.",
+      "counterexample": "The rubric includes ineffective evidence, which can be irrelevant or unsubstantiated.",
+      "definition_evidence": "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/argumentation_effectiveness_rubric.pdf#page=2",
+      "deterministic_checks": "Check exact released label, essay/discourse IDs, offsets, text alignment and any explicit hierarchy IDs. Do not infer quality or claim targets from role membership."
+    },
+    {
+      "dataset": "PERSUADE 2.0",
+      "original_label": "Concluding summary",
+      "serialized_label": "Concluding Statement",
+      "source_definition_paraphrase": "Restatement of claims, possibly reconsidered in light of evidence.",
+      "source_unit": "character span within a school essay; not a paragraph",
+      "proposed_functions": [
+        "report",
+        "interpret"
+      ],
+      "mapping_kind": "conditional",
+      "condition": "A faithful recap reports; a new implication or inference interprets.",
+      "counterexample": "Restating a position does not automatically synthesize new meaning.",
+      "definition_evidence": "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/argumentation_effectiveness_rubric.pdf#page=3",
+      "deterministic_checks": "Check exact released label, essay/discourse IDs, offsets, text alignment and any explicit hierarchy IDs. Do not infer quality or claim targets from role membership."
+    },
+    {
+      "dataset": "PERSUADE 2.0",
+      "original_label": "Unannotated",
+      "serialized_label": "Unannotated",
+      "source_definition_paraphrase": "Released CSV value outside the seven rubric roles.",
+      "source_unit": "character span within a school essay; not a paragraph",
+      "proposed_functions": [],
+      "mapping_kind": "none",
+      "condition": "Keep the span and its unannotated status for open review.",
+      "counterexample": "Unannotated does not establish that a span has no communicative function.",
+      "definition_evidence": "https://raw.githubusercontent.com/scrosseye/persuade_corpus_2.0/main/argumentation_effectiveness_rubric.pdf (CSV inventory, not rubric)",
+      "deterministic_checks": "Check exact released label, essay/discourse IDs, offsets, text alignment and any explicit hierarchy IDs. Do not infer quality or claim targets from role membership."
+    }
+  ]
+}

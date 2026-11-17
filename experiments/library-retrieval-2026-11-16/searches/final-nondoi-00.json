@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p01",
+      "doi": "",
+      "title": "Poor Teeth",
+      "authors": "[\"Sarah Smarsh\"]",
+      "field": "personal_public_writing",
+      "q": "\"Poor Teeth\" Smarsh pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p01",
+      "query": "\"Poor Teeth\" Smarsh pdf",
+      "urls": [
+        {
+          "title": "Poor Teeth",
+          "url": "https://scalar.usc.edu/works/bodies/poor-teeth.meta",
+          "score": 1
+        },
+        {
+          "title": "The Shame of Poor Teeth in a Rich World - Longreads",
+          "url": "https://longreads.com/2014/10/23/the-shame-of-poor-teeth-in-a-rich-world/",
+          "score": 1
+        },
+        {
+          "title": "What our teeth reveal about the growing gap between rich and poor - ABC News",
+          "url": "https://www.abc.net.au/news/2026-02-07/teeth-reveal-growing-gap-rich-poor/106314470",
+          "score": 1
+        },
+        {
+          "title": "Smarsh - Poor Teeth.pdf - 9/3/2020 There is no shame worse than poor teeth in a rich world | Aeon Essays Photo by Bruce Gilden/Magnum Poor teeth If you | Course Hero",
+          "url": "https://www.coursehero.com/file/215876282/Smarsh-Poor-Teethpdf/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

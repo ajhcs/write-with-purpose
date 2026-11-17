@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "personal:p04",
+      "doi": "",
+      "title": "The Case for Reparations",
+      "authors": "[\"Ta-Nehisi Coates\"]",
+      "field": "personal_public_writing",
+      "q": "\"The Case for Reparations\" Coates pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "personal:p04",
+      "query": "\"The Case for Reparations\" Coates pdf",
+      "urls": [
+        {
+          "title": "The Case for Reparations by Ta-Nehisi Coates - The Atlantic",
+          "url": "https://archive.ph/ZMsxk",
+          "score": 1
+        },
+        {
+          "title": "The Case for Reparations – from The Atlantic – June 2014 issue – Toby A. Smith – Books & More",
+          "url": "https://tobyasmith.com/2019/06/20/the-case-for-reparations-from-the-atlantic-june-2014-issue/",
+          "score": 1
+        },
+        {
+          "title": "The Case for Reparations by Ta-Nehisi Coates - The Atlantic (pdf) - CliffsNotes",
+          "url": "https://www.cliffsnotes.com/study-notes/26905933",
+          "score": 1
+        },
+        {
+          "title": "Conversations on Race - The Case for Reparations",
+          "url": "https://sites.google.com/view/conversations-on-race/archive/the-case-for-reparations",
+          "score": 1
+        },
+        {
+          "title": "The Case for Reparations Explained | PDF | Federal Housing Administration | Slavery",
+          "url": "https://www.scribd.com/document/963194884/The-Case-for-Reparations-Coates",
+          "score": 1
+        },
+        {
+          "title": "The Case for Reparations",
+          "url": "https://bibbase.org/network/publication/coates-thecaseforreparations-2014",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

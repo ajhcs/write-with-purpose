@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_29",
+      "doi": "",
+      "title": "Quantum Entanglement and Information",
+      "authors": "[\"Jeffrey Bub\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Quantum Entanglement and Information\" Bub pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_29",
+      "query": "\"Quantum Entanglement and Information\" Bub pdf",
+      "urls": [
+        {
+          "title": "Quantum Entanglement and Information",
+          "url": "https://plato.stanford.edu/archives/sum2026/entries/qt-entangle/",
+          "score": 1
+        },
+        {
+          "title": "Quantum Entanglement and Information",
+          "url": "https://plato.stanford.edu/entries/qt-entangle/",
+          "score": 1
+        },
+        {
+          "title": "Quantum Entanglement and Information",
+          "url": "https://plato.stanford.edu/archives/fall2018/entries/qt-entangle/",
+          "score": 1
+        },
+        {
+          "title": "Quantum Entanglement and Information",
+          "url": "https://philpapers.org/rec/BUBQEA-2",
+          "score": 1
+        },
+        {
+          "title": "Linked bibliography for the SEP article \"Quantum Entanglement and Information\" by Jeffrey Bub - PhilPapers",
+          "url": "https://philpapers.org/sep/qt-entangle/",
+          "score": 1
+        },
+        {
+          "title": "Quantum entanglement and information",
+          "url": "https://philpapers.org/rec/bubqea",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

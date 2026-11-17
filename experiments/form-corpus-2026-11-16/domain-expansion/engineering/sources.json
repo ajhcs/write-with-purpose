@@ -1,0 +1,92 @@
+{
+  "retrieved_utc": "2026-11-16T01:26:50.343985+00:00",
+  "provider": "OpenAlex public API, no key",
+  "queries": [
+    {
+      "field": "mechanical engineering",
+      "intended_journal": "Journal of Mechanical Design",
+      "issn": "1050-0472",
+      "provider": "OpenAlex",
+      "request_url": "https://api.openalex.org/works?filter=primary_location.source.issn%3A1050-0472%2Cfrom_publication_date%3A2000-01-01%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Cprimary_location%2Copen_access%2Ccited_by_count%2Ctype%2Cbiblio",
+      "retrieved_utc": "2026-11-16T01:26:48.713530+00:00",
+      "status": 200,
+      "provider_total_matches": 1996,
+      "returned": 50
+    },
+    {
+      "field": "mechanical engineering: thermal",
+      "intended_journal": "Journal of Heat Transfer",
+      "issn": "0022-1481",
+      "provider": "OpenAlex",
+      "request_url": "https://api.openalex.org/works?filter=primary_location.source.issn%3A0022-1481%2Cfrom_publication_date%3A2000-01-01%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Cprimary_location%2Copen_access%2Ccited_by_count%2Ctype%2Cbiblio",
+      "retrieved_utc": "2026-11-16T01:26:49.019492+00:00",
+      "status": 200,
+      "provider_total_matches": 2954,
+      "returned": 50
+    },
+    {
+      "field": "civil engineering: structures",
+      "intended_journal": "Journal of Structural Engineering",
+      "issn": "0733-9445",
+      "provider": "OpenAlex",
+      "request_url": "https://api.openalex.org/works?filter=primary_location.source.issn%3A0733-9445%2Cfrom_publication_date%3A2000-01-01%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Cprimary_location%2Copen_access%2Ccited_by_count%2Ctype%2Cbiblio",
+      "retrieved_utc": "2026-11-16T01:26:49.243287+00:00",
+      "status": 200,
+      "provider_total_matches": 3175,
+      "returned": 50
+    },
+    {
+      "field": "electrical engineering: power systems",
+      "intended_journal": "IEEE Transactions on Power Systems",
+      "issn": "0885-8950",
+      "provider": "OpenAlex",
+      "request_url": "https://api.openalex.org/works?filter=primary_location.source.issn%3A0885-8950%2Cfrom_publication_date%3A2000-01-01%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Cprimary_location%2Copen_access%2Ccited_by_count%2Ctype%2Cbiblio",
+      "retrieved_utc": "2026-11-16T01:26:49.569615+00:00",
+      "status": 200,
+      "provider_total_matches": 4272,
+      "returned": 50
+    },
+    {
+      "field": "software engineering",
+      "intended_journal": "IEEE Transactions on Software Engineering",
+      "issn": "0098-5589",
+      "provider": "OpenAlex",
+      "request_url": "https://api.openalex.org/works?filter=primary_location.source.issn%3A0098-5589%2Cfrom_publication_date%3A2000-01-01%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Cprimary_location%2Copen_access%2Ccited_by_count%2Ctype%2Cbiblio",
+      "retrieved_utc": "2026-11-16T01:26:49.810076+00:00",
+      "status": 200,
+      "provider_total_matches": 1339,
+      "returned": 50
+    },
+    {
+      "field": "systems engineering",
+      "intended_journal": "Systems Engineering",
+      "issn": "1098-1241",
+      "provider": "OpenAlex",
+      "request_url": "https://api.openalex.org/works?filter=primary_location.source.issn%3A1098-1241%2Cfrom_publication_date%3A2000-01-01%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Cprimary_location%2Copen_access%2Ccited_by_count%2Ctype%2Cbiblio",
+      "retrieved_utc": "2026-11-16T01:26:50.129196+00:00",
+      "status": 200,
+      "provider_total_matches": 3168,
+      "returned": 50
+    },
+    {
+      "field": "civil engineering: construction",
+      "intended_journal": "Journal of Construction Engineering and Management",
+      "issn": "0733-9364",
+      "provider": "OpenAlex",
+      "request_url": "https://api.openalex.org/works?filter=primary_location.source.issn%3A0733-9364%2Cfrom_publication_date%3A2000-01-01%2Cto_publication_date%3A2014-12-31%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cauthorships%2Cprimary_location%2Copen_access%2Ccited_by_count%2Ctype%2Cbiblio",
+      "retrieved_utc": "2026-11-16T01:26:50.336146+00:00",
+      "status": 200,
+      "provider_total_matches": 1942,
+      "returned": 50
+    }
+  ],
+  "selection": "top 50 article records per named journal, publication years 2000\u20132014, sorted by OpenAlex cited_by_count descending; exclude records without DOI or date; deduplicate by OpenAlex ID",
+  "ieee_sort_reference": "https://ieeexplore.ieee.org/Xplorehelp/searching-ieee-xplore/search-results-page",
+  "ieee_reference_note": "Context for IEEE Xplore sorting only; rankings here are OpenAlex, not IEEE Xplore.",
+  "crossref_validation": {
+    "provider": "Crossref REST API",
+    "documentation": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+    "result": "8 successful responses, 342 HTTP 429 rate-limit failures during automated spot checks; no retries; individual outcomes retained in each record",
+    "interpretation": "Successful title matches do not verify all fields. 342 citations retain the OpenAlex indexed year with issue year unverified."
+  }
+}

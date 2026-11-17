@@ -1,0 +1,833 @@
+[
+  {
+    "id": "xml-02359",
+    "title": "A systematic review of evidence on the links between patient experience and clinical safety and effectiveness",
+    "doi": "10.1136/bmjopen-2012-001570",
+    "pmcid": "PMC3549241",
+    "journal": "BMJ Open",
+    "earliest_reported_year": "2013",
+    "year_basis": "earliest_reported_XML_or_discovery_year",
+    "reported_years": "2013",
+    "xml_publication_dates": [
+      {
+        "type": "collection",
+        "year": "2013"
+      },
+      {
+        "type": "epub",
+        "year": "2013"
+      }
+    ],
+    "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC3549241.xml",
+    "private_xml_copy": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02359.xml",
+    "date_disagreement": "False",
+    "source_sha256": "39a605236c34dddc7fb7f92f763b893b72fc4e648ec4901316e8f4f4bcba2c47",
+    "normalized_cache_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02359.txt",
+    "normalized_cache_sha256": "527e3bc5fd2cdfd0a0778a3ea11d7aca21734f5c6bd5a51b583c238959c41336",
+    "paragraphs": 30,
+    "sections": [
+      {
+        "id": "s1",
+        "heading": "Introduction",
+        "parent": null
+      },
+      {
+        "id": "s2",
+        "heading": "Methods",
+        "parent": null
+      },
+      {
+        "id": "s2a",
+        "heading": "Identifying variables relevant to patient experience",
+        "parent": "s2"
+      },
+      {
+        "id": "s2b",
+        "heading": "Inclusion criteria, assessment of quality and categorisation of evidence",
+        "parent": "s2"
+      },
+      {
+        "id": "s3",
+        "heading": "Results",
+        "parent": null
+      },
+      {
+        "id": "s4",
+        "heading": "Discussion",
+        "parent": null
+      },
+      {
+        "id": "s5",
+        "heading": "Study strengths and limitations",
+        "parent": null
+      },
+      {
+        "id": "s6",
+        "heading": "Conclusion",
+        "parent": null
+      }
+    ],
+    "encountered_element_counts": {
+      "boxed-text": 1,
+      "sec": 9,
+      "title": 8,
+      "p": 30,
+      "table-wrap": 6,
+      "fig": 1
+    }
+  },
+  {
+    "id": "xml-02334",
+    "title": "Long-term neurodevelopmental outcomes after intrauterine and neonatal insults: a systematic review",
+    "doi": "10.1016/s0140-6736(11)61577-8",
+    "pmcid": "PMC3273721",
+    "journal": "Lancet",
+    "earliest_reported_year": "2012",
+    "year_basis": "earliest_reported_XML_or_discovery_year",
+    "reported_years": "2012",
+    "xml_publication_dates": [
+      {
+        "type": "ppub",
+        "year": "2012"
+      }
+    ],
+    "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC3273721.xml",
+    "private_xml_copy": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02334.xml",
+    "date_disagreement": "False",
+    "source_sha256": "125c062cedd823c5de8bb699e99069125d8bdcabd3afe9246aecfca0b3822651",
+    "normalized_cache_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02334.txt",
+    "normalized_cache_sha256": "1148c347a28a1d954f052f8934c96d9c51e64a9fa9c1b90443b8847c6d2e8893",
+    "paragraphs": 27,
+    "sections": [
+      {
+        "id": "cesec10",
+        "heading": "Introduction",
+        "parent": null
+      },
+      {
+        "id": "cesec20",
+        "heading": "Methods",
+        "parent": null
+      },
+      {
+        "id": "cesec30",
+        "heading": "Search strategy and selection criteria",
+        "parent": "cesec20"
+      },
+      {
+        "id": "cesec40",
+        "heading": "Data extraction",
+        "parent": "cesec20"
+      },
+      {
+        "id": "cesec50",
+        "heading": "Statistical analysis",
+        "parent": "cesec20"
+      },
+      {
+        "id": "cesec70",
+        "heading": "Results",
+        "parent": null
+      },
+      {
+        "id": "cesec80",
+        "heading": "Discussion",
+        "parent": null
+      }
+    ],
+    "encountered_element_counts": {
+      "sec": 8,
+      "title": 7,
+      "p": 27
+    }
+  },
+  {
+    "id": "xml-02298",
+    "title": "Validation and validity of diagnoses in the General Practice Research Database: a systematic review",
+    "doi": "10.1111/j.1365-2125.2009.03537.x",
+    "pmcid": "PMC2805870",
+    "journal": "British Journal of Clinical Pharmacology",
+    "earliest_reported_year": "2010",
+    "year_basis": "earliest_reported_XML_or_discovery_year",
+    "reported_years": "2010",
+    "xml_publication_dates": [
+      {
+        "type": "ppub",
+        "year": "2010"
+      }
+    ],
+    "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC2805870.xml",
+    "private_xml_copy": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02298.xml",
+    "date_disagreement": "False",
+    "source_sha256": "f603ac5be9cda2adb455f06648e3d3c460dfa97dfe1bf2e5f11b86d097bbd3d3",
+    "normalized_cache_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02298.txt",
+    "normalized_cache_sha256": "57e00ff2826816c5cb3babfcf64e27a184eb7ec58f547bfed4769b6e3918da35",
+    "paragraphs": 33,
+    "sections": [
+      {
+        "id": "generated-1",
+        "heading": "Introduction",
+        "parent": null
+      },
+      {
+        "id": "generated-2",
+        "heading": "Methods",
+        "parent": null
+      },
+      {
+        "id": "generated-3",
+        "heading": "Search strategy",
+        "parent": "generated-2"
+      },
+      {
+        "id": "generated-4",
+        "heading": "Study selection",
+        "parent": "generated-2"
+      },
+      {
+        "id": "generated-5",
+        "heading": "Inclusion criteria",
+        "parent": "generated-2"
+      },
+      {
+        "id": "generated-6",
+        "heading": "Data extraction",
+        "parent": "generated-2"
+      },
+      {
+        "id": "generated-7",
+        "heading": "Data analysis",
+        "parent": "generated-2"
+      },
+      {
+        "id": "generated-8",
+        "heading": "Results",
+        "parent": null
+      },
+      {
+        "id": "generated-9",
+        "heading": "Estimates of validity",
+        "parent": "generated-8"
+      },
+      {
+        "id": "generated-10",
+        "heading": "Quality of reporting",
+        "parent": "generated-8"
+      },
+      {
+        "id": "generated-11",
+        "heading": "Discussion",
+        "parent": null
+      },
+      {
+        "id": "generated-12",
+        "heading": "Conclusion",
+        "parent": null
+      }
+    ],
+    "encountered_element_counts": {
+      "sec": 12,
+      "title": 12,
+      "p": 33,
+      "table-wrap": 4,
+      "fig": 3
+    }
+  },
+  {
+    "id": "xml-02415",
+    "title": "The Effectiveness of Convalescent Plasma and Hyperimmune Immunoglobulin for the Treatment of Severe Acute Respiratory Infections of Viral Etiology: A Systematic Review and Exploratory Meta-analysis",
+    "doi": "10.1093/infdis/jiu396",
+    "pmcid": "PMC4264590",
+    "journal": "The Journal of Infectious Diseases",
+    "earliest_reported_year": "2014",
+    "year_basis": "earliest_reported_XML_or_discovery_year",
+    "reported_years": "2014|2015",
+    "xml_publication_dates": [
+      {
+        "type": null,
+        "year": "2014"
+      }
+    ],
+    "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC4264590.xml",
+    "private_xml_copy": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02415.xml",
+    "date_disagreement": "True",
+    "source_sha256": "31c9672d54a4d1066b6b3727b355ccfa7b1b1c15a6594d7a90ac51855f544efa",
+    "normalized_cache_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02415.txt",
+    "normalized_cache_sha256": "b6b212d13923a3beff50dc6274232f48713af696f0b5a381843bb9de4a1e0187",
+    "paragraphs": 38,
+    "sections": [
+      {
+        "id": "s2",
+        "heading": "METHODS",
+        "parent": null
+      },
+      {
+        "id": "s2a",
+        "heading": "Search Strategy and Study Selection",
+        "parent": "s2"
+      },
+      {
+        "id": "s2b",
+        "heading": "Data Collection",
+        "parent": "s2"
+      },
+      {
+        "id": "s2c",
+        "heading": "Risk of Bias Within Studies",
+        "parent": "s2"
+      },
+      {
+        "id": "s2d",
+        "heading": "Summary Measures and Synthesis of Results",
+        "parent": "s2"
+      },
+      {
+        "id": "s3",
+        "heading": "RESULTS",
+        "parent": null
+      },
+      {
+        "id": "s3a",
+        "heading": "Study Selection",
+        "parent": "s3"
+      },
+      {
+        "id": "s3b",
+        "heading": "Study Characteristics",
+        "parent": "s3"
+      },
+      {
+        "id": "s3c",
+        "heading": "Risk of Bias Within Studies",
+        "parent": "s3"
+      },
+      {
+        "id": "s3d",
+        "heading": "Results of Individual Studies and Data Synthesis",
+        "parent": "s3"
+      },
+      {
+        "id": "s3e",
+        "heading": "Mortality",
+        "parent": "s3"
+      },
+      {
+        "id": "s3e1",
+        "heading": "SARS-CoV Infection",
+        "parent": "s3e"
+      },
+      {
+        "id": "s3e2",
+        "heading": "Influenza A(H1N1)pdm09 Infection",
+        "parent": "s3e"
+      },
+      {
+        "id": "s3e3",
+        "heading": "Avian Influenza A(H5N1) Infection",
+        "parent": "s3e"
+      },
+      {
+        "id": "s3e4",
+        "heading": "Spanish Influenza A(H1N1) Infection",
+        "parent": "s3e"
+      },
+      {
+        "id": "s3e5",
+        "heading": "Exploratory Post Hoc Meta-analysis",
+        "parent": "s3e"
+      },
+      {
+        "id": "s3f",
+        "heading": "Hospital Length of Stay",
+        "parent": "s3"
+      },
+      {
+        "id": "s3g",
+        "heading": "Duration of Critical Care Support",
+        "parent": "s3"
+      },
+      {
+        "id": "s3h",
+        "heading": "Viral Antibody Levels",
+        "parent": "s3"
+      },
+      {
+        "id": "s3i",
+        "heading": "Viral Load",
+        "parent": "s3"
+      },
+      {
+        "id": "s3j",
+        "heading": "Severe Adverse Events and Treatment Complications",
+        "parent": "s3"
+      },
+      {
+        "id": "s4",
+        "heading": "DISCUSSION",
+        "parent": null
+      },
+      {
+        "id": "s4a",
+        "heading": "Limitations",
+        "parent": "s4"
+      },
+      {
+        "id": "s4b",
+        "heading": "Implications for Practice",
+        "parent": "s4"
+      },
+      {
+        "id": "s4c",
+        "heading": "Further Research Needs",
+        "parent": "s4"
+      },
+      {
+        "id": "s4d",
+        "heading": "Conclusion",
+        "parent": "s4"
+      }
+    ],
+    "encountered_element_counts": {
+      "p": 38,
+      "sec": 31,
+      "title": 26,
+      "fig": 4,
+      "table-wrap": 3
+    }
+  },
+  {
+    "id": "xml-02282",
+    "title": "Diabetes Mellitus Increases the Risk of Active Tuberculosis: A Systematic Review of 13 Observational Studies",
+    "doi": "10.1371/journal.pmed.0050152",
+    "pmcid": "PMC2459204",
+    "journal": "PLoS Medicine",
+    "earliest_reported_year": "2008",
+    "year_basis": "earliest_reported_XML_or_discovery_year",
+    "reported_years": "2008",
+    "xml_publication_dates": [
+      {
+        "type": null,
+        "year": "2008"
+      }
+    ],
+    "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC2459204.xml",
+    "private_xml_copy": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02282.xml",
+    "date_disagreement": "False",
+    "source_sha256": "f93142c43a9d09b5e4c84f6a0b2ff1d2755c9b5e04b43077d8b73730c62cce93",
+    "normalized_cache_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02282.txt",
+    "normalized_cache_sha256": "ed9c491146ca461a648bd8f0ab5da2056f29a0bcf57817ac80ebee84e208feb5",
+    "paragraphs": 22,
+    "sections": [
+      {
+        "id": "s1",
+        "heading": "Introduction",
+        "parent": null
+      },
+      {
+        "id": "s2",
+        "heading": "Methods",
+        "parent": null
+      },
+      {
+        "id": "s2a",
+        "heading": "Search Strategy and Selection Criteria",
+        "parent": "s2"
+      },
+      {
+        "id": "s2b",
+        "heading": "Data Extraction",
+        "parent": "s2"
+      },
+      {
+        "id": "s2c",
+        "heading": "Data Analysis",
+        "parent": "s2"
+      },
+      {
+        "id": "s3",
+        "heading": "Results",
+        "parent": null
+      },
+      {
+        "id": "s4",
+        "heading": "Discussion",
+        "parent": null
+      },
+      {
+        "id": "s4a",
+        "heading": "Summary of Findings",
+        "parent": "s4"
+      },
+      {
+        "id": "s4b",
+        "heading": "Public Health Implication",
+        "parent": "s4"
+      },
+      {
+        "id": "s4c",
+        "heading": "Biological Plausibility",
+        "parent": "s4"
+      },
+      {
+        "id": "s4d",
+        "heading": "Limitations",
+        "parent": "s4"
+      },
+      {
+        "id": "s4e",
+        "heading": "Conclusions",
+        "parent": "s4"
+      }
+    ],
+    "encountered_element_counts": {
+      "sec": 18,
+      "title": 12,
+      "p": 22,
+      "boxed-text": 1,
+      "fig": 3,
+      "table-wrap": 3
+    }
+  },
+  {
+    "id": "xml-02382",
+    "title": "A systematic review of interventions to reduce HIV-related stigma and discrimination from 2002 to 2013: how far have we come?",
+    "doi": "10.7448/ias.16.3.18734",
+    "pmcid": "PMC3833106",
+    "journal": "Journal of the International AIDS Society",
+    "earliest_reported_year": "2013",
+    "year_basis": "earliest_reported_XML_or_discovery_year",
+    "reported_years": "2013",
+    "xml_publication_dates": [
+      {
+        "type": null,
+        "year": "2013"
+      }
+    ],
+    "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC3833106.xml",
+    "private_xml_copy": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02382.xml",
+    "date_disagreement": "False",
+    "source_sha256": "87bebfa927bb0cac2bd5ca3a2df45d4fed40cb011d9370a4cece58916525e3e6",
+    "normalized_cache_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02382.txt",
+    "normalized_cache_sha256": "7bffb690a7999a0b8ef33ef431cf160a85b2638953f025224c1f264e9d1d4c23",
+    "paragraphs": 50,
+    "sections": [
+      {
+        "id": "S0001",
+        "heading": "Introduction",
+        "parent": null
+      },
+      {
+        "id": "S0001-S20001",
+        "heading": "Stigma conceptualizations and terminology",
+        "parent": "S0001"
+      },
+      {
+        "id": "S0001-S20002",
+        "heading": "Previous reviews",
+        "parent": "S0001"
+      },
+      {
+        "id": "S0001-S20003",
+        "heading": "Current review",
+        "parent": "S0001"
+      },
+      {
+        "id": "S0002",
+        "heading": "Methods",
+        "parent": null
+      },
+      {
+        "id": "S0002-S20001",
+        "heading": "Search strategy and selection criteria",
+        "parent": "S0002"
+      },
+      {
+        "id": "S0002-S20002",
+        "heading": "Screening and data abstraction",
+        "parent": "S0002"
+      },
+      {
+        "id": "S0002-S20003",
+        "heading": "Quality assessment",
+        "parent": "S0002"
+      },
+      {
+        "id": "S0002-S20004",
+        "heading": "Data synthesis",
+        "parent": "S0002"
+      },
+      {
+        "id": "S0003",
+        "heading": "Results",
+        "parent": null
+      },
+      {
+        "id": "S0003-S20001",
+        "heading": "Study and intervention characteristics",
+        "parent": "S0003"
+      },
+      {
+        "id": "S0003-S20002",
+        "heading": "Study design and measures",
+        "parent": "S0003"
+      },
+      {
+        "id": "S0003-S20003",
+        "heading": "Study duration and outcomes",
+        "parent": "S0003"
+      },
+      {
+        "id": "S0003-S20004",
+        "heading": "Quality assessment",
+        "parent": "S0003"
+      },
+      {
+        "id": "S0004",
+        "heading": "Discussion",
+        "parent": null
+      },
+      {
+        "id": "S0004-S20001",
+        "heading": "Progress in the field",
+        "parent": "S0004"
+      },
+      {
+        "id": "S0004-S20002",
+        "heading": "Challenges and gaps",
+        "parent": "S0004"
+      },
+      {
+        "id": "sec22",
+        "heading": "Intervention",
+        "parent": "S0004-S20002"
+      },
+      {
+        "id": "sec23",
+        "heading": "Methodology",
+        "parent": "S0004-S20002"
+      },
+      {
+        "id": "sec24",
+        "heading": "Measurement",
+        "parent": "S0004-S20002"
+      },
+      {
+        "id": "S0004-S20003",
+        "heading": "Limitations",
+        "parent": "S0004"
+      },
+      {
+        "id": "S0005",
+        "heading": "Conclusions",
+        "parent": null
+      }
+    ],
+    "encountered_element_counts": {
+      "sec": 27,
+      "title": 22,
+      "p": 50,
+      "list": 2,
+      "table-wrap": 2,
+      "fig": 2
+    }
+  },
+  {
+    "id": "xml-02317",
+    "title": "Pretreatment serum albumin as a predictor of cancer survival: A systematic review of the epidemiological literature",
+    "doi": "10.1186/1475-2891-9-69",
+    "pmcid": "PMC3019132",
+    "journal": "Nutrition Journal",
+    "earliest_reported_year": "2010",
+    "year_basis": "earliest_reported_XML_or_discovery_year",
+    "reported_years": "2010",
+    "xml_publication_dates": [
+      {
+        "type": null,
+        "year": "2010"
+      }
+    ],
+    "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC3019132.xml",
+    "private_xml_copy": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02317.xml",
+    "date_disagreement": "False",
+    "source_sha256": "a863c8bb0ada539f58eccf015f46885c5f4173cfd8e8bb62757a8108e461976f",
+    "normalized_cache_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02317.txt",
+    "normalized_cache_sha256": "b260182ce565792aab45bc7327c67d67f62f9ed688f566c52dd8891431a89451",
+    "paragraphs": 38,
+    "sections": [
+      {
+        "id": "sec5",
+        "heading": "Introduction",
+        "parent": null
+      },
+      {
+        "id": "sec6",
+        "heading": "Methods",
+        "parent": null
+      },
+      {
+        "id": "sec7",
+        "heading": "Results",
+        "parent": null
+      },
+      {
+        "id": "sec8",
+        "heading": "Gastrointestinal Cancer",
+        "parent": "sec7"
+      },
+      {
+        "id": "sec9",
+        "heading": "Lung Cancer",
+        "parent": "sec7"
+      },
+      {
+        "id": "sec10",
+        "heading": "Female Cancers",
+        "parent": "sec7"
+      },
+      {
+        "id": "sec11",
+        "heading": "Multiple Cancers",
+        "parent": "sec7"
+      },
+      {
+        "id": "sec12",
+        "heading": "Other Cancer Sites",
+        "parent": "sec7"
+      },
+      {
+        "id": "sec13",
+        "heading": "Discussion",
+        "parent": null
+      }
+    ],
+    "encountered_element_counts": {
+      "sec": 14,
+      "title": 9,
+      "p": 38,
+      "table-wrap": 5
+    }
+  },
+  {
+    "id": "xml-02448",
+    "title": "Effect of lower sodium intake on health: systematic review and meta-analyses",
+    "doi": "10.1136/bmj.f1326",
+    "pmcid": "PMC4816261",
+    "journal": "The BMJ",
+    "earliest_reported_year": "2013",
+    "year_basis": "earliest_reported_XML_or_discovery_year",
+    "reported_years": "2013",
+    "xml_publication_dates": [
+      {
+        "type": null,
+        "year": "2013"
+      }
+    ],
+    "source_path": "/workspace/tmp/builderbob/writing-corpus/systematic-review/PMC4816261.xml",
+    "private_xml_copy": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02448.xml",
+    "date_disagreement": "False",
+    "source_sha256": "c26fa6bc63b941326a171c81f7254d5ea92e50f8850fd1d0eba2ccaf0a3207c3",
+    "normalized_cache_path": "/workspace/repos/builderbob/.writing-corpus-cache/pattern-test/systematic/xml-02448.txt",
+    "normalized_cache_sha256": "93ee8d0ca2015bdd86250dc23e0163701502c8b07e9b95c1a8ad05a2b6069b0d",
+    "paragraphs": 49,
+    "sections": [
+      {
+        "id": "sec1",
+        "heading": "Introduction",
+        "parent": null
+      },
+      {
+        "id": "sec2",
+        "heading": "Methods",
+        "parent": null
+      },
+      {
+        "id": "sec3",
+        "heading": "Search strategy and selection criteria",
+        "parent": "sec2"
+      },
+      {
+        "id": "sec4",
+        "heading": "Types of studies",
+        "parent": "sec2"
+      },
+      {
+        "id": "sec5",
+        "heading": "Outcome data",
+        "parent": "sec2"
+      },
+      {
+        "id": "sec6",
+        "heading": "Data extraction, risk of bias, and quality assessment",
+        "parent": "sec2"
+      },
+      {
+        "id": "sec7",
+        "heading": "Statistical analysis",
+        "parent": "sec2"
+      },
+      {
+        "id": "sec8",
+        "heading": "Results",
+        "parent": null
+      },
+      {
+        "id": "sec9",
+        "heading": "Study characteristics",
+        "parent": "sec8"
+      },
+      {
+        "id": "sec10",
+        "heading": "Effect estimates",
+        "parent": "sec8"
+      },
+      {
+        "id": "sec11",
+        "heading": "Blood pressure, renal function, blood lipids, and catecholamine levels in adults",
+        "parent": "sec10"
+      },
+      {
+        "id": "sec12",
+        "heading": "All cause mortality, cardiovascular disease, stroke, and coronary heart disease in adults",
+        "parent": "sec10"
+      },
+      {
+        "id": "sec13",
+        "heading": "Blood pressure, blood lipids, and catecholamine levels in children",
+        "parent": "sec10"
+      },
+      {
+        "id": "sec14",
+        "heading": "Quality of body of evidence",
+        "parent": "sec10"
+      },
+      {
+        "id": "sec15",
+        "heading": "Sensitivity analysis",
+        "parent": "sec10"
+      },
+      {
+        "id": "sec16",
+        "heading": "Discussion",
+        "parent": null
+      },
+      {
+        "id": "sec17",
+        "heading": "Strengths and limitations of this review",
+        "parent": "sec16"
+      },
+      {
+        "id": "sec18",
+        "heading": "Conclusion",
+        "parent": "sec16"
+      }
+    ],
+    "encountered_element_counts": {
+      "sec": 23,
+      "title": 18,
+      "p": 49,
+      "fig": 4,
+      "table-wrap": 5,
+      "boxed-text": 1
+    }
+  }
+]

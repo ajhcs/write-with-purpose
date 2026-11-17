@@ -1,0 +1,299 @@
+{
+  "candidate_id": "wwp-debate-0.1.1",
+  "status": "Proposed structured annotation guidance; not an implemented schema validator or new gold labels",
+  "function_ids": [
+    "orient",
+    "define",
+    "report",
+    "assert",
+    "support",
+    "explain",
+    "illustrate",
+    "compare",
+    "interpret",
+    "qualify",
+    "instruct",
+    "narrate"
+  ],
+  "relation_labels_retained": [
+    "supports",
+    "explains",
+    "illustrates",
+    "contrasts",
+    "qualifies",
+    "elaborates",
+    "follows"
+  ],
+  "functions": [
+    {
+      "id": "orient",
+      "old_id": "orient",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Prepare the reader with relevant context, a problem, stakes, or a change of direction.",
+      "candidate_presence_test": "Prepares an identifiable local or later contribution through context, stakes, problem or direction. Record the preparation target when disputed. Opening position alone is insufficient; a transition can orient without a heading.",
+      "separate_adequacy_question": "Is the preparation needed and well placed for this reader?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    },
+    {
+      "id": "define",
+      "old_id": "define",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Establish a concept's meaning, scope, distinguishing properties, or operational definition.",
+      "candidate_presence_test": "Establishes a term's meaning, scope, distinction or operation in context. A brief or partial definition can count. An example alone need not define; a usefully defining example may do both.",
+      "separate_adequacy_question": "Does the reader obtain the distinction needed here?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    },
+    {
+      "id": "report",
+      "old_id": "report",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Present a state, feature, method, result, or faithful summary with attribution and conditions.",
+      "candidate_presence_test": "Presents a state, action, result or attributed account. A faithful report of someone else's conclusion remains report at the current writer's level; retain that source's inferential status separately. Planned work and hypothetical descriptions are not completed observations.",
+      "separate_adequacy_question": "Is the account accurate, sufficiently attributed and appropriately complete?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    },
+    {
+      "id": "assert",
+      "old_id": "assert",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Offer a proposition for consideration, including a recommendation.",
+      "candidate_presence_test": "Foregrounds a position, hypothesis, recommendation or proposition for consideration at the selected speaker level. Do not assign it to every declarative sentence. Reporting an opponent's claim does not make it the current writer's endorsed assertion.",
+      "separate_adequacy_question": "Is its force warranted and its ownership clear?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    },
+    {
+      "id": "support",
+      "old_id": "support",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Connect evidence or reasoning to an identifiable claim.",
+      "candidate_presence_test": "Offers evidence or reasoning as a reason to accept a recoverable claim. Record that target and the offered connection. Support can be weak, hypothetical or nonempirical. A possible counterexample can logically support rejection of a universal inference without being observed population evidence. Citation presence alone does not count.",
+      "separate_adequacy_question": "Does this reason actually bear on this target, and how strong is it?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    },
+    {
+      "id": "explain",
+      "old_id": "explain",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Make a mechanism, dependency, reason, or relationship intelligible.",
+      "candidate_presence_test": "Develops how or why a mechanism, dependency, reason or conceptual relationship holds. It may be brief or attributed. Merely naming a cause, listing capabilities or placing events in order need not make the connection intelligible.",
+      "separate_adequacy_question": "Is the relationship understandable and supported?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    },
+    {
+      "id": "illustrate",
+      "old_id": "illustrate",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Make an idea recoverable through an instance, analogy, or worked case.",
+      "candidate_presence_test": "Uses an instance, analogy or worked case to make a target idea concrete. Mark its epistemic status. It can also support a claim when a distinct evidential or logical connection is offered.",
+      "separate_adequacy_question": "Does the case clarify without implying unsupported equivalence or frequency?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    },
+    {
+      "id": "compare",
+      "old_id": "compare",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Relate alternatives along a meaningful dimension.",
+      "candidate_presence_test": "Relates alternatives on a recoverable dimension. A contrast need not rank the options; an inventory of alternatives or opposition alone need not compare them.",
+      "separate_adequacy_question": "Is the dimension relevant and the treatment fair?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    },
+    {
+      "id": "interpret",
+      "old_id": "interpret",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Develop an inference, implication, synthesis, significance, or personal reflection.",
+      "candidate_presence_test": "Adds an inference, synthesis, significance or reflection at the selected discourse level. Faithful recap is report. State what was inferred from what. A source's interpretation can be reported without being adopted; explanation and interpretation can coexist when distinct work is done.",
+      "separate_adequacy_question": "Is the inference earned and suitably bounded?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    },
+    {
+      "id": "qualify",
+      "old_id": "qualify",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Bind scope, uncertainty, an exception, concession, or limitation to a claim.",
+      "candidate_presence_test": "Limits a recoverable proposition's scope, force, conditions or application. A small marker can count when its target and effect are clear; it need not fully explain the uncertainty. A rebuttal of someone else's universal rule is not automatically qualification of the author's own claim.",
+      "separate_adequacy_question": "Is the limitation the right one, and is it sufficient?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    },
+    {
+      "id": "instruct",
+      "old_id": "instruct",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Guide an executable action, including prerequisites, order, or expected results where needed.",
+      "candidate_presence_test": "Directs the addressed reader to an action, including a cognitive action such as considering a case when it functions as a directive. An incomplete or unsupported instruction can still be present. Completed Methods reports do not become instructions merely because a reader could imitate them. Track who is addressing whom in dialogue.",
+      "separate_adequacy_question": "Can this reader safely and correctly perform the intended task with the supplied context?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    },
+    {
+      "id": "narrate",
+      "old_id": "narrate",
+      "migration": "identity; historical annotations preserved; clarified decisions require new rule version/pass",
+      "prior_contribution": "Develop an event or experience through time, including nonchronological presentation.",
+      "candidate_presence_test": "Develops an event or experience through time, including hypothetical or nonchronological presentation when marked as such. It can coexist with report, explanation or illustration. A temporal connective or procedural sequence alone does not establish an additional narrative contribution.",
+      "separate_adequacy_question": "Does the sequence convey the intended experience without invented events or a forced lesson?",
+      "change_type": "Application/boundary clarification, not replacement of core contribution or validated category."
+    }
+  ],
+  "objective_modes": {
+    "runtime": "Selective assessment for a consequential authorized choice; unrecorded functions are not_assessed, never inferred absent.",
+    "research": "Definition development, reliability, boundary adjudication and annotation follow declared independent protocol, coverage and context regardless of edit consequence."
+  },
+  "candidate_record": {
+    "identity": [
+      "record_id",
+      "source_id",
+      "source_text_sha256",
+      "source_unit_ids",
+      "rule_version",
+      "coder_or_reviewer",
+      "context_reviewed"
+    ],
+    "context": [
+      "form_or_section_hypothesis with provenance/status",
+      "speaker_level",
+      "source_of_claim",
+      "addressed_reader",
+      "epistemic_status",
+      "context_status"
+    ],
+    "function_instance": [
+      "instance_id",
+      "function_id",
+      "assessment",
+      "contribution_reason",
+      "evidence_anchors",
+      "realization_extent",
+      "targets_if_applicable",
+      "alternatives_if_unresolved"
+    ],
+    "separate_judgments": [
+      "adequacy",
+      "source_fidelity_or_evidence_review",
+      "author_acceptance"
+    ],
+    "optional_scope": "Store only fields the mode and decision need; these are research-compatible records, not a compulsory per-paragraph runtime form."
+  },
+  "status_values": {
+    "assessment": [
+      "present",
+      "absent",
+      "unresolved",
+      "not_assessed"
+    ],
+    "context_status": [
+      "sufficient",
+      "insufficient",
+      "extraction_uncertain",
+      "unknown_legacy"
+    ],
+    "epistemic_status_examples": [
+      "observed",
+      "reported",
+      "planned",
+      "hypothetical",
+      "assumed",
+      "unknown"
+    ],
+    "realization_extent_status": [
+      "not_collected",
+      "partial",
+      "unresolved",
+      "complete_as_assessed"
+    ],
+    "adequacy": [
+      "not_assessed",
+      "sufficient_for_stated_task",
+      "needs_improvement",
+      "unresolved"
+    ],
+    "author_acceptance": [
+      "not_requested",
+      "pending",
+      "accepted",
+      "rejected",
+      "unknown_legacy"
+    ]
+  },
+  "status_constraints": [
+    "present means a communicative act is offered/performed in context, not effective, correct, true or accepted.",
+    "absent is a reviewed negative finding; retain its relevant context and reason. Missing labels or unavailable context do not imply absence.",
+    "unresolved retains competing readings or missing/extraction context; do not assign a fake numerical confidence.",
+    "not_assessed means no semantic decision; unknown legacy metadata is not upgraded by conversion.",
+    "An author acceptance record requires actual author evidence and scope; model selection is not acceptance.",
+    "Different instances of the same function can have different decisions and targets. Do not collapse before deriving a summary."
+  ],
+  "span_contract": {
+    "offsets": "zero-based Unicode code-point start/end-exclusive offsets in the identified normalized source text; keep normalization and source bytes separately traceable.",
+    "evidence_anchor": "Exact diagnostic source quotation(s), locator and source binding. Matching text establishes binding only.",
+    "realization_extent": "Separately reviewed complete/partial/discontinuous text extent performing the function; not inferred from diagnostic quote.",
+    "not_collected": "No zero length and no guessed span; keep status explicit.",
+    "overlap": "Allowed within and across functions; calculate per-function unions only with an explicit method; do not sum overlapping extents as paragraph budgets.",
+    "completeness": "complete_as_assessed is an analyst judgment, not proof from a parser or hash.",
+    "legacy": "Historical anchor spans remain anchors unless a new independent extent assessment is recorded."
+  },
+  "relation_contract": {
+    "target_kinds": [
+      "paragraph_id_coarse",
+      "source_span",
+      "discontinuous_span_group",
+      "grounded_implicit_proposition"
+    ],
+    "mandatory_when_present": "support, qualify, illustrate and orient require a recoverable target in the decision; other relations retain referents appropriate to their function. Serialized detailed targets are needed when the recording objective calls for them.",
+    "implicit_target": "Retain a paraphrase, grounding anchors and interpretation status; never manufacture a target to satisfy a schema.",
+    "targetless_absence": "An assessed negative may have no target only with sufficient context and target_absence_reason.",
+    "missing_target": "An unresolved finding from insufficient/extraction context retains missing_target_reason; it is not an assessed absence.",
+    "attribution": "Keep speaker, attributed source, addressed reader, author endorsement and opposed proposition distinct where relevant.",
+    "opposition": "For a logical counterexample, supports may target the writer rejection of a universal inference; record the opposed universal separately. No silent new attack label or imported relation equivalence.",
+    "legacy": "Old paragraph IDs remain coarse anchors; do not claim they identify exact proposition spans."
+  },
+  "operational_distinctions": [
+    "Report of another source inference is report at current-writer level; source inferential status remains explicit.",
+    "Explain develops a relationship; a causal word or mere sequence is not sufficient by itself.",
+    "Interpret develops an inference/significance at the selected discourse level; faithful recap stays report.",
+    "Support and illustrate can coexist; a hypothetical logical counterexample is reasoning, not empirical frequency evidence.",
+    "A reader-directed cognitive action can instruct; a report of completed methods or a character instruction is not automatically a directive to the reader.",
+    "Presence and adequacy are separate even for weak reasons, partial definitions, short qualifications and incomplete instructions."
+  ],
+  "migration": {
+    "function_ids": {
+      "orient": "orient",
+      "define": "define",
+      "report": "report",
+      "assert": "assert",
+      "support": "support",
+      "explain": "explain",
+      "illustrate": "illustrate",
+      "compare": "compare",
+      "interpret": "interpret",
+      "qualify": "qualify",
+      "instruct": "instruct",
+      "narrate": "narrate"
+    },
+    "relation_labels": "Identity mapping; imported schemes retain original namespace.",
+    "old_packets": "Preserve original rule versions, context, anchors, labels and unknown metadata. New candidate assessment is a separate pass.",
+    "old_summary": "Paragraph label union remains a derived view; it is insufficient for attribution/target/extent comparisons.",
+    "old_validator": "Existing experimental checker cannot represent all mixed per-instance decisions; do not claim compatibility without an adapter and tests."
+  },
+  "mechanical_checks_possible": [
+    "Registered IDs/enums where implemented",
+    "Exact offsets/quoted text/source hashes",
+    "Referenced target existence",
+    "Derived-set consistency with recorded decisions"
+  ],
+  "not_mechanically_established": [
+    "Function presence",
+    "Semantic target equivalence",
+    "Complete realization coverage",
+    "Evidence adequacy or truth",
+    "Reader success",
+    "Author acceptance"
+  ],
+  "evaluation": {
+    "label_agreement": "Keep per-label positive counts, exact sets, partial overlap and shared empty sets; document clustering and sample scope remain explicit.",
+    "boundary_agreement": "Independently assessed extent agreement is not measured by a shared segmentation or quote match.",
+    "target_agreement": "Unit overlap is not semantic equivalence.",
+    "impact": "Evaluate actual author/reader outcomes separately from coding agreement.",
+    "numeric_limits": "No function-length profile or universal sample/acceptance threshold introduced."
+  },
+  "appendix_sha256": "54deb49babc9e2198ec25b2a488eee6bf979187b5c19c5c934622da17553a9f2"
+}

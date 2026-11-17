@@ -1,0 +1,100 @@
+{
+  "batch": 27,
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_24",
+      "doi": "10.1038/379309a0",
+      "title": "On the wilder shores of cosmology",
+      "field": "physical_sciences_mathematics",
+      "q": "\"On the wilder shores of cosmology\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_25",
+      "doi": "10.1038/366418a0",
+      "title": "Time and time again",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Time and time again\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_26",
+      "doi": "10.1038/421694a",
+      "title": "Looking up to the stars",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Looking up to the stars\" pdf"
+    },
+    {
+      "candidate_key": "physical-sciences:psm_34",
+      "doi": "10.1119/1.2343229",
+      "title": "How to measure g easily with ≊10−4 precision in the beginners’ lab",
+      "field": "physical_sciences_mathematics",
+      "q": "\"How to measure g easily with ≊10−4 precision in the beginners’ lab\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_24",
+      "query": "\"On the wilder shores of cosmology\" pdf",
+      "urls": [
+        {
+          "title": "On the wilder shores of cosmology",
+          "url": "https://www.nature.com/articles/379309a0",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_25",
+      "query": "\"Time and time again\" pdf",
+      "urls": [
+        {
+          "title": "File:Time and Time Again.pdf - Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File%3ATime_and_Time_Again.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Time and Time Again",
+          "url": "https://books.google.com/books?id=M4daAAAAMAAJ",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Time and Time Again | Orange County Library System",
+          "url": "https://catalog.ocls.org/OverDrive/875bbb74-45f3-42ca-bf2c-89e2d57208cd/Home",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Time and time again | WorldCat.org",
+          "url": "https://search.worldcat.org/title/1035677945",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Time and Time Again by H. Beam Piper",
+          "url": "https://dev.gutenberg.org/ebooks/18831",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_26",
+      "query": "\"Looking up to the stars\" pdf",
+      "urls": [
+        {
+          "title": "Look up to the stars - University of Birmingham",
+          "url": "https://www.birmingham.ac.uk/news-archive/2017/look-up-to-the-stars",
+          "score": 0.6666666666666666,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "physical-sciences:psm_34",
+      "query": "\"How to measure g easily with ≊10−4 precision in the beginners’ lab\" pdf",
+      "urls": []
+    }
+  ]
+}

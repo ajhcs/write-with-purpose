@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-empirical_report-3",
+      "doi": "10.1200/jco.1997.15.6.2403",
+      "title": "Improvements in survival and clinical benefit with gemcitabine as first-line therapy for patients with advanced pancreas cancer: a randomized trial.",
+      "authors": "[\"Burris HA\", \"Moore MJ\", \"Andersen J\", \"Green MR\", \"Rothenberg ML\", \"Modiano MR\", \"Cripps MC\", \"Portenoy RK\", \"Storniolo AM\", \"Tarassoff P\", \"Nelson R\", \"Dorr FA\", \"Stephens CD\", \"Von Hoff DD\"]",
+      "field": "medicine_health",
+      "q": "\"Improvements in survival and clinical benefit with gemcitabine\" Burris filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-empirical_report-3",
+      "query": "\"Improvements in survival and clinical benefit with gemcitabine\" Burris filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Burris HA,3rd, Moore MJ, Andersen J, Green MR, Rothenberg ML, Modiano MR, et al. Improvements in survival and clinical benefit with gemcitabine as first-line therapy for patients with advanced pancreas cancer: a randomized trial. J Clin Oncol. 1997 Jun;15(6):2403-13.",
+          "url": "https://doras.dcu.ie/22922/1/OC%20Thesis_Final.pdf",
+          "score": 1
+        },
+        {
+          "title": "Improvements in survival and clinical benefit with gemcitabine as first-line therapy for patients with advanced pancreas cancer: a randomized trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9196156/",
+          "score": 1
+        },
+        {
+          "title": "Improvements in survival and clinical benefit with gemcitabine as first-line therapy for patients with advanced pancreas cancer: a randomized trial.",
+          "url": "https://ascopubs.org/doi/10.1200/JCO.1997.15.6.2403",
+          "score": 1
+        },
+        {
+          "title": "Improvements in Survival and Clinical Benefit With Gemcitabine as First-Line Therapy for Patients With Advanced Pancreas Cancer: A Randomized Trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38100992/",
+          "score": 1
+        },
+        {
+          "title": "Improvements in survival and clinical benefit with gemcitabine as first-line therapy for patients with advanced pancreas cancer: a randomized trial.",
+          "url": "https://ascopubs.org/doi/10.1200/JCO.1997.15.6.2403?rfr_dat=cr_pub++0pubmed&rfr_id=ori%3Arid%3Acrossref.org&url_ver=Z39.88-2003",
+          "score": 1
+        },
+        {
+          "title": "Improvements in survival and clinical benefit with gemcitabine as first-line therapy for patients with advanced pancreas cancer a randomized trial | NDL Search | National Diet Library",
+          "url": "https://ndlsearch.ndl.go.jp/en/books/R100000136-I1573950399747260160",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

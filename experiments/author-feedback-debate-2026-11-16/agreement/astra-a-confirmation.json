@@ -1,0 +1,29 @@
+{
+  "agent": "Astra A",
+  "phase": "final_exact_candidate_confirmation",
+  "verdict": "accepted_as_proposed_candidate",
+  "reviewed_sha256": {
+    "proposed-joint.json": "40e6f0fd113aaf759408285aa66fc83078c3ce6968509591a0ad5a8bcf8139f0",
+    "proposed-joint.md": "cf4500e2c2c424427e65e9bba76239786eed2c18e52d3f5840cc8f4e10341cd8"
+  },
+  "accepted_items": [
+    "J01",
+    "J02",
+    "J03"
+  ],
+  "required_wording_amendments": [],
+  "accepted_clarifications": {
+    "matched_loading": "Both test arms load the identical reference set and full context; only the relevant proposed bytes differ. No candidate-only reference loading or prompt change.",
+    "style_provenance": "J01 derives from November 16, 2026 author feedback, especially R02, distinct from the October 31, 2026 approved article. Preserve a dated attribution in any eventual implementation report; if the installed reference is distributed without that report, add the dated attribution beside the changed bullet. Approved article bytes remain fixed."
+  },
+  "next_test": "Accepted as proposal-only diagnostic, not run or proof of efficacy.",
+  "remaining_blocking_disagreements": [],
+  "limits": [
+    "No direct editor benefit, whole-work superiority, causal rule effect or general success rate established.",
+    "Source fidelity, author preference and external truth remain distinct.",
+    "B residual preferences are recorded but require no stacked rule or example."
+  ],
+  "proposed_joint_files_modified": false,
+  "canonical_changes": false,
+  "evaluations_run": false
+}

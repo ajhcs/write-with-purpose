@@ -1,0 +1,604 @@
+{
+  "status": "Integration proposals, not canonical rule edits or installed runtime",
+  "purpose": "Reaffirm sound prose principles and identify executable workflow additions with explicit scopes",
+  "candidates": [
+    {
+      "id": "C01",
+      "title": "Bind language choices to reader knowledge",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "reaffirm principle; add durable runtime context",
+      "current_rule_files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/structure-and-purpose.md"
+      ],
+      "proposal": "Store the reader task, assumed concepts and necessary technical vocabulary. Explain an unfamiliar distinction where this reader needs it, preserving useful exact terms.",
+      "trigger_and_scope": "An explanation, term or connection may be unfamiliar to the intended reader; reuse settled context instead of asking a questionnaire.",
+      "paper_evidence": [
+        {
+          "id": "P01",
+          "pdf_pages": [
+            6,
+            7,
+            9,
+            10,
+            14,
+            15
+          ]
+        },
+        {
+          "id": "P05",
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "id": "P09",
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "computable_part": "Check declared vocabulary consistency and locate first uses/linked explanations; counts are observations.",
+      "semantic_or_author_part": "Assess familiarity, explanation sufficiency and technical meaning with this reader in mind.",
+      "counterexample": "An expert reference entry can correctly use a specialized identifier without teaching it.",
+      "borrowed_components": [
+        "Scoped glossary and source-term records; README/DITA section roles"
+      ],
+      "local_evidence": [
+        "docs/writing-harness/accepted-foundations.md",
+        "experiments/dataset-adoption-2026-11-16/comparison.md"
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "Check how an explanation is encountered",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "refine reader edit",
+      "current_rule_files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/structure-and-purpose.md"
+      ],
+      "proposal": "Treat an available glossary or tooltip as a resource, not proof that a reader encounters or understands a necessary explanation. Consider inline context, an example or a term-first route as alternatives.",
+      "trigger_and_scope": "A novice-facing passage depends on a concept explained elsewhere.",
+      "paper_evidence": [
+        {
+          "id": "P01",
+          "pdf_pages": [
+            7,
+            10,
+            14,
+            15
+          ]
+        }
+      ],
+      "computable_part": "Resolve glossary links and detect presence of declared definitions.",
+      "semantic_or_author_part": "Judge whether the explanation is available at the point of need; evaluate actual reader understanding separately.",
+      "counterexample": "P01 tested optional mouseovers; its null effect does not prove inline definitions or glossaries are useless.",
+      "borrowed_components": [
+        "DITA context/prerequisite distinctions; Research Writing Tutor learning/example progression"
+      ],
+      "local_evidence": [
+        "experiments/dataset-adoption-2026-11-16/comparison.md"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "Keep the intended outcome with every evidence-based suggestion",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "reaffirm measurement boundary; add rule metadata",
+      "current_rule_files": [
+        "docs/writing-harness/accepted-foundations.md",
+        "skills/write-with-purpose/SKILL.md"
+      ],
+      "proposal": "Attach source scope, measured outcome, baseline and uncertainty to a rule. Use clicks, sharing, citations, awards or perceived ease as explicit task-specific outcomes only when relevant to the author purpose.",
+      "trigger_and_scope": "Importing a corpus signal or considering a style/attention recommendation.",
+      "paper_evidence": [
+        {
+          "id": "P04",
+          "pdf_pages": [
+            5,
+            6,
+            9
+          ]
+        },
+        {
+          "id": "P07",
+          "pdf_pages": [
+            9,
+            10,
+            13
+          ]
+        },
+        {
+          "id": "P13",
+          "pdf_pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "id": "P08",
+          "pdf_pages": [
+            5,
+            8,
+            9
+          ]
+        },
+        {
+          "id": "P10",
+          "pdf_pages": [
+            5,
+            7,
+            8
+          ]
+        }
+      ],
+      "computable_part": "Filter known scope metadata, retain source/version and declared objective; group overlapping source populations.",
+      "semantic_or_author_part": "Judge applicability and whether a suggested tradeoff serves the author and reader.",
+      "counterexample": "A truthful headline experiment may legitimately use click-through as its outcome; it still does not measure comprehension.",
+      "borrowed_components": [
+        "AcaWriter schema/condition/message separation; existing provenance receipts"
+      ],
+      "local_evidence": [
+        "docs/writing-harness/accepted-foundations.md",
+        "experiments/dataset-adoption-2026-11-16/comparison.md"
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "Show section jobs and alternative structures",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "reaffirm accepted hierarchy; implement visible choice",
+      "current_rule_files": [
+        "docs/writing-harness/accepted-foundations.md",
+        "skills/write-with-purpose/references/structure-and-purpose.md"
+      ],
+      "proposal": "Use Family → Form → Section to offer purpose-based blanks and alternative arrangements, with blended, recursive and unheaded sections permitted. Do not copy source sentence stems.",
+      "trigger_and_scope": "Planning or revising a substantial piece; selected source conventions must match its form and discipline.",
+      "paper_evidence": [
+        {
+          "id": "P15",
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "id": "P16",
+          "pdf_pages": [
+            10,
+            14
+          ]
+        },
+        {
+          "id": "P17",
+          "pdf_pages": [
+            6,
+            8,
+            10,
+            15,
+            16
+          ]
+        }
+      ],
+      "computable_part": "Store selected outline and section IDs; validate explicitly required sections and declared budgets.",
+      "semantic_or_author_part": "Judge each section contribution, choose/merge routes and retain useful exceptions.",
+      "counterexample": "A Methods-section model is not a template for a methods paper, personal essay or complete business report.",
+      "borrowed_components": [
+        "BAWE purpose/stage metadata",
+        "README original eight roles",
+        "DITA task components",
+        "Cotos three moves/sixteen steps as scoped questions"
+      ],
+      "local_evidence": [
+        "docs/writing-harness/accepted-foundations.md",
+        "experiments/dataset-adoption-2026-11-16/comparison.md"
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "Preserve supported force while allowing truthful emphasis",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "reaffirm fidelity; implement focused change review",
+      "current_rule_files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/edit-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/language-and-meaning.md"
+      ],
+      "proposal": "Review edits that alter certainty, novelty, negation, attribution, comparisons or commitments. Retain supported positive emphasis and meaningful modifiers; a word-list signal alone does not justify deletion or addition.",
+      "trigger_and_scope": "A proposed edit strengthens or weakens a claim, especially in a proposal, scientific result or recommendation.",
+      "paper_evidence": [
+        {
+          "id": "P10",
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "id": "P11",
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "id": "P14",
+          "pdf_pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "computable_part": "Diff relevant terms, modals, negations, values and declared protected literals; flag changes as candidates.",
+      "semantic_or_author_part": "Compare full claims and sources; determine supported force, tone and author intention.",
+      "counterexample": "A justified correction can remove unnecessary tentativeness; a valid scientific uncertainty cannot disappear to improve a style score.",
+      "borrowed_components": [
+        "Existing local edit/diff measurements and source-bound checks; legal actor attribution"
+      ],
+      "local_evidence": [
+        "experiments/rule-calibration-2026-11-16/report.md",
+        "experiments/dataset-adoption-2026-11-16/comparison.md"
+      ]
+    },
+    {
+      "id": "C06",
+      "title": "Evaluate titles against the promised contribution",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "refine purpose-based title review",
+      "current_rule_files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/structure-and-purpose.md"
+      ],
+      "proposal": "Offer title alternatives that make different, truthful tradeoffs in specificity, intrigue and voice. Judge the title alongside the piece and intended reader rather than optimizing a universal lexical formula.",
+      "trigger_and_scope": "Title or heading creation/revision for a stated audience, form and destination.",
+      "paper_evidence": [
+        {
+          "id": "P04",
+          "pdf_pages": [
+            6,
+            9
+          ]
+        },
+        {
+          "id": "P07",
+          "pdf_pages": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "P13",
+          "pdf_pages": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "computable_part": "Enforce actual character/word ceilings and check required identifiers or headings.",
+      "semantic_or_author_part": "Assess accurate framing, reader expectation and author tone.",
+      "counterexample": "A reflective title may leave a question open; an API heading may require exact syntax.",
+      "borrowed_components": [
+        "Optional headline comparison fixture; sentence-concreteness tool as descriptive research candidate only"
+      ],
+      "local_evidence": [
+        "docs/writing-harness/accepted-foundations.md"
+      ]
+    },
+    {
+      "id": "C07",
+      "title": "Use examples and narrative as purposeful options",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "reaffirm author voice and provenance",
+      "current_rule_files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/cole-lyons-style.md",
+        "docs/writing-harness/paragraph-functions.json"
+      ],
+      "proposal": "Develop an author-supplied experience or sourced example when it clarifies the contribution. Offer narrative and non-narrative routes; preserve unresolved endings and distinguish observed, reported and invented cases.",
+      "trigger_and_scope": "An actual experience or concrete case helps the selected section job.",
+      "paper_evidence": [
+        {
+          "id": "P06",
+          "pdf_pages": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "id": "P08",
+          "pdf_pages": [
+            5,
+            8,
+            9
+          ]
+        },
+        {
+          "id": "P12",
+          "pdf_pages": [
+            4,
+            5,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ],
+      "computable_part": "Retain provenance and links from an example to its target; preserve author decisions.",
+      "semantic_or_author_part": "Judge what the case illuminates and whether its voice and generalization fit.",
+      "counterexample": "A reference lookup can be complete without a story; an emotional anecdote does not prove a population rate.",
+      "borrowed_components": [
+        "Webis anecdote metadata",
+        "GUM example/sequence relations",
+        "P08 narrative-rating questions as a distinct instrument"
+      ],
+      "local_evidence": [
+        "docs/writing-harness/paragraph-functions.json",
+        "experiments/dataset-adoption-2026-11-16/comparison.md"
+      ]
+    },
+    {
+      "id": "C08",
+      "title": "Keep surface metrics descriptive unless a real constraint applies",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "reaffirm existing rule",
+      "current_rule_files": [
+        "docs/writing-harness/accepted-foundations.md",
+        "skills/write-with-purpose/references/checks.md",
+        "skills/edit-with-purpose/SKILL.md"
+      ],
+      "proposal": "Display relevant counts or observed distributions with their units and scope. Enforce only actual author/task/destination limits; do not turn associations or averages into prose-quality quotas.",
+      "trigger_and_scope": "A readability, length, hedge, modifier, pronoun or vocabulary score is offered as a reason to edit.",
+      "paper_evidence": [
+        {
+          "id": "P05",
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "id": "P09",
+          "pdf_pages": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "P11",
+          "pdf_pages": [
+            7,
+            8,
+            10,
+            11
+          ]
+        },
+        {
+          "id": "P14",
+          "pdf_pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "computable_part": "Run the existing declared-limit checker with pinned count convention and delivered-file hash.",
+      "semantic_or_author_part": "Assess whether the original or proposed prose better serves this purpose and retains meaning.",
+      "counterexample": "An actual publisher word ceiling is binding even if longer abstracts correlate with citations.",
+      "borrowed_components": [
+        "Existing check_text.py; imported count implementations after compatibility checks"
+      ],
+      "local_evidence": [
+        "docs/writing-harness/accepted-foundations.md",
+        "experiments/rule-calibration-2026-11-16/report.md"
+      ]
+    },
+    {
+      "id": "C09",
+      "title": "Retain who says what and how contributions connect",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "refine source representation",
+      "current_rule_files": [
+        "docs/writing-harness/paragraph-functions.json",
+        "skills/write-with-purpose/SKILL.md"
+      ],
+      "proposal": "Keep passage function, evidence type, speaker/actor, argument role and relation target distinct. A source label supplies a lens for review; validate the actual link and preserve missing or ambiguous targets.",
+      "trigger_and_scope": "Support, qualification, reported opposition, comparison or a disputed inference is material to the draft.",
+      "paper_evidence": [
+        {
+          "id": "P02",
+          "pdf_pages": [
+            2,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "id": "P16",
+          "pdf_pages": [
+            10,
+            14
+          ]
+        },
+        {
+          "id": "P18",
+          "pdf_pages": [
+            7,
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "computable_part": "Validate original node/span IDs, endpoint types, offsets and supplied target references.",
+      "semantic_or_author_part": "Judge evidential relevance, attribution, meaningful comparison and target scope.",
+      "counterexample": "Reporting an opponent statement is not author endorsement; a statistic without a claim link is not automatically support.",
+      "borrowed_components": [
+        "GUM directed/secondary relations",
+        "microtext edge-to-edge undercuts",
+        "legal actors",
+        "ConvoKit reply/context metadata"
+      ],
+      "local_evidence": [
+        "experiments/rule-calibration-2026-11-16/report.md",
+        "experiments/dataset-adoption-2026-11-16/comparison.md"
+      ]
+    },
+    {
+      "id": "C10",
+      "title": "Measure labels, spans and reader benefit separately",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "refine research protocol, not routine prose",
+      "current_rule_files": [
+        "experiments/rule-calibration-2026-11-16/report.md",
+        "docs/writing-harness/paragraph-functions.json"
+      ],
+      "proposal": "For the next frozen coding pilot retain exact sets, set overlap, positive agreement, prevalence, unresolved states and target judgments. Keep evidence anchors separate from full realization spans and test boundaries independently.",
+      "trigger_and_scope": "Research calibration or function-length measurement; do not impose complete annotation on ordinary writing.",
+      "paper_evidence": [
+        {
+          "id": "P18",
+          "pdf_pages": [
+            6,
+            7,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "computable_part": "Compute declared set distances and appropriate chance-corrected statistics only from comparable units and explicit missingness rules.",
+      "semantic_or_author_part": "Review semantic correctness, boundary completeness and source-target meaning; agreement is not accuracy.",
+      "counterexample": "The paper’s 750-unit behavior is specific to its sample, not our acceptance criterion; identical empty labels are not positive reliability.",
+      "borrowed_components": [
+        "Original annotation-unit schemas and independent-coder workflows"
+      ],
+      "local_evidence": [
+        "experiments/rule-calibration-2026-11-16/report.md",
+        "experiments/dataset-adoption-2026-11-16/comparison.md"
+      ]
+    },
+    {
+      "id": "C11",
+      "title": "Give only assistance that resolves the current writing problem",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "new runtime hypothesis; no claimed empirical win",
+      "current_rule_files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/edit-with-purpose/SKILL.md",
+        "experiments/rule-calibration-2026-11-16/report.md"
+      ],
+      "proposal": "Retrieve the relevant section guidance and surface a small number of consequential choices or minimal edits. Use detailed function records for actual ambiguities and offline research; retain an adequate passage when no benefit is identified.",
+      "trigger_and_scope": "Routine drafting or editing after purpose and material are known; teaching detail follows the author need.",
+      "paper_evidence": [
+        {
+          "id": "P17",
+          "pdf_pages": [
+            15,
+            16
+          ]
+        },
+        {
+          "id": "P18",
+          "pdf_pages": [
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "computable_part": "Persist selected context, exact diffs, source versions and unresolved findings; invalidate receipts after changes.",
+      "semantic_or_author_part": "Choose which issue matters, explain its consequence, and evaluate whether an edit has a defensible benefit.",
+      "counterexample": "A safety-critical meaning error must not be hidden by a cosmetic feedback-count cap; a narrow copy edit needs no outline quiz.",
+      "borrowed_components": [
+        "AcaWriter configurable feedback pattern",
+        "RWT learning/examples/feedback progression",
+        "existing local edit tools"
+      ],
+      "local_evidence": [
+        "experiments/rule-calibration-2026-11-16/report.md",
+        "experiments/dataset-adoption-2026-11-16/comparison.md"
+      ]
+    },
+    {
+      "id": "C12",
+      "title": "Preserve the author thought and scope of accepted decisions",
+      "status": "candidate_for_review; not installed or adopted",
+      "disposition": "new durable workflow hypothesis; existing voice principle",
+      "current_rule_files": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/edit-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/cole-lyons-style.md"
+      ],
+      "proposal": "Save original notes before paraphrasing; distinguish supplied ideas, source evidence and model inference. Retain accepted/rejected structural and wording choices with reasons and scope, using them for the current piece and future relevant tasks.",
+      "trigger_and_scope": "Writing from notes, eliciting an unstated connection, or incorporating author feedback across drafts.",
+      "paper_evidence": [
+        {
+          "id": "P17",
+          "pdf_pages": [
+            15,
+            16
+          ]
+        },
+        {
+          "id": "P02",
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "computable_part": "Version original/candidate/decision records, maintain source links and enforce actual preservation constraints.",
+      "semantic_or_author_part": "Author supplies lived experience, priorities and voice choices; a local acceptance is not a global preference or proof of factual truth.",
+      "counterexample": "Silence is not approval; an accepted phrase for a personal essay need not fit a Methods section.",
+      "borrowed_components": [
+        "Our existing approved/rejected example practice; source adapters supply evidence rather than author identity"
+      ],
+      "local_evidence": [
+        "docs/writing-harness/accepted-foundations.md",
+        "experiments/rule-calibration-2026-11-16/report.md",
+        "experiments/dataset-adoption-2026-11-16/comparison.md"
+      ]
+    }
+  ]
+}

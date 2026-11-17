@@ -1,0 +1,281 @@
+{
+  "reviewer": "interactive-persuasion",
+  "papers": [
+    {
+      "id": "P02",
+      "title": "Winning Arguments: Interaction Dynamics and Persuasion Strategies in Good-faith Online Discussions",
+      "authors": [
+        "Chenhao Tan",
+        "Vlad Niculae",
+        "Cristian Danescu-Niculescu-Mizil",
+        "Lillian Lee"
+      ],
+      "year": 2016,
+      "doi": "10.1145/2872427.2883081",
+      "study_kind": "observational corpus analysis and predictive modelling",
+      "source_text_path": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/texts/P02-recovered.txt",
+      "scope": "Read all 12 recovered PDF pages including appendix and references; online CMV written interactions, invited challenge audience and original poster as recipient.",
+      "sample_and_design": "Temporal training/heldout discussion trees; matched positive and negative rooted path units from same original post and most similar root content-word Jaccard; separate OP outcome task. See findings for denominators.",
+      "outcomes": [
+        "OP-awarded delta as immediate participant-reported change in view, not truth, comprehension, enduring belief or behavior",
+        "Pairwise classification accuracy",
+        "Original-post delta prediction ROC AUC"
+      ],
+      "findings": [
+        {
+          "claim": "Training 18,363 and heldout 2,263 discussion trees; 1,114,533 and 145,733 nodes respectively.",
+          "pdf_pages": [
+            3
+          ],
+          "evidence_locator": "Table 1",
+          "denominator": "Discussion trees and nodes separately; 2013-01-01 to 2015-05-07 versus 2015-05-08 to 2015-09-01",
+          "interpretation_limits": "Archive counts, not independent selected pairs."
+        },
+        {
+          "claim": "3,456 train and 807 heldout matched pairs.",
+          "pdf_pages": [
+            5
+          ],
+          "evidence_locator": "Section 4.1",
+          "denominator": "pairs, one delta winning and one unsuccessful, within same OP and lexically similar",
+          "interpretation_limits": "At least 10 challengers, three unsuccessful paths before OP last reply, each root at least 50 words; matching does not equate content or exposure."
+        },
+        {
+          "claim": "Interplay 65.1% versus BOW 59.6% accuracy.",
+          "pdf_pages": [
+            2,
+            5,
+            8
+          ],
+          "evidence_locator": "Introduction and Figure 8",
+          "denominator": "807 later heldout matched pairs",
+          "interpretation_limits": "Pair classification, not proportion persuaded or causal effects; full-path uses later dialogue."
+        },
+        {
+          "claim": "Equal-length dissection truncates longer reply after lexical matching.",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "evidence_locator": "Root truncated disclaimer and Table 2",
+          "denominator": "matched root replies",
+          "interpretation_limits": "It removes material, can change distributions and reverse signs; non-significance does not establish no effect."
+        },
+        {
+          "claim": "Hedges and first/second-person pronouns are higher in raw counts in winning replies; no T indicator in Table 3.",
+          "pdf_pages": [
+            6,
+            10
+          ],
+          "evidence_locator": "Table 3 and Appendix",
+          "denominator": "selected matched winning and unsuccessful root replies and full paths",
+          "interpretation_limits": "Length-associated counts; no evidence a hedge or pronoun edit causes persuasion."
+        },
+        {
+          "claim": "Definite and indefinite raw article counts track length; definite-article fraction retained significance in truncated roots.",
+          "pdf_pages": [
+            6,
+            10
+          ],
+          "evidence_locator": "Table 3, Appendix",
+          "denominator": "selected pairs; adjusted by Bonferroni in training comparisons",
+          "interpretation_limits": "Ratio is not a prescription to substitute articles; specificity interpretation is authors inference."
+        },
+        {
+          "claim": "Among long paths, zero of 129 with six or more challenger replies and one of approximately 3,000 with five received a delta.",
+          "pdf_pages": [
+            4
+          ],
+          "evidence_locator": "Figure 4b",
+          "denominator": "paths classified by challenger reply count",
+          "interpretation_limits": "Observational selection and engagement confounding; not a causal cutoff."
+        },
+        {
+          "claim": "10,743 train and 1,529 heldout original posts; heldout AUC approximately 0.54.",
+          "pdf_pages": [
+            2,
+            8,
+            9
+          ],
+          "evidence_locator": "Section 5 and Figure 9",
+          "denominator": "selected OPs with at least ten challengers and at least one OP reply",
+          "interpretation_limits": "Weak outcome prediction; delta not personality trait or comprehension."
+        },
+        {
+          "claim": "First-person pronouns and first-person plural in original posts showed opposite associations with delta.",
+          "pdf_pages": [
+            9
+          ],
+          "evidence_locator": "Table 4 and Section 5.1",
+          "denominator": "selected OP task training set, Bonferroni-corrected comparisons",
+          "interpretation_limits": "Authors self-affirmation explanation speculative and prior work cited in opposite direction; different from reply pronoun raw counts."
+        },
+        {
+          "claim": "No significant concreteness or dominance difference in replies; root Flesch-Kincaid not significant, full-path difference significant.",
+          "pdf_pages": [
+            7
+          ],
+          "evidence_locator": "Section 4.2.2 and Table 3",
+          "denominator": "selected matched pairs",
+          "interpretation_limits": "Null comparisons are not proof of equivalence; full-path observations include later dialogue."
+        },
+        {
+          "claim": "Number of challengers and delta fraction increased sublinearly; in subtrees with two to four replies, single-challenger performed better.",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "evidence_locator": "Figure 5 and Section 3.2",
+          "denominator": "discussion trees binned by number of challengers; subtrees stratified by 2–4 replies",
+          "interpretation_limits": "Selection and differences in argument difficulty confound interpretations."
+        },
+        {
+          "claim": "Topic-model features did not improve prediction; discourse-connector sequences performed poorly.",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "evidence_locator": "Section 6",
+          "denominator": "authors tested tasks and features",
+          "interpretation_limits": "Specific implementation and corpus only."
+        }
+      ],
+      "limitations": [
+        "No randomization; timing, visibility, author selection and interaction confounded. Authors explicitly disclaim causal explanations p. 2.",
+        "Lexical matching does not isolate reasoning, evidence or claim truth. Truncation removes text.",
+        "Self-selected moderated CMV community is not general reader population.",
+        "Full-path predictors may be subsequent to opening reply; no prospective editing benefit established."
+      ],
+      "rule_implications": [
+        {
+          "id": "IP-01",
+          "status": "candidate refine",
+          "existing_rule": "skills/write-with-purpose/SKILL.md reader question and reasons",
+          "trigger": "Author requests response to known viewpoint",
+          "benefit": "Retain audience and specific claim context for author review",
+          "mechanical": "Store supplied claim, audience and source target separately",
+          "semantic": "Judge whether reply engages claim fairly and appropriately",
+          "counterexample": "Personal exploration without a known opposing claim needs no opponent record",
+          "evidence": "P02 pp. 5–8; correlation only"
+        },
+        {
+          "id": "IP-02",
+          "status": "reaffirm",
+          "existing_rule": "skills/write-with-purpose/SKILL.md; skills/edit-with-purpose/references/plain-language-edit.md qualification",
+          "trigger": "Uncertainty or qualification changes claim meaning",
+          "benefit": "Preserve warranted uncertainty",
+          "mechanical": "Locate supplied qualifier only",
+          "semantic": "Judge whether qualifier is warranted and what it scopes",
+          "counterexample": "Redundant hedges can obscure a fact; necessary may can prevent false certainty",
+          "evidence": "P02 Table 3 pp. 6, 10 raw counts do not isolate effect"
+        },
+        {
+          "id": "IP-03",
+          "status": "candidate refine",
+          "existing_rule": "docs/writing-harness/research/astra-rule-revision-2026-11-16.md; experiments/dataset-adoption-2026-11-16/plugin-reuse-notes.md",
+          "trigger": "Context contains speakers, reply edges and targets",
+          "benefit": "Keep author, addressee and referenced claim distinguishable",
+          "mechanical": "Preserve source-provided IDs, reply edge, spans and unknowns",
+          "semantic": "Determine actual actor, addressee, function and relation target in context",
+          "counterexample": "Quoted you addresses a character rather than the reader",
+          "evidence": "P02 pp. 3–6; reply edge is not function gold"
+        },
+        {
+          "id": "IP-04",
+          "status": "not justified",
+          "existing_rule": "docs/writing-harness/accepted-foundations.md",
+          "trigger": "An automatic system proposes optimizing delta proxy",
+          "benefit": "Protect author intent, evidence, voice and semantic accuracy",
+          "mechanical": "Retain count as descriptive only if task relevant",
+          "semantic": "Assess whether words, links and emphasis serve actual intent",
+          "counterexample": "Technical explanation must preserve a term; safety warning may require urgency",
+          "evidence": "P02 pp. 2, 5–10 noncausal selected-task associations"
+        }
+      ],
+      "data_or_code_leads": [
+        "https://chenhaot.com/data/cmv/README.txt",
+        "https://chenhaot.com/papers/changemyview/",
+        "https://vene.ro/blog/winning-arguments-attitude-change-reddit-cmv.html",
+        "https://convokit.cornell.edu/documentation/winning.html",
+        "https://github.com/CornellNLP/ConvoKit/blob/master/datasets/winning-args-corpus/stats.ipynb"
+      ],
+      "extraction_issues": "Original p613.pdf streams corrupt; two extractors yield blank PDF pages 1 and 4. Official Cornell author copy recovered; source hash and location in experiments/evidence-integration-2026-11-16/P02-recovery.json; all recovered pages reviewed."
+    }
+  ],
+  "cross_paper_synthesis": [
+    "One-paper review; no pooled or cross-paper statistical synthesis.",
+    "Fresh local calibration was 21/36 original and 18/36 revised exact-set agreement; no semantic gold, no demonstrated improvement, no full realization spans. P02 does not validate those rules.",
+    "Audience-aware provenance and structured reply relationships are common infrastructure; author-controlled alternatives might be useful but an advantage is unmeasured."
+  ],
+  "proposed_rule_changes": [
+    {
+      "id": "IP-01",
+      "status": "candidate refine",
+      "existing_rule": "skills/write-with-purpose/SKILL.md reader question and reasons",
+      "trigger": "Author requests response to known viewpoint",
+      "benefit": "Retain audience and specific claim context for author review",
+      "mechanical": "Store supplied claim, audience and source target separately",
+      "semantic": "Judge whether reply engages claim fairly and appropriately",
+      "counterexample": "Personal exploration without a known opposing claim needs no opponent record",
+      "evidence": "P02 pp. 5–8; correlation only"
+    },
+    {
+      "id": "IP-02",
+      "status": "reaffirm",
+      "existing_rule": "skills/write-with-purpose/SKILL.md; skills/edit-with-purpose/references/plain-language-edit.md qualification",
+      "trigger": "Uncertainty or qualification changes claim meaning",
+      "benefit": "Preserve warranted uncertainty",
+      "mechanical": "Locate supplied qualifier only",
+      "semantic": "Judge whether qualifier is warranted and what it scopes",
+      "counterexample": "Redundant hedges can obscure a fact; necessary may can prevent false certainty",
+      "evidence": "P02 Table 3 pp. 6, 10 raw counts do not isolate effect"
+    },
+    {
+      "id": "IP-03",
+      "status": "candidate refine",
+      "existing_rule": "docs/writing-harness/research/astra-rule-revision-2026-11-16.md; experiments/dataset-adoption-2026-11-16/plugin-reuse-notes.md",
+      "trigger": "Context contains speakers, reply edges and targets",
+      "benefit": "Keep author, addressee and referenced claim distinguishable",
+      "mechanical": "Preserve source-provided IDs, reply edge, spans and unknowns",
+      "semantic": "Determine actual actor, addressee, function and relation target in context",
+      "counterexample": "Quoted you addresses a character rather than the reader",
+      "evidence": "P02 pp. 3–6; reply edge is not function gold"
+    },
+    {
+      "id": "IP-04",
+      "status": "not justified",
+      "existing_rule": "docs/writing-harness/accepted-foundations.md",
+      "trigger": "An automatic system proposes optimizing delta proxy",
+      "benefit": "Protect author intent, evidence, voice and semantic accuracy",
+      "mechanical": "Retain count as descriptive only if task relevant",
+      "semantic": "Assess whether words, links and emphasis serve actual intent",
+      "counterexample": "Technical explanation must preserve a term; safety warning may require urgency",
+      "evidence": "P02 pp. 2, 5–10 noncausal selected-task associations"
+    }
+  ],
+  "github_reuse": [
+    {
+      "name": "Cornell original dataset and author walkthrough",
+      "urls": [
+        "https://chenhaot.com/data/cmv/README.txt",
+        "https://vene.ro/blog/winning-arguments-attitude-change-reddit-cmv.html"
+      ],
+      "reuse": "Review documented JSONL pair, OP and discussion schema; walkthrough preprocessing is explicitly simplified and not full replication.",
+      "limits": "321 MB archive not downloaded; code/data/Reddit rights to be separately checked."
+    },
+    {
+      "name": "ConvoKit Winning Arguments conversion",
+      "urls": [
+        "https://convokit.cornell.edu/documentation/winning.html",
+        "https://github.com/CornellNLP/ConvoKit/blob/master/datasets/winning-args-corpus/stats.ipynb"
+      ],
+      "reuse": "Schema for speaker, timestamp, reply_to, conversation, success and pair_ids; preserve source release and values.",
+      "limits": "3,051 conversations, 293,297 utterances, 34,911 speakers per subset documentation; 530 missing author/text. Reused pairs are clustered; null success is not failure. Rights and notebook execution unverified."
+    }
+  ],
+  "open_questions": [
+    "How should target and audience be represented when inferred, unknown, or quoted rather than explicitly supplied?",
+    "Would author-controlled contextual prompts improve real reader or author outcomes in fresh, grouped evaluation?",
+    "Can original preprocessing and dependency versions be reconstructed under available rights without reusing overlapping pairs across evaluation splits?"
+  ]
+}

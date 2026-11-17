@@ -1,0 +1,76 @@
+{
+  "tool": "edit-with-purpose-local-edit-record",
+  "version": "0.1.0",
+  "result": "completed",
+  "source": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E06/source.txt",
+    "sha256": "f5888e56e1cf7de09a11304dc5684c945cb8d393a572742fa5e1eae1cf08c3b3",
+    "bytes": 120
+  },
+  "plan": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E06/edits.json",
+    "sha256": "3dc1396b29d00d100a7c2463a5b9802cb030fe5ce1604929bfc953350fa4e5ee"
+  },
+  "comparison": null,
+  "candidate": {
+    "sha256": "6cc5c05363c1adf5d42fd2ef61fcef00babb70f7d1e822e0c3358820216995c9",
+    "bytes": 44
+  },
+  "output": {
+    "path": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E06/output.txt",
+    "sha256": "6cc5c05363c1adf5d42fd2ef61fcef00babb70f7d1e822e0c3358820216995c9",
+    "bytes": 44
+  },
+  "changes": [
+    {
+      "start": 41,
+      "end": 117,
+      "before": ", which improves accuracy. That is why readers should warm their samples too",
+      "after": "",
+      "reason": "Improve the requested passage while preserving supported meaning.",
+      "plan_index": 0,
+      "location": {
+        "line": 1,
+        "column": 42
+      }
+    }
+  ],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "The recorded hash, input schema, exact spans, nonoverlap, reconstruction and output behavior only."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "outside_named_spans": "Preserved by reconstruction from the checked original, without newline normalization.",
+  "original_blocks": [
+    {
+      "block": 1,
+      "start": 0,
+      "end": 118,
+      "original_characters": 118,
+      "original_characters_selected": 76,
+      "selected_percent": 64.407,
+      "whole_block_selected": false,
+      "characters_inserted_at_zero_width_spans": 0
+    }
+  ],
+  "block_convention": "Nonempty blocks separated by blank lines; not a full Markdown or sentence parser. Selection extent is informational, not a prohibition on deleting a whole block.",
+  "measurements": {
+    "convention": "Whitespace-separated tokens; SequenceMatcher alignment with autojunk=False. Punctuation attached to a token counts with it.",
+    "before_words": 22,
+    "after_words": 10,
+    "net_words_removed": 12,
+    "net_reduction_percent": 54.545,
+    "words_inserted": 1,
+    "words_removed_or_replaced": 13,
+    "original_tokens_removed_or_replaced_percent": 59.091,
+    "interpretation": "A lexical alignment, not a unique attribution of edits, a preservation proof or a usefulness score."
+  }
+}

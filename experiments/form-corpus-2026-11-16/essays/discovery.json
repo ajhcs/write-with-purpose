@@ -1,0 +1,18 @@
+{
+  "personal_reflective": {
+    "query": "PUB_TYPE:\"Personal Narrative\" AND OPEN_ACCESS:Y AND LANG:eng SORT_CITED:y",
+    "total_query_hits": 303,
+    "page_returned": 303,
+    "selected_for_retrieval": 300,
+    "selected_order": "Europe PMC SORT_CITED:y; descending citation count, ties API order",
+    "retrieved_utc": "2026-11-16T01:05:09.412482+00:00"
+  },
+  "argument_perspective": {
+    "query": "PUB_TYPE:Editorial AND OPEN_ACCESS:Y AND LANG:eng SORT_CITED:y",
+    "total_query_hits": 150880,
+    "page_returned": 1000,
+    "selected_for_retrieval": 300,
+    "selected_order": "Europe PMC SORT_CITED:y; descending citation count, ties API order",
+    "retrieved_utc": "2026-11-16T01:05:24.819853+00:00"
+  }
+}

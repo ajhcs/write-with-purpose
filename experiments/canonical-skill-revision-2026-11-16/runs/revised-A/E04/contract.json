@@ -1,0 +1,12 @@
+{
+  "protected_literals": [
+    {
+      "text": "idempotent",
+      "min_count": 1
+    },
+    {
+      "text": "Ready",
+      "min_count": 1
+    }
+  ]
+}

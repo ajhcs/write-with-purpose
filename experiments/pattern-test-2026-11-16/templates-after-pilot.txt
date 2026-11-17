@@ -1,0 +1,49 @@
+WRITING BLANKS AFTER THE FIRST HOLDOUT PILOT
+
+Status: candidate patterns, not adopted profiles.
+Each block is a contribution, not a required paragraph or printed heading.
+Observed ranges are in results/statistics.json and need their cohort context.
+Working targets and declared limits: unset.
+
+ARGUMENT / PERSPECTIVE
+
+TITLE: [The question or tension I want the reader to notice]
+OPENING — CHOOSE A ROUTE:
+  [My position and the situation that makes it matter]
+  OR [A problem the reader needs to recognize]
+  OR [An encounter that motivates the argument]
+DEVELOPMENT: [My reasons and relevant evidence]
+CONNECTION: [How that material supports what I think]
+QUALIFICATIONS, WHERE THEY APPLY: [Which claim changes under which conditions]
+IMPLICATION: [What follows; a recommendation only if that is the purpose]
+CLOSING: [The consequence, unresolved question or return that the argument earns]
+
+PRACTITIONER ARGUMENT
+
+TITLE: [The professional judgment I want to help someone make]
+OPENING: [The practical problem and my position]
+ORGANIZATION — CHOOSE A ROUTE:
+  [Questions the reader needs to answer]
+  OR [Components or processes that organize my proposed approach]
+  OR [A case whose development reveals the approach]
+FOR EACH LOCAL SECTION, CHOOSE WHAT THE READER NEEDS:
+  [A distinction or definition]
+  [An observed, sourced or explicitly hypothetical example]
+  [The explanation connecting that example to my point]
+  [What the reader could recognize or do]
+  [The condition or exception relevant here]
+Place research or experiential basis where it supports the point.
+CLOSING: [The judgment, implication or remaining uncertainty]
+
+SYSTEMATIC REVIEW
+
+TITLE AND ABSTRACT: [Accurate question, scope, design and completed-report summary]
+INTRODUCTION: [Need, gap and exact review question]
+METHODS: [Actual search, eligibility, selection, extraction, appraisal,
+          synthesis and relevant assumptions; identify external details]
+RESULTS: [Selection, evidence characteristics, findings, uncertainty and differences]
+DISCUSSION: [Interpretation, comparison, strengths, limits and implications]
+CONCLUDING ANSWER: [What the findings justify; separate heading if appropriate]
+
+Report missing or unperformed work accurately. A common omission in reference
+papers does not remove a research or reporting requirement for the new review.

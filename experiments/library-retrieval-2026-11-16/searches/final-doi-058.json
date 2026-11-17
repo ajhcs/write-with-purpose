@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "law:law_w2160783861",
+      "doi": "10.1146/annurev-lawsocsci-110413-030807",
+      "title": "Empirical Comparative Law",
+      "authors": "[\"Holger Spamann\"]",
+      "field": "law_public_policy",
+      "q": "\"Empirical Comparative Law\" Spamann filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "law:law_w2160783861",
+      "query": "\"Empirical Comparative Law\" Spamann filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Empirical Comparative Law",
+          "url": "https://dash.harvard.edu/bitstreams/7312037d-a0e8-6bd4-e053-0100007fdf3b/download",
+          "score": 1
+        },
+        {
+          "title": "Empirical Comparative Law - Harvard Law School | Harvard Law School",
+          "url": "https://hls.harvard.edu/bibliography/empirical-comparative-law/",
+          "score": 1
+        },
+        {
+          "title": "Empirical Comparative Law",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2688978",
+          "score": 1
+        },
+        {
+          "title": "Empirical comparative law - EconBiz",
+          "url": "https://www.econbiz.de/Record/empirical-comparative-law-spamann-holger/10010528945",
+          "score": 1
+        },
+        {
+          "title": "Empirical Comparative Law",
+          "url": "https://www.academia.edu/75849299/Empirical_Comparative_Law",
+          "score": 1
+        },
+        {
+          "title": "Empirical Comparative Law",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2577350.",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

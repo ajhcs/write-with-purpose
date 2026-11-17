@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_01",
+      "doi": "",
+      "title": "Los Alamos from Below -- Reminiscences of 1943-1945",
+      "authors": "[\"Richard P. Feynman\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Los Alamos from Below -- Reminiscences of 1943-1945\" Feynman pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_01",
+      "query": "\"Los Alamos from Below -- Reminiscences of 1943-1945\" Feynman pdf",
+      "urls": [
+        {
+          "title": "Reminiscences of Los Alamos 1943–1945",
+          "url": "https://books.google.com/books/about/Reminiscences_of_Los_Alamos_1943_1945.html?id=Zt2-ZmDjb9UC",
+          "score": 0.7142857142857143
+        },
+        {
+          "title": "Reminiscences of Los Alamos 1943–1945",
+          "url": "https://books.google.com/books/about/Reminiscences_of_Los_Alamos_1943_1945.html?id=goHPBgAAQBAJ",
+          "score": 0.7142857142857143
+        }
+      ]
+    }
+  ]
+}

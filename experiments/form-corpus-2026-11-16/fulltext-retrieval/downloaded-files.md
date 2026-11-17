@@ -1,0 +1,205 @@
+# Downloaded candidate files
+
+Local source copies, grouped by discovery domain. Identity, version, completeness, form and access-policy review remain open as recorded in the manifests. These links do not constitute a validated corpus. Some copies are preprints or current presentations of older work.
+
+## Business
+
+- [Toward a Model of Organizations as Interpretation Systems](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2098201245.pdf>) — identity: unresolved; completeness unverified.
+- [TOWARD A THEORY OF PARADOX: A DYNAMIC EQUILIBRIUM MODEL OF ORGANIZING.](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2123841895.pdf>) — identity: unresolved; completeness unverified.
+- [Mechanisms Linking Work and Family: Clarifying the Relationship Between Work and Family Constructs](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2066000480.pdf>) — identity: unresolved; completeness unverified.
+- [The Evolution of the Corporate Social Performance Model](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2056749365.pdf>) — identity: unresolved; completeness unverified.
+- [Multiple Institutional Logics in Organizations: Explaining Their Varied Nature and Implications](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2078862672.pdf>) — identity: consistent; completeness unverified.
+- [Managing Potential and Realized Absorptive Capacity: How do Organizational Antecedents Matter?](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1965248592.pdf>) — identity: unresolved; completeness unverified.
+- [Being Good or Being Known: An Empirical Examination of the Dimensions, Antecedents, and Consequences of Organizational Reputation](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2122006260.pdf>) — identity: unresolved; completeness unverified.
+- [The Necessity of Others is The Mother of Invention: Intrinsic and Prosocial Motivations, Perspective Taking, and Creativity](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1970389678.pdf>) — identity: unresolved; completeness unverified.
+- [THE IMPACT OF EMPLOYEE COMMUNICATION AND PERCEIVED EXTERNAL PRESTIGE ON ORGANIZATIONAL IDENTIFICATION.](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2168014017.pdf>) — identity: unresolved; completeness unverified.
+- [PARTNER SELECTION IN EMERGING AND DEVELOPED MARKET CONTEXTS: RESOURCE-BASED AND ORGANIZATIONAL LEARNING PERSPECTIVES.](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2045150322-2073bf206497bf2e.pdf>) — identity: unresolved; completeness unverified.
+- [THE ROLE OF FAMILY TIES IN AGENCY CONTRACTS.](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2065067355.pdf>) — identity: unresolved; completeness unverified.
+- [Understanding dynamic capabilities](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2059813301.pdf>) — identity: unresolved; completeness unverified.
+- [Value creation in innovation ecosystems: how the structure of technological interdependence affects firm performance in new technology generations](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W3124269743.pdf>) — identity: unresolved; completeness unverified.
+- [Institutions, resources, and entry strategies in emerging economies](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1994771258.pdf>) — identity: unresolved; completeness unverified.
+- [FOREIGN ENTRY, CULTURAL BARRIERS, AND LEARNING](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2050766092.pdf>) — identity: unresolved; completeness unverified.
+- [Cognitive change, strategic action, and organizational renewal](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2166305722-e298860c31793bc3.pdf>) — identity: unresolved; completeness unverified.
+- [Managing Strategic Contradictions: A Top Management Model for Managing Innovation Streams](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2108114881.pdf>) — identity: consistent; completeness unverified.
+- [Toward the Flexible Form: How to Remain Vital in Hypercompetitive Environments](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1989765500.pdf>) — identity: unavailable; completeness unverified.
+- [Social Networks, Learning, and Flexibility: Sourcing Scientific Knowledge in New Biotechnology Firms](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2108964651-62f451d5cb20fbd2.pdf>) — identity: unresolved; completeness unverified.
+- [Structural Differentiation and Ambidexterity: The Mediating Role of Integration Mechanisms](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1481094962.pdf>) — identity: unresolved; completeness unverified.
+- [IT Assets, Organizational Capabilities, and Firm Performance: How Resource Allocations and Organizational Differences Explain Performance Variation](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2123192905-f064b8362413d1ae.pdf>) — identity: consistent; completeness unverified.
+- [Understanding Variation in Managers' Ambidexterity: Investigating Direct and Interaction Effects of Formal Structural and Personal Coordination Mechanisms](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2133351584.pdf>) — identity: consistent; completeness unverified.
+- [Temporal Work in Strategy Making](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1507907600.pdf>) — identity: consistent; completeness unverified.
+- [The Coevolution of Trust, Control, and Learning in Joint Ventures](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2152565303.pdf>) — identity: consistent; completeness unverified.
+- [Decision-Making in a Fuzzy Environment](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W4292158025.pdf>) — identity: unresolved; completeness unverified.
+- [Exploratory Innovation, Exploitative Innovation, and Performance: Effects of Organizational Antecedents and Environmental Moderators](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2240963366.pdf>) — identity: unresolved; completeness unverified.
+- [Beyond the Glass Ceiling: Does Gender Matter?](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W3121672546.pdf>) — identity: unresolved; completeness unverified.
+- [Bimatrix Equilibrium Points and Mathematical Programming](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2152122625-b34203535d56eeb4.pdf>) — identity: unresolved; completeness unverified.
+- [CEO Overconfidence and Innovation](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2138389645.pdf>) — identity: consistent; completeness unverified.
+- [Using the balanced scorecard as a strategic management system](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1558046248.pdf>) — identity: unresolved; completeness unverified.
+- [Reinventing Your Business Model](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W111650437.pdf>) — identity: unresolved; completeness unverified.
+- [The House of Quality](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1578960547.pdf>) — identity: unresolved; completeness unverified.
+- [Designing services that deliver](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W17805075-a94f8556eec6466a.pdf>) — identity: unresolved; completeness unverified.
+- [Customers As Innovators: A New Way to Create Value](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1552480497-78ce1dfc8869d35f.pdf>) — identity: unresolved; completeness unverified.
+- [The Power of Talk: Who Gets Heard and Why.](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W1482060575-c97652cef05d7fed.pdf>) — identity: unresolved; completeness unverified.
+- [Manufacturing: the new case for vertical integration](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/business/pdf/W2506228356-60df32d3bf67e51d.pdf>) — identity: unresolved; completeness unverified.
+
+## Engineering
+
+- [Definition and Classification of Power System Stability IEEE/CIGRE Joint Task Force on Stability Terms and Definitions](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W1578978182.pdf>) — identity: unresolved; completeness unverified.
+- [The Impact of Charging Plug-In Hybrid Electric Vehicles on a Residential Distribution Grid](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2135797872.pdf>) — identity: unresolved; completeness unverified.
+- [Branch Flow Model: Relaxations and Convexification—Part I](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2100197017.pdf>) — identity: unresolved; completeness unverified.
+- [Multi-Agent Systems for Power Engineering Applications—Part I: Concepts, Approaches, and Technical Challenges](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2131882595.pdf>) — identity: unresolved; completeness unverified.
+- [Optimal decentralized protocol for electric vehicle charging](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2115594466.pdf>) — identity: unresolved; completeness unverified.
+- [General model for representing variable speed wind turbines in power system dynamics simulations](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2120098964.pdf>) — identity: unresolved; completeness unverified.
+- [Distributed Cooperative Secondary Control of Microgrids Using Feedback Linearization](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2074229485.pdf>) — identity: consistent; completeness unverified.
+- [CCFinder: a multilinguistic token-based code clone detection system for large scale source code](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2138756793.pdf>) — identity: unresolved; completeness unverified.
+- [Preliminary guidelines for empirical research in software engineering](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2163851162.pdf>) — identity: unresolved; completeness unverified.
+- [The Oracle Problem in Software Testing: A Survey](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2041713059.pdf>) — identity: unresolved; completeness unverified.
+- [A survey of software refactoring](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2171383742.pdf>) — identity: unresolved; completeness unverified.
+- [Interaction of Lean and Building Information Modeling in Construction](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2053331055.pdf>) — identity: unresolved; completeness unverified.
+- [Organizational Divisions in BIM-Enabled Commercial Construction](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/engineering/pdf/W2110018436.pdf>) — identity: unresolved; completeness unverified.
+
+## Law
+
+- [The Tragedy of the Anticommons: Property in the Transition from Marx to Markets](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W2166987116-724eb725542b.pdf>) — identity: unresolved; completeness unverified.
+- [Coase's Penguin, or, Linux and "The Nature of the Firm"](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W1896125358.pdf>) — identity: unresolved; completeness unverified.
+- [A Government for Our Time? Business Improvement Districts and Urban Governance](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W2473321937-f39a8ddcb666.pdf>) — identity: unresolved; completeness unverified.
+- [The Corporate Contract](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W2173414121.pdf>) — identity: unresolved; completeness unverified.
+- [Libertarian Paternalism Is Not an Oxymoron](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W3021589323-4c32632066ed.pdf>) — identity: unresolved; completeness unverified.
+- [Patent Signals](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W4243032322-917f23d8d3da.pdf>) — identity: unresolved; completeness unverified.
+- [Paradoxes of the Regulatory State](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/W2468999896.pdf>) — identity: unresolved; completeness unverified.
+- [Brown v. Board of Education](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/official-brown-7021074961cf.pdf>) — identity: unresolved; completeness unverified.
+- [Best Practices for OLC Legal Advice and Written Opinions](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/official-olc-guidance-db8aa0138e0f.pdf>) — identity: unresolved; completeness unverified.
+- [District of Columbia v. Heller](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/official-heller-memo-4f04086eeb39.pdf>) — identity: unresolved; completeness unverified.
+- [District of Columbia v. Heller](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/law/files/official-heller-brief-52ecd0d59ae8.html>) — identity: unresolved; completeness unverified.
+
+## Personal
+
+- [Listening to Books](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-09376ef57011.html>) — identity: title_author_consistent; completeness unverified.
+- [On Self-Respect](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-686cac71e9fa.html>) — identity: title_author_consistent; completeness unverified.
+- [Green Screen: The Lack of Female Road Narratives and Why it Matters](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-f2db6fcab11c.html>) — identity: title_author_consistent; completeness unverified.
+- [In Praise of Idleness](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-d23d38c43ea7.html>) — identity: title_author_consistent; completeness unverified.
+- [Chicago Christmas, 1984](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-d010f5406c91.html>) — identity: unresolved; completeness unverified.
+- [Don't Stop Running](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-03f718ef8cc6.html>) — identity: unresolved; completeness unverified.
+- [Clip-On Tie](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-8a9b0820af90.html>) — identity: title_author_consistent; completeness unverified.
+- [The Unmothered](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-4af5a4509d5d.html>) — identity: title_author_consistent; completeness unverified.
+- [Superman Comes to the Supermarket](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-521bfc2a2ae2.html>) — identity: title_author_consistent; completeness unverified.
+- [A Sudden Illness](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-dfc5fe4743d2.html>) — identity: title_author_consistent; completeness unverified.
+- [Feet in Smoke](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-2be8a686e1ce.html>) — identity: title_author_consistent; completeness unverified.
+- [All We Read Is Freaks](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-1e9599d58584.html>) — identity: title_author_consistent; completeness unverified.
+- [Disaster Aversion](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-bdba89d9a2cd.html>) — identity: title_author_consistent; completeness unverified.
+- [The Graduate](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-b6ebe0710734.html>) — identity: unresolved; completeness unverified.
+- [Aftermath](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-38de0282b9f2.html>) — identity: unresolved; completeness unverified.
+- [See Me](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-c70d86ec685b.html>) — identity: title_author_consistent; completeness unverified.
+- [Anatomy of a Divorce](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-b778d349de30.html>) — identity: title_author_consistent; completeness unverified.
+- [Mister Lytle: An Essay](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-2b9f5678fb45.html>) — identity: title_author_consistent; completeness unverified.
+- [Darkness Visible](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-18e78dc560f1.html>) — identity: title_author_consistent; completeness unverified.
+- [Artists in Uniform](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-a711ebe139f8.html>) — identity: title_author_consistent; completeness unverified.
+- [Listen Up](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-536f04360ed3.html>) — identity: title_author_consistent; completeness unverified.
+- [A Matter of Life and Death](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-be341639304d.html>) — identity: title_author_consistent; completeness unverified.
+- [The Plath Resolution](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-131514f10426.html>) — identity: unresolved; completeness unverified.
+- [Host in the Shell](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-e8464ddc0a01.html>) — identity: unresolved; completeness unverified.
+- [In and Out of Time in Iraq](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-c7baa31e6dc2.html>) — identity: title_author_consistent; completeness unverified.
+- [Digital Darkness: When We Can’t Turn Away From Death Online](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-1777748e4c54.html>) — identity: title_author_consistent; completeness unverified.
+- [All About My Mother](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-9894e3e6e4cd.html>) — identity: title_author_consistent; completeness unverified.
+- [Abortion: Not Easy, Not Sorry](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-da05d41c3ac2.html>) — identity: unresolved; completeness unverified.
+- [The Quirky Allure of 'Twin Peaks'](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-abfa9eb2a20d.html>) — identity: unresolved; completeness unverified.
+- [The Final Walk-Off](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-d05b7cd4494f.html>) — identity: unresolved; completeness unverified.
+- [It’s Silly to Be Frightened of Being Dead](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-f3fbc7568f1c.html>) — identity: title_author_consistent; completeness unverified.
+- [I Had a Stroke at 33](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-531f161a9a14.html>) — identity: title_author_consistent; completeness unverified.
+- [The Wheel Turns, the Boat Rocks, the Sea Rises](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-8d35cb7afded.html>) — identity: title_author_consistent; completeness unverified.
+- [My Year As an Abortion Doula](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-b13a2667c0ec.html>) — identity: unresolved; completeness unverified.
+- [Life Atop Ground Zero](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-3de63720496b.html>) — identity: title_author_consistent; completeness unverified.
+- [Lock Up Your Wives!](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-eeb63a15e44b.html>) — identity: unresolved; completeness unverified.
+- [The Limits of Compassion](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-e4c63cd215f4.html>) — identity: title_author_consistent; completeness unverified.
+- [Piety and Perversity](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-a62ebaf6bd4f.html>) — identity: title_author_consistent; completeness unverified.
+- [Whatsizface](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-79adbff109d1.html>) — identity: title_author_consistent; completeness unverified.
+- [Writing From the Black, Twitchy Place](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-27a78d8c1507.html>) — identity: title_author_consistent; completeness unverified.
+- [Andy](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-e574a02ae237.html>) — identity: unresolved; completeness unverified.
+- [Being Gay in Iran](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-3b815f65b35b.html>) — identity: unresolved; completeness unverified.
+- [The Other Side of the Face](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-3436a8a814cb.html>) — identity: title_author_consistent; completeness unverified.
+- [The Comfort Zone](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-efacb3e1f74a.html>) — identity: unresolved; completeness unverified.
+- [Big Water](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-22c27d77121e.html>) — identity: unresolved; completeness unverified.
+- [Munro Country](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-c209dbaa7007.html>) — identity: unresolved; completeness unverified.
+- [The Ism and the Alcohol](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-f70b4002c96d.html>) — identity: title_author_consistent; completeness unverified.
+- [65](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-b3bff94eddb4.html>) — identity: unresolved; completeness unverified.
+- [My Dementia](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-4f05c3947f76.html>) — identity: unresolved; completeness unverified.
+- [A Man Enough](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-dafcf9f8b185.html>) — identity: unresolved; completeness unverified.
+- [A Boy Grew In Brooklyn](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-2d3112f91981.html>) — identity: unresolved; completeness unverified.
+- [An Unthinkably Modern Miracle](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-25dd0c86287e.html>) — identity: unresolved; completeness unverified.
+- [Remote Control](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-338f499d9ca1.html>) — identity: unresolved; completeness unverified.
+- [The French As Dostoevsky Saw Them](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-3199610a63bb.html>) — identity: title_author_consistent; completeness unverified.
+- [My First Mistake](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-fca9142fd337.html>) — identity: unresolved; completeness unverified.
+- [Thanksgiving in Mongolia](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-b2e3a06fd8ac.html>) — identity: title_author_consistent; completeness unverified.
+- [My Life As a Young Thug](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-90278bdf28da.html>) — identity: unresolved; completeness unverified.
+- [Town of the Living Dead](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-0a525f69f3ac.html>) — identity: title_author_consistent; completeness unverified.
+- [Blockbusters](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-1f1e72af1a12.html>) — identity: title_author_consistent; completeness unverified.
+- [D'Andre Brown's Basketball Dream](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-427a9952f4bd.html>) — identity: unresolved; completeness unverified.
+- [The Percentages: A Biography of Class](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-11383769aeec.html>) — identity: unresolved; completeness unverified.
+- [The Marineland Dreamland](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-28b22ccd6e8b.html>) — identity: unresolved; completeness unverified.
+- [Me & My Monkey](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-fcdb6166cb71.html>) — identity: title_author_consistent; completeness unverified.
+- [Living With a Peacock](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-a1c4ede35cb2.html>) — identity: unresolved; completeness unverified.
+- [Private Ceremonies](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-9d559ba51714.html>) — identity: title_author_consistent; completeness unverified.
+- [Survivors](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-f7cdc7282a46.html>) — identity: unresolved; completeness unverified.
+- [Trasmissions from Camp Trans](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-97268c8c8df7.html>) — identity: unresolved; completeness unverified.
+- [My Foreign Mom](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-215328981b0b.html>) — identity: unresolved; completeness unverified.
+- [When Our Kids Own America](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-cc02f81cc11e.html>) — identity: title_author_consistent; completeness unverified.
+- [I'm For Sale](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-19cc3888ffe2.html>) — identity: unresolved; completeness unverified.
+- [November 24, 1963](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-81f8500e2f3f.html>) — identity: unresolved; completeness unverified.
+- [My Brother’s Life, Unraveled](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-9597b94c41ba.html>) — identity: title_author_consistent; completeness unverified.
+- [On Friendship](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-8fd059426dd7.html>) — identity: title_author_consistent; completeness unverified.
+- [Sick](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-c756880f41ef.html>) — identity: title_author_consistent; completeness unverified.
+- [30 Rock Landed on Us](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-3ec56628523e.html>) — identity: title_author_consistent; completeness unverified.
+- [A Jew in the Northwest](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-ee8c46f2b73e.html>) — identity: title_author_consistent; completeness unverified.
+- [Mississippi Drift](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-1f5a273fb756.html>) — identity: title_author_consistent; completeness unverified.
+- [The Fourth State of Matter](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-911d41060d06.html>) — identity: title_author_consistent; completeness unverified.
+- [The Kindness of Beasts](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-8c547cf437a1.html>) — identity: unresolved; completeness unverified.
+- [On Falling Apart](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-cf40fb0405a0.html>) — identity: title_author_consistent; completeness unverified.
+- [The Trouble With My Blood](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-56841f0b9fa3.html>) — identity: title_author_consistent; completeness unverified.
+- [Down and Out in a Repurposed Troop Carrier](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-7aa5fd63d5cd.html>) — identity: unresolved; completeness unverified.
+- [Confessions of a Black Mr. Mom](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-2abe3bd90a9c.html>) — identity: title_author_consistent; completeness unverified.
+- [Go Away](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-c82b28e3bf00.html>) — identity: unresolved; completeness unverified.
+- [The Archipelago of Arrogance](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-82b9dbfa2c31.html>) — identity: unresolved; completeness unverified.
+- [Thirteen Ways of Looking at a Black Man](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-46f1e90af951.html>) — identity: title_author_consistent; completeness unverified.
+- [Confessions of an Ex-Mormon](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-6854e91671f8.html>) — identity: title_author_consistent; completeness unverified.
+- [My Life as a Bibliophile](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-66026c686b4b.html>) — identity: title_author_consistent; completeness unverified.
+- [My Father's Voice](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-d061ee6a6ea5.html>) — identity: title_author_consistent; completeness unverified.
+- [My Mother, My Daughter](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-8e2ce10bafc1.html>) — identity: title_author_consistent; completeness unverified.
+- [Local Bounty](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-e93d1646f974.html>) — identity: title_author_consistent; completeness unverified.
+- [Daddy: My Father's Last Words](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-233adf802fbb.html>) — identity: unresolved; completeness unverified.
+- [The Machine-Tooled Happyland](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-7537f8ccc376.html>) — identity: unresolved; completeness unverified.
+- [A Dog Named Humphrey](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-a8597b9688f6.html>) — identity: unresolved; completeness unverified.
+- [A Psychotronic Childhood](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-ba5f49ad0c8b.html>) — identity: unresolved; completeness unverified.
+- [To Be or Not to Be?](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-ea6791b0d7f5.html>) — identity: unresolved; completeness unverified.
+- [The Penge Mystery: the murder of Harriet Staunton](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-ac9f213841f0.html>) — identity: unresolved; completeness unverified.
+- [Come as You Are](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-c0a10f1f8fbf.html>) — identity: unresolved; completeness unverified.
+- [L.A. Weirdos](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-019b379badc4.html>) — identity: title_author_consistent; completeness unverified.
+- [Why Are So Many Americans Single?](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-4c369fa9e0ea.html>) — identity: unresolved; completeness unverified.
+- [The Invaders](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-f08d44382978.html>) — identity: title_author_consistent; completeness unverified.
+- [The Aquarium](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-f0e00d0440a5.html>) — identity: title_author_consistent; completeness unverified.
+- [The real Greek economy: owners, rentiers and opportunists](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-780d6b378576.html>) — identity: title_author_consistent; completeness unverified.
+- [A Question of Identity](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-d6911160b3d4.html>) — identity: title_author_consistent; completeness unverified.
+- [How I Killed My Mother](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-1f85afa60b89.html>) — identity: unresolved; completeness unverified.
+- [The Disadvantages of an Elite Education](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-80bd6f30b443.html>) — identity: title_author_consistent; completeness unverified.
+- [The Embarrassment of Riches](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-227826ec0225.html>) — identity: title_author_consistent; completeness unverified.
+- [Alone at the Movies](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-8627ec8504d8.html>) — identity: title_author_consistent; completeness unverified.
+- [The Cloud Appreciation Society](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-b6cb51c215d0.html>) — identity: unresolved; completeness unverified.
+- [Pipe Dreaming](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-73853e9586b3.html>) — identity: unresolved; completeness unverified.
+- [The Jewish Holly-Go-Lightly](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-cf1e95beb8e4.html>) — identity: unresolved; completeness unverified.
+- [Wealthcare](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-65e6c41cf087.html>) — identity: title_author_consistent; completeness unverified.
+- [My obsession with a New York cup of coffee and a doughnut](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-14cfa6c65059.html>) — identity: title_author_consistent; completeness unverified.
+- [Chat History](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-311ec6fdc80e.html>) — identity: title_author_consistent; completeness unverified.
+- [Window Shopping](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-06a1d57dc729.html>) — identity: unresolved; completeness unverified.
+- [The Age of Mechanical Reproduction](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-15004a3c9bd1.html>) — identity: unresolved; completeness unverified.
+- [My Father Is an African Immigrant and My Mother Is a White Girl from Kansas and I Am Not the President of the United States](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-499e88027820.html>) — identity: unresolved; completeness unverified.
+- [The Birth of 'The New Journalism'; Eyewitness Report by Tom Wolfe](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-25e8fa58ce8c.html>) — identity: unresolved; completeness unverified.
+- [Apologia to My Second Child](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-463f740878f5.html>) — identity: unresolved; completeness unverified.
+- [My Mom Couldn't Cook](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-2cb0e10879f3.html>) — identity: title_author_consistent; completeness unverified.
+- [Sad as Hell](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-068a71b36ad4.html>) — identity: title_author_consistent; completeness unverified.
+- [More Harm Than Good](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-4bd509bdaed3.html>) — identity: title_author_consistent; completeness unverified.
+- [Internacionalista](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-d6c7a48b10f7.html>) — identity: unresolved; completeness unverified.
+- [Why Nicolai Ouroussoff Is Not Good Enough](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-880e0f7884cf.html>) — identity: title_author_consistent; completeness unverified.
+- [Still Cranish After All These Years](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-a4dc62f33394.html>) — identity: title_author_consistent; completeness unverified.
+- [Letting Go](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/LF-caedfa131edf.html>) — identity: title_author_consistent; completeness unverified.
+- [My Nazi Dagger](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/BAE-707da5773609.pdf>) — identity: unresolved; completeness unverified.
+- [Vampires and Vaccines](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/BAE-ca33b0548813.html>) — identity: title_author_consistent; completeness unverified.
+- [My Mother and Mercy](</workspace/repos/builderbob/.writing-corpus-cache/fulltext/personal/BAE-13fadc84b9cf.html>) — identity: unresolved; completeness unverified.
+

@@ -1,0 +1,92 @@
+{
+  "agent": "Astra B",
+  "phase": "exact_joint_candidate_review",
+  "whole_candidate_verdict": "accepted_as_proposed_candidate",
+  "reviewed_sha256": {
+    "proposed-joint.json": "40e6f0fd113aaf759408285aa66fc83078c3ce6968509591a0ad5a8bcf8139f0",
+    "proposed-joint.md": "cf4500e2c2c424427e65e9bba76239786eed2c18e52d3f5840cc8f4e10341cd8"
+  },
+  "items": [
+    {
+      "id": "J01",
+      "verdict": "accepted",
+      "required_amendments": [],
+      "crossing_resolution": "Deliberately accept exact avoid >3 wording because illustrative scope, qualitative selection and coverage safeguards prevent count-as-quality; earlier reply had preferred reporting objection."
+    },
+    {
+      "id": "J02",
+      "verdict": "accepted",
+      "required_amendments": [],
+      "crossing_resolution": "Deliberately accept 28-word net comparison refinement; do not stack R03 example. Concrete example remains nonblocking editorial preference."
+    },
+    {
+      "id": "J03",
+      "verdict": "accepted",
+      "required_amendments": [],
+      "placement_review": "Writer insertion after first evidence paragraph accepted, despite earlier preference for after both paragraphs; editor anchor accepted."
+    }
+  ],
+  "next_test_verdict": "accepted_as_diagnostic_proposal",
+  "next_test_operational_reading": "Both conditions load corresponding reference, only candidate content differs; no asymmetric prompt or loading intervention.",
+  "anchor_checks": [
+    {
+      "id": "J01",
+      "path": "skills/write-with-purpose/references/cole-lyons-style.md",
+      "old_text_occurrences": 1,
+      "line": 14
+    },
+    {
+      "id": "J01",
+      "path": "skills/edit-with-purpose/references/cole-lyons-style.md",
+      "old_text_occurrences": 1,
+      "line": 14
+    },
+    {
+      "id": "J02",
+      "path": "skills/write-with-purpose/references/structure-and-purpose.md",
+      "old_text_occurrences": 1,
+      "line": 39
+    },
+    {
+      "id": "J02",
+      "path": "skills/edit-with-purpose/references/structure-and-purpose.md",
+      "old_text_occurrences": 1,
+      "line": 39
+    },
+    {
+      "id": "J03",
+      "path": "skills/write-with-purpose/references/language-and-meaning.md",
+      "old_text_occurrences": 1,
+      "line": 13
+    },
+    {
+      "id": "J03",
+      "path": "skills/edit-with-purpose/references/technical-meaning.md",
+      "old_text_occurrences": 1,
+      "line": 11
+    }
+  ],
+  "remaining_blocking_disagreements": [],
+  "residual_nonblocking_preferences": [
+    "J01 reported author objection rather than avoidance command",
+    "J02 reason-versus-obligation example rather than compact comparison replacement"
+  ],
+  "parent_comparison": {
+    "IP01": "agree_narrow_profile_no_checker",
+    "IP02": "agree_objective_accept_compact_replacement_not_example",
+    "IP03": "agree_bounded_corrections_no_blanket_defensive_framing_deletion"
+  },
+  "limits": [
+    "No direct editor benefit measured",
+    "No whole-work superiority measured",
+    "No causal rule effect or general success estimate",
+    "Source audit interpretation distinct from external truth"
+  ],
+  "canonical_changes": false,
+  "evaluations_run": false,
+  "parent_review_clarifications": {
+    "matched_loading": "Explicitly accepted: same reference set and full context in both arms; only relevant candidate bytes differ. Candidate-only loading is not accepted.",
+    "style_provenance": "J01 list guidance derives from November 16 2026 trial feedback, especially R02; October 31 2026 approved article remains a separate unchanged style source. Dated attribution in implementation report suffices; include beside installed bullet if report is not distributed.",
+    "effect_on_verdict": "Editorial wording acceptance unchanged; later implementation must preserve source distinction."
+  }
+}

@@ -1,0 +1,287 @@
+[
+  {
+    "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC3000396&format=json&resultType=core",
+    "retrieved_utc": "2026-11-16T15:19:59.157063+00:00",
+    "response": {
+      "version": "6.9",
+      "hitCount": 1,
+      "request": {
+        "queryString": "EXT_ID:PMC3000396",
+        "resultType": "core",
+        "cursorMark": "*",
+        "pageSize": 25,
+        "sort": "",
+        "synonym": false
+      },
+      "resultList": {
+        "result": [
+          {
+            "id": "PMC3000396",
+            "source": "PMC",
+            "pmcid": "PMC3000396",
+            "fullTextIdList": {
+              "fullTextId": [
+                "PMC3000396"
+              ]
+            },
+            "doi": "10.1186/1756-3305-3-112",
+            "title": "Review of \"Toxoplasmosis of Animals and Humans (Second Edition)\" by J.P. Dubey",
+            "authorString": "Webster J.",
+            "authorList": {
+              "author": [
+                {
+                  "fullName": "Webster J",
+                  "lastName": "Webster",
+                  "firstName": "Joanne P",
+                  "initials": "J",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Department of Infectious Disease Epidemiology, School of Public Health, St Mary's Hospital Campus, Imperial College Faculty of Medicine, London, W2 1PG, UK"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "dataLinksTagsList": {
+              "dataLinkstag": [
+                "altmetrics"
+              ]
+            },
+            "journalInfo": {
+              "volume": "3",
+              "journalIssueId": 2489845,
+              "dateOfPublication": "2010 Jan",
+              "monthOfPublication": 1,
+              "yearOfPublication": 2010,
+              "journal": {
+                "medlineAbbreviation": "Parasit Vectors",
+                "title": "Parasites & vectors",
+                "essn": "1756-3305",
+                "issn": "1756-3305",
+                "isoabbreviation": "Parasit Vectors",
+                "nlmid": "101462774"
+              },
+              "printPublicationDate": "2010-01-01"
+            },
+            "pubYear": "2010",
+            "pageInfo": "112-112",
+            "affiliation": "Department of Infectious Disease Epidemiology, School of Public Health, St Mary's Hospital Campus, Imperial College Faculty of Medicine, London, W2 1PG, UK",
+            "language": "eng",
+            "pubModel": "Undetermined",
+            "pubTypeList": {
+              "pubType": [
+                "book-review",
+                "Book Review"
+              ]
+            },
+            "fullTextUrlList": {
+              "fullTextUrl": [
+                {
+                  "availability": "Subscription required",
+                  "availabilityCode": "S",
+                  "documentStyle": "doi",
+                  "site": "DOI",
+                  "url": "https://doi.org/10.1186/1756-3305-3-112"
+                },
+                {
+                  "availability": "Free",
+                  "availabilityCode": "F",
+                  "documentStyle": "html",
+                  "site": "PubMedCentral",
+                  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3000396/?tool=EBI"
+                },
+                {
+                  "availability": "Free",
+                  "availabilityCode": "F",
+                  "documentStyle": "pdf",
+                  "site": "PubMedCentral",
+                  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3000396/pdf/?tool=EBI"
+                },
+                {
+                  "availability": "Free",
+                  "availabilityCode": "F",
+                  "documentStyle": "html",
+                  "site": "Europe_PMC",
+                  "url": "https://europepmc.org/articles/PMC3000396"
+                },
+                {
+                  "availability": "Free",
+                  "availabilityCode": "F",
+                  "documentStyle": "pdf",
+                  "site": "Europe_PMC",
+                  "url": "https://europepmc.org/articles/PMC3000396?pdf=render"
+                }
+              ]
+            },
+            "isOpenAccess": "Y",
+            "inEPMC": "Y",
+            "inPMC": "Y",
+            "citedByCount": 28,
+            "hasReferences": "N",
+            "hasTextMinedTerms": "Y",
+            "hasDbCrossReferences": "N",
+            "hasPDF": "Y",
+            "hasBook": "N",
+            "hasSuppl": "N",
+            "hasLabsLinks": "Y",
+            "hasData": "N",
+            "license": "cc by",
+            "authMan": "N",
+            "epmcAuthMan": "N",
+            "nihAuthMan": "N",
+            "hasTMAccessionNumbers": "N",
+            "dateOfCreation": "2025-02-02",
+            "dateOfRevision": "2026-08-28",
+            "electronicPublicationDate": "2010-01-01",
+            "firstPublicationDate": "2010-01-01",
+            "firstIndexDate": "2010-12-11",
+            "fullTextReceivedDate": "2025-02-02",
+            "hasEvaluations": "N"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC2628334&format=json&resultType=core",
+    "retrieved_utc": "2026-11-16T15:20:12.534848+00:00",
+    "response": {
+      "version": "6.9",
+      "hitCount": 1,
+      "request": {
+        "queryString": "EXT_ID:PMC2628334",
+        "resultType": "core",
+        "cursorMark": "*",
+        "pageSize": 25,
+        "sort": "",
+        "synonym": false
+      },
+      "resultList": {
+        "result": [
+          {
+            "id": "PMC2628334",
+            "source": "PMC",
+            "pmcid": "PMC2628334",
+            "fullTextIdList": {
+              "fullTextId": [
+                "PMC2628334"
+              ]
+            },
+            "doi": "10.1186/1756-3305-2-1",
+            "title": "Review of \"Ticks: Biology, Disease and Control\" by Alan Bowman & Patricia Nuttall (eds.)",
+            "authorString": "Walker A.",
+            "authorList": {
+              "author": [
+                {
+                  "fullName": "Walker A",
+                  "lastName": "Walker",
+                  "firstName": "Alan R",
+                  "initials": "A",
+                  "authorAffiliationDetailsList": {
+                    "authorAffiliation": [
+                      {
+                        "affiliation": "Royal (Dick) School of Veterinary Studies, Summerhall Place, Edinburgh, EH9 1QH, UK"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "journalInfo": {
+              "volume": "2",
+              "journalIssueId": 3070482,
+              "dateOfPublication": "2009 Jan",
+              "monthOfPublication": 1,
+              "yearOfPublication": 2009,
+              "journal": {
+                "medlineAbbreviation": "Parasit Vectors",
+                "title": "Parasites & vectors",
+                "essn": "1756-3305",
+                "issn": "1756-3305",
+                "nlmid": "101462774",
+                "isoabbreviation": "Parasit Vectors"
+              },
+              "printPublicationDate": "2009-01-01"
+            },
+            "pubYear": "2009",
+            "pageInfo": "1-1",
+            "affiliation": "Royal (Dick) School of Veterinary Studies, Summerhall Place, Edinburgh, EH9 1QH, UK",
+            "language": "eng",
+            "pubModel": "Undetermined",
+            "pubTypeList": {
+              "pubType": [
+                "book-review",
+                "Book Review"
+              ]
+            },
+            "fullTextUrlList": {
+              "fullTextUrl": [
+                {
+                  "availability": "Subscription required",
+                  "availabilityCode": "S",
+                  "documentStyle": "doi",
+                  "site": "DOI",
+                  "url": "https://doi.org/10.1186/1756-3305-2-1"
+                },
+                {
+                  "availability": "Free",
+                  "availabilityCode": "F",
+                  "documentStyle": "html",
+                  "site": "PubMedCentral",
+                  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2628334/?tool=EBI"
+                },
+                {
+                  "availability": "Free",
+                  "availabilityCode": "F",
+                  "documentStyle": "pdf",
+                  "site": "PubMedCentral",
+                  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2628334/pdf/?tool=EBI"
+                },
+                {
+                  "availability": "Free",
+                  "availabilityCode": "F",
+                  "documentStyle": "html",
+                  "site": "Europe_PMC",
+                  "url": "https://europepmc.org/articles/PMC2628334"
+                },
+                {
+                  "availability": "Free",
+                  "availabilityCode": "F",
+                  "documentStyle": "pdf",
+                  "site": "Europe_PMC",
+                  "url": "https://europepmc.org/articles/PMC2628334?pdf=render"
+                }
+              ]
+            },
+            "isOpenAccess": "Y",
+            "inEPMC": "Y",
+            "inPMC": "Y",
+            "citedByCount": 15,
+            "hasReferences": "N",
+            "hasTextMinedTerms": "Y",
+            "hasDbCrossReferences": "N",
+            "hasPDF": "Y",
+            "hasBook": "N",
+            "hasSuppl": "N",
+            "hasLabsLinks": "N",
+            "hasData": "N",
+            "license": "cc by",
+            "authMan": "N",
+            "epmcAuthMan": "N",
+            "nihAuthMan": "N",
+            "hasTMAccessionNumbers": "N",
+            "dateOfCreation": "2025-02-05",
+            "dateOfRevision": "2026-08-27",
+            "electronicPublicationDate": "2009-01-01",
+            "firstPublicationDate": "2009-01-01",
+            "firstIndexDate": "2010-02-22",
+            "fullTextReceivedDate": "2025-02-05",
+            "hasEvaluations": "N"
+          }
+        ]
+      }
+    }
+  }
+]

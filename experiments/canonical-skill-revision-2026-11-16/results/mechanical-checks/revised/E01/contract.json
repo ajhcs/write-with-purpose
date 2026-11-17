@@ -1,0 +1,17 @@
+{
+  "max_growth_words": 0,
+  "protected_literals": [
+    {
+      "text": "does not transmit",
+      "min_count": 1
+    },
+    {
+      "text": "5 s",
+      "min_count": 1
+    },
+    {
+      "text": "not tested it outdoors",
+      "min_count": 1
+    }
+  ]
+}

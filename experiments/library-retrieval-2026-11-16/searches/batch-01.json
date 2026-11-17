@@ -1,0 +1,119 @@
+{
+  "batch": 1,
+  "queries": [
+    {
+      "candidate_key": "business:business_005",
+      "doi": "10.5465/amr.1984.4277628",
+      "title": "Upper Echelons: The Organization as a Reflection of Its Top Managers",
+      "field": "business_management",
+      "q": "\"Upper Echelons: The Organization as a Reflection of Its Top Managers\" pdf"
+    },
+    {
+      "candidate_key": "business:business_006",
+      "doi": "10.5465/amr.1998.1255632",
+      "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+      "field": "business_management",
+      "q": "\"The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage\" pdf"
+    },
+    {
+      "candidate_key": "business:business_007",
+      "doi": "10.5465/amr.1989.4279003",
+      "title": "Agency Theory: An Assessment and Review",
+      "field": "business_management",
+      "q": "\"Agency Theory: An Assessment and Review\" pdf"
+    },
+    {
+      "candidate_key": "business:business_008",
+      "doi": "10.5465/amr.1985.4277352",
+      "title": "Sources of Conflict between Work and Family Roles",
+      "field": "business_management",
+      "q": "\"Sources of Conflict between Work and Family Roles\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_005",
+      "query": "\"Upper Echelons: The Organization as a Reflection of Its Top Managers\" pdf",
+      "urls": [
+        {
+          "title": "Upper Echelons: The Organization as a Reflection of Its Top Managers",
+          "url": "https://explore.metascienceobservatory.org/papers/W2126186544",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Upper echelons theory",
+          "url": "https://en.wikipedia.org/wiki/Upper_echelons_theory",
+          "score": 0.25,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_006",
+      "query": "\"The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage\" pdf",
+      "urls": [
+        {
+          "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+          "url": "https://journals.aom.org/doi/10.5465/amr.1998.1255632",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+          "url": "https://journals.aom.org/doi/10.5465/AMR.1998.1255632",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+          "url": "https://www.researchgate.net/profile/Harbir-Singh-3/publication/239928358_The_Relational_View_Cooperative_Strategy_and_Sources_of_Interorganizational_Competitive_Advantage/links/572256ad08ae586b21d3f573/The-Relational-View-Cooperative-Strategy-and-Sources-of-Interorganizational-Competitive-Advantage.pdf",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_007",
+      "query": "\"Agency Theory: An Assessment and Review\" pdf",
+      "urls": [
+        {
+          "title": "Agency Theory: An Assessment and Review",
+          "url": "https://www.scienceopen.com/document?vid=4282787e-b262-4251-9ec2-036b63359cac",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Agency Theory: An Assessment and Review",
+          "url": "https://strategy.sjsu.edu/www.stable/pdf/Eisenhardt%2C%20K.%20M.%2C%201989%2C%20The%20Academy%20of%20Management%20Review%2014%281%29%2057-74.pdf",
+          "score": 1,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "business:business_008",
+      "query": "\"Sources of Conflict between Work and Family Roles\" pdf",
+      "urls": [
+        {
+          "title": "Sources of Conflict between Work and Family Roles | JSTOR",
+          "url": "https://doi.org/10.2307/258214",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "GREENHAUS, J. H.; BEUTELL, N. J. Sources of conflict between work and family roles. **Academy of Management Review**, v. 10, n. 1, p. 76-88, 1985.",
+          "url": "https://repositorio.ufsc.br/bitstream/handle/123456789/201932/102_00183.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Work–family conflict",
+          "url": "https://en.wikipedia.org/wiki/Work%E2%80%93family_conflict",
+          "score": 0.42857142857142855,
+          "body_score": 1
+        }
+      ]
+    }
+  ]
+}

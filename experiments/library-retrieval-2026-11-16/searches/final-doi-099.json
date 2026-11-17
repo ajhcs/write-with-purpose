@@ -1,0 +1,19 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_34",
+      "doi": "10.1119/1.2343229",
+      "title": "How to measure g easily with ≊10−4 precision in the beginners’ lab",
+      "authors": "[\"Fritz Schoch\", \"Walter Winiger\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"How to measure g easily with ≊10−4 precision\" Schoch filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_34",
+      "query": "\"How to measure g easily with ≊10−4 precision\" Schoch filetype:pdf -thesis -dissertation",
+      "urls": []
+    }
+  ]
+}

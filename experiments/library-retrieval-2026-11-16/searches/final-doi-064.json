@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-1",
+      "doi": "10.1016/s0140-6736(12)60482-6",
+      "title": "Multimorbidity: redesigning health care for people who use it.",
+      "authors": "[\"Salisbury C\"]",
+      "field": "medicine_health",
+      "q": "\"Multimorbidity: redesigning health care for people who use\" Salisbury filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "medicine:medicine-argument_perspective-1",
+      "query": "\"Multimorbidity: redesigning health care for people who use\" Salisbury filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "Multimorbidity: redesigning health care for people who use it",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22579042/",
+          "score": 1
+        },
+        {
+          "title": "Multimorbidity: redesigning health care for people who use it",
+          "url": "https://research-information.bris.ac.uk/en/publications/multimorbidity-redesigning-health-care-for-people-who-use-it/",
+          "score": 1
+        },
+        {
+          "title": "Multimorbidity: redesigning health care for people who use it",
+          "url": "https://documentsdelivered.com/source/007/504/007504146.php",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

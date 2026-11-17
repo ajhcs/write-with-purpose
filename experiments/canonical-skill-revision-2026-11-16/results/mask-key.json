@@ -1,0 +1,185 @@
+{
+  "scope": "Parent-only identities withheld from masked reviewer. Balanced six cases per left-arm assignment.",
+  "pairs": [
+    {
+      "id": "E01",
+      "mapping": {
+        "A": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E01/output.txt",
+          "sha256": "99396d9d880c7c9ca6401859a4995b9b7ea1d1eb23586fb6bcf36f5ee7868fba"
+        },
+        "B": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E01/output.txt",
+          "sha256": "99396d9d880c7c9ca6401859a4995b9b7ea1d1eb23586fb6bcf36f5ee7868fba"
+        }
+      }
+    },
+    {
+      "id": "E02",
+      "mapping": {
+        "B": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E02/output.txt",
+          "sha256": "04b52c6be4fd27db2a159f5905c27d218c740e2a3cda74666a4a73dfbb0a16ed"
+        },
+        "A": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E02/output.txt",
+          "sha256": "08717282a01b59392f2b14e6b9ff3a380cd769b4902c6e0e16db803e9e99e4cb"
+        }
+      }
+    },
+    {
+      "id": "E03",
+      "mapping": {
+        "A": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E03/output.txt",
+          "sha256": "5cacc86addaecae088d3fd180595093cd91cdc81976ae40c34f1869c3bc71ac1"
+        },
+        "B": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-B/E03/output.txt",
+          "sha256": "1c0d5661d56f1ceff1fd773c1992bfe3110403f9a8641d6048c6021090d751d9"
+        }
+      }
+    },
+    {
+      "id": "E04",
+      "mapping": {
+        "A": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E04/output.txt",
+          "sha256": "2f21e46ea65dc651d62934867ab826165ee7c1e3d52a80e3e6cdf2aa07cdba6c"
+        },
+        "B": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E04/output.txt",
+          "sha256": "4ccbc99027bcf9de7725530ed67fc6171e559e92694a73462e0baeecc855e375"
+        }
+      }
+    },
+    {
+      "id": "E05",
+      "mapping": {
+        "A": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E05/output.txt",
+          "sha256": "6eb025c2644241510fc9ed304d34317cdd986267a18e7f1ee231747bdc4a7e23"
+        },
+        "B": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-B/E05/output.txt",
+          "sha256": "8be799c39b2885f361b84f23c73c00f6cedbba729302fce875a1a70c38d0cda9"
+        }
+      }
+    },
+    {
+      "id": "E06",
+      "mapping": {
+        "B": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E06/output.txt",
+          "sha256": "6cc5c05363c1adf5d42fd2ef61fcef00babb70f7d1e822e0c3358820216995c9"
+        },
+        "A": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-B/E06/output.txt",
+          "sha256": "827f503d15c5ad233fb987b5ce6c5fff0bc9025e8c4d3d04d32f7804a80b9f5b"
+        }
+      }
+    },
+    {
+      "id": "E07",
+      "mapping": {
+        "A": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/E07/output.txt",
+          "sha256": "bbb73429d3b7e015b3af53e1c87b21cc08b89f609f52c5ed432acd31f058a7ef"
+        },
+        "B": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E07/output.txt",
+          "sha256": "72f2be09cbd1d7c3b0b3807e191c81f667aaba22569bfd1417cab971c64f3364"
+        }
+      }
+    },
+    {
+      "id": "E08",
+      "mapping": {
+        "B": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/E08/output.txt",
+          "sha256": "497275c9656f25ce46121c7a7cfabe176119073ed8efae4d791a53bd6c7c0fab"
+        },
+        "A": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-B/E08/output.txt",
+          "sha256": "e439bac7c3311fad5190fab3a5323f6b6bee1051843bc1e1c047980c673ed110"
+        }
+      }
+    },
+    {
+      "id": "L01",
+      "mapping": {
+        "B": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/L01/output.txt",
+          "sha256": "adb0ac73b662e5cfc0d9627fa856e82b969c5bcff2babfb735dd7951aa38ad0a"
+        },
+        "A": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/L01/output.txt",
+          "sha256": "cec1917578afba471c5bef207eaac4d1b6f4c0006824bbc67c660dd71142a7b9"
+        }
+      }
+    },
+    {
+      "id": "L02",
+      "mapping": {
+        "B": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/L02/output.txt",
+          "sha256": "22303ba44fa982870ec6dbe972c812449796b2e2691390d7e2b91dabc3395d52"
+        },
+        "A": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-B/L02/output.txt",
+          "sha256": "137dd9380f45fb45e97f4820dd1dd1d1317e4963d6bac60fa810602aa7a1dc3a"
+        }
+      }
+    },
+    {
+      "id": "D01",
+      "mapping": {
+        "B": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-A/D01/output.txt",
+          "sha256": "b1a536e456f7403b910211e5cb88da68dd993150642f9cde8bdf8102303a1609"
+        },
+        "A": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/D01/output.txt",
+          "sha256": "703c7d3e1eb027fe52191d95abe7fd4a284a14d2f1103816a7dc3eb183c78a8d"
+        }
+      }
+    },
+    {
+      "id": "D02",
+      "mapping": {
+        "A": {
+          "arm": "baseline",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/baseline-B/D02/output.txt",
+          "sha256": "9ff9d0b73c1465c0433badcb4b3e200e9a959b4f1189df94439604f3ce8dac42"
+        },
+        "B": {
+          "arm": "revised",
+          "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-B/D02/output.txt",
+          "sha256": "05e5d6d97db08cf3df766f01d0758668173d457ddb69d359937972669335b2a2"
+        }
+      }
+    }
+  ]
+}

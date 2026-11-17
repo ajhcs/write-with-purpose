@@ -1,0 +1,109 @@
+{
+  "batch": 4,
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_37",
+      "doi": "",
+      "title": "Argparse Tutorial",
+      "authors": "[\"Tshepang Lekhonkhobe\"]",
+      "field": "engineering_computing",
+      "q": "\"Argparse Tutorial\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_38",
+      "doi": "",
+      "title": "Regular Expression HOWTO",
+      "authors": "[\"A.M. Kuchling\"]",
+      "field": "engineering_computing",
+      "q": "\"Regular Expression HOWTO\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_39",
+      "doi": "",
+      "title": "len(s)",
+      "authors": "[\"Python Software Foundation and contributors\"]",
+      "field": "engineering_computing",
+      "q": "\"len(s)\" pdf"
+    },
+    {
+      "candidate_key": "engineering:eng_40",
+      "doi": "",
+      "title": "open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)",
+      "authors": "[\"Python Software Foundation and contributors\"]",
+      "field": "engineering_computing",
+      "q": "\"open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)\" pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_37",
+      "query": "\"Argparse Tutorial\" pdf",
+      "urls": [
+        {
+          "title": "Argparse Tutorial",
+          "url": "https://www.uwemahlmann.de/doc/packages/python3.12/docs-pdf/howto-argparse.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Python - Argparse",
+          "url": "https://galaxyproject.github.io/training-material/topics/data-science/tutorials/python-argparse/tutorial.html",
+          "score": 0.5,
+          "body_score": 1
+        },
+        {
+          "title": "Requesting help learning why I can't get Terminal to run a tutorial document",
+          "url": "https://www.reddit.com/r/learnpython/comments/wmw85w",
+          "score": 0.5,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_38",
+      "query": "\"Regular Expression HOWTO\" pdf",
+      "urls": [
+        {
+          "title": "Regular Expression HOWTO",
+          "url": "https://ucilnica.fri.uni-lj.si/pluginfile.php/217772/mod_resource/content/1/howto-regex.pdf",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Regular expression HOWTO — Python 3.14.7 documentation",
+          "url": "https://docs.python.org/3/howto/regex.html?highlight=string+split",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Regular expression HOWTO — Python 3.14.8 documentation",
+          "url": "https://docs.python.org/uk/3/howto/regex.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Regular Expression HOWTO – документация Python 3.5",
+          "url": "https://python-all.ru/3.5/howto/regex.html",
+          "score": 1,
+          "body_score": 1
+        },
+        {
+          "title": "Regex Howto | PDF",
+          "url": "https://www.scribd.com/document/773951293/Regex-Howto",
+          "score": 0.3333333333333333,
+          "body_score": 1
+        }
+      ]
+    },
+    {
+      "candidate_key": "engineering:eng_39",
+      "query": "\"len(s)\" pdf",
+      "urls": []
+    },
+    {
+      "candidate_key": "engineering:eng_40",
+      "query": "\"open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)\" pdf",
+      "urls": []
+    }
+  ]
+}

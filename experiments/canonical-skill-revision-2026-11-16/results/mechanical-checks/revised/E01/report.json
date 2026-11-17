@@ -1,0 +1,124 @@
+{
+  "checker": "write-with-purpose-advisory-text-checker",
+  "checker_version": "0.2.0",
+  "advisory": false,
+  "contract_enforcement": {
+    "requested": true,
+    "status": "passed",
+    "scope": "Declared literal and word-limit requirements only; all other findings remain advisory.",
+    "violated_checks": []
+  },
+  "result": "assessment_completed",
+  "input": {
+    "requested": true,
+    "path": "experiments/canonical-skill-revision-2026-11-16/runs/revised-A/E01/output.txt",
+    "sha256": "99396d9d880c7c9ca6401859a4995b9b7ea1d1eb23586fb6bcf36f5ee7868fba",
+    "status": "loaded"
+  },
+  "source": {
+    "requested": true,
+    "path": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/revised/E01/source.txt",
+    "sha256": "2f9cd16a03ab33875b04817df2f3edffccdbad9234752cd79c78d31fa51fcfb7",
+    "status": "loaded"
+  },
+  "contract": {
+    "requested": true,
+    "path": "experiments/canonical-skill-revision-2026-11-16/results/mechanical-checks/revised/E01/contract.json",
+    "sha256": "3974ed00848849cdb018afc08a4ec350c6bfe4d5b6f6f82e7886c003169e663f",
+    "status": "loaded"
+  },
+  "checks": {
+    "duplicate_paragraphs": {
+      "status": "evaluated",
+      "paragraph_count": 1,
+      "comparison": "literal text, including whitespace and line wrapping",
+      "finding_count": 0
+    },
+    "unresolved_markers": {
+      "status": "evaluated",
+      "finding_count": 0,
+      "quoted_literal_exclusions": 0
+    },
+    "internal_markdown_anchors": {
+      "status": "evaluated",
+      "finding_count": 0,
+      "heading_count": 0,
+      "link_count": 0,
+      "heading_slugs": [],
+      "scope": "simple inline fragment links and plain ASCII ATX headings"
+    },
+    "numeric_token_changes": {
+      "status": "evaluated",
+      "finding_count": 0,
+      "token_pattern": "[0-9]+(?:[.,][0-9]+)*(?:[eE][+-]?[0-9]+)?",
+      "input_token_count": 1,
+      "source_token_count": 1,
+      "semantic_assessment": "NOT_ASSESSED"
+    },
+    "protected_literals": {
+      "status": "evaluated",
+      "finding_count": 0,
+      "counting": "case-sensitive, non-overlapping, entire raw decoded artifact",
+      "literals": [
+        {
+          "contract_index": 0,
+          "text": "does not transmit",
+          "min_count": 1,
+          "actual_count": 1
+        },
+        {
+          "contract_index": 1,
+          "text": "5 s",
+          "min_count": 1,
+          "actual_count": 1
+        },
+        {
+          "contract_index": 2,
+          "text": "not tested it outdoors",
+          "min_count": 1,
+          "actual_count": 1
+        }
+      ]
+    },
+    "word_limits": {
+      "status": "evaluated",
+      "finding_count": 0,
+      "counting": "Whitespace-separated tokens in the entire raw decoded artifact; initial BOM excluded.",
+      "artifact_words": 26,
+      "source_words": 26,
+      "constraints": [
+        {
+          "constraint": "max_growth_words",
+          "maximum": 0,
+          "actual": 0,
+          "exceeded": false
+        }
+      ]
+    }
+  },
+  "findings": [],
+  "errors": [],
+  "assessment": {
+    "conformance": {
+      "status": "LIMITED",
+      "scope": "Only the explicit patterns, word limits and literal requirements listed in this report.",
+      "statement": "An evaluated check is not a pass, approval, or full conformance judgment."
+    },
+    "correctness": {
+      "status": "NOT_ASSESSED"
+    },
+    "usefulness": {
+      "status": "NOT_ASSESSED"
+    }
+  },
+  "limitations": [
+    "No factual, semantic, tone, style, authorship, or AI-style assessment.",
+    "Prose blocks are blank-line-delimited nonheading text. Exact comparison preserves whitespace and wrapping; list/blockquote text can be included. Indented code and full Markdown grammar are not parsed.",
+    "Fenced code is masked with spaces while retaining newlines and offsets. Marker, anchor-link, and numeric scans also mask matched inline backticks.",
+    "Only [[TBD]], [[TODO]], [TBD], and [TODO] are markers. An immediately quote-wrapped marker is excluded; other quotation contexts are not inferred.",
+    "Anchors cover simple inline fragment links and plain ASCII ATX headings. Slugs lowercase, remove punctuation except hyphen/underscore, collapse spaces/tabs to hyphens, and suffix collisions -1, -2, etc. No renderer guarantee, reference-link, Setext, HTML, or custom-anchor support.",
+    "Numeric comparisons count lexical tokens, not numeric equivalence or meaning. Locations list all occurrences of changed tokens, not semantic alignments.",
+    "Word limits count raw whitespace-separated tokens, including markup/code. A passing limit does not establish preserved meaning or suitable length.",
+    "Contract literals use exact non-overlapping counts in the entire raw UTF-8 decoded artifact, including fenced code and quoted text."
+  ]
+}

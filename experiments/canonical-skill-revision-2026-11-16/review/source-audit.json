@@ -1,0 +1,48 @@
+{
+  "status": "final source audit complete; no material outstanding source issue identified",
+  "review_scope": "frozen baseline versus canonical skills and implementation notes; no behavioral output access",
+  "rubric": [
+    "appropriate task depth and affirmative improvement without mandatory rewrite",
+    "author meaning evidence voice and grounded optional alternatives",
+    "objective-gated standalone annotation and requested-solution versus chosen-practice distinction",
+    "standalone installability reference routing and approved copies",
+    "actual final artifact and real declared constraints with semantic checks separate"
+  ],
+  "findings": [
+    {
+      "id": "practice-sequencing",
+      "severity": "moderate",
+      "status": "resolved by review-fix-01",
+      "locations": [
+        "skills/write-with-purpose/SKILL.md",
+        "skills/write-with-purpose/references/structure-and-purpose.md",
+        "skills/edit-with-purpose/references/structure-and-purpose.md"
+      ],
+      "issue": "after-writing practice wording can conflict with an explicitly requested attempt-first exercise",
+      "recommendation": "Make order follow the requested learning task; allow chosen attempt-first practice while delivering explicitly requested worked solutions directly."
+    },
+    {
+      "id": "practice-facts",
+      "severity": "info",
+      "status": "addressed by review-fix-02",
+      "detail": "Final instructions preserve the writing move in chosen practice; source-level readback only."
+    },
+    {
+      "id": "deliverable-boundary",
+      "severity": "info",
+      "status": "addressed by review-fix-03",
+      "detail": "Publishable prose and editorial notes remain distinguishable without mandatory headings or files."
+    }
+  ],
+  "reviewed_snapshot": "reviewed-snapshot/skills",
+  "snapshot_matches_live_at_review": true,
+  "behavioral_runs_read": false,
+  "shared_references_byte_identical": true,
+  "local_markdown_file_targets_missing": [],
+  "approved_style_and_article_copies_unchanged": true,
+  "existing_scripts_and_tests_unchanged": true,
+  "reviewed_snapshot_manifest_sha256": "80601a6b9538d8d4577aafd41c8e53c73604d8455cd0bb0913379eab28d25ffb",
+  "manifest_entries": 19,
+  "manifest_snapshot_live_hashes_match": true,
+  "manifest_unlisted_files": []
+}

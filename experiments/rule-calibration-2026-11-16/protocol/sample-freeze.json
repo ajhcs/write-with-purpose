@@ -1,0 +1,100 @@
+{
+  "sealed_at_utc": "2026-11-16T16:23:28.378310+00:00",
+  "sampling_manifest_sha256": "4974f9317ecf45b5289f2b6526e096a744609e58f208e859b24f741d2a9412e2",
+  "packets": [
+    {
+      "stage": "A",
+      "target_count": 24,
+      "document_count": 8,
+      "files": [
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/manifest.json",
+          "sha256": "ea38db187e75cb449c3b4fb784e0b702cc83174b3daaeb26fc59333b4958dfa6",
+          "bytes": 273225
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/target-context.md",
+          "sha256": "b943766d5c540bbcd638bd73afb8925953a88329c6b577a8711578e31d96d063",
+          "bytes": 86462
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/LF-2cb0e10879f3.md",
+          "sha256": "36ac32a357ab79d1613e151eb495f0ddde77a9375cbda9ca21e6f3c0b41581b8",
+          "bytes": 18048
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/LF-80bd6f30b443.md",
+          "sha256": "6db89a40a6c9283e92c7144974c5c1117f5928d6c49206cce957314e286aae3d",
+          "bytes": 33860
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/LF-d23d38c43ea7.md",
+          "sha256": "fc6f799d508c09888bc7a7ed93b66cbe6de2ee52125ce4a4fc95406c045c28c2",
+          "bytes": 29711
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/LF-fca9142fd337.md",
+          "sha256": "b6b9bc2408d4db66d5288847a0fce57d67525de9e25e71a2bad15b31c94b6ad0",
+          "bytes": 17592
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/PMC2867979.md",
+          "sha256": "22ef63b14002a6fd5ee52beb0c56ec5294fbad31e128c2416d89c3e6adc2518c",
+          "bytes": 51908
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/PMC4053896.md",
+          "sha256": "32de28f60c5643496b35d45ffd7a24d48ef1f7cf16f93aa94fcc8007ec245659",
+          "bytes": 30792
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/git.md",
+          "sha256": "1dae8cb93115c5357b6967c9ccaf060384e9a31862e54a9e8e715913021de952",
+          "bytes": 3186
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/A/sources/python.md",
+          "sha256": "d59d46918109eeda2de8dc83b2d3888bb413d6dc78e8ae3e2a01089146e4b34f",
+          "bytes": 3018
+        }
+      ]
+    },
+    {
+      "stage": "B",
+      "target_count": 12,
+      "document_count": 4,
+      "files": [
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/manifest.json",
+          "sha256": "f451821b52ec5c6e0f72ef65b564b2b89faf8a3fab2d46877e6fa57a62fd709b",
+          "bytes": 146586
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/target-context.md",
+          "sha256": "0f105c0d2f7b5fa2d583d69fd8a68d314a3f3507f775dc361084bc54a0380338",
+          "bytes": 40435
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/sources/LF-03f718ef8cc6.md",
+          "sha256": "c576e091d3ec5ad2f0a00efdf92ab3b8debc4fe00598963296c0cbcc68ed976f",
+          "bytes": 15963
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/sources/LF-536f04360ed3.md",
+          "sha256": "5528b35f74660e42edfddc76ee9a2e87d6b49dd8c465ec82917f565958da6843",
+          "bytes": 31144
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/sources/PMC4566873.md",
+          "sha256": "d0720a62b45186e28189f8ecdef940cffda8cdf15b223c07c0111823447f9501",
+          "bytes": 45966
+        },
+        {
+          "path": "/workspace/repos/builderbob/.writing-corpus-cache/rule-calibration/packets/B/sources/curl.md",
+          "sha256": "084fa97d2c56f3b06b68cfb0ddf934a740bce40044169feca3339517846eaa53",
+          "bytes": 6600
+        }
+      ]
+    }
+  ]
+}

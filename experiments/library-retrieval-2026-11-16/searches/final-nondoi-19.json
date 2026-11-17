@@ -1,0 +1,50 @@
+{
+  "queries": [
+    {
+      "candidate_key": "physical-sciences:psm_31",
+      "doi": "",
+      "title": "Conventionality of Simultaneity",
+      "authors": "[\"Allen Janis\"]",
+      "field": "physical_sciences_mathematics",
+      "q": "\"Conventionality of Simultaneity\" Janis pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "physical-sciences:psm_31",
+      "query": "\"Conventionality of Simultaneity\" Janis pdf",
+      "urls": [
+        {
+          "title": "Directed theories of time and the conventionality of simultaneity 7",
+          "url": "https://www.hps.cam.ac.uk/system/files/documents/roberts-simultaneity.pdf",
+          "score": 1
+        },
+        {
+          "title": "Conventionality of Simultaneity and Reality",
+          "url": "https://philsci-archive.pitt.edu/3986/1/elsevier2.pdf",
+          "score": 1
+        },
+        {
+          "title": "Janis, A.I. [1983]: ‘Simultaneity and conventionality’, in R.S. Cohen and L. Laudan (eds), 1983, *Physics, Philosophy and Psychoanalysis*, Dordrecht: D. Reidel Publ. Co.",
+          "url": "https://philsci-archive.pitt.edu/366/1/simultan.pdf",
+          "score": 1
+        },
+        {
+          "title": "Conventionality of Simultaneity",
+          "url": "https://plato.stanford.edu/archives/win1998/entries/spacetime-convensimul/",
+          "score": 1
+        },
+        {
+          "title": "Conventionality of Simultaneity (Stanford Encyclopedia of Philosophy/Summer 2003 Edition)",
+          "url": "https://plato.stanford.edu/archives/sum2003/entries/spacetime-convensimul/",
+          "score": 1
+        },
+        {
+          "title": "Conventionality of Simultaneity (Stanford Encyclopedia of Philosophy/Summer 2002 Edition)",
+          "url": "https://plato.stanford.edu/archives/sum2002/entries/spacetime-convensimul/",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

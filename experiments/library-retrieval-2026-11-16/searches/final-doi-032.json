@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "candidate_key": "engineering:eng_12",
+      "doi": "10.1109/tse.2009.67",
+      "title": "The “Physics” of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering",
+      "authors": "[\"D. Moody\"]",
+      "field": "engineering_computing",
+      "q": "\"The Physics of Notations: Toward a Scientific Basis\" Moody filetype:pdf -thesis -dissertation"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "engineering:eng_12",
+      "query": "\"The Physics of Notations: Toward a Scientific Basis\" Moody filetype:pdf -thesis -dissertation",
+      "urls": [
+        {
+          "title": "D. L. Moody. The \"Physics\" of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering. *IEEE Transactions on Software Engineering*, 35(6):756–779, 2009.",
+          "url": "https://www.plopcon.org/pastplops/2011/papers/proceedings/papers/gunther.pdf",
+          "score": 1
+        },
+        {
+          "title": "The “Physics” of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering",
+          "url": "https://www.researchgate.net/publication/224090141_The_Physics_of_Notations_Toward_a_Scientific_Basis_for_Constructing_Visual_Notations_in_Software_Engineering",
+          "score": 1
+        },
+        {
+          "title": "The “Physics” of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering",
+          "url": "https://scispace.com/papers/the-physics-of-notations-toward-a-scientific-basis-for-3pgjp50rei?citations_page=120",
+          "score": 1
+        },
+        {
+          "title": "The physics of notations: a scientific approach to designing visual notations in software engineering",
+          "url": "https://www.researchgate.net/publication/224264684_The_physics_of_notations_a_scientific_approach_to_designing_visual_notations_in_software_engineering",
+          "score": 0.6666666666666666
+        }
+      ]
+    }
+  ]
+}

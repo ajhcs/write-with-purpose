@@ -1,0 +1,45 @@
+{
+  "scope": "Additive full-text access updates, preserving earlier records and limitations",
+  "records": [
+    {
+      "paper_id": "P15",
+      "title": "Generic structure and rhetorical moves in English-language empirical law research articles: Sites of interdisciplinary and interdiscursive cross-over",
+      "doi": "10.1016/j.esp.2014.06.002",
+      "previous_scope": "Earlier prior-work map had abstract/preview/method-snippet access only; see historical source records.",
+      "current_scope": "User-supplied full paper read, with source-page review; not a new replication.",
+      "source_pdf": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/1-s2.0-S0889490614000386-main.pdf",
+      "source_sha256": "80f97bf752fbb986cf7faafb73534ad9867325c02bf3cc6ce29f85839786027d",
+      "review": "reviews/genre-moves.json"
+    },
+    {
+      "paper_id": "P16",
+      "title": "In search of commonalities: Some linguistic and rhetorical features of business reports as a genre",
+      "doi": "10.1016/j.esp.2006.06.004",
+      "previous_scope": "Earlier prior-work map had abstract/preview/method-snippet access only; see historical source records.",
+      "current_scope": "User-supplied full paper read, with source-page review; not a new replication.",
+      "source_pdf": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/1-s2.0-S0889490606000329-main.pdf",
+      "source_sha256": "dadebbdf736488ac3a3dc12d279d6cb3485b16a9b7dae40ab1d84f551efc19d6",
+      "review": "reviews/genre-moves.json"
+    },
+    {
+      "paper_id": "P17",
+      "title": "A move/step model for methods sections: Demonstrating Rigour and Credibility",
+      "doi": "10.1016/j.esp.2017.01.001",
+      "previous_scope": "Earlier prior-work map had abstract/preview/method-snippet access only; see historical source records.",
+      "current_scope": "User-supplied full paper read, with source-page review; not a new replication.",
+      "source_pdf": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/1-s2.0-S0889490617300078-main.pdf",
+      "source_sha256": "c19cc55637c8ee0aeb4711854f32ec4397511fd2bf2c3bf2c487167d7eef5f56",
+      "review": "reviews/genre-moves.json"
+    },
+    {
+      "paper_id": "P18",
+      "title": "Interrater agreement in genre analysis: A methodological review and a comparison of three measures",
+      "doi": "10.1016/j.rmal.2024.100097",
+      "previous_scope": "Earlier prior-work map had abstract/preview/method-snippet access only; see historical source records.",
+      "current_scope": "User-supplied full paper read, with source-page review; not a new replication.",
+      "source_pdf": "/workspace/repos/builderbob/.writing-corpus-cache/evidence-integration-2026-11-16/pdfs/1-s2.0-S277276612400003X-main.pdf",
+      "source_sha256": "c3dac7a427e2c6adbd2e16a0aa7be38da9f44afc0abaca7421bccdc34c3d1b77",
+      "review": "reviews/agreement-writing-rules.json"
+    }
+  ]
+}

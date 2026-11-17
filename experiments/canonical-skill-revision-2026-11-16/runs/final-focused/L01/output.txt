@@ -1,0 +1,3 @@
+The model correctly classified 80 of 100 cases.
+
+This replaces vague praise with the result the notes actually report. It does not call the result good or claim an improvement, because no baseline or comparator was supplied.

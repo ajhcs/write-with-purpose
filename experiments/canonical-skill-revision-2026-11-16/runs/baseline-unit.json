@@ -1,0 +1,18 @@
+{
+  "arm": "frozen-baseline",
+  "command": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "cwd": "/workspace/repos/builderbob/write-with-purpose/experiments/canonical-skill-revision-2026-11-16/baseline",
+  "started_utc": "2026-11-16T21:18:20.504466+00:00",
+  "finished_utc": "2026-11-16T21:18:22.011612+00:00",
+  "exit_code": 0,
+  "test_count": 47,
+  "log": "runs/baseline-unit.log"
+}

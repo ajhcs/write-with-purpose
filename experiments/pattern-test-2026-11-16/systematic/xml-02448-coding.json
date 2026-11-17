@@ -1,0 +1,915 @@
+{
+  "source_xml_sha256": "c26fa6bc63b941326a171c81f7254d5ea92e50f8850fd1d0eba2ccaf0a3207c3",
+  "cache_sha256": "93ee8d0ca2015bdd86250dc23e0163701502c8b07e9b95c1a8ad05a2b6069b0d",
+  "sections": [
+    {
+      "id": "sec1",
+      "heading": "Introduction",
+      "parent": null,
+      "analyst_role": "introduction"
+    },
+    {
+      "id": "sec2",
+      "heading": "Methods",
+      "parent": null,
+      "analyst_role": "methods"
+    },
+    {
+      "id": "sec3",
+      "heading": "Search strategy and selection criteria",
+      "parent": "sec2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "sec4",
+      "heading": "Types of studies",
+      "parent": "sec2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "sec5",
+      "heading": "Outcome data",
+      "parent": "sec2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "sec6",
+      "heading": "Data extraction, risk of bias, and quality assessment",
+      "parent": "sec2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "sec7",
+      "heading": "Statistical analysis",
+      "parent": "sec2",
+      "analyst_role": "methods"
+    },
+    {
+      "id": "sec8",
+      "heading": "Results",
+      "parent": null,
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec9",
+      "heading": "Study characteristics",
+      "parent": "sec8",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec10",
+      "heading": "Effect estimates",
+      "parent": "sec8",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec11",
+      "heading": "Blood pressure, renal function, blood lipids, and catecholamine levels in adults",
+      "parent": "sec10",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec12",
+      "heading": "All cause mortality, cardiovascular disease, stroke, and coronary heart disease in adults",
+      "parent": "sec10",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec13",
+      "heading": "Blood pressure, blood lipids, and catecholamine levels in children",
+      "parent": "sec10",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec14",
+      "heading": "Quality of body of evidence",
+      "parent": "sec10",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec15",
+      "heading": "Sensitivity analysis",
+      "parent": "sec10",
+      "analyst_role": "results"
+    },
+    {
+      "id": "sec16",
+      "heading": "Discussion",
+      "parent": null,
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "sec17",
+      "heading": "Strengths and limitations of this review",
+      "parent": "sec16",
+      "analyst_role": "discussion"
+    },
+    {
+      "id": "sec18",
+      "heading": "Conclusion",
+      "parent": "sec16",
+      "analyst_role": "conclusion"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "xml-02448-p001",
+      "section_id": "sec1",
+      "source_xml_path": "/article/body/sec[1]/p[1]",
+      "start": 0,
+      "end": 2202,
+      "span_sha256": "c1be9c74c70f89a502d97a51fa84f6345dc824255e9e0dff9cc0782a0c8d8710",
+      "functions": [
+        "orient",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Public health context, sodium and proposed risk.",
+      "analyst_role": "introduction",
+      "word_count": 330
+    },
+    {
+      "id": "xml-02448-p002",
+      "section_id": "sec1",
+      "source_xml_path": "/article/body/sec[1]/p[2]",
+      "start": 2204,
+      "end": 3370,
+      "span_sha256": "a07fb92c4ade739fa69cf79fa894f9b2275f11c8353c7aea32b4fbb4f15823f0",
+      "functions": [
+        "report",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Prior conflicting studies and limitations.",
+      "analyst_role": "introduction",
+      "word_count": 164
+    },
+    {
+      "id": "xml-02448-p003",
+      "section_id": "sec1",
+      "source_xml_path": "/article/body/sec[1]/p[3]",
+      "start": 3372,
+      "end": 4375,
+      "span_sha256": "cfb07a30a1653e6786e51bebdb0b2e909c99d11e3eb080e440646430806c4d10",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Guideline purpose and review objectives.",
+      "analyst_role": "introduction",
+      "word_count": 143
+    },
+    {
+      "id": "xml-02448-p004",
+      "section_id": "sec2",
+      "source_xml_path": "/article/body/sec[2]/p[1]",
+      "start": 4377,
+      "end": 4722,
+      "span_sha256": "c46e16798a5261afb2d1c83733ba7087dd4f1cb251efcdf123e5656a15c37adb",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Protocol and reporting guidance.",
+      "analyst_role": "methods",
+      "word_count": 50
+    },
+    {
+      "id": "xml-02448-p005",
+      "section_id": "sec3",
+      "source_xml_path": "/article/body/sec[2]/sec[1]/p[1]",
+      "start": 4724,
+      "end": 5192,
+      "span_sha256": "441aa525b3ec9a8eb0c57c52de2ac0eceab7d1aeda7b38f05ce95b659edc408d",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Review search and selection.",
+      "analyst_role": "methods",
+      "word_count": 71
+    },
+    {
+      "id": "xml-02448-p006",
+      "section_id": "sec3",
+      "source_xml_path": "/article/body/sec[2]/sec[1]/p[2]",
+      "start": 5194,
+      "end": 5982,
+      "span_sha256": "be583d33af8cba3d328b3c39a6e8b705520540fa1c9db7f8998804742b785faa",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Databases, dates, full terms in supplement and screening.",
+      "analyst_role": "methods",
+      "word_count": 116
+    },
+    {
+      "id": "xml-02448-p007",
+      "section_id": "sec4",
+      "source_xml_path": "/article/body/sec[2]/sec[2]/p[1]",
+      "start": 5984,
+      "end": 6224,
+      "span_sha256": "1e31c441ad11c1f20282c6e5f5d0973e7eecdcb303ac69780634210d690bd811",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Study designs and contingent inclusion.",
+      "analyst_role": "methods",
+      "word_count": 30
+    },
+    {
+      "id": "xml-02448-p008",
+      "section_id": "sec4",
+      "source_xml_path": "/article/body/sec[2]/sec[2]/p[2]",
+      "start": 6226,
+      "end": 7230,
+      "span_sha256": "c0cd2c517324bfe862856d98e1c665bb2d09223642121186a22f196de5b6c793",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Detailed criteria and exclusions.",
+      "analyst_role": "methods",
+      "word_count": 158
+    },
+    {
+      "id": "xml-02448-p009",
+      "section_id": "sec5",
+      "source_xml_path": "/article/body/sec[2]/sec[3]/p[1]",
+      "start": 7232,
+      "end": 7751,
+      "span_sha256": "f3a4f378127cc0efe8457ced6e9b45913b4d649bd16c153e57d792aa8db3bf41",
+      "functions": [
+        "define"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Outcomes specified.",
+      "analyst_role": "methods",
+      "word_count": 70
+    },
+    {
+      "id": "xml-02448-p010",
+      "section_id": "sec6",
+      "source_xml_path": "/article/body/sec[2]/sec[4]/p[1]",
+      "start": 7753,
+      "end": 8227,
+      "span_sha256": "a78695344ee6266ac0053a823f322cf98e195fc2f4153d632a7ff1461bd4b967",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Independent extraction and consensus.",
+      "analyst_role": "methods",
+      "word_count": 68
+    },
+    {
+      "id": "xml-02448-p011",
+      "section_id": "sec6",
+      "source_xml_path": "/article/body/sec[2]/sec[4]/p[2]",
+      "start": 8229,
+      "end": 8715,
+      "span_sha256": "92c074f6743ebd85cc0f4db1f31785209beb0f0d2782a2f75840459bfdcab8fd",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Bias domains and rating.",
+      "analyst_role": "methods",
+      "word_count": 71
+    },
+    {
+      "id": "xml-02448-p012",
+      "section_id": "sec6",
+      "source_xml_path": "/article/body/sec[2]/sec[4]/p[3]",
+      "start": 8717,
+      "end": 9195,
+      "span_sha256": "85bc9ca35d4be2d7b530ef7fc6a5003021d3dd445d9b6db306a5e0ac737a9b5a",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Publication bias and GRADE.",
+      "analyst_role": "methods",
+      "word_count": 78
+    },
+    {
+      "id": "xml-02448-p013",
+      "section_id": "sec7",
+      "source_xml_path": "/article/body/sec[2]/sec[5]/p[1]",
+      "start": 9197,
+      "end": 9424,
+      "span_sha256": "497ff404aa57669b9c3b979b37453fe90031b2c0866ce1002922ea7996969656",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Data entry and verification.",
+      "analyst_role": "methods",
+      "word_count": 35
+    },
+    {
+      "id": "xml-02448-p014",
+      "section_id": "sec7",
+      "source_xml_path": "/article/body/sec[2]/sec[5]/p[2]",
+      "start": 9426,
+      "end": 10278,
+      "span_sha256": "83d7584cb6a7fecc6cc5c01323c941d50d92ed3f23f94d7069012966b20a04e8",
+      "functions": [
+        "report",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Effect measure selection and rationale.",
+      "analyst_role": "methods",
+      "word_count": 133
+    },
+    {
+      "id": "xml-02448-p015",
+      "section_id": "sec7",
+      "source_xml_path": "/article/body/sec[2]/sec[5]/p[3]",
+      "start": 10280,
+      "end": 10972,
+      "span_sha256": "358a7e750caa2bf0b0edcc4993759ea6a69e85ac2fc04dcf2f37dc5d2b7bf8ac",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Continuous measures and multiple arms.",
+      "analyst_role": "methods",
+      "word_count": 107
+    },
+    {
+      "id": "xml-02448-p016",
+      "section_id": "sec7",
+      "source_xml_path": "/article/body/sec[2]/sec[5]/p[4]",
+      "start": 10974,
+      "end": 11459,
+      "span_sha256": "3bc1942d37ef6bc713125602937160c6b347d86a5d7df6c6916d6c4c4d024942",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Estimation and analysis.",
+      "analyst_role": "methods",
+      "word_count": 77
+    },
+    {
+      "id": "xml-02448-p017",
+      "section_id": "sec7",
+      "source_xml_path": "/article/body/sec[2]/sec[5]/p[5]",
+      "start": 11461,
+      "end": 12122,
+      "span_sha256": "04e34ff18c0914db5f4abbf661ecd6d70cd7067ca074bf8f252531b92ee24ad9",
+      "functions": [
+        "define"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Operational criteria for conclusive results.",
+      "analyst_role": "methods",
+      "word_count": 106
+    },
+    {
+      "id": "xml-02448-p018",
+      "section_id": "sec7",
+      "source_xml_path": "/article/body/sec[2]/sec[5]/p[6]",
+      "start": 12124,
+      "end": 12570,
+      "span_sha256": "9aa504a63e23d1ba186cfaf6c1fac4e8f2ba1eb2dfa2138ec178ccc0d79c94e1",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Heterogeneity assessment.",
+      "analyst_role": "methods",
+      "word_count": 64
+    },
+    {
+      "id": "xml-02448-p019",
+      "section_id": "sec7",
+      "source_xml_path": "/article/body/sec[2]/sec[5]/p[7]",
+      "start": 12572,
+      "end": 13424,
+      "span_sha256": "bf3f4f6ca718a70361f60256977fcf39682a6a41d8cebef4d7cb825a5001e453",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Subgroup plans.",
+      "analyst_role": "methods",
+      "word_count": 132
+    },
+    {
+      "id": "xml-02448-p020",
+      "section_id": "sec7",
+      "source_xml_path": "/article/body/sec[2]/sec[5]/p[8]",
+      "start": 13426,
+      "end": 13992,
+      "span_sha256": "58815c21c951541facb09e07f98ef37792bf78f7160ee20f52ad368ba8ce5877",
+      "functions": [
+        "report",
+        "define"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Sensitivity analysis and bias criteria.",
+      "analyst_role": "methods",
+      "word_count": 99
+    },
+    {
+      "id": "xml-02448-p021",
+      "section_id": "sec8",
+      "source_xml_path": "/article/body/sec[3]/p[1]",
+      "start": 13994,
+      "end": 15444,
+      "span_sha256": "8b87043ecae5659a96d5986ee10d58e5f8ce82d4bca743764e98025eb8519e35",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Adult study flow and missing data.",
+      "analyst_role": "results",
+      "word_count": 247
+    },
+    {
+      "id": "xml-02448-p022",
+      "section_id": "sec8",
+      "source_xml_path": "/article/body/sec[3]/p[2]",
+      "start": 15446,
+      "end": 17382,
+      "span_sha256": "217d528d2d4fe64f5a316f2103ce9abef4af4506e6cc98da7e23368aca988e5c",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Child study flow and broadened eligibility.",
+      "analyst_role": "results",
+      "word_count": 294
+    },
+    {
+      "id": "xml-02448-p023",
+      "section_id": "sec9",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[1]",
+      "start": 17384,
+      "end": 18665,
+      "span_sha256": "03008ba9a1b04dfda27caae2539c708b3dda2eb6470d41daf8dd85554dd41409",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Adult trial characteristics.",
+      "analyst_role": "results",
+      "word_count": 187
+    },
+    {
+      "id": "xml-02448-p024",
+      "section_id": "sec9",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[2]",
+      "start": 18667,
+      "end": 19860,
+      "span_sha256": "ad80287bf46588a26b9ddb2a320c93ad98351c4febb1dc6db047fa1826705953",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Adult cohort characteristics and excluded meta-analysis study.",
+      "analyst_role": "results",
+      "word_count": 173
+    },
+    {
+      "id": "xml-02448-p025",
+      "section_id": "sec9",
+      "source_xml_path": "/article/body/sec[3]/sec[1]/p[3]",
+      "start": 19862,
+      "end": 20325,
+      "span_sha256": "f8ebb719cb291bcc9ca5aaf8f7d5110ed35dfd9e2c552975f0c85d7a9b68d260",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Child study characteristics.",
+      "analyst_role": "results",
+      "word_count": 77
+    },
+    {
+      "id": "xml-02448-p026",
+      "section_id": "sec11",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[1]/p[1]",
+      "start": 20327,
+      "end": 21651,
+      "span_sha256": "3087421d320e292d903410cc87ea0b53adfd8aebb14e5038d7e64b5ec7129c7d",
+      "functions": [
+        "report",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Blood pressure results, subgroups and uncertainty.",
+      "analyst_role": "results",
+      "word_count": 232
+    },
+    {
+      "id": "xml-02448-p027",
+      "section_id": "sec11",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[1]/p[2]",
+      "start": 21653,
+      "end": 23112,
+      "span_sha256": "b9946c2928479eeda14eabf0cfe544529a7ec06967a35963dba046050f943659",
+      "functions": [
+        "report",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Heterogeneity and subgroup comparisons.",
+      "analyst_role": "results",
+      "word_count": 231
+    },
+    {
+      "id": "xml-02448-p028",
+      "section_id": "sec11",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[1]/p[3]",
+      "start": 23114,
+      "end": 23574,
+      "span_sha256": "5499f7589d914b4d38aab6cf38e889eaa46ebc64c27e4895400613e17ce2a01e",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Blood lipid results.",
+      "analyst_role": "results",
+      "word_count": 74
+    },
+    {
+      "id": "xml-02448-p029",
+      "section_id": "sec11",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[1]/p[4]",
+      "start": 23576,
+      "end": 24219,
+      "span_sha256": "d128708a1abb3a38b764844ab8c461658dac9baef1a525aed2e8f567d1c0de3c",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Catecholamine results.",
+      "analyst_role": "results",
+      "word_count": 92
+    },
+    {
+      "id": "xml-02448-p030",
+      "section_id": "sec11",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[1]/p[5]",
+      "start": 24221,
+      "end": 24986,
+      "span_sha256": "cd496b84fec7278b636bbffc14aef28f9e70f897624112b2734ad5ba80a05158",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Renal findings and synthesis limitations.",
+      "analyst_role": "results",
+      "word_count": 112
+    },
+    {
+      "id": "xml-02448-p031",
+      "section_id": "sec12",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[2]/p[1]",
+      "start": 24988,
+      "end": 26021,
+      "span_sha256": "6cedc29a9f54180741fe07f1a8e30c1ea7c7292a6abd01cc79695f2206301dee",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "RCT disease outcomes, insufficient events and inconclusive estimate.",
+      "analyst_role": "results",
+      "word_count": 153
+    },
+    {
+      "id": "xml-02448-p032",
+      "section_id": "sec12",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[2]/p[2]",
+      "start": 26023,
+      "end": 26656,
+      "span_sha256": "78cfb038982794c3b39d956845258d4cef1e878f07f9e00df66823f8ac7190b1",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Cohort selection and inconclusive mortality.",
+      "analyst_role": "results",
+      "word_count": 100
+    },
+    {
+      "id": "xml-02448-p033",
+      "section_id": "sec12",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[2]/p[3]",
+      "start": 26658,
+      "end": 27294,
+      "span_sha256": "54261f368e44d3c7fd9d9c0237f750d74f757c10f390bbca208aa7e2362fe6df",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Stroke and cardiovascular estimates.",
+      "analyst_role": "results",
+      "word_count": 98
+    },
+    {
+      "id": "xml-02448-p034",
+      "section_id": "sec13",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[3]/p[1]",
+      "start": 27296,
+      "end": 28059,
+      "span_sha256": "d73cfd6564419e6e82c2c58f432f0fe6402fc6c728e185964d4bd114b381d769",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Child blood pressure and absent adverse outcomes.",
+      "analyst_role": "results",
+      "word_count": 122
+    },
+    {
+      "id": "xml-02448-p035",
+      "section_id": "sec14",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[4]/p[1]",
+      "start": 28061,
+      "end": 29233,
+      "span_sha256": "903597a446a8c5c2d86a7bc2b6b90bacec3a6c13cc3fad1907389d5ec46eba8c",
+      "functions": [
+        "report",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Bias findings and child study limitations.",
+      "analyst_role": "results",
+      "word_count": 195
+    },
+    {
+      "id": "xml-02448-p036",
+      "section_id": "sec14",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[4]/p[2]",
+      "start": 29235,
+      "end": 30572,
+      "span_sha256": "a7c623fd82a23817c39eaacd052eb783c2c47635e6366e8e1b5739181d8ce731",
+      "functions": [
+        "report",
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "GRADE findings, observation and indirect biomarker.",
+      "analyst_role": "results",
+      "word_count": 205
+    },
+    {
+      "id": "xml-02448-p037",
+      "section_id": "sec14",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[4]/p[3]",
+      "start": 30574,
+      "end": 31684,
+      "span_sha256": "6929d87db2bbbdf1d2bd2a3bbcea1a4af8e2baf3f3bf3e1ba8de494ec022c6f1",
+      "functions": [
+        "report",
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Child quality ratings and indirectness.",
+      "analyst_role": "results",
+      "word_count": 181
+    },
+    {
+      "id": "xml-02448-p038",
+      "section_id": "sec15",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[5]/p[1]",
+      "start": 31686,
+      "end": 32052,
+      "span_sha256": "d7fdb8097d559102eb2d8ef5fc32cf3780ad1d641c2f598de11e57048c144d4e",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Adult sensitivity result.",
+      "analyst_role": "results",
+      "word_count": 60
+    },
+    {
+      "id": "xml-02448-p039",
+      "section_id": "sec15",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[5]/p[2]",
+      "start": 32054,
+      "end": 32321,
+      "span_sha256": "90a5872dd6ed06b5ee6a9a57ac5bf9a7c84b1268159f54e3ba5c90a2b0947450",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Cohort sensitivity result.",
+      "analyst_role": "results",
+      "word_count": 46
+    },
+    {
+      "id": "xml-02448-p040",
+      "section_id": "sec15",
+      "source_xml_path": "/article/body/sec[3]/sec[2]/sec[5]/p[3]",
+      "start": 32323,
+      "end": 32978,
+      "span_sha256": "3b1fe35bbec7db3ffd5bea6d39e1df2fba887bfbbce1b634f7813be25976da00",
+      "functions": [
+        "report",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Child sensitivity and uncertainty.",
+      "analyst_role": "results",
+      "word_count": 105
+    },
+    {
+      "id": "xml-02448-p041",
+      "section_id": "sec16",
+      "source_xml_path": "/article/body/sec[4]/p[1]",
+      "start": 32980,
+      "end": 34917,
+      "span_sha256": "ad19dfcd66e432b9e19bb2d8eed7a45bdfad309deb4c0074c43b4693bf3287d0",
+      "functions": [
+        "report",
+        "compare",
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Summary, prior reviews and heterogeneity interpretation.",
+      "analyst_role": "discussion",
+      "word_count": 293
+    },
+    {
+      "id": "xml-02448-p042",
+      "section_id": "sec16",
+      "source_xml_path": "/article/body/sec[4]/p[2]",
+      "start": 34919,
+      "end": 35437,
+      "span_sha256": "d0d78c39a68a97f688448a2d8e4ecf4de8f5fa93e12d74dd19cd50603fe38d37",
+      "functions": [
+        "report",
+        "compare"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Adverse outcome results and comparison.",
+      "analyst_role": "discussion",
+      "word_count": 83
+    },
+    {
+      "id": "xml-02448-p043",
+      "section_id": "sec16",
+      "source_xml_path": "/article/body/sec[4]/p[3]",
+      "start": 35439,
+      "end": 37426,
+      "span_sha256": "5079aeb103b00a942eb0bf238db99e1799645e118c5af5075af41724b78ab21d",
+      "functions": [
+        "compare",
+        "interpret",
+        "illustrate"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Subgroup comparison and public-health implication.",
+      "analyst_role": "discussion",
+      "word_count": 304
+    },
+    {
+      "id": "xml-02448-p044",
+      "section_id": "sec16",
+      "source_xml_path": "/article/body/sec[4]/p[4]",
+      "start": 37428,
+      "end": 39963,
+      "span_sha256": "793fda4f4e998047b8e420feacf6ded3e3c82e7c7c2e6f907c0dccfe6f9fcf91",
+      "functions": [
+        "report",
+        "compare",
+        "qualify",
+        "interpret"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Child findings, change in eligibility, bias and implications.",
+      "analyst_role": "discussion",
+      "word_count": 381
+    },
+    {
+      "id": "xml-02448-p045",
+      "section_id": "sec16",
+      "source_xml_path": "/article/body/sec[4]/p[5]",
+      "start": 39965,
+      "end": 42754,
+      "span_sha256": "fae6bc4b3cfd23ae638c543caa6eb329e638a0fee844676c65007e828d709428",
+      "functions": [
+        "explain",
+        "compare",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Potential mechanism and comparison to prior review with biomarker uncertainty.",
+      "analyst_role": "discussion",
+      "word_count": 406
+    },
+    {
+      "id": "xml-02448-p046",
+      "section_id": "sec16",
+      "source_xml_path": "/article/body/sec[4]/p[6]",
+      "start": 42756,
+      "end": 44058,
+      "span_sha256": "33de3e91e90ed97cf2e5e0964882375403d3cfeebacc561d3307e02cae0b9290",
+      "functions": [
+        "report",
+        "compare",
+        "qualify",
+        "assert"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Disease results, prior review, trial limitations and research need.",
+      "analyst_role": "discussion",
+      "word_count": 190
+    },
+    {
+      "id": "xml-02448-p047",
+      "section_id": "sec17",
+      "source_xml_path": "/article/body/sec[4]/sec[1]/p[1]",
+      "start": 44060,
+      "end": 44570,
+      "span_sha256": "2501ff95337e88aba79ad6c6b2dc28b170a3bf9fe3dba6d3194774810246293f",
+      "functions": [
+        "report"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Reported review strengths.",
+      "analyst_role": "discussion",
+      "word_count": 75
+    },
+    {
+      "id": "xml-02448-p048",
+      "section_id": "sec17",
+      "source_xml_path": "/article/body/sec[4]/sec[1]/p[2]",
+      "start": 44572,
+      "end": 46027,
+      "span_sha256": "167c6a0cf4c60402f76c079b3d0e24bcee343289b2a5e314bcf09eb7be0d8df5",
+      "functions": [
+        "qualify",
+        "explain"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Scope and GRADE limitations and rationale.",
+      "analyst_role": "discussion",
+      "word_count": 226
+    },
+    {
+      "id": "xml-02448-p049",
+      "section_id": "sec18",
+      "source_xml_path": "/article/body/sec[4]/sec[2]/p[1]",
+      "start": 46029,
+      "end": 47089,
+      "span_sha256": "a657702bfdab9f9c014d73bd8eed100d99deb498f23cd974338d35931e6691a8",
+      "functions": [
+        "report",
+        "interpret",
+        "qualify"
+      ],
+      "status": "coded_single_analyst",
+      "rationale": "Concluding summary with heterogeneity and evidence-quality qualification.",
+      "analyst_role": "conclusion",
+      "word_count": 159
+    }
+  ],
+  "encountered_element_counts": {
+    "sec": 23,
+    "title": 18,
+    "p": 49,
+    "fig": 4,
+    "table-wrap": 5,
+    "boxed-text": 1
+  },
+  "document_id": "xml-02448",
+  "offset_units": "zero-based Unicode code points, end-exclusive",
+  "scope": "Main-body prose paragraphs, excluding nested lists, figures, tables, captions, boxes, supplements and administrative sections; normalized XML text.",
+  "method_checks": {
+    "introduction_question_gap": "p001–p003",
+    "search_selection": "p005–p008; complete terms supplementary",
+    "extraction": "p010",
+    "appraisal": "p011–p012",
+    "synthesis": "p013–p020",
+    "study_flow": "p021–p022 with broader child criteria after initial insufficiency",
+    "findings_uncertainty": "p023–p040",
+    "comparison_limits_implications": "p041–p048",
+    "conclusion": "p049 headed",
+    "combined_or_unheaded": "study selection criteria changed in children and reported in Results and Discussion; quality of evidence described in Results."
+  }
+}

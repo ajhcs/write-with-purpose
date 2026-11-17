@@ -1,0 +1,40 @@
+{
+  "scope": "Original source labels without a reviewed crosswalk; not evidence that text lacks our functions.",
+  "SciDTB_observed_not_compared": [
+    "bg-compare",
+    "bg-general",
+    "condition",
+    "elab-addition",
+    "elab-aspect",
+    "elab-enum_member",
+    "elab-process_step",
+    "enablement",
+    "evaluation",
+    "joint",
+    "manner-means",
+    "progression",
+    "result",
+    "temporal"
+  ],
+  "SciDTB_structural_only": [
+    "ROOT",
+    "null"
+  ],
+  "GUM_structural_only": [
+    "span"
+  ],
+  "MuLMS_observed_without_AZ_guide_definition": [
+    "MEASUREMENT",
+    "QUAL_MEASUREMENT"
+  ],
+  "MuLMS_codebook_name_without_observed_serialization": [
+    "SYNTHESIS PROCEDURE"
+  ],
+  "not_fully_crosswalked": [
+    "ECHR sixteen argument types (four illustrative types reviewed separately in legal review)",
+    "WLP entity/event arguments (selected structures only)",
+    "CORE register taxonomy (form layer, not paragraph function)",
+    "BAWE families/stages (form/section layer, not paragraph function)",
+    "Workplace intent and email zones (intent/structure layers)"
+  ]
+}

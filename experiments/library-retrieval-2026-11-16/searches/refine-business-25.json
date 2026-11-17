@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "candidate_key": "business:business_046",
+      "doi": "10.1108/lhs-02-2017-0007",
+      "title": "Authentic leadership in healthcare: a scoping review",
+      "authors": "[\"Niina Malila\", \"Nina Lunkka\", \"Marjo Suhonen\"]",
+      "field": "business_management",
+      "q": "\"Authentic leadership in healthcare\" Malila pdf"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "business:business_046",
+      "query": "\"Authentic leadership in healthcare\" Malila pdf",
+      "urls": [
+        {
+          "title": "Antecedents, mediators, and outcomes of authentic leadership in healthcare_ A systematic review",
+          "url": "https://www.vumc.org/faculty/sites/default/files/Antededents%2C%20mediators%2C%20and%20outcomes%20of%20leadership%20in%20healthcare.pdf",
+          "score": 1
+        },
+        {
+          "title": "Authentic leadership in healthcare: a scoping review",
+          "url": "https://scispace.com/pdf/authentic-leadership-in-healthcare-a-scoping-review-bysuxfp0ip.pdf",
+          "score": 1
+        },
+        {
+          "title": "Authentic leadership in healthcare: a scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29412093/",
+          "score": 1
+        },
+        {
+          "title": "Authentic leadership in healthcare : a scoping review",
+          "url": "https://oulurepo.oulu.fi/handle/10024/8190?show=full",
+          "score": 1
+        },
+        {
+          "title": "Authentic leadership in healthcare:a scoping review | Oulun yliopisto | Finna.fi",
+          "url": "https://www.finna.fi/Record/jultika.nbnfioulu-201702231281",
+          "score": 1
+        },
+        {
+          "title": "Authentic leadership in healthcare : a scoping review",
+          "url": "https://oulurepo.oulu.fi/handle/10024/24924?show=full",
+          "score": 1
+        },
+        {
+          "title": "Authentic leadership in healthcare: A scoping review",
+          "url": "https://www.researchgate.net/publication/321083793_Authentic_leadership_in_healthcare_A_scoping_review",
+          "score": 1
+        },
+        {
+          "title": "Authentic leadership in healthcare organizations: A study of 14 chief executive officers and 70 direct reports",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/0840470419890634",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}
