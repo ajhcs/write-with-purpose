@@ -38,6 +38,14 @@ An alternative structure must change an information dependency, the placement of
 
 Compare what the actual versions make recoverable, what they delay and what they might lose. Read a passage with its surroundings: what makes the next claim matter, or prepares the next event or turn? Moving or dividing material can change endorsement, timing or rhetorical force without changing the underlying facts. An unresolved reflection can become an apparent thesis; coordination can become an asserted sequence. Preserve supported relationships while pursuing a stronger arrangement. Choose independently when the brief settles the tradeoff; expose consequential unresolved intent rather than silently deciding a new belief.
 
+Cole Lyons compared two rewrites of his CS50 essay and singled out the first of these sentences.
+
+> The speed makes it all the more useful to know what each part is meant to do and to check what happens when the parts meet.
+
+> I still need to know what each part is supposed to do and check what happens when the parts meet.
+
+The second sentence keeps the obligation to check how the parts work together. The first also explains why faster work makes that check more valuable. When reviewing your own edit, ask, “What could the reader explain after reading the original that they can no longer explain after my edit?” [CS50 passage review, R03](https://github.com/ajhcs/write-with-purpose/blob/49ff8e544f855e8a38df6cacc17bfd3d7a497a5a/experiments/blind-longform-2026-11-16/review/unblinded-results.md#preserve-the-explanatory-connection-and-narrative-progression)
+
 Expression can improve through a new rhythm, a clearer connection or a useful image. Retain, transform or remove imagery according to its contextual effect and actual preservation requirements. Strangeness alone is not proof of voice; shorter sentences or a smaller diff do not prove improvement. Deliberate delay, repetition, humor and sound can earn their place. Allow “effect unclear”; do not fabricate a gain/loss rationale for every aesthetic choice.
 
 ## Finish the writing and teach only as wanted
