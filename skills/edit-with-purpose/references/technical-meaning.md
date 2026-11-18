@@ -1,15 +1,17 @@
 # Technical meaning
 
-Use this reference to resolve a specific semantic risk in an edit. The source's adopted definitions and scope govern the passage. Keep stable names for stable concepts; a simpler expression helps only if it preserves the distinction the reader needs.
+Use this reference to check whether a revision changes a consequential claim. A reader should be able to identify what happened or is proposed, who it concerns, and the conditions under which it holds.
 
-Check the relationship affected by the edit: who did what, to whom, when, under what condition, and with what degree of certainty or obligation. Keep values attached to their entities, properties, units, denominators, periods and operating conditions. Preserve inclusive/exclusive bounds and the force of permission, recommendation, prediction and requirement.
+## Compare the affected relationship
 
-A requirement, observation, proposed change and demonstrated result make different claims. A recorded action and an event in the world can also differ. Clinical statements need the correct subject, current/past/family context, assertion state and investigation stage. A missing record does not establish that an event did not happen.
+Keep adopted definitions and terminology stable where the distinction matters. Track the actor, action, affected entity, time, negation, and degree of certainty. Bind quantities to their subjects, properties, units, denominators, periods, and operating conditions. Preserve inclusive and exclusive bounds and the force of permission, recommendation, prediction, and requirement.
 
-An economical revision can omit peripheral facts. Inspect whether an omission changes the conclusion, hides a condition needed to interpret a selected finding, or removes an action the requested artifact needs. A complete record has a different coverage obligation from a selected explanation. Preserve the interpretation the evidence supports without importing the source's every qualification into the prose.
+In engineering or policy, a requirement, proposal, observation, and demonstrated result each make a different claim. A record of an action and the underlying event can also differ. In clinical material, preserve the subject, assertion state, current or historical context, and stage of investigation. Treat missing documentation as unknown unless the evidence establishes the event's status.
 
-Compare the actual before and after. A rewrite can retain every number while changing its subject, denominator or logical role. Conversely, a supported paraphrase or conversion can change the words and digits without changing the claim. Exact matches are observations, not semantic proof.
+## Check what the revision adds or drops
 
-An argument that “stayed with me from” a report was not necessarily “first encountered” there. Make the useful connection without adding unsupported personal history. A disclaimer is also a claim: follow an author's correction at its supported scope without inferring a credential or experience they have not specified, and retain independent qualifications that still apply. Repair the unsupported relationship while retaining useful changes around it.
+Compare the before and after with the source. Matching digits can hide a change in denominator or subject. A supported paraphrase or conversion can preserve the claim with different words or units. A concise edit can leave peripheral detail out. Retain evidence and qualifications when omission would change the conclusion, its scope, or the reader's action.
 
-Correctness review should distinguish supported corrections, unresolved source conflicts and optional wording choices. Preserve useful technical language while making the connection around it readable. Additional factual research belongs to the authorized task; editorial work does not itself establish new clinical or engineering evidence.
+A claim that an argument “stayed with me from” a report leaves open when the writer first encountered it. Preserve that distinction. When an author corrects a disclaimer, carry through the claim at its supported scope and retain applicable qualifications. Repair an unsupported addition while keeping other useful changes.
+
+Check fidelity and factual validity separately. Correct a factual issue when the task and evidence support the correction. Identify material conflicts that remain and stay within the authorized research scope.

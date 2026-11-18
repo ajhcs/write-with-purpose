@@ -1,32 +1,34 @@
 ---
 name: write-with-purpose
-description: Draft new prose, develop ideas, or perform a requested substantial rewrite. For correction or improvement of an existing draft, use edit-with-purpose.
+description: Draft prose from notes, develop an idea into writing, or substantially rewrite a piece. For correction or improvement of an existing draft, use edit-with-purpose.
 metadata:
   version: "0.4.0-alpha.7"
 ---
 
-Help the person develop and communicate what they intend. Their request controls purpose, facts, format and depth. Infer the work from the request and supplied material: new writing develops a contribution; correction or polish repairs the specified problem; requested improvement actively seeks a better thought, structure or expression, even when the original is adequate. If given a cleanup task, start from the supplied wording rather than generating a replacement. Deliver the writing or requested judgment, not just a plan.
+# Write with Purpose
 
-Recover the author's observation, position, open question and reasons before expanding them. Distinguish an author-stated conclusion, a supported connection that makes it intelligible, and a new interpretation you propose. Develop the first two at their supported scope. For an unsettled contribution or stronger reasoning, test a relevant alternative, objection or boundary and identify what would change the claim. Keep a new thesis provisional unless adopted; do not invent experience, evidence, cause or endorsement. A cautious word does not make an unsupported inference sound. Ask only when a material uncertainty blocks dependent work, and continue what can be completed.
+Deliver a draft the intended reader can use. The reader should be able to follow the author's point, the reasons it rests on, and the distinctions that change its meaning. Take the audience, purpose, voice, sources, and limits from the brief and supplied material. Choose the form and level of detail they call for.
 
-For substantial work, examine the relevant whole and look beyond the first local defect. A worthwhile structural or expressive opportunity need not wait for a local repair to fail. When a consequential choice arises, make the alternative real through a decisive transition or representative passage. Compare what it lets the intended reader understand, do or experience, including possible losses. Changed order can alter endorsement, timing or the force of a qualification without changing the words. Select independently when the brief settles the tradeoff; expose a materially unresolved choice rather than silently replacing the author's position. Carry the selected route into the actual writing. Do not require two complete drafts, a fixed sequence or an explanation of every creative choice; an unclear effect or a better original can stand.
+## Develop the piece
 
-Preserve effective voice and meaningful technical terms. For Cole Lyons's prose, read [Cole's approved writing style](references/cole-lyons-style.md) before drafting unless the request calls for a different voice. Compare approved and rejected examples when relevant; rejected output is not a style sample. Carry over supported choices in context, clause order, connections and rhythm without importing sample facts or certainty. Unusual wording is not automatically intentional, and paraphrase is not automatically voice loss. Retain, transform or remove imagery according to the task and actual constraints. Use familiar, exact language to connect actors, actions, conditions and values; explain a needed technical distinction rather than substituting a vague synonym.
+Build from what the author observed, believes, proposes, or leaves open. Give a supported connection enough space to explain the point. Present a new interpretation as provisional until the author adopts it. Keep qualifications with the claims they limit and personal experiences tied to the evidence for them.
 
-Keep claims, sources, author choices and model suggestions distinguishable. Put material qualifications with the claims they limit; preserve attribution, negation, chronology, uncertainty and entity/value relationships. Select examples and evidence for their contribution, honoring actual coverage obligations. Source fidelity and factual correctness are separate: a faithful paraphrase can retain a false claim. Check material claims against the relevant evidence within the authorized research scope.
+Draft directly when the contribution is clear. When the brief asks for stronger reasoning, test the claim against a relevant objection, alternative, or boundary. If structure or expression materially changes what the reader will understand or experience, write the passage that shows the difference and compare it in context. Carry the better choice through the piece. Surface a consequential uncertainty about intent where it remains and finish the supported work.
 
-Resolve ambiguity to the depth the task needs. In ordinary writing, inspect a competing reading when meaning, attribution or the permitted action would differ; if the same sound edit serves both, retain uncertainty without forcing a function label. Explicit function-definition, boundary, annotation or reliability work must investigate its relevant disagreements even when no edit follows. Presence of a rhetorical function does not prove effectiveness, truth or a need to revise.
+Use approved writing samples to calibrate voice, context, and rhythm. When learning from a revision, compare what the author retained, added, changed, or removed and keep any broader preference provisional. For Cole Lyons's own writing, default to [the author profile](references/cole-lyons-style.md) and follow any voice specified in the brief.
 
-Load a reference when it resolves the current need:
+Use subagents as needed, where permitted, for independent source questions or substantial reader review. Give each the material needed for its question and reconcile findings with the brief and evidence.
 
-| Need | Resource |
-| --- | --- |
-| Develop a contribution, infer improvement depth, plan Family → Form → Section, or compare structures and expression | [Structure and purpose](references/structure-and-purpose.md) |
-| Examine a construction's reference, attachment, punctuation or sequence | [Language and meaning](references/language-and-meaning.md) |
-| Check a concept, assertion state or technical distinction | [Concepts and claims](references/concepts-and-claims.md) |
-| Analyze functions, targets, overlap or annotation boundaries | [Functions and ambiguity](references/functions-and-ambiguity.md) |
-| Verify declared limits, exact wording or mechanical observations | [Advisory checks](references/checks.md) |
+## Review and deliver
 
-Verify actual word ceilings and no-growth requirements on the final scoped text with an available counter. The bundled read-only checker can enforce its supported declared contracts; inspect enforcement status and advisory findings separately. A failed constraint needs a scoped repair or an honest unresolved conflict, never silent relaxation. Check changed final bytes again; hashes identify checked artifacts, not automatically delivered chat. Meaning, useful repetition and author acceptance remain contextual judgments.
+Read the finished piece on its own. Verify material claims against the available evidence and check the final text against the declared constraints. Confirm that attribution, quantities, timing, and uncertainty still attach to the right claims. For a rendered piece, inspect the actual export at its intended reading size, compare any supplied layout reference, and try any links or controls central to the reader's task. Fix consequential issues and repeat the affected checks. Deliver the writing in the requested form with only the notes the task needs.
 
-Read the result as a standalone whole for reasoning, flow and the intended experience. Complete the requested work and relevant checks; another pass needs a specific worthwhile opportunity or unresolved issue, not a rewrite quota. Model comparison is provisional, not measured reader success. Deliver only the editorial notes the task needs. Keep publishable prose distinct from editorial or source notes so the intended text and any counted scope are unambiguous. Use only the separation the task needs; headings or separate files are not required for ordinary chat. When the author asks to practise, follow the [teaching guidance](references/structure-and-purpose.md#finish-the-writing-and-teach-only-as-wanted) and honor the order they requested.
+## References
+
+Read the reference that answers the question at hand.
+
+- Planning a form, comparing passages, or teaching a writing choice. [Structure and purpose](references/structure-and-purpose.md)
+- Resolving wording, scope, or sentence connections. [Language and meaning](references/language-and-meaning.md)
+- Reviewing technical terms, claim strength, or source fidelity. [Concepts and claims](references/concepts-and-claims.md)
+- Resolving consequential readings or coding rhetorical functions. [Functions and ambiguity](references/functions-and-ambiguity.md)
+- Verifying an exact limit or running the optional read-only checker. [Advisory checks](references/checks.md)
