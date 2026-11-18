@@ -1,19 +1,16 @@
-# Cole Lyons: approved writing style
+# Cole Lyons's writing style
 
-Use this reference when drafting or editing Cole Lyons's prose, unless the current request specifies a different voice. It records Cole's preference; it is not a style requirement for other authors.
+Use the examples below to make choices Cole would recognize in his own writing. Follow the current brief for purpose, voice, and revision depth. Keep the new piece's facts and preserve the scope of its claims.
 
-Cole approved the substantial revision of **Patient Safety and the Slack in the Institutional Line** on October 31, 2026, then explicitly asked to save it in the plugin for future edits. The reference is an assistant-edited draft accepted by the author. Earlier generated passages that Cole found bloated or mentally taxing remain rejected examples.
-
-Use the passage below to calibrate wording and flow. Read the [complete approved article](cole-lyons-patient-safety.md) when a longer piece calls for an example of paragraph progression and structure. The saved text is the approved local revision, which may differ from the public page.
+Cole approved the substantial revision of **Patient Safety and the Slack in the Institutional Line** on October 31, 2026 and asked to retain it for future edits. It is an assistant-edited draft accepted by the author. Use the saved article for a longer example of paragraph progression. [Complete approved article](cole-lyons-patient-safety.md)
 
 ## What to carry forward
 
-- **Begin where the reader can follow what happened.** The article opens with the wheelchair account, then develops the institutional argument. For other work, use the relevant situation, question, or finding already supported by the material. Do not invent an anecdote to reproduce the opening.
-- **Use familiar words to explain the relationship.** The approved passage names what the staff member fears and what the budget reviewer sees. Replace phrases such as “priced out of urgency” with the actual reason a request might be set aside. Retain technical terms when they make a necessary distinction, and explain them where needed.
-- **Connect thoughts naturally.** Keep context and connecting language that help the reader follow the sentence. Related clauses can belong together. Shorter sentences and fewer words are not goals by themselves, and the reference's transitions are not mandatory phrases.
-- **Let examples develop the argument.** For Cole's prose, avoid illustrative series of more than three items and repeated lists within a paragraph; a shorter list can still be filler. Select the example that advances the point or explain the relationship the inventory stood in for. Do not merely spread the same inventory across sentences. Preserve required coverage and materially distinct reasons, developing or reorganizing them rather than silently dropping them. This is Cole's preference, not a rule for every author's voice.
-- **Keep qualifications with the claims they limit.** Preserve words such as “may,” “only,” and “alone” when they change the meaning. Distinguish what the author observed, what they infer, and what they propose. A style match does not justify changing certainty or adding a cause that the evidence does not establish.
-- **Match the amount of editing to the request.** This article was a requested substantial rewrite. For cleanup, preserve effective wording and repair the parts that need it; the reference does not authorize reorganizing every draft.
+- Start from a supported situation, question, or finding the reader can follow. In the article, the wheelchair account makes the institutional argument understandable.
+- Name the people and actions that explain the relationship. The passage shows what staff warn about and what the person reviewing the budget sees. Keep technical terms that carry a necessary distinction and explain them where needed.
+- Keep enough context for the thought to develop. Join clauses when the reader needs to see a relationship at once. Read the paragraph for the way each sentence sets up the next.
+- Choose examples that develop the point. Cole prefers illustrative series of up to three items and fewer repeated lists within a paragraph. Distinct requirements or reasons deserve the space they need.
+- Keep qualifiers with the claims they limit. Check what the author directly observed, what they infer, and what they propose. Treat the examples' experiences and facts as specific to those pieces.
 
 ## Approved passage
 
@@ -21,14 +18,18 @@ Use the passage below to calibrate wording and flow. Read the [complete approved
 >
 > This is what I mean by slack in the institutional line. A concern can pass through the organization while losing the details that made it urgent. The people who see the risk may have little authority to change it, and the people with that authority may never hear the full explanation.
 
-The first paragraph explains a situation; the second names the idea the situation illustrates. Transfer that relationship when it helps, without copying the topic, paragraph shape, metaphor, or sentence lengths into unrelated work.
+The first paragraph establishes the situation and the second names the idea it illustrates. Carry over that kind of connection when it helps the new reader. Treat the metaphor, length, and shape as choices for this piece. Earlier passages Cole found bloated or difficult to follow are diagnostic examples.
 
-Before delivery, compare the new passage with this reference for word choice, useful context, and connections between sentences. Keep the new task's facts and purpose. The author approved this example; future outputs still need to stand on their own. This reference imposes no word-count target, required template, or word blacklist.
+## Author-posted coursework example
+
+On November 16, 2026 Cole supplied the response he posted and asked to use it to refine the skill. Consult the pair for related coursework or for a concrete example of learning from an author's revision. The assistant's draft is comparison material. [Healthcare interoperability revision pair](cole-lyons-interoperability.md)
+
+Cole kept the pharmacist example, one citation, and the implementation conditions. He made the systems engineering argument specific to trade studies, enterprise requirements, and practical limits on contracts. In similar work, use the disciplinary concepts that explain the decision at hand and ground any course examples in the material provided.
+
+He omitted the project anecdote, additional studies, and the measurement ending. Treat those omissions as choices for this response. The four contract provisions express distinct potential requirements and belong together when the piece needs full coverage. Preserve the condition on what contracts can accomplish. Correct a drafting slip such as “requires by making” when asked to edit, and match modal force to the evidence for the new claim.
 
 ## Provenance
 
-The complete article is preserved from the October 31, 2026 revision of `ajhcs/colelyons-com`, source commit `79d306d1088549d5fb34a1c4c9757ec0cb859a76`. Its Markdown SHA-256 is `279009715a19618c93b3df055bb96d842fabe99bf2e41dc77c24322a39bacc71`.
+The complete article preserves the approved local October 31, 2026 revision from `ajhcs/colelyons-com` at commit `79d306d1088549d5fb34a1c4c9757ec0cb859a76`. The Markdown SHA-256 is `279009715a19618c93b3df055bb96d842fabe99bf2e41dc77c24322a39bacc71`. Consult the saved text when the public page differs. Cole's November 16 review supplied the additional guidance on illustrative lists.
 
-Cole's November 16, 2026 author review supplied the additional preference about long and repeated lists. That feedback is separate from the October 31 approved article, whose text remains unchanged.
-
-The article's factual material and dated references belong to that example. Check sources for new factual work rather than treating a style reference as current clinical or legal guidance. Approval as a writing reference does not authorize publication of the article.
+Use approved wording as voice evidence. For new factual work, verify material claims against relevant sources. Publication requires its own authorization.

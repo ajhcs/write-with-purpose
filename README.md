@@ -1,6 +1,6 @@
 # Write with Purpose
 
-Write with Purpose helps you develop an idea and express it clearly while keeping your own point of view. It provides two Codex skills that work on the reasoning behind a piece as well as its wording.
+Write with Purpose helps you develop an idea or revise a draft for the people who will read it. Both Codex skills check whether the finished text makes the author's point and whether the evidence and qualifications still support it.
 
 | Skill | When to use it |
 | --- | --- |
@@ -9,7 +9,7 @@ Write with Purpose helps you develop an idea and express it clearly while keepin
 
 The package includes optional Python helpers for checking declared constraints and applying reproducible file edits. This repository also holds the research toward a broader writing harness, including experiments on document forms and paragraph functions.
 
-**Current package:** 0.6.0-alpha.7. See the [implementation and preservation notes](docs/releases/0.6.0-alpha.7.md).
+The latest documented release is 0.6.0-alpha.7. [Implementation and preservation notes](docs/releases/0.6.0-alpha.7.md)
 
 ## Install
 
@@ -24,24 +24,27 @@ If either is already installed, preserve the old copy before replacing it.
 
 The skills are available on your next turn. Each can be installed independently; keep one user-wide copy of each to avoid competing versions. The helpers require Python 3 and use only its standard library.
 
-## Start with the writing you need
+## Describe the writing you want to review
 
-Give Codex the material and enough context to understand what the reader needs. Name a length limit when one applies. If a particular phrase or section order must stay, say so; otherwise leave room for a better arrangement.
+Give Codex the material, the intended reader, and what you want the reader to understand or do. Say how you'll judge the result and name any binding limits, required wording, or fixed section order. Give Codex room to make editorial choices within those constraints. [Prompting GPT-6.2 in Codex](https://learn.chatgpt.com/guides/prompting-gpt-6-2-astra)
 
 **Draft an explanation**
 
 ```text
-Use $write-with-purpose to turn these notes into a technical explainer.
-The reader understands the workflow but is new to the software.
-Introduce the technical terms they need to follow the explanation.
+Use $write-with-purpose to turn these notes into an explanation for
+clinic managers who are new to our scheduling export. A manager should
+be able to tell which records the export includes and when to check
+the original schedule. Use only the supplied notes and keep the body
+under 250 words.
 ```
 
 **Improve an existing piece**
 
 ```text
-Use $edit-with-purpose to improve this essay.
-Look for a stronger argument or arrangement while preserving my position.
-Keep the qualifications that affect what I am claiming.
+Use $edit-with-purpose to strengthen this recommendation for a review
+committee. A committee member should be able to say what I propose,
+what evidence supports it, and what would change my recommendation.
+Preserve my position and keep each qualification with the claim it limits.
 ```
 
 **Learn from an edit**
@@ -52,26 +55,28 @@ choice. Give me a fresh passage to practise the same decision, and let me
 attempt it before showing a solution.
 ```
 
-A punctuation-only request stays local. An improvement request can justify rethinking an adequate passage, including its structure. The skills can also retain an effective original when the alternative loses something important.
+A punctuation-only request stays local. For a substantial review, name the question that deserves deeper reasoning, such as why two sources differ or which condition would change a recommendation. Use Medium for a quick survey, High for a contested issue that spans several sources, and consider Extra High when several issues interact. On work that splits cleanly, ask Codex to use subagents as needed for independent source questions or a fresh reader review. [Reasoning effort and parallel work](https://learn.chatgpt.com/guides/prompting-gpt-6-2-astra#match-reasoning-effort-to-the-task)
+
+For a rendered report or handout, share a sample layout and specify where it will be read. Tell Codex what must remain legible at that size and which links or controls a reader needs to use. Ask it to inspect the export and correct any problems it finds. Reserve project instructions in `AGENTS.md` for conventions a future task would need, such as controlled terminology or a required reporting template.
 
 ## How the skills approach the work
 
-Both skills share four rules:
+Both skills use the brief to decide which editorial checks matter.
 
 | Rule | What it means in practice |
 | --- | --- |
-| Choose the depth that serves the request | Read the relevant whole and look for a worthwhile improvement. A broader revision can be the first useful approach. |
-| Develop the author's contribution | Distinguish what the author has stated from a supported connection or a new editorial interpretation. Keep an unadopted thesis provisional. |
-| Compare consequential choices in actual prose | Write the transition or passage that makes a different arrangement assessable. Consider what the reader gains and what the revision might lose. |
-| Investigate ambiguity to the depth needed | Examine competing readings when they could change the meaning or the edit. A requested annotation study must investigate its disagreements even when no revision follows. |
+| Scope | Make the specified correction or look across the whole piece for improvements when the brief opens up the reasoning or structure. |
+| Author's contribution | Build from the author's position and actual reasons. A new interpretation stays provisional until the author adopts it. |
+| Consequential changes | Compare the actual passage in context and see what a reader can understand or do after the change. |
+| Ambiguity | Resolve competing readings when they change a claim or action. In an annotation study, retain relevant disagreements for investigation. |
 
 The supporting references make these decisions more concrete. For example, saying that an author *still needs* to check a result can lose an earlier explanation of why faster output makes those checks more valuable. A smoother sentence can preserve the duty while weakening the argument.
 
-Source review is a separate part of the work. A claim that an argument stayed with someone after reading a report does not establish that they first encountered it there. An appealing rewrite can keep its useful changes while repairing that unsupported addition.
+Read the final prose as a whole and review source fidelity, factual support, and declared limits. An argument can be memorable after reading a report even if the author first encountered it elsewhere. The rewrite can preserve that distinction while keeping useful changes.
 
 ## Work in the author's voice
 
-The package includes [Cole Lyons's style reference](skills/write-with-purpose/references/cole-lyons-style.md), grounded in an approved article and subsequent author feedback. It favors enough context to follow the thought and examples that develop the argument. Cole's preference against long illustrative lists belongs to his profile; required coverage still needs to survive.
+Cole Lyons's profile draws on an approved article and subsequent author feedback, including a comparison with his posted interoperability response. It favors enough context to follow the thought and examples that develop the argument. Required coverage takes priority over a preference for short illustrative lists. [Cole Lyons's style reference](skills/write-with-purpose/references/cole-lyons-style.md)
 
 For another author, supply their voice instructions and an approved sample when useful. The current brief controls the voice. A sample's structure can help explain a choice without importing its facts or repeating its wording. The [complete approved article](skills/write-with-purpose/references/cole-lyons-patient-safety.md) is preserved as a reference, with its provenance recorded.
 
@@ -136,7 +141,9 @@ The [research and coding index](docs/writing-harness/work-index.md) links the co
 
 In a [blinded author review](experiments/blind-longform-2026-11-16/review/unblinded-results.md), the alpha.6 writer was preferred in six rated passages, its baseline in three, and the original once. All ten judgments concern passage comparisons, and both rewrite conditions used the writer skill. They do not establish an editor result or a preference for complete rewritten works.
 
-That feedback led to the [two-Astra debate](experiments/author-feedback-debate-2026-11-16/report.md) and the three reference refinements shipped in alpha.7. The updated package has not yet undergone a fresh writing comparison. Separately, the [paragraph-coding pilot](experiments/rule-calibration-2026-11-16/report.md) did not demonstrate better agreement after a rule revision; that finding remains part of the record.
+That feedback led to the three reference refinements documented in alpha.7. [Two-Astra review](experiments/author-feedback-debate-2026-11-16/report.md)
+
+The paragraph-coding pilot did not demonstrate better agreement after a rule revision. [Paragraph-coding pilot](experiments/rule-calibration-2026-11-16/report.md)
 
 Earlier [editing evaluations](docs/evaluation.md) and the [grammar-engine investigation](docs/grammar-investigation.md) document their own methods and limitations. The investigated grammar engines are separate experiments, not installed skill dependencies.
 
@@ -151,6 +158,6 @@ python3 -m unittest discover -s experiments/corpus-analysis-2026-11-16/tests -v
 python3 -m unittest discover -s experiments/rule-calibration-2026-11-16/analysis -p 'test_*.py' -v
 ```
 
-CI runs all 74 tests on Linux and Windows. They check the helpers and research contracts; author preference and writing quality are evaluated separately.
+The 74 tests cover the helpers and research contracts. CI runs those suites on Linux and Windows. Assess author preference and writing quality using the delivered prose.
 
 The canonical instructions live in `skills/`. Keep the shared author and structure references identical across both skills so either remains independently installable. Research snapshots preserve the rules and outputs used at each stage; make new revisions in the canonical sources and retain the original experimental records.

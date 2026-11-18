@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "write-with-purpose",
   "version": "0.6.0-alpha.7",
-  "description": "Draft, edit and improve purposeful prose with task-appropriate depth, the author's voice and separate meaning and mechanical checks.",
+  "description": "Draft from notes, develop an idea, or revise existing prose for a specific reader. Check the finished writing against the author's intent, evidence, and constraints.",
   "author": {
     "name": "ajhcs",
     "url": "https://github.com/ajhcs"
@@ -19,8 +19,8 @@
     "com.openai": {
       "interface": {
         "displayName": "Write with Purpose",
-        "shortDescription": "Draft, edit and improve purposeful prose.",
-        "longDescription": "Develop the author's contribution and choose revision depth for the task. Compare consequential alternatives in actual prose; review source fidelity, voice, usefulness and declared mechanical constraints separately.",
+        "shortDescription": "Draft and revise prose for its intended reader.",
+        "longDescription": "Develop a draft from the author's ideas or improve an existing draft, from a targeted correction to a stronger argument. Preserve the author's voice and the scope of the evidence. Check the delivered text against the brief.",
         "developerName": "ajhcs",
         "category": "Productivity",
         "capabilities": [

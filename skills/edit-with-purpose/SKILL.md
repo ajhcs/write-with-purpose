@@ -1,35 +1,35 @@
 ---
 name: edit-with-purpose
-description: Correct, revise or improve existing prose, including reasoning, structure and expression when requested. Use for an editorial pass or independent review.
+description: Correct, polish, improve, or review an existing draft. Use for targeted edits or broader changes to reasoning, structure, and expression within the brief.
 metadata:
   version: "0.3.0-alpha.7"
 ---
 
-Start from the author's draft and do the work their request authorizes. Correction or polish repairs the specified problem while preserving effective surrounding choices. Requested improvement actively seeks a better thought, structure or expression, even when the original is adequate. Infer depth from the brief and context; a broad improvement request can permit coordinated restructuring without the word “rewrite,” while punctuation-only work remains local. When the author criticizes bloat or abstraction, address it rather than protecting the criticized wording. Deliver the actual revision or requested judgment.
+# Edit with Purpose
 
-Read the relevant whole before settling for a local fix. Identify the author's contribution, reader or intended experience, actual constraints and a consequential problem or opportunity. Choose the depth that serves the task before minimizing collateral changes; a broader improvement need not wait for a failed local repair. If alternatives have a material tradeoff, write a decisive transition or representative passage and compare it with the original. A structural alternative must change a dependency, condition placement or experience, not merely rename headings. Check possible losses of evidence, voice, emphasis and uncertainty. Select independently when the brief settles the tradeoff; otherwise expose the consequential uncertainty while completing independent work. Carry a selected reorganization through the surrounding prose and make a substantial organizational change explicit. No two-full-draft requirement or fixed rewrite loop applies; an unchanged original can be the better result.
+Return the requested revision or editorial judgment. Start from the draft. For correction or focused polish, change only what the request calls for. For a broad improvement, look for a better argument, arrangement, or expression across the relevant whole. The brief controls what may change and which files may be replaced.
 
-When developing reasoning, distinguish the author's stated conclusion, a supported connective and a new editorial interpretation. Inspect supplied reasons first. Test a relevant competing reading, boundary or objection when stronger thinking is requested, then develop the grounded connection or revise the claim within scope. Keep new interpretations provisional unless adopted. Do not infer causation, necessity or endorsement from proximity, or use “may” to disguise an unsupported premise. An explicitly revisable recommendation is not a protected fact. Ask only when a missing premise or intent materially blocks the dependent edit; ordinary connectives need no exhaustive claim map.
+## Choose the change
 
-For Cole Lyons's prose, read [Cole's approved writing style](references/cole-lyons-style.md) before editing unless the request specifies a different voice. Distinguish original wording, factual sources, approved style references and rejected output. Apply supported preferences to wording, useful context, connections and sentence boundaries; copying transitions alone is not a style match. Preserve precise terms and explain the needed distinction where appropriate. Retain, transform or remove imagery and rhythm according to the task and actual constraints; unusual wording does not by itself establish author intent. Aesthetic effects may remain uncertain and need not justify themselves through shorter reading time.
+Identify what the author is trying to convey, what the reader needs, and which change would matter. A local correction can be the whole job. A broad revision can reorganize a passage when doing so improves an actual connection, makes a condition visible before the reader acts, or changes the experience in a way the brief supports. Compare a representative passage in context when the tradeoff matters. Keep effective choices that an alternative would lose.
 
-For concision, remove repeated work while retaining the context, examples and conditions the reader needs. A list of examples is a selection unless completeness is required. State the supported actor, action and consequence when an abstract phrase hides the relation. Preserve attribution, negation, chronology, certainty, commitments and entity/value bindings. Reread coordinated changes in context; small edits can damage meaning and large edits can preserve it.
+Develop reasoning from the author's stated position and actual reasons. Treat a new interpretation as provisional and test consequential inferences when the brief calls for it. Preserve supported meaning, including which person, event, or condition each qualification applies to. Clarify competing readings when they affect meaning or action. Where intent remains materially unsettled, flag the decision and finish the edits that can stand.
 
-In ordinary editing, resolve a competing interpretation when it could change meaning, attribution or an authorized action. If both readings permit the same sound edit, proceed without forcing a function label. Explicit function-definition, boundary, annotation or reliability work retains its relevant disagreements even when no prose change is needed. Function presence is separate from effectiveness and factual support.
+Use approved examples to preserve voice where the brief calls for it. When learning from an author's revision, compare what they retained, added, changed, or removed and keep broader inferences provisional. For Cole Lyons's own writing, default to [the author profile](references/cole-lyons-style.md) and follow any voice specified in the brief.
 
-Use a reference only for the issue at hand:
+Use subagents as needed, where permitted, for independent source checks or a fresh editorial read. For an independent review, have the reviewer read the draft and brief before seeing prior verdicts or the writer's rationale. Respect any staged release of sources.
 
-| Need | Resource |
-| --- | --- |
-| Develop reasoning, choose improvement depth, show Family → Form → Section or compare arrangements | [Structure and purpose](references/structure-and-purpose.md) |
-| Cut lists, replace abstract phrasing, or learn from a preferred rewrite | [Plain-language editing](references/plain-language-edit.md) |
-| Check a technical concept, assertion state or source relationship | [Technical meaning](references/technical-meaning.md) |
-| Analyze functions, attribution, targets or annotation extent | [Functions and ambiguity](references/functions-and-ambiguity.md) |
-| Verify final counts, exact constraints or mechanical findings | [Mechanical checks](references/mechanical-checks.md) |
-| Apply reproducible exact-span file edits or measure an existing revision | [Local edits and change measurement](references/local-edits.md) |
+## Review and deliver
 
-Count the final scoped text when a ceiling or no-growth requirement applies; use the original draft as the growth baseline only when requested. Use actual constraints, not an invented reduction target or exact-string lock for an idea. Inspect supported contract enforcement separately from advisory findings. A receipt describes its checked bytes and becomes stale after another edit; it does not certify meaning or automatically verify a later chat answer. If a helper is unavailable, use an available counter or report the material verification limit and continue the editorial work.
+Reread the finished text in context. Check the conditions, evidence, qualifications, and voice a reader still needs. Verify declared limits and exact wording on the final scoped text. For rendered work, inspect the actual export at its intended reading size, compare any supplied layout reference, and try any links or controls central to the reader's task. Fix consequential issues and repeat the affected checks. Deliver the requested text or findings with only material notes. Identify substantial reorganizations when reporting the edit.
 
-Check meaning separately against supplied sources: distinguish supported corrections, misleading omissions and unresolved conflicts. A faithful edit can retain an incorrect source claim. For a requested independent review, use a fresh context when available and authorized, excluding the writer's rationale and prior verdicts from its first reading. If sources are supplied in stages for that review, complete the first reader pass before opening them. A separate skill name alone is not independence; no writer–editor chain is required.
+## References
 
-Preserve a file original unless authorized to replace it. Finish with a whole-result reading and the relevant checks; another pass needs a specific worthwhile opportunity or unresolved issue. Judge conformance, correctness and usefulness separately; model preference is not author acceptance or observed reader benefit. Return the revision and only material notes requested or needed. Keep publishable prose distinct from editorial or source notes so the intended text and any counted scope are unambiguous. Use only the separation the task needs; headings or separate files are not required for ordinary chat. When the author asks to practise, follow the [teaching guidance](references/structure-and-purpose.md#finish-the-writing-and-teach-only-as-wanted) and honor the order they requested.
+Read the reference that answers the question at hand.
+
+- Testing a substantial revision or responding to a request for practice. [Structure and purpose](references/structure-and-purpose.md)
+- Improving a difficult passage or learning from a preferred rewrite. [Plain-language editing](references/plain-language-edit.md)
+- Checking what a changed assertion means and what supports it. [Technical meaning](references/technical-meaning.md)
+- Resolving consequential readings or coding rhetorical functions. [Functions and ambiguity](references/functions-and-ambiguity.md)
+- Checking final counts, exact wording, or mechanical findings. [Mechanical checks](references/mechanical-checks.md)
+- Reproducing exact-span changes to a file or measuring an existing revision. [Local edits](references/local-edits.md)

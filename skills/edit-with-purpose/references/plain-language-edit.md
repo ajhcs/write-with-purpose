@@ -1,6 +1,6 @@
 # Plain-language editing
 
-Use these examples when a request calls for cutting long lists, replacing abstract phrasing or making a claim more precise. They illustrate local editorial decisions, not a required paragraph shape, word target or author voice. The first before passage is generated prose; the revision responds to a user's criticism of that prose. It has not been accepted as a general style standard. For Cole Lyons's prose, use the later [approved article reference](cole-lyons-style.md) to guide the voice; the examples below explain individual editing decisions.
+Use these comparisons to decide what to cut, what to say directly, and what to keep for precision. Carry over a choice when it addresses the same problem in the new passage. The first pair shows generated prose and a revision prompted by reader feedback. For an approved example of Cole Lyons's voice, see [the author profile](cole-lyons-style.md).
 
 ## Request
 
@@ -22,12 +22,12 @@ A warning about falls may become a request for new equipment. If the request lea
 
 ## Decisions to transfer
 
-- Replace the inventories with the relevant relationship: patients and staff notice a risk; managers receive the report. The individual roles, tools and administrative functions do not each establish a different mechanism here.
-- Keep one concrete example of a safety warning becoming an administrative request. The other examples repeat that mechanism; they are not declared coverage requirements.
-- Translate the cost idiom into a possible cost objection. “Seems too expensive” preserves a judgment rather than declaring the repair unaffordable. This reading depends on context and must not be substituted mechanically in unrelated writing.
-- Explain how losing the safety concern can delay action. Preserve possibility with “may” and “can”; do not turn the passage into a report of a verified event.
+- Make the relationship clear. Patients and staff see the risk, and managers receive the report. Retain roles and details that do distinct work for the piece.
+- Develop one example of a safety warning becoming an equipment request. Preserve every item when the brief requires complete coverage.
+- Name the possible cost objection. “Seems too expensive” keeps the judgment with the reviewer. Check that the context supports this reading.
+- Explain how losing the safety concern can delay action. Keep “may” and “can” where the source describes a possibility.
 
-The revision is 66 words, compared with 156 in the rejected passage. That count describes this example. A different task may require a long list, a precise technical term or deliberate imagery. Preserve those when they serve the user's actual request. Removing listed examples must not silently remove required evidence or change the claim's scope.
+The revision is 66 words and the rejected passage is 156. Judge the new passage by whether the reader can explain what happens to the warning and why that matters. Preserve terminology, imagery, and examples that carry meaning or supply required evidence.
 
 ## Precision can require an added word
 
@@ -39,9 +39,7 @@ The revision is 66 words, compared with 156 in the rejected passage. That count 
 
 > Reporting only how many appointments were offered can hide whether residents could use them.
 
-Here, “only” limits the criticism to reporting appointment counts alone. The user supplied and approved this one-word addition after reviewing the generated passage. It clarifies the intended limitation without replacing the sentence or claiming that appointment counts are useless.
-
-For a local precision correction like this, a small justified edit can make the intended meaning more precise even when it adds a word. This does not make minimum edit size the objective of an authorized structural or expressive improvement. Add a qualifier only when the intended claim supports it; “only” is not a required word or a general replacement rule. Explicit length limits still apply. This correction is an accepted local example, not evidence that future outputs will meet the same standard.
+The author supplied and approved “only,” which limits the criticism to reporting appointment counts alone. Add a qualifier when the intended claim requires it. For local work, keep effective wording around the change and verify any applicable length limit.
 
 ## Learn from a preferred rewrite
 
@@ -59,13 +57,11 @@ The reader found a shortened repair example mentally taxing despite its improved
 
 > Some repairs take longer than others, so a delay alone does not mean the problem is being ignored.
 
-The first two sentences are the reader's wording. The ending was suggested by the assistant after the reader left a blank, then explicitly accepted. These are a local style example and an accepted ending, not acceptance of every earlier revision or a complete author profile.
+The reader supplied the first two sentences and accepted an ending suggested by the assistant. Use each as evidence for the choices in this passage.
 
-Use the comparison to guide the next attempt:
+- Give the reader enough context. The additions “about the status of their” and “the rain is still coming in” make the scene easier to follow.
+- Join related thoughts where the reader benefits from seeing them together. “But in reality” connects the displayed status with what happened. Evaluate that connection before splitting the sentence.
+- Say what the record shows in plain language. “The system shows the job is done” lets the reader see the mismatch with the contractor handoff.
+- Keep limits and emphasis in view. “Alone” restricts the conclusion about delay. Passive voice keeps attention on the problem.
 
-- Keep context that helps the reader follow the situation. The reader added “about the status of their” and “the rain is still coming in.” Extra words can make a sentence easier to understand.
-- Connect related thoughts when the reader does. “But in reality” joins the reported status to what happened. Removing that phrase or splitting the contrast into short sentences needs a particular benefit; neither change is automatically clearer.
-- Express what happens directly. “The system shows the job is done” gives the reader more to work with than an assessment such as “makes the record misleading.” Change troublesome wording as well as the links between sentences; retaining abstract labels while copying the sample's transitions misses the demonstrated preference.
-- Preserve useful qualifications. The accepted ending uses “alone” to avoid treating every delay as evidence that a problem is being ignored. Passive voice keeps attention on the problem here; it is not automatically a defect.
-
-These observations do not require long sentences, the phrase “in reality,” or the same paragraph shape elsewhere. This fictional example also changes “might show” to “shows”; a style example does not justify strengthening an unrelated claim. Preserve the new task's facts, uncertainty and explicit limits. Try the supported preferences on fresh material and use the reader's response to assess the match.
+The fictional rewrite also changes “might show” to “shows.” In a new task, match the certainty to the new evidence. Apply supported preferences in context and use reader feedback to assess the result.
